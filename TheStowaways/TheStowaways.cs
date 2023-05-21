@@ -26,7 +26,7 @@ public class TheStowaways : ModBehaviour
 	{
 		var menuFrameworkAPI = ModHelper.Interaction.GetModApi<IMenuAPI>("_nebula.MenuFramework");
 		var newHorizonsAPI = ModHelper.Interaction.GetModApi<INewHorizons>("xen.NewHorizons");
-		//newHorizonsAPI.GetStarSystemLoadedEvent().AddListener(OnStarSystemLoaded);
+		newHorizonsAPI.GetBodyLoadedEvent().AddListener(BodyLoaded);
 		newHorizonsAPI.LoadConfigs(this);
 		NewHorizonsAPI = newHorizonsAPI;
 
@@ -39,10 +39,9 @@ public class TheStowaways : ModBehaviour
 					break;
 			}
 		};
-		newHorizonsAPI.GetBodyLoadedEvent().AddListener(BodyLoaded);
 		GlobalMessenger.AddListener("EnterNomaiGolemConnection", golemConnectionEntered);
 		GlobalMessenger.AddListener("ExitNomaiGolemConnection", golemConnectionExited);
-
+		GlobalMessenger.AddListener("WakeUp", playerWakeUp);
 	}
 
     private void BodyLoaded(string body)
@@ -58,7 +57,7 @@ public class TheStowaways : ModBehaviour
 		}
 	}
 
-    private void golemConnectionEntered()
+	private void golemConnectionEntered()
     {
 		Write("GOLEM CONNECTION ENTER");
 		IsGolemConnection = true;
@@ -68,6 +67,12 @@ public class TheStowaways : ModBehaviour
 	{
 		Write("GOLEM CONNECTION EXIT");
 		IsGolemConnection = false;
+	}
+
+	private void playerWakeUp()
+	{
+		//Init this sign at player wake up, because otherwise the text is overwritten somewhere else
+		initTimberHearthEnjoySign();
 	}
 
 	private void initSolarSystem()
@@ -92,7 +97,6 @@ public class TheStowaways : ModBehaviour
 		if(chertDialogue != null)
         {
 			var xml = File.ReadAllText(Path.Combine(ModHelper.Manifest.ModFolderPath, "planets\\ExistingPlanets\\dialogue\\Chert SunkenIsland Notes.xml"));
-			TheStowaways.Write(xml);
 			chertDialogue._xmlCharacterDialogueAsset = new UnityEngine.TextAsset(xml);
 			chertDialogue.LateInitialize();
         }
@@ -114,6 +118,17 @@ public class TheStowaways : ModBehaviour
 		{
 			text._showTextOnStart = false;
 			text.HideImmediate();
+		}
+	}
+
+	private void initTimberHearthEnjoySign()
+	{
+		var text = SearchUtilities.Find("TimberHearth_Body/Sector_TH/HearthBoard Enjoy/EnjoyText").GetComponent<UnityEngine.UI.Text>();
+		if (text != null)
+		{
+			text.fontSize = 65;
+			text.horizontalOverflow = UnityEngine.HorizontalWrapMode.Overflow;
+			text.text = "ENJOY YOUR TRAVELS!";
 		}
 	}
 
