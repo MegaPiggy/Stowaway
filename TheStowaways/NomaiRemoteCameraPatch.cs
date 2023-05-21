@@ -5,7 +5,6 @@ namespace TheStowaways
     [HarmonyPatch]
 	public class NomaiRemoteCameraPatch
 	{
-		
 		[HarmonyPrefix]
 		[HarmonyPatch(typeof(NomaiRemoteCamera), nameof(NomaiRemoteCamera.LateUpdate))]
 		public static bool LateUpdate(NomaiRemoteCamera __instance)
