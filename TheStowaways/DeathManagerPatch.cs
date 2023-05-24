@@ -8,13 +8,14 @@ namespace TheStowaways
     {
         [HarmonyPrefix]
         [HarmonyPatch(typeof(DeathManager), nameof(DeathManager.KillPlayer))]
-        public static bool DeathManager_KillPlayer_Prefix()
+        public static bool DeathManager_KillPlayer_Prefix(DeathType deathType)
         {
             if(TheStowaways.Instance.IsGolemConnection)
             {
                 var pl = Locator.GetPlayerController().gameObject.GetComponent<PlayerGolemComponent>();
                 //Don't resurrect if source platform is inside super nova
-                bool resurrect = 
+                bool resurrect =
+                    deathType != DeathType.Meditation &&
                     pl != null && 
                     Locator.GetSunController() != null && 
                     !Locator.GetSunController().IsPointInsideSupernova(pl._platform.transform.position);
