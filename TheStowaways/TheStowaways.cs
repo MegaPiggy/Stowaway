@@ -2,7 +2,6 @@
 using NewHorizons.Utility;
 using OWML.Common;
 using OWML.ModHelper;
-using System;
 using System.IO;
 using System.Reflection;
 using TheStowaways.Components;
@@ -41,7 +40,6 @@ public class TheStowaways : ModBehaviour
 		};
 		GlobalMessenger.AddListener("EnterNomaiGolemConnection", golemConnectionEntered);
 		GlobalMessenger.AddListener("ExitNomaiGolemConnection", golemConnectionExited);
-		GlobalMessenger.AddListener("WakeUp", playerWakeUp);
 	}
 
     private void BodyLoaded(string body)
@@ -55,6 +53,10 @@ public class TheStowaways : ModBehaviour
 		{
 			initBrambleIsland_Late();
 		}
+		if (body == "Timber Hearth")
+        {
+			initTimberHearth_Late();
+		}
 	}
 
 	private void golemConnectionEntered()
@@ -67,12 +69,6 @@ public class TheStowaways : ModBehaviour
 	{
 		Write("GOLEM CONNECTION EXIT");
 		IsGolemConnection = false;
-	}
-
-	private void playerWakeUp()
-	{
-		//Init this sign at player wake up, because otherwise the text is overwritten somewhere else
-		initTimberHearthEnjoySign();
 	}
 
 	private void initSolarSystem()
@@ -121,14 +117,12 @@ public class TheStowaways : ModBehaviour
 		}
 	}
 
-	private void initTimberHearthEnjoySign()
+	private void initTimberHearth_Late()
 	{
-		var text = SearchUtilities.Find("TimberHearth_Body/Sector_TH/HearthBoard Enjoy/EnjoyText").GetComponent<UnityEngine.UI.Text>();
-		if (text != null)
+		var sign = SearchUtilities.Find("TimberHearth_Body/Sector_TH/HearthBoard Enjoy/EnjoyText");
+		if (sign != null)
 		{
-			text.fontSize = 65;
-			text.horizontalOverflow = UnityEngine.HorizontalWrapMode.Overflow;
-			text.text = "ENJOY YOUR TRAVELS!";
+			sign.AddComponent<EnjoySignComponent>();
 		}
 	}
 

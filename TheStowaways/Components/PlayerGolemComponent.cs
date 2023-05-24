@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace TheStowaways.Components
 {
-    public class PlayerGolemComponent : MonoBehaviour
+    internal class PlayerGolemComponent : MonoBehaviour
     {
         public NomaiRemoteCameraPlatform _platform;
         private float _health;

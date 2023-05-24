@@ -13,6 +13,7 @@ namespace TheStowaways
             if (TheStowaways.Instance.IsGolemConnection)
             {
                 __instance._darkMatterDamagePerSecond = 0f;
+                __instance._electricityDamagePerSecond = 0f;
             }
         }
 
@@ -20,7 +21,7 @@ namespace TheStowaways
         [HarmonyPatch(typeof(HazardDetector), nameof(HazardDetector.InHazardType))]
         public static bool HazardDetector_InHazardType_Prefix(ref bool __result, HazardVolume.HazardType type)
         {
-            if(TheStowaways.Instance.IsGolemConnection && type == HazardVolume.HazardType.DARKMATTER)
+            if(TheStowaways.Instance.IsGolemConnection && (type == HazardVolume.HazardType.DARKMATTER || type == HazardVolume.HazardType.ELECTRICITY))
             {
                 __result = false;
                 return false;
