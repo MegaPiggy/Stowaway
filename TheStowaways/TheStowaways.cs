@@ -2,6 +2,8 @@
 using NewHorizons.Utility;
 using OWML.Common;
 using OWML.ModHelper;
+using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using TheStowaways.Components;
@@ -12,6 +14,15 @@ public class TheStowaways : ModBehaviour
 {
 	public static TheStowaways Instance;
 	public static INewHorizons NewHorizonsAPI;
+	private static readonly ISet<string> SpecialStones = new HashSet<string>()
+	{
+		"LoversCoveStone",
+		"DazWorkshopStone",
+		"BrambleIsle_Stone",
+		"TimberHearthMines_Stone",
+		"StatueIsle_Stone",
+		"Cyard_Stone"
+	};
 
 	public bool IsGolemConnection { get; private set; }
 
@@ -53,6 +64,14 @@ public class TheStowaways : ModBehaviour
 		{
 			initBrambleIsland_Late();
 		}
+		if (body == "StatueIsland")
+		{
+			initStatueIsland_Late();
+		}
+		if (body == "QuantumIsland")
+		{
+			initQuantumIsland_Late();
+		}
 		if (body == "Timber Hearth")
         {
 			initTimberHearth_Late();
@@ -76,6 +95,7 @@ public class TheStowaways : ModBehaviour
 		IsGolemConnection = false;
 		initBrambleIsland();
 		initConstructionYard();
+		initShip();
 	}
 
 	private void initBrambleIsland() 
@@ -89,13 +109,28 @@ public class TheStowaways : ModBehaviour
 
 	private void initBrambleIsland_Late()
     {
-		var chertDialogue = SearchUtilities.Find("BrambleIsland_Body/Sector_BrambleIsland/ChertRecording DIALOGUE_TO_BE_REPLACED").GetComponent<CharacterDialogueTree>();
-		if(chertDialogue != null)
+		var brambleIslandBody = SearchUtilities.Find("BrambleIsland_Body");
+		initTractorBeams(brambleIslandBody);
+		
+		var solarPanel = SearchUtilities.Find("BrambleIsland_Body/Sector_BrambleIsland/BrambleIsle Solar Panels");
+		if(solarPanel)
         {
-			var xml = File.ReadAllText(Path.Combine(ModHelper.Manifest.ModFolderPath, "planets\\ExistingPlanets\\dialogue\\Chert SunkenIsland Notes.xml"));
-			chertDialogue._xmlCharacterDialogueAsset = new UnityEngine.TextAsset(xml);
-			chertDialogue.LateInitialize();
+			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollisionComponent>();
+			solarPanelComponent.SetIsland(brambleIslandBody?.GetComponent<IslandController>());
         }
+		
+		var chertDialogue = SearchUtilities.Find("BrambleIsland_Body/Sector_BrambleIsland/ChertRecording DIALOGUE_TO_BE_REPLACED").GetComponent<CharacterDialogueTree>();
+		try
+		{
+			if (chertDialogue != null)
+			{
+				var xml = File.ReadAllText(Path.Combine(ModHelper.Manifest.ModFolderPath, "planets\\ExistingPlanets\\dialogue\\Chert SunkenIsland Notes.xml"));
+				chertDialogue._xmlCharacterDialogueAsset = new UnityEngine.TextAsset(xml);
+				chertDialogue.LateInitialize();
+			}
+		} 
+		catch(NullReferenceException)
+        {} //Ignore this error thrown by LateInitialize
 	}
 
 	private void initConstructionYard()
@@ -126,9 +161,46 @@ public class TheStowaways : ModBehaviour
 		}
 	}
 
+	private void initStatueIsland_Late()
+    {
+		var statueIslandBody = SearchUtilities.Find("StatueIsland_Body");
+		initTractorBeams(statueIslandBody);
+
+		var solarPanel = SearchUtilities.Find("StatueIsland_Body/Sector_StatueIsland/SolarPanel_Structure_rebent_Panels_MeshPart1");
+		if (solarPanel)
+		{
+			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollisionComponent>();
+			solarPanelComponent.SetIsland(statueIslandBody?.GetComponent<IslandController>());
+		}
+	}
+
+	private void initShip()
+	{
+		SearchUtilities.Find("Ship_Body").AddComponent<ShipCollisionComponent>();
+	}
+
+	private void initQuantumIsland_Late()
+	{
+	}
+
+	private void initTractorBeams(UnityEngine.GameObject islandObject)
+    {
+		var islandController = islandObject.GetComponent<IslandController>();
+		if (islandController)
+		{
+			var tractorBeams = islandObject.GetComponentsInChildren<SafetyTractorBeamController>(true);
+			islandController._safetyTractorBeams = tractorBeams;
+			Write($"Initializing {tractorBeams.Length} tractor beams on {islandObject.name}");
+		}
+		else
+		{
+			WriteError($"No island controller found on {islandObject.name}");
+		}
+	}
+
 	internal static bool IsSpecialStone(SharedStone stone)
     {
-		return stone.name == "LoversCoveStone" || stone.name == "DazWorkshopStone";
+		return SpecialStones.Contains(stone.name);
 	}
 
 	public static void Write(string msg) => Instance.ModHelper.Console.WriteLine($"[TheStowaways] : {msg}", MessageType.Info);
