@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using TheStowaways.Components;
+using UnityEngine.PostProcessing;
 
 namespace TheStowaways;
 
@@ -135,6 +136,16 @@ public class TheStowaways : ModBehaviour
 
 	private void initConstructionYard()
     {
+		var constructionYardBody = SearchUtilities.Find("ConstructionYardIsland_Body");
+		initTractorBeams(constructionYardBody);
+
+		var solarPanel = SearchUtilities.Find("ConstructionYardIsland_Body/Sector_ConstructionYard/ConstructYard Solar Panels");
+		if (solarPanel)
+		{
+			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollisionComponent>();
+			solarPanelComponent.SetIsland(constructionYardBody?.GetComponent<IslandController>());
+		}
+
 		var socket = SearchUtilities.Find("ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/LandingIsland/Prefab_NOM_Whiteboard/ArcSocket");
 		if (socket)
 		{
@@ -166,7 +177,7 @@ public class TheStowaways : ModBehaviour
 		var statueIslandBody = SearchUtilities.Find("StatueIsland_Body");
 		initTractorBeams(statueIslandBody);
 
-		var solarPanel = SearchUtilities.Find("StatueIsland_Body/Sector_StatueIsland/SolarPanel_Structure_rebent_Panels_MeshPart1");
+		var solarPanel = SearchUtilities.Find("StatueIsland_Body/Sector_StatueIsland/StatueIsle Solar Panels");
 		if (solarPanel)
 		{
 			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollisionComponent>();
@@ -181,6 +192,19 @@ public class TheStowaways : ModBehaviour
 
 	private void initQuantumIsland_Late()
 	{
+		var probeDisplay = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Nomai Camera/VerticalPivot/Launcher/ProbeScreen (1)/ProbeDisplay");
+		if(probeDisplay != null)
+        {
+			Write("Setting position of Quantum island camera");
+			probeDisplay.transform.localPosition = new UnityEngine.Vector3(0.2623f, 0.3001f, 0.3557f);
+			probeDisplay.transform.localRotation = UnityEngine.Quaternion.Euler(3.332f, 76.1487f, 356.5323f);
+		}
+		var blackAndWhite = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Nomai Camera/VerticalPivot/Launcher/preLaunchCamera")?.GetComponent<PostProcessingBehaviour>();
+		if(blackAndWhite != null)
+        {
+			Write("Removing black and white postprocessing");
+			Destroy(blackAndWhite);
+        }
 	}
 
 	private void initTractorBeams(UnityEngine.GameObject islandObject)
