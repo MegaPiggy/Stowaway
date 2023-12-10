@@ -97,7 +97,9 @@ public class TheStowaways : ModBehaviour
 		initBrambleIsland();
 		initConstructionYard();
 		initShip();
-	}
+		initDensityComponents();
+
+    }
 
 	private void initBrambleIsland() 
 	{
@@ -185,6 +187,43 @@ public class TheStowaways : ModBehaviour
 		}
 	}
 
+	private void initDensityComponents()
+	{
+		var statueIslandBody = SearchUtilities.Find("StatueIsland_Body");
+		if(statueIslandBody)
+		{
+			var comp = statueIslandBody.AddComponent<IslandDensityComponent>();
+			comp.DensityModifierSun = 0.03f;
+			comp.DensityModifierMoon = 0.03f;
+			comp.DensityModifierBoth = 0.4f;
+		}
+		
+        var cyardIslandBody = SearchUtilities.Find("ConstructionYardIsland_Body");
+        if (cyardIslandBody)
+        {
+            var comp = cyardIslandBody.AddComponent<IslandDensityComponent>();
+            comp.DensityModifierSun = 0.03f;
+            comp.DensityModifierMoon = 0.03f;
+            comp.DensityModifierBoth = 0.4f;
+        }
+        var brambleIslandBody = SearchUtilities.Find("BrambleIsland_Body");
+        if (brambleIslandBody)
+        {
+            var comp = brambleIslandBody.AddComponent<IslandDensityComponent>();
+            comp.DensityModifierSun = 0.03f;
+            comp.DensityModifierMoon = 0.03f;
+            comp.DensityModifierBoth = 0.4f;
+        }
+        var gabbroIslandBody = SearchUtilities.Find("GabbroIsland_Body");
+        if (gabbroIslandBody)
+        {
+            var comp = gabbroIslandBody.AddComponent<IslandDensityComponent>();
+            comp.DensityModifierSun = 0.03f;
+            comp.DensityModifierMoon = 0.03f;
+            comp.DensityModifierBoth = 0.4f;
+        }
+    }
+
 	private void initShip()
 	{
 		SearchUtilities.Find("Ship_Body").AddComponent<ShipCollisionComponent>();
@@ -195,14 +234,17 @@ public class TheStowaways : ModBehaviour
 		var probeDisplay = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Nomai Camera/VerticalPivot/Launcher/ProbeScreen (1)/ProbeDisplay");
 		if(probeDisplay != null)
         {
-			Write("Setting position of Quantum island camera");
 			probeDisplay.transform.localPosition = new UnityEngine.Vector3(0.2623f, 0.3001f, 0.3557f);
 			probeDisplay.transform.localRotation = UnityEngine.Quaternion.Euler(3.332f, 76.1487f, 356.5323f);
+		}
+		var camera = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Nomai Camera/VerticalPivot/Launcher/preLaunchCamera")?.GetComponent<OWCamera>();
+		if (camera != null)
+		{
+			camera.fieldOfView = 60f;
 		}
 		var blackAndWhite = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Nomai Camera/VerticalPivot/Launcher/preLaunchCamera")?.GetComponent<PostProcessingBehaviour>();
 		if(blackAndWhite != null)
         {
-			Write("Removing black and white postprocessing");
 			Destroy(blackAndWhite);
         }
 	}
