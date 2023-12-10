@@ -4,7 +4,7 @@ namespace TheStowaways.Components
 {
     internal class EnjoySignComponent : MonoBehaviour
     {
-        void Awake()
+        private void Awake()
         {
             var text = GetComponentInParent<UnityEngine.UI.Text>();
             if (text != null)
@@ -12,10 +12,9 @@ namespace TheStowaways.Components
                 text.fontSize = 65;
                 text.horizontalOverflow = HorizontalWrapMode.Overflow;
             }
-
         }
 
-        void Update()
+        private void Update()
         {
             var text = GetComponentInParent<UnityEngine.UI.Text>();
             if (text != null)

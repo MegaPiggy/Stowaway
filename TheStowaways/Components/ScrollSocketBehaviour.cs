@@ -8,8 +8,8 @@ namespace TheStowaways.Components
         public const string ScrollName = "OPC Schematic Scroll w RearSecret";
         public const string ScrollPath = "ConstructionYardIsland_Body/OPC Schematic Scroll w RearSecret/NomaiWallText/Arc 1 - Child of -1/OPC Schematic REAR_TEXT Wall";
 
-        ScrollSocket _parent;
-        OWItem _scrollObject = null;
+        private ScrollSocket _parent;
+        private OWItem _scrollObject = null;
 
         public void Awake()
         {
@@ -27,7 +27,7 @@ namespace TheStowaways.Components
                 if (!child)
                     return;
                 var text = child.GetComponent<NomaiWallText>();
-                if(text)
+                if (text)
                 {
                     text.Show();
                 }

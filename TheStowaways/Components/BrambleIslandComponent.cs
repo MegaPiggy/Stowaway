@@ -6,17 +6,15 @@ namespace TheStowaways.Components
 {
     internal class BrambleIslandComponent : MonoBehaviour
     {
-        GameObject _brambleIsland;
-        AlignWithDirection _alignBehaviour;
-        IslandController _islandController;
-        PullTornadoComponent _pullTornado;
-
         private const float SecondsUntilFlip = 0f;
+        private GameObject _brambleIsland;
+        private AlignWithDirection _alignBehaviour;
+        private IslandController _islandController;
+        private PullTornadoComponent _pullTornado;
+        private bool _timeThresholdPassed;
+        private bool _flipped;
 
-        bool _timeThresholdPassed;
-        bool _flipped;
-
-        void Start()
+        private void Start()
         {
             _brambleIsland = gameObject;
             _alignBehaviour = _brambleIsland.GetComponent<AlignWithDirection>();
@@ -26,16 +24,16 @@ namespace TheStowaways.Components
 
         private void OnEnterTornado()
         {
-            if(_timeThresholdPassed && !_flipped)
+            if (_timeThresholdPassed && !_flipped)
             {
                 //No longer pull a tornado towards the island
-                if(_pullTornado != null)
+                if (_pullTornado != null)
                     _pullTornado.enabled = false;
                 flip();
             }
         }
 
-        void Update()
+        private void Update()
         {
             if (!_timeThresholdPassed && TimeLoop.GetSecondsElapsed() > SecondsUntilFlip)
             {
@@ -49,7 +47,7 @@ namespace TheStowaways.Components
             }
         }
 
-        void FixedUpdate()
+        private void FixedUpdate()
         {
             if (_flipped)
             {
@@ -70,7 +68,7 @@ namespace TheStowaways.Components
             updateInterpolationRate();
             _flipped = true;
             var barrierRepel = SearchUtilities.Find("BrambleIsland_Body/Sector_BrambleIsland/Volumes_BrambleIsland/BarrierRepelFluidVolume (1)");
-            if(barrierRepel != null)
+            if (barrierRepel != null)
             {
                 TheStowaways.Write("Disabling barrier repel volume");
                 barrierRepel.SetActive(false);
@@ -90,10 +88,10 @@ namespace TheStowaways.Components
             var tornadoes = SearchUtilities.Find("GiantsDeep_Body/Sector_GD/Sector_GDInterior/Tornadoes_GDInterior/MovingTornadoes");
             GameObject closest = null;
             float closestDist = float.MaxValue;
-            foreach(var tornado in tornadoes.GetAllChildren())
+            foreach (var tornado in tornadoes.GetAllChildren())
             {
                 float dist;
-                if((dist = Vector3.Distance(_brambleIsland.transform.position, tornado.transform.position)) < closestDist)
+                if ((dist = Vector3.Distance(_brambleIsland.transform.position, tornado.transform.position)) < closestDist)
                 {
                     closestDist = dist;
                     closest = tornado;

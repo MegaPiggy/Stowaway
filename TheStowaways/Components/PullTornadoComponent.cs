@@ -3,8 +3,8 @@
 namespace TheStowaways.Components
 {
     internal class PullTornadoComponent : MonoBehaviour
-    {        
-        void OnEnable()
+    {
+        private void OnEnable()
         {
             var tc = gameObject.GetComponent<TornadoController>();
             if (tc != null)
@@ -13,7 +13,7 @@ namespace TheStowaways.Components
             }
         }
 
-        void OnDisable()
+        private void OnDisable()
         {
             var tc = gameObject.GetComponent<TornadoController>();
             if (tc != null)

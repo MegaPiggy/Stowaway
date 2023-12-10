@@ -1,5 +1,4 @@
 ﻿using NewHorizons.Utility;
-using System;
 using UnityEngine;
 
 namespace TheStowaways.Components
@@ -19,7 +18,19 @@ namespace TheStowaways.Components
         private Vector3 _storedShapePos;
         private Quaternion _storedShapeRot;
 
-        void Start()
+        private static void setComponentsActive(bool active)
+        {
+            var model = Locator.GetPlayerBody().transform.Find("Traveller_HEA_Player_v2");
+            if (model != null)
+                model.gameObject.SetActive(active);
+
+            var pc = Locator.GetPlayerCamera();
+            var helmet = pc.transform.Find("Helmet");
+            if (helmet != null)
+                helmet.gameObject.SetActive(active);
+        }
+
+        private void Start()
         {
             var pr = Locator.GetPlayerController().gameObject.GetComponent<PlayerResources>();
             if (pr != null)
@@ -36,9 +47,8 @@ namespace TheStowaways.Components
             GlobalMessenger<float>.AddListener("PlayerCameraEnterWater", playerCameraEnterWater);
         }
 
-        void teleportPlayer()
+        private void teleportPlayer()
         {
-            
             _storedPosition = _platform.transform.InverseTransformPoint(Locator.GetPlayerTransform().position);
             _storedRotation = _platform.transform.InverseTransformRotation(Locator.GetPlayerTransform().rotation);
             _storedShapePos = _platform._connectionBounds.transform.localPosition;
@@ -50,7 +60,7 @@ namespace TheStowaways.Components
 
             detachFromShip();
             Teleportation.teleportPlayerTo(platformBody, relativePlatformPosition + _storedPosition, Vector3.zero, Vector3.zero, Vector3.zero, relativePlatformRotation);
-            
+
             Locator.GetPlayerTransform().position = _platform._slavePlatform.transform.TransformPoint(_storedPosition);
             Locator.GetPlayerTransform().rotation = _platform._slavePlatform.transform.rotation * _storedRotation;
 
@@ -58,7 +68,7 @@ namespace TheStowaways.Components
             NotificationManager.SharedInstance.PostNotification(notificationData, false);
         }
 
-        void returnPlayerToStartPosition()
+        private void returnPlayerToStartPosition()
         {
             var platformBody = _platform.GetAttachedOWRigidbody();
             TheStowaways.Write($"Teleporting back to {platformBody}");
@@ -67,7 +77,7 @@ namespace TheStowaways.Components
 
             detachFromShip();
             Teleportation.teleportPlayerTo(platformBody, relativePlatformPosition + _storedPosition, Vector3.zero, Vector3.zero, Vector3.zero, relativePlatformRotation);
-            
+
             Locator.GetPlayerTransform().position = _platform.transform.TransformPoint(_storedPosition);
             Locator.GetPlayerTransform().rotation = _platform.transform.rotation * _storedRotation;
 
@@ -77,16 +87,16 @@ namespace TheStowaways.Components
 
         private void detachFromShip()
         {
-            if(PlayerState.IsInsideShip())
+            if (PlayerState.IsInsideShip())
             {
                 var hc = SearchUtilities.Find("Ship_Body/Module_Cabin/Systems_Cabin/Hatch/HatchControls").GetComponent<HatchController>();
-                if(hc != null)
+                if (hc != null)
                 {
                     hc.OpenHatch();
                     hc._isPlayerInShip = false;
                 }
                 var tb = SearchUtilities.Find("Ship_Body/Module_Cabin/Systems_Cabin/Hatch/TractorBeam").GetComponent<ShipTractorBeamSwitch>();
-                if(tb != null)
+                if (tb != null)
                 {
                     tb.ActivateTractorBeam();
                 }
@@ -94,7 +104,7 @@ namespace TheStowaways.Components
             }
         }
 
-        void LateUpdate()
+        private void LateUpdate()
         {
             if (TheStowaways.Instance.IsGolemConnection)
             {
@@ -103,7 +113,7 @@ namespace TheStowaways.Components
             }
         }
 
-        void OnDestroy()
+        private void OnDestroy()
         {
             var pr = Locator.GetPlayerController().gameObject.GetComponent<PlayerResources>();
             if (pr != null)
@@ -124,18 +134,5 @@ namespace TheStowaways.Components
         {
             _platform.OnLeaveBounds();
         }
-
-        private static void setComponentsActive(bool active)
-        {
-            var model = Locator.GetPlayerBody().transform.Find("Traveller_HEA_Player_v2");
-            if (model != null)
-                model.gameObject.SetActive(active);
-
-            var pc = Locator.GetPlayerCamera();
-            var helmet = pc.transform.Find("Helmet");
-            if (helmet != null)
-                helmet.gameObject.SetActive(active);
-        }
-
     }
 }
