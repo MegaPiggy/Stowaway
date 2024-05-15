@@ -6,5 +6,5 @@
   "uniqueName": "Bruvinsky.TheStowaways",
   "version": "0.1.0",
   "owmlVersion": "2.9.0",
-  "dependencies": [ "xen.NewHorizons", "_nebula.MenuFramework" ]
+  "dependencies": [ "xen.NewHorizons" ]
 }

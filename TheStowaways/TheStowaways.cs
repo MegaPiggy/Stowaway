@@ -35,8 +35,7 @@ public class TheStowaways : ModBehaviour
 
 	private void Start()
 	{
-		var menuFrameworkAPI = ModHelper.Interaction.GetModApi<IMenuAPI>("_nebula.MenuFramework");
-		var newHorizonsAPI = ModHelper.Interaction.GetModApi<INewHorizons>("xen.NewHorizons");
+		var newHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
 		newHorizonsAPI.GetBodyLoadedEvent().AddListener(BodyLoaded);
 		newHorizonsAPI.LoadConfigs(this);
 		NewHorizonsAPI = newHorizonsAPI;
