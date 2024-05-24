@@ -2,7 +2,7 @@
 using System;
 using UnityEngine;
 
-namespace TheStowaways.Components
+namespace Stowaway.Components
 {
     internal class BrambleIslandComponent : MonoBehaviour
     {
@@ -63,14 +63,14 @@ namespace TheStowaways.Components
 
         private void flip()
         {
-            TheStowaways.Write("Flipping Bramble Island");
+            Stowaway.Write("Flipping Bramble Island");
             _alignBehaviour.SetLocalAlignmentAxis(new Vector3(0, 1f, 0f));
             updateInterpolationRate();
             _flipped = true;
             var barrierRepel = SearchUtilities.Find("BrambleIsland_Body/Sector_BrambleIsland/Volumes_BrambleIsland/BarrierRepelFluidVolume (1)");
             if (barrierRepel != null)
             {
-                TheStowaways.Write("Disabling barrier repel volume");
+                Stowaway.Write("Disabling barrier repel volume");
                 barrierRepel.SetActive(false);
             }
             var zeroGGameVolume = SearchUtilities.Find("BrambleIsland_Body/Sector_BrambleIsland/Volumes_BrambleIsland/ZeroGVolume (2)")?.GetComponent<OWTriggerVolume>();
@@ -79,7 +79,7 @@ namespace TheStowaways.Components
                 capsule.center = new Vector3(0, -30, 0);
                 capsule.height += 60f;
                 capsule.radius += 10f;
-                TheStowaways.Write("Increasing size of Zero G Volume");
+                Stowaway.Write("Increasing size of Zero G Volume");
             }
         }
 

@@ -1,6 +1,6 @@
 ﻿using HarmonyLib;
 
-namespace TheStowaways
+namespace Stowaway
 {
     [HarmonyPatch]
 	public class NomaiRemoteCameraPatch
@@ -9,7 +9,7 @@ namespace TheStowaways
 		[HarmonyPatch(typeof(NomaiRemoteCamera), nameof(NomaiRemoteCamera.LateUpdate))]
 		public static bool LateUpdate(NomaiRemoteCamera __instance)
 		{
-			if (!TheStowaways.Instance.IsGolemConnection)
+			if (!Stowaway.Instance.IsGolemConnection)
 				return true;
 
 			if (__instance._owningPlatform && __instance._controllingPlatform)

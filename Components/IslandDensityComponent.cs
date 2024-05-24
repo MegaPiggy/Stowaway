@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace TheStowaways.Components
+namespace Stowaway.Components
 {
     internal class IslandDensityComponent : MonoBehaviour
     {
@@ -59,7 +59,7 @@ namespace TheStowaways.Components
             if (bothFactor > 0.0f != _bothOverhead)
             {
                 _bothOverhead = bothFactor > 0.0f;
-                TheStowaways.Write($"Both sun and moon are {(_bothOverhead ? "" : "no longer")} above {transform.name}");
+                Stowaway.Write($"Both sun and moon are {(_bothOverhead ? "" : "no longer")} above {transform.name}");
             }
             _fluidDetector.GetBuoyancyData().density = density;
         }

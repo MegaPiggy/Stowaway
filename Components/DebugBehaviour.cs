@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace TheStowaways
+namespace Stowaway
 {
     public class DebugBehaviour : MonoBehaviour
     {
@@ -9,7 +9,7 @@ namespace TheStowaways
         {
             if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
-                var mh = TheStowaways.Instance.ModHelper;
+                var mh = Stowaway.Instance.ModHelper;
                 var thBody = Locator.GetAstroObject(AstroObject.Name.TimberHearth);
                 var volMoon = Locator.GetAstroObject(AstroObject.Name.VolcanicMoon);
                 mh.Console.WriteLine($"Player Position {Locator.GetPlayerTransform().position}");

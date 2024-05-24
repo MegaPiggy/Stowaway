@@ -1,8 +1,8 @@
 ﻿using HarmonyLib;
-using TheStowaways.Components;
+using Stowaway.Components;
 using UnityEngine;
 
-namespace TheStowaways
+namespace Stowaway
 {
     [HarmonyPatch]
     public class NomaiRemoteCameraPlatformPatch
@@ -16,12 +16,12 @@ namespace TheStowaways
 		[HarmonyPatch(typeof(NomaiRemoteCameraPlatform), nameof(NomaiRemoteCameraPlatform.SwitchToRemoteCamera))]
 		public static bool NomaiRemoteCameraPlatform_SwitchToRemoteCamera_Prefix(NomaiRemoteCameraPlatform __instance)
 		{
-			if (TheStowaways.IsSpecialStone(__instance._sharedStone))
+			if (Stowaway.IsSpecialStone(__instance._sharedStone))
 			{
 				var comp = Locator.GetPlayerController().gameObject.AddComponent<PlayerGolemComponent>();
 				comp._platform = __instance;
 
-				TheStowaways.Write($"Switch to remote camera");
+				Stowaway.Write($"Switch to remote camera");
 
 				GlobalMessenger.FireEvent("EnterNomaiGolemConnection");
 				return true;
@@ -33,9 +33,9 @@ namespace TheStowaways
 		[HarmonyPatch(typeof(NomaiRemoteCameraPlatform), nameof(NomaiRemoteCameraPlatform.SwitchToPlayerCamera))]
 		public static bool NomaiRemoteCameraPlatform_SwitchToPlayerCamera(NomaiRemoteCameraPlatform __instance)
 		{
-			if (TheStowaways.Instance.IsGolemConnection)
+			if (Stowaway.Instance.IsGolemConnection)
 			{
-				TheStowaways.Write($"Switch to player camera");
+				Stowaway.Write($"Switch to player camera");
 
 				var comp = Locator.GetPlayerController().gameObject.GetComponent<PlayerGolemComponent>();
 				if (comp != null)
@@ -51,7 +51,7 @@ namespace TheStowaways
 		[HarmonyPatch(typeof(NomaiRemoteCameraPlatform), nameof(NomaiRemoteCameraPlatform.Update))]
 		public static void NomaiRemoteCameraPlatform_Update(NomaiRemoteCameraPlatform __instance)
 		{
-			if (__instance._active && TheStowaways.Instance.IsGolemConnection)
+			if (__instance._active && Stowaway.Instance.IsGolemConnection)
 			{
 				if (OWInput.IsPressed(InputLibrary.cancel, 0f) || OWInput.IsPressed(InputLibrary.toolActionPrimary, 0f))
 				{
@@ -64,7 +64,7 @@ namespace TheStowaways
 		[HarmonyPatch(typeof(NomaiRemoteCameraPlatform), nameof(NomaiRemoteCameraPlatform.UpdateHologramTransforms))]
 		public static bool NomaiRemoteCameraPlatform_UpdateHologramTransforms_Prefix(NomaiRemoteCameraPlatform __instance)
 		{
-			if (!TheStowaways.Instance.IsGolemConnection)
+			if (!Stowaway.Instance.IsGolemConnection)
 				return true;
 
 			__instance._hologramGroup.transform.position = __instance._slavePlatform.transform.position;

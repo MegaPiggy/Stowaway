@@ -1,7 +1,7 @@
 ﻿using NewHorizons.Utility;
 using UnityEngine;
 
-namespace TheStowaways.Components
+namespace Stowaway.Components
 {
     internal class PlayerGolemComponent : MonoBehaviour
     {
@@ -71,7 +71,7 @@ namespace TheStowaways.Components
         private void returnPlayerToStartPosition()
         {
             var platformBody = _platform.GetAttachedOWRigidbody();
-            TheStowaways.Write($"Teleporting back to {platformBody}");
+            Stowaway.Write($"Teleporting back to {platformBody}");
             var relativePlatformPosition = platformBody.transform.InverseTransformPoint(_platform.transform.position);
             var relativePlatformRotation = platformBody.transform.InverseTransformRotation(_platform.transform.rotation);
 
@@ -106,7 +106,7 @@ namespace TheStowaways.Components
 
         private void LateUpdate()
         {
-            if (TheStowaways.Instance.IsGolemConnection)
+            if (Stowaway.Instance.IsGolemConnection)
             {
                 Transform playerTransform = Locator.GetPlayerTransform();
                 _platform._connectionBounds.transform.position = playerTransform.position;

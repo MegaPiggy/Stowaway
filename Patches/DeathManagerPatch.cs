@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
-using TheStowaways.Components;
+using Stowaway.Components;
 
-namespace TheStowaways
+namespace Stowaway
 {
     [HarmonyPatch]
     public class DeathManagerPatch
@@ -10,7 +10,7 @@ namespace TheStowaways
         [HarmonyPatch(typeof(DeathManager), nameof(DeathManager.KillPlayer))]
         public static bool DeathManager_KillPlayer_Prefix(DeathType deathType)
         {
-            if(TheStowaways.Instance.IsGolemConnection)
+            if(Stowaway.Instance.IsGolemConnection)
             {
                 var pl = Locator.GetPlayerController().gameObject.GetComponent<PlayerGolemComponent>();
                 //Don't resurrect if source platform is inside super nova

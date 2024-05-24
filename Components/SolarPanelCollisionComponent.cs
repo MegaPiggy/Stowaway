@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace TheStowaways.Components
+namespace Stowaway.Components
 {
     internal class SolarPanelCollisionComponent : MonoBehaviour
     {

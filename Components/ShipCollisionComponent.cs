@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace TheStowaways.Components
+namespace Stowaway.Components
 {
     internal class ShipCollisionComponent : MonoBehaviour
     {

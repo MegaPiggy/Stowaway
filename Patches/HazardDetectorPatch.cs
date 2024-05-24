@@ -1,6 +1,6 @@
 ﻿using HarmonyLib;
 
-namespace TheStowaways
+namespace Stowaway
 {
     [HarmonyPatch]
     public class HazardDetectorPatch
@@ -10,7 +10,7 @@ namespace TheStowaways
         public static void HazardDetector_Update_Postfix(HazardDetector __instance)
         {
             //No ghost matter damage when in golem connection
-            if (TheStowaways.Instance.IsGolemConnection)
+            if (Stowaway.Instance.IsGolemConnection)
             {
                 __instance._darkMatterDamagePerSecond = 0f;
                 __instance._electricityDamagePerSecond = 0f;
@@ -21,7 +21,7 @@ namespace TheStowaways
         [HarmonyPatch(typeof(HazardDetector), nameof(HazardDetector.InHazardType))]
         public static bool HazardDetector_InHazardType_Prefix(ref bool __result, HazardVolume.HazardType type)
         {
-            if(TheStowaways.Instance.IsGolemConnection && (type == HazardVolume.HazardType.DARKMATTER || type == HazardVolume.HazardType.ELECTRICITY))
+            if(Stowaway.Instance.IsGolemConnection && (type == HazardVolume.HazardType.DARKMATTER || type == HazardVolume.HazardType.ELECTRICITY))
             {
                 __result = false;
                 return false;

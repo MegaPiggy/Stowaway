@@ -1,6 +1,6 @@
 ﻿<Project>
   <PropertyGroup>
-    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\Bruvinsky.TheStowaways</OutputPath>
 	<OuterWildsModsDirectory>$(AppData)\OuterWildsModManager\OWML\Mods</OuterWildsModsDirectory>
+    <OutputPath>$(OuterWildsModsDirectory)\atk.Stowaway</OutputPath>
   </PropertyGroup>
 </Project>

@@ -1,7 +1,7 @@
 ﻿using OWML.Utils;
 using UnityEngine;
 
-namespace TheStowaways
+namespace Stowaway
 {
     public static class Teleportation
     {

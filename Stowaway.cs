@@ -6,14 +6,14 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
-using TheStowaways.Components;
+using Stowaway.Components;
 using UnityEngine.PostProcessing;
 
-namespace TheStowaways;
+namespace Stowaway;
 
-public class TheStowaways : ModBehaviour
+public class Stowaway : ModBehaviour
 {
-	public static TheStowaways Instance;
+	public static Stowaway Instance;
 	public static INewHorizons NewHorizonsAPI;
 	private static readonly ISet<string> SpecialStones = new HashSet<string>()
 	{
@@ -268,7 +268,7 @@ public class TheStowaways : ModBehaviour
 		return SpecialStones.Contains(stone.name);
 	}
 
-	public static void Write(string msg) => Instance.ModHelper.Console.WriteLine($"[TheStowaways] : {msg}", MessageType.Info);
-	public static void WriteError(string msg) => Instance.ModHelper.Console.WriteLine($"[TheStowaways] : {msg}", MessageType.Error);
+	public static void Write(string msg) => Instance.ModHelper.Console.WriteLine($"[Stowaway] : {msg}", MessageType.Info);
+	public static void WriteError(string msg) => Instance.ModHelper.Console.WriteLine($"[Stowaway] : {msg}", MessageType.Error);
 }
 

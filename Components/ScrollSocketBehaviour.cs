@@ -1,7 +1,7 @@
 ﻿using NewHorizons.Utility;
 using UnityEngine;
 
-namespace TheStowaways.Components
+namespace Stowaway.Components
 {
     internal class ScrollSocketBehaviour : MonoBehaviour
     {
