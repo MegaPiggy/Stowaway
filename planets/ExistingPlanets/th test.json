@@ -13,11 +13,10 @@
 				"rename":"Cyard black hole",
 				"type": "blackHole",
 				"uniqueID": "TH SHORTCUT 1",
-				"pairedSingularity": "DSS WH",
+				"pairedSingularity": "CYARD WH",
 				"hasWarpEffects": false,
 				"horizonRadius": 1,
-				"position":{"x":32.8386,"y": -42.1099,"z": 183.2469},
-				"rotation": {"x":10.8702,"y": 277.6082,"z": 257.1082}
+				"position":{"x":32.8386,"y": -42.1099,"z": 183.2469}
 		},
 		{
 			"rename":"StatIsle black hole",
@@ -26,13 +25,30 @@
 			"pairedSingularity": "STAT WH",
 			"hasWarpEffects": false,
 			"horizonRadius": 1,
-			"position":{"x":26.6179,"y": -39.4544,"z": 186.1813},
-			"rotation": {"x": 61.0862,"y": 252.8367,"z": 242.8503}
-	}
+			"position":{"x":26.6179,"y": -39.4544,"z": 186.1813}
+	},
+	{
+		"rename":"GabIsle black hole",
+		"type": "blackHole",
+		"uniqueID": "TH SHORTCUT 3",
+		"pairedSingularity": "GAB WH",
+		"hasWarpEffects": false,
+		"horizonRadius": 1,
+		"position":{"x":21.3915,"y": -38.0093,"z": 185.8227}	
+	},
+	{
+	"rename":"BrambleIsle black hole",
+	"type": "blackHole",
+	"uniqueID": "TH SHORTCUT 4",
+	"pairedSingularity": "BRAM WH",
+	"hasWarpEffects": false,
+	"horizonRadius": 1,
+	"position":{"x":27.4433,"y": -48.2061,"z": 182.6343}
+		}
 		],
 		"details": [
 		
-		
+			
 
 			{
 				"rename": "test protohearth",

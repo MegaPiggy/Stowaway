@@ -21,7 +21,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		DAZ: Ah, could it be.. Cassava, is the sun orbiting over Lovers' Cove right now?
+		DAZ: Ah, could it be.. Cassava, is the sun orbiting over <![CDATA[<color=orange>Lovers' Cove</color>]]> right now?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		CASSAVA: I see.. Well, it's not a large issue, thankfully! We'll simply need to keep it in mind, whenever we are voyaging on Giant's Deep.
+		CASSAVA: I see.. Well, it's not a large issue, thankfully! We'll simply need to keep those tides in mind whenever we voyage to Giant's Deep.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		DAZ: It <![CDATA[<i>is</i>]]> an issue! That means it'll be inconvenient to use voyager stones to work here on Giant's Deep remotely.. <![CDATA[<i>Curses!</i>]]>
+		DAZ: It <![CDATA[<i>is</i>]]> an issue! That means it'll be inconvenient to use voyager stones to work here on Giant's Deep remotely.. My plan is in shambles!
 		</Text>
 	</TextBlock>
 

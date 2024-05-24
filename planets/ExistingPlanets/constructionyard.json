@@ -17,7 +17,7 @@
 		"singularities": [
 			{
 				"type": "whiteHole",
-				"uniqueID": "DSS WH",
+				"uniqueID": "CYARD WH",
 				"pairedSingularity": "TH SHORTCUT 1",
 				"horizonRadius": 0.05,
 				"position": {"x":-2.2951,"y": 10.9718,"z": 65.8862},

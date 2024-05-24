@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		THATCH: Friends, the waves do not seem to wash high enough to reach this higher part of the island! Here, we should be able to study these frozen specimens in peace.
+		THATCH: The waves do not seem to wash high enough to reach this higher part of the island. I believe we should be able to study the frozen specimens here in peace, my friends!
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: This species appears to normally dwell deep underwater, near the planet's core. We have once observed live species on the ocean's surface on our first expedition to this planet, but have never again observed this phenomenon.
+		PLUME: This species appears to normally dwell deep underwater, near the planet's core. We once observed live species on the ocean's surface during our first expedition to this planet, but have never again observed this phenomenon.
 		</Text>
 	</TextBlock>
 	
@@ -58,7 +58,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		MELORAE: What is happening? Why has the sky gone dark? What is..
+		MELORAE: ..What is happening? Why has the sky gone dark? What is..
 		</Text>
 	</TextBlock>
 

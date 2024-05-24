@@ -16,7 +16,7 @@
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>No suitable warp cores found in Black Hole Forge (likely expended during crafting of advanced warp core..) Seeking alternatives..</Text>
+		<Text>No suitable warp cores found in <![CDATA[<color=orange>Black Hole Forge</color>]]> (likely expended during crafting of advanced warp core..) Seeking alternatives..</Text>
 		</TextBlock>
 
 		<TextBlock>
@@ -31,7 +31,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		Structure: Gravity crystals to be arranged in compact inward lattice, all surrounding and angled towards white hole warp core, with remaining external crystals used to stabilize flight trajectory.</Text>
+		Structure: Gravity crystals to be arranged in compact inward lattice, all surrounding and angled towards white hole warp core. Remaining external crystals to be used to stabilize flight trajectory.</Text>
 			</TextBlock>
 
 

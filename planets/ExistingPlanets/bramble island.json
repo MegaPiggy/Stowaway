@@ -8,11 +8,24 @@
 	],
 	
 	"Props": {
+		"singularities": [
+			{
+				"type": "whiteHole",
+				"uniqueID": "BRAM WH",
+				"pairedSingularity": "TH SHORTCUT 4",
+				"horizonRadius": 0.05,
+				"position": {"x":58.7309,"y": 10.7936,"z": -7.4007},
+				"isRelativeToParent": true
+			}
+		],
+
+
+
 		"dialogue": [
 			{
 				"xmlFile": "planets/ExistingPlanets/dialogue/Gabbro campfire recording.xml",
+				"pathToAnimController": "Sector_BrambleIsland/hammock/Gabbro_Hammock02:ROOT/Gabbro_Hammock02:Hammock/Gabbro recording",
 				"isRelativeToParent": true,
-				"pathToAnimController": "Sector_BrambleIsland/hammock/Gabbro_Hammock02:Controller_Squash/Gabbro recording",
 				"radius": 0.5,
 				"range":3
 			}
@@ -27,7 +40,7 @@
 			},
 			{
 				"rename":"Gabbro recording",
-				"path":"BrambleIsland_Body/Sector_BrambleIsland/Interactables_BrambleIsland/Prefab_HEA_Recorder",
+				"path":"Moon_Body/Sector_THM/Interactables_THM/Interactibles_SignalDish/Prefab_HEA_Recorder",
 				"parentPath": "Sector_BrambleIsland/hammock/Gabbro_Hammock02:Controller_Squash",
 				"position": {"x": 0, "y": -0.0291, "z": 0},
 				"rotation": {"x": 4.669, "y": 40.4547, "z": 0},

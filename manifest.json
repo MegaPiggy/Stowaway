@@ -2,8 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
   "filename": "Stowaway.dll",
   "author": "atk",
-  "name": "Stowaway",
-  "uniqueName": "atk.Stowaway",
+  "name": "Shared Stowaway",
+  "uniqueName": "atk.bleh Stowaway",
   "version": "0.1.0",
   "owmlVersion": "2.9.0",
   "dependencies": [ "xen.NewHorizons"]

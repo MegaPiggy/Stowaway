@@ -2,7 +2,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>A gentle reminder to store your project scrolls properly to protect them from being swept away into the oceans! Let us maintain the safety of the native species and their homes!</Text>
+		<Text>A gentle reminder to store your project scrolls properly to protect them from being swept away into the oceans. Let us maintain the safety of the native species and their homes!</Text>
 
 <ShipLogConditions>
 				<RevealFact>

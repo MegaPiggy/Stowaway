@@ -421,7 +421,7 @@
 
 			{
 				"rename":"LoomingCity DirectionBoard",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_Whiteboard_Shared",
+				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Interactables_OrbitalProbeCannon/Interactables_VisibleOrbitalProbeCannon/ModuleSign_3/Prefab_NOM_Tablet",
 				"position": {"x":31.1739,"y": 4.0991,"z": -34.7494},
 				"rotation": {"x":4.168,"y": 46.6802 ,"z": 283.6046},
 				"isRelativeToParent": true

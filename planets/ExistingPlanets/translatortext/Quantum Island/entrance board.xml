@@ -14,19 +14,19 @@
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>However, due to extenuating circumstances, the Nomai on Giant's Deep eventually decided to abandon this stormless island, moving to and constructing new settlements on the other islands of Giant's Deep.</Text>
+		<Text>However, due to extenuating circumstances, the Nomai on Giant's Deep eventually decided to abandon this stormless island, constructing and moving to settlements on the other islands of Giant's Deep.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<LocationA />
-		<ParentID>2</ParentID>
-		<Text>This tower would later be repurposed to teach knowledge about the quantum shards, but we welcome any willing to learn more about our clan's history and trials. You now stand beneath the <![CDATA[<color=orange>Tower of Quantum Trials.</color>]]></Text>
+		<ParentID>3</ParentID>
+		<Text>This tower would later be repurposed to teach knowledge about the quantum shards. You now stand beneath the <![CDATA[<color=orange>Tower of Quantum Trials.</color>]]></Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<LocationA />
-		<ParentID>2</ParentID>
-		<Text>For those inquisitive about these circumstances, you may learn more about the settlers' history through scrolls we have left for guests to uncover inside the tower.</Text>
+		<ParentID>3</ParentID>
+		<Text>For those inquisitive about these circumstances, we welcome you to learn more about the settlers' history through scrolls we have left for guests to uncover within the tower.</Text>
 	</TextBlock>
 
 
