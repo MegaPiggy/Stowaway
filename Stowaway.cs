@@ -60,10 +60,6 @@ public class Stowaway : ModBehaviour
 			//Only init the construction yard after New Horizon has initialized it
 			initConstructionYard_Late();
         }
-		if (body == "BrambleIsland")
-		{
-			initBrambleIsland_Late();
-		}
 		if (body == "StatueIsland")
 		{
 			initStatueIsland_Late();
@@ -71,10 +67,6 @@ public class Stowaway : ModBehaviour
 		if (body == "QuantumIsland")
 		{
 			initQuantumIsland_Late();
-		}
-		if (body == "Timber Hearth")
-        {
-			initTimberHearth_Late();
 		}
 	}
 
@@ -93,50 +85,10 @@ public class Stowaway : ModBehaviour
 	private void initSolarSystem()
     {
 		IsGolemConnection = false;
-		initBrambleIsland();
 		initConstructionYard();
 		initShip();
 		initDensityComponents();
 
-    }
-
-	private void initBrambleIsland() 
-	{
-		var body = SearchUtilities.Find("BrambleIsland_Body");
-		if (body != null)
-        {
-            //Scrapped bramble island flip. it used to be the mod's big mechanic but it just didn't fit & contradicted gm rules.
-            //body.gameObject.AddComponent<BrambleIslandFlipper>();
-        }
-    }
-
-	private void initBrambleIsland_Late()
-    {
-		var brambleIslandBody = SearchUtilities.Find("BrambleIsland_Body");
-		initTractorBeams(brambleIslandBody);
-		
-		var solarPanel = SearchUtilities.Find("BrambleIsland_Body/Sector_BrambleIsland/BrambleIsle Solar Panels");
-		if(solarPanel)
-        {
-			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollision>();
-			solarPanelComponent.SetIsland(brambleIslandBody?.GetComponent<IslandController>());
-        }
-
-        //Scrapped code to change a hearthian recorder on bramble island (this was from before hearthian recorder animations were added)
-        /*
-		var chertDialogue = SearchUtilities.Find("BrambleIsland_Body/Sector_BrambleIsland/ChertRecording DIALOGUE_TO_BE_REPLACED").GetComponent<CharacterDialogueTree>();
-		try
-		{
-			if (chertDialogue != null)
-			{
-				var xml = File.ReadAllText(Path.Combine(ModHelper.Manifest.ModFolderPath, "planets\\ExistingPlanets\\dialogue\\Chert SunkenIsland Notes.xml"));
-				chertDialogue._xmlCharacterDialogueAsset = new UnityEngine.TextAsset(xml);
-				chertDialogue.LateInitialize();
-			}
-		} 
-		catch(NullReferenceException)
-        {} //Ignore this error thrown by LateInitialize
-		*/
     }
 
     private void initConstructionYard()
@@ -166,17 +118,6 @@ public class Stowaway : ModBehaviour
 			text._showTextOnStart = false;
             text.HideImmediate();
         }
-    }
-    private void initTimberHearth_Late()
-    {
-        // Scrapped code to change the size of a text on TH(it used to be a bulletin board that would point u to the mod’s intro)
-        /*
-		var sign = SearchUtilities.Find("TimberHearth_Body/Sector_TH/HearthBoard Enjoy/EnjoyText");
-		if (sign != null)
-		{
-			sign.AddComponent<EnjoySign>();
-		}
-		*/
     }
 
     private void initStatueIsland_Late()
