@@ -24,7 +24,7 @@
 		"dialogue": [
 			{
 				"xmlFile": "planets/ExistingPlanets/dialogue/Gabbro campfire recording.xml",
-				"pathToAnimController": "Sector_BrambleIsland/hammock/Gabbro_Hammock02:ROOT/Gabbro_Hammock02:Hammock/Gabbro recording",
+				"pathToAnimController": "Sector_BrambleIsland/hammock/Gabbro_Hammock02:Controller_Squash/Gabbro recording",
 				"isRelativeToParent": true,
 				"radius": 0.5,
 				"range":3
