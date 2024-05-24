@@ -1,0 +1,76 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>PRIVET: To all Nomai who journey here for the quantum pilgrimage, record the time you took to complete this trial on this scroll for posterity! I shall be humble: my time was a patient 4 minutes and 39 seconds!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>CLARY: I completed this quantum trial in 1 minute and 17 seconds - but I had the advantage of knowing the lesson it taught ahead of time. Anyone who beats my record is welcome to tell me!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>POKE: Hah! 1 minute 12 seconds, Clary! I can't wait to see the look on her face when I tell her...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>PYE: 22 seconds!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>PYE: Well, full disclosure: any Nomai aware of the <![CDATA[<color=orange>rule of quantum entanglement</color>]]> has a rather unfair advantage in this competition. </Text>
+		</TextBlock>
+		<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>PYE: I feel guilty compromising the integrity of this score.. so I'll leave the secret for future explorers.</Text>
+		</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>PYE: You can <![CDATA[<color=orange>turn off the lights</color>]]> inside the tower using the <![CDATA[<color=orange>control interface at the top of the tower.</color>]]></Text>
+		</TextBlock>
+		<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>PYE: Just remember: the tractor beams meant to catch your fall entering each chamber will also become deactivated. Be cautious and curious on your journey!</Text>
+		</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>CJelly R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>FlipIsland R3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+
+				<RevealFact>
+			<FactID>LC_G R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>SF Jelly R4</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SF Jelly R5</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+
+</NomaiObject>

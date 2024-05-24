@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>SIGN</NameField>
+
+<DialogueNode>
+    <Name>Tektite_Help</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>HELP WANTED! If anyone else is interested in finally getting into that big, mysterious <![CDATA[<color=orange>locked Nomai door</color>]]> inside the large geyser mountain, grab a pickaxe and come help me bust that door down.</Page>
+      <Page>Who cares about "preserving Nomai history" when all the juicy history is locked behind this big door?! Is <![CDATA[<i>a door</i>]]> some important part of history too?</Page>
+      <Page>And don't come telling me about the "curse" or whatever else Rutile made up. That door's just broken is what it is. It's high time we learn what's inside, after gazing and wondering what's inside for so long!</Page>
+      <Page>Throw me some dirt if you wanna help solve this mystery! --Tektite</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

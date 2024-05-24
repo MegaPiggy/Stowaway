@@ -1,0 +1,66 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>SPIRE: Who dropped the <![CDATA[<color=orange>scroll of forbidden knowledge</color>]]> into the pool?! I was told the Nomai who came before had left sacred knowledge that would allow us to <![CDATA[<color=orange>breeze through the trial in record time</color>]]> on that scroll!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>CONOY: I told you it was wise to study regardless of that rumor.. Now, your saving grace is fiercely guarded by the lifeform's electrifying tentacles.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>CONOY: Shall I attempt the trial first, then? I would prefer not to wait my turn after you, when I know you haven't studied!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>SPIRE: You'll have to wait for me afterwards regardless, Conoy: we came on the same shuttle! Don't you dare leave me stranded here!</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>SPIRE: I bet it was Bells! She must have heard there was a scroll with <![CDATA[<color=orange>forbidden knowledge that made the trial too easy,</color>]]> and cast it into the bottom of the pool to hide it away...</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>CONOY: Or perhaps someone simply dropped it into the pool by accident. Regardless, <![CDATA[<color=orange>until the tentacled lifeform rises from its cozy roost</color>]]> above that scroll, it won't be possible to retrieve it.</Text>
+	</TextBlock>
+	
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>CJelly R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>FlipIsland R3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+
+				<RevealFact>
+			<FactID>LC_G R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>SF Jelly R4</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SF Jelly R5</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+
+</NomaiObject>

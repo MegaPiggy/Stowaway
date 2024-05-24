@@ -1,0 +1,38 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>TOWER_TWIN</ID>
+
+<Entry>
+        <ID>GD_GATED_WARPTOWER</ID>
+        <Name>Giant's Deep Warp Tower</Name>
+
+        <Curiosity>TimeLoop</Curiosity>
+
+        <IgnoreMoreToExplore/>
+      
+          <RumorFact>
+            <ID>Tower R1</ID>
+            <SourceID>STATUEISLE_CLIFF</SourceID>
+              <RumorName>Giant's Deep Warp Tower</RumorName>
+              <RumorNamePriority>1</RumorNamePriority>
+             <Text>Two Nomai named Pye and Idaea attempted to warp into the Deep Storm Station through a warp tower on Ash Twin, but warped to Statue Island instead.</Text> 
+        </RumorFact>
+          <RumorFact>
+            <ID>Tower R2</ID> 
+            <SourceID>TT_WARP_TOWERS</SourceID>
+            <Text>Unable to reach their destination, Pye and Idaea decided to use the return warp to travel back to the warp tower on Ash Twin and await assistance.</Text> 
+         </RumorFact>
+        <RumorFact>
+            <ID>Tower R3</ID> 
+            <RumorName>Funnel Warp Tower</RumorName>
+            <Text>A warp tower on Ash Twin in the shape of a funnel. The entrance is blocked off by a patch of ghost matter.</Text> 
+        </RumorFact>
+        <ExploreFact>
+            <ID>Tower EX2</ID> 
+            <Text>Two Nomai named Pye and Idaea narrowly avoided an argument about their views on the Sun Station while waiting for sand to recede from the warp tower. Idaea described a safety test which they hoped would give them the confidence to follow in their ambitions.</Text> 
+        </ExploreFact>
+           <ExploreFact>
+            <ID>Tower EX3</ID> 
+            <Text>A Nomai named Poke arrived on Ash Twin to assist Idaea and Poke. She chided them for failing to read Cassava's instructions to reach the Deep Storm Station.</Text> 
+      </ExploreFact>
+ </Entry>
+</AstroObjectEntry>

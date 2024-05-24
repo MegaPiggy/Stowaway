@@ -1,0 +1,58 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>AVENS: I see Cassava is resting in your workshop overnight again, Daz. Is the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> really that cozy?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>DAZ: What are the two of you doing at Lovers' Cove at this hour? Cassava came to urge me to rest, but seems to have fallen asleep while waiting for me, and I.. can't bear to wake him now.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>MALLOW: With each passing day, I feel more offended the two of you accuse Avens and I of being 'gelatinous' instead of the other way around. I imagine you'll be attached at the pelvic joint to Cassava once the new <![CDATA[<color=orange>voyager stones</color>]]> are finished!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>DAZ: Hah, like the two of you aren't attached likewise! Are the two of you still leaving <![CDATA[<color=orange>"secret" conversations</color>]]> to greet me every time I visit the <![CDATA[<color=orange>Orbital Probe Cannon?</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>MALLOW: I.. How did you know..? <![CDATA[<i>Wait.</i>]]> Has that been visible to all visitors to the Orbital Probe Cannon <![CDATA[<i>this whole time?!</i>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>DAZ: Oh, to be so gooey you can forget how <![CDATA[<color=orange>airlocks</color>]]> are designed, my dear brother-by-proxy.</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>AVENS: Mallow, help me hide this projection stone. Daz, as your brother, I urge you to take your rest soon! I will be visiting <![CDATA[<color=orange>your workshop on Statue Island</color>]]> to seek the corresponding projection stone of this conversation to bury it shortly.</Text>
+			</TextBlock>
+
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>Workshop R3</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>OPC R1</FactID>
+			<Condition>4,6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+
+</NomaiObject>

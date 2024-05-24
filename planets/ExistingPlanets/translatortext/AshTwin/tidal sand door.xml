@@ -1,0 +1,84 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		COLEUS: I have been studying what causes the warp towers' rotating doors to open and close intermittently on their own, even in the absence of input from any Nomai.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		COLEUS: After closer study, I can confidently conclude that the phenomenon is not caused by any structural defect in the doors. Instead, I suspect the cause to be the sunless tide.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		COLEUS: As the Hourglass Twins orbit around each other, they become aligned along a straight line with the sun at regular intervals, with one twin closer towards the sun.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		COLEUS: During this alignment, the twin farther from the sun feels not only the sun's great gravity - but also gravity from the twin closer to the sun, pulling it in the same direction.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		COLEUS: These combined gravitational forces from the sun and another celestial body cause an extraordinarily strong pull of gravity towards the body closer to the sun.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		COLEUS: This effect is most clearly visualized through sand being funneled towards the other twin - but the force also affects the vision orbs, pulling them upwards and causing them to activate every time Ember Twin orbits overhead!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		YARROW: Goodness! My gratitude for all your hard work, Coleus. I shall pass this scroll to our friends at the <![CDATA[<color=orange>Sun Station</color>]]> to share your findings with them!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		COLEUS: I was reminded of the phenomenon while studying this warp tower, since the alignment with a second body always causes a solar eclipse!
+		</Text>
+	</TextBlock>
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>SS EX1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SS EX2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>CONV R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

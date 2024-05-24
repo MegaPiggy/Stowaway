@@ -1,0 +1,19 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>SIGN</NameField>
+
+<DialogueNode>
+    <Name>Hal note</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>HAL'S PERSONAL NOMAI WHITEBOARD</Page>
+      <Page>This is a delicate piece of Nomai tech brought back from space we are using for our translation efforts of the ancient Nomai language!</Page>
+       <Page>In other words, it is VERY. IMPORTANT.</Page>
+       <Page>Please do NOT scribble or doodle on this wall! Thanks!</Page>
+    </Dialogue>
+    <RevealFacts>
+			<FactID>Nomai Gate 1</FactID>
+		</RevealFacts>
+  </DialogueNode>
+
+</DialogueTree>

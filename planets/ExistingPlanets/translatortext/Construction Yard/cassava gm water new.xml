@@ -1,0 +1,41 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>CASSAVA: Of note: water appears to temporarily neutralize the deadly matter as the tide washes up onto this island.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>CASSAVA: An update: disturbingly, the deadly matter appears able to penetrate any surface.. The only exception to this property appears to be water, which completely neutralizes its advance.</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>CASSAVA: If this hypothesis is true... Is that how I alone was able to survive whatever happened?</Text>
+	</TextBlock>
+
+	<TextBlock>	
+	<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>CASSAVA: ..I must focus on my research. There is another property of this exotic deadly matter I have noticed that I must investigate further on <![CDATA[<color=lightblue>Timber Hearth.</color>]]></Text>
+	</TextBlock>
+
+
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>GM_R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>GM_EX1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

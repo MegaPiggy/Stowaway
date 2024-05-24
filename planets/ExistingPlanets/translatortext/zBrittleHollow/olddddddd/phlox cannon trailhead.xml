@@ -1,0 +1,44 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>OH YEAH there was a puzzle(?) at the gravity cannon i really liked - but the plot thread was nonsensical. Plume is on the verge of death and expositions about the efforts to find escape pod 3's survivors, then i threw in protohearthians in the ice which also had a bramble seed to TH and (inhales) it was mostly just me trying to think of something for DB content. wasn't happy with it, chopped.</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		SPIRE: Phlox, I am deeply sorry to bring you this news.. But the expedition team travelling to Dark Bramble today has met with trouble. We hear your father is in urgent condition.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		SPIRE: Should you wish to follow the team preparing to send the shuttle to Dark Bramble, please make your way to Brittle Hollow's Gravity Cannon with haste.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		SPIRE: If you are unable to reach the shuttle in time, I ask that you remain at the cannon to be ready to recall the shuttle, and monitor any incoming messages from the expedition team through the cannon's projection board.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		SPIRE: A <![CDATA[<color=orange>projection stone to Dark Bramble</color>]]> can be found in lowest dwelling by the Gravity Cannon, in the building adjacent to the cannon's control interface. (The projection board can be found a floor above.)
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		PHLOX: My gratitude for delivering this news, Spire. I.. I will make my way to the Gravity Cannon shortly. Please keep the shuttle warm for me.
+		</Text>
+	</TextBlock>
+	
+</NomaiObject>

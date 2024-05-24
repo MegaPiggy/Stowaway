@@ -1,0 +1,22 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+
+  <NameField>RECORDING</NameField>
+
+  <DialogueNode>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Chert’s Research Notes — property of Chert!</Page>
+      <Page>This large chunk of ice from <![CDATA[<color=lightblue>Dark Bramble</color>]]> is by far the largest sample I have seen; so large it even blends in as one of the planet's islands! Distance from the sun and landing on oceans rather than solid land must have kept it mostly intact.</Page>
+      <Page>But phew.. I need a moment to recover from that shock. I believe this island just <![CDATA[<i>flipped upside-down</i>]]> after being flung into orbit by one of the cyclones!</Page>
+      <Page>That was terrifying to learn while collecting samples on the old surface of the island.. I thank the stars I didn't venture far from my ship.</Page>
+      <Page>Hm... I'd posit that being composed of ice rather than rock, the island's lighter mass must cause it to be flipped by the combined force of cyclones flinging it into the air and gravity from time to time.</Page>
+      <Page>The Nomai clearly inhabited this island in their time too.. Ah, I'd expect no less of them. They seem to be thrill seekers in their own way! But I wonder how they were able to navigate all this ghost matter on the island in their time?</Page>
+      <Page>Hm. I can only imagine what discoveries we might find here, once the translator tool is finally finished!</Page>
+    </Dialogue>
+   <RevealFacts>
+			<FactID>Nomai Gate 1</FactID>
+		</RevealFacts>
+  </DialogueNode>
+  
+</DialogueTree>

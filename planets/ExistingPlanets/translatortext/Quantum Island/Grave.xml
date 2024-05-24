@@ -1,0 +1,21 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		Suppose we had never heard the Eye's signal.
+		We 
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

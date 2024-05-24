@@ -1,0 +1,52 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<![CDATA[<i>solely</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		MELORAE: Coleus, Annona tells me the <![CDATA[<color=orange>Sunless City</color>]]> has made an intriguing discovery about <![CDATA[<color=orange>the origins of the Fossil Fish Cave's horror!</color>]]> I cannot wait for our next trip home to learn more about this discovery!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		COLEUS: Plume, have you brought young Phlox to visit the <![CDATA[<color=orange>Sunless City</color>]]> yet? We should all visit Ember Twin to see this exciting discovery, and to show Phlox our wonderful city!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		MELORAE: I agree! The discovery was found in <![CDATA[<color=orange>a grotto at the bottom of the Stepping Stone District</color>]]> by children playing in the cave; I'm sure they would love a new friend to play with!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		PLUME: I'm sure he would love to, but.. He is not very fond of Ember Twin's sand, nor the possibility of being trapped underground. (I found him hiding in the shuttle waiting for me to return, when we last visited Ember Twin together..)
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		COLEUS: We can visit Ember Twin <![CDATA[<color=orange>at the very start of the sand transfer!</color>]]> If we hurry, we'll have as much time as possible to study that grotto, and Phlox will have more time to play without fear of the sand!
+		</Text>
+	</TextBlock>
+	
+
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_C EX2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

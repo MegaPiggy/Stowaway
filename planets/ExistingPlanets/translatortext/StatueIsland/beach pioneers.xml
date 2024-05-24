@@ -1,0 +1,81 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		COLEUS: The shuttle has landed safely.. Friends, I am happy to announce the first joint survey expedition of our reunited clan is officially underway!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		THATCH: I.. I can't believe it! I feel.. overcome by gratitude and excitement.. I never imagined after the crash we would one day explore a new planet together again, my friends.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		MELORAE: Come now, my dear nephew.. We have wept enough during our reunion, and every day since! Now is the time to bask in the joy of exploring a terrifying new planet!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		PLUME: I only wish my brother could be here with us too..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		PLUME: Come, my friends. We should explore this island for shelter from the endless rain, before those cyclones head our way.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		PLUME: Remember to use the new camera functions on your masks to document our surroundings, so we may share photos of this planet with our friends when we return home to Brittle Hollow and Ember Twin.
+		</Text>
+	</TextBlock>
+			<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		THATCH: Friends, this island appears to have a wonderful, cavernous interior. Until we can find more ideal shelter, I believe we should move our supplies from this camp into there!
+		</Text>
+			</TextBlock>
+				
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Pioneer R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Pioneer EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Pioneer EX2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+
+		<RevealFact>
+			<FactID>Pioneer_I R1</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

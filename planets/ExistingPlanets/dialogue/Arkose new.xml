@@ -1,0 +1,192 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Arkose</NameField>
+	
+	<DialogueNode>
+		<Name>Arkose1</Name>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Hey, Arkose, is there actually a reason you keep chucking rocks into the ghost matter?</Text>
+				<DialogueTarget>ArkoseNew1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Arkose_Revisit</Name>
+		<EntryCondition>Shutup_Arkose</EntryCondition>
+		<Dialogue>
+			<Page>Hey astronaut, what's up?</Page>
+		</Dialogue>
+		 <DialogueOptionsList>
+			<DialogueOption>
+				<Text>Hey, Arkose. Is there actually a reason you keep chucking rocks into the ghost matter?</Text>
+				<DialogueTarget>ArkoseNew1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I learnt something cool about ghost matter, Arkose!</Text>
+				<DialogueTarget>ArkoseNewLIST</DialogueTarget>
+			</DialogueOption>
+		 </DialogueOptionsList>
+	</DialogueNode>
+
+
+
+	<DialogueNode>
+		<Name>ArkoseNew1</Name>
+		<Dialogue>
+			<Page>Huh?.. <![CDATA[<Pause>]]>(pant)<![CDATA[<Pause>]]> Yeah, duh!</Page>
+			<Page>Oof, my arm’s tired from throwing...</Page>
+			<Page>But yeah! I’m just trying to find out why <![CDATA[<color=orange>the ghost matter goes away sometimes!</color>]]></Page>
+		</Dialogue>
+			 <DialogueOptionsList>
+			<DialogueOption>
+				<Text>Sorry, what? It.. <![CDATA[<i>goes away sometimes?</i>]]></Text>
+				<DialogueTarget>ArkoseNew1.5</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+	</DialogueNode>
+
+	
+	<DialogueNode>
+		<Name>ArkoseNew1.5</Name>
+		<Dialogue>
+			<Page>Yeah, I know right?! It's weird!</Page>
+			<Page>You know how there’s a green glowy trail when you throw something into a patch of ghost matter?</Page>
+			<Page>Sometimes, when I throw a rock into the patch of ghost matter, <![CDATA[<color=orange>it doesn’t leave a trail at all.</color>]]></Page>
+			<Page>I dunno what causes it! It doesn’t happen every time, even when I throw harder or use different kinds of rocks.</Page>
+			<Page>I asked Gabbro about it last time they came back from Giant's Deep, and they told me that <![CDATA[<color=orange>ghost matter just seems to go away sometimes!</color>]]></Page>
+			<Page>They weren’t sure why it happens either. It’s still dangerous to get too close to the ghost matter, so I’m using these rocks to see if I can figure it out.</Page>
+		</Dialogue>
+			 <DialogueOptionsList>
+			<DialogueOption>
+				<Text>Huh. Maybe I'll go check in with Gabbro to learn what they know about that, then.</Text>
+				<DialogueTarget>ArkoseNew2</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>ArkoseNew2</Name>
+		<SetPersistentCondition>Shutup_Arkose</SetPersistentCondition>
+		<Dialogue>
+			<Page>Oh! If you find anything about ghost matter out there, come back and tell me too, astronaut!</Page>
+			<Page>I wanna know all about ghost matter, so I'll be totally ready when I become an astronaut someday!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ArkoseNewLIST</Name>
+		<Dialogue>
+			<Page>Something cool? <![CDATA[<i>Tell me, tell me!</i>]]></Page>
+		</Dialogue>
+	<DialogueOptionsList>
+				<DialogueOption>
+				<RequiredLogCondition>COMET_INTERIOR_X3</RequiredLogCondition>
+					<Text>Ghost matter killed the Noma-Iiii shouldn't be telling you this, never mind.</Text>
+					<DialogueTarget>Arkose_NomaiStory</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Ghost matter becomes safe as long as it's submerged underwater.</Text>
+					<DialogueTarget>Arkose_WaterRule</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Ghost matter obeys gravity!</Text>
+					<DialogueTarget>Arkose_GravyRule</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Uhh.. Nevermind. I'll tell you about it when I get back from space!</Text>
+					<DialogueTarget>Arkose_Bye</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>Arkose_NomaiStory</Name>
+		<Dialogue>
+			<Page>Wait, huh..? Did the Nomai.. get hurt because of ghost matter..?</Page>
+			</Dialogue>
+			<DialogueOptionsList>
+				<DialogueOption>
+					<Text>Nononono, they just.. left because there was ghost matter all over the star system and it was too dangerous to stay around!</Text>
+					<DialogueTarget>Arkose_NomaiTruth</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Arkose_NomaiTruth</Name>
+		<Dialogue>
+			<Page>Woah.. Is that true?</Page>
+			<Page>The Nomai must have been really, really smart to figure that out and leave the star system! I hope they're doing okay, wherever they are.</Page>
+			<Page>Hey, we should send a message to tell them that the star system's mostly safe now!</Page>
+			<Page>Then they could move back here, and we could talk and eat mallows around the campfire together!</Page>
+			</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Arkose_WaterRule</Name>
+		<Dialogue>
+			<Page>Woah.. <![CDATA[<Pause>]]> Is that what's making the ghost matter here disappear?</Page>
+			<Page>But.. There's not much water around here. The geyser isn't spraying enough, and it hasn't rained at all lately.</Page>
+			<Page>But still, that's really cool!</Page>
+			<Page>I'm gonna ask Slate to build me a suit of water later, so I can do snow angels in the ghost matter...</Page>
+			</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Arkose_GravyRule</Name>
+		<SetCondition>Gravdumb</SetCondition>
+		<Dialogue>
+			<Page><![CDATA[<i>Huh?! Really?!</i>]]></Page>
+			<Page>Ohh, so <![CDATA[<i>that's</i>]]> why the ghost matter goes away every now and then! It must be the Attlerock's gravity pulling this patch here up when it's coming over the village!</Page>
+			<Page>I know that 'cos the exhibit in the museum taught me about the Attlerock's gravity!</Page>
+			<Page>I was so focused I never even noticed the Attlerock coming over the village every time it disappeared..</Page>
+			<Page>Thanks a bunch for telling me, astronaut! Now, I can finally stop throwing rocks and rest my arm...</Page>
+			</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Arkose_Bye</Name>
+		<Dialogue>
+			<Page>Aw.. Okay..</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Arkose_Gravdumb</Name>
+		<EntryCondition>Gravdumb</EntryCondition>
+		<Dialogue>
+			<Page>Hey, astronaut... Since ghost matter obeys gravity...</Page>
+			<Page>If somebody, um... borrowed the gravity crystal from the museum and pointed it near the ghost matter... Could I order the ghost matter to go anywhere I wanted?</Page>
+			<Page>Oooh, I can't wait! I'm gonna be able to shoot ghost matter at any mean bugs that fly at me from now on... Mwahahaha...</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+
+
+
+
+	<DialogueNode>
+		<Name>Arkose5</Name>
+		 <DialogueOptionsList>
+		 <DialogueOption>
+				<Text>Hey, Arkose, is there actually a reason you keep chucking rocks into the ghost matter?</Text>
+				<DialogueTarget>ArkoseNew1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredPersistentCondition>Shutup_Arkose</RequiredPersistentCondition>
+				<Text>I learnt something cool about ghost matter, Arkose!</Text>
+				<DialogueTarget>ArkoseNewLIST</DialogueTarget>
+			</DialogueOption>
+		 </DialogueOptionsList>
+	</DialogueNode>
+
+
+</DialogueTree>

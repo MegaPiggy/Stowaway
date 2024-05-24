@@ -1,0 +1,61 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>CASSAVA: I am still unable to comprehend what has transpired.. But I must focus on what I can now.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>CASSAVA: Studying what I can to comprehend its nature is the only thing I can do now.</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>CASSAVA: The substance appears unable to be perceived by ordinary sight, but <![CDATA[<i>can</i>]]> be detected by the third eye. It.. it is <![CDATA[<i>overwhelming</i>]]> in its abundance, such that I must close my third eye to see the world clearly.</Text>
+	</TextBlock>
+
+	<TextBlock>	
+	<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>CASSAVA: But even with such cacophony, I can detect higher concentrations of the matter along the ground of the island, and along the artificial gravity walkways of the Construction Yard.</Text>
+	</TextBlock>
+
+	<TextBlock>	
+	<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>CASSAVA: This implies the matter does <![CDATA[<color=orange>obey gravity, both from natural and artificial sources.</color>]]></Text>
+			</TextBlock>
+
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>CASSAVA: If this hypothesis is true, much of the matter should be drawn over time into the local star, as the gravitational center of the system - as well as Giant's Deep, owing to its great mass.</Text>
+			</TextBlock>
+			
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>CASSAVA: But if that is the case, I wonder: could an entity with stronger gravitational energy be able to <![CDATA[<color=orange>competitively influence</color>]]> this deadly matter?</Text>
+			</TextBlock>
+
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>GM_R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>GM_EX1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

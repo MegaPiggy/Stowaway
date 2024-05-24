@@ -1,0 +1,59 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		DAZ: Good day, Ramie! How are you doing?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		RAMIE: Goodness! You're too bright to look directly at, standing in the sun like that, Daz! Why are you so shiny? What do you have coated on your exterior?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		DAZ: <![CDATA[<i>And where's your suit?!</i]]> How are you walking around on the surface of Ember Twin exposed like that? Did Cassava invent some unbelievably strong and lustrous sunscreen, composed of his love for you?
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: <![CDATA[<i>Hah!</i]]> An amusing guess, Ramie, but does my complexion not appear familiar? I am currently composed of alloy projected from a projection pool!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		RAMIE: Oh? I hadn't noticed!! Does that mean you've invented a new type of projection stone that allows us to wander freely outside the range of the pool, Daz? I am awestruck! Have you come up with a name for this new stone yet?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: I am flattered, my friend. And yes, Cassava came up with one: the <![CDATA[<color=orange>voyager stone!</color>]]> Named after the thalassic planet it was conceived on, it will take us on many incredible voyages across the star system!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>7</ParentID>
+		<LocationA />
+		<Text>
+		RAMIE: That's a shame. I was about to propose it be named the sightless stone - I will soon lose mine if I continue staring at your alloy vessel! I eagerly look forward to being able to use your voyager stones one day, my dear friend.
+		</Text>
+	</TextBlock>
+</NomaiObject>

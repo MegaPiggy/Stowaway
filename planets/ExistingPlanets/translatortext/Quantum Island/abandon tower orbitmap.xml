@@ -1,0 +1,77 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PLUME: My friends, after much debate, we have decided we must abandon this tower, and move our work to the other islands of this planet.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		PLUME: The interior of our dwelling has rapidly taken on a quantum nature after prolonged exposure to the roaming quantum shard. As much as it pains me, I fear it will only become increasingly unfeasible to continue living within this space.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		PLUME: Does anyone have any proposals for which island we should move our settlement to?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		COLEUS: We should return to the island we arrived on our first expedition! The height of the island's cliffs offers the most protection from the ocean's waves, and the interior provides a calm space to work.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>
+		THATCH: I believe one of the other islands would also be suitable site to construct a larger site for building more advanced projects as well!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		THATCH: Of note: this second island sails along the same direction as the planet's orbit around the sun - making its days about three times longer than one would experience on the other island.
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		COLEUS: On the other apphendage, this would reduce the frequency of being immersed by passing tides, which would be favorable for a site of construction!
+		</Text>
+			</TextBlock>
+
+
+
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_P EX1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LC_P EX2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LC_P EX3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

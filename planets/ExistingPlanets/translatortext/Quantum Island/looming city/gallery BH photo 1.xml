@@ -1,0 +1,16 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>MELORAE: Coleus and I once fell while exploring the Hanging City. As we were taught, we were able to slingshot ourselves using the black hole into a giant tractor beam! Filix proudly captured this photo as we were lifted back to safety.</Text>
+	</TextBlock>
+
+	
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_M EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

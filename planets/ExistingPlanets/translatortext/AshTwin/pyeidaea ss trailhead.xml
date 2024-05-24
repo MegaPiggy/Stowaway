@@ -1,0 +1,81 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PYE: Poke! Thank goodness you're here, my friend. We're positively lost - is this not the method of entry into the <![CDATA[<color=orange>Deep Storm Station?</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>
+		POKE: Goodness, no! We need to head to the new warp pad constructed at Cassava's <![CDATA[<color=orange>Construction Yard</color>]]> as fast as we can, before the <![CDATA[<color=orange>Deep Storm Station's</color>]]> test begins!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>
+		POKE: Did the two of you not receive directions from Cassava on how to reach the <![CDATA[<color=orange>Deep Storm Station?</color>]]> Even <![CDATA[<i>I</i>]]> received an invitation from him... <![CDATA[<i>Through Daz!</i>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		IDAEA: It's hopeless.. Giant's Deep will take forever to orbit overhead this warp transmitter again, and traveling there by shuttle will take even longer!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>
+		PYE: <![CDATA[<i>Wait!</i>]]> I remember now.. Cassava gave me <![CDATA[<color=orange>a voyager stone to the Deep Storm Station</color>]]> several weeks ago, so we could observe the test remotely without needing to travel there! Oh, but where did I leave it...
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		IDAEA: <![CDATA[<i>Pye!!</i>]]> How could you forget such an important detail? Argh, it must be somewhere in that clutter you always leave on the <![CDATA[<color=orange>Sun Station's catwalk!</color>]]>
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		POKE: There's no time to waste! Come, my friends - let us return to the <![CDATA[<color=orange>Sun Station</color>]]> at once and find that <![CDATA[<color=orange>voyager stone</color>]]> before the test begins!
+		</Text>
+			</TextBlock>
+				
+
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Tower EX3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SS R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SS R2</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DSS R5</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

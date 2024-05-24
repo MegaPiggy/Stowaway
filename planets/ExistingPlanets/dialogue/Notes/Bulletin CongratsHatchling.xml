@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>SIGN</NameField>
+
+<DialogueNode>
+    <Name>Congrats</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Outer Wilds Ventures is proud to celebrate the graduation and upcoming maiden voyage of our newest astronaut!</Page>
+      <Page>Please give them your congratulations and best wishes before they take off, and see our young hatchling take off with a proud smile!</Page>
+      <Page>We will be throwing a party around the campfire tonight in their honor ahead of time, before Riebeck takes off again. We welcome all of you to take part in this celebration!</Page>
+      <Page>PS: Please help clean up and take down the decorations afterwards this time.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

@@ -1,0 +1,55 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		MELORAE: Is everyone alright?! What just happened? I was sure there were no cyclones near the island earlier!
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PLUME: We are all well, Melorae. I suppose a cyclone must have spontaneously formed and lifted the island into orbit.. But what caused the planet to be plunged into darkness like that, before we were launched?
+		</Text>
+		</TextBlock>
+
+<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		COLEUS: <![CDATA[<i>It wasn't a cyclone!</i>]]> I saw some.. enormous column of water that sucked the island and us with it into space! What <![CDATA[<i>was</i>]]> that??
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		THATCH: I can corroborate Coleus' observation; that was no ordinary cyclone! Whatever it was thoroughly soaked my suit and equipment as it threw us into space!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		MELORAE: This planet never fails to increase my heart's temperature with anxiety.. Come, friends - let us return to the safety of the <![CDATA[<color=orange>Looming City</color>]]> at once, before that mysterious column of water returns!
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>GM_EX2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

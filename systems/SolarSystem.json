@@ -1,0 +1,233 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+	"entryPositions": [
+		
+		{
+			"id": "SCROLL_WORKSHOP",
+			"position": {
+				"x": 991.7971,
+				"y": 304.7625 
+			}
+		},
+		{
+			"id": "SCROLL_WORKSHOP LOCKED",
+			"position": {
+				"x": 1037.887,
+				"y": 221.6722 
+			}
+		},
+		{
+			"id": "CAPSIZED BRAMBLEISLE",
+			"position": {
+				"x": 2429.936,
+				"y": -50.268
+			}
+		},
+		{
+			"id": "CAPSIZED JELLYSTUDY",
+			"position": {
+				"x": 2477.416,
+				"y": -130.3838
+			}
+		},
+		{
+			"id": "BEACHED_JELLY",
+			"position": {
+				"x": 1319.42,
+				"y": 278.4227
+			}
+		},
+		{
+			"id": "INSPIRED",
+			"position": {
+				"x": 1389.865,
+				"y": 16.5713
+			}
+		},
+		{
+			"id": "JELLY_SURFACE",
+			"position": {
+				"x": 946.644,
+				"y": 1079.251
+			}
+		},
+		{
+			"id": "LOOMINGCITY",
+			"position": {
+				"x": 200,
+				"y": 1600
+			}
+		},
+		{
+			"id": "LOOMINGCITY_SECRET",
+			"position": {
+				"x": 136.1046,
+				"y": 1363.688
+			}
+		},
+		{
+			"id": "LOOMINGCITY_PROJ",
+			"position": {
+				"x": -139.418,
+				"y": 1690.656
+			}
+		},
+		{
+			"id": "LOOMINGCITY_MUSEUM",
+			"position": {
+				"x": 241.6207,
+				"y": 1771.85
+			}
+		},
+		{
+			"id": "LOOMINGCITY_CAFE",
+			"position": {
+				"x": 90.183,
+				"y": 1814.059
+			}
+		},
+		{
+			"id": "GM_RESEARCH",
+			"position": {
+				"x": 1968.457,
+				"y": -181.9574
+			}
+		},
+		
+		{
+			"id": "CONSTRUCTYARD_SCHEMATICS",
+			"position": {
+				"x": 2421.086,
+				"y": 394.153
+			}
+		},
+		{
+			"id": "PIONEER_BEACH",
+			"position": {
+				"x": 1051.902,
+				"y": 849.2932
+			}
+		},
+		{
+			"id": "PIONEER_INTERIOR",
+			"position": {
+				"x": 793.7834,
+				"y": 690.3771
+			}
+		},
+		{
+			"id": "STATUEISLE_CLIFF",
+			"position": {
+				"x": 1218.762,
+				"y": 457.6583
+			}
+		},
+		{
+			"id": "LOVERSCOVE",
+			"position": {
+				"x": 1444.762,
+				"y": 483.753
+			}
+		},
+		{
+			"id": "DEEP_STORM_STATION",
+			"position": {
+				"x": 1579.554,
+				"y": -260.1468
+			}
+		},
+		{
+			"id": "DSS Whiteboards",
+			"position": {
+				"x": 1583.256,
+				"y": 131.9829
+			}
+		},
+		{
+			"id": "MINES_REPLACE",
+			"position": {
+				"x": 911,
+				"y": 5
+			}
+		},
+		{
+			"id": "MURAL DSS 1",
+			"position": {
+				"x": 768,
+				"y": -76.0885
+			}
+		},
+		{
+			"id": "MURAL DSS 2",
+			"position": {
+				"x": 843,
+				"y": -76.0885
+			}
+		},
+		{
+			"id": "MURAL DSS 3",
+			"position": {
+				"x": 918.1773,
+				"y": -76.0885
+			}
+		},
+		{
+			"id": "OPC_SECRET",
+			"position": {
+				"x": 1760.538,
+				"y": 611.4841
+			}
+		},
+		{
+			"id": "GD_GATED_WARPTOWER",
+			"position": {
+				"x": 889.682,
+				"y": -318.2962
+			}
+		},
+
+	
+
+		{
+			"id": "GRAV_SHOP",
+			"position": {
+				"x": 2232.879,
+				"y": 29.5581
+			}
+		},
+		{
+			"id": "GRAV_DWELLING",
+			"position": {
+				"x": 2175.003,
+				"y": -44.763
+			}
+		},
+
+		{
+			"id": "SS_SECRET",
+			"position": {
+				"x": 222.5854,
+				"y": -179.8878
+			}
+		}
+	
+
+	],
+	"curiosities": [
+		{
+			"id": "STOWAWAYS",
+			"color": {
+				"r": 156,
+				"g": 158,
+				"b": 92,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 224,
+				"g": 202,
+				"b": 112,
+				"a": 255
+			}
+		}
+	]
+}

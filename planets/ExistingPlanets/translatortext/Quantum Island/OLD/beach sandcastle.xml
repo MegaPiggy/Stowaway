@@ -1,0 +1,115 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<![CDATA[<i>solely</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		FILIX: Phlox, how has your stay on Giant's Deep been thus far? Have you been making progress on your report assignment? Your classmates wanted me to tell you how much they miss you back on the <![CDATA[<color=orange>Hanging City!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PHLOX: Hi, Filix... I.. I don't know how to start my report. And...(hic) Giant's Deep is the worst... (sniff)
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		FILIX: That's alright, reports are hard to... Phlox? Are.. are you crying? What's wrong? What happened?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		PHLOX: I.. I built sand dwellings on the shore to surprise my papa.. But the oceans always make them crumble by the time he comes back.. So, he never gets to see any of them...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		FILIX: Oh, Phlox.. I'm sure Plume knows how much you love him, even if he doesn't get to see your sand dwellings. Are you building these sand dwellings too close to the shore, perhaps?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		PHLOX: Maybe.. But it's so much easier to build with damp sand... And I build them further and further up each day, but the ocean always seems to follow.. Why does it do that? The ocean is so mean...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		FILIX: Hm... Would you like to perhaps change your report subject, Phlox?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		PHLOX: Change my report subject..? Really? Of course! I don't even know what a 'festival' is supposed to be.. But, what would I change it to, Filix?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		FILIX: Make a report on <![CDATA[<color=orange>what causes the oceans on Giant's Deep to rise and fall.</color>]]> You may be feeling sad and angry, but I want you to let curiosity guide you - find out why the oceans destroyed your sand dwellings, Phlox!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		FILIX: I believe this would be a more fruitful and inspiring report for you to make. Once you are done, be sure to present it to Plume in my place!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<LocationB />
+		<ParentID>10</ParentID>
+		<Text>
+		FILIX: Of note: Make sure Plume or the other Nomai are always with you, and always take caution while you study the planet for this report! Do not put yourself in danger for the report!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<LocationB />
+		<ParentID>11</ParentID>
+		<Text>
+		FILIX: And Phlox: do not be afraid to reach out to me if you ever feel down again. Your teacher will always lend a listening ear.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>13</ID>
+		<LocationB />
+		<ParentID>12</ParentID>
+		<Text>
+		PHLOX: Ok.. (sniff) Thank you, Filix. I'll do my best on this report!
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC EX2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

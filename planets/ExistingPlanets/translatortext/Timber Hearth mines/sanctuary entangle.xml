@@ -1,0 +1,77 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		OENO: Are you ready, Cycad? Nighttime falls on Timber Hearth; we shall be beginning our task soon!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CYCAD: Wait, Oeno, how will we escape this chamber once we voyage into the <![CDATA[<color=orange>Sanctuary?</color>]]> There are no entrances or exits out of this space!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		OENO: Using the quantum shard, of course! Simply leave your voyager standing on the quantum shard before disconnecting the voyager stone; as it is unable to observe its surroundings, the voyager becomes little more than a scroll entangled with the shard.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		OENO: When you reengage the voyager stone, your voyager will have been entangled with the shard, and should be delivered outside to the surface of Timber Hearth!
+				</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>
+		CYCAD: But our mission here is to transport the native lifeforms into the Sanctuary to protect them during the operation of the <![CDATA[<color=orange>Ash Twin Project,</color>]]> isn't it? Won't the native lifeforms' sight cause the quantum shard to be locked in place? 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		OENO: That is why we are bringing them in during their hours of slumber! We must simply move quietly and stealthily to transport them into the <![CDATA[<color=orange>Sanctuary</color>]]> one by one while they sleep.
+				</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		COLEUS: Afterwards, we will watch over them within the <![CDATA[<color=orange>Sanctuary,</color>]]> so they do not slip back outside through the quantum shard.
+				</Text>
+	</TextBlock>
+	
+		<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		CYCAD: I see.. I shall do my best, Oeno! This task will surely help to distract my mind from the anticipation of the <![CDATA[<color=orange>Ash Twin Project's</color>]]> success..
+		</Text>
+	</TextBlock>
+	
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>Nomai Mine Entry 2</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

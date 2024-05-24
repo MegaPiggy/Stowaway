@@ -1,0 +1,20 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>SIGN</NameField>
+
+<DialogueNode>
+    <Name>Tektite_Help</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>TO ALL TRAVELERS: Tektite told me that there's a new, <![CDATA[<i>suspiciously ship-shaped dent</i>]]> on that <![CDATA[<color=orange>locked Nomai door</color>]]> inside the large geyser mountain.</Page>
+      <Page>Whoever made that dent with their ship, I'll find out next time you bring your ship back for maintenance and repairs. And I'll probably wring your neck.</Page>
+       <Page>Mayor Rutile's already decided we shouldn't be poking our four eyes there, anywho. Whatever's in there, the Nomai probably wanted it locked up behind a <![CDATA[<color=orange>big, impenetrable door</color>]]> for good reason.</Page>
+      <Page>I don't personally care about evil spirits, or curses, or whatever story spreads around the campfire about why it's locked up - but stop hurting my ships trying to break down this door!</Page>
+      <Page>Figure out some other way inside, for crying out loud. Aren't you travellers supposed to be the curious, intelligent sort? --Slate</Page>
+    </Dialogue>
+    <RevealFacts>
+			<FactID>Nomai Gate 1</FactID>
+		</RevealFacts>
+  </DialogueNode>
+
+</DialogueTree>

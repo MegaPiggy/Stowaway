@@ -1,0 +1,55 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Slate</NameField>
+
+	<DialogueNode>
+		<Name>SlateSQ_0</Name>
+		<EntryCondition>LOOP_COUNT_GOE_3</EntryCondition>
+		<CancelledPersistentCondition>SlateQuest Set</CancelledPersistentCondition>
+		<Dialogue>
+			<Page>Oh hey, wait up.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Launch codes? Got 'em.</Text>
+				<DialogueTarget>SlateSQ_1B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredPersistentCondition>COMPLETED_SHIPLOG_TUTORIAL</RequiredPersistentCondition>
+				<Text>Mark locations with the ship log, yep. Great feature, Slate, thanks!</Text>
+				<DialogueTarget>SlateSQ_1B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What's up?</Text>
+				<DialogueTarget>SlateSQ_1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SlateSQ_1</Name>
+		<SetPersistentCondition>SlateQuest Set</SetPersistentCondition>
+		<Dialogue>
+			<Page>Oh, just a friendly reminder... <![CDATA[<i>Don't..</i>]]> <![CDATA[<Pause/>]]> let me catch you ramming your new ship into the locked Nomai door.</Page>
+			<Page>Tektite told me there was a dent on the door in the large geyser mountain. I'm not sure who it was - but someone rammed their ship into the door trying to break it down again. To no avail, I should note.</Page>
+			<Page>I radioed everyone off-planet with a ship, but naturally, all of 'em said they had nothin' to do with it. But I can't really take their word at face level without getting a look at their ships myself.</Page>
+			<Page>Actually.. While you're out there, you mind checking up on each of the travelers, see how their ships are looking? It'll be a good way to get your space legs under you.</Page>
+			<Page>Look out for damage on the ship's cockpit, specifically.</Page>
+			<Page>Whoever it was, I'm sure Gneiss would love to have either drums, a flute, or a banjo back on the orchestra while they spend some time <![CDATA[<i>grounded from spaceflight.</i>]]></Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SlateSQ_1B</Name>
+		<SetPersistentCondition>SlateQuest Set</SetPersistentCondition>
+		<Dialogue>
+			<Page>What? No, this is about the locked door. Don't let me hear you rammed your new ship into the locked Nomai door or something stupid like that... <Pause/>]]>Got it?</Page>
+			<Page>Tektite told me there was a dent on the door in the large geyser mountain. I'm not sure who it was - but somebody rammed their ship into the door trying to break it down again. To no avail, I should note.</Page>
+			<Page>I radioed everyone off-planet with a ship, but naturally, all of 'em said they had nothin' to do with it. But I can't really take their word at face level without getting a look at their ships myself.</Page>
+			<Page>Actually.. While you're out there, you mind checking up on each of the travelers, see how their ships are looking? It'll be a good way to get your space legs under you.</Page>
+			<Page>Look out for damage on the ship's cockpit, specifically.</Page>
+			<Page>Whoever it was, I'm sure Gneiss would love to have either drums, a flute, or a banjo back on the orchestra while they spend some time <![CDATA[<i>grounded from spaceflight.</i>]]></Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

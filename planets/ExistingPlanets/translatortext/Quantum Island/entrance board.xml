@@ -1,0 +1,34 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>Be welcomed in this place. This tower shares with all who ask the knowledge needed to make his or her first quantum journey.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>This colossal tower - once known as the <![CDATA[<color=orange>Looming City</color>]]> - was carved out of a towering mountain by the late Plume to shelter all Nomai exploring and working on Giant's Deep.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>However, due to extenuating circumstances, the Nomai on Giant's Deep eventually decided to abandon this stormless island, moving to and constructing new settlements on the other islands of Giant's Deep.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>This tower would later be repurposed to teach knowledge about the quantum shards, but we welcome any willing to learn more about our clan's history and trials. You now stand beneath the <![CDATA[<color=orange>Tower of Quantum Trials.</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>For those inquisitive about these circumstances, you may learn more about the settlers' history through scrolls we have left for guests to uncover inside the tower.</Text>
+	</TextBlock>
+
+
+
+</NomaiObject>

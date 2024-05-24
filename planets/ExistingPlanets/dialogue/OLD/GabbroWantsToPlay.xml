@@ -1,0 +1,309 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Gabbro</NameField>
+
+	<DialogueNode>
+		<Name>LookWhatIfound</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+			<Randomize/>
+		<Dialogue>
+			<Page>Hey, time buddy! Look what I found!</Page>
+		</Dialogue>
+				<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Whatcha got there?</Text>
+				<DialogueTarget>UnobservingStone</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Is that a Nomai projection stone?</Text>
+				<DialogueTarget>ObservingStone</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>UnobservingStone</Name>
+		<Dialogue>
+			<Page>This! It's some kind of Nomai slab. I dropped my flute by accident this loop and noticed it floating by, carried by the waves.</Page>
+			<Page>Who knows how long it's been on its little voyage? I bet it still works too - all the lil' pieces of Nomai tech we've found are hardy as nails and perfectly functioning. Makes me wish whoever made them made our ships!</Page>
+			<Page>I can’t do anything with it other than stone skipping. Since you’re the one with the translator tool actually interested in figuring out stuff, you should really have it.</Page>
+			<Page>But hey. You could use a little break from adventuring all over the star system, looking for clues and getting fried by the sun over and over, don't you think?</Page>
+			<Page>What d'ya say? Wanna have some fun and play a little game of hide and seek with your ol' time pal?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Sure! How are we gonna play?</Text>
+				<DialogueTarget>YesLetsPlay</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nah. Skip that stone far for me, I got places to be!</Text>
+				<DialogueTarget>NoGameCritic</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+				
+				<DialogueNode>
+		<Name>ObservingStone</Name>
+		<Dialogue>
+			<Page>I think so? You know what it does? I dropped my flute by accident this loop and noticed it floating by, carried by the waves.</Page>
+			<Page>Who knows how long it's been on its little voyage? I bet it still works too - all the lil' pieces of Nomai tech we've found are hardy as nails and perfectly functioning. Makes me wish whoever made them made our ships!</Page>
+			<Page>I can’t do anything with it other than stone skipping. You should definitely have it if you know how to use it, see if it tells ya anything useful.</Page>
+			<Page>But hey. You could use a little break from adventuring all over the star system, looking for clues and getting fried by the sun over and over, don't you think?</Page>
+			<Page>What d'ya say? Wanna have some fun and play a little game of hide and seek with your ol' time pal?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Sure! How are we gonna play?</Text>
+				<ConditionToCancel>WannaPlayOnSecondThoughts</ConditionToCancel>
+				<DialogueTarget>YesLetsPlay</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nah. Skip that stone far for me, I've got places to be!</Text>
+				<DialogueTarget>NoGameCritic</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+				
+<DialogueNode>
+		<Name>NoGameCritic</Name>
+		<SetCondition>WannaPlayOnSecondThoughts</SetCondition>
+		<Dialogue>
+		<Page>Aw, come on. You gotta stop and smell the pine trees a little sometime, time buddy!</Page>
+		</Dialogue>
+</DialogueNode>
+
+<DialogueNode>
+<Name>LazyGabbro</Name>
+<Dialogue>
+			<Page>Woah, you got beef with this stone or something?</Page>
+			<Page>Bleh... I'm lazy... I'll do it later.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>YesLetsPlay</Name>
+		<SetCondition>HideandSeekDialogue</SetCondition>
+		<Dialogue>
+				<Page>Sweet. Alright, listen up!</Page>
+				<Page>I'll hide the stone <![CDATA[<color=orange>somewhere on this island</color>]]>, and you gotta find it before the end of this loop to win.</Page>
+				<Page>You win, you keep it! I'll be extra diligent to catch it every loop for you to try again either way.</Page>
+				<Page>But games need some stakes to be fun, right? If you can't find it in time, you'll need to carry out a lil' penalty before I let you try again.</Page>
+				<Page>Don't worry, I won't tell you to go get eaten by an anglerfish or anything mean.</Page>
+				<Page>You'll just have to visit the observatory in the village, and tell Hornfels I'm the most hardworking astronaut in the space program. <![CDATA[<Pause/>]]> With a straight face.</Page>
+				<Page>And I’ll know if you have! ‘Cause they’ll radio me <![CDATA[<i>]]>so fast<![CDATA[</i>]]> to freak out about their newest astronaut going nuts, heh.</Page>
+				</Dialogue>
+				<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Oh, now I definitely need to win this.</Text>
+				<DialogueTarget>OkImWinningThis</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Can we go back to the get-eaten-by-an-anglerfish penalty?</Text>
+				<DialogueTarget>OkSmartyPants</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode>
+		<Name>OkImWinningThis</Name>
+		<Dialogue>
+				<Page>We'll see. I have a pretty good spot in mind!</Page>
+				<Page>I'll think of some other penalties after you've done 'em once if you lose again, alright? Just to keep things fresh.</Page>
+				<Page>Alright, you ready? Close your eyes!</Page>
+		</Dialogue>
+		<SetCondition>BeginGabbroHideAndSeek</SetCondition>
+</DialogueNode>
+
+<DialogueNode>
+		<Name>OkSmartyPants</Name>
+		<Dialogue>
+				<Page>Woah, that stings, but it's also kinda morbid that that might genuinely be normal to you after all the timeloops. You doin' okay out there, time bud?</Page>
+				<Page>But nope! I'll think of some other penalty after you've done it once if you lose again, alright? Chin up, buddy. It's just a fun little game!</Page>
+				<Page>Alright, you ready? Close your eyes!</Page>
+		</Dialogue>
+		<SetCondition>BeginGabbroHideAndSeek</SetCondition>
+</DialogueNode>
+
+			
+<DialogueNode>
+		<Name>SecondThoughtsOnGame</Name>
+		<EntryCondition>WannaPlayOnSecondThoughts</EntryCondition>
+		<Dialogue>
+			<Page>Had second thoughts? I was feeling a little lazy to get up and get my throwing arm ready. Plus, I had a really good hiding spot in mind..</Page>
+		</Dialogue>
+				<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Alright alright. Let's play!</Text>
+				<ConditionToCancel>WannaPlayOnSecondThoughts</ConditionToCancel>
+				<DialogueTarget>YesLetsPlay</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I believe in you, Gabbro! I wanna see that stone SOAR!</Text>
+				<DialogueTarget>LazyGabbro</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+		
+<DialogueNode>
+		<Name>GameDialogue</Name>
+		<EntryCondition>HideandSeekDialogue</EntryCondition>
+		<Dialogue>
+			<Page>No luck yet? It's a small island, buddy! Don't think too hard on it.</Page>
+			<Page>Remember, you got all the time in the world... until the end of this loop!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>VICTORY</Name>
+		<EntryCondition>EndGabbroHideAndSeek</EntryCondition>
+		<Dialogue>
+			<Page>Hah, you found it. Nice.</Page>
+			<Page>The good ol' trick - just hide it right under your nose. Well, my nose. My back.</Page>
+			<Page>In my defense, I wasn't gonna climb a tree, or become a pro at throwing something through 2-g gravity to get a good throw up onto a cliff, every loop that we played.</Page>
+			<Page>Thanks for being a good sport, buddy. Hope you had fun scouring the island. Now go learn something neat from that stone!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Penalty1</Name>
+		<EntryCondition>GabbroPenalty1</EntryCondition>
+		<Dialogue>
+			<Page>Hey, you're back! Sorry bud, looks like you lost..</Page>
+			<Page>That means you gotta do the penalty before you can try again. You remember the one I mentioned?</Page>
+			<Page>Go tell Hornfels in the museum back on Timber Hearth what you think of me! In very impressive words.</Page>
+			<Page>Swear I'm not on an ego trip - I just think it'd be funny to see what they'd think of their newest astronaut suddenly thinking so highly of me.</Page>
+		</Dialogue>
+		<SetCondition>Penalty1_Blocked</SetCondition>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Penalty1B</Name>
+		<EntryCondition>Penalty1_Blocked</EntryCondition>
+		<Dialogue>
+			<Page>What's up? I still haven't heard from Hornfels. Didja talk to them yet?</Page>
+			<Page>C'mon, don't worry about ruining your reputation as an astronaut back home. They'll forget any trace of it next loop!</Page>
+			<Page>You can't imagine how many times I've just radioed back home to say something completely nuts for fun, knowing they won't remember. It's pretty socially liberating!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Penalty1_Cleared</Name>
+		<EntryCondition>GabbroPenaltyClear</EntryCondition>
+		<Dialogue>
+			<Page>Wow, that was one heck of a reaction I got outta Hornfels on the radio. That was definitely worth it.</Page>
+			<Page>Alright buddy, you ready to give this another try?</Page>
+		</Dialogue>
+		<SetPersistentCondition>GabbroGame2</SetPersistentCondition>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<CancelledPersistentCondition>ShipFixedOnceBefore</CancelledPersistentCondition>
+				<Text>BRING IT ON!</Text>
+				<ConditionToCancel>WannaPlayOnSecondThoughts</ConditionToCancel>
+				<DialogueTarget>YesLetsPlay2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nah, think I'm good for now.</Text>
+				<DialogueTarget>NoGameCritic2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredPersistentCondition>ShipFixedOnceBefore</RequiredPersistentCondition>
+				<Text>Bring it on, I'm winning this time for sure!</Text>
+				<DialogueTarget>YesLetsPlay3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>YesLetsPlay2</Name>
+		<Dialogue>
+				<Page>Cool, cool. Oh, I thought of another small penalty that should be easier on your pride if ya need to try again after this loop.</Page>
+				<Page>You know my dear ship? Floating around out somewhere on the oceans?</Page>
+				<Page>Truth is, I smashed an antenna while landing, many, many loops ago, right before this whole time-loop business started. And uh, didn't think it was important to fix it at the time..</Page>
+				<Page>Ever wonder why I've got no idea where the poor thing is these days? <![CDATA[<Pause/>]]> Now you know, ha.</Page>
+				<Page>You just gotta fix up the antenna so it starts transmitting its location to my helmet again - so after a relative millennia, I'll finally see where it is on my visor feed again. <![CDATA[<Pause/>]]> Well, for all of one loop, at least.</Page>
+				<Page>You cool with that? Just something small to do if you lose again this loop.</Page>
+				<Page>Alright - close your eyes!</Page>
+		</Dialogue>
+		<SetCondition>BeginGabbroHideAndSeek</SetCondition>
+		<SetCondition>HideandSeekDialogue</SetCondition>
+</DialogueNode>
+
+<DialogueNode>
+		<Name>NoGameCritic2</Name>
+		<Dialogue>
+				<Page>Fair, fair. I guess we'll never know what's in this lil' Nomai slab...</Page>
+		</Dialogue>
+		<SetCondition>WannaPlayOnSecondThoughtsSEQUEL</SetCondition>
+</DialogueNode>
+
+<DialogueNode>
+		<Name>SecondThoughtsSEQUEL</Name>
+		<EntryCondition>WannaPlayOnSecondThoughtsSEQUEL</EntryCondition>
+		<Dialogue>
+				<Page>Back again? Changed your mind on the game?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<CancelledPersistentCondition>ShipFixedOnceBefore</CancelledPersistentCondition>
+				<Text>I'm ready now. BRING IT ON!</Text>
+				<ConditionToCancel>WannaPlayOnSecondThoughtsSEQUEL</ConditionToCancel>
+				<DialogueTarget>YesLetsPlay2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Nah, think I'm good for now.</Text>
+				<DialogueTarget>NoGameCritic2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredPersistentCondition>ShipFixedOnceBefore</RequiredPersistentCondition>
+				<Text>I'm ready now! Lemme at it!</Text>
+				<DialogueTarget>YesLetsPlay3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode>
+		<Name>GabbroShipFixed_PrePenalty</Name>
+		<EntryCondition>ShipFixed_Pre</EntryCondition>
+		<Dialogue>
+				<Page>Woah, did you fix the antenna on my ship? I can finally see where it is on my visor again! Stars above!</Page>
+				<Page>Sending you to fix that was honestly the only other good penalty I had in mind if you lost the game. That and maybe getting you to eat a burnt marshmallow. But that's the best way to eat them, so that wouldn't count.</Page>
+		</Dialogue>
+		<SetPersistentCondition>ShipFixedOnceBefore</SetPersistentCondition>
+</DialogueNode>
+
+<DialogueNode>
+		<Name>YesLetsPlay3</Name>
+		<Dialogue>
+				<Page>Cool, cool- wait, I just remembered.. You already fixed my ship's antenna! That was actually the penalty I had in mind if you lost again this game. Kinda redundant to make you go do it again.</Page>
+				<Page>Hey, whatever! I'll give you the third "penalty" I had in mind then. It's.. more of a suggestion - you can do it while playing the game and looking for the stone. Up to you.</Page>
+				<Page>You just gotta take a picture of me with your ol' scout - y'know, when a cyclone picks the island up and I start floating up all cool in space!</Page>
+				<Page>This should be good.. Alright, close your eyes!</Page>
+		</Dialogue>
+		<SetCondition>HideandSeekDialogue</SetCondition>
+		<SetCondition>BeginGabbroHideAndSeek</SetCondition>
+</DialogueNode>
+
+<DialogueNode>
+		<Name>Penalty2</Name>
+		<EntryCondition>GabbroPenalty2</EntryCondition>
+		<Dialogue>
+			<Page>Dang, I'm good at this, huh? Sorry I'm making you take a longer break than you probably anticipated from adventuring, time buddy.</Page>
+			<Page>But rules are rules! Gotta do that penalty before you can try again. It's an easy one, just go fix up the antenna on my ship!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Penalty2_Cleared</Name>
+		<EntryCondition>GabbroPenaltyTWO_Clear</EntryCondition>
+		<Dialogue>
+			<Page>Man, it feels good to at least know where that old ship is. To restock on my marshmallows I mean, not actual transport.</Page>
+			<Page>Hey, you ready to play again? I got another idea. This isn't as much a penalty as a.. request, heh.</Page>
+			<Page>Couldja just take a lil photo of me with your scout, once a cyclone picks up the island and I start floating off all cool?</Page>
+			<Page>Up to you. It's just a fun little.. idea I had. Let's just start! I'm all outta penalties.. well, unless you're one of those Hearthians that hate burnt mallows.</Page>
+			<Page>One last time, hopefully - close your eyes!</Page>
+		</Dialogue>
+				<SetCondition>HideandSeekDialogue</SetCondition>
+				<SetCondition>BeginGabbroHideAndSeek</SetCondition>
+	</DialogueNode>
+
+</DialogueTree>

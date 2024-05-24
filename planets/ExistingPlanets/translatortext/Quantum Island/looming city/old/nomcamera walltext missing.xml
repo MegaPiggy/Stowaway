@@ -1,0 +1,19 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>MELORAE: Coleus, have you seen our research recorder? According to the <![CDATA[<color=orange>photo</color>]]> I took with the camera, we last left it on that high ledge of the chamber, but it is no longer there..</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>COLEUS: I'm afraid I see no trace of it, Melorae. Perhaps another look in the <![CDATA[<color=orange>camera</color>]]> will help us locate it. Wait.. where has the camera..?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>MELORAE: The quantum shard's spread over the interior of this tower is becoming more and more rapid.. Come, Coleus. Do not be concerned with the recording - we must address this issue with Plume urgently.</Text>
+	</TextBlock>
+</NomaiObject>

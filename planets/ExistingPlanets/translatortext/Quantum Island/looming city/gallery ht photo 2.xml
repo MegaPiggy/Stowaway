@@ -1,0 +1,15 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>PLUME: My son and I playing in the sand on Ember Twin, while waiting for the sandflow to return to Ash Twin. Young Phlox was quite frightened to see me becoming engulfed by sand!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_M EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

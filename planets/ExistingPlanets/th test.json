@@ -1,0 +1,116 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+
+
+
+	"name": "Timber Hearth",
+	
+	
+	"Props": {
+		"singularities": [
+			{
+				"rename":"Cyard black hole",
+				"type": "blackHole",
+				"uniqueID": "TH SHORTCUT 1",
+				"pairedSingularity": "DSS WH",
+				"hasWarpEffects": false,
+				"horizonRadius": 1,
+				"position":{"x":32.8386,"y": -42.1099,"z": 183.2469},
+				"rotation": {"x":10.8702,"y": 277.6082,"z": 257.1082}
+		},
+		{
+			"rename":"StatIsle black hole",
+			"type": "blackHole",
+			"uniqueID": "TH SHORTCUT 2",
+			"pairedSingularity": "STAT WH",
+			"hasWarpEffects": false,
+			"horizonRadius": 1,
+			"position":{"x":26.6179,"y": -39.4544,"z": 186.1813},
+			"rotation": {"x": 61.0862,"y": 252.8367,"z": 242.8503}
+	}
+		],
+		"details": [
+		
+		
+
+			{
+				"rename": "test protohearth",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/protohearthian.fbx",
+				"position":{"x":15.0399,"y": -39.3562,"z": 185.9982},
+				"rotation": {"x": 0,"y": 101.7887,"z": 76.7853},
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "test gabbro",
+				"path":"GabbroIsland_Body/Sector_GabbroIsland/Interactables_GabbroIsland/Traveller_HEA_Gabbro",
+				"position":{"x":15.0399,"y": -39.3562,"z": 185.9982},
+				"rotation": {"x":6.8649 ,"y": 269.0506,"z": 259.1091},
+				"isRelativeToParent": true
+			}
+
+		
+		],
+		"remotes": [
+			{"id": "Decoy TH",
+			"decalPath": "planets/assets/deep storm station icon.png",
+			"stones": [{"position": {"x": 16.38165, "y": -41.92884, "z": 185.4854},
+			"rotation": {"x": 76.79271, "y": 199.0539, "z": 193.8433},
+			"rename": "Cassava Weapon Stone"
+			}]
+			},
+			{
+			"decalPath": "planets/assets/team askeratk.png",	
+			"whiteboard": {
+				"position": {"x": 16.6695, "y": -51.86734, "z": 182.931},
+				"rotation": {"x": 286.2347, "y": 349.3389, "z": 195.0047},
+				"nomaiText": [
+					{
+						"id":"Decoy TH",
+						"location": "a",
+						"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/looming city/projection pool secret stone.xml",
+						"seed":1
+					}
+					]
+				
+				
+				}
+			}
+		],
+		
+	
+	"translatorText":[
+		{
+			"rename":"doorstopper",
+			"type": "whiteboard",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/crystal workshop trailhead.xml",
+				"seed":0,
+			"position": {"x": 26.34379, "y": -47.88493, "z": 183.1824},
+			"rotation": {"x": 302.5385, "y": 299.8626, "z": 244.6711}
+
+		},
+		
+		{
+			"rename": "uhhh mural text",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/crystal workshop trailhead.xml",
+			"seed":1,
+			"position": {"x":24.3426, "y": -45.7584,"z": 183.9066},
+			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
+			"isRelativeToParent": true
+			
+	
+		}
+
+			]
+	},
+"removeChildren": [
+
+"Sector_TH/Sector_Village/Sector_StartingCamp/DetailPatches_StartingCamp/BakedForStreaming/DetailPatches_StartingCamp",
+"Sector_TH/test gabbro/Props_HEA_Gabbro_ANIM_IdleFlute/Gabbro_Hammock02:Props_GabbroHammock_V2/Gabbro_Hammock02:Props_GD_Hammock_V2_Geo",
+
+"Sector_TH/Cyard black hole/BlackHoleAmbience",
+"Sector_TH/StatIsle black hole/BlackHoleAmbience",
+"Sector_TH/test gabbro/ConversationZone_Gabbro"
+
+]}

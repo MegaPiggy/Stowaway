@@ -1,0 +1,19 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PLUME: Oh, I feel shaken.. What a terrible way to start our research trip. And the shuttle is still resting on the landing pad... Is.. anyone feeling bold enough to dive into the waves to recover it?
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>FlipIsland R2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

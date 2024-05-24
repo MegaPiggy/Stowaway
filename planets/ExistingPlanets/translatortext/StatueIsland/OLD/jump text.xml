@@ -1,0 +1,19 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		AVENS: Time waits for no one! The landing pad below will catch our fall, my love! We must make haste to the Orbital Probe Cannon!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		DAZ: <![CDATA[<i>Avens!</i>]]> Do <![CDATA[<i>not</i>]]> let me catch you doing that again. The gravity of this planet will snap your locomotive limbs in half if you miss that jump! Please, if you are reading this, do not emulate my death-defying brother's "shortcuts"!
+		</Text>
+	</TextBlock>
+</NomaiObject>

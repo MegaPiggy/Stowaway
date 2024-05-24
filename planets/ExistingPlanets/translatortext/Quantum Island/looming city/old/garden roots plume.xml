@@ -1,0 +1,49 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>PLUME: To my beloved son; when you wake from your rest, I will likely have departed the tower to assist with transporting a new shipment of construction materials.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>PLUME: Should another thunderstorm wake you, and keep you awake, perhaps writing may ease your restlessness: How has your short stay on this turbulent planet been thus far?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>PLUME: I worry often about how you are adjusting to life here on this new planet.. Is your rest improving? Are you becoming more accustomed to the planet's greater mass?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>PHLOX: Your concern touches me deeply, father. I rested.. well enough. B-but.. I thought I saw a terrifying sight above my resting place when I awoke in the dark.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>PHLOX: It looked like a thorny tendril that had grown through the ceiling, coiling towards me in the dark.. And in a flash of lightning, it instantly vanished..</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>PHLOX: I do not miss Hollow's Lantern waking me to a wave of meteor impacts - but that was the last part of an equation! Perhaps I should travel to Ember Twin in search of a peaceful night of rest...</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>PLUME: A thorny tendril? Some roots of the trees in the Garden Chamber upstairs have indeed grown through the floor and into our chamber of respite.. But none I am aware of fit that description.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>PLUME: But if what you observed is true, this <![CDATA[<color=orange>unknown root</color>]]> seems to be in a <![CDATA[<color=orange>quantum superposition..</color>]]> Could there be more quantum objects within this space than the quantum shard?</Text>
+	</TextBlock>
+</NomaiObject>

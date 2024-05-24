@@ -1,0 +1,106 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<![CDATA[<i>solely</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		ANNONA: My goodness.. I should not have doubted the children's words, but to find a bramble seed growing at the heart of Ember Twin... This is a distressing discovery.
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		BUR: Have courage, Annona! After closer study, this bramble seed appears to have withered away long ago; We are in no danger of it taking root any further, or any new horrors emerging from it!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		ANNONA: That is highly relieving news. You have my gratitude for your research, Bur.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		BUR: On the sunward side, we have at last found an answer to the mystery of the <![CDATA[<color=orange>Fossil Fish Cave</color>]]> - this seed must be what allowed such a large horror to infiltrate such a narrow cavern, deep underground!
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		ANNONA: Judging by its size though, the seed must have flourished for a period of time to facilitate entry to a creature of such size..
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		ANNONA: I suspect the ancient lakes on Ember Twin provided a plentiful source of groundwater for this ancient bramble seed to take root, leaving it to wither after the lakes dried away.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		BUR: The seed is not the only exciting find in this grotto - Annona, look at all these ancient fossils buried into the walls here!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		BUR: What an honor to meet so many new species native to Ember Twin.. I only wish we could have met and learnt what they had to teach.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		ANNONA: It is also possible some of these species were once been native to the planet destroyed by the bramble, flung across space along with this seed. The ocean planet has set a precedent for such stowaways, after all.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		BUR: Your hypothesis intrigues me! Indeed, the heat from the sun could have quickly melted away any remaining shards of ice from the impact, and released these creatures into this planet's ecosystem.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<LocationB />
+		<ParentID>10</ParentID>
+		<Text>
+		BUR: But if it were true, what a terrifying journey these species would have had, flung to an entirely new planet! I can only imagine all the stories we may uncover as we study each of these fossils.
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC EX2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

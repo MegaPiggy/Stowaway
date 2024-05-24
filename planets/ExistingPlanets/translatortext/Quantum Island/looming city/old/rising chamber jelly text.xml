@@ -1,0 +1,45 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		THATCH: We have observed the orcnid surfacing phenomenon <![CDATA[<i>again!</i>]]> Argh, what could be causing this sudden frequency as of late? The computer detects no notable difference in the enviroment of the planet..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		MELORAE: Perhaps we should be looking at constants, rather than looking for outliers in the data. The Quantum Moon has been recorded as orbiting Giant's Deep in each occurence. Who has been locking the Quantum Moon around the planet?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		COLEUS: That would be me. After the discovery of the rule of quantum imaging, Plume tasked me with locking the Quantum Moon in orbit around Giant's Deep, to expedite transportation of materials onto its surface for the shrine's construction.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		MELORAE: That may be it! The orcnids could be able to sense, or affected by the Quantum Moon's gravity pulling on their water-composed bodies - causing them to rise to the surface in presence of the Quantum Moon as it orbits Giant's Deep!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		THATCH: Hypothesis confirmed! Hypothesis confirmed! Come look at the beautiful orcnids outside and bask in pride, my friends; At last, we have solved this mystery!
+		</Text>
+	</TextBlock>
+	
+</NomaiObject>

@@ -1,0 +1,43 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+
+  <NameField>Arbiter of Light</NameField>
+
+  <DialogueNode>
+  	<Name>YOLO</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+            <Dialogue>
+              <Page>Greetings, young one. Do you wish to see the light?</Page>
+          	</Dialogue>
+    <DialogueOptionsList>
+			<DialogueOption>
+        	<Text>Let there be light!</Text>
+              <ConditionToCancel>Darkness</ConditionToCancel>
+              <DialogueTarget>Light1</DialogueTarget>
+    </DialogueOption>
+      <DialogueOption>
+        	<Text>No. May darkness consume all.</Text>
+              <ConditionToCancel>Light</ConditionToCancel>
+               <DialogueTarget>Dark1</DialogueTarget>
+    </DialogueOption>
+    </DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode>
+  	<Name>Light1</Name>
+            <Dialogue>
+              <Page>Light one up for me, bud.</Page>
+          	</Dialogue>
+              <SetCondition>Light</SetCondition>
+</DialogueNode>
+
+
+<DialogueNode>
+  	<Name>Dark1</Name>
+            <Dialogue>
+              <Page>My old friend...</Page>
+          	</Dialogue>
+              <SetCondition>Darkness</SetCondition>
+</DialogueNode>
+
+</DialogueTree>

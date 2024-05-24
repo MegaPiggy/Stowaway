@@ -1,0 +1,12 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		MELORAE: My friends, our first <![CDATA[<color=orange>cyclone shelter pod</color>]]> is finally finished! I must emphasize how consistently awed I am by the Hanging City's artificial gravity technology - I can hardly call this a collaboration!
+		</Text>
+	</TextBlock>
+	
+</NomaiObject>

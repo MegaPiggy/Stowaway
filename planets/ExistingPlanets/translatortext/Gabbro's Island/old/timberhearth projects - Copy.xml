@@ -1,0 +1,64 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>DAZ: My love, I am immensely relieved by my discovery on Timber Hearth - and simultaneously, deeply perplexed by it.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>DAZ: Like the <![CDATA[<color=orange>orcnids</color>]]> we observed, the native lifeforms of Timber Hearth appear to be in perfectly stable condition. They continue to swim happily in the subterrenean cave pools.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>CASSAVA: Truly..? Oh, gratitude, powers above... Though we have lost much, we may at least find comfort in the safety of these species.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>CASSAVA: However, I imagine we share a common question in our minds. Why were these lifeforms unaffected by the horror that has invaded this star system?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>DAZ: There is.. another exception, my love: <![CDATA[<i>The two of us.</i>]]> I do not believe this to be coincidence.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>DAZ: Hypothesis: the <![CDATA[<color=orange>deadly matter</color>]]> that has invaded the star system may be <![CDATA[<color=orange>unable to penetrate water.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>CASSAVA: This property would explain why only lifeforms submerged by water were able to survive its arrival and continued presence.. A cyclone approaches; I shall wait on the high cliffs to test your brilliant hypothesis, love!</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>CASSAVA: An update: The deadly matter appears to be cleansed <![CDATA[<color=orange>in contact with water!</color>]]> My third eye observed the matter resting on the beach neutralizing as Lovers' Cove plunged back into the waves.</Text>
+			</TextBlock>
+<TextBlock>	
+	<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>CASSAVA: However, this effect was incredibly brief and fleeting. Upon the waves settling, the deadly matter immediately rejuvenated its presence around the island..</Text>
+			</TextBlock>
+<TextBlock>	
+	<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>DAZ: I shall voyage to Lovers' Cove to join you soon, my love. I wish to learn more about the nature of this matter in the time we have left.. Perhaps work will distract us from our grief.</Text>
+			</TextBlock>
+</NomaiObject>

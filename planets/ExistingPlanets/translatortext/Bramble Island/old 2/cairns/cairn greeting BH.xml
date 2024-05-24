@@ -1,0 +1,7 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>PLUME: Have courage, friends! This brambly island appears to be free of horrors.. Melorae, Coleus; Would you kindly survey the rest of this island, while Thatch and I install a tractor beam to transport us across to the opposite island?</Text>
+	</TextBlock>
+</NomaiObject>

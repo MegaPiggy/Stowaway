@@ -1,0 +1,12 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PLUME: Nonsense, Melorae! It is thanks to your input and the <![CDATA[<color=orange>Sunless City's contributions</color>]]> that they now only activate during a cyclone's visit. Your part in this collaboration was far from insignificant!
+		</Text>
+	</TextBlock>
+	
+</NomaiObject>

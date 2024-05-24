@@ -1,0 +1,53 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Slate</NameField>
+
+<DialogueNode>
+    <Name>WaitUp</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Oh hey, wait up, hatchling.</Page>
+      <SetPersistentCondition>SlateShipTalk_Done</SetPersistentCondition>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Launch codes? I got them already.</Text>
+        <SetPersistentCondition>SlateShipTalk_Done</SetPersistentCondition>
+        <DialogueTarget>UhNo</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Use the ship log to set destinations. I know, I know!</Text>
+        <SetPersistentCondition>SlateShipTalk_Done</SetPersistentCondition>
+        <DialogueTarget>UhNo</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>What? WHAT IS IT?</Text>
+        <SetPersistentCondition>SlateShipTalk_Done</SetPersistentCondition>
+        <DialogueTarget>WhatsYourProblem</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+    <DialogueNode>
+    <Name>UhNo</Name>
+    <Dialogue>
+      <Page>Uh.. no? Smoke get to your head or something? I wanted to ask you to check in on Gabbro's ship sometime.</Page>
+      <Page>I'm pretty certain their ship's antenna is busted or something, because its position ain't registering on our radars. And uh, I shouldn't have to say this, but it's a problem if those expensive hunks of alloys and wood just fly off into the void.</Page>
+      <Page>I radioed Gabbro and told them to go repair it, but from the sound of it I'm pretty certain their ship ain't even on the same island they're on anymore. And I know better than asking them to swim out and look for it.</Page>
+      <Page>So uh, just fly around Giant's Deep sometime and look for it, will ya? Repair it if you can. I just need to know it hasn't exploded yet. Thanks!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+ <DialogueNode>
+    <Name>WhatsYourProblem</Name>
+    <Dialogue>
+      <Page>Woah, woah, calm down!<![CDATA[<Pause/>]]> Geez, hatchling.</Page>
+      <Page>Uh, I dunno why you woke up from your nap so cranky, but <![CDATA[<i>]]>if it's cool with you<![CDATA[</i>]]> - I wanted to ask you to check in on Gabbro's ship sometime.</Page>
+      <Page>I'm pretty certain their ship's antenna is busted or something, because its position ain't registering on our radars. And uh, I shouldn't have to say this, but it's a problem if those expensive hunks of alloys and wood just fly off into the void.</Page>
+      <Page>I radioed Gabbro and told them to go repair it, but from the sound of it I'm pretty certain their ship ain't even on the same island they're on anymore. And I know better than asking them to swim out and look for it.</Page>
+      <Page>Just fly around Giant's Deep sometime and look for it, maybe repair it if you can. I just need to know it hasn't exploded yet.</Page>
+      <Page>You wanna grab a marshmallow stick, cool your nerves a bit before you take off? <![CDATA[<Pause/>]]>Just take it easy, hatchling.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

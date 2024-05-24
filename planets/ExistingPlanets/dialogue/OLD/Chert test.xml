@@ -1,0 +1,23 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>RECORDING</NameField>
+
+	<DialogueNode>
+		<Name>Chert SandQuery1</Name>
+		<EntryCondition>Default</EntryCondition>
+		<Dialogue>
+			<Page>Chert’s Research Notes — property of Chert!</Page>
+      <Page>Oh, stars above, thank goodness the ship is mostly intact. I'll ask Slate to fix up the damage on the top of the ship later..</Page>
+      <Page>Goodness, that roaming stream of sand is terrible!</Page>
+      <Page>I should have known better than to park my ship on the equator of Ash Twin. If I hadn't been able to catch up to my ship before it was completely flung off, I might have become totally stranded!</Page>
+         <Page>But I wonder.. What could possibly cause the sand on the Hourglass Twins to flow back and forth in such a consistent pattern?</Page>
+         <Page>It'd be one thing if it only happened once and in one direction, maybe being pulled towards the twin with greater mass.. But even so, surely the twin bearing the oceans of sand would have more mass..?</Page>
+         <Page>And for the sand to travel back and forth, in such an orderly column along the equator.. Surely there must be more to how this phenomena occurs that we haven't figured out.</Page>
+                    <Page>Hm...</Page>
+           <Page>In any case, I'd better set up camp and get started on the star charts before I get completely distracted.</Page>
+                <Page>The sand's filling up Ember Twin rapidly right now, anyways.. I'll try launching my Little Scout to scout more of the planet remotely before the planet gets completely engulfed in sand.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+</DialogueTree>

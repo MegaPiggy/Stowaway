@@ -1,0 +1,20 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		COLEUS: None that Melorae have told me of! They look mesmerizing, bobbing up and down <![CDATA[<color=orange>on the surface of the water..</color>]]> I cannot wait to bring news of our discoveries here back home to Brittle Hollow and Ember Twin!
+		</Text>
+	</TextBlock>
+	
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>SF Jelly R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+
+</NomaiObject>

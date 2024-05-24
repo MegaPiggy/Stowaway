@@ -1,0 +1,46 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<![CDATA[<i>solely</i>]]>
+	
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		ANNONA: Bur, the sand is rising rapidly. I fear we have spent too long studying this grotto. We must return to the city before sand floods into the city; or worse, before it traps us!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		ANNONA: Abandon your equipment and run! There's no time to waste!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		BUR: Annona, look! Some of the equipment is <![CDATA[<color=orange>rising with the sand!</color>]]> As I thought, there <![CDATA[<i>are</i>]]> objects other than the shuttle that <![CDATA[<color=orange>float to the surface of the sand!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		ANNONA: A fascinating discovery, Bur. Now, if you do not wish to learn if one can survive being compressed into the ceiling like our lifeless equipment, please, come at once!
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC EX2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

@@ -1,0 +1,75 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		LAMI: Mr Daz, Mr Daz! Is it true you're the one who makes all our scrolls, projection stones? Even the cool recording discs?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		DAZ: That is correct! Phlox is the one who sculpts them into shape, but I am the one who has the (exciting) task of installing memory storage systems into each device to allow them to compactly store information.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: The new memory statues collaborated on by Phlox and I use a more sophisticated version of my memory storage system, writing and transmitting memories to and from the <![CDATA[<color=orange>Ash Twin Project</color>]]> back to Nomai synced to them!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		DAZ: In fact! I have secretly been prototyping <![CDATA[<color=#99B200ff>a new type of projection stone</color>]]> that will allow users to be synced to the destination projection pools, allowing us to explore beyond projection pools freely. 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		LAEVI: Ooh! Mr Daz, would you have a projection stone that allows us to explore inside the <![CDATA[<color=orange>Deep Storm Station?</color>]]> We just want to see what the inside looks like badly!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		DAZ: Oh? I'm surprised you younglings are interested in the <![CDATA[<color=orange>Deep Storm Station.</color>]]> Regardless, I'm happy to facilitate your curiosity! This one won't allow you to move around outside the projection pool, but I hope it will sate your curiosities!
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		TAGET: Also, Mr Daz! Could we take one of these special-looking recording discs with us? Lami wanted to um.. record music he made with his staff!
+		</Text>
+			</TextBlock>
+	<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		DAZ: Oh, not the white one, I'm afraid! Those are some of the original recorders from the <![CDATA[<color=orange>crash,</color>]]> and are very special to me. But feel free to take one of the others!
+		</Text>
+		</TextBlock>
+	<TextBlock>	
+	<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>
+		DAZ: Promise me that you three won't just use it to prank Ilex again with some loud noise recorded on it. He's cross enough at you three for scaring him in the night with sounds of crashing meteors from Hollow's Lantern!
+		</Text>
+			</TextBlock>
+</NomaiObject>

@@ -1,0 +1,109 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		COLEUS: Friends, the forge is asking for one last shipment of ore to be delivered to <![CDATA[<color=lightblue>Hollow's Lantern</color>]]>. We must work quickly, as construction begins soon!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CYCAD: Isn't the construction of <![CDATA[<color=lightblue>Ash Twin's</color>]]> protective shell complete? What will this new shipment of ore be used for?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		COLEUS: In the construction of the <![CDATA[<color=orange>Sanctuary,</color>]]> of course!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		COLEUS: Even though it was formed here, the ore still requires treatment at <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> to reach its full capabilities.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		OENO: And thanks to the <![CDATA[<color=orange>new projection stone</color>]]> Daz has developed, we won't have to wait for the installation of a warp receiver before sealing the <![CDATA[<color=orange>Sanctuary's</color>]]> exterior!
+				</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		CYCAD: What? But how will anyone enter the <![CDATA[<color=orange>Sanctuary</color>]]> once it is sealed, without a warp receiver installed inside?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		OENO: You should visit the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on <![CDATA[<color=lightblue>Giant's Deep</color>]]> sometime to learn about Daz's work, Cycad - seeing as we will be using his new voyager stone to access the <![CDATA[<color=orange>Sanctuary!</color>]]>
+				</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		COLEUS: Additionally, the site for the <![CDATA[<color=orange>Sanctuary's</color>]]> construction was chosen specifically to make use of a quantum shard that travels inside it.
+				</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		COLEUS: As the site is located in a cavern within the planet's groundwater pools, we will need to put extra eyes into carefully reinforcing the walls of the <![CDATA[<color=orange>Sanctuary.</color>]]>
+				</Text>
+	</TextBlock>
+	
+		<TextBlock>
+		<ID>10</ID>
+		<LocationA />
+		<ParentID>9</ParentID>
+		<Text>
+		CYCAD: We should start as soon as we can, then. If it means we can ensure the safety of the native lifeforms without increasing the <![CDATA[<color=orange>Black Hole Forge's</color>]]> workload, all our efforts will be worth it!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<LocationA />
+		<ParentID>10</ParentID>
+		<Text>
+		COLEUS: I am glad to hear your enthusiasm!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<LocationA />
+		<ParentID>11</ParentID>
+		<Text>
+		COLEUS: Is everyone rested up? Then let us begin our work shortly, my friends!
+		</Text>
+	</TextBlock>
+	
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>Nomai Mine Entry 2</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

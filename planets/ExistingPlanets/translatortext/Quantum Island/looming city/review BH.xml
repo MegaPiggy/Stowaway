@@ -1,0 +1,14 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>KOUSA: Coleus, I deeply enjoyed your small gallery of our clan's history upstairs! It was heartwarming to admire them with my children. But of note: I noticed one or two of the photos appeared to be mislabelled!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_M EX2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

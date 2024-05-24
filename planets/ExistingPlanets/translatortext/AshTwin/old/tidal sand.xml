@@ -1,0 +1,116 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<![CDATA[<i>solely</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PLUME: We have quite some time until the sand will begin to traveling back to Ember Twin. How are you enjoying your first visit to the Sunless City so far, Phlox?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PHLOX: I love it! I've made so many new friends today. They taught me how to play the fossil fish game, and I showed them how to make sand dwellings! But..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		PHLOX: Papa, why does the sand here go to Ash Twin sometimes, then back to Ember Twin? Why can't it just stay on Ash Twin all the time? I didn't want to ask the Nomai here because I didn't want to look silly..
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		PLUME: My son, there is <![CDATA[<i>never</i>]]> shame in wishing to learn. You see, the sand stream is simply being guided by the forces of <![CDATA[<color=orange>gravity.</color>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		PLUME: You see, as the Hourglass Twins orbit around each other, their orbit <![CDATA[<color=orange>aligns</color>]]> both planets <![CDATA[<color=orange>along a straight line with the sun.</color>]]>
+	</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		PLUME: Since the Hourglass Twins are the closest planets to the sun, the twins feel the sun's great pull of gravity much more strongly than the rest of the solar system's bodies.
+	</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		PLUME: During this alignment with the sun, the twin farther from the sun feels not only <![CDATA[<color=orange>the sun's pull of gravity</color>]]>, but also <![CDATA[<color=orange>gravity from the twin closer to the sun</color>]]> pulling it in the same direction!
+</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		PLUME: These <![CDATA[<color=orange>combined tidal forces from the sun and another body</color>]]> cause an extraordinarily strong pull of gravity, causing sand to be funneled towards the other twin.
+	</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+ 		PLUME: The alignment also causes an <![CDATA[<color=orange>eclipse</color>]]> as the body closer to the sun blocks out its light; hence why this phenomenon is called the <![CDATA[<color=orange>sunless tide!</color>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+ 		PHLOX: <![CDATA[<i>Woah...</i>]]> That's so much cooler of an explanation than I thought it would ever be, papa! I always thought there was some horrible monster behind the sand..
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<LocationB />
+		<ParentID>10</ParentID>
+		<Text>
+ 		PLUME: Is it now? You've piqued my curiosity! What did you imagine caused the sand transfer up to now, my brilliant little dwarf star?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<LocationB />
+		<ParentID>11</ParentID>
+		<Text>
+ 		PHLOX: Um.. I always thought maybe there were sand monsters in both planets that eat a bunch of sand, and regurgitate it at each other because they hate living in sand. Or maybe.. <![CDATA[<i>Hey,</i>]]> why're you laughing, papa? <![CDATA[<i>Papa!</i>]]>
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_C EX2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

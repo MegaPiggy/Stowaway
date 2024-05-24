@@ -1,0 +1,50 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: Daz, if you have come to visit me again as I predicted, I have returned to the Construction Yard for some impromptu work. Please wait here in my dwelling for me, or come find me at the yard if your patience runs dry!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CASSAVA: Of note: If you are able, I would also love if you could fetch your tools to modify a scroll wall at the yard. I had an idea to expedite our workflow at the yard!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		CASSAVA: I would like you to modify the scroll wall to be writable from <![CDATA[<color=orange>both front and rear ends.</color>]]> This would allow us to condense more information into a single scroll, and more conveniently update schematics as we iterate!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		DAZ: You are too sharp, my love! I came to ask for your help in untangling another orcnid on Bramble Island.. So many become trapped on the bramble vines under the island..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		DAZ: I know this isn't your favorite pasttime.. But we must help these poor creatures! And with <![CDATA[<color=#99B200ff>my new invention,</color>]]> I believe this will be <![CDATA[<color=orange>a much easier and safer</color>]]> affair for us as well!
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		CASSAVA: Oh, thank goodness! I dread the possibility of being zapped yet again, no matter how many precautions I take..
+		</Text>
+			</TextBlock>
+</NomaiObject>

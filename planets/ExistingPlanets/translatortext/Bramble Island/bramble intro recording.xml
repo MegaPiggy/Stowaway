@@ -1,0 +1,65 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		MELORAE: Goodness! Is this entire island simply a great glacier of ice and vines?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>
+		PLUME: Hypothesis: distance from the sun's heat must have insulated this tremendous fragment of ice from melting. But.. These vines..
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		PLUME: Beware your steps as we explore this island, my friends.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		COLEUS: Friends, there are tentacled species preserved within this large glacier, which undoubtedly originated from Dark Bramble! What could this mean about the tentacled species' origins..?
+		</Text>
+	</TextBlock>
+	
+		<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		THATCH: What a fascinating discovery.. I would love to spend some time studying these frozen specimens in detail, if the storms allow us the time to.
+		</Text>
+		</TextBlock>
+
+		<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>MELORAE: This island appears to be safe from cyclones for some time. Friends, let us quickly travel to some higher elevation on this island a study these frozen specimens!
+		</Text>
+	</TextBlock>
+
+
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>GM_EX2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

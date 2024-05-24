@@ -1,0 +1,40 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		IDAEA: I do not understand.. Why have we warped to Statue Island? I was certain the Nomai here would have deactivated this warp receiver in preparation of hosting visitors to see the test today..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PYE: Idaea, a cyclone approaches! Let us return to the warp tower back on <![CDATA[<color=lightblue>Ash Twin</color>]]> to wait for Poke; perhaps she will know how to show us to the <![CDATA[<color=orange>Deep Storm Station!</color>]]>
+		</Text>
+	</TextBlock>
+
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Cliff R3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>Tower R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Tower R2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>DSS R5</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

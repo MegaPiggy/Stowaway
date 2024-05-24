@@ -1,0 +1,59 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: My love, I believe this <![CDATA[<color=orange>voyager stone to Bramble Island</color>]]> might be defective - I seem unable to project to its destination!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		DAZ: I believe you are using a voyager stone to <![CDATA[<color=orange>the submerged plane of Bramble Island,</color>]]> my love! That is why the vessel is being dissolved instantly on connection. Try the other stone instead!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		CASSAVA: Daz, the second voyager stone functions as expected, transporting my vessel to the dry plane of Bramble Island.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		CASSAVA: However, during my voyage, I noticed the <![CDATA[<color=orange>storm shelters on Bramble Island flickering on and off.</color>]]> Could they be in need of repairs?
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		DAZ: An update: I checked the storm shelters on the island, and they appeared to be functioning normally now. I imagine they were simply <![CDATA[<color=orange>attempting to activate as the sun orbited directly overhead!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		DAZ: If you visit the island now, you'll see the <![CDATA[<color=orange>solar tide</color>]]> from the sun washing higher on the island's shores. The light from the sun must be barely reaching the solar panel, causing the storm shelters to flicker!
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Workshop Locked EX3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

@@ -1,0 +1,75 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		LAMI: Wow, Poke.. Are we here to slide down these awesome artificial gravity ring slides?!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		POKE: Of course we are, Lami. Hold still - I think your mask is slipping a little.. I must make sure you do not asphyxiate while we wait for your aunt and Idaea to arrive!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>
+		POKE: Wait, no we aren't! This is the <![CDATA[<color=orange>Construction Yard,</color>]]> Lami. We've been invited here to observe a <![CDATA[<color=orange>test</color>]]> the Nomai here on Giant's Deep are conducting today.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		LAMI: Aw... But you promised we were going to see something really cool, right? Let's go, let's go!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		POKE: What could be taking Pye and Idaea so long? Perhaps I should travel back to the warp pad to make sure they haven't met with trouble.. Lami, don't you want to wait for Aunt Pye to arrive, so we can go together?
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		LAMI: Nope!
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		POKE: I hope you can forgive your nephew, Pye. Alright Lami, come along! I'll leave you in the others' care while I return to <![CDATA[<color=orange>Statue Island</color>]]> to fetch your silly aunt and her lover.
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		IDAEA: Poke, please <![CDATA[<i>never</i>]]> refer to me as Pye's "lover" again.
+		</Text>
+ 			</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>DSS R1</FactID>
+			<Condition>3, 4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

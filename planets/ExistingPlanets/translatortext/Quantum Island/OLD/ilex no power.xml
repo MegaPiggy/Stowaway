@@ -1,0 +1,59 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		ILEX: How strange.. I have arrived on this island to begin my quantum pilgrimage, but there does not appear to be any way into this colossal tower I can see.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		ILEX: I can barely see the anchor of a tractor beam high above, which should reasonably be the path to ascend to the top - but it appears to be inactive. Ugh, how troubling.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>
+		ILEX: Solanum, I am going to explore this island for clues to a method of entry into the tower and take my mind off things. Please look for me if you have already arrived.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		SOLANUM: Ilex, this is why Bells told us to visit her for instructions before departing for Giant's Deep.. You must be less afraid to visit and talk with her!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		ILEX: Oh.. I admit, I was feeling a little brash and moody today. A walk along this serene beach has calmed my mind well. Wait - the tractor beam is working now! Were you the one who activated it, Solanum?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		SOLANUM: Of course. While you were exploring the island, I was launching repeatedly here from Brittle Hollow. I believe I noticed an audience on the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> watching me continue to fail to land here precisely.. 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		SOLANUM: Regardless, I am glad you are feeling better, my friend. Come, let us make haste to the trial! Conoy told me of an exciting <![CDATA[<color=orange>secret within the tower</color>]]> I wish to investigate, after both of us have completed the trial...
+		</Text>
+	</TextBlock>
+</NomaiObject>

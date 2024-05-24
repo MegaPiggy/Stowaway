@@ -1,0 +1,124 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>bro the qm locator clue went so many iterations i hate it, just wrote the newest version that i think is going to stay and pretty happy with it tho</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		BELLS: Conoy? I was told you and Spire had set off to Giant's Deep to begin your quantum pilgrimages. Why have you returned?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CONOY: I have completed the trial already! But I return here to um... To...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		CONOY: To follow some advice Pye gave us for reaching the Quantum Moon, since Spire and I are both dreadful at calculating shuttle trajectories..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		BELLS: Your skill is nothing to be ashamed of, Conoy. The warp towers have made travel between planets much more convenient, haven't they? The time when shuttle calculations were paramount to master for travel is now long behind us.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		BELLS: But more importantly, we all begin a new skill somewhere - the important thing is to continue perservering, seek advice on your failings, and improve.
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		BELLS: Still, I am curious: what advice did Pye give to you that brought you back here?
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		CONOY: She said that if we <![CDATA[<color=orange>left a set of eyes stationed at the Quantum Moon locator,</color>]]> we would be able to locate and <![CDATA[<color=orange>lock the moon easily and remotely,</color>]]> giving us more time to calculate the trajectory in peace.
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		BELLS: Oh dear, Conoy. I suspect Pye meant the <![CDATA[<color=orange>Quantum Moon locator on Ember Twin's south pole,</color>]]> not this more rudimentary locator within our tower!
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>
+		BELLS: Unlike this locator, the locator on Ember Twin tracks even the positions of each planet in real-time! I am sure you would find it far more useful in helping you seek the Quantum Moon's current whereabouts for your journey.
+		</Text>
+			</TextBlock>
+				<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>
+		BELLS: Additionally, the night sky is almost entirely obstructed in this tower. If you have completed the trial, you should know that will make trying to lock the Quantum Moon in place much more difficult!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>
+		CONOY: I shall travel to the locator on Ember Twin at once, then! But Bells, I must inquire: What.. <![CDATA[<i>is</i>]]> the purpose of this locator, then..?
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>
+		BELLS: We would have built our locator on the surface of the planet as well, were it not for meteor impacts that would damage the device's instruments!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<Text>
+		BELLS: But more importantly, there is one detail this locator has that the one on Ember Twin lacks...
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>14</ID>
+		<ParentID>13</ParentID>
+		<Text>
+		CONOY: <![CDATA[<i>The sixth location...!</i>]]>
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>15</ID>
+		<ParentID>14</ParentID>
+		<Text>
+		CONOY: I.. I see. I must set off at once. Be well, Bells!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>15</ID>
+		<ParentID>14</ParentID>
+		<Text>
+		BELLS: Be curious on your journey, Conoy.
+		</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,90 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<![CDATA[<i>solely</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		MELORAE: I must admit, a tinge of dread fills me slightly, every time I see you disappear with the quantum shard, Coleus.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		COLEUS: Melorae, you musn't let that incident weigh on you so! It was mostly my own fault getting <![CDATA[<i>carried away</i>]]> experimenting with my findings.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		MELORAE: Oh.. Your puns never fail to make me groan, Coleus.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		MELORAE: I may not be able to rival your puns, but shall I take another flattering photo for your lovely gallery upstairs in the Museum Chamber, my dear apprentice? I'll give you a 3-second countdown...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		COLEUS: I plead you not to, Melorae, I look a complete mess right now! I shall escape on the quantum shard before your camera captures me!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		MELORAE: Hah! Too late, my dear apprentice. A new exhibit will be added to the museum shortly..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		MELORAE: Coleus? Is something the matter?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>COLEUS: Melorae, the quantum shard seems unable to move all of a sudden. Even with your back turned and my eyes closed, the shard seems to be.. Is it locked in place?
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>MELORAE: How intriguing! The shard truly no longer desires to move. We have never observed this phenomenon before. Could my observing of this photo somehow be.. locking the quantum shard in place?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		COLEUS: Hypothesis confirmed! <![CDATA[<i>Hypothesis confirmed!</i>]]> Melorae, you've discovered a new quantum rule! My mentor and I are officially the greatest quantum geologists of our clan!
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_C EX2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

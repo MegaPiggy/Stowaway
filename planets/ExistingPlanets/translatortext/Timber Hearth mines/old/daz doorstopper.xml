@@ -1,0 +1,51 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: I am devastated by the loss of each one of you I was too foolish to protect. But I promise, I will do all I can to protect your friends... Rest well in this faith.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		CASSAVA: Soon, it will be safe to roam and explore this beautiful planet, and look into the sky of stars with your four eyes again... I could never rest well, leaving your adventurous spirits confined underwater.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		CASSAVA: Someday, your species may even someday explore even beyond this planet. Perhaps you may even discover the ruins, stories, and many discoveries my clan has made.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>
+		CASSAVA: But to allow that possibility to ever take form, I must first take my leave from this world.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		CASSAVA: Do not weep for the past. Look to the present and the future... and be curious on your journey.
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>Nomai Mine Entry 3</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+
+</NomaiObject>

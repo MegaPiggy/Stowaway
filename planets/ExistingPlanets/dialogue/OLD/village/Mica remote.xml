@@ -1,0 +1,14 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Mica</NameField>
+
+	<DialogueNode>
+		<Name>ModelRocketKid_Alarm</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Heey! What's the rush, astronaut? Don't ya wanna chat one last time before you disappear into the stars?</Page>
+		</Dialogue>
+
+	</DialogueNode>
+	
+</DialogueTree>

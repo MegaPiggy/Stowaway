@@ -1,0 +1,71 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		THATCH: Friends, I.. I believe we should be safe here for now. But whatever is happening to the island? Is it.. beginning to <![CDATA[<i>sink?</i>]]>
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		COLEUS: Thank goodness we were able to reach this high cove. The island has become nearly <![CDATA[<color=orange>swallowed by the ocean!</color>]]> Oh, Plume.. Please return with the shuttle soon...
+		</Text>
+		</TextBlock>
+<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		MELORAE: ..The island appears to have returned to stable buoyancy on the surface again! How strange.. This phenomenon appears far too extreme to be caused by normal tides.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		THATCH: Wait... Melorae, Coleus, <![CDATA[<i>look!</i>]]> <![CDATA[<color=orange>The tentacled species are finally visiting the surface of the planet again</color>]]> at this very moment!
+		</Text>
+	</TextBlock>		
+<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		MELORAE: So they are! I wonder.. Could this <![CDATA[<color=orange>phenomenon of the sinking islands,</color>]]> and that of the tentacled species rising to the surface be <![CDATA[<color=orange>correlated</color>]]> in some way?
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA />
+		<Text>
+		COLEUS: What an intriguing hypothesis! However, as we did not encounter this phenomena when we were greeted by the tentacled species on our first expedition, I'm afraid this link should be treated as mere coincidence for now.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationA />
+		<Text>
+		THATCH: Even so, I believe the cause of this phenomenon is worth investigating! With a more informed view of this planet and its natural phenomena, I believe we will be closer to understanding the <![CDATA[<color=orange>surfacing phenomenon</color>]]> as well.
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Gravshop Bramble Island</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CJelly EX4</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

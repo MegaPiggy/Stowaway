@@ -1,0 +1,25 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>RECORDING</NameField>
+
+<DialogueNode>
+    <Name>GabbrosNote</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Huh... So you were here before huh, Spar?</Page>
+      <Page>Man.. I ought to radio Hornfels about this later, I guess. Maybe we might find out what happened to you if we track down where you were headed..</Page>
+      <Page>Nice of you to leave me a campfire and some fuel here. Saves me making a new campfire to give this island a score on the Gabbro Relaxation Scale.</Page>
+      <Page>Ah, that's the stuff. Toasty marshmallows and a warm fire on this cold planet.. *Yawn*</Page>
+       <Page>Sweet dreams, Spar. Wherever you are...</Page>
+      <Page>.....</Page>
+       <Page>..Snerk. Whuh?</Page>
+       <Page>Woah.. <![CDATA[<i>Woah.</i>]]> Where am I? What's happening? I'm floating!</Page>
+         <Page>Stars, a cyclone must have picked up the island while I was asleep!</Page>
+         <Page>..Whooof. Lucky that cyclone woke me up when it did, or that could've been real bad..</Page>
+          <Page>Guess you can't sleep through a cyclone! Those Hearthian instincts are <![CDATA[<i>good.</i>]]></Page>
+         <Page>Or maybe Feldspar woke me up before I joined them..? Heh.</Page>
+           <Page>Thanks for looking out for me, Spar. See you in the stars.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

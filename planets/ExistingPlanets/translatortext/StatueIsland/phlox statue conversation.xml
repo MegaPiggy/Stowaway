@@ -1,0 +1,68 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		DAZ: Phlox, when you have time to spare after toiling away at your statues, I require more flat templates soon to craft more projection stones!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PHLOX: Of course! I enjoy the simplicity of sculpting those templates for a change. But did I not deliver you several stacks of templates recently?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: The voyager stone's development is nearing completion! I require more templates to craft and test more projection locations before I can be confident in its use.
+			</Text>
+	</TextBlock>
+			<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: You should pair with a memory statue too, so you can test out the voyager stone sometime, Phlox!
+		</Text>
+	</TextBlock>
+				<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		PHLOX: Oh, I was not aware one needed to be paired to the memory storage system to use them! Is there any reason why that is a prerequisite?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		DAZ: The voyager stones are designed to work with the memory storage system so that memories are stored and transferred to the individual, allowing them to <![CDATA[<color=orange>explore remotely beyond a projection pool.</color>]]>
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		DAZ: Without the individual being manually paired to a memory statue first, I'm afraid the voyager stone would be little more than an ordinary projection stone in function!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Workshop R4</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+	
+</NomaiObject>

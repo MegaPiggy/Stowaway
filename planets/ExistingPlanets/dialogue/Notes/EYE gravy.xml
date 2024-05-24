@@ -1,0 +1,26 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>SIGN</NameField>
+
+<DialogueNode>
+    <Name>Crystal</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>A Nomai survived the arrival of the Interloper that killed the rest of the Nomai, aboard the Deep Storm Station at the heart of Giant's Deep.</Page>
+       <Page>Using an advanced projection stone, they were able to travel outside safely and study the properties of ghost matter engulfing the star system.</Page>
+       <Page>The Nomai, consumed by their grief, then constructed a superweapon composed of gravity crystals inspired by the comet that had annihilated their clan - intent on recreating and firing an even more destructive weapon towards the source of the Interloper.</Page>
+      <Page>However, upon realizing that the star system's native life had survived underwater, but were in imminent danger of complete extinction caused by ghost matter, they were spurred to repurpose their craft to protect the lifeforms instead.</Page>
+      <Page>Using the Inspired's artificial gravity, they siphoned as much ghost matter as they safely could from the star system onto the weapon, and warped it into the Deep Storm Station to contain it safely, destroying the weapon and sacrificing themself in the process.</Page>
+      <Page>It was thanks to their efforts that our ancestors were able to survive and evolve into a world largely safe of ghost matter.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Crystal NOPE</Name>
+    <EntryCondition>No Crystal</EntryCondition>
+    <Dialogue>
+      <Page>We were never able to learn how our ancestors survived the arrival of the Interloper.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

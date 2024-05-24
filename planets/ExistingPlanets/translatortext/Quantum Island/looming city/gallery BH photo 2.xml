@@ -1,0 +1,15 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>COLEUS: Our friends on Brittle Hollow constructed an immensely impressive web of structures across the planet using their artificial gravity technology. We often became lost trying to navigate the planet's undercrust paths!</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_M EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

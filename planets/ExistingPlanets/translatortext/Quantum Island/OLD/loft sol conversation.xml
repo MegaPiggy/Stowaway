@@ -1,0 +1,83 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		ILEX: What a stellar landing, Solanum! Even if I'd known the key to powering the tower, I would still have found difficulty calculating such a precise landing through Giant's Deep thick atmosphere.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		SOLANUM: Bells was the one who guided me on how to enter the tower, Ilex. You wouldn't have been stuck outside the tower if you remembered to visit her before departing!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		SOLANUM: You should enter and take the trial first, Ilex! Conoy told me of a secret within the tower I would like to investigate during my attempt of the trial.
+			</Text>
+	</TextBlock>
+			<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		ILEX: Oh? A secret within the tower? Do you imagine I might be able to find it during my trial without assistance?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		SOLANUM: I'm afraid that is highly unlikely! Conoy said we would need to <![CDATA[<color=orange>collaborate</color>]]> in this endeavour: The tower must be <![CDATA[<color=orange>powered down again</color>]]> to find this secret!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		ILEX: <![CDATA[<color=orange>Power down</color>]]> the tower..? Oh! Would one of us recall the shuttle away from the landing pad, while the other waits atop the tower?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		SOLANUM: Precisely on the planet's poles, Ilex! That is why I would like you to complete the trial first; I would not like to have to calculate another precise shuttle trajectory back here!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		ILEX: But that means.. Would only one of us get to see the secret then..? 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>
+		SOLANUM: Well.. I could take a photo of it for you to see! While I investigate, you could visit our old friends from Sunless City over at their dwellings on Statue Island!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<LocationA />
+		<ParentID>9</ParentID>
+		<Text>
+		ILEX: A <![CDATA[<i>photo?</i>]]> Solanum, how would you feel if I told you about an exciting secret, asked you to return home as I explored it - then only showed you a photo of it taken <![CDATA[<color=orange>in the dark?!</color>]]>
+		</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,67 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PHLOX: Ah, how quickly time passes! I cannot help but feel strange exploring my old dwelling as I undertake the quantum trial. See if you can figure out which chamber was my chamber of rest during the trial, friends!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		DAZ: A boulder on the landing pad... I can't believe that worked! You're a genius, Cassava!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		CASSAVA: Ah, imagine being patient enough to calculate shuttle trajectories to a location obscured by an atmosphere, Daz. Write on this wall if you were smart enough to think beyond the box, friends!
+			</Text>
+	</TextBlock>
+			<TextBlock>
+		<ID>4</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>
+		MALLOW: We finally made it up... Good luck on the trial, to those reading this. Goodness, I just want to get this over with.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		AVENS: T-that second landing was stellar though, Mallow! Did you want to go first, or.. you know... We could undertake the trial together...
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		MALLOW: Sure, let's enter together. The instructions were to enter without <![CDATA[<i>friends,</i>]]> after all.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		SPIRE: Oh, my. It seems those two lovebirds had a much rockier past than their present-day gooeyness would suggest. Do you have anything to write before you speed through this trial, my brilliant friend?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		CONOY: Well, they still somehow got married before Mr Daz and Mr Cassava did.. And yes! I wish to see if I can apply the <![CDATA[<color=orange>rule of quantum entanglement</color>]]> anywhere in this trial! Always think beyond the box, my friends!
+		</Text>
+	</TextBlock>
+</NomaiObject>

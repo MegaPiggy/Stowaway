@@ -1,0 +1,68 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Galena</NameField>
+
+	<DialogueNode>
+		<Name>ShyKid1</Name>
+	
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>You look like you have something to ask me, Galena.</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ShyKidNew1</Name>
+		<Dialogue>
+			<Page><![CDATA[<size=20>]]>Um...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Is it true that all the travelers carry around a Little Scout on their spacesuits?<![CDATA[</size>]]></Page>
+		</Dialogue>
+		<DialogueOptionsList>
+		<DialogueOption>
+				<Text>Yep, and a scout launcher to launch scouts with.</Text>
+				<DialogueTarget>ShyKidNew2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ShyKidNew2</Name>
+		<Dialogue>
+			<Page><![CDATA[<size=20>]]>Then...<![CDATA[</size>]]></Page>
+				<Page><![CDATA[<size=20>]]>Could you <![CDATA[<color=orange>shoot your Little Scout down</color>]]> and leave it in the village, astronaut?<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>If you ever get lost and don't know where you are, maybe Slate could use the scout’s signal to find where you are, and we’d be able to send help to you..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>That way.. <![CDATA[<Pause>]]> You won’t go missing like Feldspar did.<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>And since the Little Scout stays in the village...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>If you ever miss us, you could <![CDATA[<color=orange>use the Little Scout to take pictures</color>]]> of the village and see us.. <![CDATA[<color=orange>even when you’re far away</color>]]> from Timber Hearth.<![CDATA[</size>]]></Page>
+		</Dialogue>
+			<DialogueOptionsList>
+		<DialogueOption>
+				<Text>But what if I find ghost matter and need my scout to see where it’s safe to walk?</Text>
+				<DialogueTarget>ShyKidNew3</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>That's a sweet idea. Thank you, Galena.</Text>
+				<DialogueTarget>ShyKidNew4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>ShyKidNew3</Name>
+		<Dialogue>
+			<Page><![CDATA[<size=20>]]>Um.. Carry a second Little Scout...<![CDATA[</size>]]></Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ShyKidNew4</Name>
+		<Dialogue>
+			<Page><![CDATA[<size=20>]]>You're welcome...<![CDATA[</size>]]></Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+</DialogueTree>

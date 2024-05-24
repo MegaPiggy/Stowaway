@@ -1,0 +1,59 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>CASSAVA: Of note: the <![CDATA[<color=orange>concentration of matter</color>]]> on this island is <![CDATA[<i>significantly weaker</i>]]> than recorded on previous visits.. What has happened?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>CASSAVA: This is highly noteworthy. Potential method of neutralizing <![CDATA[<color=orange>matter</color>]]> long-term? <![CDATA[<i>To do:</i>]]> check on concentration on other islands for control comparison.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>CASSAVA: An update: concentration on the forested cliffs of Statue Island appears to have also greatly diminished, though that of the other islands have not.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>CASSAVA: Are there any notable properties shared by these two islands? Further investigation needed.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>CASSAVA: Could large populations of <![CDATA[<color=orange>plantlife</color>]]> on these two islands be the cause of these lower concentrations of matter?
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>CASSAVA: Though I had noted their immunity against the matter, if plantlife might also have an affinity for absorbing and neutralizing the matter, this could be a groundbreaking discovery...</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>CASSAVA: Hypothesis: a voyage to <![CDATA[<color=orange>Timber Hearth</color>]]> will be able to prove the validity of this theory.</Text>
+			</TextBlock>
+
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>GM_R3</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>GM_EX3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

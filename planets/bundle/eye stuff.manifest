@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 520362439
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e8664125c28013721735ef956ffb9c78
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 62870bdc70aa3af3235f2389d8f8f5aa
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Models/STOWAWAYS EYE/Props_NOM_Skeleton_Med_PileA_geo.prefab
+- Assets/Models/STOWAWAYS EYE/DetailPatch_Fol_GM_Clutter (2).prefab
+- Assets/Models/STOWAWAYS EYE/Effects_IP_PrisonWater.prefab
+- Assets/Models/STOWAWAYS EYE/Cracked Crystal.prefab
+- Assets/Models/STOWAWAYS EYE/Hearthian Fossil.prefab
+- Assets/Models/STOWAWAYS EYE/DetailPatch_Fol_GM_Clutter (1).prefab
+- Assets/Models/STOWAWAYS EYE/dead jellyfish 2.prefab
+- Assets/Models/STOWAWAYS EYE/GEO_NomaiTree_3_Trunk.prefab
+- Assets/Models/STOWAWAYS EYE/blue light.prefab
+- Assets/Models/STOWAWAYS EYE/copper holder.prefab
+- Assets/Models/STOWAWAYS EYE/Cracked Crystal body.prefab
+Dependencies: []

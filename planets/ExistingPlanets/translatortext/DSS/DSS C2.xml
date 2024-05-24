@@ -1,0 +1,72 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: It has been some time. Though my grief barely wanes, I have decided to learn what I can about the deadly matter in the time I have left.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+			CASSAVA: I was able to complete the expedition that Poke, Pye and Clary gave their lives to.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+			CASSAVA: My sinking suspicions were confirmed by their findings... Yet, more questions have been raised than answered.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+			CASSAVA: Was this matter artificially created, or natural in its origin? How did the incredible pressures that kept its contained remain stable? Was it simple coincidence that brought it to this star system?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+			CASSAVA: To produce such pressure, artificial gravity could theoretically produce and maintain an inward force strong enough to create a consistent source of pressure...
+		</Text>
+	</TextBlock>
+<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+			CASSAVA: Suppose one were to craft a vessel composed of gravity crystals pointing towards a central point. Such a vessel could be capable of capturing the deadly matter again, and perhaps return it to its source...
+		</Text>
+			</TextBlock>
+<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+			CASSAVA: All of a sudden, I feel exceedingly... inspired.
+		</Text>
+			</TextBlock>
+
+			
+<ShipLogConditions>
+	<RevealFact>
+			<FactID>Deep Storm Station ENTERED</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DSS R6</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

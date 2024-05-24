@@ -1,0 +1,57 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		OENO: Daz, I have been enjoying using your voyager stones! It is much fun to explore and visit other planets with such ease.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB />
+		<Text>
+		OENO: However, there was a notable and strange experience I had, if you are able to illuminate its mystery!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		OENO: Once, when Coleus was voyaging into the <![CDATA[<color=orange>Sanctuary</color>]]> to reinforce its walls, instead of voyaging there, he was transported to Timber Hearth's surface - nowhere near the projection pool inside!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		OENO: Furthermore, I began to experience strange.. visions from his voyage, despite him being the one using the voyager stone..
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		OENO: Could there have been some sort of mix-up with our memory statues while using the voyager stone? I would love if you could look into this incident sometime!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Workshop EX2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Workshop EX3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

@@ -1,0 +1,115 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PLUME: Kousa, it has been a while! I see you are as diligent as ever, collecting gravity crystals for the <![CDATA[<color=orange>Gravity Crystal Workshop!</color>]]>
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		KOUSA: Ah, Plume, my old friend! Work has been much easier with young Cassava as my apprentice to lend an appendage, allowing me energy to spend on more laborious tasks!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		PLUME: What brings you here, my friend?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		PLUME: Why, to marvel at and learn about your invention to <![CDATA[<color=orange>protect the expedition team from the ocean planet's cyclones,</color>]]> of course! Where is this invention of yours, my friend?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		KOUSA: Ah, did you not hear the <![CDATA[<color=orange>storm shelter</color>]]> in my dwelling on the surface activating? Perhaps you were unlucky enough to miss it, as it only <![CDATA[<color=orange>activates in presence of sunlight!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA />
+		<Text>
+		PLUME: I believe I saw sunrise on the planet as I visited the workshop, but perhaps I simply failed to notice the device's awakening!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationA />
+		<Text>
+		KOUSA: No.. The storm shelter's awakening is quite hard to miss! Hm.. This may be presumptous, but this is not the first time this has happened. I am concerned I might have already found a fatal flaw in my invention's design.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationA />
+		<Text>
+		KOUSA: The storm shelters are <![CDATA[<color=orange>powered by solar panels</color>]]> from the Sunless City, allowing the shelter to power on and off autonomously when the ocean planet's islands are flung into orbit and detect sunlight.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<LocationA />
+		<Text>
+		KOUSA: I suspect the meteor impacts that caused my bountiful harvest today may have <![CDATA[<color=orange>damaged the solar panel</color>]]> outside my dwelling, <![CDATA[<color=orange>disabling the storm shelter completely.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<LocationA />
+		<Text>
+		KOUSA: But if that's the case, that would mean that the solar panels are vulnerable to damage, and may require frequent maintenance to maintain the shelters' use...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<LocationA />
+		<Text>
+		PLUME: Come now, you must have faith in your invention, Kousa! I am confident I must have simply missed the awawkening of this storm shelter.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<LocationA />
+		<Text>
+		PLUME: Besides, as long as we install these solar panels in a high and remote area on the ocean planet's islands, they should be safe from impacts that could damage them in such a way!
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>GSHOP EX1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>GSHOP EX2</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>GDWELL R1</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

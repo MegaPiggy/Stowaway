@@ -1,0 +1,51 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CONOY: So this is the fabled <![CDATA[<color=orange>Tower of Quantum Trials..</color>]]> I am ashamed to have had difficulty locating such a colossal structure, frankly!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		SPIRE: Goodness! Was this enormous structure truly built <![CDATA[<i>solely</i>]]> to house a quantum trial? I am most guilty of indulging creative impulses from time to time myself - but this seems terribly excessive!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		CONOY: Oh, not at all, Spire! According to Bells, this space (where no cyclones roam) was once scouted by the pioneers from Brittle Hollow and Ember Twin as an ideal place for a dwelling.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		CONOY: The tower was carved out of a large mountain to house all Nomai who would be working on Giant's Deep. Its construction invited more Nomai to visit, some of whom would stay and continue their work on this planet!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		CONOY: However, for reasons unknown to me, the tower was eventually abandoned as a place of dwelling.. and repurposed to house the quantum trial instead. Bells had urgent business to attend to before I could inquire more.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		SPIRE: How delightfully fascinating... But I must wonder! What circumstances could have compelled the pioneers to abandon this colossal dwelling they'd worked so hard on?
+		</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,67 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		LAEVI: Ilex! I didn't know you were visiting us today! It's a shame it's storming so terribly today.. The rain has become deafening outside! Good thing you have your staff, so we can talk through writing!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		ILEX: I cannot imagine how you live on Giant's Deep with storms like these.. Even the rare meteors storms from Hollow's Lantern cannot compare to this dreadful noise! Is it all you can do to play indoors until the storm calms?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		LAMI: Yes, but we have a <![CDATA[<color=orange>secret hideout</color>]]> to hide from the rain now too! If you come with us, we could play the <![CDATA[<color=orange>anglerfish game</color>]]> there - but this time, it'll be <![CDATA[<color=orange>WAY more exciting!</color>]]>
+			</Text>
+	</TextBlock>
+			<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		ILEX: Ah.. Maybe later, Lami. I must return to Brittle Hollow shortly. I came with Solanum to visit the <![CDATA[<color=orange>Tower of Quantum Trials</color>]]> - but she was badly injured inside the tower earlier.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		TAGET: Oh no! I hope she will be okay.. Do you know what happened?
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		ILEX: She was a little too eager upon finding a <![CDATA[<color=orange>secret in the tower</color>]]> Conoy told her about, and fell down a high ledge inside one of the chambers.. I'm afraid she won't be able to complete her pilgrimage until her leg heals.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		LAEVI: Is the quantum pilgrimage even important though, Ilex? It's just something about the Eye of the Universe again... Didn't you want the adults to stop looking for the Eye too, so our clan could build a new vessel?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		ILEX: Practically speaking, our clan's history and culture has become too entwined in its search for the Eye. I did not always understand it - nor did Solanum - but both of us wish to honor this tradition, and respect our elders' sacrifices.
+		</Text>
+	</TextBlock>
+</NomaiObject>

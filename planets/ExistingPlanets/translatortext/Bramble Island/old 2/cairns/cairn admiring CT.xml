@@ -1,0 +1,7 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>MELORAE: Be cautious as you tread, Coleus. Artificial gravity at the tips of our digits.. This technology from Brittle Hollow is incredible! I cannot wait to see what new wonders await us in this star system!</Text>
+	</TextBlock>
+</NomaiObject>

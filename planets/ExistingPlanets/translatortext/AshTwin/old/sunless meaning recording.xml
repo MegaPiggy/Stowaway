@@ -1,0 +1,55 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<![CDATA[<i>solely</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PLUME: We have quite some time until the sand will begin to traveling back to Ember Twin. How are you enjoying your first visit to the Sunless City so far, Phlox?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PHLOX: I love it! The Sunless City is so cool, and I made so many friends - they taught me how to play the fossil fish game, and I showed them how to make sand dwellings!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		PHLOX: But papa, I was too shy to ask any of the Nomai that live here.. Why do the Nomai on Ember Twin call their city the "Sunless" City? Does Ash Twin hide away the sun from Ember Twin a lot?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		PLUME: What an amusing hypothesis, Phlox! But in this case, "sunless" simply refers to the darkness of the subterrenean city, as the Nomai here built their city deep underground to shelter themselves from the heat of the sun.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		PLUME: At the same time, it is also true that the Ash Twin regularly eclipses the sun as it orbits its twin - so I suppose the Sunless City could fit <![CDATA[<color=orange>both interpretations</color>]]> of its name!
+		</Text>
+	</TextBlock>
+
+	
+
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_C EX2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

@@ -1,0 +1,65 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>COLEUS: What a relief! The <![CDATA[<color=orange>frozen specimen</color>]]> transported from Bramble Island appears to be thriving in its new habitat.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>MELORAE: Though we made many discoveries there, I am thankful to never have to return to our <![CDATA[<color=orange>old research site on Bramble Island..</color>]]> not after discovering the island's fondness for <![CDATA[<color=orange>capsizing!</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>PLUME: My gratitude for all your hard work, my friends. Now, with the assistance of this new specimen, we should be better equipped than ever to pinpoint the cause of the <![CDATA[<color=orange>surfacing phenomenon!</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>PHLOX: I heard the shuttle leave! Did papa go somewhere again? I was waiting for him to come back to present my <![CDATA[<color=orange>report assignment</color>]]> to him! I even painted murals for my presentation..</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>PLUME: My deepest apologies, Phlox! I shall come at once to learn the fruits of your hard work and research at last!</Text>
+		</TextBlock>
+		<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>PLUME: Friends, should you wish to listen to <![CDATA[<color=orange>Phlox's report,</color>]]> I humbly invite you to join us within the <![CDATA[<color=orange>Garden Chamber!</color>]]> I believe my son's hard work to be highly worthy of an audience!</Text>
+		</TextBlock>
+
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>CJelly R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>FlipIsland R3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+
+				<RevealFact>
+			<FactID>LC_G R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>SF Jelly R4</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SF Jelly R5</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+
+</NomaiObject>

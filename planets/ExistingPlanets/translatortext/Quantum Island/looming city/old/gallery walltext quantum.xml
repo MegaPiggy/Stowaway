@@ -1,0 +1,19 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>THATCH: Friends, are.. some of these lovely pictures mislabelled? The stones bearing their descriptions do not seem to be correctly matched.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>COLEUS: How strange.. I have already rearranged them multiple times after receiving similar feedback from our visitors. Could a youngling be pulling some gesture of joke on us?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>THATCH: I do not think that to be likely. I observed the stone cairns sometimes disappearing entirely, before returning just as suddenly.. Hypothesis: proximity to the quantum shard has imparted a quantum nature onto these stones.</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,39 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: Research on this plane of <![CDATA[<color=orange>Bramble Island</color>]]> is proving.. difficult. The tides here seem keen to submerge my vessel as I attempt to explore. I must seek higher ground as soon as...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CASSAVA: Of immediate priority: <![CDATA[<color=orange>Deadly matter</color>]]> was observed by third eye <![CDATA[<color=orange>dissipating briefly</color>]]> in contact with water!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		CASSAVA: This is a very noteworthy discovery: <![CDATA[<color=orange>The passing tide neutralizes the matter as it rises from time to time!</color>]]> I must be patient, and study what happens when <![CDATA[<color=orange> matter is plunged deep into the ocean by a cyclone's visit!</color>]]>
+		</Text>
+	</TextBlock>	
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>GM_R2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>GM_EX2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

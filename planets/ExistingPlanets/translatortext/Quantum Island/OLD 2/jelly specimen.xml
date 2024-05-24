@@ -1,0 +1,60 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>COLEUS: What a relief! The frozen specimen transported from <![CDATA[<color=orange>Bramble Island</color>]]> appears to be thriving in its new habitat.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>PLUME: This habitat should have a plentiful plankton microbiome to sustain itself indefinitely in our absence.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>PLUME: It pains me to say this, but our stay on this island may not last much longer.. The quantum shard seems to spread its quantum nature to more and more of the tower every day.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>THATCH: I have to agree. I left a scroll on the quantum shard the other day, and it disappeared with the shard!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>COLEUS: Thatch! Surely you should know what happens to an object left on a quantum entity. Melorae and I have found it handy for transporting scrolls between the tower's chambers.</Text>
+		</TextBlock>
+	
+
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>CJelly R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>FlipIsland R3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+
+				<RevealFact>
+			<FactID>LC_G R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>SF Jelly R4</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SF Jelly R5</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+
+</NomaiObject>

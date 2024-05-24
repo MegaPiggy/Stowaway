@@ -1,0 +1,107 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<![CDATA[<i>solely</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		COLEUS: Melorae! The orcnids have surfaced again! The quantum shard study can wait: let us join our friends outside in studying the environment and lifeforms for any signs of a cause behind this phenomenon!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		MELORAE: Goodness, did you entangle with the quantum shard to bring me this news in such a hurry? You appeared out of thin air after I merely blinked!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		COLEUS: The Hanging City's gravity crystals are so extremely handy.. Now that we've attached one to the quantum shard, we can so easily <![CDATA[<color=orange>travel between chambers of the Looming City</color>]]> through <![CDATA[<color=orange>quantum entanglement!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		MELORAE: A tinge of dread fills me every time I see you disappear with the quantum shard, Coleus. I am proud of your great discovery - but I cannot help but prefer you to travel by foot patiently!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		COLEUS: Melorae, you musn't let that incident weigh on you so! It was mostly my own fault getting <![CDATA[<i>carried away</i>]]> experimenting with my findings.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		MELORAE: You are hereby forbidden from making puns again, Coleus. Stay there! I'll capture a photo of you with the camera so you won't disappear from my sight again!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		MELORAE: Alright, I am ready. Are you sure this is safe, Coleus? After studying the mislabelled cairns in the Gallery Chamber, Thatch posited some quantum objects sometimes <![CDATA[<color=orange>disappear from existence entirely..</color>]]> I genuinely fear for our safety.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		COLEUS: I believe the possibility is unlikely enough not to be of concern, but there is indeed still much we do not yet understand about quantum phenomena.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		COLEUS: Still, it seems inevitable that we will become entangled living in this space, one way or another. Just earlier, the projection pool <![CDATA[<color=orange>took me with it to another chamber</color>]]> after I'd used it to project elsewhere!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		COLEUS: Hm... Melorae? The shard does not desire to move at this time for some reason. This is strange. I was able to travel together with Thatch on the shard earlier.
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>11</ID>
+		<LocationB />
+		<ParentID>10</ParentID>
+		<Text>MELORAE: What? I was distracting myself from my fears with the photo I took.</Text>
+		</TextBlock>
+		
+		<TextBlock>
+		<ID>12</ID>
+		<LocationB />
+		<ParentID>11</ParentID>
+		<Text>MELORAE: How intriguing.. The shard truly no longer desires to move. We have never observed this before. Could my observing of this photo somehow be.. locking the quantum shard in place?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<LocationB />
+		<ParentID>12</ParentID>
+		<Text>
+		COLEUS: Hypothesis confirmed! <![CDATA[<i>Hypothesis confirmed!</i>]]> Forget the orcnids, you've discovered a new quantum rule, Melorae!! My mentor and I are officially the greatest quantum geologists of our clan!
+		</Text>
+	</TextBlock>
+</NomaiObject>

@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Hal</NameField>
+
+<DialogueNode>
+<Name>HalGabbro2</Name>
+<EntryCondition>DEFAULT</EntryCondition>
+<Dialogue>
+<Page>Huh. I never knew you looked up so much to Gabbro.</Page>
+<Page>I know Hornfels is er, a little grumpy muttering to themself there, but hey, Gabbro's not that bad. They're pretty darn knowledgable and passionate about some stuff!</Page>
+<Page>But er, just a hunch? I bet you'll discover way.. <![CDATA[<Pause>]]><![CDATA[<i>]]>way<![CDATA[</i>]]> more things than they ever could. <![CDATA[<Pause>]]>Be your own astronaut, you know?</Page>
+<Page>Take care out there! And tell Gabbro I said hi!</Page>
+</Dialogue>
+</DialogueNode>
+
+</DialogueTree>

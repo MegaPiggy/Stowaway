@@ -1,0 +1,20 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		You have done well to complete this first part of the trial! Now, descend below to deactivate the tower's lights, then ascend from this rear entrance again to apply the <![CDATA[<color=orange>rule of quantum entanglement!</color>]]>
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC EX5</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

@@ -1,0 +1,12 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<i>bleh</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		Please compact all non-quantum belongings and evacuate the Looming City immediately! Of note: Should anyone encounter <![CDATA[<color=orange>Thatch's research on the tentacled lifeforms,</color>]]> its recovery would be greatly appreciated!
+		</Text>
+	</TextBlock>
+	
+</NomaiObject>

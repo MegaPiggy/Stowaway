@@ -1,0 +1,71 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		MELORAE: The <![CDATA[<color=orange>storm shelters</color>]]> are functioning, my friends!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		MELORAE: Now, whenever we must venture outside the safety of the <![CDATA[<color=orange>Looming City</color>]]> to conduct research on the frozen species on this island, we can be kept safe from cyclones using Kousa's new invention!
+		</Text>
+		</TextBlock>
+<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		COLEUS: It will be a relief not to have to interrupt our research to retreat to the shuttle every time a cyclone approaches.. I'd love to learn how Kousa's marvellous invention works, Plume!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		PLUME: I'm sure Kousa would love to share more about its mechanisms if you visit him at the <![CDATA[<color=orange>Gravity Crystal Workshop on Brittle Hollow's equator!</color>]]> I would love to guide you there when we return.
+		</Text>
+	</TextBlock>		
+<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		THATCH: Friends, a cyclone approaches! Seek shelter in your nearest <![CDATA[<color=orange>storm shelter</color>]]> at once!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA />
+		<Text>
+		THATCH: Wait, the solar panel appears to be.. Is it <![CDATA[<i>flickering?</i>]]> Oh dear, that must have been what I felt when I was landing my shuttle on the landing pad earlier! It.. It's <![CDATA[<color=orange>damaged!!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationA />
+		<Text>
+		MELORAE: <![CDATA[<i>Thatch!!</i>]]> If the solar panel is damaged, the storm shelters will be <![CDATA[<color=orange>rendered entirely useless!</color>]]> Friends, make haste back to the shuttle! <![CDATA[<b>Quickly!!</b>]]>
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Gravshop Bramble Island</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CJelly EX4</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

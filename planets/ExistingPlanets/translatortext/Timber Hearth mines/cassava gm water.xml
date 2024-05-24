@@ -1,0 +1,71 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: I am immensely relieved to report the relative well-being of the native species of Timber Hearth. They too, must have been protected from deadly matter by the water they dwell in.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CASSAVA: Disappointingly, as I have observed on Giant's Deep, water appears to only temporarily displace the matter where it has come to rest, and has no lasting effect on the matter.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CASSAVA: Although it may not offer a lasting solution to the matter, on the sunward side, this discovery provides an answer to the greatest question that has been weighing on my mind.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		CASSAVA: If the deadly matter is unable to penetrate water - unable to <![CDATA[<i>harm</i>]]> those underwater - I must infer it was why I alone was spared what happened to our clan, aboard the <![CDATA[<color=orange>Deep Storm Station.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		CASSAVA: This hypothesis would also explain how several native species of the star system (that were within reach of the deadly matter's reach) dwelling underwater have miracurously survived.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA />
+		<Text>
+		CASSAVA: <![CDATA[<i>A terrifying realization has just struck me.</i>]]> Oh, goodness. I owe great gratitude to <![CDATA[<color=orange>that planet's thick atmosphere for obscuring it completely from my sight</color>]]> - or I could have invited them to a similar fate...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationA />
+		<Text>
+		CASSAVA: Of note to self: I must be careful to NEVER <![CDATA[<color=orange>lock the Quantum Moon in orbit around that planet for any extended period</color>]]> to keep those species safe from grave danger.
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>FlipIsland EX2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>FlipIsland EX3</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

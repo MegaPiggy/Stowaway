@@ -1,0 +1,77 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: Why have we come to your workshop, Daz? I am still extremely puzzled by what just happened.. Are we truly wed? Are we.. in a dream? (oh god i just cringed rereading my own old text lmao)
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		DAZ: We are, my love. Both in a dream of the future, and in the present. You see, you accepted my proposal <![CDATA[<color=orange>12 seconds into the future!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: As for why we have come to my workshop, this <![CDATA[<color=orange>parting staff</color>]]> I have crafted will allow us to un-pair Nomai who were paired to memory statues during the test, so they may be reset and used again in future tests.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		CASSAVA: I require less cryptic wording, my love! Do you mean to say that you were paired with the memory statue in Lovers' Cove during the test, and were able to learn my response to your proposal 12 seconds in advance?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		DAZ: Precisely! I'd timed our proposal to align with the arranged time of the test's launch. I am glad you did not notice me inching closer to the statue, out of concern its proximity would pair with you instead of me..
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		DAZ: Thankfully, all systems seem to have worked as designed; I experienced only one loop after the statue paired with me, before the project shut itself down automatically.
+		</Text>
+			</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		CASSAVA: I believe I am finally beginning to grasp the situation.. Oh, Daz! You take after your playful brother more than I had realized! Why would you engineer such a strange set of circumstances to propose to me?
+		</Text>
+		</TextBlock>
+
+	<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		DAZ: How terrible of you to even ask! Surely, you know the answer to that question! I was terrified of the 0.001% possibility you might turn me down, my love..
+		</Text>
+			</TextBlock>
+
+			<TextBlock>	
+				<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>
+		CASSAVA: Daz, you know I think the world of you. I have been waiting so long for you to ask! Quick, let us use a projection stone to the <![CDATA[<color=orange>Deep Storm Station</color>]]> to share our wonderful news, and learn the full outcome of the test!
+		</Text>
+			</TextBlock>
+</NomaiObject>

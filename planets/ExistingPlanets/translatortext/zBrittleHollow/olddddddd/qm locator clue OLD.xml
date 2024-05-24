@@ -1,0 +1,105 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<![CDATA[<i>solely</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PRIVET: Conoy! Spire! It's good to see you again, my friends. How have your quantum pilgrimages fared thus far?
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		SPIRE: Privet! Oh, what fortune we should meet you here before we take off. We have both been anxiously discussing how to reach such an elusive body such as the Quantum Moon by shuttle!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		CONOY: Both Spire and I are equally terrible at calculating shuttle trajectories, even to bodies existing on a normal plane! Could we possibly trouble you for some advice on reaching the Quantum Moon, Privet?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		PRIVET: Hah! The warp towers have spoiled you, haven't they? Before their construction, it was paramount to master shuttle calculations for travel. Travel between planets has been made so much simpler thanks to them!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		PRIVET: I suppose I cannot leave my hopeless juniors to flounder on their own. It is never too late to learn and improve at a new skill!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		PRIVET: Alright, listen closely: Visit the <![CDATA[<color=orange>Quantum Moon locator</color>]]> on Ember Twin's south pole before you attempt to travel to the Quantum Moon.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		PRIVET: <![CDATA[<color=orange>Use the locator to guide the Quantum Moon to orbit around Giant's Deep;</color>]]> That will allow you the freedom to no longer need to account for the moon's <![CDATA[<color=orange>quantum orbits</color>]]> when calculating shuttle trajectories!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		SPIRE: But Privet, what if we make an error in our calculations again? The moon would leave Giant's Deep once we recall the shuttle.. Should we travel back to the Quantum Moon locator to try again each time?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		PRIVET: Goodness, no! Simply <![CDATA[<color=orange>leave a set of eyes stationed at the Quantum Moon locator</color>]]> to <![CDATA[<color=orange>locate and return the moon to Giant's Deep remotely,</color>]]> and attempt your flight again!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		CONOY: My deepest gratitude for all your help, Privet. I was not aware there was even such a locator on Ember Twin! Might you be free to be that set of eyes to help us guide the moon later..?
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>11</ID>
+		<LocationB />
+		<ParentID>10</ParentID>
+		<Text>
+		PRIVET: I'm afraid not. Surely one of you could simply remain at the locator to be each other's eyes, while the other takes flight! Now, go on and be curious on your journeys!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC EX2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

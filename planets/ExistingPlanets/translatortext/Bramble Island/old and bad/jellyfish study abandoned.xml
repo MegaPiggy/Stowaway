@@ -1,0 +1,67 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PLUME: Tentacled lifeform study
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PLUME: These lifeforms, mostly composed of water, appear to dwell under the flowing current of the planet, idly diving deeper into the electric core of the planet from time to time - where they presumably feed and rest.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		THATCH: However, on our first expedition to this planet, we were greeted by the sight of these lifeforms <![CDATA[<color=orange>on the surface of the ocean!</color>]]> We have never thus far observed this elusive phenomenon again.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		MELORAE: From our short time studying the live specimens that day, they did not appear to possess wisdom to motivate curiosity nor fear. Until we find a way to bypass the ocean current, I am unsure we can learn more about this behavior.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>
+		COLEUS: The presence of specimens frozen in this glacier suggests this species was not native to this planet, but were rather preserved and ejected within a glacier, from the planet destroyed by <![CDATA[<color=lightblue>Dark Bramble.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA />
+		<Text>
+		MELORAE: We suspect the live specimens' terrifying bioelectricity (and natural immunity to electricity) likely was an evolution of self-defense against predators on their home planet, rather than an adaptation to this ocean planet.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		COLEUS: Friends, a cyclone approaches! I fear this island does not provide a stable environment for prolonged research; The island appears to be <![CDATA[<color=orange>capsizing</color>]]> from the waves due to its lighter mass!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		PLUME: Return to the shuttle at once, friends! We have learnt what we can from these perished specimens. When we are able to meet with a live specimen again, we will be able to better study them and record our findings within the <![CDATA[<color=orange>new settlement!</color>]]>
+		</Text>
+	</TextBlock>
+</NomaiObject>

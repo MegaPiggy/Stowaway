@@ -1,0 +1,14 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>A gentle reminder to store your project scrolls properly to protect them from being swept away into the oceans! Let us maintain the safety of the native species and their homes!</Text>
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>OPCSCH_EX1</FactID>
+		</RevealFact>
+	</ShipLogConditions>
+
+	</TextBlock>
+</NomaiObject>

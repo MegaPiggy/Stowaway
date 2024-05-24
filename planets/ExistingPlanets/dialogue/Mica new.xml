@@ -1,0 +1,178 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Mica</NameField>
+
+	<DialogueNode>
+		<Name>ModelRocketKid1</Name>
+	
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Hey, Mica. Slate told me you had something to ask me before I take off?</Text>
+				<DialogueTarget>ModelRocketKid_Sand_intro</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>TT_WARP_TOWERS</RequiredLogCondition>
+				<RequiredPersistentCondition>Shutup_Mica</RequiredPersistentCondition>
+				<Text>I found out what causes the sand columns, Mica!</Text>
+				<DialogueTarget>ModelRocketKid_Answer</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>ModelRocketKid_Sand_intro</Name>
+		 <SetPersistentCondition>Shutup_Mica</SetPersistentCondition>
+		<Dialogue>
+			<Page>Oh yeah, I almost forgot!</Page>
+				<Page>Ok, astronaut, listen up. I've been thinking up some crazy ideas to get Hearthians from planet to planet.</Page>
+			<Page>One of 'em involves that weird <![CDATA[<color=orange>sand column on the Hourglass Twins!</color>]]></Page>
+     		 <Page>I asked Hornfels about it, and apparently, those twin planets have been exchanging their sand through that huge column of sand for like... <![CDATA[<Pause=1>]]> forever!</Page>
+			 <Page>It goes from Ember to Ash Twin, then back from Ash to Ember Twin... <![CDATA[<Pause=1>]]> over <![CDATA[<Pause=1>]]> and over <![CDATA[<Pause=1>]]> and over...<![CDATA[<Pause=0.5>]]> and always at perfect intervals, no less!</Page>
+			 <Page>Chert says it's just some kind of natural phenomena, but.. I feel like there has to be more to it, you know?</Page>
+			 <Page>Sand doesn't just go back and forth across two planets like that!</Page>
+			 <Page>Don't tell Slate I said this, but...</Page>
+			 <Page>If we could figure out what causes the sand column, we might be able to revolutionize space travel between planets someday!</Page>
+			 <Page>Imagine if we could just make a <![CDATA[<i>loong</i>]]> column of sand that takes you all the way to Brittle Hollow! No high-maintenance ships required!</Page>
+			 	 <Page>Doesn't that sound like a cool idea, astronaut?</Page>
+			 </Dialogue>
+			 <DialogueOptionsList>
+			<DialogueOption>
+				<Text>Doesn't that sound kind of.. dangerous?</Text>
+				<DialogueTarget>ModelRocketKid_IDK</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+	</DialogueNode>
+
+	
+<DialogueNode>
+		<Name>ModelRocketKid_Answer</Name>
+		<Dialogue>
+			<Page>Really?! Tell me, tell me!</Page>
+			 </Dialogue>
+			 <DialogueOptionsList>
+			<DialogueOption>
+				<Text>It's caused by gravity from the sun aligning with gravity from the twin closer to the sun!</Text>
+				<DialogueTarget>ModelRocketKid_Answer2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Sorry, I'm still working on it, actually.</Text>
+				<DialogueTarget>ModelRocketKid_SANDBYE</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ModelRocketKid_Answer2</Name>
+		<Dialogue>
+			<Page>Huh. That doesn't exactly sound like the tidal forces I'm familiar with... <![CDATA[<Pause=2>]]> But it's close enough!</Page>
+			<Page>But aw, wait..! So it really was just natural phenomena. That's not really information I can work with..</Page>
+			<Page>I was kinda hoping it was some Nomai superstructure dumping the sand from one twin to the other that we could figure out how to copy.</Page>
+			<Page>But I guess I should have guessed it was something simpler, with how close the twins are to the big ol' center of the star system's mass.</Page>
+			<Page>But if that's the case, since the other planets are probably too far from the sun to feel its gravitational effects like the twins do, there's probably no way to create a column on any other planet then.. <![CDATA[<Pause>]]> Right?</Page>
+			</Dialogue>
+	</DialogueNode>
+
+	
+<DialogueNode>
+		<Name>ModelRocketKid_SANDBYE</Name>
+		<Dialogue>
+			<Page>Aw, don't get my hopes up like that! The Mica Galaxy Express is so close to becoming reality...</Page>
+			</Dialogue>
+	</DialogueNode>
+
+
+
+<DialogueNode>
+		<Name>ModelRocketKid_IDK</Name>
+		<Dialogue>
+			<Page>Well, you'd be wearing a spacesuit, wouldn't you? You'd just use your jetpack to keep yourself in the column and from getting spit out halfway through space!</Page>
+			<Page>It'd be like skilful, shipless transportation for <![CDATA[<i>real astronauts,</i>]]> you know?</Page>
+			<Page>Or do you have better ideas for revolutionizing space travel, huh, astronaut? <![CDATA[<i>Huh?</i>]]></Page>
+			 </Dialogue>
+			 <DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>TT_WARP_TOWERS</RequiredLogCondition>
+				<Text>Well, actually there's Nomai warp towers we could use to get around the star system instead.</Text>
+				<DialogueTarget>ModelRocketKid_WarpMention</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>I'll, uh, get to Ash Twin and look for ideas.</Text>
+				<DialogueTarget>ModelRocketKid_IDK_short</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+	</DialogueNode>
+	
+<DialogueNode>
+		<Name>ModelRocketKid_IDK_short</Name>
+		<Dialogue>
+		 <Page>Yesss. Thanks, astronaut!</Page>
+		 <Page>Since Chert seems really busy with the star charts these days, I thought I might ask you instead to just keep an eye out for anything on your travels.</Page>
+		  <Page>But hey, I'm serious. If you come up with any new ideas of your own for getting Hearthians around the star system while sailing from planet to planet, I'm all ears!</Page>
+			 <Page>Just check in with me whenever you come back for repairs!</Page>
+			 <Page>Good luck out there, astronaut.</Page>
+			 </Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ModelRocketKid_WarpMention</Name>
+		<Dialogue>
+			<Page>I'm sorry, <![CDATA[<i>what?</i>]]></Page>
+			<Page>When were "warp towers" some <![CDATA[<i>common piece of dirt knowledge?!</i>]]> Did Riebeck make a huge discovery I didn't hear about or something??</Page>
+			 </Dialogue>
+			 <DialogueOptionsList>
+			<DialogueOption>
+				<Text>Yeah, the Nomai made warp towers on Ash Twin that can warp you to most planets in the star system.</Text>
+				<DialogueTarget>ModelRocketKid_THTrailhead</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>ModelRocketKid_THTrailhead</Name>
+		<Dialogue>
+			<Page>Wait, on Ash Twin?! Did Chert report this, then?</Page>
+			<Page>Wow. <![CDATA[<size=20>]]>(sigh) See you in the stars, Mica Galaxy Express..<![CDATA[</size>]]></Page>
+			<Page>But holy starbits, astronaut! How'd we even miss something like that?</Page>
+				<Page>W-well, is there a "warp tower" that connects to Timber Hearth too, then? And if there is, where does it take you on the planet?</Page>
+			<Page>Geez, I guess there's gonna be a new plaque in the museum real soon!</Page>
+			<Page>But hey - you might be able to squeeze a spot in yourself too, if you can make some discovery about the sand column, astronaut!</Page>
+	 </Dialogue>
+			 <DialogueOptionsList>
+			<DialogueOption>
+				<Text>Actually, <![CDATA[<i>I</i>]]> was the one that found the warp towers..</Text>
+				<DialogueTarget>ModelRocketKid_HAHA</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Yeeeah. I'll work on that.</Text>
+				<DialogueTarget>ModelRocketKid_Amnesiac</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ModelRocketKid_HAHA</Name>
+		<Dialogue>
+			<Page>Oh, uh.. Wait.</Page>
+			<Page>Was all that just you.. pulling my leg? <![CDATA[<Pause>]]> Or are you just still half-awake?</Page>
+			<Page><![CDATA[<i>Hellooo?</i>]]> Today's the day you take off to START discovering, astronaut!</Page>
+			<Page>I know you're excited to get off planet, but don't start telling your dream discoveries like ACTUAL discoveries..</Page>
+			<Page>Well, since you're taking off soon, maybe you <![CDATA[<i>should</i>]]> go look around Ash Twin anyway, to check if something like what you imagined really exists.</Page>
+			<Page>It could totally have been a premonition or something! Dreams can be pretty powerful.</Page>
+			<Page>Once? I had this dream where Slate was roasting this HUGE anglerfish over the campfire, and blah blah blah...</Page>
+			 </Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ModelRocketKid_Amnesiac</Name>
+		<Dialogue>
+			<Page>Why'd you say that all weird?</Page>
+			<Page>Anyway, once you take off, maybe you should go look around Ash Twin and check if there are any <![CDATA[<color=orange>warp towers that take you to Timber Hearth,</color>]]> astronaut.</Page>
+			<Page>The more we know about this warp tech, the better!</Page>
+			<Page>Oh, I'm so excited.. C'moon, go get the launch codes already and set off for Ash Twin!</Page>
+			 </Dialogue>
+	</DialogueNode>
+
+
+</DialogueTree>

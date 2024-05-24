@@ -1,0 +1,112 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Tektite</NameField>
+
+<DialogueNode>
+    <Name>DoorStuck</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <SetCondition>TalkedTo_MinesTektite</SetCondition>
+    <Dialogue>
+      <Page>Oh, heyo, hatchling. Thought you were flying off in your big wooden tin of marshmallows and tape today.</Page>
+      <Page>Did ya suddenly have a change of heart about helping me take down this dumb Nomai door I told you about the other day?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>What's with you and this door?</Text>
+        <DialogueTarget>DoorHistoryTalk</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+      <RequiredLogCondition>CT_SUNLESS_CITY_X1</RequiredLogCondition>
+        <Text>Oh, I've seen these kinds of doors before on Ember Twin. It's easy, you just look at the orb and guide it to the other side.</Text>
+        <DialogueTarget>DoorTalk</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+    <DialogueNode>
+    <Name>DoorHistoryTalk</Name>
+    <Dialogue>
+      <Page>Am I seriously the only one in the village who's bugged we've never been able to open this blasted door?</Page>
+      <Page>Back in my younger days, I explored everywhere there was to see on Timber Hearth - climbed every tree, spelunked every cave.</Page>
+       <Page>Even once strapped on an oxygen tank and swam in those underground caves. Found a funny mural right below here, though I still dunno what it's showing.</Page>
+      <Page>Anyways, this big mysterious door was the one thing on our planet we were just.. never able to open and explore.</Page>
+      <Page>What could be in there? What did the Nomai want to keep anyone out from? Or.. <![CDATA[<Pause/>]]> was there something they wanted to keep in?</Page>
+      <Page>It just eats at me every now and then. But most of the villagers seem to think there's good reason it's sealed up, or get fussy about breaking into a Nomai place. Saying the Nomai are gonna haunt and curse anyone that goes in.</Page>
+       <Page>Whole buncha <![CDATA[<i>]]>mud<![CDATA[</i>]]> if you ask me. I've stuck in my leg into a patch of ghost matter to make a point before; I'm not afraid of some spooky curse the village made up.</Page>
+            <Page>You got any ideas on how to open this darn thing up?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Hm, not really.</Text>
+        <DialogueTarget>OkBye</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Um, have you tried just looking at the orb and guiding it to the other side?</Text>
+        <DialogueTarget>DoorTalk</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+ <DialogueNode>
+    <Name>DoorTalk</Name>
+    <Dialogue>
+      <Page><![CDATA[<i>Hah!</i>]]> Why don't you go ahead and give that a try?</Page>
+      <Page>You think I would be dumb enough to stare at this door since I was a hatchling, if that just worked so easily?</Page>
+      <Page>The orb follows where I look at, alright, but it won't go farther than a certain point.</Page>
+       <Page>The only way through's with a pickaxe, I reckon.</Page>
+      <Page>So. You wanna help?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+    <DialogueOption>
+        <Text>Not right now. But I'll keep two eyes out for anything that might help.</Text>
+              <ConditionToSet>TalkedTo_MinesTektite</ConditionToSet>
+        <DialogueTarget>OkBye</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Why do you wanna get in so bad?</Text>
+              <ConditionToSet>TalkedTo_MinesTektite</ConditionToSet>
+        <DialogueTarget>DoorHistoryTalk</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+ <DialogueNode>
+    <Name>OkBye</Name>
+    <Dialogue>
+      <Page>Gah. All that talk and you're no help. Hey, if you see Riebeck out there, could you ask 'em for any updates on this door?</Page>
+      <Page>They were about the only other person curious about what was in there, and said they'd keep three eyes out while studying Nomai architecture off-planet.</Page>
+</Dialogue>
+ </DialogueNode>
+
+
+<DialogueNode>
+    <Name>DoorStuck_Talked</Name>
+    <EntryCondition>TalkedTo_MinesTektite</EntryCondition>
+    <Dialogue>
+ <Page>Back again? You should go tell the villagers there's a bramble seed over at Youngbark Crater if you're sticking around. I left a note and got sidetracked.</Page>
+</Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Tell me about the door again.</Text>
+        <DialogueTarget>DoorHistoryTalk</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+       <RequiredLogCondition>CT_SUNLESS_CITY_X1</RequiredLogCondition>
+        <Text>Have you tried looking at the orb and guiding it to the other side?</Text>
+        <DialogueTarget>DoorTalk</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Just passing by. Talk to you later!</Text>
+        <DialogueTarget>OkBye2</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+ <DialogueNode>
+    <Name>OkBye2</Name>
+    <Dialogue>
+      <Page>Mm. Take care out there, hatchling. Keep an eye out for Riebeck for me, and the other three for any clues about this door.</Page>
+</Dialogue>
+ </DialogueNode>
+
+</DialogueTree>

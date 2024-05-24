@@ -1,0 +1,52 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>DAZ: My love, I recall something of significance.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>DAZ: During my visit to Timber Hearth, the flora and trees on that planet seemed to be completely unaffected by the deadly matter.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>CASSAVA: I had not noticed that.. What an odd property you have discovered. Could it be possible that only our species was affected by the arrival of this deadly matter?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>DAZ: No, I am afraid that is definitely not the case.. While visiting Timber Hearth, I also witnessed one of its native four-eyed creatures being vaporized by the deadly matter before I could intervene..</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>DAZ: But despite its unkindness to the local fauna, even on Timber Hearth, the matter appears to be completely inert towards flora there.
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>CASSAVA: This theory could well be baseless: but I suspect the possibility that the comet was delivered with the intent to eradicate sentient life in this star system, leaving only vegetation... including the invasive bramble we know so little about.</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>CASSAVA: Perhaps a plant-based lifeform sent the bramble to our system to colonize it, and sought to purge the system of our presence. Perhaps they saw fault in us having flesh. Or perhaps they did not take kindly to our clan’s efforts to find the Eye.</Text>
+			</TextBlock>
+	<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+			CASSAVA: Whatever their cause was, I do not care: <![CDATA[<b>for I intend to return their hostility in equal ferocity.</b>]]>
+			</Text>
+			</TextBlock>
+</NomaiObject>

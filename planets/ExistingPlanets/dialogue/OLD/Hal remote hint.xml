@@ -1,0 +1,31 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Hal</NameField>
+
+<DialogueNode>
+<Name>HalGabbro1</Name>
+<EntryCondition>DEFAULT</EntryCondition>
+<Dialogue>
+<Page>Where'd that come from? That was super random, hah. Gabbro really loves fooling around, don't they? I guess this must be some kind of tradition between the travelers.</Page>
+<Page>What game did you play to have to pay that penalty, anyway?</Page>
+</Dialogue>
+				<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Hide and seek. They hid a stone somewhere on an island for me to find.</Text>
+				<DialogueTarget>HalsHint</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+<Name>HalsHint</Name>
+<Dialogue>
+<Page>Island? You mean somewhere on Timber Hearth? Or did they like.. sneak you into their ship on a trip to Giant's Deep some time ago?</Page>
+<Page>Anyways, Gabbro's Gabbro. You know how lazy they can be - that was the whole joke about that penalty! I'm sure they didn't actually do much to actually hide it.</Page>
+<Page>Well, see if you can ask for a rematch after you take off, and get them to tell Hornfels you're the most experienced and knowledgable astronaut that has learnt everything about the star system after you win!</Page>
+<Page>I'm.. <![CDATA[<Pause/>]]> not saying you're dumb, just that today is literally your first day on the job.</Page>
+<Page>Alright, take care out there, buddy! Better luck next time with the game!</Page>
+</Dialogue>
+</DialogueNode>
+
+</DialogueTree>

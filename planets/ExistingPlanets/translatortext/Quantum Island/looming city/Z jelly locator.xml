@@ -1,0 +1,121 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+
+	<![CDATA[<i>Excavation Site</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+		PHLOX: Coleus told me we don't even know what happens to the probes we shoot into the moon! He said they might have become part of the moon itself - if there even is anything inside it - or they might have just <![CDATA[<i>vanished!</i>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+		PHLOX: I don't know what I'll do if you vanish, papa. (sniff) I.. I just don't want the Quantum Moon to take all of you away, like the Eye of the Universe already did to the rest of our clan..</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			PLUME: While it is true the probes have been unable to allow us to peer into the moon's thick clouds, breakthroughs on the <![CDATA[<color=orange>surfacing phenomenon</color>]]> have shed new light on the Quantum Moon's properties as well.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+	PLUME: Since we now know the surfacing phenomenon is <![CDATA[<color=orange>caused by the Quantum Moon's gravitational pull</color>]]> on the tentacled species' water-composed bodies, we can now be certain of, and even calculate the moon's physical mass.</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+		PHLOX: Even so..! Melorae showed me the <![CDATA[<color=orange>Quantum Moon locator</color>]]> while I was visiting Ember Twin. Sometimes, the moon entirely vanishes - and not even the locator can find it at all!</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+		PLUME: We have reason to believe that the moon does not vanish, but rather, it travels to an unknown sixth location. It is our hope that if we could reach it, this sixth location will bring us closer to-</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+		PHLOX: <![CDATA[<i>No!</i>]]> I won't let the Quantum Moon steal any of you away! I'll.. I'll stare at the moon forever, so it'll never go anywhere again!</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>
+		PLUME: There is little need for that thanks to the quantum rule of imaging Melorae has discovered, so please, do not hurt your eyes, my son!</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>
+		PLUME: In the interest of safety.. I suppose we could <![CDATA[<color=orange>leave a set of eyes at the Quantum Moon locator</color>]]> to help <![CDATA[<color=orange>track and lock the moon in place</color>]]> during expeditions to the moon.</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>
+		PHLOX: Then.. I'll <![CDATA[<color=orange>stay at the Quantum Moon locator and be your set of eyes from afar,</color>]]> papa. I promise I'll keep the moon in place until everyone comes home safely.</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>
+		PLUME: Then we'll be counting on your eyes, my brave little stargazer. But.. won't you come with us on one of these expeditions into the moon someday? It would make your papa so incredibly proud.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>
+		PHLOX: If I ever do, I'll bring along my awesome miniature Looming City sculpture so it'll disappear with me in the scary moon together... And for clarity, that means <![CDATA[<i>no way,</i>]]> papa!!</Text>
+	</TextBlock>
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_G R4</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LC_G R5</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LC_G EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LC_G EX2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LC_G EX3</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+
+			<RevealFact>
+			<FactID>SF Jelly EX1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SF Jelly EX2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SF Jelly EX3</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

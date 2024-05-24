@@ -1,0 +1,31 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>RECORDING</NameField>
+
+<DialogueNode>
+    <Name>Sign</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Oh gosh. <![CDATA[<i>Oh gosh.</i>]]></Page>
+      <Page>Deep breaths, Riebeck. You can't jump to conclusions.</Page>
+      <Page>Ok, so first, the locked door.</Page>
+       <Page>The orb near the top's some vision-activated mechanism I've seen in other ruins, that I'm pretty certain should open the door once you slide it all the way.</Page>
+       <Page>But this one seems to be.. jammed by something? It won't open all the way no matter how hard I try.</Page>
+      <Page>So, I thought maybe I should try jumping into the pools below, maybe find some secret entrance the others missed. Should be perfectly safe with the suit on.</Page>
+      <Page>Now, I didn't find any secret entrances.. but I found something else.</Page>
+      <Page>I think.. I think I found a mural of depicting the Nomai.. <![CDATA[<Pause>]]> meeting what looks to be ancient Hearthians, crawling out of a pond?</Page>
+      <Page>But if this is true, that would mean <![CDATA[<color=orange>our ancestors evolved to walk on the surface</color>]]> much earlier than we had thought.. And that we even coexisted for a period of time with the Nomai! It's.. unbelievable! It's a whole new page of Hearthian history!</Page>
+      <Page>I think I'm gonna keep this discovery a secret, and gather more data on this discovery from my upcoming archelogical study of the Hanging City before I make an official report.</Page>
+      <Page>I don't want Hornfels and Chert to pick it apart and realize it was the Nomai's way of depicting um.. ancient dragonflies or alien flowers. We <![CDATA[<i>have</i>]]> found murals of what we can only assume to be alien flora and fauna, after all.</Page>
+       <Page>Right, the door.. I've got to chase this lead while the hearth is hot, but I badly want to find out what's hidden inside this forbidden Nomai structure, too.</Page>
+      <Page>If only <![CDATA[<color=orange>there was some way to at least see what's inside...</color>]]> Then maybe we could at least determine if it's even safe and worth further investigation to get in.</Page>
+      <Page>Whoever hears this recording, if you figure out any way through this door, or can do a better job translating the Nomai text here and in the pools below, please keep me posted! I'd love for this Hearthian mystery to be solved at last!</Page>
+    </Dialogue>
+
+    <RevealFacts>
+			<FactID>Nomai Gate 2</FactID>
+			<FactID>Riebeck Lead</FactID>
+		</RevealFacts>
+  </DialogueNode>
+
+</DialogueTree>

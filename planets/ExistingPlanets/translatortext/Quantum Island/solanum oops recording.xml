@@ -1,0 +1,34 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>SOLANUM: Ah! The scroll I was curious about reading slipped from my grasp from that fall!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: Oh dear, I must have dropped it into the pool.. I must try to retrieve it before I leave!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>SOLANUM: Ow, ow, ow... The long, electrifying tentacles of the pool's inhabitant appear to be inconveniently guarding the scroll at the bottom of the pool; I received a painful shock trying to swim under it..</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>SOLANUM: Oh.. I deeply apologize for polluting your home, my friend. I.. I shall seek Bells' help in retrieving that scroll from your dwelling immediately, once I have completed my quantum pilgrimage today.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>SOLANUM: If anyone that sees this recording knows of a way to cause the tentacled species to rise so the scroll can be safely retrieved, I would be grateful if you would kindly retrieve it in my place!</Text>
+	</TextBlock>
+
+
+
+</NomaiObject>

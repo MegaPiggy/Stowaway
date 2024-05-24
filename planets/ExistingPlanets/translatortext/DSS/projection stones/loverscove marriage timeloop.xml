@@ -1,0 +1,97 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		DAZ: Friends, Cassava and I write to you from Lovers' Cove. We eagerly await any update - how did the test of the <![CDATA[<color=orange>Deep Storm Station</color>]]> today go? 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		YARROW: Greetings, my friends. The test has concluded - but I fear our goal is not yet within reach.. But thanks to the Deep Storm Station, we have sown the seeds of success in the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		YARROW: But come, let us not be distracted by these results from a more important question!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		YARROW: How did your plan to propose to Cassava during the negative time interval fare, Daz? All of us in the <![CDATA[<color=orange>Deep Storm Station</color>]]> have been waiting anxiously to learn his answer!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		CASSAVA: Wait a second! Was that how Daz was able to know my answer before I gave it?! For what purpose would he...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		DAZ: He said yes! We're engaged, everybody! We're engaged!!
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		DAZ: Well, I.. I was afraid of the possibility you might feel differently.. That's why I.. wanted to see <![CDATA[<color=orange>6 seconds into the future</color>]]> of my proposal..
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		Cassava: Oh, Daz.. You mean the world to me... Of course I would say yes. But that means.. we had a time-traveling proposal of marriage! How many in existence could lay claim to that?!
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		Cassava: You have until the <![CDATA[<color=orange>Ash Twin Project</color>]]> is ready to craft an even grander marriage proposal to Clary, Yarrow!
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>10</ID>
+		<LocationA />
+		<ParentID>9</ParentID>
+		<Text>
+		Yarrow: Our romantic relationship has only begun recently! You know we’re nowhere ready for that!!
+		</Text>
+			</TextBlock>
+
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>CONV R2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DSS CONV3</FactID>
+			<Condition>4,7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

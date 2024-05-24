@@ -1,0 +1,120 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Tephra</NameField>
+
+	<DialogueNode>
+		<Name>HideAndSeek1</Name>
+	
+		<DialogueOptionsList>
+	
+			<DialogueOption>
+				<Text>Hey Tephra, got any new dirt for me before I take off?</Text>
+				<DialogueTarget>Teph Quantum</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
+				<DialogueTarget>Teph Answers 1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>Teph Answers 1</Name>
+		<Dialogue>
+			<Page>Wha? Really?! Where does it go?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>It travels to some sealed up cavern inside Timber Hearth.</Text>
+				<DialogueTarget>Teph Answers 1B</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>It travels to a sanctuary inside Timber Hearth the Nomai made to protect Hearthians from a supernova.</Text>
+				<DialogueTarget>Teph Answers 2</DialogueTarget>
+			</DialogueOption>
+			</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Teph Answers 1B</Name>
+		<Dialogue>
+			<Page>Huh... Uhm, I guess we can't really steal its as a hiding spot, if there's no way to get inside..</Page>
+					<Page>Oh, oh! But since the weird rock is cheating and hiding inside ghost matter, it's disqualified! Hah! We're the best hiders in the village again!</Page>
+					<Page>And you're officially the best seeker, astronaut! I knew you'd find it!</Page>
+					<Page>Good luck out there in space, astronaut. I know you'll find whatever you're seeking out there for sure!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Teph Answers 2</Name>
+		<Dialogue>
+			<Page>Woah, really? The supernova is the bad thing the sun does that the exhibit in the museum talks about, right?</Page>
+					<Page>Why would the Nomai build something like that? Is it just an emergency hiding spot in case that happens someday?</Page>
+					<Page>But if it is, why would they seal it up and hide it like that? There's no way to get anything or anyone in or out of there now!</Page>
+					<Page>The Nomai are <![CDATA[<i>weeeird..</i>]]></Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>Teph Quantum</Name>
+		<Dialogue>
+			<Page>Wait, you're taking off today? <![CDATA[<i>Really?!</i>]]> I didn't know!</Page>
+			<Page>Aw, I'll.. I'll miss you, astronaut. Um, I don't really have any new dirt on me..</Page>
+			<Page><![CDATA[<i>Oh, I know!</i>]]></Page>
+			<Page>There's a new champion of hide and seek in the village, if that's dirt to you!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Oh? Someone better at hiding than you or Galena? Who could that be?</Text>
+				<DialogueTarget>Teph trail 1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>Is it Feldspar?</Text>
+				<DialogueTarget>Teph trail 1B</DialogueTarget>
+			</DialogueOption>
+			</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Teph trail 1</Name>
+		<Dialogue>
+			<Page>It's a <![CDATA[<i>'what',</i>]]> not a 'who'!</Page>
+			<Page>It's that <![CDATA[<color=orange>weird rock at the museum!</color>]]></Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Weird rock?</Text>
+				<DialogueTarget>Teph trail 2</DialogueTarget>
+			</DialogueOption>
+			</DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode>
+		<Name>Teph trail 1B</Name>
+		<Dialogue>
+			<Page>Um.. That's a really horrible joke to make, astronaut..</Page>
+			<Page>No, I'm talking about the <![CDATA[<color=orange>weird rock outside the museum!</color>]]></Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text><![CDATA[<size=20>]]>Sorry.<![CDATA[</size>]]> Weird rock?</Text>
+				<DialogueTarget>Teph trail 2</DialogueTarget>
+			</DialogueOption>
+			</DialogueOptionsList>
+</DialogueNode>
+
+<DialogueNode>
+		<Name>Teph trail 2</Name>
+		<Dialogue>
+			<Page>Yeah, the <![CDATA[<color=orange>weird purple rock in the exhibit right outside the museum!</color>]]> It's <![CDATA[<i>so</i>]]> good at hiding!</Page>
+			<Page>Oh, and I don't mean when it jumps behind you and scares you! I mean <![CDATA[<color=orange>when it disappears completely!</color>]]></Page>
+			<Page>Galena and I both looked all over Timber Hearth to find where it goes when it disappears. But neither of us ever found its <![CDATA[<color=orange>super secret hiding spot!</color>]]></Page>
+			<Page>Maybe you can help us find where it goes, astronaut.</Page>
+			<Page>If you find it, that'd make you the best seeker in the village!</Page>
+		</Dialogue>
+</DialogueNode>
+
+</DialogueTree>

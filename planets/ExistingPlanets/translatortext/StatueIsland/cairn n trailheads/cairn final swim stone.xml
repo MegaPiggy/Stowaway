@@ -1,0 +1,24 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		MELORAE: Yes, <![CDATA[<i>yes,</i>]]> of course! Coleus tells me they have even discovered <![CDATA[<color=orange>a new quantum shard on this prospective island!</color>]]> I cannot wait to learn what lessons this quantum shard has to teach us!
+		</Text>
+	</TextBlock>
+	
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Pioneer_I EX2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LC R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

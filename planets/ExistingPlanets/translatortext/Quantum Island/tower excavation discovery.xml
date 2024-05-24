@@ -1,0 +1,50 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+
+	<![CDATA[<i>Excavation Site</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			PLUME: Friends, I discovered a new quantum shard, while excavating one of the lower chambers of the tower today. Please do not be surprised if you it visits your chamber without warning!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			THATCH: But of course: that must have been the source of the signal we heard coming from Giant's Deep, when we were studying the quantum shard on <![CDATA[<color=lightblue>Brittle Hollow!</color>]]></Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			MELORAE: We should capture a photo of it to share with our friends back home. We've located yet another quantum shard! I wonder what lessons it may have to teach us.</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			COLEUS: Hm? How strange. Could everyone look away from the shard for a moment? It appears to no longer desire to travel for some reason!</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			MELORAE: <![CDATA[<i>Wait.</i>]]> The photo I took of the shard is still within my view.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			MELORAE: Could.. Could observing the quantum shard, even through a photo, somehow be locking it in superposition?</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		COLEUS: Hypothesis confirmed! <![CDATA[<i>Hypothesis confirmed!</i>]]> Melorae, you've discovered a new quantum rule! My mentor and I are the greatest quantum geologists in the universe!
+		</Text>
+	</TextBlock>
+
+</NomaiObject>

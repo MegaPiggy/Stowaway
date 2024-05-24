@@ -1,0 +1,92 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<!--
+	IF IT’S NIGHT, change SignalScopeKid2 dialogue to this:
+	I’m waiting for nightfall so I can pick up sounds from distant planets using my signalscope.
+-->
+
+	<NameField>Moraine</NameField>
+	
+	<DialogueNode>
+		<Name>SignalscopeKid1</Name>
+		<DialogueOptionsList>
+				<DialogueOption>
+				<Text>Hey, Moraine. Slate said you had something to ask before I fly off?</Text>
+				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>SignalscopeKidNew1</Name>
+		<Dialogue>
+			<Page>Oh, that.. Um, I just wanted to make a silly request if it's okay, astronaut.</Page>
+			<Page>Remember when Riebeck dropped their banjo into one of the geysers by accident?</Page>
+			<Page>They were so worried about what Gneiss might do to them! Thank goodness we were able to find it somehow shot outside one of the geyser mountains on the other side of the planet.</Page>
+				<Page>But ever since that incident, I've always been curious about the waterways of Timber Hearth, inside those geysers.</Page> <Page>There's gotta be some underwater cave system connected between the geyser pools for the banjo to have been carried so far from the village!</Page>
+				<Page>Who knows how far they wind, or what we might find down there... I feel excited just thinking about it!</Page>
+				<Page>I don't know how safe it is down there.. But the traveler's spacesuit should let you breathe underwater, right?</Page>
+					<Page>If it looks safe enough, could you maybe.. <![CDATA[<Pause>]]> jump in one of the geysers and look around if there's anything cool in Timber Hearth's spooky depths?</Page>
+					<Page>Oh! Um, the astronauts all have their own Little Scouts too, right?</Page>
+					<Page>If the current looks too strong and scary, maybe you could shoot the Little Scout to check ahead where the water current goes before diving in!</Page>
+		</Dialogue>
+	 <DialogueOptionsList>
+			<DialogueOption>
+				<Text>That sounds dangerous! I'll give it a try sometime.</Text>
+				<DialogueTarget>SignalscopeKidNew2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+			<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
+				<Text>Oh, I dived down there and found a Nomai mural depicting Hearthian ancestors on land!</Text>
+				<DialogueTarget>SignalscopeKidNew3</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>SignalscopeKidNew2</Name>
+		<Dialogue>
+				<Page>Really? You're the best, astronaut!</Page>
+				<Page>If you do find anything, I wanna hear all about it!</Page>
+				<Page>Just be careful not to hit your head right before your takeoff, okay?</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>SignalscopeKidNew3</Name>
+		<Dialogue>
+				<Page>Woah.. What? A Nomai mural of.. our ancestors on land? ..That’s <![CDATA[<i>awesome!</i>]]></Page>
+				<Page>It’s not some secret underwater monster like I was hoping.. But it’s still really awesome!</Page>
+				<Page>But wait... <![CDATA[<Pause>]]> Doesn’t that mean Hearthians must have already existed when the Nomai were around? And it sounds like we were still able to live on both land and water back then! </Page>
+				<Page>Man, when did Hearthians stop being able to breathe underwater completely then?</Page>
+				<Page>If we were still able to breathe underwater nowadays, I'd be able to swim around the waterways all day!</Page>
+				<Page>But wow.. Isn't this discovery gonna totally upend our knowledge of Hearthian history?</Page>
+					<Page>I think you’d better fly to Brittle Hollow as soon as you can to tell Riebeck about this huge discovery, astronaut!</Page>
+					<Page>They're probably going to lose their marbles revising the Hearthian history books.</Page>
+					<Page>Don’t forget, you can use your signalscope to track down the other travelers more easily!</Page>
+		</Dialogue>
+		
+		<SetCondition>SHOW_SIGNALSCOPE_PROMPT</SetCondition>
+	</DialogueNode>
+
+
+
+
+
+		<DialogueNode>
+		<Name>SignalscopeKid5</Name>
+		<DialogueOptionsList>
+				<DialogueOption>
+				<Text>Hey, Moraine. Slate said you had something to ask before I fly off?</Text>
+				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+			<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
+				<Text>I dived into the waterways and found a Nomai mural depicting Hearthian ancestors on land!</Text>
+				<DialogueTarget>SignalscopeKidNew3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+</DialogueTree>

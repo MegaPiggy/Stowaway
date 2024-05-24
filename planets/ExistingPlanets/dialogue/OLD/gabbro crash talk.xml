@@ -1,0 +1,68 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>Gabbro</NameField>
+
+<DialogueNode>
+    <Name>ImDead</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <SetCondition>TalkedWithCrash</SetCondition>
+    <Dialogue>
+      <Page><![CDATA[<i>]]>Woah.<![CDATA[</i>]]></Page>
+      <Page>That was one heck of a crash, huh?</Page>
+      <Page> Guess I'm rustier than I thought. Doing nothing but playing flute for how many loops will do that to your piloting skills.</Page>
+      <Page>Uh.. there's a <![CDATA[<i>]]>whole<![CDATA[</i>]]> lot of beeping going on.. No problem, no problem - I got this. Gimme a sec, just gotta tape the reactor up a little here, a little there...</Page>
+    </Dialogue>
+  </DialogueNode>
+
+<DialogueNode>
+    <Name>ImSeriouslyDead</Name>
+    <EntryCondition>TalkedWithCrash</EntryCondition>
+    <SetCondition>TalkedWithCrashAgain</SetCondition>
+    <Dialogue>
+      <Page>Um, it's still beeping. You see anything wrong with the ship out there, time buddy?</Page>
+      <Page>Actually, this thing's an older generation ship - you might just blow it up trying to help. Maybe just keep your distance, time buddy.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+<DialogueNode>
+    <Name>DEAD!</Name>
+    <EntryCondition>TalkedWithCrashAgain</EntryCondition>
+    <Dialogue>
+      <Page>Nope, I can't figure it out. She's gonna blow.</Page>
+       <Page>Hm. See you next loop, time buddy!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+<DialogueNode>
+    <Name>REDEAD</Name>
+    <EntryCondition>DiedBefore2</EntryCondition>
+    <SetCondition>DiedBeforeAndTalking</SetCondition>
+    <Dialogue>
+      <Page>Well, we know how this goes. Maybe I should stop trying to land perfectly on the landing pad...</Page>
+      <Page>..<![CDATA[<Pause/>]]> <![CDATA[<i>]]>Nahh.<![CDATA[</i>]]> See you next loop, time buddy!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+<DialogueNode>
+    <Name>GabbroExpress</Name>
+    <EntryCondition>DiedBeforeAndTalking</EntryCondition>
+     <SetCondition>DiedBeforeAndTalking2</SetCondition>
+    <Dialogue>
+      <Page>The Gabbro Flight Express is obligated to encourage you to vacate the area as soon as possible, loyal passenger.</Page>
+      <Page>Hm? What about me? A Hearthian always goes down with their ship, time buddy.</Page>
+      <Page>Besides.</Page>
+      <Page>Dying like this - kinda beats getting charred by the supernova. <![CDATA[<Pause/>]]> At least I don't have to hear the other travelers.. y'know. Fade out.</Page>
+      <Page>At least this is more on my own terms, y'know?</Page>
+    </Dialogue>
+  </DialogueNode>
+
+<DialogueNode>
+    <Name>Gabbro Martyr</Name>
+    <EntryCondition>DiedBeforeAndTalking2</EntryCondition>
+    <Dialogue>
+      <Page>No, seriously - get to safety, hatchling.</Page>
+      <Page>I'm good.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

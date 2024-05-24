@@ -1,0 +1,20 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: Effect observed with consistency. Even being plunged deep into the ocean has no lasting effects.. To investigate: effect of prolonged exposure to water on deadly matter <![CDATA[<color=orange>on submerged plane of island.</color>]]>
+		</Text>
+	</TextBlock>
+
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>FlipIsland R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

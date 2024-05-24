@@ -1,0 +1,16 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>BUR: Coleus! It was wonderful visiting your new dwelling and admiring your handiwork upstairs! But is young Phlox.. growing into practical jokes recently? The exhibits' descriptions seem to have been pranked by somebody!</Text>
+	</TextBlock>
+
+	
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_M EX2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

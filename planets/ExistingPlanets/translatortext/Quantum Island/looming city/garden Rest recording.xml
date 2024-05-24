@@ -1,0 +1,59 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<![CDATA[<i>solely</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PLUME: Dear Phlox, when you wake from your rest, I will have left your company momentarily. I am joining our friends to conduct important research with our friends on the <![CDATA[<color=orange>tentacled lifeforms,</color>]]> while weather on the planet is calm.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PLUME: I am aware the roots growing into the ceiling of our chamber frighten you at times. I have left the <![CDATA[<color=orange>lights powered</color>]]> inside the tower, in hopes that it soothes your fears when you wake.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		PLUME: You may go to Coleus' chamber to paint with one of his canvases, should a thunderstorm keep you from rest. I promise we will return soon to keep you company shortly! Be well, my beloved son.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		PHLOX: Papa, I tried to paint, but <![CDATA[<color=orange>the roots followed me into Coleus' chamber</color>]]> too! But, there <![CDATA[<i>are</i>]]> no trees in the chamber below! It's really scaring me...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		MELORAE: Try to <![CDATA[<color=orange>capture a photo of these strange roots</color>]]> the next time you see it and try to locate its source, Phlox! I suspect the Garden Chamber's tree must have taken on a state of quantum superposition...
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC EX3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LC_G R2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LC_G R3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

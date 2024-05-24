@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 4147470275
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5b1a0af8118eb397c382310c47b25a2a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c51e2361275457af1862c65176bc8e9a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 210
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Nomai Ruins/2d assets/JELLY icon.prefab
+- Assets/Nomai Ruins/2d assets/sun icon orange.prefab
+- Assets/Nomai Ruins/2d assets/db icon orange.prefab
+- Assets/Nomai Ruins/2d assets/thm icon orange.prefab
+- Assets/Nomai Ruins/2d assets/vm icon orange.prefab
+- Assets/Nomai Ruins/2d assets/th icon orange.prefab
+- Assets/Nomai Ruins/pioneer icon.prefab
+- Assets/Nomai Ruins/2d assets/ht icon orange.prefab
+- Assets/Nomai Ruins/2d assets/bh icon orange.prefab
+- Assets/Nomai Ruins/2d assets/gd icon orange.prefab
+Dependencies: []

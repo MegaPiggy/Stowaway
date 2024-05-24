@@ -1,0 +1,49 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>CASSAVA: I visited Timber Hearth today, Daz. I've given more thought to your proposal.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>CASSAVA: I have changed my mind. We must indeed act swiftly to protect these precious native lifeforms, before they are completely wiped out.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>CASSAVA: Daz, are you still upset at me? I.. I need your advice.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>CASSAVA: ..Are you still working on the <![CDATA[<color=orange>Aspiring project?</color>]]></Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>DAZ: I will reply shortly, Cassava.</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>CASSAVA: We will use the Inspired to protect the native lifeforms of Timber Hearth, by using its artificial gravity to slowly siphon the deadly matter irradiating it.</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>CASSAVA: However, it appears likely that <![CDATA[<color=orange>mining site 2b</color>]]> will be too enclosed for the Inspired's artificial gravity to reach. It will need to be sealed shut to protect the native lifeforms.</Text>
+			</TextBlock>
+<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>CASSAVA: Afterwards, it may be best for us never to visit Timber Hearth again - not even by shuttle or warp pad. Otherwise, we risk contaminating the sterile environment, or powering a return warp that could transport the lifeforms to irradiated spaces.</Text>
+			</TextBlock>
+</NomaiObject>

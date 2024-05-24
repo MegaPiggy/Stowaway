@@ -1,0 +1,34 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		SPIRE: <![CDATA[<i>Oh, goodness.</i>]]> I believe we have found <![CDATA[<color=orange>a secret hidden in the tower.</color>]]> I thought the pioneers would surely have removed it before they vacated from the tower to settle on the other islands...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		CONOY: I suppose its discovery must have contributed to an even hastier decision to abandon the tower's use as a settlement. It's grown right through the chamber floors!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		CONOY: I can't wait to tell our friends about this! I wonder how many others on the pilgrimage might have found this secret..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>
+		SPIRE: I cannot imagine most have - at least, not without knowing <![CDATA[<color=orange>two quantum rules</color>]]> ahead of time like you, Conoy!
+		</Text>
+	</TextBlock>
+</NomaiObject>

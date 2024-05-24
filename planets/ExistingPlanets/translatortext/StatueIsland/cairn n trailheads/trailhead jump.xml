@@ -1,0 +1,24 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		AVENS: Time waits for no one! Take a leap of faith from the plank if you wish to take a shortcut to your shuttle! The <![CDATA[<color=orange>landing pad below will catch your fall!</color>]]>
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Cliff R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>Cliff EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+	
+</NomaiObject>

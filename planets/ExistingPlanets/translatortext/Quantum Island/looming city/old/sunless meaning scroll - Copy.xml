@@ -1,0 +1,79 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<![CDATA[<i>solely</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CONOY: Spire convinced me to begin a new scroll of forbidden knowledge while waiting for him. Hiding it in superposition within the tower should better hide it away from Bells, and help keen explorers on their journey!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PHLOX: Melorae, why do the Nomai on Ember Twin call their city the "Sunless" City? Is it because Ash Twin hides away the sun?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		MELORAE: What an amusing hypothesis, Phlox! But in this case, "sunless" simply refers to the city's subterrenean nature, as the city was built deep underground to shelter us from the sun's heat.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		MELORAE: At the same time, it is also true that the <![CDATA[<color=orange>Ash Twin regularly eclipses the sun</color>]]> as it orbits its twin - so I suppose the Sunless City could fit <![CDATA[<color=orange>both interpretations</color>]]> of its name!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		COLEUS: Plume, have you not yet brought young Phlox to visit the <![CDATA[<color=orange>Sunless City?!</color>]]> We should all visit Ember Twin as soon as we can, to see this exciting discovery, and to show Phlox our wonderful city!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		MELORAE: I agree! The discovery was found in <![CDATA[<color=orange>a grotto at the bottom of the Stepping Stone District</color>]]> by children playing in the cave; I'm sure they would love a new friend to teach their games to and play with!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		PHLOX: I'd love to play with them! But.. But I... I don't like the sand on Ember Twin very much...
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		COLEUS: We can visit Ember Twin <![CDATA[<color=orange>at the very start of the sand transfer!</color>]]> If we hurry, we'll have as much time as possible to study that grotto, and for you to play without fear of the sand!
+		</Text>
+	</TextBlock>
+	
+
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_C EX2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

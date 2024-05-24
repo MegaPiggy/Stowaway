@@ -1,0 +1,132 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Tephra</NameField>
+
+	<DialogueNode>
+		<Name>HideAndSeek1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hullo, astronaut!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>If it isn’t my favorite troublemaker.</Text>
+				<DialogueTarget>HideAndSeek2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What’s with the radio?</Text>
+				<DialogueTarget>HideAndSeek2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				 <RequiredPersistentCondition>GabbroPenalty1</RequiredPersistentCondition>
+				<Text>Hey, can I ask you something, Teph? Where would you hide a small, flat thing in a game of hide and seek?</Text>
+				<DialogueTarget>HideAndSeek_Gab</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>HideAndSeek_Gab</Name>
+		<Dialogue>
+			<Page>Wha? That's a funny question, astronaut. Hmm, let me think...</Page>
+			<Page>A flat thing? So, like something you could sit on, right?</Page>
+			<Page>Oh, I know!</Page>
+			<Page>If Gabbro were back at the village, I'd put it on their hammock, so they hide it compltely sleeping on top of it. There's absolutely no better hiding spot than under that sleepy guy!</Page>
+			<Page>Hope that helps, astronaut! ..Wait, now I can't ever hide something there ever again! You didn't hear that, right, Galena?!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I'm gonna miss you both.</Text>
+				<DialogueTarget>ByeAstronaut</DialogueTarget>
+			</DialogueOption>
+			</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ByeAstronaut</Name>
+		<Dialogue>
+			<Page>I'll miss you too, astronaut! Make sure you radio back often and tell us lots of cool stories about space.</Page>
+			<Page>Once we learn how to fly the model rocket, Galena and I can fly into space on it and come look for you! We'll bring new mallow supplies to you so you don't get hungry!</Page>
+			<Page>Well, the mallow supplies will probably be eaten up by the time we get to you, so that might not work out. Take care, astronaut!</Page>
+		</Dialogue>
+</DialogueNode>
+
+	<DialogueNode>
+		<Name>HideAndSeek2</Name>
+		<Dialogue>
+			<Page>We <![CDATA[<i>]]>wanted<![CDATA[</i>]]> to play hide and seek, but Moraine won’t let us borrow their signalscope because it’s “really delicate” and “not supposed to be thrown around like that.”</Page>
+			<Page>Hey, hey, can we use <![CDATA[<i>]]>your<![CDATA[</i>]]> signalscope? Can we? Can we, please? We’ll even let you be “it”!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Sure, let’s play!</Text>
+				<DialogueTarget>AgreeToPlay</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Sorry, can’t today.</Text>
+				<DialogueTarget>RefuseToPlay</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>AgreeToPlay</Name>
+		<Dialogue>
+			<Page>Woohoo! Okay, here are the rules. Galena and me will hide with these radios, and you’ll use your signalscope to find us.</Page>
+			<Page>Last one to be found wins! Okay, close your eyes and start counting!</Page>
+		</Dialogue>
+		<DialogueOption>
+			<Text>One, two, three...</Text>
+		</DialogueOption>
+		<SetCondition>BeginHideAndSeek</SetCondition>
+<!-- 		<DialogueOption>
+			<Text>On second thought, I’m pretty busy.</Text>
+			<DialogueTarget>RefuseToPlay</DialogueTarget>
+		</DialogueOption> -->
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>RefuseToPlay</Name>
+		<Dialogue>
+			<Page>Awww, really? But we can’t play without a signalscope... Play with us later, okay?</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>FoundYou</Name>
+		<EntryCondition>BeginHideAndSeek</EntryCondition>
+		<Dialogue>
+			<Page>Awww, you found me? But my hiding spot was super good!</Page>
+			<Page>Don’t forget, you have to find both of us, okay?</Page>
+		</Dialogue>
+		<SetCondition>FoundKidOne</SetCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>LastKidFound</Name>
+		<EntryCondition>LastKidToFind</EntryCondition>
+		<Dialogue>
+			<Page>You got me, but I’m the last one. I win!</Page>
+			<Page>Promise you’ll play again when you get back from space, okay? You gotta!</Page>
+		</Dialogue>
+		<SetCondition>EndHideAndSeek</SetCondition>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>AlreadyFoundYou</Name>
+		<EntryCondition>FoundKidOne</EntryCondition>
+		<Dialogue>
+			<Page>I wanted to hide in the observatory, but Hornfels said I was “making a nuisance of myself.”</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>PlayedTheGame</Name>
+		<EntryCondition>EndHideAndSeek</EntryCondition>
+		<Dialogue>
+			<Page>Hullo, astronaut!</Page>
+			<Page>We’re all going to watch your launch later. I hope space is nice!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>

@@ -1,0 +1,84 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		YARROW: Are you ready, Privet? Using the electric core of Giant's Deep, the Deep Storm Station will soon power a <![CDATA[<color=orange>6-second negative time interval</color>]]> to <![CDATA[<color=orange>test the mechanisms of the Ash Twin Project!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PRIVET: We're ready, Yarrow! I'll alert you of the probe's results as soon as I am paired to the memory statue, so please keep the projection stone engaged in conversation!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<LocationB />
+		<Text>
+		PRIVET: <![CDATA[<iYarrow, the test is complete!!</i>]]> Kindly deactivate the station at once - I've been trying to write as fast as I can before the 6-second loop ends!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		YARROW: My apologies! It appears Poke was standing closer to the memory statue in the station, and I was not paired as a result.. What do the <![CDATA[<color=orange>Probe Tracking Module's</color>]]> records tell you, my friend?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB />
+		<Text>
+		PRIVET: Sadly, as predicted, a 6-second flight was nowhere sufficient to cover the calculated distance of the Eye's possible orbits.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA />
+		<Text>
+		PRIVET: The memory statues were activated to warn us of redundancy, after the probe elapsed 20 billion loops and began to repeat redundant flight trajectories.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationA />
+		<Text>
+		YARROW: Though disappointing, this result means the Deep Storm Station succeeded in its foremost priorities; we can now be certain that all mechanics of the negative time interval are <![CDATA[<color=orange>theoretically sound and functional.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationA />
+		<Text>
+		YARROW: This knowledge brings me much relief. Once the <![CDATA[<color=orange>Sun Station</color>]]> is complete, we can now be confident in its operation without fear of endangering our clan, the star system, and its precious lifeforms.
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>CONV R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DSS CONV5</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Stowaways DSS 0</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

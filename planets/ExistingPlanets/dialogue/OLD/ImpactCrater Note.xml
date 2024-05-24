@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>SIGN</NameField>
+
+<DialogueNode>
+    <Name>TektitesGone</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hey, I came here to check on whatever landed outside the village crater, and found this. Seems to be a seed from Dark Bramble - ain't nothing these trees grew.</Page>
+      <Page>If you're reading this, go back and get Hal and Marl to fetch their axes, and get someone to bring a <![CDATA[<color=orange>scout launcher</color>]]> to look inside the seed before they get chopping.</Page>
+      <Page>I'm gonna go check on that <![CDATA[<color=orange>big, locked Nomai door</color>]]> in the big geyser mountain again. Maybe that big crash from the seed knocked the door out... Here's hoping. --Tektite</Page>
+    </Dialogue>
+    <RevealFacts><FactID>TH_IMPACT_CRATER_X1</FactID></RevealFacts>
+  </DialogueNode>
+
+</DialogueTree>

@@ -1,0 +1,68 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		AVENS: My beautiful love, how are you feeling today? I feel exhilarated to be a part of the excavation crew with you!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		MALLOW: My pulse is faster than a particle accelerator, my love! I could not be more thrilled that we are finally beginning work on the excavation of the <![CDATA[<color=orange>Deep Storm Station!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		MALLOW: That said, do you recall where Cassava instructed us the previous night to travel to..?
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB />
+		<Text>
+		AVENS: He only said to await him and our friends from the Black Hole Forge at the south pole. I imagine we will be conducting a final assessment of our materials and equipment before we descend together.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		PHLOX: Make sure to keep track of your remaining air supply, and to keep track of each other in the depths! And do not forget to account for decompression stops, should there be a need for early ascension!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: Safe travels, my dear brother and brother-by-proxy.. We will be anxiously awaiting the safe return of everyone with warm layers and sustenance prepared!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: (And please, help keep a third eye out for Cassava in my stead!)
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>DSS R2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

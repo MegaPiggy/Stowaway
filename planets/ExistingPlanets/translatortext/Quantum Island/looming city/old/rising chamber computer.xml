@@ -1,0 +1,59 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		<![CDATA[<color=orange>Orange cnidaria</color>]]> analysis
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		281,010 YEARS AGO: ORCNID SURFACING PHENOMENON detected. Recording occurence entry 5. Assessing environmental conditions of planet for analysis of possible cause.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		Ocean temperature and acidity within normal range. Recording occurence for future pattern analysis. Satellite gravity detected; Quantum Moon confirmed to be orbiting Giant's Deep.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		281,010 YEARS AGO: ORCNID SURFACING PHENOMENON detected. Recording occurence entry 4. Assessing environmental conditions of planet for analysis of possible cause.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		Ocean temperature and acidity slightly higher than average. Recording occurence for future pattern analysis. Satellite gravity detected; Quantum Moon confirmed to be orbiting Giant's Deep.
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		281,010 YEARS AGO: ORCNID SURFACING PHENOMENON detected. Recording occurence entry 3. Assessing environmental conditions of planet for analysis of possible cause.
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		Ocean temperature slightly lower than average, acidity within normal range. Recording occurence for future pattern analysis. Satellite gravity detected; Quantum Moon confirmed to be orbiting Giant's Deep.
+		</Text>
+			</TextBlock>
+</NomaiObject>

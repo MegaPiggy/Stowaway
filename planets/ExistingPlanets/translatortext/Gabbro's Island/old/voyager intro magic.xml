@@ -1,0 +1,47 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>PHLOX: Daz, this technology is incredible.. However, I am curious why my sculpting tools I was carrying during projection did not appear to follow my voyage!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>DAZ: Ah, I apologize, Phlox! But replicating tools and complex equipment out of liquid alloy with faithfulness has proven <![CDATA[<i>slightly</i>]]> impossible with our current technology.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>DAZ: The <![CDATA[<color=orange>voyagers</color>]]> were designed for <![CDATA[<color=orange>exploring dangerous environments,</color>]]>and <![CDATA[<color=orange>transport of small items in-person</color>]]> primarily.. One should also be possible to activate vision-controlled mechanisms as well.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>DAZ: I deeply apologize for this disappointment. For now, I am working on adding functionality to the voyagers' vessels to perhaps allow them to transcribe text!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>PHLOX: I suppose it was rather fantastical of me to imagine the vessel would somehow replicate the properties and functions of my possessions!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>PHLOX: But make no mistake, Daz: in no way does this diminish my awe for your new <![CDATA[<color=orange>voyager stones!</color>]]>
+		</Text>
+	</TextBlock>
+	
+<ShipLogConditions>
+			<RevealFact>
+			<FactID>Cove EX4</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

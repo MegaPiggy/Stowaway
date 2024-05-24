@@ -1,0 +1,20 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		THATCH: Aunt Melorae, we have found <![CDATA[<color=orange>an island entirely unvisited by cyclones!</color>]]> Plume says the site looks hospitable enough to even construct <![CDATA[<color=orange>a new settlement</color>]]> to house us! Could you assist me in bringing our supplies to this new island?
+		</Text>
+	</TextBlock>
+	
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Pioneer_I EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

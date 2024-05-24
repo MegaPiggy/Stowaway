@@ -1,0 +1,76 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		THATCH: Filix, I shall be returning to the <![CDATA[<color=orange>Gravity Cannon on Brittle Hollow</color>]]> shortly for supplies. Please allow me to know if it is safe to recall the shuttle!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		FILIX: <![CDATA[<i>Do not recall your shuttle!</i>]]> The second shuttle is resting here at the Gravity Cannon right now!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		THATCH: I shall wait! But.. what <![CDATA[<i>might</i>]]> transpire, if <![CDATA[<color=orange>a shuttle were to be recalled into a space occupied by a second craft?</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		FILIX: My gratitude for your patience. Kousa is preparing a last shipment of gravity crystals for the new Gravity Cannon on Ember Twin; I shall not miss the looming pressure of sharing a single cannon between two shuttles..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		FILIX: We are incredibly fortunate to have been careful enough thus far to avoid such a scenario. The returning shuttle would warp into the obstructed space, <![CDATA[<color=orange>explosively tearing both shuttles apart!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		FILIX: Anyone aboard the shuttle would surely sustain grievous injuries - and many more could be endangered, <![CDATA[<color=orange>if the explosion were to shake the Gravity Cannon and its dwellings into the black hole.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		THATCH: <![CDATA[<i>My goodness!</i>]]> I shall make sure to remind the others to follow protocol, so we may never experience this terrible possibility.. You have my gratitude for overseeing the safety of everyone, Filix!
+		</Text>
+			</TextBlock>
+
+
+	<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_P EX1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LC_P EX2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LC_P EX3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

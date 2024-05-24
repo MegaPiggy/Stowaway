@@ -1,0 +1,67 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: Daz? What is this..? Can you read me? How am I walking outside of the projection pool!? 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		DAZ: <![CDATA[<i>This</i>]]> is my newest invention, my love! A projection stone that allows your memories to be sent back to you from your paired mask, <![CDATA[<color=#99B200ff>allowing you to move outside a projection pool freely!</color>]]>
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		DAZ: Once this technology is perfected, remote work and exploration will become second-nature to our clan! This impervious vessel of alloy can even <![CDATA[<color=orange>weather any hazard</color>]]> it is exposed to!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: Oh. Welcome back, my love! You may have been a little too eager for my explanation. A small addendum: any hazard... <![CDATA[<color=orange>sans water.</color>]]> The alloy dissolves when submerged in large bodies of water!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		CASSAVA: Still, this.. this invention is incredible! How long have you been working on this project in secret, my love! And have you come up with a name for this exciting new invention yet?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		DAZ: I wished to surprise you, like <![CDATA[<i>you</i>]]> love to surprise me! Regarding a name, no, not yet. I wished to think of perhaps some marine-related pun, but could not come up with a satisfactory one!
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		CASSAVA: What about.. the <![CDATA[<color=#99B200ff>voyager stone?</color>]]> This stone will take our clan on incredible voyages across the star system, and was conceived on this thalassic planet, after all!
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		DAZ: What a beautiful name, my love. It shall be named the voyager stone, then! Come, love! Now that we are safely protected from its electrifying touch, we must help this orcnid on its voyage home!
+		</Text>
+			</TextBlock>
+</NomaiObject>

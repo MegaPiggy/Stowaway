@@ -1,0 +1,73 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		THATCH: Friends, the waves do not seem to wash high enough to reach this higher part of the island! Here, we should be able to study these frozen specimens in peace.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>
+		THATCH: <![CDATA[<color=orange>Tentacled species</color>]]> study
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		PLUME: This species appears to normally dwell deep underwater, near the planet's core. We have once observed live species on the ocean's surface on our first expedition to this planet, but have never again observed this phenomenon.
+		</Text>
+	</TextBlock>
+	
+		<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		COLEUS: These organisms have organs capable of generating bioelectricity, but do not appear to have the capability to possess wisdom, making it unlikely our presence is the cause of their sudden timidity.
+		</Text>
+		</TextBlock>
+
+			<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>THATCH: I propose we transport one of these frozen specimens to a habitat in the <![CDATA[<color=orange>Looming City</color>]]> to study a live specimen and this surfacing phenomenon in a more controlled environment!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		MELORAE: I support your proposal, Thatch! Once the specimen settles in its habitat, I would also be curious how the species might interact with the quantum shard in the <![CDATA[<color=orange>Looming City..</color>]]>
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		MELORAE: What is happening? Why has the sky gone dark? What is..
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>GM_EX2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

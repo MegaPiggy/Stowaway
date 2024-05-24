@@ -1,0 +1,74 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<![CDATA[<i>solely</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		FILIX: What a marvelous device the Nomai here have constructed... This locator enables us to track and study the <![CDATA[<color=orange>Quantum Moon</color>]]> so much more easily!
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		MELORAE: You are all welcome to visit Ember Twin at anytime to use it for your studies! I look forward to any exciting discoveries about the Quantum Moon your fresh perspectives might bring!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		FILIX: Friends, I believe I may have found something of note.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		FILIX: I was watching the Quantum Moon for some time during a rest with the help of the locator, and noticed that the moon appears to <![CDATA[<color=orange>choose different orbits around a single planet</color>]]> as it likes!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		BUR: What a fascinating discovery, Filix! So the Quantum Moon not only orbits in quantum superposition across the star system; even its orbits are quantum as well! (I fear this discovery only makes travel to the moon by shuttle even more daunting..)
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		FILIX: An update: Curiously, the Quantum Moon appears to <![CDATA[<color=orange>always orbit around the equator of Giant's Deep!</color>]]> It appears to be the only planet that the Quantum Moon has a consistently equatorial orbit around.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		ANNONA: How peculiar. Perhaps Giant's Deep's great gravitational pull allows it to always pull the Quantum Moon into this equatorial orbit.
+		</Text>
+	</TextBlock>
+	
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC EX2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

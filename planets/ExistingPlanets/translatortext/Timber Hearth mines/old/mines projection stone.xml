@@ -1,0 +1,65 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		OENO: Friends arriving from Brittle Hollow, our first shipment of ore is ready for transport to <![CDATA[<color=orange>the forge within Hollow's Lantern!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		ROOT: My gratitude, Oeno. I'll make sure this ore reaches Hollow's Lantern safely!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>
+		ROOT: Oh, I almost forgot! Here are <![CDATA[<color=orange>projection stones</color>]]> fresh from the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on Giant's Deep, Oeno!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		OENO: My word! Daz works fast, doesn't he? My gratitude for your delivery, Root! These will surely expedite progress updates between our mines, <![CDATA[<color=orange>Hollow's Lantern</color>]]> and the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+				</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		ROOT: Indeed! I suggest you visit the <![CDATA[<color=orange>Ash Twin Project</color>]]> through the <![CDATA[<color=orange>projection pool</color>]]> soon: Yarrow tells me they're ready to begin sealing off the protective shell of the central chamber today!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>PStone Leads 1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>PStone Leads 3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>PStone Leads 4</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Workshop R1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		
+	</ShipLogConditions>
+
+</NomaiObject>

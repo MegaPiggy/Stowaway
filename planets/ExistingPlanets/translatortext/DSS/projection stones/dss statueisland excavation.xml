@@ -1,0 +1,53 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: Friends on Statue Island, we have successfully completed the excavation of the core of Giant's Deep! With this, the <![CDATA[<color=orange>Deep Storm Station</color>]]> takes its first step towards realization!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		CLARY: Yarrow and I are almost done installing the new warp receiver to connect us with the warp transmitter on the Construction Yard. Once activated, we should be able to return to the surface using a <![CDATA[<color=orange>powered return warp!</color>]]>
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>
+		AVENS: I expected zero-g at the center of a planet to feel quite different from zero-g in space, but I suppose I was mistaken! This is not dissimilar to working aboard the <![CDATA[<color=orange>Orbital Probe Cannon,</color>]]> is it, Mallow?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		CASSAVA: I would appreciate if the two of you would kindly focus on the reinforcement of the walls I have tasked you with! We are surrounded by oceans of pressure - we must fortify the station's integrity as much as possible!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		DAZ: I shall quickly make my way to the Construction Yard to meet with all of you at the warp receiver then! Be well, my friends!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>DSS CONV3</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

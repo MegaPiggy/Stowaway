@@ -1,0 +1,44 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>shamelessly steals Outsider mechanic for lore - all this is chopped (as of now) but that mod's mechanic was so cool, if i dont say it anywhere Outsider was a major inspiration for my mod! basically looking at GD and going "wtf this shit barren" and i wanted to make a gm mod that thinks about what a nomai would do grieving and angry</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		CASSAVA: Friends on Brittle Hollow, this is the Dark Bramble expedition team! Do you receive us? <![CDATA[<i>We request immediate assistance!</i>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+			<ParentID>1</ParentID>
+		<Text>
+		SPIRE: We have been waiting anxiously for a message through the recorders and projection whiteboard, Cassava! What happened? Has the expedition team met with trouble?
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+			<ParentID>2</ParentID>
+		<Text>
+		CASSAVA: We are currently stranded on the <![CDATA[<color=orange>undercrust of a glacier on Dark Bramble's north pole!</color>]]> Our shuttle was stolen away by the <![CDATA[<color=orange>gravitational pull of Giant's Deep</color>]]> as the planet orbited close to Dark Bramble!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+			<ParentID>2</ParentID>
+		<Text>
+		CLARY: Our supplies and equipment were stored aboard the shuttle. Please recall the shuttle and arrange a rescue operation as soon as circumstances allow - Plume is in dire condition suffering from exposure!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+			<ParentID>4</ParentID>
+		<Text>
+		SPIRE: Your distress is acknowledged! Both shuttles from Brittle Hollow and Ember Twin are preparing to set off towards you at once. Please stay strong, my friends!
+		</Text>
+	</TextBlock>
+
+</NomaiObject>

@@ -1,0 +1,40 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PHLOX: My friends, my father has bravely volunteered to be part of the <![CDATA[<color=orange>expedition team exploring Dark Bramble</color>]]> today!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PHLOX: Should there be any need to reach me, I shall be in his dwelling in the <![CDATA[<color=orange>Meltwater District:</color>]]> I intend to surprise him with a warm welcome home when he returns home to Brittle Hollow!
+		</Text>
+	</TextBlock>
+
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Cliff R3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>Tower R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Tower R2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>DSS R5</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

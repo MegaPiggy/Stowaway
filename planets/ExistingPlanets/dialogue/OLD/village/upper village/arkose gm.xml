@@ -1,0 +1,249 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Arkose</NameField>
+	
+	<DialogueNode>
+		<Name>Arkose1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hi, astronaut!</Page>
+			<Page>You know the patch of ghost matter inside this fence? Gossan said it used to be bigger when they were a hatchling. ’Cause ghost matter evaporates.</Page>
+			<Page>It just takes a su-<![CDATA[<Pause=0.4>]]>u-<![CDATA[<Pause=0.4>]]>u-<![CDATA[<Pause=0.4>]]>per long time to go away.</Page>
+			<Page>I hope there’s still ghost matter in the village when I’m a grown-up.</Page>
+			<Page>Ghost matter is awesome! I wanna learn all about it someday when I become an astronaut.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+		<DialogueOption>
+				<Text>Hey, Arkose. Wanna learn something cool about ghost matter?</Text>
+				<DialogueTarget>Arkose_GM Review</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Ghost matter is super cool. It’ll burn the heck out of you!</Text>
+				<DialogueTarget>Arkose2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>You shouldn’t be throwing rocks in there — ghost matter is dangerous.</Text>
+				<DialogueTarget>Arkose3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>You know ghost matter is how Tektite lost their foot, right?</Text>
+				<DialogueTarget>Arkose4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Arkose_GM Review</Name>
+		<Dialogue>
+			<Page>Something cool? Tell me, tell me!</Page>
+		</Dialogue>
+		<ConditionToClear>Arkose_loves_ghost_matter</ConditionToClear>
+		<SetCondition>Arkose TellLater</SetCondition>
+			<DialogueOptionsList>
+				<DialogueOption>
+					<Text>Marshmallows taste better if you use a stick to dip 'em in ghost matter.</Text>
+					<DialogueTarget>Arkose_Bull</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+				<RequiredLogCondition>COMET_INTERIOR_X3</RequiredLogCondition>
+					<Text>Ghost matter killed the Noma-Iiii shouldn't be telling you this, never mind.</Text>
+					<DialogueTarget>Arkose_NomaiStory</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Ghost matter becomes safe for a moment when it's submerged in water.</Text>
+					<DialogueTarget>Arkose_WaterRule</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Ghost matter obeys gravity, like from planets and gravity crystals!</Text>
+					<DialogueTarget>Arkose_GravyRule</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Ghost matter doesn't evaporate on its own. It's actually the plants and trees that are absorbing it slowly.</Text>
+					<DialogueTarget>Arkose_PlantRule</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Nevermind. I'll uh, tell you when I get back from space.</Text>
+					<DialogueTarget>Arkose_Bye</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Arkose_Bull</Name>
+		<Dialogue>
+			<Page><![CDATA[<i>]]>What?<![CDATA[</i>]]> Really?!</Page>
+			<Page>I'm SO gonna try that later! I'll open a brand new can of yummy mallows to try this!</Page>
+			<Page>Wait, but I'll need to bring them down to the campfire to cook them.. Can't eat 'em otherwise... I'll dip all of 'em here first - then bring it all down to cook and share them with Teph and Galena!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+					<Text><![CDATA[<i>]]>Wait I was kidding please don't.<![CDATA[</i>]]> I'm not sure what might happen - you three might get a really bad stomachache, or way, way worse!</Text>
+					<DialogueTarget>Arkose_IronStomach</DialogueTarget>
+				</DialogueOption>
+				</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Arkose_IronStomach</Name>
+		<Dialogue>
+			<Page>But.. Porphy said an iron stomach is what makes a true Hearthian!</Page>
+			<Page>Porphy won't let us try sap wine, so maybe if we eat a mallow dipped in ghost matter, it'll make our insides strong enough to digest sap wine!</Page>
+			<Page>Ugh, but what if it hurts really, really bad eating it..? What if my insides can't defeat the ghost matter?</Page>
+			<Page>..I'm gonna throw some more rocks while I think about this.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+
+	<DialogueNode>
+		<Name>Arkose_NomaiStory</Name>
+		<Dialogue>
+			<Page>Wait, what'd you say? Did ghost matter um.. <![CDATA[<Pause>]]>hurt somebody in the village really badly?</Page>
+			</Dialogue>
+	<DialogueOptionsList>
+			<DialogueOption>
+						<Text>Ghost matter hurt.. someone really close to me. Just promise me you'll be careful.</Text>
+				<DialogueTarget>Arkose_Vibe</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+						<Text>There was a race of ancient aliens who lived in our star system who... left after ghost matter appeared in the star system, because they realized it was dangerous to be around it.</Text>
+				<DialogueTarget>Arkose_NomaiTruth</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Arkose_Vibe</Name>
+		<Dialogue>
+			<Page>Oh..</Page>
+			<Page>Does that um.. have to do with why you visit the graveyard every now and then, astronaut..?</Page>
+			<Page>Um, I promise I'll be careful, astronaut! You don't have to worry about me. <![CDATA[<Pause>]]>But when I'm older.. maybe you can tell me what happened?</Page>
+			<Page>Don't look so sad.. By the time I'm all grown up, all the ghost matter will probably have evaporated, and then the whole village will be safe for everyone!</Page>
+			</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Arkose_NomaiTruth</Name>
+		<Dialogue>
+			<Page>Woah.. Is that true?</Page>
+			<Page>They must have been really, really smart to figure that out and leave the star system! I hope they're doing okay, wherever they are now.</Page>
+			<Page>Hey, we should send a message to tell them that the star system's mostly safe now! Then they can move back here to this star system - and we can talk and eat mallows around the campfire together!</Page>
+			</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Arkose_WaterRule</Name>
+		<Dialogue>
+			<Page>That's.. really, really weird! Only as long as it's submerged? How'd you figure this out, astronaut?</Page>
+			<Page>Huh, so that means if we wore like.. a suit of water, we could walk into the ghost matter just fine, and make snow angels in it!</Page>
+			<Page>Yeah! I'm gonna go ask Slate to build me a suit of water for this. I'm sure he'll understand!</Page>
+			</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Arkose_GravyRule</Name>
+		<Dialogue>
+			<Page>Huh, really?!</Page>
+			<Page>So you're telling me if um.. somebody borrowed the crystal from the museum and pointed it near the ghost matter, I could order the ghost matter to go where I wanted it with its gravity?</Page>
+			<Page>That's. SO. Cool..!! Yay, I'm gonna be able to shoot ghost matter at any mean bugs that fly at me! Pew pew pew!</Page>
+			<Page>Thanks a bunch for telling me, astronaut!</Page>
+			</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Arkose_PlantRule</Name>
+		<Dialogue>
+			<Page>Oh. That's good to know!</Page>
+			<Page>I bet that big, scary plant planet Chert told us about has no ghost matter at all then, since it's a big mean plant. It's probably eaten up any ghost matter on it!</Page>
+			<Page>If I ever become an astronaut, I'm gonna hunt for patches of ghost matter all over the star system.</Page>
+			<Page>..And that means I'm never going to that creepy planet. Blegh! No dank, dangerous ghost matter? It'd be way too safe and boring to explore!</Page>
+			</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Arkose TalkedAgain GM</Name>
+		<EntryCondition>Arkose TellLater</EntryCondition>
+		<Dialogue>
+			<Page>You're back, astronaut! You promised to tell me something cool about ghost matter, didn't you? Can I hear about the ghost matter secrets yet? Pleease?</Page>
+			</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+					<Text>Alright, alright. Did you know marshmallows taste better if you dip them in ghost matter?</Text>
+					<DialogueTarget>Arkose_Bull</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+				<RequiredLogCondition>COMET_INTERIOR_X3</RequiredLogCondition>
+					<Text>Ghost matter killed the Noma-Iiii shouldn't be telling you this, never mind.</Text>
+					<DialogueTarget>Arkose_NomaiStory</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Ghost matter becomes safe for a moment when it's submerged in water.</Text>
+					<DialogueTarget>Arkose_WaterRule</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Ghost matter obeys gravity, like from planets and gravity crystals!</Text>
+					<DialogueTarget>Arkose_GravyRule</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Ghost matter doesn't evaporate on its own. It's actually the plants and trees that are absorbing it slowly.</Text>
+					<DialogueTarget>Arkose_PlantRule</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Sorry, Arkose. Maybe another time.</Text>
+					<DialogueTarget>Arkose_Bye</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Arkose_Bye</Name>
+		<Dialogue>
+			<Page>Aw.. Okay..</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+
+
+
+	<DialogueNode>
+		<Name>Arkose2</Name>
+		<SetCondition>Arkose_loves_ghost_matter</SetCondition>
+		<Dialogue>
+			<Page>Yeah! I heard touching it hurts so bad it feels like your whole hand’s on fire!</Page>
+			<Page>Try not to walk into any in space, okay? That sounds bad and painful.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Arkose3</Name>
+		<Dialogue>
+			<Page>Uhhh, obviously? That’s what makes it so <![CDATA[<i>awesome</i>]]>? Geez, I’m not dumb enough to <![CDATA[<i>touch</i>]]> it.</Page>
+			<Page>Ugh, you’re such a grown-up.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Arkose4</Name>
+		<SetCondition>Arkose_loves_ghost_matter</SetCondition>
+		<Dialogue>
+			<Page>Whoa, really?! <![CDATA[<Pause=2>]]>...That is <![CDATA[<i>so cool</i>]]>!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Arkose5</Name>
+		<EntryCondition>Arkose_loves_ghost_matter</EntryCondition>
+		<Dialogue>
+			<Page>It’s cool that Little Scouts can detect ghost matter and all, but what would be <![CDATA[<i>really</i>]]> cool is if the Little Scout could, like, shoot ghost matter at stuff. All <![CDATA[<i>pew pew pew</i>]]>!</Page>
+		</Dialogue>
+			<DialogueOptionsList>
+				<DialogueOption>
+				<Text>Hey, Arkose. Wanna learn something cool about ghost matter?</Text>
+				<DialogueTarget>Arkose_GM Review</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+</DialogueTree>

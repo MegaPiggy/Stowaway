@@ -1,0 +1,139 @@
+ManifestFileVersion: 0
+CRC: 3536092939
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f72580a9af8e0cd49d70c8a8d2c1fc13
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2bbb2beb9ed72c0ab4de00516b191f85
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e2cd530bcd6ab93471c4405ca1c5b6a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7272cba977bdf7eec3ebf07ae09efe55, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d0a6aeb05d852b7ba1f13e9ddeb7586, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b51a09e4110b49d3654000985deafc3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d85c86ae09ad759675e21391a6d4e61c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_R.prefab
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_L.prefab
+- Assets/Nomai Ruins/Prefabs/BrokenWall_B_Corner.prefab
+- Assets/Nomai Ruins/Prefabs/Treepot.prefab
+- Assets/Nomai Ruins/Prefabs/WallTorch.prefab
+- Assets/Nomai Ruins/Prefabs/Floor.prefab
+- Assets/Nomai Ruins/Prefabs/Railing.prefab
+- Assets/Nomai Ruins/Prefabs/Wall Spiral Lamp.prefab
+- Assets/Nomai Ruins/Prefabs/Materials/cassava mural 1.mat
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_E.prefab
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_BOTH.prefab
+- Assets/Nomai Ruins/Prefabs/ToyMorbius.prefab
+- Assets/Nomai Ruins/Prefabs/cloud shadow detector.prefab
+- Assets/Nomai Ruins/Prefabs/Wall Diamond Lamp.prefab
+- Assets/Nomai Ruins/Prefabs/ocean shadow detector.prefab
+- Assets/Nomai Ruins/Prefabs/Window_Corner_R_Broken.prefab
+- Assets/Nomai Ruins/Prefabs/Stairs_L.prefab
+- Assets/Nomai Ruins/Prefabs/cassava mural 1.prefab
+- Assets/Nomai Ruins/Prefabs/QM darkness.prefab
+- Assets/Nomai Ruins/Prefabs/Window_Corner_L_Broken.prefab
+- Assets/Nomai Ruins/Prefabs/Gravity Crystal.prefab
+- Assets/Nomai Ruins/Prefabs/DSS railing.prefab
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_B.prefab
+- Assets/Nomai Ruins/Prefabs/BrokenWall_B_Corner_Mir.prefab
+- Assets/Nomai Ruins/Prefabs/ToyShip.prefab
+- Assets/Nomai Ruins/Prefabs/cassava mural 2.prefab
+- Assets/Nomai Ruins/Prefabs/Doorway.prefab
+- Assets/Nomai Ruins/Prefabs/BrokenWall_B_Mir.prefab
+- Assets/Nomai Ruins/Prefabs/Doorway_Corner_R.prefab
+- Assets/Nomai Ruins/Prefabs/Wall_Corner_R.prefab
+- Assets/Nomai Ruins/Prefabs/weapon mural plane.prefab
+- Assets/Nomai Ruins/Prefabs/Gravity Crystal (Cracked).prefab
+- Assets/Nomai Ruins/Prefabs/SolarCell.prefab
+- Assets/Nomai Ruins/Prefabs/Shelf.prefab
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A.prefab
+- Assets/Nomai Ruins/Prefabs/Floor_Half.prefab
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_C.prefab
+- Assets/Nomai Ruins/Prefabs/StairsThin_Long_Brk.prefab
+- Assets/Nomai Ruins/Prefabs/DetailPatch_Clutter_NOM_BigChips.prefab
+- Assets/Nomai Ruins/Prefabs/Doorway_Corner_L.prefab
+- Assets/Nomai Ruins/Prefabs/bob.prefab
+- Assets/Nomai Ruins/Prefabs/Doorway_Corner_BOTH.prefab
+- Assets/Nomai Ruins/Prefabs/Wall_Corner_L.prefab
+- Assets/Nomai Ruins/Prefabs/Floor_Hole.prefab
+- Assets/Nomai Ruins/Prefabs/GD cloud bottom.prefab
+- Assets/Nomai Ruins/Prefabs/ToyPyramid.prefab
+- Assets/Nomai Ruins/Prefabs/Window_Broken.prefab
+- Assets/Nomai Ruins/Prefabs/Window_Corner_BOTH_Broken.prefab
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_F.prefab
+- Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_R.prefab
+- Assets/Nomai Ruins/Prefabs/Fancy Door.prefab
+- Assets/Nomai Ruins/Prefabs/protohearthian.fbx
+- Assets/Nomai Ruins/Prefabs/Bed.prefab
+- Assets/Nomai Ruins/Prefabs/BrokenWall_B.prefab
+- Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_L.prefab
+- Assets/Nomai Ruins/Prefabs/Fancy Door BOTH.prefab
+- Assets/Nomai Ruins/Prefabs/Giant Tree Ring.prefab
+- Assets/Nomai Ruins/Prefabs/ShortPillar.prefab
+- Assets/Nomai Ruins/Prefabs/cassava mural 3.prefab
+- Assets/Nomai Ruins/Prefabs/CeilingLamp.prefab
+- Assets/Nomai Ruins/Prefabs/Holo Seat.prefab
+- Assets/Nomai Ruins/Prefabs/Props_NOM_Transponder.prefab
+- Assets/Nomai Ruins/Prefabs/Tablet.prefab
+- Assets/Nomai Ruins/Prefabs/ToyBlock.prefab
+- Assets/Nomai Ruins/Prefabs/Wall.prefab
+- Assets/Nomai Ruins/Prefabs/Fancy Door L.prefab
+- Assets/Nomai Ruins/Prefabs/Wall_Corner_BOTH.prefab
+- Assets/Nomai Ruins/Prefabs/shadow orb.prefab
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_D.prefab
+- Assets/Nomai Ruins/Prefabs/Vase.prefab
+- Assets/Nomai Ruins/Prefabs/RailingPost.prefab
+- Assets/Nomai Ruins/Prefabs/Table.prefab
+- Assets/Nomai Ruins/Prefabs/Stairs_R.prefab
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A_Mir.prefab
+- Assets/Nomai Ruins/Prefabs/ToyBall.prefab
+- Assets/Nomai Ruins/Prefabs/tide mural filled.prefab
+- Assets/Nomai Ruins/Prefabs/Staff.prefab
+- Assets/Nomai Ruins/Prefabs/Window_Frame.prefab
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_BOTH_Mir.prefab
+Dependencies: []

@@ -1,0 +1,107 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+<!--
+	IF IT’S NIGHT, change SignalScopeKid2 dialogue to this:
+	I’m waiting for nightfall so I can pick up sounds from distant planets using my signalscope.
+-->
+
+	<NameField>Moraine</NameField>
+	
+	<DialogueNode>
+		<Name>SignalscopeKid1</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<SetCondition>HasTalkedtoMoraine</SetCondition>
+		<Dialogue>
+			<Page>Hm? Oh, hello, astronaut.</Page>
+			<Page>This is good weather for your launch, right? That’s lucky!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+			<RequiredLogCondition>TH_IMPACT_CRATER_X2</RequiredLogCondition>
+				<Text>Hey, Moraine. Have you perhaps heard.. a harmonica anywhere with your signalscope?</Text>
+				<DialogueTarget>Signalscope Plothole</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>What are you up to?</Text>
+				<DialogueTarget>SignalscopeKid2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Any good sounds from space today?</Text>
+				<DialogueTarget>SignalscopeKid3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>Signalscope Plothole</Name>
+		<Dialogue>
+			<Page>Um, harmonica.. As in Feldspar's harmonica? I'd have run and told Gneiss if I heard it!</Page>
+			<Page>Sorry, astronaut, nope.</Page>
+			<Page>Maybe you should get out your signalscope and see if you hear anything instead? I heard Slate beefed up the newest signalscope so it can hear even farther than ever.</Page>
+			<Page>I can only hear Riebeck and Chert playing with my signalscope. Can't even hear signals passing through Timber Hearth these days, after Tephra and Galena dropped it..</Page>
+			<Page>..It sucks.</Page>
+			<Page>I'm gonna be extra good so I can ask Slate for a new, stronger signalscope for my birthday this year.</Page>
+			</Dialogue>
+	</DialogueNode>
+
+		<DialogueNode>
+		<Name>SignalscopeKid5</Name>
+		<EntryCondition>HasTalkedtoMoraine</EntryCondition>
+		<Dialogue>
+			<Page>Hello, again.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+		<DialogueOption>
+			<RequiredLogCondition>TH_IMPACT_CRATER_X2</RequiredLogCondition>
+				<Text>Hey, I was wondering. Have you heard a harmonica anywhere with your signalscope?</Text>
+				<DialogueTarget>Signalscope Plothole</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Haven’t you been up in this tree a while?</Text>
+				<DialogueTarget>SignalscopeKid6</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Any good sounds from space today?</Text>
+				<DialogueTarget>SignalscopeKid3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SignalscopeKid2</Name>
+		<Dialogue>
+			<Page>I’m using my signalscope to pick up sounds from distant planets.</Page>
+			<Page>It’s set to the Outer Wilds Ventures frequency so I can pick up the travelers’ music.</Page>
+		</Dialogue>
+		<SetCondition>SHOW_SIGNALSCOPE_PROMPT</SetCondition>
+		<DialogueTarget>SignalscopeKid4</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SignalscopeKid3</Name>
+		<Dialogue>
+			<Page>There are! My signalscope is set to the Outer Wilds Ventures frequency, so I’m listening to the travelers’ music.</Page>
+		</Dialogue>
+		<SetCondition>SHOW_SIGNALSCOPE_PROMPT</SetCondition>
+		<DialogueTarget>SignalscopeKid4</DialogueTarget>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SignalscopeKid4</Name>
+		<Dialogue>
+			<Page>Last night I heard Riebeck’s banjo coming from Brittle Hollow. I hope that means they’re safe.</Page>
+			<Page>I can hear different planets, too! It depends on what time of day or night it is, since different planets are in the sky at different times.</Page>
+			<Page>Signalscopes are cool.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>SignalscopeKid6</Name>
+		<Dialogue>
+			<Page>I’m concerned Marl will cut down this tree if there’s no one in it, so I don’t want to leave it for too long.</Page>
+            <Page>Mayor Rutile says Marl isn’t supposed to cut it down, but I don’t think they see eyes-to-eyes on this one.</Page>
+            <Page>Um, I’ll still watch your launch, though! I’ll have a good view from up here.</Page>
+        </Dialogue>
+    </DialogueNode>
+
+</DialogueTree>

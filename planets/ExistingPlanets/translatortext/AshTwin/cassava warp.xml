@@ -1,0 +1,60 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		CASSAVA: Greetings, Pye, Idaea! I write to you to invite you to Giant's Deep to join us in overseeing the upcoming test of the <![CDATA[<color=orange>Deep Storm Station.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CASSAVA: (My lovely Daz has expressed his desire to take me somewhere special on the day of the test, so the two of us will not likely be present during the test. Please do not be surprised by our absence!) 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<LocationB />
+		<Text>
+		CASSAVA: To reach the <![CDATA[<color=orange>Deep Storm Station,</color>]]> please make your way to the Construction Yard on Giant's Deep. A new warp pad installed on one of the artificial gravity walkways will deliver you to the station swiftly.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		CASSAVA: Oh! If Idaea wishes to join her sister, Privet will be manning the <![CDATA[<color=orange>Probe Tracking Module</color>]]> during the test. You could both be the first to learn and <![CDATA[<color=orange>share the results with the Deep Storm Station through the projection board!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		CASSAVA: Pye? Idaea? The test is tomorrow, and the two of you are the only ones who have still not responded.. Will the two of you be joining us? I would love to hear your acknowledgment of these instructions, if so!
+		</Text>
+	</TextBlock>
+
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>SS EX1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SS EX2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>CONV R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

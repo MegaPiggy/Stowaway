@@ -1,0 +1,57 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: <![CDATA[<i>I have been gravely wrong.</i>]]> My clan may have been lost, but the native species of the star system.. They did survive!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+			CASSAVA: The tentacled species should be safe so long as they do not surface, but the native life of Timber Hearth.. They are being decimated... The geysers in the pools they dwell erupt and launch them out of the safety of the water.. And they travel onto land in search of food, perhaps even the Nomai they had grown accustomed to... They are dying in droves.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+			CASSAVA: I was too blinded by my own grief... No, no! I must take action to save those who are left before it is too late!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+			CASSAVA: Perhaps.. Perhaps I could fit the Inspired with a black hole warp core, and use its sibling white hole warp core to warp the matter into a containment site!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+			CASSAVA: But.. where would a safe containment site be..?
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+	<RevealFact>
+			<FactID>Deep Storm Station ENTERED</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Stowaways DSS 4</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+
+</NomaiObject>

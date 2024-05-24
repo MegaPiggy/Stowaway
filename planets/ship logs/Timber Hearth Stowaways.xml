@@ -1,0 +1,99 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>TIMBER_HEARTH</ID>
+
+<Entry>
+        <ID>MINES_REPLACE</ID>
+        <Name>Nomai Mines</Name>
+
+        <Curiosity>TimeLoop</Curiosity>
+
+
+     <RumorFact>
+                 <ID>Nomai Gate 1</ID>
+            <RumorName>Sealed Door</RumorName>
+            <Text>Slate put up a note on the travellers' bulletin board ordering travellers not to use their ships to break down the locked Nomai door in the large geyser mountain on Timber Hearth, after another ship-shaped dent on the door was discovered.</Text>
+      </RumorFact>
+       <RumorFact>
+            <ID>Nomai Gate 1B</ID>
+             <RumorName>Sealed Nomai Mines</RumorName>
+            <RumorNamePriority>1</RumorNamePriority>
+            <Text>
+               I found a Nomai trailmarker with text inscribed on it. The locked door appears to be the entrance to a Nomai mining site of some kind.
+            </Text> 
+      </RumorFact>
+         <RumorFact>
+            <ID>Nomai Gate 2</ID>
+            <Text>Riebeck believes the door's locking mechanism is jammed. He wonders if there could be any way to get a peek inside to decide if it was worth further investigation to get in.</Text> 
+        </RumorFact>
+              <RumorFact>
+            <ID>Riebeck Lead</ID>
+            <Text>Riebeck found a mural in the waterways under the door that suggests ancient Hearthians evolved to walk on the surface earlier than expected, and even coexisted with Nomai. This discovery set him off to Brittle Hollow to gather more data to back up his findings.</Text> 
+      </RumorFact>
+        <RumorFact>
+            <ID>PStone Leads 1</ID>
+           <SourceID>VM_VOLCANO</SourceID>
+            <Text>Ore mined by Nomai on Timber Hearth was transported to a forge on Hollow's Lantern.</Text> 
+      </RumorFact>
+           <RumorFact>
+            <ID>PStone Leads 3</ID>
+            <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
+            <Text>The Nomai working on Timber Hearth used a projection stone to observe progress on the Ash Twin Project through a projection pool.</Text> 
+      </RumorFact>
+           <RumorFact>
+            <ID>PStone Leads 4</ID>
+            <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
+            <Text>The Nomai mined ore from this site to craft a protective shell designed to physically seal off the central chamber inside Ash Twin.</Text> 
+      </RumorFact>
+      
+     
+
+        <RumorFact>
+            <ID>Mines Projection</ID>
+            <Text>I used a projection stone to project into a dark cavern somewhere on Timber Hearth.</Text> 
+      </RumorFact>
+  
+
+      
+       
+          <ExploreFact>
+            <ID>Nomai Mine Entry 1</ID> 
+            <Text>I was able to enter the unlock and enter the sealed Nomai door at last.</Text> 
+        </ExploreFact>
+            <ExploreFact>
+            <ID>Nomai Mine Entry 2</ID> 
+            <Text>Several Nomai working inside the mining site expressed their concerns about the fate of native lifeforms they had discovered on Timber Hearth in the event of the Ash Twin Project's failure. They regularly needed to evacuate the amphibious lifeforms from the interior of the mining site.</Text> 
+      </ExploreFact>
+            <ExploreFact>
+            <ID>Nomai Mine Entry 3</ID> 
+            <Text>I found a scroll lodged into the mechanism on the other side of the mine's door. The scroll reveals a Nomai named Cassava mourning the loss of ancient Hearthians he had been unable to protect, and his heartfelt hopes for the surviving Hearthians' future.</Text> 
+        </ExploreFact>
+
+  <Entry>
+          <ID>MURAL DSS 1</ID>
+        <Name>Mural (Panel 1)</Name>
+        <Curiosity>STOWAWAYS</Curiosity>
+         <ExploreFact>
+            <ID>Mural 2</ID>
+            <Text>A mural depicting a comet approaching a star.</Text> 
+         </ExploreFact>
+    </Entry>
+    <Entry>
+         <ID>MURAL DSS 2</ID>
+        <Name>Mural (Panel 2)</Name>
+        <Curiosity>STOWAWAYS</Curiosity>
+          <ExploreFact>
+            <ID>Mural 3</ID>
+            <Text>A mural depicting cracks forming on the comet and spreading something across the star system.</Text> 
+        </ExploreFact>
+   </Entry>
+    <Entry>
+         <ID>MURAL DSS 3</ID>
+        <Name>Mural (Panel 3)</Name>
+        <Curiosity>STOWAWAYS</Curiosity>
+      <ExploreFact>
+            <ID>Mural 4</ID>
+            <Text>A mural depicting a golden Nomai standing over a fallen Nomai and a four-eyed creature, surrounded by blue shards.</Text> 
+        </ExploreFact>
+   </Entry>
+ </Entry>
+</AstroObjectEntry>

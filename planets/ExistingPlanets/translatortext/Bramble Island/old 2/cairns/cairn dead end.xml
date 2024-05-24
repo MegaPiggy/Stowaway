@@ -1,0 +1,7 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>COLEUS: There is nothing down this path but a cliff leading down to a ledge by the ocean. I have laid some gravity crystals for us to climb back up from this path, should any of us slip and fall!</Text>
+	</TextBlock>
+</NomaiObject>

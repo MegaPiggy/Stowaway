@@ -1,0 +1,124 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		LAEVI: Ready, Taget? I'm recording the message now! Okay, um! Greetings, other Nomai clans, or any smart things able to understand us!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		TAGET: It went in.. The distress beacon fits perfectly inside the seed! But Lami, are you sure this seed could reach another clan?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		LAMI: I think so! Aunt Pye once said the bramble might have a seed that connects to another star system. I don't know where this message will end up.. But if you can hear this message and our noisy beacon - come find us and let's play!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		LAEVI: Our clan crashed in this star system looking for the "Eye of the universe", and our clan now calls it home.. But.. the three of us want to explore beyond this star system. We want to meet other clans and learn more about the vast universe!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		TAGET: The adults are all too busy trying to find the Eye of the universe to care about anything else. The old distress beacons have been singing since the crash, yet no one comes.. If this message reaches another clan, we might finally be saved!
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		LAEVI: Oh, we should tell them our names! So if somebody does hear us and comes to rescue our clan someday.. They'll remember who sent this message!
+		</Text>
+			</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		LAEVI: Greetings, friends from the future! My name is Laevi!
+		</Text>
+		</TextBlock>
+		<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		LAMI: Hi, new friends! My name is <![CDATA[<i>Taget!</i>]]> Yep!
+		</Text>
+		</TextBlock>
+		<TextBlock>	
+	<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>
+		TAGET: <![CDATA[<i>Lami!</i>]]> I'M Taget, and the person that said they were Taget is Lami! 
+		</Text>
+		</TextBlock>
+<TextBlock>	
+	<ID>10</ID>
+		<LocationA />
+		<ParentID>9</ParentID>
+		<Text>
+		<![CDATA[<b>( ROARRR... )</b>]]>
+		</Text>
+		</TextBlock>
+<TextBlock>	
+	<ID>11</ID>
+		<LocationA />
+		<ParentID>10</ParentID>
+		<Text>
+		LAMI: And that's the angry anglerfish that guards the seed we sneaked into! We figured out how to sneak past it, and now it's the <![CDATA[<color=orange>Sunless Hideout's</color>]]> little pet!
+		</Text>
+		</TextBlock>
+<TextBlock>	
+	<ID>12</ID>
+		<LocationA />
+		<ParentID>11</ParentID>
+		<Text>
+		TAGET: It is <![CDATA[<i>not</i>]]> our pet, Lami! Please beware if you try to warp to us, future friends! The bramble's weird spaces can mess with warps - and it contains <![CDATA[<i>lots</i>]]> of scary anglerfish!
+		</Text>
+			</TextBlock>
+<TextBlock>	
+	<ID>13</ID>
+		<LocationA />
+		<ParentID>12</ParentID>
+		<Text>
+		LAEVI: Oh, but if you are a Nomai and need to get past one, please use a <![CDATA[<color=orange>recorder</color>]]> to remotely lure the beast away with noise! Ours was made by the smartest crafter, Mr Daz!
+		</Text>
+			</TextBlock>
+<TextBlock>	
+	<ID>14</ID>
+		<LocationA />
+		<ParentID>13</ParentID>
+		<Text>
+		TAGET: We owe Mr Daz gratitude we weren't eaten when we first entered.. <![CDATA[<color=orange>Lami's loud voice</color>]]> echoing through the seed <![CDATA[<color=orange>from that page of my recorder</color>]]> was what lured the anglerfish away when it had us cornered..
+		</Text>
+			</TextBlock>
+
+<TextBlock>	
+		<ID>15</ID>
+		<LocationA />
+		<ParentID>14</ParentID>
+		<Text>
+		LAMI: Yeah!! My loud voice saved us! I'm gonna be an anglerfish whisperer when I grow up.. They <![CDATA[<i>love</i>]]> my voice!
+		</Text>
+			</TextBlock>
+</NomaiObject>

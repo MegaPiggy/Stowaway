@@ -1,0 +1,48 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>BRITTLE_HOLLOW</ID>
+
+
+<Entry>
+        <ID>GRAV_SHOP</ID>
+        <Name>Gravity Crystal Workshop</Name>
+        <Curiosity>None</Curiosity>
+         <RumorFact>
+           <SourceID>GD_CONSTRUCTION_YARD</SourceID>
+            <ID>GSHOP CYARD</ID>
+            <Text>Gravity crystals used to construct the Inspired project were gathered from the Gravity Crystal Workshop on Brittle Hollow.</Text> 
+        </RumorFact>
+          <RumorFact>
+            <ID>Gravshop Bramble Island</ID>
+             <SourceID>CAPSIZED JELLYSTUDY</SourceID>
+            <Text>A Nomai named Kousa invented the storm shelter. A Nomai who was part of the survey expedition team to Giant's Deep visited him at the Gravity Crystal Workshop on Brittle Hollow.</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>GSHOP EX1</ID> 
+            <Text>This workshop was where a Nomai named Kousa crafted and refined crystals shaken from Brittle Hollow's undercrust into gravity crystals.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>GSHOP EX2</ID> 
+            <Text>Kousa engineered a storm shelter that would offer members of the expedition team safety from the terrific storms on Giant's Deep.</Text> 
+        </ExploreFact>
+
+        <Entry>
+         <ID>GRAV_DWELLING</ID>
+        <Name>Kousa's Dwelling</Name>
+        <RumorFact>
+            <ID>GDWELL R1</ID>
+            <Text>Kousa mentioned that the storm shelter installed inside his dwelling outside the workshop powered on intermittently, following suggestions from the Sunless City for an autonomous power source.</Text> 
+        </RumorFact>
+         <ExploreFact>
+            <ID>GDWELL EX1</ID> 
+            <Text>A storm shelter installed inside Kousa's dwelling seems to power on when the sun rises over over the dwelling. Kousa credits the Sunless City for coming up with the proposed power source for the storm shelter.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>GDWELL EX2</ID> 
+            <Text>The Nomai on Giant's Deep welcomed visitors to observe a test of the Deep Storm Station. Visitors keen on joining in were instructed to travel to a new warp pad installed on the Construction Yard.</Text> 
+        </ExploreFact>
+         </Entry>
+    </Entry>
+
+
+</AstroObjectEntry>

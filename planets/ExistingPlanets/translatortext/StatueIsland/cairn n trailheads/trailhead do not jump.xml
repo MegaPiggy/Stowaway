@@ -1,0 +1,24 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		DAZ: The gravity on this planet could snap your locomotive limbs if you were to miss a jump from this height. If you are reading this, I implore you <![CDATA[<i>not</i>]]> to emulate my brother's death-defying "shortcuts"!
+		</Text>
+	</TextBlock>
+	
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Cliff R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Cliff EX2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

@@ -1,0 +1,44 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PLUME: Look at these marvels.. Friends, we have discovered a new species of lifeforms native to this star system!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>
+		MELORAE: I've never seen lifeforms such as these before! They look mesmerizing, dancing on the surface of the water..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		THATCH: Goodness!! Keep your distance, my friends: these species generate a terrifying voltage of bioelectricity!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		THATCH: How fascinating! I cannot imagine what new species of life we may discover as we explore the rest of this star system.
+		</Text>
+	</TextBlock>
+	
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Pioneer EX3</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

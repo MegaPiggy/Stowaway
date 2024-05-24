@@ -1,0 +1,91 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		MELORAE: What just happened?! Was the island was just.. launched into space by a cyclone?! 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		MELORAE: Brace yourselves, everybody! We're about to crash back into the planet's atmosphere!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		PLUME: We appear to have landed back in the planet's waves.. Is everyone well?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		THATCH: As well as we can be... My suit was just beginning to dry from the rain! That plunge into the ocean has just soaked me thoroughly again!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		COLEUS: I checked the shuttle and it thankfully appears well, even after that crash. Imagine if we became stranded on this planet..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		THATCH: Imagine if we simply returned to the shuttle and left this terrifying planet right now instead!
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+			MELORAE: We may have to do just that if another cyclone approaches.. But goodness, this planet is far more treacherous than I could have anticipated.
+		</Text>
+			</TextBlock>
+			<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+			MELORAE: We <![CDATA[<i>must</i>]]> think of some way protect ourselves from these cyclones; or better yet, seek a landmass entirely clear of the path of the cyclones to settle on!
+		</Text>
+			</TextBlock>
+	
+	
+				
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Pioneer R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Pioneer EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Pioneer EX2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+
+		<RevealFact>
+			<FactID>Pioneer_I R1</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

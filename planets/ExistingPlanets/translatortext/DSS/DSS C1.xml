@@ -1,0 +1,72 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: What.. what is transpiring at this moment? Everyone has fallen and become unresponsive, and this mysterious matter permeates everywhere I project to...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CASSAVA: No.. No.. This can't be...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		CASSAVA: Daz... My friends, my clan.. Everyone, all in an instant? <![CDATA[<i>How?</i>]]> What caused this..?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		CASSAVA: Was I the only one untouched by whatever calamity has befallen my clan? Why have I alone been spared?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		CASSAVA: Am I now trapped indefinitely aboard the Deep Storm Station? If so, I have little chance of staving off thirst and hunger for long..
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		CASSAVA: Wait.. Daz's voyager stones! I can voyage and traverse outside of the station safely using a voyager!
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		CASSAVA: I must first forage for supplies to sustain myself. Then, I may begin to seek answers, as well as to search for any other survivors..
+		</Text>
+			</TextBlock>
+
+
+<ShipLogConditions>
+	<RevealFact>
+			<FactID>Deep Storm Station ENTERED</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Stowaways DSS 1</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

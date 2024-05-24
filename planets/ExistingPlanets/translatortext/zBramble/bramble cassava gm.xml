@@ -1,0 +1,51 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+			CASSAVA: I have traveled back to Dark Bramble for the first time since that day to study the properties of this terrible <![CDATA[<color=orange>deadly matter.</color>]]>
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+			CASSAVA: Plume... I will never forget you, or your words that day. I hope Phlox and everyone else has found you in good company.
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>CASSAVA: Like our shuttle that day, the deadly matter resting on the surface of this glacier was not held down by Dark Bramble's weak gravity well, and was drawn towards Giant's Deep as it orbited close by.</Text>
+			</TextBlock>
+
+	<TextBlock>	
+	<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>CASSAVA: With that, I can confidently confirm an earlier hypothesis: A mass with a stronger source of gravity is capable of <![CDATA[<color=orange>competitively manipulating the resting places of the matter.</color>]]></Text>
+			</TextBlock>
+			<TextBlock>	
+	<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>CASSAVA: I am led to conclude that relative distance from the source of the matter, along with these regular pass-bys of Giant's Deep, are the reason why so little of the matter remains on Dark Bramble.</Text>
+			</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>CASSAVA: This conclusion is promising... I must continue my research back on Giant's Deep. There is more work to be done.</Text>
+			</TextBlock>
+			<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>CASSAVA: We were hoping to use the Ash Twin Project to finally explore the interior of the Dark Bramble and search for the resting places of our lost friends and the Vessel, but.. I apologize, Plume.</Text>
+			</TextBlock>
+</NomaiObject>

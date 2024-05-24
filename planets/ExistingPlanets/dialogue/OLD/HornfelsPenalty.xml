@@ -1,0 +1,188 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://github.com/xen-42/outer-wilds-new-horizons/blob/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Hornfels</NameField>
+
+  <DialogueNode>
+    <Name>CuratorEyesOpenLoop2</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Hey, look at this - the statue opened its eyes! Bet you wish you’d seen that happen, huh?<![CDATA[<Pause>]]><![CDATA[<color=grey> Sigh...</color>]]> Me, too.</Page>
+      <Page>I’m not even a little closer to understanding what’s going on with this statue.</Page>
+    </Dialogue>
+    <DialogueTarget>Curator13</DialogueTarget>
+  </DialogueNode>
+
+<DialogueNode>
+    <Name>Curator13</Name>
+    <Dialogue>
+      <Page>Was there something you needed?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <RequiredPersistentCondition>MetFeldspar</RequiredPersistentCondition>
+        <Text>I found Feldspar!</Text>
+        <DialogueTarget>CuratorFeldsparFound</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <RequiredCondition>HornfelsStatueEyes</RequiredCondition>
+        <Text>The Nomai statue opened its eyes!</Text>
+        <DialogueTarget>CuratorEyesOpen</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Where are the other travelers?</Text>
+        <DialogueTarget>CuratorOtherTravelers</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Tell me more about Feldspar.</Text>
+        <DialogueTarget>CuratorMoreAboutFeldspar</DialogueTarget>
+      </DialogueOption>
+	  		<DialogueOption>
+	        <RequiredPersistentCondition>GabbroPenalty1</RequiredPersistentCondition>
+          <CancelledPersistentCondition>GabbroPenaltyClear</CancelledPersistentCondition>
+        	<Text>I need to tell you something about Gabbro.</Text>
+        	<DialogueTarget>GabbrosFan</DialogueTarget>
+      		</DialogueOption>
+      <DialogueOption>
+        <Text>No thanks, I’m good.</Text>
+        <DialogueTarget>Curator14</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>GabbrosFan</Name>
+    <Dialogue>
+      <Page>Gabbro? What about them? Did something happen between the two of you before they last took off to Giant's Deep?</Page>
+	  </Dialogue>
+	   <DialogueOptionsList>
+      <DialogueOption>
+		<Text>I.. I think they're the most hardworking astronaut in the space program is all.</Text>
+		<DialogueTarget>HornfelsConfused</DialogueTarget>
+	</DialogueOption>
+	<DialogueOption>
+		<Text>Um.. Never mind, it's nothing.</Text>
+		<DialogueTarget>GabbrosShyFan</DialogueTarget>
+	</DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>GabbrosShyFan</Name>
+    <Dialogue>
+      <Page>What happened? I won't judge. Just let me know what's troubling you.</Page>
+	  </Dialogue>
+	   <DialogueOptionsList>
+      <DialogueOption>
+		<Text>I.. I think Gabbro's the most hardworking astronaut in the space program is all.</Text>
+		<DialogueTarget>HornfelsConfused</DialogueTarget>
+	</DialogueOption>
+	<DialogueOption>
+		<Text>No, really, it's nothing.</Text>
+		<DialogueTarget>BashfulHatchling</DialogueTarget>
+	</DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>BashfulHatchling</Name>
+    <Dialogue>
+      <Page>C'mon, spit it out. You're about to take off on your first solo launch! I don't want you having something weighing on your mind that might make you crash into a tree.</Page>
+    </Dialogue>
+      <DialogueTarget>GabbrosShyFan</DialogueTarget>
+	</DialogueNode>
+
+ <DialogueNode>
+    <Name>HornfelsConfused</Name>
+    <Dialogue>
+      <Page>I.. What? Did they make you say that on the day of your launch to get a rise out of me or something?</Page>
+	  </Dialogue>
+	  	   <DialogueOptionsList>
+      <DialogueOption>
+		<Text>Woah! How'd you know? I lost a game with them and had to say that.</Text>
+    <ConditionToSet>HalConfusing</ConditionToSet>
+		<DialogueTarget>HornfelsSmart</DialogueTarget>
+        <ConditionToCancel>GabbroPenalty1</ConditionToCancel>
+        <ConditionToCancel>Penalty1_Blocked</ConditionToCancel>
+	</DialogueOption>
+	<DialogueOption>
+		<Text>No, I truly mean it. I'm genuinely excited to take off to find them and learn from their work ethic.</Text>
+    <ConditionToSet>HalInteresting</ConditionToSet>
+		<DialogueTarget>HornfelsCatatonic</DialogueTarget>
+        <ConditionToCancel>GabbroPenalty1</ConditionToCancel>
+        <ConditionToCancel>Penalty1_Blocked</ConditionToCancel>
+	</DialogueOption>
+    </DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+	  <Name>HornfelsSmart</Name>
+		<Dialogue>
+		<Page>Hah. Riebeck told me Gabbro made them pay some sort of penalty on the day of their launch too.</Page>
+		<Page>For them, they had to ask if they could do more Zero-G training with Gossan. Could you <![CDATA[<i>imagine?<![CDATA[</i>]]></Page>
+		<Page>It was rhetorical, of course - but all the same it made me worry for their well-being, until Gabbro radioed me and gave it away.</Page>
+		<Page> Well, while I definitely cannot agree with your "opinion", I'll play my part, and radio them like you just sank my own judgment of Hearthians fit to be astronauts into the core of the planet.</Page>
+</Dialogue>
+             <SetCondition>HalConfusing</SetCondition>
+   						<SetPersistentCondition>GabbroPenaltyClear</SetPersistentCondition>
+</DialogueNode>
+
+<DialogueNode>
+	  <Name>HornfelsCatatonic</Name>
+		<Dialogue>
+		<Page>Work ethic?! <![CDATA[<i>]]>What work ethic?!<![CDATA[</i>]]> You know they've spent half their time off-planet just lounging in a hammock somewhere, right? What fanciful stories did they tell you around the campfire?!</Page>
+		<Page>I won't tell you what to do out there once you're in space - but stars above, at least do <![CDATA[<i>]]>something.<![CDATA[</i>]]> Gabbro might as well be napping in their house back home right now.</Page>
+		<Page><![CDATA[<color=grey> Sigh...</color>]]> I'll have to have a word with Gabbro later on the radio about filling the villagers' heads with exaggerated stories from space, I suppose...</Page>
+ </Dialogue>
+              <SetCondition>HalInteresting</SetCondition>
+   						<SetPersistentCondition>GabbroPenaltyClear</SetPersistentCondition>
+</DialogueNode>
+
+
+
+
+  <DialogueNode>
+    <Name>CuratorOtherTravelers</Name>
+    <Dialogue>
+      <Page>Well, let’s see... Chert is on the Hourglass Twins, Riebeck is on Brittle Hollow, and Gabbro is on Giant’s Deep.</Page>
+      <Page>And... there’s Feldspar, obviously, but of course we don’t know where they are, or if they’re even still alive.</Page>
+      <Page>Feldspar has been lost for a very long time, I’m afraid.</Page>
+    </Dialogue>
+    <DialogueTarget>Curator13</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>CuratorMoreAboutFeldspar</Name>
+    <Dialogue>
+      <Page>Feldspar was one of the four founding members of Outer Wilds, along with our flight coach Gossan, Slate the engineer, and me.</Page>
+      <Page>As ground control and later the museum curator, I didn’t work with Feldspar as closely as Slate and Gossan did. I <![CDATA[<i>]]>can<![CDATA[</i>]]> tell you Feldspar was absolutely fearless, though. Nothing scared them.</Page>
+      <Page>Test-piloted everything Slate ever built! It’s a wonder Feldspar lived to see space, frankly, but they did. Flew all sorts of dangerous stunts and explored everything they could find.</Page>
+      <Page>And then one day, they just... didn’t come back. We don’t know what happened, or where Feldspar went, or even whether they’re still alive.</Page>
+      <Page>It’s been a long time since they left.</Page>
+    </Dialogue>
+    <DialogueTarget>Curator13</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>CuratorFeldsparFound</Name>
+    <Dialogue>
+      <Page>You found Feldspar?! And they’re in Dark Bramble?! Stars above, this is wonderful news! Thank you! Thank you for finding them!</Page>
+      <Page>That Feldspar didn’t immediately join you on your ship and return here is incredibly Feldspar of them. We were never entirely sure what Feldspar was thinking back then, either.</Page>
+      <Page>Still, we ought to fish them out of that dreadful place with all haste! I’ll radio Gossan and have them prepare a ship. It really should be Gossan who brings Feldspar home.</Page>
+      <Page>Again, thank you. You can hardly imagine how profoundly happy I am to hear they’re alive and unharmed.</Page>
+    </Dialogue>
+    <DialogueTarget>Curator13</DialogueTarget>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Curator14</Name>
+    <Dialogue>
+      <Page>Take care!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+
+
+
+
+</DialogueTree>

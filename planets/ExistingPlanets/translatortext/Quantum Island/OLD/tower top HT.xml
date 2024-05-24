@@ -1,0 +1,50 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CYCAD: Oh my, am I the first youngling from Ember Twin to undertake this trial? Good thing um.. Cycad fears no cyclones! .. Never mind. I am unable to come up with a good pun right now.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PYE: If it helps, I do not recall ever hearing good puns from you, Cycad! I jest, I jest. But Pye fears no spires!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		RAMIE: Oh, I guess this is gonna be a tradition now. Uh, Ramie fears no.. rain. That's a lie. Ugh, I cannot wait to return to dryness and warmth on Ember Twin.
+			</Text>
+	</TextBlock>
+			<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		IDAEA: What were the older Nomai even writing about? The Nomai from Brittle Hollow wish each other luck on their wall, and we're here making rhymes. Also, those are rhymes, NOT puns! Good luck, friends. \\n (Idaea fears no cnidaria.)
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		ILEX: I can't think of any puns or rhymes for our names at all, Solanum.. This is terrible! Even <![CDATA[<i>Idaea</i>]]> came up with one!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		SOLANUM: Yours could be 'ill weather', maybe..? UGH! My mind has collapsed into a neutron star making shuttle calculations already! Good luck!! I hereby abolish this tradition!
+		</Text>
+	</TextBlock>
+</NomaiObject>

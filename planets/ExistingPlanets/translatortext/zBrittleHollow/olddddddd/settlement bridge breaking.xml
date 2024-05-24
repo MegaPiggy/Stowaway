@@ -1,0 +1,37 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>the BH puzzle used to literally be the breakable platforms at the old settlements forcing you to land softly on them lmao</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		THATCH: Who left the recorder on the platform below? I fear it may be shaken into the black hole by a meteor impact on such a precarious perch!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		FILIX: Leave it; the platform has become too unstable to attempt its retrieval. We cannot take any unnecessary risks that could cost one of our numbers at this point.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>
+		KOUSA: My apologies, that would be me. I was too focused studying <![CDATA[<color=orange>a possible inconsistency in the storm lantern's function</color>]]> earlier.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		KOUSA: I believe <![CDATA[<color=orange>a gentle landing</color>]]> and a swift reflex could retrieve it, but I do not believe it wise to attempt. Who knows how far the white hole could be from its sibling?
+		</Text>
+	</TextBlock>
+
+		
+</NomaiObject>

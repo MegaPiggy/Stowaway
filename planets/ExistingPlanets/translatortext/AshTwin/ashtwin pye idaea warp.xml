@@ -1,0 +1,99 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		IDAEA: I am surprised to see you here today, Pye. I did not think you would be remotely interested in <![CDATA[<color=orange>a test concerning the safety of our clan</color>]]> and the star system.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PYE: Must we fight again on such a momentous day, Idaea?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		PYE: Let us enjoy the stars while we wait for the warp tower to activate. <![CDATA[<i>In silence.</i>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		IDAEA: ..I apologize, Pye. That statement was uncalled for.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		PYE: Recall my promise, Idaea; I swore to you that I would not support the <![CDATA[<color=orange>Sun Station's</color>]]> use, unless we were sure it would not cause destruction.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		IDAEA: Your stance seems to fluctuate time to time, in my defense.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		IDAEA: Nevertheless, I truly pray the test today will give all of us the solace and confidence we need to follow in our ambitions.
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		PYE: Goodness! Has it always taken this long for this warp tower to activate?
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>
+		PYE: Every time I think the planet will finally align with the warp tower, it starts to go into retrograde!
+		</Text>
+			</TextBlock>
+			<TextBlock>	
+	<ID>10</ID>
+		<LocationA />
+		<ParentID>9</ParentID>
+		<Text>
+		IDAEA: Unfortunately, the farther out a planet is, the harder it is for the warp tower to align due to the Hourglass Twins' orbit.. We must simply be patient.
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>11</ID>
+		<LocationA />
+		<ParentID>10</ParentID>
+		<Text>
+		IDAEA: Ah, the alignment is happening at last! Come, Pye: The <![CDATA[<color=orange>Deep Storm Station</color>]]> awaits us.
+		</Text>
+			</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>Tower EX2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

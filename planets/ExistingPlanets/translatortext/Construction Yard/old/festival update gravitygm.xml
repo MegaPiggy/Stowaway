@@ -1,0 +1,56 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>CASSAVA: Daz, are you there? I believe I have observed something of note, but I would like your help in corroborating on this hypothesis.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>DAZ: I am here, my love. I needed to break from working on the <![CDATA[<color=orange>Aspiring project,</color>]]> and thought to voyage to Phlox’s workshop to reminisce my memories of him. Please allow me some time before I respond to engage in your exciting discovery.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>CASSAVA: Phlox was always honored to work alongside you, Daz. I'm.. I'm sure he would be proud your work together has allowed us to survive and learn more about the nature of our circumstances.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>CASSAVA: Do not hurry for my sake, love. But when you are ready, I believe I have found another property of the <![CDATA[<color=orange>deadly matter</color>]]> that has invaded the star system.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>CASSAVA: Hypothesis: The resting places of the <![CDATA[<color=orange>hazardous matter</color>]]> that has engulfed the star system is heavily influenced by gravity - including vectors of artificial gravity such as our gravity crystals and walkways.</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>DAZ: I observe the matter clinging to the gravity crystals on the sides of the cliffs, concentrating around their radius of artificial gravity. Your hypothesis may have struck the planet on its northern pole, my love.</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>CASSAVA: If that is the case, most of the matter should eventually fall into and be destroyed by the sun, the gravitational center of the system - or be captured by Giant’s Deep’s great mass, where it will be safely contained by its oceans until it decays.</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>CASSAVA: But if this hypothesis is indeed true...\\n \\n Suddenly, I feel exceedingly inspired by the possibilities.</Text>
+			</TextBlock>]
+				<TextBlock>	
+	<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>CASSAVA: An update, Daz: I have begun work on <![CDATA[<color=orange>a new project</color>]]> which I would like to undertake alone. Do not be concerned by my temporary absence by your side, and take the time you need to grieve before continuing your work.</Text>
+			</TextBlock>
+</NomaiObject>
