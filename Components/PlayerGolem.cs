@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Stowaway.Components
 {
-    internal class PlayerGolemComponent : MonoBehaviour
+    internal class PlayerGolem : MonoBehaviour
     {
         public NomaiRemoteCameraPlatform _platform;
         private float _health;

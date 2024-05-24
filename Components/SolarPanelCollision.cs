@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Stowaway.Components
 {
-    internal class SolarPanelCollisionComponent : MonoBehaviour
+    internal class SolarPanelCollision : MonoBehaviour
     {
         private OWAudioSource _audioSource;
         private GameObject[] _zappers;

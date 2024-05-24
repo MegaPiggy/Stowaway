@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Stowaway.Components
 {
-    internal class ScrollSocketBehaviour : MonoBehaviour
+    internal class SchematicRearSecret : MonoBehaviour
     {
         public const string ScrollName = "OPC Schematic Scroll w RearSecret";
         public const string ScrollPath = "ConstructionYardIsland_Body/OPC Schematic Scroll w RearSecret/NomaiWallText/Arc 1 - Child of -1/OPC Schematic REAR_TEXT Wall";

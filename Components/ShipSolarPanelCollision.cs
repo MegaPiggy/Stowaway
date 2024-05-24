@@ -2,11 +2,11 @@
 
 namespace Stowaway.Components
 {
-    internal class ShipCollisionComponent : MonoBehaviour
+    internal class ShipSolarPanelCollision : MonoBehaviour
     {
         private void OnCollisionEnter(Collision collision)
         {
-            var solarPanel = collision.collider?.transform?.parent?.GetComponent<SolarPanelCollisionComponent>();
+            var solarPanel = collision.collider?.transform?.parent?.GetComponent<SolarPanelCollision>();
             if (solarPanel != null)
             {
                 solarPanel.Bonk();

@@ -18,7 +18,7 @@ namespace Stowaway
 		{
 			if (Stowaway.IsSpecialStone(__instance._sharedStone))
 			{
-				var comp = Locator.GetPlayerController().gameObject.AddComponent<PlayerGolemComponent>();
+				var comp = Locator.GetPlayerController().gameObject.AddComponent<PlayerGolem>();
 				comp._platform = __instance;
 
 				Stowaway.Write($"Switch to remote camera");
@@ -37,7 +37,7 @@ namespace Stowaway
 			{
 				Stowaway.Write($"Switch to player camera");
 
-				var comp = Locator.GetPlayerController().gameObject.GetComponent<PlayerGolemComponent>();
+				var comp = Locator.GetPlayerController().gameObject.GetComponent<PlayerGolem>();
 				if (comp != null)
 					Object.Destroy(comp);
 

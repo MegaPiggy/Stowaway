@@ -2,7 +2,7 @@
 
 namespace Stowaway.Components
 {
-    internal class EnjoySignComponent : MonoBehaviour
+    internal class EnjoySign : MonoBehaviour
     {
         private void Awake()
         {

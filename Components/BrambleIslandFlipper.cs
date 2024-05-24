@@ -4,13 +4,13 @@ using UnityEngine;
 
 namespace Stowaway.Components
 {
-    internal class BrambleIslandComponent : MonoBehaviour
+    internal class BrambleIslandFlipper : MonoBehaviour
     {
         private const float SecondsUntilFlip = 0f;
         private GameObject _brambleIsland;
         private AlignWithDirection _alignBehaviour;
         private IslandController _islandController;
-        private PullTornadoComponent _pullTornado;
+        private PullTornado _pullTornado;
         private bool _timeThresholdPassed;
         private bool _flipped;
 
@@ -42,7 +42,7 @@ namespace Stowaway.Components
                 var closestTornado = findClosestsMovingTornado();
                 if (closestTornado != null)
                 {
-                    //_pullTornado = closestTornado.AddComponent<PullTornadoComponent>();
+                    _pullTornado = closestTornado.GetAddComponent<PullTornado>();
                 }
             }
         }
@@ -98,6 +98,25 @@ namespace Stowaway.Components
                 }
             }
             return closest;
+        }
+
+        private class PullTornado : MonoBehaviour
+        {
+            private void OnEnable()
+            {
+                var tc = gameObject.GetComponent<TornadoController>();
+                if (tc != null)
+                {
+                    tc._wander = false;
+                }
+            }
+
+            private void OnDisable()
+            {
+                var tc = gameObject.GetComponent<TornadoController>();
+                if (tc != null)
+                    tc._wander = true;
+            }
         }
     }
 }

@@ -105,9 +105,10 @@ public class Stowaway : ModBehaviour
 		var body = SearchUtilities.Find("BrambleIsland_Body");
 		if (body != null)
         {
-			body.gameObject.AddComponent<BrambleIslandComponent>();
+            //Scrapped bramble island flip. it used to be the mod's big mechanic but it just didn't fit & contradicted gm rules.
+            //body.gameObject.AddComponent<BrambleIslandFlipper>();
         }
-	}
+    }
 
 	private void initBrambleIsland_Late()
     {
@@ -117,10 +118,12 @@ public class Stowaway : ModBehaviour
 		var solarPanel = SearchUtilities.Find("BrambleIsland_Body/Sector_BrambleIsland/BrambleIsle Solar Panels");
 		if(solarPanel)
         {
-			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollisionComponent>();
+			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollision>();
 			solarPanelComponent.SetIsland(brambleIslandBody?.GetComponent<IslandController>());
         }
-		
+
+        //Scrapped code to change a hearthian recorder on bramble island (this was from before hearthian recorder animations were added)
+        /*
 		var chertDialogue = SearchUtilities.Find("BrambleIsland_Body/Sector_BrambleIsland/ChertRecording DIALOGUE_TO_BE_REPLACED").GetComponent<CharacterDialogueTree>();
 		try
 		{
@@ -133,9 +136,10 @@ public class Stowaway : ModBehaviour
 		} 
 		catch(NullReferenceException)
         {} //Ignore this error thrown by LateInitialize
-	}
+		*/
+    }
 
-	private void initConstructionYard()
+    private void initConstructionYard()
     {
 		var constructionYardBody = SearchUtilities.Find("ConstructionYardIsland_Body");
 		initTractorBeams(constructionYardBody);
@@ -143,37 +147,39 @@ public class Stowaway : ModBehaviour
 		var solarPanel = SearchUtilities.Find("ConstructionYardIsland_Body/Sector_ConstructionYard/ConstructYard Solar Panels");
 		if (solarPanel)
 		{
-			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollisionComponent>();
+			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollision>();
 			solarPanelComponent.SetIsland(constructionYardBody?.GetComponent<IslandController>());
 		}
 
 		var socket = SearchUtilities.Find("ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/LandingIsland/Prefab_NOM_Whiteboard/ArcSocket");
 		if (socket)
 		{
-			socket.AddComponent<ScrollSocketBehaviour>();
+			socket.AddComponent<SchematicRearSecret>();
 		}
 	}
 
 	private void initConstructionYard_Late()
     {
-		var text = SearchUtilities.Find(ScrollSocketBehaviour.ScrollPath).GetComponent<NomaiWallText>();
+		var text = SearchUtilities.Find(SchematicRearSecret.ScrollPath).GetComponent<NomaiWallText>();
 		if (text)
 		{
 			text._showTextOnStart = false;
-			text.HideImmediate();
-		}
-	}
-
-	private void initTimberHearth_Late()
-	{
+            text.HideImmediate();
+        }
+    }
+    private void initTimberHearth_Late()
+    {
+        // Scrapped code to change the size of a text on TH(it used to be a bulletin board that would point u to the mod’s intro)
+        /*
 		var sign = SearchUtilities.Find("TimberHearth_Body/Sector_TH/HearthBoard Enjoy/EnjoyText");
 		if (sign != null)
 		{
-			sign.AddComponent<EnjoySignComponent>();
+			sign.AddComponent<EnjoySign>();
 		}
-	}
+		*/
+    }
 
-	private void initStatueIsland_Late()
+    private void initStatueIsland_Late()
     {
 		var statueIslandBody = SearchUtilities.Find("StatueIsland_Body");
 		initTractorBeams(statueIslandBody);
@@ -181,7 +187,7 @@ public class Stowaway : ModBehaviour
 		var solarPanel = SearchUtilities.Find("StatueIsland_Body/Sector_StatueIsland/StatueIsle Solar Panels");
 		if (solarPanel)
 		{
-			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollisionComponent>();
+			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollision>();
 			solarPanelComponent.SetIsland(statueIslandBody?.GetComponent<IslandController>());
 		}
 	}
@@ -191,7 +197,7 @@ public class Stowaway : ModBehaviour
 		var statueIslandBody = SearchUtilities.Find("StatueIsland_Body");
 		if(statueIslandBody)
 		{
-			var comp = statueIslandBody.AddComponent<IslandDensityComponent>();
+			var comp = statueIslandBody.AddComponent<IslandDensityModifier>();
 			comp.DensityModifierSun = 0.03f;
 			comp.DensityModifierMoon = 0.03f;
 			comp.DensityModifierBoth = 0.4f;
@@ -200,7 +206,7 @@ public class Stowaway : ModBehaviour
         var cyardIslandBody = SearchUtilities.Find("ConstructionYardIsland_Body");
         if (cyardIslandBody)
         {
-            var comp = cyardIslandBody.AddComponent<IslandDensityComponent>();
+            var comp = cyardIslandBody.AddComponent<IslandDensityModifier>();
             comp.DensityModifierSun = 0.03f;
             comp.DensityModifierMoon = 0.03f;
             comp.DensityModifierBoth = 0.4f;
@@ -208,7 +214,7 @@ public class Stowaway : ModBehaviour
         var brambleIslandBody = SearchUtilities.Find("BrambleIsland_Body");
         if (brambleIslandBody)
         {
-            var comp = brambleIslandBody.AddComponent<IslandDensityComponent>();
+            var comp = brambleIslandBody.AddComponent<IslandDensityModifier>();
             comp.DensityModifierSun = 0.03f;
             comp.DensityModifierMoon = 0.03f;
             comp.DensityModifierBoth = 0.4f;
@@ -216,7 +222,7 @@ public class Stowaway : ModBehaviour
         var gabbroIslandBody = SearchUtilities.Find("GabbroIsland_Body");
         if (gabbroIslandBody)
         {
-            var comp = gabbroIslandBody.AddComponent<IslandDensityComponent>();
+            var comp = gabbroIslandBody.AddComponent<IslandDensityModifier>();
             comp.DensityModifierSun = 0.03f;
             comp.DensityModifierMoon = 0.03f;
             comp.DensityModifierBoth = 0.4f;
@@ -225,7 +231,7 @@ public class Stowaway : ModBehaviour
 
 	private void initShip()
 	{
-		SearchUtilities.Find("Ship_Body").AddComponent<ShipCollisionComponent>();
+		SearchUtilities.Find("Ship_Body").AddComponent<ShipSolarPanelCollision>();
 	}
 
 	private void initQuantumIsland_Late()

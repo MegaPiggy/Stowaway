@@ -2,7 +2,7 @@
 
 namespace Stowaway.Components
 {
-    internal class IslandDensityComponent : MonoBehaviour
+    internal class IslandDensityModifier : MonoBehaviour
     {
         public float DensityModifierSun;
         public float DensityModifierMoon;

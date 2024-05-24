@@ -12,7 +12,7 @@ namespace Stowaway
         {
             if(Stowaway.Instance.IsGolemConnection)
             {
-                var pl = Locator.GetPlayerController().gameObject.GetComponent<PlayerGolemComponent>();
+                var pl = Locator.GetPlayerController().gameObject.GetComponent<PlayerGolem>();
                 //Don't resurrect if source platform is inside super nova
                 bool resurrect =
                     deathType != DeathType.Meditation &&
