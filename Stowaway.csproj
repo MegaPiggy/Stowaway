@@ -42,4 +42,7 @@
     </None>
     <Content Include="Stowaway.csproj.user" />
   </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	<Exec Command="@echo ‎&#xD;&#xA;@echo         Copying dll file to project&#xD;&#xA;@copy /y &quot;$(OutputPath)$(AssemblyName).dll&quot; &quot;$(ProjectDir)$(AssemblyName).dll&quot;&#xD;&#xA;@echo ‎&#xD;&#xA;@echo         Copying pdb file to project&#xD;&#xA;@copy /y &quot;$(OutputPath)$(AssemblyName).pdb&quot; &quot;$(ProjectDir)$(AssemblyName).pdb&quot;&#xD;&#xA;@echo ‎" />
+  </Target>
 </Project>
