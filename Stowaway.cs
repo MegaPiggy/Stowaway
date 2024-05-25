@@ -96,6 +96,7 @@ public class Stowaway : ModBehaviour
 		foreach (JellyfishController jellyfish in FindObjectsOfType<JellyfishController>())
 		{
 			jellyfish.gameObject.AddComponent<JellyfishQuantumMoonRiser>();
+			jellyfish.GetComponentInChildren<FluidDetector>().gameObject.AddComponent<JellyfishBarrierIgnorer>();
 		}
 	}
 

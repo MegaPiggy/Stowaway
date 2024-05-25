@@ -6,11 +6,11 @@ namespace Stowaway.Components
     [RequireComponent(typeof(JellyfishController))]
     public class JellyfishQuantumMoonRiser : MonoBehaviour
     {
-        public QuantumOrbit _orbit;
+        private QuantumOrbit _orbit;
         private JellyfishController _controller;
         private bool _isLocked;
         private float _upperLimit = 496; // Vanilla: 350
-        private float _acceleration = 15; // Vanilla: 10;
+        private float _acceleration = 20; // Vanilla: 10;
 
         public void Start()
         {
