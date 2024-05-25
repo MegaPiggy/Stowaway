@@ -9,10 +9,14 @@ namespace Stowaway.Components
         public QuantumOrbit _orbit;
         private JellyfishController _controller;
         private bool _isLocked;
+        private float _originalUpperLimit;
+        private float _originalUpwardsAcceleration;
 
         public void Start()
         {
             _controller = GetComponent<JellyfishController>();
+            _originalUpperLimit = _controller._upperLimit;
+            _originalUpwardsAcceleration = _controller._upwardsAcceleration;
             _orbit = _controller._jellyfishBody.GetOrigParentBody().GetComponent<QuantumOrbit>();
             GlobalMessenger<OWRigidbody>.AddListener("QuantumMoonChangeState", OnQuantumMoonStateChanged);
         }
@@ -38,11 +42,15 @@ namespace Stowaway.Components
             {
                 _isLocked = true;
                 _controller._isRising = true;
+                _controller._upperLimit = 400;
+                _controller._upwardsAcceleration = 25;
             }
             else
             {
                 _isLocked = false;
                 _controller._isRising = false;
+                _controller._upperLimit = _originalUpperLimit;
+                _controller._upwardsAcceleration = _originalUpwardsAcceleration;
             }
         }
     }
