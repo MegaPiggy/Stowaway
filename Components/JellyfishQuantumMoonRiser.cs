@@ -9,14 +9,12 @@ namespace Stowaway.Components
         public QuantumOrbit _orbit;
         private JellyfishController _controller;
         private bool _isLocked;
-        private float _originalUpperLimit;
-        private float _originalUpwardsAcceleration;
+        private float _upperLimit = 496; // Vanilla: 350
+        private float _acceleration = 15; // Vanilla: 10;
 
         public void Start()
         {
             _controller = GetComponent<JellyfishController>();
-            _originalUpperLimit = _controller._upperLimit;
-            _originalUpwardsAcceleration = _controller._upwardsAcceleration;
             _orbit = _controller._jellyfishBody.GetOrigParentBody().GetComponent<QuantumOrbit>();
             GlobalMessenger<OWRigidbody>.AddListener("QuantumMoonChangeState", OnQuantumMoonStateChanged);
         }
@@ -26,11 +24,21 @@ namespace Stowaway.Components
             GlobalMessenger<OWRigidbody>.RemoveListener("QuantumMoonChangeState", OnQuantumMoonStateChanged);
         }
 
-        public void Update()
+        public void FixedUpdate()
         {
             if (_isLocked)
             {
-                _controller._isRising = true;
+                float sqrMagnitude = (_controller._jellyfishBody.GetPosition() - _controller._planetBody.GetPosition()).sqrMagnitude;
+                if (sqrMagnitude <= _upperLimit * _upperLimit)
+                {
+                    _controller._jellyfishBody.AddAcceleration(transform.up * _acceleration);
+                    _controller._attractiveFluidVolume.SetVolumeActivation(active: true);
+                }
+                else
+                {
+                    _controller._jellyfishBody.AddAcceleration(-transform.up * _acceleration);
+                    _controller._attractiveFluidVolume.SetVolumeActivation(active: false);
+                }
             }
         }
 
@@ -41,16 +49,12 @@ namespace Stowaway.Components
             if (_orbit._stateIndex == qmBody.GetComponent<QuantumMoon>().GetStateIndex())
             {
                 _isLocked = true;
-                _controller._isRising = true;
-                _controller._upperLimit = 400;
-                _controller._upwardsAcceleration = 25;
+                _controller.enabled = false;
             }
             else
             {
                 _isLocked = false;
-                _controller._isRising = false;
-                _controller._upperLimit = _originalUpperLimit;
-                _controller._upwardsAcceleration = _originalUpwardsAcceleration;
+                _controller.enabled = true;
             }
         }
     }
