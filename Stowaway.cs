@@ -55,6 +55,10 @@ public class Stowaway : ModBehaviour
 
     private void BodyLoaded(string body)
     {
+		if (body == "GiantsDeep")
+		{
+			initGiantsDeep_Late();
+		}
 		if (body == "ConstructionYardIsland")
         {
 			//Only init the construction yard after New Horizon has initialized it
@@ -68,6 +72,11 @@ public class Stowaway : ModBehaviour
 		{
 			initQuantumIsland_Late();
 		}
+	}
+
+	private void initGiantsDeep_Late()
+	{
+		Locator.GetAstroObject(AstroObject.Name.GiantsDeep).GetComponent<QuantumOrbit>()._orbitRadius = 2000;
 	}
 
 	private void golemConnectionEntered()
