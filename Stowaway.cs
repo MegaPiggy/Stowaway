@@ -88,8 +88,16 @@ public class Stowaway : ModBehaviour
 		initConstructionYard();
 		initShip();
 		initDensityComponents();
-
+		initJellyfish();
     }
+
+	private void initJellyfish()
+	{
+		foreach (JellyfishController jellyfish in FindObjectsOfType<JellyfishController>())
+		{
+			jellyfish.gameObject.AddComponent<JellyfishQuantumMoonRiser>();
+		}
+	}
 
     private void initConstructionYard()
     {
