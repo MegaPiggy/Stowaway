@@ -202,7 +202,12 @@ public class Stowaway : ModBehaviour
         {
 			Destroy(blackAndWhite);
         }
-	}
+		var cerberusJellyfish = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Cerberus Jelly");
+		if (cerberusJellyfish != null)
+		{
+			cerberusJellyfish.GetAddComponent<CerberusJellyfish>();
+		}
+    }
 
 	private void initTractorBeams(UnityEngine.GameObject islandObject)
     {
