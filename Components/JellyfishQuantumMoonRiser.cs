@@ -32,12 +32,10 @@ namespace Stowaway.Components
                 if (sqrMagnitude <= _upperLimit * _upperLimit)
                 {
                     _controller._jellyfishBody.AddAcceleration(transform.up * _acceleration);
-                    _controller._attractiveFluidVolume.SetVolumeActivation(active: true);
                 }
                 else
                 {
                     _controller._jellyfishBody.AddAcceleration(-transform.up * _acceleration);
-                    _controller._attractiveFluidVolume.SetVolumeActivation(active: false);
                 }
             }
         }
