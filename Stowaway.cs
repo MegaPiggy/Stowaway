@@ -43,7 +43,7 @@ public class Stowaway : ModBehaviour
 		LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
 		{
 			switch(loadScene)
-            {
+			{
 				case OWScene.SolarSystem:
 					initSolarSystem();
 					break;
@@ -53,17 +53,17 @@ public class Stowaway : ModBehaviour
 		GlobalMessenger.AddListener("ExitNomaiGolemConnection", golemConnectionExited);
 	}
 
-    private void BodyLoaded(string body)
-    {
+	private void BodyLoaded(string body)
+	{
 		if (body == "GiantsDeep")
 		{
 			initGiantsDeep_Late();
 		}
 		if (body == "ConstructionYardIsland")
-        {
+		{
 			//Only init the construction yard after New Horizon has initialized it
 			initConstructionYard_Late();
-        }
+		}
 		if (body == "StatueIsland")
 		{
 			initStatueIsland_Late();
@@ -80,10 +80,10 @@ public class Stowaway : ModBehaviour
 	}
 
 	private void golemConnectionEntered()
-    {
+	{
 		Write("GOLEM CONNECTION ENTER");
 		IsGolemConnection = true;
-    }
+	}
 
 	private void golemConnectionExited()
 	{
@@ -92,13 +92,13 @@ public class Stowaway : ModBehaviour
 	}
 
 	private void initSolarSystem()
-    {
+	{
 		IsGolemConnection = false;
 		initConstructionYard();
 		initShip();
 		initDensityComponents();
 		initJellyfish();
-    }
+	}
 
 	private void initJellyfish()
 	{
@@ -109,8 +109,8 @@ public class Stowaway : ModBehaviour
 		}
 	}
 
-    private void initConstructionYard()
-    {
+	private void initConstructionYard()
+	{
 		var constructionYardBody = SearchUtilities.Find("ConstructionYardIsland_Body");
 		initTractorBeams(constructionYardBody);
 
@@ -129,17 +129,17 @@ public class Stowaway : ModBehaviour
 	}
 
 	private void initConstructionYard_Late()
-    {
+	{
 		var text = SearchUtilities.Find(SchematicRearSecret.ScrollPath).GetComponent<NomaiWallText>();
 		if (text)
 		{
 			text._showTextOnStart = false;
-            text.HideImmediate();
-        }
-    }
+			text.HideImmediate();
+		}
+	}
 
-    private void initStatueIsland_Late()
-    {
+	private void initStatueIsland_Late()
+	{
 		var statueIslandBody = SearchUtilities.Find("StatueIsland_Body");
 		initTractorBeams(statueIslandBody);
 
@@ -162,31 +162,31 @@ public class Stowaway : ModBehaviour
 			comp.DensityModifierBoth = 0.4f;
 		}
 		
-        var cyardIslandBody = SearchUtilities.Find("ConstructionYardIsland_Body");
-        if (cyardIslandBody)
-        {
-            var comp = cyardIslandBody.AddComponent<IslandDensityModifier>();
-            comp.DensityModifierSun = 0.03f;
-            comp.DensityModifierMoon = 0.03f;
-            comp.DensityModifierBoth = 0.4f;
-        }
-        var brambleIslandBody = SearchUtilities.Find("BrambleIsland_Body");
-        if (brambleIslandBody)
-        {
-            var comp = brambleIslandBody.AddComponent<IslandDensityModifier>();
-            comp.DensityModifierSun = 0.03f;
-            comp.DensityModifierMoon = 0.03f;
-            comp.DensityModifierBoth = 0.4f;
-        }
-        var gabbroIslandBody = SearchUtilities.Find("GabbroIsland_Body");
-        if (gabbroIslandBody)
-        {
-            var comp = gabbroIslandBody.AddComponent<IslandDensityModifier>();
-            comp.DensityModifierSun = 0.03f;
-            comp.DensityModifierMoon = 0.03f;
-            comp.DensityModifierBoth = 0.4f;
-        }
-    }
+		var cyardIslandBody = SearchUtilities.Find("ConstructionYardIsland_Body");
+		if (cyardIslandBody)
+		{
+			var comp = cyardIslandBody.AddComponent<IslandDensityModifier>();
+			comp.DensityModifierSun = 0.03f;
+			comp.DensityModifierMoon = 0.03f;
+			comp.DensityModifierBoth = 0.4f;
+		}
+		var brambleIslandBody = SearchUtilities.Find("BrambleIsland_Body");
+		if (brambleIslandBody)
+		{
+			var comp = brambleIslandBody.AddComponent<IslandDensityModifier>();
+			comp.DensityModifierSun = 0.03f;
+			comp.DensityModifierMoon = 0.03f;
+			comp.DensityModifierBoth = 0.4f;
+		}
+		var gabbroIslandBody = SearchUtilities.Find("GabbroIsland_Body");
+		if (gabbroIslandBody)
+		{
+			var comp = gabbroIslandBody.AddComponent<IslandDensityModifier>();
+			comp.DensityModifierSun = 0.03f;
+			comp.DensityModifierMoon = 0.03f;
+			comp.DensityModifierBoth = 0.4f;
+		}
+	}
 
 	private void initShip()
 	{
@@ -197,7 +197,7 @@ public class Stowaway : ModBehaviour
 	{
 		var probeDisplay = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Nomai Camera/VerticalPivot/Launcher/ProbeScreen (1)/ProbeDisplay");
 		if(probeDisplay != null)
-        {
+		{
 			probeDisplay.transform.localPosition = new UnityEngine.Vector3(0.2623f, 0.3001f, 0.3557f);
 			probeDisplay.transform.localRotation = UnityEngine.Quaternion.Euler(3.332f, 76.1487f, 356.5323f);
 		}
@@ -208,18 +208,18 @@ public class Stowaway : ModBehaviour
 		}
 		var blackAndWhite = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Nomai Camera/VerticalPivot/Launcher/preLaunchCamera")?.GetComponent<PostProcessingBehaviour>();
 		if(blackAndWhite != null)
-        {
+		{
 			Destroy(blackAndWhite);
-        }
+		}
 		var cerberusJellyfish = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Cerberus Jelly");
 		if (cerberusJellyfish != null)
 		{
 			cerberusJellyfish.GetAddComponent<CerberusJellyfish>();
 		}
-    }
+	}
 
 	private void initTractorBeams(UnityEngine.GameObject islandObject)
-    {
+	{
 		var islandController = islandObject.GetComponent<IslandController>();
 		if (islandController)
 		{
@@ -234,7 +234,7 @@ public class Stowaway : ModBehaviour
 	}
 
 	internal static bool IsSpecialStone(SharedStone stone)
-    {
+	{
 		return SpecialStones.Contains(stone.name);
 	}
 

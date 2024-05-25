@@ -2,7 +2,7 @@
 
 namespace Stowaway
 {
-    [HarmonyPatch]
+	[HarmonyPatch]
 	public class NomaiRemoteCameraPatch
 	{
 		[HarmonyPrefix]

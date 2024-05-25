@@ -2,9 +2,9 @@
 
 namespace Stowaway
 {
-    [HarmonyPatch]
+	[HarmonyPatch]
 	public class OWItemSocketPatch
-    {
+	{
 		[HarmonyPrefix]
 		[HarmonyPatch(typeof(OWItemSocket), nameof(OWItemSocket.AcceptsItem))]
 		public static bool OWItemSocket_AcceptsItem_Prefix(ref bool __result, OWItemSocket __instance, OWItem item)
@@ -14,10 +14,10 @@ namespace Stowaway
 			if(__instance is SharedStoneSocket sss && 
 				sss.transform.parent.GetComponentInParent<NomaiRemoteCameraPlatform>() != null &&
 				itemType == ItemType.SharedStone && Stowaway.Instance.IsGolemConnection)
-            {
+			{
 				__result = false;
 				return false;
-            }
+			}
 			return true;
 		}
 	}

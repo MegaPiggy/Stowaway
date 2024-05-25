@@ -4,9 +4,9 @@ using UnityEngine;
 
 namespace Stowaway
 {
-    [HarmonyPatch]
-    public class NomaiRemoteCameraPlatformPatch
-    {
+	[HarmonyPatch]
+	public class NomaiRemoteCameraPlatformPatch
+	{
 		private static Vector3 _storedPosition;
 		private static Quaternion _storedRotation;
 		private static Vector3 _storedShapePos;
@@ -29,7 +29,7 @@ namespace Stowaway
 			return true;
 		}
 
-        [HarmonyPrefix]
+		[HarmonyPrefix]
 		[HarmonyPatch(typeof(NomaiRemoteCameraPlatform), nameof(NomaiRemoteCameraPlatform.SwitchToPlayerCamera))]
 		public static bool NomaiRemoteCameraPlatform_SwitchToPlayerCamera(NomaiRemoteCameraPlatform __instance)
 		{
@@ -83,5 +83,5 @@ namespace Stowaway
 			__instance._stoneHologram.SetPositionAndRotation(new Vector3(0f, -2f, 0f), Quaternion.identity);
 			return false;
 		}
-    }
+	}
 }
