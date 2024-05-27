@@ -79,7 +79,13 @@
 			}
 		],
 		"details": [	
-			
+			{
+				"rename":"splishy splashy campfire",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Interactables_SouthPole/SouthPole_VisibleFromFar/Prefab_HEA_Campfire",
+				"position": {"x": 17.3871, "y": 2.2547, "z": 0.4603},
+				"rotation": {"x": 357.7867, "y": 282.7498, "z": 359.5206},
+				"isRelativeToParent": true
+			},
 			{
 				"rename":"Gabbro highcove gravitycrystal",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal",
