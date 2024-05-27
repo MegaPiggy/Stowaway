@@ -128,5 +128,35 @@ namespace Stowaway.Components
 		{
 			return _sunOverhead > 0;
 		}
+
+		public float GetQuantumMoonOverheadPercentage()
+		{
+			return _quantumMoonOverhead;
+		}
+
+		public float GetMoonOverheadPercentage()
+		{
+			return _moonOverhead;
+		}
+
+		public float GetSunOverheadPercentage()
+		{
+			return _sunOverhead;
+		}
+
+		public float AngleToQuantumMoon()
+		{
+			return _angleToQuantumMoon;
+		}
+
+		public float AngleToMoon()
+		{
+			return _angleToMoon;
+		}
+
+		public float AngleToSun()
+		{
+			return _angleToSun;
+		}
 	}
 }
