@@ -9,6 +9,7 @@ using System.Reflection;
 using Stowaway.Components;
 using UnityEngine.PostProcessing;
 using UnityEngine;
+using static ShapeUtil;
 
 namespace Stowaway;
 
@@ -75,15 +76,47 @@ public class Stowaway : ModBehaviour
 		}
 		if (body.EndsWith("Island"))
 		{
-			initIslandCampfires(SearchUtilities.Find(body + "_Body"));
+			initIsland(SearchUtilities.Find(body + "_Body"));
 		}
 	}
 
-	private void initIslandCampfires(GameObject body)
+	private const float sizeMultiplier = 1.25f;
+
+	private void initIsland(GameObject body)
 	{
 		foreach (Campfire campfire in body.GetComponentsInChildren<Campfire>(true))
 		{
 			campfire.gameObject.AddComponent<TornadoIslandCampfireDetector>();
+		}
+		if (body.FindChild("RepellentVolume") == null)
+		{
+			var collider = body.GetComponentInChildren<ForceApplier>(true).GetComponent<Collider>();
+			var localPos = collider.transform.localPosition;
+			var localEuler = collider.transform.localEulerAngles;
+			var repellent = new GameObject("RepellentVolume");
+			repellent.transform.SetParent(body.transform, false);
+			repellent.transform.localPosition = localPos;
+			repellent.transform.localEulerAngles = localEuler;
+			repellent.layer = LayerMask.NameToLayer("BasicEffectVolume");
+			if (collider is SphereCollider sCollider)
+			{
+				var sphere = repellent.AddComponent<SphereCollider>();
+				sphere.radius = sCollider.radius * sizeMultiplier;
+				sphere.center = sCollider.center;
+				sphere.isTrigger = true;
+			}
+			else if (collider is CapsuleCollider cCollider)
+			{
+				var capsule = repellent.AddComponent<CapsuleCollider>();
+				capsule.radius = cCollider.radius * sizeMultiplier;
+				capsule.height = cCollider.height * sizeMultiplier;
+				capsule.direction = cCollider.direction;
+				capsule.center = cCollider.center;
+				capsule.isTrigger = true;
+			}
+			repellent.AddComponent<OWTriggerVolume>();
+			repellent.AddComponent<OtherIslandRepelFluidVolume>();
+			repellent.AddComponent<DebugVolume>();
 		}
 	}
 
@@ -159,7 +192,7 @@ public class Stowaway : ModBehaviour
 		var solarPanel = SearchUtilities.Find("StatueIsland_Body/Sector_StatueIsland/StatueIsle Solar Panels");
 		if (solarPanel)
 		{
-			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollision>();
+			var solarPanelComponent = solarPanel.gameObject.GetAddComponent<SolarPanelCollision>();
 			solarPanelComponent.SetIsland(statueIslandBody?.GetComponent<IslandController>());
 		}
 	}
