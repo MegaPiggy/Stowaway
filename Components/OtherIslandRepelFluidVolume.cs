@@ -22,19 +22,21 @@ namespace Stowaway.Components
 
 		public override void OnEffectVolumeEnter(GameObject hitObj)
 		{
-			FluidDetector component = hitObj.GetComponent<FluidDetector>();
-			if (component != null && component.transform.root.GetComponent<IslandController>())
+			FluidDetector detector = hitObj.GetComponent<FluidDetector>();
+			IslandController controller = hitObj.GetComponentInParent<IslandController>();
+			if (detector != null && controller != null && controller._fluidDetector == detector)
 			{
-				component.AddVolume(this);
+				detector.AddVolume(this);
 			}
 		}
 
 		public override void OnEffectVolumeExit(GameObject hitObj)
 		{
-			FluidDetector component = hitObj.GetComponent<FluidDetector>();
-			if (component != null && component.transform.root.GetComponent<IslandController>())
+			FluidDetector detector = hitObj.GetComponent<FluidDetector>();
+			IslandController controller = hitObj.GetComponentInParent<IslandController>();
+			if (detector != null && controller != null && controller._fluidDetector == detector)
 			{
-				component.RemoveVolume(this);
+				detector.RemoveVolume(this);
 			}
 		}
 	}
