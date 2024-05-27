@@ -91,6 +91,7 @@ public class Stowaway : ModBehaviour
 		if (body.FindChild("RepellentVolume") == null)
 		{
 			var collider = body.GetComponentInChildren<ForceApplier>(true).GetComponent<Collider>();
+			collider.gameObject.tag = "IslandDetector";
 			var localPos = collider.transform.localPosition;
 			var localEuler = collider.transform.localEulerAngles;
 			var repellent = new GameObject("RepellentVolume");
