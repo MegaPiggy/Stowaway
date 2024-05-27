@@ -90,7 +90,7 @@ public class Stowaway : ModBehaviour
 		foreach (var door in ashTwin.GetComponentsInChildren<NomaiMultiPartDoor>(true))
 		{
 			door.gameObject.GetAddComponent<OverheadDetector>();
-			door.gameObject.GetAddComponent<NomaiDoorTugger>().canOpenAndClose = true;
+			door.gameObject.GetAddComponent<NomaiDoorTugger>();
 		}
 	}
 
