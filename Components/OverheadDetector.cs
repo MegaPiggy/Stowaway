@@ -35,11 +35,24 @@ namespace Stowaway.Components
 		{
 			_planet = GetParentBody();
 			_orbit = _planet.GetComponent<QuantumOrbit>();
-			var moon = _planet.GetComponent<AstroObject>().GetMoon();
+			var moon = GetMoon(_planet.GetComponent<AstroObject>());
 			_moon = moon != null ? moon.GetOWRigidbody() : null;
 			_sun = Locator.GetAstroObject(AstroObject.Name.Sun).GetOWRigidbody();
 			_qm = Locator.GetAstroObject(AstroObject.Name.QuantumMoon).GetOWRigidbody();
 			_quantumMoon = _qm.GetComponent<QuantumMoon>();
+		}
+
+		private AstroObject GetMoon(AstroObject planet)
+		{
+			switch (planet.GetAstroObjectName())
+			{
+				case AstroObject.Name.CaveTwin:
+					return Locator.GetAstroObject(AstroObject.Name.TowerTwin);
+				case AstroObject.Name.TowerTwin:
+					return Locator.GetAstroObject(AstroObject.Name.CaveTwin);
+				default:
+					return planet.GetMoon();
+			}
 		}
 
 		private OWRigidbody GetParentBody()
