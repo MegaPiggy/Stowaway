@@ -8,6 +8,7 @@ using System.IO;
 using System.Reflection;
 using Stowaway.Components;
 using UnityEngine.PostProcessing;
+using UnityEngine;
 
 namespace Stowaway;
 
@@ -55,6 +56,7 @@ public class Stowaway : ModBehaviour
 
 	private void BodyLoaded(string body)
 	{
+		var obj = NewHorizonsAPI.GetPlanet(body);
 		if (body == "GiantsDeep")
 		{
 			initGiantsDeep_Late();
@@ -71,6 +73,18 @@ public class Stowaway : ModBehaviour
 		if (body == "QuantumIsland")
 		{
 			initQuantumIsland_Late();
+		}
+		if (body.EndsWith("Island"))
+		{
+			initIslandCampfires(obj);
+		}
+	}
+
+	private void initIslandCampfires(GameObject body)
+	{
+		foreach (Campfire campfire in body.GetComponentsInChildren<Campfire>(true))
+		{
+			campfire.gameObject.AddComponent<TornadoIslandCampfireDetector>();
 		}
 	}
 

@@ -12,13 +12,20 @@ using UnityEngine;
 namespace Stowaway.Patches
 {
 	[HarmonyPatch(typeof(Campfire))]
-	public class CampfireTornadoPatch
+	public class CampfireSleepInterruptionPatch
 	{
-		public static bool IsTornadoNearCampfire(Campfire campfire)
+		public static bool IsCampfiresIslandAirborne(Campfire campfire)
 		{
+			if (campfire != null && campfire.GetComponent<TornadoIslandCampfireDetector>() != null)
+			{
+				return campfire.GetComponent<TornadoIslandCampfireDetector>().IslandAirborne;
+			}
 			return false;
 		}
 
+		/// <summary>
+		/// Adds a check for no tornados nearby
+		/// </summary>
 		[HarmonyTranspiler]
 		[HarmonyPatch(nameof(Campfire.CanSleepHereNow))]
 		public static IEnumerable<CodeInstruction> Campfire_CanSleepHereNow_Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
@@ -30,11 +37,14 @@ namespace Stowaway.Patches
 					new CodeMatch(OpCodes.Ble_Un)).Advance(1)
 				.Insert(
 					new CodeInstruction(OpCodes.Ldarg_0),
-					new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CampfireTornadoPatch), nameof(IsTornadoNearCampfire))),
+					new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CampfireSleepInterruptionPatch), nameof(IsCampfiresIslandAirborne))),
 					new CodeInstruction(OpCodes.Brtrue_S, retFalse)
 				).InstructionEnumeration();
 		}
 
+		/// <summary>
+		/// Adds a check for tornados nearby
+		/// </summary>
 		[HarmonyTranspiler]
 		[HarmonyPatch(nameof(Campfire.ShouldWakeUp))]
 		public static IEnumerable<CodeInstruction> Campfire_ShouldWakeUp_Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
@@ -49,7 +59,7 @@ namespace Stowaway.Patches
 					new CodeMatch(OpCodes.Clt)
 				).Advance(1).Insert(
 					new CodeInstruction(OpCodes.Ldarg_0),
-					new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CampfireTornadoPatch), nameof(IsTornadoNearCampfire))),
+					new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CampfireSleepInterruptionPatch), nameof(IsCampfiresIslandAirborne))),
 					new CodeInstruction(OpCodes.Brtrue_S, retTrue)
 				).InstructionEnumeration();
 		}
