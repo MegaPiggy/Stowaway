@@ -22,9 +22,8 @@ namespace Stowaway.Components
 
 		public override void OnEffectVolumeEnter(GameObject hitObj)
 		{
-			if (!hitObj.CompareTag("IslandDetector")) return;
 			FluidDetector component = hitObj.GetComponent<FluidDetector>();
-			if (component != null)
+			if (component != null && component.transform.root.GetComponent<IslandController>())
 			{
 				component.AddVolume(this);
 			}
@@ -32,9 +31,8 @@ namespace Stowaway.Components
 
 		public override void OnEffectVolumeExit(GameObject hitObj)
 		{
-			if (!hitObj.CompareTag("IslandDetector")) return;
 			FluidDetector component = hitObj.GetComponent<FluidDetector>();
-			if (component != null)
+			if (component != null && component.transform.root.GetComponent<IslandController>())
 			{
 				component.RemoveVolume(this);
 			}
