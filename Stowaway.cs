@@ -29,8 +29,8 @@ public class Stowaway : ModBehaviour
 
 	private void Awake()
 	{
-		Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
 		Instance = this;
+		Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
 	}
 
 	private void Start()
