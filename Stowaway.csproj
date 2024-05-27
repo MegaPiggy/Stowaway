@@ -11,8 +11,8 @@
     <DebugType>portable</DebugType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="OWML" Version="2.9.0" />
-    <PackageReference Include="OuterWildsGameLibs" Version="1.1.13.393" />
+    <PackageReference Include="OWML" Version="2.11.1" />
+    <PackageReference Include="OuterWildsGameLibs" Version="1.1.14.768" />
 	<Reference Include="NewHorizons">
       <HintPath>$(OuterWildsModsDirectory)\xen.NewHorizons\NewHorizons.dll</HintPath>
       <Private>False</Private>
