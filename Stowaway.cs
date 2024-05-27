@@ -122,7 +122,11 @@ public class Stowaway : ModBehaviour
 
 	private void initGiantsDeep_Late()
 	{
-		Locator.GetAstroObject(AstroObject.Name.GiantsDeep).GetComponent<QuantumOrbit>()._orbitRadius = 2000;
+		var giantsDeep = Locator.GetAstroObject(AstroObject.Name.GiantsDeep);
+		giantsDeep.GetComponent<QuantumOrbit>()._orbitRadius = 2000;
+		var qmChopZone = new GameObject("QuantumMoonChopZone");
+		qmChopZone.transform.SetParent(giantsDeep.GetRootSector().transform, false);
+		qmChopZone.AddComponent<QuantumMoonChopZone>();
 	}
 
 	private void golemConnectionEntered()
