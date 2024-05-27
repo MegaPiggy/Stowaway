@@ -10,12 +10,14 @@ namespace Stowaway.Components
 	[RequireComponent(typeof(Campfire))]
 	public class TornadoIslandCampfireDetector : MonoBehaviour
 	{
+		private Campfire _campfire;
 		private IslandController _islandController;
 		private bool _islandAirborne;
 		public bool IslandAirborne => _islandAirborne;
 
 		private void Start()
 		{
+			_campfire = gameObject.GetRequiredComponent<Campfire>();
 			_islandController = gameObject.GetAttachedOWRigidbody().GetComponent<IslandController>();
 			if (_islandController != null)
 			{
@@ -36,6 +38,7 @@ namespace Stowaway.Components
 		private void OnEnterTornado()
 		{
 			_islandAirborne = true;
+			_campfire.StopSleeping(sudden: true);
 		}
 
 		private void OnSplashDown()
