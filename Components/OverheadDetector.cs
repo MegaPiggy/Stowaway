@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Stowaway.Components
 {
 	public class OverheadDetector : MonoBehaviour
 	{
+		public delegate void OverheadEvent(OWRigidbody bodyOverhead);
+
 		private QuantumOrbit _orbit;
 		private QuantumMoon _quantumMoon;
 		private OWRigidbody _planet, _sun, _moon, _qm;
@@ -20,6 +17,13 @@ namespace Stowaway.Components
 		private float _quantumMoonOverhead;
 		private float _moonOverhead;
 		private float _sunOverhead;
+
+		public event OverheadEvent OnQuantumMoonOverhead;
+		public event OverheadEvent OnMoonOverhead;
+		public event OverheadEvent OnSunOverhead;
+		public event OverheadEvent OnQuantumMoonNoLongerOverhead;
+		public event OverheadEvent OnMoonNoLongerOverhead;
+		public event OverheadEvent OnSunNoLongerOverhead;
 
 		private float getCosTo(OWRigidbody target)
 		{
@@ -82,10 +86,12 @@ namespace Stowaway.Components
 			if (!previousQMOverhead && nowQMOverhead)
 			{
 				Stowaway.Write("Quantum moon is overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
+				if (OnQuantumMoonOverhead != null) OnQuantumMoonOverhead(_qm);
 			}
 			else if (previousQMOverhead && !nowQMOverhead)
 			{
 				Stowaway.Write("Quantum moon is no longer overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
+				if (OnQuantumMoonNoLongerOverhead != null) OnQuantumMoonNoLongerOverhead(_qm);
 			}
 
 			var previousMOverhead = IsMoonOverhead();
@@ -94,11 +100,12 @@ namespace Stowaway.Components
 			if (!previousMOverhead && nowMOverhead)
 			{
 				Stowaway.Write(_moon.name.Replace("_Body", "") + " is overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
-				Stowaway.Write("Quantum moon is overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
+				if (OnMoonOverhead != null) OnMoonOverhead(_moon);
 			}
 			else if (previousMOverhead && !nowMOverhead)
 			{
 				Stowaway.Write(_moon.name.Replace("_Body", "") + " is no longer overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
+				if (OnMoonNoLongerOverhead != null) OnMoonNoLongerOverhead(_moon);
 			}
 
 			var previousSOverhead = IsQuantumMoonOverhead();
@@ -107,10 +114,12 @@ namespace Stowaway.Components
 			if (!previousSOverhead && nowSOverhead)
 			{
 				Stowaway.Write("Sun is overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
+				if (OnSunOverhead != null) OnSunOverhead(_sun);
 			}
 			else if (previousSOverhead && !nowSOverhead)
 			{
 				Stowaway.Write("Sun is no longer overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
+				if (OnSunNoLongerOverhead != null) OnSunNoLongerOverhead(_sun);
 			}
 		}
 
