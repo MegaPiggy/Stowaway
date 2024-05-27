@@ -5,6 +5,6 @@
   "name": "Stowaway",
   "uniqueName": "atk.Stowaway",
   "version": "0.1.0",
-  "owmlVersion": "2.9.0",
+  "owmlVersion": "2.11.1",
   "dependencies": [ "xen.NewHorizons"]
 }
