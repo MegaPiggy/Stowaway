@@ -11,9 +11,9 @@ namespace Stowaway.Patches
 	[HarmonyPatch(typeof(QuantumObject))]
 	public class QuantumObjectPatch
 	{
-		[HarmonyPrefix]
-		[HarmonyPatch(nameof(QuantumObject.Awake))]
-		public static void QuantumObject_Awake_Prefix(QuantumObject __instance)
+		[HarmonyPostfix]
+		[HarmonyPatch(nameof(QuantumObject.Start))]
+		public static void QuantumObject_Start_Postfix(QuantumObject __instance)
 		{
 			__instance.gameObject.GetAddComponent<QuantumDropTarget>();
 		}
