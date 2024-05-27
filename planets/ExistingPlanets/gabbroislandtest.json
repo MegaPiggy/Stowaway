@@ -67,8 +67,16 @@
 			"radius": 2,
 			"range": 2,
 			"flashlightToggle": "turnOffThenOn"
-		}
-			
+		},
+			{
+				"rename": "Gabbro_Camp Note DIALOGUE",
+				"position":{"x":37.4441 ,"y": 18.8848,"z": 4.1305},
+				"isRelativeToParent": true,
+				"radius": 0.5,
+				"range":3,
+				"xmlFile": "planets/ExistingPlanets/dialogue/Notes/Gabbro NewCamp Note.xml",
+				"flashlightToggle": "turnOffThenOn"
+			}
 		],
 		"details": [	
 			
@@ -163,6 +171,13 @@
 			"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
 			"position": {"x":11.9021,"y": 1.3611,"z": 21.6931},
 			"rotation": {"x":3.7364,"y": 17.2727,"z": 358.8791},
+			"isRelativeToParent": true
+		},
+		{	
+			"rename":"Gabbro_Camp NOTE",
+			"path":"TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)/GossanNote/plaque_paper_1 (1)",
+			"position":{"x":37.4441 ,"y": 18.8848,"z": 4.1305},
+			"rotation":{"x":348.287,"y": 62.1886,"z": 342.9809},
 			"isRelativeToParent": true
 		},
 

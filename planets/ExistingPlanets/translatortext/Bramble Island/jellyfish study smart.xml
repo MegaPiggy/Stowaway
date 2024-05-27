@@ -23,7 +23,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: This species appears to normally dwell deep underwater, near the planet's core. We once observed live species on the ocean's surface during our first expedition to this planet, but have never again observed this phenomenon.
+		PLUME: This species appears to prefer to dwell deep underwater. We once observed live species on the ocean's surface during our first expedition to this planet, but have never again observed this phenomenon.
 		</Text>
 	</TextBlock>
 	
@@ -32,7 +32,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		COLEUS: These organisms have organs capable of generating bioelectricity, but do not appear to have the capability to possess wisdom, making it unlikely our presence is the cause of their sudden timidity.
+		COLEUS: These organisms are almost entirely composed of water! They do not appear to have the capability to possess deep wisdom, making it unlikely our presence is the cause of their sudden timidity.
 		</Text>
 		</TextBlock>
 
@@ -40,7 +40,7 @@
 		<ID>5</ID>
 		<LocationB />
 		<ParentID>2</ParentID>
-		<Text>THATCH: I propose we transport one of these frozen specimens to a habitat in the <![CDATA[<color=orange>Looming City</color>]]> to study a live specimen and this surfacing phenomenon in a more controlled environment!
+		<Text>THATCH: If we transport one of these frozen specimens to a habitat in the <![CDATA[<color=orange>Looming City,</color>]]> we may be able to study a live specimen and this surfacing phenomenon in a more controlled environment!
 		</Text>
 	</TextBlock>
 
@@ -49,7 +49,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		MELORAE: I support your proposal, Thatch! Once the specimen settles in its habitat, I would also be curious how the species might interact with the quantum shard in the <![CDATA[<color=orange>Looming City..</color>]]>
+		MELORAE: I support your proposal, Thatch! I would also be curious how this species might interact with the quantum shard in the <![CDATA[<color=orange>Looming City..</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -58,7 +58,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		MELORAE: ..What is happening? Why has the sky gone dark? What is..
+		MELORAE: ..Wait. What is happening? Why has the sky gone dark? What is..
 		</Text>
 	</TextBlock>
 

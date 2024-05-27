@@ -1,0 +1,84 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+
+	<![CDATA[<i>Excavation Site</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+		PLUME: Friends, I shall be traveling to Ember Twin with Phlox before your expedition. Might there be any way to protect ourselves from the terrible heat from this star system's sun?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+		MELORAE: Goodness, Plume! Haven't you heard? The new suits have integrated ore from Timber Hearth to help us resist the heat
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			PHLOX: How I wish we could have had that technology when we were constructing the Quantum Moon locator!</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+	PLUME: We would not be where we are today without your</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<Text>
+	PLUME: Now, let us locate the quantum shard and retrieve your toy, so we may rest for the day.</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+		PHLOX: Okay, papa!</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>LC_G R4</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LC_G R5</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LC_G EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LC_G EX2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LC_G EX3</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+
+			<RevealFact>
+			<FactID>SF Jelly EX1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SF Jelly EX2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SF Jelly EX3</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

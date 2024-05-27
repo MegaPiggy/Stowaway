@@ -198,10 +198,19 @@
 				"rename":"Workshop floor",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/floor.prefab",
-				"position": {"x": 16.2364, "y": 43.0637, "z": -15.2491},
-				"rotation": {"x": 0, "y": 225, "z": 0},
+				"position": {"x": 16.1128, "y": 43.0637, "z": -15.2473},
+				"rotation": {"x": 0, "y": 227.6979, "z": 0},
 				"isRelativeToParent": true,
-				"stretch":{"x":2.5,"y":1,"z":2.3}
+				"stretch":{"x":2.7,"y":1,"z":2.3}
+			},
+			{
+				"rename":"Workshop floor Ridge",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/floor.prefab",
+				"position": {"x": 12.9727, "y": 43.3892, "z": -18.1619},
+				"rotation": {"x": 0, "y": 227.7979, "z": 0},
+				"isRelativeToParent": true,
+				"stretch":{"x":2.7,"y":2,"z":0.1545}
 			},
 	
 			{
@@ -671,31 +680,6 @@
 				"isRelativeToParent": true
 			},
 			
-			{
-				"rename": "LOFT_Lopsided Safety Tractorbeam",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/SafetyBeams/Prefab_NOM_SafetyTractorBeam",
-				"isRelativeToParent": true,
-				"position": {"x": 15.4431, "y": 45.6263 , "z": -22.8854},
-				"rotation": {"x": 90, "y": 315.4211, "z": 0},
-				"stretch": {"x":1,"y": 1.4,"z": 1},
-				"removeChildren": ["Props_NOM_SmallTractorBeam_Top"]
-			},
-			{
-				"path":"StatueIsland_Body/Sector_StatueIsland/LOFT_Lopsided Safety Tractorbeam/Props_NOM_SafetyTractorBeam",
-				"parentPath": "Sector_StatueIsland/LOFT_Lopsided Safety Tractorbeam",
-				"position": {"x":0,"y":7.7,"z":0},
-				"rotation": {"x":0,"y":0,"z":180},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"TRAP Volume",
-				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_GDCore/Prefab_NOM_Airlock/Structure_NOM_Airlock_new/Airlcok_MidSphere/Structure_NOM_Airlock_Switch/AirlockFluidVolume",
-				"parentPath": "Sector_StatueIsland/LOFT_Lopsided Safety Tractorbeam",
-				"position": {"x": 0, "y":  2.5164 , "z": 0},
-				"isRelativeToParent": true
-			},
-
-
 
 
 			{
