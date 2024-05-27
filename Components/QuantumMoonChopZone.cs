@@ -14,6 +14,7 @@ namespace Stowaway.Components
 		private bool _isLocked;
 
 		public const float qmChopRadius = 73;
+		public const float gdOceanRadius = 500;
 
 		public float _lastRadius = 0;
 		public float _currentRadius = 0;
@@ -39,7 +40,7 @@ namespace Stowaway.Components
 			var planet = this.GetAttachedOWRigidbody().GetPosition();
 			var quantumMoon = Locator.GetQuantumMoon().GetAttachedOWRigidbody().GetPosition();
 			var direction = (quantumMoon - planet).normalized;
-			return (planet + (500 * direction));
+			return (planet + (gdOceanRadius * direction));
 		}
 
 		public void Update()
