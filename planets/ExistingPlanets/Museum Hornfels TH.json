@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 
 	"name": "TimberHearth",
 	"removeChildren":
@@ -131,7 +131,7 @@
 			{
 				"rename": "Cassava moon text",
 				"position": {"x": -132.1473,"y": -3.1406,"z": -136.9635},
-				"rotation": {"x":274.262,"y": 167.975,"z": 237.4375},
+				"rotation": {"x":274.262,"y": 167.975,"z": 243.7307},
 				"type": "wall",
 				"seed":5,
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/Cassava moon.xml"
@@ -160,18 +160,19 @@
 			{
 				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
 				"rename":"Warp receiver GM wisps",
-				"position": {"x":-236.7338,"y": -51.2441,"z": -59.4602},
+				"position": {"x":-236.7338,"y": -51.2441,"z": -59.9893},
 				"rotation": {"x":4.3362,"y": 346.9002,"z": 101.7293},
+				"stretch": {"x":1.2,"y": 1,"z": 1.2},
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"TH warp receiver GM volume",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
-				"position":{"x":-239.0513,"y": -50.4891,"z": -58.8887},
-				"rotation":{"x":347.9222,"y": 343.462,"z": 101.9638},
+				"position":{"x": 0.7242,"y": 1.9136,"z": 1.0672},
+				"rotation":{"x":-0.0002,"y": 16.7662,"z": -0.0001},
 				"stretch": {"x":1,"y": 0.4,"z": 1},
 				"removeChildren": ["ProbeVisuals"],
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Warp receiver GM wisps"
 			},
 			{
@@ -186,18 +187,19 @@
 			{
 				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
 				"rename":"Campsite GM wisps",
-				"position":{"x":-131.8778,"y": -1.3681,"z": -137.1335}, 
+				"position":{"x":-131.9778,"y": -1.3681,"z": -136.9335}, 
 				"rotation":{"x":7.4855,"y": 315.7918,"z": 94.8219},
+				"stretch": {"x":1,"y": 1,"z": 1.3},
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"TH stowaway GM volume",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
-				"position":{"x":-131.8778,"y": -1.3681,"z": -137.1335},
-				"rotation":{"x":7.4855,"y": 315.7918,"z": 94.8219},
-				"stretch": {"x":1.5,"y": 0.3,"z": 1.2},
+				"position":{"x":0,"y": 0.7998,"z": -0.018},
+				"rotation":{"x":356.6906,"y": 6.7522,"z": 0},
+				"stretch": {"x":1.2,"y": 0.3,"z": 1.3},
 				"removeChildren": ["ProbeVisuals"],
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Campsite GM wisps"
 			},
 			{
@@ -337,6 +339,14 @@
 				"isRelativeToParent": true
 			},
 			{
+				"rename":"tablet collider",
+				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"position": {"x": -147.8417, "y": 18.9186, "z": -137.8121},
+				"rotation": {"x": 9.7573, "y": 317.3124 , "z": 72.3915},
+				"stretch": {"x":0.6,"y":2.1,"z": 3},
+				"isRelativeToParent": true
+			},
+			{
 				"rename":"Stowaway flowers",
 				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/DetailPatches_NomaiCrater/NomaiSideCrater Foliage/Foliage_TH_NomaiSideCrater_GrassPatch (1)",
 				"position": {"x": -133.7944, "y": -0.4765 , "z": -135.7544},
@@ -379,6 +389,7 @@
 				"parentPath": "Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
 				"position": {"x":0.0001,"y": 0.6702,"z": -0.007},
 				"rotation": {"x":0,"y": 0,"z": 0},
+				"scale":1.1,
 				"isRelativeToParent": true
 			},
 

@@ -1,5 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 
 	
 
@@ -9,13 +9,36 @@
 	{
 		"details":
 		[
-		
+			{
+				"rename": "workshop tractor switch",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Prefab_NOM_Switch_TractorBeam/",
+				"position": {"x": 17.7607, "y": 43.5467, "z": -20.4575},
+				"rotation": {"x": 0.0294,"y": 316.1533,"z": 359.8962},
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "workshop tractor BEAM",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Tractorbeams/Prefab_NOM_TractorBeam/",
+				"position": {"x": 13.482, "y": 48.335, "z": -21.943},
+				"rotation": {"x": 359.4723,"y": 270.6861,"z": 180.7254},
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"workshop rails upsidedown",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/railing.prefab",
+				"position": {"x": 10.1365, "y": 47.5743, "z": -14.77},
+				"rotation": {"x": 0, "y": 227.2747, "z": 180},
+				"isRelativeToParent": true
+			},
 			{
 				"rename": "Decoy Scroll 2 husk skin",
 				"assetBundle": "planets/bundle/test bundle",
 				"path":"assets/nomai ruins/sandstone scroll.prefab",
 				"position": {"x": 0, "y":0 , "z": 0},
-				"stretch": {"x":1.1,"y": 1.1,"z": 0.99},
+				"stretch": {"x":1.1,"y": 1.1,"z": 0.995},
 				"parentPath": "Sector_StatueIsland/scroll shelves/Decoy Scroll 2/DECOY scroll 2 base/Props_NOM_Scroll/Props_NOM_Scroll_Geo",
 				"isRelativeToParent": true
 			},
@@ -24,7 +47,7 @@
 				"assetBundle": "planets/bundle/test bundle",
 				"path":"assets/nomai ruins/sandstone scroll.prefab",
 				"position": {"x": 0, "y":0 , "z": 0},
-				"stretch": {"x":1.1,"y": 1.1,"z": 0.99},
+				"stretch": {"x":1.1,"y": 1.1,"z": 0.995},
 				"parentPath": "Sector_StatueIsland/scroll shelves/Decoy Scroll 3/DECOY scroll 3 base/Props_NOM_Scroll/Props_NOM_Scroll_Geo",
 				"isRelativeToParent": true
 			}

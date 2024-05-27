@@ -1,4 +1,4 @@
-<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	
 	<![CDATA[<color=orange>Excavation Site</color>]]>
 	<TextBlock>
@@ -10,8 +10,8 @@
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
-		<ParentID>1</ParentID>
 		<LocationB />
+		<ParentID>1</ParentID>
 		<Text>
 		
 		</Text>
@@ -26,32 +26,32 @@
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
-		<ParentID>3</ParentID>
 		<LocationB />
+		<ParentID>3</ParentID>
 		<Text>
 		
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
-		<ParentID>4</ParentID>
 		<LocationA />
+		<ParentID>4</ParentID>
 		<Text>
 		
 		</Text>
 	</TextBlock>
 	<TextBlock>	
 	<ID>6</ID>
-		<ParentID>5</ParentID>
 		<LocationA />
+		<ParentID>5</ParentID>
 		<Text>
 		
 		</Text>
 			</TextBlock>
 				<TextBlock>	
 	<ID>7</ID>
-		<ParentID>6</ParentID>
 		<LocationA />
+		<ParentID>6</ParentID>
 		<Text>
 		
 		</Text>

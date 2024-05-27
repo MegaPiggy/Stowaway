@@ -1,4 +1,4 @@
-<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	
 	<![CDATA[<color=orange>Excavation Site</color>]]>
 		<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: Did Cycad informed you about the issue I needed your help in investigating, before sending you my way?
+		YARROW: Was Cycad able to inform you about the matter I would like you to investigate before sending you my way?
 		</Text>
 	</TextBlock>
 			<TextBlock>
