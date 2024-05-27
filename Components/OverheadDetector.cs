@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NewHorizons.Components;
+using NewHorizons.External.Modules.VariableSize;
 using UnityEngine;
 
 namespace Stowaway.Components
 {
 	public class OverheadDetector : MonoBehaviour
 	{
+		public delegate void OverheadEvent(OWRigidbody bodyOverhead);
+
 		private QuantumOrbit _orbit;
 		private QuantumMoon _quantumMoon;
 		private OWRigidbody _planet, _sun, _moon, _qm;
@@ -20,6 +19,13 @@ namespace Stowaway.Components
 		private float _quantumMoonOverhead;
 		private float _moonOverhead;
 		private float _sunOverhead;
+
+		public event OverheadEvent OnQuantumMoonOverhead;
+		public event OverheadEvent OnMoonOverhead;
+		public event OverheadEvent OnSunOverhead;
+		public event OverheadEvent OnQuantumMoonNoLongerOverhead;
+		public event OverheadEvent OnMoonNoLongerOverhead;
+		public event OverheadEvent OnSunNoLongerOverhead;
 
 		private float getCosTo(OWRigidbody target)
 		{
@@ -34,17 +40,63 @@ namespace Stowaway.Components
 		private void Start()
 		{
 			_planet = GetParentBody();
-			_orbit = _planet.GetComponent<QuantumOrbit>();
-			var moon = _planet.GetComponent<AstroObject>().GetMoon();
+			var planetAstroObject = _planet.GetComponent<AstroObject>();
+			_orbit = GetQuantumOrbit(planetAstroObject);
+			var moon = GetMoon(planetAstroObject);
 			_moon = moon != null ? moon.GetOWRigidbody() : null;
 			_sun = Locator.GetAstroObject(AstroObject.Name.Sun).GetOWRigidbody();
 			_qm = Locator.GetAstroObject(AstroObject.Name.QuantumMoon).GetOWRigidbody();
 			_quantumMoon = _qm.GetComponent<QuantumMoon>();
 		}
 
+		private QuantumOrbit GetQuantumOrbit(AstroObject planet)
+		{
+			switch (planet.GetAstroObjectName())
+			{
+				case AstroObject.Name.TowerTwin:
+				case AstroObject.Name.HourglassTwins:
+					return Locator.GetAstroObject(AstroObject.Name.CaveTwin).GetComponent<QuantumOrbit>();
+				case AstroObject.Name.TimberMoon:
+					return Locator.GetAstroObject(AstroObject.Name.TimberHearth).GetComponent<QuantumOrbit>();
+				case AstroObject.Name.VolcanicMoon:
+					return Locator.GetAstroObject(AstroObject.Name.BrittleHollow).GetComponent<QuantumOrbit>();
+				case AstroObject.Name.ProbeCannon:
+					return Locator.GetAstroObject(AstroObject.Name.GiantsDeep).GetComponent<QuantumOrbit>();
+				default:
+					return _planet.GetComponent<QuantumOrbit>();
+			}
+		}
+
+		private AstroObject GetMoon(AstroObject planet)
+		{
+			switch (planet.GetAstroObjectName())
+			{
+				case AstroObject.Name.CaveTwin:
+					return Locator.GetAstroObject(AstroObject.Name.TowerTwin);
+				case AstroObject.Name.TowerTwin:
+					return Locator.GetAstroObject(AstroObject.Name.CaveTwin);
+				case AstroObject.Name.ProbeCannon:
+					return Locator.GetAstroObject(AstroObject.Name.ProbeCannon);
+				default:
+					return planet.GetMoon();
+			}
+		}
+
 		private OWRigidbody GetParentBody()
 		{
 			var body = this.GetAttachedOWRigidbody();
+			var astroObject = body.GetComponent<AstroObject>();
+			if (astroObject != null)
+			{
+				switch (astroObject.GetAstroObjectName())
+				{
+					case AstroObject.Name.CaveTwin:
+					case AstroObject.Name.TowerTwin:
+						return body;
+					default:
+						break;
+				}
+			}
 			var parentBody = body.GetOrigParentBody();
 			return parentBody != null ? parentBody : body;
 		}
@@ -69,10 +121,12 @@ namespace Stowaway.Components
 			if (!previousQMOverhead && nowQMOverhead)
 			{
 				Stowaway.Write("Quantum moon is overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
+				if (OnQuantumMoonOverhead != null) OnQuantumMoonOverhead(_qm);
 			}
 			else if (previousQMOverhead && !nowQMOverhead)
 			{
 				Stowaway.Write("Quantum moon is no longer overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
+				if (OnQuantumMoonNoLongerOverhead != null) OnQuantumMoonNoLongerOverhead(_qm);
 			}
 
 			var previousMOverhead = IsMoonOverhead();
@@ -81,23 +135,26 @@ namespace Stowaway.Components
 			if (!previousMOverhead && nowMOverhead)
 			{
 				Stowaway.Write(_moon.name.Replace("_Body", "") + " is overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
-				Stowaway.Write("Quantum moon is overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
+				if (OnMoonOverhead != null) OnMoonOverhead(_moon);
 			}
 			else if (previousMOverhead && !nowMOverhead)
 			{
 				Stowaway.Write(_moon.name.Replace("_Body", "") + " is no longer overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
+				if (OnMoonNoLongerOverhead != null) OnMoonNoLongerOverhead(_moon);
 			}
 
-			var previousSOverhead = IsQuantumMoonOverhead();
+			var previousSOverhead = IsSunOverhead();
 			_sunOverhead = smoothstep(0.707f, 0.866f, _angleToSun);
-			var nowSOverhead = IsQuantumMoonOverhead();
+			var nowSOverhead = IsSunOverhead();
 			if (!previousSOverhead && nowSOverhead)
 			{
 				Stowaway.Write("Sun is overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
+				if (OnSunOverhead != null) OnSunOverhead(_sun);
 			}
 			else if (previousSOverhead && !nowSOverhead)
 			{
 				Stowaway.Write("Sun is no longer overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));
+				if (OnSunNoLongerOverhead != null) OnSunNoLongerOverhead(_sun);
 			}
 		}
 
@@ -114,6 +171,36 @@ namespace Stowaway.Components
 		public bool IsSunOverhead()
 		{
 			return _sunOverhead > 0;
+		}
+
+		public float GetQuantumMoonOverheadPercentage()
+		{
+			return _quantumMoonOverhead;
+		}
+
+		public float GetMoonOverheadPercentage()
+		{
+			return _moonOverhead;
+		}
+
+		public float GetSunOverheadPercentage()
+		{
+			return _sunOverhead;
+		}
+
+		public float AngleToQuantumMoon()
+		{
+			return _angleToQuantumMoon;
+		}
+
+		public float AngleToMoon()
+		{
+			return _angleToMoon;
+		}
+
+		public float AngleToSun()
+		{
+			return _angleToSun;
 		}
 	}
 }

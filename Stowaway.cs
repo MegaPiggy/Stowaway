@@ -57,6 +57,10 @@ public class Stowaway : ModBehaviour
 
 	private void BodyLoaded(string body)
 	{
+		if (body == "Ash Twin")
+		{
+			initAshTwin_Late();
+		}
 		if (body == "GiantsDeep")
 		{
 			initGiantsDeep_Late();
@@ -77,6 +81,16 @@ public class Stowaway : ModBehaviour
 		if (body.EndsWith("Island"))
 		{
 			initIsland(SearchUtilities.Find(body + "_Body"));
+		}
+	}
+
+	private void initAshTwin_Late()
+	{
+		var ashTwin = Locator.GetAstroObject(AstroObject.Name.TowerTwin);
+		foreach (var door in ashTwin.GetComponentsInChildren<NomaiMultiPartDoor>(true))
+		{
+			door.gameObject.GetAddComponent<OverheadDetector>();
+			door.gameObject.GetAddComponent<NomaiDoorTugger>();
 		}
 	}
 
@@ -122,7 +136,11 @@ public class Stowaway : ModBehaviour
 
 	private void initGiantsDeep_Late()
 	{
-		Locator.GetAstroObject(AstroObject.Name.GiantsDeep).GetComponent<QuantumOrbit>()._orbitRadius = 2000;
+		var giantsDeep = Locator.GetAstroObject(AstroObject.Name.GiantsDeep);
+		giantsDeep.GetComponent<QuantumOrbit>()._orbitRadius = 2000;
+		var qmChopZone = new GameObject("QuantumMoonChopZone");
+		qmChopZone.transform.SetParent(giantsDeep.GetRootSector().transform, false);
+		qmChopZone.AddComponent<QuantumMoonChopZone>();
 	}
 
 	private void golemConnectionEntered()
