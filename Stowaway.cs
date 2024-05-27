@@ -56,7 +56,6 @@ public class Stowaway : ModBehaviour
 
 	private void BodyLoaded(string body)
 	{
-		var obj = NewHorizonsAPI.GetPlanet(body);
 		if (body == "GiantsDeep")
 		{
 			initGiantsDeep_Late();
@@ -76,7 +75,7 @@ public class Stowaway : ModBehaviour
 		}
 		if (body.EndsWith("Island"))
 		{
-			initIslandCampfires(obj);
+			initIslandCampfires(SearchUtilities.Find(body + "_Body"));
 		}
 	}
 
