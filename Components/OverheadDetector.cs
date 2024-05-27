@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using NewHorizons.Components;
+using NewHorizons.External.Modules.VariableSize;
+using UnityEngine;
 
 namespace Stowaway.Components
 {
@@ -38,12 +40,31 @@ namespace Stowaway.Components
 		private void Start()
 		{
 			_planet = GetParentBody();
-			_orbit = _planet.GetComponent<QuantumOrbit>();
-			var moon = GetMoon(_planet.GetComponent<AstroObject>());
+			var planetAstroObject = _planet.GetComponent<AstroObject>();
+			_orbit = GetQuantumOrbit(planetAstroObject);
+			var moon = GetMoon(planetAstroObject);
 			_moon = moon != null ? moon.GetOWRigidbody() : null;
 			_sun = Locator.GetAstroObject(AstroObject.Name.Sun).GetOWRigidbody();
 			_qm = Locator.GetAstroObject(AstroObject.Name.QuantumMoon).GetOWRigidbody();
 			_quantumMoon = _qm.GetComponent<QuantumMoon>();
+		}
+
+		private QuantumOrbit GetQuantumOrbit(AstroObject planet)
+		{
+			switch (planet.GetAstroObjectName())
+			{
+				case AstroObject.Name.TowerTwin:
+				case AstroObject.Name.HourglassTwins:
+					return Locator.GetAstroObject(AstroObject.Name.CaveTwin).GetComponent<QuantumOrbit>();
+				case AstroObject.Name.TimberMoon:
+					return Locator.GetAstroObject(AstroObject.Name.TimberHearth).GetComponent<QuantumOrbit>();
+				case AstroObject.Name.VolcanicMoon:
+					return Locator.GetAstroObject(AstroObject.Name.BrittleHollow).GetComponent<QuantumOrbit>();
+				case AstroObject.Name.ProbeCannon:
+					return Locator.GetAstroObject(AstroObject.Name.GiantsDeep).GetComponent<QuantumOrbit>();
+				default:
+					return _planet.GetComponent<QuantumOrbit>();
+			}
 		}
 
 		private AstroObject GetMoon(AstroObject planet)
@@ -54,6 +75,8 @@ namespace Stowaway.Components
 					return Locator.GetAstroObject(AstroObject.Name.TowerTwin);
 				case AstroObject.Name.TowerTwin:
 					return Locator.GetAstroObject(AstroObject.Name.CaveTwin);
+				case AstroObject.Name.ProbeCannon:
+					return Locator.GetAstroObject(AstroObject.Name.ProbeCannon);
 				default:
 					return planet.GetMoon();
 			}
@@ -62,6 +85,18 @@ namespace Stowaway.Components
 		private OWRigidbody GetParentBody()
 		{
 			var body = this.GetAttachedOWRigidbody();
+			var astroObject = body.GetComponent<AstroObject>();
+			if (astroObject != null)
+			{
+				switch (astroObject.GetAstroObjectName())
+				{
+					case AstroObject.Name.CaveTwin:
+					case AstroObject.Name.TowerTwin:
+						return body;
+					default:
+						break;
+				}
+			}
 			var parentBody = body.GetOrigParentBody();
 			return parentBody != null ? parentBody : body;
 		}
@@ -108,9 +143,9 @@ namespace Stowaway.Components
 				if (OnMoonNoLongerOverhead != null) OnMoonNoLongerOverhead(_moon);
 			}
 
-			var previousSOverhead = IsQuantumMoonOverhead();
+			var previousSOverhead = IsSunOverhead();
 			_sunOverhead = smoothstep(0.707f, 0.866f, _angleToSun);
-			var nowSOverhead = IsQuantumMoonOverhead();
+			var nowSOverhead = IsSunOverhead();
 			if (!previousSOverhead && nowSOverhead)
 			{
 				Stowaway.Write("Sun is overhead " + gameObject.name.Replace("_Body", "") + " on " + _planet.name.Replace("_Body", ""));

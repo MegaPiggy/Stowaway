@@ -57,6 +57,10 @@ public class Stowaway : ModBehaviour
 
 	private void BodyLoaded(string body)
 	{
+		if (body == "Ash Twin")
+		{
+			initAshTwin_Late();
+		}
 		if (body == "GiantsDeep")
 		{
 			initGiantsDeep_Late();
@@ -77,6 +81,16 @@ public class Stowaway : ModBehaviour
 		if (body.EndsWith("Island"))
 		{
 			initIsland(SearchUtilities.Find(body + "_Body"));
+		}
+	}
+
+	private void initAshTwin_Late()
+	{
+		var ashTwin = Locator.GetAstroObject(AstroObject.Name.TowerTwin);
+		foreach (var door in ashTwin.GetComponentsInChildren<NomaiMultiPartDoor>(true))
+		{
+			door.gameObject.GetAddComponent<OverheadDetector>();
+			door.gameObject.GetAddComponent<NomaiDoorTugger>().canOpenAndClose = true;
 		}
 	}
 
