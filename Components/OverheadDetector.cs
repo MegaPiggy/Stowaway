@@ -213,5 +213,23 @@ namespace Stowaway.Components
 		{
 			return _angleToSun;
 		}
+
+		public void SetQuantumMoonClamps(float lowest, float highest)
+		{
+			_qmLowestPercentage = lowest;
+			_qmHighestPercentage = highest;
+		}
+
+		public void SetMoonClamps(float lowest, float highest)
+		{
+			_moonLowestPercentage = lowest;
+			_moonHighestPercentage = highest;
+		}
+
+		public void SetSunClamps(float lowest, float highest)
+		{
+			_sunLowestPercentage = lowest;
+			_sunHighestPercentage = highest;
+		}
 	}
 }
