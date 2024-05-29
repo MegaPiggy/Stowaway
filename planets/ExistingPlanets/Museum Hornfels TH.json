@@ -9,46 +9,15 @@
 			"Sector_TH/Sector_Village/Sector_UpperVillage/Effects_UpperVillage/Effects_GM_AuroraWisps",
 			"Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
 
-			"Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_NOM_Tablet (2)/Mural_NomaiSequoia"
+			"Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_NOM_Tablet (2)/Mural_NomaiSequoia",
+			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume",
+			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (1)",
+			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
+			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (3)"
 		],
 		
 
-		"Volumes": {
-			"hazardVolumes": [
-				{
-					"type": "ghostMatter",
-					"damagePerSecond": 50,
-					"parentPath": "Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
-					"radius": 5.4
-				}
-			],
-			"revealVolumes": [
-				{
-					"reveals": ["Mural 2"],
-					"radius":5,
-					"revealOn": "enter",
-					"position": {"x":-98.0147,"y": 143.1481,"z": -131.2448},
-					"isRelativeToParent": true,
-					"maxDistance": 5
-				},
-				{
-					"reveals": ["Mural 3"],
-					"radius":5,
-					"revealOn": "observe",
-					"position": {"x":-90.8285,"y": 148.3219,"z": -134.2763},
-					"isRelativeToParent": true,
-					"maxDistance": 5
-				},
-				{
-					"reveals": ["Mural 4", "DSS Mural"],
-					"radius":5,
-					"revealOn": "observe",
-					"position": {"x":-84.4095,"y": 149.7243,"z": -134.419},
-					"isRelativeToParent": true,
-					"maxDistance": 3
-				}
-			]
-		},
+		
 		
 	"Props" :
 	{
@@ -158,6 +127,47 @@
 		
 		"details": [
 			{
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+				"rename":"Forest GM 1",
+				"position": {"x":-93.1474,"y": 21.051,"z": -151.9439},
+				"rotation": {"x":352.213,"y": 301.6558,"z": 81.0461},
+				"scale":2,
+				"removeChildren": ["ProbeVisuals"],
+				"isRelativeToParent": true
+			},
+			{
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+				"rename":"Forest GM 2",
+				"position": {"x":-116.1311,"y": -67.3196,"z": -186.7629},
+				"rotation": {"x":301.5709,"y": 254.7018,"z": 137.5844},
+				"scale":1.5,
+				"removeChildren": ["ProbeVisuals"],
+				"isRelativeToParent": true
+			},
+
+			{
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"rename":"Forest GM wisps 1",
+				"position": {"x":-93.972,"y": 20.8087,"z": -152.1071},
+				"rotation": {"x":48.1288,"y": 294.7789,"z": 80.7419},
+				"scale":1.5,
+				"parentPath": "Sector_TH/Forest GM 1",
+				"isRelativeToParent": false
+			},
+			{
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"rename":"Forest GM wisps 1",
+				"position": {"x":-117.0639,"y": -66.4285,"z": -186.5172},
+				"rotation": {"x":332.7987,"y": 293.2651,"z": 109.1676},
+				"scale":1.2,
+				"parentPath": "Sector_TH/Forest GM 2",
+				"isRelativeToParent": false
+			},
+
+
+
+
+			{
 				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
 				"rename":"Warp receiver GM wisps",
 				"position": {"x":-236.7338,"y": -51.2441,"z": -59.9893},
@@ -203,7 +213,7 @@
 				"parentPath": "Sector_TH/Campsite GM wisps"
 			},
 			{
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume/NotificationVolume",
 				"rename":"Campsite GM notification",
 				"position":{"x":-131.8778,"y": -1.3681,"z": -137.1335},
 				"rotation":{"x":7.4855,"y": 315.7918,"z": 94.8219},

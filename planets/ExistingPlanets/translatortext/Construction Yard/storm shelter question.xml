@@ -12,7 +12,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: It would not have been possible without Kousa's new storm shelters keeping us safe from the cyclones - nor the hospitality of the Nomai welcoming me to this planet, Thatch!
+		CASSAVA: It would not have been possible without both your hospitality, and Kousa's new storm shelters keeping us safe from the cyclones, Thatch!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -28,7 +28,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		CASSAVA: Have you noticed the storm shelters sometimes.. activating by themselves - even in the absence of any cyclones?
+		CASSAVA: Have you noticed the storm shelters sometimes.. activating by themselves; even in the absence of any cyclones?
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -36,7 +36,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		THATCH: Oh, so my eyes weren't mistaken! I believe I have noticed this occurence on occasion as well..
+		THATCH: Oh, I believe I have noticed this occurence on occasion as well! I'd thought my eyes had simply been mistaken.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -44,7 +44,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		THATCH: Sadly, I do not have an answer as to what could be causing this strange quirk of the storm shelters. It was not long ago we were all completely insulated from cyclones in the <![CDATA[<color=orange>Looming City,</color>]]> you see.
+		THATCH: Shamefully, I do not know enough about the storm shelters to tell if this might be a malfunction. It was not long ago we were all completely insulated from cyclones in the <![CDATA[<color=orange>Looming City,</color>]]> you see.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -52,7 +52,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		THATCH: Perhaps a visit to the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> equator will shine some light on this issue. I am sure Kousa would only be happy to improve his invention!
+		THATCH: Perhaps a visit to the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> equator will shed some light on this issue. I am sure Kousa would only be happy to improve his invention!
 		</Text>
 	</TextBlock>
 

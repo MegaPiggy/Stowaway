@@ -100,7 +100,7 @@
 		{
 			"rename":"doorstopper",
 			"type": "whiteboard",
-			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/crystal workshop trailhead.xml",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/crystal workshop stormshelter.xml",
 				"seed":0,
 			"position": {"x": 26.34379, "y": -47.88493, "z": 183.1824},
 			"rotation": {"x": 302.5385, "y": 299.8626, "z": 244.6711}
@@ -109,7 +109,7 @@
 		
 		{
 			"rename": "uhhh mural text",
-			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/crystal workshop trailhead.xml",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/crystal workshop stormshelter.xml",
 			"seed":1,
 			"position": {"x":24.3426, "y": -45.7584,"z": 183.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},

@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: It has been some time. Though my grief barely wanes, I have decided to learn what I can about the deadly matter in the time I have left.
+		CASSAVA: I was able to complete the expedition that Poke, Pye and Clary gave their lives to.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-			CASSAVA: I was able to complete the expedition that Poke, Pye and Clary gave their lives to.
+			CASSAVA: My suspicions were confirmed by their findings... Yet, more questions have been raised than answered.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: My sinking suspicions were confirmed by their findings... Yet, more questions have been raised than answered.
+			CASSAVA: Was this matter artificially created? How did it maintain such incredible pressures within itself for so long? Was it truly simple coincidence that brought it to this star system?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-			CASSAVA: Was this matter artificially created, or natural in its origin? How did the incredible pressures that kept its contained remain stable? Was it simple coincidence that brought it to this star system?
+			CASSAVA: To produce such pressure, artificial gravity could theoretically produce and maintain an inward force strong enough to create a consistent source of pressure...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-			CASSAVA: To produce such pressure, artificial gravity could theoretically produce and maintain an inward force strong enough to create a consistent source of pressure...
+			CASSAVA: Suppose one were to craft a vessel composed of gravity crystals pointing towards a central point. Such a vessel could be capable of capturing the deadly matter again, and perhaps return it to its source...
 		</Text>
 	</TextBlock>
 <TextBlock>	
@@ -45,7 +45,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-			CASSAVA: Suppose one were to craft a vessel composed of gravity crystals pointing towards a central point. Such a vessel could be capable of capturing the deadly matter again, and perhaps return it to its source...
+			CASSAVA: All of a sudden, I feel exceedingly... inspired.
 		</Text>
 			</TextBlock>
 <TextBlock>	

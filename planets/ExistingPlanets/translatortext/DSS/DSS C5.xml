@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		Solution 1: Contain the Inspired and the deadly matter within Dark Bramble
+		Solution 1: Contain the <![CDATA[<color=orange>Inspired</color>]]> and the deadly matter within Dark Bramble
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: This will without question, exterminate the anglerfish, as well as any undiscovered species dwelling within the bramble, should any even have survived the initial impact of the comet's arrival...
+		CASSAVA: This will without question, exterminate the anglerfish, as well as any undiscovered species dwelling within the bramble - should any even have survived the comet's arrival...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-			CASSAVA: Additionally, the bramble produces seeds that connect back to the Dark Bramble's spaces.. Ghost matter could leak out of the bramble back into the star system through these seeds... The sacrifice would not be worth it.
+			CASSAVA: Additionally, the bramble produces seeds that connect back to its interior. Ghost matter could easily leak back into the star system through these seeds..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-			CASSAVA: This would be too dangerous. The pressures within Inspired will be too unstable at such close distance to the sun, and could cause even more devastating destruction...
+			CASSAVA: This would be too dangerous. The pressures within Inspired will be too unstable at such close distance to the sun, and could cause far more devastating destruction...
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-			Solution 3: Compact all matter within the Inspired, and attempt to determine a safe launch trajectory into deep space
+			Solution 3: Compact all matter within the Inspired, and launch it towards the source of the comet
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -61,7 +61,7 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-			CASSAVA: No, it would be unacceptably irresponsible to thrust this burden onto any neighboring star system the Inspired's flight will inevitably be drawn towards..
+			CASSAVA: There isn't enough time to refine any calculations to this theoretical source. The slightest error could destroy any neighboring star system and any possible life on them..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -69,7 +69,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-			Solution 4: Contain the deadly matter <![CDATA[<color=orange>within the Deep Storm Station</color>]]> using the paired warp cores
+			Solution 4: Replace the Inspired's core with a black hole warp core, and warp all matter to its sibling core within the <![CDATA[<color=orange>Deep Storm Station</color>]]> for containment
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -85,7 +85,7 @@
 		<LocationA />
 		<ParentID>10</ParentID>
 		<Text>
-			CASSAVA: This is the safest and surest method of long-term containment, with the least potential for collective harm. Though I may perish, that is a price I will gladly pay if it means the survival of these species.
+			CASSAVA: This is the safest and surest method of long-term containment, with the least potential for collective harm.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -93,7 +93,7 @@
 		<LocationA />
 		<ParentID>11</ParentID>
 		<Text>
-		CASSAVA: Our journey may have reached its end... But I can still pave the road for theirs!
+		CASSAVA: Our journey may have reached its end... But if it means the survival of these species.. I will gladly give my life to pave the road for theirs.
 		</Text>
 	</TextBlock>
 

@@ -24,23 +24,18 @@
 			"isRelativeToParent": true
 		}
 		],
+		"rulesets": {
+			"probeRulesets": [
+				{
+					"overrideProbeSpeed": true,
+			"probeSpeed": 60,
+			"radius": 15,
+			"position": {"x":6.2293,"y": 36.2369,"z": -19.5969},
+			"isRelativeToParent": true}
+			]}
+		
 
-		"rulesets": {"thrustRulesets": [
-			{
-				"nerfJetpackBooster": true,
-				"radius": 12,
-				"position": {"x":6.2293,"y": 36.2369,"z": -19.5969},
-				"isRelativeToParent": true
-			}
-		],
-		"probeRulesets": [
-			{
-				"overrideProbeSpeed": true,
-		"probeSpeed": 30,
-		"radius": 15,
-		"position": {"x":6.2293,"y": 36.2369,"z": -19.5969},
-		"isRelativeToParent": true}
-		]}
+	
 	},
 	"Props":{
 
@@ -97,12 +92,14 @@
 			},
 			{
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Shelf (2)/Strucutre_NOM_Shelf",
-				"position": {"x": 0.6745, "y":-9.4345, "z": 0.3673},
-				"rotation": {"x": 338.0253, "y":0.3361, "z": 94.9343},
+				"rename":"lying shelf",
+				"position": {"x": 0.5745, "y":-9.4345, "z": -0.3327},
+				"rotation": {"x": 350.1011, "y":4.2318, "z": 93.5654},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_StatueIsland/scroll shelves"
 			},
 			{
+				"rename":"top shelf",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Shelf (2)/Strucutre_NOM_Shelf",
 				"position": {"x": 3.5327, "y":-8.5873, "z": 7.7773},
 				"rotation": {"x": 0, "y":270.0911, "z": 177.4504},
@@ -113,8 +110,8 @@
 			{
 				"rename": "Decoy Scroll 2",
 				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Lighting_StatueIslandInterior/OtherComponentsGroup/FillLight_Text",
-				"position": {"x": 0.7818, "y": -6.3218, "z": -0.4982},
-				"rotation": {"x": 7.273, "y":28.7693, "z": 0},
+				"position": {"x": 0.6763, "y": -5.9309, "z": -0.7237},
+				"rotation": {"x": 299.8098, "y":63.9048, "z": 358.6066},
 				"parentPath": "Sector_StatueIsland/scroll shelves",
 				"isRelativeToParent": true
 			},
@@ -376,8 +373,9 @@
 				"rename":"workshop rails 1",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/railing.prefab",
-				"position": {"x": 10.1365, "y": 43.6852, "z": -14.77},
+				"position": {"x": 10.0365, "y": 43.7852, "z": -15.17},
 				"rotation": {"x": 0, "y": 47.2745, "z": 0},
+				"stretch": {"x":1.1,"y":1.2,"z":1},
 				"isRelativeToParent": true
 			},
 			{
@@ -719,49 +717,6 @@
 				"position":{"x":12.1571,"y": 32.5193,"z": -18.8395},
 				"rotation":{"x":12.3186,"y": 309.4892,"z": 28.6877},
 				"isRelativeToParent": true
-			},
-			{
-				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
-				"position":{"x":10.6874,"y": 32.1354,"z": -18.8477},
-				"rotation":{"x":32.4834,"y": 330.326,"z": 35.3357},
-				"isRelativeToParent": true
-			},
-			{
-				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
-				"position":{"x":11.5404,"y": 33.7201,"z": -20.9517},
-				"rotation":{"x":352.3152,"y": 313.5378,"z": 270.1862},
-				"isRelativeToParent": true
-			},
-			{
-				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
-				"position":{"x":13.9214,"y": 32.7142,"z": -21.3623},
-				"rotation":{"x":11.9544,"y": 302.988,"z": 0.1271},
-				"isRelativeToParent": true
-				
-			},
-			{
-				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
-				"position":{"x":8.6637,"y": 32.5465,"z": -17.1506},
-				"rotation":{"x":358.1495,"y": 259.6323,"z": 6.0643},
-				"isRelativeToParent": true
-			},
-			{
-				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
-				"position":{"x":7.6827,"y": 32.5085,"z": -18.8872},
-				"rotation":{"x":358.3714,"y": 299.148,"z": 0.9899},
-				"isRelativeToParent": true
-			},
-			{
-				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
-				"position":{"x":16.1719,"y": 34.116,"z": -21.3726},
-				"rotation":{"x":355.0112,"y": 223.994,"z": 270.4568},
-				"isRelativeToParent": true
-			},
-			{
-				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (2)",
-				"position":{"x":12.5622,"y": 33.3221,"z": -16.2647},
-				"rotation":{"x":29.49,"y": 299.8339,"z": 65.7148},
-				"isRelativeToParent": true
 			}
 
 			
@@ -791,8 +746,8 @@
 				{
 					
 					"rename": "Scroll Workshop pool",
-					"position": {"x": 16.9054, "y": 43.8024, "z": -15.8024},
-					"rotation": {"x": 359.9524, "y": 47.5331,"z": 359.9003},
+					"position": {"x": 16.7327, "y": 43.8024, "z": -15.8024},
+					"rotation": {"x": 359.9524, "y": 48.1331,"z": 359.9003},
 					"isRelativeToParent": true
 				}
 			},

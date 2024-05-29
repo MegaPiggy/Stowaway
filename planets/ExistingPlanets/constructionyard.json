@@ -68,7 +68,142 @@
 		],
 		"details":
 		[
-		
+			{
+				"rename":"Stowaway Water GM volume 1",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position":{"x": 29.506,"y": 2.1674,"z": -38.7267},
+				"rotation":{"x": 3.8578, "y": 177.1242,"z": 1.7233},
+				"stretch": {"x":0.8,"y": 0.4,"z": 2.3},
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"Stowaway Water GM volume 2",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position":{"x": 26.0732,"y": 2.2238,"z": -39.1667},
+				"rotation":{"x": 3.8578, "y": 177.1242,"z": 1.7233},
+				"stretch": {"x":0.8,"y": 0.4,"z": 1.1},
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"stowaway wisps 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 27.3763 ,"y": 1.6454,"z": -38.832},
+				"rotation":{"x": 0.1395 , "y": 265.8638,"z": 1.929},
+				"stretch": {"x":1,"y": 0.8,"z": 1},
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 1",
+				"isRelativeToParent": false
+			},
+			{
+				"rename":"stowaway wisps 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 29.2874,"y": 1.1525,"z": -39.1637},
+				"rotation":{"x": 0.1608 , "y": 265.2335,"z": 1.9273},
+				"stretch": {"x":2,"y": 1,"z": 0.9},
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 2",
+				"isRelativeToParent": false
+			},
+			{
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
+				"rename":"CYard warp pad GM notification",
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 2",
+				"scale":2,
+				"isRelativeToParent": true
+			},
+
+
+
+
+			{
+				"rename":"DSS GM volume warp pad 1",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position":{"x": 1.5861,"y": 32.7446,"z": -32.2592},
+				"rotation":{"x": 3.6693, "y": 89.1852,"z": 179.8149},
+				"stretch": {"x":1.6,"y": 0.5,"z": 1.3},
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"DSS GM volume warp pad 2",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position":{"x": 1.5861,"y": 32.7446,"z": -32.2592},
+				"rotation":{"x": 3.6693, "y": 89.1852,"z": 179.8149},
+				"stretch": {"x":1.6,"y": 0.5,"z": 1.3},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/DSS GM volume warp pad 1",
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"DSS wisps warp pad",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 1.8717,"y": 35.0548,"z": -32.3837},
+				"rotation":{"x": 4.0592, "y": 87.8407,"z": 179.4551},
+				"stretch": {"x":1.2,"y": 1.5,"z": 1.2},
+				"parentPath": "Sector_ConstructionYard/DSS GM volume warp pad 1",
+				"isRelativeToParent": false
+			},
+			{
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
+				"rename":"CYard warp pad GM notification",
+				"parentPath": "Sector_ConstructionYard/DSS GM volume warp pad 1",
+				"scale":1.5,
+				"isRelativeToParent": true
+			},
+
+
+
+			{
+				"rename":"Schematic GM volume left",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position":{"x": 17.9868,"y": 26.4906,"z": -38.9725},
+				"rotation":{"x": 320.0278, "y": 268.1888,"z": 182.1174},
+				"stretch": {"x":1,"y": 0.5,"z": 1},
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"Schematic GM volume right",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position":{"x": 17.9868,"y": 26.4906,"z": -51.1924},
+				"rotation":{"x": 320.0278, "y": 268.1888,"z": 182.1174},
+				"stretch": {"x":1,"y": 0.5,"z": 1},
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"Schematic wisp left",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 18.9074,"y": 27.2034,"z": -38.8021},
+				"rotation":{"x": 37.446, "y": 116.5779 ,"z": 196.9185},
+				"parentPath": "Sector_ConstructionYard/Schematic GM volume left",
+				"isRelativeToParent": false
+			},
+			{
+				"rename":"Schematic wisp right",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 18.471,"y": 27.6201,"z": -50.493},
+				"rotation":{"x": 37.446, "y": 116.5779 ,"z": 196.9185},
+				"parentPath": "Sector_ConstructionYard/Schematic GM volume right",
+				"isRelativeToParent": false
+			},
+
+			{
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
+				"rename":"CYard warp pad GM notification",
+				"parentPath": "Sector_ConstructionYard/Schematic GM volume left",
+				"scale":1,
+				"isRelativeToParent": true
+			},
+			{
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
+				"rename":"CYard warp pad GM notification",
+				"parentPath": "Sector_ConstructionYard/Schematic GM volume right",
+				"scale":1.5,
+				"isRelativeToParent": true
+			},
+
+
 		{
 			"rename":"Stowaway Cyard whiteboard",
 			"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",

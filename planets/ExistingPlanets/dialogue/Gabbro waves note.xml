@@ -1,0 +1,21 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>RECORDING</NameField>
+
+<DialogueNode>
+    <Name>GabbrosNote2</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Maaan. I'm all outta firewood now.</Page>
+      <Page>Guess that's all the islands getting on the Gabbro Relaxation Scale this trip.</Page>
+      <Page>But hey - looks like this second campfire's already faring much better than the first one I built down there!</Page>
+      <Page>Should be safe up here from any more random waves washing up onto the shore and putting out my poor campfire, at least.</Page>
+       <Page>That was a pretty horrible experience - closing my eyes around a warm campfire, and waking up cold and soaking wet..</Page>
+      <Page>Well, colder and wetter than I already was.</Page>
+       <Page>I should probably just count my lucky stars that I woke up before those waves carried me off the island with them..</Page>
+       <Page>Stars above.. You sure know how to make sleeping hard, huh, Giant's Deep?</Page>
+       <Page><![CDATA[<i>No wonder</i>]]> Hornfels suggested I should come to this planet!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

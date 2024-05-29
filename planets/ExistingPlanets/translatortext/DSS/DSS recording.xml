@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: I believe I have drawn as much of the deadly matter from the planet's surface onto the Inspired as I am able. Concentrations have now reached an undetectable level on much of the planet.
+		CASSAVA: I believe I have drawn as much of the deadly matter from the star system onto the Inspired as I am safely able to.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,47 +21,16 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: After careful calculation and execution of an additional orbit of the Inspired across the star system, I believe I have also siphoned as much of the remaining stagnant deadly matter as I am safely able to.
+		CASSAVA: The remaining matter should be drawn towards the sun's great gravitational mass, or 
 		</Text>
 	</TextBlock>
-	<TextBlock>
-		<ID>4</ID>
-		<ParentID>3</ParentID>
-		<LocationA />
-		<Text>
-		CASSAVA: However, narrow spaces and caverns deep underground remain beyond the reach of the Inspired's gravitational influence.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>5</ID>
-		<ParentID>4</ParentID>
-		<LocationA />
-		<Text>
-		CASSAVA: In particular, <![CDATA[<color=orange>mining site 2b on Timber Hearth</color>]]>  remains dangerously irradiated, and still poses a great threat to the native species.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>6</ID>
-		<ParentID>5</ParentID>
-		<LocationA />
-		<Text>
-		CASSAVA: To protect the native species from the danger of their own curiosity, I have therefore used a <![CDATA[<color=orange>scroll to seal the locking mechanism of the entrance</color>]]> into the mines.
-		</Text>
-	</TextBlock>
-		<TextBlock>
-		<ID>7</ID>
-		<ParentID>6</ParentID>
-		<LocationA />
-		<Text>
-		CASSAVA: Though rudimentary, I pray it will hold and serve its purpose to contain the matter within, until its danger is tempered by time.
-		</Text>
-	</TextBlock>
+
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: My dearest hope is that the native species of this star system will live on to explore and learn more from the universe.
+		CASSAVA: My dearest hope is that these species will live on to explore and learn more from the universe.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -69,7 +38,7 @@
 		<ParentID>8</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Now, there is only the remaining task of containing the deadly matter.
+		CASSAVA: I only wish I could live to see their
 		</Text>
 	</TextBlock>
 	<TextBlock>

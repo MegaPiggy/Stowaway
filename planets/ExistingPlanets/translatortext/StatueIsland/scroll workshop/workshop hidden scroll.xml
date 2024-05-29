@@ -19,31 +19,31 @@
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<ParentID>2</ParentID>
+		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
 		DAZ: You see, conversations shared across projection stones are recorded into the projection walls they are written on, not the projection stones themselves.
 		</Text>
 	</TextBlock>
 		<TextBlock>
-		<ID>3</ID>
-		<ParentID>2</ParentID>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
 		DAZ: A single projection stone only grants access to any conversation with its connected wall; Think of each projection stone as a unique key, and the projection walls you slot them into as locks for each key.
 		</Text>
 	</TextBlock>
 		<TextBlock>
-		<ID>4</ID>
-		<ParentID>2</ParentID>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
 		<LocationB />
 		<Text>
 		DAZ: To give an example, you could only see this conversation by using a projection stone to ___ in my workshop's projection wall - or a projection stone to my workshop in yours, and no others!
 		</Text>
 	</TextBlock>
 	<TextBlock>
-		<ID>5</ID>
-		<ParentID>4</ParentID>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
 		<LocationB />
 		<Text>
 		DAZ: Goodness, that makes so much more sense now... No wonder I could never seem to find my conversations on a different wall I'd written it on! Thank you, Daz.

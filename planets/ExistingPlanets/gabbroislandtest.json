@@ -9,8 +9,9 @@
 				"Sector_GabbroIsland/DetailPatches_GabbroIsland/Foliage_GabbroIsland/Foliage_GD_Low (31)",
 
 				"Sector_GabbroIsland/Marriage Torch/PointLight_WallTorch",
-				"Sector_GabbroIsland/Interactables_GabbroIsland/Traveller_HEA_Gabbro/ConversationZone_Gabbro",
-				"Sector_GabbroIsland/BASE_LARGE Projection Whiteboard/PedestalAnchor"
+				"Sector_GabbroIsland/BASE_LARGE Projection Whiteboard/PedestalAnchor",
+
+				"Sector_GabbroIsland/Interactables_GabbroIsland/DarkMatter_Submergible"
 			],
 	"Volumes": {
 		
@@ -59,33 +60,102 @@
 		"dialogue":
 		[
 		{
-			
-			"rename":"ConversationZone_GabbrosGame",
-			"position": {"x": -15.68549, "y": -0.4640911, "z": 48.09547},
-			"pathToAnimController": "Sector_GabbroIsland/Interactables_GabbroIsland/Traveller_HEA_Gabbro",
-			"xmlFile": "planets/ExistingPlanets/dialogue/GabbroWantsToPlay.xml",
-			"radius": 2,
-			"range": 2,
-			"flashlightToggle": "turnOffThenOn"
+			"pathToExistingDialogue": "Sector_GabbroIsland/Interactables_GabbroIsland/Traveller_HEA_Gabbro/ConversationZone_Gabbro",
+			"xmlFile": "planets/ExistingPlanets/dialogue/Gabbro new dialogue.xml"
 		},
 			{
-				"rename": "Gabbro_Camp Note DIALOGUE",
-				"position":{"x":37.4441 ,"y": 18.8848,"z": 4.1305},
+				"rename": "Gabbro fire recording DIALOGUE",
 				"isRelativeToParent": true,
 				"radius": 0.5,
 				"range":3,
-				"xmlFile": "planets/ExistingPlanets/dialogue/Notes/Gabbro NewCamp Note.xml",
+				"xmlFile": "planets/ExistingPlanets/dialogue/Gabbro waves note.xml",
+				"pathToAnimController": "Sector_GabbroIsland/Gabbro drownfire recording",
 				"flashlightToggle": "turnOffThenOn"
 			}
 		],
 		"details": [	
 			{
-				"rename":"splishy splashy campfire",
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Interactables_SouthPole/SouthPole_VisibleFromFar/Prefab_HEA_Campfire",
-				"position": {"x": 17.3871, "y": 2.2547, "z": 0.4603},
-				"rotation": {"x": 357.7867, "y": 282.7498, "z": 359.5206},
+				"rename":"Gabbro drownfire recording",
+				"path":"Moon_Body/Sector_THM/Interactables_THM/Interactibles_SignalDish/Prefab_HEA_Recorder",
+				"position": {"x": 41.3218, "y": 18.3123, "z": 5.2075},
+				"rotation": {"x": 4.3443, "y": 88.1643, "z": 3.7237},
 				"isRelativeToParent": true
 			},
+			{
+				"rename":"ledgegate GM volume",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+				"position":{"x": -30.9492 ,"y": 11.9446,"z": 4.1087},
+				"rotation":{"x": 353.4803, "y": 158.5184,"z": 7.4884},
+				"scale":1.3,
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"ledgegate GM WISPS",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": -30.6719,"y": 11.0758,"z": 3.6922},
+				"rotation":{"x": 354.2083, "y": 155.8053,"z": 8.3745},
+				"scale":1.2,
+				"parentPath": "Sector_GabbroIsland/ledgegate GM volume",
+				"isRelativeToParent": false
+			},
+
+
+
+			{
+				"rename":"cove GM volume otherend",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+				"position":{"x": 21.2969 ,"y": 2.1759,"z": 15.073},
+				"rotation":{"x": 358.6797, "y": 195.882,"z": 2.0656},
+				"scale":1.6,
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"cove GM volume gabbroend",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+				"position":{"x": 0.1422 ,"y": 0.7268,"z": 35.5712},
+				"rotation":{"x": 358.6797, "y": 195.882,"z": 2.0656},
+				"scale":1.3,
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"otherend WISPS",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 19.8635,"y": 0.7712,"z": 14.1688},
+				"rotation":{"x": 353.7679, "y": 194.1253,"z": 0.5927},
+				"scale":1.5,
+				"parentPath": "Sector_GabbroIsland/cove GM volume otherend",
+				"isRelativeToParent": false
+			},
+			{
+				"rename":"gabbroend WISPS",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": -0.9338,"y": 0.4519,"z": 36.7664},
+				"rotation":{"x": 357.8496, "y": 134.8122,"z": 1.6002},
+				"scale":1.1,
+				"parentPath": "Sector_GabbroIsland/cove GM volume gabbroend",
+				"isRelativeToParent": false
+			},
+
+
+
+
+			{
+				"rename":"splishy splashy campfire",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Interactables_SouthPole/SouthPole_VisibleFromFar/Prefab_HEA_Campfire",
+				"position": {"x": 13.0728, "y": 2.3686, "z": 4.3369},
+				"rotation": {"x": 1.4245, "y": 100.4732, "z": 0.7331},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"low fire lamp",
+				"path":"TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Lighting_ImpactCrater/Props_HEA_Lantern",
+				"position":{"x": 11.8438,"y":2.3831,"z": 6.1416},
+				"rotation":{"x": 358.5131,"y": 237.3703,"z": 0.1296}
+			},
+
 			{
 				"rename":"Gabbro highcove gravitycrystal",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal",
@@ -114,6 +184,13 @@
 				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_HGT/Props_Tower_HGT/Prefab_NOM_BoxBroken",
 				"position": {"x": -30.9972, "y": 11.8736, "z": 5.1012},
 				"rotation": {"x": 350.5819, "y": 193.4996, "z": 3.8904},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"highcove gm0",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x":-23.3594,"y": 7.5277,"z": -1.2657},
+				"rotation":{"x": 29.8361,"y": 13.2709,"z": 279.7133},
 				"isRelativeToParent": true
 			},
 			{
@@ -310,11 +387,12 @@
 
 
 		{
-			"rename":"OPC stone ledge lamp",
+			"rename":"high ledge lamp",
 			"path":"TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Lighting_ImpactCrater/Props_HEA_Lantern",
 			"position":{"x":-22.7498,"y":10.0489,"z": 16.5378},
 			"rotation":{"x":359.2572,"y": 126.5675,"z": 6.9586}
 		},
+	
 		{
 			"rename": "hideandseek stone collider",
 			"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",

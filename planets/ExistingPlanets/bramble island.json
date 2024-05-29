@@ -27,7 +27,8 @@
 				"pathToAnimController": "Sector_BrambleIsland/hammock/Gabbro_Hammock02:Controller_Squash/Gabbro recording",
 				"isRelativeToParent": true,
 				"radius": 0.5,
-				"range":3
+				"range":3,
+				"flashlightToggle": "turnOffThenOn"
 			}
 		],
 		"details": [

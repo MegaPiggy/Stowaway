@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: The <![CDATA[<color=orange>Inspired project</color>]]> is complete, and I believe I have calculated a source of the calamity by carefully retracing the trajectory of the comet's orbit.
+		CASSAVA: The construction of the <![CDATA[<color=orange>Inspired</color>]]> is complete, and I believe I have calculated a source of the calamity by carefully retracing the trajectory of the comet's orbit.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-			CASSAVA: I wish to avenge my departed friends and the many lost lives of the star system, but... I.. I feel hesitant.
+			CASSAVA: I wish to avenge my clan terribly, but... I.. I feel hesitant.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,16 +21,16 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-			CASSAVA: What if my calculations are incorrect? I may bring destruction to completely innocent star systems full of life, and I still cannot be sure if the comet even came from an artificial source.. 
+			CASSAVA: What if my calculations are incorrect? I may bring destruction to completely innocent star systems full of life, and I still cannot be sure if this payload even came from an artificial source.. 
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
-		<ID>3</ID>
+		<ID>4</ID>
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-			CASSAVA: There was no knowledge to be gained from this project. I have only crafted a weapon of mass destruction to share my grief and pain with more of this universe..
+			CASSAVA: There was no knowledge to be gained from this project.. I have only crafted a weapon of mass destruction to share my grief and pain with more of this universe.
 		</Text>
 	</TextBlock>
 

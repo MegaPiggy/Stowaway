@@ -1,0 +1,69 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+<TextBlock>	
+	<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: The <![CDATA[<color=orange>Inspired's</color>]]> construction was completed today.</Text>
+			</TextBlock>
+<TextBlock>	
+	<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		CASSAVA: Using a lattice of gravity crystals arranged towards its core, the <![CDATA[<color=orange>Inspired</color>]]> will exert a constant gravitational force to capture, compact, and pressurize all deadly matter spread across this star system into itself.
+		</Text>
+			</TextBlock>
+			<TextBlock>	
+	<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		CASSAVA: Upon receiving the order, the central warp core will be crushed - and all comprising gravity crystals will exert a maximal force, crushing inwards against the impenetrable force of the white hole.
+		</Text>
+			</TextBlock>
+
+<TextBlock>	
+	<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>
+			 CASSAVA: The accumulated pressure will be explosively released, spreading the matter across, and dealing massive destruction to any star system within its blast radius.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>	
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		 CASSAVA: Once I am able to calculate the source of the comet, the entities that have stolen the lives of my clan and its future..
+		</Text>
+			</TextBlock>
+
+	<TextBlock>	
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		 CASSAVA: I shall deliver my grief, my fury - to the source of this hostility - a weapon inspired by their own.
+		</Text>
+			</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>INSP R3</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>INSP EX2</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>INSP EX3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

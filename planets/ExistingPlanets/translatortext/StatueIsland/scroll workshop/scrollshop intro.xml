@@ -2,31 +2,31 @@
 <TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>DAZ: Welcome to Giant's Deep, friends! This is the workshop where I design scrolls and projection stones for our clan to transcribe and transport information in compact forms.</Text>
+		<Text>DAZ: Greetings, friends! This is the <![CDATA[<color=orange>Scroll and Stone Workshop,</color>]]> where we craft scrolls and projection stones for our clan to transcribe and transport information in compact forms.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<LocationA />
 		<ParentID>1</ParentID>
-		<Text>DAZ: If you are here to inquire about the memory statues, kindly seek Phlox in the Statue Workshop below in my absence.</Text>
+		<Text>DAZ: If you are here to inquire about the memory statues, kindly seek Phlox in the <![CDATA[<color=orange>Statue Workshop</color>]]> inside the island in my absence.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>DAZ: However, if you seek my expertise in crafting new projection stones, scrolls - or wish to test out a new type of projection stone - feel free to seek me in my workshop upstairs!</Text>
+		<Text>DAZ: However, if you seek my expertise in crafting new projection stones (or wish to test out a prototype of an advanced projection stone), please seek me in my workshop upstairs!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>2</ParentID>
 		<LocationA />
-		<Text>PHLOX: Daz, I was only responsible for the memory statues' exteriors! You designed the memory storage system - how terrible of you to direct such intricate queries to me!</Text>
+		<Text>PHLOX: Daz, I was only responsible for the memory statues' exteriors! You designed the memory storage systems - how terrible of you to direct such intricate queries to me!</Text>
 	</TextBlock>
 <TextBlock>
 		<ID>5</ID>
 		<LocationA />
 		<ParentID>3</ParentID>
-		<Text>AVENS: I have to wonder if my brilliant brother's voyager stones would be finished by now, if only he could take less breaks to visit his lover at the <![CDATA[<color=orange>Construction Yard..</color>]]></Text>
+		<Text>AVENS: I have to wonder if the voyager stones would be completed by now, if only my brother could take less breaks to visit his lover...</Text>
 	</TextBlock>
 
 

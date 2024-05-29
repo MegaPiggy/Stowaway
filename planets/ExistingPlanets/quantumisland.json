@@ -605,8 +605,8 @@
 	{
 		"rename":"Solanum oops recording",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum oops recording.xml",
-		"position": {"x": 0, "y": 0,"z": 0},
-		"rotation": {"x": 0, "y": 0, "z": 0},
+		"position": {"x": 3.6948, "y": 1.7731,"z": 19.1466},
+		"rotation": {"x": 1.645, "y": 164.4541, "z": 0.4668},
 		"type":"recorder",
 		"isRelativeToParent": true
 	},
@@ -651,10 +651,9 @@
 	
 	{
 		"rename": "Welcome directionboard text",
-		"position": {"x": 31.6654, "y": 4.0714, "z": -35.0236},
-		"rotation": {"x": 346.5336, "y": 135.8848, "z": 7.6301},
-		"type": "wall",
-		
+		"position": {"x": 14.7486, "y": 1.7687, "z": 18.1665},
+		"rotation": {"x": 0.4622, "y": 197.2187, "z": 0.0276},
+		"type": "whiteboard",
 		"seed":1,
 		"xmlFile":"planets/ExistingPlanets/translatortext/Quantum Island/entrance board.xml"
 	}

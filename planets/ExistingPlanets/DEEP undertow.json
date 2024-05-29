@@ -191,7 +191,7 @@
 					{
 						"id": "Statue Island",
 						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/daz last cutoff.xml",
+						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/daz last cutoff.xml",
 						"seed":1,
 								"arcInfo": [
 									{},
@@ -278,18 +278,25 @@
 		],
 		"details": [
 			
-			
-		
-			
 			{
-				"rename":"DSS rails",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/dss railing.prefab",
-				"position": {"x": -3.4473, "y": -1.9018, "z": 5.1527},
-				"rotation":{"x":286.273,"y": 138.5445,"z": 220.5251},
-				"scale":0.9,
+				"rename":"DSS voyager ghost",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
+				"position": {"x": -0.0388, "y": -6.1941, "z": 6.1126},
+				"rotation":{"x":291.078,"y": 124.2387,"z": 233.8297},
+				"isRelativeToParent": true,
+				"removeComponents": true,
+				"removeChildren": ["Nomai_Rig_v01:TrajectorySHJnt"]
+			},
+			{
+				"rename":"DSS underportal stairs",
+				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Broken/Interactables_Module_Broken/Prefab_NOM_RemoteViewer/Structure_NOM_RemoteViewer",
+				"position": {"x": 0.0975, "y": 2.3556, "z": 4.1518},
+				"rotation":{"x":74.5473,"y": 321.3248,"z": 142.5829},
+				"stretch":{"x":1,"y":1.5,"z":1},
 				"isRelativeToParent": true
 			},
+			
+			
 			{
 				"rename":"Grav crystal flat patch1",
 				"assetBundle": "planets/bundle/prefabs",
@@ -513,13 +520,13 @@
 			
 
 
-			{
+				{
 				"rename":"DSS Gravity",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal/CapsuleVolume_NOM_GravityCrystal",
 				"position":{"x":0.7189,"y": 1.9211,"z": 4.683},
 				"rotation":{"x":45.1776,"y": 282.5062,"z": 107.5871},
 				"isRelativeToParent": true,
-				"stretch":{"x":2.9891,"y": 0.5,"z": 4.8691}
+				"stretch":{"x":2.9891,"y": 2.22,"z": 4.8691}
 			},
 			{
 				"rename":"DSS grav invert",
@@ -527,7 +534,7 @@
 				"position":{"x":0.2809,"y": -1.7243,"z": -12.4967},
 				"rotation":{"x":320.3345,"y": 100.0881,"z": 74.0669},
 				"isRelativeToParent": true,
-				"stretch":{"x":2.6891,"y": 0.5,"z": 4.8691}
+				"stretch":{"x":2.6891,"y": 1.42,"z": 4.8691}
 			},
 
 			
@@ -754,14 +761,7 @@
 				"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C4.xml",
 				"position": {"x": -5.6686,"y": 17.0759,"z": -1.799},
 				"rotation": {"x": 61.8324,"y": 57.6856,"z": 235.7342},
-				"isRelativeToParent": true,
-				"arcInfo": [
-					{"type": "teenager"},
-					{"type": "teenager"},
-					{"type": "teenager"},
-					{"type": "teenager"},
-					{"type": "teenager"}
-			]
+				"isRelativeToParent": true
 			},
 			{
 				"rename": "DSS C4",
@@ -816,7 +816,16 @@
 			{
 				"rename": "DSS weapon Scroll",
 				"type":"scroll",
-				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/weapon schematic.xml",
+				"xmlFile": "planets/ExistingPlanets/translatortext/DSS/weapon explanation.xml",
+				"seed":2,
+				"position": {"x": -2.4534,"y": -7.1096,"z": 5.0334},
+				"rotation": {"x": 356.5303,"y": 94.565, "z": 319.4922},
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "DSS Jellyfish answer Scroll",
+				"type":"scroll",
+				"xmlFile": "planets/ExistingPlanets/translatortext/DSS/jellyfish answer survivor.xml",
 				"seed":2,
 				"position": {"x": -2.4534,"y": -7.1096,"z": 5.0334},
 				"rotation": {"x": 356.5303,"y": 94.565, "z": 319.4922},
