@@ -75,8 +75,12 @@ namespace Stowaway.Components
 					return Locator.GetAstroObject(AstroObject.Name.TowerTwin);
 				case AstroObject.Name.TowerTwin:
 					return Locator.GetAstroObject(AstroObject.Name.CaveTwin);
+				case AstroObject.Name.TimberMoon:
+					return Locator.GetAstroObject(AstroObject.Name.TimberHearth);
+				case AstroObject.Name.VolcanicMoon:
+					return Locator.GetAstroObject(AstroObject.Name.BrittleHollow);
 				case AstroObject.Name.ProbeCannon:
-					return Locator.GetAstroObject(AstroObject.Name.ProbeCannon);
+					return Locator.GetAstroObject(AstroObject.Name.GiantsDeep);
 				default:
 					return planet.GetMoon();
 			}
