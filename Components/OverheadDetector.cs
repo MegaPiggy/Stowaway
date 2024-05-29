@@ -8,6 +8,13 @@ namespace Stowaway.Components
 	{
 		public delegate void OverheadEvent(OWRigidbody bodyOverhead);
 
+		private float _qmLowestPercentage = 0.707f;
+		private float _qmHighestPercentage = 0.85f;
+		private float _moonLowestPercentage = 0.707f;
+		private float _moonHighestPercentage = 0.85f;
+		private float _sunLowestPercentage = 0.707f;
+		private float _sunHighestPercentage = 0.866f;
+
 		private QuantumOrbit _orbit;
 		private QuantumMoon _quantumMoon;
 		private OWRigidbody _planet, _sun, _moon, _qm;
@@ -120,7 +127,7 @@ namespace Stowaway.Components
 			_angleToSun = getCosTo(_sun);
 
 			var previousQMOverhead = IsQuantumMoonOverhead();
-			_quantumMoonOverhead = smoothstep(0.707f, 0.85f, _angleToQuantumMoon);
+			_quantumMoonOverhead = smoothstep(_qmLowestPercentage, _qmHighestPercentage, _angleToQuantumMoon);
 			var nowQMOverhead = IsQuantumMoonOverhead();
 			if (!previousQMOverhead && nowQMOverhead)
 			{
@@ -134,7 +141,7 @@ namespace Stowaway.Components
 			}
 
 			var previousMOverhead = IsMoonOverhead();
-			_moonOverhead = smoothstep(0.707f, 0.85f, _angleToMoon);
+			_moonOverhead = smoothstep(_moonLowestPercentage, _moonHighestPercentage, _angleToMoon);
 			var nowMOverhead = IsMoonOverhead();
 			if (!previousMOverhead && nowMOverhead)
 			{
@@ -148,7 +155,7 @@ namespace Stowaway.Components
 			}
 
 			var previousSOverhead = IsSunOverhead();
-			_sunOverhead = smoothstep(0.707f, 0.866f, _angleToSun);
+			_sunOverhead = smoothstep(_sunLowestPercentage, _sunHighestPercentage, _angleToSun);
 			var nowSOverhead = IsSunOverhead();
 			if (!previousSOverhead && nowSOverhead)
 			{
