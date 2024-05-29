@@ -87,6 +87,11 @@ public class Stowaway : ModBehaviour
 	private void initAshTwin_Late()
 	{
 		var ashTwin = Locator.GetAstroObject(AstroObject.Name.TowerTwin);
+#if DEBUG
+		var sand = ashTwin.GetComponentInChildren<SandLevelController>(true);
+		sand._scaleCurve = AnimationCurve.Constant(0, TimeLoop.LOOP_DURATION_IN_MINUTES * 60, 0); // set scale to 0 at all times
+		sand.gameObject.SetActive(true);
+#endif
 		foreach (var door in ashTwin.GetComponentsInChildren<NomaiMultiPartDoor>(true))
 		{
 			door.gameObject.GetAddComponent<OverheadDetector>();
