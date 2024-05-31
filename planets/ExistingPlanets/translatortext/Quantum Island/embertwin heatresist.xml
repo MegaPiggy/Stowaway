@@ -5,7 +5,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-		PLUME: Friends, I shall be traveling to Ember Twin with Phlox before your expedition. Might there be any way to protect ourselves from the terrible heat from this star system's sun?
+		PLUME: Friends, I shall be traveling to Ember Twin with Phlox soon, ahead of your expedition. Might you have any suggestions on how we might protect ourselves from the terrible heat from the sun?
 		</Text>
 	</TextBlock>
 
@@ -13,7 +13,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-		MELORAE: Goodness, Plume! Haven't you heard? The new suits have integrated ore from Timber Hearth to help us resist the heat
+		MELORAE: Goodness, Plume! Have we not shared the news with you? Young Oeno has engineered a new version of our spacesuits to shelter us from intense heat - you must don them before you depart!
 		</Text>
 	</TextBlock>
 
@@ -21,27 +21,39 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			PHLOX: How I wish we could have had that technology when we were constructing the Quantum Moon locator!</Text>
+			MELORAE: The expedition team to the forested planet discovered new natural resources native to the planet, which appear to have fantastically heat-resistant properties.</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-	PLUME: We would not be where we are today without your</Text>
+	MELORAE: Oeno was able to integrate these new materials into our spacesuits, greatly improving their durability and insulative properties.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>3</ParentID>
 		<Text>
-	PLUME: Now, let us locate the quantum shard and retrieve your toy, so we may rest for the day.</Text>
+	MELORAE: In other words, this new suit should make the heat on Ember Twin far more bearable during your work on Ember Twin!</Text>
 	</TextBlock>
 
 		<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-		PHLOX: Okay, papa!</Text>
+		COLEUS: Imagine if we had such wondrous equipment when we were constructing that device on Ember Twin's surface, Melorae!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+		MELORAE: Then I imagine we would begin to miss the sun on this stormy, sunless planet.. Which I must say, I absolutely have not!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+		PLUME: You have my deepest gratitude for informing me about these new spacesuits, friends. And I can only further admire your tenacity, working on Ember Twin's surface without such protection!</Text>
 	</TextBlock>
 
 

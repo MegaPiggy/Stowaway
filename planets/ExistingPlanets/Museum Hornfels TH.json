@@ -235,6 +235,7 @@
 				"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
 				"rotation":{"x":331.3686,"y": 62.1643,"z": 95.5896},
 				"scale": 0.5,
+				"ignoreSun": true,
 				"isRelativeToParent": true
 			},
 			{
@@ -285,7 +286,6 @@
 			"rename":"visibilitytracker 2",
 			"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root/VisibilityTracker/",
 			"parentPath": "Sector_TH/Museum shard NEW",
-			"scale": 0.8,
 			"isRelativeToParent": true
 		},
 		{
