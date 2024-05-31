@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		COLEUS: I have been studying what causes the warp towers' rotating doors to open and close intermittently on their own, even in the absence of input from any Nomai.
+		COLEUS: The warp towers' rotating doors have been reported opening and closing on their own without input from any Nomai.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		COLEUS: After closer study, I can confidently conclude that the phenomenon is not caused by any structural defect in the doors. Instead, I suspect the cause to be the sunless tide.
+		COLEUS: After closer study, I can confidently conclude that the phenomenon is not caused by any structural defect in the doors, but by the sunless tide.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -30,7 +30,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		COLEUS: During this alignment, the twin farther from the sun feels not only the sun's great gravity - but also gravity from the twin closer to the sun, pulling it in the same direction.
+		COLEUS: During this alignment, the twin farther from the sun feels not only the sun's great gravity, but also gravity from the twin closer to the sun - pulling it in the same direction.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -38,7 +38,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		COLEUS: These combined gravitational forces from the sun and another celestial body cause an extraordinarily strong pull of gravity towards the body closer to the sun.
+		COLEUS: These combined gravitational forces between the sun and another celestial body cause an extraordinarily strong pull of gravity towards the body closer to the sun.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -46,7 +46,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: This effect is most clearly visualized through sand being funneled towards the other twin - but the force also affects the vision orbs, pulling them upwards and causing them to activate every time Ember Twin orbits overhead!
+		COLEUS: The same force that causes sand to be funneled towards the other twin pulls the vision orbs upwards each time Ember Twin orbits overhead, causing them to activate.
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -54,7 +54,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		YARROW: Goodness! My gratitude for all your hard work, Coleus. I shall pass this scroll to our friends at the <![CDATA[<color=orange>Sun Station</color>]]> to share your findings with them!
+		YARROW: My gratitude for all your hard work, Coleus! I shall pass this scroll to our friends at the <![CDATA[<color=orange>Sun Station</color>]]> to share your findings with them.
 		</Text>
 	</TextBlock>
 	<TextBlock>

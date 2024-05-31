@@ -16,7 +16,15 @@
 			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (3)"
 		],
 		
-
+"Volumes": {
+	"reverbVolumes": [
+	{
+		"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
+		"radius": 5
+	}
+	]
+	
+},
 		
 		
 	"Props" :
@@ -41,8 +49,8 @@
 						"probability": 1
 					},
 					{
-						"position":{"x":-98.5179,"y": 7.4268,"z": 122.2709},
-						"rotation": {"x":4.934,"y": 66.2648,"z": 79.8882},
+						"position":{"x": -105.194,"y": 16.9304,"z": 117.3955},
+						"rotation": {"x":311.8705,"y": 40.1255,"z": 88.4716},
 						"probability": 5
 					}
 				]
@@ -53,16 +61,16 @@
 	"id":"Sanctuary",
 	"platform":
 	{
-		"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
-		"rotation":{"x":331.3686,"y": 62.1643,"z": 95.5896},
+		"position":{"x": -101.8326,"y": 12.3976,"z": 119.711},
+		"rotation":{"x": 316.3963,"y": 55.1629,"z": 81.2394},
 		"isRelativeToParent": true
 	}
 	},
 	{
 		"decalPath": "planets/assets/timberhearth icon.png",
 		"whiteboard": {
-			"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
-			"rotation":{"x":331.3686,"y": 62.1643,"z": 95.5896},
+			"position":{"x": -98.4598,"y": 20.2231,"z": 123.4077},
+			"rotation":{"x": 37.2845,"y": 232.3913,"z": 276.4073},
 			"isRelativeToParent": true,
 			"nomaiText": [
 				{
@@ -75,6 +83,14 @@
 ],
 		"translatorText": [
 			
+			{
+				"rename": "sanctuary scroll",
+				"position": {"x":-98.3442,"y": 17.0017,"z": 126.348},
+				"rotation": {"x":19.5795,"y": 226.9622,"z": 351.1042},
+				"type": "scroll",
+				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/sanctuary entangle.xml"
+			},
+
 			{
 				"rename": "village whiteboard",
 				"position": {"x":-17.0647,"y": 71.1688,"z": 216.3965},
@@ -126,6 +142,257 @@
 
 		
 		"details": [
+			{
+				"rename":"Sanctuary RAILS",
+				"path":"WhiteholeStationSuperstructure_Body/Geometry_WhiteholeStationSuperstructure/ControlledByProxy_WhiteholeStation/Structure_NOM_WhiteHoleStation_Rails",
+				"position":{"x": -98.8676,"y": 13.9809,"z": 126.5532},
+				"rotation":{"x": 357.4664,"y": 320.3704,"z": 127.6975},
+				"scale":0.39,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Sanctuary sun orbit",
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken/HologramProjector/HologramDisplayPoint/Hologram_LatestProbeTrajectory/ScaleRoot/GiantsDeepRoot/Cannon_Pivot",
+				"position":{"x": -95.7233,"y": 16.7189,"z": 128.4589},
+				"rotation":{"x":7.674,"y": 136.5031,"z": 52.3203},
+				"scale":10,
+				"removeChildren": ["CannonRoot"],
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Sanctuary Lamp",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/StatueIsland_VisibleFromGD/WarpReceiver/Prefab_NOM_WarpReceiver/Props_NOM_Lamp_Wall",
+				"position":{"x":0.235,"y": -0.4636,"z": -1.401},
+				"rotation":{"x":90,"y": 0,"z": 0},
+				"parentPath": "Sector_TH/Sanctuary sun orbit",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Lamp glow",
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Lighting_Module_Sunken/FillLight_SunkenModule",
+				"position":{"x":-0.2873,"y": 0.1855,"z": 0.0291},
+				"rotation":{"x":90,"y": 0,"z": 0},
+				"parentPath": "Sector_TH/Sanctuary sun orbit/Sanctuary Lamp",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Nighttime block",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Interactables_QuantumTower/Prefab_NOM_DockingTractorBeam/Props_NOM_LargeTractorBeam_Geo",
+				"position":{"x":-94.5508,"y": 12.9658,"z": 118.363},
+				"rotation":{"x":40.2481,"y": 50.3797,"z": 262.7756},
+				"scale":0.6,
+				"isRelativeToParent": true
+			},
+		
+			{
+				"rename":"Sanctuary shelf",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Shelf (2)/Strucutre_NOM_Shelf",
+				"position":{"x": -96.7289,"y": 17.1523,"z": 125.2117},
+				"rotation":{"x": 68.6951,"y": 33.8404,"z": 165.8468},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Sanctuary plant",
+				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
+				"position":{"x":-105.0229,"y": 22.4021,"z": 117.2431},
+				"rotation":{"x":71.1896,"y": 271.5473,"z": 314.597},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Sanctuary plant 2",
+				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
+				"position":{"x":-106.2336,"y": 3.8682,"z": 118.9442},
+				"rotation":{"x":273.8436 ,"y": 100.1827,"z": 36.9031},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Sanctuary voyager ghost",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/Character_NOM_Solanum/Nomai_ANIM_SkyWatching_Idle",
+				"position": {"x": -105.7748, "y": 13.306, "z": 116.4042},
+				"rotation":{"x":327.6758,"y": 44.9579,"z": 83.0889},
+				"isRelativeToParent": true,
+				"removeComponents": true,
+				"removeChildren": ["Nomai_Rig_v01:TrajectorySHJnt"]
+			},
+			{
+				"rename":"Village whiteboard lantern",
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Lighting_LowerVillage/OtherComponentsGroup/BlueLanterns/Props_HEA_BlueLantern",
+				"position": {"x":-18.7783,"y": 69.8527,"z": 216.6792},
+				"rotation": {"x":49.9833,"y": 62.378,"z": 61.034},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Village whiteboard NOTE",
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)/GossanNote/plaque_paper_1 (1)",
+				"position": {"x":-19.1569,"y": 69.8204,"z": 216.6908},
+				"rotation": {"x":20.094,"y": 48.0514,"z": 55.3726},
+				"isRelativeToParent": true
+			},
+			
+			{
+				"rename":"Sanctuary shell",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Geometry_TimeLoopInterior/innerShell/",
+				"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
+				"rotation":{"x":331.3686,"y": 62.1643,"z": 95.5896},
+				"scale": 0.5,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Sanctuary sunoverride",
+				"path":"TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_noDLC/OcclusionEffects_Grove/OcclusionVolume_RadioTower",
+				"position":{"x": -82.8252,"y": 11.3031,"z": 123.3348},
+				"rotation":{"x":331.3686,"y": 62.1643,"z": 95.5896},
+				"scale": 60,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Sanctuary water visual",
+				"path":"SolarSystemRoot/RingWorld_Body/Sector_RingInterior/Sector_Zone4/Sector_PrisonDocks/Structures_PrisonDocks/Prison_Zone4/Geo_Prison/Effects_IP_PrisonWater",
+				"position":{"x": -97.4024,"y": 15.6242,"z": 117.6719},
+				"rotation":{"x":278.9115,"y": 110.8896,"z": 34.8704},
+				"scale": 2,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Sanctuary mountain big",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)/",
+				"position":{"x": -98.1982,"y": 12.3135,"z": 113.3502},
+				"rotation":{"x":311.0583,"y": 219.0446,"z": 280.4496},
+				"stretch": {"x":2.5,"y": 2,"z": 2.5},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Sanctuary mountain inner",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)/",
+				"position":{"x": -98.0246,"y": 11.4115,"z": 115.6838},
+				"rotation":{"x": 279.5258,"y": 142.7041,"z": 350.1608},
+				"stretch": {"x":1.7,"y": 1.5,"z": 1.7},
+				"isRelativeToParent": true
+			},
+
+
+		{
+			"rename":"Museum shard NEW",
+			"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
+			"removeChildren": ["VisibilityTracker"],
+			"position":{"x":-0.0648,"y": -0.2449,"z": -0.9449},
+			"rotation":{"x":30.5644,"y": 280.9139,"z": 281.967},
+			"scale":1.7,
+			"isRelativeToParent": true,
+			"quantumGroupID": "Museum Shard"
+		},
+		{
+			"rename":"visibilitytracker 2",
+			"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root/VisibilityTracker/",
+			"parentPath": "Sector_TH/Museum shard NEW",
+			"scale": 0.8,
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"Museum shard base",
+			"path":"QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Nomai_ANIM_Cairns/Cairn1_Bottom",
+			"parentPath": "Sector_TH/Museum shard NEW",
+			"position":{"x":-0.0721,"y": -0.5304,"z": -0.1576},
+			"rotation":{"x":347.9572,"y": 222.0216,"z": -0.0021},
+			"stretch": {"x":0.4, "y":0.5,"z":0.6},
+			"isRelativeToParent": true
+		},
+		
+		{
+			"rename":"Museum shard new collider Top",
+			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+			"parentPath": "Sector_TH/Museum shard NEW",
+			"position": {"x": -0.0949, "y": 0.729, "z": 0.0278},
+			"rotation": {"x": 359.4102, "y": 9.3367, "z": 358.1976},
+			"isRelativeToParent": true,
+			"stretch": {"x":0.5,"y":0.2,"z":0.5}
+		},
+		{
+			"rename":"Museum shard new collider BASE",
+			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+			"parentPath": "Sector_TH/Museum shard NEW",
+			"position": {"x": -0.0949, "y": -0.5566, "z": -0.1722},
+			"rotation": {"x": 359.4102, "y": 9.3367, "z": 358.1976},
+			"isRelativeToParent": true,
+			"stretch": {"x":0.5,"y":0.2,"z":0.5}
+		},
+
+
+
+		
+
+			{
+				"rename":"Mural 1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/cassava mural 1.prefab",
+				"position": {"x":-98.2079,"y": 143.5175,"z": -131.5574},
+				"rotation": {"x":44.519,"y": 33.0572,"z": 214.0702},
+				"scale":0.5,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Mural 2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/cassava mural 2.prefab",
+				"position": {"x":-90.875,"y": 148.5684,"z": -134.4975},
+				"rotation": {"x":46.0082,"y": 4.1617,"z": 189.849},
+				"scale": 1.5,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Mural 3",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/cassava mural 3.prefab",
+				"position": {"x":-83.5847,"y": 151.1302,"z": -135.0213},
+				"rotation": {"x":43.2904,"y": 31.4818,"z": 223.51099},
+				"scale":0.7,
+				"isRelativeToParent": true
+			},
+			
+		
+
+
+
+			{
+				"rename":"TH warp receiver GM 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x":-238.3815,"y": -49.6547,"z": -59.5608},
+				"rotation":{"x":2.8002,"y": 346.5809,"z": 101.7094},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GM 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x":-238.1187,"y": -51.6422,"z": -59.4575},
+				"rotation":{"x": 333.983,"y": 340.176,"z": 103.0474},
+				"parentPath": "Sector_TH/TH warp receiver GM 1",
+				"isRelativeToParent": false
+			},
+			{
+				"rename":"GM 3",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x":-3.7975,"y": -0.2015,"z": 0.7811},
+				"rotation":{"x":354.0813,"y": 15.9781,"z": 270.8005},
+				"parentPath": "Sector_TH/TH warp receiver GM 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GM 4",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 4.386,"y": -2.1013,"z": 1.8466},
+				"rotation":{"x": 308.171 ,"y": 197.1309,"z": 90.8682},
+				"parentPath": "Sector_TH/TH warp receiver GM 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GM 5",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -238.5384,"y": -45.2 ,"z": -61.3166},
+				"rotation":{"x": 303.3091,"y": 333.3264,"z": 105.6958},
+				"parentPath": "Sector_TH/TH warp receiver GM 1",
+				"isRelativeToParent": false
+			},
+
 			{
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
 				"rename":"Forest GM 1",
@@ -402,186 +669,6 @@
 				"scale":1.1,
 				"isRelativeToParent": true
 			},
-
-			{
-				"rename":"Village whiteboard lantern",
-				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Lighting_LowerVillage/OtherComponentsGroup/BlueLanterns/Props_HEA_BlueLantern",
-				"position": {"x":-18.7783,"y": 69.8527,"z": 216.6792},
-				"rotation": {"x":49.9833,"y": 62.378,"z": 61.034},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Village whiteboard NOTE",
-				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)/GossanNote/plaque_paper_1 (1)",
-				"position": {"x":-19.1569,"y": 69.8204,"z": 216.6908},
-				"rotation": {"x":20.094,"y": 48.0514,"z": 55.3726},
-				"isRelativeToParent": true
-			},
-			
-			{
-				"rename":"Sanctuary shell",
-				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Geometry_TimeLoopInterior/innerShell/",
-				"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
-				"rotation":{"x":331.3686,"y": 62.1643,"z": 95.5896},
-				"scale": 0.5,
-				"ignoreSun": true,
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Sanctuary sunoverride",
-				"path":"TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_noDLC/OcclusionEffects_Grove/OcclusionVolume_RadioTower",
-				"parentPath": "Sector_TH/Sanctuary shell",
-				"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
-				"rotation":{"x":331.3686,"y": 62.1643,"z": 95.5896},
-				"scale": 50,
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Sanctuary water visual",
-				"path":"SolarSystemRoot/RingWorld_Body/Sector_RingInterior/Sector_Zone4/Sector_PrisonDocks/Structures_PrisonDocks/Prison_Zone4/Geo_Prison/Effects_IP_PrisonWater",
-				"parentPath": "Sector_TH/Sanctuary shell",
-				"position":{"x": -95.2752,"y": 15.6242,"z": 115.3356},
-				"rotation":{"x":278.9115,"y": 110.8896,"z": 34.8704},
-				"scale": 2,
-				"ignoreSun": true,
-				"isRelativeToParent": true
-			},
-
-			
-		{
-			"rename":"Museum shard NEW",
-			"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
-			"removeChildren": ["Rock_TH_Observatory_QRock/Collider_TH_Observatory_QRock"],
-			"position":{"x":-0.0648,"y": -0.2449,"z": -0.9449},
-			"rotation":{"x":30.5644,"y": 280.9139,"z": 281.967},
-			"scale":1.7,
-			"isRelativeToParent": true,
-			"quantumGroupID": "Museum Shard"
-		},
-		{
-			"rename":"Museum shard base",
-			"path":"QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Nomai_ANIM_Cairns/Cairn1_Bottom",
-			"parentPath": "Sector_TH/Museum shard NEW",
-			"position":{"x":-0.0721,"y": -0.5304,"z": -0.1576},
-			"rotation":{"x":347.9572,"y": 222.0216,"z": -0.0021},
-			"stretch": {"x":0.4, "y":0.5,"z":0.6},
-			"isRelativeToParent": true
-		},
-		
-		{
-			"rename":"Museum shard new collider Top",
-			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
-			"parentPath": "Sector_TH/Museum shard NEW",
-			"position": {"x": -0.1259, "y": 0.4107, "z": 0.0061},
-			"rotation": {"x": 0.0512, "y": 338.1224, "z": 0.4284},
-			"isRelativeToParent": true,
-			"stretch": {"x":0.5,"y":0.8,"z":0.6}
-		},
-		{
-			"rename":"Museum shard new collider Longmid",
-			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
-			"parentPath": "Sector_TH/Museum shard NEW",
-			"position": {"x": -0.0151, "y": -0.1893, "z": 0.0279},
-			"rotation": {"x": 359.5255, "y": 245.0298, "z": 357.7007},
-			"isRelativeToParent": true,
-			"stretch": {"x":0.5,"y":0.8,"z":0.3}
-		},
-		{
-			"rename":"Museum shard new collider BASE",
-			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
-			"parentPath": "Sector_TH/Museum shard NEW",
-			"position": {"x": -0.0949, "y": -0.5566, "z": -0.1722},
-			"rotation": {"x": 359.4102, "y": 9.3367, "z": 358.1976},
-			"isRelativeToParent": true,
-			"stretch": {"x":0.5,"y":0.2,"z":0.5},
-			"itemSocket": 
-			{
-				"rename":"shard socket",
-				"itemType": "Scroll",
-				"position": {"x":-0.2268,"y": 0.5002,"z": 0.2139},
-				"useGiveTakePrompts": false,
-				"rotation": {"x":90,"y": 150.3687,"z": 0},
-				"isRelativeToParent": true
-			}
-		},
-
-
-
-		
-
-			{
-				"rename":"Mural 1",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/cassava mural 1.prefab",
-				"position": {"x":-98.2079,"y": 143.5175,"z": -131.5574},
-				"rotation": {"x":44.519,"y": 33.0572,"z": 214.0702},
-				"scale":0.5,
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Mural 2",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/cassava mural 2.prefab",
-				"position": {"x":-90.875,"y": 148.5684,"z": -134.4975},
-				"rotation": {"x":46.0082,"y": 4.1617,"z": 189.849},
-				"scale": 1.5,
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Mural 3",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/cassava mural 3.prefab",
-				"position": {"x":-83.5847,"y": 151.1302,"z": -135.0213},
-				"rotation": {"x":43.2904,"y": 31.4818,"z": 223.51099},
-				"scale":0.7,
-				"isRelativeToParent": true
-			},
-			
-		
-
-
-
-			{
-				"rename":"TH warp receiver GM 1",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x":-238.3815,"y": -49.6547,"z": -59.5608},
-				"rotation":{"x":2.8002,"y": 346.5809,"z": 101.7094},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"GM 2",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x":-238.1187,"y": -51.6422,"z": -59.4575},
-				"rotation":{"x": 333.983,"y": 340.176,"z": 103.0474},
-				"parentPath": "Sector_TH/TH warp receiver GM 1",
-				"isRelativeToParent": false
-			},
-			{
-				"rename":"GM 3",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x":-3.7975,"y": -0.2015,"z": 0.7811},
-				"rotation":{"x":354.0813,"y": 15.9781,"z": 270.8005},
-				"parentPath": "Sector_TH/TH warp receiver GM 1",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"GM 4",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": 4.386,"y": -2.1013,"z": 1.8466},
-				"rotation":{"x": 308.171 ,"y": 197.1309,"z": 90.8682},
-				"parentPath": "Sector_TH/TH warp receiver GM 1",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"GM 5",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": -238.5384,"y": -45.2 ,"z": -61.3166},
-				"rotation":{"x": 303.3091,"y": 333.3264,"z": 105.6958},
-				"parentPath": "Sector_TH/TH warp receiver GM 1",
-				"isRelativeToParent": false
-			},
-
-
 			
 			
 			

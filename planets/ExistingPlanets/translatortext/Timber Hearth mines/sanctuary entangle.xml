@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		OENO: Are you ready, Cycad? Nighttime falls on Timber Hearth; we shall be beginning our task soon!
+		OENO: Are you ready, Cycad? Dusk falls on the surface of the planet. We shall be beginning our task soon!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CYCAD: Wait, Oeno, how will we escape this chamber once we voyage into the <![CDATA[<color=orange>Sanctuary?</color>]]> There are no entrances or exits out of this space!
+		CYCAD: Wait, Oeno! How will we travel outside this chamber? There are no entrances or exits out of this space!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		OENO: Using the quantum shard, of course! Simply leave your voyager standing on the quantum shard before disconnecting the voyager stone; as it is unable to observe its surroundings, the voyager becomes little more than a scroll entangled with the shard.
+		OENO: Using the quantum shard, of course! By leaving your voyager standing on the quantum shard before disconnecting the voyager stone - doing so will leave the voyager little more than a scroll entangled with the shard.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: When you reengage the voyager stone, your voyager will have been entangled with the shard, and should be delivered outside to the surface of Timber Hearth!
+		OENO: When you reengage the voyager stone, your voyager should be delivered by the quantum shard to the surface of Timber Hearth!
 				</Text>
 	</TextBlock>
 		<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		CYCAD: But our mission here is to transport the native lifeforms into the Sanctuary to protect them during the operation of the <![CDATA[<color=orange>Ash Twin Project,</color>]]> isn't it? Won't the native lifeforms' sight cause the quantum shard to be locked in place? 
+		CYCAD: But isn't our mission here to transport the native lifeforms into the <![CDATA[<color=orange>Sanctuary</color>]]> to protect them during the operation of the <![CDATA[<color=orange>Ash Twin Project?</color>]]> How will we transport them into this space?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		OENO: That is why we are bringing them in during their hours of slumber! We must simply move quietly and stealthily to transport them into the <![CDATA[<color=orange>Sanctuary</color>]]> one by one while they sleep.
+		OENO: That is why this mission is set under the cover of night! We must simply move quietly and stealthily to transport them into the <![CDATA[<color=orange>Sanctuary</color>]]> while they slumber.
 				</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: Afterwards, we will watch over them within the <![CDATA[<color=orange>Sanctuary,</color>]]> so they do not slip back outside through the quantum shard.
+		OENO: Afterwards, we will watch over them within the <![CDATA[<color=orange>Sanctuary,</color>]]> so they do not slip back outside through the quantum shard.
 				</Text>
 	</TextBlock>
 	
@@ -62,7 +62,7 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		CYCAD: I see.. I shall do my best, Oeno! This task will surely help to distract my mind from the anticipation of the <![CDATA[<color=orange>Ash Twin Project's</color>]]> success..
+		OENO: Of note: if the quantum shard is at the surface, simply wait for nighttime within the <![CDATA[<color=orange>Sanctuary.</color>]]> The quantum shard should eventually visit the <![CDATA[<color=orange>Sanctuary</color>]]> while you are unable to observe your surroundings!
 		</Text>
 	</TextBlock>
 	

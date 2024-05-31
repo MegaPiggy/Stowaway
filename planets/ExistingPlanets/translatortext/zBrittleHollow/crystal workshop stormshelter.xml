@@ -5,14 +5,15 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		THATCH: Greetings, Kousa! We deeply thank you for your incredible invention: the Nomai on Giant's Deep have made great progress migrating to the islands outside the Looming City thanks to your storm shelters!
+		THATCH: Greetings, Kousa! We deeply thank you for your incredible invention: we have made great progress migrating to the islands outside the <![CDATA[<color=orange>Looming City</color>]]> thanks to your storm shelters.
 		</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>2</ID>
+		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		THATCH: However, we would like to inquire you about a minor quirk in its function we have noticed: the storm shelters sometimes activate on their own, even in the absence of any cyclones! Is this an intended function of the storm shelter?
+		THATCH: However, Cassava and I recently noticed the storm shelters sometimes activate on their own, even in the absence of any cyclones. Is this quirk an intended function of the storm shelter?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -28,7 +29,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		KOUSA: But young Thatch, did I not explain to you how the storm shelters function when you last visited? The storm shelters are not powered by cyclones.. They are powered by solar panels!
+		KOUSA: Young Thatch, did I not explain to you how the storm shelters function when you last visited? The storm shelters are not powered by cyclones, but solar panels!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -36,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		KOUSA: As an island is sent into orbit, the solar panels installed on the island detect sunlight unimpeded by the planet's thick atmosphere, powering the connected storm shelters to protect any Nomai within them.
+		KOUSA: As an island is sent into orbit, the solar panels installed on the island detect sunlight unimpeded by the planet's thick clouds. This is what powers on the storm shelters to protect any Nomai within them.
 		</Text>
 	</TextBlock>
 
@@ -45,7 +46,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		KOUSA: However, if a storm shelter powers down immediately upon reentry into the planet's thick atmosphere, they would rest too prematurely, and do little to protect a Nomai against the planet's intense gravity..
+		KOUSA: However, if a storm shelter powered down immediately upon reentry into the planet's thick clouds, they would rest too prematurely, and do little to protect a Nomai against the planet's intense gravity..
 		</Text>
 	</TextBlock>
 
@@ -54,7 +55,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		KOUSA: That is why the solar panels are tuned to detect the faintest sunlight that shines through, allowing them to power the storm shelter slightly before and after a cyclone encounter, keeping guests safely protected throughout the event.
+		KOUSA: That is why the solar panels are tuned to detect the faintest sunlight, allowing them to power the storm shelter slightly before and after a cyclone encounter, keeping guests safely protected throughout the event.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -62,7 +63,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		KOUSA: However, as a result of this sensitivity, as the sun passes directly over an island, more sunlight penetrates the clouds and reaches the solar panel - it is my suspicion that this is what causes the storm shelters to power on erroneously.
+		KOUSA: However, as a result of this sensitivity, as the sun passes directly over an island, more sunlight is able to penetrate the clouds and reach the solar panel. This is most likely what causes the storm shelters' erroneous activation.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -70,7 +71,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		THATCH: Goodness, I can only deepen my appreciate the design of your storm shelters, Kousa! I shall reassure our friends of the storm shelter's functionality. But of note: it was Plume who last visited your workshop, not me!
+		THATCH: My deepest gratitude for your thorough explanation, Kousa. But of note: it was Plume who last visited your workshop, not me!
 		</Text>
 	</TextBlock>
 	
