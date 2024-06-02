@@ -100,8 +100,8 @@
 		{
 			"rename":"doorstopper",
 			"type": "whiteboard",
-			"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/sanctuary entangle.xml",
-				"seed":0,
+			"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/embertwin heatresist.xml",
+				"seed":2,
 			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
 			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225}
 

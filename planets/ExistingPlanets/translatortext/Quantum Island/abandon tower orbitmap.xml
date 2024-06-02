@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		PLUME: My friends, after much debate, we have decided we must abandon this tower, and move our work to the other islands of this planet.
+		PLUME: My friends, after much debate, we have decided we must abandon this tower.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: The interior of our dwelling has rapidly taken on a quantum nature after prolonged exposure to the roaming quantum shard. As much as it pains me, I fear it will only become increasingly unfeasible to continue living within this space.
+		PLUME: Our dwelling has rapidly taken a quantum nature following prolonged exposure to the quantum shard. As much as it pains me, I believe we must move our work to the planet's other islands.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		COLEUS: We should return to the island we arrived on our first expedition! The height of the island's cliffs offers the most protection from the ocean's waves, and the interior provides a calm space to work.
+		COLEUS: The island we arrived our first expedition would be a good choice! The height of that island's cliffs offers the most protection from the ocean's waves.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		THATCH: I believe one of the other islands would also be suitable site to construct a larger site for building more advanced projects as well!
+		THATCH: I believe one of the other islands would also be suitable site to build a larger site for a construction site as well!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: On the other apphendage, this would reduce the frequency of being immersed by the sun's tides, which would be favorable for a site of construction!
+		COLEUS: On the other apphendage, this would reduce the frequency of being immersed by the passing tides, which would be favorable for a site of construction!
 		</Text>
 			</TextBlock>
 

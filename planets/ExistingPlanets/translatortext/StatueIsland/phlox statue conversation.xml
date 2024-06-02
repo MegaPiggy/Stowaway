@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		DAZ: Phlox, when you have time to spare after toiling away at your statues, I require more flat templates soon to craft more projection stones!
+		DAZ: Phlox, when you have time to spare after toiling away at your statues, I would deeply appreciate if you could deliver more flat templates soon to the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> upstairs!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -12,7 +12,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		PHLOX: Of course! I enjoy the simplicity of sculpting those templates for a change. But did I not deliver you several stacks of templates recently?
+		PHLOX: Of course! I always enjoy the simplicity of sculpting those templates for a change. But, did I not already deliver you several stacks of templates recently?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -36,7 +36,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		PHLOX: Oh, I was not aware one needed to be paired to the memory storage system to use them! Is there any reason why that is a prerequisite?
+		PHLOX: Oh! I was not aware one needed to be paired to the memory storage system to use them. Is there any reason why that is a prerequisite?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -44,7 +44,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		DAZ: The voyager stones are designed to work with the memory storage system so that memories are stored and transferred to the individual, allowing them to <![CDATA[<color=orange>explore remotely beyond a projection pool.</color>]]>
+		DAZ: The voyager stones are designed to work with their memory storage system so the voyager's experience is stored and transmitted back to the individual, allowing them to <![CDATA[<color=orange>explore remotely beyond a projection pool.</color>]]>
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -52,7 +52,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		DAZ: Without the individual being manually paired to a memory statue first, I'm afraid the voyager stone would be little more than an ordinary projection stone in function!
+		DAZ: Without the individual being paired to a memory statue first, I'm afraid a voyager stone would be little more than an ordinary projection stone in function!
 		</Text>
 	</TextBlock>
 

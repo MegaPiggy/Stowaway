@@ -5,40 +5,47 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-		PHLOX: Papa, my mini shuttle went missing again..
+		PHLOX: Papa, my toy shuttle went missing again..
 		</Text>
 	</TextBlock>
-
 	<TextBlock>
-		<ID>2</ID>
+			<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: Did you leave it on the quantum shard again, Phlox? What did I teach you about leaving your toys on a quantum entity?</Text>
+		PHLOX: When you come back, could we look for it together?
+		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
+		PLUME: Did you leave it on the quantum shard again, Phlox? What did I teach you about leaving your toys on the quantum shard?</Text>
+	</TextBlock>
+
+	<TextBlock>
+			<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
 			PHLOX: Um.. Objects left on quantum things travel with them.. Right?</Text>
 	</TextBlock>
 
 	<TextBlock>
-		<ID>4</ID>
-		<ParentID>3</ParentID>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
 		<Text>
-	PLUME: Indeed! So be sure to keep your toys neatly, away from any quantum objects, alright, Phlox?</Text>
+	PLUME: That's right! So be sure to keep your toys neatly, away from any quantum objects, alright, Phlox?</Text>
 	</TextBlock>
 	<TextBlock>
-		<ID>5</ID>
-		<ParentID>3</ParentID>
+			<ID>6</ID>
+		<ParentID>5</ParentID>
 		<Text>
 	PLUME: Now, let us locate the quantum shard and retrieve your toy, so we may rest for the day.</Text>
 	</TextBlock>
 
 		<TextBlock>
-		<ID>6</ID>
-		<ParentID>5</ParentID>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
 		<Text>
 		PHLOX: Okay, papa!</Text>
 	</TextBlock>

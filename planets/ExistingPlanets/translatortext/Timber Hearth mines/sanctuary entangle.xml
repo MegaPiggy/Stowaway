@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CYCAD: Oeno, I write to you from my voyager within the Sanctuary: if you read this scroll, I request urgent assistance in locating and returning one of the native lifeforms into the Sanctuary!
+		CYCAD: Oeno, I write to you from my voyager within the Sanctuary: I request urgent assistance in locating a native lifeform that  escaped from the Sanctuary!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CYCAD: I disengaged my voyager stone by accident for a moment, allowing the quantum shard to slip from my sight back into superposition, along with one of the native lifeforms resting on it!
+		CYCAD: I disengaged the voyager stone briefly by accident - allowing the quantum shard to slip from my sight, along with one of the native lifeforms resting on it!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		OENO: When the shard returned, the lifeform was gone! We must locate and return it to safety. The Sanctuary is their only lifeline in the event that the Ash Twin Project fails!
+		OENO: When the shard returned, its passenger was gone! We must locate and rescue this runaway before the Ash Twin Project begins to spare it from a terrible fate!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: I have located and delivered our four-eyed friend back into the Sanctuary, Cycad! Thank goodness I saw your scroll on the quantum shard before the runaway traveled any farther.
+		OENO: I have located and delivered our four-eyed friend back into the Sanctuary, Cycad!
 				</Text>
 	</TextBlock>
 		<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		CYCAD: But how? The surface of the planet is never dark enough for one to entangle with the shard to travel to the surface without observing their surroundings. I do not see how..
+		CYCAD: But the surface of the planet is never dark enough for one to travel to using the quantum shard. I do not see how..
 				</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CYCAD: Ah, I understand now.. A voyager lacks sentience, and so lacks the ability to observe its surroundings on its own!
+		CYCAD: Ah, I see! A voyager lacks sentience, and so lacks the ability to observe its surroundings on its own..
 				</Text>
 	</TextBlock>
 	
@@ -62,7 +62,7 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		CYCAD: That said, it is rather tiresome waiting within the Sanctuary for the quantum shard to return, once it travels outside.. I wish it didn't have to only travel inside under the cover of darkness!
+		CYCAD: That said, it is rather tiresome waiting within the Sanctuary for the quantum shard to return.. I wish it wasn't only able to travel inside under the cover of darkness!
 		</Text>
 	</TextBlock>
 	

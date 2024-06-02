@@ -9,7 +9,6 @@
 	
 		"Sector_GD/Sector_GDInterior/Jellyfish_GDInterior",
 
-		"Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken/Prefab_NOM_Whiteboard_Shared",
 		"Sector_GD/Wboard 1/whiteboard_brokenTiles",
 	
 		"Sector_GD/Sector_GDInterior/Sector_GDCore/Terrain_GDCore/BakedTerrain_CoreGroup1",
@@ -94,36 +93,7 @@
 					"disableStructure": true
 				}
 			},
-			{
-			"decalPath": "planets/assets/ptm icon.png",
-			"whiteboard": {
-				"rename":"PTM replacement wboard",
-				"position": {"x":0,"y": 8.7385,"z": 12.2122},
-				"rotation": {"x":0,"y": 180,"z": 180},
-				"isRelativeToParent": true,
-				"parentPath": "Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken",
-				"nomaiText": [
-					{
-						"id":"GD_ProbeCannonDamagedModule",
-						"location": "b",
-						"seed": 2,
-						"xmlFile": "planets/ExistingPlanets/translatorText/OrbitalProbeCannon/basegame launch module.xml"
-					},
-					{
-						"id":"HGT_TimeLoop",
-						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatorText/OrbitalProbeCannon/basegame ptm atp.xml",
-						"seed": 1
-					},
-					{
-						"id":"Deep Storm Station",
-						"location": "b",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/ptm dss failure.xml",
-						"seed":3
-					}
-				]
-			}
-			},
+			
 
 			{
 			"decalPath": "planets/assets/deep storm station icon.png",
@@ -136,20 +106,14 @@
 					"nomaiText":
 				[
 					{
-						"id": "GD_StatueIsland",
-						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/dss statueisland excavation.xml"
-					},
-					{
 						"id": "Construction Yard",
 						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard adwc.xml",
-						"seed":1
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml"
 					},
 					{
-						"id": "GD_ProbeCannonSunkenModule",
+						"id": "SunStation",
 						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/ptm dss failure.xml",
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss failure.xml",
 						"seed":3
 					},
 					{
@@ -233,16 +197,7 @@
 					"isRelativeToParent": true
 				}]
 			},
-			{
-				"id":"GD_ProbeCannonSunkenModule",
-				"decalPath": "planets/assets/ptm icon.png",
-				"stones": [{
-					"rename":"probemodule stone",
-					"position": {"x":0.8275,"y": -8.8144,"z": -9.6226},
-					"rotation": {"x":339.1143,"y": 93.9744 ,"z":  80.4945},
-					"isRelativeToParent": true
-				}]
-			},
+			
 			{
 				"id":"Construction Yard",
 				"decalPath": "planets/assets/cyard pool icon.png",
@@ -253,20 +208,11 @@
 					"isRelativeToParent": true
 				}]
 			},
-			{
-				"id":"GD_StatueIsland",
-				"decalPath": "planets/assets/statue island icon.png",
-				"stones": [{
-					"rename":"statue b1 stone",
-					"position": {"x": 0.8481,"y": -8.7221,"z": -9.5289},
-					"rotation": {"x":278.8896,"y": 183.8009 ,"z": 356.7963},
-					"isRelativeToParent": true
-				}]
-			},
+			
 
 
 			{
-				"id":"TH_Mine",
+				"id":"Timber Hearth",
 				"decalPath": "planets/assets/timberhearth icon.png",
 				"stones": [{
 					"rename":"th mine stone",

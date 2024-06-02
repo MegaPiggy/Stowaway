@@ -16,16 +16,18 @@
 				"path":"assets/models/tractor beam sw 1.prefab",
 				"position": {"x": 0, "y": 0, "z":0},
 				"rotation": {"x": 0, "y": 0, "z":0},
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"keepLoaded": true
 			},
 
 
 			{
 				"rename":"workshop rails upsidedown",
 				"path":"StatueIsland_Body/Sector_StatueIsland/workshop rails 1",
-				"position": {"x": 10.0365, "y": 47.3743, "z": -15.17},
-				"rotation": {"x": 0, "y": 227.2747, "z": 180},
+				"position": {"x": 10.2183, "y": 47.3743, "z": -14.9909},
+				"rotation": {"x": 0, "y": 228, "z": 180},
 				"stretch": {"x":1.1,"y":1.2,"z":1},
+				"keepLoaded": true,
 				"isRelativeToParent": true
 			},
 			{

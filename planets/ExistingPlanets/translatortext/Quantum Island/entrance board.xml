@@ -8,19 +8,19 @@
 		<ID>2</ID>
 		<LocationA />
 		<ParentID>1</ParentID>
-		<Text>This colossal tower - once known as the <![CDATA[<color=orange>Looming City</color>]]> - was carved out of a towering mountain by the late Plume to shelter all Nomai exploring and working on Giant's Deep.</Text>
+		<Text>This colossal tower, once known as the <![CDATA[<color=orange>Looming City,</color>]]> was carved out of a towering mountain by the late Plume to shelter all Nomai exploring and working on Giant's Deep.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>However, due to extenuating circumstances, the Nomai on Giant's Deep eventually decided to abandon this stormless island, constructing and moving to settlements on the other islands of Giant's Deep.</Text>
+		<Text>However, due to extenuating circumstances, the Nomai on Giant's Deep eventually decided to abandon this settlement, moving to new settlements constructed on the islands beyond this stormless space.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<LocationA />
 		<ParentID>3</ParentID>
-		<Text>This tower would later be repurposed to teach knowledge about the quantum shards. You now stand beneath the <![CDATA[<color=orange>Tower of Quantum Trials.</color>]]></Text>
+		<Text>This tower would later be repurposed to house knowledge to begin one's quantum journey. You now stand beneath the <![CDATA[<color=orange>Tower of Quantum Trials.</color>]]></Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>

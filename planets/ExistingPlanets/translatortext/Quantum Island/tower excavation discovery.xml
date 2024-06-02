@@ -5,13 +5,13 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			PLUME: Friends, I discovered a new quantum shard, while excavating one of the lower chambers of the tower today. Please do not be surprised if you it visits your chamber without warning!</Text>
+			PLUME: Friends, I have discovered a new quantum shard while excavating one of the lower chambers today. Please do not be alarmed if it visits your chamber without warning!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			THATCH: But of course: that must have been the source of the signal we heard coming from Giant's Deep, when we were studying the quantum shard on <![CDATA[<color=lightblue>Brittle Hollow!</color>]]></Text>
+			THATCH: But of course: that must have been the source of the signal we heard coming from this planet when we were studying the quantum shard on <![CDATA[<color=lightblue>Brittle Hollow!</color>]]></Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>3</ID>

@@ -105,54 +105,13 @@
 	
 		
 		{
-			"id":"Garden Bed Q",
-			"sockets": [
-				{
-					"position": {"x": 12.731, "y": 148.4855, "z": -12.7471},
-					"rotation": {"x": 0, "y": 313.6261, "z": 0}
-				},
-				{
-					"position": {"x": -12.8436, "y": 148.4855, "z": 12.7802},
-					"rotation": {"x": 0, "y": 134, "z": 0}
-				},
-				{
-					"position": {"x": -12.8436, "y": 148.4855, "z": -12.7471},
-					"rotation": {"x": 0, "y": 40, "z": 0}
-				},
-				{
-					"position": {"x":12.731,"y": 148.4855,"z": 12.6347},
-					"rotation": {"x": 0, "y": 220, "z": 0}
-				}
-			]
-		},
-		{
-			"id":"Gallery Bed Q",
-			"sockets": [
-				{
-					"position": {"x": 12.731, "y": 116.322, "z": -12.7471},
-					"rotation": {"x": 0, "y": 313.6261, "z": 0}
-				},
-				{
-					"position": {"x": -12.8436, "y": 116.322, "z": 12.7802},
-					"rotation": {"x": 0, "y": 134, "z": 0}
-				},
-				{
-					"position": {"x": -12.8436, "y": 116.322, "z": -12.7471},
-					"rotation": {"x": 0, "y": 40, "z": 0}
-				},
-				{
-					"position": {"x":12.731,"y": 116.322,"z": 12.6347},
-					"rotation": {"x": 0, "y": 220, "z": 0}
-				}
-			]
-		},
-		{
 			"id":"Gravity Sign Q",
 			"sockets": [
 				{
 					"position": {"x": -11.1073, "y": 82.5456, "z": 0},
 					"rotation": {"x": 270, "y": 270, "z": 0}
 				},
+
 				{
 					"position": {"x": 11.1527, "y": 82.5456, "z": 0},
 					"rotation": {"x": 270, "y": 90, "z": 0}
@@ -193,9 +152,227 @@
 	
 		],
 		"details": [
-
 			
-		
+			{
+				"rename":"GD quantum shard dumbwaiter",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Interactables_NorthUnderground/QuantumEntanglementRock/Rocks_HCT_QuantumEntanglement_v2/",
+				"position": {"x": 0.2371,"y": -0.4666,"z": -0.3424},
+				"rotation": {"x": 0.3109, "y": 141.6904, "z": 20.1146},
+				"stretch": {"x":0.2473,"y":0.4211,"z":0.3},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/QuantumShard/Rock_TH_Grove_QRock"
+			},
+
+
+
+			{
+				"rename":"Storehouse box stacked",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"position": {"x": -1.5667, "y": 79.9579, "z": 9.7584},
+					"rotation": {"x": 0, "y": 196.2131, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"position": {"x": -1.0734, "y": 0, "z": -0.4267},
+					"rotation": {"x": 0, "y": 16.8735 , "z": 0},
+					"parentPath": "Sector_QuantumIsland/Storehouse box stacked",
+				"isRelativeToParent": true
+			},
+			{
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"position": {"x": -0.5937, "y": 0.9351, "z": -0.3452},
+					"rotation": {"x": 0, "y": 9.978, "z": 0},
+					"parentPath": "Sector_QuantumIsland/Storehouse box stacked",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"box outcast",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"position": {"x": 3.399, "y": 0, "z": 2.7246},
+					"rotation": {"x": 0, "y": 266.7011, "z": 0},
+					"parentPath": "Sector_QuantumIsland/Storehouse box stacked",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Storehouse box trio",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"position": {"x": -10.0476, "y": 79.9579, "z": -0.8782},
+					"rotation": {"x": 0, "y": 94.9514, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"position": {"x": -1.2623, "y": 0, "z": 0.4825},
+					"rotation": {"x": 0, "y": 323.746, "z": 0},
+					"parentPath": "Sector_QuantumIsland/Storehouse box trio",
+				"isRelativeToParent": true
+			},
+			{
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
+				"position": {"x": -0.0864, "y": 0, "z": 0.9088},
+					"rotation": {"x": 0, "y": 99.5257 , "z": 0},
+					"parentPath": "Sector_QuantumIsland/Storehouse box trio",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Storehouse box splatoon",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"position": {"x": 10.2617, "y": 80.4517, "z": 0.8688},
+					"rotation": {"x": 0, "y": -0.0011, "z": 90},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
+				"position": {"x": 0.4667, "y": 0.4883, "z": 0.0838},
+					"rotation": {"x": 338.3112, "y": 0, "z": 270},
+					"parentPath": "Sector_QuantumIsland/Storehouse box splatoon",
+				"isRelativeToParent": true
+			},
+			{
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
+				"position": {"x": -0.4937, "y": 0.5326, "z": 1.0256},
+					"rotation": {"x": 326.6908, "y": 0, "z": 270},
+					"parentPath": "Sector_QuantumIsland/Storehouse box splatoon",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Storehouse bench",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"position": {"x": 0.6486 , "y": 79.9579, "z": -9.9634},
+					"rotation": {"x": 0, "y": 358.5199, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
+				"position": {"x": 0.9697, "y": 0, "z": 0.6325},
+					"rotation": {"x": 0, "y": 24.8419, "z": 0},
+					"parentPath": "Sector_QuantumIsland/Storehouse bench",
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"Gallery Bed 1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/bed.prefab",
+				"position": {"x": 10.16, "y": 114.2245, "z": -0.1108},
+					"rotation": {"x": 0, "y": 180, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Gallery Bed 2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/bed.prefab",
+				"position": {"x": -10.0473, "y": 114.2245, "z": -0.1108},
+					"rotation": {"x": 0, "y": 0, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Gallery Bed 3",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/bed.prefab",
+				"position": {"x": -0.1546, "y": 114.2245, "z": 10.1601},
+					"rotation": {"x": 0, "y": 90, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Gallery Bed 4",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/bed.prefab",
+				"position": {"x":-0.1546,"y": 114.2245,"z": -10.1345},
+					"rotation": {"x": 0, "y": 270, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Gallery bed toy",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/toyship.prefab",
+				"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
+				"position": {"x": 0.3018, "y": 3.3873, "z": -1.6581},
+				"rotation": {"x": 0, "y": 319.6169, "z": 0},
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"scroll shelf 1",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"isRelativeToParent": true,
+					"position": {"x": -8.9328, "y": 146.4498, "z": -0.5773},
+					"rotation": {"x": 0, "y": 90, "z": 0}
+			},
+			{
+				"rename":"scroll shelf 1B",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"position": {"x": -1.0964,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumIsland/scroll shelf 1",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"scroll shelf 2",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"isRelativeToParent": true,
+					"position": {"x": 0.5563, "y": 146.4498, "z": -8.9374},
+					"rotation": {"x": 0, "y": 0, "z": 0}
+			},
+			{
+				"rename":"scroll shelf 2B",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"position": {"x": -1.0964,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumIsland/scroll shelf 2",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"scroll shelf 3",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"isRelativeToParent": true,
+					"position": {"x": 8.929, "y": 146.4498, "z": 0.6118},
+					"rotation": {"x": 0, "y": 270, "z": 0}
+			},
+			{
+				"rename":"scroll shelf 3B",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"position": {"x": -1.0964,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumIsland/scroll shelf 3",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"scroll shelf 4",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"isRelativeToParent": true,
+				"position": {"x": -0.5292,"y": 146.4498,"z": 8.9226},
+					"rotation": {"x": 0, "y": 180, "z": 0}
+			},
+			{
+				"rename":"scroll shelf 4B",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"position": {"x": -1.0964,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumIsland/scroll shelf 4",
+				"isRelativeToParent": true
+			},
+
+
+
+
+			{
+				"rename":"EYE shelter volume",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Volumes_QuantumTower/RainShelterVolume/GameObject/",
+				"position": {"x": -3.9697,"y": 6.7569,"z": -74.5212},
+				"rotation": {"x": 1.9969,"y": 225.2106,"z": 10.5669},
+				"stretch": {"x":0.2,"y":0.8,"z":0.2},
+				"isRelativeToParent": true
+			},
 			{
 				"rename":"jelly scroll light",
 				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/Prefab_NOM_Computer/PointLight_NOM_Computer",
@@ -204,81 +381,9 @@
 				"isRelativeToParent": true
 			},
 			
-			{
-				"rename":"qisle scroll shelf",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Shelf (2)/Strucutre_NOM_Shelf",
-				"position": {"x": -21.9645, "y": 1.3881, "z": 3.0715},
-				"rotation": {"x": 0, "y":353.5402, "z": 90},
-				"isRelativeToParent": true
-			},
 		
-			{
-				"rename":"sunless scroll light",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/Prefab_NOM_Computer/PointLight_NOM_Computer",
-				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Interactables_FinalRoom/FinalRoom_QProps/FinalRoom_SimpleChair/Q_SimpleChair/Prefab_NOM_SimpleChair_NoSkeleton",
-				"position": {"x": 0.1383, "y": 0.8252,"z": 0.3887},
-				"activationCondition": "Light",
-				"deactivationCondition": "Darkness",
-				"blinkWhenActiveChanged": false,
-				"isRelativeToParent": true
-			},
-
-			{
-				"rename":"projection chamber table",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
-				"quantumGroupID": "Quantum Table PChamber",
-				"isRelativeToParent": true
-			},
-
-			{
-				"rename":"occlusion volume main",
-				"activationCondition": "Darkness",
-				"deactivationCondition": "Light",
-				"blinkWhenActiveChanged": false,
-				"path":"TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_noDLC/OcclusionEffects_Grove/OcclusionVolume_RadioTower/",
-				"position": {"x": -0.0199, "y": 14.8982 , "z":  -0.424},
-				"stretch":{"x":49.3096, "y":162.4153, "z":46.0728}
-			},
-			{
-				"rename":"occlusion volume patch low1",
-				"activationCondition": "Darkness",
-				"deactivationCondition": "Light",
-				"blinkWhenActiveChanged": false,
-				"path":"TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_noDLC/OcclusionEffects_Grove/OcclusionVolume_RadioTower/",
-				"position": {"x": -24.8743, "y": 68.1455 , "z": -1.2071},
-				"rotation":{"x":0,"y":45,"z":0},
-				"stretch": {"x":22,"y": 9.2655,"z": 22}
-			},
-			{
-				"rename":"occlusion volume patch low2",
-				"activationCondition": "Darkness",
-				"deactivationCondition": "Light",
-				"blinkWhenActiveChanged": false,
-				"path":"TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_noDLC/OcclusionEffects_Grove/OcclusionVolume_RadioTower/",
-				"position": {"x": 25.2561, "y": 68.1455, "z": -0.5975},
-				"rotation":{"x":0,"y":45,"z":0},
-				"stretch": {"x":22,"y": 9.2655,"z": 22}
-			},
-			{
-				"rename":"occlusion volume patch high1",
-				"activationCondition": "Darkness",
-				"deactivationCondition": "Light",
-				"blinkWhenActiveChanged": false,
-				"path":"TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_noDLC/OcclusionEffects_Grove/OcclusionVolume_RadioTower/",
-				"position": {"x": 21.0979, "y": 165.883, "z": -3.5549},
-				"rotation":{"x":0,"y":45,"z":0},
-				"stretch": {"x":20.3346,"y": 10,"z": 30.9619}
-			},
-			{
-				"rename":"occlusion volume patch high2",
-				"activationCondition": "Darkness",
-				"deactivationCondition": "Light",
-				"blinkWhenActiveChanged": false,
-				"path":"TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_noDLC/OcclusionEffects_Grove/OcclusionVolume_RadioTower/",
-				"position": {"x": -25.1957, "y": 165.9667 , "z": -0.6207},
-				"rotation":{"x":0,"y":45,"z":0},
-				"stretch": {"x":20.3346,"y": 10,"z": 30.9619}
-			},
+		
+			
 
 	
 		
@@ -380,52 +485,12 @@
 
 
 
-
-
-
-
-		
-			{
-				"rename":"Garden Bed toy",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/toyship.prefab",
-				"isRelativeToParent": true
-			},
-
 			
-			{
-				"rename":"GravyCrystal HOW TO Tablet",
-				"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Interactables_OrbitalProbeCannon/Interactables_VisibleOrbitalProbeCannon/ModuleSign_3/Prefab_NOM_Tablet",
-				"position": {"x": -11.1073, "y": 82.5456, "z": 0},
-				"rotation": {"x": 270.9728, "y": 270.3737, "z": 358.1676},
-				"isRelativeToParent": true,
-				"quantumGroupID": "Gravity Sign Q"
-			},
+			
 	
 
 
 
-			
-		
-
-
-			
-		
-
-
-		
-
-		
-
-
-
-			{
-				"rename":"LoomingCity DirectionBoard",
-				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Interactables_OrbitalProbeCannon/Interactables_VisibleOrbitalProbeCannon/ModuleSign_3/Prefab_NOM_Tablet",
-				"position": {"x":31.1739,"y": 4.0991,"z": -34.7494},
-				"rotation": {"x":4.168,"y": 46.6802 ,"z": 283.6046},
-				"isRelativeToParent": true
-			},
 			
 
 
@@ -603,36 +668,59 @@
 "translatorText":[
 
 	{
+		"rename":"Final chamber whiteboard",
+		"position": {"x": 20.3642, "y": 30.8814,"z": 0.07298},
+		"rotation": {"x": 0, "y": 268.6082, "z": 0},
+		"type":"whiteboard",
+		"isRelativeToParent": true
+	},
+
+	{
 		"rename":"Solanum oops recording",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum oops recording.xml",
-		"position": {"x": 3.6948, "y": 1.7731,"z": 19.1466},
-		"rotation": {"x": 1.645, "y": 164.4541, "z": 0.4668},
+		"position": {"x": 36.4863, "y": 0.1505,"z": -32.4978},
+		"rotation": {"x": 9.8383, "y": 117.5992, "z": 7.5643},
 		"type":"recorder",
 		"isRelativeToParent": true
 	},
 
 	{
-		"rename":"Phlox shuttle tutorial",
+		"rename":"Phlox shuttle tutorial recording",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/phlox item entangle tutorial.xml",
-		"position": {"x": 0, "y": 0,"z": 0},
-		"rotation": {"x": 0, "y": 0, "z": 0},
-		"type":"wall",
+		"position": {"x": 0.6746, "y": 1.3963,"z": 0.7073},
+		"rotation": {"x": 0, "y": 109.6918, "z": 0},
+		"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
+		"type":"recorder",
 		"isRelativeToParent": true
 	},
+	
 	{
-		"rename":"Sunless meaning scroll",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/abandon tower orbitmap.xml",
-		"position": {"x": 0, "y": 0,"z": 0},
-		"rotation": {"x": 0, "y": 0, "z": 0},
+		"rename":"Ember twin scroll",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/embertwin heatresist.xml",
+		"position": {"x": -0.2072, "y": 1.2248,"z": 0.4005},
+		"rotation": {"x": 0.6397, "y": 0.746, "z": 63.43510},
 		"type":"scroll",
+		"seed":2,
+		"parentPath": "Sector_QuantumIsland/scroll shelf 1",
 		"isRelativeToParent": true
 	},
 	{
 		"rename":"Shard discovery scroll",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/tower excavation discovery.xml",
-		"position": {"x": 0, "y": 0,"z": 0},
-		"rotation": {"x": 0, "y": 0, "z": 0},
+		"position": {"x": 0.9582, "y": 1.4982,"z": 0.48},
+		"rotation": {"x": 4.2749, "y": 111.7028, "z": 295.6037},
 		"type":"scroll",
+		"parentPath": "Sector_QuantumIsland/Gallery Bed 2",
+		"isRelativeToParent": true
+	},
+	{
+		"rename":"Abandon tower scroll",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/abandon tower orbitmap.xml",
+		"position": {"x": -0.0227, "y": 1.04,"z": 0.5673},
+		"rotation": {"x": 10.9849, "y": 349.0603, "z": 51.2731},
+		"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/Prefab_NOM_NomaiTree_Var_2",
+		"type":"scroll",
+		"seed":1,
 		"isRelativeToParent": true
 	},
 	{
@@ -641,7 +729,7 @@
 		"parentPath": "Sector_QuantumIsland/jelly scroll light",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum pool scroll.xml",
 		"isRelativeToParent": true,
-		"seed":1
+		"seed":2
 	},
 
 
@@ -651,10 +739,10 @@
 	
 	{
 		"rename": "Welcome directionboard text",
-		"position": {"x": 14.7486, "y": 1.7687, "z": 18.1665},
-		"rotation": {"x": 0.4622, "y": 197.2187, "z": 0.0276},
+		"position": {"x": 76.2827, "y": -6.3469, "z": -40.5387},
+		"rotation": {"x": 7.3959, "y": 163.3078, "z": 7.0516},
 		"type": "whiteboard",
-		"seed":1,
+		"seed":2,
 		"xmlFile":"planets/ExistingPlanets/translatortext/Quantum Island/entrance board.xml"
 	}
 	

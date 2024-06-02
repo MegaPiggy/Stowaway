@@ -37,7 +37,7 @@
 						"rotation":{"x":0,"y": 89.9289,"z": 357.2361}
 					},
 					"whiteboard":{
-						"rename": "StatueIsle Voyager Whiteboard_Pedestal",
+						"rename": "CYard Whiteboard_Pedestal",
 						"disableWall": true,
 						"position":{"x":-41.0117,"y": 2.472,"z": -43.8975},
 						"rotation":{"x":358.044,"y": 44.9753,"z": 358.0468},
@@ -59,8 +59,13 @@
 					{
 						"id": "Deep Storm Station",
 						"location": "b",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard adwc.xml",
-						"seed":1
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml"
+					},
+					{
+						"id": "Statue Island",
+						"location": "a",
+						"seed":1,
+						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/workshop hidden scroll.xml"
 					}
 				]
 				}
@@ -68,6 +73,12 @@
 		],
 		"details":
 		[
+			{
+				"rename":"recorder light",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal/Light_NOM_GravityCrystal",
+				"position":{"x": -2.6508,"y": 9.3641,"z": 48.1779},
+				"isRelativeToParent": true
+				},
 			{
 				"rename":"Stowaway Water GM volume 1",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
@@ -542,6 +553,7 @@
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
 				"position": {"x": 26.2023, "y": 8.0103, "z": -39.7668},
 				"rotation": {"x": 291.7495, "y": 241.5807, "z": 80.7598},
+				"keepLoaded": true,
 				"isRelativeToParent": true
 			},
 			

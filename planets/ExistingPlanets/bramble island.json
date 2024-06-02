@@ -64,7 +64,7 @@
 		},
 		{
 			"rename":"bramble camp box 1",
-			"path":"aveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Props_EyeDistrict/OtherComponentsGroup/Props_LargeBuilding/Prefab_NOM_Box",
+			"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
 			"position": {"x":0.7142,"y": 0.4921,"z": 0.0263},
 			"rotation": {"x": 356.8058,"y": 103.7157,"z": 1.6922},
 			"parentPath": "Sector_BrambleIsland/scroll tablet",
@@ -72,7 +72,7 @@
 		},
 		{
 			"rename":"bramble camp box 2",
-			"path":"aveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Props_EyeDistrict/OtherComponentsGroup/Props_LargeBuilding/Prefab_NOM_Box",
+			"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
 			"position": {"x":2.4522,"y": 0.0614,"z": 0.4848},
 			"rotation": {"x": 357.0252,"y": 154.2182,"z": 357.9092},
 			"parentPath": "Sector_BrambleIsland/scroll tablet",

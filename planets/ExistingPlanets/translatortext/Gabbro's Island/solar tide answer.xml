@@ -1,6 +1,7 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	
 	<![CDATA[<color=orange>Excavation Site</color>]]>
+
 	<TextBlock>
 		<ID>1</ID>
 		<LocationA />
@@ -8,14 +9,16 @@
 		CASSAVA: My love, are you alright? Why did your voyager disappear so suddenly?
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
 		<ID>2</ID>
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		DAZ: I'm fine, Cassava! I was simply disconnected from my voyager. I am currently trying to voyage to <![CDATA[<color=orange>Lovers' Cove's</color>]]> projection pool again, but I seem unable to..
+		DAZ: I am well, Cassava! I was simply disconnected from my voyager. I am currently trying to voyage to <![CDATA[<color=orange>Lovers' Cove's</color>]]> projection pool again, but I seem unable to..
 		</Text>
 	</TextBlock>
+
 <TextBlock>
 		<ID>3</ID>
 		<LocationB />
@@ -24,6 +27,7 @@
 		DAZ: Ah, could it be.. Cassava, is the sun orbiting over <![CDATA[<color=orange>Lovers' Cove</color>]]> right now?
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
 		<ID>4</ID>
 		<LocationA />
@@ -32,22 +36,25 @@
 		CASSAVA: Oh, yes, it appears to be! But how could that have caused the voyager stone's disconnection?
 		</Text>
 	</TextBlock>
+
 <TextBlock>
 		<ID>5</ID>
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		DAZ: That explains it. The tides caused by the sun's gravity as it orbits over the island must be washing high enough on the island to submerge the projection pool, dissolving my voyager.
+		DAZ: That explains it. The waves caused by the sun's gravity as it orbits over the island must be washing high enough on the island to submerge the projection pool, dissolving my voyager.
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
 		<ID>6</ID>
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		CASSAVA: I see.. Well, it's not a large issue, thankfully! We'll simply need to keep those tides in mind whenever we voyage to Giant's Deep.
+		CASSAVA: I see.. Well, it's not a large issue, thankfully! We'll simply need to keep these tides in mind whenever we voyage to Giant's Deep.
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
 		<ID>7</ID>
 		<LocationB />

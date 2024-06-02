@@ -436,7 +436,7 @@
 					}]},
 				{"decalPath": "planets/assets/loverscove v2.png",
 					"whiteboard": {
-						"position": {"x":-19.8249, "y": 0.9475,"z": 28.892},
+						"position": {"x":-19.8249, "y": 0.9475,"z": 29.0916},
 						"rotation": {"x":359.8438, "y": 94.0756, "z": 4.0096},
 					"disableWall": true,
 					"nomaiText":
@@ -444,14 +444,10 @@
 				{
 						"id":"Statue Island",
 						"location": "a",
+						"seed":1,
 						"xmlFile": "planets/ExistingPlanets/translatorText/Gabbro's Island/solar tide answer.xml"
 					},
-				{
-						"id":"GD_StatueIsland",
-						"seed": 5,
-						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatorText/Gabbro's Island/solar tide answer.xml"
-				},
+				
 					{
 						"id": "Deep Storm Station",
 						"location": "b",
