@@ -69,8 +69,8 @@
 		
 		],
 		"remotes": [
-			{"id": "Decoy TH",
-			"decalPath": "planets/assets/deep storm station icon.png",
+			{"id": "Timber Hearth",
+			"decalPath": "planets/assets/voyager dss icon.png",
 			"stones": [{"position": {"x": 16.38165, "y": -41.92884, "z": 185.4854},
 			"rotation": {"x": 76.79271, "y": 199.0539, "z": 193.8433},
 			"rename": "Cassava Weapon Stone"
@@ -83,10 +83,25 @@
 				"rotation": {"x": 286.2347, "y": 349.3389, "z": 195.0047},
 				"nomaiText": [
 					{
-						"id":"Decoy TH",
+						"id":"Timber Hearth",
 						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/looming city/projection pool secret stone.xml",
-						"seed":1
+						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
+						"seed":5,
+						"arcInfo": [
+							{},
+							{},
+							{},
+							{"position": {"x":-0.8718,"y": 0.9197},
+						"zRotation": 333.7439},
+							{"position": {"x":0.5751,"y": 1.3282},
+						"zRotation": 291.6493},
+							{},
+							{},
+							{"position": {"x":-1.5418,"y": 1.5103},
+						"zRotation": 349.6538},
+							{"position": {"x":-0.6063,"y": 2.1517},
+						"zRotation": 323.2246}
+						]
 					}
 					]
 				
@@ -98,19 +113,20 @@
 	
 	"translatorText":[
 		{
-			"rename":"doorstopper",
+			"rename":"text spiral checking station",
 			"type": "whiteboard",
-			"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/embertwin heatresist.xml",
-				"seed":2,
+
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C4.xml",
+				
 			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
 			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225}
 
 		},
 		
 		{
-			"rename": "uhhh mural text",
-			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/crystal workshop stormshelter.xml",
-			"seed":1,
+			"rename": "text spiral checking station floor",
+			"seed": 2,
+			"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession setup.xml",
 			"position": {"x":24.3426, "y": -45.7584,"z": 183.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"isRelativeToParent": true

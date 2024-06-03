@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Time is running short. Dawn will break shortly on Timber Hearth, and rouse the native lifeforms from their rest.
+		CASSAVA: The Inspired has completed its orbit around the star system, collecting as much of the deadly matter as it is safely able to.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: I believe I have drawn as much of the deadly matter from the star system onto the Inspired as I am safely able to.
+		CASSAVA: The lifeforms within the Sanctuary are still deep in slumber. Once I finish this message, I shall voyage back to the Sanctuary to rest them on the quantum shard.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,8 +21,24 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: The remaining matter should be drawn towards the sun's great gravitational mass, or 
+		CASSAVA: When I give the order, the Inspired's structure will crush inwards, forcing all the collected deadly matter into the black hole at its core, destroying itself, and irradiating the Deep Storm Station.
 		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		CASSAVA: As I fade, my voyager will no longer be able to observe the quantum shard, delivering the lifeforms back to the decontaminated surface of Timber Hearth.
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		
+</Text>
 	</TextBlock>
 
 	<TextBlock>

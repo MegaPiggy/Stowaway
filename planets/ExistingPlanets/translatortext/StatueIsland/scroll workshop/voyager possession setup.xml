@@ -6,42 +6,72 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		OENO: Daz, I have been enjoying using your voyager stones! It is much fun to explore and visit other planets with such ease.
+		OENO: Daz, the construction of the <![CDATA[<color=orange>Sanctuary</color>]]> has been going swimmingly thanks to your help! Your new voyager stones are truly a revolutionary piece of technology.
 		</Text>
 	</TextBlock>
+
 		<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		OENO: However, there was a notable and strange experience I had, if you are able to illuminate its mystery!
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>3</ID>
-		<ParentID>2</ParentID>
-		<LocationB />
-		<Text>
-		OENO: Once, when Coleus was voyaging into the <![CDATA[<color=orange>Sanctuary</color>]]> to reinforce its walls, instead of voyaging there, he was transported to Timber Hearth's surface - nowhere near the projection pool inside!
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>3</ID>
-		<ParentID>2</ParentID>
-		<LocationB />
-		<Text>
-		OENO: Furthermore, I began to experience strange.. visions from his voyage, despite him being the one using the voyager stone..
-		</Text>
-	</TextBlock>
-		<TextBlock>
-		<ID>4</ID>
-		<ParentID>2</ParentID>
-		<LocationB />
-		<Text>
-		OENO: Could there have been some sort of mix-up with our memory statues while using the voyager stone? I would love if you could look into this incident sometime!
+		OENO: However, during our time voyaging, I encountered some.. strange occurrences which I would like to inquire about.
 		</Text>
 	</TextBlock>
 
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		OENO: To start, working in shifts with Coleus, voyaging into the <![CDATA[<color=orange>Sanctuary</color>]]> seemed to always transport me some distance outside of the projection pool.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB />
+		<Text>
+		OENO: In the dark, this has caused me to stumble off the tiny island more times than I wish to admit! Is this an intended feature, or some strange quirk of the voyager stone?
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>5</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		OENO: More distressingly: at some point, I began to hear.. <![CDATA[<i>thoughts that were not my own.</i>]]> It was like there was another person in my mind while I was voyaging!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationB />
+		<Text>
+		OENO: Assuming my mind has not become aberrant, I understand the voyager stones work using the <![CDATA[<color=orange>Ash Twin Project's</color>]]> memory storage systems.
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB />
+		<Text>
+		OENO: Coleus posits perhaps there was some sort of mix-up between our memory masks from using the same voyager stone, but he had no such experience himself while voyaging.
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationB />
+		<Text>
+		OENO: Coleus insisted I rest while he continued to work, so I decided to visit your workshop today to ask about these experiences. I would deeply appreciate if you could investigate their causes, Daz!
+		</Text>
+	</TextBlock>
 
 <ShipLogConditions>
 		<RevealFact>

@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		Assessing potential methods of containment or eradication of matter:
+		What can be done to contain or destroy the Inspired and the deadly matter?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		Solution 1: Contain the <![CDATA[<color=orange>Inspired</color>]]> and the deadly matter within Dark Bramble
+		Solution 1: Contain the <![CDATA[<color=orange>Inspired</color>]]> within Dark Bramble
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: This will without question, exterminate the anglerfish, as well as any undiscovered species dwelling within the bramble - should any even have survived the comet's arrival...
+		CASSAVA: This will without question, exterminate the anglerfish, as well as any undiscovered species dwelling within the bramble, though distance within the bramble protected them from the comet's arrival.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-			CASSAVA: Additionally, the bramble produces seeds that connect back to its interior. Ghost matter could easily leak back into the star system through these seeds..
+			CASSAVA: Additionally, the bramble produces and scatters seeds connected back to the plant. The deadly matter could easily leak out into the star system through these seeds..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-			Solution 2: Attempt to orbit the Inspired around the sun, allowing its gravity to siphon off the deadly matter gradually
+			Solution 2: Attempt to orbit the Inspired around the sun, using its gravity to siphon off and destroy the deadly matter
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-			CASSAVA: This would be too dangerous. The pressures within Inspired will be too unstable at such close distance to the sun, and could cause far more devastating destruction...
+			CASSAVA: This would be recklessly dangerous. The pressures within Inspired will be too unstable at such close distance to the sun, and could cause far more devastating destruction...
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-			Solution 3: Compact all matter within the Inspired, and launch it towards the source of the comet
+			Solution 3: Compact all matter within the Inspired, and launch it towards the asteroid belt
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -61,7 +61,7 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-			CASSAVA: There isn't enough time to refine any calculations to this theoretical source. The slightest error could destroy any neighboring star system and any possible life on them..
+			CASSAVA: No, there isn't enough time to calculate a new trajectory, now that the orbit has passed...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -69,7 +69,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-			Solution 4: Replace the Inspired's core with a black hole warp core, and warp all matter to its sibling core within the <![CDATA[<color=orange>Deep Storm Station</color>]]> for containment
+			Solution 4: Replace the Inspired's core with a black hole warp core, creating a black hole to warp matter to its sibling core within the <![CDATA[<color=orange>Deep Storm Station</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -77,7 +77,7 @@
 		<LocationA />
 		<ParentID>9</ParentID>
 		<Text>
-			CASSAVA: The deep oceans surrounding the station should cause all captured matter to be completely enclosed within this space, safely containing it and allowing it to decay slowly.
+			CASSAVA: The deep oceans surrounding the station should allow all captured matter to be completely contained within this space, safely quarantining it indefinitely.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -93,7 +93,7 @@
 		<LocationA />
 		<ParentID>11</ParentID>
 		<Text>
-		CASSAVA: Our journey may have reached its end... But if it means the survival of these species.. I will gladly give my life to pave the road for theirs.
+		CASSAVA: Our journey has reached its end.. But if it means the survival of the star system and its species, I will gladly give my life to pave the road for theirs.
 		</Text>
 	</TextBlock>
 

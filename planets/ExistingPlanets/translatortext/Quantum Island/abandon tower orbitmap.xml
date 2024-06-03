@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: Our dwelling has rapidly taken a quantum nature following prolonged exposure to the quantum shard. As much as it pains me, I believe we must move our work to the planet's other islands.
+		PLUME: Our dwelling has rapidly taken on a quantum nature following prolonged exposure to the quantum shard. As much as it pains me, I believe we must move our work to the planet's other islands.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		COLEUS: The island we arrived our first expedition would be a good choice! The height of that island's cliffs offers the most protection from the ocean's waves.
+		COLEUS: The island we arrived on our first expedition would be a good choice! The height of that island's cliffs offers the most protection from the ocean's waves.
 		</Text>
 	</TextBlock>
 	<TextBlock>

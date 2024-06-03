@@ -13,41 +13,64 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-			CASSAVA: The native life of Timber Hearth are <![CDATA[<i>amphibious!</i>]]> And the geysers populating the pools they live in erupt them from the safety of the water.. The entire species is already on the brink of...
+			CASSAVA: The native life of Timber Hearth are <![CDATA[<i>amphibious!</i>]]> They are not safe from the deadly matter covering the planet at all!
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
 		<ID>3</ID>
 		<LocationB />
-		<ParentID>1</ParentID>
+		<ParentID>2</ParentID>
 		<Text>
-			CASSAVA: I was too blinded by my own grief... <![CDATA[<i>No, no!</i>]]> I must take action to save those who are left before it is too late!
+			CASSAVA: The species wanders onto land in search of food, and geysers populating the pools they dwell in erupt them from the safety of the water! They are already on the brink of... Of...
 		</Text>
 	</TextBlock>
-		<TextBlock>
+
+	<TextBlock>
 		<ID>4</ID>
-		<ParentID>3</ParentID>
-		<LocationA />
+		<LocationB />
+		<ParentID>2</ParentID>
 		<Text>
-			CASSAVA: I.. I have quarantined those who remained safely within the Sanctuary. But they cannot remain there indefinitely...
+			CASSAVA: <![CDATA[<i>No, no..</i>]]> I was too blinded by my own grief! I must take action to save those still left, before it is too late!
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
 		<ID>5</ID>
-		<ParentID>3</ParentID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+			CASSAVA: The <![CDATA[<color=orange>Sanctuary's</color>]]> location in an underground lake must have insulated the stowaways inside it from the deadly matter, but those we released outside live on borrowed time.. 
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: I must launch the Inspired at once to capture all available ghost matter on Timber Hearth.
+			CASSAVA: For now, I must make sure to quarantine those within the Sanctuary by keeping the quantum shard from traveling inside - but even so, they too, cannot remain here indefinitely..
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
-		<ID>6</ID>
-		<LocationB />
-		<ParentID>5</ParentID>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationA />
 		<Text>
-			CASSAVA: But after that.. What will I do..?
+			CASSAVA: ..There is no other choice. I must launch the <![CDATA[<color=orange>Inspired</color>]]> towards Timber Hearth at once.
 		</Text>
 	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationA />
+		<Text>
+			CASSAVA: But after that... What should I do with the <![CDATA[<color=orange>Inspired..?</color>]]>
+		</Text>
+	</TextBlock>
+
 
 
 <ShipLogConditions>

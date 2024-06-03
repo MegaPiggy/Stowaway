@@ -14,7 +14,7 @@
 
 	"remotes": [
 		{"id": "GD_ConstructionYardIsland1",
-		"decalPath": "planets/assets/cyard pool icon.png",
+		"decalPath": "planets/assets/GD cyard pool icon.png",
 		"stones":
 		[{
 			"rename": "Cyard icon OPC stone",

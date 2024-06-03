@@ -91,9 +91,9 @@
 			{
 				"rename":"Stowaway Water GM volume 2",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
-				"position":{"x": 26.0732,"y": 2.2238,"z": -39.1667},
+				"position":{"x": 26.0732,"y": 2.2783,"z": -39.7667},
 				"rotation":{"x": 3.8578, "y": 177.1242,"z": 1.7233},
-				"stretch": {"x":0.8,"y": 0.4,"z": 1.1},
+				"stretch": {"x":0.8,"y": 0.3,"z": 0.9},
 				"isRelativeToParent": true,
 				"removeChildren": ["ProbeVisuals"]
 			},
@@ -103,7 +103,7 @@
 				"position":{"x": 27.3763 ,"y": 1.6454,"z": -38.832},
 				"rotation":{"x": 0.1395 , "y": 265.8638,"z": 1.929},
 				"stretch": {"x":1,"y": 0.8,"z": 1},
-				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 1",
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 2",
 				"isRelativeToParent": false
 			},
 			{
@@ -112,7 +112,7 @@
 				"position":{"x": 29.2874,"y": 1.1525,"z": -39.1637},
 				"rotation":{"x": 0.1608 , "y": 265.2335,"z": 1.9273},
 				"stretch": {"x":2,"y": 1,"z": 0.9},
-				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 2",
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 1",
 				"isRelativeToParent": false
 			},
 			{
@@ -257,9 +257,9 @@
 			"rename":"ConstructYard Solar Panels",
 			"assetBundle": "planets/bundle/prefabs",
 			"path":"assets/nomai ruins/prefabs/solarcell.prefab",
-			"position": {"x":45.7854, "y": 56.6233, "z": -32.2801},
+			"position": {"x":49.3563, "y": 55.2469, "z": -34.4383},
 			"rotation": {"x":298.1817, "y": 137.2029, "z": 344.8311},
-			"scale":1,
+			"scale":1.5,
 			"keepLoaded": true,
 			"isRelativeToParent": true
 		},
@@ -269,6 +269,7 @@
 				"path":"HearthianMapSatellite_Body/Sector_HearthianMapSatellite/Effects_HearthianMapSatellite/Effects_HEA_Sparks (1)",
 				"position": {"x": 1.4854, "y": 12.4837, "z": -0.1327},
 				"scale":2,
+				"keepLoaded": true,
 				"isRelativeToParent": true
 			},
 			{
@@ -278,6 +279,7 @@
 				"position": {"x": -5.5946, "y": 7.8528, "z": 4.0309},
 				"rotation": {"x": 25.0002, "y": 0.8746, "z": 42.3216},
 				"scale":2,
+				"keepLoaded": true,
 				"isRelativeToParent": true
 			},
 

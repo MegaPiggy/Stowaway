@@ -427,14 +427,14 @@
 		"remotes":[
 			{
 				"id":"Statue Island",
-				"decalPath": "planets/assets/statue island icon.png",
+				"decalPath": "planets/assets/voyager statueisle icon.png",
 				"stones": [
 					{
 						"position": {"x": -30.858, "y": 12.0109, "z": 4.7429},
 						"rotation": {"x": 339.0696, "y": 300.0268, "z": 20.5326},
 						"rename": "ScrollWorkshop_Stone"
 					}]},
-				{"decalPath": "planets/assets/loverscove v2.png",
+				{"decalPath": "planets/assets/GD loverscove icon.png",
 					"whiteboard": {
 						"position": {"x":-19.8249, "y": 0.9475,"z": 29.0916},
 						"rotation": {"x":359.8438, "y": 94.0756, "z": 4.0096},
@@ -444,7 +444,7 @@
 				{
 						"id":"Statue Island",
 						"location": "a",
-						"seed":1,
+						"seed":4,
 						"xmlFile": "planets/ExistingPlanets/translatorText/Gabbro's Island/solar tide answer.xml"
 					},
 				
@@ -492,7 +492,7 @@
 				
 			
 			{"id":"Lovers' Cove",
-			"decalPath": "planets/assets/loverscove v2.png",
+			"decalPath": "planets/assets/GD loverscove icon.png",
 			"platform":{
 				"position": {"x": -12.5992, "y": 1.1777, "z": 30.2858},
 				"rotation": {"x": 4.5623, "y": 4.9962, "z": 1.4217}

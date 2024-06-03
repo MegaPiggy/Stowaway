@@ -31,8 +31,8 @@
 
 
 	"Atmosphere": {
-		"fogDensity": 0.5,
-		"fogRampPath": "planets/assets/fogcolorramp new.png",
+		"fogDensity": 0.4,
+		"fogRampPath": "planets/assets/fogcolorramp unblended.png",
 		"hasShockLayer": false,
 		"fogSize": 1100
 	},
@@ -84,7 +84,7 @@
 
 		"remotes": [
 			{"id":"Deep Storm Station",
-			"decalPath": "planets/assets/deep storm station icon.png",
+			"decalPath": "planets/assets/GD dss icon.png",
 			"platform":
 				{
 					"position":{"x":0.0786,"y": -0.8161,"z": -11.2692},
@@ -96,7 +96,7 @@
 			
 
 			{
-			"decalPath": "planets/assets/deep storm station icon.png",
+			"decalPath": "planets/assets/GD dss icon.png",
 			"whiteboard":
 				{
 					"rename":"DSS Whiteboard Pedestal",
@@ -113,7 +113,7 @@
 					{
 						"id": "SunStation",
 						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss failure.xml",
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml",
 						"seed":3
 					},
 					{
@@ -179,9 +179,9 @@
 			},
 			{
 				"id":"Lovers' Cove",
-				"decalPath": "planets/assets/loverscove v2.png",
+				"decalPath": "planets/assets/voyager loverscove icon.png",
 				"stones": [{
-					"rename":"lovers stone",
+					"rename":"DSS lovers stone",
 					"position": {"x":0.7127,"y": -9.3572,"z": -9.5903},
 					"rotation": {"x":329.3044,"y": 265.239,"z": 280.3366},
 					"isRelativeToParent": true
@@ -189,9 +189,9 @@
 			},
 			{
 				"id":"Statue Island",
-				"decalPath": "planets/assets/statue island icon.png",
+				"decalPath": "planets/assets/voyager statueisle icon.png",
 				"stones": [{
-					"rename":"rip daz stone",
+					"rename":"DSS dazshop stone",
 					"position": {"x":0.8719,"y": -8.8751,"z": -9.6672},
 					"rotation": {"x":322.2325,"y": 263.609,"z": 281.2553},
 					"isRelativeToParent": true
@@ -200,9 +200,9 @@
 			
 			{
 				"id":"Construction Yard",
-				"decalPath": "planets/assets/cyard pool icon.png",
+				"decalPath": "planets/assets/voyager cyard icon.png",
 				"stones": [{
-					"rename":"cyard stone",
+					"rename":"DSS cyard stone",
 					"position": {"x": 0.8195,"y": -8.8018,"z": -9.5855},
 					"rotation": {"x":33.0295,"y": 84.7312 ,"z": 79.3953},
 					"isRelativeToParent": true
@@ -213,9 +213,9 @@
 
 			{
 				"id":"Timber Hearth",
-				"decalPath": "planets/assets/timberhearth icon.png",
+				"decalPath": "planets/assets/voyager th icon.png",
 				"stones": [{
-					"rename":"th mine stone",
+					"rename":"DSS Cassava TH stone",
 					"position": {"x": 5.6133,"y": -6.7103,"z": 5.5663},
 					"rotation": {"x":321.681,"y": 99.8218,"z": 254.3038},
 					"isRelativeToParent": true
@@ -715,39 +715,6 @@
 				"rotation": {"x": 46.6052,"y": 283.1719,"z": 109.3144},
 				"xmlFile": "planets/ExistingPlanets/translatorText/DSS/DSS C5.xml",
 				"seed":7,
-				"arcInfo": [
-					{"type": "teenager"},
-					{"type": "teenager"},
-					{"type": "teenager",
-					"mirror": true,
-					"position": {"x":-0.8158,"y": 1.5072},
-					"zRotation": 36.8836	
-				},
-					{"type": "teenager",
-					"mirror": false,
-					"position": {"x":-1.4941,"y": 1.9444},
-					"zRotation": 333.6497
-				},
-					{"type": "teenager"},
-					{"type": "teenager"},
-					{"type": "teenager",
-					"mirror": true,
-					"position": {"x":-0.4067,"y": 0.703},
-					"zRotation": 263.3476
-				},
-					{"type": "teenager",
-					"mirror": true,
-					"position": {"x":0.5925,"y": 1.0809},
-					"zRotation": 321.5189
-				},
-					{"type": "teenager"},
-					{"type": "teenager"},
-					{"type": "teenager"},
-					{"type": "teenager",
-					"mirror": true,
-					"position": {"x":1.6549,"y": 0.7068},
-					"zRotation": 302.1379}
-				],
 				"isRelativeToParent": true
 			},
 			

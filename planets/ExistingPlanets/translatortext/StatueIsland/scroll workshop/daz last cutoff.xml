@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Daz, I shall busy myself with a change of task for now: I am assisting our friends in returning the lifeforms within the <![CDATA[<color=orange>Sanctuary</color>]]> to the surface of Timber Hearth.
+		DAZ: Perhaps a change of task will help, my love. Oeno mentioned a few more stowaways who have grown too accustomed to the <![CDATA[<color=orange>Sanctuary</color>]]> who have eluded her attempts to release them.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: But once our task is completed, would you kindly join me? I would like to attempt a few more launches powered by the <![CDATA[<color=orange>Deep Storm Station.</color>]]> It is.. all I can think to do right now.
+		CASSAVA: That does sound like a fun task. But before we voyage, would you kindly voyage to the <![CDATA[<color=orange>Deep Storm Station</color>]]>, my love? I.. I would like your company.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -29,7 +29,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Of course, love. I shall voyage to the <![CDATA[<color=orange>Deep Storm Station</color>]]> to be by your side now.
+		DAZ: Of course, love. I shall voyage to the <![CDATA[<color=orange>Deep Storm Station</color>]]> to be by your side shortly.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Look sunward, Cassava: though we have encountered a disappointing setback, I still have faith our clan will find another way to reach our goals.
+		DAZ: But my love, we must look sunward: though we have encountered a disappointing setback, I have faith our clan will find another way to reach our goals.
 		</Text>
 	</TextBlock>
 	<TextBlock>

@@ -4,25 +4,97 @@
 	<TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>
-		PLUME: Our expedition team has explored as much of this planet as we are able. Yet we have failed to find any trace of our missing friends and siblings from the crash.
-		PLUME: Both expedition teams to the forested planet, and to the exterior of Dark Bramble, have reported no signs of any survivors, either.
-		PLUME: Without any current methods of precise propulsion, it would be foolish to even attempt an expedition of any sort into Dark Bramble's endless mazes..
-		PLUME: However tiny the chance, I clung onto the hope that our missing friends had managed to escape and survive somewhere, somehow.
-		PLUME: It seems.. I was simply mistaken in that hope.
-		PLUME: I cannot help but imagine where our clan would be today if we had never heard the Eye's signal..
-		PLUME: But was it the Eye that took from us, or was it the bramble?
-		PLUME: Is it even fair to harbor ill will towards either? Our own foolishness and impatience inarguably contributed to the tragedy.
-		PLUME: But even if we had taken the proper precautions, who knows how many more clans and lives might have fallen prey to the bramble as they tried to follow us, and any who followed them..
-		PLUME: My mind grows tired, ruminating on these endless questions..
-		PHLOX: Papa? Why are you sitting here alone?
-		PHLOX: Are you watching the waves? Can I watch with you?
-		PLUME: Of course, my little star. You are always welcome to join me.
-		PLUME: Keek, wherever you are...
-		PLUME: I promise to always care for your son like my own.
-		
+		<Text>PLUME: Our expedition team has explored as much of this planet as we are able. Yet, we have found no trace of our missing friends and siblings from the crash.</Text>
+			</TextBlock>
 
-		</Text>
+	<TextBlock>
+			<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>PLUME: Both expedition teams to the forested planet, and to the exterior of Dark Bramble, have reported no signs of any of these survivors, either.</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>PLUME: With our current methods of travel, it would be foolish to even attempt an expedition of any sort into Dark Bramble's dangerous and endless mazes..</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>PLUME: However unlikely the odds, I had clung onto the hope that our missing friends had managed to escape the bramble somehow and survived on one of these planets.</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>PLUME: It seems.. I was simply mistaken in that hope.</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>PLUME: I cannot help but imagine where our clan would be today if we had never heard the Eye's signal.</Text>
+			</TextBlock>
+
+				<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>PLUME: The universe is truly cruel to have torn our clan apart, then left us to guess indefinitely at the fates of those we have lost...</Text>
+			</TextBlock>
+
+		<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>PLUME: But did the Eye intend to lure us into the bramble, or did the bramble simply intercept its signal by pure coincidence?</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>PLUME: Would it be justified for us to blame either for the tragedy, when we could have taken more precautions before we heeded the signal?</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>PLUME: But even if we had taken the proper precautions, who knows how many more clans and lives might have fallen prey to the same fate as they tried to follow us, and any who followed them..</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>PLUME: My mind grows tired, ruminating on these endless possibilities..</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>PHLOX: Papa? Why are you sitting here alone?</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<Text>PHLOX: I'm sleepy... Can we go back inside the tower and read a bedtime story?</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>14</ID>
+		<ParentID>13</ParentID>
+		<Text>PLUME: Of course, Phlox. I'll join you in the tower soon, my child.</Text>
+			</TextBlock>
+			
+	<TextBlock>
+		<ID>15</ID>
+		<ParentID>14</ParentID>
+		<Text>PLUME: Keek, wherever you are...</Text>
+			</TextBlock>
+			
+	<TextBlock>
+		<ID>16</ID>
+		<ParentID>15</ParentID>
+		<Text>PLUME: I promise to always care for your son like my own.</Text>
 	</TextBlock>
 
 

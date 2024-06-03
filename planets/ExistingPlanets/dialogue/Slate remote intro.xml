@@ -15,6 +15,28 @@
 				<Text>What is it?</Text>
 				<DialogueTarget>Slate_Kids_1</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+      			<RequiredPersistentCondition>COMPLETED_SHIPLOG_TUTORIAL</RequiredPersistentCondition>
+				<Text>Use the shiplog to track places I've been to. Got it! Thank you! Seeya!</Text>
+				<DialogueTarget>Slate_Kids_2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>Slate Kids Intro</Name>
+		<EntryCondition>LOOP_COUNT_GOE_3</EntryCondition>
+		 <SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
+		<Dialogue>
+			<Page>Hey, hold up a sec!</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+   			 <DialogueOption>
+				<Text>What is it?</Text>
+				<DialogueTarget>Slate_Kids_1</DialogueTarget>
+			</DialogueOption>
     <DialogueOption>
 				<Text>Yeah yeah yeah, I already know about the launch codes.</Text>
 				<DialogueTarget>Slate_Kids_2</DialogueTarget>
@@ -32,7 +54,7 @@
 		<Name>Slate_Kids_1</Name>
 		<Dialogue>
 			<Page>Aren't you gonna say goodbye to everyone before you take off? The whole village's gonna miss ya.</Page>
-			<Page>If anything, at least say bye to the little hatchlings. All of 'em seemed to have something to ask or say to you before you go.</Page>
+			<Page>If nothing else, at least say bye to the little hatchlings. All of 'em always have something to ask or say to the new astronaut before they go.</Page>
 			<Page>Go humor 'em, just in case this is last they see of you for a while, y'know?</Page>
 		</Dialogue>
 		<DialogueOptionsList>
@@ -53,8 +75,8 @@
 		<Dialogue>
 		<Page>Uh, no. What are you talking about?</Page>
 			<Page>I was gonna ask if you were gonna say goodbye to everyone before you take off. The whole village's gonna miss you, you know?</Page>
-			<Page>If anything, at least say bye to the little hatchlings. All of 'em seemed to have something to ask or say to you before you go.</Page>
-			<Page>Go humor 'em as a favor for me - just in case this is last they see of you for a while, y'know?</Page>
+			<Page>If nothing else, at least say bye to the little hatchlings. All of 'em always have something to ask or say to the new astronaut before they go.</Page>
+			<Page>Go humor 'em, just in case this is last they see of you for a while, y'know?</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -86,13 +108,12 @@
 			<Page>They told me they had something to ask you they couldn't tell me for whatever reason.. So it's probably plans to steal my job or something.</Page>
 			<Page>I'm just saying: you probably wanna get it outta that one now. Otherwise, don't be surprised if you start seeing the model rocket flying after you with notes attached to it.</Page>
 				<Page>Tephra and Galena should be playing in the village somewhere.</Page>
-				<Page>I saw 'em trekking outside the village recently for whatever reason, though - so don't take my word on that.</Page>
+				<Page>I saw those two trekking outside the village recently for whatever reason, though - so don't take my word on that.</Page>
 				<Page>Arkose's probably still throwing rocks into the patch of ghost matter at the top of the village.</Page>
 				<Page>Still uh.. no idea why they do that all day.</Page>
 					<Page>And Moraine's probably stargazing on the big tree in the village, making sure Marl doesn't chop it down.</Page>
-					<Page>I wonder if that Marl'll ever let go of that grudge.</Page>
-					<Page>No good in holding a grudge against a tree, you know?</Page>
-						<Page>That's all I know. Just get a move on - you'll probably just find all of 'em on the way up to the observatory for those launch codes, anyway!</Page>
+					<Page>I wonder if that Marl'll ever let go of that grudge.. <![CDATA[<Pause>]]> No good comes outta holding a grudge against a tree, you know?</Page>
+						<Page>That's all I know. Just get a move on - you'll probably just find all of 'em on the way up to the observatory for those launch codes, anyway.</Page>
 		</Dialogue>
 	</DialogueNode>
 

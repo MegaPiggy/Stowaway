@@ -752,6 +752,7 @@
 				"path":"HearthianMapSatellite_Body/Sector_HearthianMapSatellite/Effects_HearthianMapSatellite/Effects_HEA_Sparks (1)",
 				"position": {"x": 1.4854, "y": 12.4837, "z": -0.1327},
 				"scale":2,
+				"keepLoaded": true,
 				"isRelativeToParent": true
 			},
 			{
@@ -761,6 +762,7 @@
 				"position": {"x": -5.5946, "y": 7.8528, "z": 4.0309},
 				"rotation": {"x": 25.0002, "y": 0.8746, "z": 42.3216},
 				"scale":2,
+				"keepLoaded": true,
 				"isRelativeToParent": true
 			},
 
@@ -783,7 +785,7 @@
 		"remotes": [
 			{
 				"id":"Statue Island decal podium",
-				"decalPath": "planets/assets/statue island icon.png",
+				"decalPath": "planets/assets/GD statue island icon.png",
 				"platform":
 				{
 					
@@ -795,8 +797,8 @@
 				}
 			},
 			{
-				"id":"Scroll Workshop",
-				"decalPath": "planets/assets/statue island icon.png",
+				"id":"Statue Island",
+				"decalPath": "planets/assets/GD statue island icon.png",
 				"platform":
 				{
 					
@@ -811,7 +813,7 @@
 
 						{
 				"id":"Timber Hearth",
-				"decalPath":"planets/assets/timberhearth icon.png",
+				"decalPath":"planets/assets/voyager th icon.png",
 				"stones":
 				[{
 					"rename":"Sanctuary Voyager Stone",
@@ -838,7 +840,7 @@
 					},
 					{
 						"id":"Deep Storm Station",
-						"decalPath":"planets/assets/deep storm station icon.png",
+						"decalPath":"planets/assets/voyager dss icon.png",
 						"stones":
 						[{
 							"rename":"DSS proj Stone",
@@ -849,7 +851,7 @@
 					},
 					{
 						"id":"Lovers' Cove",
-						"decalPath":"planets/assets/loverscove v2.png",
+						"decalPath":"planets/assets/voyager loverscove icon.png",
 						"stones":
 						[{
 							"rename":"Solar tide lovestone",
@@ -860,10 +862,10 @@
 					},
 					{
 						"id":"Construction Yard",
-						"decalPath": "planets/assets/cyard pool icon.png",
+						"decalPath": "planets/assets/GD cyard pool icon.png",
 						"stones":
 						[{
-							"rename":"Hidden scroll cyard stone",
+							"rename":"Whiteboard lesson cyard stone",
 							"position":{"x": 19.6068,"y": 33.1855, "z": -16.7405},
 							"rotation": {"x": 355.2566, "y": 109.725, "z": 10.8289},
 							"isRelativeToParent": true
@@ -873,7 +875,7 @@
 
 	{
 				"id":"GD_StatueIsland",
-				"decalPath": "planets/assets/statue island icon.png",
+				"decalPath": "planets/assets/GD statue island icon.png",
 					"whiteboard":{
 						"rename":"Replacement statue whiteboard",
 						"position":{"x":-20.6745,"y": 8.2613,"z": 2.8439},
@@ -891,7 +893,7 @@
 	},
 	{
 					"id":"Statue Island",
-					"decalPath": "planets/assets/statue island icon.png",
+					"decalPath": "planets/assets/GD statue island icon.png",
 					"whiteboard":{
 						"rename":"Scroll Workshop Whiteboard",
 						"position": {"x": 13.1108, "y": 43.3073, "z": -11.7842},
@@ -908,14 +910,29 @@
 							{
 								"id": "Lovers' Cove",
 								"location": "b",
-								"seed":1,
+								"seed":4,
 								"xmlFile": "planets/ExistingPlanets/translatortext/Gabbro's Island/solar tide answer.xml"
 							},
 							{
 								"id": "Timber Hearth",
 								"location": "b",
-								"seed": 0,
-								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml"
+								"seed": 5,
+								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
+								"arcInfo": [
+									{},
+									{},
+									{},
+									{"position": {"x":-0.8718,"y": 0.9197},
+								"zRotation": 333.7439},
+									{"position": {"x":0.5751,"y": 1.3282},
+								"zRotation": 291.6493},
+									{},
+									{},
+									{"position": {"x":-1.5418,"y": 1.5103},
+								"zRotation": 349.6538},
+									{"position": {"x":-0.6063,"y": 2.1517},
+								"zRotation": 323.2246}
+								]
 							},
 							{
 								"id": "Deep Storm Station",
@@ -949,10 +966,12 @@
 		
 		
 			{
-				"rename":"Dwelling whiteboard",
+				"rename":"Workshop intro whiteboard",
 				"position":{"x":9.0357,"y": 32.4229,"z": -12.3024},
 				"rotation":{"x":0,"y": 315.9504,"z": 0},
 				"type":"whiteboard",
+				"seed": 2,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/scrollshop intro.xml",
 				"isRelativeToParent": true
 			},
 		
@@ -1021,13 +1040,25 @@
 
 
 			{
-				"rename":"Workshop B1 scroll intro",
+				"rename":"Workshop B1 scroll Oeno",
 				"position": {"x": 1.3491, "y": 0.2036, "z": -0.1},
 				"rotation": {"x": 281.3267, "y": 64.7731, "z": 341.4119},
 				"type": "scroll",
 				"isRelativeToParent": true,
-				"seed": 2,
-				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/scrollshop intro.xml",
+				"seed": 4,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession setup.xml",
+			"arcInfo": [
+					{},
+					{},
+					{},
+					{},
+					{"position": {"x":1.2728,"y": 1.2918},
+				"zRotation": 16.1187,
+			"mirror": true},
+					{},
+					{},
+					{}
+				],
 				"parentPath": "Sector_StatueIsland/scroll shelves"
 			},
 			{
@@ -1048,7 +1079,7 @@
 				"type": "scroll",
 				"isRelativeToParent": true,
 				"seed":1,
-				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/cairn n trailheads/scrollshop trailhead.xml",
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/scrollshop trailhead.xml",
 				"parentPath": "Sector_StatueIsland/scroll shelves/Decoy Scroll 2",
 				"arcInfo": [
 					{"position": {"x":0,"y":-3}}
@@ -1061,7 +1092,7 @@
 				"type": "scroll",
 				"isRelativeToParent": true,
 				"seed":1,
-				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/cairn n trailheads/scrollshop trailhead.xml",
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/scrollshop trailhead.xml",
 				"parentPath": "Sector_StatueIsland/scroll shelves/Decoy Scroll 3",
 				"arcInfo": [
 					{"position": {"x":0,"y":-3}}

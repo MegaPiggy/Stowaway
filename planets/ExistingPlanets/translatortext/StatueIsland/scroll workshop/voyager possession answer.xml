@@ -4,9 +4,9 @@
 
 	<TextBlock>
 		<ID>1</ID>
-		<LocationA />
+		<LocationB />
 		<Text>
-		DAZ: If a voyager is left unattended and maintains a connection to a memory mask, any Nomai using the same voyager stone at the same projection pool can inhabit and inherit the previous Nomai's voyager.
+		DAZ: Oeno, I have seen your scroll and looked into the issues you encountered in your time using the voyager stones. (My thanks once again for helping to test this new technology!)
 		</Text>
 	</TextBlock>
 
@@ -15,16 +15,16 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: In addition, it appears that this inhabited voyager continues to transmit memories to the original voyager's memory mask, allowing them to receive memories from the inhabitating Nomai's voyage.
+		DAZ: To start: your first observation connecting to a voyager outside the projection pool is.. somewhat of an intended feature!
 		</Text>
 	</TextBlock>
-
-	<TextBlock>
+	
+		<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		OENO: Once, when Coleus was voyaging into the <![CDATA[<color=orange>Sanctuary</color>]]> to reinforce its walls, instead of voyaging there, he was transported to Timber Hearth's surface - nowhere near the projection pool inside!
+		DAZ: The memory storage systems allow one voyager (per mask) to remain on standby when disconnected, allowing for easy return to voyages far from the projection pool.
 		</Text>
 	</TextBlock>
 
@@ -33,16 +33,53 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		OENO: Furthermore, I began to experience strange.. visions from his voyage, despite him being the one using the voyager stone..
+		DAZ: However, it appears the system cannot discriminate between the original host and any new users, causing anyone voyaging to the same projection pool to inhabit the voyager on standby.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		OENO: I see.. In other words, an outstanding voyager will cause anyone else using the same projection stone, from the same projection pool, to connect to that voyager and its location.
 		</Text>
 	</TextBlock>
 	
 		<TextBlock>
-		<ID>5</ID>
-		<ParentID>4</ParentID>
+		<ID>6</ID>
+		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		OENO: Could there have been some sort of mix-up with our memory statues while using the voyager stone? I would love if you could look into this incident sometime!
+		DAZ: However, regarding those strange thoughts you heard: the voyagers are advanced constructs connected to our memory masks, granting them access to our memories, our very "essence".
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: There is no issue when they are in sync with their host - but I suspect that when inhabited by a foreign consciousness, this causes the voyager to gain a level of self-awareness, though lacking autonomy.
+		</Text>
+	</TextBlock>
+
+	
+<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationA />
+		<Text>		
+			OENO: Goodness, Daz! Do you mean to say the voyager stones create.. semi-sentient clones of the users... And the panicked thoughts I heard were from the voyager I was inhabiting?!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<LocationA />
+		<Text>
+			OENO: I was pleased to learn that the solution to the first issue was to simply be mindful of disposing our voyagers.. But now, I feel quite uncomfortable at the idea of doing so!
 		</Text>
 	</TextBlock>
 

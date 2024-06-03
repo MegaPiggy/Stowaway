@@ -4,7 +4,8 @@
 
 	"name": "BrambleIsland",
 	"removeChildren": [
-		"Sector_BrambleIsland/Interactables_BrambleIsland/Prefab_HEA_FuelTank"
+		"Sector_BrambleIsland/Interactables_BrambleIsland/Prefab_HEA_FuelTank",
+		"Sector_BrambleIsland/Geo_BrambleIsland/BatchedGroup/BatchedMeshRenderers_13"
 	],
 	
 	"Props": {

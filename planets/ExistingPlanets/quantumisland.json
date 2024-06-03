@@ -23,17 +23,9 @@
 	{
 			
 		"remotes":[
-		{"id": "Looming City",
-		"decalPath": "planets/assets/pioneer icon pool.png",
-		"stones": [
-			{
-				"position": {"x": 68.518, "y": -5.2003, "z": -40.6735},
-				"rotation": {"x": 354.2888, "y": 245.7604, "z": 7.3226},
-				"rename": "Quantum pool Stone"
-			}]
-		},
+	
 			{"id": "Lovers' Cove",
-			"decalPath": "planets/assets/loverscove green.png",
+			"decalPath": "planets/assets/voyager loverscove icon.png",
 			"stones": [
 				{
 					"position": {"x": 69.63309, "y": -5.356702, "z": -40.67367},
@@ -41,17 +33,9 @@
 					"rename": "LoversCoveStone"
 				}]
 			},
-			{"id": "Bramble Island",
-			"decalPath": "planets/assets/bramble isle STONE icon.png",
-			"stones": [
-				{
-					"position": {"x": 68.9405, "y": -5.3931, "z": -42.1444},
-					"rotation": {"x": 354.2888, "y": 245.7604, "z": 7.322618},
-					"rename": "BrambleIsle_Stone"
-				}]
-			},
-			{"id": "TH_Mine",
-			"decalPath": "planets/assets/timberhearth icon.png",
+		
+			{"id": "Timber Hearth",
+			"decalPath": "planets/assets/voyager th icon.png",
 			"stones": [
 				{
 					"position": {"x": 67.995, "y": -5.2458, "z": -42.1444},
@@ -59,8 +43,8 @@
 					"rename": "TimberHearthMines_Stone"
 				}]
 			},
-			{"id": "GD_StatueIsland",
-			"decalPath": "planets/assets/statue island icon.png",
+			{"id": "Statue Island",
+			"decalPath": "planets/assets/voyager statueisle icon.png",
 			"stones": [
 				{
 					"position": {"x": 67.155, "y": -5.0967, "z": -41.7735},
@@ -69,7 +53,7 @@
 				}]
 			},
 			{"id": "Construction Yard",
-			"decalPath": "planets/assets/cyard pool icon.png",
+			"decalPath": "planets/assets/voyager cyard icon.png",
 			"stones": [
 				{
 					"position": {"x": 67.7721, "y": -5.2747, "z": -42.9606},
@@ -79,7 +63,7 @@
 				}]
 			},
 			{"id": "Deep Storm Station",
-			"decalPath": "planets/assets/deep storm station icon.png",
+			"decalPath": "planets/assets/voyager dss icon.png",
 			"stones": [
 				{
 					"position": {"x": 66.8955, "y": -5.1968, "z": -43.5503},
@@ -152,7 +136,13 @@
 	
 		],
 		"details": [
-			
+		
+			{
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"position": {"x": 76.2964, "y": -4.9907, "z": -40.9814},
+				"isRelativeToParent": true
+			},
+
 			{
 				"rename":"GD quantum shard dumbwaiter",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Interactables_NorthUnderground/QuantumEntanglementRock/Rocks_HCT_QuantumEntanglement_v2/",
@@ -678,8 +668,8 @@
 	{
 		"rename":"Solanum oops recording",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum oops recording.xml",
-		"position": {"x": 36.4863, "y": 0.1505,"z": -32.4978},
-		"rotation": {"x": 9.8383, "y": 117.5992, "z": 7.5643},
+		"position": {"x": 37.2245, "y": -0.1895,"z": -29.7542},
+		"rotation": {"x": 9.7584, "y": 27.8266, "z": 356.6493},
 		"type":"recorder",
 		"isRelativeToParent": true
 	},
@@ -687,7 +677,7 @@
 	{
 		"rename":"Phlox shuttle tutorial recording",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/phlox item entangle tutorial.xml",
-		"position": {"x": 0.6746, "y": 1.3963,"z": 0.7073},
+		"position": {"x": 1.7073, "y": -0.0382,"z": 0.7073},
 		"rotation": {"x": 0, "y": 109.6918, "z": 0},
 		"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
 		"type":"recorder",
@@ -729,8 +719,9 @@
 		"parentPath": "Sector_QuantumIsland/jelly scroll light",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum pool scroll.xml",
 		"isRelativeToParent": true,
-		"seed":2
+		"seed":4
 	},
+	
 
 
 
@@ -744,6 +735,14 @@
 		"type": "whiteboard",
 		"seed":2,
 		"xmlFile":"planets/ExistingPlanets/translatortext/Quantum Island/entrance board.xml"
+	},
+	{
+		"rename":"Plume eye debate rec",
+		"position": {"x":-4.0519,"y": -2.6592,"z": -75.698},
+		"rotation": {"x":16.7487,"y": 203.6263,"z": 359.5786},
+		"isRelativeToParent": true,
+		"type":"recorder",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/Grave.xml"
 	}
 	
 

@@ -5,7 +5,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-		PLUME: Friends, I shall be departing Twin with Phlox soon ahead of your expedition. Might you have any suggestions on how we might protect ourselves from the terrible heat on <![CDATA[<color=lightblue>Ember Twin?</color>]]>
+		PLUME: Friends, I shall be departing with Phlox soon ahead of your expedition. Might you have any suggestions on how we might protect ourselves from the terrible heat on <![CDATA[<color=lightblue>Ember Twin?</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -41,7 +41,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: Imagine if we had such wondrous equipment when we were constructing and calibrating that device, Melorae!</Text>
+		COLEUS: Imagine if we had such wondrous equipment back then when we were constructing and calibrating that device, Melorae!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
@@ -53,7 +53,7 @@
 		<ID>8</ID>
 		<ParentID>7</ParentID>
 		<Text>
-		PLUME: You have my gratitude, my friends. And I can only compliment your tenacity, working in such conditions without this protection!</Text>
+		PLUME: You have my gratitude, my friends. And I can only compliment your tenacity, working on Ember Twin without this protection!</Text>
 	</TextBlock>
 
 

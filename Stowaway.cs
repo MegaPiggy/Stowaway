@@ -21,10 +21,21 @@ public class Stowaway : ModBehaviour
 	{
 		"LoversCoveStone",
 		"DazWorkshopStone",
-		"BrambleIsle_Stone",
 		"TimberHearthMines_Stone",
 		"StatueIsle_Stone",
-		"Cyard_Stone"
+		"Cyard_Stone",
+
+
+		"Solar tide lovestone",
+		"DSS proj Stone",
+		"Sanctuary Voyager Stone",
+		"ScrollWorkshop_Stone",
+
+		"DSS Cassava TH stone",
+		"DSS dazshop stone",
+		"DSS cyard stone",
+		"DSS lovers stone",
+
 	};
 
 	public bool IsGolemConnection { get; private set; }
@@ -268,22 +279,7 @@ public class Stowaway : ModBehaviour
 
 	private void initQuantumIsland_Late()
 	{
-		var probeDisplay = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Nomai Camera/VerticalPivot/Launcher/ProbeScreen (1)/ProbeDisplay");
-		if(probeDisplay != null)
-		{
-			probeDisplay.transform.localPosition = new UnityEngine.Vector3(0.2623f, 0.3001f, 0.3557f);
-			probeDisplay.transform.localRotation = UnityEngine.Quaternion.Euler(3.332f, 76.1487f, 356.5323f);
-		}
-		var camera = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Nomai Camera/VerticalPivot/Launcher/preLaunchCamera")?.GetComponent<OWCamera>();
-		if (camera != null)
-		{
-			camera.fieldOfView = 60f;
-		}
-		var blackAndWhite = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Nomai Camera/VerticalPivot/Launcher/preLaunchCamera")?.GetComponent<PostProcessingBehaviour>();
-		if(blackAndWhite != null)
-		{
-			Destroy(blackAndWhite);
-		}
+	
 		var cerberusJellyfish = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Cerberus Jelly");
 		if (cerberusJellyfish != null)
 		{

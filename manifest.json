@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
   "filename": "Stowaway.dll",
-  "author": "atk",
+  "author": "atk, MegaPiggy, asker",
   "name": "Stowaway",
   "uniqueName": "atk.Stowaway",
   "version": "0.1.0",
