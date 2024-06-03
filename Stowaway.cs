@@ -20,7 +20,7 @@ public class Stowaway : ModBehaviour
 	private static readonly ISet<string> SpecialStones = new HashSet<string>()
 	{
 		"LoversCoveStone",
-		"DazWorkshopStone",
+		"DSS_Stone",
 		"TimberHearthMines_Stone",
 		"StatueIsle_Stone",
 		"Cyard_Stone",
@@ -30,12 +30,12 @@ public class Stowaway : ModBehaviour
 		"DSS proj Stone",
 		"Sanctuary Voyager Stone",
 		"ScrollWorkshop_Stone",
-
+ 
 		"DSS Cassava TH stone",
 		"DSS dazshop stone",
 		"DSS cyard stone",
 		"DSS lovers stone",
-
+ 
 	};
 
 	public bool IsGolemConnection { get; private set; }
