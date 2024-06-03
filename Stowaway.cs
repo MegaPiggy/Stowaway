@@ -163,7 +163,6 @@ public class Stowaway : ModBehaviour
 	private void initSolarSystem()
 	{
 		IsGolemConnection = false;
-		initConstructionYard();
 		initShip();
 		initDensityComponents();
 		initJellyfish();
@@ -178,7 +177,7 @@ public class Stowaway : ModBehaviour
 		}
 	}
 
-	private void initConstructionYard()
+	private void initConstructionYard_Late()
 	{
 		var constructionYardBody = SearchUtilities.Find("ConstructionYardIsland_Body");
 		initTractorBeams(constructionYardBody);
@@ -186,19 +185,16 @@ public class Stowaway : ModBehaviour
 		var solarPanel = SearchUtilities.Find("ConstructionYardIsland_Body/Sector_ConstructionYard/ConstructYard Solar Panels");
 		if (solarPanel)
 		{
-			var solarPanelComponent = solarPanel.gameObject.AddComponent<SolarPanelCollision>();
+			var solarPanelComponent = solarPanel.gameObject.GetAddComponent<SolarPanelCollision>();
 			solarPanelComponent.SetIsland(constructionYardBody?.GetComponent<IslandController>());
 		}
 
 		var socket = SearchUtilities.Find("ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/LandingIsland/Prefab_NOM_Whiteboard/ArcSocket");
 		if (socket)
 		{
-			socket.AddComponent<SchematicRearSecret>();
+			socket.GetAddComponent<SchematicRearSecret>();
 		}
-	}
 
-	private void initConstructionYard_Late()
-	{
 		var text = SearchUtilities.Find(SchematicRearSecret.ScrollPath).GetComponent<NomaiWallText>();
 		if (text)
 		{
