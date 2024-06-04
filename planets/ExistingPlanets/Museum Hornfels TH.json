@@ -15,6 +15,8 @@
 			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
 			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (3)"
 		],
+
+		
 		
 "Volumes": {
 	"reverbVolumes": [
@@ -89,21 +91,41 @@
 				"rotation": {"x":19.5795,"y": 226.9622,"z": 351.1042},
 				"type": "scroll",
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/sanctuary entangle.xml",
-				"seed":1
+				"seed":1,
+				"arcInfo": [
+					{},
+					{},
+					{},
+					{},
+					{},
+					{"position": {"x":0.2103,"y": 2.3545},"zRotation": 286.9936,"mirror": false},
+					{"position": {"x":1.5218,"y": 1.6895},"zRotation": 241.3111,"mirror": false},
+					{"position": {"x":1.712,"y": 0.3605},"zRotation": 146.5787,"mirror": false}
+				]
 			},
 			{
 				"rename": "sanctuary cassava whiteboard",
-				"position": {"x":-98.3442,"y": 17.0017,"z": 126.348},
-				"rotation": {"x":19.5795,"y": 226.9622,"z": 351.1042},
+				"position": {"x":-96.6896,"y": 13.2562,"z": 125.6484},
+				"rotation": {"x":0.7417 ,"y": 226.4707,"z": 273.6281},
 				"type": "whiteboard",
 				"seed":1,
+				"arcInfo": [
+					{},
+					{},
+					{},
+					{"position": {"x":1.5062,"y": 1.0104},"zRotation": 4.5457,"mirror": true},
+					{"position": {"x":0.4444,"y": 1.3532},"zRotation": 63.7048,"mirror": true},
+					{},
+					{},
+					{}
+				],
 				"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C4.xml"
 			},
 
 			{
 				"rename": "village whiteboard",
-				"position": {"x":-17.0647,"y": 71.1688,"z": 216.3965},
-				"rotation": {"x":71.7783,"y": 0.8317,"z": 5.207},
+				"position": {"x":-52.4809,"y": 62.5838,"z": 213.2018},
+				"rotation": {"x":61.3393,"y": 50.2329,"z": 59.7373},
 				"type": "whiteboard"
 			},
 			{
@@ -226,15 +248,15 @@
 			{
 				"rename":"Village whiteboard lantern",
 				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Lighting_LowerVillage/OtherComponentsGroup/BlueLanterns/Props_HEA_BlueLantern",
-				"position": {"x":-18.7783,"y": 69.8527,"z": 216.6792},
-				"rotation": {"x":49.9833,"y": 62.378,"z": 61.034},
+				"position": {"x":-51.9193,"y": 59.929,"z": 214.0307},
+				"rotation": {"x":42.5258 ,"y": 265.2041,"z": 286.2227},
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"Village whiteboard NOTE",
 				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)/GossanNote/plaque_paper_1 (1)",
-				"position": {"x":-19.1569,"y": 69.8204,"z": 216.6908},
-				"rotation": {"x":20.094,"y": 48.0514,"z": 55.3726},
+				"position": {"x":-51.6045,"y": 60.2205,"z": 214.0489},
+				"rotation": {"x":28.0983,"y": 32.9033,"z": 58.8437},
 				"isRelativeToParent": true
 			},
 			
@@ -853,7 +875,7 @@
 		},
 		{
 			"rename": "Hal whiteboard note",
-			"position": {"x":-19.1569,"y": 69.8204,"z": 216.6908},
+			"position": {"x":-51.6045,"y": 60.2205,"z": 214.0489},
 			"radius": 0.5,
 			"range":3,
 			"xmlFile": "planets/ExistingPlanets/dialogue/Bulletin HAL.xml",

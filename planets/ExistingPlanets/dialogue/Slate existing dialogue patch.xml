@@ -2,6 +2,52 @@
 
 	<NameField>Slate</NameField>
 
+
+<DialogueNode>
+		<Name>Scientist1A</Name>
+		<DialogueOptionsList>
+		<DialogueOption>
+		<RequiredPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</RequiredPersistentCondition>
+				<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
+				<DialogueTarget>Slate_Kids_Direction 2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Scientist1B</Name>
+		<DialogueOptionsList>
+		<DialogueOption>
+		<RequiredPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</RequiredPersistentCondition>
+				<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
+				<DialogueTarget>Slate_Kids_Direction 2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Scientist2</Name>
+		<DialogueOptionsList>
+		<DialogueOption>
+		<RequiredPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</RequiredPersistentCondition>
+				<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
+				<DialogueTarget>Slate_Kids_Direction 2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Scientist4</Name>
+		<DialogueOptionsList>
+		<DialogueOption>
+		<RequiredPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</RequiredPersistentCondition>
+				<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
+				<DialogueTarget>Slate_Kids_Direction 2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+
+	</DialogueNode>
 	
 	<DialogueNode>
 		<Name>Scientist5</Name>

@@ -25,7 +25,7 @@
 
 
 <DialogueNode>
-		<Name>Slate Kids Intro</Name>
+		<Name>Slate Kids Intro Loop3On</Name>
 		<EntryCondition>LOOP_COUNT_GOE_3</EntryCondition>
 		 <SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
 		<Dialogue>
