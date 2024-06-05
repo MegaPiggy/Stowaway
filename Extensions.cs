@@ -1,8 +1,10 @@
-﻿using System;
+﻿using HarmonyLib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
 
 namespace Stowaway
 {
@@ -51,6 +53,23 @@ namespace Stowaway
 					return source1;
 			}
 			return source.FirstOrDefault();
+		}
+
+		public static CodeMatcher LogInstructions(this CodeMatcher matcher, string prefix)
+		{
+			matcher.InstructionEnumeration().LogInstructions(prefix);
+			return matcher;
+		}
+
+		public static IEnumerable<CodeInstruction> LogInstructions(this IEnumerable<CodeInstruction> instructions, string prefix)
+		{
+			var message = prefix;
+			foreach (var instruction in instructions)
+			{
+				message += $"\n{instruction}";
+			}
+			Debug.LogError(message);
+			return instructions;
 		}
 	}
 }

@@ -1,6 +1,8 @@
 ﻿using HarmonyLib;
 using Stowaway.Components;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Reflection.Emit;
 using UnityEngine;
 
 namespace Stowaway.Patches
@@ -14,7 +16,7 @@ namespace Stowaway.Patches
 		private static Quaternion _storedShapeRot;
 
 		[HarmonyPrefix]
-		[HarmonyPatch(typeof(NomaiRemoteCameraPlatform), nameof(NomaiRemoteCameraPlatform.SwitchToRemoteCamera))]
+		[HarmonyPatch(nameof(NomaiRemoteCameraPlatform.SwitchToRemoteCamera))]
 		public static bool NomaiRemoteCameraPlatform_SwitchToRemoteCamera_Prefix(NomaiRemoteCameraPlatform __instance)
 		{
 			if (Stowaway.IsSpecialStone(__instance._sharedStone))
@@ -31,7 +33,7 @@ namespace Stowaway.Patches
 		}
 
 		[HarmonyPrefix]
-		[HarmonyPatch(typeof(NomaiRemoteCameraPlatform), nameof(NomaiRemoteCameraPlatform.SwitchToPlayerCamera))]
+		[HarmonyPatch(nameof(NomaiRemoteCameraPlatform.SwitchToPlayerCamera))]
 		public static bool NomaiRemoteCameraPlatform_SwitchToPlayerCamera(NomaiRemoteCameraPlatform __instance)
 		{
 			if (Stowaway.Instance.IsGolemConnection)
@@ -48,24 +50,63 @@ namespace Stowaway.Patches
 			return true;
 		}
 
-		[HarmonyPrefix]
-		[HarmonyPatch(typeof(NomaiRemoteCameraPlatform), nameof(NomaiRemoteCameraPlatform.Update))]
-		public static void NomaiRemoteCameraPlatform_Update(NomaiRemoteCameraPlatform __instance)
+		public static void RunGolemUpdate(this NomaiRemoteCameraPlatform __instance)
 		{
-			if (__instance._active && Stowaway.Instance.IsGolemConnection)
+			var insideSupernova = __instance.CheckSlavePlatformInsideSupernova();
+			var insideBounds = __instance._connectionBounds.PointInside(__instance._playerCamera.transform.position);
+			if (insideSupernova || !insideBounds) Stowaway.Write($"On Platform Update: {(insideSupernova ? "InsideSupernova" : "OutsideSupernova")} {(insideBounds ? "PointInside" : "PointOutside")}");
+			if (OWInput.IsPressed(InputLibrary.cancel, 0f) || OWInput.IsPressed(InputLibrary.toolActionPrimary, 0f))
 			{
-				var insideSupernova = __instance.CheckSlavePlatformInsideSupernova();
-				var insideBounds = __instance._connectionBounds.PointInside(__instance._playerCamera.transform.position);
-				if (insideSupernova || !insideBounds) Stowaway.Write($"On Platform Update: {(insideSupernova ? "InsideSupernova" : "OutsideSupernova")} {(insideBounds ? "PointInside" : "PointOutside")}");
-				if (OWInput.IsPressed(InputLibrary.cancel, 0f) || OWInput.IsPressed(InputLibrary.toolActionPrimary, 0f))
+				__instance.OnLeaveBounds();
+			}
+			else if (__instance._slavePlatform != null && !__instance._slavePlatform.gameObject.activeInHierarchy)
+			{
+				__instance.Disconnect();
+				if (__instance._pedestalAnimator != null)
 				{
-					__instance.OnLeaveBounds();
+					__instance._pedestalAnimator.PlayOpen();
 				}
+				if (__instance._transitionPedestalAnimator != null)
+				{
+					__instance._transitionPedestalAnimator.PlayOpen();
+				}
+				__instance._active = false;
+			}
+			else if (__instance.CheckSlavePlatformInsideSupernova())
+			{
+				__instance.OnLeaveBounds();
 			}
 		}
 
+		[HarmonyTranspiler]
+		[HarmonyPatch(nameof(NomaiRemoteCameraPlatform.Update))]
+		public static IEnumerable<CodeInstruction> NomaiRemoteCameraPlatform_Update_Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
+		{
+			return new CodeMatcher(instructions, generator).MatchForward(false,
+					new CodeMatch(OpCodes.Ldarg_0),
+					new CodeMatch(OpCodes.Ldfld),
+					new CodeMatch(OpCodes.Brfalse),
+					new CodeMatch(OpCodes.Ldarg_0),
+					new CodeMatch(OpCodes.Ldarg_0))
+				.CreateLabel(out Label next)
+				.Insert(
+					new CodeInstruction(OpCodes.Br_S, next),
+					new CodeInstruction(OpCodes.Ldarg_0),
+					new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(NomaiRemoteCameraPlatformPatch), nameof(RunGolemUpdate)))
+				).Advance(1)
+				.CreateLabel(out Label golemUpdate).Start().MatchForward(true,
+					new CodeMatch(OpCodes.Ldarg_0),
+					new CodeMatch(OpCodes.Ldfld),
+					new CodeMatch(OpCodes.Brfalse)).Advance(1)
+				.Insert(
+					new CodeInstruction(OpCodes.Ldsfld, AccessTools.Field(typeof(Stowaway), nameof(Stowaway.Instance))),
+					new CodeInstruction(OpCodes.Callvirt, AccessTools.PropertyGetter(typeof(Stowaway), nameof(Stowaway.IsGolemConnection))),
+					new CodeInstruction(OpCodes.Brtrue, golemUpdate)
+				).InstructionEnumeration();
+		}
+
 		[HarmonyPrefix]
-		[HarmonyPatch(typeof(NomaiRemoteCameraPlatform), nameof(NomaiRemoteCameraPlatform.UpdateHologramTransforms))]
+		[HarmonyPatch(nameof(NomaiRemoteCameraPlatform.UpdateHologramTransforms))]
 		public static bool NomaiRemoteCameraPlatform_UpdateHologramTransforms_Prefix(NomaiRemoteCameraPlatform __instance)
 		{
 			if (!Stowaway.Instance.IsGolemConnection)
