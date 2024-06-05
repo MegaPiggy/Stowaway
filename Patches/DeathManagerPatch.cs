@@ -1,7 +1,7 @@
 ﻿using HarmonyLib;
 using Stowaway.Components;
 
-namespace Stowaway
+namespace Stowaway.Patches
 {
 	[HarmonyPatch]
 	public class DeathManagerPatch

@@ -2,7 +2,7 @@
 using UnityEngine;
 using Stowaway.Components;
 
-namespace Stowaway
+namespace Stowaway.Patches
 {
 	[HarmonyPatch(typeof(SphereOceanFluidVolume))]
 	public class JellyfishBarrierIgnorePatch

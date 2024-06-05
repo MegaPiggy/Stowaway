@@ -3,10 +3,10 @@ using Stowaway.Components;
 using System.Diagnostics;
 using UnityEngine;
 
-namespace Stowaway
+namespace Stowaway.Patches
 {
-	[HarmonyPatch]
-	public class NomaiRemoteCameraPlatformPatch
+	[HarmonyPatch(typeof(NomaiRemoteCameraPlatform))]
+	public static class NomaiRemoteCameraPlatformPatch
 	{
 		private static Vector3 _storedPosition;
 		private static Quaternion _storedRotation;

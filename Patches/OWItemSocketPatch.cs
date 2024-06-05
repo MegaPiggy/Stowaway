@@ -1,6 +1,6 @@
 ﻿using HarmonyLib;
 
-namespace Stowaway
+namespace Stowaway.Patches
 {
 	[HarmonyPatch]
 	public class OWItemSocketPatch
