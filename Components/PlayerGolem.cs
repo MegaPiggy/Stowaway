@@ -15,6 +15,7 @@ namespace Stowaway.Components
 
 		private Vector3 _storedPosition;
 		private Quaternion _storedRotation;
+		private Vector3 _storedShapeCenter;
 		private Vector3 _storedShapePos;
 		private Quaternion _storedShapeRot;
 
@@ -51,8 +52,10 @@ namespace Stowaway.Components
 		{
 			_storedPosition = _platform.transform.InverseTransformPoint(Locator.GetPlayerTransform().position);
 			_storedRotation = _platform.transform.InverseTransformRotation(Locator.GetPlayerTransform().rotation);
-			_storedShapePos = _platform._connectionBounds.transform.localPosition;
-			_storedShapeRot = _platform._connectionBounds.transform.localRotation;
+			var connectionBounds = _platform._connectionBounds as BoxShape;
+			_storedShapeCenter = connectionBounds.center;
+			_storedShapePos = connectionBounds.transform.localPosition;
+			_storedShapeRot = connectionBounds.transform.localRotation;
 
 			var platformBody = _platform._slavePlatform.GetAttachedOWRigidbody();
 			var relativePlatformPosition = platformBody.transform.InverseTransformPoint(_platform._slavePlatform.transform.position);
@@ -63,6 +66,8 @@ namespace Stowaway.Components
 
 			Locator.GetPlayerTransform().position = _platform._slavePlatform.transform.TransformPoint(_storedPosition);
 			Locator.GetPlayerTransform().rotation = _platform._slavePlatform.transform.rotation * _storedRotation;
+			connectionBounds.center = Vector3.zero;
+			connectionBounds.transform.position = Locator.GetPlayerTransform().position;
 
 			NotificationData notificationData = new NotificationData(NotificationTarget.Player, "Test", 3f, true);
 			NotificationManager.SharedInstance.PostNotification(notificationData, false);
@@ -81,8 +86,10 @@ namespace Stowaway.Components
 			Locator.GetPlayerTransform().position = _platform.transform.TransformPoint(_storedPosition);
 			Locator.GetPlayerTransform().rotation = _platform.transform.rotation * _storedRotation;
 
-			_platform._connectionBounds.transform.localPosition = _storedShapePos;
-			_platform._connectionBounds.transform.localRotation = _storedShapeRot;
+			var connectionBounds = _platform._connectionBounds as BoxShape;
+			connectionBounds.center = _storedShapeCenter;
+			connectionBounds.transform.localPosition = _storedShapePos;
+			connectionBounds.transform.localRotation = _storedShapeRot;
 		}
 
 		private void detachFromShip()

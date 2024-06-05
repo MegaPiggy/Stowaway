@@ -1,5 +1,6 @@
 ﻿using HarmonyLib;
 using Stowaway.Components;
+using System.Diagnostics;
 using UnityEngine;
 
 namespace Stowaway
@@ -53,13 +54,16 @@ namespace Stowaway
 		{
 			if (__instance._active && Stowaway.Instance.IsGolemConnection)
 			{
+				var insideSupernova = __instance.CheckSlavePlatformInsideSupernova();
+				var insideBounds = __instance._connectionBounds.PointInside(__instance._playerCamera.transform.position);
+				if (insideSupernova || !insideBounds) Stowaway.Write($"On Platform Update: {(insideSupernova ? "InsideSupernova" : "OutsideSupernova")} {(insideBounds ? "PointInside" : "PointOutside")}");
 				if (OWInput.IsPressed(InputLibrary.cancel, 0f) || OWInput.IsPressed(InputLibrary.toolActionPrimary, 0f))
 				{
 					__instance.OnLeaveBounds();
 				}
 			}
 		}
-		
+
 		[HarmonyPrefix]
 		[HarmonyPatch(typeof(NomaiRemoteCameraPlatform), nameof(NomaiRemoteCameraPlatform.UpdateHologramTransforms))]
 		public static bool NomaiRemoteCameraPlatform_UpdateHologramTransforms_Prefix(NomaiRemoteCameraPlatform __instance)
