@@ -52,14 +52,15 @@ namespace Stowaway.Patches
 
 		public static void RunGolemUpdate(this NomaiRemoteCameraPlatform __instance)
 		{
+			var isConnectedPlatformActive = __instance._slavePlatform != null && __instance._slavePlatform.gameObject.activeInHierarchy; //Mobius why did you call a connected projection platform, a slave platform.
 			var insideSupernova = __instance.CheckSlavePlatformInsideSupernova();
 			var insideBounds = __instance._connectionBounds.PointInside(__instance._playerCamera.transform.position);
-			if (insideSupernova || !insideBounds) Stowaway.Write($"On Platform Update: {(insideSupernova ? "InsideSupernova" : "OutsideSupernova")} {(insideBounds ? "PointInside" : "PointOutside")}");
+			if (!isConnectedPlatformActive || insideSupernova || !insideBounds) Stowaway.Write($"On Platform Update: {(isConnectedPlatformActive ? "ConnectedPlatformActive" : "ConnectedPlatformDisabled")} {(insideSupernova ? "InsideSupernova" : "OutsideSupernova")} {(insideBounds ? "PointInside" : "PointOutside")}");
 			if (OWInput.IsPressed(InputLibrary.cancel, 0f) || OWInput.IsPressed(InputLibrary.toolActionPrimary, 0f))
 			{
 				__instance.OnLeaveBounds();
 			}
-			else if (__instance._slavePlatform != null && !__instance._slavePlatform.gameObject.activeInHierarchy)
+			else if (!isConnectedPlatformActive)
 			{
 				__instance.Disconnect();
 				if (__instance._pedestalAnimator != null)
@@ -72,7 +73,7 @@ namespace Stowaway.Patches
 				}
 				__instance._active = false;
 			}
-			else if (__instance.CheckSlavePlatformInsideSupernova())
+			else if (insideSupernova)// || !insideBounds)
 			{
 				__instance.OnLeaveBounds();
 			}
