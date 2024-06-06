@@ -139,6 +139,7 @@ namespace Stowaway.Components
 
 		private void playerCameraEnterWater(float relativeSpeed)
 		{
+			Stowaway.Write("Player camera entered water");
 			_platform.OnLeaveBounds();
 		}
 	}
