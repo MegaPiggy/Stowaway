@@ -137,10 +137,16 @@ namespace Stowaway.Components
 			GlobalMessenger<float>.RemoveListener("PlayerCameraEnterWater", playerCameraEnterWater);
 		}
 
+		public static bool IsPlayerTouchingWater()
+		{
+			return Locator.GetPlayerDetector().GetComponent<FluidDetector>().InFluidType(FluidVolume.Type.WATER);
+		}
+
 		private void playerCameraEnterWater(float relativeSpeed)
 		{
+			var isPlayerTouchingWater = IsPlayerTouchingWater();
 			Stowaway.Write("Player camera entered water");
-			_platform.OnLeaveBounds();
+			if (isPlayerTouchingWater) _platform.OnLeaveBounds();
 		}
 	}
 }
