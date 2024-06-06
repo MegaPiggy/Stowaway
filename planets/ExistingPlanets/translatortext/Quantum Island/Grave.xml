@@ -52,13 +52,13 @@
 	<TextBlock>
 		<ID>9</ID>
 		<ParentID>8</ParentID>
-		<Text>PLUME: Would it be justified for us to blame either for the tragedy, when we could have taken more precautions before we heeded the signal?</Text>
+		<Text>PLUME: Would it be right to blame either for the tragedy, when we could have taken more precautions before we followed after the signal?</Text>
 			</TextBlock>
 
 	<TextBlock>
 		<ID>10</ID>
 		<ParentID>9</ParentID>
-		<Text>PLUME: But even if we had taken the proper precautions, who knows how many more clans and lives might have fallen prey to the same fate as they tried to follow us, and any who followed them..</Text>
+		<Text>PLUME: But if we had taken the proper precautions, who knows how many more clans and lives might have fallen prey to the same fate as they tried to follow us, and any who followed them..</Text>
 			</TextBlock>
 
 	<TextBlock>

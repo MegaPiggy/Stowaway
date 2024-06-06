@@ -30,7 +30,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-			CASSAVA: ..It matters not. I should fire the Inspired to destroy any siblings of this comet, before any more drift towards, or are already on a journey towards this star system...
+			CASSAVA: ..It matters not.
 		</Text>
 	</TextBlock>
 
@@ -40,7 +40,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-			CASSAVA: But if my calculations are incorrect... The Inspired could bring further destruction to any nearby star systems full of life...
+			CASSAVA: I should launch the Inspired regardless to destroy any siblings of this comet - before any more drift towards, or are already on a journey towards this star system...
 		</Text>
 	</TextBlock>
 
@@ -49,7 +49,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-			CASSAVA: No matter what it takes, I must protect the surviving species of this star system at any cost.
+			CASSAVA: No matter what it takes, I must protect the surviving species of this star system.
 		</Text>
 	</TextBlock>
 

@@ -49,7 +49,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: For now, I must make sure to quarantine those within the Sanctuary by keeping the quantum shard from traveling inside - but even so, they too, cannot remain here indefinitely..
+			CASSAVA: For now, I must make sure to quarantine those within the Sanctuary by keeping the quantum shard from traveling inside - but they too, cannot remain here indefinitely..
 		</Text>
 	</TextBlock>
 
@@ -58,7 +58,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: ..There is no other choice. I must launch the <![CDATA[<color=orange>Inspired</color>]]> towards Timber Hearth at once.
+			CASSAVA: ..My mind is set. I know how I can contain the deadly matter.
 		</Text>
 	</TextBlock>
 
@@ -67,7 +67,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: But after that... What should I do with the <![CDATA[<color=orange>Inspired..?</color>]]>
+			CASSAVA: Once I have exchanged its warp core, I must launch the <![CDATA[<color=orange>Inspired</color>]]> towards Timber Hearth at once.
 		</Text>
 	</TextBlock>
 

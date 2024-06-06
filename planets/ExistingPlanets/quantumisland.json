@@ -138,8 +138,16 @@
 		"details": [
 		
 			{
+				"rename":"intro whiteboard light",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
-				"position": {"x": 76.2964, "y": -4.9907, "z": -40.9814},
+				"position": {"x": 76.9201, "y": -4.8325, "z": -41.8105},
+				"isRelativeToParent": true
+			},
+			
+			{
+				"rename":"chamber1 scroll light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"position": {"x": -9.1964, "y": 147.4376, "z": -1.2717},
 				"isRelativeToParent": true
 			},
 
