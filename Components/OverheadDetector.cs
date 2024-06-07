@@ -231,5 +231,7 @@ namespace Stowaway.Components
 			_sunLowestPercentage = lowest;
 			_sunHighestPercentage = highest;
 		}
+
+		public void DefaultDirectMoonClamps() => SetMoonClamps(0.945f, 1f);
 	}
 }

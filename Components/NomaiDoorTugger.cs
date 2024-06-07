@@ -9,16 +9,14 @@ using static NomaiMultiPartDoor;
 namespace Stowaway.Components
 {
 	[RequireComponent(typeof(NomaiMultiPartDoor), typeof(OverheadDetector))]
-	public class NomaiDoorTugger : MonoBehaviour
+	public class NomaiDoorTugger : NomaiTugger
 	{
 		private NomaiMultiPartDoor _nomaiDoor;
 		private NomaiInterfaceOrb _orb;
 		private NomaiInterfaceSlot _idleSlot;
 		private NomaiInterfaceSlot _activateSlot;
-		private OverheadDetector _overheadDetector;
-		public bool canOpenAndClose = false;
 
-		public void Start()
+		public override void Start()
 		{
 			_nomaiDoor = this.GetRequiredComponent<NomaiMultiPartDoor>();
 			_orb = _nomaiDoor._listInterfaceOrb.FirstSecondOrDefault(slot => slot.gameObject.name.EndsWith("Front"));
@@ -26,18 +24,16 @@ namespace Stowaway.Components
 			if (_idleSlot == null) _idleSlot = _nomaiDoor._cycleSwitches.FirstSecondOrDefault(slot => slot.gameObject.name.EndsWith("Front"), slot => slot.gameObject.name.StartsWith("Idle"));
 			_activateSlot = _orb._slots.FirstSecondOrDefault(slot => slot.gameObject.name.EndsWith("Front"), slot => slot.gameObject.name.StartsWith("Activate"));
 			if (_activateSlot == null) _activateSlot = _nomaiDoor._cycleSwitches.FirstSecondOrDefault(slot => slot.gameObject.name.EndsWith("Front"), slot => slot.gameObject.name.StartsWith("Activate"));
-			_overheadDetector = this.GetRequiredComponent<OverheadDetector>();
-			_overheadDetector.OnMoonOverhead += OnMoonOverhead;
-			_overheadDetector.OnMoonNoLongerOverhead += OnMoonNoLongerOverhead;
+			base.Start();
 		}
 
-		public void OnMoonOverhead(OWRigidbody bodyOverhead)
+		public override void OnMoonOverhead(OWRigidbody bodyOverhead)
 		{
 			if (canOpenAndClose) Activate();
 			else TugToActivate();
 		}
 
-		public void OnMoonNoLongerOverhead(OWRigidbody bodyOverhead)
+		public override void OnMoonNoLongerOverhead(OWRigidbody bodyOverhead)
 		{
 		}
 

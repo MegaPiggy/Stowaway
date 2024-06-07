@@ -9,16 +9,14 @@ using static NomaiMultiPartDoor;
 namespace Stowaway.Components
 {
 	[RequireComponent(typeof(NomaiAirlock), typeof(OverheadDetector))]
-	public class NomaiAirlockTugger : MonoBehaviour
+	public class NomaiAirlockTugger : NomaiTugger
 	{
 		private NomaiAirlock _nomaiAirlock;
 		private NomaiInterfaceOrb _orb;
 		private NomaiInterfaceSlot _openSlot;
 		private NomaiInterfaceSlot _closedSlot;
-		private OverheadDetector _overheadDetector;
-		public bool canOpenAndClose = false;
-
-		public void Start()
+		
+		public override void Start()
 		{
 			_nomaiAirlock = this.GetRequiredComponent<NomaiAirlock>();
 			_orb = _nomaiAirlock._listInterfaceOrb.FirstOrDefault();
@@ -26,18 +24,16 @@ namespace Stowaway.Components
 			if (_openSlot == null) _openSlot = _nomaiAirlock._openSwitches.FirstOrDefault();
 			_closedSlot = _orb._slots.FirstOrDefault(slot => slot.gameObject.name.EndsWith("Close"));
 			if (_closedSlot == null) _closedSlot = _nomaiAirlock._closeSwitches.FirstOrDefault();
-			_overheadDetector = this.GetRequiredComponent<OverheadDetector>();
-			_overheadDetector.OnMoonOverhead += OnMoonOverhead;
-			_overheadDetector.OnMoonNoLongerOverhead += OnMoonNoLongerOverhead;
+			base.Start();
 		}
 
-		public void OnMoonOverhead(OWRigidbody bodyOverhead)
+		public override void OnMoonOverhead(OWRigidbody bodyOverhead)
 		{
 			if (canOpenAndClose) Open();
 			else TugToOpen();
 		}
 
-		public void OnMoonNoLongerOverhead(OWRigidbody bodyOverhead)
+		public override void OnMoonNoLongerOverhead(OWRigidbody bodyOverhead)
 		{
 			if (canOpenAndClose) Close();
 			else TugToClose();
