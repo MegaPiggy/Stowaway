@@ -71,5 +71,9 @@ namespace Stowaway
 			Debug.LogError(message);
 			return instructions;
 		}
+
+		public static float LowerProgress(this float current, float duration) => Mathf.MoveTowards(current, 0, Time.deltaTime / duration);
+
+		public static float RaiseProgress(this float current, float duration) => Mathf.MoveTowards(current, 1, Time.deltaTime / duration);
 	}
 }

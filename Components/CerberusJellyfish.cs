@@ -12,9 +12,10 @@ namespace Stowaway.Components
 	{
 		private OWRigidbody _planetBody;
 		private QuantumOrbit _orbit;
-		private float _riseTime = 90;
-		private float _currentTime;
+		private float _riseDuration = 60;
+		private float _lowerDuration = 90;
 		private float _originalY;
+		private float _progress;
 		private float _risenY;
 
 		public void Start()
@@ -29,15 +30,15 @@ namespace Stowaway.Components
 		{
 			var quantumMoon = Locator.GetQuantumMoon();
 			if (quantumMoon != null && _orbit._stateIndex == quantumMoon.GetStateIndex())
-			{
-				_currentTime += Time.deltaTime;
-			}
-			transform.localPosition = new Vector3(transform.localPosition.x, Mathf.Lerp(_originalY, _risenY, GetProgress()), transform.localPosition.z);
+				_progress = _progress.RaiseProgress(_riseDuration);
+			else
+				_progress = _progress.LowerProgress(_lowerDuration);
+
+			transform.localPosition = new Vector3(transform.localPosition.x, GetCurrentHeight(), transform.localPosition.z);
 		}
 
-		public float GetProgress()
-		{
-			return Mathf.Clamp01(_currentTime/_riseTime);
-		}
+		public float GetProgress() => _progress;
+
+		public float GetCurrentHeight() => Mathf.Lerp(_originalY, _risenY, GetProgress());
 	}
 }
