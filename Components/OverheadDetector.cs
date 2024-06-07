@@ -34,15 +34,7 @@ namespace Stowaway.Components
 		public event OverheadEvent OnMoonNoLongerOverhead;
 		public event OverheadEvent OnSunNoLongerOverhead;
 
-		private float getCosTo(OWRigidbody target)
-		{
-			if (target == null) return 0;
-			var v1 = (transform.position - _planet.transform.position).normalized;
-			var v2 = (target.transform.position - _planet.transform.position).normalized;
-
-			var cos = Vector3.Dot(v1, v2);
-			return Mathf.Max(0f, cos);
-		}
+		private float getCosTo(OWRigidbody target) => transform.CosTo(_planet, target);
 
 		private void Start()
 		{
@@ -112,14 +104,6 @@ namespace Stowaway.Components
 			return parentBody != null ? parentBody : body;
 		}
 
-		private float smoothstep(float edge0, float edge1, float x)
-		{
-			// Scale, and clamp x to 0..1 range
-			x = Mathf.Clamp01((x - edge0) / (edge1 - edge0));
-
-			return x * x * (3.0f - 2.0f * x);
-		}
-
 		private void FixedUpdate()
 		{
 			_angleToQuantumMoon = _quantumMoon != null && _quantumMoon._stateIndex == _orbit._stateIndex ? getCosTo(_qm) : 0f;
@@ -127,7 +111,7 @@ namespace Stowaway.Components
 			_angleToSun = getCosTo(_sun);
 
 			var previousQMOverhead = IsQuantumMoonOverhead();
-			_quantumMoonOverhead = smoothstep(_qmLowestPercentage, _qmHighestPercentage, _angleToQuantumMoon);
+			_quantumMoonOverhead = _angleToQuantumMoon.SmoothStep(_qmLowestPercentage, _qmHighestPercentage);
 			var nowQMOverhead = IsQuantumMoonOverhead();
 			if (!previousQMOverhead && nowQMOverhead)
 			{
@@ -141,7 +125,7 @@ namespace Stowaway.Components
 			}
 
 			var previousMOverhead = IsMoonOverhead();
-			_moonOverhead = smoothstep(_moonLowestPercentage, _moonHighestPercentage, _angleToMoon);
+			_moonOverhead = _angleToMoon.SmoothStep(_moonLowestPercentage, _moonHighestPercentage);
 			var nowMOverhead = IsMoonOverhead();
 			if (!previousMOverhead && nowMOverhead)
 			{
@@ -155,7 +139,7 @@ namespace Stowaway.Components
 			}
 
 			var previousSOverhead = IsSunOverhead();
-			_sunOverhead = smoothstep(_sunLowestPercentage, _sunHighestPercentage, _angleToSun);
+			_sunOverhead = _angleToSun.SmoothStep(_sunLowestPercentage, _sunHighestPercentage);
 			var nowSOverhead = IsSunOverhead();
 			if (!previousSOverhead && nowSOverhead)
 			{
