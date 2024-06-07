@@ -12,8 +12,8 @@ namespace Stowaway.Components
 	{
 		private OWRigidbody _planetBody;
 		private QuantumOrbit _orbit;
-		private float _riseDuration = 60;
-		private float _lowerDuration = 90;
+		private float _riseDuration = 30;
+		private float _lowerDuration = 60;
 		private float _originalY;
 		private float _progress;
 		private float _risenY;
