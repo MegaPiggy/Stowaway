@@ -49,7 +49,7 @@ public class Stowaway : ModBehaviour
 	private void Start()
 	{
 		var newHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
-		newHorizonsAPI.GetBodyLoadedEvent().AddListener(BodyLoaded);
+		newHorizonsAPI.GetBodyLoadedEvent().AddListener(body => BodyLoaded(body.Replace(" ","")));
 		newHorizonsAPI.LoadConfigs(this);
 		NewHorizonsAPI = newHorizonsAPI;
 
@@ -68,9 +68,13 @@ public class Stowaway : ModBehaviour
 
 	private void BodyLoaded(string body)
 	{
-		if (body == "Ash Twin")
+		if (body == "AshTwin")
 		{
 			initAshTwin_Late();
+		}
+		if (body == "TimberHearth")
+		{
+			initTimberHearth_Late();
 		}
 		if (body == "GiantsDeep")
 		{
@@ -107,6 +111,16 @@ public class Stowaway : ModBehaviour
 		{
 			door.gameObject.GetAddComponent<OverheadDetector>().DefaultDirectMoonClamps();
 			door.gameObject.GetAddComponent<NomaiDoorTugger>().SetCanOpenAndClose(true);
+		}
+	}
+
+	private void initTimberHearth_Late()
+	{
+		var timberHearth = Locator.GetAstroObject(AstroObject.Name.TimberHearth);
+		foreach (var gateway in timberHearth.GetComponentsInChildren<NomaiGateway>(true))
+		{
+			gateway.gameObject.GetAddComponent<OverheadDetector>();
+			gateway.gameObject.GetAddComponent<NomaiGatewayTugger>();
 		}
 	}
 
