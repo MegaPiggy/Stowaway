@@ -13,56 +13,32 @@ namespace Stowaway.Components
 	{
 		private NomaiGateway _nomaiGateway;
 		private NomaiInterfaceOrb _orb;
+		private Transform _slotsRoot;
 		private NomaiInterfaceSlot _openSlot;
 		private NomaiInterfaceSlot _closedSlot;
+		private Vector3 _middlePoint;
+		private Vector3 middlePosition => _slotsRoot.TransformPoint(_middlePoint);
 
 		public override void Start()
 		{
 			_nomaiGateway = this.GetRequiredComponent<NomaiGateway>();
 			_orb = _nomaiGateway._orb;
 			if (_orb == null) _orb = _nomaiGateway.GetComponentInChildren<NomaiInterfaceOrb>(true);
-			_openSlot = _nomaiGateway._closeSlot;
+			_openSlot = _nomaiGateway._openSlot;
 			_closedSlot = _nomaiGateway._closeSlot;
+			_slotsRoot = _openSlot.transform.parent;
+			_middlePoint = _slotsRoot.GetComponentInChildren<OWRail>()._railPoints[1];
 			base.Start();
 		}
 
 		public override void OnMoonOverhead(OWRigidbody bodyOverhead)
 		{
-			if (canOpenAndClose) Open();
-			else TugToOpen();
+			TugToOpen();
 		}
 
 		public override void OnMoonNoLongerOverhead(OWRigidbody bodyOverhead)
 		{
-			if (canOpenAndClose) Close();
-			else TugToClose();
-		}
-
-		public float GetDistanceBetweenSlots()
-		{
-			return Vector3.Distance(_openSlot.transform.position, _closedSlot.transform.position);
-		}
-
-		public Vector3 GetPositionTowards(Vector3 a, Vector3 b)
-		{
-			var direction = (b - a).normalized;
-			return (a + ((GetDistanceBetweenSlots() / 2) * direction));
-		}
-
-		private void Open()
-		{
-			if (_orb._belowSand) return;
-			if (!_nomaiGateway._open)
-			{
-			}
-		}
-
-		private void Close()
-		{
-			if (_orb._belowSand) return;
-			if (_nomaiGateway._open)
-			{
-			}
+			ReleaseTug();
 		}
 
 		private void TugToOpen()
@@ -70,21 +46,15 @@ namespace Stowaway.Components
 			if (_orb._belowSand) return;
 			if (!_nomaiGateway._open)
 			{
-			}
-			else
-			{
+				_orb.StartDragFromPosition(_orb.transform.position);
+				_orb.SetTargetPosition(middlePosition);
 			}
 		}
 
-		private void TugToClose()
+		private void ReleaseTug()
 		{
 			if (_orb._belowSand) return;
-			if (_nomaiGateway._open)
-			{
-			}
-			else
-			{
-			}
+			_orb.CancelDrag();
 		}
 	}
 }
