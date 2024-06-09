@@ -169,7 +169,7 @@
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
 				"position":{"x": 17.9868,"y": 26.4906,"z": -38.9725},
 				"rotation":{"x": 320.0278, "y": 268.1888,"z": 182.1174},
-				"stretch": {"x":1,"y": 0.5,"z": 1},
+				"stretch": {"x":0.9,"y": 0.5,"z": 0.9},
 				"isRelativeToParent": true,
 				"removeChildren": ["ProbeVisuals"]
 			},
@@ -178,7 +178,7 @@
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
 				"position":{"x": 17.9868,"y": 26.4906,"z": -51.1924},
 				"rotation":{"x": 320.0278, "y": 268.1888,"z": 182.1174},
-				"stretch": {"x":1,"y": 0.5,"z": 1},
+				"stretch": {"x":0.9,"y": 0.5,"z": 0.9},
 				"isRelativeToParent": true,
 				"removeChildren": ["ProbeVisuals"]
 			},
@@ -187,6 +187,7 @@
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
 				"position":{"x": 18.9074,"y": 27.2034,"z": -38.8021},
 				"rotation":{"x": 37.446, "y": 116.5779 ,"z": 196.9185},
+				"scale":0.8,
 				"parentPath": "Sector_ConstructionYard/Schematic GM volume left",
 				"isRelativeToParent": false
 			},
@@ -195,6 +196,7 @@
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
 				"position":{"x": 18.471,"y": 27.6201,"z": -50.493},
 				"rotation":{"x": 37.446, "y": 116.5779 ,"z": 196.9185},
+				"scale":0.8,
 				"parentPath": "Sector_ConstructionYard/Schematic GM volume right",
 				"isRelativeToParent": false
 			},
@@ -225,7 +227,7 @@
 			{
 				"rename": "Workshop planty",
 				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
-				"position": {"x": 18.1526, "y": 28.019, "z": -39.7729},
+				"position": {"x": 18.1526, "y": 28.019, "z": -38.7856},
 				"rotation": {"x": 49.0684, "y": 80.8027, "z": 173.0259},
 				"isRelativeToParent": true
 			},
@@ -237,13 +239,23 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename": "Weapon mural",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/weapon mural plane.prefab",
+				"rename": "Weapon mural side",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/mural side.prefab",
 				"parentPath": "Sector_ConstructionYard/Yard Mural board",
-				"position": {"x":1.1255,"y": 1.6509, "z": 0.0218},
+				"position": {"x":1.3255,"y": 1.6509, "z": 0.0218},
 				"rotation": {"x":90,"y":0, "z": 0},
-				"scale": 0.3,
+				"scale": 0.25,
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "Weapon mural front",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/mural front.prefab",
+				"parentPath": "Sector_ConstructionYard/Yard Mural board",
+				"position": {"x":-1.1127,"y": 1.6509, "z": 0.0218},
+				"rotation": {"x":90,"y":0, "z": 0},
+				"scale": 0.25,
 				"isRelativeToParent": true
 			},
 		{

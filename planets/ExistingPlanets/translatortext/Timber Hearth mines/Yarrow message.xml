@@ -12,7 +12,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: Ah, Cycad! I must return to <![CDATA[<color=lightblue>Ash Twin</color>]]> for another matter for now. If might you know where Coleus is, I'd greatly appreciate if you could send him my way!
+		YARROW: Ah, Cycad! I must return to <![CDATA[<color=lightblue>Ash Twin</color>]]> for another matter, but if might you know where Coleus is, I would greatly appreciate if you could send him my way!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CYCAD: It would be my pleasure! Coleus must be playing with the native lifeforms again around the pools outside <![CDATA[<color=orange>mining site 2b</color>]]> again.. I'd be glad to help convey your needs to him, Yarrow!
+		CYCAD: It would be my pleasure! Coleus must be playing with the native lifeforms again around the pools outside <![CDATA[<color=orange>mining site 2b</color>]]> again.. I'd be glad to help convey your message to him, Yarrow!
 		</Text>
 	</TextBlock>
 

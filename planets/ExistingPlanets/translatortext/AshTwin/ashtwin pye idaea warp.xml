@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		IDAEA: I am surprised to see you here today, Pye. I did not think you would be remotely interested in <![CDATA[<color=orange>a test concerning the safety of our clan</color>]]> and the star system.
+		IDAEA: I am surprised to see you here today, Pye. I did not think you would be remotely interested in a test concerning the safety of our clan and the star system.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -56,36 +56,47 @@
 		IDAEA: Nevertheless, I truly pray the test today will give all of us the solace and confidence we need to follow in our ambitions.
 		</Text>
 	</TextBlock>
+
 	<TextBlock>	
 	<ID>8</ID>
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		PYE: Goodness! Has it always taken this long for this warp tower to activate?
+		PYE: ...
 		</Text>
 			</TextBlock>
-				<TextBlock>	
+			
+<TextBlock>	
 	<ID>9</ID>
 		<LocationA />
 		<ParentID>8</ParentID>
+		<Text>
+		PYE: Goodness, has it always taken this long for this warp tower to activate? I am unsure if we will arrive in time at this rate..
+		</Text>
+</TextBlock>
+
+	<TextBlock>	
+	<ID>10</ID>
+		<LocationA />
+		<ParentID>9</ParentID>
 		<Text>
 		PYE: Every time I think the planet will finally align with the warp tower, it starts to go into retrograde!
 		</Text>
 			</TextBlock>
 			<TextBlock>	
-	<ID>10</ID>
+	<ID>11</ID>
 		<LocationA />
-		<ParentID>9</ParentID>
+		<ParentID>10</ParentID>
 		<Text>
 		IDAEA: Unfortunately, the farther out a planet is, the harder it is for the warp tower to align due to the Hourglass Twins' orbit.. We must simply be patient.
 		</Text>
 			</TextBlock>
 				<TextBlock>	
-	<ID>11</ID>
+	<ID>12</ID>
 		<LocationA />
-		<ParentID>10</ParentID>
+		<ParentID>11</ParentID>
 		<Text>
-		IDAEA: Ah, the alignment is happening at last! Come, Pye: The <![CDATA[<color=orange>Deep Storm Station</color>]]> awaits us.
+		IDAEA: Ah, the alignment is happening at last. Come, Pye: The <![CDATA[<color=orange>Deep Storm Station</color>]]> awaits us.
 		</Text>
 			</TextBlock>
 

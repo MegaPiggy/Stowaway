@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1735524127
+CRC: 2855831970
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: cf6b25dc42aacc1a0f75d3f5662511ae
+    Hash: d50db43c2d3ef717f82961ee20bafc39
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2d81fdb67840a97a62fd771384d0cec8
+    Hash: 6949c2f42b0b8822eb7c0077292b84e2
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -32,6 +32,8 @@ ClassTypes:
 - Class: 65
   Script: {instanceID: 0}
 - Class: 82
+  Script: {instanceID: 0}
+- Class: 89
   Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
@@ -73,11 +75,16 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
 - Class: 198
   Script: {instanceID: 0}
 - Class: 199
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Models/mural side.prefab
+- Assets/Models/Solaumn alloy.prefab
 - Assets/Models/Tractor beam SW 1.prefab
+- Assets/Models/mural front.prefab
 Dependencies: []

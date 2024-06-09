@@ -500,7 +500,7 @@
 			{
 				"rename":"Jellyfish mural tablet",
 				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Interactables_OrbitalProbeCannon/Interactables_VisibleOrbitalProbeCannon/ModuleSign_2/Prefab_NOM_Tablet",
-				"position":{"x":11.4003,"y": -3.7618,"z": -92.2208},
+				"position":{"x":11.4512,"y": -3.6618,"z": -93.6009},
 				"rotation":{"x":336.4135,"y": 257.5005,"z": 178.8469},
 				"isRelativeToParent": true
 			},
@@ -733,7 +733,13 @@
 				"stretch": {"x":4,"y":7,"z":4},
 				"isRelativeToParent": true
 			},
-			
+			{
+				"rename":"jellyfish recording lamp",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/StatueIsland_VisibleFromGD/WarpReceiver/Prefab_NOM_WarpReceiver/Props_NOM_Lamp_Wall",
+				"position":{"x": 7.2207,"y": 4.0324,"z": -90.8213},
+				"rotation":{"x":5.0557,"y": 240.5844,"z": 11.0901},
+				"isRelativeToParent": true
+			},
 
 
 			{
@@ -1010,8 +1016,8 @@
 			},
 			{
 				"rename":"Jellyfish notice recorder",
-				"position": {"x":7.3965,"y": 4.041,"z": -90.6226},
-				"rotation": {"x":359.1399,"y": 330.5534,"z": 11.0624},
+				"position": {"x":4.9274,"y": 4.2856,"z": -89.716},
+				"rotation": {"x":351.7044,"y": 298.4751,"z": 7.3399},
 				"type": "recorder",
 				"isRelativeToParent": true,
 				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/jellyfish surfacing notice.xml"

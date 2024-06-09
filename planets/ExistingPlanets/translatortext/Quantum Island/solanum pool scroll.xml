@@ -7,7 +7,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			COLEUS: Thanks to Melorae's new quantum rule, we should at last be able to reach the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> surface without its clouds obscuring our sight and allowing it to slip back into superposition.</Text>
+			COLEUS: Thanks to Melorae's new quantum rule, we should now be able to carry out this long-awaited expedition without the clouds obscuring our sight, and allowing our destination to slip back into superposition.</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>2</ID>
@@ -39,7 +39,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: I suggest visiting the <![CDATA[<color=orange>Quantum Moon locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin's</color>]]> south pole instead. With the locator's assistance, you would have a clear view of which planet the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is orbiting at all times!
+		COLEUS: I suggest you visit the <![CDATA[<color=orange>Quantum Moon locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin's</color>]]> south pole. With the locator's assistance, you would have a clear view of which planet the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is orbiting at all times!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -55,7 +55,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		PLUME: That would be a wise idea, Thatch. Phlox and I will gladly serve as your set of eyes from afar; Be curious on your journey, my friends!
+		PLUME: That would be a wise idea, Thatch. Phlox and I will gladly serve as your set of eyes from afar during your expedition. Be curious on your journey, my friends!
 		</Text>
 	</TextBlock>
 

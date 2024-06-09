@@ -29,7 +29,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		COLEUS: I've been adjusting our vision orbs to accomodate the native lifeforms' vision so they can be able to use them too. I'm quite hopeful they'll learn to use it soon!
+		COLEUS: I have been adjusting our vision orbs to accomodate the native lifeforms' vision to allow them to use them, you see. I'm quite hopeful they'll learn to use it soon!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: I wish I could credit their eyes for that, Coleus - but I'm afraid it's more likely that may have just been the <![CDATA[<color=lightblue>Attlerock's</color>]]> gravity tugging the vision orb upwards as it orbited overhead!
+		OENO: I wish I could credit their eyes, Coleus - but I'm afraid it is more likely that may have been the <![CDATA[<color=lightblue>Attlerock's</color>]]> gravity tugging the vision orb upwards as it orbited overhead!
 				</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: Was the <![CDATA[<color=lightblue>Attlerock</color>]]> orbiting overhead just now? Curses.. I can't seem to get them to look at the vision orb long enough without them becoming distracted!
+		COLEUS: Was the <![CDATA[<color=lightblue>Attlerock</color>]]> orbiting overhead just now? Curses.. I can't seem to get them to look at the vision orb long enough without becoming distracted!
 				</Text>
 	</TextBlock>
 		<TextBlock>
@@ -93,7 +93,7 @@
 		<LocationA />
 		<ParentID>11</ParentID>
 		<Text>
-		CYCAD: When Yarrow went to check on the issue, he noticed the same thing happening to the rotating doors to Timber Hearth's warp tower!
+		CYCAD: When Yarrow went to check on the issue, he noticed the same thing happening to the rotating doors at the Timber Hearth warp tower!
 		</Text>
 	</TextBlock>
 	<TextBlock>

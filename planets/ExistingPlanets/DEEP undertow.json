@@ -31,8 +31,8 @@
 
 
 	"Atmosphere": {
-		"fogDensity": 0.4,
-		"fogRampPath": "planets/assets/fogcolorramp unblended.png",
+		"fogDensity": 0.5,
+		"fogRampPath": "planets/assets/fogcolorramp purple.png",
 		"hasShockLayer": false,
 		"fogSize": 1100
 	},
@@ -393,9 +393,10 @@
 				"rotation": {"x": 298.813,"y": 246.6798,"z": 116.1293}
 			},
 			{
+				"rename":"No cheese tree",
 				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
-				"position": {"x": 2.7408,"y": -10.2145,"z": -10.7035},
-				"rotation": {"x": 333.7743,"y": 95.8745,"z": 76.375}
+				"position": {"x": 12.584,"y": -3.2418,"z": -11.9869},
+				"rotation": {"x": 10.8892,"y": 93.2562,"z": 78.9785}
 			},
 
 			{
@@ -472,15 +473,15 @@
 				"position":{"x":0.7189,"y": 1.9211,"z": 4.683},
 				"rotation":{"x":45.1776,"y": 282.5062,"z": 107.5871},
 				"isRelativeToParent": true,
-				"stretch":{"x":2.9891,"y": 2.22,"z": 4.8691}
+				"stretch":{"x":2.9891,"y": 1.72,"z": 4.8691}
 			},
 			{
 				"rename":"DSS grav invert",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal/CapsuleVolume_NOM_GravityCrystal",
-				"position":{"x":0.2809,"y": -1.7243,"z": -12.4967},
-				"rotation":{"x":320.3345,"y": 100.0881,"z": 74.0669},
+				"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/Path_I_to_II/GravityCrystalVolume",
+				"position":{"x":-1.2805,"y": -0.9943,"z": -9.7014},
+				"rotation":{"x":287.7954,"y": 227.2184,"z": 314.2545},
 				"isRelativeToParent": true,
-				"stretch":{"x":2.6891,"y": 1.42,"z": 4.8691}
+				"stretch":{"x":3.3,"y": 1.7727,"z": 5.7}
 			},
 
 			
@@ -602,11 +603,7 @@
 				"rotation":{"x":300.8734,"y": 248.6344,"z": 114.4336},
 				"isRelativeToParent": true
 			},
-			{
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Lighting_QuantumTower/OtherComponentsGroup/FillLight_NOM_QuantumTowerMid",
-				"position":{"x":0,"y":0,"z":0},
-				"isRelativeToParent": true
-			},
+		
 
 		
 			

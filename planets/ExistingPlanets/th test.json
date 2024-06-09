@@ -59,12 +59,15 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename": "test gabbro",
-				"path":"GabbroIsland_Body/Sector_GabbroIsland/Interactables_GabbroIsland/Traveller_HEA_Gabbro",
-				"position":{"x":15.0399,"y": -39.3562,"z": 185.9982},
-				"rotation": {"x":6.8649 ,"y": 269.0506,"z": 259.1091},
+				"rename": "soalnum",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/Solaumn alloy.prefab",
+				"scale":0.9,
+				"position":{"x": 15.2943,"y": -45.0238,"z": 185.7332},
+				"rotation": {"x":305.1076 ,"y":  288.564,"z": 251.7449},
 				"isRelativeToParent": true
 			}
+			
 
 		
 		],
@@ -85,23 +88,7 @@
 					{
 						"id":"Timber Hearth",
 						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
-						"seed":5,
-						"arcInfo": [
-							{},
-							{},
-							{},
-							{"position": {"x":-0.8718,"y": 0.9197},
-						"zRotation": 333.7439},
-							{"position": {"x":0.5751,"y": 1.3282},
-						"zRotation": 291.6493},
-							{},
-							{},
-							{"position": {"x":-1.5418,"y": 1.5103},
-						"zRotation": 349.6538},
-							{"position": {"x":-0.6063,"y": 2.1517},
-						"zRotation": 323.2246}
-						]
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml"
 					}
 					]
 				

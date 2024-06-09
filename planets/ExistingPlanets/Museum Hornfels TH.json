@@ -307,6 +307,7 @@
 			"rename":"Museum shard NEW",
 			"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
 			"removeChildren": ["VisibilityTracker", "Rock_TH_Observatory_QRock/Collider_TH_Observatory_QRock"],
+			"removeComponents": true,
 			"position":{"x":-0.0648,"y": -0.2449,"z": -0.9449},
 			"rotation":{"x":30.5644,"y": 280.9139,"z": 281.967},
 			"scale":1.7,
