@@ -171,6 +171,18 @@ public class Stowaway : ModBehaviour
 		var qmChopZone = new GameObject("QuantumMoonChopZone");
 		qmChopZone.transform.SetParent(giantsDeep.GetRootSector().transform, false);
 		qmChopZone.AddComponent<QuantumMoonChopZone>();
+		CreateInvertedOccluder(giantsDeep.GetRootSector().transform, "CloudsInvertedOccluder", 930);
+		CreateInvertedOccluder(giantsDeep.GetRootSector().transform, "OceanInvertedOccluder", 500);
+	}
+
+	private void CreateInvertedOccluder(Transform parent, string name, float radius)
+	{
+		var invertedOccluder = new GameObject(name);
+		invertedOccluder.transform.SetParent(parent, false);
+		var sphere = invertedOccluder.AddComponent<SphereShape>();
+		sphere.radius = radius;
+		sphere.SetCollisionMode(Shape.CollisionMode.Volume);
+		invertedOccluder.AddComponent<InvertedVisibilityOccluder>();
 	}
 
 	private void golemConnectionEntered()
