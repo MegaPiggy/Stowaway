@@ -7,6 +7,8 @@ namespace Stowaway.Components
 {
 	public class QuantumMoonWaterColumnController : MonoBehaviour
 	{
+		private static readonly float multiplier = 5;
+
 		private Transform target;
 		private Transform anchor;
 		private Transform align;
@@ -61,7 +63,7 @@ namespace Stowaway.Components
 		{
 			var prevScale = scale;
 			if (IsQuantumMoonLockedToOrbit())
-				scale = target.CosTo(anchor, align).SmoothStep(0.945f, 1);
+				scale = target.CosTo(anchor, align).SmoothStep(0.945f, 1) * multiplier;
 			else
 				scale = 0;
 
