@@ -122,6 +122,7 @@ namespace Stowaway.Components
 
 		private void OnDestroy()
 		{
+			Locator.GetToolModeSwapper().GetItemCarryTool().DropItemToGround(_platform._slavePlatform.transform, _platform._slavePlatform._visualSector);
 			var pr = Locator.GetPlayerController().gameObject.GetComponent<PlayerResources>();
 			if (pr != null)
 			{

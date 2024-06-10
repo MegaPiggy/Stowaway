@@ -102,5 +102,56 @@ namespace Stowaway
 		public static float LowerProgress(this float current, float duration) => Mathf.MoveTowards(current, 0, Time.deltaTime / duration);
 
 		public static float RaiseProgress(this float current, float duration) => Mathf.MoveTowards(current, 1, Time.deltaTime / duration);
+
+		public static Sector GetSectorOrControllingProxySector(this SectorCullGroup sectorCullGroup)
+		{
+			Sector sector = sectorCullGroup.GetSector();
+			if (sector == null)
+			{
+				SectorProxy controllingProxy = sectorCullGroup.GetControllingProxy();
+				if (controllingProxy != null)
+				{
+					sector = controllingProxy.GetSector();
+				}
+			}
+			return sector;
+		}
+
+		public static Sector GetSectorFromRaycastHit(this RaycastHit hit)
+		{
+			Sector sector = null;
+			SectorCullGroup sectorCullGroup = hit.collider.gameObject.GetComponentInParent<SectorCullGroup>();
+			if (sectorCullGroup != null) sector = sectorCullGroup.GetSectorOrControllingProxySector();
+			else
+			{
+				var sectorGroup = hit.collider.gameObject.GetComponentInParent<ISectorGroup>();
+				if (sectorGroup != null) sector = sectorGroup.GetSector();
+			}
+			return sector;
+		}
+
+		public static void DropItemToGround(this ItemTool tool, Transform socket, Sector sector)
+		{
+			var heldItem = tool.GetHeldItem();
+			if (heldItem != null)
+			{
+				var playerTransform = Locator.GetPlayerTransform();
+				if (Physics.Raycast(playerTransform.position, -playerTransform.up, out var hit, 200, OWLayerMask.groundMask))
+				{
+					var newSector = hit.GetSectorFromRaycastHit();
+					sector = newSector != null ? newSector : sector;
+					GameObject gameObject = hit.collider.gameObject;
+					IItemDropTarget customDropTarget = gameObject.GetComponentInParent<IItemDropTarget>();
+					Transform parent = ((customDropTarget == null) ? socket : customDropTarget.GetItemDropTargetTransform(gameObject));
+					heldItem.DropItem(hit.point, hit.normal, parent, sector, customDropTarget);
+					customDropTarget?.AddDroppedItem(gameObject, heldItem);
+				}
+				else
+				{
+					heldItem.DropItem(playerTransform.position, playerTransform.up, socket, sector, null);
+				}
+				tool._heldItem = null;
+			}
+		}
 	}
 }
