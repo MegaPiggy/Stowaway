@@ -10,6 +10,8 @@ namespace Stowaway.Components
 {
 	public class QuantumMoonChopZone : OceanChopZone
 	{
+		private SphereShape _sphereShape;
+		private ChopFluidVolume _fluidVolume;
 		private QuantumOrbit _orbit;
 		private bool _isLocked;
 
@@ -28,6 +30,13 @@ namespace Stowaway.Components
 			_orbit = body.GetComponent<QuantumOrbit>();
 			_ocean = body.GetComponentInChildren<OceanEffectController>(true);
 			GlobalMessenger<OWRigidbody>.AddListener("QuantumMoonChangeState", OnQuantumMoonStateChanged);
+
+			gameObject.layer = LayerMask.NameToLayer("BasicEffectVolume");
+			_sphereShape = gameObject.AddComponent<SphereShape>();
+			_sphereShape.radius = 0;
+			_sphereShape.SetCollisionMode(Shape.CollisionMode.Volume);
+			gameObject.AddComponent<OWTriggerVolume>();
+			_fluidVolume = gameObject.AddComponent<ChopFluidVolume>();
 		}
 
 		public void OnDestroy()
@@ -55,6 +64,9 @@ namespace Stowaway.Components
 				_currentRadius = Mathf.Lerp(_lastRadius, 0, Mathf.InverseLerp(_startTime, _endTime, Time.time));
 			}
 			_radius = _currentRadius;
+			var fluidRadius = _currentRadius / 2;
+			_sphereShape.radius = fluidRadius;
+			_fluidVolume.radius = fluidRadius;
 		}
 
 		public void OnQuantumMoonStateChanged(OWRigidbody qmBody)
@@ -73,6 +85,26 @@ namespace Stowaway.Components
 				_startTime = Time.time;
 				_lastRadius = _currentRadius;
 			}
+		}
+
+		internal class ChopFluidVolume : FluidVolume
+		{
+			public float buoyancyDensity = 1;
+			public float radius;
+
+			public override bool IsSpherical() => true;
+
+			public override Vector3 GetBuoyancy(FluidDetector detector, float fractionSubmerged)
+			{
+				if (detector.GetAttachedOWRigidbody().GetAttachedForceDetector() != null)
+				{
+					Vector3 negativeVector = detector.GetAttachedOWRigidbody().GetAttachedForceDetector().GetForceAcceleration() - _attachedBody.GetAttachedForceDetector().GetForceAcceleration();
+					return Vector3.Project(onNormal: detector.transform.position - base.transform.position, vector: -negativeVector) * fractionSubmerged * buoyancyDensity / detector.GetBuoyancyData().density;
+				}
+				return Vector3.zero;
+			}
+
+			public override float GetFractionSubmerged(FluidDetector detector) => detector.GetBuoyancyData().CalculateSubmergedFraction((detector.transform.position - transform.position).magnitude, radius);
 		}
 	}
 }
