@@ -72,6 +72,10 @@ public class Stowaway : ModBehaviour
 		{
 			initAshTwin_Late();
 		}
+		if (body == "EmberTwin")
+		{
+			initEmberTwin_Late();
+		}
 		if (body == "TimberHearth")
 		{
 			initTimberHearth_Late();
@@ -118,6 +122,16 @@ public class Stowaway : ModBehaviour
 	{
 		var timberHearth = Locator.GetAstroObject(AstroObject.Name.TimberHearth);
 		foreach (var gateway in timberHearth.GetComponentsInChildren<NomaiGateway>(true))
+		{
+			gateway.gameObject.GetAddComponent<OverheadDetector>();
+			gateway.gameObject.GetAddComponent<NomaiGatewayTugger>();
+		}
+	}
+
+	private void initEmberTwin_Late()
+	{
+		var caveTwin = Locator.GetAstroObject(AstroObject.Name.CaveTwin);
+		foreach (var gateway in caveTwin.GetComponentsInChildren<NomaiGateway>(true))
 		{
 			gateway.gameObject.GetAddComponent<OverheadDetector>();
 			gateway.gameObject.GetAddComponent<NomaiGatewayTugger>();
