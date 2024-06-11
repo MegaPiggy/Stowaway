@@ -113,7 +113,7 @@ public class Stowaway : ModBehaviour
 #endif
 		foreach (var door in ashTwin.GetComponentsInChildren<NomaiMultiPartDoor>(true))
 		{
-			door.gameObject.GetAddComponent<OverheadDetector>().DefaultDirectMoonClamps();
+			door.gameObject.GetAddComponent<OverheadDetector>();
 			door.gameObject.GetAddComponent<NomaiDoorTugger>().SetCanOpenAndClose(true);
 		}
 	}
@@ -135,6 +135,11 @@ public class Stowaway : ModBehaviour
 		{
 			gateway.gameObject.GetAddComponent<OverheadDetector>();
 			gateway.gameObject.GetAddComponent<NomaiGatewayTugger>();
+		}
+		foreach (var door in caveTwin.GetComponentsInChildren<NomaiMultiPartDoor>(true))
+		{
+			door.gameObject.GetAddComponent<OverheadDetector>();
+			door.gameObject.GetAddComponent<NomaiDoorTugger>();
 		}
 	}
 
@@ -175,6 +180,11 @@ public class Stowaway : ModBehaviour
 			repellent.AddComponent<OWTriggerVolume>();
 			repellent.AddComponent<OtherIslandRepelFluidVolume>();
 			repellent.AddComponent<DebugVolume>();
+		}
+		foreach (var door in body.GetComponentsInChildren<NomaiMultiPartDoor>(true))
+		{
+			door.gameObject.GetAddComponent<OverheadDetector>();
+			door.gameObject.GetAddComponent<NomaiDoorTugger>();
 		}
 	}
 
