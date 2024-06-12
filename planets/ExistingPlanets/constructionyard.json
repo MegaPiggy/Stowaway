@@ -74,9 +74,23 @@
 		"details":
 		[
 			{
-				"rename":"recorder light",
+				"rename":"bay storm shelter",
+				"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_SafetyTractorBeam/",
+				"position":{"x": 27.0361,"y": 0.9189,"z": -64.1132},
+				"rotation": {"x":358.2119,"y":21.7309,"z": 358.7906},
+				"isRelativeToParent": true
+				},
+				{
+					"rename":"bay table",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+					"position":{"x": 22.6056,"y": 0.8388,"z": -66.2831},
+					"rotation": {"x":0.1491,"y": 265.5813,"z": 1.9283},
+					"isRelativeToParent": true
+					},
+			{
+				"rename":"bay recorder light",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal/Light_NOM_GravityCrystal",
-				"position":{"x": -2.6508,"y": 9.3641,"z": 48.1779},
+				"position": {"x": 21.8867, "y": 2.9065, "z": -66.0669},
 				"isRelativeToParent": true
 				},
 			{
@@ -587,8 +601,8 @@
 			{
 				"rename": "Shelter question recording",
 				"type": "recorder",
-				"position": {"x": -2.7364, "y": 8.0108, "z": 47.1258},
-				"rotation": {"x": 4.0762, "y": 340.4853,"z": 359.5818},
+				"position": {"x": 21.8867, "y": 1.9065, "z": -66.0669},
+				"rotation": {"x": 358.7878, "y": 308.8004,"z": 1.5072},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/storm shelter question.xml"
 			},
 			{

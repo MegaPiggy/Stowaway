@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3536092939
+CRC: 1784997497
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f72580a9af8e0cd49d70c8a8d2c1fc13
+    Hash: 28dd8cf5092033751fee954493bc5fcf
   TypeTreeHash:
     serializedVersion: 2
     Hash: 2bbb2beb9ed72c0ab4de00516b191f85
@@ -105,6 +105,7 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/ToyPyramid.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Broken.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Corner_BOTH_Broken.prefab
+- Assets/Nomai Ruins/Prefabs/gravity crystal chips.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_F.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_R.prefab
 - Assets/Nomai Ruins/Prefabs/Fancy Door.prefab

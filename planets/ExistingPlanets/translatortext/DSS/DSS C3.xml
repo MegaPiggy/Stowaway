@@ -28,7 +28,7 @@
 	<TextBlock>
 		<ID>4</ID>
 		<LocationB />
-		<ParentID>3</ParentID>
+		<ParentID>2</ParentID>
 		<Text>
 			CASSAVA: ..It matters not.
 		</Text>
@@ -47,7 +47,7 @@
 	<TextBlock>
 		<ID>6</ID>
 		<LocationB />
-		<ParentID>4</ParentID>
+		<ParentID>5</ParentID>
 		<Text>
 			CASSAVA: No matter what it takes, I must protect the surviving species of this star system.
 		</Text>

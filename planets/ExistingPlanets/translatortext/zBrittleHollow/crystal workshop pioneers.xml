@@ -8,52 +8,58 @@
 		PLUME: Kousa, your handiwork is impressive as ever! The <![CDATA[<color=orange>Gravity Crystal Workshop's</color>]]> shelves are always stocked full of crystals of perfect symmetry each time I visit.
 		</Text>
 	</TextBlock>
+
 		<TextBlock>
 		<ID>2</ID>
-		<LocationB />
+		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		KOUSA: Plume, my old friend! You have returned from your expedition safely!
+		KOUSA: Plume, my old friend! You have returned from your expedition safely! Has the ocean planet been treating you well? 
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
 		<ID>3</ID>
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		KOUSA: Has the ocean planet been treating you well? What brings you here to my humble workshop today?
+		KOUSA: And yes, yes - the recent meteor storms have broken off more tiny pieces of Brittle Hollow's undercrust, giving me tons of material to carve into new crystals.
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
 		<ID>4</ID>
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		PLUME: Kousa, I have been back for some time! And do you not recall? You invited me to your workshop to show me an invention you engineered to help our expedition team weather the terrible storms on the ocean planet!
+		KOUSA: Now, what brings you here to my humble workshop today?
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Oh... Yes, yes, of course! How could I have forgotten? I wanted to show you my newest invention... the storm shelter!
+		PLUME: Kousa, I have already been back for some time. We ate together the previous day!
 		</Text>
 	</TextBlock>
-	<TextBlock>
+	
+<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: It is a device that generates a gravity field designed to hold Nomai in place in zero-gravity environments, perfect for protecting Nomai on Giant's Deep.
+		PLUME: Do you not recall? You invited me to your workshop to show me an invention you engineered to help our expedition team weather the terrible storms on the ocean planet!
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: This is our first collaboration with the..... The...
+		KOUSA: Oh... Yes, yes, of course! How could I have forgotten? I wanted to show you my newest invention! It is right outside - I have named it the storm shelter!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -61,23 +67,24 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: The Sunless City?
+		KOUSA: The storm shelter is a device that generates a gravity field designed to hold Nomai in place in zero-gravity environments, perfect for protecting Nomai when islands are lifted into space.
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
 		<ID>9</ID>
 		<ParentID>8</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Yes, yes! The Sunless City! They kindly shared their technology with us to power this invention.
+		KOUSA: This is our first collaboration with the..... The...
 		</Text>
 	</TextBlock>
-		<TextBlock>
+	<TextBlock>
 		<ID>10</ID>
 		<ParentID>9</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Thanks to their contributions, the device can autonomously power itself when the island is launched into orbit, and even deactivates on its own afterwards, conserving power!
+		PLUME: The <![CDATA[<color=orange>Sunless City?</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -85,7 +92,7 @@
 		<ParentID>10</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: How incredible! I must thank our friends from the Sunless City when we next set off for Giant's Deep together.
+		KOUSA: Yes, yes! The <![CDATA[<color=orange>Sunless City!</color>]]> They kindly shared their technology with us to power this invention.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -93,23 +100,39 @@
 		<ParentID>11</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: And of course, you have my deepest gratitude for your wisdom and hard work engineering this device, Kousa! This device shall make our stay on such a turbulent planet much safer.
+		KOUSA: Thanks to their contributions, the device can autonomously power itself when the island is launched into orbit, and even deactivates on its own afterwards, conserving power!
 		</Text>
 	</TextBlock>
-		<TextBlock>
+	<TextBlock>
 		<ID>13</ID>
 		<ParentID>12</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Oh, it is no problem.. Finding new ways to make use of this planet's artificial gravity technology is one of the few things that keeps this old heart beating proudly.
+		PLUME: How incredible! I must thank our friends from the <![CDATA[<color=orange>Sunless City</color>]]> when set off for our next expedition together.
 		</Text>
 	</TextBlock>
-	<TextBlock>
+		<TextBlock>
 		<ID>14</ID>
 		<ParentID>13</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Now, who were you again?
+		PLUME: And of course, you have my deepest gratitude for your wisdom and hard work engineering this device, Kousa! This device shall make our stay on such a turbulent planet much safer.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>15</ID>
+		<ParentID>14</ParentID>
+		<LocationA />
+		<Text>
+		KOUSA: Oh, it is no problem.. Finding new ways to make use of artificial gravity is one of the few things that keeps this old heart beating proudly.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>16</ID>
+		<ParentID>15</ParentID>
+		<LocationA />
+		<Text>
+		KOUSA: Now, why were you here again?
 		</Text>
 	</TextBlock>
 

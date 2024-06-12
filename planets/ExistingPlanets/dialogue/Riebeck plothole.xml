@@ -70,10 +70,6 @@
 				<Text>I learned something!</Text>
 				<DialogueTarget>RiebeckLearned</DialogueTarget>
 			</DialogueOption>
-      <DialogueOption>
-				<Text>Tektite told me to ask you about the big locked Nomai door on Timber Hearth.</Text>
-				<DialogueTarget>Riebeck_Tektite</DialogueTarget>
-			</DialogueOption>
 			<DialogueOption>
 				<Text>Where should I explore here?</Text>
 				<DialogueTarget>RiebeckExplore</DialogueTarget>
@@ -122,6 +118,10 @@
 			<Page>Oh, cool! <![CDATA[<Pause/>]]>Um, what is it?</Page>
 		</Dialogue>
 		<DialogueOptionsList>
+		<DialogueOption>
+				<Text>I found a Nomai mural of our ancestors in the waterways of Timber Hearth!</Text>
+				<DialogueTarget>Riebeck_SW1</DialogueTarget>
+			</DialogueOption>
 			<DialogueOption>
 				<RequiredLogCondition>BH_ESCAPE_POD_X1</RequiredLogCondition>
 				<Text>I found the Nomai escape pod on Brittle Hollow.</Text>
@@ -205,39 +205,6 @@
 			<Page>Isn’t it amazing? Hard to believe the settlement is still standing, but there it is.</Page>
 			<Page>It really makes you appreciate living somewhere like Timber Hearth. You know, somewhere that isn’t being constantly bombarded with meteors and rocks and stuff.</Page>
 			</Dialogue>
-       <DialogueOptionsList>
-			<DialogueOption>
-				<RequiredLogCondition>BH_OLD_SETTLEMENT_X2</RequiredLogCondition>
-				<Text>Oh, I also found Nomai text there that suggested the Nomai came to our star system following a signal from something older than the universe called the "Eye of the Universe".</Text>
-				<DialogueTarget>Riebeck_EOTU</DialogueTarget>
-			</DialogueOption>
-      			<DialogueOption>
-      			<Text>Yep, we got geysers that launch us into space, and exploding ships back home instead.</Text>
-   				 <DialogueTarget>Riebeck_HearthLol</DialogueTarget>
-    		</DialogueOption>
-      </DialogueOptionsList>
-	</DialogueNode>
-
-<DialogueNode>
-		<Name>Riebeck_HearthLol</Name>
-		<Dialogue>
-			<Page>Haha, yeah, but you get what I mean. I miss that fresh air and cozy feel of our village..</Page>
-      		<Page>Next time I get back, I'm gonna have a fishing competition with Spinel, and play another banjo duet with Gneiss.</Page>
-	 		 <Page>You should keep an ear out and join us sometime!</Page>
-      </Dialogue>
-	</DialogueNode>
-
-<DialogueNode>
-		<Name>Riebeck_EOTU</Name>
-		<Dialogue>
-			<Page>Something.. older than the universe? I don't.. What? How is that even possible?</Page>
-			<Page>Oh man, yeah. <![CDATA[<i>]]>Yeah.<![CDATA[</i>]]> I'd get why the Nomai would arrive in such a hurry if they found something like that. That's.. mind-boggling! How would they even begin to study something like that?</Page>
-			<Page>Chert's never seen anything to suggest something as incredible as that anywhere around our star system, though. What could have happened after the Nomai got here?</Page>
-      <Page>Did the Nomai ever find this ancient entity? <![CDATA[<Pause>]]>Could it have anything to do with why they've disappeared?</Page>
-      <Page>..Man, I've gotta get to studying more of these ruins.</Page>
-       <Page>Hey, are you and Hal making more of those terrific translator tools soon? I.<![CDATA[<Pause=1>]]> NEED.<![CDATA[<Pause=1>]]> ONE. <![CDATA[<Pause><size=20>]]>..Please? I can't wait to get to the bottom of this mystery!<![CDATA[</size>]]></Page>
-		</Dialogue>
-		<DialogueTarget>Questions</DialogueTarget>
 	</DialogueNode>
 
 	<DialogueNode>
@@ -293,45 +260,22 @@
 			<Page>...Don’t get me wrong, space is terrifying! But, you know, it has its moments.</Page>
 			<Page>To think, though. If the comet hadn’t killed them, our species might have coexisted in this solar system. That would have been amazing, right?</Page>
 		</Dialogue>
-    <DialogueOptionsList>
-			<DialogueOption>
-				<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>Actually, I found a Nomai mural on Timber Hearth showing Hearthian ancestors were amphibious at the time when the Nomai were still alive..</Text>
-				<DialogueTarget>Riebeck_Mural Contradiction</DialogueTarget>
-			</DialogueOption>
-      <DialogueOption>
-      <Text>That's a really nice way to think about it. I'm glad you're out here too, Riebeck.</Text>
-      <DialogueTarget>Riebeck_Aw</DialogueTarget>
-      </DialogueOption>
-      </DialogueOptionsList>
 	</DialogueNode>
 
+
+
 <DialogueNode>
-		<Name>Riebeck_Mural Contradiction</Name>
+		<Name>Riebeck_SW1</Name>
 		<Dialogue>
-			<Page>What? A Nomai mural in the waterways of Timber Hearth? That depicts ancient Hearthians on land with Nomai? How did.. How did I miss that?!</Page>
-  		    <Page>That's.. that's incredible! And you say there were conversations between Nomai to be careful not to disturb our ancestors' environments too? How can my respect and love for this ancient species grow any more than it already has?!</Page>
-			<Page>But.. <![CDATA[<Pause>]]>are you absolutely sure it was our ancestors the Nomai were depicting and writing about?</Page>
-    		  <Page>If that's true, that means ancient Hearthians evolved much earlier than our genomic research indicates - they were already amphibious, at a time when even the Nomai were still around!</Page>
+			<Page>Sorry, what? You found.. what again?!</Page>
+  		    <Page>...That's incredible. That's.. that's our ancestors for sure, right? Amphibious, four-eyed..</Page>
+			<Page>So we did coexist with them.. They.. They even studied and admired us.. Oh, stars above.</Page>
+    		  <Page>Not only that - our ancestors had already evolved to live on land during that time! Goodness, it couldn't have taken that long for us to evolve further to our forms today then, right?</Page>
+	 		 <Page>When exactly did the Nomai disappear, then? And where did they go? This just makes me even more curious and sad that we didn't get a chance to have a marshmallow together and chat about our cultures!</Page>
+			 
 	 		 <Page>But more importantly.. In that case, how in the stars did our ancestors survive what the Nomai couldn't?!</Page>
 			<Page>Hm... Man, this is a serious mystery we have on our hands! This is a new page of Hearthian history we've never even known about!</Page>
-			<Page>If you find anything more about this mystery, I'd love to hear all your findings. Um, seeing as you're the only one with a translator tool right now. <![CDATA[<Pause><size=20>]]>And I'm a little paralyzed above a black hole.<![CDATA[</size>]]></Page>
-				<Page>Speaking of murals, actually.</Page>
-				<Page>I found <![CDATA[<color=orange>another mural in the building that leads down here from the surface,</color>]]> but I couldn't really decipher what it was showing, or the writing on it! Think you might be able to glean a new lead from that?</Page>
-		</Dialogue>
-		<DialogueTarget>Questions2</DialogueTarget>
-	</DialogueNode>
-
-	
-<DialogueNode>
-		<Name>Riebeck_Tektite</Name>
-		<Dialogue>
-			<Page>Oh yeah, I promised Tektite I'd keep two eyes out for anything about that door.</Page>
-			<Page>Um, well, to be honest, I haven't really found much. The Southern Observatory I flew here to investigate had another locked door, but it's much smaller, and a totally different design.</Page>
-			<Page>I'm certain that vision orb is an activation mechanism to open the door though, like those that power and control the tractor beams here on Brittle Hollow.</Page>
-			<Page>It made me think, though. Doors usually open both ways, right? Maybe if you could figure out some way of getting in the other way, you could unlock the door from that side. Or at least - see if something's gummed up the mechanism on the other side.</Page>
-      		<Page>But, uh.. if you could just get in a different way, you wouldn't really need the door, haha. So that's not really helpful.</Page>
-				<Page>Man. It's kinda weird to think about how we're studying and trying to figure out how the Nomai used something as simple as a door, huh? If only they were still around to just.. teach us how.</Page>
+			<Page>If you find anything more about this mystery, I'd love to hear all your findings. Um, seeing as you're the only one with a translator tool right now. <![CDATA[<Pause><size=20>]]>And I'm a little paralyzed above a black hole.<![CDATA[</size>]]></
 				<Page>What in the stars could have happened to the Nomai? I mean, there's Nomai skeletons everywhere that seemingly died where they were, right in their dwellings.. That doesn't paint a bright picture, right?</Page>
 		</Dialogue>
   <DialogueOptionsList>

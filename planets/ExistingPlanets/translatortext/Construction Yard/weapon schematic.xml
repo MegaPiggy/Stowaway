@@ -23,7 +23,7 @@
 		<ID>4</ID>
 		<LocationA />
 		<ParentID>3</ParentID>
-		<Text>This will disable the <![CDATA[<color=orange>Deep Storm Station</color>]]> indefinitely.. But.. I believe that will be of little importance now.</Text>
+		<Text>This will disable the <![CDATA[<color=orange>Deep Storm Station</color>]]> indefinitely, but I believe that will be of little importance now.</Text>
 		</TextBlock>
 		
 	<TextBlock>	
@@ -31,7 +31,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		Structure: Gravity crystals to be arranged in compact inward lattice, all surrounding and angled towards the warp core. Remaining external crystals will stabilize flight trajectory.</Text>
+		Structure: Gravity crystals to be arranged in compact inward lattice, all surrounding and angled towards warp core. Remaining external crystals will be used to stabilize flight trajectory.</Text>
 			</TextBlock>
 
 

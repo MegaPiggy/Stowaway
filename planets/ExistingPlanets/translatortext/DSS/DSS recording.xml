@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: The lifeforms within the Sanctuary are still deep in slumber. Once I finish this message, I shall voyage back to the Sanctuary to rest them on the quantum shard.
+		CASSAVA: I have programmed it to maintain a steady alignment within Giant's Deep's shadow, far from the sun, where it should freeze over, and be safe from crashing into any celestial body.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: When I give the order, the Inspired's structure will crush inwards, forcing all the collected deadly matter into the black hole at its core, destroying itself, and irradiating the Deep Storm Station.
+		CASSAVA: When I give the order, the Inspired will warp all collected deadly matter to its sibling warp core here.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		CASSAVA: As I fade, my voyager will no longer be able to observe the quantum shard, delivering the lifeforms back to the decontaminated surface of Timber Hearth.
+		CASSAVA: The deep oceans surrounding the Deep Storm Station should serve to completely insulate and contain the deadly matter within this space.
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -37,16 +37,33 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		
+		CASSAVA: I have already delivered the remaining species within the Sanctuary back to the surface of Timber Hearth after ascertaining the relative safety of the planet.
 </Text>
 	</TextBlock>
 
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA />
+		<Text>
+		CASSAVA: My dearest hope is that these species will be able to live on to explore and learn more from the universe.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationA />
+		<Text>
+		CASSAVA: I only wish I could see all the amazing discoveries they might make.
+		</Text>
+	</TextBlock>
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: My dearest hope is that these species will live on to explore and learn more from the universe.
+		CASSAVA: ... I am ready.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -54,7 +71,7 @@
 		<ParentID>8</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: I only wish I could live to see their
+		CASSAVA: In my final moments, I am filled with gratitude for all that I have been able to learn and experience.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -62,28 +79,12 @@
 		<ParentID>9</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: ... I am ready.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>11</ID>
-		<ParentID>10</ParentID>
-		<LocationA />
-		<Text>
-		CASSAVA: In my final moments, I am filled with gratitude for all that I have been able to learn and experience.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>12</ID>
-		<ParentID>11</ParentID>
-		<LocationA />
-		<Text>
-		CASSAVA: This universe is filled with much mystery and so much beauty - and the tiny window of time I have been given into it has inspired me with boundless curiosity and admiration.
+		CASSAVA: The universe is filled with much mystery and so much beauty - and the tiny window of time I have been given into it has inspired me with boundless curiosity and admiration.
 		</Text>
 	</TextBlock>
 		<TextBlock>
-		<ID>13</ID>
-		<ParentID>12</ParentID>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
 		<LocationA />
 		<Text>
 		CASSAVA: May the universe to come... receive me swiftly!

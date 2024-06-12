@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: Greetings, my friends. The test has concluded - but I fear our goal is not yet within reach.. But I believe that with this test, we have sown the seeds of success in the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		YARROW: The test has concluded, but I fear our goal is not yet within reach.. But as Pye says, we have sown the seeds of success in the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		DAZ: Well, I.. I was afraid of the possibility you might feel differently.. That's why I.. wanted to see <![CDATA[<color=orange>6 seconds into the future</color>]]> of my proposal..
+		DAZ: Well, I.. I was afraid of the possibility you might feel differently.. That's why I.. wanted to see 6 seconds into the future of my proposal..
 		</Text>
 			</TextBlock>
 				<TextBlock>	

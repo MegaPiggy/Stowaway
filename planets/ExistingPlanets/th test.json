@@ -10,6 +10,15 @@
 	"Props": {
 		"singularities": [
 			{
+				"rename":"DSS black hole",
+				"type": "blackHole",
+				"uniqueID": "TH SHORTCUT 0",
+				"pairedSingularity": "DSS WH",
+				"hasWarpEffects": false,
+				"horizonRadius": 1,
+				"position":{"x":30.282,"y": -50.2641,"z": 187.1413}
+			},
+		{
 				"rename":"Cyard black hole",
 				"type": "blackHole",
 				"uniqueID": "TH SHORTCUT 1",
@@ -104,19 +113,9 @@
 			"type": "whiteboard",
 			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
 			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225},
-			"seed":1,
-				"arcInfo": [
-					{},
-					{},
-					{},
-					{"position": {"x":1.5062,"y": 1.0104},"zRotation": 4.5457,"mirror": true},
-					{"position": {"x":0.4444,"y": 1.3532},"zRotation": 63.7048,"mirror": true},
-					{},
-					{},
-					{}
-				],
-				"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C4.xml"
-
+	
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C3.xml",
+			"seed":3
 		},
 		
 		{

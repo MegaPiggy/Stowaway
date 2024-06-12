@@ -341,7 +341,7 @@
 		},
 		{
 			"rename":"Marriage Statue Head",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/StatueHead",
+			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Prefab_NOM_StatueHead",
 			"position":{"x": 7.0737,"y": 2.1952,"z": 25.16668},
 			"rotation":{"x": 358.5567,"y": 278.7237,"z": 356.402}
 		},

@@ -11,7 +11,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Using a lattice of gravity crystals arranged towards its core, the <![CDATA[<color=orange>Inspired</color>]]> will exert a constant gravitational force to capture and compact all deadly matter spread across this star system into itself.
+		CASSAVA: Using a lattice of gravity crystals arranged towards its core, the <![CDATA[<color=orange>Inspired</color>]]> will exert a localized gravitational field to capture and compact all deadly matter spread across this star system into itself.
 		</Text>
 			</TextBlock>
 			<TextBlock>	
@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-			 CASSAVA: The accumulated pressure will be explosively released - spreading the matter across, and sowing massive destruction to any star system within blast radius.
+			 CASSAVA: The accumulated pressure will be explosively released - spreading the matter across, and delivering massive destruction to any star system within its blast radius.
 		</Text>
 	</TextBlock>
 
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		 CASSAVA: Once I am able to calculate the source of the comet - whatever entities have stolen the lives of my clan and its future..
+		 CASSAVA: Once I am able to calculate the source of the comet...
 		</Text>
 			</TextBlock>
 
