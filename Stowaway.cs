@@ -133,8 +133,11 @@ public class Stowaway : ModBehaviour
 		var caveTwin = Locator.GetAstroObject(AstroObject.Name.CaveTwin);
 		foreach (var gateway in caveTwin.GetComponentsInChildren<NomaiGateway>(true))
 		{
-			gateway.gameObject.GetAddComponent<OverheadDetector>();
-			gateway.gameObject.GetAddComponent<NomaiGatewayTugger>();
+			if (gateway.name == "WindowCoverInterface")
+			{
+				gateway.gameObject.GetAddComponent<OverheadDetector>();
+				gateway.gameObject.GetAddComponent<NomaiGatewayTugger>();
+			}
 		}
 		foreach (var door in caveTwin.GetComponentsInChildren<NomaiMultiPartDoor>(true))
 		{
