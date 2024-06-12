@@ -24,7 +24,7 @@
 			
 		"remotes":[
 	
-			{"id": "Lovers' Cove",
+			{"id": "GD_LoversCove",
 			"decalPath": "planets/assets/voyager loverscove icon.png",
 			"stones": [
 				{
@@ -34,7 +34,7 @@
 				}]
 			},
 		
-			{"id": "Timber Hearth",
+			{"id": "TH_Sanctuary",
 			"decalPath": "planets/assets/voyager th icon.png",
 			"stones": [
 				{
@@ -43,7 +43,7 @@
 					"rename": "TimberHearthMines_Stone"
 				}]
 			},
-			{"id": "Statue Island",
+			{"id": "GD_StatueIslandScrollWorkshop",
 			"decalPath": "planets/assets/voyager statueisle icon.png",
 			"stones": [
 				{
@@ -52,7 +52,7 @@
 					"rename": "StatueIsle_Stone"
 				}]
 			},
-			{"id": "Construction Yard",
+			{"id": "GD_ConstructionYard",
 			"decalPath": "planets/assets/voyager cyard icon.png",
 			"stones": [
 				{
@@ -62,7 +62,7 @@
 					"rename": "Cyard_Stone"
 				}]
 			},
-			{"id": "Deep Storm Station",
+			{"id": "GD_DeepStormStation",
 			"decalPath": "planets/assets/voyager dss icon.png",
 			"stones": [
 				{
@@ -74,7 +74,7 @@
 			},	
 
 
-			{"id": "Quantum Island",
+			{"id": "GD_QuantumIsland",
 			"decalPath": "planets/assets/team askeratk.png",
 			"platform":{
 				"position": {"x": 72, "y": -5.8, "z": -47},

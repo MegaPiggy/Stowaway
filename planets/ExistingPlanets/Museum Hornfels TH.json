@@ -60,16 +60,13 @@
 		],
 "remotes": [
 	{"decalPath": "planets/assets/timberhearth icon.png",
-	"id":"Timber Hearth",
+	"id":"TH_Sanctuary",
 	"platform":
 	{
 		"position":{"x": -101.8326,"y": 12.3976,"z": 119.711},
 		"rotation":{"x": 316.3963,"y": 55.1629,"z": 81.2394},
 		"isRelativeToParent": true
-	}
 	},
-	{
-		"decalPath": "planets/assets/timberhearth icon.png",
 		"whiteboard": {
 			"position":{"x": -98.4598,"y": 20.2231,"z": 123.4077},
 			"rotation":{"x": 37.2845,"y": 232.3913,"z": 276.4073},

@@ -13,7 +13,7 @@
 	{
 
 	"remotes": [
-		{"id": "GD_ConstructionYardIsland1",
+		{"id": "GD_ConstructionYard",
 		"decalPath": "planets/assets/GD cyard pool icon.png",
 		"stones":
 		[{

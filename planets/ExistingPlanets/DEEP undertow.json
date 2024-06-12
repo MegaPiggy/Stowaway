@@ -76,7 +76,7 @@
 	
 
 		"remotes": [
-			{"id":"Deep Storm Station",
+			{"id":"GD_DeepStormStation",
 			"decalPath": "planets/assets/GD dss icon.png",
 			"platform":
 				{
@@ -84,12 +84,7 @@
 					"rotation":{"x":335.4288,"y": 96.0572,"z": 77.2046},
 					"disablePool": true,
 					"disableStructure": true
-				}
-			},
-			
-
-			{
-			"decalPath": "planets/assets/GD dss icon.png",
+				},
 			"whiteboard":
 				{
 					"rename":"DSS Whiteboard Pedestal",
@@ -99,7 +94,7 @@
 					"nomaiText":
 				[
 					{
-						"id": "Construction Yard",
+						"id": "GD_ConstructionYard",
 						"location": "a",
 						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml"
 					},
@@ -110,7 +105,7 @@
 						"seed":3
 					},
 					{
-						"id": "Lovers' Cove",
+						"id": "GD_LoversCove",
 						"location": "a",
 						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/loverscove marriage timeloop.xml",
 						"arcInfo": [
@@ -146,7 +141,7 @@
 						]
 					},
 					{
-						"id": "Statue Island",
+						"id": "GD_StatueIslandScrollWorkshop",
 						"location": "a",
 						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/daz last cutoff.xml",
 						"seed":1,
@@ -171,7 +166,7 @@
 				}
 			},
 			{
-				"id":"Lovers' Cove",
+				"id":"GD_LoversCove",
 				"decalPath": "planets/assets/voyager loverscove icon.png",
 				"stones": [{
 					"rename":"DSS lovers stone",
@@ -181,7 +176,7 @@
 				}]
 			},
 			{
-				"id":"Statue Island",
+				"id":"GD_StatueIslandScrollWorkshop",
 				"decalPath": "planets/assets/voyager statueisle icon.png",
 				"stones": [{
 					"rename":"DSS dazshop stone",
@@ -192,7 +187,7 @@
 			},
 			
 			{
-				"id":"Construction Yard",
+				"id":"GD_ConstructionYard",
 				"decalPath": "planets/assets/voyager cyard icon.png",
 				"stones": [{
 					"rename":"DSS cyard stone",
@@ -205,7 +200,7 @@
 
 
 			{
-				"id":"Timber Hearth",
+				"id":"TH_Sanctuary",
 				"decalPath": "planets/assets/voyager th icon.png",
 				"stones": [{
 					"rename":"DSS Cassava TH stone",

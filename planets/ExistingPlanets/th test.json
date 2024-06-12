@@ -81,7 +81,7 @@
 		
 		],
 		"remotes": [
-			{"id": "Timber Hearth",
+			{"id": "TH_Sanctuary",
 			"decalPath": "planets/assets/voyager dss icon.png",
 			"stones": [{"position": {"x": 16.38165, "y": -41.92884, "z": 185.4854},
 			"rotation": {"x": 76.79271, "y": 199.0539, "z": 193.8433},
@@ -89,13 +89,14 @@
 			}]
 			},
 			{
+			"id": "TH_Test",
 			"decalPath": "planets/assets/team askeratk.png",	
 			"whiteboard": {
 				"position": {"x": 16.6695, "y": -51.86734, "z": 182.931},
 				"rotation": {"x": 286.2347, "y": 349.3389, "z": 195.0047},
 				"nomaiText": [
 					{
-						"id":"Timber Hearth",
+						"id":"TH_Sanctuary",
 						"location": "a",
 						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml"
 					}

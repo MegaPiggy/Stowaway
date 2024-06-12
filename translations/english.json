@@ -1,0 +1,12 @@
+{
+	"$schema": "https://raw.githubusercontent.com/outer-wilds-new-horizons/new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+	"UIDictionary": {
+		"GD_ConstructionYard": "Construction Yard",
+		"GD_StatueIslandScrollWorkshop": "Statue Island",
+		"GD_StatueIslandDecalPodium": "Statue Island",
+		"GD_QuantumIsland": "Quantum Island",
+		"GD_DeepStormStation": "Deep Storm Station",
+		"GD_LoversCove": "Lover's Cove",
+		"TH_Sanctuary": "Timber Hearth"
+	}
+}

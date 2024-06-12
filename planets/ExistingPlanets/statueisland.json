@@ -790,7 +790,7 @@
 		],
 		"remotes": [
 			{
-				"id":"Statue Island decal podium",
+				"id":"GD_StatueIslandDecalPodium",
 				"decalPath": "planets/assets/GD statue island icon.png",
 				"platform":
 				{
@@ -803,7 +803,7 @@
 				}
 			},
 			{
-				"id":"Statue Island",
+				"id":"GD_StatueIslandScrollWorkshop",
 				"decalPath": "planets/assets/GD statue island icon.png",
 				"platform":
 				{
@@ -818,7 +818,7 @@
 
 
 						{
-				"id":"Timber Hearth",
+				"id":"TH_Sanctuary",
 				"decalPath":"planets/assets/voyager th icon.png",
 				"stones":
 				[{
@@ -845,7 +845,7 @@
 			}]
 					},
 					{
-						"id":"Deep Storm Station",
+						"id":"GD_DeepStormStation",
 						"decalPath":"planets/assets/voyager dss icon.png",
 						"stones":
 						[{
@@ -856,7 +856,7 @@
 						}]
 					},
 					{
-						"id":"Lovers' Cove",
+						"id":"GD_LoversCove",
 						"decalPath":"planets/assets/voyager loverscove icon.png",
 						"stones":
 						[{
@@ -867,7 +867,7 @@
 						}]
 					},
 					{
-						"id":"Construction Yard",
+						"id":"GD_ConstructionYard",
 						"decalPath": "planets/assets/GD cyard pool icon.png",
 						"stones":
 						[{
@@ -898,7 +898,7 @@
 					}
 	},
 	{
-					"id":"Statue Island",
+					"id":"GD_StatueIslandScrollWorkshop",
 					"decalPath": "planets/assets/GD statue island icon.png",
 					"whiteboard":{
 						"rename":"Scroll Workshop Whiteboard",
@@ -908,19 +908,19 @@
 						"nomaiText":
 						[
 							{
-								"id": "Construction Yard",
+								"id": "GD_ConstructionYard",
 								"location": "b",
 								"seed": 1,
 								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/workshop hidden scroll.xml"
 							},
 							{
-								"id": "Lovers' Cove",
+								"id": "GD_LoversCove",
 								"location": "b",
 								"seed":4,
 								"xmlFile": "planets/ExistingPlanets/translatortext/Gabbro's Island/solar tide answer.xml"
 							},
 							{
-								"id": "Timber Hearth",
+								"id": "TH_Sanctuary",
 								"location": "b",
 								"seed": 5,
 								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
@@ -941,7 +941,7 @@
 								]
 							},
 							{
-								"id": "Deep Storm Station",
+								"id": "GD_DeepStormStation",
 								"location": "b",
 								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/daz last cutoff.xml",
 								"seed":1,

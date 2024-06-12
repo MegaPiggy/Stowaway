@@ -422,7 +422,7 @@
 		],
 		"remotes":[
 			{
-				"id":"Statue Island",
+				"id":"GD_StatueIslandScrollWorkshop",
 				"decalPath": "planets/assets/voyager statueisle icon.png",
 				"stones": [
 					{
@@ -430,7 +430,12 @@
 						"rotation": {"x": 339.0696, "y": 300.0268, "z": 20.5326},
 						"rename": "ScrollWorkshop_Stone"
 					}]},
-				{"decalPath": "planets/assets/GD loverscove icon.png",
+				{"id":"GD_LoversCove",
+					"decalPath": "planets/assets/GD loverscove icon.png",
+					"platform":{
+						"position": {"x": -12.5992, "y": 1.1777, "z": 30.2858},
+						"rotation": {"x": 4.5623, "y": 4.9962, "z": 1.4217}
+						},
 					"whiteboard": {
 						"position": {"x":-19.8249, "y": 0.9475,"z": 29.0916},
 						"rotation": {"x":359.8438, "y": 94.0756, "z": 4.0096},
@@ -438,14 +443,14 @@
 					"nomaiText":
 			[
 				{
-						"id":"Statue Island",
+						"id":"GD_StatueIslandScrollWorkshop",
 						"location": "a",
 						"seed":4,
 						"xmlFile": "planets/ExistingPlanets/translatorText/Gabbro's Island/solar tide answer.xml"
 					},
 				
 					{
-						"id": "Deep Storm Station",
+						"id": "GD_DeepStormStation",
 						"location": "b",
 						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/loverscove marriage timeloop.xml",
 						"arcInfo": [
@@ -483,16 +488,6 @@
 				
 				]
 				}
-			},
-			
-				
-			
-			{"id":"Lovers' Cove",
-			"decalPath": "planets/assets/GD loverscove icon.png",
-			"platform":{
-				"position": {"x": -12.5992, "y": 1.1777, "z": 30.2858},
-				"rotation": {"x": 4.5623, "y": 4.9962, "z": 1.4217}
-						}
 			}
 		]
 		}

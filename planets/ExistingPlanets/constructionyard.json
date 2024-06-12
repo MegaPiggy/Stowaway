@@ -31,7 +31,7 @@
 			
 			{
 					"decalPath": "planets/assets/GD cyard pool icon.png",
-					"id":"Construction Yard",
+					"id":"GD_ConstructionYard",
 					"platform": {
 						"position":{"x":-36.695,"y": 2.901,"z": -33.572},
 						"rotation":{"x":0,"y": 89.9289,"z": 357.2361}
@@ -57,12 +57,12 @@
 						"seed":4
 					},
 					{
-						"id": "Deep Storm Station",
+						"id": "GD_DeepStormStation",
 						"location": "b",
 						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml"
 					},
 					{
-						"id": "Statue Island",
+						"id": "GD_StatueIslandScrollWorkshop",
 						"location": "a",
 						"seed":1,
 						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/workshop hidden scroll.xml"
