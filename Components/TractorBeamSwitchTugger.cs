@@ -32,8 +32,9 @@ namespace Stowaway.Components
 			base.Start();
 		}
 
-		public void OnDestroy()
+		public override void OnDestroy()
 		{
+			base.OnDestroy();
 			_forwardSlot.OnSlotActivated -= OnForwardSlotActivated;
 			_reverseSlot.OnSlotActivated -= OnReverseSlotActivated;
 			_offSlot.OnSlotActivated -= OnOffSlotActivated;

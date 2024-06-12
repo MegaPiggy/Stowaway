@@ -17,6 +17,12 @@ namespace Stowaway.Components
 			_overheadDetector.OnMoonNoLongerOverhead += OnMoonNoLongerOverhead;
 		}
 
+		public virtual void OnDestroy()
+		{
+			_overheadDetector.OnMoonOverhead -= OnMoonOverhead;
+			_overheadDetector.OnMoonNoLongerOverhead -= OnMoonNoLongerOverhead;
+		}
+
 		public abstract void OnMoonOverhead(OWRigidbody bodyOverhead);
 		public abstract void OnMoonNoLongerOverhead(OWRigidbody bodyOverhead);
 
