@@ -9,10 +9,16 @@ namespace Stowaway.Components
 		private GameObject[] _zappers;
 		private bool _broken = false;
 		private IslandController _island;
+		private SolarTideStormShelter _solarTideStormShelter;
 
 		public void SetIsland(IslandController island)
 		{
 			_island = island;
+		}
+
+		public void SetSolarTideStormShelter(SolarTideStormShelter solarTideHandler)
+		{
+			_solarTideStormShelter = solarTideHandler;
 		}
 
 		public void Bonk()
@@ -26,13 +32,14 @@ namespace Stowaway.Components
 			}
 			_audioSource.PlayOneShot(global::AudioType.ElectricShock, 1f);
 			_broken = true;
-			if (_island != null && _island._tractorBeamsActive)
-			{
-				_island.SetSafetyBeamActivation(false);
-			}
 			if (_island != null)
 			{
+				if (_island._tractorBeamsActive) _island.SetSafetyBeamActivation(false);
 				_island._safetyTractorBeams = new SafetyTractorBeamController[0];
+			}
+			if (_solarTideStormShelter != null)
+			{
+				_solarTideStormShelter.Deactivate();
 			}
 		}
 

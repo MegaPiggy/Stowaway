@@ -76,6 +76,10 @@ public class Stowaway : ModBehaviour
 		{
 			initEmberTwin_Late();
 		}
+		if (body == "BrittleHollow")
+		{
+			initBrittleHollow_Late();
+		}
 		if (body == "TimberHearth")
 		{
 			initTimberHearth_Late();
@@ -100,6 +104,25 @@ public class Stowaway : ModBehaviour
 		if (body.EndsWith("Island"))
 		{
 			initIsland(SearchUtilities.Find(body + "_Body"));
+		}
+	}
+
+	private void initBrittleHollow_Late()
+	{
+		var brittleHollow = Locator.GetAstroObject(AstroObject.Name.BrittleHollow);
+
+		var stormShelter = brittleHollow.transform.Find("Sector_BH/Prefab_NOM_SafetyTractorBeam");
+		if (stormShelter)
+		{
+			stormShelter.gameObject.GetAddComponent<OverheadDetector>();
+			var stormShelterComponent = stormShelter.gameObject.GetAddComponent<SolarTideStormShelter>();
+
+			var solarPanel = brittleHollow.transform.Find("Sector_BH/BH workshop solarpanel");
+			if (solarPanel)
+			{
+				var solarPanelComponent = solarPanel.gameObject.GetAddComponent<SolarPanelCollision>();
+				solarPanelComponent.SetSolarTideStormShelter(stormShelterComponent);
+			}
 		}
 	}
 
