@@ -33,7 +33,7 @@ namespace Stowaway.Components
 
 		private void Start()
 		{
-			var pr = Locator.GetPlayerController().gameObject.GetComponent<PlayerResources>();
+			var pr = Locator.GetPlayerTransform().GetComponent<PlayerResources>();
 			if (pr != null)
 			{
 				_health = pr._currentHealth;
@@ -123,7 +123,7 @@ namespace Stowaway.Components
 		private void OnDestroy()
 		{
 			Locator.GetToolModeSwapper().GetItemCarryTool().DropItemToGround(_platform._slavePlatform.transform, _platform._slavePlatform._visualSector);
-			var pr = Locator.GetPlayerController().gameObject.GetComponent<PlayerResources>();
+			var pr = Locator.GetPlayerTransform().GetComponent<PlayerResources>();
 			if (pr != null)
 			{
 				pr._currentHealth = _health;
