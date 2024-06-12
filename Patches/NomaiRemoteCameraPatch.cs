@@ -2,11 +2,11 @@
 
 namespace Stowaway.Patches
 {
-	[HarmonyPatch]
-	public class NomaiRemoteCameraPatch
+	[HarmonyPatch(typeof(NomaiRemoteCamera))]
+	public static class NomaiRemoteCameraPatch
 	{
 		[HarmonyPrefix]
-		[HarmonyPatch(typeof(NomaiRemoteCamera), nameof(NomaiRemoteCamera.LateUpdate))]
+		[HarmonyPatch(nameof(NomaiRemoteCamera.LateUpdate))]
 		public static bool LateUpdate(NomaiRemoteCamera __instance)
 		{
 			if (!Stowaway.Instance.IsGolemConnection)

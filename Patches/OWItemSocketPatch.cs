@@ -3,7 +3,7 @@
 namespace Stowaway.Patches
 {
 	[HarmonyPatch]
-	public class OWItemSocketPatch
+	public static class OWItemSocketPatch
 	{
 		[HarmonyPrefix]
 		[HarmonyPatch(typeof(OWItemSocket), nameof(OWItemSocket.AcceptsItem))]

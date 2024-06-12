@@ -2,11 +2,11 @@
 
 namespace Stowaway.Patches
 {
-	[HarmonyPatch]
-	public class HazardDetectorPatch
+	[HarmonyPatch(typeof(HazardDetector))]
+	public static class HazardDetectorPatch
 	{
 		[HarmonyPostfix]
-		[HarmonyPatch(typeof(HazardDetector), nameof(HazardDetector.Update))]
+		[HarmonyPatch(nameof(HazardDetector.Update))]
 		public static void HazardDetector_Update_Postfix(HazardDetector __instance)
 		{
 			//No ghost matter damage when in golem connection
@@ -18,7 +18,7 @@ namespace Stowaway.Patches
 		}
 
 		[HarmonyPrefix]
-		[HarmonyPatch(typeof(HazardDetector), nameof(HazardDetector.InHazardType))]
+		[HarmonyPatch(nameof(HazardDetector.InHazardType))]
 		public static bool HazardDetector_InHazardType_Prefix(ref bool __result, HazardVolume.HazardType type)
 		{
 			if(Stowaway.Instance.IsGolemConnection && (type == HazardVolume.HazardType.DARKMATTER || type == HazardVolume.HazardType.ELECTRICITY))

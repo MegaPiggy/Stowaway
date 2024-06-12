@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Stowaway.Patches
 {
 	[HarmonyPatch(typeof(QuantumObject))]
-	public class QuantumObjectPatch
+	public static class QuantumObjectPatch
 	{
 		[HarmonyPostfix]
 		[HarmonyPatch(nameof(QuantumObject.Start))]

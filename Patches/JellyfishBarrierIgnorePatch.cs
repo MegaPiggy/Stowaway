@@ -5,7 +5,7 @@ using Stowaway.Components;
 namespace Stowaway.Patches
 {
 	[HarmonyPatch(typeof(SphereOceanFluidVolume))]
-	public class JellyfishBarrierIgnorePatch
+	public static class JellyfishBarrierIgnorePatch
 	{
 		[HarmonyPrefix]
 		[HarmonyPatch(nameof(SphereOceanFluidVolume.GetOceanCurrentVelocity))]

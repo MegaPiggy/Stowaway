@@ -5,11 +5,11 @@ using UnityEngine;
 
 namespace Stowaway.Patches
 {
-	[HarmonyPatch]
-	public class QuantumMoonEquatorOrbitPatch
+	[HarmonyPatch(typeof(QuantumMoon))]
+	public static class QuantumMoonEquatorOrbitPatch
 	{
 		[HarmonyTranspiler]
-		[HarmonyPatch(typeof(QuantumMoon), nameof(QuantumMoon.ChangeQuantumState))]
+		[HarmonyPatch(nameof(QuantumMoon.ChangeQuantumState))]
 		public static IEnumerable<CodeInstruction> QuantumMoon_ChangeQuantumState_Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
 		{
 			return new CodeMatcher(instructions, generator)

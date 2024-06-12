@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace Stowaway.Patches
 {
 	[HarmonyPatch(typeof(NomaiStargazePlatform))]
-	public class NomaiStargazePlatformPatch
+	public static class NomaiStargazePlatformPatch
 	{
 		private static Dictionary<NomaiStargazePlatform, NomaiStargazePlatformOccupants> occupants = new Dictionary<NomaiStargazePlatform, NomaiStargazePlatformOccupants>();
 

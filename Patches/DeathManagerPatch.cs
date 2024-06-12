@@ -3,11 +3,11 @@ using Stowaway.Components;
 
 namespace Stowaway.Patches
 {
-	[HarmonyPatch]
-	public class DeathManagerPatch
+	[HarmonyPatch(typeof(DeathManager))]
+	public static class DeathManagerPatch
 	{
 		[HarmonyPrefix]
-		[HarmonyPatch(typeof(DeathManager), nameof(DeathManager.KillPlayer))]
+		[HarmonyPatch(nameof(DeathManager.KillPlayer))]
 		public static bool DeathManager_KillPlayer_Prefix(DeathType deathType)
 		{
 			if(Stowaway.Instance.IsGolemConnection)
