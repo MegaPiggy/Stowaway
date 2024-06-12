@@ -10,10 +10,10 @@ namespace Stowaway.Patches
 	[HarmonyPatch(typeof(NomaiRemoteCameraPlatform))]
 	public static class NomaiRemoteCameraPlatformPatch
 	{
-		private static Vector3 _storedPosition;
-		private static Quaternion _storedRotation;
-		private static Vector3 _storedShapePos;
-		private static Quaternion _storedShapeRot;
+		private static Vector3 _storedPosition = Vector3.zero;
+		private static Quaternion _storedRotation = Quaternion.identity;
+		private static Vector3 _storedShapePos = Vector3.zero;
+		private static Quaternion _storedShapeRot = Quaternion.identity;
 
 		[HarmonyPrefix]
 		[HarmonyPatch(nameof(NomaiRemoteCameraPlatform.SwitchToRemoteCamera))]
