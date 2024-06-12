@@ -189,6 +189,11 @@ public class Stowaway : ModBehaviour
 			door.gameObject.GetAddComponent<OverheadDetector>();
 			door.gameObject.GetAddComponent<NomaiDoorTugger>();
 		}
+		foreach (var tractorSwitch in body.GetComponentsInChildren<TractorBeamSwitch>(true))
+		{
+			tractorSwitch.gameObject.GetAddComponent<OverheadDetector>();
+			tractorSwitch.gameObject.GetAddComponent<TractorBeamSwitchTugger>();
+		}
 	}
 
 	private void initGiantsDeep_Late()
