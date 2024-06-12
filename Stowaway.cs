@@ -150,6 +150,7 @@ public class Stowaway : ModBehaviour
 
 	private void initIsland(GameObject body)
 	{
+		initTractorBeams(body);
 		foreach (Campfire campfire in body.GetComponentsInChildren<Campfire>(true))
 		{
 			campfire.gameObject.AddComponent<TornadoIslandCampfireDetector>();
@@ -249,7 +250,6 @@ public class Stowaway : ModBehaviour
 	private void initConstructionYard_Late()
 	{
 		var constructionYardBody = SearchUtilities.Find("ConstructionYardIsland_Body");
-		initTractorBeams(constructionYardBody);
 
 		var solarPanel = SearchUtilities.Find("ConstructionYardIsland_Body/Sector_ConstructionYard/ConstructYard Solar Panels");
 		if (solarPanel)
@@ -275,7 +275,6 @@ public class Stowaway : ModBehaviour
 	private void initStatueIsland_Late()
 	{
 		var statueIslandBody = SearchUtilities.Find("StatueIsland_Body");
-		initTractorBeams(statueIslandBody);
 
 		var solarPanel = SearchUtilities.Find("StatueIsland_Body/Sector_StatueIsland/StatueIsle Solar Panels");
 		if (solarPanel)
