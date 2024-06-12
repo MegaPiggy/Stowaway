@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
+using System.Runtime.CompilerServices;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,13 +13,13 @@ using UnityEngine;
 namespace Stowaway.Patches
 {
 	[HarmonyPatch(typeof(Campfire))]
-	public class CampfireSleepInterruptionPatch
+	public static class CampfireSleepInterruptionPatch
 	{
 		public static bool IsCampfiresIslandAirborne(Campfire campfire)
 		{
-			if (campfire != null && campfire.GetComponent<TornadoIslandCampfireDetector>() != null)
+			if (campfire != null && campfire.TryGetComponent<TornadoIslandCampfireDetector>(out TornadoIslandCampfireDetector tornadoDetector))
 			{
-				return campfire.GetComponent<TornadoIslandCampfireDetector>().IslandAirborne;
+				return tornadoDetector.IslandAirborne;
 			}
 			return false;
 		}
