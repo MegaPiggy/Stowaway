@@ -92,6 +92,11 @@ namespace Stowaway.Components
 			public float buoyancyDensity = 1;
 			public float radius;
 
+			public ChopFluidVolume() : base()
+			{
+				_fluidType = Type.WATER;
+			}
+
 			public override bool IsSpherical() => true;
 
 			public override Vector3 GetBuoyancy(FluidDetector detector, float fractionSubmerged)
