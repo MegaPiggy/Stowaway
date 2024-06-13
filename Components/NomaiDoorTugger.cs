@@ -35,6 +35,7 @@ namespace Stowaway.Components
 
 		public override void OnMoonNoLongerOverhead(OWRigidbody bodyOverhead)
 		{
+			ReleaseTug();
 		}
 
 		private bool IsCyclable() => _nomaiDoor._cycleSwitches.Length > 0;
@@ -62,6 +63,12 @@ namespace Stowaway.Components
 			if (_orb._belowSand) return;
 			_orb.StartDragFromPosition(_orb.transform.position);
 			_orb.SetTargetPosition(GetPositionTowards(_orb.transform.position, _activateSlot.transform.position));
+		}
+
+		private void ReleaseTug()
+		{
+			if (_orb._belowSand) return;
+			_orb.CancelDrag();
 		}
 	}
 }
