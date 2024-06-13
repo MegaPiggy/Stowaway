@@ -36,7 +36,7 @@ namespace Stowaway.Components
 		public void Deactivate()
 		{
 			_stormShelter.SetActivation(false);
-			DestroyImmediate(this);
+			Destroy(this);
 		}
 	}
 }
