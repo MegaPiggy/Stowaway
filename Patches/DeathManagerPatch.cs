@@ -26,7 +26,10 @@ namespace Stowaway.Patches
 					GlobalMessenger.FireEvent("PlayerResurrection");
 				}
 				if (pl != null)
+				{
+					Stowaway.Write("Player died. Killing golem.");
 					pl._platform.OnLeaveBounds();
+				}
 
 				//If not resurrecting, return true and run the original death code
 				return !resurrect;

@@ -146,8 +146,11 @@ namespace Stowaway.Components
 		private void playerCameraEnterWater(float relativeSpeed)
 		{
 			var isPlayerTouchingWater = IsPlayerTouchingWater();
-			Stowaway.Write("Player camera entered water");
-			if (isPlayerTouchingWater) _platform.OnLeaveBounds();
+			if (isPlayerTouchingWater)
+			{
+				Stowaway.Write("Player touched water. Killing golem.");
+				_platform.OnLeaveBounds();
+			}
 		}
 	}
 }

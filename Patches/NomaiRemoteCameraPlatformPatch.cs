@@ -55,13 +55,14 @@ namespace Stowaway.Patches
 			var isConnectedPlatformActive = __instance._slavePlatform != null && __instance._slavePlatform.gameObject.activeInHierarchy; //Mobius why did you call a connected projection platform, a slave platform.
 			var insideSupernova = __instance.CheckSlavePlatformInsideSupernova();
 			var insideBounds = __instance._connectionBounds.PointInside(__instance._playerCamera.transform.position);
-			if (!isConnectedPlatformActive || insideSupernova || !insideBounds) Stowaway.Write($"On Platform Update: {(isConnectedPlatformActive ? "ConnectedPlatformActive" : "ConnectedPlatformDisabled")} {(insideSupernova ? "InsideSupernova" : "OutsideSupernova")} {(insideBounds ? "PointInside" : "PointOutside")}");
 			if (OWInput.IsPressed(InputLibrary.cancel, 0f) || OWInput.IsPressed(InputLibrary.toolActionPrimary, 0f))
 			{
+				Stowaway.Write("Player pressed cancel. Killing golem.");
 				__instance.OnLeaveBounds();
 			}
 			else if (!isConnectedPlatformActive)
 			{
+				Stowaway.Write("Connected platform is not active. Killing golem.");
 				__instance.Disconnect();
 				if (__instance._pedestalAnimator != null)
 				{
@@ -75,6 +76,7 @@ namespace Stowaway.Patches
 			}
 			else if (insideSupernova)// || !insideBounds)
 			{
+				Stowaway.Write("Player inside supernova. Killing golem.");
 				__instance.OnLeaveBounds();
 			}
 		}
@@ -128,6 +130,16 @@ namespace Stowaway.Patches
 			}
 			__instance._stoneHologram.SetPositionAndRotation(new Vector3(0f, -2f, 0f), Quaternion.identity);
 			return false;
+		}
+
+		[HarmonyPrefix]
+		[HarmonyPatch(nameof(NomaiRemoteCameraPlatform.OnSocketableRemoved))]
+		public static void NomaiRemoteCameraPlatform_OnSocketableRemoved_Prefix(NomaiRemoteCameraPlatform __instance, OWItem socketable)
+		{
+			if (Stowaway.Instance.IsGolemConnection && __instance._slavePlatform != null)
+			{
+				Stowaway.Write("Shared stone removed. Killing golem.");
+			}
 		}
 	}
 }
