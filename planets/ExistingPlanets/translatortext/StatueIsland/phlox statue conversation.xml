@@ -12,7 +12,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		PHLOX: Of course! I always enjoy the simplicity of sculpting those templates for a change. But, did I not already deliver you several stacks of templates recently?
+		PHLOX: I would be happy to! I always enjoy the simplicity of sculpting these templates. But did I not already deliver you several stacks recently?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		DAZ: The voyager stone's development is nearing completion! I require more templates to craft and test more projection locations before I can be confident in its use.
+		DAZ: The voyager stone's development is nearing completion! I require more templates to craft and test more projection locations, before I can be confident in its use.
 			</Text>
 	</TextBlock>
 			<TextBlock>
@@ -28,7 +28,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		DAZ: You should pair with a memory statue too, so you can test out the voyager stone sometime, Phlox!
+		DAZ: You should pair with a memory statue to test the voyager stones sometime as well, Phlox!
 		</Text>
 	</TextBlock>
 				<TextBlock>
@@ -36,7 +36,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		PHLOX: Oh! I was not aware one needed to be paired to the memory storage system to use them. Is there any reason why that is a prerequisite?
+		PHLOX: Oh! I was not aware I needed to be paired to a memory statue to use them. Is there a reason for this prerequisite?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -44,15 +44,23 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		DAZ: The voyager stones are designed to work with their memory storage system so the voyager's experience is stored and transmitted back to the individual, allowing them to <![CDATA[<color=orange>explore remotely beyond a projection pool.</color>]]>
+		DAZ: The voyager stones are designed to work with our memory storage system for the memory statues, recording and transmitting experiences from the projection pool back to the individual.
 		</Text>
 	</TextBlock>
-<TextBlock>
+	<TextBlock>
 		<ID>7</ID>
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		DAZ: Without the individual being paired to a memory statue first, I'm afraid a voyager stone would be little more than an ordinary projection stone in function!
+		DAZ: That is how the voyager stone allows one to explore remotely beyond a projection pool!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		DAZ: Without the individual being first paired to a memory statue, I'm afraid the voyager stone would be little more than any ordinary projection stone in function.
 		</Text>
 	</TextBlock>
 

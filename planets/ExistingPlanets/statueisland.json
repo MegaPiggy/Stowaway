@@ -72,8 +72,8 @@
 			},
 			{
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Treepot",
-				"position": {"x": -3.2319, "y": 3.1238, "z": -22.8289},
-				"rotation": {"x": 359.703 , "y": 228.9102, "z": 86.2296},
+				"position": {"x": -15.1411, "y": 8.6202, "z": -17.0873},
+				"rotation": {"x": 90 , "y": 285.1118, "z": 0},
 				"isRelativeToParent": true
 			},
 			
@@ -1024,8 +1024,8 @@
 			},
 			{
 				"rename":"Pioneer inside shelter recorder",
-				"position": {"x":-2.78,"y": 2.9053,"z": -23.6686},
-				"rotation": {"x":10.1028,"y": 179.5938,"z": 17.7429},
+				"position": {"x": -16.1262,"y": 8.2524,"z": -16.9083},
+				"rotation": {"x": 7.1152,"y": 289.0474,"z": 359.662},
 				"type": "recorder",
 				"isRelativeToParent": true,
 				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/shelter inside pioneers.xml"

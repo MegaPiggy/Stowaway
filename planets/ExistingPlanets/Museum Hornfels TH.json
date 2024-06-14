@@ -173,9 +173,19 @@
 			{
 				"rename":"Galena signboard",
 				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)/LampPost_Sign",
-				"position":{"x": -14.552,"y": -55.9488,"z": 219.925},
-				"rotation":{"x": 3.2738,"y": 85.8047,"z": 282.4003},
+				"position":{"x": -15.2575,"y": -42.0854,"z": 222.5396},
+				"rotation":{"x": 1.3778,"y": 85.7541,"z": 96.7435},
 				"scale": 3,
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "Galena decal",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/well miss you.prefab",
+				"parentPath": "Sector_TH/Galena signboard",
+				"position":{"x": -0.0364,"y": 0,"z": -0.1},
+				"rotation": {"x": 270,"y": 88.7444,"z": 0},
+				"stretch": {"x":0.1,"y": 0.06,"z": 0.0164},
 				"isRelativeToParent": true
 			},
 			{
@@ -331,9 +341,9 @@
 			"rename":"Museum shard base",
 			"path":"QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Nomai_ANIM_Cairns/Cairn1_Bottom",
 			"parentPath": "Sector_TH/Museum shard NEW",
-			"position":{"x":-0.0721,"y": -0.5304,"z": -0.1576},
-			"rotation":{"x":347.9572,"y": 222.0216,"z": -0.0021},
-			"stretch": {"x":0.4, "y":0.5,"z":0.6},
+			"position":{"x": -0.0666,"y": -0.5886,"z": -0.2576},
+			"rotation":{"x": 344.7383,"y": 220.7885,"z": 17.9852},
+			"stretch": {"x":  0.7, "y": 1.2,"z": 0.7},
 			"isRelativeToParent": true
 		},
 		
@@ -359,10 +369,10 @@
 			"rename":"Museum shard new collider BASE",
 			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
 			"parentPath": "Sector_TH/Museum shard NEW",
-			"position": {"x": -0.0949, "y": -0.5566, "z": -0.1722},
-			"rotation": {"x": 359.4102, "y": 9.3367, "z": 358.1976},
+			"position": {"x": -0.0567, "y": -0.5421 , "z": -0.3031},
+			"rotation": {"x": 359.4102, "y": 15.4367, "z": 358.1976},
 			"isRelativeToParent": true,
-			"stretch": {"x":0.5,"y":0.2,"z":0.5}
+			"stretch": {"x":0.7,"y":0.2,"z":0.7}
 		},
 
 

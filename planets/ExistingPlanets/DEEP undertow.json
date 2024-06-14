@@ -476,7 +476,8 @@
 				"assetBundle": "planets/bundle/dss shell",
 				"path":"assets/nomai ruins/innershell.prefab",
 				"position":{"x":-4.0456,"y": -2.2182,"z": -4.6036},
-				"scale":0.58
+				"scale":0.58,
+				"keepLoaded": true
 			},
 			{
 				"rename":"Coral Core",

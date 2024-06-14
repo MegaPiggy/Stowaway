@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2855831970
+CRC: 1235298216
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d50db43c2d3ef717f82961ee20bafc39
+    Hash: d6cdf724e3668a006379a24e9558bb63
   TypeTreeHash:
     serializedVersion: 2
     Hash: 6949c2f42b0b8822eb7c0077292b84e2
@@ -83,6 +83,7 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Models/well miss you.prefab
 - Assets/Models/mural side.prefab
 - Assets/Models/Solaumn alloy.prefab
 - Assets/Models/Tractor beam SW 1.prefab
