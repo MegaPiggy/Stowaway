@@ -73,7 +73,10 @@ namespace Stowaway.Components
 		{
 			if (qmBody == null || _orbit == null) return;
 
-			if (_orbit._stateIndex == qmBody.GetComponent<QuantumMoon>().GetStateIndex())
+			var qm = Locator.GetQuantumMoon();
+			if (qm == null) return;
+
+			if (_orbit._stateIndex == qm.GetStateIndex())
 			{
 				_isLocked = true;
 				_startTime = Time.time;

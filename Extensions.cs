@@ -55,18 +55,22 @@ namespace Stowaway
 
 		public static CodeMatcher LogInstructions(this CodeMatcher matcher, string prefix)
 		{
+#if DEBUG
 			matcher.InstructionEnumeration().LogInstructions(prefix);
+#endif
 			return matcher;
 		}
 
 		public static IEnumerable<CodeInstruction> LogInstructions(this IEnumerable<CodeInstruction> instructions, string prefix)
 		{
+#if DEBUG
 			var message = prefix;
 			foreach (var instruction in instructions)
 			{
 				message += $"\n{instruction}";
 			}
 			Debug.LogError(message);
+#endif
 			return instructions;
 		}
 
