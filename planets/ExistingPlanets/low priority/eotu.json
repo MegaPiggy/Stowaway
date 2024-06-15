@@ -108,8 +108,6 @@
 		},
 		{
 			"rename": "GiantsLoft Lilypad 1",
-			"assetBundle": "planets/bundle/loft props final final",
-			"path":"assets/nomai ruins/loft props/bowl.prefab",
 			"isRelativeToParent": true,
 			"position":{"x":-1399.757,"y": 0.5382,"z": 5992.97},
 			"rotation": {"x":359.4008,"y": 77.5698,"z": 358.6165},
@@ -117,8 +115,6 @@
 		},
 		{
 			"rename": "GiantsLoft Lilypad 3 smal",
-			"assetBundle": "planets/bundle/loft props final final",
-			"path":"assets/nomai ruins/loft props/bowl.prefab",
 			"isRelativeToParent": true,
 			"position":{"x":-1400.312,"y": 0.5363,"z": 5992.605},
 			"rotation": {"x":359.4008,"y":  175.983,"z": 358.6165},
@@ -126,8 +122,6 @@
 		},
 		{
 			"rename": "GiantsLoft Lilypad 2 big",
-			"assetBundle": "planets/bundle/loft props final final",
-			"path":"assets/nomai ruins/loft props/bowl.prefab",
 			"isRelativeToParent": true,
 			"position":{"x":-1401.691,"y": 0.5127,"z": 5994.143},
 			"rotation": {"x":359.4008,"y": 28.6269,"z": 358.6165},
