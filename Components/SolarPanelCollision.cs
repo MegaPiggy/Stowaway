@@ -26,6 +26,7 @@ namespace Stowaway.Components
 			if (_broken)
 				return;
 
+			DialogueConditionManager.SharedInstance.SetConditionState("SolarPanelBonked", conditionState: true);
 			foreach (var zapper in _zappers)
 			{
 				zapper.SetActive(true);

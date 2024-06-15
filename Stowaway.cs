@@ -245,6 +245,7 @@ public class Stowaway : ModBehaviour
 	{
 		Write("GOLEM CONNECTION ENTER");
 		IsGolemConnection = true;
+		DialogueConditionManager.SharedInstance.SetConditionState("GolemConnection", conditionState: true);
 	}
 
 	private void golemConnectionExited()

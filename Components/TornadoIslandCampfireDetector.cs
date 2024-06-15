@@ -38,6 +38,8 @@ namespace Stowaway.Components
 		private void OnEnterTornado()
 		{
 			_islandAirborne = true;
+			if (_campfire._isPlayerSleeping)
+				DialogueConditionManager.SharedInstance.SetConditionState("TornadoCampfireAwoken", conditionState: true);
 			_campfire.StopSleeping(sudden: true);
 		}
 

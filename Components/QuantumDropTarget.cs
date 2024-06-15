@@ -11,12 +11,13 @@ namespace Stowaway.Components
 	{
 		private QuantumObject _quantumObject;
 		private QuantumState[] _states;
-		private List<OWItem> _droppedItems;
+		private Dictionary<OWItem, int> _droppedItems;
 		private QuantumState _state;
+		private int _collapses;
 
 		public void Awake()
 		{
-			_droppedItems = new List<OWItem>();
+			_droppedItems = new Dictionary<OWItem, int>();
 			_quantumObject = GetComponent<QuantumObject>();
 			_states = GetComponentsInChildren<QuantumState>();
 			_quantumObject.OnPostCollapse += OnPostCollapse;
@@ -29,6 +30,7 @@ namespace Stowaway.Components
 
 		private void OnPostCollapse(QuantumObject quantumObject, bool collapsed)
 		{
+			_collapses++;
 			_state = GetCurrentState();
 		}
 
@@ -42,7 +44,7 @@ namespace Stowaway.Components
 		{
 			if (_droppedItems == null || _droppedItems.Count == 0) return;
 			if (_state == null) return;
-			foreach (var droppedItem in  _droppedItems)
+			foreach (var droppedItem in  _droppedItems.Keys)
 			{
 				droppedItem.gameObject.transform.SetParent(_state.transform);
 			}
@@ -50,13 +52,20 @@ namespace Stowaway.Components
 
 		public void AddDroppedItem(GameObject dropTarget, OWItem item)
 		{
-			if (_droppedItems != null) _droppedItems.Add(item);
+			if (_droppedItems != null) _droppedItems.SafeAdd(item, _collapses);
 			item.onPickedUp += new OWEvent<OWItem>.OWCallback(OnPickedUpDroppedItem);
 		}
 
 		private void OnPickedUpDroppedItem(OWItem item)
 		{
-			if (_droppedItems != null) _droppedItems.Remove(item);
+			if (_droppedItems != null)
+			{
+				if (_droppedItems.TryGetValue(item, out int collapses) && collapses != _collapses)
+				{
+					DialogueConditionManager.SharedInstance.SetConditionState("QuantumSmuggled", conditionState: true);
+				}
+				_droppedItems.Remove(item);
+			}
 			item.onPickedUp -= new OWEvent<OWItem>.OWCallback(OnPickedUpDroppedItem);
 		}
 
