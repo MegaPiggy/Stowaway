@@ -7,6 +7,7 @@
 		
 
 			"Sector_TH/Sector_Village/Sector_UpperVillage/Effects_UpperVillage/Effects_GM_AuroraWisps",
+			"Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
 			"Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
 
 			"Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_NOM_Tablet (2)/Mural_NomaiSequoia",
@@ -135,9 +136,9 @@
 			},
 			{
 				"rename": "Yarrow message text",
-				"position": {"x":-237.8779,"y": -46.9408,"z": -61.3675},
-				"rotation": {"x":291.0814,"y":182.9153,"z": 250.9363},
-				"type": "wall",
+				"position": {"x": -237.0856,"y": -46.0132,"z": -63.8474},
+				"rotation": {"x": 293.8965,"y": 325.8053,"z": 111.0602},
+				"type": "recorder",
 				"seed":1,
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/Yarrow message.xml"
 			},
@@ -387,7 +388,7 @@
 
 
 			{
-				"rename":"TH warp receiver GM 1",
+				"rename":"TH warp receiver GM crystals",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
 				"position":{"x":-238.3815,"y": -49.6547,"z": -59.5608},
 				"rotation":{"x":2.8002,"y": 346.5809,"z": 101.7094},
@@ -398,7 +399,7 @@
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
 				"position":{"x":-238.1187,"y": -51.6422,"z": -59.4575},
 				"rotation":{"x": 333.983,"y": 340.176,"z": 103.0474},
-				"parentPath": "Sector_TH/TH warp receiver GM 1",
+				"parentPath": "Sector_TH/TH warp receiver GM crystals",
 				"isRelativeToParent": false
 			},
 			{
@@ -406,7 +407,7 @@
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
 				"position":{"x":-3.7975,"y": -0.2015,"z": 0.7811},
 				"rotation":{"x":354.0813,"y": 15.9781,"z": 270.8005},
-				"parentPath": "Sector_TH/TH warp receiver GM 1",
+				"parentPath": "Sector_TH/TH warp receiver GM crystals",
 				"isRelativeToParent": true
 			},
 			{
@@ -414,7 +415,7 @@
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
 				"position":{"x": 4.386,"y": -2.1013,"z": 1.8466},
 				"rotation":{"x": 308.171 ,"y": 197.1309,"z": 90.8682},
-				"parentPath": "Sector_TH/TH warp receiver GM 1",
+				"parentPath": "Sector_TH/TH warp receiver GM crystals",
 				"isRelativeToParent": true
 			},
 			{
@@ -422,27 +423,8 @@
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
 				"position":{"x": -238.5384,"y": -45.2 ,"z": -61.3166},
 				"rotation":{"x": 303.3091,"y": 333.3264,"z": 105.6958},
-				"parentPath": "Sector_TH/TH warp receiver GM 1",
+				"parentPath": "Sector_TH/TH warp receiver GM crystals",
 				"isRelativeToParent": false
-			},
-
-			{
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
-				"rename":"Forest GM 1",
-				"position": {"x":-93.1474,"y": 21.051,"z": -151.9439},
-				"rotation": {"x":352.213,"y": 301.6558,"z": 81.0461},
-				"scale":2,
-				"removeChildren": ["ProbeVisuals"],
-				"isRelativeToParent": true
-			},
-			{
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
-				"rename":"Forest GM 2",
-				"position": {"x":-116.1311,"y": -67.3196,"z": -186.7629},
-				"rotation": {"x":301.5709,"y": 254.7018,"z": 137.5844},
-				"scale":1.5,
-				"removeChildren": ["ProbeVisuals"],
-				"isRelativeToParent": true
 			},
 
 			{
@@ -451,18 +433,38 @@
 				"position": {"x":-93.972,"y": 20.8087,"z": -152.1071},
 				"rotation": {"x":48.1288,"y": 294.7789,"z": 80.7419},
 				"scale":1.5,
-				"parentPath": "Sector_TH/Forest GM 1",
 				"isRelativeToParent": false
 			},
 			{
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
-				"rename":"Forest GM wisps 1",
+				"rename":"Forest GM wisps 2",
 				"position": {"x":-117.0639,"y": -66.4285,"z": -186.5172},
 				"rotation": {"x":332.7987,"y": 293.2651,"z": 109.1676},
 				"scale":1.2,
-				"parentPath": "Sector_TH/Forest GM 2",
 				"isRelativeToParent": false
 			},
+			{
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"rename":"Forest GM 1",
+				"position": {"x":-93.1474,"y": 21.051,"z": -151.9439},
+				"rotation": {"x":352.213,"y": 301.6558,"z": 81.0461},
+				"scale":2,
+				"removeChildren": ["ProbeVisuals"],
+				"parentPath": "Sector_TH/Forest GM wisps 1",
+				"isRelativeToParent": true
+			},
+			{
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"rename":"Forest GM 2",
+				"position": {"x":-116.1311,"y": -67.3196,"z": -186.7629},
+				"rotation": {"x":301.5709,"y": 254.7018,"z": 137.5844},
+				"scale":1.5,
+				"removeChildren": ["ProbeVisuals"],
+				"parentPath": "Sector_TH/Forest GM wisps 2",
+				"isRelativeToParent": true
+			},
+
+	
 
 
 
@@ -470,17 +472,16 @@
 			{
 				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
 				"rename":"Warp receiver GM wisps",
-				"position": {"x":-236.7338,"y": -51.2441,"z": -59.9893},
+				"position": {"x":-237.472,"y": -50.4914,"z": -58.822},
 				"rotation": {"x":4.3362,"y": 346.9002,"z": 101.7293},
-				"stretch": {"x":1.2,"y": 1,"z": 1.2},
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"TH warp receiver GM volume",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
-				"position":{"x": 0.7242,"y": 1.9136,"z": 1.0672},
+				"position":{"x": 0.2135,"y": 2.0124,"z": 0.4031},
 				"rotation":{"x":-0.0002,"y": 16.7662,"z": -0.0001},
-				"stretch": {"x":1,"y": 0.4,"z": 1},
+				"stretch": {"x":1.3,"y": 0.4,"z": 1.2},
 				"removeChildren": ["ProbeVisuals"],
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Warp receiver GM wisps"
@@ -564,7 +565,7 @@
 			},
 			{
 				"rename":"Tent backscreen",
-				"path":"StatueIsland_Body/Sector_StatueIsland/TLE_ProbeWindow",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Interactables_CaveTwin/TLE_ProbeWindow",
 				"parentPath": "Sector_TH/Tent wall 1",
 				"position": {"x": -154.0368, "y": 15.0761, "z": -129.9613},
 				"rotation": {"x": 358.923, "y": 183.0776, "z": 3.3893},
@@ -696,10 +697,18 @@
 			{
 				"rename":"AuroraWisps village patch",
 				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_UpperVillage/Effects_UpperVillage/Effects_GM_AuroraWisps",
-				"parentPath": "Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
-				"position": {"x":0.0001,"y": 0.6702,"z": -0.007},
-				"rotation": {"x":0,"y": 0,"z": 0},
+				"position": {"x":39.3401,"y": 40.41,"z": 226.7201},
+				"rotation": {"x":357.8551,"y": 279.4661 ,"z": 279.9545},
 				"scale":1.3,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"AuroraWisps village volume",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position": {"x":-0.0001,"y": -0.5155,"z": 0.0054},
+				"rotation": {"x":0,"y": 0,"z": 0},
+				"scale":0.7692,
+				"removeChildren": ["ProbeVisuals"],
 				"isRelativeToParent": true
 			},
 			

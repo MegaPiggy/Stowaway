@@ -1,0 +1,51 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name":"Inspired",
+	
+	
+"Props": {
+	"details": [
+		{
+			"path":"Comet_Body/Sector_CO/Geometry_CO/General_Batched",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":0,"y": 0,"z": 0},
+			"ignoreSun": true,
+			"keepLoaded": true,
+			"isRelativeToParent": true
+		},
+		{
+			"path":"Comet_Body/Sector_CO/Geometry_CO/Frictionless_Batched",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":0,"y": 0,"z": 0},
+			"ignoreSun": true,
+			"keepLoaded": true,
+			"isRelativeToParent": true
+		}
+	]
+},
+	
+	"Base": {
+		"surfaceGravity": 24,
+		"gravityVolumePriority": 5,
+		"surfaceSize": 100,
+		"soiOverride": 500,
+		"gravityFallOff": "linear"
+	},
+	"Orbit": {
+		"showOrbitLine": true,
+		"primaryBody": "Giant's Deep",
+		"semiMajorAxis" : 2600,
+		"siderealPeriod": 0,
+		"trueAnomaly": 280,
+		"isTidallyLocked": true,
+		"alignmentAxis": {"x":0,"y":0,"z":-1}
+	},
+
+"CometTail": {
+	"innerRadius": 25,
+	"primaryBody": "Tail",
+	"dustTint": {"a": 0,"b": 0,"g": 0,"r": 0}
+}
+
+}

@@ -1,0 +1,150 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Ok he doesnt actl die here bc chronology but in my head he basically does</color>]]>
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		OENO: The shuttle should be here any moment now. Thank goodness we were able to use gravity crystals to anchor ourselves to this campsite..
+		plume is touched, and comes to acceptance with the loss of his brother seeing the beauty of new life idk
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		CASSAVA: While we await the shuttle's arrival, we should take the opportunity to study this bramble seed! It may yet teach us more about the bramble's nature and purpose.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		CASSAVA: Wait, something is encased in the ice here. Are these.. the same four-eyed lifeforms that we discovered on Timber Hearth?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+			<ParentID>3</ParentID>
+		<Text>
+		OENO:  My goodness, I believe they are! Plume, look!
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+			<ParentID>4</ParentID>
+		OENO: Plume? What.. What is the matter?
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+			<ParentID>4</ParentID>
+		PLUME: I apologize.. I.. I came on this expedition with the hope that we might possibly find any survivors, for the faint chance any of them might have survived on Dark Bramble's exterior.
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+			<ParentID>4</ParentID>
+		PLUME: But seeing what happened to the shuttle.. Had been able to escape, if they did not perish to this piercing cold - stranded so far from the sun - they would surely have been swept away by Giant's Deep eventually..
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+			<ParentID>4</ParentID>
+		<Text>
+		PLUME: I just feel overcome by grief for everyone who was lost.. Keek.. Phlox's parents... But it was foolish to hope otherwise.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+			<ParentID>4</ParentID>
+		<Text>
+		OENO: Plume.. I.. I hurt for you, my friend. I am sorry you had to sacrifice so much for our clan to be where it is today..
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+			<ParentID>5</ParentID>
+		<Text>
+		CASSAVA: Plume, have hope.. There is still a chance there could be survivors stowed away somewhere within Dark Bramble; we have not yet begun exploration of the bramble's vast interior yet!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+			<ParentID>6</ParentID>
+		<Text>
+		PLUME: How would we traverse the bramble's maze-like interiors with our shuttles alone? How would we maneuver around the hordes of ravenous anglerfish within?
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+			<ParentID>7</ParentID>
+		<Text>
+		PLUME: We cannot risk more lives exploring this gruesome planet, dwelling on those we have lost.. We must.. focus on those who remain, and pave the path for those to come.<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+			<ParentID>7</ParentID>
+		<Text>
+		OENOE: This frozen planet was once a home for so many species.. And their homes too, were destroyed by the bramble - and scattered them far across the star system.
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+			<ParentID>7</ParentID>
+		<Text>
+		OENO: Now, they thrive in the oceans of Giant's Deep, and in the waterways of Timber Hearth. The fossils on Ember Twin lead us to believe they even thrived on such a hostile planet for some time.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationA />
+			<ParentID>8</ParentID>
+		<Text>
+		OENO: We are surrounded by life that thrives despite the unfair and unfortunate circumstances they face. I am sure.. those you have lost would want you to keep learning, and keep exploring in their stead. We must.. focus on those who remain, and pave the path for those to come.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<LocationA />
+			<ParentID>9</ParentID>
+		<Text>
+		PHLOX: Friends, we're here with the shuttle! Are all of you.. Papa..? Are you crying..?
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>11</ID>
+		<LocationA />
+			<ParentID>10</ParentID>
+		<Text>
+		PLUME: Phlox! I'm.. sorry you had to see me in such a state. Thank you for coming all this way, my son. 
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>12</ID>
+		<LocationA />
+			<ParentID>11</ParentID>
+		<Text>
+		PHLOX: Papa.. You know I'd fly into the sun to find you. Come! Pye is keeping the shuttle warm for us. Let us all return home.
+		</Text>
+	</TextBlock>
+</NomaiObject>

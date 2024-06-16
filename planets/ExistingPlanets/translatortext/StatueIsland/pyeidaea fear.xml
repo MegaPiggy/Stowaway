@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		IDAEA: I do not understand.. Why have we warped to Statue Island? I was certain the Nomai here would have deactivated this warp receiver in preparation of hosting visitors to see the test today..
+		IDAEA: I do not understand! Why have we warped here? Oh, we'll be late for the test today at this rate...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		PYE: Idaea, a cyclone approaches! Let us return to the warp tower back on <![CDATA[<color=lightblue>Ash Twin</color>]]> to wait for Poke; perhaps she will know how to show us to the <![CDATA[<color=orange>Deep Storm Station!</color>]]>
+		PYE: Idaea, a cyclone approaches! We should return to <![CDATA[<color=lightblue>Ash Twin</color>]]> at once to await Poke; I'm sure she will know the way to the <![CDATA[<color=orange>Deep Storm Station!</color>]]>
 		</Text>
 	</TextBlock>
 

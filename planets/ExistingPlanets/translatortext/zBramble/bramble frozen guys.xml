@@ -1,0 +1,64 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Hearthians</color>]]>
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PLUME: To think, we would not find our friends from <![CDATA[<color=orange>Escape Pod 3</color>]]> on the bramble's exterior, but these familiar species preserved within this glacier...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		OENO: This.. This is an incredible discovery.
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		OENO: These species.. They must both have traveled as stowaways within fragments of the planet the bramble destroyed, and landed on the planets that would become their current habitats.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+	<ID>4</ID>
+		<LocationA />
+			<ParentID>3</ParentID>
+		<Text>
+		CASSAVA: That these species survived - and continue to thrive on these alien planets - is nothing short of awe-inspiring. Their resilience inspires me greatly!
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+			<ParentID>4</ParentID>
+		<Text>
+		PLUME: In the absence of any trace of the survivors here, this discovery.. is a beacon of light.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+			<ParentID>5</ParentID>
+		<Text>
+		PLUME: I would like to learn to follow these species' example, of perserverance and undying courage in the face of hardships.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+			<ParentID>6</ParentID>
+		<Text>
+		CASSAVA: They have much to teach all of us. I am certain that if we simply work together and perservere, our clan will accomplish anything we set our hearts to!
+		</Text>
+	</TextBlock>
+</NomaiObject>

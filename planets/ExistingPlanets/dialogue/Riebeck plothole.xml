@@ -119,9 +119,18 @@
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>
+				<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
+				<CancelledCondition>Told_Comet</CancelledCondition>
 				<Text>I found a Nomai mural of our ancestors in the waterways of Timber Hearth!</Text>
 				<DialogueTarget>Riebeck_SW1</DialogueTarget>
 			</DialogueOption>
+				<DialogueOption>
+				<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
+				<RequiredCondition>Told_Comet</RequiredCondition>
+				<Text>I found a Nomai mural of our ancestors in the waterways of Timber Hearth!</Text>
+				<DialogueTarget>Riebeck_SW1_B</DialogueTarget>
+			</DialogueOption>
+
 			<DialogueOption>
 				<RequiredLogCondition>BH_ESCAPE_POD_X1</RequiredLogCondition>
 				<Text>I found the Nomai escape pod on Brittle Hollow.</Text>
@@ -152,11 +161,22 @@
 				<Text>I found Nomai writing about a quantum pilgrimage.</Text>
 				<DialogueTarget>RiebeckLearned_6</DialogueTarget>
 			</DialogueOption>
+
+
 			<DialogueOption>
 				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
+				<CancelledCondition>Told_Mural</CancelledCondition>
 				<Text>I went to the comet, and...</Text>
 				<DialogueTarget>RiebeckLearned_7</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
+				<RequiredCondition>Told_Mural</RequiredCondition>
+				<Text>I went to the comet, and...</Text>
+				<DialogueTarget>RiebeckLearned_7_B</DialogueTarget>
+			</DialogueOption>
+
+
 			<DialogueOption>
 				<RequiredPersistentCondition>MET_SOLANUM</RequiredPersistentCondition>
 				<Text>I TALKED TO A LIVING NOMAI!</Text>
@@ -252,47 +272,192 @@
 
 	<DialogueNode>
 		<Name>RiebeckLearned_7</Name>
+		<SetCondition>Told_Comet</SetCondition>
 		<Dialogue>
 			<Page>Oh, wow. <![CDATA[<i>]]>Wow.<![CDATA[</i>]]> So that’s how the Nomai died?</Page>
-			<Page>Stars above, it’s lucky we weren't around yet when that happened.</Page>
 			<Page>I know it was a long time ago, but still.. That’s... really sad, isn’t it?</Page>
+			<Page>Stars above, it’s lucky we weren't around yet when that happened.</Page>
 			<Page>But... I guess if I hadn’t wanted to learn why the Nomai disappeared, I’d never have left Timber Hearth and come out here, or had any of these adventures.</Page>
 			<Page>...Don’t get me wrong, space is terrifying! But, you know, it has its moments.</Page>
 			<Page>To think, though. If the comet hadn’t killed them, our species might have coexisted in this solar system. That would have been amazing, right?</Page>
 		</Dialogue>
+	<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
+				<Text>Uh, about that.. I found this Nomai mural of our Hearthian ancestors on Timber Hearth...</Text>
+				<DialogueTarget>Riebeck_SW1_B</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>Yeah.. That's a nice thought.</Text>
+				<DialogueTarget>Riebeck_NT</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
 	</DialogueNode>
 
+<DialogueNode>
+		<Name>RiebeckLearned_7_B</Name>
+		<SetCondition>Told_Comet</SetCondition>
+		<Dialogue>
+			<Page>Oh, wow. <![CDATA[<i>]]>Wow.<![CDATA[</i>]]> So that’s how the Nomai died?</Page>
+			<Page>I know it was a long time ago, but still.. That’s... really sad, isn’t it?</Page>
+			<Page>Stars above, it’s lucky we weren't around yet when...</Page>
+			<Page>Wait.. No, that's not right! If what you've told me so far is right, then we were around already when that killed the Nomai!</Page>
+			 <Page>If that's the case.. How in the stars did our ancestors survive what the Nomai couldn't?!</Page>
+			 <Page>Why weren't we.. <![CDATA[<Pause=2>]]> you know... <![CDATA[<Pause=2>]]> killed by ghost matter as well?</Page>
+		</Dialogue>
+<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
+				<Text>I found out ghost matter can't penetrate water - so maybe water protected us?</Text>
+				<DialogueTarget>Riebeck_SW2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Huh, that is true.. No clue.</Text>
+				<DialogueTarget>Riebeck_HUH</DialogueTarget>
+			</DialogueOption>
+      </DialogueOptionsList>
+	</DialogueNode>
 
 
 <DialogueNode>
 		<Name>Riebeck_SW1</Name>
+		<SetCondition>Told_Mural</SetCondition>
 		<Dialogue>
-			<Page>Sorry, what? You found.. what again?!</Page>
-  		    <Page>...That's incredible. That's.. that's our ancestors for sure, right? Amphibious, four-eyed..</Page>
-			<Page>So we did coexist with them.. They.. They even studied and admired us.. Oh, stars above.</Page>
-    		  <Page>Not only that - our ancestors had already evolved to live on land during that time! Goodness, it couldn't have taken that long for us to evolve further to our forms today then, right?</Page>
-	 		 <Page>When exactly did the Nomai disappear, then? And where did they go? This just makes me even more curious and sad that we didn't get a chance to have a marshmallow together and chat about our cultures!</Page>
-			 
-	 		 <Page>But more importantly.. In that case, how in the stars did our ancestors survive what the Nomai couldn't?!</Page>
-			<Page>Hm... Man, this is a serious mystery we have on our hands! This is a new page of Hearthian history we've never even known about!</Page>
-			<Page>If you find anything more about this mystery, I'd love to hear all your findings. Um, seeing as you're the only one with a translator tool right now. <![CDATA[<Pause><size=20>]]>And I'm a little paralyzed above a black hole.<![CDATA[</size>]]></
-				<Page>What in the stars could have happened to the Nomai? I mean, there's Nomai skeletons everywhere that seemingly died where they were, right in their dwellings.. That doesn't paint a bright picture, right?</Page>
+			<Page>Sorry, <![CDATA[<i>]]>what?<![CDATA[</i>]]> You found WHAT?!</Page>
+  		    <Page>That's.. That's incredible!</Page>
+			<Page>That's our ancestors for sure, right? Amphibious, four-eyed.. It has to be us!</Page>
+			<Page>So we did coexist with them. They.. They studied and even admired us.. Oh, stars above.</Page>
+    		  <Page>Not only that - our ancestors had already evolved to live on land during that time! Goodness, it couldn't have been that long since the Nomai were still around then, right?</Page>
+	 		 <Page>But if that's the case... What in the stars happened to the Nomai in that time?</Page>
+			 <Page>I mean, the only trace we've found of them are the ruins of their cities and their skeletons.. That doesn't paint a bright picture.. does it?</Page>
 		</Dialogue>
   <DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
-				<Text>Uh, I might already know what happened to them. I went to the comet, and...</Text>
-				<DialogueTarget>RiebeckLearned_7</DialogueTarget>
+				<Text>Uh, about that. I.. went to the comet, and...</Text>
+				<DialogueTarget>RiebeckLearned_7_B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>No clue.. That's what we're out here to find out!</Text>
+				<DialogueTarget>Riebeck_NC</DialogueTarget>
 			</DialogueOption>
       </DialogueOptionsList>
 	</DialogueNode>
 
 <DialogueNode>
-		<Name>Riebeck_Aw</Name>
+		<Name>Riebeck_SW1_B</Name>
+		<SetCondition>Told_Mural</SetCondition>
 		<Dialogue>
-			<Page>Right back at you! We're in space together. And it's TERRIFYING.</Page>
+			<Page>Sorry, <![CDATA[<i>]]>what?<![CDATA[</i>]]> You found WHAT?!</Page>
+  		    <Page>That's.. That's incredible!</Page>
+			<Page>That's our ancestors for sure, right? Amphibious, four-eyed.. It has to be us!</Page>
+			<Page>So we did coexist with them. They.. They studied and even admired us.. Oh, stars above.</Page>
+    		  <Page>Not only that - our ancestors had already evolved to live on land during that time! Goodness, it couldn't have been that long since the Nomai were still around then, right?</Page>
+	 		 <Page>But.. wait! If what you've told me so far is right, then...</Page>
+			 <Page>How in the stars did our ancestors survive what the Nomai couldn't?!</Page>
+			 <Page>Why weren't we.. <![CDATA[<Pause=2>]]> you know... <![CDATA[<Pause=2>]]> killed by ghost matter as well?</Page>
+		</Dialogue>
+  <DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
+				<Text>I found out ghost matter can't penetrate water - so maybe water protected us?</Text>
+				<DialogueTarget>Riebeck_SW2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Huh, that is true.. No clue.</Text>
+				<DialogueTarget>Riebeck_HUH</DialogueTarget>
+			</DialogueOption>
+      </DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Riebeck_SW2</Name>
+		<Dialogue>
+				<Page>What? Water.. protects you from ghost matter?! That's.. that's news to me.</Page>
+			<Page>But, ah.. Mm.. No, that still can't be the whole story..</Page>
+			<Page>The mural you found showed our ancestors were already amphibious and prone to leaving the safety of the water.. So wouldn't we have been fried the moment we surfaced?</Page>
+			<Page>Did our ancestors simply survive by the skin of their teeth by staying underwater?</Page>
+			<Page>But if that's the case, shouldn't our species have adapted to stay underwater due to natural selection, rather than adapting to live on land where ghost matter continued to threaten us?</Page>
+			<Page>It feels like we're still missing a piece of the puzzle here...</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
+				<Text>Uh, about that.. A Nomai survived and sacrificed himself to protect us...</Text>
+				<DialogueTarget>Riebeck_SW3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Huh, that is true.. Guess I gotta get out there and keep investigating.</Text>
+				<DialogueTarget>Riebeck_GJ</DialogueTarget>
+			</DialogueOption>
+      </DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Riebeck_SW3</Name>
+		<Dialogue>
+				<Page>...</Page>
+			<Page>So that's how we survived.</Page>
+			<Page>Stars above, the Nomai really are just.. that amazing, huh?</Page>
+			<Page>Even after losing everyone and everything they knew, this lone Nomai survivor still gave their all to protect us..</Page>
+			<Page>That is a wild story, though. I never thought a Nomai might be capable of.. of anger and grief like that.</Page>
+			<Page>But still, in the end, they used the weapon they made in their anger to save us in the end.</Page>
+			<Page>Do you.. know what their name was?</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Cassava. His name was Cassava.</Text>
+				<DialogueTarget>Riebeck_TY</DialogueTarget>
+			</DialogueOption>
+      </DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Riebeck_TY</Name>
+		<Dialogue>
+				<Page>Cassava... What a lovely name.</Page>
+			<Page>Thank you, Cassava.</Page>
+			<Page>..Hey, wanna sit down and pull up a marshmallow stick, hatchling?</Page>
+			<Page>You've done enough for a first trip, don't you think?</Page>
+			<Page>Space is scary, and time is cruel.. <![CDATA[<Pause>]]> ..But I think the best we can do to honor Cassava, and the Nomai as a whole - is to just try to enjoy every moment of our time existing in this universe.. You know?</Page>
 		</Dialogue>
 	</DialogueNode>
-	
+
+
+<DialogueNode>
+		<Name>Riebeck_GJ</Name>
+		<Dialogue>
+				<Page>You're doing a great job! I can't believe you've found all that on your first trip into space. (I-I mean, sure, you do have the power of the translator tool - but still!!)</Page>
+			<Page>Hey, um.. Thanks for flying to tell me about all this! I really appreciate it, hatchling.</Page>
+			<Page>But hm.. There's definitely some major part of this mystery we need to figure out...</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Riebeck_HUH</Name>
+		<Dialogue>
+				<Page>Oh, wow. Wow. This is a serious mystery we have on our hands... This is a whole new page of Hearthian history we've never even known about!</Page>
+			<Page>Um, seeing as you're the only one with a translator tool right now, <![CDATA[<size=20>]]>and I'm a little paralyzed above a black hole,<![CDATA[</size>]]> I'll um, be counting on you to find out what you can about this exciting mystery for now.</Page>
+			<Page>Oh, um! If you find anything, I'd love to hear about your findings! <![CDATA[<size=20>]]>If it's not too much trouble!<![CDATA[</size>]]></Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Riebeck_NT</Name>
+		<Dialogue>
+			<Page>Just imagine! We might all be sitting around a campfire today, sharing stories and marshmallows with the Nomai.</Page>
+			<Page>Hey, you ever wonder how the Nomai would roast their marshmallows? I have! I've spent uh, a little too long sitting here paralyzed in fear.</Page>
+			<Page>All we know about their diet is that they mostly ate plants - so maybe they'd just eat marshmallows out of the can? Y'know, like the opposite of Slate! ..Sorry, that was just something I was thinking about.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Riebeck_NC</Name>
+		<Dialogue>
+			<Page>Y-yeah! That's what we were here to...</Page>
+			<Page>Oh.. Oh stars. I just saw a rock or something being sucked down into the black hole in the distance again..... Nope. Nope.</Page>
+			 <Page>You go on ahead. Make some huge discoveries we'll both be proud of! I'm.. I'm gonna stay where I am a while longer.</Page>
+		</Dialogue>
+	</DialogueNode>
 
 </DialogueTree>

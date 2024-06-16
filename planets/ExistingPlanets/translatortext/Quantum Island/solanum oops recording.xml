@@ -22,24 +22,24 @@
 	</TextBlock>
 
 	<TextBlock>
-		<ID>3</ID>
-		<LocationA />
-		<ParentID>2</ParentID>
-		<Text>SOLANUM: I took it from within the tower, hoping to find a whiteboard to read about the settlers' history.. Oh, now there's no way to read it, and I've even polluted a species' habitat at that!</Text>
-	</TextBlock>
-
-	<TextBlock>
 		<ID>4</ID>
 		<LocationA />
 		<ParentID>3</ParentID>
-		<Text>SOLANUM: I feel deeply ashamed to leave this scroll polluting the lifeform's habitat until I return with help - but I have already received a few shocks trying to retrieve it..</Text>
+		<Text>SOLANUM: I took the scroll from within the tower, hoping to find a whiteboard to read it outside.. But now there's no way to read it, and I've even polluted a habitat for the native species!</Text>
 	</TextBlock>
 
-		<TextBlock>
+	<TextBlock>
 		<ID>5</ID>
 		<LocationA />
 		<ParentID>4</ParentID>
-		<Text>SOLANUM: If anyone who finds this message before then is able to beseech the lifeform to budge, to retrieve the scroll safely: I would be most grateful if you would kindly do so in my stead!</Text>
+		<Text>SOLANUM: I feel deeply ashamed to leave this scroll polluting the lifeform's habitat until I return with help, but I have already received a few shocks trying to retrieve it..</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>SOLANUM: If anyone who finds this message before then is able to beseech the lifeform to budge so the scroll can be safely retrieved: I would be most grateful if you would kindly do so in my stead!</Text>
 	</TextBlock>
 
 

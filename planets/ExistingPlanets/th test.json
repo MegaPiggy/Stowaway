@@ -60,13 +60,15 @@
 			
 
 			{
-				"rename": "test protohearth",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/protohearthian.fbx",
+				"rename": "bubbel",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/bubbel.prefab",
 				"position":{"x":15.0399,"y": -39.3562,"z": 185.9982},
 				"rotation": {"x": 0,"y": 101.7887,"z": 76.7853},
+				"scale":1,
 				"isRelativeToParent": true
 			},
+			
 			{
 				"rename": "soalnum",
 				"assetBundle": "planets/bundle/stowaway3",
@@ -135,10 +137,8 @@
 "removeChildren": [
 
 "Sector_TH/Sector_Village/Sector_StartingCamp/DetailPatches_StartingCamp/BakedForStreaming/DetailPatches_StartingCamp",
-"Sector_TH/test gabbro/Props_HEA_Gabbro_ANIM_IdleFlute/Gabbro_Hammock02:Props_GabbroHammock_V2/Gabbro_Hammock02:Props_GD_Hammock_V2_Geo",
 
 "Sector_TH/Cyard black hole/BlackHoleAmbience",
-"Sector_TH/StatIsle black hole/BlackHoleAmbience",
-"Sector_TH/test gabbro/ConversationZone_Gabbro"
+"Sector_TH/StatIsle black hole/BlackHoleAmbience"
 
 ]}
