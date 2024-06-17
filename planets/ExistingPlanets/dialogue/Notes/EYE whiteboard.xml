@@ -1,0 +1,23 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>SIGN</NameField>
+
+<DialogueNode>
+    <Name>Crystal</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>This piece of Nomai writing was essential in allowing a Hearthian to learn from the Nomai's many discoveries.</Page>
+      <Page>One of the Nomai in this writing survived the arrival of the Interloper aboard a station at the center of Giant's Deep.</Page>
+      <Page>They would use an advanced projection stone to voyage outside of the station to learn what had happened, and to study the deadly matter that had taken their clan.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Crystal NOPE</Name>
+    <EntryCondition>No Crystal</EntryCondition>
+    <Dialogue>
+      <Page>We were never able to learn the secrets locked behind the great door on Timber Hearth.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

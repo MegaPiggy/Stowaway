@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1784997497
+CRC: 1613428533
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 28dd8cf5092033751fee954493bc5fcf
+    Hash: fdeff5eb215c5fb31ae7af1098756798
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2bbb2beb9ed72c0ab4de00516b191f85
+    Hash: 8b3f04786199c783992e5075a847d62c
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -40,15 +40,7 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 7272cba977bdf7eec3ebf07ae09efe55, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 7d0a6aeb05d852b7ba1f13e9ddeb7586, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 4b51a09e4110b49d3654000985deafc3, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: d85c86ae09ad759675e21391a6d4e61c, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 136
@@ -58,6 +50,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_R.prefab
+- Assets/Nomai Ruins/Prefabs/Materials/Terrain_HGTA_TimeLoopMetal_mat.mat
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_L.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_B_Corner.prefab
 - Assets/Nomai Ruins/Prefabs/Treepot.prefab
@@ -69,13 +62,11 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_E.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_BOTH.prefab
 - Assets/Nomai Ruins/Prefabs/ToyMorbius.prefab
-- Assets/Nomai Ruins/Prefabs/cloud shadow detector.prefab
+- Assets/Nomai Ruins/Prefabs/star ore shell.prefab
 - Assets/Nomai Ruins/Prefabs/Wall Diamond Lamp.prefab
-- Assets/Nomai Ruins/Prefabs/ocean shadow detector.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Corner_R_Broken.prefab
 - Assets/Nomai Ruins/Prefabs/Stairs_L.prefab
 - Assets/Nomai Ruins/Prefabs/cassava mural 1.prefab
-- Assets/Nomai Ruins/Prefabs/QM darkness.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Corner_L_Broken.prefab
 - Assets/Nomai Ruins/Prefabs/Gravity Crystal.prefab
 - Assets/Nomai Ruins/Prefabs/DSS railing.prefab
@@ -101,9 +92,9 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Doorway_Corner_BOTH.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Corner_L.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Hole.prefab
-- Assets/Nomai Ruins/Prefabs/GD cloud bottom.prefab
 - Assets/Nomai Ruins/Prefabs/ToyPyramid.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Broken.prefab
+- Assets/Nomai Ruins/Prefabs/Materials/Terrain_TH_CaveSparkle_mat.mat
 - Assets/Nomai Ruins/Prefabs/Window_Corner_BOTH_Broken.prefab
 - Assets/Nomai Ruins/Prefabs/gravity crystal chips.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_F.prefab
@@ -122,10 +113,10 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Props_NOM_Transponder.prefab
 - Assets/Nomai Ruins/Prefabs/Tablet.prefab
 - Assets/Nomai Ruins/Prefabs/ToyBlock.prefab
+- Assets/Nomai Ruins/Prefabs/Wall lamp no light.prefab
 - Assets/Nomai Ruins/Prefabs/Wall.prefab
 - Assets/Nomai Ruins/Prefabs/Fancy Door L.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Corner_BOTH.prefab
-- Assets/Nomai Ruins/Prefabs/shadow orb.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_D.prefab
 - Assets/Nomai Ruins/Prefabs/Vase.prefab
 - Assets/Nomai Ruins/Prefabs/RailingPost.prefab
@@ -133,7 +124,6 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Stairs_R.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Mir.prefab
 - Assets/Nomai Ruins/Prefabs/ToyBall.prefab
-- Assets/Nomai Ruins/Prefabs/tide mural filled.prefab
 - Assets/Nomai Ruins/Prefabs/Staff.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Frame.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_BOTH_Mir.prefab

@@ -1,0 +1,23 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Hearthians</color>]]>
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		CASSAVA: We’re nearly ready! Filix and I have finished construction, and she says calibrating the device won’t take long.
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		FILIX: Fortunately, the Attlerock’s lack of atmosphere will make calibration simple. After all this time, I’m thrilled to finally resume our search!
+		</Text>
+	</TextBlock>
+
+
+</NomaiObject>

@@ -6,12 +6,11 @@
     <Name>Pond</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-     <Page>The Nomai who first landed on Giant's Deep observed jellyfish on the surface of the ocean, and sought to understand the mechanisms of this rare phenomenon.</Page>
-      <Page>The answer was the moon - as the Quantum Moon orbited Giant's Deep, its gravity would pull on the planet and draw the jellyfish to the surface of the ocean.</Page>
-       <Page>The Nomai made use of this phenomenon while designing a station at the core of Giant's Deep, using it to evacuate jellyfish from the core during the station's operation for their safety.</Page>
-        <Page>This station would use the electric core of the planet to power a test run of the Ash Twin Project's memory storage systems, concluding that all systems were theoretically sound - giving the Nomai confidence to use the Sun Station despite its risks.</Page>
-      <Page>Two Nomai survived the arrival of the Interloper aboard this station, protected from the reach of ghost matter deep underwater.</Page>
-      <Page>Using new types of projection stones to safely explore outside the station, they were able to learn what had happened, and dedicated themselves to studying the nature of the matter that had destroyed their clan.</Page>
+     <Page>Arkose noticed a patch of ghost matter disappearing from time to time.</Page>
+      <Page>They spent their last moments tirelessly trying to figure out why.</Page>
+       <Page>The answer was the moon. As the Attlerock orbited over the patch of ghost matter, its gravity would pull on the substance, causing it to rise up.</Page>
+        <Page>Gabbro noticed ghost matter disappearing on Giant's Deep as well.</Page>
+      <Page>This turned out to be a second property of ghost matter, caused by water on Giant's Deep submerging and temporarily neutralizing ghost matter.</Page>
     </Dialogue>
   </DialogueNode>
 

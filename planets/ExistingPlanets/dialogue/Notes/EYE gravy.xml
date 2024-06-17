@@ -6,12 +6,12 @@
     <Name>Crystal</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>A Nomai survived the arrival of the Interloper that killed the rest of the Nomai, aboard the Deep Storm Station at the heart of Giant's Deep.</Page>
-       <Page>Using an advanced projection stone, they were able to travel outside safely and study the properties of ghost matter engulfing the star system.</Page>
-       <Page>The Nomai, consumed by their grief, then constructed a superweapon composed of gravity crystals inspired by the comet that had annihilated their clan - intent on recreating and firing an even more destructive weapon towards the source of the Interloper.</Page>
-      <Page>However, upon realizing that the star system's native life had survived underwater, but were in imminent danger of complete extinction caused by ghost matter, they were spurred to repurpose their craft to protect the lifeforms instead.</Page>
-      <Page>Using the Inspired's artificial gravity, they siphoned as much ghost matter as they safely could from the star system onto the weapon, and warped it into the Deep Storm Station to contain it safely, destroying the weapon and sacrificing themself in the process.</Page>
-      <Page>It was thanks to their efforts that our ancestors were able to survive and evolve into a world largely safe of ghost matter.</Page>
+      <Page>This crystal and others like it created a local gravity distortions used to traverse steep surfaces, when the planets still existed.</Page>
+       <Page>A Nomai that survived aboard the Deep Storm Station constructed a superweapon composed of many of these crystals, inspired by the comet that had annihilated their clan.</Page>
+       <Page>Powered by both curiosity and grief, they hoped to recreate the comet, and avenge their lost clan by delivering an even more destructive weapon towards the source of the Interloper.</Page>
+      <Page>However, upon realizing the imminent danger of complete extinction that the Hearthians' ancestors faced, they were spurred to use their creation to protect them instead.</Page>
+      <Page>Using the weapon's gravitational field, they collected as much ghost matter as they could with the weapon, before warping its payload into the Deep Storm Station - sacrificing themself to contain the matter safely.</Page>
+      <Page>Thanks to their efforts, the Hearthians survived to explore a world largely safe of ghost matter shortly before the universe ended.</Page>
     </Dialogue>
   </DialogueNode>
 

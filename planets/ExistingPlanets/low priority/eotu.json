@@ -9,23 +9,45 @@
 
 	"details": [
 		{
+			"rename": "quickwarp to museum",
+			"path":"EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/SixthPlanet_Root/Volumes_SixthPlanet/QuantumFoamTrigger/",
+			"position": {"x": -635.4469,"y": 915.0679,"z": 2449.949},
+			"rotation": {"x": 347.504,"y": 344.016,"z": 358.2743},
+			"isRelativeToParent": true
+		},
+
+
+		{
 			"rename": "Stowaway",
 			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory"
 		},
 		{
-			"assetBundle": "planets/bundle/eye stuff",
-			"path":"assets/models/stowaways eye/cracked crystal body.prefab",
-			"position":{"x":-1405.669,"y": 2.6898,"z": 6015.072},
-			"rotation": {"x":74.4995,"y": 74.113,"z": 274.89},
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/star ore shell.prefab",
+			"position": {"x": -1416.514,"y": -7.1696,"z": 5976.009},
+			"rotation": {"x": 357.2971,"y": 23.0473,"z": 0.4618},
+			"stretch": {"x":0.5,"y": 0.5509,"z": 0.5},
 			"keepLoaded": true,
 			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
 			"isRelativeToParent": true
 		},
 		{
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/wall lamp no light.prefab",
+			
+			"position": {"x":-1416.471,"y": 9.5904,"z": 5973.188},
+			"rotation": {"x": 0.796,"y": 121.8406,"z":  217.0701},
+			"stretch": {"x":15,"y": 5,"z": 5},
+			"keepLoaded": true,
+			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
+			"isRelativeToParent": true
+		},
+
+		{
 			"rename":"planet light",
 			"path":"EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PrisonerZone/PlanetLightController/planetLightBeam",
-			"position":{"x":-1406.155,"y": -5.28, "z": 6002.239},
-			"rotation": {"x":2.6725,"y": 315.8038,"z": 0.6219},
+			"position":{"x":-1401.1,"y": -1.3109, "z": 5993.223},
+			"rotation": {"x":2.5483,"y": 315.8038,"z": 2.3467},
 			"stretch":{"x":1,"y":0.5,"z":1},
 			"keepLoaded": true,
 			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
@@ -34,7 +56,7 @@
 		{
 			"assetBundle": "planets/bundle/eye stuff",
 			"path":"assets/models/stowaways eye/blue light.prefab",
-			"position":{"x":-1406.254,"y": 0.8891, "z": 6002.589},
+			"position":{"x":-1401.1,"y": 0.38, "z": 5993.223},
 			"rotation": {"x":359.4008,"y": 77.5698,"z": 358.6165},
 			"scale":1,
 			"keepLoaded": true,
@@ -50,25 +72,31 @@
 			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
 			"isRelativeToParent": true
 		},
+		
 		{
-			"assetBundle": "planets/bundle/eye stuff",
-			"path":"assets/models/stowaways eye/dead jellyfish 2.prefab",
-			"position":{"x":-1402.809,"y": -0.4437, "z": 5991.641},
-			"rotation": {"x":279.214,"y": 147.0131,"z": 359.3598},
-			"scale":0.04,
-			"keepLoaded": true,
-			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
-			"isRelativeToParent": true
-		},
-		{
+			"rename":"pool gm 1",
 			"assetBundle": "planets/bundle/eye stuff",
 			"path":"assets/models/stowaways eye/detailpatch_fol_gm_clutter (2).prefab",
-			"position":{"x":-1401.537,"y": -0.1709,"z": 5993.606},
-			"rotation": {"x":4.4517 ,"y": 75.7917,"z": 358.6165},
+			"position":{"x": -1401.252,"y": 0.4983,"z": 5993.848},
+			"rotation": {"x": 356.5711,"y": 75.5342,"z": 2.1327},
+			"stretch": {"x":0.7,"y": 0.7,"z": 0.7},
 			"keepLoaded": true,
 			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
 			"isRelativeToParent": true
 		},
+		{
+			"rename":"pool gm 2",
+			"assetBundle": "planets/bundle/eye stuff",
+			"path":"assets/models/stowaways eye/detailpatch_fol_gm_clutter (2).prefab",
+			"position":{"x":-1401.02,"y": 0.498,"z": 5992.863},
+			"rotation": {"x": 1.1857,"y": 292.1261,"z": 2.5146},
+			"stretch": {"x":0.6,"y": 0.8,"z": 0.6},
+			"keepLoaded": true,
+			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
+			"isRelativeToParent": true
+		},
+		
+
 		{
 			"assetBundle": "planets/bundle/eye stuff",
 			"path":"assets/models/stowaways eye/detailpatch_fol_gm_clutter (2).prefab",
@@ -99,7 +127,18 @@
 
 
 
+
 		{
+			"assetBundle": "planets/bundle/eye stuff",
+			"path":"assets/models/stowaways eye/cracked crystal body.prefab",
+			"position":{"x":-1405.669,"y": 2.6898,"z": 6015.072},
+			"rotation": {"x":74.4995,"y": 74.113,"z": 274.89},
+			"keepLoaded": true,
+			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"hearthian fossil i rebuilt in unity",
 			"assetBundle": "planets/bundle/eye stuff",
 			"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 			"position":{"x":-1403.167,"y": 0.7298,"z": 6013.972},
@@ -109,79 +148,18 @@
 			"isRelativeToParent": true
 		},
 		{
-			"assetBundle": "planets/bundle/eye stuff",
-			"path":"assets/models/stowaways eye/Props_NOM_Skeleton_Med_PileA_geo.prefab",
-			"position":{"x":-1401.289,"y": 0.3618,"z": 5993.644},
-			"rotation": {"x":1.8259,"y": 64.9035,"z": 358.6165},
+			"rename":"whiteboard filllight",
+			"path":"EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Observatory/Interactables_Observatory/LightsAndPlaques/FillLight_Museum/",
+			"position":{"x":-1387.84,"y": 1.5052,"z": 5997.76},
 			"keepLoaded": true,
 			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
 			"isRelativeToParent": true
 		},
-		{
-			"assetBundle": "planets/bundle/eye stuff",
-			"path":"assets/models/stowaways eye/geo_nomaitree_3_trunk.prefab",
-			"position":{"x":-1390.861,"y": 0.9254,"z": 6001.842},
-			"rotation": {"x":359.8289,"y": 335.099,"z": 357.2653},
-			"keepLoaded": true,
-			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
-			"isRelativeToParent": true,
-			"stretch": {"x":0.5,"y":0.6,"z":0.6}
-		},
-		{
-			"assetBundle": "planets/bundle/eye stuff",
-			"path":"assets/models/stowaways eye/copper holder.prefab",
-			"position":{"x":-1390.622,"y": -1.3126,"z": 6008.595},
-			"rotation": {"x":357.5443,"y": 204.2789,"z": 1.217},
-			"keepLoaded": true,
-			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
-			"isRelativeToParent": true
-		},
-		{
-			"rename": "GiantsLoft Lilypad 1",
-			"isRelativeToParent": true,
-			"position":{"x":-1399.757,"y": 0.5382,"z": 5992.97},
-			"rotation": {"x":359.4008,"y": 77.5698,"z": 358.6165},
-			"keepLoaded": true,
-			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
-			"stretch": {"x":1,"y": 0.4,"z": 1}
-		},
-		{
-			"rename": "GiantsLoft Lilypad 3 smal",
-			"isRelativeToParent": true,
-			"position":{"x":-1400.312,"y": 0.5363,"z": 5992.605},
-			"rotation": {"x":359.4008,"y":  175.983,"z": 358.6165},
-			"keepLoaded": true,
-			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
-			"stretch": {"x":0.7,"y": 0.3,"z": 0.7}
-		},
-		{
-			"rename": "GiantsLoft Lilypad 2 big",
-			"isRelativeToParent": true,
-			"position":{"x":-1401.691,"y": 0.5127,"z": 5994.143},
-			"rotation": {"x":359.4008,"y": 28.6269,"z": 358.6165},
-			"keepLoaded": true,
-			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
-			"stretch": {"x":1.6,"y": 0.7,"z": 1.6}
-		},
+		
+	
 
-		{
-			"rename":"submerged nomai skelly 2",
-			"path":"EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Observatory/Interactables_Observatory/Observatory_Exhibits/BatchedGroup/BatchedMeshRenderers_2",
-			"position":{"x": -1413.775,"y": -0.8072,"z": 5996.498},
-			"rotation": {"x": 358.1071,"y": 59.2156,"z": 358.8637},
-			"keepLoaded": true,
-			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
-			"isRelativeToParent": true
-		},
-		{
-			"rename":"nomai dream candle",
-			"path":"EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/PrisonerZone/TombDepths/MirrorController/Prefab_IP_DreamCandle_Ground_Small",
-			"position":{"x":-1390.593,"y": -0.5308,"z": 6008.625},
-			"rotation": {"x":357.5443,"y": 204.2789,"z": 1.217},
-			"keepLoaded": true,
-			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
-			"isRelativeToParent": true
-		},
+		
+		
 
 
 
@@ -192,25 +170,38 @@
 			"rotation": {"x":1.8779,"y": 171.066,"z": 359.7753},
 			"keepLoaded": true,
 			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
-			"isRelativeToParent": true
+			"isRelativeToParent": true,
+			"removeChildren": ["InteractVolume"]
 		},
 		{
-			"rename":"pottery plaque",
+			"rename":"sanctuary plaque",
 			"path":"EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Observatory/Interactables_Observatory/LightsAndPlaques/Prefab_HEA_MuseumPlaque (1)",
-			"position":{"x":-1392.328,"y": -0.2613,"z": 6001.158},
-			"rotation": {"x":357.3067,"y": 268.0555,"z": 359.4979},
+			"position":{"x": -1408.461,"y": -0.6838,"z": 5986.896},
+			"rotation": {"x": 357.259,"y": 31.4141,"z": 359.9241},
 			"keepLoaded": true,
 			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
-			"isRelativeToParent": true
+			"isRelativeToParent": true,
+			"removeChildren": ["InteractVolume"]
+		},
+		{
+			"rename":"stowaway plaque",
+			"path":"EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Observatory/Interactables_Observatory/LightsAndPlaques/Prefab_HEA_MuseumPlaque (1)",
+			"position":{"x":-1388.931,"y": -0.5322,"z": 5994.582},
+			"rotation": {"x":357.3067,"y": 330.2379,"z": 359.4979},
+			"keepLoaded": true,
+			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
+			"isRelativeToParent": true,
+			"removeChildren": ["InteractVolume"]
 		},
 		{
 			"rename":"gravcrystal plaque",
 			"path":"EyeOfTheUniverse_Body/Sector_EyeOfTheUniverse/Sector_Observatory/Interactables_Observatory/LightsAndPlaques/Prefab_HEA_MuseumPlaque (1)",
-			"position":{"x":-1407.577,"y":  -0.4896,"z": 6009.794},
-			"rotation": {"x":358.8549,"y": 224.0046,"z": 357.5072},
+			"position":{"x":-1402.477,"y": -0.4896,"z": 6012.496},
+			"rotation": {"x":358.8549,"y": 83.9525,"z": 359.8362},
 			"keepLoaded": true,
 			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
-			"isRelativeToParent": true
+			"isRelativeToParent": true,
+			"removeChildren": ["InteractVolume"]
 		}
 	],
 	"dialogue":
@@ -223,11 +214,18 @@
 			"xmlFile": "planets/ExistingPlanets/dialogue/Notes/EYE pond.xml"
 		},
 		{
-			"rename":"Pottery plaque note",
+			"rename":"Sanctuary plaque note",
 			"position": {"x":0,"y": 1.216,"z": -0.145},
-			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway/pottery plaque",
+			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway/sanctuary plaque",
 			"isRelativeToParent": true,
-			"xmlFile": "planets/ExistingPlanets/dialogue/Notes/EYE plant.xml"
+			"xmlFile": "planets/ExistingPlanets/dialogue/Notes/EYE sanctuary.xml"
+		},
+		{
+			"rename":"Whiteboard plaque note",
+			"position": {"x":0,"y": 1.216,"z": -0.145},
+			"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway/stowaway plaque",
+			"isRelativeToParent": true,
+			"xmlFile": "planets/ExistingPlanets/dialogue/Notes/EYE whiteboard.xml"
 		},
 		{
 			"rename":"Crystal plaque note",
@@ -236,13 +234,33 @@
 			"isRelativeToParent": true,
 			"xmlFile": "planets/ExistingPlanets/dialogue/Notes/EYE gravy.xml"
 		}
-	]},
+	],
+"translatorText": [
+
+	{
+		"position": {"x":-1386.509,"y": 1.4689,"z": 5998.678},
+		"rotation": {"x":357.7315,"y": 273.8558,"z": 187.0965},
+		"isRelativeToParent": true,
+		"xmlFile": "planets/ExistingPlanets/dialogue/Notes/Cassava eye note.xml",
+		"parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway",
+		"arcInfo": [
+			{
+				"position": {"x":0,"y": 0},
+				"zRotation": 349,
+				"mirror": false
+			},
+			{
+				"position": {"x":0.9784,"y": 0.4044},
+				"zRotation": 276.8973,
+				"mirror": true}
+		],
+		"seed":5
+	}
+]
+},
 
 
 "removeChildren": [
-	"Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway/nomai dream candle/Prop_IP_Candle_Ground_Small/Candle_Ground_Structure_Small",
-	"Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway/pond plaque/InteractVolume",
-	"Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway/pottery plaque/InteractVolume",
-	"Sector_EyeOfTheUniverse/Sector_Observatory/Stowaway/gravcrystal plaque/InteractVolume"
+
 ]
 }

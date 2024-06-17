@@ -1,0 +1,24 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>SIGN</NameField>
+
+<DialogueNode>
+    <Name>Plant</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>The strange rocks that intrigued the Nomai and Hearthians alike will soon have no one left to observe them ever again.</Page>
+      <Page>Tephra and Galena noticed one of these quantum shards in the museum disappearing from time to time.</Page>
+      <Page>This quantum shard traveled to a sanctuary within Timber Hearth, built to protect the Hearthians from a supernova the Nomai hoped to induce.</Page>
+      <Page>The few Hearthians who hid within this sanctuary would be among the only survivors of the Interloper's arrival.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>Plant NOPE</Name>
+    <EntryCondition>No Plant</EntryCondition>
+    <Dialogue>
+      <Page>We were never able to learn what was causing ghost matter to begin to evaporate.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>
