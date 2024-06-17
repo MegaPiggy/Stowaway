@@ -15,7 +15,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		ESCALL: Even with my limited supply of air, the members of <![CDATA[<color=orange>escape pod 3</color>]]> are counting on me to reach the <![CDATA[<color=orange>Vessel</color>]]> and rescue them.
+		ESCALL: Even with my limited supply of air, the members of <![CDATA[<color=orange>Escape Pod 3</color>]]> are counting on me to reach the <![CDATA[<color=orange>Vessel</color>]]> and rescue them..
 		</Text>
 	</TextBlock>
 
@@ -51,7 +51,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		ESCALL: An update: I have drifted into what appears to be an enormous cluster of red orbs. Even a single one of these orbs is at least a few times my size..
+		ESCALL: An update: I have drifted into what appears to be an enormous cluster of red orbs. Even a single one is a few times my size..
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<LocationA />
 			<ParentID>6</ParentID>
 		<Text>
-		ESCALL: The orbs feel warm and.. gelatinous. Are they filled with.. liquid?
+		ESCALL: The orbs feel warm and gelatinous to the touch. They appear to be filled with.. liquid?
 		</Text>
 	</TextBlock>
 
@@ -87,7 +87,16 @@
 		<LocationA />
 			<ParentID>9</ParentID>
 		<Text>
-		ESCALL: <![CDATA[<i>No, no!</i>]]> I have been surrounded! I, I'm sorry, my
+		ESCALL: <![CDATA[<i>No, no..</i>]]>
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>11</ID>
+		<LocationA />
+			<ParentID>10</ParentID>
+		<Text>
+		ESCALL: I have been surrounded! I, I'm sorry, my
 		</Text>
 	</TextBlock>
 

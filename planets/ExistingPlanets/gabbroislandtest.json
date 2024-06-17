@@ -64,7 +64,7 @@
 				"isRelativeToParent": true,
 				"radius": 0.5,
 				"range":3,
-				"xmlFile": "planets/ExistingPlanets/dialogue/Gabbro waves note.xml",
+				"xmlFile": "planets/ExistingPlanets/dialogue/Notes/Gabbro waves note.xml",
 				"pathToAnimController": "Sector_GabbroIsland/Gabbro drownfire recording",
 				"flashlightToggle": "turnOffThenOn"
 			}
@@ -342,8 +342,9 @@
 		{
 			"rename":"Marriage Statue Head",
 			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Prefab_NOM_StatueHead",
-			"position":{"x": 7.0737,"y": 2.1952,"z": 25.16668},
-			"rotation":{"x": 358.5567,"y": 278.7237,"z": 356.402}
+			"position":{"x": 7.1636,"y": 2.2,"z": 25.2},
+			"rotation":{"x": 358.5567,"y": 282.3507,"z": 356.402},
+			"isRelativeToParent": true
 		},
 		
 

@@ -257,16 +257,7 @@
 				"keepLoaded": true,
 				"isRelativeToParent": true
 			},
-			{
-				"rename":"Brokenwall shelter slide hole",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/brokenwall_a_corner_L.prefab",
-				"position": {"x": 8.0491, "y": 35.4543, "z": 15.2219},
-				"rotation": {"x": 0, "y": 315.2555, "z": 0},
-				"stretch": {"x":1.2,"y": 1,"z": 1},
-				"keepLoaded": true,
-				"isRelativeToParent": true
-			},
+	
 			{
 				"rename":"Left Wall1",
 				"assetBundle": "planets/bundle/prefabs",

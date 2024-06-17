@@ -13,7 +13,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-		MELORAE: Oh, Plume! Young Oeno has engineered a new version of our spacesuits to shelter us from intense heat - you must don them before you depart!
+		MELORAE: Oh, Plume! Young Oeno has engineered a new version of our spacesuits to help us weather intense heat - you must don them before you depart!
 		</Text>
 	</TextBlock>
 
@@ -41,19 +41,19 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: Imagine if we had such wondrous equipment back then when we were constructing and calibrating that device, Melorae!</Text>
+		COLEUS: Imagine if we had such wondrous equipment when we were constructing and calibrating the very device Plume is visiting today, Melorae!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-		MELORAE: Then I imagine we might begin to miss the sun on this stormy, sunless planet... Which I must say, I absolutely have not!</Text>
+		MELORAE: Then I imagine we might begin to miss the sun's warmth on this stormy, sunless planet - which I can gladly say I have not!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
 		<Text>
-		PLUME: You have my gratitude, my friends. And I can only compliment your tenacity, working on Ember Twin without this protection!</Text>
+		PLUME: You have my gratitude, my friends. I can only compliment your tenacity, working on Ember Twin without this protection!</Text>
 	</TextBlock>
 
 

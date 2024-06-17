@@ -52,7 +52,7 @@
 						"probability": 1
 					},
 					{
-						"position":{"x": -105.194,"y": 16.9304,"z": 117.3955},
+						"position":{"x": -105.194,"y": 16.9304,"z": 118.096},
 						"rotation": {"x":311.8705,"y": 40.1255,"z": 88.4716},
 						"probability": 5
 					}
@@ -173,10 +173,34 @@
 		
 		"details": [
 			{
+				"rename":"exhibit scout sticky",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Props_Crossroads/OtherComponentsGroup/Reibeck_Camp/Props_HEA_Probe_STATIC/",
+				"position":{"x": -4.6061,"y": -48.3445 ,"z": 183.509},
+				"rotation":{"x": 347.1358,"y": 179.924,"z": 331.713},
+				"isRelativeToParent": true
+			},	{
+				"rename":"exhibit scout light",
+				"path":"Probe_Body/Lantern",
+				"parentPath": "Sector_TH/exhibit scout sticky",
+				"position":{"x": 0,"y": 1.9182,"z": 0},
+				"rotation":{"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"exhibit scout plaque",
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/Props_HEA_MuseumPlaque/",
+				"position":{"x": -7.2449,"y": -44.8049 ,"z": 181.528},
+				"rotation":{"x": 344.0336,"y": 271.7127,"z": 255.3746},
+				"isRelativeToParent": true
+			},
+
+
+
+			{
 				"rename":"Galena signboard",
 				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)/LampPost_Sign",
-				"position":{"x": -15.2575,"y": -42.0854,"z": 222.5396},
-				"rotation":{"x": 1.3778,"y": 85.7541,"z": 96.7435},
+				"position":{"x": -15.6575,"y": -43.0854,"z": 222.1396},
+				"rotation":{"x": 3.2707,"y": 105.1649,"z": 96.7437},
 				"scale": 3,
 				"isRelativeToParent": true
 			},
@@ -448,21 +472,21 @@
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
 				"rename":"Forest GM 1",
 				"position": {"x": 0,"y": 1.7,"z": 0},
-				"rotation": {"x":0,"y": 0,"z": 90},
+				"rotation": {"x":0,"y": 0,"z": 0},
 				"removeChildren": ["ProbeVisuals"],
 				"parentPath": "Sector_TH/Forest GM wisps 1",
 				"isRelativeToParent": true,
-				"stretch": {"x":0.5,"y":1,"z":1}
+				"stretch": {"x":1,"y":0.5,"z":1}
 			},
 			{
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
 				"rename":"Forest GM 2",
 				"position": {"x": 0,"y": 1.4,"z": 0},
-				"rotation": {"x":0,"y": 0,"z": 90},
+				"rotation": {"x":0,"y": 0,"z": 0},
 				"removeChildren": ["ProbeVisuals"],
 				"parentPath": "Sector_TH/Forest GM wisps 2",
 				"isRelativeToParent": true,
-				"stretch": {"x":0.5,"y":1,"z":1}
+				"stretch": {"x":1,"y":0.5,"z":1}
 			},
 
 	
@@ -700,12 +724,12 @@
 			{
 				"rename":"AuroraWisps village volume",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
-				"position": {"x":-0.0001,"y": -0.5155,"z": 0.0054},
+				"position": {"x":0,"y": 0.8655,"z": 0},
 				"rotation": {"x":0,"y": 0,"z": 0},
-				"scale":0.7692,
+				"stretch": {"x":1,"y":0.6,"z":1},
 				"removeChildren": ["ProbeVisuals"],
 				"isRelativeToParent": true,
-				"parentPath": "AuroraWisps village patch"
+				"parentPath": "Sector_TH/AuroraWisps village patch"
 			},
 			
 			
@@ -842,7 +866,15 @@
 			"position": {"x":-51.6045,"y": 60.2205,"z": 214.0489},
 			"radius": 0.5,
 			"range":3,
-			"xmlFile": "planets/ExistingPlanets/dialogue/Bulletin HAL.xml",
+			"xmlFile": "planets/ExistingPlanets/dialogue/Notes/Bulletin HAL.xml",
+			"flashlightToggle": "turnOffThenOn"
+		},
+		{
+			"rename": "Exhibit scout note",
+			"position":{"x": -7.445,"y": -44.9976,"z": 182.9166},
+			"radius": 0.5,
+			"range":3,
+			"xmlFile": "planets/ExistingPlanets/dialogue/Notes/Astronaut exhibit scout.xml",
 			"flashlightToggle": "turnOffThenOn"
 		}
 

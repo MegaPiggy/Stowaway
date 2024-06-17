@@ -24,7 +24,7 @@
 
 		"dialogue": [
 			{
-				"xmlFile": "planets/ExistingPlanets/dialogue/Gabbro campfire recording.xml",
+				"xmlFile": "planets/ExistingPlanets/dialogue/Gabbro bramblenado nap.xml",
 				"pathToAnimController": "Sector_BrambleIsland/hammock/Gabbro_Hammock02:Controller_Squash/Gabbro recording",
 				"isRelativeToParent": true,
 				"radius": 0.5,
@@ -129,7 +129,7 @@
 				"xmlFile":"planets/ExistingPlanets/translatortext/Bramble Island/jellyfish study smart.xml"
 			},
 			{
-				"position": {"x":-0.6591,"y": 0.6539,"z": -0.6657},
+				"position": {"x":-1.5064,"y": 0.6539,"z": -0.6657},
 				"rotation": {"x":0,"y": 230.0877,"z": 63.435},
 				"isRelativeToParent": true,
 				"type": "scroll",

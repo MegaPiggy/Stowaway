@@ -1,0 +1,16 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>SIGN</NameField>
+
+<DialogueNode>
+    <Name>Scout sticky</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Woah, how is the Little Scout hanging onto this wall?!</Page>
+      <Page>When launched, the Little Scout arms tiny hooks that allow it to latch onto just about any surface it is launched at!</Page>
+       <Page>Combined with its 360-degree rotating camera, the Little Scout allows our astronauts to scout their surroundings and watch for dangers, even from a distance!</Page>
+    </Dialogue>
+    
+  </DialogueNode>
+
+</DialogueTree>

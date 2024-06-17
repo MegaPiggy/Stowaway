@@ -22,7 +22,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: These species.. They must both have traveled as stowaways within fragments of the planet the bramble destroyed, and landed on the planets that would become their current habitats.
+		OENO: These species.. They must have been stowaways within fragments of the planet the bramble destroyed and scattered, crashing on the planets that would become their habitats today.
 		</Text>
 	</TextBlock>
 
@@ -40,7 +40,7 @@
 		<LocationA />
 			<ParentID>4</ParentID>
 		<Text>
-		PLUME: In the absence of any trace of the survivors here, this discovery.. is a beacon of light.
+		PLUME: In the heartbreaking absence of any trace of the survivors here.. this discovery is a beacon of light.
 		</Text>
 	</TextBlock>
 
@@ -49,7 +49,7 @@
 		<LocationA />
 			<ParentID>5</ParentID>
 		<Text>
-		PLUME: I would like to learn to follow these species' example, of perserverance and undying courage in the face of hardships.
+		PLUME: I wish to learn from these species' perserverance and undying courage in the face of hardships.
 		</Text>
 	</TextBlock>
 

@@ -18,28 +18,28 @@
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>SOLANUM: I dove into the pool, hoping retrieve it; but the long, electrifying tentacles of the pool's inhabitant fiercely guards the scroll at the bottom of the pool!</Text>
+		<Text>SOLANUM: I dove into the pool, hoping to retrieve it; but the long, electrifying tentacles of the pool's inhabitant fiercely guards the scroll at the bottom of the pool!</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<LocationA />
 		<ParentID>3</ParentID>
-		<Text>SOLANUM: I took the scroll from within the tower, hoping to find a whiteboard to read it outside.. But now there's no way to read it, and I've even polluted a habitat for the native species!</Text>
+		<Text>SOLANUM: I could find nowhere to read it, and so took it with me.. But now, not only have I lost a vital piece of our clan's history, I have polluted a habitat for the native species!</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>5</ID>
 		<LocationA />
 		<ParentID>4</ParentID>
-		<Text>SOLANUM: I feel deeply ashamed to leave this scroll polluting the lifeform's habitat until I return with help, but I have already received a few shocks trying to retrieve it..</Text>
+		<Text>SOLANUM: I feel deeply ashamed leaving this scroll where it rest until I can return with help, but I have already received a few shocks trying to retrieve it..</Text>
 	</TextBlock>
 
 		<TextBlock>
 		<ID>6</ID>
 		<LocationA />
 		<ParentID>5</ParentID>
-		<Text>SOLANUM: If anyone who finds this message before then is able to beseech the lifeform to budge so the scroll can be safely retrieved: I would be most grateful if you would kindly do so in my stead!</Text>
+		<Text>SOLANUM: If anyone who finds this message is able to beseech the lifeform to budge, so that the scroll can be safely retrieved: I would be most grateful if you would kindly do so in my stead!</Text>
 	</TextBlock>
 
 

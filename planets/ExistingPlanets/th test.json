@@ -59,15 +59,7 @@
 		
 			
 
-			{
-				"rename": "bubbel",
-				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/bubbel.prefab",
-				"position":{"x":15.0399,"y": -39.3562,"z": 185.9982},
-				"rotation": {"x": 0,"y": 101.7887,"z": 76.7853},
-				"scale":1,
-				"isRelativeToParent": true
-			},
+		
 			
 			{
 				"rename": "soalnum",

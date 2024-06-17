@@ -10,7 +10,7 @@
 	<TextBlock>
 			<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>PLUME: Both expeditions to the forested planet, and to the exterior of Dark Bramble, have found no signs of any of these survivors, either.</Text>
+		<Text>PLUME: Our expeditions to the forested planet, as well as the exterior of Dark Bramble, have found no signs of any of these survivors, either.</Text>
 			</TextBlock>
 
 	<TextBlock>
@@ -52,7 +52,7 @@
 	<TextBlock>
 		<ID>9</ID>
 		<ParentID>8</ParentID>
-		<Text>PLUME: Would it be right to blame either for the tragedy, when we could have taken more precautions before we followed after the signal?</Text>
+		<Text>PLUME: Would it be right to blame either for the tragedy, when we could have taken more precautions before we followed the Eye's signal so brashly?</Text>
 			</TextBlock>
 
 	<TextBlock>
