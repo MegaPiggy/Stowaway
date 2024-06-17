@@ -301,8 +301,8 @@
 			<Page>Oh, wow. <![CDATA[<i>]]>Wow.<![CDATA[</i>]]> So that’s how the Nomai died?</Page>
 			<Page>I know it was a long time ago, but still.. That’s... really sad, isn’t it?</Page>
 			<Page>Stars above, it’s lucky we weren't around yet when...</Page>
-			<Page>Wait.. No, that's not right! If what you've told me so far is right, then we were around already when that killed the Nomai!</Page>
-			 <Page>If that's the case.. How in the stars did our ancestors survive what the Nomai couldn't?!</Page>
+			<Page>Wait.. No, that's not right! You found a mural of our ancestors in the waterways, right? That means we must have been around at the time that happened to the Nomai!</Page>
+			 <Page>But if that's the case.. How in the stars did our ancestors survive what the Nomai couldn't?!</Page>
 			 <Page>Why weren't we.. <![CDATA[<Pause=2>]]> you know... <![CDATA[<Pause=2>]]> killed by ghost matter as well?</Page>
 		</Dialogue>
 <DialogueOptionsList>
@@ -329,7 +329,7 @@
 			<Page>So we did coexist with them. They.. They studied and even admired us.. Oh, stars above.</Page>
     		  <Page>Not only that - our ancestors had already evolved to live on land during that time! Goodness, it couldn't have been that long since the Nomai were still around then, right?</Page>
 	 		 <Page>But if that's the case... What in the stars happened to the Nomai in that time?</Page>
-			 <Page>I mean, the only trace we've found of them are the ruins of their cities and their skeletons.. That doesn't paint a bright picture.. does it?</Page>
+			 <Page>I mean, the only trace we've found of them are the ruins of their cities and their skeletons.. That doesn't paint a bright picture, does it..?</Page>
 		</Dialogue>
   <DialogueOptionsList>
 			<DialogueOption>
@@ -353,8 +353,8 @@
 			<Page>That's our ancestors for sure, right? Amphibious, four-eyed.. It has to be us!</Page>
 			<Page>So we did coexist with them. They.. They studied and even admired us.. Oh, stars above.</Page>
     		  <Page>Not only that - our ancestors had already evolved to live on land during that time! Goodness, it couldn't have been that long since the Nomai were still around then, right?</Page>
-	 		 <Page>But.. wait! If what you've told me so far is right, then...</Page>
-			 <Page>How in the stars did our ancestors survive what the Nomai couldn't?!</Page>
+	 		 <Page>But.. wait. You told me earlier that the Interloper killed all the Nomai in the star system.</Page>
+			 <Page>If our ancestors were already around at the time.. How in the stars did our ancestors survive what the Nomai couldn't?!</Page>
 			 <Page>Why weren't we.. <![CDATA[<Pause=2>]]> you know... <![CDATA[<Pause=2>]]> killed by ghost matter as well?</Page>
 		</Dialogue>
   <DialogueOptionsList>
@@ -419,7 +419,7 @@
 			<Page>Thank you, Cassava.</Page>
 			<Page>..Hey, wanna sit down and pull up a marshmallow stick, hatchling?</Page>
 			<Page>You've done enough for a first trip, don't you think?</Page>
-			<Page>Space is scary, and time is cruel.. <![CDATA[<Pause>]]> ..But I think the best we can do to honor Cassava, and the Nomai as a whole - is to just try to enjoy every moment of our time existing in this universe.. You know?</Page>
+			<Page>Space is scary, and time is cruel.. <![CDATA[<Pause>]]> ..But I think the best we can do to honor Cassava, and the Nomai as a whole, is to just try to enjoy every moment of our time existing in this universe.</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -427,9 +427,10 @@
 <DialogueNode>
 		<Name>Riebeck_GJ</Name>
 		<Dialogue>
-				<Page>You're doing a great job! I can't believe you've found all that on your first trip into space. (I-I mean, sure, you do have the power of the translator tool - but still!!)</Page>
+				<Page>You're doing a great job, seriously! I can't believe you already found ALL that on your first trip into space!</Page>
+				<Page>(I-I mean, sure, you do have the power of the translator tool - but still!!)</Page>
 			<Page>Hey, um.. Thanks for flying to tell me about all this! I really appreciate it, hatchling.</Page>
-			<Page>But hm.. There's definitely some major part of this mystery we need to figure out...</Page>
+			<Page>But wow! There's definitely some major part of this mystery we still need to figure out...</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -438,7 +439,7 @@
 		<Dialogue>
 				<Page>Oh, wow. Wow. This is a serious mystery we have on our hands... This is a whole new page of Hearthian history we've never even known about!</Page>
 			<Page>Um, seeing as you're the only one with a translator tool right now, <![CDATA[<size=20>]]>and I'm a little paralyzed above a black hole,<![CDATA[</size>]]> I'll um, be counting on you to find out what you can about this exciting mystery for now.</Page>
-			<Page>Oh, um! If you find anything, I'd love to hear about your findings! <![CDATA[<size=20>]]>If it's not too much trouble!<![CDATA[</size>]]></Page>
+			<Page>Oh! If you find anything, I'd SERIOUSLY love to hear about your findings! <![CDATA[<size=20>]]>Um, if it's not too much trouble!<![CDATA[</size>]]></Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -447,7 +448,8 @@
 		<Dialogue>
 			<Page>Just imagine! We might all be sitting around a campfire today, sharing stories and marshmallows with the Nomai.</Page>
 			<Page>Hey, you ever wonder how the Nomai would roast their marshmallows? I have! I've spent uh, a little too long sitting here paralyzed in fear.</Page>
-			<Page>All we know about their diet is that they mostly ate plants - so maybe they'd just eat marshmallows out of the can? Y'know, like the opposite of Slate! ..Sorry, that was just something I was thinking about.</Page>
+			<Page>All we know about their diet is that they mostly ate plants - so maybe they'd just eat marshmallows out of the can? Y'know, like the opposite of Slate!</Page>
+			<Page>..Sorry, that was just something silly I was thinking about.</Page>
 		</Dialogue>
 	</DialogueNode>
 

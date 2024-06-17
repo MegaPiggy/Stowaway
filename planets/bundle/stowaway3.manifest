@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 480958901
+CRC: 2962309352
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 48fe0aa1c80a0d0b823549abbad30863
+    Hash: 2cb143f40215d61ace096c9fd7defcb2
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 6949c2f42b0b8822eb7c0077292b84e2
+    Hash: 2b9ff9e51d4acab7b6d404356f3bcdc3
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,6 +42,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 80818142ed7b755f9ecef4a391e63964, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: b510d252798b94e5d72fb33fbb25a1ad, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 5949ee929a0f4342e2cff9fa5a0f9127, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
@@ -51,6 +53,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 97799c07190331b5ea4838ff8ff2a8e0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c1e03d384261f6f301ef6513a478c3a8, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
 - Class: 114
@@ -88,5 +92,6 @@ Assets:
 - Assets/Models/mural side.prefab
 - Assets/Models/Solaumn alloy.prefab
 - Assets/Models/Tractor beam SW 1.prefab
+- Assets/Models/rotation guy.prefab
 - Assets/Models/mural front.prefab
 Dependencies: []

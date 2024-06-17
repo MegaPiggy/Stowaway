@@ -42,7 +42,8 @@
 		<Dialogue>
 		<Page>Wha.. You can't just drop that dirt on me! And you're saying there's one that even warps you to the Nomai Ruins on Timber Hearth?!</Page>
 		<Page>Wow, won't this discovery basically upend the space program? It's gonna be so easy to travel across the planets now!</Page>
-		<Page>Oh wait, actually.. <![CDATA[<i>Can</i>]]> you go both ways through this warp system? Slate tells me the warp technology we've found so far can only recall stuff, so we can't just warp ourself everywhere nilly-willy.. at least, not yet!</Page>
+		<Page>Oh wait, actually.. <![CDATA[<i>Can</i>]]> you go both ways through this warp system?</Page>
+		<Page>Slate tells me the warp technology we've found so far can only recall stuff, so we can't just warp ourself everywhere nilly-willy.. <![CDATA[<Pause>]]> At least, not yet!</Page>
 		<Page>It'd be a bummer if we could only go from Ash Twin to Timber Hearth, and not the other way around!</Page>
 			 </Dialogue>
 </DialogueNode>
@@ -53,7 +54,8 @@
 		<Page>Woah, already?! You're awesome, astronaut!</Page>
 		<Page>Oh wow.. So, one of the warp towers warps you to the Nomai Ruins on Timber Hearth?!</Page>
 		<Page>Wow, won't this discovery basically upend the space program? It's gonna be so easy to travel across the planets now!</Page>
-		<Page>Oh wait, actually.. <![CDATA[<i>Can</i>]]> you go both ways through the warp system? Slate tells me the warp technology we've found so far can only recall stuff, so we can't just warp ourself everywhere nilly-willy.. at least, not yet!</Page>
+		<Page>Oh wait, actually.. <![CDATA[<i>Can</i>]]> you go both ways through the warp system?</Page>
+		<Page>Slate tells me the warp technology we've found so far can only recall stuff, so we can't just warp ourself everywhere nilly-willy.. <![CDATA[<Pause>]]> At least, not yet!</Page>
 		<Page>It'd be a bummer if we could only go from Ash Twin to Timber Hearth, and not the other way around!</Page>
 			 </Dialogue>
 </DialogueNode>
@@ -64,7 +66,7 @@
 		 <SetPersistentCondition>Shutup_Mica</SetPersistentCondition>
 		<Dialogue>
 			<Page>You tell me! You astronauts always change your launch dates at the last minute!</Page>
-				<Page>Gabbro's Gabbro.. Riebeck needed more time to mentally prepare and called their launch off.. And remember Chert's first launch?</Page>
+				<Page>Gabbro's Gabbro.. Riebeck needed more time to mentally prepare.. And remember Chert's first launch?</Page>
 			<Page>They delayed their first launch several times, just to wait for the sand on Ash Twin to start flowing back to Ember Twin!</Page>
      		 <Page>Sure, the sand goes back and forth between the twins like clockwork - but we already set a launch date to celebrate, y'know?</Page>
 			 <Page>I guess they wanted more time to look around Ash Twin without getting buried by sand.. But then you gotta watch out for that sand column flinging you to Ember Twin instead! There's no winning!</Page>
@@ -107,7 +109,7 @@
 		<Name>ModelRocketKid_SW2</Name>
 		<Dialogue>
 			<Page>Woah... <![CDATA[<Pause=2>]]> That's a really cool idea! How'd you come up with that?</Page>
-			<Page>Maybe the Nomai just send themselves back in time and disappeared.. Is that your crazy idea about where they went? I love it!</Page>
+			<Page>Maybe the Nomai just sent themselves back in time and disappeared.. Is that your crazy idea about where they went? I love it!</Page>
 			<Page>Well then, astronaut! How would you get into this theoretical superstructure on Ash Twin?</Page>
 			 </Dialogue>
 	<DialogueOptionsList>

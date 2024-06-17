@@ -1,0 +1,41 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Angler Nest Dimension",
+
+	"Props": {
+		"details": [
+		
+			{
+				"rename":"anglerfish recording purple light",
+				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_NomaiEyeExhibit",
+				"position": {"x": -8.8924,"y": 3.0075,"z": -2.0001},
+				"rotation": {"x": 58.6297,"y": 231.0193,"z": 23.9294},
+				"hasPhysics": true,
+				"physicsSuspendUntilImpact": true,
+				"physicsRadius": 0,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"anglerfish recording rotate",
+				"path":"Structure_NOM_SunStation_Debris_Big",
+				"position": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_AnglerNestDimension/anglerfish recording purple light",
+				"removeChildren": ["collider","wall"],
+				"isRelativeToParent": true
+			}
+		],
+
+		"translatorText": [
+			{
+				"rename":"escall recording",
+				"xmlFile": "planets/ExistingPlanets/translatortext/zBramble/bramble escall eggs.xml",
+				"type": "recorder",
+				"parentPath": "Sector_AnglerNestDimension/anglerfish recording purple light/anglerfish recording rotate",
+				"position": {"x": 0,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true
+			}
+		]
+	}
+}

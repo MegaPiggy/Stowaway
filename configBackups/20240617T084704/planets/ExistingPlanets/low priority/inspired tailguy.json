@@ -1,0 +1,19 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name":"Tail",
+	
+"Base": {
+},
+
+	"Orbit": {
+"showOrbitLine": true,
+		"primaryBody": "Giant's Deep",
+		"semiMajorAxis" : 2600,
+		"siderealPeriod": 0,
+		"trueAnomaly": 281,
+		"alignmentAxis": {"x":0,"y":0,"z":-1}
+	
+}
+
+}

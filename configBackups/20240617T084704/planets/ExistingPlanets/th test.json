@@ -1,0 +1,144 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+
+
+
+	"name": "Timber Hearth",
+	
+	
+	"Props": {
+		"singularities": [
+			{
+				"rename":"DSS black hole",
+				"type": "blackHole",
+				"uniqueID": "TH SHORTCUT 0",
+				"pairedSingularity": "DSS WH",
+				"hasWarpEffects": false,
+				"horizonRadius": 1,
+				"position":{"x":30.282,"y": -50.2641,"z": 187.1413}
+			},
+		{
+				"rename":"Cyard black hole",
+				"type": "blackHole",
+				"uniqueID": "TH SHORTCUT 1",
+				"pairedSingularity": "CYARD WH",
+				"hasWarpEffects": false,
+				"horizonRadius": 1,
+				"position":{"x":32.8386,"y": -42.1099,"z": 183.2469}
+		},
+		{
+			"rename":"StatIsle black hole",
+			"type": "blackHole",
+			"uniqueID": "TH SHORTCUT 2",
+			"pairedSingularity": "STAT WH",
+			"hasWarpEffects": false,
+			"horizonRadius": 1,
+			"position":{"x":26.6179,"y": -39.4544,"z": 186.1813}
+	},
+	{
+		"rename":"GabIsle black hole",
+		"type": "blackHole",
+		"uniqueID": "TH SHORTCUT 3",
+		"pairedSingularity": "GAB WH",
+		"hasWarpEffects": false,
+		"horizonRadius": 1,
+		"position":{"x":21.3915,"y": -38.0093,"z": 185.8227}	
+	},
+	{
+	"rename":"BrambleIsle black hole",
+	"type": "blackHole",
+	"uniqueID": "TH SHORTCUT 4",
+	"pairedSingularity": "BRAM WH",
+	"hasWarpEffects": false,
+	"horizonRadius": 1,
+	"position":{"x":27.4433,"y": -48.2061,"z": 182.6343}
+		}
+		],
+		"details": [
+		
+			
+
+			{
+				"rename": "bubbel",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/bubbel.prefab",
+				"position":{"x":15.0399,"y": -39.3562,"z": 185.9982},
+				"rotation": {"x": 0,"y": 101.7887,"z": 76.7853},
+				"scale":1,
+				"isRelativeToParent": true
+			},
+			
+			{
+				"rename": "soalnum",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/Solaumn alloy.prefab",
+				"scale":0.9,
+				"position":{"x": 15.2943,"y": -45.0238,"z": 185.7332},
+				"rotation": {"x":305.1076 ,"y":  288.564,"z": 251.7449},
+				"isRelativeToParent": true
+			}
+			
+
+		
+		],
+		"remotes": [
+			{"id": "TH_Sanctuary",
+			"decalPath": "planets/assets/voyager dss icon.png",
+			"stones": [{"position": {"x": 16.38165, "y": -41.92884, "z": 185.4854},
+			"rotation": {"x": 76.79271, "y": 199.0539, "z": 193.8433},
+			"rename": "Cassava Weapon Stone"
+			}]
+			},
+			{
+			"id": "TH_Test",
+			"decalPath": "planets/assets/team askeratk.png",	
+			"whiteboard": {
+				"position": {"x": 16.6695, "y": -51.86734, "z": 182.931},
+				"rotation": {"x": 286.2347, "y": 349.3389, "z": 195.0047},
+				"nomaiText": [
+					{
+						"id":"TH_Sanctuary",
+						"location": "a",
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml"
+					}
+					]
+				
+				
+				}
+			}
+		],
+		
+	
+	"translatorText":[
+		{
+			"rename":"text spiral checking station",
+			"type": "whiteboard",
+			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
+			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225},
+	
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C3.xml",
+			"seed":3
+		},
+		
+		{
+			"rename": "text spiral checking station floor",
+			"seed": 2,
+			"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession setup.xml",
+			"position": {"x":24.3426, "y": -45.7584,"z": 183.9066},
+			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
+			"isRelativeToParent": true
+			
+	
+		}
+
+			]
+	},
+"removeChildren": [
+
+"Sector_TH/Sector_Village/Sector_StartingCamp/DetailPatches_StartingCamp/BakedForStreaming/DetailPatches_StartingCamp",
+
+"Sector_TH/Cyard black hole/BlackHoleAmbience",
+"Sector_TH/StatIsle black hole/BlackHoleAmbience"
+
+]}

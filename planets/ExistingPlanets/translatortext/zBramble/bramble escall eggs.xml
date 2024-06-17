@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		ESCALL: I cannot give up.
+		ESCALL: I cannot give up yet.
 		</Text>
 	</TextBlock>
 
@@ -24,7 +24,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		ESCALL: ..I refuse to fail them again.
+		ESCALL: I refuse to fail them again.
 		</Text>
 	</TextBlock>
 
@@ -33,7 +33,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		ESCALL: It feels like I have been drifting for ages.. What <![CDATA[<i>is</i>]]> this gruesome place? Have we been shrunken.. or are these spaces and its denizens truly so terrifyingly colossal?
+		ESCALL: It feels like I have been drifting for ages..
 		</Text>
 	</TextBlock>
 
@@ -42,41 +42,50 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		ESCALL: An update: I have drifted into what appears to be an enormous cluster of red orbs. Even a single one of these orbs is at least twice my size..
+		ESCALL: What <![CDATA[<i>is</i>]]> this gruesome place? Have we been shrunken.. or are these spaces and its denizens truly so terrifyingly colossal?
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		ESCALL: An update: I have drifted into what appears to be an enormous cluster of red orbs. Even a single one of these orbs is at least a few times my size..
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
-	<ID>6</ID>
+	<ID>7</ID>
 		<LocationA />
-			<ParentID>5</ParentID>
+			<ParentID>6</ParentID>
 		<Text>
 		ESCALL: The orbs feel warm and.. gelatinous. Are they filled with.. liquid?
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
-		<ID>7</ID>
+		<ID>8</ID>
 		<LocationA />
-			<ParentID>6</ParentID>
+			<ParentID>7</ParentID>
 		<Text>
 		ESCALL: <![CDATA[<i>..These are anglerfish eggs.</i>]]>
 		</Text>
 	</TextBlock>
 	
 	<TextBlock>
-		<ID>8</ID>
+		<ID>9</ID>
 		<LocationA />
-			<ParentID>7</ParentID>
+			<ParentID>8</ParentID>
 		<Text>
 		ESCALL: This.. This must be their nest. I must leave this area <![CDATA[<i>at once,</i>]]> before I am found and gravely punished for this trespass!
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
-		<ID>9</ID>
+		<ID>10</ID>
 		<LocationA />
-			<ParentID>8</ParentID>
+			<ParentID>9</ParentID>
 		<Text>
 		ESCALL: <![CDATA[<i>No, no!</i>]]> I have been surrounded! I, I'm sorry, my
 		</Text>

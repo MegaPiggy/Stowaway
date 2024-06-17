@@ -1,0 +1,534 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+
+	"name": "TimberHearth",
+	"Props":
+	{
+		"details":
+		[
+			{
+				"rename":"Tent 3",
+				"path":"Sector_TH/Tent 2",
+				"position": {"x": -160.9941, "y": -11.7362, "z": -121.9005},
+				"rotation": {"x": 47.6221, "y": 193.8561, "z": 314.0461},
+				"isRelativeToParent": true
+			},
+
+
+
+		
+			{
+				"rename":"big mountain fossil 1",
+				"path": "TimberHearth_Body/Sector_TH/H Fossil skull",
+				"rotation": {
+					"x": 6.193717,
+					"y": 273.840881,
+					"z": 117.264351
+				},
+				"position": {
+					"x": -126.105415,
+					"y": 24.7140961,
+					"z": -305.3969
+				}
+			},
+
+			
+			{
+				"rename":"fossil 2",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1",
+				"rotation": {
+					"x": 48.6218452,
+					"y": 297.6023,
+					"z": 116.838089
+				},
+				"position": {
+					"x": -126.5558,
+					"y": 27.9295883,
+					"z": -306.60553
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 3",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 2/",
+				"rotation": {
+					"x": 40.6316681,
+					"y": 80.05913,
+					"z": 245.424255
+				},
+				"position": {
+					"x": -125.105171,
+					"y": 30.0765877,
+					"z": -307.485931
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 4",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 3/",
+				"rotation": {
+					"x": 301.5238,
+					"y": 118.537781,
+					"z": 238.717621
+				},
+				"position": {
+					"x": -119.581238,
+					"y": 31.7711639,
+					"z": -308.252319
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 5",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 4/",
+				"rotation": {
+					"x": 309.990265,
+					"y": 204.125275,
+					"z": 161.060715
+				},
+				"position": {
+					"x": -114.497711,
+					"y": 25.4927521,
+					"z": -304.163544
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 6",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 5/",
+				"rotation": {
+					"x": 4.272196,
+					"y": 263.429749,
+					"z": 114.940407
+				},
+				"position": {
+					"x": -117.20134,
+					"y": 29.8486786,
+					"z": -307.2485
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 7",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 6",
+				"rotation": {
+					"x": 315.6997,
+					"y": 269.807465,
+					"z": 133.024979
+				},
+				"position": {
+					"x": -72.774704,
+					"y": 20.437027,
+					"z": -323.431671
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 8",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 7",
+				"rotation": {
+					"x": 301.900452,
+					"y": 258.1977,
+					"z": 134.420074
+				},
+				"position": {
+					"x": -66.18919,
+					"y": 15.64077,
+					"z": -325.056915
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 9",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 8",
+				"rotation": {
+					"x": 295.4729,
+					"y": 262.2796,
+					"z": 114.54277
+				},
+				"position": {
+					"x": -66.22812,
+					"y": 20.5570755,
+					"z": -326.9352
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 10",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 9",
+				"rotation": {
+					"x": 30.4551144,
+					"y": 108.570068,
+					"z": 249.124725
+				},
+				"position": {
+					"x": -64.2711639,
+					"y": 11.8537674,
+					"z": -324.586
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 11",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 10",
+				"rotation": {
+					"x": 327.400879,
+					"y": 111.29248,
+					"z": 281.2569
+				},
+				"position": {
+					"x": -62.68651,
+					"y": -41.26799,
+					"z": -320.222015
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 12",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 11",
+				"rotation": {
+					"x": 339.5475,
+					"y": 115.5384,
+					"z": 277.161774
+				},
+				"position": {
+					"x": -58.6975861,
+					"y": -38.554,
+					"z": -321.538177
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 13",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 12",
+				"rotation": {
+					"x": 7.701583,
+					"y": 121.67765,
+					"z": 353.892181
+				},
+				"position": {
+					"x": -73.4537,
+					"y": -44.8945656,
+					"z": -316.748047
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 14",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 13",
+				"rotation": {
+					"x": 5.95603371,
+					"y": 105.8965,
+					"z": 314.9509
+				},
+				"position": {
+					"x": -134.3717,
+					"y": -28.3601418,
+					"z": -299.219116
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 15",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 14",
+				"rotation": {
+					"x": 359.894043,
+					"y": 94.47878,
+					"z": 278.7397
+				},
+				"position": {
+					"x": -130.207321,
+					"y": -35.0464478,
+					"z": -300.742371
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 16",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 15",
+				"rotation": {
+					"x": 6.16879559,
+					"y": 113.903694,
+					"z": 322.6082
+				},
+				"position": {
+					"x": -136.5006,
+					"y": -34.6273232,
+					"z": -300.080078
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 17",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 16",
+				"rotation": {
+					"x": 354.787048,
+					"y": 94.9083252,
+					"z": 269.852234
+				},
+				"position": {
+					"x": -132.698715,
+					"y": -36.886795,
+					"z": -300.6377
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 18",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 17",
+				"rotation": {
+					"x": 350.663879,
+					"y": 97.49283,
+					"z": 269.724854
+				},
+				"position": {
+					"x": -126.725189,
+					"y": -39.15184,
+					"z": -301.361755
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 19",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 18",
+				"rotation": {
+					"x": 311.867767,
+					"y": 303.968262,
+					"z": 111.269333
+				},
+				"position": {
+					"x": -80.6811142,
+					"y": 23.3935013,
+					"z": -321.288574
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			{
+				"rename":"fossil 20",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 19",
+				"rotation": {
+					"x": 346.222961,
+					"y": 121.020515,
+					"z": 304.635223
+				},
+				"position": {
+					"x": -80.18603,
+					"y": -44.4467468,
+					"z": -313.419739
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/big mountain fossil 1"
+			},
+
+			
+
+
+			{
+				"rename":"village fossil 1",
+				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 20",
+				"position": {
+					"x": 52.0592,
+					"y": 30.6036 ,
+					"z": 229.1756
+				},
+				"rotation": {
+					"x": 49.2056,
+					"y": 72.4984,
+					"z": 87.1051
+				}
+			},
+			{
+				"rename":"village fossil 2",
+				"path": "TimberHearth_Body/Sector_TH/village fossil 1",
+				"position": {
+					"x": 54.8088,
+					"y": 31.8516,
+					"z": 227.9352
+				},
+				"rotation": {
+					"x": 65.8385,
+					"y": 280.7511,
+					"z": 277.0458
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/village fossil 1"
+			},
+			{
+				"rename":"village fossil 3",
+				"path": "TimberHearth_Body/Sector_TH/village fossil 1/village fossil 2",
+				"position": {
+					"x": 54.6863,
+					"y": 33.9125,
+					"z": 227.8758
+				},
+				"rotation": {
+					"x": 71.1972,
+					"y": 308.5793,
+					"z": 325.6631
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/village fossil 1"
+			},
+
+
+			{
+				"rename":"smalmountain fossil 1",
+				"path": "TimberHearth_Body/Sector_TH/village fossil 1/village fossil 3",
+				"position": {
+					"x": 284.3908,"y": 2.9587,"z": 49.0688
+				},
+				"rotation": {
+					"x": 84.4966,"y": 188.1821,"z": 114.3425
+				}
+			},
+			{
+				"rename":"smalmountain fossil 2",
+				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1",
+				"position": {
+					"x": 280.63,"y": 9.9126 ,"z": 54.6798
+				},
+				"rotation": {
+					"x": 69.7128,"y": 356.4749,"z": 255.79
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/smalmountain fossil 1"
+			},
+
+			{
+				"rename":"smalmountain fossil 3",
+				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 2",
+				"position": {
+					"x": 274.6906,"y": 64.8786 ,"z": 54.6268
+				},
+				"rotation": {
+					"x": 353.6447,"y": 174.7791,"z": 56.0211
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/smalmountain fossil 1"
+			},
+			{
+				"rename":"smalmountain fossil 4",
+				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 3",
+				"position": {
+					"x": 272.0746,"y": 71.3752 ,"z": 59.2402
+				},
+				"rotation": {
+					"x": 1.1104,"y": 170.8952,"z": 124.8679
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/smalmountain fossil 1"
+			},
+			{
+				"rename":"smalmountain fossil 5",
+				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 4",
+				"position": {
+					"x": 274.2863,"y": 60.5004,"z": -55.1895
+				},
+				"rotation": {
+					"x": 311.9844,"y": 359.6608,"z": 243.1732
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/smalmountain fossil 1"
+			},
+			{
+				"rename":"smalmountain fossil 6",
+				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 5",
+				"position": {
+					"x": 275.6646,"y": 61.2516,"z": -51.3825
+				},
+				"rotation": {
+					"x": 33.6567,"y": 50.4979,"z": 282.4629
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/smalmountain fossil 1"
+			},
+			{
+				"rename":"smalmountain fossil 7",
+				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 6",
+				"position": {
+					"x": 267.6733,"y": -3.7198,"z": -102.5496
+				},
+				"rotation": {
+					"x": 3.202,"y": 5.9548,"z": 304.139
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/smalmountain fossil 1"
+			},
+			{
+				"rename":"smalmountain fossil 8",
+				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 7",
+				"position": {
+					"x": 272.3214,"y": 67.1316,"z": 61.8893
+				},
+				"rotation": {
+					"x": 311.5648,"y": 26.4427,"z": 280.2904
+				},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_TH/smalmountain fossil 1"
+			},
+
+			{
+				"rename":"quantumforest fossil 1",
+				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 8",
+				"position": {
+					"x": -0.1314,"y": 1.5037,"z":0.069
+				},
+				"rotation": {
+					"x": 348.3279 ,"y": 54.9816,"z": 47.1577
+				},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumRocks/QuantumRock_Root (3)/Rock_TH_Ledge_Low_Lower (2)",
+				"scale":0.5
+			},
+			{
+				"rename":"quantumforest fossil 2",
+				"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumRocks/QuantumRock_Root (3)/Rock_TH_Ledge_Low_Lower (2)/quantumforest fossil 1",
+				"position": {
+					"x": 0.3468,"y": 1.4964,"z": -0.031
+				},
+				"rotation": {
+					"x": 357.9045,"y": 250.8295,"z": 44.1236
+				},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumRocks/QuantumRock_Root (1)/Rock_TH_Ledge_Low_Lower (2)",
+				"scale":0.5
+			}
+	]
+}}

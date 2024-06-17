@@ -18,6 +18,37 @@
 	</DialogueNode>
 
 <DialogueNode>
+		<Name>ShyKid2</Name>
+	
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>You still look like you have something to ask me, Galena.</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>I saw your little message, Galena. That's really sweet of you!</Text>
+				<DialogueTarget>ShyKidNew3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>ShyKid3</Name>
+	
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>You still look like you have something to ask me, Galena.</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>I saw your little message, Galena. That's really sweet of you!</Text>
+				<DialogueTarget>ShyKidNew3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
 		<Name>ShyKidNew1</Name>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Um...<![CDATA[</size>]]></Page>
@@ -34,7 +65,6 @@
 <DialogueNode>
 		<Name>ShyKidNew2</Name>
 		<Dialogue>
-		
 			<Page><![CDATA[<size=20>]]>Um.. Under the launch pad... But it's a little high up..<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>If you shoot your Little Scout up from the astronauts' exhibit so it sticks on the bottom of the launch pad, you might be able to see it..<![CDATA[</size>]]></Page>
 		</Dialogue>
@@ -45,8 +75,6 @@
 		<Name>ShyKidNew3</Name>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>I'm glad..<![CDATA[</size>]]></Page>
-		</Dialogue>
-		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Take care, astronaut.<![CDATA[</size>]]></Page>
 		</Dialogue>
 	</DialogueNode>

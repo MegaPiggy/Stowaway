@@ -8,8 +8,8 @@
 		
 			{
 				"rename":"anglerfish recording purple light",
-				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_NomaiEyeExhibit",
-				"position": {"x": 0,"y": 0,"z": 0},
+				"path": "QuantumIsland_Body/Sector_QuantumIsland/Lighting_QuantumTower/OtherComponentsGroup/FillLight_NOM_QuantumTowerMid",
+				"position": {"x": -8.8924,"y": 3.0075,"z": -2.0001},
 				"rotation": {"x": 58.6297,"y": 231.0193,"z": 23.9294},
 				"hasPhysics": true,
 				"physicsSuspendUntilImpact": true,
@@ -18,10 +18,10 @@
 			},
 			{
 				"rename":"anglerfish recording rotate",
-				"path":"Structure_NOM_SunStation_Debris_Big",
-				"position": {"x": 0,"y": 0,"z": 0},
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/rotation guy.prefab",
+				"position": {"x": 0,"y": -0.6,"z": 0.3},
 				"parentPath": "Sector_AnglerNestDimension/anglerfish recording purple light",
-				"removeChildren": ["collider","wall"],
 				"isRelativeToParent": true
 			}
 		],

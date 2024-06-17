@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: As a result, please remember to leave something on the warp receiver to stall it from powering its return warp, until you are ready to travel back to <![CDATA[<color=lightblue>Ash Twin!</color>]]>
+		OENO: You may leave something on the warp receiver to stall it from powering the return warp. This way, the return warp will only be powered when you are ready to use it!
 		</Text>
 	</TextBlock>
 

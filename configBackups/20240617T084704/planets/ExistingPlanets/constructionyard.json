@@ -1,0 +1,660 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "ConstructionYardIsland",
+
+	"removeChildren":
+	[
+		"Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_Whiteboard_Shared/PedestalAnchor",
+		"Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_RemoteViewer/PedestalAnchor"
+	],
+	
+	"Volumes": {
+		
+	},
+
+	"Props":{
+		"singularities": [
+			{
+				"type": "whiteHole",
+				"uniqueID": "CYARD WH",
+				"pairedSingularity": "TH SHORTCUT 1",
+				"horizonRadius": 0.05,
+				"position": {"x":-2.2951,"y": 10.9718,"z": 65.8862},
+				"isRelativeToParent": true
+			}
+		],
+
+		"remotes":
+		[
+			
+			
+			{
+					"decalPath": "planets/assets/GD cyard pool icon.png",
+					"id":"GD_ConstructionYard",
+					"platform": {
+						"position":{"x":-36.695,"y": 2.901,"z": -33.572},
+						"rotation":{"x":0,"y": 89.9289,"z": 357.2361}
+					},
+					"whiteboard":{
+						"rename": "CYard Whiteboard_Pedestal",
+						"disableWall": true,
+						"position":{"x":-41.0117,"y": 2.472,"z": -43.8975},
+						"rotation":{"x":358.044,"y": 44.9753,"z": 358.0468},
+						"isRelativeToParent": true,
+						"nomaiText":
+						[
+					{
+						"id":"GD_ProbeCannonIntactModule",
+						"xmlFile":"planets/ExistingPlanets/translatortext/Construction Yard/basegame probe cannon copy.xml",
+						"location":"a",
+						"seed":1
+					},
+					{
+						"id":"BH_Observatory",
+						"xmlFile":"planets/ExistingPlanets/translatortext/Construction Yard/basegame brittlehollow copy.xml",
+						"location":"a",
+						"seed":4
+					},
+					{
+						"id": "GD_DeepStormStation",
+						"location": "b",
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml"
+					},
+					{
+						"id": "GD_StatueIslandScrollWorkshop",
+						"location": "a",
+						"seed":1,
+						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/workshop hidden scroll.xml"
+					}
+				]
+				}
+			}
+		],
+		"details":
+		[
+			{
+				"rename":"bay storm shelter",
+				"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_SafetyTractorBeam/",
+				"position":{"x": 27.0361,"y": 0.9189,"z": -64.1132},
+				"rotation": {"x":358.2119,"y":21.7309,"z": 358.7906},
+				"isRelativeToParent": true
+				},
+				{
+					"rename":"bay table",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+					"position":{"x": 22.6056,"y": 0.8388,"z": -66.2831},
+					"rotation": {"x":0.1491,"y": 265.5813,"z": 1.9283},
+					"isRelativeToParent": true
+					},
+			{
+				"rename":"bay recorder light",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal/Light_NOM_GravityCrystal",
+				"position": {"x": 21.8867, "y": 2.9065, "z": -66.0669},
+				"isRelativeToParent": true
+				},
+			{
+				"rename":"Stowaway Water GM volume 1",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position":{"x": 29.506,"y": 2.1674,"z": -38.7267},
+				"rotation":{"x": 3.8578, "y": 177.1242,"z": 1.7233},
+				"stretch": {"x":0.8,"y": 0.4,"z": 2.3},
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"Stowaway Water GM volume 2",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position":{"x": 26.0732,"y": 2.2783,"z": -39.7667},
+				"rotation":{"x": 3.8578, "y": 177.1242,"z": 1.7233},
+				"stretch": {"x":0.8,"y": 0.3,"z": 0.9},
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"stowaway wisps 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 27.3763 ,"y": 1.6454,"z": -38.832},
+				"rotation":{"x": 0.1395 , "y": 265.8638,"z": 1.929},
+				"stretch": {"x":1,"y": 0.8,"z": 1},
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 2",
+				"isRelativeToParent": false
+			},
+			{
+				"rename":"stowaway wisps 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 29.2874,"y": 1.1525,"z": -39.1637},
+				"rotation":{"x": 0.1608 , "y": 265.2335,"z": 1.9273},
+				"stretch": {"x":2,"y": 1,"z": 0.9},
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 1",
+				"isRelativeToParent": false
+			},
+			{
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
+				"rename":"CYard warp pad GM notification",
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 2",
+				"scale":2,
+				"isRelativeToParent": true
+			},
+
+
+
+
+			{
+				"rename":"DSS GM volume warp pad 1",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position":{"x": 1.5861,"y": 32.7446,"z": -32.2592},
+				"rotation":{"x": 3.6693, "y": 89.1852,"z": 179.8149},
+				"stretch": {"x":1.6,"y": 0.5,"z": 1.3},
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"DSS GM volume warp pad 2",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position":{"x": 1.5861,"y": 32.7446,"z": -32.2592},
+				"rotation":{"x": 3.6693, "y": 89.1852,"z": 179.8149},
+				"stretch": {"x":1.6,"y": 0.5,"z": 1.3},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/DSS GM volume warp pad 1",
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"DSS wisps warp pad",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 1.8717,"y": 35.0548,"z": -32.3837},
+				"rotation":{"x": 4.0592, "y": 87.8407,"z": 179.4551},
+				"stretch": {"x":1.2,"y": 1.5,"z": 1.2},
+				"parentPath": "Sector_ConstructionYard/DSS GM volume warp pad 1",
+				"isRelativeToParent": false
+			},
+			{
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
+				"rename":"CYard warp pad GM notification",
+				"parentPath": "Sector_ConstructionYard/DSS GM volume warp pad 1",
+				"scale":1.5,
+				"isRelativeToParent": true
+			},
+
+
+
+			{
+				"rename":"Schematic GM volume left",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position":{"x": 17.9868,"y": 26.4906,"z": -38.9725},
+				"rotation":{"x": 320.0278, "y": 268.1888,"z": 182.1174},
+				"stretch": {"x":0.9,"y": 0.5,"z": 0.9},
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"Schematic GM volume right",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
+				"position":{"x": 17.9868,"y": 26.4906,"z": -51.1924},
+				"rotation":{"x": 320.0278, "y": 268.1888,"z": 182.1174},
+				"stretch": {"x":0.9,"y": 0.5,"z": 0.9},
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"Schematic wisp left",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 18.9074,"y": 27.2034,"z": -38.8021},
+				"rotation":{"x": 37.446, "y": 116.5779 ,"z": 196.9185},
+				"scale":0.8,
+				"parentPath": "Sector_ConstructionYard/Schematic GM volume left",
+				"isRelativeToParent": false
+			},
+			{
+				"rename":"Schematic wisp right",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 18.471,"y": 27.6201,"z": -50.493},
+				"rotation":{"x": 37.446, "y": 116.5779 ,"z": 196.9185},
+				"scale":0.8,
+				"parentPath": "Sector_ConstructionYard/Schematic GM volume right",
+				"isRelativeToParent": false
+			},
+
+			{
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
+				"rename":"CYard warp pad GM notification",
+				"parentPath": "Sector_ConstructionYard/Schematic GM volume left",
+				"scale":1,
+				"isRelativeToParent": true
+			},
+			{
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
+				"rename":"CYard warp pad GM notification",
+				"parentPath": "Sector_ConstructionYard/Schematic GM volume right",
+				"scale":1.5,
+				"isRelativeToParent": true
+			},
+
+
+		{
+			"rename":"Stowaway Cyard whiteboard",
+			"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
+			"position":{"x": 29.8927,"y": 1.898,"z": -39.1095},
+			"rotation":{"x": 0.1666, "y": 265.0602,"z": 1.9268},
+			"isRelativeToParent": true
+		},
+			{
+				"rename": "Workshop planty",
+				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
+				"position": {"x": 18.1526, "y": 28.019, "z": -38.7856},
+				"rotation": {"x": 49.0684, "y": 80.8027, "z": 173.0259},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Yard Mural board",
+				"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
+				"position": {"x": 17.6349,"y": 28.2647,"z": -45.0037},
+				"rotation": {"x": 48.0934,"y": 90.4477,"z": 180.0566},
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "Weapon mural side",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/mural side.prefab",
+				"parentPath": "Sector_ConstructionYard/Yard Mural board",
+				"position": {"x":1.3255,"y": 1.6509, "z": 0.0218},
+				"rotation": {"x":90,"y":0, "z": 0},
+				"scale": 0.25,
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "Weapon mural front",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/mural front.prefab",
+				"parentPath": "Sector_ConstructionYard/Yard Mural board",
+				"position": {"x":-1.1127,"y": 1.6509, "z": 0.0218},
+				"rotation": {"x":90,"y":0, "z": 0},
+				"scale": 0.25,
+				"isRelativeToParent": true
+			},
+		{
+			"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/Prefab_NOM_Computer/PointLight_NOM_Computer",
+			"position": {"x":17.8491,"y": 26.075,"z": -44.6032},
+			"rotation": {"x":6.7481,"y": 7.9424,"z": 139.8949},
+			"isRelativeToParent": true
+		},
+
+		{
+			"rename":"ConstructYard Solar Panels",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/solarcell.prefab",
+			"position": {"x":49.3563, "y": 55.2469, "z": -34.4383},
+			"rotation": {"x":298.1817, "y": 137.2029, "z": 344.8311},
+			"scale":1.5,
+			"keepLoaded": true,
+			"isRelativeToParent": true
+		},
+			{
+				"rename": "SolarPanel Zap_Right",
+				"parentPath": "Sector_ConstructionYard/ConstructYard Solar Panels",
+				"path":"HearthianMapSatellite_Body/Sector_HearthianMapSatellite/Effects_HearthianMapSatellite/Effects_HEA_Sparks (1)",
+				"position": {"x": 1.4854, "y": 12.4837, "z": -0.1327},
+				"scale":2,
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "SolarPanel Zap_Left",
+				"parentPath": "Sector_ConstructionYard/ConstructYard Solar Panels",
+				"path":"HearthianMapSatellite_Body/Sector_HearthianMapSatellite/Effects_HearthianMapSatellite/Effects_HEA_Sparks (1)",
+				"position": {"x": -5.5946, "y": 7.8528, "z": 4.0309},
+				"rotation": {"x": 25.0002, "y": 0.8746, "z": 42.3216},
+				"scale":2,
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+
+			{
+			"rename": "ScrollWall_Rear HOLE",
+			"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/LandingIsland/Prefab_NOM_Whiteboard/Props_NOM_Whiteboard (1)/whiteboard_scrollTrim",
+			"position": {"x":6.3003, "y": 10.9455, "z": 32.8636},
+			"rotation": {"x":0.8546, "y": 88.8854,"z": 243.7691}
+			},
+			
+			{
+				"rename":"Warp Stair 1",
+			"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+			"position": {"x":-2.6706, "y": 35.0869, "z": -32.3533},
+			"rotation": {"x": 348, "y": 270, "z": 180},
+			"stretch": {"x":5.5382,"y": 1,"z": 3.4182}
+			},
+			{
+				"rename":"Warp Stair 2",
+			"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+			"position": {"x":6.2072, "y": 34.4292, "z": -32.6816},
+			"rotation": {"x": 352.7591, "y": 90, "z": 180},
+			"stretch": {"x":5.5382,"y": 1,"z": 3.4182}
+			},
+			{
+				"rename":"Table 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"position": {"x":21.3818, "y": 24.3264, "z": -29.924},
+				"rotation": {"x": 53.2019 , "y": 90.1521, "z": 182.7545},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Table 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"position": {"x":-15.7772, "y": 30.1557, "z": -29.8957},
+				"rotation": {"x": 324.4025, "y": 88.8345, "z": 183.0349},
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"portal top GM",
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":1.6901,"y": 34.3475,"z": -33.4906},
+				"rotation":{"x":355.9045,"y": 275.4211,"z": 180.0051},
+				"isRelativeToParent": true,
+				"scale":2
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":-0.4443,"y": 34.4198,"z": -31.1491},
+				"rotation":{"x":356.2415,"y": 252.0511,"z": 181.6281},
+				"isRelativeToParent": true,
+				"scale":2
+			},
+			{
+				"rename":"gm cyard group top",
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":-0.6999,"y": 34.494,"z": -32.868},
+				"rotation":{"x":4.644,"y": 269.6279,"z": 180.221},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":2.9457,"y": 34.2676,"z": -32.0917},
+				"rotation":{"x":355.9892,"y": 263.8005,"z": 180.8293},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+
+			{
+				"rename": "Portal_Left GM",
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":-3.4088,"y": 34.6054,"z": -32.0804},
+				"rotation":{"x":338.2329,"y": 294.3138,"z": 172.0255},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":-4.106,"y": 34.1435,"z": -32.0249},
+				"rotation":{"x":10.9977,"y": 287.3642,"z": 183.4138},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":-5.7941,"y": 33.8097,"z": -31.1976},
+				"rotation":{"x":16.6996,"y": 278.9223,"z": 182.6215},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":-7.2425,"y": 33.4611,"z": -33.4683},
+				"rotation":{"x":21.2344,"y": 280.9078,"z": 184.1522},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":-9.6326,"y": 32.5765,"z": -32.562},
+				"rotation":{"x":18.273,"y": 313.9607,"z": 192.2919},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":-4.307,"y": 34.5389,"z": -34.6914},
+				"rotation":{"x":11.4217,"y": 277.1638,"z": 181.4258},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":-12.3063,"y": 31.8057,"z": -34.5738},
+				"rotation":{"x":29.2525,"y": 278.259,"z": 184.0572},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":-8.3174,"y": 33.5079,"z": -30.3222},
+				"rotation":{"x":20.051,"y": 257.3575,"z": 175.6023},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"rename":"GM 5",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 18.7065,"y": 26.3869,"z": -37.0512},
+				"rotation":{"x": 22.057,"y": 27.2044,"z": 137.9424},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"rename":"GM suntest 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 24.4317,"y": 2.5535,"z": -38.1069},
+				"rotation":{"x": 0.58,"y": 252.5551,"z": 1.845},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"rename":"GM suntest 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 28.3625,"y": 2.4509,"z": -41.1555},
+				"rotation":{"x": 359.5634,"y": 283.0414,"z": 1.8841},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"rename":"GM suntest 3",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 28.7707,"y": 2.792,"z": -32.231},
+				"rotation":{"x": 1.9339,"y": 180.7153,"z": 0.0241},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"rename":"GM suntest 4",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 30.2611,"y": 2.2389,"z": -47.2532},
+				"rotation":{"x": 359.3597,"y": 354.988,"z": 359.9149},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"rename":"GM suntest 5",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 31.1816,"y": 3.7997,"z": -44.7439},
+				"rotation":{"x": 355.1107 ,"y": 0.4939,"z": 85.1868},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"rename":"GM suntest 6",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 29.9559,"y": 7.9165,"z": -39.3805},
+				"rotation":{"x": 81.1692,"y": 317.7345,"z": 64.6204},
+				"isRelativeToParent": false,
+				"parentPath": "Sector_ConstructionYard/gm cyard group top"
+			},
+			{
+				"rename":"GM suntest board",
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":29.5618,"y": 4.3871,"z": -37.6722},
+				"rotation":{"x":36.9345,"y": 173.6942,"z": 267.0617},
+				"isRelativeToParent": true
+			},
+
+
+
+			{
+				"rename":"Portal_Right GM",
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":6.2779,"y": 33.687,"z": -32.4443},
+				"rotation":{"x":356.9562,"y": 112.2859,"z": 185.8449},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":8.2486,"y": 32.972,"z": -33.68753},
+				"rotation":{"x":26.5886,"y": 105.5766,"z": 185.2817},
+				"isRelativeToParent": true,
+				"scale":1.5
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":12.3791,"y": 31.3443,"z": -32.539},
+				"rotation":{"x":25.5652,"y": 110.0339,"z": 192.026},
+				"isRelativeToParent": true,
+				"scale":1.5
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":17.2849,"y": 27.7905,"z": -33.5102},
+				"rotation":{"x":46.2601,"y": 110.9616,"z": 188.7206},
+				"isRelativeToParent": true,
+				"scale":1.5
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":20.066,"y": 24.9038,"z": -33.9424},
+				"rotation":{"x":53.3863,"y": 82.6246,"z": 177.3497},
+				"isRelativeToParent": true,
+				"scale":1.5
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":15.893,"y": 29.5015,"z": -30.4918},
+				"rotation":{"x":32.8852,"y": 102.2608,"z": 187.8095},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":12.6674,"y": 31.6874,"z": -34.7816},
+				"rotation":{"x":18.3268,"y": 51.4454,"z": 169.7616},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":8.5339,"y": 33.4161,"z": -30.5149},
+				"rotation":{"x":16.8692,"y": 102.8855,"z": 190.3797},
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename": "Puzzle GM",
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":18.6869,"y": 26.5051,"z": -50.4747},
+				"rotation":{"x":5.0997,"y": 5.982,"z": 139.6925},
+				"isRelativeToParent": true,
+				"scale":1.5
+			},
+			{
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
+				"position":{"x":18.039,"y": 27.3864,"z": -45.6541},
+				"rotation":{"x":315.7836,"y": 310.2878,"z": 155.7166},
+				"isRelativeToParent": true,
+				"scale":1.5
+			},
+
+			{
+				"rename": "fallen torch",
+				"path": "StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Lighting_StatueIslandInterior/OtherComponentsGroup/Prefab_NOM_WallTorch",
+				"position": {"x": 28.7623, "y": 1.7685, "z": -37.8559},
+				"rotation": {"x": 291.7495, "y": 241.5807, "z": 80.7598},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway cyard LIGHT",
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
+				"position": {"x": 26.2023, "y": 8.0103, "z": -39.7668},
+				"rotation": {"x": 291.7495, "y": 241.5807, "z": 80.7598},
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+			
+			{
+				"rename":"Spacewalker Scrollboard Lamp",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
+				"keepLoaded": true,
+				"position":{"x":17.2335,"y": 28.8913,"z": -40.8232},
+				"rotation":{"x":325.0644,"y": 301.9917,"z": 250.3828},
+				"isRelativeToParent": true
+			}
+
+		],
+		"translatorText": 
+		[
+			{
+				"rename": "Shelter question recording",
+				"type": "recorder",
+				"position": {"x": 21.8867, "y": 1.9065, "z": -66.0669},
+				"rotation": {"x": 358.7878, "y": 308.8004,"z": 1.5072},
+				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/storm shelter question.xml"
+			},
+			{
+				"rename": "Schematic trailmarker",
+				"type": "trailmarker",
+				"position": {"x": 29.4069, "y": 2.3591 , "z": -21.9295},
+				"rotation": {"x": 358.9158, "y": 304.0861,"z": 1.6017},
+				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/shelf trail.xml"
+			},
+			{
+				"rename": "Stowaway water rule TEXT",
+				"type": "wall",
+				"position": {"x": 29.8352, "y": 2.9898, "z": -38.6893},
+				"rotation": {"x": 1.2598, "y": 264.6384,"z": 352.7045},
+				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cassava gm water new.xml"
+			},
+			{
+				"rename": "Inspired schematic scroll",
+				"type": "scroll",
+				"position": {"x":33.2341, "y": 5.5854 , "z": -21.8578},
+				"rotation": {"x":0.8339, "y": 348.0329,"z": 55.3873},
+				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/weapon schematic.xml",
+				"seed":1
+			},
+			{
+				"rename": "OPC Schematic Scroll w RearSecret",
+				"type": "scroll",
+				"position": {"x":33.5522, "y": 4.9123 , "z": -21.5963},
+				"rotation": {"x":7.1211, "y": 351.7878,"z": 86.5685},
+				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cyard schematic opc.xml",
+				"seed":8
+			},
+			{
+				"rename": "OPC Schematic REAR_TEXT Wall",
+				"type": "wall",
+				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cyard schematic opc rear.xml",
+				"position": {"x": 0.0048, "y": -0.0487, "z": -0.8414},
+				"rotation": {"x": 1.1668, "y": 178.7566, "z": 323.3842},
+				"parentPath": "Sector_ConstructionYard/OPC Schematic Scroll w RearSecret/NomaiWallText/Arc 1 - Child of -1",
+				"isRelativeToParent": true,
+				"seed":5
+			}
+		],
+		"warpTransmitters":
+		[
+			{
+				"rename": "DeepStormStation WarpBlack",
+				"position": {"x": 1.7628, "y": 34.9356, "z": -32.3269},
+				"rotation": {"x": 355.9176, "y": 270.8998, "z": 180.3277},
+				"frequency": "DeepStormStation",
+				"alignmentWindow": 45
+			}
+		]
+	}
+}
