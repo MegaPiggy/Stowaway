@@ -612,7 +612,15 @@
 				"rotation": {"x": 342.6463, "y": 178.0706, "z": 247.156},
 				"isRelativeToParent": true
 			},
+			{
+				"rename":"Tent 3",
+				"path":"Sector_TH/Tent 2",
+				"position": {"x": -160.9941, "y": -11.7362, "z": -121.9005},
+				"rotation": {"x": 47.6221, "y": 193.8561, "z": 314.0461},
+				"isRelativeToParent": true
+			},
 
+			
 			{
 				"rename":"TH mine outside treepot",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Treepot",

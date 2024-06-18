@@ -7,20 +7,11 @@
 	{
 		"details":
 		[
-			{
-				"rename":"Tent 3",
-				"path":"Sector_TH/Tent 2",
-				"position": {"x": -160.9941, "y": -11.7362, "z": -121.9005},
-				"rotation": {"x": 47.6221, "y": 193.8561, "z": 314.0461},
-				"isRelativeToParent": true
-			},
-
-
-
-		
+			
 			{
 				"rename":"big mountain fossil 1",
-				"path": "TimberHearth_Body/Sector_TH/H Fossil skull",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 6.193717,
 					"y": 273.840881,
@@ -36,7 +27,8 @@
 			
 			{
 				"rename":"fossil 2",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 48.6218452,
 					"y": 297.6023,
@@ -53,7 +45,8 @@
 
 			{
 				"rename":"fossil 3",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 2/",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 40.6316681,
 					"y": 80.05913,
@@ -70,7 +63,8 @@
 
 			{
 				"rename":"fossil 4",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 3/",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 301.5238,
 					"y": 118.537781,
@@ -87,7 +81,8 @@
 
 			{
 				"rename":"fossil 5",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 4/",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 309.990265,
 					"y": 204.125275,
@@ -104,7 +99,8 @@
 
 			{
 				"rename":"fossil 6",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 5/",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 4.272196,
 					"y": 263.429749,
@@ -121,7 +117,8 @@
 
 			{
 				"rename":"fossil 7",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 6",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 315.6997,
 					"y": 269.807465,
@@ -138,7 +135,8 @@
 
 			{
 				"rename":"fossil 8",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 7",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 301.900452,
 					"y": 258.1977,
@@ -155,7 +153,8 @@
 
 			{
 				"rename":"fossil 9",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 8",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 295.4729,
 					"y": 262.2796,
@@ -172,7 +171,8 @@
 
 			{
 				"rename":"fossil 10",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 9",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 30.4551144,
 					"y": 108.570068,
@@ -189,7 +189,8 @@
 
 			{
 				"rename":"fossil 11",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 10",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 327.400879,
 					"y": 111.29248,
@@ -206,7 +207,8 @@
 
 			{
 				"rename":"fossil 12",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 11",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 339.5475,
 					"y": 115.5384,
@@ -223,24 +225,26 @@
 
 			{
 				"rename":"fossil 13",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 12",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 7.701583,
-					"y": 121.67765,
-					"z": 353.892181
+					"x": -62.6072,
+					"y": 40.7276,
+					"z": -45.0727
 				},
 				"position": {
-					"x": -73.4537,
-					"y": -44.8945656,
-					"z": -316.748047
+					"x": 323.5404,
+					"y": 176.953,
+					"z": 44.2817
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/big mountain fossil 1"
 			},
 
 			{
 				"rename":"fossil 14",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 13",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 5.95603371,
 					"y": 105.8965,
@@ -257,7 +261,8 @@
 
 			{
 				"rename":"fossil 15",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 14",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 359.894043,
 					"y": 94.47878,
@@ -274,7 +279,8 @@
 
 			{
 				"rename":"fossil 16",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 15",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 6.16879559,
 					"y": 113.903694,
@@ -291,7 +297,8 @@
 
 			{
 				"rename":"fossil 17",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 16",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 354.787048,
 					"y": 94.9083252,
@@ -308,7 +315,8 @@
 
 			{
 				"rename":"fossil 18",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 17",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 350.663879,
 					"y": 97.49283,
@@ -325,7 +333,8 @@
 
 			{
 				"rename":"fossil 19",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 18",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
 					"x": 311.867767,
 					"y": 303.968262,
@@ -342,18 +351,19 @@
 
 			{
 				"rename":"fossil 20",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 19",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 346.222961,
-					"y": 121.020515,
-					"z": 304.635223
+					"x": -63.315,
+					"y": 38.4699,
+					"z": -38.6214
 				},
 				"position": {
-					"x": -80.18603,
-					"y": -44.4467468,
-					"z": -313.419739
+					"x": 1.3858,
+					"y": 162.1416,
+					"z": 56.3867
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/big mountain fossil 1"
 			},
 
@@ -362,46 +372,49 @@
 
 			{
 				"rename":"village fossil 1",
-				"path": "TimberHearth_Body/Sector_TH/big mountain fossil 1/fossil 20",
+				"assetBundle": "planets/bundle/eye stuff",
+			"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
-					"x": 52.0592,
-					"y": 30.6036 ,
-					"z": 229.1756
+					"x": 52.5175,
+					"y": 31.0909,
+					"z": 229.2598
 				},
 				"rotation": {
-					"x": 49.2056,
-					"y": 72.4984,
-					"z": 87.1051
+					"x": 37.4277,
+					"y": 93.6209,
+					"z":  86.9183
 				}
 			},
 			{
 				"rename":"village fossil 2",
-				"path": "TimberHearth_Body/Sector_TH/village fossil 1",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
-					"x": 54.8088,
-					"y": 31.8516,
-					"z": 227.9352
+					"x": 3.322,
+					"y": -0.9165,
+					"z":  0.4938
 				},
 				"rotation": {
-					"x": 65.8385,
-					"y": 280.7511,
-					"z": 277.0458
+					"x": 356.1084,
+					"y": 32.8089,
+					"z": 335.9688
 				},
 				"isRelativeToParent": false,
 				"parentPath": "Sector_TH/village fossil 1"
 			},
 			{
 				"rename":"village fossil 3",
-				"path": "TimberHearth_Body/Sector_TH/village fossil 1/village fossil 2",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
-					"x": 54.6863,
-					"y": 33.9125,
-					"z": 227.8758
+					"x": 4.7735,
+					"y": -0.9215,
+					"z": -1.1225
 				},
 				"rotation": {
-					"x": 71.1972,
-					"y": 308.5793,
-					"z": 325.6631
+					"x": 3.8959,
+					"y": 286.816,
+					"z": 337.6184
 				},
 				"isRelativeToParent": false,
 				"parentPath": "Sector_TH/village fossil 1"
@@ -410,7 +423,8 @@
 
 			{
 				"rename":"smalmountain fossil 1",
-				"path": "TimberHearth_Body/Sector_TH/village fossil 1/village fossil 3",
+				"assetBundle": "planets/bundle/eye stuff",
+			"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
 					"x": 284.3908,"y": 2.9587,"z": 49.0688
 				},
@@ -420,7 +434,8 @@
 			},
 			{
 				"rename":"smalmountain fossil 2",
-				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
 					"x": 280.63,"y": 9.9126 ,"z": 54.6798
 				},
@@ -433,7 +448,8 @@
 
 			{
 				"rename":"smalmountain fossil 3",
-				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 2",
+				"assetBundle": "planets/bundle/eye stuff",
+			"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
 					"x": 274.6906,"y": 64.8786 ,"z": 54.6268
 				},
@@ -445,7 +461,8 @@
 			},
 			{
 				"rename":"smalmountain fossil 4",
-				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 3",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
 					"x": 272.0746,"y": 71.3752 ,"z": 59.2402
 				},
@@ -457,7 +474,8 @@
 			},
 			{
 				"rename":"smalmountain fossil 5",
-				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 4",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
 					"x": 274.2863,"y": 60.5004,"z": -55.1895
 				},
@@ -469,7 +487,8 @@
 			},
 			{
 				"rename":"smalmountain fossil 6",
-				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 5",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
 					"x": 275.6646,"y": 61.2516,"z": -51.3825
 				},
@@ -481,7 +500,8 @@
 			},
 			{
 				"rename":"smalmountain fossil 7",
-				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 6",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
 					"x": 267.6733,"y": -3.7198,"z": -102.5496
 				},
@@ -493,7 +513,8 @@
 			},
 			{
 				"rename":"smalmountain fossil 8",
-				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 7",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
 					"x": 272.3214,"y": 67.1316,"z": 61.8893
 				},
@@ -506,12 +527,13 @@
 
 			{
 				"rename":"quantumforest fossil 1",
-				"path": "TimberHearth_Body/Sector_TH/smalmountain fossil 1/smalmountain fossil 8",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
-					"x": -0.1314,"y": 1.5037,"z":0.069
+					"x": 0.0176,"y": 1.6037,"z":0.069
 				},
 				"rotation": {
-					"x": 348.3279 ,"y": 54.9816,"z": 47.1577
+					"x": 337.954,"y": 53.9129,"z": 343.2676
 				},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumRocks/QuantumRock_Root (3)/Rock_TH_Ledge_Low_Lower (2)",
@@ -519,12 +541,13 @@
 			},
 			{
 				"rename":"quantumforest fossil 2",
-				"path": "TimberHearth_Body/Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumRocks/QuantumRock_Root (3)/Rock_TH_Ledge_Low_Lower (2)/quantumforest fossil 1",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"position": {
-					"x": 0.3468,"y": 1.4964,"z": -0.031
+					"x": 0.2359 ,"y": 1.6109,"z": 0.4054
 				},
 				"rotation": {
-					"x": 357.9045,"y": 250.8295,"z": 44.1236
+					"x": 308.375,"y": 265.0579,"z": 325.1092
 				},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumRocks/QuantumRock_Root (1)/Rock_TH_Ledge_Low_Lower (2)",
