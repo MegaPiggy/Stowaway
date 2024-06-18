@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		PLUME: To think, we would not find our friends from <![CDATA[<color=orange>Escape Pod 3</color>]]> on the bramble's exterior, but these familiar species preserved within this glacier...
+		PLUME: To think we would not find our friends from the crash on the bramble's exterior, but these familiar species instead, preserved within this glacier...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -14,7 +14,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: This.. This is an incredible discovery.
+		OENO: This.. This is an incredible discovery. We now can confidently conclude that both these species once originated on this planet destroyed by the bramble.
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -22,7 +22,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: These species.. They must have been stowaways within fragments of the planet the bramble destroyed and scattered, crashing on the planets that would become their habitats today.
+		OENO: When the planet was shattered, they must have become stowaways within fragments of the planet scattered across the star system, crashing on the planets that would become their habitats today.
 		</Text>
 	</TextBlock>
 
@@ -31,7 +31,7 @@
 		<LocationA />
 			<ParentID>3</ParentID>
 		<Text>
-		CASSAVA: That these species survived - and continue to thrive on these alien planets - is nothing short of awe-inspiring. Their resilience inspires me greatly!
+		CASSAVA: That these species survived - and continue to thrive on these alien planets - despite their displacement, is nothing short of awe-inspiring! Their resilience inspires me greatly.
 		</Text>
 	</TextBlock>
 	
