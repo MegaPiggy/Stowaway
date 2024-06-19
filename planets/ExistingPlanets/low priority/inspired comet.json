@@ -7,6 +7,15 @@
 "Props": {
 	"details": [
 		{
+			"rename":"Inspired gravity",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/models/inspired gravity.prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":0,"y": 0,"z": 0},
+			"keepLoaded": true,
+			"isRelativeToParent": true
+		},
+		{
 			"path":"Comet_Body/Sector_CO/Geometry_CO/General_Batched",
 			"position": {"x":0,"y": 0,"z": 0},
 			"rotation": {"x":0,"y": 0,"z": 0},
@@ -26,10 +35,7 @@
 },
 	
 	"Base": {
-		"surfaceGravity": 24,
-		"gravityVolumePriority": 8,
-		"surfaceSize": 1200,
-		"gravityFallOff": "inverseSquared"
+		"surfaceSize": 100
 	},
 	"Orbit": {
 		"showOrbitLine": true,

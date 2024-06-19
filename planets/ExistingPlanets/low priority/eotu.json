@@ -138,7 +138,7 @@
 			"isRelativeToParent": true
 		},
 		{
-			"rename":"hearthian fossil i rebuilt in unity",
+			"rename":"hearthian fossil",
 			"assetBundle": "planets/bundle/eye stuff",
 			"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 			"position":{"x":-1403.167,"y": 0.7298,"z": 6013.972},
