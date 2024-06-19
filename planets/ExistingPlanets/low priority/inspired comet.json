@@ -26,10 +26,10 @@
 },
 	
 	"Base": {
-		"surfaceGravity": 48,
-		"gravityVolumePriority": 5,
-		"surfaceSize": 800,
-		"gravityFallOff": "linear"
+		"surfaceGravity": 24,
+		"gravityVolumePriority": 8,
+		"surfaceSize": 1200,
+		"gravityFallOff": "inverseSquared"
 	},
 	"Orbit": {
 		"showOrbitLine": true,
