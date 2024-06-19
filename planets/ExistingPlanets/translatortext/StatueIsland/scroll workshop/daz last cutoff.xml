@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: I am still consumed by my disappointment, my love. Will we ever find this elusive Eye of the Universe?
+		CASSAVA: I am still consumed by my disappointment, Daz. Will we ever find this elusive Eye of the Universe?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		DAZ: Perhaps a change of task will help, my love. Oeno mentioned a few more stowaways who have grown too accustomed to the <![CDATA[<color=orange>Sanctuary</color>]]> who have eluded her attempts to release them.
+		DAZ: Perhaps a change of task will help, my love. I have heard of stowaways who have grown too accustomed to the <![CDATA[<color=orange>Sanctuary</color>]]> who have eluded our friends' attempts to release them.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: That does sound like a fun task. But before we voyage, would you kindly voyage to the <![CDATA[<color=orange>Deep Storm Station</color>]]>, my love? I.. I would like your company.
+		CASSAVA: I would love to assist. But before that, would you kindly voyage to the <![CDATA[<color=orange>Deep Storm Station</color>]]>, my love? I.. I wish for your company.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -29,7 +29,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Of course, love. I shall voyage to the <![CDATA[<color=orange>Deep Storm Station</color>]]> to be by your side shortly.
+		DAZ: Of course, love. I shall voyage to the <![CDATA[<color=orange>Deep Storm Station</color>]]> to be by your side.
 		</Text>
 	</TextBlock>
 	<TextBlock>

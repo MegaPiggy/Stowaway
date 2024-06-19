@@ -34,8 +34,16 @@
 
 <ShipLogConditions>
 				<RevealFact>
-			<FactID>Nomai Mine Entry 3</FactID>
-			<Condition>3</Condition>
+			<FactID>Campsite EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH_NOMAI_MINE_R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Campsite EX2</FactID>
+			<Condition>4</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

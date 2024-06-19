@@ -3,7 +3,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text><![CDATA[<color=orange>ORBITAL PROBE CANNON</color>]]> SCHEMATICS</Text>
+		<Text><![CDATA[<color=orange>DEEP STORM STATION</color>]]> SCHEMATICS</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -11,7 +11,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		Components: 3 modules connected to central chamber, with double-size gravity cannon attached to front of central module.
+		Structure: Two-sided reinforced chamber with no physical entrances
 		</Text>
 			</TextBlock>
 
@@ -19,21 +19,21 @@
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>Reminder to communciate an estimate of the amount of gravity crystals needed to power a double-size gravity cannon to the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> soon!</Text>
+		<Text>Amount of gravity crystals needed to construct the gravity floors should be communciated to the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> soon!</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<LocationB />
 		<ParentID>1</ParentID>
-		<Text>Each chamber is to be equipped with projection pools and whiteboards to facilitate swift communication of information between Nomai aboard each module.</Text>
+		<Text>Chamber is to be equipped with projection pool and wall to facilitate swift communication of information with Nomai on the surface.</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>5</ID>
 		<LocationA />
 		<ParentID>4</ParentID>
-		<Text>Crafting of new projection stones for each module is to be conveyed to Daz at the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on Statue Island. Construction of a new warp pad to be communicated to the <![CDATA[<color=orange>Black Hole Forge.</color>]]>
+		<Text>Crafting of new projection stones is to be conveyed to Daz at the <![CDATA[<color=orange>Scroll and Stone Workshop.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -41,7 +41,7 @@
 	<ID>6</ID>
 		<LocationA />
 		<ParentID>5</ParentID>
-		<Text>An update: A gravity-funnel docking bay is to be installed to receive incoming shuttles instead of a warp pad, per logistical limitations of the <![CDATA[<color=orange>Black Hole Forge.</color>]]></Text>
+		<Text>CASSAVA: I shall be returning to Statue Island soon. I would be happy to convey this message to the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> during my visit!</Text>
 	</TextBlock>
 
 	<TextBlock>	
@@ -49,7 +49,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		CASSAVA: The warp pad to connect Giant's Deep to <![CDATA[<color=lightblue>Ash Twin</color>]]> hasn't even been constructed yet, due to the <![CDATA[<color=orange>Deep Storm Station</color>]]> taking priority. Respectfully, who here was expecting us to be able to warp to the cannon?</Text>
+		PRIVET: Of course you would. Send Daz my regards, Cassava!</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

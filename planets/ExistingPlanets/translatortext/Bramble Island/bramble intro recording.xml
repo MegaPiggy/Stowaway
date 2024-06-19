@@ -32,7 +32,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		COLEUS: Friends, there are tentacled species preserved within this large glacier, which undoubtedly originated from Dark Bramble! What could this mean about the tentacled species' origins..?
+		COLEUS: Friends, there are tentacled species preserved within this large glacier! What could this mean about the tentacled species' origins..? 
 		</Text>
 	</TextBlock>
 	
@@ -41,7 +41,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		THATCH: What a fascinating discovery.. I would love to spend some time studying these frozen specimens in detail, if the storms allow us the time to.
+		THATCH: What a fascinating discovery! I would love to spend some time studying these frozen specimens in detail, if the storms allow us the time to.
 		</Text>
 		</TextBlock>
 
@@ -49,7 +49,8 @@
 		<ID>6</ID>
 		<LocationB />
 		<ParentID>5</ParentID>
-		<Text>MELORAE: This island appears to be safe from cyclones for some time. Friends, let us find some higher elevation on this island quickly, so we may study these frozen specimens!
+		<Text>
+		MELORAE: This island appears to be safe from cyclones for some time. Friends, let us find some higher elevation on this island quickly, so we may study these frozen specimens!
 		</Text>
 	</TextBlock>
 

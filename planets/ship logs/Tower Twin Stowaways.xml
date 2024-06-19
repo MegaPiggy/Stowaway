@@ -2,37 +2,121 @@
     <ID>TOWER_TWIN</ID>
 
 <Entry>
-        <ID>GD_GATED_WARPTOWER</ID>
-        <Name>Giant's Deep Warp Tower</Name>
+             <ID>GD_WARPTOWER</ID>
+             <Name>Spire Tower</Name>
+             <Curiosity>TimeLoop</Curiosity>
+             <IgnoreMoreToExplore/>
 
-        <Curiosity>TimeLoop</Curiosity>
-
-        <IgnoreMoreToExplore/>
-      
           <RumorFact>
-            <ID>Tower R1</ID>
-            <SourceID>STATUEISLE_CLIFF</SourceID>
-              <RumorName>Giant's Deep Warp Tower</RumorName>
-              <RumorNamePriority>1</RumorNamePriority>
-             <Text>Two Nomai named Pye and Idaea attempted to warp into the Deep Storm Station through a warp tower on Ash Twin, but warped to Statue Island instead.</Text> 
-        </RumorFact>
-          <RumorFact>
-            <ID>Tower R2</ID> 
+            <ID>GD Tower R1</ID>
             <SourceID>TT_WARP_TOWERS</SourceID>
-            <Text>Unable to reach their destination, Pye and Idaea decided to use the return warp to travel back to the warp tower on Ash Twin and await assistance.</Text> 
-         </RumorFact>
-        <RumorFact>
-            <ID>Tower R3</ID> 
-            <RumorName>Funnel Warp Tower</RumorName>
-            <Text>A warp tower on Ash Twin in the shape of a funnel. The entrance is blocked off by a patch of ghost matter.</Text> 
+             <Text>A tower on Ash Twin in the shape of a spire.</Text> 
         </RumorFact>
-        <ExploreFact>
-            <ID>Tower EX2</ID> 
-            <Text>Two Nomai named Pye and Idaea narrowly avoided an argument about their views on the Sun Station while waiting for sand to recede from the warp tower. Idaea described a safety test which they hoped would give them the confidence to follow in their ambitions.</Text> 
+       <ExploreFact>
+            <ID>GD Tower EX1</ID>
+             <Text>A tower on Ash Twin in the shape of a spire.</Text> 
         </ExploreFact>
+       <ExploreFact>
+            <ID>GD Tower EX2</ID> 
+            <Text>Two Nomai debated about the Sun Station while waiting outside this warp tower, hoping to travel to something called the Deep Storm Station.</Text> 
+        </ExploreFact>
+
            <ExploreFact>
-            <ID>Tower EX3</ID> 
-            <Text>A Nomai named Poke arrived on Ash Twin to assist Idaea and Poke. She chided them for failing to read Cassava's instructions to reach the Deep Storm Station.</Text> 
-      </ExploreFact>
+            <ID>GD Tower EX3</ID> 
+            <Text>The Deep Storm Station is only accessible from a new warp pad constructed on the Construction Yard.</Text> 
+          </ExploreFact>
  </Entry>
+ 
+<Entry>
+        <ID>TH_WARPTOWER</ID>
+        <Name>Mountain Tower</Name>
+        <Curiosity>TimeLoop</Curiosity>
+        <IgnoreMoreToExplore/>
+
+          <RumorFact>
+            <ID>TH Tower R1</ID>
+            <SourceID>TT_WARP_TOWERS</SourceID>
+             <Text>A tower on Ash Twin in the shape of a mountain.</Text> 
+        </RumorFact>
+         <ExploreFact>
+            <ID>TH Tower EX1</ID>
+             <Text>A tower on Ash Twin in the shape of a mountain.</Text> 
+        </ExploreFact>
+       <ExploreFact>
+            <ID>TH Tower EX2</ID>
+             <Text>A Nomai named Cycad delivered a message to Oeno on Timber Hearth, informing them about an issue with the towers.</Text> 
+        </ExploreFact>
+       <ExploreFact>
+            <ID>TH Tower EX3</ID> 
+            <Text>After studying the issue, Oeno suggested traveling to the other tower with the same issue to better demonstrate her findings.</Text> 
+        </ExploreFact>
+ </Entry>
+
+
+
+<Entry>
+            <ID>BH_WARPTOWER</ID>
+            <Name>Column Tower</Name>
+           <Curiosity>TimeLoop</Curiosity>
+          <IgnoreMoreToExplore/>
+
+          <RumorFact>
+            <ID>BH Tower R1</ID>
+            <SourceID>TT_WARP_TOWERS</SourceID>
+             <Text>A tower on Ash Twin that resembles a basalt column.</Text> 
+        </RumorFact>
+         <ExploreFact>
+            <ID>BH Tower EX1</ID>
+             <Text>A tower on Ash Twin that resembles a basalt column.</Text> 
+        </ExploreFact>
+ </Entry>
+
+<Entry>
+              <ID>SS_WARPTOWER</ID>
+              <Name>Star Tower</Name>
+            <Curiosity>TimeLoop</Curiosity>
+            <IgnoreMoreToExplore/>
+
+          <RumorFact>
+            <ID>SS Tower R1</ID>
+            <SourceID>TT_WARP_TOWERS</SourceID>
+             <Text>A tower on Ash Twin with pointed edges.</Text> 
+        </RumorFact>
+         <ExploreFact>
+            <ID>SS Tower EX1</ID>
+             <Text>A tower on Ash Twin with pointed edges.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>SS Tower EX2</ID>
+             <Text>The Ash Twin’s rotating doors can be activated by a phenomenon called the sunless tide.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>SS Tower EX3</ID>
+             <Text>The sunless tide occurs as the Hourglass Twins align directly with the sun, causing a combined force of gravity that causes sand to be pulled in a column, and vision orbs to be pulled, towards the twin closer to the sun.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>SS Tower EX4</ID>
+             <Text>As this alignment occurs, a solar eclipse occurs on the body farther from the sun.</Text> 
+        </ExploreFact>
+ </Entry>
+
+
+<Entry>
+           <ID>HGT_WARPTOWER</ID>
+            <Name>Twin Towers</Name>
+             <Curiosity>TimeLoop</Curiosity>
+            <IgnoreMoreToExplore/>
+
+          <RumorFact>
+            <ID>HGT Tower R1</ID>
+            <SourceID>TT_WARP_TOWERS</SourceID>
+             <Text>Two towers on Ash Twin joined together by an arch.</Text> 
+        </RumorFact>
+         <ExploreFact>
+            <ID>HGT Tower EX1</ID>
+             <Text>Two towers on Ash Twin joined together by an arch.</Text> 
+        </ExploreFact>
+ </Entry>
+
+
 </AstroObjectEntry>

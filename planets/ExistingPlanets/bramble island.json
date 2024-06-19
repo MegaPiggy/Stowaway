@@ -24,7 +24,7 @@
 
 		"dialogue": [
 			{
-				"xmlFile": "planets/ExistingPlanets/dialogue/Gabbro bramblenado nap.xml",
+				"xmlFile": "planets/ExistingPlanets/dialogue/Notes/Gabbro bramblenado nap.xml",
 				"pathToAnimController": "Sector_BrambleIsland/hammock/Gabbro_Hammock02:Controller_Squash/Gabbro recording",
 				"isRelativeToParent": true,
 				"radius": 0.5,

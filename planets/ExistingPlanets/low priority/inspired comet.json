@@ -26,10 +26,9 @@
 },
 	
 	"Base": {
-		"surfaceGravity": 24,
+		"surfaceGravity": 48,
 		"gravityVolumePriority": 5,
-		"surfaceSize": 100,
-		"soiOverride": 500,
+		"surfaceSize": 800,
 		"gravityFallOff": "linear"
 	},
 	"Orbit": {

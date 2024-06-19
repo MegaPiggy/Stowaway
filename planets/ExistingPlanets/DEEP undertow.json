@@ -99,8 +99,8 @@
 					{
 						"id": "SunStation",
 						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml",
-						"seed":3
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/ss dss failure.xml",
+						"seed":4
 					},
 					{
 						"id": "GD_LoversCove",

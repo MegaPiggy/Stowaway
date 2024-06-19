@@ -9,7 +9,7 @@
 		<ID>2</ID>
 		<LocationA />
 		<ParentID>1</ParentID>
-		<Text>Components: All available gravity crystals from the <![CDATA[<color=orange>Gravity Crystal Workshop,</color>]]> 1 white hole warp core.</Text>
+		<Text>Components: All available gravity crystals, 1 white hole warp core.</Text>
 	</TextBlock>
 
 		<TextBlock>

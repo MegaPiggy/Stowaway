@@ -13,7 +13,7 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		POKE: Goodness, no! We need to head to the new warp pad constructed on Cassava's <![CDATA[<color=orange>Construction Yard</color>]]> as fast as we can, before the <![CDATA[<color=orange>Deep Storm Station's</color>]]> test begins!
+		POKE: Goodness, no! We need to head to the new warp pad constructed at the <![CDATA[<color=orange>Construction Yard</color>]]> on Giant's Deep as fast as we can, before the test begins!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		POKE: Did the two of you not receive directions from Cassava on how to reach the <![CDATA[<color=orange>Deep Storm Station?</color>]]> Even <![CDATA[<i>I</i>]]> received an invitation from him... <![CDATA[<i>Through Daz!</i>]]>
+		POKE: Did the two of you not receive such directions to reach the <![CDATA[<color=orange>Deep Storm Station?</color>]]> Even <![CDATA[<i>I</i>]]> received instructions from Cassava - through Daz!
 		</Text>
 	</TextBlock>
 	<TextBlock>

@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		DAZ: Oeno, I have seen your scroll and looked into the issues you encountered in your time using the voyager stones. (My thanks once again for helping to test this new technology!)
+		DAZ: Oeno, I have seen your scroll detailing the issues you encountered in your time using the voyager stones. (My thanks once again for helping to test this new technology!)
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: To start: your first observation connecting to a voyager outside the projection pool is.. somewhat of an intended feature!
+		DAZ: To start: your first observation is indeed an intended feature! The memory storage systems allow one voyager (per mask) to remain on standby when disconnected, returning them to that exact position when reconnected.
 		</Text>
 	</TextBlock>
 	
@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: The memory storage systems allow one voyager (per mask) to remain on standby when disconnected, allowing for easy return to voyages far from the projection pool.
+		DAZ: This was done to facilitate a quick return to voyages far from the projection pool the voyage originally travels to!
 		</Text>
 	</TextBlock>
 
@@ -33,7 +33,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: However, it appears the system cannot discriminate between the original host and any new users, causing anyone voyaging to the same projection pool to inhabit the voyager on standby.
+		DAZ: However: it appears this system currently fails to discriminate between the original host and any new users when a second Nomai voyages to the same destination, from the same projection pool.
 		</Text>
 	</TextBlock>
 
@@ -42,7 +42,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		OENO: I see.. In other words, an outstanding voyager will cause anyone else using the same projection stone, from the same projection pool, to connect to that voyager and its location.
+		DAZ: As a result, any Nomai voyaging under these circumstances will be connected to any previous Nomai's outstanding voyagers, causing them to inherit its location.
 		</Text>
 	</TextBlock>
 	
@@ -51,7 +51,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: However, regarding those strange thoughts you heard: the voyagers are advanced constructs connected to our memory masks, granting them access to our memories, our very "essence".
+		DAZ: Furthermore, as the voyagers are advanced constructs connected to our memories, our very "essence"...
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: There is no issue when they are in sync with their host - but I suspect that while inhabited by a foreign consciousness, the voyager gains a certain level of self-awareness of their surroundings.
+		DAZ: When connected to another Nomai's voyager in this way, the voyager may begin to transmit its experiences to both memory masks - causing the original host to receive the voyage in live visions!
 		</Text>
 	</TextBlock>
 
@@ -70,7 +70,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>		
-			OENO: Goodness, Daz! Do you mean to say the voyager stones create.. semi-sentient clones of the users... And the panicked thoughts I heard were from the voyager I was inhabiting?!
+			OENO: My thanks for your expertise, Daz! Your explanations seem to align with our experiences - Coleus was quite alarmed when he began to receive visions from my voyage!
 		</Text>
 	</TextBlock>
 
@@ -79,7 +79,7 @@
 		<ParentID>8</ParentID>
 		<LocationA />
 		<Text>
-			OENO: I was pleased to learn that the solution to the first issue was to simply be mindful of disposing our voyagers.. But now, I feel quite uncomfortable at the idea of doing so!
+			OENO: In this case: until these issues can be amended, we shall simply be mindful of disposing of our voyagers, so we may avoid sharing voyages with each other!
 		</Text>
 	</TextBlock>
 

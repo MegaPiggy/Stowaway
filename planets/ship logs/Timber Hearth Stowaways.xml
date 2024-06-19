@@ -2,98 +2,86 @@
     <ID>TIMBER_HEARTH</ID>
 
 <Entry>
-        <ID>MINES_REPLACE</ID>
-        <Name>Nomai Mines</Name>
+        <ID>TH_SANCTUARY</ID>
+        <Name>Sanctuary</Name>
 
-        <Curiosity>TimeLoop</Curiosity>
+        <Curiosity>STOWAWAYS</Curiosity>
+        <RumorFact>
+            <RumorName>Glittering Cave</RumorName>
+            <RumorNamePriority>1</RumorNamePriority>
+            <ID>SY R1</ID> 
+            <Text>My Little Scout traveled with the museum’s quantum shard into a glittering cave somewhere within Timber Hearth.</Text> 
+        </RumorFact>
+         <RumorFact>
+           <SourceID>TH_CAMPSITE</SourceID>
+            <RumorName>Sanctuary</RumorName>
+            <RumorNamePriority>2</RumorNamePriority>
+            <ID>SY R2</ID> 
+            <Text>The Nomai discussed the excavation and sealing of a Sacntuary within Timber Hearth. They planned to use a new type of projection stone to enter this space.</Text> 
+        </RumorFact>
+        <RumorFact>
+           <SourceID>VM_VOLCANO</SourceID>
+            <ID>SY R3</ID> 
+            <Text>Ore mined on Timber Hearth was treated at a forge on Hollow's Lantern before being used to reinforce the Sanctuary.</Text> 
+        </RumorFact>
+        
+        <ExploreFact>
+            <ID>SY EX1</ID> 
+            <Text>The Nomai built this Sanctuary to protect the native lifeforms of Timber Hearth from supernovas induced during the operation of the Ash Twin Project.</Text> 
+       </ExploreFact>
+          <ExploreFact>
+            <ID>SY EX2</ID> 
+            <Text>A Nomai named Cassava quarantined the Hearthians’ ancestors in this Sanctuary, after realizing that they were gravely endangered by ghost matter.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>SY EX3</ID> 
+            <Text>A voyager can entangle with the quantum shard as it is unable to observe its surroundings on its own.</Text> 
+         </ExploreFact>
+
+
+
+
+
+
+
+        <Entry>
+             <ID>TH_CAMPSITE</ID>
+        <Name>Nomai Campsite</Name>
+
+        <Curiosity>STOWAWAYS</Curiosity>
 
 
      <RumorFact>
-                 <ID>Nomai Gate 1</ID>
-            <RumorName>Sealed Door</RumorName>
-            <Text>Slate put up a note on the travellers' bulletin board ordering travellers not to use their ships to break down the locked Nomai door in the large geyser mountain on Timber Hearth, after another ship-shaped dent on the door was discovered.</Text>
-      </RumorFact>
-       <RumorFact>
-            <ID>Nomai Gate 1B</ID>
-             <RumorName>Sealed Nomai Mines</RumorName>
-            <RumorNamePriority>1</RumorNamePriority>
-            <Text>
-               I found a Nomai trailmarker with text inscribed on it. The locked door appears to be the entrance to a Nomai mining site of some kind.
-            </Text> 
-      </RumorFact>
-         <RumorFact>
-            <ID>Nomai Gate 2</ID>
-            <Text>Riebeck believes the door's locking mechanism is jammed. He wonders if there could be any way to get a peek inside to decide if it was worth further investigation to get in.</Text> 
-        </RumorFact>
-              <RumorFact>
-            <ID>Riebeck Lead</ID>
-            <Text>Riebeck found a mural in the waterways under the door that suggests ancient Hearthians evolved to walk on the surface earlier than expected, and even coexisted with Nomai. This discovery set him off to Brittle Hollow to gather more data to back up his findings.</Text> 
-      </RumorFact>
-        <RumorFact>
-            <ID>PStone Leads 1</ID>
-           <SourceID>VM_VOLCANO</SourceID>
-            <Text>Ore mined by Nomai on Timber Hearth was transported to a forge on Hollow's Lantern.</Text> 
-      </RumorFact>
-           <RumorFact>
-            <ID>PStone Leads 3</ID>
-            <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
-            <Text>The Nomai working on Timber Hearth used a projection stone to observe progress on the Ash Twin Project through a projection pool.</Text> 
-      </RumorFact>
-           <RumorFact>
-            <ID>PStone Leads 4</ID>
-            <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
-            <Text>The Nomai mined ore from this site to craft a protective shell designed to physically seal off the central chamber inside Ash Twin.</Text> 
+                 <ID>Campsite R1</ID>
+            <RumorName>Timber Hearth Warp Destination</RumorName>
+            <Text>My scout traveled to somewhere on Timber Hearth after it was warped from a tower on Ash Twin.</Text>
       </RumorFact>
       
-     
 
-        <RumorFact>
-            <ID>Mines Projection</ID>
-            <Text>I used a projection stone to project into a dark cavern somewhere on Timber Hearth.</Text> 
-      </RumorFact>
-  
-
-      
        
           <ExploreFact>
-            <ID>Nomai Mine Entry 1</ID> 
-            <Text>I was able to enter the unlock and enter the sealed Nomai door at last.</Text> 
+            <ID>Campsite EX1</ID> 
+            <Text>This campsite belonged to the Nomai working on Timber Hearth.</Text> 
         </ExploreFact>
             <ExploreFact>
-            <ID>Nomai Mine Entry 2</ID> 
-            <Text>Several Nomai working inside the mining site expressed their concerns about the fate of native lifeforms they had discovered on Timber Hearth in the event of the Ash Twin Project's failure. They regularly needed to evacuate the amphibious lifeforms from the interior of the mining site.</Text> 
+            <ID>Campsite EX2</ID> 
+            <Text>A warp receiver’s return warp only activates once it is clear of any objects.</Text> 
       </ExploreFact>
-            <ExploreFact>
-            <ID>Nomai Mine Entry 3</ID> 
-            <Text>I found a scroll lodged into the mechanism on the other side of the mine's door. The scroll reveals a Nomai named Cassava mourning the loss of ancient Hearthians he had been unable to protect, and his heartfelt hopes for the surviving Hearthians' future.</Text> 
-        </ExploreFact>
+                <ExploreFact>
+            <ID>Campsite EX3</ID> 
+            <Text>A Nomai named Oeno modified vision orbs to acommodate Timber Hearth's native lifeforms. She was disappointed to learn the vision orb had not been raised by them, but by the Attlerock’s gravity as it orbited overhead.</Text> 
+      </ExploreFact>
+              <ExploreFact>
+            <ID>Campsite EX4</ID> 
+            <Text>A Nomai named Yarrow reported the rotating doors on the Sun Station and Timber Hearth warp towers opening and closing without input from time to time.</Text> 
+      </ExploreFact>
+              <ExploreFact>
+            <ID>Campsite EX5</ID> 
+            <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead.</Text> 
+      </ExploreFact>
+        </Entry>
+</Entry>
 
-  <Entry>
-          <ID>MURAL DSS 1</ID>
-        <Name>Mural (Panel 1)</Name>
-        <Curiosity>STOWAWAYS</Curiosity>
-         <ExploreFact>
-            <ID>Mural 2</ID>
-            <Text>A mural depicting a comet approaching a star.</Text> 
-         </ExploreFact>
-    </Entry>
-    <Entry>
-         <ID>MURAL DSS 2</ID>
-        <Name>Mural (Panel 2)</Name>
-        <Curiosity>STOWAWAYS</Curiosity>
-          <ExploreFact>
-            <ID>Mural 3</ID>
-            <Text>A mural depicting cracks forming on the comet and spreading something across the star system.</Text> 
-        </ExploreFact>
-   </Entry>
-    <Entry>
-         <ID>MURAL DSS 3</ID>
-        <Name>Mural (Panel 3)</Name>
-        <Curiosity>STOWAWAYS</Curiosity>
-      <ExploreFact>
-            <ID>Mural 4</ID>
-            <Text>A mural depicting a golden Nomai standing over a fallen Nomai and a four-eyed creature, surrounded by blue shards.</Text> 
-        </ExploreFact>
-   </Entry>
- </Entry>
+
+
 </AstroObjectEntry>

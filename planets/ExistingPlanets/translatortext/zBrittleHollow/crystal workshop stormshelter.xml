@@ -13,7 +13,7 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		THATCH: However, Cassava and I recently noticed the storm shelters sometimes activate on their own, even in the absence of any cyclones. Is this quirk an intended function of the storm shelter?
+		THATCH: However, Cassava and I recently noticed the storm shelters activating erroneously, even in the absence of any cyclones. Could there be a problem with the storm shelters?
 		</Text>
 	</TextBlock>
 	<TextBlock>
