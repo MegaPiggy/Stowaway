@@ -1,0 +1,53 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>DARK_BRAMBLE</ID>
+
+
+<Entry>
+        <ID>DB_FROZENGUYS</ID>
+        <Name>Ancient Glacier</Name>
+        <Curiosity>None</Curiosity>
+         
+         <RumorFact>
+            <ID>DBG R1</ID>
+            <Text>The Nomai conducted a survey expedition to the exterior of Dark Bramble.</Text> 
+        </RumorFact>
+     
+
+        <ExploreFact>
+            <ID>DBG EX1</ID> 
+            <Text>The Nomai found frozen species inside this glacier on the underside of Dark Bramble's north pole.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>DBG EX2</ID> 
+            <Text>The Nomai hypothesized that these species originated within this planet, and were launched within shards of ice when the planet was destroyed by the bramble - landing on planets that would become their new habitats.</Text> 
+        </ExploreFact>
+      
+</Entry>
+
+
+
+<Entry>
+        <ID>DB_ANGLERNEST</ID>
+        <Name>Anglerfish Nest</Name>
+        <Curiosity>None</Curiosity>
+         
+
+        <ExploreFact>
+            <ID>DBA EX1</ID> 
+            <Text>A cluster of anglerfish eggs guarded fiercely by anglerfish deep within Dark Bramble.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>DBA EX2</ID> 
+            <Text>A Nomai named Escall discovered this nest on a desperate mission to reach the Vessel to rescue the members of escape pod 3. He.. met a gruesome end.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>DBA EX3</ID>
+            <Text>Escall noted that the eggs were warm, gelatinous, and filled with liquid.</Text> 
+     </ExploreFact>
+     
+      
+</Entry>
+
+
+
+</AstroObjectEntry>

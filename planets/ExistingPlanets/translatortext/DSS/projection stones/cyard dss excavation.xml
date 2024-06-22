@@ -30,7 +30,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CLARY: Daz, I'm almost done installing the new warp receiver within the <![CDATA[<color=orange>Deep Storm Station.</color>]]> Once it is ready, it should connect us with, and allow travel from the warp transmitter on the <![CDATA[<color=orange>Construction Yard!</color>]]>
+		CLARY: Daz, I'm almost done installing the new warp receiver within the <![CDATA[<color=orange>Deep Storm Station.</color>]]> Once it is ready, it should connect us with the warp transmitter on the <![CDATA[<color=orange>Construction Yard!</color>]]>
 </Text>
 	</TextBlock>
 
@@ -39,7 +39,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		CLARY: Of note: as we have sealed ourselves in this space, we will require somebody to use the warp transmitter to charge a return warp that will allow us to return to the surface!
+		CLARY: Of note: as we have sealed ourselves in this space, we will require somebody to warp to our warp receiver to charge a return warp that will allow us to return to the surface!
 		</Text>
 	</TextBlock>
 

@@ -1,0 +1,375 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>GIANTS_DEEP</ID>
+
+
+
+<Entry>
+
+
+       <ID>SCROLL_WORKSHOP</ID>
+        <Name>Scroll and Stone Workshop</Name>
+        <Curiosity>STOWAWAYS</Curiosity>
+ 
+        <RumorFact>
+            <ID>Workshop R1</ID>
+             <SourceID>TH_CAMPSITE</SourceID>
+            <Text>The construction of the Sanctuary used a new type of projection stone crafted at a workshop on Giant's Deep.</Text> 
+        </RumorFact>
+         <RumorFact>
+            <ID>Workshop R2</ID>
+            <Text>Projection stones for the Orbital Probe Cannon were crafted at a workshop on Statue Island.</Text> 
+        </RumorFact>
+         <RumorFact>
+            <ID>Workshop R3</ID>
+              <SourceID>GD_STATUE_ISLAND</SourceID>
+            <Text>Nomai using the voyager stones noticed their voyagers arriving outside the projection pool, and receiving visions from other voyages.</Text> 
+        </RumorFact>
+             <RumorFact>
+            <ID>Workshop R4</ID>
+            <Text>A new type of projection stone used the memory statues' memory storage systems to allow paired Nomai to explore remotely beyond projection pools.</Text> 
+        </RumorFact>
+        <ExploreFact>
+            <ID>Workshop EX1</ID> 
+            <Text>This workshop on Giant's Deep was where Nomai scrolls and projection stones were crafted.</Text> 
+        </ExploreFact>
+           <ExploreFact>
+            <ID>Workshop EX2</ID> 
+            <Text>A new type of projection stone allowed Nomai to explore remotely beyond projection pools, granting them imperviousness to most hazards.</Text>
+            <AltText>
+                      <Text>A new type of projection stone used memory storage systems to allow Nomai to explore remotely beyond projection pools, granting them imperviousness to most hazards.</Text>
+                      <Condition>Workshop R4</Condition>
+            </AltText>
+        </ExploreFact>
+          <ExploreFact>
+            <ID>Workshop EX3</ID> 
+            <Text>Conversations shared across projection stones are not stored on the stones themselves, but on the projection walls they were written on, which can only be read with the corresponding projection stones.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>Workshop EX4</ID> 
+            <Text>Up to one voyager per memory mask can remain on standby when disconnected, returning a voyage to its position when reconnected.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>Workshop EX5</ID> 
+            <Text>Voyaging to the same destination from the same projection pool can cause connection to a standby voyager from another memory mask, sharing the voyage with them.</Text> 
+        </ExploreFact>
+</Entry>
+
+///
+
+
+<Entry>
+       <ID>BISLE_STUDY</ID>
+        <Name>Backshore Study Site</Name>
+        <Curiosity>NONE</Curiosity>
+ 
+           <RumorFact>
+            <ID>Study R1</ID>
+            <Text>A group of Nomai discovered frozen jellyfish on this island. They decided to find higher elevation to be safe from the waves while studying them.</Text> 
+        </RumorFact>
+        
+        <ExploreFact>
+            <ID>Study EX1</ID> 
+            <Text>A shore on Bramble Island high enough to be safe from waves, where the Nomai studied frozen jellyfish.</Text> 
+        </ExploreFact>
+           <ExploreFact>
+            <ID>Study EX2</ID> 
+            <Text>The Nomai transported a frozen jellyfish back to the Looming City to investigate why they had stopped coming to the surface of the ocean.</Text> 
+         </ExploreFact>
+          <ExploreFact>
+            <ID>Study EX3</ID> 
+            <Text>The Nomai noticed the planet becoming completely dark, before what appeared to be a giant column of water launched the island into space.</Text>
+        </ExploreFact>
+</Entry>
+      
+
+
+///
+
+
+
+
+
+<Entry>
+        <ID>PIONEER_BEACH</ID>
+        <Name>Pioneers' Beach</Name>
+       <Curiosity>None</Curiosity>
+
+         <IgnoreMoreToExplore/>
+
+  <RumorFact>
+            <ID>Pioneer R1</ID>
+            <Text>The Nomai made a camp on the shore of Statue Island during their first survey expedition to Giant's Deep.</Text> 
+        </RumorFact>
+        <ExploreFact>
+            <ID>Pioneer EX1</ID> 
+            <Text>This camp on Statue Island's shore sheltered Nomai from both Brittle Hollow and Ember Twin during their first survey expedition to Giant's Deep.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>Pioneer EX2</ID> 
+            <Text>After encountering a cyclone, a Nomai named Melorae stressed the importance of a method of protecting themselves from visiting cyclones - or seeking a landmass clear of the path of cyclones entirely.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>Pioneer EX3</ID> 
+            <Text>The Nomai discovered a species of tentacled lifeforms on Giant's Deep.</Text> 
+        </ExploreFact>
+</Entry>
+
+
+
+
+///
+
+
+
+ <Entry>
+       <ID>CONSTRUCT_BAY</ID>
+        <Name>Construction Bay</Name>
+        <Curiosity>STOWAWAYS</Curiosity>
+
+        <ExploreFact>
+           <ID>CB_EX1</ID> 
+            <Text>A bay on the opposite side of the Construction Yard, flooded by ghost matter.</Text> 
+        </ExploreFact>
+               <ExploreFact>
+            <ID>CB_EX2</ID> 
+            <Text>I found schematics for something called the Inspired.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+           <ID>CB_EX3</ID> 
+            <Text>A Nomai named Cassava noticed storm shelters on the island powering on by themselves, even in the absence of cyclones. They were encouraged to visit the Gravity Crystal Workshop to inquire about this issue.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>CB_EX4</ID> 
+            <Text>A Nomai named Cassava observed ghost matter being temporarily neutralized by water. He concluded that ghost matter could not penetrate water.</Text> 
+        </ExploreFact>
+</Entry>
+
+///
+
+
+
+<Entry>
+        <ID>LOVERSCOVE</ID>
+        <Name>Lovers' Cove</Name>
+        <Curiosity>STOWAWAYS</Curiosity>
+        <RumorFact>
+            <ID>Cove R1</ID> 
+             <RumorName>Ghost Matter Cove</RumorName>
+            <Text>There is a small cove on Gabbro's Island guarded by ghost matter.</Text>
+        </RumorFact>
+        <RumorFact>
+            <ID>Cove R2</ID> 
+             <RumorName>Ghost Matter Cove</RumorName>
+            <Text>Gabbro made a second campfire outside this cove, but abandoned it after finding the waves were washing high enough to extinguish it.</Text>
+        </RumorFact>
+         <RumorFact>
+            <ID>Cove R3</ID>
+             <RumorName>Ghost Matter Cove</RumorName>
+            <Text>A Nomai named Daz tested a new type of projection stone with a Nomai named Cassava on this island. His voyager disappeared without warning during the test to Cassava’s alarm.</Text>
+        </RumorFact>
+
+         <ExploreFact>
+            <ID>Cove EX1</ID> 
+            <Text>A small cove inside Gabbro's Island, filled with ghost matter.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>Cove EX2</ID> 
+            <Text>A Nomai named Daz asked for the hand of another Nomai named Cassava in marriage in this cove! Strangely, Daz appeared to celebrate Cassava's acceptance of this proposal before he received an answer.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>Cove EX3</ID> 
+            <Text>As the sun orbits overhead, its gravity causes waves to wash higher on the island. These waves washed high enough to dissolve Daz's voyager while he was testing a voyager stone.</Text> 
+        </ExploreFact>
+
+ </Entry>
+
+
+
+
+
+<Entry>
+        <ID>LOOMINGCITY</ID>
+        <Name>Looming City</Name>
+        <Curiosity>None</Curiosity>
+
+            <IgnoreMoreToExplore/>
+
+         <RumorFact>
+            <ID>LC R1</ID> 
+            <SourceID>CONSTRUCT_BAY</SourceID>
+            <Text>The Nomai on Giant's Deep used to be completely insulated from cyclones in the Looming City.</Text> 
+        </RumorFact>
+          <RumorFact>
+            <ID>LC R2</ID> 
+            <SourceID>BISLE_STUDY</SourceID>
+            <Text>A Nomai named Thatch proposed transporting a frozen jellyfish back to a habitat in the Looming City for research.</Text> 
+        </RumorFact>
+          <RumorFact>
+            <ID>LC R3</ID> 
+            <SourceID>BISLE_STUDY</SourceID>
+            <Text>A Nomai named Melorae expressed her curiosity about how the jellyfish would interact with the quantum shard in the Looming City.</Text> 
+        </RumorFact>
+          <RumorFact>
+            <ID>LC R4</ID> 
+            <Text>The Nomai abandoned this tower after a quantum shard invaded and caused its interior to become inhospitably quantum.</Text> 
+        </RumorFact>
+
+
+        <ExploreFact>
+            <ID>LC EX1</ID>
+                  <Text>A great tower that once served as a Nomai settlement, built on an island within the eye of the hurricane.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>LC EX2</ID> 
+            <Text>The Nomai abandoned this tower due to extenuating circumstances, chronicled in scrolls within the tower.</Text> 
+              <AltText>
+                  <Text>The Nomai abandoned this tower after a quantum shard they uncovered caused its interior to become inhospitably quantum.</Text>
+                  <Condition>LC R4</Condition>
+                  </AltText>
+        </ExploreFact>
+        <ExploreFact>
+            <ID>LC EX3</ID> 
+            <Text>A Nomai named Melorae discovered that quantum objects could be locked in place while observing them through photos. Her apprentice proudly celebrated their achievements as the greatest quantum geologists of their clan.</Text> 
+        </ExploreFact>
+
+    <Entry>
+           <ID>LOOMINGCITY_JELLY</ID>
+        <Name>Cerberus' Pool</Name>
+        <Curiosity>None</Curiosity>
+
+          <RumorFact>
+            <RumorName>Jellyfish Habitat</RumorName>
+                        <RumorNamePriority>1</RumorNamePriority>
+            <ID>LCJ R1</ID> 
+            <Text>The Nomai constructed a jellyfish habitat at the Looming City to conduct further research into them.</Text> 
+        </RumorFact>
+        <RumorFact>
+            <ID>LCJ R2</ID> 
+            <Text>A Nomai named Solanum lost a scroll in this pool. A jellyfish at the bottom of the pool blocks the scroll with its electrifying tentacles.</Text> 
+        </RumorFact>
+        
+         <ExploreFact>
+            <ID>LCJ EX1</ID> 
+            <Text>A pool under the Looming City that houses a jellyfish the Nomai studied. A scroll sits at the bottom of the pool, guarded by the jellyfish.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>LCJ EX2</ID> 
+            <Text>The Nomai discovered that jellyfish are drawn to the surface of the ocean by the Quantum Moon's gravity.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>LCJ EX3</ID> 
+            <Text>Giant's Deep's thick clouds completely obscures sight of anything outside the planet.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>LCJ EX4</ID> 
+            <Text>The Quantum Moon Locator on Ember Twin's south pole allows a clear view of which planet the Quantum Moon is orbiting at all times.</Text> 
+        </ExploreFact>
+    </Entry>
+</Entry>
+
+
+
+
+<Entry>
+   <ID>DEEP_STORM_STATION</ID>
+        <Name>Deep Storm Station</Name>
+
+        <Curiosity>STOWAWAYS</Curiosity>
+		<IsCuriosity/>
+        
+        <IgnoreMoreToExplore/>
+
+        
+         <RumorFact>
+            <RumorName>Deep Storm Station</RumorName>
+            <RumorNamePriority>1</RumorNamePriority>
+          <ID>CONV R1</ID> 
+            <Text>The Deep Storm Station powered a 6-second negative time interval to test the mechanics of the Ash Twin Project.</Text> 
+        </RumorFact>
+      <RumorFact>
+                         <RumorName>Deepest Space</RumorName>
+                        <RumorNamePriority>1</RumorNamePriority>
+            <ID>DSS Probe</ID> 
+            <Text>My scout was warped somewhere with a large structure at its core and wires connected to it built into the walls. The area is filled with clusters of crystals and patches of ghost matter.</Text> 
+        </RumorFact>
+            <RumorFact>
+            <ID>DSS R2</ID>
+                         <RumorName>Deep Storm Station</RumorName>
+                        <RumorNamePriority>1</RumorNamePriority>
+            <Text>I was able to safely enter the Deep Storm Station using a voyager stone. The gravity floor seems to be too strong for me to jump to the other side of the station.</Text> 
+         </RumorFact>
+       
+         <RumorFact>
+            <ID>DSS R3</ID>
+                         <RumorName>Deep Storm Station</RumorName>
+                        <RumorNamePriority>1</RumorNamePriority>
+            <Text>Nomai journeyed to Giant's Deep to oversee a safety test being conducted at the Deep Storm Station.</Text> 
+         </RumorFact>
+     
+          <RumorFact>
+         <ID>DSS R5</ID> 
+                     <RumorName>Deep Storm Station</RumorName>
+                      <RumorNamePriority>1</RumorNamePriority>
+            <Text>Two Nomai named Pye and Idaea were confused by their inability to warp to the Deep Storm Station from a warp tower on Ash Twin.</Text> 
+        </RumorFact>
+   
+
+         <ExploreFact>
+            <ID>Deep Storm Station ENTERED</ID> 
+            <Text>I was able to enter the Deep Storm Station.</Text> 
+        </ExploreFact>
+            <ExploreFact>
+            <ID>Stowaways DSS 0</ID> 
+            <Text>A station built at the heart of Giant's Deep that used the electric core of the planet to power a 6-second negative time interval.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>Stowaways DSS 1</ID> 
+            <Text>A Nomai named Cassava was protected from some sort of danger aboard the Deep Storm Station. He then used voyager stones to travel and explore outside the station.</Text>
+            <AltText>
+                <Text>A Nomai named Cassava survived the arrival of ghost matter in the star system aboard the Deep Storm Station. He then used voyager stones to travel and explore outside the station.</Text>
+                <Condition>COMET_INTERIOR_X1</Condition>
+            </AltText>
+        </ExploreFact>
+         <ExploreFact>
+            <ID>Stowaways DSS 4</ID> 
+            <Text>Cassava quarantined few surviving Hearthians within the Sanctuary upon realizing that they were in grave danger.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>Stowaways DSS 5</ID> 
+            <Text>Cassava warped all ghost matter captured by the Inspired into Deep Storm Station, to contain it indefinitely at the cost of his own life.</Text>
+        </ExploreFact>
+             <ExploreFact>
+            <ID>Stowaways DSS 6</ID> 
+            <Text>A recording in the Deep Storm Station contained Cassava's last words. The Nomai known as Cassava met his end without fear.</Text> 
+        </ExploreFact>
+
+</Entry>
+
+
+
+<Entry>
+        <ID>DSS Whiteboards</ID>
+        <Name>DSS Projection whiteboards temp</Name>
+          <Curiosity>STOWAWAYS</Curiosity>
+        
+        <IgnoreMoreToExplore/>
+
+          <RumorFact>
+          <ID>CONV R2</ID> 
+          <SourceID>LOVERSCOVE</SourceID>
+            <Text>While sharing joyous news of his engagement, Daz revealed that he had proposed to Cassava during a 6-second negative time interval.</Text> 
+        </RumorFact>
+          
+         <RumorFact>
+            <ID>CONV R3</ID>
+            <Text>A Nomai named Daz was cut off while writing to the Deep Storm Station from the Scroll and Stone Workshop.</Text> 
+         </RumorFact>
+               
+         <RumorFact>
+            <ID>CONV R4</ID>
+            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai to warp in from the Construction Yard to charge a return warp that would allow them to return them to the surface.</Text> 
+       </RumorFact>
+                 
+</Entry>
+
+</AstroObjectEntry>

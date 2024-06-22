@@ -399,7 +399,7 @@
 					"y": 32.8089,
 					"z": 335.9688
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/village fossil 1"
 			},
 			{
@@ -416,7 +416,7 @@
 					"y": 286.816,
 					"z": 337.6184
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/village fossil 1"
 			},
 
@@ -533,7 +533,7 @@
 					"x": 0.0176,"y": 1.6037,"z":0.069
 				},
 				"rotation": {
-					"x": 337.954,"y": 53.9129,"z": 343.2676
+					"x": 310.9696 ,"y": 260.5211,"z": 336.6716
 				},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumRocks/QuantumRock_Root (3)/Rock_TH_Ledge_Low_Lower (2)",
@@ -547,7 +547,7 @@
 					"x": 0.2359 ,"y": 1.6109,"z": 0.4054
 				},
 				"rotation": {
-					"x": 308.375,"y": 265.0579,"z": 325.1092
+					"x": 317.1346,"y": 265.0579,"z": 325.1092
 				},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Sector_QuantumGrove/Interactables_QuantumGrove/QuantumRocks/QuantumRock_Root (1)/Rock_TH_Ledge_Low_Lower (2)",

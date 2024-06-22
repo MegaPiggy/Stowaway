@@ -1,0 +1,41 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>Inspired</ID>
+
+
+<Entry>
+        <ID>INSPIRED</ID>
+        <Name>The Inspired</Name>
+        <Curiosity>STOWAWAYS</Curiosity>
+        
+        <IgnoreMoreToExplore/>
+
+         <RumorFact>
+            <ID>INSP R1</ID>
+            <Text>I found a frozen comet hidden in the shadow of Giant's Deep.</Text>
+        </RumorFact>
+           <RumorFact>
+            <ID>INSP R2</ID>
+            <Text>I entered a black hole at the center of the comet, which warped me into a space with glowing masks and ghost matter.</Text>
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>INSP EX1</ID> 
+            <Text>An artificial comet made of gravity crystals, made to bring destruction to the source of the Interloper..</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>INSP EX2</ID> 
+            <Text>The Inspired was repurposed to protect the Hearthians when its creator realized that they were endangered by ghost matter.</Text>
+        </ExploreFact>
+         <ExploreFact>
+            <ID>INSP EX3</ID> 
+            <Text>The Inspired's white hole warp core was replaced with a black hole warp core, allowing it to warp all collected ghost matter to the Deep Storm Station for containment.</Text>
+        </ExploreFact>
+      
+</Entry>
+
+
+
+
+
+
+</AstroObjectEntry>

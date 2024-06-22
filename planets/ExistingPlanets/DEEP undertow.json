@@ -751,7 +751,7 @@
 },
 		"ShipLog" :
 		{
-			"xmlFile": "planets/ship logs/GiantsDeep Stowaways.xml",
+			"xmlFile": "planets/ship logs/GiantsDeep Stowaway.xml",
 			"spriteFolder": "planets/ship logs/sprites"
 		}
 }
