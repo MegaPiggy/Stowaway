@@ -52,11 +52,11 @@
 		<Name>ShyKidNew1</Name>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Um...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>I made something for you.. But I think it might be a little hard to see...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>I made something for you.. But It's a little high up..<![CDATA[</size>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>
-				<Text>Oh? Let's see it! Where is it?</Text>
+				<Text>That's still really sweet of you, Galena. Where is it?</Text>
 				<DialogueTarget>ShyKidNew2</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -65,9 +65,11 @@
 <DialogueNode>
 		<Name>ShyKidNew2</Name>
 		<Dialogue>
-			<Page><![CDATA[<size=20>]]>Um.. Under the launch pad... But it's a little high up..<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>If you shoot your Little Scout up from the astronauts' exhibit so it sticks on the bottom of the launch pad, you might be able to see it..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Um.. If you shoot your Little Scout up from the Outer Wilds Ventures exhibit, you might be able to see it..<![CDATA[</size>]]></Page>
 		</Dialogue>
+						 <RevealFacts>
+     						   <FactID>GAL EX1</FactID>
+    					  </RevealFacts>
 	</DialogueNode>
 
 

@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: I have programmed it to maintain a steady alignment within Giant's Deep's shadow, far from the sun, where it should freeze over, and be safe from crashing into any celestial body.
+		CASSAVA: I have programmed it to maintain a steady alignment within Giant's Deep's shadow, far from the sun, where it should be safe from crashing into any celestial body.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -63,7 +63,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: ... I am ready.
+		CASSAVA: ...I am ready.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -79,7 +79,7 @@
 		<ParentID>9</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: The universe is filled with much mystery and so much beauty - and the tiny window of time I have been given into it has inspired me with boundless curiosity and admiration.
+		CASSAVA: The universe is filled with much mystery and much beauty - and the tiny window of time I have been given has inspired me with boundless curiosity and admiration.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -93,14 +93,24 @@
 
 
 <ShipLogConditions>
-	<RevealFact>
-			<FactID>Deep Storm Station ENTERED</FactID>
-			<Condition>1</Condition>
+		<RevealFact>
+			<FactID>DSS EX4</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>INSP R4</FactID>
-			<Condition>1</Condition>
+			<FactID>DSS EX5</FactID>
+			<Condition>3</Condition>
 		</RevealFact>
-	</ShipLogConditions>
+		<RevealFact>
+			<FactID>DSS EX6</FactID>
+			<Condition>11</Condition>
+		</RevealFact>
+
+		<RevealFact>
+			<FactID>INSP R4</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+
+</ShipLogConditions>
 
 </NomaiObject>

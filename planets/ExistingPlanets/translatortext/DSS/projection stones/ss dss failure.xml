@@ -67,18 +67,20 @@
 
 
 <ShipLogConditions>
+
 		<RevealFact>
-			<FactID>CONV R1</FactID>
+			<FactID>SS EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>DSS CONV5</FactID>
-			<Condition>6</Condition>
+			<FactID>SS EX2</FactID>
+			<Condition>8</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>Stowaways DSS 0</FactID>
-			<Condition>7</Condition>
+			<FactID>SS CONV1</FactID>
+			<Condition>8</Condition>
 		</RevealFact>
+
 	</ShipLogConditions>
 
 </NomaiObject>

@@ -101,12 +101,20 @@
 
 <ShipLogConditions>
 				<RevealFact>
-			<FactID>SY R3</FactID>
-			<Condition>1</Condition>
+			<FactID>Campsite EX0</FactID>
+			<Condition>12</Condition>
 		</RevealFact>
 				<RevealFact>
 			<FactID>SY R2</FactID>
 			<Condition>5</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>SY R3</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+				<RevealFact>
+				<FactID>SY R4</FactID>
+				<Condition>9</Condition>
 		</RevealFact>
 				<RevealFact>
 			<FactID>Workshop R1</FactID>

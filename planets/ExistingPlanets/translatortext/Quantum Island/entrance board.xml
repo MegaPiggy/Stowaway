@@ -30,5 +30,20 @@
 	</TextBlock>
 
 
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>GD_QUANTUM_TOWER_X1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LC EX1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LC EX2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	
+	</ShipLogConditions>
 
 </NomaiObject>

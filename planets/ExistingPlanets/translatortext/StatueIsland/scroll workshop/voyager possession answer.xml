@@ -51,7 +51,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Furthermore, as the voyagers are advanced constructs connected to our memories, our very "essence"...
+		DAZ: Furthermore, as the voyager stones use a paired Nomai's memory mask to allow them to receive transmissions from the voyager...
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: When connected to another Nomai's voyager in this way, the voyager may begin to transmit its experiences to both memory masks - causing the original host to receive the voyage in live visions!
+		DAZ: Voyaging to the same destination from the same projection pool causes connection to any standby voyagers connected to another memory mask, causing both memory masks to share the voyage.
 		</Text>
 	</TextBlock>
 
@@ -70,7 +70,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>		
-			OENO: My thanks for your expertise, Daz! Your explanations seem to align with our experiences - Coleus was quite alarmed when he began to receive visions from my voyage!
+			OENO: I see! That must be why Coleus and I received visions from each other's voyages.. My deepest gratitude for your quick work in diagnosing these issues, Daz!
 		</Text>
 	</TextBlock>
 
@@ -79,19 +79,19 @@
 		<ParentID>8</ParentID>
 		<LocationA />
 		<Text>
-			OENO: In this case: until these issues can be amended, we shall simply be mindful of disposing of our voyagers, so we may avoid sharing voyages with each other!
+			OENO: In this case: until these issues can be amended, we shall simply be mindful of disposing of our voyagers, so we may avoid unwittingly sharing our voyages with each other!
 		</Text>
 	</TextBlock>
 
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>Workshop EX2</FactID>
-			<Condition>4</Condition>
+			<FactID>Workshop EX4</FactID>
+			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>Workshop EX3</FactID>
-			<Condition>5</Condition>
+			<FactID>Workshop EX5</FactID>
+			<Condition>7</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

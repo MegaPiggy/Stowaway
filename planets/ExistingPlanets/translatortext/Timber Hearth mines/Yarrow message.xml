@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		YARROW: Friends, is anyone able to locate Oeno? I would like her help in investigating an issue on <![CDATA[<color=lightblue>Ash Twin,</color>]]> but I cannot seem to find her anywhere!
+		YARROW: Friends, is anyone able to locate Oeno? I require her aid in investigating an issue on <![CDATA[<color=lightblue>Ash Twin,</color>]]> but I cannot seem to find her anywhere!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -12,7 +12,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: Ah, Cycad! I must return to <![CDATA[<color=lightblue>Ash Twin</color>]]> for another matter, but if might you know where Oeno is, I would greatly appreciate if you could send her my way!
+		YARROW: Ah, Cycad! I must return to <![CDATA[<color=lightblue>Ash Twin</color>]]> now, but if you might know where Oeno is, I would greatly appreciate if you could deliver my message to her!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,14 +20,26 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CYCAD: It would be my pleasure! Oeno must be playing with the native lifeforms again around the pools outside <![CDATA[<color=orange>mining site 2b</color>]]> again.. I'd be happy to convey your message, Yarrow!
+		CYCAD: I would be happy to deliver your message, Yarrow!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>
+		CYCAD: I am sure Oeno is simply playing with the native lifeforms in the pools outside our <![CDATA[<color=orange>mining site</color>]]> again.
 		</Text>
 	</TextBlock>
 
 <ShipLogConditions>
-				<RevealFact>
-			<FactID>Nomai Mine Entry 3</FactID>
-			<Condition>3</Condition>
+		<RevealFact>
+			<FactID>TH_NOMAI_MINE_R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Campsite EX4</FactID>
+			<Condition>1</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

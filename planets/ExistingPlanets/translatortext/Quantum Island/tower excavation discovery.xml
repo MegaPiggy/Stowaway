@@ -47,4 +47,14 @@
 		</Text>
 	</TextBlock>
 
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>LC EX3</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	
+	</ShipLogConditions>
+
+
 </NomaiObject>

@@ -9,6 +9,8 @@
          
          <RumorFact>
             <ID>DBG R1</ID>
+             <SourceID>LOOMINGCITY</SourceID>
+                 <RumorName>Bramble Surface Survey Expedition</RumorName>
             <Text>The Nomai conducted a survey expedition to the exterior of Dark Bramble.</Text> 
         </RumorFact>
      
@@ -19,7 +21,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>DBG EX2</ID> 
-            <Text>The Nomai hypothesized that these species originated within this planet, and were launched within shards of ice when the planet was destroyed by the bramble - landing on planets that would become their new habitats.</Text> 
+            <Text>The Nomai hypothesized that these species originated within the frozen planet, and were launched within shards of ice to the planets that became their new habitats.</Text> 
         </ExploreFact>
       
 </Entry>
@@ -29,8 +31,13 @@
 <Entry>
         <ID>DB_ANGLERNEST</ID>
         <Name>Anglerfish Nest</Name>
-        <Curiosity>None</Curiosity>
+        <Curiosity>Vessel</Curiosity>
          
+        <RumorFact>
+            <ID>DBA R1</ID>
+             <SourceID>DB_VESSEL</SourceID>
+            <Text>A Nomai named Escall discovered this nest while trying to reach the Vessel.</Text> 
+        </RumorFact>
 
         <ExploreFact>
             <ID>DBA EX1</ID> 
@@ -38,7 +45,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>DBA EX2</ID> 
-            <Text>A Nomai named Escall discovered this nest on a desperate mission to reach the Vessel to rescue the members of escape pod 3. He.. met a gruesome end.</Text> 
+            <Text>A Nomai named Escall discovered this nest on a desperate mission to reach the Vessel to save the members of escape pod 3. He.. met a gruesome end.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>DBA EX3</ID>

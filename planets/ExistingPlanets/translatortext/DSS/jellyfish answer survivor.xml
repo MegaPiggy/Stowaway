@@ -53,17 +53,10 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>INSP R3</FactID>
-			<Condition>1</Condition>
+			<FactID>DSS R4</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
-		<RevealFact>
-			<FactID>INSP EX2</FactID>
-			<Condition>8</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>INSP EX3</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
+	
 	</ShipLogConditions>
 
 </NomaiObject>

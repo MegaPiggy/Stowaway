@@ -61,49 +61,26 @@
 	<ID>8</ID>
 		<LocationA />
 		<ParentID>7</ParentID>
-		<Text>
-		PYE: ...
+		IDAEA: The warp tower aligns at last.
 		</Text>
 			</TextBlock>
-			
-<TextBlock>	
+
+			<TextBlock>	
 	<ID>9</ID>
 		<LocationA />
 		<ParentID>8</ParentID>
-		<Text>
-		PYE: Goodness, has it always taken this long for this warp tower to activate? I am unsure if we will arrive in time at this rate..
-		</Text>
-</TextBlock>
-
-	<TextBlock>	
-	<ID>10</ID>
-		<LocationA />
-		<ParentID>9</ParentID>
-		<Text>
-		PYE: Every time I think the planet will finally orbit overhead the warp tower, it starts to go into retrograde!
-		</Text>
-			</TextBlock>
-			<TextBlock>	
-	<ID>11</ID>
-		<LocationA />
-		<ParentID>10</ParentID>
-		<Text>
-		IDAEA: Unfortunately, the farther out a planet is, the harder it is for the warp tower to align due to the Hourglass Twins' orbit.. We must simply be patient.
-		</Text>
-			</TextBlock>
-				<TextBlock>	
-	<ID>12</ID>
-		<LocationA />
-		<ParentID>11</ParentID>
-		<Text>
-		IDAEA: Ah, the alignment is happening at last. Come, Pye: The <![CDATA[<color=orange>Deep Storm Station</color>]]> awaits us.
+		IDAEA: Come, Pye: The <![CDATA[<color=orange>Deep Storm Station</color>]]> awaits us.
 		</Text>
 			</TextBlock>
 
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>Tower EX2</FactID>
-			<Condition>6</Condition>
+			<FactID>GD Tower R2</FactID>
+			<Condition>12</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>GD Tower EX2</FactID>
+			<Condition>12</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 	

@@ -44,8 +44,8 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>Workshop Locked EX3</FactID>
-			<Condition>2</Condition>
+			<FactID>Cove R3</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

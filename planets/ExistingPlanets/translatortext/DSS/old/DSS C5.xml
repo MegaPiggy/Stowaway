@@ -1,0 +1,112 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		What can be done to contain or destroy the Inspired and the deadly matter?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		Solution 1: Contain the <![CDATA[<color=orange>Inspired</color>]]> within Dark Bramble
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		CASSAVA: This will without question, exterminate the anglerfish, as well as any undiscovered species dwelling within the bramble, though distance within the bramble protected them from the comet's arrival.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>
+			CASSAVA: Additionally, the bramble produces and scatters seeds connected back to the plant. The deadly matter could easily leak out into the star system through these seeds..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+			Solution 2: Attempt to orbit the Inspired around the sun, using its gravity to siphon off and destroy the deadly matter
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+			CASSAVA: This would be recklessly dangerous. The pressures within Inspired will be too unstable at such close distance to the sun, and could cause far more devastating destruction...
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+			Solution 3: Compact all matter within the Inspired, and launch it towards the asteroid belt
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+			CASSAVA: No, there isn't enough time to calculate a new trajectory, now that the orbit has passed...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+			Solution 4: Replace the Inspired's core with a black hole warp core, creating a black hole to warp matter to its sibling core within the <![CDATA[<color=orange>Deep Storm Station</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<LocationA />
+		<ParentID>9</ParentID>
+		<Text>
+			CASSAVA: The deep oceans surrounding the station should allow all captured matter to be completely contained within this space, safely quarantining it indefinitely.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<LocationA />
+		<ParentID>10</ParentID>
+		<Text>
+			CASSAVA: This is the safest and surest method of long-term containment, with the least potential for collective harm.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<LocationA />
+		<ParentID>11</ParentID>
+		<Text>
+		CASSAVA: Our journey has reached its end.. But if it means the survival of the star system and its species, I will gladly give my life to pave the road for theirs.
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>CONV CONV6</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Stowaways DSS 5</FactID>
+			<Condition>12</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

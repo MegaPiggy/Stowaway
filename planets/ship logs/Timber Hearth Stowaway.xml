@@ -17,7 +17,7 @@
        </ExploreFact>
        <ExploreFact>
             <ID>MICA EX2</ID> 
-            <Text>I told Mica about the warp towers on Ash Twin, and they wondered if there were any warp towers that traveled to Timber Hearth.</Text> 
+            <Text>I told Mica about the warp towers on Ash Twin. They wondered if there were any warp towers that traveled to Timber Hearth.</Text> 
        </ExploreFact>
 
 </Entry>
@@ -54,11 +54,11 @@
   </RumorFact>
        <ExploreFact>
             <ID>GAL EX1</ID> 
-            <Text>Galena wanted to show me something they made for me. They asked me to shoot a scout from the Outer Wilds Ventures exhibit at the underside of the launch pad to see what they made.</Text> 
+            <Text>Galena wanted to show me something they made for me. They asked me to shoot my Little Scout up from the Outer Wilds Ventures exhibit to see what they made.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>GAL EX2</ID> 
-            <Text>I used my Little Scout to find a heartwarming sign under the launch tower that Galena made!</Text> 
+            <Text>I found a heartwarming sign made by Galena using the Little Scout!</Text> 
        </ExploreFact>
 </Entry>
 
@@ -72,13 +72,19 @@
             <ID>ARK R1</ID> 
             <Text>Slate says I should go talk to the hatchlings in the village before I take off.</Text> 
   </RumorFact>
+  <RumorFact>
+           <SourceID>GD_GABBRO_ISLAND</SourceID>
+            <ID>ARK R2</ID> 
+            <Text>Arkose says Gabbro noticed ghost matter disappearing as well.</Text> 
+  </RumorFact>
+
        <ExploreFact>
             <ID>ARK EX1</ID> 
             <Text>Arkose noticed the patch of ghost matter in the village disappearing sometimes.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>ARK EX2</ID> 
-            <Text>Arkose says Gabbro noticed ghost matter disappearing as well.</Text> 
+            <Text>Arkose says that Gabbro noticed something about ghost matter disappearing as well.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -87,11 +93,16 @@
         <ID>TH_MORAINE</ID>
         <Name>Moraine</Name>
 
-        <Curiosity>NONE</Curiosity>
+        <Curiosity>STOWAWAYS</Curiosity>
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>MOR R1</ID> 
             <Text>Slate says I should go talk to the hatchlings in the village before I take off.</Text> 
+  </RumorFact>
+    <RumorFact>
+           <SourceID>BH_RIEBECK</SourceID>
+            <ID>MOR R2</ID> 
+            <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways as soon as I can.</Text> 
   </RumorFact>
        <ExploreFact>
             <ID>MOR EX1</ID> 
@@ -99,7 +110,7 @@
        </ExploreFact>
        <ExploreFact>
             <ID>MOR EX2</ID> 
-            <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways as soon as I can!</Text> 
+            <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways as soon as I can.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -120,27 +131,39 @@
             <RumorName>Sanctuary</RumorName>
             <RumorNamePriority>2</RumorNamePriority>
             <ID>SY R2</ID> 
-            <Text>The Nomai discussed the excavation and sealing of a Sacntuary within Timber Hearth. They planned to use a new type of projection stone to enter this space.</Text> 
+            <Text>The Nomai discussed the excavation and sealing of a Sanctuary within Timber Hearth. They planned to use a new type of projection stone to enter this space.</Text> 
         </RumorFact>
         <RumorFact>
            <SourceID>VM_VOLCANO</SourceID>
             <ID>SY R3</ID> 
             <Text>Ore mined on Timber Hearth was treated at a forge on Hollow's Lantern before being used to reinforce the Sanctuary.</Text> 
         </RumorFact>
+         <RumorFact>
+            <ID>SY R4</ID> 
+            <Text>The Sanctuary was built in a groundwater pool to make use of a quantum shard that traveled inside it.</Text> 
+        </RumorFact>
+          <RumorFact>
+           <SourceID>DEEP_STORM_STATION</SourceID>
+            <ID>SY R5</ID> 
+            <Text>The Hearthians that survived the arrival of ghost matter within the Sanctuary were quarantined inside by a Nomai named Cassava.</Text> 
+        </RumorFact>
         
         <ExploreFact>
             <ID>SY EX1</ID> 
-            <Text>The Nomai built this Sanctuary to protect the native lifeforms of Timber Hearth from supernovas induced during the operation of the Ash Twin Project.</Text> 
+            <Text>The Nomai built this Sanctuary to protect the native lifeforms of Timber Hearth from a supernova.</Text> 
        </ExploreFact>
           <ExploreFact>
             <ID>SY EX2</ID> 
-            <Text>A Nomai named Cassava quarantined the Hearthians’ ancestors in this Sanctuary, after realizing that they were gravely endangered by ghost matter.</Text> 
+            <Text>The Hearthians within the Sanctuary were protected from ghost matter. A Nomai named Cassava quarantined these survivors inside this space.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>SY EX3</ID> 
-            <Text>A voyager can entangle with the quantum shard as it is unable to observe its surroundings on its own.</Text> 
+            <Text>A voyager can travel with a quantum shard, as it is unable to observe its surroundings on its own.</Text> 
          </ExploreFact>
-
+        <ExploreFact>
+            <ID>SY EX4</ID> 
+            <Text>The quantum shard visits the Sanctuary under the cover of darkness.</Text> 
+         </ExploreFact>
 </Entry>
 
 
@@ -155,18 +178,22 @@
         <Curiosity>STOWAWAYS</Curiosity>
 
 
-     <RumorFact>
-                 <ID>Campsite R1</ID>
-            <RumorName>Timber Hearth Warp Destination</RumorName>
-            <Text>My scout traveled to somewhere on Timber Hearth after it was warped from a tower on Ash Twin.</Text>
+
+         <RumorFact>
+                 <ID>Campsite R2</ID>
+            <SourceID>TH_WARPTOWER</SourceID>
+            <Text>A Nomai named Cycad delivered news about rotating doors on Ash Twin activating on their own to Timber Hearth.</Text>
       </RumorFact>
-      
 
        
           <ExploreFact>
-            <ID>Campsite EX1</ID> 
+            <ID>Campsite EX0</ID> 
             <Text>This campsite belonged to the Nomai working on Timber Hearth.</Text> 
         </ExploreFact>
+         <ExploreFact>
+            <ID>Campsite EX1</ID> 
+            <Text>The Nomai on Timber Hearth were careful not to leave the warp receiver unattended to protect the amphibious native lifeforms from being warped to Ash Twin.</Text> 
+      </ExploreFact>
             <ExploreFact>
             <ID>Campsite EX2</ID> 
             <Text>A warp receiver’s return warp only activates once it is clear of any objects.</Text> 
@@ -177,7 +204,11 @@
       </ExploreFact>
               <ExploreFact>
             <ID>Campsite EX4</ID> 
-            <Text>A Nomai named Yarrow reported the rotating doors on the Sun Station and Timber Hearth warp towers opening and closing without input from time to time.</Text> 
+            <Text>A Nomai named Yarrow sought help from the Nomai on Timber Hearth regarding an issue on Ash Twin.</Text> 
+             <AltText>
+                <Text>A Nomai named Yarrow reported the rotating doors on the Sun Station and Timber Hearth warp towers opening and closing without input from time to time.</Text>
+                <Condition>Campsite R2</Condition>
+            </AltText>
       </ExploreFact>
               <ExploreFact>
             <ID>Campsite EX5</ID> 

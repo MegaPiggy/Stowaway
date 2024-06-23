@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-			CASSAVA: The native life of Timber Hearth are <![CDATA[<i>amphibious!</i>]]> They are not safe from the deadly matter covering the planet at all!
+			CASSAVA: The native life of Timber Hearth are <![CDATA[<i>amphibious..</i>]]> They.. They are not safe from the deadly matter covering the planet at all.
 		</Text>
 	</TextBlock>
 
@@ -22,7 +22,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-			CASSAVA: The species wanders onto land in search of food, and geysers populating the pools they dwell in erupt them from the safety of the water! They are already on the brink of... Of...
+			CASSAVA: These species wander onto land in search of food - and geysers populating the pools they dwell in erupt them from the safety of the water. They are already on the brink of... of...
 		</Text>
 	</TextBlock>
 
@@ -31,7 +31,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-			CASSAVA: <![CDATA[<i>No, no..</i>]]> I was too blinded by my own grief! I must take action to save those still left, before it is too late!
+			CASSAVA: <![CDATA[<i>No, no..</i>]]> I was too blinded by my own grief! I must take action to save those still left, before it is too late..!
 		</Text>
 	</TextBlock>
 
@@ -40,7 +40,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-			CASSAVA: The <![CDATA[<color=orange>Sanctuary's</color>]]> location in an underground lake must have insulated the stowaways inside it from the deadly matter, but those we released outside live on borrowed time.. 
+			CASSAVA: The water surrounding the <![CDATA[<color=orange>Sanctuary</color>]]> must have insulated the stowaways inside it from the deadly matter - but those who have been released outside live on borrowed time.. 
 		</Text>
 	</TextBlock>
 
@@ -49,7 +49,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: For now, I must make sure to quarantine those within the Sanctuary by keeping the quantum shard from traveling inside - but they too, cannot remain here indefinitely..
+			CASSAVA: For now, I must make sure to quarantine those within the <![CDATA[<color=orange>Sanctuary</color>]]> by keeping the quantum shard locked in superposition. But they too, cannot remain there indefinitely..
 		</Text>
 	</TextBlock>
 
@@ -58,7 +58,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: ..My mind is set. I know how I can contain the deadly matter.
+			CASSAVA: ..My mind is set. I know how I can protect these species.
 		</Text>
 	</TextBlock>
 
@@ -75,11 +75,11 @@
 
 <ShipLogConditions>
 	<RevealFact>
-			<FactID>Deep Storm Station ENTERED</FactID>
+			<FactID>SY EX2</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>Stowaways DSS 4</FactID>
+			<FactID>SY R4</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
 	</ShipLogConditions>

@@ -107,11 +107,16 @@
 	
 
 <ShipLogConditions>
+
+	<RevealFact>
+			<FactID>Campsite R2</FactID>
+			<Condition>12</Condition>
+		</RevealFact>
+</ShipLogConditions>
 				<RevealFact>
 			<FactID>Campsite EX3</FactID>
 			<Condition>6</Condition>
 		</RevealFact>
-
 				<RevealFact>
 			<FactID>Campsite EX4</FactID>
 			<Condition>12</Condition>

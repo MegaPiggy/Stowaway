@@ -20,6 +20,9 @@
          <Page>Or maybe Feldspar woke me up before I joined them..? Heh.</Page>
            <Page>Thanks for looking out for me, Spar. See you in the stars.</Page>
     </Dialogue>
+                <RevealFacts>
+     						   <FactID>Study EX4</FactID>
+    					  </RevealFacts>
   </DialogueNode>
 
 </DialogueTree>

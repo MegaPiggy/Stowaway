@@ -12,21 +12,53 @@
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>A tower on Ash Twin in the shape of a spire.</Text> 
         </RumorFact>
+          <RumorFact>
+            <ID>GD Tower R2</ID>
+             <Text>Two Nomai waited outside this tower to travel to the Deep Storm Station.</Text> 
+        </RumorFact>
+        <RumorFact>
+            <ID>GD Tower R3</ID>
+            <SourceID>GD_STATUE_ISLAND</SourceID>
+             <Text>Two Nomai named Pye and Idaea tried to warp to the Deep Storm Station from this tower, but arrived on Statue Island instead.</Text> 
+        </RumorFact>
+        
+     
        <ExploreFact>
             <ID>GD Tower EX1</ID>
              <Text>A tower on Ash Twin in the shape of a spire.</Text> 
         </ExploreFact>
        <ExploreFact>
             <ID>GD Tower EX2</ID> 
-            <Text>Two Nomai debated about the Sun Station while waiting outside this warp tower, hoping to travel to something called the Deep Storm Station.</Text> 
+            <Text>Two Nomai debated about the Sun Station, while waiting outside this warp tower to travel to something called the Deep Storm Station.</Text> 
         </ExploreFact>
 
            <ExploreFact>
             <ID>GD Tower EX3</ID> 
-            <Text>The Deep Storm Station is only accessible from a new warp pad constructed on the Construction Yard.</Text> 
+            <Text>Nomai traveled to a new warp pad installed on the Construction Yard to enter the Deep Storm Station.</Text> 
           </ExploreFact>
  </Entry>
  
+
+
+<Entry>
+            <ID>BH_WARPTOWER</ID>
+            <Name>Column Tower</Name>
+           <Curiosity>TimeLoop</Curiosity>
+          <IgnoreMoreToExplore/>
+
+          <RumorFact>
+            <ID>BH Tower R1</ID>
+            <SourceID>TT_WARP_TOWERS</SourceID>
+             <Text>A tower on Ash Twin that resembles column formations.</Text> 
+        </RumorFact>
+         <ExploreFact>
+            <ID>BH Tower EX1</ID>
+             <Text>A tower on Ash Twin that resembles column formations.</Text> 
+        </ExploreFact>
+ </Entry>
+
+
+
 <Entry>
         <ID>TH_WARPTOWER</ID>
         <Name>Mountain Tower</Name>
@@ -44,33 +76,20 @@
         </ExploreFact>
        <ExploreFact>
             <ID>TH Tower EX2</ID>
-             <Text>A Nomai named Cycad delivered a message to Oeno on Timber Hearth, informing them about an issue with the towers.</Text> 
+             <Text>A Nomai named Cycad delivered a message to Timber Hearth, informing the Nomai there about an issue on Ash Twin.</Text> 
         </ExploreFact>
        <ExploreFact>
             <ID>TH Tower EX3</ID> 
-            <Text>After studying the issue, Oeno suggested traveling to the other tower with the same issue to better demonstrate her findings.</Text> 
+            <Text>After studying the issue, Oeno concluded that the issue was caused by something called the sunless tide.</Text> 
         </ExploreFact>
- </Entry>
-
-
-
-<Entry>
-            <ID>BH_WARPTOWER</ID>
-            <Name>Column Tower</Name>
-           <Curiosity>TimeLoop</Curiosity>
-          <IgnoreMoreToExplore/>
-
-          <RumorFact>
-            <ID>BH Tower R1</ID>
-            <SourceID>TT_WARP_TOWERS</SourceID>
-             <Text>A tower on Ash Twin that resembles a basalt column.</Text> 
-        </RumorFact>
          <ExploreFact>
-            <ID>BH Tower EX1</ID>
-             <Text>A tower on Ash Twin that resembles a basalt column.</Text> 
+            <ID>TH Tower EX4</ID> 
+            <Text>Oeno suggested traveling to the other tower with the same issue to better demonstrate her findings.</Text> 
         </ExploreFact>
  </Entry>
 
+
+ 
 <Entry>
               <ID>SS_WARPTOWER</ID>
               <Name>Star Tower</Name>
@@ -88,11 +107,11 @@
         </ExploreFact>
           <ExploreFact>
             <ID>SS Tower EX2</ID>
-             <Text>The Ash Twin’s rotating doors can be activated by a phenomenon called the sunless tide.</Text> 
+             <Text>The Ash Twin’s rotating doors can be activated without input by a phenomenon called the sunless tide.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX3</ID>
-             <Text>The sunless tide occurs as the Hourglass Twins align directly with the sun, causing a combined force of gravity that causes sand to be pulled in a column, and vision orbs to be pulled, towards the twin closer to the sun.</Text> 
+             <Text>The sunless tide occurs as the Hourglass Twins align directly with the sun, causing a combined force of gravity that causes both sand and vision orbs to be pulled towards the twin closer to the sun.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX4</ID>

@@ -59,14 +59,11 @@
 
 			
 <ShipLogConditions>
-	<RevealFact>
-			<FactID>Deep Storm Station ENTERED</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
 		<RevealFact>
-			<FactID>DSS R6</FactID>
-			<Condition>2</Condition>
+			<FactID>INSP R3</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
-	</ShipLogConditions>
+	
+</ShipLogConditions>
 
 </NomaiObject>

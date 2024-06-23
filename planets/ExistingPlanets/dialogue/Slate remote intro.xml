@@ -57,6 +57,13 @@
 			<Page>If nothing else, at least say bye to the little hatchlings. All of 'em always have something to ask or say to the new astronaut before they go.</Page>
 			<Page>Go humor 'em, just in case this is last they see of you for a while, y'know?</Page>
 		</Dialogue>
+						  <RevealFacts>
+     					 	  <FactID>MICA R1</FactID>
+     						   <FactID>TEPH R1</FactID>
+     						   <FactID>GAL R1</FactID>
+     						   <FactID>ARK R1</FactID>
+     						   <FactID>MOR R1</FactID>
+    					  </RevealFacts>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Alright, alright, I'll go talk to the little gills before I go.</Text>
@@ -78,6 +85,13 @@
 			<Page>If nothing else, at least say bye to the little hatchlings. All of 'em always have something to ask or say to the new astronaut before they go.</Page>
 			<Page>Go humor 'em, just in case this is last they see of you for a while, y'know?</Page>
 		</Dialogue>
+		 				  <RevealFacts>
+     						   <FactID>MICA R1</FactID>
+     						   <FactID>TEPH R1</FactID>
+     						   <FactID>GAL R1</FactID>
+     						   <FactID>ARK R1</FactID>
+     						   <FactID>MOR R1</FactID>
+    					  </RevealFacts>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Alright, alright, I'll go talk to the little gills before I go.</Text>
@@ -95,8 +109,6 @@
 		<Dialogue>
 			<Page>Cool. Just remember: there's Mica, Tephra, Galena, Arkose, and Moraine.</Page>
 			<Page>If you forget to say goodbye to any one of them, they'll probably never forget it as long as they live.</Page>
-			<Page>I think Mica especially had something to ask you - but they didn't want to tell me what, for whatever reason.</Page>
-			<Page>I'm just saying: you probably wanna get it outta that one now. Otherwise, don't be surprised if you start seeing the model rocket flying after you with notes attached to it.</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -104,9 +116,7 @@
 		<Name>Slate_Kids_Direction</Name>
 		<Dialogue>
 			<Page>Stars, <![CDATA[<i>I don't know!</i>]]> I'm just roasting marshmallows and relaxing here. They're hatchlings, they might have clambered into your ship somehow for all I know.</Page>
-			<Page>Mica's probably still fiddling with the model rocket.</Page>
-			<Page>They told me they had something to ask you they couldn't tell me for whatever reason.. So it's probably plans to steal my job or something.</Page>
-			<Page>I'm just saying: you probably wanna get it outta that one now. Otherwise, don't be surprised if you start seeing the model rocket flying after you with notes attached to it.</Page>
+			<Page>Mica's probably still fiddling with the model rocket, just up the hill.</Page>
 				<Page>Tephra and Galena should be playing in the village somewhere.</Page>
 				<Page>I saw those two trekking outside the village recently for whatever reason, though - so don't take my word on that.</Page>
 				<Page>Arkose's probably still throwing rocks into the patch of ghost matter at the top of the village.</Page>

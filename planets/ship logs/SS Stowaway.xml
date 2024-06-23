@@ -1,0 +1,30 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+     <ID>SUN_STATION</ID>
+
+<Entry>
+        <ID>SS_SECRET</ID>
+        <Name>Sun Station Catwalk</Name>
+
+        <Curiosity>TimeLoop</Curiosity>
+
+         <RumorFact>
+          <ID>SS R1</ID> 
+            <SourceID>GD_WARPTOWER</SourceID>
+            <Text>A group of Nomai late for the test of the Deep Storm Station hurried back to the Sun Station to find a projection stone to the Deep Storm Station.</Text> 
+        </RumorFact>
+          <RumorFact>
+          <ID>SS R2</ID> 
+            <SourceID>GD_WARPTOWER</SourceID>
+            <Text>A Nomai named Pye left a projection stone to the Deep Storm Station somewhere on the Sun Station's catwalk.</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>SS EX1</ID> 
+            <Text>The Deep Storm Station used the electric core of Giant's Deep to power a 6-second negative time interval that would test the mechanics of the Ash Twin Project.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>SS EX2</ID> 
+            <Text>Though the Deep Storm Station was unable to locate the Eye within this negative time interval, it gave the Nomai confidence to use the Sun Station without fear.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

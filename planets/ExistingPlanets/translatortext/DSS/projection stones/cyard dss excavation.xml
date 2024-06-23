@@ -63,9 +63,13 @@
 
 
 <ShipLogConditions>
+	<RevealFact>
+			<FactID>CB_EX5</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
 		<RevealFact>
-			<FactID>DSS CONV3</FactID>
-			<Condition>1</Condition>
+			<FactID>CONV R3</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

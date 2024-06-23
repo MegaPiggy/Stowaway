@@ -99,10 +99,10 @@
 
 
 <ShipLogConditions>
-				<RevealFact>
-			<FactID>LC EX1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-	</ShipLogConditions>
+			<RevealFact>
+					<FactID>DBG R1</FactID>
+					<Condition>2</Condition>
+			</RevealFact>
+</ShipLogConditions>
 	
 </NomaiObject>

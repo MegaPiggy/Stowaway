@@ -68,17 +68,14 @@
 
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>Workshop Locked R3</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>Workshop Locked EX2</FactID>
-			<Condition>1,6</Condition>
+			<FactID>Workshop EX6</FactID>
+			<Condition>7</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>DSS CONV1</FactID>
-			<Condition>1,6</Condition>
+			<FactID>CONV R4</FactID>
+			<Condition>7</Condition>
 		</RevealFact>
+
 	</ShipLogConditions>
 
 </NomaiObject>

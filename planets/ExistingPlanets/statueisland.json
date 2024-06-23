@@ -3,40 +3,22 @@
 
 	"name": "StatueIsland",
 
-	"Volumes": {
-		
-
-
-		"revealVolumes": [
-		{
-			"reveals":["Workshop Locked R1"],
+	"Volumes":
+	{
+		"revealVolumes":
+		[
+			{
+			"reveals":["Pioneer R1"],
 			"revealOn": "observe",
-			"radius": 5,
-			"position": {"x":12.2024,"y": 45.8399,"z": -19.1556},
+			"revealFor": "both",
+			"radius": 1,
+			"position": {"x":11.1952,"y": -3.5767 ,"z": -93.2351},
 			"isRelativeToParent": true,
-			"maxDistance": 20
-		},
-		{
-			"reveals":["Workshop Locked R2"],
-			"revealOn": "enter",
-			"radius": 5,
-			"position": {"x":12.2024,"y": 45.8399,"z": -19.1556},
-			"isRelativeToParent": true
-		}
-		],
-		"rulesets": {
-			"probeRulesets": [
-				{
-					"overrideProbeSpeed": true,
-			"probeSpeed": 60,
-			"radius": 15,
-			"position": {"x":6.2293,"y": 36.2369,"z": -19.5969},
-			"isRelativeToParent": true}
-			]}
-		
-
-	
+			"maxDistance": 5
+			}
+		]
 	},
+	
 	"Props":{
 
 		"singularities": [

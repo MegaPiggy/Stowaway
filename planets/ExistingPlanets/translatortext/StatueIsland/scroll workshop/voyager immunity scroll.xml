@@ -51,16 +51,9 @@
 
 
 <ShipLogConditions>
+	
 		<RevealFact>
-			<FactID>BJelly R2</FactID>
-			<Condition>1,3</Condition>
-		</RevealFact>
-				<RevealFact>
-			<FactID>BJelly R3</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>Workshop Locked EX1</FactID>
+			<FactID>Workshop EX2</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
 	</ShipLogConditions>

@@ -59,23 +59,16 @@
 				
 
 <ShipLogConditions>
-		<RevealFact>
-			<FactID>Pioneer R1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
+	
 		<RevealFact>
 			<FactID>Pioneer EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>Pioneer EX2</FactID>
-			<Condition>6</Condition>
+			<Condition>7</Condition>
 		</RevealFact>
 
-		<RevealFact>
-			<FactID>Pioneer_I R1</FactID>
-			<Condition>6</Condition>
-		</RevealFact>
 	</ShipLogConditions>
 
 </NomaiObject>

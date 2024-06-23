@@ -13,7 +13,7 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		POKE: Goodness, no! We need to head to the new warp pad constructed at the <![CDATA[<color=orange>Construction Yard</color>]]> on Giant's Deep as fast as we can, before the test begins!
+		IDAEA: We have been trying to warp there from this warp tower, but this warp transmitter seems to only bring us to Statue Island!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		IDAEA: It's hopeless.. Giant's Deep will take forever to orbit overhead this warp transmitter again, and traveling there by shuttle will take even longer!
+		POKE: Goodness, no! We need to head to the new warp pad constructed at the <![CDATA[<color=orange>Construction Yard</color>]]> on Giant's Deep as fast as we can, before the test begins!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-	PYE: <![CDATA[<i>Wait!</i>]]> I remember now - Cassava gave me a projection stone to the <![CDATA[<color=orange>Deep Storm Station</color>]]> some time ago so we could observe the test through the projection pool! Oh, but where did I leave it...
+	PYE: <![CDATA[<i>Wait!</i>]]> I remember now - Cassava gave me a projection stone to the <![CDATA[<color=orange>Deep Storm Station</color>]]> some time ago so we could observe the test through the projection pool! Oh, where did I leave it...
 		</Text>
 	</TextBlock>
 	<TextBlock>	
@@ -45,7 +45,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		IDAEA: <![CDATA[<i>Pye!!</i>]]> How could you forget such an important detail? Argh, it must be somewhere in that clutter you always leave on the <![CDATA[<color=orange>Sun Station's</color>]]> catwalk!
+		IDAEA: <![CDATA[<i>Pye!!</i>]]> How could you forget such an important detail? It must be somewhere in that clutter you always leave on the <![CDATA[<color=orange>Sun Station's</color>]]> catwalk!
 		</Text>
 			</TextBlock>
 				<TextBlock>	
@@ -60,22 +60,24 @@
 
 
 	<ShipLogConditions>
+
 		<RevealFact>
-			<FactID>Tower EX3</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
-			<RevealFact>
 			<FactID>SS R1</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>SS R2</FactID>
-			<Condition>8</Condition>
+			<Condition>7</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>DSS R5</FactID>
-			<Condition>1</Condition>
+			<FactID>SS R2</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
+			<RevealFact>
+			<FactID>GD Tower R3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>GD Tower EX4</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+
 	</ShipLogConditions>
 
 </NomaiObject>

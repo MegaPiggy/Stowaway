@@ -144,12 +144,9 @@
 		</RevealFact>
 				<RevealFact>
 			<FactID>GSHOP EX2</FactID>
-			<Condition>7</Condition>
+			<Condition>11</Condition>
 		</RevealFact>
-			<RevealFact>
-			<FactID>GDWELL R1</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
+		
 	</ShipLogConditions>
 	
 </NomaiObject>

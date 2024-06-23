@@ -1,0 +1,28 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>RECORDING</NameField>
+
+<DialogueNode>
+    <Name>GabbrosNote</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Huh... So you were here before huh, 'Spar?</Page>
+      <Page>I gotta radio Hornfels about this later, I guess.. Maybe we might at least be able to find out what happened to you, if we can track down where you were headed.</Page>
+      <Page>Nice of you to leave a campfire and some fuel here for me. Saves me having to make a new campfire to score this island on the ol' Gabbro Relaxation Scale.</Page>
+      <Page>Ah, that's the stuff.. Toasty marshmallows and a warm fire on this cold planet.. <![CDATA[<Pause>]]> *Yawn*</Page>
+       <Page>Sweet dreams, 'Spar. Wherever you are...</Page>
+      <Page>.....</Page>
+       <Page>..Snerk. <![CDATA[<Pause>]]> Whuh..?</Page>
+       <Page>Woah.. <![CDATA[<i>Woah.</i>]]> Where am I? What's happening? I'm in space!</Page>
+         <Page>Stars above... A cyclone must have picked up the island <![CDATA[<i>while I was asleep!</i>]]></Page>
+           <Page><![CDATA[<b>SPLASH!!</b>]]></Page>
+         <Page>..Whooof.. I'm soaked!</Page>
+          <Page>Lucky that cyclone woke me up when it did, or that could've been real bad!</Page>
+          <Page>Guess nobody can sleep through a cyclone. Those Hearthian instincts are <![CDATA[<i>good.</i>]]></Page>
+          <Page>Or maybe Feldspar woke me up before I joined them..? <![CDATA[<Pause>]]> ..Heh.</Page>
+           <Page>Thanks for looking out for me, 'Spar. See you in the stars someday.</Page>
+           <Page>Solid 5 out of 10 for this island's vibes. Onto the next island.</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

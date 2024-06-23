@@ -30,6 +30,9 @@
 					<Page>Oh! Um, the astronauts all have their own Little Scouts too, right?</Page>
 					<Page>If the current looks too strong and scary, maybe you could shoot the Little Scout to check ahead where the water current goes before diving in!</Page>
 		</Dialogue>
+							<RevealFacts>
+     						  	 <FactID>MOR EX1</FactID>
+    					 	 </RevealFacts>
 	 <DialogueOptionsList>
 			<DialogueOption>
 				<Text>That sounds dangerous! I'll give it a try sometime.</Text>
@@ -65,6 +68,10 @@
 					<Page>They're probably going to lose their marbles revising the Hearthian history books.</Page>
 					<Page>Don’t forget, you can use your signalscope to track down the other travelers more easily!</Page>
 		</Dialogue>
+							<RevealFacts>
+     						  	 <FactID>MOR EX2</FactID>	 
+     						  	 <FactID>MOR R2</FactID>
+    					 	 </RevealFacts>
 		
 		<SetCondition>SHOW_SIGNALSCOPE_PROMPT</SetCondition>
 	</DialogueNode>

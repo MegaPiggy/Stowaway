@@ -16,6 +16,9 @@
        <Page>Stars above.. You sure know how to make sleeping hard, huh, Giant's Deep?</Page>
        <Page><![CDATA[<i>No wonder</i>]]> Hornfels suggested I should come to this planet!</Page>
     </Dialogue>
+                <RevealFacts>
+     						   <FactID>Cove R2</FactID>
+    					  </RevealFacts>
   </DialogueNode>
 
 </DialogueTree>

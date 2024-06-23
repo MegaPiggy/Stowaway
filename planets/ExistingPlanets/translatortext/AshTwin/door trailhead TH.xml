@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		YARROW: Oeno! It is good to see you well, my friend. I apologize for sending Cycad in my place to find you! I would have loved to visit your <![CDATA[<color=orange>mining site on Timber Hearth</color>]]> again.
+		YARROW: Oeno! It is good to see you well, my friend. I apologize for sending Cycad in my place to find you - I would have loved to visit your <![CDATA[<color=orange>mining site on Timber Hearth</color>]]> again.
 		</Text>
 	</TextBlock>
 			<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: Was Cycad able to inform you about the matter I would like you to investigate before sending you my way?
+		YARROW: Was Cycad able to inform you about the issue here I needed your help in investigating, before sending you my way?
 		</Text>
 	</TextBlock>
 			<TextBlock>
@@ -21,7 +21,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: An update: Yarrow, please come to the second warp tower when you are able!
+		OENO: An update: I have concluded the issue is not caused by any mechanical issue. I believe it to be caused by the sunless tide instead.
 		</Text>
 	</TextBlock>
 			<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: (I am relieved to find it was simply the sunless tide and not any deeper mechanical issue!)
+		OENO: If you join me at the other tower with the same issue, I believe I will be able to better demonstrate my findings there! 
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: He has, and the matter puzzled me enough to leave my work at the mines! I shall tell you my findings as soon as I can locate the problem.
+		OENO: He has, and the matter puzzled me enough to leave my work at the mines! I shall share my findings with you as soon as I can locate the problem.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,8 +45,26 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		YARROW: You have my thanks, Oeno! I'm sure you will be able to locate the problem right away.
+		YARROW: You have my deepest thanks, Oeno!
 		</Text>
 	</TextBlock>
 	
+
+	<ShipLogConditions>
+
+		<RevealFact>
+			<FactID>TH Tower EX2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH Tower EX3</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH Tower EX3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			
+	</ShipLogConditions>
+
 </NomaiObject>

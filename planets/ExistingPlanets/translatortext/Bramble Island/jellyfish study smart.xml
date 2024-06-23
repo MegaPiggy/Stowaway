@@ -23,7 +23,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: This species appears to prefer to dwell deep underwater. We once observed live species on the ocean's surface during our first expedition to this planet, but have never again observed this phenomenon.
+		PLUME: This species was once observed on the ocean's surface during our first expedition to this planet, but we have never again observed this phenomenon.
 		</Text>
 	</TextBlock>
 	
@@ -40,7 +40,7 @@
 		<ID>5</ID>
 		<LocationB />
 		<ParentID>2</ParentID>
-		<Text>THATCH: If we transport one of these frozen specimens to a habitat in the <![CDATA[<color=orange>Looming City,</color>]]> we may be able to study a live specimen and this behavior in a more controlled environment!
+		<Text>THATCH: If we transport one of these frozen specimens to a habitat in the <![CDATA[<color=orange>Looming City,</color>]]> we may be able to study a live specimen and their behavior in a more controlled environment.
 		</Text>
 	</TextBlock>
 
@@ -64,10 +64,28 @@
 
 
 <ShipLogConditions>
-				<RevealFact>
-			<FactID>GM_EX2</FactID>
-			<Condition>4</Condition>
+		<RevealFact>
+			<FactID>Study EX1</FactID>
+			<Condition>1</Condition>
 		</RevealFact>
-	</ShipLogConditions>
+		<RevealFact>
+			<FactID>Study EX2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+
+		<RevealFact>
+			<FactID>LC R2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LC R3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LCJ R1</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+
+</ShipLogConditions>
 
 </NomaiObject>

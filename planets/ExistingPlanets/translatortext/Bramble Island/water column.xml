@@ -47,7 +47,7 @@
 
 <ShipLogConditions>
 				<RevealFact>
-			<FactID>GM_EX2</FactID>
+			<FactID>Study EX3</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
 	</ShipLogConditions>

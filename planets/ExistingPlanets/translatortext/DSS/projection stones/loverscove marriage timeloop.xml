@@ -85,12 +85,12 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>CONV R2</FactID>
-			<Condition>1</Condition>
+			<FactID>Cove EX3</FactID>
+			<Condition>7</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>DSS CONV3</FactID>
-			<Condition>4,7</Condition>
+			<FactID>CONV R2</FactID>
+			<Condition>7</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

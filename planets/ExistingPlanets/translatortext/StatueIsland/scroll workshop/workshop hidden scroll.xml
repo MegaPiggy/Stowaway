@@ -53,13 +53,10 @@
 
 
 <ShipLogConditions>
-		<RevealFact>
-			<FactID>Workshop EX2</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
+	
 		<RevealFact>
 			<FactID>Workshop EX3</FactID>
-			<Condition>5</Condition>
+			<Condition>3</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

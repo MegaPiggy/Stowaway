@@ -36,8 +36,8 @@
 
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>Pioneer EX3</FactID>
-			<Condition>1</Condition>
+			<FactID>Pioneer EX4</FactID>
+			<Condition>2</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

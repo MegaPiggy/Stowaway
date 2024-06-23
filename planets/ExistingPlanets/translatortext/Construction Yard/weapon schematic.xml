@@ -37,17 +37,14 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>INSP R3</FactID>
+			<FactID>CB_EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>INSP EX2</FactID>
-			<Condition>8</Condition>
+			<FactID>CB_EX2</FactID>
+			<Condition>1</Condition>
 		</RevealFact>
-		<RevealFact>
-			<FactID>INSP EX3</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
+		
 	</ShipLogConditions>
 
 </NomaiObject>

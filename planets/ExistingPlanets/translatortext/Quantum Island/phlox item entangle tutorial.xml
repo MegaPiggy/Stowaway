@@ -20,71 +20,51 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-		PLUME: Did you leave it on the quantum shard again, Phlox? What did I teach you about leaving your toys on the quantum shard?</Text>
+		PLUME: Did you leave it on the quantum shard again, Phlox?</Text>
 	</TextBlock>
 
 	<TextBlock>
-			<ID>4</ID>
+		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			PHLOX: Um.. Objects left on quantum things travel with them.. Right?</Text>
+		PLUME: What did I teach you about leaving your toys on the quantum shard?</Text>
 	</TextBlock>
 
 	<TextBlock>
-		<ID>5</ID>
+			<ID>5</ID>
 		<ParentID>4</ParentID>
+		<Text>
+			PHLOX: Um.. Things left on quantum things travel with them.. Right?</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
 		<Text>
 	PLUME: That's right! So be sure to keep your toys neatly, away from any quantum objects, alright, Phlox?</Text>
 	</TextBlock>
 	<TextBlock>
-			<ID>6</ID>
-		<ParentID>5</ParentID>
+			<ID>7</ID>
+		<ParentID>6</ParentID>
 		<Text>
 	PLUME: Now, let us locate the quantum shard and retrieve your toy, so we may rest for the day.</Text>
 	</TextBlock>
 
 		<TextBlock>
-		<ID>7</ID>
-		<ParentID>6</ParentID>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
 		<Text>
 		PHLOX: Okay, papa!</Text>
 	</TextBlock>
 
 
 <ShipLogConditions>
-				<RevealFact>
-			<FactID>LC_G R4</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
+			
 		<RevealFact>
-			<FactID>LC_G R5</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>LC_G EX1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>LC_G EX2</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>LC_G EX3</FactID>
-			<Condition>3</Condition>
+			<FactID>LC EX4</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 
-			<RevealFact>
-			<FactID>SF Jelly EX1</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>SF Jelly EX2</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>SF Jelly EX3</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
 	</ShipLogConditions>
 
 </NomaiObject>

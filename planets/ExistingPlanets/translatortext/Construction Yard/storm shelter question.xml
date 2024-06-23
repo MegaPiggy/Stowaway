@@ -20,7 +20,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: However, Thatch: there is one puzzling anomaly I have noticed which I must ask you about..
+		CASSAVA: However, Thatch: there is one puzzling detail about the storm shelters I have noticed..
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -52,23 +52,28 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		THATCH: Perhaps a visit to the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> equator will shed some light on this issue. I am sure Kousa would only be happy to improve his invention!
+		THATCH: Perhaps a visit to the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow's equator</color>]]> will shed some light on this issue. I am sure Kousa would only be happy to improve his invention!
 		</Text>
 	</TextBlock>
 
+
 <ShipLogConditions>
-<RevealFact>
-			<FactID>INSP R2</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
 		<RevealFact>
-			<FactID>INSP R1</FactID>
-			<Condition>2</Condition>
+			<FactID>CB_EX1</FactID>
+			<Condition>1</Condition>
 		</RevealFact>
 			<RevealFact>
-			<FactID>GSHOP CYARD</FactID>
-			<Condition>1</Condition>
+			<FactID>LC R1</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
-	</ShipLogConditions>
+		<RevealFact>
+			<FactID>GSHOP R2</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CB_EX3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+</ShipLogConditions>
 
 </NomaiObject>

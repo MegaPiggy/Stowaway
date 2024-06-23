@@ -20,9 +20,9 @@
 		<Dialogue>
 			<Page>Hm? Oh yea, I noticed that on my last trip here.</Page>
 			<Page>That smart lil' cookie noticed the same thing back on Timber Hearth too, and asked me about it last time I visited the village.</Page>
-			<Page>You know the Little Scout has a feature that tells you if there's danger where you shoot it?</Page>
-				<Page>It works great for scouting out ghost matter. Lights up a warning when you shoot it into a patch of the deadly stuff - which is sweet if you're lazy to snap photos everywhere like me.</Page>
-				<Page>Well, one time, I was using it to scout a big patch of ghost matter on one of the other islands. Just left it down in case I forget the invisible deadly stuff is there.</Page>
+			<Page>You know the Little Scout has a feature that tells you if there's danger where you shoot it, right?</Page>
+				<Page>It works great for scouting out ghost matter. Lights up a warning when you shoot it into a patch of the deadly stuff - which is sweet if you're lazy to snap photos everywhere like me. Or prone to forgetting where it is afterwards.</Page>
+				<Page>Well, one time, I was using it to scout a big patch of ghost matter on one of the other islands. Just left it down in case I forget the invisible deadly stuff's there.</Page>
 				<Page>But suddenly, the scout suddenly starts saying it's safe!</Page>
 				<Page>That's weird, right? Must be some quirk with the sensors, I thought.</Page>
 				<Page>But I took some photos with the scout camera too, and lo and behold - the ghost matter really was gone!</Page>
@@ -33,6 +33,9 @@
 					<Page>But hey, there's some ghost matter right in the cove back there. Feel free to check it out with your scout and see the weird stuff for yourself, if you don't believe me!</Page>
 						<Page>Just be careful, alright? There's a campfire I set up up the hill you can patch up by if you happen to get hurt messing with the stuff.</Page>
 		</Dialogue>
+		 				  <RevealFacts>
+     						   <FactID>Cove R1</FactID>
+    					  </RevealFacts>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<Text>Can't I just use the campfire right outside the cove there?</Text>

@@ -58,8 +58,8 @@
 
 <ShipLogConditions>
 				<RevealFact>
-			<FactID>GM_EX2</FactID>
-			<Condition>4</Condition>
+			<FactID>Study R1</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

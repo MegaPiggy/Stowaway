@@ -5,16 +5,17 @@
 <Entry>
         <ID>BH_WORKSHOP</ID>
         <Name>Gravity Crystal Workshop</Name>
-        <Curiosity>None</Curiosity>
+        <Curiosity>SunkenModule</Curiosity>
          
          <RumorFact>
             <ID>GSHOP R1</ID>
-            <Text>Gravity crystals for the construction of the Deep Storm Station were sourced from a workshop on Brittle Hollow.</Text> 
+            <SourceID>CONSTRUCT_BAY</SourceID>
+            <Text>A schematic at the Construction Yard says that gravity crystals used to build the Orbital Probe Cannon were sourced from this workshop on Brittle Hollow.</Text> 
         </RumorFact>
-        <RumorFact>
-           <SourceID>GD_CONSTRUCTION_YARD</SourceID>
+         <RumorFact>
+           <SourceID>CONSTRUCT_BAY</SourceID>
             <ID>GSHOP R2</ID>
-            <Text>The storm shelters on Giant's Deep were invented at this workshop on Brittle Hollow's equator.</Text> 
+            <Text>The Nomai on Giant's Deep visited this workshop on Brittle Hollow's equator to inquire about storm shelters activating in the absence of cyclones.</Text> 
         </RumorFact>
 
         <ExploreFact>
@@ -30,7 +31,7 @@
             <Text>Storm shelters are powered by solar panels, not cyclones.</Text> 
      </ExploreFact>
          <ExploreFact>
-            <ID>GDWELL EX4</ID> 
+            <ID>GSHOP EX4</ID> 
             <Text>The solar panels powering the storm shelters are tuned to detect even faint amounts of sunlight, causing the storm shelters to activate when the sun is directly overhead.</Text> 
         </ExploreFact>
       

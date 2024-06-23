@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		OENO: Daz, the construction of the <![CDATA[<color=orange>Sanctuary</color>]]> has been going swimmingly thanks to your help! Your new voyager stones are truly a revolutionary piece of technology.
+		OENO: Daz, the construction of the <![CDATA[<color=orange>Sanctuary</color>]]> has been going swimmingly thanks to your help! Your new voyager stones are a truly revolutionary piece of technology.
 		</Text>
 	</TextBlock>
 
@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		OENO: To start, working in shifts with Coleus, voyaging into the <![CDATA[<color=orange>Sanctuary</color>]]> seemed to always transport me some distance outside of the projection pool.
+		OENO: To start: while working in shifts with Coleus, I noticed consistently being transported some distance outside of the projection pool when voyaging into the <![CDATA[<color=orange>Sanctuary</color>]]>.
 		</Text>
 	</TextBlock>
 
@@ -42,7 +42,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		OENO: More distressingly: at some point, I began to hear.. <![CDATA[<i>thoughts that were not my own.</i>]]> It was like there was another person in my mind while I was voyaging!
+		OENO: More distressingly: shortly into our work, Coleus mentioned that he began to receive.. visions from my voyage - down to the exact detail of everything I saw.
 		</Text>
 	</TextBlock>
 
@@ -51,7 +51,7 @@
 		<ParentID>5</ParentID>
 		<LocationB />
 		<Text>
-		OENO: Assuming my mind has not become aberrant, I understand the voyager stones work using the <![CDATA[<color=orange>Ash Twin Project's</color>]]> memory storage systems.
+		OENO: I understand that the voyager stones work using the <![CDATA[<color=orange>Ash Twin Project's</color>]]> memory storage systems.
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		OENO: Coleus posits perhaps there was some sort of mix-up between our memory masks from using the same voyager stone, but he had no such experience himself while voyaging.
+		OENO: Could there perhaps ahve been some sort of mix-up between our memory masks from using the same voyager stone?
 		</Text>
 	</TextBlock>
 
@@ -69,19 +69,16 @@
 		<ParentID>7</ParentID>
 		<LocationB />
 		<Text>
-		OENO: Coleus insisted I rest while he continued to work, so I decided to visit your workshop today to ask about these experiences. I would deeply appreciate if you could investigate their causes, Daz!
+		OENO: We have decided to stop our work for some time until these issues can be amended.. I would deeply appreciate if you could investigate these issues, Daz!
 		</Text>
 	</TextBlock>
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>Workshop EX2</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>Workshop EX3</FactID>
+			<FactID>Workshop R3</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
+	
 	</ShipLogConditions>
 
 </NomaiObject>

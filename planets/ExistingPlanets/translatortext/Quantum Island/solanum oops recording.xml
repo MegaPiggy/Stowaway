@@ -4,28 +4,28 @@
 <TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>SOLANUM: I leave this message seeking help with a matter!</Text>
+		<Text>SOLANUM: I leave this message seeking help with a matter.</Text>
 	</TextBlock>
 	
 	<TextBlock>
 		<ID>2</ID>
 		<LocationA />
 		<ParentID>1</ParentID>
-		<Text>SOLANUM: A scroll I took from within the tower slipped from my grasp as I fell into the pool!</Text>
+		<Text>SOLANUM: A scroll I took from within the tower slipped from my grasp as I fell into the pool.</Text>
 	</TextBlock>
 
 <TextBlock>
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>SOLANUM: I dove into the pool, hoping to retrieve it; but the long, electrifying tentacles of the pool's inhabitant fiercely guards the scroll at the bottom of the pool!</Text>
+		<Text>SOLANUM: I dove into the pool, hoping to retrieve it, but the long, electrifying tentacles of the pool's inhabitant fiercely guards the scroll at the bottom of the pool!</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<LocationA />
 		<ParentID>3</ParentID>
-		<Text>SOLANUM: I could find nowhere to read it, and so took it with me.. But now, not only have I lost a vital piece of our clan's history, I have polluted a habitat for the native species!</Text>
+		<Text>SOLANUM: I could find nowhere to read it, and so took it with me.. Now, not only have I lost a vital piece of our clan's history, I have polluted a habitat for the native species..</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -42,5 +42,11 @@
 		<Text>SOLANUM: If anyone who finds this message is able to beseech the lifeform to budge, so that the scroll can be safely retrieved: I would be most grateful if you would kindly do so in my stead!</Text>
 	</TextBlock>
 
-
+<ShipLogConditions>
+			<RevealFact>
+					<FactID>LCJ R2</FactID>
+					<Condition>6</Condition>
+			</RevealFact>
+</ShipLogConditions>
+	
 </NomaiObject>

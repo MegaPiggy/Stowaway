@@ -14,7 +14,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: This.. This is an incredible discovery. We now can confidently conclude that both these species once originated on this planet destroyed by the bramble.
+		OENO: This.. This is an incredible discovery. From this, we can confidently conclude that both these species once originated on this frozen planet destroyed by the bramble.
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -31,7 +31,7 @@
 		<LocationA />
 			<ParentID>3</ParentID>
 		<Text>
-		CASSAVA: That these species survived - and continue to thrive on these alien planets - despite their displacement, is nothing short of awe-inspiring! Their resilience inspires me greatly.
+		CASSAVA: That these species survived - and continue to thrive on these alien planets - is nothing short of awe-inspiring. Their resilience truly inspires me!
 		</Text>
 	</TextBlock>
 	
@@ -61,4 +61,19 @@
 		CASSAVA: They have much to teach all of us. I am certain that if we simply work together and perservere, our clan will accomplish anything we set our hearts to!
 		</Text>
 	</TextBlock>
+
+
+<ShipLogConditions>
+
+		<RevealFact>
+			<FactID>DBG EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+	<RevealFact>
+			<FactID>DBG EX2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+
+</ShipLogConditions>
+
 </NomaiObject>

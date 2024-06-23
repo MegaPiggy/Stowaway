@@ -20,13 +20,43 @@
 		
 		
 "Volumes": {
-	"reverbVolumes": [
-	{
-		"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
-		"radius": 5
-	}
+	"audioVolumes": [
+		{
+			"audio": "TH_UnderwaterAmbience_LP",
+			"rename": "Pioneer Beach waves",
+			"track": "environmentUnfiltered",
+			"priority": 129,
+			"volume": 0.35,
+			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
+			"radius": 2.8,
+			"isRelativeToParent": true
+		}
+	],
+	"reverbVolumes":
+	[
+		{
+		"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
+		"radius": 2.8
+		}
+	],
+	"revealVolumes":
+	[
+		{
+			"position": {"x":-16.1185,"y": -43.1685,"z": 222.138},
+			"radius":0.5,
+			"revealOn": "snapshot",
+			"reveals": ["GAL EX2"],
+			"maxDistance": 20
+		},
+		{
+			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
+			"radius": 2.8,
+			"revealOn": "enter",
+			"revealFor": "probe",
+			"reveals": ["SY R1"]
+		}
+		
 	]
-	
 },
 		
 		
@@ -534,8 +564,8 @@
 			{
 				"rename":"exhibit scout sticky",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Props_Crossroads/OtherComponentsGroup/Reibeck_Camp/Props_HEA_Probe_STATIC/",
-				"position":{"x": -4.6061,"y": -48.3445 ,"z": 183.509},
-				"rotation":{"x": 347.1358,"y": 179.924,"z": 331.713},
+				"position":{"x": -4.637,"y": -48.3045,"z": 183.509},
+				"rotation":{"x": 338.2412, "y": 165.8451,"z": 335.918},
 				"isRelativeToParent": true
 			},	{
 				"rename":"exhibit scout light",

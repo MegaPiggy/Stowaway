@@ -60,18 +60,11 @@
 
 
 	<ShipLogConditions>
-				<RevealFact>
-			<FactID>LC_P EX1</FactID>
+		<RevealFact>
+			<FactID>LC R4</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
-		<RevealFact>
-			<FactID>LC_P EX2</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>LC_P EX3</FactID>
-			<Condition>8</Condition>
-		</RevealFact>
+	
 	</ShipLogConditions>
 
 </NomaiObject>

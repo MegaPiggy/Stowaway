@@ -41,6 +41,9 @@
 			<Page>Oof, my arm’s tired from throwing...</Page>
 			<Page>But yeah! I’m just trying to find out why <![CDATA[<color=orange>the ghost matter goes away sometimes!</color>]]></Page>
 		</Dialogue>
+						 <RevealFacts>
+     						   <FactID>ARK EX1</FactID>
+    					  </RevealFacts>
 			 <DialogueOptionsList>
 			<DialogueOption>
 				<Text>Sorry, what? It.. <![CDATA[<i>goes away sometimes?</i>]]></Text>
@@ -60,6 +63,10 @@
 			<Page>I asked Gabbro about it last time they came back from Giant's Deep, and they told me that <![CDATA[<color=orange>ghost matter just seems to go away sometimes!</color>]]></Page>
 			<Page>They weren’t sure why it happens either. It’s still dangerous to get too close to the ghost matter, so I’m using these rocks to see if I can figure it out.</Page>
 		</Dialogue>
+							 <RevealFacts>
+     						  	 <FactID>ARK EX2</FactID>
+     						  	 <FactID>ARK R2</FactID>
+    					 	 </RevealFacts>
 			 <DialogueOptionsList>
 			<DialogueOption>
 				<Text>Huh. Maybe I'll go check in with Gabbro to learn what they know about that, then.</Text>

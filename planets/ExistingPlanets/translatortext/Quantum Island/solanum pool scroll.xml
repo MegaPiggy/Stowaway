@@ -61,39 +61,24 @@
 
 
 <ShipLogConditions>
-				<RevealFact>
-			<FactID>LC_G R4</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
 		<RevealFact>
-			<FactID>LC_G R5</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>LC_G EX1</FactID>
+			<FactID>LCJ EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 			<RevealFact>
-			<FactID>LC_G EX2</FactID>
+			<FactID>LCJ EX2</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
 			<RevealFact>
-			<FactID>LC_G EX3</FactID>
-			<Condition>3</Condition>
+			<FactID>LCJ EX3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LCJ EX4</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 
-			<RevealFact>
-			<FactID>SF Jelly EX1</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>SF Jelly EX2</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>SF Jelly EX3</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
-	</ShipLogConditions>
+</ShipLogConditions>
+
 
 </NomaiObject>

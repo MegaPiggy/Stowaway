@@ -42,7 +42,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		DAZ: That explains it. The waves caused by the sun's gravity as it orbits over the island must be washing high enough on the island to submerge the projection pool, dissolving my voyager.
+		DAZ: That explains it. The waves caused by the sun's gravity must be washing high enough on the island to submerge the projection pool, dissolving my voyager.
 		</Text>
 	</TextBlock>
 
@@ -66,8 +66,8 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>Workshop Locked EX3</FactID>
-			<Condition>2</Condition>
+			<FactID>Cove EX5</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

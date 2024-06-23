@@ -26,7 +26,17 @@
 			{
 				"reveals": ["DSS Probe"],
 				"radius":18,
-				"revealOn": "snapshot",
+				"revealOn": "enter",
+				"revealFor": "probe",
+				"position": {"x":-2.1438,"y":-0.4531,"z":-3.5499},
+				"isRelativeToParent": true,
+				"maxDistance": 18
+			},
+			{
+				"reveals": ["DSS R2"],
+				"radius":18,
+				"revealOn": "enter",
+				"revealFor": "player",
 				"position": {"x":-2.1438,"y":-0.4531,"z":-3.5499},
 				"isRelativeToParent": true,
 				"maxDistance": 18
@@ -344,7 +354,13 @@
 				"parentPath": "Sector_GD/Nomai Statue 2 Box",
 				"isRelativeToParent": true
 			},
-
+			{
+				"rename":"DSS air volume",
+				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1/OxygenVolume",
+				"position": {"x": -4.4732,"y": -0.2584,"z": -2.0817},
+				"scale":4.5,
+				"isRelativeToParent": true
+			},
 
 			
 			{

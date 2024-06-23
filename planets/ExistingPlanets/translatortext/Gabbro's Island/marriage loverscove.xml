@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Oh, Daz, look at the sunrise on Giant's Deep's horizon! I'd forgotten how short the days last on this island and Statue Island..
+		CASSAVA: Oh, Daz, look at the sunset on Giant's Deep's horizon! I'd forgotten how short the days last on this island and Statue Island..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -112,19 +112,23 @@
 		<ID>15</ID>
 		<ParentID>14</ParentID>
 		<Text>
-		DAZ: I'll explain everything shortly, love! Come, let us write to our friends in the <![CDATA[<color=orange>Deep Storm Station</color>]]> through the projection wall at once!
+		DAZ: I'll explain everything shortly, love. Come, let us write to our friends in the <![CDATA[<color=orange>Deep Storm Station</color>]]> through the projection wall at once!
 		</Text>
 	</TextBlock>
 	
 
 <ShipLogConditions>
 			<RevealFact>
-			<FactID>Cove EX2</FactID>
-			<Condition>10</Condition>
+			<FactID>Cove EX1</FactID>
+			<Condition>1</Condition>
 		</RevealFact>
 			<RevealFact>
-			<FactID>CONV R2</FactID>
-			<Condition>13</Condition>
+			<FactID>Cove EX4</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Cove EX2</FactID>
+			<Condition>12</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

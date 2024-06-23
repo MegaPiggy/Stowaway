@@ -100,4 +100,28 @@
 		</Text>
 	</TextBlock>
 
+<ShipLogConditions>
+
+		<RevealFact>
+			<FactID>DBA R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+
+		<RevealFact>
+			<FactID>DBA EX1</FactID>
+			<Condition>9</Condition>
+		</RevealFact>
+	<RevealFact>
+			<FactID>DBA EX2</FactID>
+			<Condition>11</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>DBA EX3</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+
+</ShipLogConditions>
+
+
+
 </NomaiObject>

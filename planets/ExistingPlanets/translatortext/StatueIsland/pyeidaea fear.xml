@@ -20,21 +20,10 @@
 
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>Cliff R3</FactID>
+			<FactID>DSS R3</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
-				<RevealFact>
-			<FactID>Tower R1</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>Tower R2</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>DSS R5</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
+		
 	</ShipLogConditions>
 
 </NomaiObject>

@@ -33,13 +33,14 @@
 	</TextBlock>
 
 <ShipLogConditions>
-				<RevealFact>
-			<FactID>Campsite EX1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
+				
 		<RevealFact>
 			<FactID>TH_NOMAI_MINE_R1</FactID>
 			<Condition>1</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Campsite EX1</FactID>
+			<Condition>3</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>Campsite EX2</FactID>

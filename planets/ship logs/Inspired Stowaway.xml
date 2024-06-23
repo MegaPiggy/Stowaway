@@ -15,12 +15,27 @@
         </RumorFact>
            <RumorFact>
             <ID>INSP R2</ID>
-            <Text>I entered a black hole at the center of the comet, which warped me into a space with glowing masks and ghost matter.</Text>
+            <Text>I entered a black hole at the center of the comet. I was warped into a space with glowing masks, filled with ghost matter.</Text>
+        </RumorFact>
+          <RumorFact>
+            <ID>INSP R3</ID>
+               <SourceID>COMET_INTERIOR</SourceID>
+            <Text>The Inspired was constructed in the Interloper's image.</Text>
+        </RumorFact>
+          <RumorFact>
+            <ID>INSP R4</ID>
+               <SourceID>DEEP_STORM_STATION</SourceID>
+            <Text>The ghost matter collected by the Inspired was warped into the Deep Storm Station for containment.</Text>
+        </RumorFact>
+            <RumorFact>
+            <ID>INSP R5</ID>
+               <SourceID>DEEP_STORM_STATION</SourceID>
+            <Text>The Inspired was made to bring destruction to the source of ghost matter.</Text>
         </RumorFact>
 
         <ExploreFact>
             <ID>INSP EX1</ID> 
-            <Text>An artificial comet made of gravity crystals, made to bring destruction to the source of the Interloper..</Text> 
+            <Text>An artificial comet made of gravity crystals, made to bring destruction to the source of the Interloper.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>INSP EX2</ID> 
@@ -28,7 +43,7 @@
         </ExploreFact>
          <ExploreFact>
             <ID>INSP EX3</ID> 
-            <Text>The Inspired's white hole warp core was replaced with a black hole warp core, allowing it to warp all collected ghost matter to the Deep Storm Station for containment.</Text>
+            <Text>The Inspired's warp core was replaced, allowing it to warp all collected ghost matter to the Deep Storm Station for containment.</Text>
         </ExploreFact>
       
 </Entry>

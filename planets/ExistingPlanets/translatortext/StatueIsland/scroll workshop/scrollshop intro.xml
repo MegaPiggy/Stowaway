@@ -33,7 +33,7 @@
 <ShipLogConditions>
 		<RevealFact>
 			<FactID>Workshop EX1</FactID>
-			<Condition>5</Condition>
+			<Condition>1</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

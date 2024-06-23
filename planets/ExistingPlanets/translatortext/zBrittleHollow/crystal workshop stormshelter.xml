@@ -77,12 +77,12 @@
 	
 <ShipLogConditions>
 				<RevealFact>
-			<FactID>GDWELL EX2</FactID>
-			<Condition>2</Condition>
+			<FactID>GSHOP EX3</FactID>
+			<Condition>4</Condition>
 		</RevealFact>
 			<RevealFact>
-			<FactID>DSS R3</FactID>
-			<Condition>1</Condition>
+			<FactID>GSHOP EX4</FactID>
+			<Condition>8</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 
