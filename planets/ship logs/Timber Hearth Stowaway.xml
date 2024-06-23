@@ -11,13 +11,22 @@
             <ID>MICA R1</ID> 
             <Text>Slate says I should go talk to the hatchlings in the village before I take off.</Text> 
   </RumorFact>
+  <RumorFact>
+            <ID>MICA R2</ID> 
+            <Text>I told Mica about the warp towers on Ash Twin.</Text> 
+  </RumorFact>
+
        <ExploreFact>
             <ID>MICA EX1</ID> 
             <Text>Mica says that the sand has been going back and forth between the twins at precise intervals for a long time.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>MICA EX2</ID> 
-            <Text>I told Mica about the warp towers on Ash Twin. They wondered if there were any warp towers that traveled to Timber Hearth.</Text> 
+            <Text>I told Mica about towers I found on Ash Twin. They wondered why there were windows on the top of each tower.</Text>
+                <AltText>
+                <Text>I told Mica about the warp towers on Ash Twin. They wondered if there were any warp towers that traveled to Timber Hearth.</Text>
+                <Condition>MICA R2</Condition>
+            </AltText>
        </ExploreFact>
 
 </Entry>

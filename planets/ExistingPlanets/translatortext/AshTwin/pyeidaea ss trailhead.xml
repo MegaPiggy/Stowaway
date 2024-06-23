@@ -18,7 +18,7 @@
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<ParentID>1</ParentID>
+		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
 		POKE: Did the two of you not receive such directions to reach the <![CDATA[<color=orange>Deep Storm Station?</color>]]> Even <![CDATA[<i>I</i>]]> received instructions from Cassava - through Daz!
@@ -27,7 +27,7 @@
 	<TextBlock>
 		<ID>4</ID>
 		<LocationB />
-		<ParentID>2</ParentID>
+		<ParentID>1</ParentID>
 		<Text>
 		POKE: Goodness, no! We need to head to the new warp pad constructed at the <![CDATA[<color=orange>Construction Yard</color>]]> on Giant's Deep as fast as we can, before the test begins!
 		</Text>
@@ -45,7 +45,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		IDAEA: <![CDATA[<i>Pye!!</i>]]> How could you forget such an important detail? It must be somewhere in that clutter you always leave on the <![CDATA[<color=orange>Sun Station's</color>]]> catwalk!
+		IDAEA: <![CDATA[<i>Pye!</i>]]> How could you forget such an important detail? It must be somewhere in that clutter you always leave on the <![CDATA[<color=orange>Sun Station's catwalk...</color>]]>
 		</Text>
 			</TextBlock>
 				<TextBlock>	

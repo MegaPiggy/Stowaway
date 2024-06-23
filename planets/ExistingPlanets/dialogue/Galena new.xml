@@ -11,6 +11,7 @@
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
+				<RequiredLogCondition>GAL EX2</RequiredLogCondition>
 				<Text>I saw your little message, Galena. That's really sweet of you!</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
 			</DialogueOption>
@@ -22,10 +23,18 @@
 	
 		<DialogueOptionsList>
 			<DialogueOption>
+			<CancelledCondition>Asked_Galena</CancelledCondition>
 				<Text>You still look like you have something to ask me, Galena.</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+			<RequiredCondition>Asked_Galena</RequiredCondition>
+				<Text>How do I see the thing you made again, Galena?</Text>
+				<DialogueTarget>ShyKidNew2B</DialogueTarget>
+			</DialogueOption>
+
 				<DialogueOption>
+				<RequiredLogCondition>GAL EX2</RequiredLogCondition>
 				<Text>I saw your little message, Galena. That's really sweet of you!</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
 			</DialogueOption>
@@ -38,10 +47,18 @@
 	
 		<DialogueOptionsList>
 			<DialogueOption>
+			<CancelledCondition>Asked_Galena</CancelledCondition>
 				<Text>You still look like you have something to ask me, Galena.</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+			<RequiredCondition>Asked_Galena</RequiredCondition>
+				<Text>How do I see the thing you made again, Galena?</Text>
+				<DialogueTarget>ShyKidNew1B</DialogueTarget>
+			</DialogueOption>
+
 				<DialogueOption>
+				<RequiredLogCondition>GAL EX2</RequiredLogCondition>
 				<Text>I saw your little message, Galena. That's really sweet of you!</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
 			</DialogueOption>
@@ -52,18 +69,29 @@
 		<Name>ShyKidNew1</Name>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Um...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>I made something for you.. But It's a little high up..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>I made something for you.. But it's a little high up..<![CDATA[</size>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>
-				<Text>That's still really sweet of you, Galena. Where is it?</Text>
+				<Text>Oh yeah? Where is it?</Text>
 				<DialogueTarget>ShyKidNew2</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
 <DialogueNode>
+		<Name>ShyKidNew2B</Name>
+		<Dialogue>
+			<Page><![CDATA[<size=20>]]>Um.. Just shoot your Little Scout up from the Outer Wilds Ventures exhibit..<![CDATA[</size>]]></Page>
+		</Dialogue>
+						 <RevealFacts>
+     						   <FactID>GAL EX1</FactID>
+    					  </RevealFacts>
+	</DialogueNode>
+
+<DialogueNode>
 		<Name>ShyKidNew2</Name>
+		<SetCondition>Asked_Galena</SetCondition>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Um.. If you shoot your Little Scout up from the Outer Wilds Ventures exhibit, you might be able to see it..<![CDATA[</size>]]></Page>
 		</Dialogue>
@@ -71,6 +99,7 @@
      						   <FactID>GAL EX1</FactID>
     					  </RevealFacts>
 	</DialogueNode>
+
 
 
 	<DialogueNode>

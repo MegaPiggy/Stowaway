@@ -92,15 +92,17 @@
 		</Dialogue>
 	<DialogueOptionsList>
 				<DialogueOption>
-				<RequiredLogCondition>COMET_INTERIOR_X3</RequiredLogCondition>
+						<RequiredLogCondition>COMET_INTERIOR_X3</RequiredLogCondition>
 					<Text>Ghost matter killed the Noma-Iiii shouldn't be telling you this, never mind.</Text>
 					<DialogueTarget>Arkose_NomaiStory</DialogueTarget>
 				</DialogueOption>
 				<DialogueOption>
+						<RequiredLogCondition>CB_EX4</RequiredLogCondition>
 					<Text>Ghost matter becomes safe as long as it's submerged underwater.</Text>
 					<DialogueTarget>Arkose_WaterRule</DialogueTarget>
 				</DialogueOption>
 				<DialogueOption>
+						<RequiredLogCondition>Campsite EX5</RequiredLogCondition>
 					<Text>Ghost matter obeys gravity!</Text>
 					<DialogueTarget>Arkose_GravyRule</DialogueTarget>
 				</DialogueOption>

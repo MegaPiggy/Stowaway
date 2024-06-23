@@ -10,15 +10,19 @@
 				<Text>Woah! Just saying my goodbyes, Mica. Why'd I have changed my mind?</Text>
 				<DialogueTarget>ModelRocketKid_Sand_intro</DialogueTarget>
 			</DialogueOption>
-				<DialogueOption>
+
+			<DialogueOption>
 				<CancelledCondition>Told_Mica</CancelledCondition>
-				<RequiredLogCondition>TT_WARP_TOWERS</RequiredLogCondition>
+						<RequiredLogCondition>WHS_X1</RequiredLogCondition>
+						<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
 				<Text>Hey Mica, I found a warp tower that warps to Timber Hearth!</Text>
 				<DialogueTarget>ModelRocketKid_WT</DialogueTarget>
 			</DialogueOption>
+			
 				<DialogueOption>
 				<RequiredCondition>Told_Mica</RequiredCondition>
-				<RequiredLogCondition>TT_WARP_TOWERS</RequiredLogCondition>
+						<RequiredLogCondition>WHS_X1</RequiredLogCondition>
+						<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
 				<Text>Hey Mica, guess what? I found a warp tower that warps to Timber Hearth!</Text>
 				<DialogueTarget>ModelRocketKid_WT2</DialogueTarget>
 			</DialogueOption>
@@ -32,7 +36,7 @@
 			 </Dialogue>
 			 <DialogueOptionsList>
 			 	<DialogueOption>
-				<RequiredLogCondition>TT_WARP_TOWERS</RequiredLogCondition>
+				<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
 				<Text>Yeah, there's Nomai warp towers on Ash Twin that warp you to other planets.</Text>
 				<DialogueTarget>ModelRocketKid_WTB</DialogueTarget>
 			</DialogueOption>
@@ -79,19 +83,19 @@
     					  </RevealFacts>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<RequiredLogCondition>WHITE_HOLE_STATION</RequiredLogCondition>
-				<RequiredLogCondition>TT_WARP_TOWERS</RequiredLogCondition>
+				<RequiredLogCondition>WHS_X1</RequiredLogCondition>
+				<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
 				<Text>Well.. There <![CDATA[<i>are</i>]]> Nomai warp towers on Ash Twin that warp you to other planets.</Text>
 				<DialogueTarget>ModelRocketKid_SW1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<CancelledLogCondition>WHITE_HOLE_STATION</CancelledLogCondition>
-				<RequiredLogCondition>TT_WARP_TOWERS</RequiredLogCondition>
+				<CancelledLogCondition>WHS_X1</CancelledLogCondition>
+				<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
 				<Text>Well, I found some cool-looking towers on Ash Twin!</Text>
 				<DialogueTarget>ModelRocketKid_SW999</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredLogCondition>TT_TIME_LOOP_DEVICE</RequiredLogCondition>
+				<RequiredLogCondition>TT_TIME_LOOP_DEVICE_X3</RequiredLogCondition>
 				<Text>There <![CDATA[<i>is</i>]]> a Nomai superstructure inside Ash Twin that sends stuff back in time.</Text>
 				<DialogueTarget>ModelRocketKid_SW2</DialogueTarget>
 			</DialogueOption>
@@ -122,6 +126,7 @@
 			 </Dialogue>
 						  <RevealFacts>
      						   <FactID>MICA EX2</FactID>
+							   <FactID>MICA R2</FactID>
     					  </RevealFacts>
 </DialogueNode>
 
@@ -134,7 +139,7 @@
 			 </Dialogue>
 	<DialogueOptionsList>
 			<DialogueOption>
-				<RequiredLogCondition>TT_WARP_TOWERS</RequiredLogCondition>
+				<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
 				<Text>It's not theoretical, and I used one of the warp towers on Ash Twin to warp in.</Text>
 				<DialogueTarget>ModelRocketKid_SW1</DialogueTarget>
 			</DialogueOption>
@@ -156,21 +161,24 @@
 	<DialogueNode>
 		<Name>ModelRocketKid_SW3</Name>
 		<Dialogue>
-		<Page>Well, I asked Chert, and they told me the sand going back and forth is just some natural phenomenon we don't know much about. And I trust Chert's word!</Page>
-		<Page>It looks like the sand's going towards Ember Twin right now, if you are taking off soon. Maybe you should fly to Ash Twin sometime to look around for anything interesting!</Page>
-			<Page>Good luck out there, astronaut. Tell me all about what you find when you get back!</Page>
+		<Page>Well, I asked Chert, and they told me the sand going back and forth is just some natural phenomenon we don't know much about.. And I trust Chert's word!</Page>
+		<Page>It looks like the sand's going towards Ember Twin right now, if you are taking off soon. Maybe you should fly to Ash Twin sometime to look around for anything interesting.</Page>
+			<Page>Good luck out there, astronaut. Tell me if you find anything when you get back!</Page>
 			 </Dialogue>
 			 
-	</DialogueNode>
+</DialogueNode>
 
 
-	<DialogueNode>
+<DialogueNode>
 		<Name>ModelRocketKid_SW999</Name>
 		<Dialogue>
 		<Page>Huh.. Neato!</Page>
 		<Page>I wonder why all of these towers have a window at the top. It's pretty incredible most of 'em held up so well, even after so much time.</Page>
 			<Page>The Nomai must have just really loved stargazing, I guess!</Page>
 			 </Dialogue>
+			 				<RevealFacts>
+     						   <FactID>MICA EX2</FactID>
+    					  </RevealFacts>
 </DialogueNode>
 
 

@@ -100,6 +100,7 @@
 	
 
 <ShipLogConditions>
+
 				<RevealFact>
 			<FactID>Campsite EX0</FactID>
 			<Condition>12</Condition>
@@ -120,6 +121,12 @@
 			<FactID>Workshop R1</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
-	</ShipLogConditions>
+
+		<RevealFact>
+			<FactID>VM_VOLCANO_X1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+
+</ShipLogConditions>
 
 </NomaiObject>

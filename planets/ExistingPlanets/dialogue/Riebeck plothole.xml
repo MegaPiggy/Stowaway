@@ -359,7 +359,7 @@
 		</Dialogue>
   <DialogueOptionsList>
 			<DialogueOption>
-				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
+				<RequiredLogCondition>CB_EX4</RequiredLogCondition>
 				<Text>I found out ghost matter can't penetrate water - so maybe water protected us?</Text>
 				<DialogueTarget>Riebeck_SW2</DialogueTarget>
 			</DialogueOption>
@@ -382,7 +382,7 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
+				<RequiredLogCondition>DSS EX5</RequiredLogCondition>
 				<Text>Uh, about that.. A Nomai survived and sacrificed himself to protect us...</Text>
 				<DialogueTarget>Riebeck_SW3</DialogueTarget>
 			</DialogueOption>
@@ -456,9 +456,9 @@
 	<DialogueNode>
 		<Name>Riebeck_NC</Name>
 		<Dialogue>
-			<Page>Y-yeah! That's what we were here to...</Page>
-			<Page>Oh.. Oh stars. I just saw a rock or something being sucked down into the black hole in the distance again..... Nope. Nope.</Page>
-			 <Page>You go on ahead. Make some huge discoveries we'll both be proud of! I'm.. I'm gonna stay where I am a while longer.</Page>
+			<Page>Y-yeah! That's what we're here to...</Page>
+			<Page>Oh.. Oh stars. I just saw a huge rock being spaghettified into the black hole in the distance..... Nope. Nope.</Page>
+			 <Page>Y-You go on ahead. M-Make some huge discoveries we'll both be proud of! I-I-I'm gonna be stuck here a while longer.</Page>
 		</Dialogue>
 	</DialogueNode>
 

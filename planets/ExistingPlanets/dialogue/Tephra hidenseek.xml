@@ -12,6 +12,7 @@
 				<DialogueTarget>Teph Quantum</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
+				<RequiredLogCondition>SY R1</RequiredLogCondition>
 				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
@@ -30,6 +31,7 @@
 				<DialogueTarget>Teph Answers 1B</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
+				<RequiredLogCondition>SY EX1</RequiredLogCondition>
 				<Text>It travels to a sanctuary inside Timber Hearth the Nomai made to protect Hearthians from a supernova.</Text>
 				<DialogueTarget>Teph Answers 2</DialogueTarget>
 			</DialogueOption>
@@ -62,8 +64,8 @@
 		<Name>Teph Quantum</Name>
 		<Dialogue>
 			<Page>Wait, you're taking off today? <![CDATA[<i>Really?!</i>]]> I didn't know!</Page>
-			<Page>Aw, I'll.. I'll miss you, astronaut. Um, I don't really have any new dirt on me..</Page>
-			<Page><![CDATA[<i>Oh, I know!</i>]]></Page>
+			<Page>Aw, I'll.. I'll miss you, astronaut.</Page>
+			<Page>Um, I don't really have any new dirt on me.. <![CDATA[<Pause>]]> <![CDATA[<i>Oh wait, I know!</i>]]></Page>
 			<Page>There's a new champion of hide and seek in the village, if that's dirt to you!</Page>
 		</Dialogue>
 		<DialogueOptionsList>

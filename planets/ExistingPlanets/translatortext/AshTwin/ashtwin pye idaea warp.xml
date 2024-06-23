@@ -61,26 +61,28 @@
 	<ID>8</ID>
 		<LocationA />
 		<ParentID>7</ParentID>
+		<Text>
 		IDAEA: The warp tower aligns at last.
 		</Text>
-			</TextBlock>
+	</TextBlock>
 
-			<TextBlock>	
+	<TextBlock>	
 	<ID>9</ID>
 		<LocationA />
 		<ParentID>8</ParentID>
-		IDAEA: Come, Pye: The <![CDATA[<color=orange>Deep Storm Station</color>]]> awaits us.
+		<Text>
+		IDAEA: Come, Pye: The <![CDATA[<color=orange>Deep Storm Station</color>]]> awaits.
 		</Text>
-			</TextBlock>
+	</TextBlock>
 
 	<ShipLogConditions>
 		<RevealFact>
 			<FactID>GD Tower R2</FactID>
-			<Condition>12</Condition>
+			<Condition>9</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>GD Tower EX2</FactID>
-			<Condition>12</Condition>
+			<Condition>9</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 	

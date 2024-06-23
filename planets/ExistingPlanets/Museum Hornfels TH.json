@@ -23,12 +23,12 @@
 	"audioVolumes": [
 		{
 			"audio": "TH_UnderwaterAmbience_LP",
-			"rename": "Pioneer Beach waves",
+			"rename": "Sanctuary water noises",
 			"track": "environmentUnfiltered",
 			"priority": 129,
 			"volume": 0.35,
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
-			"radius": 2.8,
+			"radius": 11.2,
 			"isRelativeToParent": true
 		}
 	],
@@ -36,13 +36,14 @@
 	[
 		{
 		"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
-		"radius": 2.8
+		"radius": 11.2
 		}
 	],
 	"revealVolumes":
 	[
 		{
 			"position": {"x":-16.1185,"y": -43.1685,"z": 222.138},
+			"isRelativeToParent": true,
 			"radius":0.5,
 			"revealOn": "snapshot",
 			"reveals": ["GAL EX2"],
@@ -50,7 +51,8 @@
 		},
 		{
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
-			"radius": 2.8,
+			"isRelativeToParent": true,
+			"radius": 11.2,
 			"revealOn": "enter",
 			"revealFor": "probe",
 			"reveals": ["SY R1"]
@@ -301,7 +303,7 @@
 				"stretch": {"x": 1.6,"y": 1,"z": 1.3},
 				"removeChildren": ["ProbeVisuals"],
 				"isRelativeToParent": true,
-				"parentPath": "Sector_TH/Campsite GM wisps"
+				"parentPath": "Sector_TH/Stowaway GM wisps"
 			},
 			{
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume/NotificationVolume",
