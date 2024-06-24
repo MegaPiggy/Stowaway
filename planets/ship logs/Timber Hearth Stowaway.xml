@@ -149,7 +149,7 @@
         </RumorFact>
          <RumorFact>
             <ID>SY R4</ID> 
-            <Text>The Sanctuary was built in a groundwater pool to make use of a quantum shard that traveled inside it.</Text> 
+            <Text>The Sanctuary was built in an underground pool to make use of a quantum shard that would travel inside it.</Text> 
         </RumorFact>
           <RumorFact>
            <SourceID>DEEP_STORM_STATION</SourceID>
@@ -187,42 +187,56 @@
         <Curiosity>STOWAWAYS</Curiosity>
 
 
-
-         <RumorFact>
-                 <ID>Campsite R2</ID>
-            <SourceID>TH_WARPTOWER</SourceID>
-            <Text>A Nomai named Cycad delivered news about rotating doors on Ash Twin activating on their own to Timber Hearth.</Text>
-      </RumorFact>
-
-       
           <ExploreFact>
-            <ID>Campsite EX0</ID> 
+            <ID>Campsite EX1</ID> 
             <Text>This campsite belonged to the Nomai working on Timber Hearth.</Text> 
         </ExploreFact>
-         <ExploreFact>
-            <ID>Campsite EX1</ID> 
-            <Text>The Nomai on Timber Hearth were careful not to leave the warp receiver unattended to protect the amphibious native lifeforms from being warped to Ash Twin.</Text> 
-      </ExploreFact>
-            <ExploreFact>
+      
+          <ExploreFact>
             <ID>Campsite EX2</ID> 
-            <Text>A warp receiver’s return warp only activates once it is clear of any objects.</Text> 
-      </ExploreFact>
-                <ExploreFact>
-            <ID>Campsite EX3</ID> 
             <Text>A Nomai named Oeno modified vision orbs to acommodate Timber Hearth's native lifeforms. She was disappointed to learn the vision orb had not been raised by them, but by the Attlerock’s gravity as it orbited overhead.</Text> 
       </ExploreFact>
+           
               <ExploreFact>
-            <ID>Campsite EX4</ID> 
-            <Text>A Nomai named Yarrow sought help from the Nomai on Timber Hearth regarding an issue on Ash Twin.</Text> 
-             <AltText>
-                <Text>A Nomai named Yarrow reported the rotating doors on the Sun Station and Timber Hearth warp towers opening and closing without input from time to time.</Text>
-                <Condition>Campsite R2</Condition>
-            </AltText>
-      </ExploreFact>
-              <ExploreFact>
-            <ID>Campsite EX5</ID> 
+            <ID>Campsite EX3</ID> 
             <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead.</Text> 
       </ExploreFact>
+
+             <Entry>
+
+                <ID>TH_WARPPOINT</ID>
+                  <Name>Nomai Ruins</Name>
+
+                <Curiosity>STOWAWAYS</Curiosity>
+               <RumorFact>
+                 <ID>TH_WR R1</ID>
+                    <SourceID>TH_WARPTOWER</SourceID>
+                     <Text>A Nomai named Cycad delivered news about rotating doors on Ash Twin activating on their own to Timber Hearth.</Text>
+                </RumorFact>     
+
+                
+               <ExploreFact>
+                     <ID>TH_WR EX1</ID> 
+                     <Text>The Nomai on Timber Hearth were careful not to leave the warp receiver unattended to protect the amphibious native lifeforms from being warped to Ash Twin.</Text> 
+              </ExploreFact>
+                 <ExploreFact>
+                     <ID>TH_WR EX2</ID> 
+                     <Text>A warp receiver powers a return warp that allows travel to its paired warp transmitter, after a Nomai has warped to it.</Text> 
+              </ExploreFact>
+                <ExploreFact>
+                      <ID>TH_WR EX3</ID> 
+                      <Text>A warp receiver only powers its return warp when it is clear of any entities.</Text> 
+                </ExploreFact>  
+               <ExploreFact>
+                      <ID>TH_WR EX4</ID> 
+                  <Text>A Nomai named Yarrow sought help from the Nomai on Timber Hearth regarding an issue on Ash Twin.</Text> 
+                              <AltText>
+                                <Text>A Nomai named Yarrow reported the rotating doors on the Sun Station and Timber Hearth warp towers opening and closing without input from time to time.</Text>
+                               <Condition>TH_WR R1</Condition>
+                              </AltText>
+             </ExploreFact>
+
+             </Entry>
 </Entry>
 
 

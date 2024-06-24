@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		COLEUS: Friends, the forge at <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> is asking for one last shipment of ore to be delivered to them. We must work quickly, as construction begins soon!
+		COLEUS: Friends, the forge at <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> is asking for one last shipment of ore to be delivered to them.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -34,26 +34,26 @@
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
-		<LocationB />
 		<ParentID>4</ParentID>
-		<Text>
-		OENO: And thanks to the <![CDATA[<color=orange>new projection stone</color>]]> Daz has developed, we won't have to wait for the installation of a warp receiver before sealing the <![CDATA[<color=orange>Sanctuary's</color>]]> exterior!
-				</Text>
-	</TextBlock>
-		<TextBlock>
-		<ID>6</ID>
 		<LocationA />
+		<Text>
+		CYCAD: That is sooner than I'd thought! Has a suitable site for the Sanctuary been located already?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		CYCAD: What? But how will anyone enter the <![CDATA[<color=orange>Sanctuary</color>]]> once it is sealed, without a warp receiver installed inside?
-		</Text>
+		COLEUS: It has! We have chosen a site in the planet's underground pools, which will allow us to make use of a quantum shard that travels there.
+				</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		OENO: You should visit the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on <![CDATA[<color=lightblue>Giant's Deep</color>]]> sometime to learn about Daz's work, Cycad - seeing as we will be using his new voyager stone to access the <![CDATA[<color=orange>Sanctuary!</color>]]>
+		CYCAD: In that case, we will need to put extra eyes into carefully reinforcing the walls of the <![CDATA[<color=orange>Sanctuary</color>]]> to protect it from groundwater.
 				</Text>
 	</TextBlock>
 	<TextBlock>
@@ -61,32 +61,40 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		COLEUS: Additionally, the site for the <![CDATA[<color=orange>Sanctuary's</color>]]> construction was chosen specifically to make use of a quantum shard that travels inside it.
+		CYCAD: Has the need for a new warp receiver been communicated to Poke yet?
 				</Text>
 	</TextBlock>
-	<TextBlock>
+		<TextBlock>
 		<ID>9</ID>
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		COLEUS: As the site is located in a cavern within the planet's groundwater pools, we will need to put extra eyes into carefully reinforcing the walls of the <![CDATA[<color=orange>Sanctuary.</color>]]>
+		OENO: That won't be necessary! We should be able to work without a warp receiver thanks to the <![CDATA[<color=orange>new projection stones</color>]]> Daz has engineered.
 				</Text>
 	</TextBlock>
-	
 		<TextBlock>
 		<ID>10</ID>
 		<LocationA />
 		<ParentID>9</ParentID>
 		<Text>
-		CYCAD: We should start as soon as we can, then. If it means we can ensure the safety of the native lifeforms without increasing the <![CDATA[<color=orange>Black Hole Forge's</color>]]> workload, all our efforts will be worth it!
+		CYCAD: What? But how will anyone enter the <![CDATA[<color=orange>Sanctuary</color>]]> once it is sealed, without a warp receiver installed inside?
 		</Text>
 	</TextBlock>
 	<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>11</ParentID>
+		<Text>
+		OENO: You should visit the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on <![CDATA[<color=lightblue>Giant's Deep</color>]]> to learn about Daz's work, Cycad! We will be using his invention to access the <![CDATA[<color=orange>Sanctuary.</color>]]>
+				</Text>
+	</TextBlock>
+	
+		<TextBlock>
 		<ID>11</ID>
 		<LocationA />
-		<ParentID>10</ParentID>
+		<ParentID>11</ParentID>
 		<Text>
-		COLEUS: I am glad to hear your enthusiasm!
+		CYCAD: If it means the <![CDATA[<color=orange>Sanctuary's</color>]]> construction will be more expedient, I have no qualms! When shall we begin our work?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -94,7 +102,15 @@
 		<LocationA />
 		<ParentID>11</ParentID>
 		<Text>
-		COLEUS: Is everyone rested up? Then let us begin our work shortly, my friends!
+		COLEUS: I am glad to hear your enthusiasm!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>13</ID>
+		<LocationA />
+		<ParentID>12</ParentID>
+		<Text>
+		COLEUS: Is everyone rested up? Then let us begin our work shortly!
 		</Text>
 	</TextBlock>
 	
@@ -102,12 +118,12 @@
 <ShipLogConditions>
 
 				<RevealFact>
-			<FactID>Campsite EX0</FactID>
-			<Condition>12</Condition>
+			<FactID>Campsite EX1</FactID>
+			<Condition>13</Condition>
 		</RevealFact>
 				<RevealFact>
 			<FactID>SY R2</FactID>
-			<Condition>5</Condition>
+			<Condition>9</Condition>
 		</RevealFact>
 				<RevealFact>
 			<FactID>SY R3</FactID>
@@ -115,16 +131,11 @@
 		</RevealFact>
 				<RevealFact>
 				<FactID>SY R4</FactID>
-				<Condition>9</Condition>
+				<Condition>6</Condition>
 		</RevealFact>
 				<RevealFact>
 			<FactID>Workshop R1</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
-
-		<RevealFact>
-			<FactID>VM_VOLCANO_X1</FactID>
-			<Condition>1</Condition>
+			<Condition>10</Condition>
 		</RevealFact>
 
 </ShipLogConditions>

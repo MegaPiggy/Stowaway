@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		POKE: Did the two of you not receive such directions to reach the <![CDATA[<color=orange>Deep Storm Station?</color>]]> Even <![CDATA[<i>I</i>]]> received instructions from Cassava - through Daz!
+		POKE: Did the two of you not receive directions from Cassava? Even <![CDATA[<i>I</i>]]> received instructions from him - through Daz!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -68,10 +68,6 @@
 		<RevealFact>
 			<FactID>SS R2</FactID>
 			<Condition>6</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>GD Tower R3</FactID>
-			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>GD Tower EX4</FactID>

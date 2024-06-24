@@ -69,7 +69,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		CYCAD: Oh, before I forget! Oeno: Yarrow was looking for you! There appears to be some issue regarding the warp towers on Ash Twin which he wanted you to look into.
+		CYCAD: Oh, before I forget! Oeno: Yarrow was looking for you! There appears to be some issue regarding the towers on Ash Twin which he wanted you to look into.
 				</Text>
 	</TextBlock>
 		<TextBlock>
@@ -109,16 +109,16 @@
 <ShipLogConditions>
 
 	<RevealFact>
-			<FactID>Campsite R2</FactID>
+			<FactID>TH_WR R1</FactID>
 			<Condition>12</Condition>
 		</RevealFact>
 				<RevealFact>
-			<FactID>Campsite EX3</FactID>
+			<FactID>Campsite EX2</FactID>
 			<Condition>6</Condition>
 		</RevealFact>
 				<RevealFact>
-			<FactID>Campsite EX4</FactID>
-			<Condition>12</Condition>
+			<FactID>TH_WR EX4</FactID>
+			<Condition>9</Condition>
 		</RevealFact>
 		
 </ShipLogConditions>

@@ -107,8 +107,8 @@
 			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
 			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225},
 	
-			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/pyeidaea ss trailhead.xml",
-					"seed":3
+				"seed":3,
+				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/TH warp tower caution.xml"
 		},
 		
 		{

@@ -16,11 +16,7 @@
             <ID>GD Tower R2</ID>
              <Text>Two Nomai waited outside this tower to travel to the Deep Storm Station.</Text> 
         </RumorFact>
-        <RumorFact>
-            <ID>GD Tower R3</ID>
-            <SourceID>GD_STATUE_ISLAND</SourceID>
-             <Text>Two Nomai named Pye and Idaea tried to warp to the Deep Storm Station from this tower, but arrived on Statue Island instead.</Text> 
-        </RumorFact>
+       
         
      
        <ExploreFact>
@@ -107,7 +103,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>SS Tower EX2</ID>
-             <Text>The Ash Twin’s rotating doors can be activated without input by a phenomenon called the sunless tide.</Text> 
+             <Text>The rotating doors on Ash Twin can be activated without input by a phenomenon called the sunless tide.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX3</ID>

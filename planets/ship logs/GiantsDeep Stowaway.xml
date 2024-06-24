@@ -77,11 +77,11 @@
         
         <ExploreFact>
             <ID>Study EX1</ID> 
-            <Text>A shore on Bramble Island high enough to be safe from waves, where the Nomai studied frozen jellyfish.</Text> 
+            <Text>A shore on Bramble Island high enough to be safe from waves where Nomai studied frozen jellyfish.</Text> 
         </ExploreFact>
            <ExploreFact>
             <ID>Study EX2</ID> 
-            <Text>Nomai transported a frozen jellyfish from this island back to the Looming City to investigate why they had stopped coming to the surface of the ocean.</Text> 
+            <Text>The Nomai transported a frozen jellyfish from this island back to the Looming City to investigate why they had stopped coming to the surface of the ocean.</Text> 
          </ExploreFact>
           <ExploreFact>
             <ID>Study EX3</ID> 
@@ -89,7 +89,7 @@
         </ExploreFact>
            <ExploreFact>
             <ID>Study EX4</ID> 
-            <Text>Gabbro slept at this camp, but was woken up by a cyclone lifting the island into space. He got soaked, but was otherwise fine.</Text> 
+            <Text>Gabbro slept at this camp and woke up to find a cyclone had lifted the island into space. (He got soaked, but was otherwise fine.)</Text> 
          </ExploreFact>
 </Entry>
       
@@ -376,12 +376,11 @@
 
         <ExploreFact>
             <ID>DSS EX1</ID> 
-            <Text>An underwater station built at the heart of Giant's Deep.
+            <Text>An underwater station built at the heart of Giant's Deep.</Text>
                   <AltText>
-                        <Text>An underwater station built at the heart of Giant's Deep. Using energy from the planet's electric core, it power a 6-second negative time interval that tested the mechanics of the Ash Twin Project.</Text>
+                        <Text>An underwater station at the heart of Giant's Deep. Using energy from the planet's electric core, it powered a 6-second negative time interval that tested the mechanics of the Ash Twin Project.</Text>
                         <Condition>CONV R1</Condition>
                  </AltText>
-            </Text> 
         </ExploreFact>
 
            <ExploreFact>

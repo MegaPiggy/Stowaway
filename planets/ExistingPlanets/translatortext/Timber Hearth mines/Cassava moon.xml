@@ -26,7 +26,7 @@
 
 <ShipLogConditions>
 				<RevealFact>
-			<FactID>Campsite EX5</FactID>
+			<FactID>Campsite EX3</FactID>
 			<Condition>3</Condition>
 		</RevealFact>
 	</ShipLogConditions>
