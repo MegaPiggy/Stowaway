@@ -221,11 +221,11 @@
               </ExploreFact>
                  <ExploreFact>
                      <ID>TH_WR EX2</ID> 
-                     <Text>A warp receiver powers a return warp that allows travel to its paired warp transmitter, after a Nomai has warped to it.</Text> 
+                     <Text>After a Nomai has warped to it, a warp receiver powers a return warp that allows travel to its paired warp transmitter.</Text> 
               </ExploreFact>
                 <ExploreFact>
                       <ID>TH_WR EX3</ID> 
-                      <Text>A warp receiver only powers its return warp when it is clear of any entities.</Text> 
+                      <Text>A warp receiver only powers the return warp once it is clear of any entities.</Text> 
                 </ExploreFact>  
                <ExploreFact>
                       <ID>TH_WR EX4</ID> 

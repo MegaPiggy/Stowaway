@@ -73,7 +73,7 @@
 			{
 				"rename":"Gabbro drownfire recording",
 				"path":"Moon_Body/Sector_THM/Interactables_THM/Interactibles_SignalDish/Prefab_HEA_Recorder",
-				"position": {"x": 41.3218, "y": 18.3123, "z": 5.2075},
+				"position": {"x": 39.6127, "y": 18.4705, "z": 3.9548},
 				"rotation": {"x": 4.3443, "y": 88.1643, "z": 3.7237},
 				"isRelativeToParent": true
 			},
@@ -252,13 +252,7 @@
 			"rotation": {"x":3.7364,"y": 17.2727,"z": 358.8791},
 			"isRelativeToParent": true
 		},
-		{	
-			"rename":"Gabbro_Camp NOTE",
-			"path":"TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)/GossanNote/plaque_paper_1 (1)",
-			"position":{"x":37.4441 ,"y": 18.8848,"z": 4.1305},
-			"rotation":{"x":348.287,"y": 62.1886,"z": 342.9809},
-			"isRelativeToParent": true
-		},
+
 
 		
 		{

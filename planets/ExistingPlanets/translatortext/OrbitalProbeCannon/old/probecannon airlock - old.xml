@@ -40,16 +40,5 @@
 		<ParentID>6</ParentID>
 		<Text>MALLOW: And <![CDATA[<i>I</i>]]> recall you accidentally recalling the shuttle back to the gravity cannon, after I landed us perfectly on the landing pad... Oh, you were <![CDATA[<i>fortunate</i>]]> I didn't calculate a shuttle trajectory into the <![CDATA[<i>sun</i>]]> for us afterwards.</Text>
 			</TextBlock>
-				<TextBlock>	
-	<ID>8</ID>
-		<LocationA />
-		<ParentID>7</ParentID>
-		<Text>AVENS: I'm sure we could have just used a sufficiently heavy boulder to weigh down the landing pad, as my brother and his soon-to-be spouse did. Hah, I pray he lands <![CDATA[<i>that</i>]]> shuttle on the northern landing pad!</Text>
-			</TextBlock>
-				<TextBlock>	
-	<ID>9</ID>
-		<LocationA />
-		<ParentID>8</ParentID>
-		<Text>MALLOW: <![CDATA[<i>Ugh,</i>]]> is that where that phrase comes from? And don't even joke about Cassava in that way - he already knows about this secret wall we use!!</Text>
-			</TextBlock>
+				
 </NomaiObject>

@@ -7,13 +7,13 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			COLEUS: Thanks to Melorae's new quantum rule, we should now be able to carry out this long-awaited expedition without the clouds obscuring our sight, and allowing our destination to slip back into superposition.</Text>
+			COLEUS: With this new quantum rule, we should now be able to reach our destination without the clouds obscuring our sight and allowing it to slip back into superposition.</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			MELORAE: In addition, now that we know the tentacled species are drawn to the surface of Giant's Deep by the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity, we have even been able to calculate the moon's physical mass through its gravitational forces!</Text>
+			MELORAE: In addition, now that we know the tentacled species are drawn to the surface of Giant's Deep by the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity, we can even calculate the moon's mass through its gravitational forces!</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>3</ID>
@@ -25,14 +25,14 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			PLUME: I am sure. I must stay behind to take care of Phlox, but I wish you all well, my friends. I shall watch your expedition from afar with bated respiration!</Text>
+			PLUME: I am sure. I must stay behind to take care of Phlox - but I wish you all well, my friends. I shall watch your expedition from afar with bated respiration!</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			COLEUS: Oh, but Plume, if you wish to watch our expedition, the thick clouds here on Giant's Deep will surely completely obscure your sight of our shuttle!</Text>
+			COLEUS: Oh, but Plume, if you wish to watch our expedition, the thick clouds here on Giant's Deep will surely completely obscure your sight of anything outside the planet</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>6</ID>
@@ -55,7 +55,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		PLUME: That would be a wise idea, Thatch. Phlox and I will gladly serve as your set of eyes from afar during your expedition. Be curious on your journey, my friends!
+		PLUME: That is a wise idea, Thatch. Phlox and I will gladly serve as your set of eyes from afar during your expedition. Be curious on your journey, my friends!
 		</Text>
 	</TextBlock>
 

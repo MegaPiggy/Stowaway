@@ -77,7 +77,7 @@
         
         <ExploreFact>
             <ID>Study EX1</ID> 
-            <Text>A shore on Bramble Island high enough to be safe from waves where Nomai studied frozen jellyfish.</Text> 
+            <Text>A shore on Bramble Island high enough to be safe from waves, where Nomai studied frozen jellyfish.</Text> 
         </ExploreFact>
            <ExploreFact>
             <ID>Study EX2</ID> 
@@ -115,7 +115,7 @@
         </RumorFact>
         <ExploreFact>
             <ID>Pioneer EX1</ID> 
-            <Text>This camp on Statue Island's shores sheltered Nomai from Brittle Hollow and Ember Twin during their first survey expedition to Giant's Deep.</Text> 
+            <Text>This camp on Statue Island's shores sheltered Nomai during their first survey expedition to Giant's Deep.</Text> 
         </ExploreFact>
            <ExploreFact>
             <ID>Pioneer EX2</ID> 

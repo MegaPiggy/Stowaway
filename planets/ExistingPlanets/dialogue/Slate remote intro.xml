@@ -27,7 +27,6 @@
 <DialogueNode>
 		<Name>Slate Kids Intro Loop3On</Name>
 		<EntryCondition>LOOP_COUNT_GOE_3</EntryCondition>
-		 <SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
 		<Dialogue>
 			<Page>Hey, hold up a sec!</Page>
 		</Dialogue>
@@ -52,6 +51,7 @@
 
 	<DialogueNode>
 		<Name>Slate_Kids_1</Name>
+		 <SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
 		<Dialogue>
 			<Page>Aren't you gonna say goodbye to everyone before you take off? The whole village's gonna miss ya.</Page>
 			<Page>If nothing else, at least say bye to the little hatchlings. All of 'em always have something to ask or say to the new astronaut before they go.</Page>

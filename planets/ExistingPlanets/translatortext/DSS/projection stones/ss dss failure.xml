@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		YARROW: Is everyone ready? Using energy from Giant's Deep's electric core, the <![CDATA[<color=orange>Deep Storm Station</color>]]> will soon power a 6-second negative time interval to test the mechanisms of the <![CDATA[<color=orange>Ash Twin Project!</color>]]>
+		YARROW: Is everyone ready? Using energy from Giant's Deep's electric core, the <![CDATA[<color=orange>Deep Storm Station</color>]]> will soon power a 6-second negative time interval!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		IDAEA: Though disappointing, this means the <![CDATA[<color=orange>Deep Storm Station</color>]]> still succeeded in its foremost priorities; we can now be certain that all mechanics of the negative time interval are theoretically sound and functional.
+		IDAEA: Still, this means the <![CDATA[<color=orange>Deep Storm Station</color>]]> succeeded in its foremost priorities: we can now be certain that all mechanics of the negative time interval are theoretically sound and functional.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -61,7 +61,7 @@
 		<ParentID>7</ParentID>
 		<LocationB />
 		<Text>
-		PYE: Idaea is correct. Once the <![CDATA[<color=orange>Sun Station</color>]]> is complete, we can now be confident in its operation without fear of endangering the star system and ourselves. Have faith, Yarrow!
+		PYE: Idaea is correct. Once the <![CDATA[<color=orange>Sun Station</color>]]> is complete, we can now be confident in its operation without fear of endangering the star system and ourselves!
 		</Text>
 	</TextBlock>
 
