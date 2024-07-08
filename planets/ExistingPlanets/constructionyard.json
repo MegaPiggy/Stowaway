@@ -82,7 +82,8 @@
 				},
 				{
 					"rename":"bay table",
-					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+					"assetBundle": "planets/bundle/prefabs",
+					"path":"assets/nomai ruins/prefabs/table.prefab",
 					"position":{"x": 22.6056,"y": 0.8388,"z": -66.2831},
 					"rotation": {"x":0.1491,"y": 265.5813,"z": 1.9283},
 					"isRelativeToParent": true
@@ -229,8 +230,9 @@
 			"isRelativeToParent": true
 		},
 			{
-				"rename": "Workshop planty",
-				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
+				"rename": "Mural planty",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
 				"position": {"x": 18.1526, "y": 28.019, "z": -38.7856},
 				"rotation": {"x": 49.0684, "y": 80.8027, "z": 173.0259},
 				"isRelativeToParent": true
@@ -322,14 +324,16 @@
 			},
 			{
 				"rename":"Table 1",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/table.prefab",
 				"position": {"x":21.3818, "y": 24.3264, "z": -29.924},
 				"rotation": {"x": 53.2019 , "y": 90.1521, "z": 182.7545},
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"Table 2",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/table.prefab",
 				"position": {"x":-15.7772, "y": 30.1557, "z": -29.8957},
 				"rotation": {"x": 324.4025, "y": 88.8345, "z": 183.0349},
 				"isRelativeToParent": true

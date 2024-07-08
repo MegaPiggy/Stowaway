@@ -5,7 +5,7 @@
         <ID>TH_MICA</ID>
         <Name>Mica</Name>
 
-        <Curiosity>NONE</Curiosity>
+        <Curiosity>None</Curiosity>
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>MICA R1</ID> 
@@ -35,7 +35,7 @@
         <ID>TH_TEPHRA</ID>
         <Name>Tephra</Name>
 
-        <Curiosity>NONE</Curiosity>
+        <Curiosity>None</Curiosity>
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>TEPH R1</ID> 
@@ -55,7 +55,7 @@
         <ID>TH_GALENA</ID>
         <Name>Galena</Name>
 
-        <Curiosity>NONE</Curiosity>
+        <Curiosity>None</Curiosity>
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>GAL R1</ID> 
@@ -75,7 +75,7 @@
         <ID>TH_ARKOSE</ID>
         <Name>Arkose</Name>
 
-        <Curiosity>NONE</Curiosity>
+        <Curiosity>None</Curiosity>
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>ARK R1</ID> 

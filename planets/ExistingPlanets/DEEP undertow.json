@@ -348,7 +348,8 @@
 				"isRelativeToParent": true
 			},
 			{
-				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
 				"position": {"x": -2.0333,"y": -0.0289,"z": -1.802},
 				"rotation": {"x": 0.0561,"y": 90.3979,"z": 0.1063},
 				"parentPath": "Sector_GD/Nomai Statue 2 Box",
@@ -388,14 +389,16 @@
 			},
 			{
 				"rename":"scrollshelf b1 staff",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/Props_Core_OldSettlement0/Prefab_NOM_Staff",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/staff.prefab",
 				"position": {"x": 1.929, "y": -0.0141, "z": 1.0579},
 				"rotation": {"x": 349.7949, "y": 350.1288, "z": 10.7178},
 				"parentPath": "Sector_GD/scrollshelf b1 1",
 				"isRelativeToParent": true
 			},
 			{
-				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
 				"position": {"x": 0.0947,"y": -0.2673 ,"z": -2.008},
 				"rotation": {"x": 0,"y": 174.7932,"z": 358.3506},
 				"parentPath": "Sector_GD/scrollshelf b1 1",
@@ -429,7 +432,8 @@
 			},
 			{
 				"rename":"No cheese tree",
-				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
 				"position": {"x": -7.1196,"y": 0.3302,"z": 4.3445},
 				"rotation": {"x": 0,"y": 59.7259, "z": 0},
 				"parentPath": "Sector_GD/DSS otherside scrollshelf 1",
@@ -439,14 +443,16 @@
 			
 			{
 				"rename":"Table clump",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"assetBundle": "planets/bundle/prefabs",
+					"path":"assets/nomai ruins/prefabs/table.prefab",
 				"position":{"x": 3.7189,"y": -1.1456,"z": -12.8977},
 				"rotation":{"x": 304.6097,"y": 256.5784,"z": 289.4843},
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"Table 2",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"assetBundle": "planets/bundle/prefabs",
+					"path":"assets/nomai ruins/prefabs/table.prefab",
 				"position":{"x": 6.4248,"y": 0.0425,"z": -4.3925},
 				"rotation":{"x": 0,"y": 65.3402,"z": 0},
 				"parentPath": "Sector_GD/Table clump",
@@ -454,7 +460,8 @@
 			},
 			{
 				"rename":"Table 3 coffee",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"assetBundle": "planets/bundle/prefabs",
+					"path":"assets/nomai ruins/prefabs/table.prefab",
 				"position":{"x": 8.2145,"y": 0.0248,"z": -2.6977},
 				"rotation":{"x": 0,"y": 5.4893,"z": 0},
 				"parentPath": "Sector_GD/Table clump",

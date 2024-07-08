@@ -67,7 +67,7 @@
 <Entry>
        <ID>BISLE_STUDY</ID>
         <Name>Backshore Study Site</Name>
-        <Curiosity>NONE</Curiosity>
+        <Curiosity>None</Curiosity>
  
            <RumorFact>
             <ID>Study R1</ID>

@@ -14,7 +14,7 @@
 			<DialogueOption>
 				<CancelledCondition>Told_Mica</CancelledCondition>
 						<RequiredLogCondition>WHS_X1</RequiredLogCondition>
-						<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
+						<RequiredLogCondition>TT_WARP_TOWERS_X2</RequiredLogCondition>
 				<Text>Hey Mica, I found a warp tower that warps to Timber Hearth!</Text>
 				<DialogueTarget>ModelRocketKid_WT</DialogueTarget>
 			</DialogueOption>
@@ -22,7 +22,7 @@
 				<DialogueOption>
 				<RequiredCondition>Told_Mica</RequiredCondition>
 						<RequiredLogCondition>WHS_X1</RequiredLogCondition>
-						<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
+						<RequiredLogCondition>TT_WARP_TOWERS_X2</RequiredLogCondition>
 				<Text>Hey Mica, guess what? I found a warp tower that warps to Timber Hearth!</Text>
 				<DialogueTarget>ModelRocketKid_WT2</DialogueTarget>
 			</DialogueOption>
@@ -36,7 +36,6 @@
 			 </Dialogue>
 			 <DialogueOptionsList>
 			 	<DialogueOption>
-				<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
 				<Text>Yeah, there's Nomai warp towers on Ash Twin that warp you to other planets.</Text>
 				<DialogueTarget>ModelRocketKid_WTB</DialogueTarget>
 			</DialogueOption>
@@ -84,12 +83,11 @@
 			 <DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>WHS_X1</RequiredLogCondition>
-				<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
+				<RequiredLogCondition>TT_WARP_TOWERS_X2</RequiredLogCondition>
 				<Text>Well.. There <![CDATA[<i>are</i>]]> Nomai warp towers on Ash Twin that warp you to other planets.</Text>
 				<DialogueTarget>ModelRocketKid_SW1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<CancelledLogCondition>WHS_X1</CancelledLogCondition>
 				<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
 				<Text>Well, I found some cool-looking towers on Ash Twin!</Text>
 				<DialogueTarget>ModelRocketKid_SW999</DialogueTarget>

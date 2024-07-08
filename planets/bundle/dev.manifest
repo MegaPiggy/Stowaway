@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 29081173
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ec140e4029e2d17f727c23584e14212c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 56acb9f38ad1beb1e75ad67c76b19157
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Models/devcom/dev mural orb.prefab
+- Assets/Models/devcom/dev mural jellyfish.prefab
+- Assets/Models/devcom/dev mural moon.prefab
+- Assets/Models/devcom/dev mural workshop.prefab
+- Assets/Models/devcom/dev mural stormshelter.prefab
+- Assets/Models/devcom/Cube.prefab
+- Assets/Models/devcom/dev mural tides.prefab
+- Assets/Models/devcom/dev mural inspired.prefab
+Dependencies: []

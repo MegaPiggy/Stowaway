@@ -170,14 +170,16 @@
 			},
 			{
 				"rename":"highcove table",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"assetBundle": "planets/bundle/prefabs",
+					"path":"assets/nomai ruins/prefabs/table.prefab",
 				"position": {"x":-31.2614 ,"y": 10.7803,"z": 5.4077},
 				"rotation": {"x":357.0576, "y": 142.6942,"z": 9.7532},
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"highcove snackbox",
-				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_HGT/Props_Tower_HGT/Prefab_NOM_BoxBroken",
+				"assetBundle": "planets/bundle/prefabs",
+					"path":"assets/nomai ruins/prefabs/broken box.prefab",
 				"position": {"x": -30.9972, "y": 11.8736, "z": 5.1012},
 				"rotation": {"x": 350.5819, "y": 193.4996, "z": 3.8904},
 				"isRelativeToParent": true
@@ -247,7 +249,8 @@
 
 		{
 			"rename":"cove planty",
-			"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
 			"position": {"x":11.9021,"y": 1.3611,"z": 21.6931},
 			"rotation": {"x":3.7364,"y": 17.2727,"z": 358.8791},
 			"isRelativeToParent": true
@@ -342,39 +345,7 @@
 		},
 		
 
-		{
-			"rename":"OPC ledge boulder",
-			"path":"GabbroIsland_Body/Sector_GabbroIsland/Geo_GabbroIsland/OtherComponentsGroup/SoloRocks_GabbroIsland/BatchedGroup/BatchedMeshRenderers_0",
-			"position":{"x":-25.8986,"y": 2.0793,"z": -13.1289},
-			"rotation":{"x":1.0503,"y": 225.1553,"z": 359.4031}
-		},
-		{
-			"rename": "smol OPC ledge collider",
-			"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
-			"position": {"x": -22.1486 , "y": 2.1481, "z": -1.4789},
-			"rotation": {"x": 1.3969, "y": 161.6759, "z": 69.8626}
-		},
-		{
-			"rename": "OPC ledge collider",
-			"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
-			"position": {"x": -22.5912, "y": 2.9332, "z": -0.0149},
-			"rotation": {"x": 357.7372, "y": 95.2077, "z": 20.9924},
-			"scale":2
-		},
-		{
-			"rename": "OPC ledge collider 2",
-			"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
-			"position": {"x": -22.7145, "y": 3.7985, "z": 3.4932},
-			"rotation": {"x": 359.2638, "y": 177.4916, "z": 104.1514},
-			"stretch":{"x":2.2545,"y": 2.8655,"z": 4.4673}
-		},
-		{
-			"rename": "OPC root slope collider",
-			"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
-			"position": {"x": -22.3058, "y": 6.1414, "z": 5.3768},
-			"rotation": {"x": 10.4334, "y": 68.7555, "z": 228.6578},
-			"stretch":{"x":1.63,"y": 4.0473,"z": 1.5727}
-		},
+	
 
 
 		{
@@ -383,15 +354,6 @@
 			"position":{"x":-22.7498,"y":10.0489,"z": 16.5378},
 			"rotation":{"x":359.2572,"y": 126.5675,"z": 6.9586}
 		},
-	
-		{
-			"rename": "hideandseek stone collider",
-			"path": "OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
-			"parentPath": "Sector_GabbroIsland/Interactables_GabbroIsland/Traveller_HEA_Gabbro/Traveller_HEA_Gabbro_ANIM_IdleFlute/gabbro_OW_V02:gabbro_rig_v01:Trajectory_Jnt/gabbro_OW_V02:gabbro_rig_v01:ROOT_Jnt/gabbro_OW_V02:gabbro_rig_v01:Spine_01_Jnt",
-			"position": {"x": -15.2536, "y": -0.4921, "z": 47.9449},
-			"rotation": {"x": -0.0001, "y": 89.9999, "z": 89.9999}
-		},
-
 		{
 			"rename":"BASE_LARGE Projection Whiteboard",
 			"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_Whiteboard_Shared",

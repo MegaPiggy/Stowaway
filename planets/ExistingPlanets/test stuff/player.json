@@ -1,0 +1,23 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "Player",
+	"removeChildren":
+			[
+			
+			],
+	"Props": {
+		"details": [
+			{
+				"rename":"qm locator",
+				"path": "QuantumMoon_Body/Sector_QuantumMoon/QuantumShrine/Structure_NOM_QuantumShrine/QuantumMoonLocator/",
+				"position": {"x": -0.4218,"y": -0.5109,"z": 6.7564},
+				"rotation": {"x": 270,"y": 0,"z": 0},
+				"parentPath": "PlayerCamera/Signalscope/Props_HEA_Signalscope",
+				"isRelativeToParent": true
+			}
+		
+		
+		]
+	}
+}

@@ -22,13 +22,13 @@
 "Volumes": {
 	"audioVolumes": [
 		{
-			"audio": "TH_UnderwaterAmbience_LP",
+			"audio": "OW_TH_UnderwaterRushing",
 			"rename": "Sanctuary water noises",
 			"track": "environmentUnfiltered",
 			"priority": 129,
-			"volume": 0.35,
+			"volume": 0.45,
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
-			"radius": 11.2,
+			"radius": 15,
 			"isRelativeToParent": true
 		}
 	],
@@ -36,7 +36,7 @@
 	[
 		{
 		"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
-		"radius": 11.2
+		"radius": 15
 		}
 	],
 	"revealVolumes":
@@ -396,7 +396,8 @@
 			},
 			{
 				"rename":"Campsite log seat collider",
-				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"assetBundle": "planets/bundle/dev",
+				"path": "assets/models/devcom/cube.prefab",
 				"position": {"x": -154.095, "y": 6.0386, "z": -130.4312},
 				"rotation": {"x": 330.3428, "y": 140.8157, "z": 271.5714},
 				"stretch": {"x":1,"y":1,"z":7.5909},
@@ -404,7 +405,8 @@
 			},
 			{
 				"rename":"Campsite log snackbox1",
-				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_HGT/Props_Tower_HGT/Prefab_NOM_BoxBroken",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/broken box.prefab",
 				"position": {"x": -155.8425, "y": 5.0372, "z": -129.3951},
 				"rotation": {"x": 20.4481, "y": 318.2293, "z": 93.1902},
 				"isRelativeToParent": true
@@ -437,7 +439,8 @@
 			},
 			{
 				"rename":"Tent torch",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Lighting_GravityCannon/Prefab_NOM_WallTorch (4)",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
 				"position": {"x": -155.6989, "y": 12.4467, "z": -129.951},
 				"rotation": {"x": 10.3169, "y": 109.5469, "z": 261.4991},
 				"parentPath": "Sector_TH/Tent wall 1",
@@ -461,7 +464,8 @@
 			
 			{
 				"rename":"TH mine outside treepot",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Treepot",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/treepot.prefab",
 				"position":{"x": -70.6018,"y": 11.9777,"z": -201.788},
 				"rotation":{"x": 3.7851,"y": 21.4478,"z": 238.7171},
 				"isRelativeToParent": true
@@ -484,10 +488,11 @@
 			},
 			{
 				"rename":"Stowaway torch",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Lighting_GravityCannon/Prefab_NOM_WallTorch (4)",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
 				"position": {"x": -130.9038, "y": -2.1046, "z": -137.5028},
 				"rotation": {"x": 9.8866, "y": 234.2864, "z": 233.1214},
-				"removeChildren": ["Props_NOM_WallTorch_Connector"],
+				"removeChildren": ["WallTorch_Connector"],
 				"isRelativeToParent": true
 			},
 			{
@@ -501,10 +506,11 @@
 			},
 			{
 				"rename":"Mural torch",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Lighting_GravityCannon/Prefab_NOM_WallTorch (4)",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
 				"position": {"x": -146.6855, "y": 17.6967, "z": -137.6833},
 				"rotation": {"x": 30.4417, "y": 218.6741, "z": 74.2792},
-				"removeChildren": ["Props_NOM_WallTorch_Connector"],
+				"removeChildren": ["WallTorch_Connector"],
 				"isRelativeToParent": true
 			},
 			{
@@ -516,7 +522,8 @@
 			},
 			{
 				"rename":"tablet collider",
-				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"assetBundle": "planets/bundle/dev",
+				"path": "assets/models/devcom/cube.prefab",
 				"position": {"x": -147.8417, "y": 18.9186, "z": -137.8121},
 				"rotation": {"x": 9.7573, "y": 317.3124 , "z": 72.3915},
 				"stretch": {"x":0.6,"y":2.1,"z": 3},
@@ -539,14 +546,16 @@
 
 			{
 				"rename":"Campsite ceiling lamp fallen",
-				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_TH/Lighting_Tower_TH/Prefab_NOM_CeilingLamp (2)",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/ceilinglamp.prefab",
 				"position": {"x": -157.0564,"y": -3.0105,"z": -129.0247},
 				"rotation": {"x":358.2899,"y": 105.0044,"z": 77.573},
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"Campsite ceiling lamp bridge",
-				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_TH/Lighting_Tower_TH/Prefab_NOM_CeilingLamp (2)",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/ceilinglamp.prefab",
 				"position": {"x": -159.9952,"y": -1.9277,"z": -152.1374},
 				"rotation": {"x": 5.3683,"y": 318.2706,"z": 90.4635},
 				"isRelativeToParent": true
@@ -625,9 +634,10 @@
 			},
 			{
 				"rename":"Sanctuary Lamp",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/StatueIsland_VisibleFromGD/WarpReceiver/Prefab_NOM_WarpReceiver/Props_NOM_Lamp_Wall",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
 				"position":{"x":0.235,"y": -0.4636,"z": -1.401},
-				"rotation":{"x":90,"y": 0,"z": 0},
+				"rotation":{"x":90,"y": 90,"z": 0},
 				"parentPath": "Sector_TH/Sanctuary sun orbit",
 				"isRelativeToParent": true
 			},
@@ -657,14 +667,16 @@
 			},
 			{
 				"rename":"Sanctuary plant",
-				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
 				"position":{"x":-105.0229,"y": 22.4021,"z": 117.2431},
 				"rotation":{"x":71.1896,"y": 271.5473,"z": 314.597},
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"Sanctuary plant 2",
-				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
 				"position":{"x":-106.2336,"y": 3.8682,"z": 118.9442},
 				"rotation":{"x":273.8436 ,"y": 100.1827,"z": 36.9031},
 				"isRelativeToParent": true
@@ -695,7 +707,8 @@
 			
 			{
 				"rename":"Sanctuary shell",
-				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_TimeLoopInterior/Geometry_TimeLoopInterior/innerShell/",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/star ore shell.prefab",
 				"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
 				"rotation":{"x":331.3686,"y": 62.1643,"z": 95.5896},
 				"scale": 0.5,
@@ -767,7 +780,8 @@
 		
 		{
 			"rename":"Museum shard new collider Top",
-			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+			"assetBundle": "planets/bundle/dev",
+				"path": "assets/models/devcom/cube.prefab",
 			"parentPath": "Sector_TH/Museum shard NEW",
 			"position": {"x": -0.1259, "y": 0.4107, "z": 0.0061},
 			"rotation": {"x": 0.0512, "y": 338.1224, "z": 0.4284},
@@ -776,7 +790,8 @@
 		},
 		{
 			"rename":"Museum shard new collider Longmid",
-			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+			"assetBundle": "planets/bundle/dev",
+				"path": "assets/models/devcom/cube.prefab",
 			"parentPath": "Sector_TH/Museum shard NEW",
 			"position": {"x": -0.0151, "y": -0.1893, "z": 0.0279},
 			"rotation": {"x": 359.5255, "y": 245.0298, "z": 357.7007},
@@ -785,7 +800,8 @@
 		},
 		{
 			"rename":"Museum shard new collider BASE",
-			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+			"assetBundle": "planets/bundle/dev",
+				"path": "assets/models/devcom/cube.prefab",
 			"parentPath": "Sector_TH/Museum shard NEW",
 			"position": {"x": -0.0567, "y": -0.5421 , "z": -0.3031},
 			"rotation": {"x": 359.4102, "y": 15.4367, "z": 358.1976},

@@ -5,7 +5,6 @@
 <DialogueNode>
 		<Name>Slate Kids Intro</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
-		 <SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
 		<Dialogue>
 			<Page>Hey, hold up a sec!</Page>
 		</Dialogue>
@@ -79,6 +78,7 @@
 	
 	<DialogueNode>
 		<Name>Slate_Kids_2</Name>
+		 <SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
 		<Dialogue>
 		<Page>Uh, no. What are you talking about?</Page>
 			<Page>I was gonna ask if you were gonna say goodbye to everyone before you take off. The whole village's gonna miss you, you know?</Page>

@@ -307,7 +307,7 @@
 		</Dialogue>
 <DialogueOptionsList>
 			<DialogueOption>
-				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
+				<RequiredLogCondition>CB_EX4</RequiredLogCondition>
 				<Text>I found out ghost matter can't penetrate water - so maybe water protected us?</Text>
 				<DialogueTarget>Riebeck_SW2</DialogueTarget>
 			</DialogueOption>

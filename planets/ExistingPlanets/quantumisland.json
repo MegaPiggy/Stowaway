@@ -165,20 +165,23 @@
 
 			{
 				"rename":"Storehouse box stacked",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
 				"position": {"x": -1.5667, "y": 79.9579, "z": 9.7584},
 					"rotation": {"x": 0, "y": 196.2131, "z": 0},
 				"isRelativeToParent": true
 			},
 			{
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
 				"position": {"x": -1.0734, "y": 0, "z": -0.4267},
 					"rotation": {"x": 0, "y": 16.8735 , "z": 0},
 					"parentPath": "Sector_QuantumIsland/Storehouse box stacked",
 				"isRelativeToParent": true
 			},
 			{
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
 				"position": {"x": -0.5937, "y": 0.9351, "z": -0.3452},
 					"rotation": {"x": 0, "y": 9.978, "z": 0},
 					"parentPath": "Sector_QuantumIsland/Storehouse box stacked",
@@ -186,7 +189,8 @@
 			},
 			{
 				"rename":"box outcast",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
 				"position": {"x": 3.399, "y": 0, "z": 2.7246},
 					"rotation": {"x": 0, "y": 266.7011, "z": 0},
 					"parentPath": "Sector_QuantumIsland/Storehouse box stacked",
@@ -195,13 +199,15 @@
 
 			{
 				"rename":"Storehouse box trio",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
 				"position": {"x": -10.0476, "y": 79.9579, "z": -0.8782},
 					"rotation": {"x": 0, "y": 94.9514, "z": 0},
 				"isRelativeToParent": true
 			},
 			{
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
 				"position": {"x": -1.2623, "y": 0, "z": 0.4825},
 					"rotation": {"x": 0, "y": 323.746, "z": 0},
 					"parentPath": "Sector_QuantumIsland/Storehouse box trio",
@@ -217,7 +223,8 @@
 
 			{
 				"rename":"Storehouse box splatoon",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Container (2)/",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
 				"position": {"x": 10.2617, "y": 80.4517, "z": 0.8688},
 					"rotation": {"x": 0, "y": -0.0011, "z": 90},
 				"isRelativeToParent": true
@@ -588,7 +595,8 @@
 		},	
 		{
 			"rename": "Pioneer Quantum Camp pole",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/Props_Core_OldSettlement0/Prefab_NOM_Staff",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/staff.prefab",
 			"position":{"x":-2.3844,"y": 19.3019,"z":  -76.4587},
 			"rotation":{"x":14.7848,"y": 157.7401,"z": 170.8623},
 			"stretch":{"x":4.5,"y": 17.28,"z": 4.5},
@@ -612,7 +620,7 @@
 			"rotation":{"x":353.5611,"y": 66.7623,"z": 340.7699},
 			"parentPath": "Sector_QuantumIsland/Pioneer Quantum Camp torch",
 			"isRelativeToParent": true
-		},	
+		}
 		
 	
 		
@@ -624,38 +632,7 @@
 
 
 			
-			{
-				"rename": "shortcut tractor 1",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Interactables_QuantumTower/Prefab_NOM_TractorBeam",
-				"position": {"x":55.6052, "y": 79.8338, "z": -38.4558},
-				"rotation": {"x":2.564, "y": 105.5307, "z": 179.8946}
-			},
-			{
-				"rename": "shortcut tractor 2",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Interactables_QuantumTower/Prefab_NOM_TractorBeam",
-				"position": {"x":25.189, "y": 226.1739, "z":-24.4015},
-				"rotation": {"x":6.9599, "y": 342.8515, "z": 187.1219}
-			},
-			{
-				"rename":"goddang it whynot a gravity crystal too im sick of floating up",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal",
-				"position":{"x":23.1557,"y": 208.4938,"z": -17.427},
-				"rotation":{"x":85.9766,"y": 48.0388,"z": 269.9999}
-			},
-
-
-			{
-				"rename":"final shard chamber shortcut",
-				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/TractorBeam_Mining (1)",
-				"position":{"x":0.4164,"y": 30.1988,"z": 0.0601},
-				"rotation":{"x":0,"y": 275.7627,"z": 180}
-			},
-			{
-				"rename":"final puzzle chamber shortcut",
-				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/TractorBeam_Mining (1)",
-				"position":{"x":-15.1505,"y": 68.2438,"z": 15.9747},
-				"rotation":{"x":0,"y": 70.3907,"z": 180}
-			}
+			
 			
 			
 		],
