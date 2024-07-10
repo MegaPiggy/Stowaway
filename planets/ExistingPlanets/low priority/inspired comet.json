@@ -30,6 +30,13 @@
 			"ignoreSun": true,
 			"keepLoaded": true,
 			"isRelativeToParent": true
+		},
+		{
+			"rename": "Target",
+			"position": {"x":-200,"y": 0,"z": 0},
+			"rotation": {"x":0,"y": 0,"z": 0},
+			"keepLoaded": true,
+			"isRelativeToParent": true
 		}
 	]
 },
@@ -49,7 +56,6 @@
 
 "CometTail": {
 	"innerRadius": 25,
-	"primaryBody": "Tail",
 	"dustTint": {"a": 0,"b": 0,"g": 0,"r": 0}
 },
 
