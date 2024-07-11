@@ -7,9 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using Stowaway.Components;
-using UnityEngine.PostProcessing;
 using UnityEngine;
-using static ShapeUtil;
 using NewHorizons.Components.SizeControllers;
 
 namespace Stowaway;
@@ -110,6 +108,73 @@ public class Stowaway : ModBehaviour
 		{
 			initInspiredComet(NewHorizonsAPI.GetPlanet(body));
 		}
+	}
+
+	private void initWaterColumn(AstroObject giantsDeep)
+	{
+		var rigidbody = giantsDeep.GetOWRigidbody();
+		var sector = giantsDeep.GetRootSector();
+
+		var column = new GameObject($"QuantumMoonWaterColumn_Body");
+		column.SetActive(false);
+		column.transform.parent = giantsDeep.transform;
+
+		column.AddComponent<OWRigidbody>();
+
+		var matchMotion = column.AddComponent<MatchInitialMotion>();
+		matchMotion.SetBodyToMatch(rigidbody);
+
+		column.AddComponent<CenterOfTheUniverseOffsetApplier>();
+		column.AddComponent<KinematicRigidbody>();
+
+		var detectorGO = new GameObject("Detector_Funnel");
+		detectorGO.transform.parent = column.transform;
+		var funnelDetector = detectorGO.AddComponent<ConstantForceDetector>();
+		funnelDetector._inheritDetector = giantsDeep.GetComponentInChildren<ConstantForceDetector>();
+		funnelDetector._detectableFields = new ForceVolume[0];
+
+		detectorGO.AddComponent<ForceApplier>();
+
+		var scaleRoot = new GameObject("ScaleRoot");
+		scaleRoot.transform.parent = column.transform;
+		scaleRoot.transform.rotation = Quaternion.identity;
+		scaleRoot.transform.localPosition = Vector3.zero;
+		scaleRoot.transform.localScale = new Vector3(1, 1, 1);
+
+		var proxyGO = SearchUtilities.Find("SandFunnel_Body/ScaleRoot/Proxy_SandFunnel").Instantiate(scaleRoot.transform, "Proxy_Funnel");
+		var geoGO = SearchUtilities.Find("SandFunnel_Body/ScaleRoot/Geo_SandFunnel").Instantiate(scaleRoot.transform, "Geo_Funnel");
+		var volumesGO = SearchUtilities.Find("SandFunnel_Body/ScaleRoot/Volumes_SandFunnel").Instantiate(scaleRoot.transform, "Volumes_Funnel");
+
+		var sfv = volumesGO.GetComponentInChildren<SimpleFluidVolume>();
+		sfv._fluidType = FluidVolume.Type.WATER;
+
+		GameObject.Destroy(geoGO.transform.Find("Effects_HT_SandColumn/SandColumn_Interior").gameObject);
+
+		var waterMaterials = SearchUtilities.Find("BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Geometry_NorthPole/OtherComponentsGroup/Terrain_NorthPoleSurface/BatchedGroup/BatchedMeshRenderers_5").GetComponent<MeshRenderer>().sharedMaterials.CopyMaterials();
+
+		// Proxy
+		var proxyExterior = proxyGO.transform.Find("SandColumn_Exterior (1)");
+		proxyExterior.name = "WaterColumn_Exterior";
+		var proxyExteriorMR = proxyExterior.GetComponent<MeshRenderer>();
+		proxyExteriorMR.sharedMaterials = waterMaterials;
+		proxyExteriorMR.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+
+		// Geometry
+		var geoExterior = geoGO.transform.Find("Effects_HT_SandColumn/SandColumn_Exterior");
+		geoExterior.name = "WaterColumn_Exterior";
+		var geoExteriorMR = geoExterior.GetComponent<MeshRenderer>();
+		geoExteriorMR.sharedMaterials = waterMaterials;
+		geoExteriorMR.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+
+		proxyGO.GetComponent<SectorProxy>().SetSector(sector);
+		geoGO.GetComponent<SectorCullGroup>().SetSector(sector);
+		volumesGO.GetComponent<SectorCollisionGroup>().SetSector(sector);
+
+		column.transform.localPosition = Vector3.zero;
+
+		column.AddComponent<QuantumMoonWaterColumnController>();
+
+		ModHelper.Events.Unity.FireOnNextUpdate(() => column.SetActive(true));
 	}
 
 	private void initInspiredComet(GameObject inspired)
@@ -245,6 +310,7 @@ public class Stowaway : ModBehaviour
 		qmChopZone.AddComponent<QuantumMoonChopZone>();
 		CreateInvertedOccluder(giantsDeep.GetRootSector().transform, "CloudsInvertedOccluder", 930);
 		CreateInvertedOccluder(giantsDeep.GetRootSector().transform, "OceanInvertedOccluder", 500);
+		initWaterColumn(giantsDeep);
 	}
 
 	private void CreateInvertedOccluder(Transform parent, string name, float radius)

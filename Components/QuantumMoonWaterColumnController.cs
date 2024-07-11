@@ -13,7 +13,7 @@ namespace Stowaway.Components
 		private Transform anchor;
 		private Transform align;
 		private QuantumOrbit orbit;
-		public float height = 500;
+		public float height = 380;
 		private float scale;
 
 		public void Start()

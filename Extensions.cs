@@ -157,5 +157,33 @@ namespace Stowaway
 				tool._heldItem = null;
 			}
 		}
+
+		public static GameObject Instantiate(this GameObject original, Transform parent, string name)
+		{
+			GameObject copy;
+			if (original.activeSelf)
+			{
+				original.SetActive(false);
+				copy = UnityEngine.Object.Instantiate(original, parent);
+				original.SetActive(true);
+			}
+			else
+			{
+				copy = UnityEngine.Object.Instantiate(original, parent);
+			}
+			copy.name = name;
+			copy.SetActive(true);
+			return copy;
+		}
+
+		public static Material[] CopyMaterials(this Material[] target)
+		{
+			var materials = new List<Material>();
+			foreach (var material in target)
+			{
+				materials.Add(new Material(material));
+			}
+			return materials.ToArray();
+		}
 	}
 }
