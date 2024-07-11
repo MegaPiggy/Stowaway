@@ -153,8 +153,6 @@ public class Stowaway : ModBehaviour
 		var sfv = volumesGO.GetComponentInChildren<SimpleFluidVolume>();
 		sfv._fluidType = FluidVolume.Type.WATER;
 
-		GameObject.Destroy(geoGO.transform.Find("Effects_HT_SandColumn/SandColumn_Interior").gameObject);
-
 		var waterMaterials = SearchUtilities.Find("BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Geometry_NorthPole/OtherComponentsGroup/Terrain_NorthPoleSurface/BatchedGroup/BatchedMeshRenderers_5").GetComponent<MeshRenderer>().sharedMaterials.CopyMaterials();
 		foreach (var waterMaterial in waterMaterials)
 		{
@@ -177,6 +175,12 @@ public class Stowaway : ModBehaviour
 		var geoExteriorMR = geoExterior.GetComponent<MeshRenderer>();
 		geoExteriorMR.sharedMaterials = waterMaterials;
 		geoExteriorMR.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+
+		var geoInterior = geoGO.transform.Find("Effects_HT_SandColumn/SandColumn_Interior");
+		geoInterior.name = "WaterColumn_Interior";
+		var geoInteriorMR = geoInterior.GetComponent<MeshRenderer>();
+		geoInteriorMR.sharedMaterials = waterMaterials;
+		geoInteriorMR.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
 
 		proxyGO.GetComponent<SectorProxy>().SetSector(sector);
 		geoGO.GetComponent<SectorCullGroup>().SetSector(sector);
