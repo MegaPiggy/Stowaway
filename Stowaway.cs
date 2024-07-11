@@ -156,6 +156,13 @@ public class Stowaway : ModBehaviour
 		GameObject.Destroy(geoGO.transform.Find("Effects_HT_SandColumn/SandColumn_Interior").gameObject);
 
 		var waterMaterials = SearchUtilities.Find("BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Geometry_NorthPole/OtherComponentsGroup/Terrain_NorthPoleSurface/BatchedGroup/BatchedMeshRenderers_5").GetComponent<MeshRenderer>().sharedMaterials.CopyMaterials();
+		foreach (var waterMaterial in waterMaterials)
+		{
+			if (info.tint != null)
+			{
+				waterMaterial.SetColor("_FogColor", info.tint.ToColor());
+			}
+		}
 
 		// Proxy
 		var proxyExterior = proxyGO.transform.Find("SandColumn_Exterior (1)");

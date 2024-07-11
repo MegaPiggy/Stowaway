@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using NewHorizons.External.SerializableData;
+using Newtonsoft.Json;
 using System.ComponentModel;
 
 namespace Stowaway
@@ -11,6 +12,8 @@ namespace Stowaway
 
 		[DefaultValue(500)]
 		public float height = 500;
+
+		public MColor tint;
 
 		[DefaultValue(false)]
 		public bool debug = false;
