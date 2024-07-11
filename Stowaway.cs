@@ -132,7 +132,7 @@ public class Stowaway : ModBehaviour
 		column.AddComponent<CenterOfTheUniverseOffsetApplier>();
 		column.AddComponent<KinematicRigidbody>();
 
-		var detectorGO = new GameObject("Detector_Funnel");
+		var detectorGO = new GameObject("Detector_QuantumMoonWaterColumn");
 		detectorGO.transform.parent = column.transform;
 		var funnelDetector = detectorGO.AddComponent<ConstantForceDetector>();
 		funnelDetector._inheritDetector = giantsDeep.GetComponentInChildren<ConstantForceDetector>();
@@ -146,11 +146,12 @@ public class Stowaway : ModBehaviour
 		scaleRoot.transform.localPosition = Vector3.zero;
 		scaleRoot.transform.localScale = new Vector3(1, 1, 1);
 
-		var proxyGO = SearchUtilities.Find("SandFunnel_Body/ScaleRoot/Proxy_SandFunnel").Instantiate(scaleRoot.transform, "Proxy_Funnel");
-		var geoGO = SearchUtilities.Find("SandFunnel_Body/ScaleRoot/Geo_SandFunnel").Instantiate(scaleRoot.transform, "Geo_Funnel");
-		var volumesGO = SearchUtilities.Find("SandFunnel_Body/ScaleRoot/Volumes_SandFunnel").Instantiate(scaleRoot.transform, "Volumes_Funnel");
+		var proxyGO = SearchUtilities.Find("SandFunnel_Body/ScaleRoot/Proxy_SandFunnel").Instantiate(scaleRoot.transform, "Proxy_QuantumMoonWaterColumn");
+		var geoGO = SearchUtilities.Find("SandFunnel_Body/ScaleRoot/Geo_SandFunnel").Instantiate(scaleRoot.transform, "Geo_QuantumMoonWaterColumn");
+		var volumesGO = SearchUtilities.Find("SandFunnel_Body/ScaleRoot/Volumes_SandFunnel").Instantiate(scaleRoot.transform, "Volumes_QuantumMoonWaterColumn");
 
 		var sfv = volumesGO.GetComponentInChildren<SimpleFluidVolume>();
+		sfv.name = "FluidVolume_QuantumMoonWaterColumn";
 		sfv._fluidType = FluidVolume.Type.WATER;
 
 		var waterMaterials = SearchUtilities.Find("BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Geometry_NorthPole/OtherComponentsGroup/Terrain_NorthPoleSurface/BatchedGroup/BatchedMeshRenderers_5").GetComponent<MeshRenderer>().sharedMaterials.CopyMaterials();
@@ -164,19 +165,22 @@ public class Stowaway : ModBehaviour
 
 		// Proxy
 		var proxyExterior = proxyGO.transform.Find("SandColumn_Exterior (1)");
-		proxyExterior.name = "WaterColumn_Exterior";
+		proxyExterior.name = "WaterColumn_Exterior_Proxy";
 		var proxyExteriorMR = proxyExterior.GetComponent<MeshRenderer>();
 		proxyExteriorMR.sharedMaterials = waterMaterials;
 		proxyExteriorMR.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
 
 		// Geometry
-		var geoExterior = geoGO.transform.Find("Effects_HT_SandColumn/SandColumn_Exterior");
+		var effects = geoGO.transform.Find("Effects_HT_SandColumn");
+		effects.name = "Effects_QuantumMoonWaterColumn";
+
+		var geoExterior = effects.transform.Find("SandColumn_Exterior");
 		geoExterior.name = "WaterColumn_Exterior";
 		var geoExteriorMR = geoExterior.GetComponent<MeshRenderer>();
 		geoExteriorMR.sharedMaterials = waterMaterials;
 		geoExteriorMR.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
 
-		var geoInterior = geoGO.transform.Find("Effects_HT_SandColumn/SandColumn_Interior");
+		var geoInterior = effects.transform.Find("SandColumn_Interior");
 		geoInterior.name = "WaterColumn_Interior";
 		var geoInteriorMR = geoInterior.GetComponent<MeshRenderer>();
 		geoInteriorMR.sharedMaterials = waterMaterials;
