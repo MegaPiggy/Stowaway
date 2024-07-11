@@ -9,6 +9,7 @@ namespace Stowaway.Components
 	{
 		public static float multiplier = 5;
 		public static float height = 500;
+		public static bool debug = false;
 
 		private Transform target;
 		private Transform anchor;
@@ -63,7 +64,7 @@ namespace Stowaway.Components
 		{
 			var prevScale = scale;
 			if (IsQuantumMoonLockedToOrbit())
-				scale = target.CosTo(anchor, align).SmoothStep(0.945f, 1) * multiplier;
+				scale = debug ? multiplier : target.CosTo(anchor, align).SmoothStep(0.945f, 1) * multiplier;
 			else
 				scale = 0;
 

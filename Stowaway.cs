@@ -115,6 +115,7 @@ public class Stowaway : ModBehaviour
 		var info = NewHorizonsAPI.QueryBody<QuantumMoonWaterColumnInfo>("GiantsDeep", "extras.QuantumMoonWaterColumn");
 		QuantumMoonWaterColumnController.multiplier = info.size;
 		QuantumMoonWaterColumnController.height = info.height;
+		QuantumMoonWaterColumnController.debug = info.debug;
 
 		var rigidbody = giantsDeep.GetOWRigidbody();
 		var sector = giantsDeep.GetRootSector();

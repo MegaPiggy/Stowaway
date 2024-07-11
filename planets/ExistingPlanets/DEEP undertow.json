@@ -20,7 +20,8 @@
 		},
 		"QuantumMoonWaterColumn": {
 			"size": 5,
-			"height": 380
+			"height": 380,
+			"debug": false
 		}
 	},
 
