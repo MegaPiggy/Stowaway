@@ -14,6 +14,16 @@
 		"Sector_GD/Sector_GDInterior/Sector_GDCore/Terrain_GDCore/BakedTerrain_CoreGroup3"
 	],
 
+	"extras": {
+		"QuantumMoonChopZone": {
+			"radius": 73
+		},
+		"QuantumMoonWaterColumn": {
+			"size": 5,
+			"height": 380
+		}
+	},
+
 
 	"Atmosphere": {
 		"fogDensity": 0.5,

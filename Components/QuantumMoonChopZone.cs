@@ -15,10 +15,8 @@ namespace Stowaway.Components
 		private QuantumOrbit _orbit;
 		private bool _isLocked;
 
-		private static readonly float multiplier = 1f;
-
-		public static readonly float qmChopRadius = 73;
-		public static readonly float gdOceanRadius = 500;
+		public static float qmChopRadius = 73;
+		public static float gdOceanRadius = 500;
 
 		public float _lastRadius = 0;
 		public float _currentRadius = 0;
@@ -58,7 +56,7 @@ namespace Stowaway.Components
 		{
 			if (_isLocked)
 			{
-				_currentRadius = Mathf.Lerp(_lastRadius, qmChopRadius * multiplier, Mathf.InverseLerp(_startTime, _endTime, Time.time));
+				_currentRadius = Mathf.Lerp(_lastRadius, qmChopRadius, Mathf.InverseLerp(_startTime, _endTime, Time.time));
 				transform.position = GetPositionBetweenPlanetAndQM();
 			}
 			else

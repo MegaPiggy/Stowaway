@@ -7,13 +7,13 @@ namespace Stowaway.Components
 {
 	public class QuantumMoonWaterColumnController : MonoBehaviour
 	{
-		private static readonly float multiplier = 5;
+		public static float multiplier = 5;
+		public static float height = 500;
 
 		private Transform target;
 		private Transform anchor;
 		private Transform align;
 		private QuantumOrbit orbit;
-		public float height = 380;
 		private float scale;
 
 		public void Start()

@@ -112,6 +112,10 @@ public class Stowaway : ModBehaviour
 
 	private void initWaterColumn(AstroObject giantsDeep)
 	{
+		var info = NewHorizonsAPI.QueryBody<QuantumMoonWaterColumnInfo>("GiantsDeep", "extras.QuantumMoonWaterColumn");
+		QuantumMoonWaterColumnController.multiplier = info.size;
+		QuantumMoonWaterColumnController.height = info.height;
+
 		var rigidbody = giantsDeep.GetOWRigidbody();
 		var sector = giantsDeep.GetRootSector();
 
@@ -308,6 +312,8 @@ public class Stowaway : ModBehaviour
 		var qmChopZone = new GameObject("QuantumMoonChopZone");
 		qmChopZone.transform.SetParent(giantsDeep.GetRootSector().transform, false);
 		qmChopZone.AddComponent<QuantumMoonChopZone>();
+		var chopInfo = NewHorizonsAPI.QueryBody<QuantumMoonChopZoneInfo>("GiantsDeep", "extras.QuantumMoonChopZone");
+		QuantumMoonChopZone.qmChopRadius = chopInfo.radius;
 		CreateInvertedOccluder(giantsDeep.GetRootSector().transform, "CloudsInvertedOccluder", 930);
 		CreateInvertedOccluder(giantsDeep.GetRootSector().transform, "OceanInvertedOccluder", 500);
 		initWaterColumn(giantsDeep);
