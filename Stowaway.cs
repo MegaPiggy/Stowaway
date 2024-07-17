@@ -270,7 +270,7 @@ public class Stowaway : ModBehaviour
 		}
 	}
 
-	private const float sizeMultiplier = 1.25f;
+	private const float sizeMultiplier = 1;
 
 	private void initIsland(GameObject body)
 	{
