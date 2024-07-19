@@ -44,6 +44,7 @@ namespace Stowaway.Misc
 					return SurfaceType.Snow;
 
 				case "Ice":
+				case "Effects_CO_MeltingIce_mat":
 				case "Terrain_DB_Crust_mat":
 					return SurfaceType.Ice;
 
