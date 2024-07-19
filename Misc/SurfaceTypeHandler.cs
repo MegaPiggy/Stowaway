@@ -64,6 +64,7 @@ namespace Stowaway.Misc
 
 				case "Ice":
 				case "Effects_CO_MeltingIce_mat":
+				case "Replace_Terrain_Co_Ice_Mat":
 				case "Terrain_DB_Crust_mat":
 					return SurfaceType.Ice;
 
@@ -122,6 +123,7 @@ namespace Stowaway.Misc
 				case "Crystal":
 				case "GravityCrystal":
 				case "Props_NOM_GravityCrystal_mat":
+				case "Replace_Props_NOM_GravityCrystal_mat":
 				case "Terrain_GM_Crystal_mat":
 					return SurfaceType.Crystal;
 
