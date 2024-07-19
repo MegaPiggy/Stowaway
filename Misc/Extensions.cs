@@ -146,7 +146,7 @@ namespace Stowaway
 					sector = newSector != null ? newSector : sector;
 					GameObject gameObject = hit.collider.gameObject;
 					IItemDropTarget customDropTarget = gameObject.GetComponentInParent<IItemDropTarget>();
-					Transform parent = ((customDropTarget == null) ? socket : customDropTarget.GetItemDropTargetTransform(gameObject));
+					Transform parent = ((customDropTarget == null) ? hit.collider.transform : customDropTarget.GetItemDropTargetTransform(gameObject));
 					heldItem.DropItem(hit.point, hit.normal, parent, sector, customDropTarget);
 					customDropTarget?.AddDroppedItem(gameObject, heldItem);
 				}
