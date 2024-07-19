@@ -12,7 +12,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: Of note: Please do not leave this warp receiver's return warp powered and unattended.
+		OENO: Of note: Please do not leave this warp receiver's return warp powered and unattended!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: After a Nomai travels to a warp receiver, the warp receiver powers a return warp that allows travel back to the paired warp transmitter.
+		OENO: After a Nomai travels to a warp receiver, the warp receiver powers a return warp that allows travel back to the paired warp transmitter once.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -44,7 +44,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		OENO: As the return warp is only powered upon the absence of any entities on the warp receiver, we advise leaving an object on the warp receiver to stall it until you are ready to use the return warp!
+		OENO: As a return warp is only powered upon the absence of any entities on the warp receiver, we advise leaving something on the warp receiver to stall it until you are ready to return to <![CDATA[<color=lightblue>Ash Twin!</color>]]>
 		</Text>
 	</TextBlock>
 

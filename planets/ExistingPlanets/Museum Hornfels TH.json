@@ -582,7 +582,7 @@
 				"rename":"exhibit scout light",
 				"path":"Probe_Body/Lantern",
 				"parentPath": "Sector_TH/exhibit scout sticky",
-				"position":{"x": 0,"y": 1.9182,"z": 0},
+				"position":{"x": -1.3964,"y": 4.5455,"z": -3.3127},
 				"rotation":{"x": 0,"y": 0,"z": 0},
 				"isRelativeToParent": true
 			},

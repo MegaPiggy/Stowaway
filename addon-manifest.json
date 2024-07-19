@@ -3,9 +3,10 @@
     "popupMessage": "We recommend completing the basegame before exploring the story of the Stowaway.\nWe hope that you will enter this mod with a curious and inquisitive mind, ready to learn more about this universe!",
     "credits": [
         "atk#Designer\n#Writer\n#2D Illustrator",
-        "MegaPiggy#Great Code Sorcerer",
-        "Asker#Elder Code Wizard",
-        "Clay#Sculpter of a cool Hearthian model",
+        "MegaPiggy#Main Programmer\n#MVP",
+        "Asker#Programmer",
+        "Repcon#Modeler",
+        "Clay#Modeler",
         " ",
         "Made with help from the New Horizons modding community",
         "This work is unofficial Fan Content and is not affiliated with Mobius Digital"

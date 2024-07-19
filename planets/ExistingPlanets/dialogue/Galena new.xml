@@ -69,7 +69,7 @@
 		<Name>ShyKidNew1</Name>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Um...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>I made something for you.. But it's a little high up..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>I made something for you, astronaut.. But I messed up putting it up, so it's a little hard to see..<![CDATA[</size>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>
@@ -82,8 +82,8 @@
 <DialogueNode>
 		<Name>ShyKidNew2B</Name>
 		<Dialogue>
-			<Page><![CDATA[<size=20>]]>Um.. Just shoot your Little Scout up from the Outer Wilds Ventures exhibit..<![CDATA[</size>]]></Page>
-				<Page><![CDATA[<size=20>]]>Mayor Rutile's sitting by it... They might get a little startled by the scout launcher, but it should be okay...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Um.. You can see it if you shoot a Little Scout up at the landing pad, from the Outer Wilds Ventures exhibit where Mayor Rutile's sitting..<![CDATA[</size>]]></Page>
+				<Page><![CDATA[<size=20>]]>They might get a little startled by the scout launcher, but it should be okay...<![CDATA[</size>]]></Page>
 		</Dialogue>
 						 <RevealFacts>
      						   <FactID>GAL EX1</FactID>
@@ -95,7 +95,7 @@
 		<SetCondition>Asked_Galena</SetCondition>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Um.. If you shoot your Little Scout up from the Outer Wilds Ventures exhibit, you might be able to see it..<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Mayor Rutile's sitting by it... Um, they might get a little startled by the scout launcher, but it should be okay...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Mayor Rutile's sitting by the exhibit right now... Um, they might get a little startled by the scout launcher, but it should be okay...<![CDATA[</size>]]></Page>
 		</Dialogue>
 						 <RevealFacts>
      						   <FactID>GAL EX1</FactID>

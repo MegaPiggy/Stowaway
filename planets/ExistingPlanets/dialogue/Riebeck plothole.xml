@@ -334,11 +334,11 @@
   <DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
-				<Text>Uh, about that. I.. went to the comet, and...</Text>
+				<Text>Uh, about that. I went to the comet, and...</Text>
 				<DialogueTarget>RiebeckLearned_7_B</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>No clue.. That's what we're out here to find out!</Text>
+				<Text>No clue.. Guess that's what we're out here to find out, huh?</Text>
 				<DialogueTarget>Riebeck_NC</DialogueTarget>
 			</DialogueOption>
       </DialogueOptionsList>
@@ -364,7 +364,7 @@
 				<DialogueTarget>Riebeck_SW2</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<Text>Huh, that is true.. No clue.</Text>
+				<Text>Huh, that is true.. I'm.. not sure.</Text>
 				<DialogueTarget>Riebeck_HUH</DialogueTarget>
 			</DialogueOption>
       </DialogueOptionsList>
@@ -373,17 +373,17 @@
 <DialogueNode>
 		<Name>Riebeck_SW2</Name>
 		<Dialogue>
-				<Page>What? Water.. protects you from ghost matter?! That's.. that's news to me.</Page>
-			<Page>But, ah.. Mm.. No, that still can't be the whole story..</Page>
-			<Page>The mural you found showed our ancestors were already amphibious and prone to leaving the safety of the water.. So wouldn't we have been fried the moment we surfaced?</Page>
+				<Page>What? Water.. protects you from ghost matter?! That's.. news to me! Could that be how our species survived?!</Page>
+			<Page>But, ah.. Mm.. No, that still can't be the whole story.</Page>
+			<Page>The mural you found showed our ancestors were already amphibious and adapted to leave the water.. So wouldn't we have been fried the moment we surfaced?</Page>
 			<Page>Did our ancestors simply survive by the skin of their teeth by staying underwater?</Page>
-			<Page>But if that's the case, shouldn't our species have adapted to stay underwater due to natural selection, rather than adapting to live on land where ghost matter continued to threaten us?</Page>
-			<Page>It feels like we're still missing a piece of the puzzle here...</Page>
+			<Page>But if that's the case.. Shouldn't our species have adapted to stay underwater due to natural selection, rather than adapting to live on land, where ghost matter threatened us?</Page>
+			<Page>It feels like we're still missing a big piece of the puzzle here...</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>DSS EX5</RequiredLogCondition>
-				<Text>Uh, about that.. A Nomai survived and sacrificed himself to protect us...</Text>
+				<Text>There was a Nomai who survived the arrival of ghost matter, and sacrificed himself to protect us...</Text>
 				<DialogueTarget>Riebeck_SW3</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -401,7 +401,7 @@
 			<Page>Stars above, the Nomai really are just.. that amazing, huh?</Page>
 			<Page>Even after losing everyone and everything they knew, this lone Nomai survivor still gave their all to protect us..</Page>
 			<Page>That is a wild story, though. I never thought a Nomai might be capable of.. of anger and grief like that.</Page>
-			<Page>But still, in the end, they used the weapon they made in their anger to save us in the end.</Page>
+			<Page>But still, in the end, they used the weapon they made in their anger to save us.</Page>
 			<Page>Do you.. know what their name was?</Page>
 		</Dialogue>
 		<DialogueOptionsList>
@@ -417,9 +417,16 @@
 		<Dialogue>
 				<Page>Cassava... What a lovely name.</Page>
 			<Page>Thank you, Cassava.</Page>
-			<Page>..Hey, wanna sit down and pull up a marshmallow stick, hatchling?</Page>
+			<Page>.. Hey, you wanna sit down and pull up a marshmallow stick for a bit?</Page>
 			<Page>You've done enough for a first trip, don't you think?</Page>
-			<Page>Space is scary, and time is cruel.. <![CDATA[<Pause>]]> ..But I think the best we can do to honor Cassava, and the Nomai as a whole, is to just try to enjoy every moment of our time existing in this universe.</Page>
+			<Page>Space is scary, and time is cruel.. <![CDATA[<Pause>]]> .. But I think the best we can do to honor Cassava, and the Nomai as a whole, is to just try to enjoy every moment of our time existing in this universe.</Page>
+			<Page>...</Page>
+			<Page>..You know what? I'm done being scared.</Page>
+			<Page>The Hanging City's right in front of me, and I've just been sitting here and playing my banjo for days. If I just let my fears keep me here.. I'm gonna be trapped here forever, aren't I?</Page>
+			<Page>I'm gonna get up, and enjoy every moment I've got in this universe! And that starts with... Ooh.</Page>
+			<Page>Ooooh. Cramp.</Page>
+			<Page>Bad cramp, oh gosh my poor leg is cramped. Ohh, I probably shouldn't been sitting here and playing my banjo for days....</Page>
+			<Page>N-never mind. I'll face my fears when this cramp goes away...</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -428,9 +435,9 @@
 		<Name>Riebeck_GJ</Name>
 		<Dialogue>
 				<Page>You're doing a great job, seriously! I can't believe you already found ALL that on your first trip into space!</Page>
-				<Page>(I-I mean, sure, you do have the power of the translator tool - but still!!)</Page>
+				<Page>(I-I mean, sure, you do have that wicked awesome translator tool - but still!!)</Page>
 			<Page>Hey, um.. Thanks for flying to tell me about all this! I really appreciate it, hatchling.</Page>
-			<Page>But wow! There's definitely some major part of this mystery we still need to figure out...</Page>
+			<Page>But, wow! There's definitely some major part of this mystery we still need to figure out...</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -447,9 +454,9 @@
 		<Name>Riebeck_NT</Name>
 		<Dialogue>
 			<Page>Just imagine! We might all be sitting around a campfire today, sharing stories and marshmallows with the Nomai.</Page>
-			<Page>Hey, you ever wonder how the Nomai would roast their marshmallows? I have! I've spent uh, a little too long sitting here paralyzed in fear.</Page>
+			<Page>Hey, you ever wonder how the Nomai would roast their marshmallows? I have! <![CDATA[<size=20>]]>I've spent a little too long sitting here paralyzed in fear.<![CDATA[</size>]]></Page>
 			<Page>All we know about their diet is that they mostly ate plants - so maybe they'd just eat marshmallows out of the can? Y'know, like the opposite of Gabbro!</Page>
-			<Page>..Sorry, that was just something silly I was thinking about.</Page>
+			<Page>.. Sorry, that was just something silly I was thinking about.</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -458,7 +465,7 @@
 		<Dialogue>
 			<Page>Y-yeah! That's what we're here to...</Page>
 			<Page>Oh.. Oh stars. I just saw a huge rock being spaghettified into the black hole in the distance..... Nope. Nope.</Page>
-			 <Page>Y-You go on ahead. M-Make some huge discoveries we'll both be proud of! I-I-I'm gonna be stuck here a while longer.</Page>
+			 <Page>Y-You go on ahead. M-M-Make some huge discoveries we'll both be proud of! I'm... gonna be stuck here a while longer.</Page>
 		</Dialogue>
 	</DialogueNode>
 

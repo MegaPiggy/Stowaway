@@ -21,13 +21,14 @@
 			<Page>Hey astronaut, what's up?</Page>
 		</Dialogue>
 		 <DialogueOptionsList>
+		 	<DialogueOption>
+				<RequiredPersistentCondition>Shutup_Arkose</RequiredPersistentCondition>
+				<Text>I learnt something cool about ghost matter, Arkose!</Text>
+				<DialogueTarget>ArkoseNewLIST</DialogueTarget>
+			</DialogueOption>
 			<DialogueOption>
 				<Text>Hey, Arkose. Is there actually a reason you keep chucking rocks into the ghost matter?</Text>
 				<DialogueTarget>ArkoseNew1</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<Text>I learnt something cool about ghost matter, Arkose!</Text>
-				<DialogueTarget>ArkoseNewLIST</DialogueTarget>
 			</DialogueOption>
 		 </DialogueOptionsList>
 	</DialogueNode>
@@ -185,14 +186,14 @@
 	<DialogueNode>
 		<Name>Arkose5</Name>
 		 <DialogueOptionsList>
-		 <DialogueOption>
-				<Text>Hey, Arkose, is there actually a reason you keep chucking rocks into the ghost matter?</Text>
-				<DialogueTarget>ArkoseNew1</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
+		 	<DialogueOption>
 				<RequiredPersistentCondition>Shutup_Arkose</RequiredPersistentCondition>
 				<Text>I learnt something cool about ghost matter, Arkose!</Text>
 				<DialogueTarget>ArkoseNewLIST</DialogueTarget>
+			</DialogueOption>
+		 <DialogueOption>
+				<Text>Hey, Arkose, is there actually a reason you keep chucking rocks into the ghost matter?</Text>
+				<DialogueTarget>ArkoseNew1</DialogueTarget>
 			</DialogueOption>
 		 </DialogueOptionsList>
 	</DialogueNode>

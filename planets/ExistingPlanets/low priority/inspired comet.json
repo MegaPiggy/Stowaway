@@ -3,30 +3,57 @@
 
 	"name":"Inspired",
 	
-	
+
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "OW_NM_GravityCrystalAmbience_Louder",
+				"radius": 110,
+				"track": "environment",
+				"volume": 0.4,
+				"layer": 0,
+				"priority": 1
+			},
+			{
+				"audio": "OW_NM_GravityCrystalAmbience_Louder",
+				"radius": 70,
+				"track": "environment",
+				"volume": 1,
+				"layer": 0,
+				"priority": 2
+			}
+		]
+	},
 "Props": {
+	
+	"singularities": [
+		{
+			"type": "blackHole",
+			"uniqueID": "INSP WH",
+			"pairedSingularity": "DSS WH",
+			"hasWarpEffects": false,
+			"horizonRadius": 8,
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true
+		}
+	],
 	"details": [
+		
 		{
-			"rename":"Inspired gravity",
+			"rename":"Inspired body",
 			"assetBundle": "planets/bundle/stowaway3",
-			"path":"assets/models/inspired gravity 3.prefab",
+			"path":"assets/models/theinspired.prefab",
 			"position": {"x":0,"y": 0,"z": 0},
-			"rotation": {"x":0,"y": 0,"z": 0},
-			"keepLoaded": true,
-			"isRelativeToParent": true
-		},
-		{
-			"path":"Comet_Body/Sector_CO/Geometry_CO/General_Batched",
-			"position": {"x":0,"y": 0,"z": 0},
-			"rotation": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":0,"y": 0,"z": 90},
 			"ignoreSun": true,
-			"keepLoaded": true,
 			"isRelativeToParent": true
 		},
 		{
-			"path":"Comet_Body/Sector_CO/Geometry_CO/Frictionless_Batched",
+			"rename":"Inspired proxy",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/models/theinspired (1).prefab",
 			"position": {"x":0,"y": 0,"z": 0},
-			"rotation": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":0,"y": 0,"z": 90},
 			"ignoreSun": true,
 			"keepLoaded": true,
 			"isRelativeToParent": true
@@ -42,12 +69,16 @@
 },
 	
 	"Base": {
-		"surfaceSize": 100
+		"surfaceSize": 100,
+		"gravityVolumePriority": 10,
+		"surfaceGravity": 15,
+		"soiOverride": 300,
+		"gravityFallOff": "linear"
 	},
 	"Orbit": {
 		"showOrbitLine": true,
 		"primaryBody": "Giant's Deep",
-		"semiMajorAxis" : 2600,
+		"semiMajorAxis" : 2400,
 		"siderealPeriod": 0,
 		"trueAnomaly": 280,
 		"isTidallyLocked": true,
@@ -58,6 +89,8 @@
 	"innerRadius": 25,
 	"dustTint": {"a": 0,"b": 0,"g": 0,"r": 0}
 },
+
+
 
 
 

@@ -33,7 +33,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		CASSAVA: Oh, yes, it appears to be! But how could that have caused the voyager stone's disconnection?
+		CASSAVA: Oh, I believe so - the sun rose over the horizon not long ago. But how could that have caused the voyager stone's disconnection?
 		</Text>
 	</TextBlock>
 
@@ -42,7 +42,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		DAZ: That explains it. The waves caused by the sun's gravity must be washing high enough on the island to submerge the projection pool, dissolving my voyager.
+		DAZ: That explains it. The waves caused by the sun must be washing high enough on the island to submerge the projection pool, dissolving my voyager.
 		</Text>
 	</TextBlock>
 
@@ -51,7 +51,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		CASSAVA: I see.. Well, it's not a large issue, thankfully! We'll simply need to keep these tides in mind whenever we voyage to Giant's Deep.
+		CASSAVA: I see.. Well, it's not a large issue, thankfully! We'll simply need to keep these waves in mind whenever we voyage to Giant's Deep.
 		</Text>
 	</TextBlock>
 

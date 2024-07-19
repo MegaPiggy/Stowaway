@@ -13,7 +13,7 @@
 				"rename":"DSS black hole",
 				"type": "blackHole",
 				"uniqueID": "TH SHORTCUT 0",
-				"pairedSingularity": "DSS WH",
+				"pairedSingularity": "DSS WH 2",
 				"hasWarpEffects": false,
 				"horizonRadius": 1,
 				"position":{"x":30.282,"y": -50.2641,"z": 187.1413}

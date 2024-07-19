@@ -84,9 +84,20 @@
 			"rename":"DSS white hole",
 			"type": "whiteHole",
 			"uniqueID": "DSS WH",
-			"pairedSingularity": "TH SHORTCUT 0",
+			"pairedSingularity": "INSP WH",
 			"hasWarpEffects": false,
 			"horizonRadius": 1,
+			"parentPath": "Sector_GD/Deep Storm Station",
+			"position":{"x":0,"y": 0,"z": 0.9054},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"DSS white hole",
+			"type": "whiteHole",
+			"uniqueID": "DSS WH 2",
+			"pairedSingularity": "TH SHORTCUT 0",
+			"hasWarpEffects": false,
+			"horizonRadius": 0.1,
 			"parentPath": "Sector_GD/Deep Storm Station",
 			"position":{"x":0,"y": 0,"z": 0.9054},
 			"isRelativeToParent": true

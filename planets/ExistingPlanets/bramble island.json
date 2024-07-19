@@ -5,7 +5,8 @@
 	"name": "BrambleIsland",
 	"removeChildren": [
 		"Sector_BrambleIsland/Interactables_BrambleIsland/Prefab_HEA_FuelTank",
-		"Sector_BrambleIsland/Geo_BrambleIsland/BatchedGroup/BatchedMeshRenderers_13"
+		"Sector_BrambleIsland/Geo_BrambleIsland/BatchedGroup/BatchedMeshRenderers_13",
+		"Sector_BrambleIsland/BatchedMeshRenderers_23/Props_TH_ClutterSmall/boxCollider (2)/NomaiWallText/Arc 1 - Child of -1"
 	],
 	
 	"Props": {
@@ -107,12 +108,39 @@
 			"position":{"x": -54.0374,"y": 21.0349,"z": 25.0437},
 			"rotation":{"x":42.8012,"y": 351.7466,"z": 16.1429},
 			"isRelativeToParent": true
+		},
+		
+		{
+			"rename":"BatchedMeshRenderers_23",
+			"path":"TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Prefab_NOM_TH_Cairn_Arc",
+			"position": {"x": -75.1891,"y": -5.7972,"z": -6.8566},
+			"rotation": {"x":302.4604,"y": 19.2973,"z": 350.3262},
+			"removeChildren": ["Props_TH_ClutterSmall2","Props_TH_ClutterLarge2","Props_TH_ClutterLarge"],
+			"isRelativeToParent": true
+		},
+		{
+			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+			"position": {"x":-0.1826,"y": -0.0548,"z": -0.1507},
+			"rotation": {"x":0,"y": 0,"z": 0},
+			"scale":0.4,
+				"parentPath": "Sector_BrambleIsland/BatchedMeshRenderers_23/Props_TH_ClutterSmall",
+			"isRelativeToParent": true
 		}
+
 		
 			
 		],
 
 		"translatorText": [
+			{
+				"type":"wall",
+				"xmlFile": "planets/ExistingPlanets/translatortext/Bramble Island/old 2/5.xml",
+				"position": {"x": 1.9051,"y": -0.1281,"z": -0.4076},
+				"rotation": {"x":0,"y": 194.9919,"z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_BrambleIsland/BatchedMeshRenderers_23/Props_TH_ClutterSmall/boxCollider (2)",
+				"seed":4
+			},
 			{
 				"position": {"x": 47.0911,"y": 10.4498,"z": -4.2043},
 				"rotation": {"x":350.1659,"y": 117.831,"z": 352.1179},
@@ -137,6 +165,29 @@
 				"xmlFile":"planets/ExistingPlanets/translatortext/Bramble Island/water column.xml",
 			"parentPath": "Sector_BrambleIsland/scroll tablet"
 			}
+		],
+
+	
+		"remotes":
+		[
+		{
+			"id": "Dev",
+			"decalPath": "planets/assets/team askeratk.png",
+			"whiteboard":{
+				"rename":"Dev whiteboard",
+				"position":{"x": -26.3093,"y": -44.9899, "z": -4.1706},
+				"rotation":{"x":357.6109,"y":214.3977,"z":181.4597},
+				"isRelativeToParent": true,
+				"nomaiText": [
+								{
+					"id": "GD_DeepStormStation",
+					"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/ss dss failure.xml",
+					"location":"b",
+					"seed": 4
+								}
+							]
+						}
+		}
 		]
 	}
 
