@@ -65,6 +65,19 @@
 			"keepLoaded": true,
 			"isRelativeToParent": true
 		}
+	],
+	"proxyDetails": [
+		{
+			"rename":"Inspired proxy",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/models/theinspired (1).prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":0,"y": 0,"z": 90},
+			"ignoreSun": true,
+			"keepLoaded": true,
+			"isRelativeToParent": true,
+			"removeComponents": true
+		}
 	]
 },
 	
