@@ -15,6 +15,25 @@ namespace Stowaway.Misc
 
 				var handled = new List<string>();
 
+				var batchedMaterials = gameObject.GetComponentsInChildren<BatchedMaterialLookup>(true);
+				foreach (var batched in batchedMaterials)
+				{
+					foreach (var mat in batched.materials)
+					{
+						if (mat == null) continue;
+						if (handled.Contains(mat.name)) continue;
+
+						handled.Add(mat.name);
+
+						SurfaceType type = GetSurfaceType(mat);
+						Stowaway.WriteWarning("Surface type of batched material \"" + mat.name + "\" is " + type);
+						if (type != SurfaceType.None)
+						{
+							surfaceManager._lookupTable.SafeAdd(mat, type);
+						}
+					}
+				}
+
 				var rndrs = gameObject.GetComponentsInChildren<MeshRenderer>(true);
 				foreach (var rndr in rndrs)
 				{
