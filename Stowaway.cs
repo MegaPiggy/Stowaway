@@ -9,6 +9,9 @@ using System.Reflection;
 using Stowaway.Components;
 using UnityEngine;
 using NewHorizons.Components.SizeControllers;
+using Stowaway.Misc;
+using NewHorizons.Utility.Files;
+using System.Linq;
 
 namespace Stowaway;
 
@@ -48,6 +51,7 @@ public class Stowaway : ModBehaviour
 	private void Start()
 	{
 		var newHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
+		newHorizonsAPI.GetStarSystemLoadedEvent().AddListener(system => SystemLoaded(system));
 		newHorizonsAPI.GetBodyLoadedEvent().AddListener(body => BodyLoaded(body.Replace(" ","")));
 		newHorizonsAPI.LoadConfigs(this);
 		NewHorizonsAPI = newHorizonsAPI;
@@ -63,6 +67,14 @@ public class Stowaway : ModBehaviour
 		};
 		GlobalMessenger.AddListener("EnterNomaiGolemConnection", golemConnectionEntered);
 		GlobalMessenger.AddListener("ExitNomaiGolemConnection", golemConnectionExited);
+	}
+
+	private void SystemLoaded(string system)
+	{
+		if (system == "SolarSystem" || system == "EyeOfTheUniverse")
+		{
+			initSurfaceMaterials();
+		}
 	}
 
 	private void BodyLoaded(string body)
@@ -484,6 +496,29 @@ public class Stowaway : ModBehaviour
 		else
 		{
 			WriteError($"No island controller found on {islandObject.name}");
+		}
+	}
+
+	private static readonly string BundleLocation = "planets/bundle";
+
+	private void initSurfaceMaterials()
+	{
+		var completePath = Path.Combine(ModHelper.Manifest.ModFolderPath, BundleLocation);
+
+		var files = Directory.GetFiles(completePath).Where(file => !file.EndsWith(".manifest"));
+
+		foreach (var file in files)
+		{
+			string key = Path.GetFileName(file);
+			var relative = Path.Combine(BundleLocation, key);
+			if (AssetBundleUtilities.AssetBundles.TryGetValue(key, out var tuple))
+			{
+				var bundle = tuple.bundle;
+				foreach (var prefab in bundle.GetAllAssetNames().Where(asset => asset.EndsWith(".prefab")))
+				{
+					SurfaceTypeHandler.HandleMaterials(AssetBundleUtilities.LoadPrefab(relative, prefab, this));
+				}
+			}
 		}
 	}
 
