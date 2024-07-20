@@ -7,6 +7,26 @@
 	"Volumes": {
 		"audioVolumes": [
 			{
+				"audio": "OW_NM_GravityCannonAmbience",
+				"radius": 110,
+				"track": "environment",
+				"position": {"x":158.1198,"y": -4.6891,"z": -2.2716},
+				"isRelativeToParent": true,
+				"volume": 1,
+				"layer": 0,
+				"priority": 1
+			},
+			{
+				"audio": "OW_NM_GravityCannonAmbience",
+				"radius": 160,
+				"track": "environment",
+				"position": {"x":362.4073,"y": -4.6891,"z": -2.2716},
+				"isRelativeToParent": true,
+				"volume": 1,
+				"layer": 0,
+				"priority": 1
+			},
+			{
 				"audio": "OW_NM_GravityCrystalAmbience_Louder",
 				"radius": 110,
 				"track": "environment",
@@ -29,16 +49,33 @@
 	"singularities": [
 		{
 			"type": "blackHole",
-			"uniqueID": "INSP WH",
+			"uniqueID": "INSP BH",
 			"pairedSingularity": "DSS WH",
 			"hasWarpEffects": false,
-			"horizonRadius": 8,
+			"horizonRadius": 12,
 			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true
+		},
+		{
+			"type": "whiteHole",
+			"uniqueID": "INSP SHORTCUT WH",
+			"pairedSingularity": "TH SHORTCUT -1",
+			"hasWarpEffects": false,
+			"horizonRadius": 0.1,
+			"position":{"x":-93.682,"y": 0.1369,"z": 2.3991},
 			"isRelativeToParent": true
 		}
 	],
 	"details": [
-		
+		{
+			"rename": "gravitycannon volume",
+			"path": "BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Interactables_GravityCannon/CannonForceVolume/",
+			"position": {"x":158.1198,"y": -4.6891,"z": -2.2716},
+			"rotation": {"x":0,"y": 180,"z": 98.6799},		
+			"isRelativeToParent": true,
+			"scale":3,
+			"keepLoaded": true
+		},
 		{
 			"rename":"Inspired body",
 			"assetBundle": "planets/bundle/stowaway3",

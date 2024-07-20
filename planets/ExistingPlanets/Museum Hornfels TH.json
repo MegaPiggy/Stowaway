@@ -26,7 +26,7 @@
 			"rename": "Sanctuary water noises",
 			"track": "environmentUnfiltered",
 			"priority": 129,
-			"volume": 0.45,
+			"volume": 0.65,
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
 			"radius": 15,
 			"isRelativeToParent": true

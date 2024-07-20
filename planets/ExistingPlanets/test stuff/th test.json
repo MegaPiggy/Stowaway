@@ -10,6 +10,15 @@
 	"Props": {
 		"singularities": [
 			{
+				"rename":"INSP black hole",
+				"type": "blackHole",
+				"uniqueID": "TH SHORTCUT -1",
+				"pairedSingularity": "INSP SHORTCUT WH",
+				"hasWarpEffects": false,
+				"horizonRadius": 1,
+				"position":{"x":24.6159,"y": -53.2268,"z": 186.7058}
+			},
+			{
 				"rename":"DSS black hole",
 				"type": "blackHole",
 				"uniqueID": "TH SHORTCUT 0",

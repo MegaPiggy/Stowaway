@@ -84,7 +84,7 @@
 			"rename":"DSS white hole",
 			"type": "whiteHole",
 			"uniqueID": "DSS WH",
-			"pairedSingularity": "INSP WH",
+			"pairedSingularity": "INSP BH",
 			"hasWarpEffects": false,
 			"horizonRadius": 1,
 			"parentPath": "Sector_GD/Deep Storm Station",
@@ -604,11 +604,13 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename":"projection pool hidden collider floor",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Interactables_QuantumTower/Prefab_NOM_DockingTractorBeam/Props_NOM_LargeTractorBeam_Geo",
-				"position":{"x": -3.8772,"y": -2.9979,"z": -12.907},
-				"rotation":{"x":325.3408,"y": 98.7509,"z": 74.9723},
-				"stretch": {"x":1.3,"y": 1,"z": 1.3}
+				"rename":"DSS hidden collider floor",
+				"assetBundle": "planets/bundle/dev",
+				"path": "assets/models/devcom/cube.prefab",
+				"position": {"x": -4.6257, "y": -3.2219, "z": -12.4668},
+				"rotation": {"x": 321.1448, "y": 100.1977, "z": 75.0104},
+				"stretch": {"x":32,"y":1,"z":32},
+				"isRelativeToParent": true
 			},
 
 
