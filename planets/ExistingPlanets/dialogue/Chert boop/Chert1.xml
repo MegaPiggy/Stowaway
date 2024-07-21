@@ -1,0 +1,196 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Chert</NameField>
+
+
+
+	<DialogueNode>
+		<Name>Questions</Name>
+			
+		<DialogueOptionsList>
+		<DialogueOption>
+		<RequiredPersistentCondition>Mica_Chert</RequiredPersistentCondition>
+				<Text>I heard you delayed your launch date several times! Why’s that?</Text>
+				<DialogueTarget>Chert SW1</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Chert SW1</Name>
+			<Dialogue>
+				<Page>Ah, I’m guessing you heard about this from Mica?</Page>
+				<Page>I hope you didn’t take too long to take off yourself - otherwise, they’ll be telling the future space cadets about how you delayed your launch as well!</Page>
+				<Page>That aside.. The reason I delayed my launch date was because the sand on Ember Twin was flowing to Ash Twin at the time.</Page>
+				<Page>Since I was hoping to explore Ash Twin on my first trip, the sand burying it would’ve made exploring anything rather hard!</Page>
+				<Page>That’s why I opted to delay my launch - though more times than I'd have liked - until the sand began to flow back to Ember Twin.</Page>		
+			</Dialogue>
+		<DialogueOptionsList>
+				<DialogueOption>
+					<Text>Wait, the sand flows <![CDATA[<i>back</i>]]> to Ash Twin?</Text>
+					<DialogueTarget>Chert SW2</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>You explored Ash Twin?</Text>
+					<DialogueTarget>Chert SW3</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Chert SW2</Name>
+			<Dialogue>
+				<Page>Indeed I have. I once spotted some tall Nomai structures on Ash Twin's surface while stargazing back on Timber Hearth.</Page>
+				<Page>Feldspar made no mention of these structures from their expeditions around the star system - meaning there was a good chance these structures had been buried completely by the Twins' shifting sands and had eluded our notice up until then.</Page>
+				<Page>When young Riebeck heard about this discovery, they begged me to fly to Ash Twin to study them in their stead - so I had to oblige!</Page>
+				<Page>From what I could tell, the structures appeared to be some sort of Nomai towers made for stargazing; each one has windows in their roofs to peer out and see the planets and stars.</Page>
+				<Page>I must say, it was quite heartwarming to learn the Nomai shared my love for the stars!</Page>
+				<Page>I looked around for quite some time - but at some point, I realized the sand column had sucked my ship with it back to Ember Twin!</Page>
+				<Page>I had to cut my expedition short to make a distress call back to the village, and call Slate to pick me up. <![CDATA[<Pause>]]> ..I think he was more worried about my ship than me, though.</Page>
+				<Page>Since sand is flowing from Ash Twin to Ember Twin right now, why not check out Ash Twin for yourself, once a little more of its sand drains off?</Page>
+				<Page>You should be able to glean much more about what these structures were made for than I did - especially with that new translator tool of yours. Just be careful where you leave your ship!</Page>
+				</Dialogue>
+		<DialogueOptionsList>
+				<DialogueOption>
+				<RequiredLogCondition>WHS_X1</RequiredLogCondition>
+				<RequiredLogCondition>TT_WARP_TOWERS_X2</RequiredLogCondition>
+					<Text>I already did! Those are Nomai warp towers that connect to the other planets.</Text>
+					<DialogueTarget>Chert SW4</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Tell me more about the Twins' shifting sands!</Text>
+					<DialogueTarget>Chert SW3.5</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Will do!</Text>
+					<DialogueTarget>Chert5</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Chert SW3</Name>
+			<Dialogue>
+				<Page>Why, yes! Haven’t you noticed before?</Page>
+				<Page>Right now, sand is flowing to Ember Twin - but I promise, if you wait, you’ll see the process eventually reverses, causing sand to flow back towards Ash Twin!</Page>
+				<Page>Furthermore, this process seems to happen in very precise intervals; the durations between intervals have been consistent every time we've measured it. It's terribly fascinating!</Page>
+			</Dialogue>
+		<DialogueOptionsList>
+				<DialogueOption>
+					<Text>Huh. Could you tell how long it'd take for the sand to start flowing back to Ash Twin, then?</Text>
+					<DialogueTarget>Chert SW3.5</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+<DialogueNode>
+		<Name>Chert SW3B</Name>
+			<Dialogue>
+				<Page>I'd be glad to!</Page>
+				<Page>Right now, sand is flowing to Ember Twin - but did you know the process eventually reverses? If you wait, you’ll see it eventually flows back to Ash Twin!</Page>
+				<Page>Furthermore, this process seems to happen in very precise intervals; the durations between intervals have been consistent every time we've measured it. It's terribly fascinating!</Page>
+			</Dialogue>
+		<DialogueOptionsList>
+				<DialogueOption>
+					<Text>Huh. Could you tell how long it'd take for the sand to start flowing back to Ash Twin, then?</Text>
+					<DialogueTarget>Chert SW3.5</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Chert SW3.5</Name>
+		<SetCondition>Sandflow</SetCondition>
+			<Dialogue>
+				<Page>I’m afraid that.. might be difficult, since I wasn't keeping track when the sand started flowing.. That makes it harder to know the exact time, since the interval has already started.</Page>
+				<Page>That's why I had to delay my launch date several times, to answer your very first question! I did not anticipate the process taking quite so many Hearthian days to complete.</Page>
+				<Page>Come back once more of the sand has drained off from Ash Twin! I might be able to give you a more precise answer then.</Page>
+				<Page>If you’re feeling impatient, feel free to take a nap by the campfire to pass the time.</Page>
+				<Page>I intentionally set up this camp far from the equator, where the sand column roams - so you need not worry about the sand column wandering this way while you rest.</Page>
+			</Dialogue>
+		<DialogueOptionsList>
+				<DialogueOption>
+					<Text>Cool, cool. Tell me about what you found on Ash Twin, though!</Text>
+					<DialogueTarget>Chert SW2.5</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Good to know! Thanks, Chert.</Text>
+					<DialogueTarget>Chert5</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Chert SW2.5</Name>
+			<Dialogue>
+			<Page>Goodness! That's right, that's what we were discussing at first, wasn't it? My apologies for rambling!</Page>
+				<Page>I once spotted some tall Nomai structures on Ash Twin's surface while stargazing back on Timber Hearth.</Page>
+				<Page>Feldspar made no mention of these structures from their expeditions around the star system - meaning there was a good chance these structures had been buried completely by the Twins' shifting sands and had eluded our notice up until then.</Page>
+				<Page>When young Riebeck heard about this discovery, they begged me to fly to Ash Twin to study them in their stead - so I had to oblige!</Page>
+				<Page>From what I could tell, the structures appeared to be some sort of Nomai towers made for stargazing; each one has windows in their roofs to peer out and see the planets and stars.</Page>
+				<Page>I must say, it was quite heartwarming to learn the Nomai shared my love for the stars!</Page>
+				<Page>I looked around for quite some time - but at some point, I realized the sand column had sucked my ship with it back to Ember Twin!</Page>
+				<Page>I had to cut my expedition short to make a distress call back to the village, and call Slate to pick me up. <![CDATA[<Pause>]]> ..I think he was more worried about my ship than me, though.</Page>
+				<Page>Since sand is flowing from Ash Twin to Ember Twin right now, why not check out Ash Twin for yourself, once a little more of its sand drains off?</Page>
+				<Page>You should be able to glean much more about what these structures were made for than I did - especially with that new translator tool of yours. Just be careful where you leave your ship!</Page>
+				</Dialogue>
+		<DialogueOptionsList>
+				<DialogueOption>
+				<RequiredLogCondition>WHS_X1</RequiredLogCondition>
+				<RequiredLogCondition>TT_WARP_TOWERS_X2</RequiredLogCondition>
+					<Text>I already did! Those are warp towers that the Nomai used to travel to the other planets.</Text>
+					<DialogueTarget>Chert SW4</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>Will do!</Text>
+					<DialogueTarget>Chert5</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Chert SW4</Name>
+			<Dialogue>
+				<Page>Goodness! That's what those towers are?! How.. how could I have missed that?</Page>
+				<Page>This does sound quite plausible.. The model ship and the Little Scouts do utilize some kind of Nomai warp technology that lets us warp them back to a fixed point, don't they?</Page>
+				<Page>Oh, a Nomai warp system right under our noses... If I had been more observant, our space program might be revolutionized by now!</Page>
+				<Page>But, you said that the Nomai used these "warp towers" to travel around their settlements across the star system easily..</Page>
+				<Page>There are Nomai ruins on Timber Hearth as well - so could there be a "warp tower" that connects to Timber Hearth as well? And if so - where would you arrive on Timber Hearth?</Page>
+			</Dialogue>
+		<DialogueOptionsList>
+				<DialogueOption>
+				<RequiredLogCondition>TH_WR EX1</RequiredLogCondition>
+					<Text>There sure is! One of the warp towers travels to the Nomai Ruins outside the village.</Text>
+					<DialogueTarget>Chert SW5</DialogueTarget>
+				</DialogueOption>
+				<DialogueOption>
+					<Text>I'm.. not sure.</Text>
+					<DialogueTarget>Chert SW4.5</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+
+<DialogueNode>
+		<Name>Chert SW4.5</Name>
+			<Dialogue>
+				<Page>Imagine how much easier space travel would be for the space program, if this warp system connected us back to Timber Hearth!</Page>
+				<Page>I would love nothing more than to go investigate for myself while the sand is flowing from Ash Twin.. but I must focus on finishing these star charts!</Page>
+				<Page>Would you kindly investigate in my stead? I shall catch up with you as soon as I finish these charts.</Page>
+			</Dialogue>
+	</DialogueNode>
+
+	
+<DialogueNode>
+		<Name>Chert SW5</Name>
+			<Dialogue>
+				<Page>Oh, what terrific news!</Page>
+				<Page>..What's that? There's GHOST MATTER on the arrival point?!</Page>
+				<Page>(sigh) What terrific news... Oh, how frustrating..</Page>
+				<Page>I suppose until we find a way around ghost matter - or more likely, that patch of ghost matter evaporates with time - the space program will be stuck flying Slate's ships..</Page>
+			</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>
+

@@ -3,6 +3,7 @@
 
 
 	"GlobalMusic": {
+		"endTimesAudio": "planets/assets/endtimes peaceful.wav"
 	},
 
 	"entryPositions": [

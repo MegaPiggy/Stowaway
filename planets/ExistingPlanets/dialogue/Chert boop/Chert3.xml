@@ -1,0 +1,43 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Chert</NameField>
+
+
+
+	<DialogueNode>
+		<Name>Questions</Name>
+			
+		<DialogueOptionsList>
+		<DialogueOption>
+		<RequiredPersistentCondition>Mica_Chert</RequiredPersistentCondition>
+				<Text>I heard you delayed your launch date several times! Why’s that?</Text>
+				<DialogueTarget>Chert SW1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>Sandflow</RequiredCondition>
+				<Text>Um, do you know how long it'll take for sand to flow back to Ash Twin now?</Text>
+				<DialogueTarget>Chert SW S</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Chert SW1</Name>
+			<Dialogue>
+				<Page>..What? Who cares about that now?! Everything's.. everything's about to...!</Page>
+				<Page>..You should have delayed your launch date, hatchling.. You.. You shouldn't have ever left Timber Hearth..</Page>
+				<Page>At least you could have spent a bit more time with everyone in the village, instead of dying alone on this horrible planet, far from home...</Page>	
+			</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Chert SW S</Name>
+			<Dialogue>
+				<Page>Too long... It won't happen in time, now..</Page>
+				<Page>I'm, I'm sorry. I don't think there's.. enough time for the sand to flow back now.</Page>
+				<Page>It's.. It's about to happen already... Oh...</Page>
+				</Dialogue>
+	</DialogueNode>
+
+</DialogueTree>
+
