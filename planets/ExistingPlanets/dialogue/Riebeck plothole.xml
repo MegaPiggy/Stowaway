@@ -274,7 +274,8 @@
 		<Name>RiebeckLearned_7</Name>
 		<SetCondition>Told_Comet</SetCondition>
 		<Dialogue>
-			<Page>Oh, wow. <![CDATA[<i>]]>Wow.<![CDATA[</i>]]> So that’s how the Nomai died?</Page>
+			<Page>Oh, wow. <![CDATA[<i>]]>Wow.<![CDATA[</i>]]> So that’s how the Nomai died? All.. in an instant?</Page>
+			<Page>To think, there's stuff like that out in space that could just kill everyone without warning.. Even a species as advanced as the Nomai.</Page>
 			<Page>I know it was a long time ago, but still.. That’s... really sad, isn’t it?</Page>
 			<Page>Stars above, it’s lucky we weren't around yet when that happened.</Page>
 			<Page>But... I guess if I hadn’t wanted to learn why the Nomai disappeared, I’d never have left Timber Hearth and come out here, or had any of these adventures.</Page>
@@ -298,7 +299,8 @@
 		<Name>RiebeckLearned_7_B</Name>
 		<SetCondition>Told_Comet</SetCondition>
 		<Dialogue>
-			<Page>Oh, wow. <![CDATA[<i>]]>Wow.<![CDATA[</i>]]> So that’s how the Nomai died?</Page>
+			<Page>Oh, wow. <![CDATA[<i>]]>Wow.<![CDATA[</i>]]> So that’s how the Nomai died? All.. in an instant?</Page>
+			<Page>To think, there's stuff like that out in space that could just kill everyone without warning.. Even a species as advanced as the Nomai.</Page>
 			<Page>I know it was a long time ago, but still.. That’s... really sad, isn’t it?</Page>
 			<Page>Stars above, it’s lucky we weren't around yet when...</Page>
 			<Page>Wait.. No, that's not right! You found a mural of our ancestors in the waterways, right? That means we must have been around at the time that happened to the Nomai!</Page>
@@ -419,14 +421,8 @@
 			<Page>Thank you, Cassava.</Page>
 			<Page>.. Hey, you wanna sit down and pull up a marshmallow stick for a bit?</Page>
 			<Page>You've done enough for a first trip, don't you think?</Page>
-			<Page>Space is scary, and time is cruel.. <![CDATA[<Pause>]]> .. But I think the best we can do to honor Cassava, and the Nomai as a whole, is to just try to enjoy every moment of our time existing in this universe.</Page>
-			<Page>...</Page>
-			<Page>..You know what? I'm done being scared.</Page>
-			<Page>The Hanging City's right in front of me, and I've just been sitting here and playing my banjo for days. If I just let my fears keep me here.. I'm gonna be trapped here forever, aren't I?</Page>
-			<Page>I'm gonna get up, and enjoy every moment I've got in this universe! And that starts with... Ooh.</Page>
-			<Page>Ooooh. Cramp.</Page>
-			<Page>Bad cramp, oh gosh my poor leg is cramped. Ohh, I probably shouldn't been sitting here and playing my banjo for days....</Page>
-			<Page>N-never mind. I'll face my fears when this cramp goes away...</Page>
+			<Page>Space is scary, but..</Page>
+			<Page>Knowing how much they did for us to let us experience it.. I think the best we can do to honor Cassava, and the Nomai as a whole, is to just try to enjoy every moment of our time existing in this universe.</Page>
 		</Dialogue>
 	</DialogueNode>
 
