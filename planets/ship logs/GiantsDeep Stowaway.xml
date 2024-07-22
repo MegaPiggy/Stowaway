@@ -77,7 +77,7 @@
         
         <ExploreFact>
             <ID>Study EX1</ID> 
-            <Text>A shore on Bramble Island high enough to be safe from waves, where Nomai studied frozen jellyfish.</Text> 
+            <Text>A high shore on Bramble Island safe from waves where the Nomai studied frozen jellyfish.</Text> 
         </ExploreFact>
            <ExploreFact>
             <ID>Study EX2</ID> 
@@ -85,12 +85,8 @@
          </ExploreFact>
           <ExploreFact>
             <ID>Study EX3</ID> 
-            <Text>Nomai noticed the planet becoming completely dark, before what appeared to be a giant column of water launched the island into space.</Text>
+            <Text>The Nomai noticed Giant's Deep becoming completely dark, before what appeared to be a giant column of water launched the island into space.</Text>
         </ExploreFact>
-           <ExploreFact>
-            <ID>Study EX4</ID> 
-            <Text>Gabbro slept at this camp and woke up to find a cyclone had lifted the island into space. (He got soaked, but was otherwise fine.)</Text> 
-         </ExploreFact>
 </Entry>
       
 
@@ -121,9 +117,13 @@
             <ID>Pioneer EX2</ID> 
             <Text>The expedition team moved their supplies into the island's interior for shelter.</Text> 
         </ExploreFact>
+             <ExploreFact>
+            <ID>Pioneer EX3B</ID> 
+            <Text>The Nomai recorded their first encounter with a cyclone on the planet here. A Nomai named Thatch grumbled about becoming soaked again after the island plunged back into the ocean from the atmosphere.</Text> 
+        </ExploreFact>
          <ExploreFact>
             <ID>Pioneer EX3</ID> 
-            <Text>A Nomai named Melorae stressed the importance of protecting themselves from cyclones, or seeking a landmass clear of their path entirely.</Text> 
+            <Text>A Nomai named Melorae stressed the importance of protecting themselves from cyclones, or seeking a landmass clear of the cyclones' path entirely.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>Pioneer EX4</ID> 
@@ -149,7 +149,7 @@
 
         <ExploreFact>
            <ID>CB_EX1</ID> 
-            <Text>A bay on the opposite side of the Construction Yard flooded by ghost matter.</Text> 
+            <Text>A bay on one side of the Construction Yard flooded by ghost matter.</Text> 
         </ExploreFact>
                <ExploreFact>
             <ID>CB_EX2A</ID> 
@@ -171,7 +171,7 @@
              <ExploreFact>
             <IgnoreMoreToExplore/>
             <ID>CB_EX5</ID> 
-            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to warp in to charge a return warp that would allow them to return them to the surface.</Text> 
+            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to warp in, to charge a return warp that would allow them to warp back to the surface.</Text> 
         </ExploreFact>
 </Entry>
 
@@ -205,7 +205,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>Cove EX2</ID> 
-            <Text>A Nomai named Daz proposed to a Nomai named Cassava in this cove! Strangely, Daz appeared to celebrate Cassava's acceptance before even receiving an answer.</Text> 
+            <Text>A Nomai named Daz proposed to a Nomai named Cassava in this cove! Strangely, Daz appeared to celebrate Cassava's acceptance before receiving an answer.</Text> 
         </ExploreFact>
         <ExploreFact>
             <IgnoreMoreToExplore/>
@@ -258,6 +258,10 @@
             <ID>LC EX1</ID>
                   <Text>A great tower that once served as a Nomai settlement, built on an island within the eye of the hurricane.</Text> 
         </ExploreFact>
+          <ExploreFact>
+            <ID>LC EX4</ID> 
+            <Text>Objects left on a quantum shard will travel with them.</Text> 
+        </ExploreFact>
         <ExploreFact>
             <ID>LC EX2</ID> 
             <Text>The Nomai abandoned this tower due to extenuating circumstances, chronicled in scrolls within the tower.</Text> 
@@ -269,10 +273,6 @@
         <ExploreFact>
             <ID>LC EX3</ID> 
             <Text>A Nomai named Melorae discovered that quantum objects could be locked in place while observing them through photos. Her apprentice proudly celebrated them as the greatest quantum geologists of their clan.</Text> 
-        </ExploreFact>
-         <ExploreFact>
-            <ID>LC EX4</ID> 
-            <Text>Objects left on a quantum shard travel with them.</Text> 
         </ExploreFact>
 
     <Entry>

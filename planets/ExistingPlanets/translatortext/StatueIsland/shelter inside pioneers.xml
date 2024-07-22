@@ -45,7 +45,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		THATCH: Imagine if we simply returned to the shuttle and left this terrifying planet right now instead!
+		THATCH: Imagine if we returned to the shuttle and left this terrifying planet right now instead!
 		</Text>
 	</TextBlock>
 	<TextBlock>	
@@ -69,7 +69,10 @@
 				
 
 <ShipLogConditions>
-	
+	<RevealFact>
+			<FactID>Pioneer EX3B</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
 		<RevealFact>
 			<FactID>Pioneer EX3</FactID>
 			<Condition>8</Condition>

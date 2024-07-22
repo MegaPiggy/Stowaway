@@ -5,15 +5,34 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		IDAEA: I do not understand! Why have we warped here? Oh, we'll be late for the test today at this rate...
+		IDAEA: I do not understand! Why have we warped here?
 		</Text>
 	</TextBlock>
+
 	<TextBlock>
-		<ID>2</ID>
+	<ID>2</ID>
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		PYE: Idaea, a cyclone approaches! We should return to <![CDATA[<color=lightblue>Ash Twin</color>]]> at once to await Poke; I'm sure she will know the way to the <![CDATA[<color=orange>Deep Storm Station!</color>]]>
+		IDAEA: Oh, we'll be late for the test today at this rate...
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		PYE: Idaea, a cyclone approaches... I..I believe we should leave this planet at once!
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		IDAEA: Let us return to <![CDATA[<color=lightblue>Ash Twin</color>]]> at once to await Poke! I'm sure she will know the way to the <![CDATA[<color=orange>Deep Storm Station..</color>]]> Quickly, Pye!
 		</Text>
 	</TextBlock>
 

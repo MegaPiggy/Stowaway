@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Oh, Daz, look at the sunset on Giant's Deep's horizon! I'd forgotten how short the days last on this island and Statue Island..
+		CASSAVA: Oh, Daz, look at the sunset on Giant's Deep's horizon! I'd forgotten how short the days last on this island and <![CDATA[<color=orange>Statue Island..</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -98,7 +98,7 @@
 		<ID>13</ID>
 		<ParentID>12</ParentID>
 		<Text>
-		DAZ: The test today was a success, Cassava! AND we're engaged! Yes!!
+		DAZ: The test was a success, Cassava! AND we're engaged! Yes!!
 		</Text>
 	</TextBlock>
 		<TextBlock>

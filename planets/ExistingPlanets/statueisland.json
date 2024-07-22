@@ -37,7 +37,24 @@
 		"details":
 		[		
 			
-
+		{
+			"rename":"statue beach TREE",
+			"path":"QuantumMoon_Body/Sector_QuantumMoon/State_GD/Interactables_GDState/GDState_Quantum_Objects/Quantum_TreeClump_1/Rock_Tree",
+			"keepLoaded": true,
+			"scale": 0.5,
+			"position": {"x": -49.5157, "y": -10.5445, "z": -101.4368},
+			"rotation": {"x": 7.5295, "y": 187.8105, "z": 353.4385},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"statue beach o2",
+			"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1/OxygenVolume/",
+			"scale": 4,
+			"position": {"x": -0.6327, "y": 0.1141 , "z": 10.3748},
+			"rotation": {"x": 6.5138, "y": 171.3258, "z": 352.4292},
+			"parentPath": "Sector_StatueIsland/statue beach TREE",
+			"isRelativeToParent": true
+		},
 			{
 				"rename":"statue beach campfire",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Interactables_SouthPole/SouthPole_VisibleFromFar/Prefab_HEA_Campfire",
@@ -48,8 +65,8 @@
 			{
 				"rename":"sleepbag",
 				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteSleepingBag/",
-				"position": {"x": -50.6279, "y": -12.0321, "z": -109.6111},
-				"rotation": {"x": 3.5201, "y": 152.2791, "z": 350.1777},
+				"position": {"x": -49.9406, "y": -11.7903, "z": -109.0002},
+				"rotation": {"x": 7.2019, "y": 149.6153, "z": 350.1777},
 				"isRelativeToParent": true
 			},
 			{
