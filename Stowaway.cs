@@ -289,7 +289,7 @@ public class Stowaway : ModBehaviour
 		initTractorBeams(body);
 		foreach (Campfire campfire in body.GetComponentsInChildren<Campfire>(true))
 		{
-			campfire.gameObject.AddComponent<TornadoIslandCampfireDetector>();
+			campfire.gameObject.GetAddComponent<TornadoIslandCampfireDetector>();
 		}
 		if (body.FindChild("RepellentVolume") == null)
 		{
