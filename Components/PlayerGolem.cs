@@ -62,7 +62,7 @@ namespace Stowaway.Components
 			var relativePlatformRotation = platformBody.transform.InverseTransformRotation(_platform._slavePlatform.transform.rotation);
 
 			detachFromShip();
-			Teleportation.teleportPlayerTo(platformBody, relativePlatformPosition + _storedPosition, Vector3.zero, Vector3.zero, Vector3.zero, relativePlatformRotation);
+			Teleportation.teleportPlayerTo(platformBody, relativePlatformPosition + _storedPosition, relativePlatformRotation);
 
 			Locator.GetPlayerTransform().position = _platform._slavePlatform.transform.TransformPoint(_storedPosition);
 			Locator.GetPlayerTransform().rotation = _platform._slavePlatform.transform.rotation * _storedRotation;
@@ -81,7 +81,7 @@ namespace Stowaway.Components
 			var relativePlatformRotation = platformBody.transform.InverseTransformRotation(_platform.transform.rotation);
 
 			detachFromShip();
-			Teleportation.teleportPlayerTo(platformBody, relativePlatformPosition + _storedPosition, Vector3.zero, Vector3.zero, Vector3.zero, relativePlatformRotation);
+			Teleportation.teleportPlayerTo(platformBody, relativePlatformPosition + _storedPosition, relativePlatformRotation);
 
 			Locator.GetPlayerTransform().position = _platform.transform.TransformPoint(_storedPosition);
 			Locator.GetPlayerTransform().rotation = _platform.transform.rotation * _storedRotation;

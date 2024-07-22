@@ -10,6 +10,24 @@ namespace Stowaway
 			return Locator.GetPlayerBody();
 		}
 
+		public static void teleportPlayerTo(Transform teleportTo)
+		{
+			var body = teleportTo.GetAttachedOWRigidbody();
+			var relativePosition = body.transform.InverseTransformPoint(teleportTo.position);
+			var relativeRotation = body.transform.InverseTransformRotation(teleportTo.rotation);
+			teleportPlayerTo(body, relativePosition, relativeRotation);
+		}
+
+		public static void teleportPlayerTo(OWRigidbody teleportTo, Vector3 position, Vector3 rotation)
+		{
+			teleportPlayerTo(teleportTo, position, Quaternion.Euler(rotation));
+		}
+
+		public static void teleportPlayerTo(OWRigidbody teleportTo, Vector3 position, Quaternion rotation)
+		{
+			teleportPlayerTo(teleportTo, position, Vector3.zero, Vector3.zero, Vector3.zero, rotation);
+		}
+
 		public static void teleportPlayerTo(OWRigidbody teleportTo, Vector3 position, Vector3 velocity, Vector3 angularVelocity, Vector3 acceleration, Quaternion rotation)
 		{
 			if (teleportTo)
