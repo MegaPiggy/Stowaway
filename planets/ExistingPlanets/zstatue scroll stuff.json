@@ -17,7 +17,8 @@
 				"position": {"x": 0, "y": 0, "z":0},
 				"rotation": {"x": 0, "y": 0, "z":0},
 				"isRelativeToParent": true,
-				"keepLoaded": true
+				"keepLoaded": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
 			},
 
 
@@ -28,7 +29,8 @@
 				"rotation": {"x": 0, "y": 228, "z": 180},
 				"stretch": {"x":1.1,"y":1.2,"z":1},
 				"keepLoaded": true,
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
 			},
 			{
 				"rename": "Decoy Scroll 2 husk skin",

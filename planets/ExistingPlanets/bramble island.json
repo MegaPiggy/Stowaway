@@ -23,32 +23,9 @@
 
 
 
-		"dialogue": [
-			{
-				"xmlFile": "planets/ExistingPlanets/dialogue/Notes/Gabbro bramblenado nap.xml",
-				"pathToAnimController": "Sector_BrambleIsland/hammock/Gabbro_Hammock02:Controller_Squash/Gabbro recording",
-				"isRelativeToParent": true,
-				"radius": 0.5,
-				"range":3,
-				"flashlightToggle": "turnOffThenOn"
-			}
-		],
+	
 		"details": [
-			{
-				"rename":"hammock",
-				"path":"GabbroIsland_Body/Sector_GabbroIsland/Interactables_GabbroIsland/Traveller_HEA_Gabbro/Props_HEA_Gabbro_ANIM_IdleFlute",
-				"position":{"x": -47.0166,"y": 20.1424,"z": 19.6194},
-				"rotation":{"x":349.4913,"y": 357.0988,"z": 11.4008},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Gabbro recording",
-				"path":"Moon_Body/Sector_THM/Interactables_THM/Interactibles_SignalDish/Prefab_HEA_Recorder",
-				"parentPath": "Sector_BrambleIsland/hammock/Gabbro_Hammock02:Controller_Squash",
-				"position": {"x": 0, "y": -0.0291, "z": 0},
-				"rotation": {"x": 4.669, "y": 40.4547, "z": 0},
-				"isRelativeToParent": true
-			},
+		
 
 		{
 			"rename":"intro tablet",

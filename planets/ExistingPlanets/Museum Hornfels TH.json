@@ -204,7 +204,14 @@
 
 		
 		"details": [
-
+			{
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
+				"position": {"x": -0.0041, "y": -0.6562 , "z": -0.211},
+				"rotation": {"x": 0.0075, "y": 180.3452, "z": -0.0019},
+				"scale":6.5,
+				"parentPath": "Sector_TH/Prefab_NOM_RemoteViewer",
+				"isRelativeToParent": true
+			},
 			{
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
 				"rename":"Forest GM wisps 1",

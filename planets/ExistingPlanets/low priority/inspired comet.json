@@ -8,7 +8,7 @@
 		"audioVolumes": [
 			{
 				"audio": "OW_NM_GravityCannonAmbience",
-				"radius": 110,
+				"radius": 160,
 				"track": "environment",
 				"position": {"x":158.1198,"y": -4.6891,"z": -2.2716},
 				"isRelativeToParent": true,
@@ -118,6 +118,18 @@
 	]
 },
 	
+	"ShockEffect": {
+		
+			"assetBundle": "planets/bundle/stowaway3",
+			"meshPath":"assets/models/theinspired (1).prefab"
+		},
+	"MapMarker": {
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"hideInMap": true
+	},
+
 	"Base": {
 		"surfaceSize": 100,
 		"gravityVolumePriority": 10,
@@ -126,7 +138,7 @@
 		"gravityFallOff": "linear"
 	},
 	"Orbit": {
-		"showOrbitLine": true,
+		"showOrbitLine": false,
 		"primaryBody": "Giant's Deep",
 		"semiMajorAxis" : 2400,
 		"siderealPeriod": 0,
