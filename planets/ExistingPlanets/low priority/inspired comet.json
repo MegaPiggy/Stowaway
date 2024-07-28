@@ -70,8 +70,8 @@
 		{
 			"rename": "gravitycannon volume",
 			"path": "BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Interactables_GravityCannon/CannonForceVolume/",
-			"position": {"x":158.1198,"y": -4.6891,"z": -2.2716},
-			"rotation": {"x":0,"y": 180,"z": 98.6799},		
+			"position": {"x":184.8723,"y": 3.52,"z": 0.6393},
+			"rotation": {"x":0,"y": 180,"z": 90},		
 			"isRelativeToParent": true,
 			"scale":3,
 			"keepLoaded": true

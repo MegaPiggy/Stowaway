@@ -260,7 +260,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>LC EX4</ID> 
-            <Text>Objects left on a quantum shard will travel with them.</Text> 
+            <Text>Objects left on a quantum shard will travel with the shard.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>LC EX2</ID> 

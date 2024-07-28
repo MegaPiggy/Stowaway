@@ -456,8 +456,9 @@
 				"rename":"No cheese tree",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
-				"position": {"x": -7.1196,"y": 0.3302,"z": 4.3445},
+				"position": {"x": -7.1196,"y": 0.0302,"z": 4.3445},
 				"rotation": {"x": 0,"y": 59.7259, "z": 0},
+				"stretch": {"x":1,"y":1.4,"z":1},
 				"parentPath": "Sector_GD/DSS otherside scrollshelf 1",
 				"isRelativeToParent": true
 			},
@@ -598,8 +599,8 @@
 			{
 				"rename":"Cool Projection Floor Pool",
 				"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
-				"scale":33,
-				"position":{"x": -4.2781,"y": -3.7014,"z": -12.0322},
+				"stretch": {"x":33,"y":1,"z":33},
+				"position":{"x": -4.2781,"y": -3.7014,"z": -11.9},
 				"rotation":{"x":291.7911,"y": 237.3569,"z": 304.5872},
 				"isRelativeToParent": true
 			},

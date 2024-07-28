@@ -5,7 +5,7 @@
         <ID>TH_MICA</ID>
         <Name>Mica</Name>
 
-        <Curiosity>None</Curiosity>
+        <Curiosity>STOWAWAYS</Curiosity>
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>MICA R1</ID> 
