@@ -28,7 +28,7 @@
 
 	"Atmosphere": {
 		"fogDensity": 0.5,
-		"fogRampPath": "planets/assets/fogcolorramp purple.png",
+		"fogRampPath": "planets/assets/fogcolorramp unblended.png",
 		"hasShockLayer": false,
 		"fogSize": 1100
 	},
@@ -123,6 +123,17 @@
 					"isRelativeToParent": true,
 					"nomaiText":
 				[
+					{
+						"id": "TH_Sanctuary",
+						"location": "a",
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/DSS final note.xml",
+						"seed":5,
+						"arcInfo": [
+							{},
+							{"position": {"x":0.7508,"y": 0.1441},"zRotation": 174.9183,"mirror": false},
+							{},{},{},{},{},{},{},{"position": {"x":-1.8202,"y": -0.4096},"zRotation": 224.6098,"mirror": true}
+						]
+					},
 					{
 						"id": "GD_ConstructionYard",
 						"location": "a",
@@ -234,15 +245,30 @@
 				"decalPath": "planets/assets/voyager th icon.png",
 				"stones": [{
 					"rename":"DSS Cassava TH stone",
-					"position": {"x": -4.7489,"y": -2.7744,"z": -11.6363},
-					"rotation": {"x": 11.6644,"y": 87.4873,"z": 77.4218},
+					"position": {"x": 3.9064,"y": 0.4863,"z": -5.9507},
+					"rotation": {"x": 334.0279,"y": 180.6882,"z": 1.0472},
+					"parentPath": "Sector_GD/Table clump",
 					"isRelativeToParent": true
 				}]
 			}
 		],
 		"details": [
-
-
+			{
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
+				"rename":"GM wisp wall 1",
+				"position": {"x": 12.6579,"y": 2.2728,"z": 8.0219},
+				"rotation": {"x": 351.3833,"y": 268.0516,"z": 102.3966},
+				"isRelativeToParent": true,
+				"stretch": {"x":4,"y":4,"z":2}
+			},
+			{
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
+				"rename":"GM wisp wall 2",
+				"position": {"x": -8.0628,"y": -13.965,"z": 8.0219},
+				"rotation": {"x": 283.4514,"y": 155.184 ,"z": 204.1533},
+				"isRelativeToParent": true,
+				"stretch": {"x":4,"y":4,"z":2}
+			},
 
 
 			
@@ -493,7 +519,7 @@
 			{
 				"rename":"Cassava",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_SimpleChair/Props_NOM_SkeletonSeated/Props_NOM_Skeleton_Seated_B_Wall",
-				"position":{"x":3.9215,"y": 0.0287,"z": -5.8189},
+				"position":{"x":3.9215,"y": -0.2749,"z": -5.8189},
 				"rotation":{"x":338.8658,"y": 39.9296,"z": 2.8193},
 				"parentPath": "Sector_GD/Table clump",
 				"isRelativeToParent": true
@@ -600,7 +626,7 @@
 				"rename":"Cool Projection Floor Pool",
 				"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
 				"stretch": {"x":33,"y":1,"z":33},
-				"position":{"x": -4.2781,"y": -3.7014,"z": -11.9},
+				"position":{"x": -4.2654,"y": -3.5778,"z": -12.1},
 				"rotation":{"x":291.7911,"y": 237.3569,"z": 304.5872},
 				"isRelativeToParent": true
 			},
@@ -608,7 +634,7 @@
 				"rename":"DSS hidden collider floor",
 				"assetBundle": "planets/bundle/dev",
 				"path": "assets/models/devcom/cube.prefab",
-				"position": {"x": -4.6257, "y": -3.2219, "z": -12.4668},
+				"position": {"x": -4.6257, "y": -3.2219, "z": -12.5668},
 				"rotation": {"x": 321.1448, "y": 100.1977, "z": 75.0104},
 				"stretch": {"x":32,"y":1,"z":32},
 				"isRelativeToParent": true
@@ -757,15 +783,7 @@
 			},
 		
 			
-			{
-				"rename": "DSS C6 recording",
-				"type":"recorder",
-				"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS recording.xml",
-				"position": {"x": 4.0445,"y": 0.6863,"z": -5.9598},
-				"rotation": {"x": 5.2882,"y": 75.6673,"z": 0.0497},
-				"parentPath": "Sector_GD/Table clump",
-				"isRelativeToParent": true
-			},
+			
 			{
 				"rename": "DSS weapon Scroll",
 				"type":"scroll",
@@ -780,7 +798,7 @@
 				"rename": "DSS Jellyfish answer Scroll",
 				"type":"scroll",
 				"xmlFile": "planets/ExistingPlanets/translatortext/DSS/jellyfish answer survivor.xml",
-				"seed":2,
+				"seed":3,
 				"position": {"x": 0.9008,"y": 1.8068,"z": 0.6742},
 				"rotation": {"x": 8.7174,"y": 348.6031, "z": 211.2005},
 				"parentPath": "Sector_GD/scrollshelf b1 1",

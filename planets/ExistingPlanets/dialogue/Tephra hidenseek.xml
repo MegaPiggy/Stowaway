@@ -112,8 +112,9 @@
 		<Name>Teph trail 2</Name>
 		<Dialogue>
 			<Page>Yeah, the weird purple rock in the exhibit right outside the museum! It's <![CDATA[<i>so</i>]]> good at hiding!</Page>
-			<Page>Oh, and I don't mean when it jumps behind you and scares you! I mean <![CDATA[<color=orange>when it disappears completely!</color>]]></Page>
-			<Page>Galena and I both looked all over Timber Hearth to find where it goes when it disappears. But neither of us ever found its <![CDATA[<color=orange>super secret hiding spot!</color>]]></Page>
+			<Page>Oh, I don't mean when it jumps behind you and scares you..</Page>
+			<Page>I mean when it disappears completely!</Page>
+			<Page>Galena and I both looked all over Timber Hearth to find where it goes when it disappears from that place. But neither of us ever found its <![CDATA[<color=orange>super secret hiding spot!</color>]]></Page>
 			<Page>Maybe you can help us find where it goes, astronaut.</Page>
 			<Page>If you find it, that'd make you the best seeker in the village!</Page>
 		</Dialogue>

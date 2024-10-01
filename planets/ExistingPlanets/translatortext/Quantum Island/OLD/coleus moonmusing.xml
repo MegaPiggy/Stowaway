@@ -5,7 +5,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-		PLUME: Friends, I shall be leaving for Ember Twin soon, ahead of your travels. I wish you all the best on your expedition to the Quantum Moon.
+		COLEUS: We have never before attempted landing on a quantum celestial body.. As the expedition date approaches, my.. My confidence wanes.
 		</Text>
 	</TextBlock>
 
@@ -13,7 +13,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-		MELORAE: Oh, Plume! Have you heard of the new suits made by Oeno? You must don them before you depart!
+		COLEUS: Our instruments appear unable to receive any data to allow us to probe into its mysterious interior, and its thick clouds obscure our sight from anything within.
 		</Text>
 	</TextBlock>
 
@@ -21,40 +21,30 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			MELORAE: The expedition team to the forested planet discovered a new type of ore which appears to have fantastically heat-resistant properties.</Text>
+			COLEUS: What dangers could lie in wait in those clouds? Would we.. even be able to sense where we are in the solar system?
+		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-	MELORAE: Oeno was able to integrate these new materials into our spacesuits, greatly improving their durability and insulative properties.</Text>
+COLEUS: And when it disappears... Would we disappear with it?</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>3</ParentID>
 		<Text>
-	MELORAE: As there is little shelter on Ember Twin's south pole, I hope this new suit should make the heat from the sun far more bearable during your visit!</Text>
+	COLEUS: I have my friends, and Plume and Phlox will be watching for us from afar. I have faith.. Even if we disappear, they will find us.</Text>
 	</TextBlock>
 
 		<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: Imagine if we had such wondrous equipment when we were stranded on Ember Twin, Melorae.</Text>
+		COLEUS: And if we were to disappear, it would at least be in the pursuit of knowledge. I hope to become one with the universe.</Text>
 	</TextBlock>
-	<TextBlock>
-		<ID>7</ID>
-		<ParentID>6</ParentID>
-		<Text>
-		MELORAE: Then I imagine we might begin to miss the sun's warmth on this stormy, sunless planet - which I have not!</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>8</ID>
-		<ParentID>7</ParentID>
-		<Text>
-		PLUME: You have my gratitude, Melorae. I shall indeed seek one of these suits before my departure.</Text>
-	</TextBlock>
+	
 
 
 <ShipLogConditions>

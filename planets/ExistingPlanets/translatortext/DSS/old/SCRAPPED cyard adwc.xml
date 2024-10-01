@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		POKE: The installation of the <![CDATA[<color=orange>paired warp cores</color>]]> in the core of the <![CDATA[<color=orange>Deep Storm Station</color>]]> is complete, my friends!
+		POKE: The installation of the paired warp cores in the core of the <![CDATA[<color=orange>Deep Storm Station</color>]]> is complete, my friends!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		POKE: After the test, we will be able to study how conducting such vast quantities of energy may affect both warp cores, allowing us to better refine and improve the advanced warp core we are crafting for the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		POKE: After the test, we will be able to study how conducting high quantities of energy will affect the warp cores, allowing us to better refine and improve the advanced warp core we are crafting for the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		CASSAVA: My deepest gratitude for your hard work, Poke. After the test is complete, could we perhaps.. repurpose these warp cores for building the warp pads connecting Giant's Deep to Ash Twin?
+		CASSAVA: My gratitude for your hard work, Poke. After the test is complete, could we perhaps.. repurpose these warp cores for the warp tower connecting <![CDATA[<color=lightblue>Giant's Deep</color>]]> to <![CDATA[<color=lightblue>Ash Twin?</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		POKE: We could, since <![CDATA[<color=orange>these warp cores have been paired.</color>]]> But it would be a waste of warp cores engineered to handle far stronger energy... Oh, you're just nagging me about Giant's Deep warp pad again.
+		POKE: We could, as the warp cores are paired! But it would be a waste of warp cores engineered to handle far stronger energy... Oh, you were just nagging me about <![CDATA[<color=lightblue>Giant's Deep's</color>]]> warp tower once more.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		POKE: Your helpful, <![CDATA[<i>daily,</i>]]> reminders are not needed, Cassava: the <![CDATA[<color=orange>Black Hole Forge</color>]]> is already working as fast as it can! All I can do is promise that it is being worked on.
+		POKE: Your helpful, <![CDATA[<i>daily,</i>]]> reminders are not needed, Cassava! All I can do is promise that it is being worked on..
 		</Text>
 	</TextBlock>
 

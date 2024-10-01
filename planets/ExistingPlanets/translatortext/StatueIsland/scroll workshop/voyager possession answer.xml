@@ -15,7 +15,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: To start: your first observation is indeed an intended feature! The memory storage systems allow one voyager (per mask) to remain on standby when disconnected, returning them to that exact position when reconnected.
+		DAZ: To your first observation: the memory storage systems allow one voyager (per mask) to remain on standby when disconnected, returning them to that exact position when reconnected.
 		</Text>
 	</TextBlock>
 	
@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: This was done to facilitate a quick return to voyages far from the projection pool the voyage originally travels to!
+		DAZ: This allows Nomai disconnected from their voyager to quickly return to voyages far from the projection pool!
 		</Text>
 	</TextBlock>
 
@@ -33,7 +33,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: However: it appears this system currently fails to discriminate between the original host and any new users when a second Nomai voyages to the same destination, from the same projection pool.
+		DAZ: However: it appears the system currently fails to discern between the original host, and any new Nomai who voyage to the same destination (from the same projection pool.)
 		</Text>
 	</TextBlock>
 
@@ -42,7 +42,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		DAZ: As a result, any Nomai voyaging under these circumstances will be connected to any previous Nomai's outstanding voyagers, causing them to inherit its location.
+		DAZ: As a result, if a previous Nomai leaves a voyager waiting on standby, a new Nomai using the voyager stone will be connected to it, inheriting its location.
 		</Text>
 	</TextBlock>
 	
@@ -51,7 +51,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Furthermore, as the voyager stones use a paired Nomai's memory mask to allow them to receive transmissions from the voyager...
+		DAZ: Furthermore, as a result of this connection to a previous individual's voyager, the voyager then becomes connected to both memory masks.
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Voyaging to the same destination from the same projection pool causes connection to any standby voyagers connected to another memory mask, causing both memory masks to share the voyage.
+		DAZ: I suspect that is likely what caused your experiences to be streamed to Coleus' memory mask.
 		</Text>
 	</TextBlock>
 
@@ -70,7 +70,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>		
-			OENO: I see! That must be why Coleus and I received visions from each other's voyages.. My deepest gratitude for your quick work in diagnosing these issues, Daz!
+			OENO: How illuminating! It appears there is still much work to complete on this budding, but very promising technology.
 		</Text>
 	</TextBlock>
 
@@ -79,7 +79,7 @@
 		<ParentID>8</ParentID>
 		<LocationA />
 		<Text>
-			OENO: In this case: until these issues can be amended, we shall simply be mindful of disposing of our voyagers, so we may avoid unwittingly sharing our voyages with each other!
+			OENO: In this case: until these issues can be amended, Coleus and I shall simply be mindful of disposing of our voyagers, to avoid unwittingly sharing voyages with each other!
 		</Text>
 	</TextBlock>
 

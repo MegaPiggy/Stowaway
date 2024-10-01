@@ -1,0 +1,93 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+
+	<![CDATA[<i>Excavation Site</i>]]>
+	
+
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			COLEUS: My guess is <![CDATA[<color=lightblue>Giant's Deep.</color>]]></Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			MELORAE: My guess is the sixth location.</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			PHLOX: The <![CDATA[<color=lightblue>Quantum Moon</color>]]> was orbiting <![CDATA[<color=lightblue>Giant's Deep!</color>]]> Coleus wins the phantom moon game again!</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			MELORAE: I do not believe in such coincidences! Coleus, did you leave a pair of eyes at the <![CDATA[<color=orange>Quantum Moon locator?</color>]]> You have won too many games in succession!
+			</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			PHLOX: Oh! Melorae, Melorae! The tentacled species are visiting the surface again!</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		PHLOX: Whenever <![CDATA[<color=lightblue>Giant's Deep</color>]]> wins, the tentacled species come up to visit us! They must be happy to meet the <![CDATA[<color=lightblue>Quantum Moon</color>]]> too!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		MELORAE: I.. I have never noticed this trend before. Could the tentacled species be drawn to the surface by the effect of the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity on their water-composed bodies?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		COLEUS: I have a pair of eyes on <![CDATA[<color=lightblue>Ember Twin</color>]]> right now: I can fully confirm the surfacing phenomenon occurs each time the <![CDATA[<color=lightblue>Quantum Moon</color>]]> visits. Phlox! You may have solved the mystery of the surfacing phenomenon at last!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		MELORAE: Of note: as Coleus has just proven he was cheating using the <![CDATA[<color=orange>Quantum Moon locator,</color>]]> in addition to Phlox's incredible findings, I find myself to be the winner of the phantom moon game!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>LCJ EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LCJ EX2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LCJ EX3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LCJ EX4</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+
+</ShipLogConditions>
+
+
+</NomaiObject>

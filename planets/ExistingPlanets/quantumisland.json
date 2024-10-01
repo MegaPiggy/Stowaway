@@ -671,11 +671,11 @@
 	
 	{
 		"rename":"Ember twin scroll",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/embertwin heatresist.xml",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/phlox clouds.xml",
 		"position": {"x": -0.2072, "y": 1.2248,"z": 0.4005},
 		"rotation": {"x": 0.6397, "y": 0.746, "z": 63.43510},
 		"type":"scroll",
-		"seed":2,
+		"seed":4,
 		"parentPath": "Sector_QuantumIsland/scroll shelf 1",
 		"isRelativeToParent": true
 	},
@@ -702,9 +702,32 @@
 		"rename":"Sunken Pool Jelly scroll",
 		"type":"scroll",
 		"parentPath": "Sector_QuantumIsland/jelly scroll light",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum pool scroll.xml",
 		"isRelativeToParent": true,
-		"seed":4
+		"arcInfo": [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{
+					"position": {"x":-1.8623,"y": 1.9383},
+					"zRotation": 102.7729,
+					"mirror": true
+				},
+				{
+					"position": {"x":-1.9754,"y": 0.8989},
+					"zRotation": 293.1344,
+					"mirror": false
+				},
+				{
+					"position": {"x":-0.9897,"y": 0.0315},
+					"zRotation": 167.9305,
+					"mirror": false
+				}
+			],
+				"seed":0,
+				"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum pool scroll phantgame.xml"
 	},
 	
 

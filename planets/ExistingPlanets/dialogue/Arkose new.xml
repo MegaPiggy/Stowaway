@@ -40,7 +40,7 @@
 		<Dialogue>
 			<Page>Huh?.. <![CDATA[<Pause>]]>(pant)<![CDATA[<Pause>]]> Yeah, duh!</Page>
 			<Page>Oof, my arm’s tired from throwing...</Page>
-			<Page>But yeah! I’m just trying to find out why <![CDATA[<color=orange>the ghost matter goes away sometimes!</color>]]></Page>
+			<Page>But yeah! I’m just trying to find out why the ghost matter goes away sometimes!</Page>
 		</Dialogue>
 						 <RevealFacts>
      						   <FactID>ARK EX1</FactID>
@@ -59,10 +59,10 @@
 		<Dialogue>
 			<Page>Yeah, I know right?! It's weird!</Page>
 			<Page>You know how there’s a green glowy trail when you throw something into a patch of ghost matter?</Page>
-			<Page>Sometimes, when I throw a rock into the patch of ghost matter, <![CDATA[<color=orange>it doesn’t leave a trail at all.</color>]]></Page>
-			<Page>I dunno what causes it! It doesn’t happen every time, even when I throw harder or use different kinds of rocks.</Page>
-			<Page>I asked Gabbro about it last time they came back from Giant's Deep, and they told me that <![CDATA[<color=orange>ghost matter just seems to go away sometimes!</color>]]></Page>
-			<Page>They weren’t sure why it happens either. It’s still dangerous to get too close to the ghost matter, so I’m using these rocks to see if I can figure it out.</Page>
+			<Page>When I throw rocks into the patch of ghost matter, sometimes, it doesn’t leave a trail at all.</Page>
+			<Page>I dunno what causes it! It doesn’t happen every time, even when I throw harder, or use different kinds of rocks.</Page>
+			<Page>I asked Gabbro about it last time they came back from Giant's Deep, and they told me yeah, ghost matter just seems to go away sometimes! They weren’t sure why, though.</Page>
+			<Page>It’s still dangerous to get too close to the ghost matter, so I’m using these rocks to see if I can figure it out on my own.</Page>
 		</Dialogue>
 							 <RevealFacts>
      						  	 <FactID>ARK EX2</FactID>
@@ -153,8 +153,8 @@
 		<SetCondition>Gravdumb</SetCondition>
 		<Dialogue>
 			<Page><![CDATA[<i>Huh?! Really?!</i>]]></Page>
-			<Page>Ohh, so <![CDATA[<i>that's</i>]]> why the ghost matter goes away every now and then! It must be the Attlerock's gravity pulling this patch here up when it's coming over the village!</Page>
-			<Page>I know that 'cos the exhibit in the museum taught me about the Attlerock's gravity!</Page>
+			<Page>Ohh, so <![CDATA[<i>that's</i>]]> why the ghost matter goes away sometimes! It must be the Attlerock's gravity pulling this patch here up when it's coming over the village!</Page>
+			<Page>I know that, 'cos the exhibit in the museum taught me about the Attlerock's gravity!</Page>
 			<Page>I was so focused I never even noticed the Attlerock coming over the village every time it disappeared..</Page>
 			<Page>Thanks a bunch for telling me, astronaut! Now, I can finally stop throwing rocks and rest my arm...</Page>
 			</Dialogue>

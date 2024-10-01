@@ -5,7 +5,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-		PLUME: Friends, I shall be leaving for Ember Twin soon, ahead of your travels. I wish you all the best on your expedition to the Quantum Moon.
+		PHLOX: Papa, can we play the phantom moon game tonight?
 		</Text>
 	</TextBlock>
 
@@ -13,47 +13,41 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-		MELORAE: Oh, Plume! Have you heard of the new suits made by Oeno? You must don them before you depart!
+		PLUME: I'm afraid not, Phlox. The clouds never seem to part on this stormy planet.. It will be hard to play the phantom moon game if we cannot see the skies.
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
-		<ParentID>2</ParentID>
+		<ParentID>1</ParentID>
 		<Text>
-			MELORAE: The expedition team to the forested planet discovered a new type of ore which appears to have fantastically heat-resistant properties.</Text>
+		COLEUS: What are the rules of this phantom moon game, Phlox? May we participate sometime?</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-	MELORAE: Oeno was able to integrate these new materials into our spacesuits, greatly improving their durability and insulative properties.</Text>
+	PHLOX: Um, of course! We close our eyes and guess which planet the phantom moon goes to. Whoever guesses correctly is the winner!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
-		<ParentID>3</ParentID>
+		<ParentID>4</ParentID>
 		<Text>
-	MELORAE: As there is little shelter on Ember Twin's south pole, I hope this new suit should make the heat from the sun far more bearable during your visit!</Text>
+	COLEUS: Oh, how fun! If you'd like, Phlox, perhaps after our next trip to <![CDATA[<color=lightblue>Ember Twin,</color>]]> we could all play this game together!</Text>
 	</TextBlock>
 
 		<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: Imagine if we had such wondrous equipment when we were stranded on Ember Twin, Melorae.</Text>
+		MELORAE: After our trip? Coleus.. Surely you aren't thinking of cheating in a children's game!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-		MELORAE: Then I imagine we might begin to miss the sun's warmth on this stormy, sunless planet - which I have not!</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>8</ID>
-		<ParentID>7</ParentID>
-		<Text>
-		PLUME: You have my gratitude, Melorae. I shall indeed seek one of these suits before my departure.</Text>
+		COLEUS: Goodness, of course not, Melorae! I simply thought there would be a more ideal view of the whole star system there for such a game..</Text>
 	</TextBlock>
 
 

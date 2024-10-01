@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Daz, I have been trying to access a conversation I wrote back on <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> but this projection stone seems to lack any record of that conversation! Could there be an issue with the data stored on it?
+		CASSAVA: Daz, I seem to be unable to access a conversation that I wrote using a projection stone.. Could there be an issue with the data stored within it?
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -14,7 +14,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: My love, I fear you may have misundersood how projection stones and recorded conversations work!
+		DAZ: My love, I fear you may misunderstand the role of projection stones in remote conversations!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -30,7 +30,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: A single projection stone only grants access to any conversation with the respective wall; Think of each projection stone as a unique key, and the projection walls as having locks for each key.
+		DAZ: Think of each projection stone as unique keys, and the projection walls as having locks for each key.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -38,7 +38,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: To give an example: you could only see this conversation by using a projection stone to the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> from the <![CDATA[<color=orange>Construction Yard's</color>]]> projection wall, or vice versa - and no others!
+		DAZ: To give an example: this conversation can only be viewed using a projection stone to the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> from the <![CDATA[<color=orange>Construction Yard's</color>]]> projection wall, and vice versa!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -46,7 +46,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Goodness, that makes so much more sense now! No wonder I could never seem to find my conversations on a different wall than I'd written it on.. Gratitude, my love.
+		CASSAVA: I see.. If that is the case, I shall need to test each projection stone on my projection wall to find those conversations I have lost!
 		</Text>
 	</TextBlock>
 	

@@ -22,7 +22,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: I would appreciate if both of you would kindly focus on the task of reinforcing the station's walls! We are surrounded by <![CDATA[<i>oceans</i>]]> of pressure; we must fortify the station's integrity with great care!
+		CASSAVA: Avens, Mallow: kindly focus on the task of reinforcing the station's walls. We are surrounded by <![CDATA[<i>oceans</i>]]> of pressure - we must fortify the station's integrity with great care!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -30,7 +30,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CLARY: Daz, I'm almost done installing the new warp receiver within the <![CDATA[<color=orange>Deep Storm Station.</color>]]> Once it is ready, it should connect us with the warp transmitter on the <![CDATA[<color=orange>Construction Yard!</color>]]>
+		CASSAVA: Daz, Clary is almost done installing the new warp receiver within the <![CDATA[<color=orange>Deep Storm Station.</color>]]> Once it is ready, it should connect us with the warp transmitter on the <![CDATA[<color=orange>Construction Yard!</color>]]>
 </Text>
 	</TextBlock>
 
@@ -39,7 +39,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		CLARY: Of note: as we have sealed ourselves in this space, we will require somebody to warp to our warp receiver to charge a return warp that will allow us to return to the surface!
+		CLARY: Of note: we require a Nomai on the surface to warp to our warp receiver, in order to charge a return warp that will allow us to warp out!
 		</Text>
 	</TextBlock>
 
@@ -48,7 +48,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		DAZ: Have no fear, Clary; I am already waiting on the warp transmitter, eager to see my Cassava again!
+		DAZ: Have no fear, Clary; I am already waiting on the warp transmitter, eager to reunite with Cassava!
 		</Text>
 	</TextBlock>
 
@@ -57,7 +57,7 @@
 		<LocationAB />
 		<ParentID>6</ParentID>
 		<Text>
-		CLARY: You have my gratitude, Daz! The return warp will be most useful in allowing me to excuse myself, before I become trapped in the station with <![CDATA[<i>two</i>]]> pairs of gelatinous Nomai.
+		CLARY: My deepest gratitude, Daz. I shall be glad to take my leave before I become trapped in the station with <![CDATA[<i>two</i>]]> pairs of gelatinous Nomai!
 		</Text>
 	</TextBlock>
 

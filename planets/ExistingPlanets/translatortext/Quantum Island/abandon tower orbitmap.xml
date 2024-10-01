@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: Our dwelling has rapidly taken on a quantum nature following prolonged exposure to the quantum shard. As much as it pains me, I believe we must move our work to the planet's other islands.
+		PLUME: The interior of the tower has rapidly become quantum after prolonged exposure to the quantum shard. As much as it pains me, I believe we must relocate to one of the planet's other islands.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		THATCH: I believe one of the other islands would also be suitable site to build a larger site for a construction site as well!
+		THATCH: I believe one of the other islands would be suitable site to build a construction site as well.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		THATCH: Of note: this second island sails along the same direction as the planet's orbit around the sun - making its days about three times longer than one would experience on the other island.
+		THATCH: Of note: this second island sails in the opposite direction, making its days about three times longer than one would experience on the other island.
 		</Text>
 	</TextBlock>
 	<TextBlock>	
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: On the other apphendage, this would reduce the frequency of being immersed by the passing tides, which would be favorable for a site of construction!
+		COLEUS: On the other apphendage, this would reduce the frequency of the high waves caused by the sun, which would be ideal for a site of construction!
 		</Text>
 			</TextBlock>
 

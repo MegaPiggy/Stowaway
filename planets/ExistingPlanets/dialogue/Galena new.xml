@@ -69,7 +69,7 @@
 		<Name>ShyKidNew1</Name>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Um...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>I made something for you, astronaut.. But I messed up putting it up, so it's a little hard to see..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>I made something for you, astronaut.. But I messed up putting it up.. It's the wrong way around, so it's impossible to see now..<![CDATA[</size>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>

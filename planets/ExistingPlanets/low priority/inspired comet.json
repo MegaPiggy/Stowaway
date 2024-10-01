@@ -52,7 +52,7 @@
 			"uniqueID": "INSP BH",
 			"pairedSingularity": "DSS WH",
 			"hasWarpEffects": false,
-			"horizonRadius": 12,
+			"horizonRadius": 15,
 			"position":{"x":0,"y": 0,"z": 0},
 			"isRelativeToParent": true
 		},

@@ -19,14 +19,14 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: My sole solace is the survival of the water-dwelling species in the star system.. A discovery that affirms my observations of the matter's properties. 
+		CASSAVA: My sole solace is the survival of several water-dwelling species in the star system.. A discovery that affirms my observations of the matter's properties. 
 		</Text>
 			</TextBlock>
 
 <TextBlock>	
 	<ID>4</ID>
 		<LocationA />
-		<ParentID>3</ParentID>
+		<ParentID>2</ParentID>
 		<Text>
 			 CASSAVA: But that also means.. If any of them were to ever surface from the safety of the water...
 		</Text>
@@ -35,7 +35,7 @@
 	<TextBlock>	
 		<ID>5</ID>
 		<LocationA />
-		<ParentID>1</ParentID>
+		<ParentID>4</ParentID>
 		<Text>
 		 CASSAVA: What.. What a terrifying thought. I owe this planet's thick clouds my deepest gratitude for obscuring the <![CDATA[<color=lightblue>Quantum Moon</color>]]> from my sight..
 		</Text>

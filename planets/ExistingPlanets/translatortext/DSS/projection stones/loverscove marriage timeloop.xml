@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: The test has concluded, but I fear our goal is not yet within reach.. But as Pye says, we have sown the seeds of success in the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		YARROW: The test has concluded, but I fear our goal is not yet within reach.. But as Pye says, the project was a successful stepping stone for the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: But come, let us not be distracted by these results from a far more important question!
+		YARROW: Regardless, let us not be distracted by these results from a far more important question!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		DAZ: He said yes! We're engaged, everybody! We're engaged!!
+		DAZ: He said yes! We are attached, everybody! We are attached!!
 		</Text>
 	</TextBlock>
 	<TextBlock>	
@@ -61,7 +61,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		Cassava: Oh, Daz.. You mean the world to me... Of course I would say yes. But that means.. we had a time-traveling marriage! How many in existence could lay claim to that?!
+		Cassava: Daz.. You mean the world to me... There was no possibility of any other answer. But that means.. we had a time-traveling marriage! How many in existence could lay claim to that?!
 		</Text>
 			</TextBlock>
 				<TextBlock>	
@@ -77,7 +77,7 @@
 		<LocationA />
 		<ParentID>9</ParentID>
 		<Text>
-		Yarrow: Our romantic relationship has only begun recently! You know we’re nowhere ready for that!!
+		Yarrow: Our romantic relationship has only recently begun! You know we’re nowhere ready for that!!
 		</Text>
 			</TextBlock>
 
