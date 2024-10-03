@@ -40,13 +40,13 @@
 	<DialogueNode>
 		<Name>Chert SW2</Name>
 			<Dialogue>
-				<Page>Indeed! I once spotted some tall Nomai structures on Ash Twin's surface while stargazing back on Timber Hearth we had never noticed before. It seemed like a promising place to explore on my first trip!</Page>
+				<Page>Indeed! I once spotted some tall Nomai structures on Ash Twin's surface we had never noticed before, while stargazing back on Timber Hearth. It seemed like a promising place to explore on my first trip!</Page>
 				<Page>From what I could tell, the structures appeared to be for stargazing. Each one had windows in their roofs that allowed you to peer out and see the planets and stars.</Page>
 				<Page>I must say, it was quite heartwarming to learn the Nomai shared my love for the stars!</Page>
 				<Page>I looked around for a while - but at some point, I realized the sand column had sucked my ship with it back to Ember Twin!</Page>
 				<Page>I had to cut my expedition short to make a distress call back to the village, and call Slate to pick me up. <![CDATA[<Pause>]]> ..I think he was more worried about my ship than me, though.</Page>
 				<Page>Since sand is flowing from Ash Twin to Ember Twin right now, why not check out Ash Twin for yourself, once a little more of its sand drains off?</Page>
-				<Page>You should be able to glean much more about what these structures were made for than I did - especially with that new translator tool of yours. Just be careful where you leave your ship!</Page>
+				<Page>You should be able to glean much more about what these structures than I did, especially with that new translator tool of yours. Just be careful where you leave your ship!</Page>
 				</Dialogue>
 		<DialogueOptionsList>
 				<DialogueOption>
@@ -128,7 +128,7 @@
 				<Page>I looked around for a while - but at some point, I realized the sand column had sucked my ship with it back to Ember Twin!</Page>
 				<Page>I had to cut my expedition short to make a distress call back to the village, and call Slate to pick me up. <![CDATA[<Pause>]]> ..I think he was more worried about my ship than me, though.</Page>
 				<Page>Since sand is flowing from Ash Twin to Ember Twin right now, why not check out Ash Twin for yourself, once a little more of its sand drains off?</Page>
-				<Page>You should be able to glean much more about what these structures were made for than I did - especially with that new translator tool of yours. Just be careful where you leave your ship!</Page>
+				<Page>You should be able to glean much more about what these structures than I did, especially with that new translator tool of yours. Just be careful where you leave your ship!</Page>
 				</Dialogue>
 		<DialogueOptionsList>
 				<DialogueOption>
