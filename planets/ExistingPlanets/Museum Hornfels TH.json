@@ -10,7 +10,6 @@
 			"Sector_TH/Sector_Village/Interactables_Village/DarkMatterVolume",
 			"Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
 
-			"Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_NOM_Tablet (2)/Mural_NomaiSequoia",
 			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume",
 			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (1)",
 			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
@@ -442,7 +441,7 @@
 				"position": {"x": 1.5612, "y": 1.6909, "z": -1.8392},
 				"rotation": {"x": 274.647, "y": 183.1608, "z": 86.655},
 				"scale":0.24,
-				"isRelativeToParent": false
+				"isRelativeToParent": true
 			},
 			{
 				"rename":"Tent torch",
@@ -497,7 +496,7 @@
 				"rename":"Stowaway torch",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position": {"x": -130.9038, "y": -2.1046, "z": -137.5028},
+				"position": {"x": -130.7038, "y": -2.1046, "z": -137.3028},
 				"rotation": {"x": 9.8866, "y": 234.2864, "z": 233.1214},
 				"removeChildren": ["WallTorch_Connector"],
 				"isRelativeToParent": true
@@ -520,22 +519,7 @@
 				"removeChildren": ["WallTorch_Connector"],
 				"isRelativeToParent": true
 			},
-			{
-				"rename":"Stowaway mural to make thing more visible",
-				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_NOM_Tablet (2)",
-				"position":{"x": -147.8037,"y": 19.1753,"z": -137.7927},
-				"rotation":{"x": 342.7453 ,"y": 229.6324,"z": 169.8798},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"tablet collider",
-				"assetBundle": "planets/bundle/dev",
-				"path": "assets/models/devcom/cube.prefab",
-				"position": {"x": -147.8417, "y": 18.9186, "z": -137.8121},
-				"rotation": {"x": 9.7573, "y": 317.3124 , "z": 72.3915},
-				"stretch": {"x":0.6,"y":2.1,"z": 3},
-				"isRelativeToParent": true
-			},
+			
 			{
 				"rename":"Stowaway flowers",
 				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/DetailPatches_NomaiCrater/NomaiSideCrater Foliage/Foliage_TH_NomaiSideCrater_GrassPatch (1)",
@@ -574,7 +558,13 @@
 				"rotation": {"x":350.0809,"y": 327.1262,"z": 11.4143},
 				"isRelativeToParent": true
 			},
-
+			{
+				"rename":"camp purple LIGHT",
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_NomaiEyeExhibit",
+				"position": {"x": -155.6221,"y": 5.7121,"z": -130.4312},
+				"rotation": {"x": 25.3,"y": 320.990,"z": 86.8018},
+				"isRelativeToParent": true
+			},
 			
 			
 			
@@ -584,6 +574,13 @@
 				"path":"Probe_Body/CameraPivot",
 				"position":{"x": -4.637,"y": -48.3045,"z": 183.509},
 				"rotation":{"x": 56.6692, "y": 130.8141,"z": 334.4357},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"exhibit scout sticky LIGHT",
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Lighting_LowerVillage/OtherComponentsGroup/LowerVillage/FillLight_TH_SlideShow/",
+				"parentPath": "Sector_TH/exhibit scout sticky",
+				"position":{"x": 0,"y": 0,"z": -1.3618},
 				"isRelativeToParent": true
 			},
 			{

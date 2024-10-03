@@ -10,6 +10,12 @@
 	<DialogueNode>
 		<Name>SignalscopeKid1</Name>
 		<DialogueOptionsList>
+		<DialogueOption>
+			<RequiredPersistentCondition>Shutup_Moraine</RequiredPersistentCondition>
+			<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
+				<Text>I dived into the waterways and found a Nomai mural depicting Hearthian ancestors on land.</Text>
+				<DialogueTarget>SignalscopeKidNew3</DialogueTarget>
+			</DialogueOption>
 				<DialogueOption>
 				<Text>Hey, Moraine. Slate said you had something to ask before I fly off?</Text>
 				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
@@ -48,6 +54,7 @@
 
 <DialogueNode>
 		<Name>SignalscopeKidNew2</Name>
+		<SetPersistentCondition>Shutup_Moraine</SetPersistentCondition>
 		<Dialogue>
 				<Page>Really? You're the best, astronaut!</Page>
 				<Page>If you do find anything, I wanna hear all about it!</Page>
@@ -88,6 +95,7 @@
 				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
+			<RequiredPersistentCondition>Shutup_Moraine</RequiredPersistentCondition>
 			<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
 				<Text>I dived into the waterways and found a Nomai mural depicting Hearthian ancestors on land!</Text>
 				<DialogueTarget>SignalscopeKidNew3</DialogueTarget>

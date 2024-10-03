@@ -16,7 +16,7 @@
 
 	"extras": {
 		"QuantumMoonChopZone": {
-			"radius": 292
+			"radius": 146
 		},
 		"QuantumMoonWaterColumn": {
 			"size": 5,
@@ -185,23 +185,28 @@
 						"id": "GD_StatueIslandScrollWorkshop",
 						"location": "a",
 						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/daz last cutoff.xml",
-						"seed":1,
-								"arcInfo": [
-									{},
-									{},
-									{},
-									{},
-									{},
-									{
-										"mirror": false,
-										"position": {"x":0.2103,"y": 2.3545},
-										"zRotation":  279.8594},
-									{},
-									{
-										"mirror":false,
-										"position": {"x":1.6939,"y": 1.2363},
-										"zRotation": 179.7719
-									}]
+						"seed":2,
+						"arcInfo": [
+							{},
+							{},
+							{},
+							{},
+							{},
+							{
+								"mirror": false,
+								"position": {"x": 0.5606,"y": 1.2276},
+								"zRotation": 333.2463
+							},
+							{
+								"mirror": true,
+								"position": {"x": 0.9917 ,"y": 1.7874},
+								"zRotation": 21.4176
+							},
+							{
+								"mirror":true,
+								"position": {"x": 0.4279,"y": 2.4362},
+								"zRotation": 55.4789
+							}]
 					}
 				]
 				}

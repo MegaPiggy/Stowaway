@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Deadly matter in this site has been observed rising, pulled by the <![CDATA[<color=lightblue>Attlerock's</color>]]> gravity as it orbits overhead, with consistency.
+		CASSAVA: Deadly matter in this site has been observed rising as the <![CDATA[<color=lightblue>Attlerock</color>]]> orbits overhead with consistency.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: Mission: I must complete the <![CDATA[<color=orange>Inspired</color>]]> in the time I have left.
+		CASSAVA: Mission: Complete the <![CDATA[<color=orange>Inspired</color>]]> in the time left.
 		</Text>
 	</TextBlock>
 

@@ -22,7 +22,7 @@
 			<Page>You tell me! You astronauts always change your first launches at the last minute.</Page>
 				<Page>Remember Gabbro's first launch? They delayed it just because they wanted to get another nap in first!</Page>
 				<Page>And Riebeck, well, Riebeck had good reason to delay theirs, at least.. They had to be grounded while they calmed their nerves.</Page>
-			<Page>Oh, oh, but remember <![CDATA[<i>Chert's</i>]]> first launch?</Page>
+			<Page>Oh, oh - but remember <![CDATA[<i>Chert's</i>]]> first launch?</Page>
      		 <Page>They delayed their first launch <![CDATA[<Pause=1>]]> SEVERAL <![CDATA[<Pause=1>]]> times. We had like, three farewell parties!</Page>
 			 </Dialogue>
 			  				<RevealFacts>
@@ -30,7 +30,7 @@
     					  </RevealFacts>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>I don't remember that! Why'd Chert have so many delays?</Text>
+				<Text>I don't remember that. Why'd Chert have so many delays?</Text>
 				<DialogueTarget>ModelRocketKid_SW1</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>

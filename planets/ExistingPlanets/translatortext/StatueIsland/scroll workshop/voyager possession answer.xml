@@ -1,12 +1,12 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	
-	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<![CDATA[<color=orange> we are clowns in a circus </color>]]>
 
 	<TextBlock>
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		DAZ: Oeno, I have seen your scroll detailing the issues you encountered in your time using the voyager stones. (My thanks once again for helping to test this new technology!)
+		DAZ: Oeno, I saw your scroll today regarding the issues you and Coleus encountered during the <![CDATA[<color=orange>Sanctuary's</color>]]> construction. (My thanks to both of you for your help testing the voyager stones!)
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: To your first observation: the memory storage systems allow one voyager (per mask) to remain on standby when disconnected, returning them to that exact position when reconnected.
+		DAZ: To your first observation: what you described is indeed an intended feature! The memory storage systems allow one voyager per system to remain on standby while disconnected.
 		</Text>
 	</TextBlock>
 	
@@ -24,34 +24,34 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: This allows Nomai disconnected from their voyager to quickly return to voyages far from the projection pool!
+		DAZ: When reengaged, the voyager continues from that exact position - allowing Nomai to quickly return to their voyages, no matter how far they traveled from the projection pool!
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
-		<ParentID>3</ParentID>
+		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: However: it appears the system currently fails to discern between the original host, and any new Nomai who voyage to the same destination (from the same projection pool.)
+		DAZ: I find your hypothesis highly compelling - the memory storage systems must be confused somehow to cause the telepathic link you described. However, it is not to do with the voyager stone itself..
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<LocationA />
+		<LocationB />
 		<Text>
-		DAZ: As a result, if a previous Nomai leaves a voyager waiting on standby, a new Nomai using the voyager stone will be connected to it, inheriting its location.
+		DAZ: The problem seems to arise when multiple Nomai share the same projection pool, as you and Coleus likely did while working in shifts.
 		</Text>
 	</TextBlock>
 	
 		<TextBlock>
 		<ID>6</ID>
-		<ParentID>2</ParentID>
+		<ParentID>5</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Furthermore, as a result of this connection to a previous individual's voyager, the voyager then becomes connected to both memory masks.
+		DAZ: It appears the voyager system currently fails to discern between the first voyager, and any subsequent Nomai voyaging from that projection pool to the same destination.
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: I suspect that is likely what caused your experiences to be streamed to Coleus' memory mask.
+		DAZ: Instead of creating a new voyager, they inhabit the inactive voyager - causing both memory storage systems to be connected to the same voyager, and creating a stream of shared consciousness!
 		</Text>
 	</TextBlock>
 
@@ -70,7 +70,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>		
-			OENO: How illuminating! It appears there is still much work to complete on this budding, but very promising technology.
+			OENO: Goodness, what an illuminating and expedient assessment, Daz! I suppose such a major issue should be fixed.. though I must admit it was fun sharing a consciousness with someone else!
 		</Text>
 	</TextBlock>
 
@@ -79,7 +79,7 @@
 		<ParentID>8</ParentID>
 		<LocationA />
 		<Text>
-			OENO: In this case: until these issues can be amended, Coleus and I shall simply be mindful of disposing of our voyagers, to avoid unwittingly sharing voyages with each other!
+			OENO: But now that we know the issue, Coleus and I shall simply work from different projection pools until it is fixed - that should prevent the system from confusing our memory storage systems again!
 		</Text>
 	</TextBlock>
 

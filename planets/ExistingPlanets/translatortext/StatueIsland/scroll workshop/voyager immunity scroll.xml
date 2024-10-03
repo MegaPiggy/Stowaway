@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		DAZ: Be cautious, Phlox! Give me a moment: I shall voyage there using a voyager stone, and use my voyager to safely guide it back into the waves!
+		DAZ: Be cautious, Phlox! Give me a moment: I shall voyage to you using a voyager stone, and use its vessel to safely guide it back into the waves!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Other than large bodies of water and hard impacts, the voyager is able to weather almost any hazard it is exposed to! I have faith it will someday allow us to work from the safety of our homes remotely.
+		DAZ: Other than large bodies of water, the voyager is able to weather most hazards it is exposed to! I have faith it will someday allow us to work from the safety of our homes remotely.
 		</Text>
 	</TextBlock>
 	<TextBlock>

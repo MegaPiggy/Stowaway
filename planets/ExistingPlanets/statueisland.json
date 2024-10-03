@@ -967,29 +967,14 @@
 							{
 								"id": "TH_Sanctuary",
 								"location": "b",
-								"seed": 5,
-								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
-								"arcInfo": [
-									{},
-									{},
-									{},
-									{"position": {"x":-0.8718,"y": 0.9197},
-								"zRotation": 333.7439},
-									{"position": {"x":0.5751,"y": 1.3282},
-								"zRotation": 291.6493},
-									{},
-									{},
-									{"position": {"x":-1.5418,"y": 1.5103},
-								"zRotation": 349.6538},
-									{"position": {"x":-0.6063,"y": 2.1517},
-								"zRotation": 323.2246}
-								]
+								"seed": 3,
+								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml"
 							},
 							{
 								"id": "GD_DeepStormStation",
 								"location": "b",
 								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/daz last cutoff.xml",
-								"seed":1,
+								"seed":2,
 								"arcInfo": [
 									{},
 									{},
@@ -998,13 +983,18 @@
 									{},
 									{
 										"mirror": false,
-										"position": {"x":0.2103,"y": 2.3545},
-										"zRotation":  279.8594},
-									{},
+										"position": {"x": 0.5606,"y": 1.2276},
+										"zRotation": 333.2463
+									},
 									{
-										"mirror":false,
-										"position": {"x":1.6939,"y": 1.2363},
-										"zRotation": 179.7719
+										"mirror": true,
+										"position": {"x": 0.9917 ,"y": 1.7874},
+										"zRotation": 21.4176
+									},
+									{
+										"mirror":true,
+										"position": {"x": 0.4279,"y": 2.4362},
+										"zRotation": 55.4789
 									}]
 							}
 						

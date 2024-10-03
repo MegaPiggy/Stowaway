@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		THATCH: Greetings, Kousa! We deeply thank you for your incredible invention: we have made great progress migrating to the islands outside the <![CDATA[<color=orange>Looming City</color>]]> thanks to your storm shelters.
+		THATCH: Kousa, we deeply thank you for your incredible invention! The storm shelters have done a wonderful job protecting us from the cyclones on Giant's Deep.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -13,7 +13,7 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		THATCH: However, Cassava and I recently noticed the storm shelters activating erroneously, even in the absence of any cyclones. Could there be a problem with the storm shelters?
+		THATCH: However, Cassava and I both have witnessed the storm shelters activating erroneously, in the absence of any cyclones. I have come today to inquire your thoughts on this strange quirk!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		KOUSA: Young Thatch, did I not explain to you how the storm shelters function when you last visited? The storm shelters are not powered by cyclones - they are powered by solar panels!
+		KOUSA: Young Thatch, I recall explaining to you how the storm shelters function when you last visited! The storm shelters are not powered by cyclones - they are powered by solar panels!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		KOUSA: As an island is sent into orbit, the solar panels installed on the island detect sunlight unimpeded by the planet's thick clouds. This is what powers on the storm shelters to protect any Nomai within them.
+		KOUSA: As an island is sent into orbit, the solar panels installed on them detect sunlight unimpeded by the planet's thick clouds. This is what powers the storm shelters to protect any Nomai within them.
 		</Text>
 	</TextBlock>
 
@@ -46,7 +46,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		KOUSA: However, if a storm shelter powered down immediately upon reentry into the planet's thick clouds, they would rest too prematurely, and do little to protect a Nomai against the planet's intense gravity..
+		KOUSA: However, if a storm shelter powered down immediately upon reentry, they would rest too prematurely, and do little to protect a Nomai against the planet's intense gravity.
 		</Text>
 	</TextBlock>
 
@@ -55,7 +55,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		KOUSA: That is why the solar panels are tuned to detect the faintest sunlight, allowing them to power the storm shelter slightly before and after a cyclone encounter, keeping guests safely protected throughout the event.
+		KOUSA: That is why the solar panels are tuned to detect the faintest sunlight, allowing them to power the storm shelter slightly before and after a cyclone encounter, keeping its guests safely protected.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -63,7 +63,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		KOUSA: However, as a result of this sensitivity, as the sun passes directly over an island, more sunlight is able to penetrate the clouds and reach the solar panel. This is most likely what causes the storm shelters' erroneous activation.
+		KOUSA: However, as the sun passes directly over an island, more sunlight penetrates the clouds and reaches the solar panel. Sensitivity to this increase in sunlight is what causes the storm shelters to power on.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -71,7 +71,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		THATCH: I see... My deepest gratitude for your thorough explanation, Kousa! But of note: it was Plume who last visited your workshop, not me!
+		THATCH: I see... My deepest gratitude for your thorough explanation, Kousa. But.. of note: it was Plume who last visited your workshop, not me!
 		</Text>
 	</TextBlock>
 	

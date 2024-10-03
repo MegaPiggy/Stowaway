@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		OENO: Daz, the construction of the <![CDATA[<color=orange>Sanctuary</color>]]> has been going swimmingly thanks to your help! Your new voyager stones are a truly revolutionary piece of technology.
+		OENO: Daz, your new voyager stones are truly revolutionary. The construction of the <![CDATA[<color=orange>Sanctuary</color>]]> has already progressed swiftly thanks to you!
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		OENO: However, during our time voyaging, I encountered some.. strange occurrences which I would like to inquire about.
+		OENO: However, after spending much time working with them, Coleus and I believe we may have already found a few quirks with the technology we require you to look into.
 		</Text>
 	</TextBlock>
 
@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		OENO: To start: while working in shifts with Coleus, I noticed consistently being transported some distance outside of the projection pool when voyaging into the <![CDATA[<color=orange>Sanctuary</color>]]>.
+		OENO: To start: while working in shifts with Coleus, I noticed my voyage consistently beginning some distance outside of the projection pool. (Coleus corroborated this issue during his shifts too!)
 		</Text>
 	</TextBlock>
 
@@ -33,7 +33,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		OENO: In the dark, this has caused me to stumble off the tiny island more times than I wish to admit! Is this an intended feature, or some strange quirk of the voyager stone?
+		OENO: In the dark, this has caused me to stumble off the tiny island more times than I wish to admit! Is this an intended feature of the voyager stone?
 		</Text>
 	</TextBlock>
 
@@ -42,7 +42,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		OENO: More distressingly: Coleus mentioned that while I was using the voyager stone, he would receive visions from my voyage, experiencing every minute detail of my work.
+		OENO: More alarmingly: during Coleus' shift, as he used the voyager stone, I began to receive memories from his voyage, and even heard his thoughts! it was as if we had some sort of telepathic connection!
 		</Text>
 	</TextBlock>
 
@@ -51,7 +51,7 @@
 		<ParentID>5</ParentID>
 		<LocationB />
 		<Text>
-		OENO: I understand that the voyager stones work using the <![CDATA[<color=orange>Ash Twin Project's</color>]]> memory storage systems.
+		OENO: I understand the voyager stones function using the memory storage system crafted for the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		OENO: Could there perhaps ahve been some sort of mix-up between our memory masks from using the same voyager stone?
+		OENO: Could there perhaps have been some sort of mix-up between our memory masks, caused by us sharing the same voyager stone?
 		</Text>
 	</TextBlock>
 
@@ -69,7 +69,7 @@
 		<ParentID>7</ParentID>
 		<LocationB />
 		<Text>
-		OENO: We have decided to stop our work for some time until these issues can be amended.. I would deeply appreciate if you could investigate these issues, Daz!
+		OENO: We have decided to pause our work with the voyager stones until these issues can be amended. We would deeply appreciate if you could investigate them soon, Daz!
 		</Text>
 	</TextBlock>
 

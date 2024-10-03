@@ -21,7 +21,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: If everything goes as planned, the deadly matter should be completely contained by the deep oceans surrounding the Deep Storm Station, sealing it from the star system indefinitely.
+		CASSAVA: If everything goes as planned, the deadly matter should be completely contained by the deep oceans surrounding the Deep Storm Station, sealing it away indefinitely.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: After ascertaining the safety of the planet's surface, I have also delivered the native species within the Sanctuary back to the surface of Timber Hearth.
+		CASSAVA: And finally, I have delivered the native species of Timber Hearth (kept safe within the Sanctuary) back to the decontaminated surface of the planet using my voyager.
 </Text>
 	</TextBlock>
 
@@ -46,7 +46,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: My dearest hope.. is that these species will be able to live on to learn even more from the universe in our stead.
+		CASSAVA: My dearest hope.. is that these species will be able to live on to learn from the universe in our stead.
 		</Text>
 	</TextBlock>
 
@@ -71,7 +71,7 @@
 		<ParentID>8</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: My friends.. Daz... I cannot wait to join all of you.
+		CASSAVA: My friends.. Daz.. I cannot wait to join all of you.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -79,7 +79,7 @@
 		<ParentID>9</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: The universe is... and we shall all become one with it.
+		CASSAVA: The universe is... And we shall all become one within it!
 		</Text>
 	</TextBlock>
 

@@ -116,13 +116,13 @@
 			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
 			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225},
 				"seed":4,
-				"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/DSS final note.xml"
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml"
 		},
 		
 		{
 			"rename": "text spiral checking station floor",
 			"seed":5,
-				"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/DSS final note.xml",
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
 			"position": {"x":24.3426, "y": -45.7584,"z": 183.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",

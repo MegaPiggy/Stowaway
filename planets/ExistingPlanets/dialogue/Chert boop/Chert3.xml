@@ -15,7 +15,7 @@
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredCondition>Sandflow</RequiredCondition>
-				<Text>Um, do you know how long it'll take for sand to flow back to Ash Twin now?</Text>
+				<Text>Um, how much longer do you think it'd take for sand to flow back to Ash Twin now?</Text>
 				<DialogueTarget>Chert SW S</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>

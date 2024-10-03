@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		OENO: Welcome to Timber Hearth, friends! You may find both our <![CDATA[<color=orange>campsite</color>]]> and <![CDATA[<color=orange>mining site</color>]]> by following the path down into the geyser mountain.
+		OENO: Welcome to <![CDATA[<color=lightblue>Timber Hearth,</color>]]> friends! You may find both our <![CDATA[<color=orange>campsite</color>]]> and <![CDATA[<color=orange>mining site</color>]]> by following the path down into the geyser mountain.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: After a Nomai travels to a warp receiver, the warp receiver powers a return warp that allows travel back to the paired warp transmitter once.
+		OENO: The warp receiver powers a return warp that allows travel back to the paired warp transmitter after a Nomai has traveled to it.
 		</Text>
 	</TextBlock>
 	<TextBlock>

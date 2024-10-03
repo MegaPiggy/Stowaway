@@ -29,7 +29,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		OENO: I have been adjusting our vision orbs to accomodate the native lifeforms' vision to allow them to use them, you see. I am quite hopeful they'll learn to use it soon!
+		OENO: I have been adjusting our vision orbs to accomodate the native lifeforms' vision to allow them to use them, you see. I hope they learn to use it soon!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		COLEUS: I wish I could credit their eyes, Oeno - but I'm afraid it is more likely that may have been the <![CDATA[<color=lightblue>Attlerock's</color>]]> gravity tugging the vision orb upwards as it orbited overhead!
+		COLEUS: I wish I could credit their eyes, Oeno - but I'm afraid it was simply the <![CDATA[<color=lightblue>Attlerock's</color>]]> gravity tugging the vision orb upwards as it orbited overhead!
 				</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		OENO: Was the <![CDATA[<color=lightblue>Attlerock</color>]]> orbiting overhead just now? Curses.. I can't seem to get them to look at the vision orb long enough without becoming distracted!
+		OENO: Was the <![CDATA[<color=lightblue>Attlerock</color>]]> orbiting overhead just now? Curses.. They won't focus long enough to guide the vision orb without becoming distracted!
 				</Text>
 	</TextBlock>
 		<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		CYCAD: Were you playing with the native lifeforms again, Oeno? You sure love teaching them more about our culture and technology!
+		CYCAD: Were you playing with the native lifeforms again, Oeno? Yarrow was looking for you earlier regarding an issue on Ash Twin!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -61,7 +61,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		OENO: Of course! It's lovely seeing these lifeforms learn and grow more curious, now that they've grown much more comfortable with our presence.
+		OENO: Of course! It's lovely seeing these lifeforms becoming more curious as they grow more comfortable with our presence.
 				</Text>
 	</TextBlock>
 	<TextBlock>
@@ -69,7 +69,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		CYCAD: Oh, before I forget! Oeno: Yarrow was looking for you! There appears to be some issue regarding the towers on Ash Twin which he wanted you to look into.
+		OENO: Now, what matter did Yarrow need my help with, Cycad?
 				</Text>
 	</TextBlock>
 		<TextBlock>
@@ -77,7 +77,7 @@
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		OENO: How vague.. Did he mention what sort of problem it was?
+		CYCAD: Apparently, the <![CDATA[<color=orange>Sun Station</color>]]> crew reported to Yarrow that their warp tower's rotating doors were opening and closing by themselves, without any sort of input.
 				</Text>
 	</TextBlock>
 		<TextBlock>
@@ -85,7 +85,7 @@
 		<LocationA />
 		<ParentID>10</ParentID>
 		<Text>
-		CYCAD: Apparently, the <![CDATA[<color=orange>Sun Station</color>]]> crew reported to Yarrow that they noticed their warp tower's rotating doors opening and closing by themselves, without any sort of input.
+		CYCAD: When Yarrow went to check on the issue, he noticed the same thing happening to the rotating doors at Timber Hearth's warp tower as well!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -93,7 +93,7 @@
 		<LocationA />
 		<ParentID>11</ParentID>
 		<Text>
-		CYCAD: When Yarrow went to check on the issue, he noticed the same thing happening to the rotating doors at Timber Hearth's warp tower as well!
+		OENO: How strange..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -101,7 +101,7 @@
 		<LocationA />
 		<ParentID>12</ParentID>
 		<Text>
-		OENO: How strange.. My thanks for delivering this message, Cycad. I shall travel to <![CDATA[<color=lightblue>Ash Twin</color>]]> to catch up with Yarrow and investigate this issue as soon as I can!
+		OENO: My thanks for delivering this message, Cycad. I shall travel to <![CDATA[<color=lightblue>Ash Twin</color>]]> to catch up with Yarrow and investigate this issue as soon as I can!
 		</Text>
 	</TextBlock>
 	
@@ -110,7 +110,7 @@
 
 	<RevealFact>
 			<FactID>TH_WR R1</FactID>
-			<Condition>12</Condition>
+			<Condition>11</Condition>
 		</RevealFact>
 				<RevealFact>
 			<FactID>Campsite EX2</FactID>

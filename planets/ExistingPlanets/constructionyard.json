@@ -74,6 +74,49 @@
 		"details":
 		[
 			{
+				"rename":"Schematic shelf 1",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)/",
+				"position":{"x": -8.65,"y": 6.5403,"z": 34.397},
+				"rotation": {"x": 359.2959 ,"y": 269.7468,"z": 85.6111},
+				"isRelativeToParent": true
+				},
+				{
+					"rename":"Schematic shelf 2",
+					"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)/",
+					"position":{"x": -8.65,"y": 5.5884,"z": 33.1621},
+					"rotation": {"x": 359.2959 ,"y": 269.7468,"z": 85.6111},
+					"isRelativeToParent": true
+					},
+			{
+				"rename":"Yard Mural board",
+				"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Props_NOM_Whiteboard_Shared/",
+				"position":{"x": -31.1051,"y": 3.9237,"z": -13.1469},
+				"rotation": {"x": 2.7586,"y": 176.401,"z": 359.4082},
+				"isRelativeToParent": true,
+				"removeChildren": ["Decal_NOM_OPC_Schematic_Side","Decal_NOM_OPC_Schematic_Back"]
+				},
+			{
+				"rename":"Bay chair",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"position":{"x": -17.2136,"y": 2.5305,"z": -40.6465},
+				"rotation": {"x": 0.1621,"y": 266.6399,"z": 2.7592},
+				"isRelativeToParent": true
+				},
+			{
+				"rename":"Block shelf 1",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)/",
+				"position":{"x": 25.1382,"y": 1.8333,"z": -36.7728},
+				"rotation": {"x": 358.0905,"y":350.8618,"z": 0.3071}, 
+				"isRelativeToParent": true
+				},
+				{
+					"rename":"Block shelf 2",
+					"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)/",
+					"position":{"x": 23.967,"y": 1.8231,"z": -36.8704},
+					"rotation": {"x": 358.0905,"y":350.8618,"z": 0.3071}, 
+					"isRelativeToParent": true
+					},
+			{
 				"rename":"bay storm shelter",
 				"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_SafetyTractorBeam/",
 				"position":{"x": 27.0361,"y": 0.9189,"z": -64.1132},
@@ -169,57 +212,9 @@
 
 
 
-			{
-				"rename":"Schematic GM volume left",
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
-				"position":{"x": 17.9868,"y": 26.4906,"z": -38.9725},
-				"rotation":{"x": 320.0278, "y": 268.1888,"z": 182.1174},
-				"stretch": {"x":0.9,"y": 0.5,"z": 0.9},
-				"isRelativeToParent": true,
-				"removeChildren": ["ProbeVisuals"]
-			},
-			{
-				"rename":"Schematic GM volume right",
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
-				"position":{"x": 17.9868,"y": 26.4906,"z": -51.1924},
-				"rotation":{"x": 320.0278, "y": 268.1888,"z": 182.1174},
-				"stretch": {"x":0.9,"y": 0.5,"z": 0.9},
-				"isRelativeToParent": true,
-				"removeChildren": ["ProbeVisuals"]
-			},
-			{
-				"rename":"Schematic wisp left",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
-				"position":{"x": 18.9074,"y": 27.2034,"z": -38.8021},
-				"rotation":{"x": 37.446, "y": 116.5779 ,"z": 196.9185},
-				"scale":0.8,
-				"parentPath": "Sector_ConstructionYard/Schematic GM volume left",
-				"isRelativeToParent": false
-			},
-			{
-				"rename":"Schematic wisp right",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
-				"position":{"x": 18.471,"y": 27.6201,"z": -50.493},
-				"rotation":{"x": 37.446, "y": 116.5779 ,"z": 196.9185},
-				"scale":0.8,
-				"parentPath": "Sector_ConstructionYard/Schematic GM volume right",
-				"isRelativeToParent": false
-			},
+		
 
-			{
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
-				"rename":"CYard warp pad GM notification",
-				"parentPath": "Sector_ConstructionYard/Schematic GM volume left",
-				"scale":1,
-				"isRelativeToParent": true
-			},
-			{
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
-				"rename":"CYard warp pad GM notification",
-				"parentPath": "Sector_ConstructionYard/Schematic GM volume right",
-				"scale":1.5,
-				"isRelativeToParent": true
-			},
+			
 
 
 		{
@@ -229,21 +224,7 @@
 			"rotation":{"x": 0.1666, "y": 265.0602,"z": 1.9268},
 			"isRelativeToParent": true
 		},
-			{
-				"rename": "Mural planty",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
-				"position": {"x": 18.1526, "y": 28.019, "z": -38.7856},
-				"rotation": {"x": 49.0684, "y": 80.8027, "z": 173.0259},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Yard Mural board",
-				"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
-				"position": {"x": 17.6349,"y": 28.2647,"z": -45.0037},
-				"rotation": {"x": 48.0934,"y": 90.4477,"z": 180.0566},
-				"isRelativeToParent": true
-			},
+		
 			{
 				"rename": "Weapon mural side",
 				"assetBundle": "planets/bundle/stowaway3",
@@ -266,8 +247,8 @@
 			},
 		{
 			"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/Prefab_NOM_Computer/PointLight_NOM_Computer",
-			"position": {"x":17.8491,"y": 26.075,"z": -44.6032},
-			"rotation": {"x":6.7481,"y": 7.9424,"z": 139.8949},
+			"parentPath": "Sector_ConstructionYard/Yard Mural board",
+				"position": {"x":0.0837,"y": 1.6509, "z": 1.3527},
 			"isRelativeToParent": true
 		},
 
@@ -547,21 +528,7 @@
 				"isRelativeToParent": true
 			},
 
-			{
-				"rename": "Puzzle GM",
-				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
-				"position":{"x":18.6869,"y": 26.5051,"z": -50.4747},
-				"rotation":{"x":5.0997,"y": 5.982,"z": 139.6925},
-				"isRelativeToParent": true,
-				"scale":1.5
-			},
-			{
-				"path":"Comet_Body/Sector_CO/Sector_CometInterior/DetailPatches_CometInterior/SnowChamber_1/Fol_GM_Clutter (50)",
-				"position":{"x":18.039,"y": 27.3864,"z": -45.6541},
-				"rotation":{"x":315.7836,"y": 310.2878,"z": 155.7166},
-				"isRelativeToParent": true,
-				"scale":1.5
-			},
+		
 
 			{
 				"rename": "fallen torch",
@@ -577,21 +544,20 @@
 				"rotation": {"x": 291.7495, "y": 241.5807, "z": 80.7598},
 				"keepLoaded": true,
 				"isRelativeToParent": true
-			},
-			
-			{
-				"rename":"Spacewalker Scrollboard Lamp",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
-				"keepLoaded": true,
-				"position":{"x":17.2335,"y": 28.8913,"z": -40.8232},
-				"rotation":{"x":325.0644,"y": 301.9917,"z": 250.3828},
-				"isRelativeToParent": true
 			}
+			
+			
 
 		],
 		"translatorText": 
 		[
+			{
+				"rename": "Sanctuary sad recording",
+				"type": "recorder",
+				"position": {"x": -17.2118, "y": 3.1821, "z": -40.719},
+				"rotation": {"x": 357.994, "y": 300.0251,"z": 1.9018},
+				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cassava sad.xml"
+			},
 			{
 				"rename": "Shelter question recording",
 				"type": "recorder",
@@ -599,13 +565,7 @@
 				"rotation": {"x": 358.7878, "y": 308.8004,"z": 1.5072},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/storm shelter question.xml"
 			},
-			{
-				"rename": "Schematic trailmarker",
-				"type": "trailmarker",
-				"position": {"x": 29.4069, "y": 2.3591 , "z": -21.9295},
-				"rotation": {"x": 358.9158, "y": 304.0861,"z": 1.6017},
-				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/shelf trail.xml"
-			},
+			
 			{
 				"rename": "Stowaway water rule TEXT",
 				"type": "wall",
@@ -616,16 +576,16 @@
 			{
 				"rename": "Inspired schematic scroll",
 				"type": "scroll",
-				"position": {"x":33.2341, "y": 5.5854 , "z": -21.8578},
-				"rotation": {"x":0.8339, "y": 348.0329,"z": 55.3873},
+				"position": {"x": -9.1029, "y": 6.3395, "z": 33.145},
+				"rotation": {"x": 8.0254, "y": 280.7329,"z": 57.6706},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/weapon schematic.xml",
 				"seed":1
 			},
 			{
 				"rename": "OPC Schematic Scroll w RearSecret",
 				"type": "scroll",
-				"position": {"x":33.5522, "y": 4.9123 , "z": -21.5963},
-				"rotation": {"x":7.1211, "y": 351.7878,"z": 86.5685},
+				"position": {"x": -9.0466, "y": 5.8529, "z": 31.2122},
+				"rotation": {"x": 2.4324, "y": 268.4509,"z": 60.1365},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cyard schematic opc.xml",
 				"seed":8
 			},
