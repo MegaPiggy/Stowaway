@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CYCAD: Oeno, I request urgent assistance in locating a native lifeform that has escaped the <![CDATA[<color=orange>Sanctuary!</color>]]>!
+		CYCAD: Oeno, I hope this scroll reaches you on the quantum shard: I request urgent assistance in locating a native lifeform that has escaped the <![CDATA[<color=orange>Sanctuary!!</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CYCAD: The quantum shard slipped from my sight when I disengaged my voyager stone by accident earlier.. When the shard returned, the lifeform that was resting on it was gone!
+		CYCAD: I disengaged my voyager stone by accident earlier, causing the quantum shard to slip from my sight.. along with one of the native species that was resting on it!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		OENO: We must locate this missing lifeform before the <![CDATA[<color=orange>Ash Twin Project</color>]]> begins; the Sanctuary is their only protection from the supernova if the project fails!
+		OENO: When I reconnected to my voyager, the lifeform was gone! We must find it before the <![CDATA[<color=orange>Ash Twin Project</color>]]> begins; the <![CDATA[<color=orange>Sanctuary</color>]]> is their only protection if the project fails!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: But Cycad, you should be able to travel using the quantum shard too, even as a voyager! If any more escapes occur, I implore you to take matters into your own hands.
+		OENO: But Cycad, you should be able to easily travel using the quantum shard as a voyager! If any more escapes occur, I implore you to give chase.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		CYCAD: But the surface of the planet is never completely dark enough to allow a conscious individual to travel to it using the quantum shard! I do not see how...
+		CYCAD: But the surface of the planet is never completely dark enough to allow a conscious being to travel to it using the quantum shard. I do not see how...
 				</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CYCAD: Oh! I see.. A voyager lacks the ability to observe its surroundings on its own...
+		CYCAD: Oh! The voyager lacks the ability to observe its surroundings on its own.. Does that mean...
 				</Text>
 	</TextBlock>
 	
@@ -62,7 +62,7 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		CYCAD: How fascinating! When the quantum shard next visits inside the Sanctuary, I shall try out this hypothesis at once!
+		CYCAD: How fascinating! When the quantum shard next visits inside the <![CDATA[<color=orange>Sanctuary,</color>]]> I shall try out this hypothesis at once.
 		</Text>
 	</TextBlock>
 	

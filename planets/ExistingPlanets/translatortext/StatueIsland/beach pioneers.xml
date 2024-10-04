@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		COLEUS: The shuttle has landed safely.. Friends, I am happy to announce the first joint survey expedition of our reunited clan is officially underway!
+		COLEUS: The shuttle has landed safely. Friends, I am happy to announce the first survey expedition after the reunion is officially underway!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		THATCH: I.. I can't believe it! I feel.. overcome by gratitude and excitement.. I never imagined after the crash we would one day explore a new planet together again, my friends.
+		THATCH: I never imagined after the crash we would one day explore a new planet together again, my friends. I feel overcome by gratitude.. and excitement!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		MELORAE: Come now, my dear nephew.. We have wept enough during our reunion, and every day since! Now is the time to bask in the joy of exploring a terrifying new planet!
+		MELORAE: Come now, Thatch.. We have wept enough during our reunion, and every day since! Now is the time to bask in the joy of exploration!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: I only wish my brother could be here with us too..
+		PLUME: I only wish Keek could be here too..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		PLUME: Remember to use the new camera functions on your masks to document our surroundings, so we may share photos of this planet with our friends when we return home to Brittle Hollow and Ember Twin.
+		PLUME: Remember to use your masks to document your surroundings, so we may share this planet with our friends when we return home to Brittle Hollow and Ember Twin.
 		</Text>
 	</TextBlock>
 			<TextBlock>	

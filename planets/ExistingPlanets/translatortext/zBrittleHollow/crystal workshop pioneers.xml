@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		PLUME: Kousa, your handiwork is impressive as ever! The <![CDATA[<color=orange>Gravity Crystal Workshop's</color>]]> shelves are always stocked full of crystals of perfect symmetry each time I visit.
+		PLUME: Kousa, your handiwork is impressive as ever! The shelves here in the <![CDATA[<color=orange>Gravity Crystal Workshop's</color>]]> seem to always be stocked full of crystals of perfect symmetry.
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		KOUSA: And yes, yes - the recent meteor storms have broken off more tiny pieces of Brittle Hollow's undercrust, giving me tons of material to carve into new crystals.
+		KOUSA: And I'm glad you noticed! The recent meteor storms have broken off more tiny pieces of Brittle Hollow's undercrust, giving me a bountiful amount of material to carve new gravity crystals.
 		</Text>
 	</TextBlock>
 
@@ -41,7 +41,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: Kousa, I have already been back for some time. We ate together the previous day!
+		PLUME: Kousa, I have already been back for some time.. We ate together the previous day, and you invited me to come to your workshop today to show me an invention of yours!
 		</Text>
 	</TextBlock>
 	
@@ -50,7 +50,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: Do you not recall? You invited me to your workshop to show me an invention you engineered to help our expedition team weather the terrible storms on the ocean planet!
+		PLUME: If I recall correctly, you described it as an invention that would help our expedition team weather the terrible storms on the ocean planet?
 		</Text>
 	</TextBlock>
 

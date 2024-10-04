@@ -143,11 +143,51 @@
 				"position": {"x": 76.9201, "y": -4.8325, "z": -41.8105},
 				"isRelativeToParent": true
 			},
-			
 			{
 				"rename":"chamber1 scroll light",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
 				"position": {"x": -9.1964, "y": 147.4376, "z": -1.2717},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"chamber2 RECORDER light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"position": {"x": 8.1621, "y": 114.578, "z": -0.7531},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"chamber2 scroll light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"position": {"x": -10.0061, "y": 115.9495, "z": 0.4894},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"chamber3 scroll light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/Prefab_NOM_NomaiTree_Var_2",
+				"position": {"x": 1.1818, "y": 1.5047, "z": 0.2117},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"finalchamber whiteboard light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_InterRoom/",
+				"position": {"x": 18.5425, "y": 32.4912, "z":  -0.3656},
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"intro sandpile",
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
+				"position": {"x": 41.9693, "y": -1.6762, "z": -28.7242},
+				"rotation": {"x": 341.59, "y": 325.129, "z": 353.4226},
+				"scale": 2,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"intro sandpile LIGHT",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+				"position": {"x": 42.6445, "y": -1.623, "z": -28.6105},
 				"isRelativeToParent": true
 			},
 
@@ -579,8 +619,7 @@
 		{
 			"rename": "Pioneer Quantum Camp extra pointlight",
 			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Lighting_Module_Sunken/FillLight_SunkenModule",
-			"position":{"x":-6.2892,"y": 14.9151,"z": 5.5403},
-			"rotation":{"x":20.3803,"y": 164.6536,"z": 356.7346},
+			"position":{"x":-6.2892,"y": 2.3333,"z": 5.5403},
 			"parentPath": "Sector_QuantumIsland/Pioneer Quantum Camp torch",
 			"isRelativeToParent": true
 		},	
@@ -653,8 +692,8 @@
 	{
 		"rename":"Solanum oops recording",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum oops recording.xml",
-		"position": {"x": 37.2245, "y": -0.1895,"z": -29.7542},
-		"rotation": {"x": 9.7584, "y": 27.8266, "z": 356.6493},
+		"position": {"x": 42.1572, "y": -1.7113, "z": -28.6342},
+		"rotation": {"x": 28.2577, "y": 56.0466, "z": 349.775},
 		"type":"recorder",
 		"isRelativeToParent": true
 	},

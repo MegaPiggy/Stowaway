@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: I have dedicated what little time I have left to studying and understanding the deadly matter that has stolen the lives of all I hold dear, as well as its source.
+		CASSAVA: I have dedicated what little time I have left to studying and understanding the deadly matter that has stolen the lives of all I hold dear... as well as its source.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-				CASSAVA: Was this comet naturally formed, or was it artificially created and sent towards us intentionally? How did it maintain such incredible pressures within itself for so long on its journey?
+				CASSAVA: Was this structure naturally formed, or was it artificially created and sent towards us intentionally? How did it maintain such incredible pressures within itself for so long on its journey?
 		</Text>
 	</TextBlock>
 	<TextBlock>

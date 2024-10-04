@@ -23,13 +23,13 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			COLEUS: Hm? How strange. Could everyone look away from the shard for a moment? It appears to no longer desire to travel for some reason!</Text>
+			COLEUS: Hm? How strange.. The quantum shard suddenly appears to no longer desire to travel for some reason, even though none of us are observing it!</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			MELORAE: <![CDATA[<i>Wait.</i>]]> The photo I took of the shard is still within my view.</Text>
+			MELORAE: <![CDATA[<i>Wait.</i>]]> The photo I took of the shard is still, technically, within my view..</Text>
 	</TextBlock>
 
 	<TextBlock>

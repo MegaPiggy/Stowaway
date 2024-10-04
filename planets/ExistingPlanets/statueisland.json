@@ -36,7 +36,12 @@
 
 		"details":
 		[		
-			
+			{
+				"rename":"statue beach TREE",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text/",
+				"position": {"x": 8.8193, "y": 34.0126, "z": -12.1639},
+				"isRelativeToParent": true
+			},
 		{
 			"rename":"statue beach TREE",
 			"path":"QuantumMoon_Body/Sector_QuantumMoon/State_GD/Interactables_GDState/GDState_Quantum_Objects/Quantum_TreeClump_1/Rock_Tree",

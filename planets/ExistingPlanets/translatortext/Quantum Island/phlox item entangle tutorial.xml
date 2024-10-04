@@ -27,14 +27,14 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-		PLUME: What did I teach you about leaving your toys on the quantum shard?</Text>
+		PLUME: What did I teach you about leaving things on the quantum shard?</Text>
 	</TextBlock>
 
 	<TextBlock>
 			<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			PHLOX: Um.. Things left on the quantum shard will travel with it.. Right?</Text>
+			PHLOX: Um.. Things left on the quantum shard get taken away with them.. Right?</Text>
 	</TextBlock>
 
 	<TextBlock>

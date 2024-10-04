@@ -14,15 +14,15 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: This.. This is an incredible discovery. From this, we can confidently conclude that both these species once originated on this frozen planet destroyed by the bramble.
+		OENO: This.. This is an incredible discovery.
 		</Text>
 	</TextBlock>
-<TextBlock>
+	<TextBlock>
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: When the planet was shattered, they must have become stowaways within fragments of the planet scattered across the star system, crashing on the planets that would become their habitats today.
+		OENO: From this, we can confidently conclude that both these species once originated on this frozen planet destroyed by the bramble.
 		</Text>
 	</TextBlock>
 
@@ -31,32 +31,41 @@
 		<LocationA />
 			<ParentID>3</ParentID>
 		<Text>
-		CASSAVA: That these species survived - and continue to thrive on these alien planets - is nothing short of awe-inspiring. Their resilience truly inspires me!
+		OENO: When the planet was shattered, they must have been carried within the fragments of the planet scattered across the star system, crashing on the planets that would become their habitats today.
 		</Text>
 	</TextBlock>
-	
+
 	<TextBlock>
 		<ID>5</ID>
 		<LocationA />
 			<ParentID>4</ParentID>
 		<Text>
-		PLUME: In the heartbreaking absence of any trace of the survivors here.. this discovery is a beacon of light.
+		CASSAVA: That these stowaways survived - and continue to thrive on these alien planets - is nothing short of awe-inspiring. Their resilience truly inspires me!
 		</Text>
 	</TextBlock>
-
+	
 	<TextBlock>
 		<ID>6</ID>
 		<LocationA />
 			<ParentID>5</ParentID>
 		<Text>
-		PLUME: I wish to learn from these species' perserverance and undying courage in the face of hardships.
+		PLUME: In the heartbreaking absence of any trace of the survivors here.. this discovery is a beacon of light.
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+			<ParentID>6</ParentID>
+		<Text>
+		PLUME: I hope to someday learn from these species' perserverance and undying courage, in the face of our grief.
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
-		<ID>7</ID>
+		<ID>8</ID>
 		<LocationA />
-			<ParentID>6</ParentID>
+			<ParentID>7</ParentID>
 		<Text>
 		CASSAVA: They have much to teach all of us. I am certain that if we simply work together and perservere, our clan will accomplish anything we set our hearts to!
 		</Text>

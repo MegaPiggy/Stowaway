@@ -13,7 +13,7 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		MELORAE: I've never seen lifeforms such as these before! They look mesmerizing, dancing on the surface of the water..
+		MELORAE: I've never seen lifeforms such as these before! They look mesmerizing, dancing along the ocean's surface..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		THATCH: Goodness!! Keep your distance, my friends: these species generate a terrifying voltage of bioelectricity!
+		THATCH: An update: keep your distance, my friends, for these species generate a terrifying voltage of bioelectricity! I was slightly zapped as I waded past it!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		THATCH: How fascinating! I cannot imagine what new species of life we may discover as we explore the rest of this star system.
+		THATCH: How exhilarating! I cannot imagine what new species of life we may discover as we explore the rest of this star system!
 		</Text>
 	</TextBlock>
 	

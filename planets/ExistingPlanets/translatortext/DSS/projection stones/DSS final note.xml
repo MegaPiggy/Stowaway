@@ -29,7 +29,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		CASSAVA: I have ordered the Inspired to remain in stationary orbit around Giant's Deep. Should containment fail in my absence, I pray that the Inspired will trap any ghost matter that leaks out.
+		CASSAVA: I have ordered the Inspired to remain in stationary orbit around Giant's Deep. Should containment fail in my absence, the Inspired should catch any ghost matter that leaks out.
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: And finally, I have delivered the native species of Timber Hearth (kept safe within the Sanctuary) back to the decontaminated surface of the planet using my voyager.
+		CASSAVA: And finally, I have released the native species of Timber Hearth back to the decontaminated surface of the planet with my voyager.
 </Text>
 	</TextBlock>
 
@@ -55,7 +55,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: I only wish I could see all the amazing discoveries they might make..
+		CASSAVA: I only wish.. I could see all the amazing discoveries they will surely make..
 		</Text>
 	</TextBlock>
 	<TextBlock>

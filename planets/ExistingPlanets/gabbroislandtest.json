@@ -71,12 +71,41 @@
 		],
 		"details": [	
 			{
-				"rename":"Gabbro drownfire recording",
-				"path":"Moon_Body/Sector_THM/Interactables_THM/Interactibles_SignalDish/Prefab_HEA_Recorder",
-				"position": {"x": 39.6127, "y": 18.4705, "z": 3.9548},
-				"rotation": {"x": 4.3443, "y": 88.1643, "z": 3.7237},
+				"rename":"highledge warm light",
+				"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
+				"position":{"x": -30.8565,"y":  12.0299,"z": 4.6659},
 				"isRelativeToParent": true
 			},
+			{
+				"rename":"table lamp",
+				"path":"TimberHearth_Body/Sector_TH/Interactables_TH/MineShaft/MineElevator/Props_HEA_BlueLantern (2)/",
+				"position":{"x": 39.969,"y": 18.4153,"z": 6.98788},
+				"rotation":{"x": 4.3329,"y": 62.0899,"z": 358.5949},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Campfire table cosm",
+				"path":"TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Props_RadioTower/OtherComponentsGroup/Props_HEA_CampsiteTableSetting/",
+				"position": {"x": 39.8691, "y": 18.4734, "z": 6.2968},
+				"rotation": {"x": 353.9212, "y": 280.471, "z": 356.8515},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Campfire table collider",
+				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"position": {"x": 39.8619, "y": 18.7099, "z": 6.4027},
+				"rotation": {"x": 4.3123, "y": 98.8863, "z": 1.4671},
+				"isRelativeToParent": true,
+				"stretch": {"x":1,"y":1,"z":1.9}
+			},
+			{
+				"rename":"Gabbro drownfire recording",
+				"path":"Moon_Body/Sector_THM/Interactables_THM/Interactibles_SignalDish/Prefab_HEA_Recorder",
+				"position": {"x": 40.6037, "y": 19.0596, "z": 6.5548},
+				"rotation": {"x": 6.9843, "y": 135.0986, "z": 3.7237},
+				"isRelativeToParent": true
+			},
+
 			{
 				"rename":"ledgegate GM volume",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
