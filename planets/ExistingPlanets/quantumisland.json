@@ -138,6 +138,41 @@
 		"details": [
 		
 			{
+				"rename":"ANTIWATER",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/anti water.prefab",
+				"position": {"x": 105.0161, "y": -19.4543, "z": -86.8627},
+				"isRelativeToParent": true,
+				"scale":0.4
+			},
+			{
+				"rename":"WATERANTI",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/antino water.prefab",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"parentPath": "Sector_QuantumIsland/ANTIWATER",
+				"scale": 2.5,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"ANTIWATER lamp",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"parentPath": "Sector_QuantumIsland/ANTIWATER",
+				"isRelativeToParent": true
+			},
+			
+
+
+			{
+				"rename":"intro whiteboard light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"position": {"x": 76.9201, "y": -4.8325, "z": -41.8105},
+				"isRelativeToParent": true
+			},
+
+			{
 				"rename":"intro whiteboard light",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
 				"position": {"x": 76.9201, "y": -4.8325, "z": -41.8105},

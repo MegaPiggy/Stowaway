@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2174067722
+CRC: 569523142
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: cc1bd850504e3cda709652bd7ac2dfa3
+    Hash: d590ea45659151962ac6bf6787c1f588
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2e94723bef330c544495692b182be3d4
+    Hash: a6e9e1fee256f76df4330145814c9470
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -40,6 +40,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 1f602aa455abafb74a1e8d2b4af2ad9a, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
@@ -68,6 +70,7 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/ToyMorbius.prefab
 - Assets/Nomai Ruins/Prefabs/star ore shell.prefab
 - Assets/Nomai Ruins/Prefabs/Wall Diamond Lamp.prefab
+- Assets/Nomai Ruins/Prefabs/ANTINO WATER.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Corner_R_Broken.prefab
 - Assets/Nomai Ruins/Prefabs/Stairs_L.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Corner_L_Broken.prefab
@@ -76,6 +79,7 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/BrokenWall_B_Corner_Mir.prefab
 - Assets/Nomai Ruins/Prefabs/ToyShip.prefab
 - Assets/Nomai Ruins/Prefabs/Doorway.prefab
+- Assets/Nomai Ruins/Prefabs/ANTI WATER.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_B_Mir.prefab
 - Assets/Nomai Ruins/Prefabs/Doorway_Corner_R.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Corner_R.prefab

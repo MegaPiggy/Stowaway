@@ -204,6 +204,17 @@
 		
 		"details": [
 			{
+				"rename":"dev moon mural",
+				"assetBundle": "planets/bundle/dev",
+				"path": "assets/models/devcom/dev mural moon.prefab",
+				"position": {"x": 40.5264,"y": 41.3927,"z": 230.1381},
+				"rotation": {"x": 331.1521,"y": 275.3076,"z": 278.297},
+				"isRelativeToParent": true,
+				"stretch": {"x": 1,"y": 1,"z": 0.8}
+			},
+
+			{
+				"rename":"sanctuary active pool",
 				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
 				"position": {"x": -0.0041, "y": -0.6562 , "z": -0.211},
 				"rotation": {"x": 0.0075, "y": 180.3452, "z": -0.0019},

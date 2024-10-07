@@ -972,8 +972,12 @@
 							{
 								"id": "TH_Sanctuary",
 								"location": "b",
-								"seed": 3,
-								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml"
+								"seed": 1,
+								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
+								"arcInfo": [
+												{},{},{},{},{},{},{},{},
+												{"mirror": false,"position": {"x":-0.8517,"y": 2.1612},"zRotation": 314.4789}
+											]
 							},
 							{
 								"id": "GD_DeepStormStation",

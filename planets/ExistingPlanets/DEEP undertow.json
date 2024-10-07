@@ -8,6 +8,7 @@
 		"Atmosphere_GD/FogSphere",
 	
 		"Sector_GD/Sector_GDInterior/Jellyfish_GDInterior",
+		"Sector_GD/Sector_GDInterior/Tornadoes_GDInterior/MovingTornadoes",
 	
 		"Sector_GD/Sector_GDInterior/Sector_GDCore/Terrain_GDCore/BakedTerrain_CoreGroup1",
 		"Sector_GD/Sector_GDInterior/Sector_GDCore/Terrain_GDCore/BakedTerrain_CoreGroup2",
