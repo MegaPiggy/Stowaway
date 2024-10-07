@@ -262,8 +262,8 @@
 			{
 				"rename":"highcove torch 1",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Lighting_GravityCannon/Prefab_NOM_WallTorch (4)",
-				"position": {"x": -155.6989, "y": 12.4467, "z": -129.951},
-				"rotation": {"x": 10.3169, "y": 109.5469, "z": 261.4991},
+				"position": {"x": -36.6821, "y": 14.037, "z": 5.1144},
+				"rotation": {"x": 26.6376, "y": 83.890, "z": 352.9176},
 				"isRelativeToParent": true
 			},
 			{

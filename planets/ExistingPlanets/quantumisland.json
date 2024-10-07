@@ -163,15 +163,7 @@
 				"isRelativeToParent": true
 			},
 			
-
-
-			{
-				"rename":"intro whiteboard light",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
-				"position": {"x": 76.9201, "y": -4.8325, "z": -41.8105},
-				"isRelativeToParent": true
-			},
-
+			
 			{
 				"rename":"intro whiteboard light",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",

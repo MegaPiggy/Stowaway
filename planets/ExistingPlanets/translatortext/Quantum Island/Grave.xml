@@ -10,13 +10,13 @@
 	<TextBlock>
 			<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>It pains me to report that survey expeditions to the forested planet, as well as the bramble's exterior, have yielded no signs of any of our friends from <![CDATA[<color=orange>escape pod 3.</color>]]></Text>
+		<Text>It pains me to report that our final survery expedition to the bramble's exterior (exploring the underside of its north pole) has not yielded any signs of any of our friends from <![CDATA[<color=orange>escape pod 3.</color>]]></Text>
 			</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>With our current methods of travel, it would be foolish to even attempt an expedition of any sort into Dark Bramble's dangerous and endless mazes.</Text>
+		<Text>With our current methods of travel, it would be foolish to even attempt an expedition of any sort into <![CDATA[<color=lightblue>Dark Bramble's</color>]]> dangerous and endless mazes.</Text>
 			</TextBlock>
 
 	<TextBlock>

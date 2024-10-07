@@ -14,7 +14,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: This.. This is an incredible discovery.
+		OENO: This.. This is an incredible discovery. Both these species, inside this ancient glacier...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -22,7 +22,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: From this, we can confidently conclude that both these species once originated on this frozen planet destroyed by the bramble.
+		OENO: Hypothesis: Both of these species must have been native to the frozen planet that was destroyed by the bramble.
 		</Text>
 	</TextBlock>
 

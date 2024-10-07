@@ -20,9 +20,9 @@
 		<Name>Chert SW1</Name>
 			<Dialogue>
 				<Page>Ah, I’m guessing you heard about this from Mica?</Page>
-				<Page>I hope you didn’t take too long to take off, or they’ll be telling future space cadets about how you delayed your launch for generations to come too!</Page>
+				<Page>I hope you didn’t take too long to take off - or they’ll be telling future space cadets about how you delayed your launch for generations to come too!</Page>
 				<Page>As I've told them many times.. The reason I delayed my launch date was because sand on Ember Twin was flowing to and filling up Ash Twin at the time.</Page>
-				<Page>Since I was hoping to explore Ash Twin on my first trip, the sand burying it would’ve made exploring anything rather hard!</Page>
+				<Page>Since I was planning to explore Ash Twin on my first trip, the sand burying it would’ve made exploring anything rather hard!</Page>
 				<Page>That’s why I opted to delay my launch - though more times than I'd have liked - until the sand began to flow back to Ember Twin.</Page>		
 			</Dialogue>
 		<DialogueOptionsList>
@@ -41,7 +41,7 @@
 		<Name>Chert SW2</Name>
 			<Dialogue>
 				<Page>Indeed! I once spotted some tall Nomai structures on Ash Twin's surface we had never noticed before, while stargazing back on Timber Hearth. It seemed like a promising place to explore on my first trip!</Page>
-				<Page>From what I could tell, the structures appeared to be for stargazing. Each one had windows in their roofs that allowed you to peer out and see the planets and stars.</Page>
+				<Page>Each one had windows in their roofs that allowed you to peer out and see the planets and stars. From what I could tell, they appeared to be for stargazing.</Page>
 				<Page>I must say, it was quite heartwarming to learn the Nomai shared my love for the stars!</Page>
 				<Page>I looked around for a while - but at some point, I realized the sand column had sucked my ship with it back to Ember Twin!</Page>
 				<Page>I had to cut my expedition short to make a distress call back to the village, and call Slate to pick me up. <![CDATA[<Pause>]]> ..I think he was more worried about my ship than me, though.</Page>

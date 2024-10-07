@@ -9,8 +9,8 @@
 			{
 				"rename":"anglerfish recording purple light",
 				"path": "QuantumIsland_Body/Sector_QuantumIsland/Lighting_QuantumTower/OtherComponentsGroup/FillLight_NOM_QuantumTowerMid",
-				"position": {"x": -8.8924,"y": 2.4075,"z": -1.7001},
-				"rotation": {"x": 58.6297,"y": 231.0193,"z": 23.9294},
+				"position": {"x": -50.983,"y": 20.0449,"z": 8.2786},
+				"rotation": {"x": 28.201,"y": 276.5177,"z": 47.4632},
 				"hasPhysics": true,
 				"physicsRadius": 0,
 				"isRelativeToParent": true
@@ -21,6 +21,25 @@
 				"path":"assets/models/rotation guy.prefab",
 				"position": {"x": 0,"y": 0,"z": 0},
 				"parentPath": "Sector_AnglerNestDimension/anglerfish recording purple light",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename": "old mask removedbod",
+				"path":"DB_EscapePodDimension_Body/Sector_EscapePodDimension/Interactables_EscapePodDimension/DynamicProps_EscapePodDimension/DeadNomai_Body (4)/Prefab_NOM_Dead_Suit_Advanced_FloatC/Character_NOM_Dead_Suit",
+				"position": {"x": -55.2309,"y": 22.12,"z": 8.2786},
+				"rotation": {"x": 352.1586,"y": 326.0496,"z": 98.0079},
+				"hasPhysics": true,
+				"physicsRadius": 0,
+				"removeChildren": ["Character_NOM_Skeleton_v3","Nomai_Mesh:Mesh","Nomai_Rig_v01:ControlRig","Nomai_Rig_v01:TrajectorySHJnt"],
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "mask boxcollider",
+				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
+				"position":{"x": 0.4441,"y": -0.1791,"z": 0.4052},
+				"rotation": {"x": 0,"y": 344.6109,"z": 0},
+				"parentPath": "Sector_AnglerNestDimension/old mask removedbod/Props_NOM_Mask_GearNew",
 				"isRelativeToParent": true
 			}
 		],
