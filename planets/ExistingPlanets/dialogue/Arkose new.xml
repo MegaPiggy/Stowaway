@@ -19,26 +19,6 @@
 	</DialogueNode>
 
 
-	<DialogueNode>
-		<Name>Arkose_Revisit</Name>
-		<EntryCondition>Shutup_Arkose</EntryCondition>
-		<Dialogue>
-			<Page>Hey astronaut, what's up?</Page>
-		</Dialogue>
-		 <DialogueOptionsList>
-		 	<DialogueOption>
-				<RequiredPersistentCondition>Shutup_Arkose</RequiredPersistentCondition>
-				<Text>I learnt something cool about ghost matter, Arkose!</Text>
-				<DialogueTarget>ArkoseNewLIST</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<Text>Hey, Arkose. Is there actually a reason you keep chucking rocks into the ghost matter?</Text>
-				<DialogueTarget>ArkoseNew1</DialogueTarget>
-			</DialogueOption>
-		 </DialogueOptionsList>
-	</DialogueNode>
-
-
 
 	<DialogueNode>
 		<Name>ArkoseNew1</Name>
@@ -159,7 +139,7 @@
 		<Dialogue>
 			<Page><![CDATA[<i>Huh?! Really?!</i>]]></Page>
 			<Page>Ohh, so <![CDATA[<i>that's</i>]]> why the ghost matter goes away sometimes.. It must be the Attlerock's gravity pulling this patch here up when it's coming over the village!</Page>
-			<Page>I know that, 'cos the exhibit in the museum taught me about the Attlerock's gravity!</Page>
+			<Page>I know that part 'cos of the cool orb exhibit in the museum!</Page>
 			<Page>I was so focused I never even noticed the Attlerock coming over the village every time it disappeared..</Page>
 			<Page>Thanks a bunch for telling me, astronaut! Now, I can finally stop throwing rocks and rest my arm...</Page>
 			</Dialogue>

@@ -4,7 +4,7 @@
 <Entry>
              <ID>GD_WARPTOWER</ID>
              <Name>Spire Tower</Name>
-             <Curiosity>TimeLoop</Curiosity>
+             <Curiosity>None</Curiosity>
              <IgnoreMoreToExplore/>
 
           <RumorFact>
@@ -39,7 +39,7 @@
 <Entry>
             <ID>BH_WARPTOWER</ID>
             <Name>Column Tower</Name>
-           <Curiosity>TimeLoop</Curiosity>
+           <Curiosity>None</Curiosity>
           <IgnoreMoreToExplore/>
 
           <RumorFact>
@@ -58,7 +58,7 @@
 <Entry>
         <ID>TH_WARPTOWER</ID>
         <Name>Mountain Tower</Name>
-        <Curiosity>TimeLoop</Curiosity>
+        <Curiosity>None</Curiosity>
         <IgnoreMoreToExplore/>
 
           <RumorFact>
@@ -76,7 +76,7 @@
         </ExploreFact>
        <ExploreFact>
             <ID>TH Tower EX3</ID> 
-            <Text>After studying the issue, Oeno concluded that the issue was caused by something called the sunless tide.</Text> 
+            <Text>After studying the issue, Oeno concluded that the issue was caused by something called the sunless day.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>TH Tower EX4</ID> 
@@ -89,7 +89,7 @@
 <Entry>
               <ID>SS_WARPTOWER</ID>
               <Name>Star Tower</Name>
-            <Curiosity>TimeLoop</Curiosity>
+            <Curiosity>None</Curiosity>
             <IgnoreMoreToExplore/>
 
           <RumorFact>
@@ -103,15 +103,19 @@
         </ExploreFact>
           <ExploreFact>
             <ID>SS Tower EX2</ID>
-             <Text>The rotating doors on Ash Twin can be activated without input by a phenomenon called the sunless tide.</Text> 
+             <Text>I found a scroll containing Oeno's notes explaining why the doors on Ash Twin were activating without input.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX3</ID>
-             <Text>The sunless tide occurs as the Hourglass Twins align directly with the sun, causing a combined force of gravity that causes both sand and vision orbs to be pulled towards the twin closer to the sun.</Text> 
+             <Text>The sunless day occurs as the Hourglass Twins orbit into direct alignment with the sun, causing a combined force of gravity between the sun and the twin closer to the sun.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX4</ID>
-             <Text>As this alignment occurs, a solar eclipse occurs on the body farther from the sun.</Text> 
+             <Text>This combined force pulls vision orbs on Ash Twin upward as the alignment passes overhead.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>SS Tower EX5</ID>
+             <Text>Combined gravitational forces are the cause of the sand funnel between the Hourglass Twins.</Text> 
         </ExploreFact>
  </Entry>
 
@@ -119,7 +123,7 @@
 <Entry>
            <ID>HGT_WARPTOWER</ID>
             <Name>Twin Towers</Name>
-             <Curiosity>TimeLoop</Curiosity>
+             <Curiosity>None</Curiosity>
             <IgnoreMoreToExplore/>
 
           <RumorFact>
@@ -133,5 +137,32 @@
         </ExploreFact>
  </Entry>
 
+<Entry>
+           <ID>SOLAR_TOWER</ID>
+            <Name>Solar Towers</Name>
+             <Curiosity>None</Curiosity>
+
+          <RumorFact>
+            <ID>SLR_T R1</ID>
+            <SourceID>CT_CHERT</SourceID>
+             <Text>Chert flew to admire the colossal solar towers on each of Ash Twin's poles on their first expedition. They wondered why the Nomai didn't build the solar panels on Ember Twin's poles as well.</Text> 
+        </RumorFact>
+         <ExploreFact>
+            <ID>SLR_T EX1</ID>
+             <Text>I found a Nomai recording atop one of the solar towers that describes the Nomai's construction of the solar tower.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>SLR_T EX2</ID>
+             <Text>The solar towers on Ash Twin were deliberately built on Ash Twin's poles to avoid sunless days.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>SLR_T EX3</ID>
+             <Text>The sand funnel between the Hourglass Twins follows the sunless day.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>SLR_T EX4</ID>
+             <Text>The Nomai described plans to relocate the solar panels on Ember Twin due to issues with its current site.</Text> 
+        </ExploreFact>
+ </Entry>
 
 </AstroObjectEntry>

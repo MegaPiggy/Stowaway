@@ -28,7 +28,7 @@
 			},
 			{
 				"audio": "OW_NM_GravityCrystalAmbience_Louder",
-				"radius": 110,
+				"radius": 130,
 				"track": "environment",
 				"volume": 0.4,
 				"layer": 0,
@@ -52,7 +52,7 @@
 			"uniqueID": "INSP BH",
 			"pairedSingularity": "DSS WH",
 			"hasWarpEffects": false,
-			"horizonRadius": 15,
+			"horizonRadius": 17,
 			"position":{"x":0,"y": 0,"z": 0},
 			"isRelativeToParent": true
 		},
@@ -70,7 +70,7 @@
 		{
 			"rename": "gravitycannon volume",
 			"path": "BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Interactables_GravityCannon/CannonForceVolume/",
-			"position": {"x":184.8723,"y": 3.52,"z": 0.6393},
+			"position": {"x":213.2104,"y": 3.52,"z": 0.6393},
 			"rotation": {"x":0,"y": 180,"z": 90},		
 			"isRelativeToParent": true,
 			"scale":3,
@@ -151,6 +151,8 @@
 	"innerRadius": 25,
 	"dustTint": {"a": 0,"b": 0,"g": 0,"r": 0}
 },
+
+
 
 
 

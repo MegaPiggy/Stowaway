@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		 CASSAVA: Once I am able to calculate the source of the comet...
+		 CASSAVA: Once I am able to calculate the true source of the deadly matter...
 		</Text>
 			</TextBlock>
 
@@ -53,7 +53,7 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>INSP R3</FactID>
+			<FactID>INSP R5</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>

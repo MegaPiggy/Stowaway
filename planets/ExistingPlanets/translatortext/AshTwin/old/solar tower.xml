@@ -1,0 +1,87 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		BUR: Oh, I cannot bear wearing this heavy-insulation suit during construction work.. I am most thankful to our friends from the Timber Hearth mines who worked hard to craft these protective suits for us, but I fear improvements are still needed.. It insulates us from the star's heat, yes - but I feel as though I am being cooked from within!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		BUR: Could we not have waited for a sunless day to conduct work on the solar tower, as we did during the construction of the solar panels on Ember Twin?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		MELORAE: Unfortunately, we could not, Bur - for the north and south poles never experience sunless days.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		MELORAE: In fact, that is precisely why they were chosen as sites for the solar towers.. We did not want them rendered useless during sunless days, like those on Ember Twin currently are.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		ANNONA: uhhhh where will we be relocating the solar panels? we plan to relocate it to a grassy plateau above the sunless city. if you go there you can find my notes on it with ramie idk.
+		I wish we had more foresight before deciding on the site of the <![CDATA[<color=orange>Sunless City's</color>]]> solar panels.. It will be a pain in the cervical spine to relocate them in the future.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		MELORAE: Goodness! Did the matter escalate to such a degree?
+		 But they are such an awe-inspiring sight to behold! I spent much time admiring them while discussing their future relocation with Ramie the other day.
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		BUR: I am ashamed to admit so. Worse, I am quite sure she recorded it and placed it outside the High Energy Lab to inform any more Nomai accusing her lab. It is so embarrassing!
+		I would love to hear more about the details of the relocation sometime! It would be a great relief for the <![CDATA[<color=orange>Sunless City</color>]]> to no longer be deprived of energy from time to time.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		MELORAE: Perhaps we should all visit the solar panels on <![CDATA[<color=lightblue>Ember Twin</color>]]> before their upcoming relocation! I believe it would be good reference for the solar towers we are building as well.
+		</Text>
+	</TextBlock>
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>SS Tower EX2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SS Tower EX3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SS Tower EX4</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

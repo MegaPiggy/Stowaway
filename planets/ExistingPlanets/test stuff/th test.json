@@ -115,24 +115,17 @@
 			"type": "whiteboard",
 			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
 			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225},
-				"seed":0,
-				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml"
+				"seed":3,
+				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/Cassava moon.xml"
 		},
 		
 		{
 			"rename": "text spiral checking station floor",
-			"seed":1,
-				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
 			"position": {"x":24.3426, "y": -45.7584,"z": 183.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-			"arcInfo": [
-				{},{},
-				{},
-				{},{},{},{},{},{"mirror": false,"position": {"x":-0.8517,"y": 2.1612},"zRotation": 314.4789}
-			],
-			"isRelativeToParent": true
-			
+				"seed":4,
+				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/Cassava moon.xml"
 	
 		}
 

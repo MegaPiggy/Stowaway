@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: And finally, I have released the native species of Timber Hearth back to the decontaminated surface of the planet with my voyager.
+		CASSAVA: And finally, I have released the surviving species within the Sanctuary to the surface of the planet with my voyager.
 </Text>
 	</TextBlock>
 
@@ -79,7 +79,7 @@
 		<ParentID>9</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: The universe is... And we shall all become one within it!
+		CASSAVA: The universe is... And we shall become one with it!
 		</Text>
 	</TextBlock>
 
@@ -91,16 +91,16 @@
 		</RevealFact>
 		<RevealFact>
 			<FactID>DSS EX5</FactID>
-			<Condition>3</Condition>
+			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>DSS EX6</FactID>
-			<Condition>11</Condition>
+			<Condition>10</Condition>
 		</RevealFact>
 
 		<RevealFact>
-			<FactID>INSP R4</FactID>
-			<Condition>3</Condition>
+			<FactID>INSP EX4</FactID>
+			<Condition>4</Condition>
 		</RevealFact>
 
 </ShipLogConditions>

@@ -16,6 +16,11 @@
 				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
+				<DialogueOption>
+				<RequiredPersistentCondition>Tephra_NMR</RequiredPersistentCondition>
+				<Text>Where are the Nomai Ruins again?</Text>
+				<DialogueTarget>Teph Answers 1E</DialogueTarget>
+			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -27,12 +32,12 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>It travels to some sealed up cavern inside Timber Hearth.</Text>
+				<Text>It travels to a dark cave somewhere on Timber Hearth.</Text>
 				<DialogueTarget>Teph Answers 1B</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY EX1</RequiredLogCondition>
-				<Text>It travels to a sanctuary inside Timber Hearth the Nomai made to protect Hearthians from a supernova.</Text>
+				<Text>It travels to a sanctuary made to protect Hearthians from a supernova.</Text>
 				<DialogueTarget>Teph Answers 2</DialogueTarget>
 			</DialogueOption>
 			</DialogueOptionsList>
@@ -40,22 +45,66 @@
 
 	<DialogueNode>
 		<Name>Teph Answers 1B</Name>
+		<SetPersistentCondition>Tephra_NMR</SetPersistentCondition>
 		<Dialogue>
-			<Page>Huh... Uhm, I guess we can't really steal its as a hiding spot, if there's no way to get inside..</Page>
-					<Page>Oh, oh! But since the weird rock is cheating and hiding inside ghost matter, it's disqualified! Hah! We're the best hiders in the village again!</Page>
-					<Page>And you're officially the best seeker, astronaut! I knew you'd find it!</Page>
-					<Page>Good luck out there in space, astronaut. I know you'll find whatever you're looking for out there for sure!</Page>
+					<Page>Wow, you found it already?! You're awesome, astronaut!</Page>
+					<Page>But.. How do you get in the spooky cave it's hiding in? Galena and I want to get in so we can use it for playing hide and seek!</Page>
+					<Page>Galena and I looked all over Timber Hearth - even inside the zero-g cave! But we've never seen the purple rock inside any of these caves.</Page>
+					<Page>Oh..! There might be more caves around the <![CDATA[<color=orange>Nomai Ruins</color>]]> outside the village, though! That's the one place we've never looked.</Page>
+		</Dialogue>
+							<RevealFacts>
+     						   <FactID>TEPH EX3</FactID>
+    					  </RevealFacts>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Why not?</Text>
+				<DialogueTarget>Teph Answers 1C</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>Huh. Where are the Nomai Ruins again?</Text>
+				<DialogueTarget>Teph Answers 1D</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+			
+	<DialogueNode>
+		<Name>Teph Answers 1C</Name>
+			<Dialogue>
+					<Page>We wanted to look there too - but Mayor Rutile told us not to ever go near there, because there's lots of dangerous ghost matter around that area that we can't see.</Page>
+					<Page>So.. Could you look around the <![CDATA[<color=orange>Nomai Ruins</color>]]> for us, astronaut? The purple rock might be going to a cave there that we don't know about!</Page>
+					<Page>Hornfels told me the astronauts' Little Scouts can take pictures and see where ghost matter is hiding..</Page>
+					<Page>If you use your Little Scout, I bet you'll be totally safe from the ghost matter!</Page>
+			</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Teph Answers 1D</Name>
+		<Dialogue>
+					<Page>Um.. I dunno! It's somewhere on Timber Hearth, outside the village?</Page>
+					<Page>I think I saw it before playing with Tektite's probe launcher, up the hill. Maybe you can try using Tektite's scout launcher to find it, astronaut!</Page>
+					<Page>Galena and I wanted to look there ourselves - but Mayor Rutile told us not to ever go near there, because there's lots of dangerous ghost matter around that area that we can't see.</Page>
+					<Page>Could you look around the <![CDATA[<color=orange>Nomai Ruins</color>]]> for us, astronaut? The purple rock might be going to a cave there that we don't know about!</Page>
+					<Page>Hornfels told me the astronauts' Little Scouts can take pictures and see where ghost matter is hiding..</Page>
+					<Page>If you use your Little Scout, I bet you'll be totally safe from the ghost matter!</Page>
 		</Dialogue>
 	</DialogueNode>
 
+<DialogueNode>
+		<Name>Teph Answers 1E</Name>
+			<Dialogue>
+					<Page>Um.. I dunno! It's somewhere on Timber Hearth, outside the village?</Page>
+					<Page>I think I saw it before playing with Tektite's probe launcher, up the hill. Maybe you can try using Tektite's scout launcher to find it, astronaut!</Page>
+		</Dialogue>
+	</DialogueNode>
 
 	<DialogueNode>
 		<Name>Teph Answers 2</Name>
 		<Dialogue>
-			<Page>Woah, really? The supernova is the bad thing the sun does that the exhibit in the museum talks about, right?</Page>
+			<Page>Woah, really? The supernova is something the sun does that the exhibit in the museum talks about, right?</Page>
 					<Page>Why would the Nomai build something like that? Is it just an emergency hiding spot in case that happens someday?</Page>
-					<Page>But if it is, why would they seal it up and hide it like that? There's no way to get anything or anyone in or out of there now!</Page>
-					<Page>The Nomai are <![CDATA[<i>weeeird..</i>]]></Page>
+					<Page>But if it is, why would they seal it up and hide it like that? There's no way to get in or out of there, heehee!</Page>
+					<Page>The Nomai are <![CDATA[<i>weeeird!</i>]]></Page>
 		</Dialogue>
 	</DialogueNode>
 

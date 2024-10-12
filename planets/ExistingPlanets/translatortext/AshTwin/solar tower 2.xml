@@ -1,0 +1,105 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		BUR: Oh, I feel as though I am being cooked from within, wearing this heavy-insulation suit during construction..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		BUR: I am sure our friends from the <![CDATA[<color=orange>Timber Hearth Mines</color>]]> did their best to insulate us from the star's heat, but this is unbearable!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		BUR: Could we not have waited for a sunless day on <![CDATA[<color=lightblue>Ash Twin</color>]]> to begin work on this solar tower, like we did when building the solar panels on <![CDATA[<color=lightblue>Ember Twin?</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		ANNONA: We could not, Bur. The north and south poles never experience sunless days - that is precisely why we chose to built the solar towers here, so they would not be rendered useless at times.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		MELORAE: On the sunward side, as the funnel of sand travels with the sunless day, we will never need to worry about the funnel of sand as we work at this site.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		ANNONA: While we speak, it has been suggested that we should relocate <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels due to the issues with its current site. Has a site of relocation been decided yet, Melorae?
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		MELORAE: We seem to have come to an agreement, yes! Ramie and I spent quite some time debating ideal sites for the relocation the other day.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		MELORAE: In the end, we settled on a grassy plateau on the surface above the <![CDATA[<color=orange>Sunless City,</color>]]> as its proximity to the city will make transportation of energy much simpler.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		ANNONA: That sounds promising. I shall like to visit this relocation site soon to see it for myself to ensure it is ideal, before the relocation takes place.
+		</Text>
+	</TextBlock>
+
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>SLR_T EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SLR_T EX2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SLR_T EX3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SLR_T EX4</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>R_SLR R1</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>R_SLR R2</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

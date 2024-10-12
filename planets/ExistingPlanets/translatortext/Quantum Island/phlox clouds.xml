@@ -13,7 +13,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: I'm afraid not, Phlox. The clouds never seem to part on this stormy planet.. It will be hard to play the phantom moon game if we cannot see the skies.
+		PLUME: I'm afraid not, Phlox.. Giant's Deep's thick clouds completely obscure sight of anything outside the planet. It will be hard to play the phantom moon game if we cannot see the skies!
 		</Text>
 	</TextBlock>
 
@@ -47,44 +47,16 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: Goodness, of course not, Melorae! I simply thought there would be a more ideal view of the whole star system there for such a game..</Text>
+		COLEUS: Of course not, Melorae! I simply thought there would be a more ideal view of the whole star system there for such a game..</Text>
 	</TextBlock>
 
 
 <ShipLogConditions>
-				<RevealFact>
-			<FactID>LC_G R4</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
 		<RevealFact>
-			<FactID>LC_G R5</FactID>
+			<FactID>LC EX3</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
-			<RevealFact>
-			<FactID>LC_G EX1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>LC_G EX2</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>LC_G EX3</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
-
-			<RevealFact>
-			<FactID>SF Jelly EX1</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>SF Jelly EX2</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>SF Jelly EX3</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
+		
 	</ShipLogConditions>
 
 </NomaiObject>

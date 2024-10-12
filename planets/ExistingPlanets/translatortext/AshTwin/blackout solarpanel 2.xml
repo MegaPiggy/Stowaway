@@ -1,0 +1,83 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		RAMIE: Is this the relocation site you had in mind, Melorae?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		MELORAE: It is! Here, we would be free from sunless days that blot out sunlight - and proximity to the <![CDATA[<color=orange>Sunless City</color>]]> would make transportation of energy much simpler!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		MELORAE: Once the relocation is complete, we shall be safe from <![CDATA[<color=lightblue>Ash Twin's</color>]]> shadow depriving us of sunlight and energy during sunless days.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		RAMIE: And the <![CDATA[<color=orange>High Energy Lab</color>]]> will be free from accusations of rerouting the Sunless City's energy!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		MELORAE: I apologize for my accusations, Ramie: but surely you understand the difficulty in discerning between a sunless day, and the <![CDATA[<color=orange>High Energy Lab</color>]]> rerouting energy from the city without warning!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		RAMIE: I must disagree, Melorae: a solar eclipse is the easiest way to tell when a sunless day is present! It should not be hard to tell when we are not at fault.
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		MELORAE: Ramie, my friend.. Recall that the <![CDATA[<color=orange>Sunless City</color>]]> is located underground! We are not so easily able to detect a solar eclipse!
+		</Text>
+	</TextBlock>
+
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>R_SLR EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>R_SLR EX2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>R_SLR EX3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

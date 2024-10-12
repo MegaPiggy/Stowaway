@@ -1,0 +1,39 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+    <ID>CAVE_TWIN</ID>
+
+
+<Entry>
+           <ID>RELOCATION_SOLAR</ID>
+            <Name>Relocation Site</Name>
+             <Curiosity>None</Curiosity>
+
+          <RumorFact>
+            <ID>R_SLR R1</ID>
+            <SourceID>SOLAR_TOWER</SourceID>
+             <Text>A Nomai recording on the Solar Tower described plans to relocate the solar panels on Ember Twin due to issues with its current site.</Text> 
+        </RumorFact>
+          <RumorFact>
+            <ID>R_SLR R2</ID>
+            <SourceID>CT_SUNLESS_CITY</SourceID>
+             <Text>The Nomai planned to relocate the solar panels on Ember Twin to a grassy plateau on the surface above the Sunless City.</Text> 
+        </RumorFact>
+
+         <ExploreFact>
+            <ID>R_SLR EX1</ID>
+             <Text>I found a Nomai recording discussing the Nomai's rationale for this relocation site.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>R_SLR EX2</ID>
+             <Text>The Nomai planned to relocate something here to keep it safe from Ash Twin's shadow depriving them of sunlight and energy.</Text> 
+                     <AltText>
+                         <Text>The Nomai planned to relocate Ember Twin's solar panels here, to prevent Ash Twin's shadow from depriving them of sunlight and energy during sunless days.</Text>
+                         <Condition>SLR_T EX4</Condition>
+                    </AltText>
+        </ExploreFact>
+         <ExploreFact>
+            <ID>R_SLR EX3</ID>
+             <Text>A solar eclipse is the easiest way to tell when a sunless day is present.</Text> 
+        </ExploreFact>
+ </Entry>
+
+</AstroObjectEntry>

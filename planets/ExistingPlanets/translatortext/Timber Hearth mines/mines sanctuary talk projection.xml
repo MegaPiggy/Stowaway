@@ -1,0 +1,102 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		COLEUS: The projection pool has been installed, Oeno! Now, we will be able to project to this site for further inspections in the future.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CYCAD: This space seems rather small, Coleus.. Will there be enough room for the warp receiver into the <![CDATA[<color=orange>Sanctuary?</color>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		OENO: We won't be constructing a warp receiver for this structure, Cycad. It would be too costly - we plan on entering using different means.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB />
+		<Text>
+		CYCAD: A warp transmitter requires a connected warp receiver to function, does it not?
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<LocationB />
+		<Text>
+		CYCAD: Surely there must be a different route of entry other than the one Coleus used.. I have never been comfortable trusting a quantum entity with my life, you see.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		COLEUS: Worry not, Cycad: have you heard of Daz's latest invention? It should provide you with the most convenient entry into the <![CDATA[<color=orange>Sanctuary!</color>]]>
+				</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		COLEUS: Daz has asked all of us to use his invention during the <![CDATA[<color=orange>Sanctuary's</color>]]> construction.. We will be the first to test it thoroughly!
+				</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		OENO: How exciting! Cycad, you must visit the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on <![CDATA[<color=lightblue>Giant's Deep</color>]]> to learn more about Daz's invention when you can!
+				</Text>
+	</TextBlock>
+
+	
+
+<ShipLogConditions>
+
+			<RevealFact>
+			<FactID>Campsite EX1.5</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>SY R4</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>SY R3</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+				<RevealFact>
+				<FactID>SY R4</FactID>
+				<Condition>6</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>Workshop R1</FactID>
+			<Condition>11</Condition>
+		</RevealFact>
+
+</ShipLogConditions>
+
+</NomaiObject>

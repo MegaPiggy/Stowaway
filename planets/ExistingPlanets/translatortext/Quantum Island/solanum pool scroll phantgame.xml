@@ -48,7 +48,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		MELORAE: I.. I have never noticed this trend before. Could the tentacled species be drawn to the surface by the effect of the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity on their water-composed bodies?
+		MELORAE: I.. I have never noticed this trend before. Could the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity be causing these water-composed species to rise to the surface?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -56,7 +56,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		COLEUS: I have a pair of eyes on <![CDATA[<color=lightblue>Ember Twin</color>]]> right now: I can fully confirm the surfacing phenomenon occurs each time the <![CDATA[<color=lightblue>Quantum Moon</color>]]> visits. Phlox! You may have solved the mystery of the surfacing phenomenon at last!
+		COLEUS: I confess to having a pair of eyes at the Quantum Moon Locator, Melorae - I was curious when you would realize - but I must test Phlox's hypothesis at once!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -64,7 +64,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		MELORAE: Of note: as Coleus has just proven he was cheating using the <![CDATA[<color=orange>Quantum Moon locator,</color>]]> in addition to Phlox's incredible findings, I find myself to be the winner of the phantom moon game!
+		MELORAE: Hah! My claim is founded! Nobody could so consistently know where the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is without a pair of eyes at the <![CDATA[<color=orange>Quantum Moon Locator.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -76,16 +76,13 @@
 		</RevealFact>
 			<RevealFact>
 			<FactID>LCJ EX2</FactID>
-			<Condition>2</Condition>
+			<Condition>7</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>LCJ EX3</FactID>
-			<Condition>5</Condition>
+			<Condition>9</Condition>
 		</RevealFact>
-			<RevealFact>
-			<FactID>LCJ EX4</FactID>
-			<Condition>6</Condition>
-		</RevealFact>
+			
 
 </ShipLogConditions>
 

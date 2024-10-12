@@ -24,7 +24,7 @@
 		{
 			"assetBundle": "planets/bundle/prefabs",
 			"path":"assets/nomai ruins/prefabs/star ore shell.prefab",
-			"position": {"x": -1416.514,"y": -7.1696,"z": 5976.009},
+			"position": {"x": -1418.95,"y": -7.1332,"z": 5975.569}, 
 			"rotation": {"x": 357.2971,"y": 23.0473,"z": 0.4618},
 			"stretch": {"x":0.5,"y": 0.5509,"z": 0.5},
 			"keepLoaded": true,

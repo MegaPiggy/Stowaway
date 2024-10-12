@@ -62,9 +62,13 @@
 	<ShipLogConditions>
 		<RevealFact>
 			<FactID>LC R4</FactID>
-			<Condition>2</Condition>
+			<Condition>5</Condition>
 		</RevealFact>
-	
+	<RevealFact>
+			<FactID>LC EX4.5</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+
 	</ShipLogConditions>
 
 </NomaiObject>

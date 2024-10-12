@@ -5,7 +5,7 @@
         <ID>TH_MICA</ID>
         <Name>Mica</Name>
 
-        <Curiosity>STOWAWAYS</Curiosity>
+        <Curiosity>None</Curiosity>
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>MICA R1</ID> 
@@ -17,7 +17,7 @@
        </ExploreFact>
        <ExploreFact>
             <ID>MICA EX2</ID> 
-            <Text>Mica (not-so-subtly) nudged me to hurry up and take off if I wanted to talk to Chert.</Text> 
+            <Text>Mica told me to take off and ask Chert myself for the reason they delayed their first launch.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -39,6 +39,10 @@
             <ID>TEPH EX2</ID> 
             <Text>Tephra asked me to find out where the museum's quantum shard goes when it disappears.</Text> 
        </ExploreFact>
+         <ExploreFact>
+            <ID>TEPH EX3</ID> 
+            <Text>Tephra says there might be undiscovered caves at the Nomai Ruins outside the village that the quantum shard travels to.</Text> 
+       </ExploreFact>
 </Entry>
 
 <Entry>
@@ -53,11 +57,11 @@
   </RumorFact>
        <ExploreFact>
             <ID>GAL EX1</ID> 
-            <Text>Galena wanted to show me something they made for me. They asked me to shoot my Little Scout up from the Outer Wilds Ventures exhibit to see what they made.</Text> 
+            <Text>Galena wanted to show me something they made for me. They asked me to shoot my Little Scout up from the exhibit where Rutile is sitting to see what they made.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>GAL EX2</ID> 
-            <Text>I found a heartwarming sign made by Galena using the Little Scout!</Text> 
+            <Text>I used my Little Scout to read a heartwarming sign made by Galena!</Text> 
        </ExploreFact>
 </Entry>
 
@@ -101,7 +105,7 @@
     <RumorFact>
            <SourceID>BH_RIEBECK</SourceID>
             <ID>MOR R2</ID> 
-            <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways as soon as I can.</Text> 
+            <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways.</Text> 
   </RumorFact>
        <ExploreFact>
             <ID>MOR EX1</ID> 
@@ -109,7 +113,7 @@
        </ExploreFact>
        <ExploreFact>
             <ID>MOR EX2</ID> 
-            <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways as soon as I can.</Text> 
+            <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -130,16 +134,20 @@
             <RumorName>Sanctuary</RumorName>
             <RumorNamePriority>2</RumorNamePriority>
             <ID>SY R2</ID> 
-            <Text>The Nomai discussed the excavation and sealing of a Sanctuary within Timber Hearth. They planned to use a new type of projection stone to enter this space.</Text> 
+            <Text>The Nomai planned to build a Sanctuary within Timber Hearth's underground pools, where a quantum shard traveled.</Text> 
         </RumorFact>
         <RumorFact>
            <SourceID>VM_VOLCANO</SourceID>
+                 <RumorName>Sanctuary</RumorName>
+            <RumorNamePriority>2</RumorNamePriority>
             <ID>SY R3</ID> 
             <Text>Ore mined on Timber Hearth was treated at a forge on Hollow's Lantern before being used to reinforce the Sanctuary.</Text> 
         </RumorFact>
          <RumorFact>
+               <RumorName>Sanctuary</RumorName>
+            <RumorNamePriority>2</RumorNamePriority>
             <ID>SY R4</ID> 
-            <Text>The Sanctuary was built in an underground pool to make use of a quantum shard that would travel inside it.</Text> 
+            <Text>The Nomai planned to use a new invention from the Scroll and Stone Workshop which would provide convenient entry into the Sanctuary.</Text> 
         </RumorFact>
           <RumorFact>
            <SourceID>DEEP_STORM_STATION</SourceID>
@@ -149,15 +157,19 @@
         
         <ExploreFact>
             <ID>SY EX1</ID> 
-            <Text>The Nomai built this Sanctuary to protect the native lifeforms of Timber Hearth from a supernova.</Text> 
+            <Text>The Nomai built this Sanctuary to protect the native lifeforms of Timber Hearth during the operation of the Ash Twin Project.</Text> 
        </ExploreFact>
           <ExploreFact>
             <ID>SY EX2</ID> 
-            <Text>The Hearthians within the Sanctuary were protected from ghost matter. A Nomai named Cassava quarantined these survivors inside this space.</Text> 
+            <Text>The Hearthians left within the Sanctuary were protected from ghost matter, and quarantined inside this space.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>SY EX3</ID> 
-            <Text>A voyager can travel with a quantum shard, as it is unable to observe its surroundings on its own.</Text> 
+            <Text>A Nomai named Cycad learnt how to use the rule of entanglement remotely by accidentally disengaging his voyager stone.</Text> 
+         </ExploreFact>
+         <ExploreFact>
+            <ID>SY EX4</ID> 
+            <Text>"A voyager is unable to observe its surroundings on its own."</Text> 
          </ExploreFact>
 </Entry>
 
@@ -172,20 +184,19 @@
 
         <Curiosity>STOWAWAYS</Curiosity>
 
-
           <ExploreFact>
             <ID>Campsite EX1</ID> 
             <Text>This campsite belonged to the Nomai working on Timber Hearth.</Text> 
         </ExploreFact>
       
-<ExploreFact>
+          <ExploreFact>
             <ID>Campsite EX1.5</ID> 
-            <Text>A warp transmitter requires a connected warp receiver to function.</Text> 
+            <Text>"A warp transmitter requires a connected warp receiver to function."</Text> 
       </ExploreFact>
 
           <ExploreFact>
             <ID>Campsite EX2</ID> 
-            <Text>A Nomai named Oeno modified vision orbs to acommodate Timber Hearth's native lifeforms. She was disappointed to learn the vision orb had not been raised by them, but by the Attlerock’s gravity as it orbited overhead.</Text> 
+            <Text>A Nomai named Oeno modified vision orbs to acommodate Timber Hearth's native lifeforms. She was disappointed to learn the vision orb was not being activated by their sight, but by the Attlerock’s gravity as it orbited overhead.</Text> 
       </ExploreFact>
            
               <ExploreFact>

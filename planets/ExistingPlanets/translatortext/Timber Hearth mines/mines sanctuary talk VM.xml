@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		COLEUS: Friends, the forge has asked for one more shipment of ore to be delivered to <![CDATA[<color=lightblue>Hollow's Lantern</color>]]>. Let us work quickly to complete this last shipment!
+		COLEUS: Friends, the forge has asked for one more shipment of ore from our mines to be delivered to the <![CDATA[<color=orange>Volcanic Testing Site.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		COLEUS: Why, in the construction of the <![CDATA[<color=orange>Sanctuary,</color>]]> of course!
+		COLEUS: In the construction of the <![CDATA[<color=orange>Sanctuary,</color>]]> my dear apprentice!
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		COLEUS: Even though it was formed here, the ore still requires treatment at <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> to reach its full capabilities.
+		COLEUS: Though it was formed on this planet, the ore still requires treatment at <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> to reach its full capabilities.
 		</Text>
 	</TextBlock>
 	
@@ -41,7 +41,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		CYCAD: That is sooner than I'd thought! Has a suitable site for the <![CDATA[<color=orange>Sanctuary</color>]]> been chosen already?
+		CYCAD: I see. Has a suitable site for the <![CDATA[<color=orange>Sanctuary</color>]]> been chosen already?
 		</Text>
 	</TextBlock>
 
@@ -50,7 +50,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: Indeed! We have chosen a site in the planet's underground pools, where one of the quantum shard travels.
+		COLEUS: It has! We have chosen a site located in the planet's underground pools, visited by a wandering quantum shard.
 				</Text>
 	</TextBlock>
 
@@ -59,98 +59,24 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CYCAD: In that case, we will need to put extra eyes into carefully reinforcing the walls of the <![CDATA[<color=orange>Sanctuary</color>]]> to protect it from groundwater.
+		COLEUS: We will need to put extra eyes into carefully reinforcing the walls of the <![CDATA[<color=orange>Sanctuary,</color>]]> to prevent the surrounding water from penetrating the protective shell.
 				</Text>
 	</TextBlock>
 
-	<TextBlock>
-		<ID>8</ID>
-		<LocationB />
-		<ParentID>7</ParentID>
-		<Text>
-		CYCAD: Has the need for a new warp receiver been communicated to Poke yet? The warp receiver must be installed before the structure can be sealed!
-				</Text>
-	</TextBlock>
-
-		<TextBlock>
-		<ID>9</ID>
-		<LocationB />
-		<ParentID>8</ParentID>
-		<Text>
-		OENO: That won't be necessary, Cycad! The new type of projection stone invented by Daz should allow us to work without a warp receiver.
-				</Text>
-	</TextBlock>
-		<TextBlock>
-
-		<ID>10</ID>
-		<LocationA />
-		<ParentID>9</ParentID>
-		<Text>
-		CYCAD: What? But warp transmitters require a connected warp receiver to function! How will anyone enter the <![CDATA[<color=orange>Sanctuary,</color>]]> without a warp receiver to warp them inside?
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>11</ID>
-		<LocationB />
-		<ParentID>10</ParentID>
-		<Text>
-		OENO: You should visit the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on <![CDATA[<color=lightblue>Giant's Deep</color>]]> to learn about Daz's invention, Cycad - it will allow us to access the sealed space without a warp system entirely!
-				</Text>
-	</TextBlock>
-	
-		<TextBlock>
-		<ID>12</ID>
-		<LocationA />
-		<ParentID>11</ParentID>
-		<Text>
-		CYCAD: If it means the <![CDATA[<color=orange>Sanctuary's</color>]]> construction will be more expedient, I have absolutely no qualms! When shall we begin our work?
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>13</ID>
-		<LocationA />
-		<ParentID>12</ParentID>
-		<Text>
-		COLEUS: I am glad to hear your enthusiasm as always, my young apprentice.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>14</ID>
-		<LocationA />
-		<ParentID>13</ParentID>
-		<Text>
-		COLEUS: Is everyone rested up? Then we shall begin our work shortly!
-		</Text>
-	</TextBlock>
 	
 
 <ShipLogConditions>
 
-				<RevealFact>
-			<FactID>Campsite EX1</FactID>
-			<Condition>14</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>Campsite EX1.5</FactID>
-			<Condition>10</Condition>
-		</RevealFact>
+			
 				<RevealFact>
 			<FactID>SY R2</FactID>
-			<Condition>9</Condition>
+			<Condition>6</Condition>
 		</RevealFact>
 				<RevealFact>
 			<FactID>SY R3</FactID>
-			<Condition>1</Condition>
+			<Condition>4</Condition>
 		</RevealFact>
-				<RevealFact>
-				<FactID>SY R4</FactID>
-				<Condition>6</Condition>
-		</RevealFact>
-				<RevealFact>
-			<FactID>Workshop R1</FactID>
-			<Condition>11</Condition>
-		</RevealFact>
+			
 
 </ShipLogConditions>
 

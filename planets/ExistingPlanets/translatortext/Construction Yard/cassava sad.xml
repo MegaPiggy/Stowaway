@@ -2,36 +2,43 @@
 <TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>CASSAVA: To friends returning from the Orbital Probe Cannon: I have have decided to try to run more launches with the alternate power source.</Text>
+		<Text>CASSAVA: To friends returning from the <![CDATA[<color=orange>Orbital Probe Cannon:</color>]]> I have have decided to try to run more launches using the alternate power source.</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>2</ID>
 		<LocationA />
 		<ParentID>1</ParentID>
-		<Text>CASSAVA: It is.. all I can think to do right now. Please be welcomed to join me, if you would like.</Text>
+		<Text>CASSAVA: It is all I can think to do right now.. Please be welcomed to join me if you wish.</Text>
 	</TextBlock>
 
 		<TextBlock>
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>DAZ: My love! I heard Oeno is having trouble with stowaways within the <![CDATA[<color=orange>Sanctuary</color>]]> who have become too accustomed to the space - they keep eluding her attempts to release them!</Text>
+		<Text>DAZ: My love, I hear there is some trouble at the <![CDATA[<color=orange>Sanctuary</color>]]> - it seems there are still species within it who keep eluding our friends' attempts to release them!</Text>
 		</TextBlock>
 
 		<TextBlock>
 		<ID>4</ID>
 		<LocationA />
 		<ParentID>3</ParentID>
-		<Text>DAZ: I'm sure she would like as many pairs of eyes as possible to help catch and release them.. Would you like to join us?</Text>
+		<Text>DAZ: If I remember correctly, there should be voyager stones to the <![CDATA[<color=orange>Sanctuary</color>]]> in the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> which we can use for this task.</Text>
+		</TextBlock>
+
+		<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>DAZ: I'm sure Oeno would like as many pairs of eyes as possible to help in ensuring their safe release! Would you like to join us in this change of task?</Text>
 		</TextBlock>
 		
 	<TextBlock>	
-	<ID>5</ID>
+	<ID>6</ID>
 		<LocationA />
-		<ParentID>4</ParentID>
+		<ParentID>5</ParentID>
 		<Text>
-		CASSAVA: Please assist them in my stead, my love. A change of task is.. not what I need at this moment.</Text>
+		CASSAVA: Please assist her in my stead, Daz. A change of task is.. not what I need at this moment.</Text>
 			</TextBlock>
 
 

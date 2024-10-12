@@ -13,7 +13,7 @@
         <RumorFact>
             <ID>Workshop R1</ID>
              <SourceID>TH_CAMPSITE</SourceID>
-            <Text>The construction of the Sanctuary used a new type of projection stone crafted at a workshop on Giant's Deep.</Text> 
+            <Text>The Nomai planned to use a new invention from the Scroll and Stone Workshop which would provide convenient entry into the Sanctuary.</Text> 
         </RumorFact>
          <RumorFact>
             <ID>Workshop R2</ID>
@@ -26,7 +26,7 @@
         </RumorFact>
              <RumorFact>
             <ID>Workshop R4</ID>
-            <Text>A new type of projection stone used the memory statues' memory storage systems to allow paired Nomai to explore remotely beyond projection pools.</Text> 
+            <Text>A new type of projection stone used the memory storage systems to allow paired Nomai to explore remotely beyond projection pools.</Text> 
         </RumorFact>
         
         <ExploreFact>
@@ -43,19 +43,18 @@
         </ExploreFact>
           <ExploreFact>
             <ID>Workshop EX3</ID> 
-            <Text>Conversations shared across projection stones are not stored on the stones themselves, but on the projection walls they were written on, which can only be read with the corresponding projection stones.</Text> 
+            <Text>Conversations shared across projection stones are not stored on the stones themselves, but on the projection walls they were written on. These conversations can only be read with the corresponding projection stones.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>Workshop EX4</ID> 
-            <Text>Up to one voyager per memory mask can remain on standby when disconnected, returning a voyage to its position when reconnected.</Text> 
+            <Text>When disconnected, the memory storage system allows one voyager per mask to remain on standby, returning a voyage to that position once reengaged.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>Workshop EX5</ID> 
-            <Text>Voyaging to the same destination from the same projection pool can cause connection to a voyager waiting on standby connected to another memory mask, sharing the voyage with them.</Text> 
+            <Text>Voyaging to the same destination from the same projection pool causes multiple memory storage systems to be connected to the same voyager, creating a stream of shared consciousness.</Text> 
         </ExploreFact>
 
         <ExploreFact>
-            <IgnoreMoreToExplore/>
             <ID>Workshop EX6</ID> 
             <Text>A Nomai named Daz was cut off while writing to the Deep Storm Station from the Scroll and Stone Workshop.</Text> 
         </ExploreFact>
@@ -77,7 +76,7 @@
         
         <ExploreFact>
             <ID>Study EX1</ID> 
-            <Text>A high shore on Bramble Island safe from waves where the Nomai studied frozen jellyfish.</Text> 
+            <Text>A high shore on Bramble Island safe from waves, where the Nomai studied frozen jellyfish.</Text> 
         </ExploreFact>
            <ExploreFact>
             <ID>Study EX2</ID> 
@@ -119,7 +118,7 @@
         </ExploreFact>
              <ExploreFact>
             <ID>Pioneer EX3B</ID> 
-            <Text>The Nomai recorded their first encounter with a cyclone on the planet here. They were soaked when the island plunged back into the ocean from the atmosphere.</Text>
+            <Text>The Nomai recorded their first encounter with a cyclone on the planet here. A Nomai named Thatch complained about becoming soaked when the island plunged back into the ocean.</Text>
         </ExploreFact>
          <ExploreFact>
             <ID>Pioneer EX3</ID> 
@@ -149,7 +148,7 @@
 
         <ExploreFact>
            <ID>CB_EX1</ID> 
-            <Text>A bay on one side of the Construction Yard flooded by ghost matter.</Text> 
+            <Text>A bay on one side of the Construction Yard flooded with ghost matter.</Text> 
         </ExploreFact>
                <ExploreFact>
             <ID>CB_EX2A</ID> 
@@ -161,17 +160,17 @@
         </ExploreFact>
         <ExploreFact>
            <ID>CB_EX3</ID> 
-            <Text>A Nomai named Cassava noticed storm shelters on the island powering on by themselves, even in the absence of cyclones.</Text> 
+            <Text>A Nomai named Cassava noticed that storm shelters sometimes power on by themselves, even in the absence of cyclones.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>CB_EX4</ID> 
-            <Text>A Nomai named Cassava observed ghost matter being temporarily neutralized by water. He concluded that ghost matter could not penetrate water.</Text> 
+            <Text>A Nomai named Cassava observed ghost matter being temporarily neutralized by water. He concluded that ghost matter is neutralized by water, and traveled to Timber Hearth to study another property of ghost matter.</Text> 
         </ExploreFact>
 
              <ExploreFact>
             <IgnoreMoreToExplore/>
             <ID>CB_EX5</ID> 
-            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to warp in, to charge a return warp that would allow them to warp back to the surface.</Text> 
+            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to warp from the warp transmitter there, to charge a return warp that would allow them to return to the surface.</Text> 
         </ExploreFact>
 </Entry>
 
@@ -250,7 +249,7 @@
         </RumorFact>
           <RumorFact>
             <ID>LC R4</ID> 
-            <Text>The Nomai abandoned this tower after a quantum shard invaded and caused its interior to become inhospitably quantum.</Text> 
+            <Text>The Nomai abandoned this tower after a quantum shard caused its interior to become inhospitably quantum.</Text> 
         </RumorFact>
 
 
@@ -259,20 +258,28 @@
                   <Text>A great tower that once served as a Nomai settlement, built on an island within the eye of the hurricane.</Text> 
         </ExploreFact>
           <ExploreFact>
-            <ID>LC EX4</ID> 
+            <ID>LC EX2</ID> 
             <Text>Objects left on a quantum shard will travel with the shard.</Text> 
         </ExploreFact>
+           <ExploreFact>
+            <ID>LC EX3</ID> 
+            <Text>Giant's Deep's thick clouds completely obscure sight of anything outside the planet.</Text> 
+        </ExploreFact>
         <ExploreFact>
-            <ID>LC EX2</ID> 
+            <ID>LC EX4</ID> 
             <Text>The Nomai abandoned this tower due to extenuating circumstances, chronicled in scrolls within the tower.</Text> 
                  <AltText>
-                      <Text>The Nomai abandoned this tower after a quantum shard they uncovered caused its interior to become inhospitably quantum.</Text>
+                      <Text>The Nomai abandoned this tower after a quantum shard made it inhospitable. They moved to the island they found on their first expedition, and noted another island which had potential as a construction site.</Text>
                      <Condition>LC R4</Condition>
                  </AltText>
         </ExploreFact>
+           <ExploreFact>
+            <ID>LC EX4.5</ID> 
+            <Text>The second island was noted to sail in the opposite direction as the first island, making its days three times longer than the other island.</Text> 
+        </ExploreFact>
         <ExploreFact>
-            <ID>LC EX3</ID> 
-            <Text>A Nomai named Melorae discovered that quantum objects could be locked in place while observing them through photos. Her apprentice proudly celebrated them as the greatest quantum geologists of their clan.</Text> 
+            <ID>LC EX5</ID> 
+            <Text>A Nomai named Melorae discovered that quantum objects could be locked in place by observing them through photos.</Text> 
         </ExploreFact>
 
     <Entry>
@@ -288,7 +295,7 @@
         </RumorFact>
         <RumorFact>
             <ID>LCJ R2</ID> 
-            <Text>A Nomai named Solanum lost a scroll in this pool. A jellyfish at the bottom of the pool guards the scroll with its electrifying tentacles.</Text> 
+            <Text>A Nomai named Solanum lost a scroll from the tower in this pool. A jellyfish at the bottom of the pool is blocking the scroll with electrifying tentacles.</Text> 
         </RumorFact>
         
          <ExploreFact>
@@ -301,11 +308,7 @@
         </ExploreFact>
          <ExploreFact>
             <ID>LCJ EX3</ID> 
-            <Text>Giant's Deep's thick clouds completely obscure sight of anything outside the planet.</Text> 
-        </ExploreFact>
-         <ExploreFact>
-            <ID>LCJ EX4</ID> 
-            <Text>The Quantum Moon Locator on Ember Twin's south pole allows a clear view of which planet the Quantum Moon is orbiting at all times.</Text> 
+            <Text>Leaving a pair of eyes at the Quantum Moon Locator allows one to consistently know where the Quantum Moon is.</Text> 
         </ExploreFact>
     </Entry>
 </Entry>
@@ -329,7 +332,7 @@
             <ID>DSS R2</ID>
              <RumorName>Deep Storm Station</RumorName>
              <RumorNamePriority>1</RumorNamePriority>
-            <Text>I was able to enter the Deep Storm Station using a voyager stone. The gravity floor seems to be too strong for me to jump to the other side of the station.</Text> 
+            <Text>I was able to enter the Deep Storm Station using a voyager stone. The gravity on this plane of the station seems to be too strong to jump to the other side of the station.</Text> 
     </RumorFact>
     <RumorFact>
              <ID>DSS R3</ID> 
@@ -339,7 +342,7 @@
         </RumorFact>
         <RumorFact>
              <ID>DSS R4</ID> 
-            <Text>A Nomai named Cassava made a pressing note to himself never to lock the Quantum Moon in orbit around Giant's Deep to protect the native species from ghost matter.</Text> 
+            <Text>A Nomai named Cassava urgently reminded himself never to lock the Quantum Moon in orbit around Giant's Deep, wo.</Text> 
         </RumorFact>
         
      <RumorFact>
@@ -396,13 +399,14 @@
                 <Condition>COMET_INTERIOR_X1</Condition>
             </AltText>
         </ExploreFact>
-         <ExploreFact>
-            <ID>DSS EX4</ID> 
-            <Text>Cassava quarantined the few surviving Hearthians within the Sanctuary upon realizing that the species was gravely endangered by ghost matter.</Text> 
-        </ExploreFact>
+        
         <ExploreFact>
             <ID>DSS EX5</ID> 
             <Text>Cassava warped all ghost matter captured by the Inspired into the Deep Storm Station to contain it indefinitely, at the cost of his own life.</Text>
+        </ExploreFact>
+         <ExploreFact>
+            <ID>DSS EX4</ID> 
+            <Text>Cassava released the species within the Sanctuary back to the surface using his voyager.</Text> 
         </ExploreFact>
              <ExploreFact>
             <ID>DSS EX6</ID> 

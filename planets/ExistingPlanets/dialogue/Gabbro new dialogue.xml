@@ -20,19 +20,19 @@
 		<Name>GM_Talk</Name>
 		<Dialogue>
 			<Page>Hm? Oh yea, I noticed that on my last trip here.</Page>
-			<Page>That smart lil' cookie noticed the same thing back on Timber Hearth too, and asked me about it last time I visited the village.</Page>
+			<Page>That smart lil' cookie Arkose noticed the same thing back on Timber Hearth too, and asked me about it last time I visited the village.</Page>
 			<Page>You know the Little Scout has a feature that tells you if there's danger where you shoot it, right?</Page>
-				<Page>It works great for scouting out ghost matter. Lights up a warning when you shoot it into a patch of the deadly stuff - which is sweet if you're lazy to snap photos everywhere like me.</Page>
-				<Page>Well, one time, I was using it to scout a big patch of ghost matter on one of the other islands. Just left it down in case I forget the invisible deadly stuff's there.</Page>
+				<Page>It works great for scouting out ghost matter. Lights up a warning when you shoot it into a patch of the deadly stuff - which is sweet if you tend to forget the invisible deadly stuff is there.</Page>
+				<Page>Well, one time, I was using it to scout a big patch of ghost matter on one of the other islands. Just left it down in case I forgot it was there.</Page>
 				<Page>But suddenly, the scout suddenly starts saying it's safe!</Page>
 				<Page>That's weird, right? Must be some quirk with the sensors, I thought.</Page>
 				<Page>But I took some photos with the scout camera too, and lo and behold - the ghost matter really was gone!</Page>
-				<Page>Weirder, a moment later, the scout says there's danger again.. And the ghost matter was back in the photos, too!</Page>
+				<Page>Weirder, a moment later, the scout says there's danger again.. And the ghost matter was back in the photos, too.</Page>
 				<Page>Wasn't a one-off, either - though I've noticed it seems to happen on this island more than any of the other islands with ghost matter I've come across, for whatever reason.</Page>
-				<Page>I haven't actually like.. stuck a limb into the ghost matter to know for sure if the ghost matter really vanishes when that happens. <![CDATA[<Pause=1>]]> I don't know if I trust Slate's tech more than my instincts, y'know?</Page>
-				<Page>I made Arkose seriously promise me not to do anything dumb too, so I hope they listened.</Page>
+				<Page>I haven't actually like.. stuck a limb into the ghost matter to know for sure if the ghost matter really vanishes when that happens. <![CDATA[<Pause=1>]]> I don't know if I trust Slate's tech more than my common sense, y'know?</Page>
+				<Page>I made Arkose seriously promise me not to do anything dumb trying to learn about this stuff. I hope they've listened.</Page>
 					<Page>But hey, there's some ghost matter right in the cove back there. Feel free to check it out with your scout and see the weird stuff for yourself!</Page>
-						<Page>Just be careful, alright? There's a campfire I set up up the hill you can patch up by if you happen to get hurt messing with the stuff.</Page>
+						<Page>Just be careful, alright? There's a campfire up the hill you can patch up by if you happen to get hurt messing with the stuff.</Page>
 		</Dialogue>
 		 				  <RevealFacts>
      						   <FactID>Cove R1</FactID>
@@ -60,7 +60,7 @@
 <DialogueNode>
 		<Name>WillDo</Name>
 		<Dialogue>
-			<Page>Man, now I wanna get up and go roast a can of marshmallows.</Page>
+			<Page>Man, now I just wanna get up and go roast a can of marshmallows..</Page>
 			<Page>When you roast it just right, it just melts in your mouth and melts away any bad thoughts and bruises, y'know?</Page>
 		</Dialogue>
 	</DialogueNode>

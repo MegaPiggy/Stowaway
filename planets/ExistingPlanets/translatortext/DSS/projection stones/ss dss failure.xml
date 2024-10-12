@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		YARROW: Is everyone ready? Using energy from Giant's Deep's electric core, the <![CDATA[<color=orange>Deep Storm Station</color>]]> will soon power a 6-second negative time interval!
+		YARROW: Is everyone ready? The <![CDATA[<color=orange>Deep Storm Station's</color>]]> test will soon begin!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: Sadly, as predicted, a 6-second flight was nowhere near sufficient to cover the maximum possible distances of the Eye's orbit calculated by the <![CDATA[<color=orange>Southern Observatory.</color>]]>
+		YARROW: Sadly, as we predicted, the energy from Giant's Deep's electric core was not sufficient to find the Eye of the Universe, powering only a 6-second negative time interval.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: The memory statues were only activated after the probe fired by the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> elapsed 20 billion loops, and began to repeat redundant flight trajectories.
+		YARROW: The memory statues were only activated after the probe fired by the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> elapsed 20 billion loops, and detected redundant flight trajectories.
 		</Text>
 	</TextBlock>
 	<TextBlock>

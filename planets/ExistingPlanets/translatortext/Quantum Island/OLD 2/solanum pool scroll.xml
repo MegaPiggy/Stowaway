@@ -1,0 +1,84 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+
+	<![CDATA[<i>Excavation Site</i>]]>
+	
+
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			COLEUS: With this new quantum rule, we should now be able to reach our destination without the clouds obscuring our sight and allowing it to slip back into superposition.</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			MELORAE: In addition, now that we know the tentacled species are drawn to the surface of Giant's Deep by the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity, we can even calculate the moon's mass through its gravitational forces!</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			THATCH: Plume, are you sure you do not wish to join us on this expedition? This expedition to the <![CDATA[<color=lightblue>Quantum Moon</color>]]> could bring us closer to our goals than ever before.</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			PLUME: I am sure. I must stay behind to take care of Phlox - but I wish you all well, my friends. I shall watch your expedition from afar with bated respiration!</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			COLEUS: Oh, but Plume, if you wish to watch our expedition, the thick clouds here on Giant's Deep will surely completely obscure your sight of anything outside the planet</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		COLEUS: I suggest you visit the <![CDATA[<color=orange>Quantum Moon locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin's</color>]]> south pole. With the locator's assistance, you would have a clear view of which planet the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is orbiting at all times!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		COLEUS: In addition, a set of eyes at the locator would help us greatly in locking the <![CDATA[<color=lightblue>Quantum Moon</color>]]> in orbit around a specific planet, allowing us more eyes to calculate a shuttle trajectory to our destination!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		PLUME: That is a wise idea, Thatch. Phlox and I will gladly serve as your set of eyes from afar during your expedition. Be curious on your journey, my friends!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>LCJ EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LCJ EX2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LCJ EX3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>LCJ EX4</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+
+</ShipLogConditions>
+
+
+</NomaiObject>

@@ -1,0 +1,84 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		MELORAE: I am glad to be able to speak with you on such a cool, sunless day, Ramie! I trust you.. are aware of my reasons for this meeting?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		RAMIE: The feeling is shared, Melorae! I am glad to speak with you in such comfort!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		RAMIE: However, I must insist: the recent blackouts experienced by the Sunless City cannot be caused by the High Energy Lab!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		RAMIE: The High Energy Lab has always made a habit to communicate before rerouting power from the Sunless City for experiments. We would not leave you all in darkness without warning!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		RAMIE: More importantly, no power comes, even if we try to reroute energy - surely, there must be a problem with the power source, or the conduits that carry them.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		MELORAE: I believe your words, Ramie. But.. as we speak so freely on the surface of this planet, an idea presents itself.
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		BUR: Hypothesis: Could the sunless day be blocking sunlight from the Sunless City's solar panels?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		BUR: Perhaps we should all visit the solar panels again before their upcoming relocation! I believe it would be good reference for the solar towers we are building as well.
+		</Text>
+	</TextBlock>
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>SS Tower EX2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SS Tower EX3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SS Tower EX4</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

@@ -7,44 +7,59 @@
         <Name>The Inspired</Name>
         <Curiosity>STOWAWAYS</Curiosity>
         
-        <IgnoreMoreToExplore/>
-
-         <RumorFact>
+  <RumorFact>
+            <IgnoreMoreToExplore/>
             <ID>INSP R1</ID>
-            <Text>I found a frozen comet hidden in the shadow of Giant's Deep.</Text>
+               <SourceID>DEEP_STORM_STATION</SourceID>
+            <Text>The Inspired's construction required all available gravity crystals, and a white hole warp core obtained from the Deep Storm Station's paired warp cores.</Text>
         </RumorFact>
-           <RumorFact>
+
+ <RumorFact>
+            <IgnoreMoreToExplore/>
             <ID>INSP R2</ID>
-            <Text>I entered a black hole at the center of the comet. I was warped into a space with glowing masks, filled with ghost matter.</Text>
-        </RumorFact>
-          <RumorFact>
-            <ID>INSP R3</ID>
-               <SourceID>COMET_INTERIOR</SourceID>
-            <Text>The Inspired was constructed in the Interloper's image.</Text>
-        </RumorFact>
-          <RumorFact>
-            <ID>INSP R4</ID>
                <SourceID>DEEP_STORM_STATION</SourceID>
             <Text>The ghost matter collected by the Inspired was warped into the Deep Storm Station for containment.</Text>
         </RumorFact>
-            <RumorFact>
-            <ID>INSP R5</ID>
-               <SourceID>DEEP_STORM_STATION</SourceID>
-            <Text>The Inspired was made to bring destruction to the source of ghost matter.</Text>
-        </RumorFact>
 
+         <ExploreFact>
+          <IgnoreMoreToExplore/>
+            <ID>INSP EX1</ID>
+            <Text>I found a frozen comet hidden in the shadow of Giant's Deep.</Text>
+                 <AltText>
+                        <Text>An artificial comet made of gravity crystals hidden in the shadow of Giant's Deep.</Text>
+                        <Condition>INSP R1</Condition>
+                 </AltText>
+        </ExploreFact>
+
+  <ExploreFact>
+             <IgnoreMoreToExplore/>
+            <ID>INSP EX2</ID>
+               <SourceID>COMET_INTERIOR</SourceID>
+            <Text>The Inspired was a superweapon made to bring massive destruction to the source of ghost matter.</Text>
+               <AltText>
+                        <Text>The Inspired was a superweapon made to bring massive destruction to the source of the Interloper.</Text>
+                        <Condition>COMET_INTERIOR_X1</Condition>
+                 </AltText>
+        </ExploreFact>
+        
         <ExploreFact>
-            <ID>INSP EX1</ID> 
-            <Text>An artificial comet made of gravity crystals, made to bring destruction to the source of the Interloper.</Text> 
+            <ID>INSP EX3</ID>
+            <Text>I found a mural detailing the construction of something called the Inspired.</Text>
         </ExploreFact>
+
          <ExploreFact>
-            <ID>INSP EX2</ID> 
-            <Text>The Inspired was repurposed to protect the Hearthians when its creator realized that they were endangered by ghost matter.</Text>
+          <IgnoreMoreToExplore/>
+            <ID>INSP EX3.5</ID> 
+            <Text>After realizing the Hearthians were on the verge of extinction, a Nomai named Cassava decided to exchange the Inspired's warp core before launching it towards Timber Hearth.</Text>
         </ExploreFact>
-         <ExploreFact>
-            <ID>INSP EX3</ID> 
-            <Text>The Inspired's warp core was replaced, allowing it to warp all collected ghost matter to the Deep Storm Station for containment.</Text>
-        </ExploreFact>
+
+           <ExploreFact>
+            <IgnoreMoreToExplore/>
+            <ID>INSP EX4</ID>
+            <Text>The ghost matter collected by the Inspired was warped into the Deep Storm Station for containment, and kept in stationary orbit around Giant's Deep in case this containment was breached.</Text>
+       </ExploreFact>
+
+          
       
 </Entry>
 
