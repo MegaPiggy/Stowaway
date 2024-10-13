@@ -53,10 +53,7 @@
 	</TextBlock>
 
 	<ShipLogConditions>
-		<RevealFact>
-			<FactID>CB_EX1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
+		
 		<RevealFact>
 			<FactID>CB_EX2A</FactID>
 			<Condition>1</Condition>

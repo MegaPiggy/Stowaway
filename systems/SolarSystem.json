@@ -15,6 +15,13 @@
 				"y": 327.485
 			}
 		},
+		{
+			"id": "SCROLL_WORKSHOP_TOP",
+			"position": {
+				"x": 1149.765,
+				"y": 269.3941
+			}
+		},
 	
 		
 		{
@@ -137,6 +144,7 @@
 				"y": -101.9935
 			}
 		},
+		
 		{
 			"id": "TH_SANCTUARY",
 			"position": {

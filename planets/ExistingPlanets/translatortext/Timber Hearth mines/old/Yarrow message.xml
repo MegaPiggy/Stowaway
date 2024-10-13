@@ -41,6 +41,14 @@
 			<FactID>TH_WR EX4</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>TH_MD R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH_MD R2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
 	</ShipLogConditions>
 
 

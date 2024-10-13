@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		PHLOX: Friends, a tentacled organism has become beached on the shore! I have tried to offer aid, but its painful shocks deter me! I request urgent assistance in aiding it before it perishes!
+		PHLOX: Friends, a tentacled organism has become beached on the shore!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		DAZ: Be cautious, Phlox! Give me a moment: I shall voyage to you using a voyager stone, and use its vessel to safely guide it back into the waves!
+		PHLOX: I have tried to offer aid, but its powerful bioelectricity deters me... I request urgent assistance in aiding it before it perishes!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		PHLOX: Daz, that was <![CDATA[<i>incredible!</i>]]> Your vessel of alloy was not phased in the slightest by the organism's terrific bioelectricity!
+		DAZ: Phlox, allow me to assist: Using the new voyager stone, I should be able to safely guide it back into the waves myself.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -29,7 +29,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		PHLOX: Are there any limits at all to what the voyager is impervious to?
+		PHLOX: Daz, you cannot do this alone! Even the slightest shock may leave you paralyzed and badly injured!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Other than large bodies of water, the voyager is able to weather most hazards it is exposed to! I have faith it will someday allow us to work from the safety of our homes remotely.
+		DAZ: Fear not, my friend: I shall not feel its sting while using the voyager stone!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		PHLOX: I should have known this project was a long scheme to convince Cassava to move back to the <![CDATA[<color=orange>Hanging City</color>]]> with you, Daz!
+		PHLOX: An update: the tentacled organism has been safely returned to the waves, thanks to Daz and his incredible voyager stone!
 		</Text>
 	</TextBlock>
 
@@ -53,7 +53,7 @@
 <ShipLogConditions>
 	
 		<RevealFact>
-			<FactID>Workshop EX2</FactID>
+			<FactID>Workshop EX2.5</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
 	</ShipLogConditions>

@@ -36,10 +36,7 @@
 
 
 <ShipLogConditions>
-		<RevealFact>
-			<FactID>CB_EX1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
+	
 		<RevealFact>
 			<FactID>CB_EX2</FactID>
 			<Condition>1</Condition>

@@ -16,13 +16,14 @@
             <Text>The Nomai planned to use a new invention from the Scroll and Stone Workshop which would provide convenient entry into the Sanctuary.</Text> 
         </RumorFact>
          <RumorFact>
+              <SourceID>GD_STATUE_ISLAND</SourceID>
             <ID>Workshop R2</ID>
             <Text>Projection stones for the Orbital Probe Cannon were crafted at a workshop on Statue Island.</Text> 
         </RumorFact>
          <RumorFact>
-            <ID>Workshop R3</ID>
               <SourceID>GD_STATUE_ISLAND</SourceID>
-            <Text>Nomai using the voyager stones noticed their voyagers arriving outside the projection pool, and received visions from other voyages.</Text> 
+            <ID>Workshop R3</ID>
+            <Text>Nomai scrolls and projection stones were crafted at this workshop on Statue Island.</Text> 
         </RumorFact>
              <RumorFact>
             <ID>Workshop R4</ID>
@@ -31,33 +32,60 @@
         
         <ExploreFact>
             <ID>Workshop EX1</ID> 
-            <Text>This workshop on Giant's Deep was where Nomai scrolls and projection stones were crafted.</Text> 
+            <Text>Nomai scrolls and projection stones were crafted at this workshop on Statue Island.</Text> 
         </ExploreFact>
            <ExploreFact>
-            <ID>Workshop EX2</ID> 
-            <Text>A new type of projection stone allowed Nomai to explore remotely beyond projection pools, granting them imperviousness to most hazards.</Text>
+            <ID>Workshop EX1.5</ID> 
+            <Text>A new type of projection stone called the voyager stone was developed at this workshop.</Text>
             <AltText>
-                      <Text>A new type of projection stone used memory storage systems to allow Nomai to explore remotely beyond projection pools, granting them imperviousness to most hazards.</Text>
+                      <Text>A new type of projection stone called the voyager stone was developed at this workshop. This new type of projection stone would use memory storage systems to allow Nomai to explore remotely beyond projection pools.</Text>
                       <Condition>Workshop R4</Condition>
             </AltText>
         </ExploreFact>
-          <ExploreFact>
+           <ExploreFact>
+            <ID>Workshop EX2.5</ID> 
+            <Text>A Nomai named Daz used a voyager stone to rescue a jellyfish beached on the shore without being shocked.</Text>
+        </ExploreFact>
+         <ExploreFact>
             <ID>Workshop EX3</ID> 
-            <Text>Conversations shared across projection stones are not stored on the stones themselves, but on the projection walls they were written on. These conversations can only be read with the corresponding projection stones.</Text> 
-        </ExploreFact>
-          <ExploreFact>
-            <ID>Workshop EX4</ID> 
-            <Text>When disconnected, the memory storage system allows one voyager per mask to remain on standby, returning a voyage to that position once reengaged.</Text> 
-        </ExploreFact>
-        <ExploreFact>
-            <ID>Workshop EX5</ID> 
-            <Text>Voyaging to the same destination from the same projection pool causes multiple memory storage systems to be connected to the same voyager, creating a stream of shared consciousness.</Text> 
+            <Text>A Nomai named Oeno using the voyager stone noticed her voyages beginning outside the projection pool, and experienced a strange telepathic connection with another Nomai using a voyager stone. She wondered if a mix-up between memory storage systems caused the issue.</Text>
         </ExploreFact>
 
+    <Entry>
+       <ID>SCROLL_WORKSHOP_TOP</ID>
+        <Name>Workshop Loft</Name>
+        <Curiosity>STOWAWAYS</Curiosity>
+          <RumorFact>
+            <ID>WorkshopTop R1</ID>
+            <Text>There is a second floor of the Scroll and Stone Workshop, but it seems too high to reach. A Nomai elevator blocks the doorway.</Text> 
+        </RumorFact>
+            <RumorFact>
+            <ID>WorkshopTop R2</ID>
+            <Text>A voyager stone to the Sanctuary may be found at the Scroll and Stone Workshop.</Text> 
+        </RumorFact>
+
+         
+          <ExploreFact>
+            <ID>WorkshopTop EX1</ID> 
+            <Text>When disconnected, the memory storage system allows a voyager to remain on standby, returning a voyage to that position once reengaged.</Text> 
+        </ExploreFact>
         <ExploreFact>
-            <ID>Workshop EX6</ID> 
+            <ID>WorkshopTop EX2</ID> 
+            <Text>Voyaging to the same destination from the same projection pool causes multiple memory storage systems to be connected to the same voyager, creating a stream of shared consciousness.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>WorkshopTop EX3</ID> 
             <Text>A Nomai named Daz was cut off while writing to the Deep Storm Station from the Scroll and Stone Workshop.</Text> 
         </ExploreFact>
+         <ExploreFact>
+            <ID>WorkshopTop EX4</ID> 
+            <Text>Conversations shared across projection stones are not stored on the stones themselves, but on the projection walls they were written on.</Text> 
+        </ExploreFact>
+             <ExploreFact>
+            <ID>WorkshopTop EX5</ID> 
+            <Text>"Think of each projection stone as unique keys, and the projection walls as having locks for each key."</Text> 
+        </ExploreFact>
+        </Entry>
 </Entry>
 
 ///
@@ -164,13 +192,13 @@
         </ExploreFact>
          <ExploreFact>
             <ID>CB_EX4</ID> 
-            <Text>A Nomai named Cassava observed ghost matter being temporarily neutralized by water. He concluded that ghost matter is neutralized by water, and traveled to Timber Hearth to study another property of ghost matter.</Text> 
+            <Text>A Nomai named Cassava observed ghost matter being temporarily neutralized by water. He traveled to Timber Hearth to study another property of ghost matter he noticed.</Text> 
         </ExploreFact>
 
              <ExploreFact>
             <IgnoreMoreToExplore/>
             <ID>CB_EX5</ID> 
-            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to warp from the warp transmitter there, to charge a return warp that would allow them to return to the surface.</Text> 
+            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to use the warp pad there to warp in, to charge a return warp that would allow them to return to the surface.</Text> 
         </ExploreFact>
 </Entry>
 

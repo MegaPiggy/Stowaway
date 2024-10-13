@@ -55,9 +55,14 @@
 <ShipLogConditions>
 	
 		<RevealFact>
-			<FactID>Workshop EX3</FactID>
+			<FactID>WorkshopTop EX4</FactID>
 			<Condition>3</Condition>
 		</RevealFact>
-	</ShipLogConditions>
+			<RevealFact>
+			<FactID>WorkshopTop EX5</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+
+</ShipLogConditions>
 
 </NomaiObject>

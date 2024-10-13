@@ -20,15 +20,15 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: For those unaware, this planet is home to amphibious lifeforms, which you may encounter swimming onto land to explore the planet's surface.
+		OENO: The warp receiver powers a return warp that allows travel back to the paired warp transmitter after a Nomai has traveled to it.
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<LocationA />
-		<ParentID>3</ParentID>
+		<ParentID>2</ParentID>
 		<Text>
-		OENO: The warp receiver powers a return warp that allows travel back to the paired warp transmitter after a Nomai has traveled to it.
+		OENO: This planet is home to amphibious lifeforms, who you may encounter swimming onto land to explore the planet's surface.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -36,7 +36,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: An unattended return warp could send these species to <![CDATA[<color=lightblue>Ash Twin</color>]]> - leaving them gravely endangered without any air supply or protection from the heat.
+		OENO: If any of them were to wander onto the warp receiver, an unattended return warp could send them to <![CDATA[<color=lightblue>Ash Twin</color>]]> - leaving them gravely endangered without air supply or any protection from heat.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -44,7 +44,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		OENO: A return warp is only powered upon the absence of all entities on the warp receiver. Thus, we advise stalling the return warp until you are ready to return to <![CDATA[<color=lightblue>Ash Twin!</color>]]>
+		OENO: As a return warp is only powered upon the absence of any entities on the warp receiver, we advise leaving something on the warp receiver to stall it until you are ready to return to <![CDATA[<color=lightblue>Ash Twin!</color>]]>
 		</Text>
 	</TextBlock>
 

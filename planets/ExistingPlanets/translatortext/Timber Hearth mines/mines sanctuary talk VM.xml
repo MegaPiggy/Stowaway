@@ -66,8 +66,14 @@
 	
 
 <ShipLogConditions>
-
-			
+				<RevealFact>
+			<FactID>Campsite EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>Campsite EX2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
 				<RevealFact>
 			<FactID>SY R2</FactID>
 			<Condition>6</Condition>

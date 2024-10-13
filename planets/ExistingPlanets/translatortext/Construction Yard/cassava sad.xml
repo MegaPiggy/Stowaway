@@ -42,4 +42,12 @@
 			</TextBlock>
 
 
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>WorkshopTop R2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	
+	</ShipLogConditions>
+
 </NomaiObject>

@@ -77,24 +77,22 @@
 <ShipLogConditions>
 
 			<RevealFact>
-			<FactID>Campsite EX1.5</FactID>
+			<FactID>Campsite EX3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Campsite EX4</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
+
 				<RevealFact>
 			<FactID>SY R4</FactID>
-			<Condition>6</Condition>
+			<Condition>8</Condition>
 		</RevealFact>
-				<RevealFact>
-			<FactID>SY R3</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-				<RevealFact>
-				<FactID>SY R4</FactID>
-				<Condition>6</Condition>
-		</RevealFact>
+			
 				<RevealFact>
 			<FactID>Workshop R1</FactID>
-			<Condition>11</Condition>
+			<Condition>8</Condition>
 		</RevealFact>
 
 </ShipLogConditions>

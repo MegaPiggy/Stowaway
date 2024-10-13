@@ -10,7 +10,7 @@
          <RumorFact>
             <ID>GSHOP R1</ID>
             <SourceID>CONSTRUCT_BAY</SourceID>
-            <Text>A schematic at the Construction Yard says that gravity crystals used to build the Orbital Probe Cannon were sourced from this workshop on Brittle Hollow.</Text> 
+            <Text>Gravity crystals used to build the Orbital Probe Cannon were sourced from this workshop on Brittle Hollow.</Text> 
         </RumorFact>
          <RumorFact>
            <SourceID>CONSTRUCT_BAY</SourceID>

@@ -61,7 +61,7 @@
        </ExploreFact>
        <ExploreFact>
             <ID>GAL EX2</ID> 
-            <Text>I used my Little Scout to read a heartwarming sign made by Galena!</Text> 
+            <Text>I used my Little Scout to read a heartwarming sign that Galena made!</Text> 
        </ExploreFact>
 </Entry>
 
@@ -87,7 +87,7 @@
        </ExploreFact>
        <ExploreFact>
             <ID>ARK EX2</ID> 
-            <Text>Arkose says that Gabbro knows something about ghost matter disappearing.</Text> 
+            <Text>Arkose says that Gabbro noticed ghost matter disappearing as well, though they weren't sure why.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -129,6 +129,7 @@
             <ID>SY R1</ID> 
             <Text>My Little Scout traveled with the museum’s quantum shard into a glittering cave somewhere within Timber Hearth.</Text> 
         </RumorFact>
+        
          <RumorFact>
            <SourceID>TH_CAMPSITE</SourceID>
             <RumorName>Sanctuary</RumorName>
@@ -184,25 +185,37 @@
 
         <Curiosity>STOWAWAYS</Curiosity>
 
+          <RumorFact>
+            <ID>Campsite R1</ID> 
+            <RumorName>Nomai Ruins</RumorName>
+            <Text>Tephra asked me to explore the Nomai Ruins outside the village for undiscovered caves the quantum shard might travel to.</Text> 
+        </RumorFact>
+
           <ExploreFact>
             <ID>Campsite EX1</ID> 
             <Text>This campsite belonged to the Nomai working on Timber Hearth.</Text> 
         </ExploreFact>
-      
           <ExploreFact>
-            <ID>Campsite EX1.5</ID> 
-            <Text>"A warp transmitter requires a connected warp receiver to function."</Text> 
+                <ID>Campsite Orb EX1</ID> 
+                <Text>A Nomai named Oeno modified vision orbs to acommodate Timber Hearth's native lifeforms. She was disappointed to learn the vision orb was not being activated by them, but by the Attlerock’s gravity as it orbited overhead.</Text> 
+       </ExploreFact>
+           <ExploreFact>
+                     <ID>Campsite Orb EX2</ID> 
+                     <Text>A Nomai named Yarrow reported the rotating doors on the Sun Station and Timber Hearth warp towers opening and closing on their own from time to time.</Text> 
+              </ExploreFact>
+         <ExploreFact>
+            <ID>Campsite EX2</ID> 
+            <Text>The Nomai planned to build a Sanctuary within Timber Hearth's underground pools, where a quantum shard travels.</Text> 
+        </ExploreFact>
+        <RumorFact>
+            <ID>Campsite EX3</ID>
+            <Text>A new invention from the Scroll and Stone Workshop on Giant's Deep provides convenient entry into the Sanctuary.</Text> 
+        </RumorFact>
+          <ExploreFact>
+            <ID>Campsite EX4</ID> 
+            <Text>A warp transmitter requires a connected warp receiver to function.</Text> 
       </ExploreFact>
 
-          <ExploreFact>
-            <ID>Campsite EX2</ID> 
-            <Text>A Nomai named Oeno modified vision orbs to acommodate Timber Hearth's native lifeforms. She was disappointed to learn the vision orb was not being activated by their sight, but by the Attlerock’s gravity as it orbited overhead.</Text> 
-      </ExploreFact>
-           
-              <ExploreFact>
-            <ID>Campsite EX3</ID> 
-            <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead.</Text> 
-      </ExploreFact>
 
              <Entry>
 
@@ -215,30 +228,26 @@
                     <SourceID>TH_WARPTOWER</SourceID>
                      <Text>A Nomai named Cycad delivered news about rotating doors on Ash Twin activating on their own to Timber Hearth.</Text>
                 </RumorFact>     
-
                 
+
+          <ExploreFact>
+                    <ID>TH_WR EX3</ID> 
+                   <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead.</Text> 
+               </ExploreFact>
                <ExploreFact>
                      <ID>TH_WR EX1</ID> 
                      <Text>The Nomai on Timber Hearth were careful not to leave this warp receiver unattended, to protect the amphibious native lifeforms from being warped to Ash Twin.</Text> 
               </ExploreFact>
                  <ExploreFact>
                      <ID>TH_WR EX2</ID> 
-                     <Text>After a Nomai has warped to it, a warp receiver powers a return warp that allows travel to its paired warp transmitter once.</Text> 
+                     <Text>After a Nomai has warped to it and the warp pad is clear of any entities, a warp receiver powers a return warp that allows travel to its paired warp transmitter once.</Text> 
               </ExploreFact>
-                <ExploreFact>
-                      <ID>TH_WR EX3</ID> 
-                      <Text>A warp receiver only powers the return warp once it is clear of any entities.</Text> 
-                </ExploreFact>  
-               <ExploreFact>
-                      <ID>TH_WR EX4</ID> 
-                  <Text>A Nomai named Yarrow sought help from the Nomai on Timber Hearth regarding an issue on Ash Twin.</Text> 
-                              <AltText>
-                                <Text>A Nomai named Yarrow reported the rotating doors on the Sun Station and Timber Hearth warp towers opening and closing on their own from time to time.</Text>
-                               <Condition>TH_WR R1</Condition>
-                              </AltText>
-             </ExploreFact>
-
+              
+              
              </Entry>
+
+
+         
 </Entry>
 
 

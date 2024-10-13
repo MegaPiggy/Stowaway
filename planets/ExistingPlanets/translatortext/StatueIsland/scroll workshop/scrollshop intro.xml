@@ -14,7 +14,7 @@
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>DAZ: However, if you seek my expertise in crafting new projection stones (or wish to test out a prototype of an advanced projection stone), please seek me in my workshop upstairs!</Text>
+		<Text>DAZ: However, if you seek my expertise in crafting new projection stones (or wish to test out an exciting new type of projection stone), please seek me in my workshop upstairs!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
@@ -32,8 +32,20 @@
 
 <ShipLogConditions>
 		<RevealFact>
+			<FactID>Workshop R3</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>WorkshopTop R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
 			<FactID>Workshop EX1</FactID>
 			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Workshop EX1.5</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

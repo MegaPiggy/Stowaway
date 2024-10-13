@@ -30,15 +30,15 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		ANNONA: We could not, Bur. The north and south poles never experience sunless days - that is precisely why we chose to built the solar towers here, so they would not be rendered useless at times.
+		ANNONA: We could not, Bur. The north and south poles never experience sunless days - that is precisely why we chose to build the solar towers here.
 		</Text>
 	</TextBlock>
-	<TextBlock>
+		<TextBlock>
 		<ID>5</ID>
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		MELORAE: On the sunward side, as the funnel of sand travels with the sunless day, we will never need to worry about the funnel of sand as we work at this site.
+		ANNONA: In fact, there are plans to relocate <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels soon, due to issues we have discovered with its current site.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -46,23 +46,23 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		ANNONA: While we speak, it has been suggested that we should relocate <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels due to the issues with its current site. Has a site of relocation been decided yet, Melorae?
+		MELORAE: On the sunward side, as the funnel of sand travels with the sunless day, we will not need to worry about the funnel of sand here.
 		</Text>
 	</TextBlock>
-<TextBlock>
+	<TextBlock>
 		<ID>7</ID>
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		MELORAE: We seem to have come to an agreement, yes! Ramie and I spent quite some time debating ideal sites for the relocation the other day.
+		ANNONA: Have you and Ramie decided on an ideal <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels yet, Melorae?
 		</Text>
 	</TextBlock>
-	<TextBlock>
+<TextBlock>
 		<ID>8</ID>
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		MELORAE: In the end, we settled on a grassy plateau on the surface above the <![CDATA[<color=orange>Sunless City,</color>]]> as its proximity to the city will make transportation of energy much simpler.
+		MELORAE: We have! So far, we have settled on a grassy plateau on the surface, directly above the <![CDATA[<color=orange>Sunless City.</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -70,12 +70,25 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		ANNONA: That sounds promising. I shall like to visit this relocation site soon to see it for myself to ensure it is ideal, before the relocation takes place.
+		MELORAE: There is ample space there, and close proximity to the city will make transportation of energy from the solar panels much simpler!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		ANNONA: That sounds promising. I shall visit this <![CDATA[<color=orange>relocation site</color>]]> to see it for myself soon.
 		</Text>
 	</TextBlock>
 
 	
 <ShipLogConditions>
+		<RevealFact>
+			<FactID>TH_NOMAI_MINE_R1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+
 		<RevealFact>
 			<FactID>SLR_T EX1</FactID>
 			<Condition>1</Condition>
@@ -86,15 +99,15 @@
 		</RevealFact>
 			<RevealFact>
 			<FactID>SLR_T EX3</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>SLR_T EX4</FactID>
 			<Condition>6</Condition>
 		</RevealFact>
 			<RevealFact>
+			<FactID>SLR_T EX4</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+			<RevealFact>
 			<FactID>R_SLR R1</FactID>
-			<Condition>8</Condition>
+			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>R_SLR R2</FactID>

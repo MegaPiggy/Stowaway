@@ -21,6 +21,17 @@
             <Text>The ghost matter collected by the Inspired was warped into the Deep Storm Station for containment.</Text>
         </RumorFact>
 
+<RumorFact>
+             <IgnoreMoreToExplore/>
+            <ID>INSP R3</ID>
+            <Text>The Inspired was a superweapon made to bring massive destruction to the source of ghost matter.</Text>
+               <AltText>
+                        <Text>The Inspired was a superweapon made to bring massive destruction to the source of the Interloper.</Text>
+                        <Condition>COMET_INTERIOR_X1</Condition>
+                 </AltText>
+         </RumorFact>
+
+
          <ExploreFact>
           <IgnoreMoreToExplore/>
             <ID>INSP EX1</ID>
@@ -34,7 +45,6 @@
   <ExploreFact>
              <IgnoreMoreToExplore/>
             <ID>INSP EX2</ID>
-               <SourceID>COMET_INTERIOR</SourceID>
             <Text>The Inspired was a superweapon made to bring massive destruction to the source of ghost matter.</Text>
                <AltText>
                         <Text>The Inspired was a superweapon made to bring massive destruction to the source of the Interloper.</Text>
@@ -43,8 +53,9 @@
         </ExploreFact>
         
         <ExploreFact>
+        <IgnoreMoreToExplore/>
             <ID>INSP EX3</ID>
-            <Text>I found a mural detailing the construction of something called the Inspired.</Text>
+            <Text>I found schematics on the Construction Yard detailing the construction of something called the Inspired.</Text>
         </ExploreFact>
 
          <ExploreFact>

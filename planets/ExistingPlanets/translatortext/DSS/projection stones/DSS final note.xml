@@ -98,6 +98,14 @@
 			<Condition>10</Condition>
 		</RevealFact>
 
+<RevealFact>
+			<FactID>INSP R2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+<RevealFact>
+			<FactID>INSP R3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
 		<RevealFact>
 			<FactID>INSP EX4</FactID>
 			<Condition>4</Condition>

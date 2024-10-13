@@ -86,11 +86,11 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>Workshop EX4</FactID>
-			<Condition>2</Condition>
+			<FactID>WorkshopTop EX1</FactID>
+			<Condition>3</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>Workshop EX5</FactID>
+			<FactID>WorkshopTop EX2</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
 	</ShipLogConditions>

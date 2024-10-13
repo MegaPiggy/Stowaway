@@ -33,7 +33,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		RAMIE: And the <![CDATA[<color=orange>High Energy Lab</color>]]> will be free from accusations of rerouting the Sunless City's energy!
+		RAMIE: And the <![CDATA[<color=orange>High Energy Lab</color>]]> will be free from accusations of rerouting the <![CDATA[<color=orange>Sunless City's</color>]]> energy!
 		</Text>
 	</TextBlock>
 

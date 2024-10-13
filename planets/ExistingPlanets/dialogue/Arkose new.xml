@@ -32,7 +32,7 @@
     					  </RevealFacts>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>Sorry, what? It.. <![CDATA[<i>goes away sometimes?</i>]]></Text>
+				<Text>Sorry, what? Ghost matter.. goes away sometimes?</Text>
 				<DialogueTarget>ArkoseNew1.5</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -50,6 +50,7 @@
 			<Page>It’s dangerous to get too close to the ghost matter, so I’m using these rocks to see if I can figure it out on my own.</Page>
 		</Dialogue>
 							 <RevealFacts>
+							 <FactID>ARK EX1</FactID>
      						  	 <FactID>ARK EX2</FactID>
      						  	 <FactID>ARK R2</FactID>
     					 	 </RevealFacts>

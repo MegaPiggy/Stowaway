@@ -205,30 +205,22 @@
 				"type": "whiteboard"
 			},
 			{
-				"rename": "TH warp gate whiteboard",
+				"rename": "Cassava moon text whiteboard",
 				"position": {"x":-235.8431,"y": -46.9239,"z": -68.1156},
 				"rotation": {"x":285.0787,"y":196.6553,"z": 235.3205},
 				"type": "whiteboard",
 				"seed":3,
+				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/cassava moon.xml"
+			},
+			{
+				"rename": "TH warp receiver tutorial recorder",
+				"position": {"x": -238.848,"y": -37.2673,"z": -62.4267},
+				"rotation": {"x": 289.8614,"y": 190.3643,"z": 244.6068},
+				"type": "recorder",
+				"isRelativeToParent": true,
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/TH warp tower caution.xml"
 			},
-			{
-				"rename": "Yarrow message text",
-				"position": {"x": 0.3007,"y": 0.0755,"z": 0.1429},
-				"rotation": {"x": 356.1083,"y": 70.2417,"z": 0.7238},
-				"type": "recorder",
-				"parentPath": "Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Prefab_NOM_Computer/Ring6",
-				"isRelativeToParent": true,
-				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/Yarrow message.xml"
-			},
-			{
-				"rename": "Cassava moon text",
-				"position": {"x": -131.4473,"y": -3.1624,"z": -137.6637},
-				"rotation": {"x":270,"y": 31.0322,"z": 0},
-				"type": "wall",
-				"seed":2,
-				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/Cassava moon.xml"
-			},
+			
 
 
 			{
@@ -340,9 +332,9 @@
 			{
 				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
 				"rename":"Stowaway GM wisps",
-				"position":{"x":-131.9778,"y": -1.3681,"z": -136.9335}, 
-				"rotation":{"x":7.4855,"y": 315.7918,"z": 94.8219},
-				"stretch": {"x":1,"y": 1.7,"z": 1.3},
+				"position":{"x":-236.3961,"y": -43.9211,"z": -68.7241}, 
+				"rotation":{"x":355.7633,"y": 347.9005,"z": 98.7099},
+				"stretch": {"x":1,"y": 1.7,"z": 1.5},
 				"isRelativeToParent": true
 			},
 			{
@@ -357,10 +349,10 @@
 			},
 			{
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume/NotificationVolume",
-				"rename":"Campsite GM notification",
-				"position":{"x":-131.8778,"y": -1.3681,"z": -137.1335},
-				"rotation":{"x":7.4855,"y": 315.7918,"z": 94.8219},
-				"scale":1.5,
+				"rename":"stowaway GM notification",
+				"position":{"x": -237.1023,"y": -46.8382,"z": -68.4097},
+				"rotation":{"x":350.2437,"y": 326.3129,"z": 11.5533},
+				"scale":2.4,
 				"isRelativeToParent": true
 			},
 			
@@ -410,9 +402,9 @@
 				"rename":"Campsite log seat collider",
 				"assetBundle": "planets/bundle/dev",
 				"path": "assets/models/devcom/cube.prefab",
-				"position": {"x": -154.095, "y": 6.0386, "z": -130.4312},
-				"rotation": {"x": 330.3428, "y": 140.8157, "z": 271.5714},
-				"stretch": {"x":1,"y":1,"z":7.5909},
+				"position": {"x": -0.4208, "y": 8.7389, "z": 0.0934},
+				"rotation": {"x": 271.3771, "y": 238.5813, "z": 32.3693},
+				"stretch": {"x":1,"y":1,"z":18.9745},
 				"isRelativeToParent": true
 			},
 			{
@@ -492,29 +484,11 @@
 			},
 
 
-			{
-				"rename":"Stowaway bridge note LIGHT",
-				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
-				"position": {"x": -132.7565, "y": -2.0269, "z": -138.0984},
-				"rotation": {"x": 0.3473, "y": 270.6234, "z": 7.4111},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Stowaway bridge note LIGHT 2",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom4/Lighting_PuzzleRoom4/OtherComponentsGroup/PuzzleRoom_4/Alcove/FillLight_NOM_Alcove",
-				"position": {"x": -130.2583, "y": -3.3833, "z": -140.1364},
-				"rotation": {"x": 0.3473, "y": 270.6234, "z": 7.4111},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Stowaway torch",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position": {"x": -130.7038, "y": -2.1046, "z": -137.3028},
-				"rotation": {"x": 9.8866, "y": 234.2864, "z": 233.1214},
-				"removeChildren": ["WallTorch_Connector"],
-				"isRelativeToParent": true
-			},
+			
+			
+
+
+		
 			{
 				"rename":"TH campsite STAIRS",
 				"assetBundle": "planets/bundle/prefabs",
@@ -528,26 +502,88 @@
 				"rename":"Mural torch",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position": {"x": -146.6855, "y": 17.6967, "z": -137.3833},
+				"position": {"x": -150.4917, "y": 14.0403, "z": -133.4574},
 				"rotation": {"x": 30.4417, "y": 218.6741, "z": 74.2792},
 				"removeChildren": ["WallTorch_Connector"],
 				"isRelativeToParent": true
 			},
 			
+
+
+
+			{
+				"rename":"Stowaway GM crystals 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -236.5421,"y": -42.8649,"z": -70.7507},
+				"rotation":{"x": 311.9999,"y": 174.7632,"z": 256.904},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway GM crystals 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -3.0096,"y": 0.036,"z": -1.0125},
+				"rotation":{"x": 359.9417,"y": 341.6249,"z": 1.0596},
+				"parentPath": "Sector_TH/Stowaway GM crystals 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway GM crystals 3",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 7.8194,"y": -1.9541,"z": -2.4754},
+				"rotation":{"x": 330.9178,"y": 241.8973,"z": 269.2609},
+				"parentPath": "Sector_TH/Stowaway GM crystals 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway GM crystals 4",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -0.7603,"y": -2.7494,"z": -4.9125},
+				"rotation":{"x": 308.7683,"y": 60.7336,"z": 91.0316},
+				"parentPath": "Sector_TH/Stowaway GM crystals 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway GM crystals 5",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -5.7843,"y": -0.1471,"z": -5.483},
+				"rotation":{"x": 0.6285,"y": 305.9467,"z": 1.2278},
+				"parentPath": "Sector_TH/Stowaway GM crystals 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway GM crystals 6",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 3.719,"y": -0.286,"z": -1.0761},
+				"rotation":{"x": 356.6565,"y": 236.7501,"z": 3.2639},
+				"parentPath": "Sector_TH/Stowaway GM crystals 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway GM crystals 7",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -6.367,"y": -0.9445,"z": -9.7214},
+				"rotation":{"x": 319.7386,"y": 67.1844,"z": 80.8831},
+				"parentPath": "Sector_TH/Stowaway GM crystals 1",
+				"isRelativeToParent": true
+			},
+
 			{
 				"rename":"Stowaway flowers",
 				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/DetailPatches_NomaiCrater/NomaiSideCrater Foliage/Foliage_TH_NomaiSideCrater_GrassPatch (1)",
-				"position": {"x": -133.7944, "y": -0.4765 , "z": -135.7544},
-				"rotation": {"x": 343.03, "y": 314.2457, "z": 89.4669},
+				"position": {"x": -235.6701, "y": -41.3105, "z": -74.0075},
+				"rotation": {"x": 292.5604, "y": 175.4832, "z": 252.8568},
 				"isRelativeToParent": true
 			},
 			{
-				"rename":"Stowaway bridge note deadnomai",
-				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_DB/Interactables_DBState/QuantumDeadNomaiSuit/State_4/Prefab_NOM_Dead_Suit_GroundC",
-				"position": {"x": -129.8555, "y": -3.423, "z": -138.621},
-				"rotation": {"x": 274.6639, "y": 140.8963, "z": 261.5656},
+				"rename":"Stowaway bridge note LIGHT",
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
+				"position": {"x": -238.0804, "y": -44.8836, "z": -68.5094},
 				"isRelativeToParent": true
 			},
+
+
+
+
 
 			{
 				"rename":"Campsite ceiling lamp fallen",
@@ -563,13 +599,6 @@
 				"path":"assets/nomai ruins/prefabs/ceilinglamp.prefab",
 				"position": {"x": -159.9952,"y": -1.9277,"z": -152.1374},
 				"rotation": {"x": 5.3683,"y": 318.2706,"z": 90.4635},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"TH warp whiteboard LIGHT",
-				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_NomaiEyeExhibit",
-				"position": {"x":-237.9066,"y": -44.7839,"z": -69.3962},
-				"rotation": {"x":350.0809,"y": 327.1262,"z": 11.4143},
 				"isRelativeToParent": true
 			},
 			{
@@ -847,6 +876,17 @@
 				"blockAfterPersistentCondition": "STOWAWAY_GO_TALK_TO_KIDS",
 				"remoteTrigger": {
 					"position": {"x":5.6347,"y": -42.2488,"z": 187.3667},
+					"radius":4
+				},
+				"xmlFile": "planets/ExistingPlanets/dialogue/Slate remote intro.xml"
+			},
+			{
+				"rename":"Slate remote intro 2",
+				"position": {"x":1.682,"y": -40.7851,"z": 185.7339},
+				"radius": 0,
+				"blockAfterPersistentCondition": "STOWAWAY_GO_TALK_TO_KIDS",
+				"remoteTrigger": {
+					"position": {"x":33.103,"y": -40.4716,"z": 183.5703},
 					"radius":4
 				},
 				"xmlFile": "planets/ExistingPlanets/dialogue/Slate remote intro.xml"
