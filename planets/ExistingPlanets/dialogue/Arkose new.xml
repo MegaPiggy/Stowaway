@@ -32,7 +32,7 @@
     					  </RevealFacts>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>Sorry, what? Ghost matter.. goes away sometimes?</Text>
+				<Text>Sorry, what? The ghost matter.. goes away sometimes?</Text>
 				<DialogueTarget>ArkoseNew1.5</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -44,7 +44,7 @@
 		<Dialogue>
 			<Page>Yeah, I know right?! It's weird!</Page>
 			<Page>You know how there’s a green glowy trail when you throw something into a patch of ghost matter?</Page>
-			<Page>When I throw rocks into the patch of ghost matter, sometimes, it doesn’t leave a trail at all.</Page>
+			<Page>When I throw rocks into this patch of ghost matter, sometimes, it doesn’t leave a trail at all.</Page>
 			<Page>I dunno what causes it! It doesn’t happen every time, even when I throw harder, or use different kinds of rocks.</Page>
 			<Page>I asked Gabbro about it last time they came back from Giant's Deep. They told me yeah, ghost matter just goes away sometimes! They weren’t sure why, though.</Page>
 			<Page>It’s dangerous to get too close to the ghost matter, so I’m using these rocks to see if I can figure it out on my own.</Page>

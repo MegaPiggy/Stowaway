@@ -22,8 +22,8 @@
 				<Page>Ah, I’m guessing you heard about this from Mica?</Page>
 				<Page>I hope you didn’t take too long to take off - or they’ll be telling future space cadets about how you delayed your launch for generations to come, too!</Page>
 				<Page>As I've told them many times.. The reason I delayed my launch date was because the Hourglass Twins' sand was flowing towards Ash Twin on the day I was setting off.</Page>
-				<Page>Since I was planning to explore Ash Twin on my first trip, it'd have been silly to set off before the sand began to drain back.</Page>
-				<Page>That’s why I opted to delay my launch - though more times than I'd have liked.. But I couldn't be blamed for that - I have no control over the universe's whims!</Page>		
+				<Page>Since I was planning to explore Ash Twin on my first trip, it'd have been silly to set off while it was being buried by oceans of sand.</Page>
+				<Page>That’s why I opted to delay my launch, though more times than I'd have liked.. But surely I can't be blamed for that - I have no control over the universe's whims!</Page>		
 				<Page>Still, it certainly sparked a lifelong curiosity about the Hourglass Twins. To this day, I can't help but wonder if there's more to the sand flowing back and forth than natural phenomenon.</Page>		
 			</Dialogue>
 		<DialogueOptionsList>
@@ -44,7 +44,7 @@
 				<Page>Well, have you seen the colossal towers of solar panels on each of the Ash Twin's poles? They are truly a magnificent sight to behold.</Page>
 				<Page>I first noticed them while stargazing, and wished to visit Ash Twin to get a closer look at these wondrous structures.</Page>
 				<Page>With solar panels of such scale, the Nomai must have been able to harness an incredible amount of energy with them!</Page>
-				<Page>Fantastic view aside: you might be able to glean more about them with that new translator tool of yours! I highly recommend visiting them when you get the chance.</Page>
+				<Page>Fantastic view aside: you might be able to glean more about them with that new translator tool of yours. I highly recommend visiting them when you get the chance!</Page>
 				</Dialogue>
 							<RevealFacts>
      						   <FactID>SLR_T R1</FactID>

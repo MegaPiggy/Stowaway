@@ -327,7 +327,7 @@
 		<Dialogue>
 			<Page>Sorry, <![CDATA[<i>]]>what?<![CDATA[</i>]]> You found WHAT?!</Page>
   		    <Page>That's.. That's incredible!</Page>
-			<Page>That's our ancestors for sure, right? Amphibious, four-eyed.. It has to be us!</Page>
+			<Page>Those are our ancestors for sure, right? Amphibious, four-eyed.. It has to be us!</Page>
 			<Page>So we did coexist with them. They.. They studied and even admired us.. Oh, stars above.</Page>
     		  <Page>Not only that - our ancestors had already evolved to live on land during that time! Goodness, it couldn't have been that long since the Nomai were still around then, right?</Page>
 	 		 <Page>But if that's the case... What in the stars happened to the Nomai in that time?</Page>
@@ -352,7 +352,7 @@
 		<Dialogue>
 			<Page>Sorry, <![CDATA[<i>]]>what?<![CDATA[</i>]]> You found WHAT?!</Page>
   		    <Page>That's.. That's incredible!</Page>
-			<Page>That's our ancestors for sure, right? Amphibious, four-eyed.. It has to be us!</Page>
+			<Page>Those are our ancestors for sure, right? Amphibious, four-eyed.. It has to be us!</Page>
 			<Page>So we did coexist with them. They.. They studied and even admired us.. Oh, stars above.</Page>
     		  <Page>Not only that - our ancestors had already evolved to live on land during that time! Goodness, it couldn't have been that long since the Nomai were still around then, right?</Page>
 	 		 <Page>But.. wait. You told me earlier that the Interloper killed all the Nomai in the star system.</Page>
@@ -377,9 +377,9 @@
 		<Dialogue>
 				<Page>What? Water.. protects you from ghost matter?! That's.. news to me! Could that be how our species survived?!</Page>
 			<Page>But, ah.. Mm.. No, that still can't be the whole story.</Page>
-			<Page>The mural you found showed our ancestors were already amphibious and adapted to leave the water.. So wouldn't we have been fried the moment we surfaced?</Page>
-			<Page>Did our ancestors simply survive by the skin of their teeth by staying underwater?</Page>
-			<Page>But if that's the case.. Shouldn't our species have adapted to stay underwater due to natural selection, rather than adapting to live on land, where ghost matter threatened us?</Page>
+			<Page>The mural you found showed our ancestors were already amphibious at the time of the Nomai's extinction.. So wouldn't they have been fried the moment they surfaced?</Page>
+			<Page>Did our ancestors simply survive by the skin of their teeth by staying underwater, until the ghost matter evaporated with time?</Page>
+			<Page>But if that's the case.. Shouldn't our species have adapted to stay underwater due to natural selection, rather than adapting to live on land?</Page>
 			<Page>It feels like we're still missing a big piece of the puzzle here...</Page>
 		</Dialogue>
 		<DialogueOptionsList>

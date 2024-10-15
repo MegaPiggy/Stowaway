@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		COLEUS: The projection pool has been installed, Oeno! Now, we will be able to project to this site for further inspections in the future.
+		COLEUS: The projection pool has been installed, Oeno! Now, we will be able to travel to this site easily for further inspections.
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CYCAD: This space seems rather small, Coleus.. Will there be enough room for the warp receiver into the <![CDATA[<color=orange>Sanctuary?</color>]]>
+		CYCAD: This space seems rather small, Coleus.. Will there be enough space for the warp receiver into the <![CDATA[<color=orange>Sanctuary?</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		OENO: We won't be constructing a warp receiver for this structure, Cycad. It would be too costly - we plan on entering using different means.
+		OENO: That won't be a problem, Cycad! The space has everything it needs already.
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		CYCAD: A warp transmitter requires a connected warp receiver to function, does it not?
+		CYCAD: But.. A warp transmitter requires a connected warp receiver to function, does it not?
 		</Text>
 	</TextBlock>
 	
@@ -41,7 +41,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		CYCAD: Surely there must be a different route of entry other than the one Coleus used.. I have never been comfortable trusting a quantum entity with my life, you see.
+		OENO: We won't be constructing a warp receiver to enter this structure, Cycad! It would be too costly. we plan on entering using different means.
 		</Text>
 	</TextBlock>
 
@@ -50,7 +50,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: Worry not, Cycad: have you heard of Daz's latest invention? It should provide you with the most convenient entry into the <![CDATA[<color=orange>Sanctuary!</color>]]>
+		COLEUS: Cycad, have you heard of Daz's latest invention? It will provide us with the most convenient entry into the <![CDATA[<color=orange>Sanctuary!</color>]]>
 				</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: Daz has asked all of us to use his invention during the <![CDATA[<color=orange>Sanctuary's</color>]]> construction.. We will be the first to test it thoroughly!
+		COLEUS: In fact, Daz has asked all of us to use his invention during the <![CDATA[<color=orange>Sanctuary's</color>]]> construction.. We will be the first to test it thoroughly!
 				</Text>
 	</TextBlock>
 
@@ -68,7 +68,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		OENO: How exciting! Cycad, you must visit the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on <![CDATA[<color=lightblue>Giant's Deep</color>]]> to learn more about Daz's invention when you can!
+		OENO: I cannot wait! Cycad, you must visit the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on <![CDATA[<color=lightblue>Giant's Deep</color>]]> to learn more about Daz's invention when you can!
 				</Text>
 	</TextBlock>
 

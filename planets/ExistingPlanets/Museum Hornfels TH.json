@@ -242,15 +242,7 @@
 
 		
 		"details": [
-			{
-				"rename":"dev moon mural",
-				"assetBundle": "planets/bundle/dev",
-				"path": "assets/models/devcom/dev mural moon.prefab",
-				"position": {"x": 40.5264,"y": 41.3927,"z": 230.1381},
-				"rotation": {"x": 331.1521,"y": 275.3076,"z": 278.297},
-				"isRelativeToParent": true,
-				"stretch": {"x": 1,"y": 1,"z": 0.8}
-			},
+		
 
 
 
@@ -311,14 +303,14 @@
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
 				"rename":"Forest GM 1 notification",
 				"position": {"x":-93.972,"y": 20.8087,"z": -152.1071},
-				"scale":1.5,
+				"scale":3,
 				"isRelativeToParent": true
 			},
 			{
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
 				"rename":"Forest GM 2 notification",
 				"position": {"x":-117.0639,"y": -66.4285,"z": -186.5172},
-				"scale":1.5,
+				"scale":3,
 				"isRelativeToParent": true
 			},
 
@@ -332,9 +324,9 @@
 			{
 				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
 				"rename":"Stowaway GM wisps",
-				"position":{"x":-236.3961,"y": -43.9211,"z": -68.7241}, 
+				"position":{"x":-236.3961,"y": -44.6211,"z": -69.0241}, 
 				"rotation":{"x":355.7633,"y": 347.9005,"z": 98.7099},
-				"stretch": {"x":1,"y": 1.7,"z": 1.5},
+				"stretch": {"x":1,"y": 1.7,"z": 1.7},
 				"isRelativeToParent": true
 			},
 			{
@@ -889,7 +881,7 @@
 					"position": {"x":33.103,"y": -40.4716,"z": 183.5703},
 					"radius":4
 				},
-				"xmlFile": "planets/ExistingPlanets/dialogue/Slate remote intro.xml"
+				"xmlFile": "planets/ExistingPlanets/dialogue/Slate remote intro 2.xml"
 			},
 
 			{

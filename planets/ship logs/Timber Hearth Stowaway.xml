@@ -13,11 +13,11 @@
   </RumorFact>
  <ExploreFact>
             <ID>MICA EX1</ID> 
-            <Text>Mica says that Chert delayed their first launch several times for some reason.</Text> 
+            <Text>Mica says that Chert delayed their first launch several times due to something about the Hourglass Twins' sand column.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>MICA EX2</ID> 
-            <Text>Mica told me to take off and ask Chert myself for the reason they delayed their first launch.</Text> 
+            <Text>Mica told me to ask Chert myself about the reason they delayed their launch day.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -205,12 +205,12 @@
               </ExploreFact>
          <ExploreFact>
             <ID>Campsite EX2</ID> 
-            <Text>The Nomai planned to build a Sanctuary within Timber Hearth's underground pools, where a quantum shard travels.</Text> 
+            <Text>The Nomai planned to build a Sanctuary in a space within Timber Hearth's underground pools visited by a quantum shard.</Text> 
         </ExploreFact>
-        <RumorFact>
+         <ExploreFact>
             <ID>Campsite EX3</ID>
-            <Text>A new invention from the Scroll and Stone Workshop on Giant's Deep provides convenient entry into the Sanctuary.</Text> 
-        </RumorFact>
+            <Text>The Nomai planned to use a new invention from the Scroll and Stone Workshop on Giant's Deep for convenient entry into the Sanctuary.</Text> 
+        </ExploreFact>
           <ExploreFact>
             <ID>Campsite EX4</ID> 
             <Text>A warp transmitter requires a connected warp receiver to function.</Text> 

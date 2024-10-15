@@ -1,0 +1,19 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: Observations are consistent with findings on Timber Hearth.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: More research is necessary - I must learn all I can about this deadly matter in the time I have left.
+		</Text>
+	</TextBlock>
+	
+</NomaiObject>

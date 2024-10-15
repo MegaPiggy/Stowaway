@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		BUR: I am sure our friends from the <![CDATA[<color=orange>Timber Hearth Mines</color>]]> did their best to insulate us from the star's heat, but this is unbearable!
+		BUR: I am sure our friends from the <![CDATA[<color=orange>Timber Hearth Mines</color>]]> worked hard on them to insulate us from the star's heat, but this is unbearable!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -46,7 +46,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		MELORAE: On the sunward side, as the funnel of sand travels with the sunless day, we will not need to worry about the funnel of sand here.
+		MELORAE: On the sunward side, as the funnel of sand follows the sunless day, we will never need to worry about the funnel of sand here.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -54,7 +54,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		ANNONA: Have you and Ramie decided on an ideal <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels yet, Melorae?
+		ANNONA: Has the <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels been decided yet, Melorae?
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -62,7 +62,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		MELORAE: We have! So far, we have settled on a grassy plateau on the surface, directly above the <![CDATA[<color=orange>Sunless City.</color>]]>
+		MELORAE: We have! So far, we have settled on a grassy plateau on <![CDATA[<color=lightblue>Ember Twin's</color>]]> surface, directly above the <![CDATA[<color=orange>Sunless City.</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -78,7 +78,7 @@
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		ANNONA: That sounds promising. I shall visit this <![CDATA[<color=orange>relocation site</color>]]> to see it for myself soon.
+		ANNONA: That sounds promising. I shall try to visit this <![CDATA[<color=orange>relocation site</color>]]> to see it for myself soon.
 		</Text>
 	</TextBlock>
 

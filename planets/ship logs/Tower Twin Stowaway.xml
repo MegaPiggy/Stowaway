@@ -14,7 +14,7 @@
         </RumorFact>
           <RumorFact>
             <ID>GD Tower R2</ID>
-             <Text>Two Nomai waited outside this tower to travel to the Deep Storm Station.</Text> 
+             <Text>Two Nomai waited outside this tower in hopes of traveling to the Deep Storm Station.</Text> 
         </RumorFact>
        
         
@@ -153,7 +153,7 @@
         </ExploreFact>
          <ExploreFact>
             <ID>SLR_T EX2</ID>
-             <Text>The solar towers on Ash Twin were deliberately built on Ash Twin's poles to avoid sunless days.</Text> 
+             <Text>The solar towers on Ash Twin were deliberately built on Ash Twin's poles to avoid something called the sunless day.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>SLR_T EX3</ID>

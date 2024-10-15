@@ -53,7 +53,7 @@
 		 <SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
 		<Dialogue>
 			<Page>Aren't you gonna say goodbye to everyone before you take off? The whole village's gonna miss ya.</Page>
-			<Page>If nothing else, at least say bye to the little hatchlings. All of 'em always have something to ask or say to the new astronaut before they go.</Page>
+			<Page>If nothing else, at least say bye to the little hatchlings. All of 'em seem to have something to ask or say to you before you go.</Page>
 			<Page>Go humor 'em, just in case this is last they see of you for a while, y'know?</Page>
 		</Dialogue>
 						  <RevealFacts>
@@ -82,7 +82,7 @@
 		<Dialogue>
 		<Page>Uh, no. What are you talking about?</Page>
 			<Page>I was gonna ask if you were gonna say goodbye to everyone before you take off. The whole village's gonna miss you, you know?</Page>
-			<Page>If nothing else, at least say bye to the little hatchlings. All of 'em always have something to ask or say to the new astronaut before they go.</Page>
+			<Page>If nothing else, at least say bye to the little hatchlings. All of 'em seem to have something to ask or say to you before you go.</Page>
 			<Page>Go humor 'em, just in case this is last they see of you for a while, y'know?</Page>
 		</Dialogue>
 		 				  <RevealFacts>
