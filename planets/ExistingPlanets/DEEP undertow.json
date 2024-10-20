@@ -87,7 +87,7 @@
 			"uniqueID": "DSS WH",
 			"pairedSingularity": "INSP BH",
 			"hasWarpEffects": false,
-			"horizonRadius": 0.1,
+			"horizonRadius": 0.5,
 			"parentPath": "Sector_GD/Deep Storm Station",
 			"position":{"x": 0.0855,"y": -0.1328,"z": 0.9054},
 			"isRelativeToParent": true
@@ -265,7 +265,7 @@
 			{
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
 					"rename":"DSS GM volume 1 behindmask",
-					"position": {"x": 9.715,"y": -0.6517,"z": 1.2927},
+					"position": {"x": 10.1805,"y": -0.6517,"z": 1.2927},
 					"rotation": {"x": 72.0499,"y": 312.0412,"z": 133.5286},
 					"removeChildren": ["ProbeVisuals"],
 					"parentPath": "Sector_GD/DSS ghost matter",
@@ -303,16 +303,7 @@
 							"stretch": {"x": 6.8836,"y": 4.4309,"z": 2.5964}
 					},
 
-					{
-						"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
-							"rename":"DSS GM volume 2",
-							"position": {"x": -12.9741,"y": 0.8883,"z": 0.9036},
-							"rotation": {"x": 72.0499,"y": 312.0412,"z": 133.5286},
-							"removeChildren": ["ProbeVisuals"],
-							"parentPath": "Sector_GD/DSS ghost matter",
-							"isRelativeToParent": true,
-							"stretch": {"x": 3.8309,"y": 2.8491,"z": 4.6364}
-					},
+					
 			{
 				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
 				"rename":"GM wisp wall 1",

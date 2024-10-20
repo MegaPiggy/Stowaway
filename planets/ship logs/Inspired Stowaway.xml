@@ -8,7 +8,12 @@
         <Curiosity>STOWAWAYS</Curiosity>
    
 
-
+        <RumorFact>
+             <IgnoreMoreToExplore/>
+            <ID>INSP R2</ID>
+            <SourceID>COMET_INTERIOR</SourceID>
+            <Text>The Interloper was used as the model for the Inspired.</Text>
+         </RumorFact>
 
         <RumorFact>
              <IgnoreMoreToExplore/>
@@ -27,8 +32,8 @@
             <ID>INSP EX1</ID>
             <Text>I found a frozen comet hidden in the shadow of Giant's Deep.</Text>
                  <AltText>
-                        <Text>An artificial comet made of gravity crystals hidden in the shadow of Giant's Deep.</Text>
-                        <Condition>INSP R1</Condition>
+                        <Text>An artificial comet hidden in the shadow of Giant's Deep.</Text>
+                        <Condition>INSP R3</Condition>
                  </AltText>
         </ExploreFact>
 
@@ -42,19 +47,19 @@
                  </AltText>
         </ExploreFact>
         
-        <ExploreFact>
-        <IgnoreMoreToExplore/>
-            <ID>INSP EX3</ID>
-            <Text>I found schematics on the Construction Yard detailing the construction of something called the Inspired.</Text>
-        </ExploreFact>
-
            <ExploreFact>
         <IgnoreMoreToExplore/>
             <ID>INSP EX4</ID>
-            <Text>The Inspired's construction required all available gravity crystals, and a white hole warp core obtained from the Deep Storm Station's paired warp cores.</Text>
+            <Text>The Inspired's construction used all available gravity crystals, and a white hole warp core from the Deep Storm Station's paired warp cores.</Text>
         </ExploreFact>
 
-            <ExploreFact>
+         <ExploreFact>
+        <IgnoreMoreToExplore/>
+            <ID>INSP EX4.5</ID>
+            <Text>The Interloper was used as the model for the Inspired's structure.</Text>
+        </ExploreFact>
+
+        <ExploreFact>
         <IgnoreMoreToExplore/>
             <ID>INSP EX5</ID>
             <Text>The Inspired's lattice is incomplete, with entry points at the front of the structure.</Text>
@@ -63,13 +68,13 @@
          <ExploreFact>
           <IgnoreMoreToExplore/>
             <ID>INSP EX6</ID> 
-            <Text>After realizing the Hearthians were on the verge of extinction, a Nomai named Cassava decided to launch the Inspired towards Timber Hearth after exchanging its warp core.</Text>
+            <Text>Upon realizing the Hearthians were on the verge of extinction, the Inspired's warp core was exchanged before it was sent towards Timber Hearth.</Text>
         </ExploreFact>
 
            <ExploreFact>
             <IgnoreMoreToExplore/>
             <ID>INSP EX7</ID>
-            <Text>The Inspired was kept in stationary orbit around Giant's Deep in case containment of ghost matter was breached.</Text>
+            <Text>The Inspired was kept in stationary orbit around Giant's Deep, in case containment of ghost matter was breached.</Text>
        </ExploreFact>
 
           

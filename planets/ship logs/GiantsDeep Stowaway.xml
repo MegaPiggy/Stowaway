@@ -48,7 +48,7 @@
         </ExploreFact>
          <ExploreFact>
             <ID>Workshop EX3</ID> 
-            <Text>A Nomai named Oeno using the voyager stone noticed her voyages beginning outside the projection pool, and experienced a strange telepathic connection with another Nomai using a voyager stone. She wondered if a mix-up between memory storage systems caused the issue.</Text>
+            <Text>A Nomai named Oeno noticed her voyages beginning outside the projection pool while using a voyager stone, and experienced a strange telepathic connection with another Nomai using a voyager stone.</Text>
         </ExploreFact>
 
     <Entry>
@@ -112,7 +112,7 @@
          </ExploreFact>
           <ExploreFact>
             <ID>Study EX3</ID> 
-            <Text>The Nomai noticed Giant's Deep becoming completely dark, before what appeared to be a giant column of water launched the island into space.</Text>
+            <Text>Nomai at this site noticed Giant's Deep becoming completely dark, before what appeared to be a giant column of water launched the island into space.</Text>
         </ExploreFact>
 </Entry>
       
@@ -398,7 +398,7 @@
             <ID>DSS EX1</ID> 
             <Text>An underwater station built at the heart of Giant's Deep.</Text>
                   <AltText>
-                        <Text>An underwater station at the heart of Giant's Deep. Using energy from the planet's electric core, it powered a 6-second negative time interval that tested the mechanics of the Ash Twin Project.</Text>
+                        <Text>An underwater station at the heart of Giant's Deep, built to test the mechanics of the Ash Twin Project using energy from the planet's electric core.</Text>
                         <Condition>CONV R1</Condition>
                  </AltText>
         </ExploreFact>
@@ -421,18 +421,18 @@
             <ID>DSS EX3.5</ID> 
             <Text>Cassava took great care to never keep the Quantum Moon locked in orbit around Giant's Deep for extended periods of time.</Text> 
              <AltText>
-                <Text>Cassava took great care to never keep the Quantum Moon locked in orbit around Giant's Deep for extended periods of time, to protect the planet's jellyfish from ghost matter.</Text>
+                <Text>Cassava took great care to never keep the Quantum Moon locked in orbit around Giant's Deep for extended periods of time to protect jellyfish from ghost matter.</Text>
                 <Condition>LCJ EX2</Condition>
             </AltText>
         </ExploreFact>
 
          <ExploreFact>
             <ID>DSS EX4</ID> 
-            <Text>Cassava released the species within the Sanctuary back to the surface with his voyager after ensuring it was safe to do so.</Text> 
+            <Text>Cassava released the species within the Sanctuary back to the surface with his voyager after ensuring it was safe.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>DSS EX5</ID> 
-            <Text>After gathering as much ghost matter from the star system as he was safely able to, Cassava warped ghost matter into the Deep Storm Station to contain it at the cost of his own life.</Text>
+            <Text>After gathering as much ghost matter from the star system as he was safely able to, Cassava warped ghost matter into the Deep Storm Station to contain it, at the cost of his own life.</Text>
         </ExploreFact>
     
              <ExploreFact>

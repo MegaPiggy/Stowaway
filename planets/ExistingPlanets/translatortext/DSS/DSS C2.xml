@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-				CASSAVA: Was this structure naturally formed, or was it artificially created, and launched with intention? How did it maintain such incredible pressures within itself for so long on its journey?
+				CASSAVA: Was this structure naturally formed, or was it artificially created? How could it maintain such incredible pressures within itself for so long?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-			CASSAVA: Suppose one were to craft a vessel composed of gravity crystals pointing towards a central point. Such a vessel could be capable of capturing the deadly matter across the star system...
+			CASSAVA: Suppose one were to craft a vessel composed of gravity crystals pointing towards a central point. If I were to use the comet as a model for this structure...
 		</Text>
 			</TextBlock>
 <TextBlock>	
@@ -66,6 +66,14 @@
 		<RevealFact>
 			<FactID>DSS EX2</FactID>
 			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>INSP R2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>INSP EX4.5</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 	
 </ShipLogConditions>

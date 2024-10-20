@@ -15,7 +15,7 @@
           <RumorFact>
           <ID>SS R2</ID> 
             <SourceID>GD_WARPTOWER</SourceID>
-            <Text>A Nomai named Pye left a projection stone to the Deep Storm Station somewhere on the Sun Station's catwalk.</Text> 
+            <Text>A projection stone to the Deep Storm Station was left somewhere on the Sun Station's catwalk.</Text> 
         </RumorFact>
 
         <ExploreFact>
@@ -24,7 +24,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>SS EX2</ID> 
-            <Text>Though the Deep Storm Station was unable to locate the Eye within this negative time interval, it gave the Nomai confidence to use the Sun Station without fear.</Text> 
+            <Text>Though it failed to find the Eye, this test confirmed that the Ash Twin Project's systems were theoretically sound, giving the Nomai confidence to use the Sun Station without fear.</Text> 
         </ExploreFact>
     </Entry>
 </AstroObjectEntry>

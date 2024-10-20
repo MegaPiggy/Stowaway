@@ -97,7 +97,7 @@
 				},
 				{
 					"rename":"mural torch 1",
-					"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Props_NOM_Whiteboard_Shared/",
+					"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Lighting_ConstructionYard/OtherComponentsGroup/Prefab_NOM_WallTorch",
 					"position":{"x": 2.7042,"y": 3.4063,"z": 0.0349},
 					"rotation": {"x": 359.9615,"y": 5.2701,"z": 0.4166},
 					"isRelativeToParent": true,
@@ -105,7 +105,7 @@
 					},
 					{
 						"rename":"mural torch 2",
-						"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Props_NOM_Whiteboard_Shared/",
+						"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Lighting_ConstructionYard/OtherComponentsGroup/Prefab_NOM_WallTorch",
 						"position":{"x": -2.5072,"y": 3.3683,"z": 0.3623},
 						"rotation": {"x": 359.9643,"y": 4.8841,"z": 0.4168},
 						"isRelativeToParent": true,

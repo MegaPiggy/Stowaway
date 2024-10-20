@@ -50,12 +50,12 @@
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>INSP R1</FactID>
-			<Condition>3</Condition>
+			<FactID>INSP EX4</FactID>
+			<Condition>4</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>INSP R2</FactID>
-			<Condition>61</Condition>
+			<FactID>INSP EX5</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 		
 	</ShipLogConditions>
