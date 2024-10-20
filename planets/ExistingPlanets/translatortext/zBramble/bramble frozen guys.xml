@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		PLUME: To think we would not find our friends from the crash on the bramble's exterior, but these familiar species instead, preserved within this glacier...
+		PLUME: To think we would not find our friends, but these familiar species instead, frozen within this glacier...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -14,7 +14,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: This.. This is an incredible discovery. Both these species, inside this ancient glacier...
+		OENO: This.. This is an incredible discovery, Cassava. Both these species, inside this ancient glacier...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -22,7 +22,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: Hypothesis: Both of these species must have been native to the frozen planet that was destroyed by the bramble.
+		OENO: Hypothesis: Both of these species may once have been native to the frozen planet destroyed by the bramble.
 		</Text>
 	</TextBlock>
 
@@ -40,7 +40,7 @@
 		<LocationA />
 			<ParentID>4</ParentID>
 		<Text>
-		CASSAVA: That these stowaways survived - and continue to thrive on these alien planets - is nothing short of awe-inspiring. Their resilience truly inspires me!
+		CASSAVA: If that is true, that these stowaways survived such displacement - and continue to thrive in their new habitats - is nothing short of awe-inspiring.
 		</Text>
 	</TextBlock>
 	
@@ -58,8 +58,8 @@
 		<LocationA />
 			<ParentID>6</ParentID>
 		<Text>
-		PLUME: I hope to someday learn from these species' perserverance and undying courage, in the face of our grief.
-		</Text>
+		PLUME: I hope to learn more about this fascinating universe and its many secrets. I am sure it is what Keek would have wanted more than anything.
+ 		</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -67,7 +67,7 @@
 		<LocationA />
 			<ParentID>7</ParentID>
 		<Text>
-		CASSAVA: They have much to teach all of us. I am certain that if we simply work together and perservere, our clan will accomplish anything we set our hearts to!
+		CASSAVA: We are with you, Plume. I am certain that if we put your minds together, our clan will accomplish anything we set our hearts to!
 		</Text>
 	</TextBlock>
 
@@ -75,7 +75,7 @@
 <ShipLogConditions>
 
 		<RevealFact>
-			<FactID>DBG EX1</FactID>
+			<FactID>DBG R2</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 	<RevealFact>

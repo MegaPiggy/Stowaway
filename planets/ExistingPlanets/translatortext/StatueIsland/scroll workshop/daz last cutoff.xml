@@ -29,7 +29,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Hah! Your attempts to subtly persuade me to join you have given way, I see. But.. I do not feel I can allow myself such joy right now.
+		CASSAVA: Hah! Your attempts to subtly persuade me to join you have given way, I see. But.. I do not feel I can allow myself such joy right now, Daz.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<ParentID>4</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Poke, Pye and Clary are already exploring the comet Spire noticed at this very moment. Perhaps there, we may find an answer to
+		DAZ: Poke, Pye and Clary are already exploring the newly arrived <![CDATA[<color=lightblue>comet</color>]]> at this very moment. Imagine what we may
 		</Text>
 	</TextBlock>
 		<TextBlock>

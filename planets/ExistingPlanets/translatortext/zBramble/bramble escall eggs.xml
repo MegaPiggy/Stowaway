@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		ESCALL: I cannot give up yet.
+		KEEK: I cannot give up yet..
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		ESCALL: Even with my limited supply of air, the members of <![CDATA[<color=orange>Escape Pod 3</color>]]> are counting on me to reach the <![CDATA[<color=orange>Vessel</color>]]> and rescue them..
+		KEEK: Even with my limited supply of air, the members of <![CDATA[<color=orange>Escape Pod 3</color>]]> are counting on me to reach the <![CDATA[<color=orange>Vessel</color>]]> and rescue them..
 		</Text>
 	</TextBlock>
 
@@ -24,7 +24,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		ESCALL: I refuse to fail them again.
+		KEEK: Oh, Plume.. Phlox.. Everyone... I pray that you are all safe...
 		</Text>
 	</TextBlock>
 
@@ -33,7 +33,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		ESCALL: ...
+		KEEK: ...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -41,7 +41,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		ESCALL: It feels like I have been drifting for ages..
+		KEEK: It feels like I have been drifting for ages..
 		</Text>
 	</TextBlock>
 
@@ -50,7 +50,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		ESCALL: What <![CDATA[<i>is</i>]]> this gruesome place? Have we been shrunken.. or are these spaces and its denizens truly so terrifyingly colossal?
+		KEEK: What <![CDATA[<i>is</i>]]> this gruesome place? Have we been shrunken.. or are these spaces and its denizens truly so terrifyingly colossal?
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		ESCALL: An update: I have drifted into what appears to be an enormous cluster of red orbs. Even a single one is a few times my size..
+		KEEK: An update: I have drifted into what appears to be an enormous cluster of red orbs. Even a single one is a few times my size..
 		</Text>
 	</TextBlock>
 
@@ -68,7 +68,7 @@
 		<LocationA />
 			<ParentID>7</ParentID>
 		<Text>
-		ESCALL: The orbs feel warm and gelatinous to the touch. They appear to be filled with.. liquid?
+		KEEK: The orbs feel warm and gelatinous to the touch. They appear to be filled with.. liquid?
 		</Text>
 	</TextBlock>
 
@@ -77,7 +77,7 @@
 		<LocationA />
 			<ParentID>8</ParentID>
 		<Text>
-		ESCALL: <![CDATA[<i>..These are anglerfish eggs.</i>]]>
+		KEEK: <![CDATA[<i>..These are anglerfish eggs.</i>]]>
 		</Text>
 	</TextBlock>
 	
@@ -86,7 +86,7 @@
 		<LocationA />
 			<ParentID>9</ParentID>
 		<Text>
-		ESCALL: This.. This must be their nest.
+		KEEK: This.. This must be their nest.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -94,7 +94,7 @@
 		<LocationA />
 			<ParentID>10</ParentID>
 		<Text>
-		ESCALL: I must leave this area <![CDATA[<i>at once,</i>]]> before I am found and gravely punished for this trespass!
+		KEEK: I must leave this area <![CDATA[<i>at once,</i>]]> before I am found and gravely punished for this trespass!
 		</Text>
 	</TextBlock>
 
@@ -103,7 +103,7 @@
 		<LocationA />
 			<ParentID>11</ParentID>
 		<Text>
-		ESCALL: <![CDATA[<i>No, no..</i>]]>
+		KEEK: <![CDATA[<i>No, no..</i>]]>
 		</Text>
 	</TextBlock>
 	
@@ -112,14 +112,14 @@
 		<LocationA />
 			<ParentID>12</ParentID>
 		<Text>
-		ESCALL: I have been surrounded! I, I'm sorry, my
+		KEEK: I have been surrounded! I, I'm sorry, my
 		</Text>
 	</TextBlock>
 
 <ShipLogConditions>
 
 		<RevealFact>
-			<FactID>DBA R1</FactID>
+			<FactID>DBA R2</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
 
@@ -129,11 +129,11 @@
 		</RevealFact>
 	<RevealFact>
 			<FactID>DBA EX2</FactID>
-			<Condition>11</Condition>
+			<Condition>13</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>DBA EX3</FactID>
-			<Condition>7</Condition>
+			<Condition>8</Condition>
 		</RevealFact>
 
 </ShipLogConditions>

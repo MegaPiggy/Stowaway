@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: The Inspired has completed its orbit around the star system, collecting as much of the deadly matter as it is safely able to.
+		CASSAVA: I have gathered as much of the deadly matter spread around the star system as I am safely able to.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: When I give the order, all deadly matter collected by the Inspired will be warped to its sibling warp core here.
+		CASSAVA: When my order is given, all gathered deadly matter will be warped into this space.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: If everything goes as planned, the deadly matter should be completely contained by the deep oceans surrounding the Deep Storm Station, sealing it away indefinitely.
+		CASSAVA: If everything goes as planned, the deadly matter should be completely contained by the deep oceans surrounding the <![CDATA[<color=orange>Deep Storm Station,</color>]]> sealing it away indefinitely.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		CASSAVA: I have ordered the Inspired to remain in stationary orbit around Giant's Deep. Should containment fail in my absence, the Inspired should catch any ghost matter that leaks out.
+		CASSAVA: I have ordered the <![CDATA[<color=orange>Inspired</color>]]> to remain in stationary orbit around <![CDATA[<color=lightblue>Giant's Deep..</color>]]> Should containment fail in my absence, I pray that it will catch any ghost matter that leaks out.
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: And finally, I have released the surviving species within the Sanctuary to the surface of the planet with my voyager.
+		CASSAVA: And finally, after ascertaining the safety of the planet's surface, I have released the species within the <![CDATA[<color=orange>Sanctuary</color>]]> with my voyager at last.
 </Text>
 	</TextBlock>
 
@@ -71,7 +71,7 @@
 		<ParentID>8</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: My friends.. Daz.. I cannot wait to join all of you.
+		CASSAVA: My friends.. Daz.. I shall join you all shortly.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -79,7 +79,7 @@
 		<ParentID>9</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: The universe is... And we shall become one with it!
+		CASSAVA: The universe is - and we shall become one with it!
 		</Text>
 	</TextBlock>
 
@@ -98,16 +98,9 @@
 			<Condition>10</Condition>
 		</RevealFact>
 
-<RevealFact>
-			<FactID>INSP R2</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
-<RevealFact>
-			<FactID>INSP R3</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
+
 		<RevealFact>
-			<FactID>INSP EX4</FactID>
+			<FactID>INSP EX7</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
 

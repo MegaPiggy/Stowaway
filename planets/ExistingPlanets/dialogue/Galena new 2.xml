@@ -1,0 +1,157 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Galena</NameField>
+
+	<DialogueNode>
+		<Name>ShyKid1</Name>
+	
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>You look like you have something to ask me, Galena.</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<RequiredLogCondition>GAL EX2</RequiredLogCondition>
+				<Text>Slate says that the Little Scout just uses hooks to stick onto stuff.</Text>
+				<DialogueTarget>ShyKidNew3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ShyKid2</Name>
+	
+		<DialogueOptionsList>
+			<DialogueOption>
+			<CancelledCondition>Asked_Galena</CancelledCondition>
+				<Text>You still look like you have something to ask me, Galena.</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+			<RequiredCondition>Asked_Galena</RequiredCondition>
+				<Text>What did you want me to ask Slate again, Galena?</Text>
+				<DialogueTarget>ShyKidNew1B</DialogueTarget>
+			</DialogueOption>
+
+				<DialogueOption>
+				<RequiredLogCondition>GAL EX2</RequiredLogCondition>
+				<Text>Slate says that the Little Scout just uses hooks to stick onto stuff.</Text>
+				<DialogueTarget>ShyKidNew3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>ShyKid3</Name>
+	
+		<DialogueOptionsList>
+			<DialogueOption>
+			<CancelledCondition>Asked_Galena</CancelledCondition>
+				<Text>You still look like you have something to ask me, Galena.</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+			<RequiredCondition>Asked_Galena</RequiredCondition>
+				<Text>What did you want me to ask Slate again, Galena?</Text>
+				<DialogueTarget>ShyKidNew1B</DialogueTarget>
+			</DialogueOption>
+
+				<DialogueOption>
+				<RequiredLogCondition>GAL EX2</RequiredLogCondition>
+				<Text>Slate says that the Little Scout just uses hooks to stick onto stuff.</Text>
+				<DialogueTarget>ShyKidNew3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ShyKidNew1</Name>
+		<SetCondition>Asked_Galena</SetCondition>
+		<Dialogue>
+			<Page><![CDATA[<size=20>]]>Um...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>I wanted to ask you about the Little Scout...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>When Feldspar was still here, they'd let Tephra and I play with their Little Scout. We'd shoot it onto walls and all over the ceiling and take cool photos with it all day long... It was fun..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>I always wanted to ask them how the Little Scout sticks onto stuff like that.. But.. I never got to...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Tephra says there's a mini gravity crystal in each Little Scout that helps it stick on things - but.. I didn't want to break open Feldspar's Little Scout to find out..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>So.. Can we use your Little Scout, astronaut? Please? It's just a quick look...<![CDATA[</size>]]></Page>
+		</Dialogue>
+		<DialogueOptionsList>
+		<DialogueOption>
+				<Text>Uhhh, how about we just ask Slate instead??</Text>
+				<DialogueTarget>ShyKidNew2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+			<RequiredCondition>IsWearingSuit</RequiredCondition>
+				<Text>You know what? Sure, go ahead.</Text>
+				<DialogueTarget>ShyKidNew4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ShyKidNew1B</Name>
+		<Dialogue>
+			<Page><![CDATA[<size=20>]]>..Um.. About how the Little Scout sticks onto stuff..<![CDATA[</size>]]></Page>
+				<Page><![CDATA[<size=20>]]>When Feldspar was still here, they'd let Tephra and I play with their Little Scout. We'd shoot it onto walls and all over the ceiling and take cool photos with it all day long... It was fun..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>I always wanted to ask them how the Little Scout sticks onto stuff like that.. But.. I never got to...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Tephra says there's a mini gravity crystal in each Little Scout that helps it stick on things - but.. I didn't want to break open Feldspar's Little Scout to find out..<![CDATA[</size>]]></Page>
+				<Page><![CDATA[<size=20>]]>Tephra told me there's a mini gravity crystal in each Little Scout that helps it stick on things - but.. I didn't want to break open Feldspar's Little Scout to find out..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>So.. Can we use your Little Scout, astronaut? Please?<![CDATA[</size>]]></Page>
+		</Dialogue>
+		<DialogueOptionsList>
+		<DialogueOption>
+				<Text>Uhhh, why don't we check with Slate first, on second thoughts??</Text>
+				<DialogueTarget>ShyKidNew2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+			<RequiredCondition>IsWearingSuit</RequiredCondition>
+				<Text>You know what? Sure, go ahead.</Text>
+				<DialogueTarget>ShyKidNew4</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ShyKidNew2</Name>
+		<Dialogue>
+			<Page><![CDATA[<size=20>]]>..Um.. I'm scared to talk to Slate..<![CDATA[</size>]]></Page>
+				<Page><![CDATA[<size=20>]]>They said they'd strap me to the ship if they ever caught me hiding in one again while working on it...<![CDATA[</size>]]></Page>
+				<Page><![CDATA[<size=20>]]>Could you.. help me ask them, astronaut?<![CDATA[</size>]]></Page>
+		</Dialogue>
+						 <RevealFacts>
+     						   <FactID>GAL EX1</FactID>
+    					  </RevealFacts>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ShyKidNew4</Name>
+		<SetCondition>Galena_Breaker</SetCondition>
+		<Dialogue>
+			<Page><![CDATA[<size=20>]]>Really..? Thank you, astronaut..!<![CDATA[</size>]]></Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>ShyKidNew4B</Name>
+		<EntryCondition>Galena_Breaker</EntryCondition>
+		<Dialogue>
+			<Page><![CDATA[<size=20>]]>Oh.. There's no gravity crystals in there...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>..I'll never trust Tephra again.....<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Um, I think I broke the Little Scout, astronaut.. I'm so sorry..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>But I'm so happy you let me look! Thank you, astronaut..<![CDATA[</size>]]></Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ShyKidNew3</Name>
+		<Dialogue>
+			<Page><![CDATA[<size=20>]]>Oh.. So it just uses hooks...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>..I'll never trust Tephra again.....<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Thank you for telling me, astronaut... Um, take care in space!<![CDATA[</size>]]></Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+</DialogueTree>

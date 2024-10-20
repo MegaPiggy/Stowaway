@@ -16,21 +16,21 @@
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>DAZ: My love, I hear there is some trouble at the <![CDATA[<color=orange>Sanctuary</color>]]> - it seems there are still species within it who keep eluding our friends' attempts to release them!</Text>
+		<Text>DAZ: My love, I hear there is some trouble at the <![CDATA[<color=orange>Sanctuary</color>]]> - it seems there are still species inside who continue to elude our friends' attempts to release them!</Text>
 		</TextBlock>
 
 		<TextBlock>
 		<ID>4</ID>
 		<LocationA />
 		<ParentID>3</ParentID>
-		<Text>DAZ: If I remember correctly, there should be voyager stones to the <![CDATA[<color=orange>Sanctuary</color>]]> in the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> which we can use for this task.</Text>
+		<Text>DAZ: If I remember correctly, there should be a voyager stone to the <![CDATA[<color=orange>Sanctuary</color>]]> in the <![CDATA[<color=orange>Scroll and Stone Workshop.</color>]]></Text>
 		</TextBlock>
 
 		<TextBlock>
 		<ID>5</ID>
 		<LocationA />
 		<ParentID>4</ParentID>
-		<Text>DAZ: I'm sure Oeno would like as many pairs of eyes as possible to help in ensuring their safe release! Would you like to join us in this change of task?</Text>
+		<Text>DAZ: I'm sure Oeno would like as many pairs of eyes as possible to help in ensuring their release. Would you like to join us in this change of task?</Text>
 		</TextBlock>
 		
 	<TextBlock>	

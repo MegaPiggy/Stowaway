@@ -9,21 +9,21 @@
 		<ID>2</ID>
 		<LocationA />
 		<ParentID>1</ParentID>
-		<Text>Components: All available functioning gravity crystals, and 1 white hole warp core.</Text>
+		<Text>Components: All available functioning gravity crystals, 1 white hole warp core.</Text>
 	</TextBlock>
 
 		<TextBlock>
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>Suitable white hole warp core obtained from paired warp cores installed within the <![CDATA[<color=orange>Deep Storm Station.</color>]]></Text>
+		<Text>Suitable warp core obtained from paired warp cores powering the <![CDATA[<color=orange>Deep Storm Station.</color>]]></Text>
 		</TextBlock>
 
 		<TextBlock>
 		<ID>4</ID>
 		<LocationA />
 		<ParentID>3</ParentID>
-		<Text>This will disable the <![CDATA[<color=orange>Deep Storm Station</color>]]> indefinitely, but this will be of little importance.</Text>
+		<Text>This will disable operation of the <![CDATA[<color=orange>Deep Storm Station</color>]]> indefinitely, but this should be of little importance now.</Text>
 		</TextBlock>
 		
 	<TextBlock>	
@@ -31,7 +31,15 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		Structure: Gravity crystals to be arranged in compact inward lattice, all surrounding and angled towards warp core. Remaining external crystals will be used to stabilize flight trajectory.</Text>
+		Structure: Gravity crystals will be arranged in a compact inward lattice surrounding the warp core. Remaining external crystals to be used in stabilizing flight trajectory.</Text>
+			</TextBlock>
+
+			<TextBlock>	
+	<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		Of note: Gravity crystals insufficient to complete lattice at the front of structure. Care must be taken to minimize entry points in this section.</Text>
 			</TextBlock>
 
 
@@ -40,6 +48,14 @@
 		<RevealFact>
 			<FactID>CB_EX2</FactID>
 			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>INSP R1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>INSP R2</FactID>
+			<Condition>61</Condition>
 		</RevealFact>
 		
 	</ShipLogConditions>

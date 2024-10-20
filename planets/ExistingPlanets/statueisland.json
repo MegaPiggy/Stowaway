@@ -37,9 +37,17 @@
 		"details":
 		[		
 			{
-				"rename":"statue beach TREE",
+				"rename":"whiteboard light",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text/",
-				"position": {"x": 8.8193, "y": 34.0126, "z": -12.1639},
+				"position": {"x": 8.212, "y": 34.0126, "z": -11.0675},
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"stormshelter table",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"position": {"x": -26.0851, "y": 8.1066, "z": -6.2425},
+				"rotation": {"x": 355.4305, "y": 34.9211, "z": 1.5226},
 				"isRelativeToParent": true
 			},
 		{
@@ -92,10 +100,11 @@
 				"isRelativeToParent": true
 			},
 			{
+				"rename":"island interior bucket",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/treepot.prefab",
-				"position": {"x": -15.1411, "y": 8.6202, "z": -17.0873},
-				"rotation": {"x": 90 , "y": 285.1118, "z": 0},
+				"position": {"x": -1.721, "y": 0.8603, "z": 34.1244},
+				"rotation": {"x": 279.0722, "y": 38.4636, "z": 282.5286},
 				"isRelativeToParent": true
 			},
 			
@@ -1067,16 +1076,24 @@
 			},
 			{
 				"rename":"Pioneer inside shelter recorder",
-				"position": {"x": -16.1262,"y": 8.2524,"z": -16.9083},
-				"rotation": {"x": 7.1152,"y": 289.0474,"z": 359.662},
+				"position": {"x": -1.2901,"y": 1.2014,"z": 33.7876},
+				"rotation": {"x": 1.434,"y": 119.4439,"z": 8.9591},
 				"type": "recorder",
 				"isRelativeToParent": true,
 				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/shelter inside pioneers.xml"
 			},
 			{
+				"rename":"storm shelter question recording",
+				"position": {"x": -25.5728,"y": 9.2402 ,"z": -5.5354},
+				"rotation": {"x": 355.2143,"y": 46.9272,"z": 0.5399},
+				"type": "recorder",
+				"isRelativeToParent": true,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/storm shelter question.xml"
+			},
+			{
 				"rename":"Statworkshop sculpt recorder",
-				"position": {"x": 37.9093,"y": 0.5783,"z": -3.6401},
-				"rotation": {"x": 5.0914,"y": 184.2477,"z": 349.7901},
+				"position": {"x": 38.682,"y": 0.7892,"z": -2.0437},
+				"rotation": {"x": 13.9237,"y": 278.7167,"z":  5.3063},
 				"type": "recorder",
 				"isRelativeToParent": true,
 				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/phlox statue conversation.xml"

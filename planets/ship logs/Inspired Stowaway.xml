@@ -6,27 +6,17 @@
         <ID>INSPIRED</ID>
         <Name>The Inspired</Name>
         <Curiosity>STOWAWAYS</Curiosity>
-        
-  <RumorFact>
-            <IgnoreMoreToExplore/>
-            <ID>INSP R1</ID>
-               <SourceID>DEEP_STORM_STATION</SourceID>
-            <Text>The Inspired's construction required all available gravity crystals, and a white hole warp core obtained from the Deep Storm Station's paired warp cores.</Text>
-        </RumorFact>
+   
 
- <RumorFact>
-            <IgnoreMoreToExplore/>
-            <ID>INSP R2</ID>
-               <SourceID>DEEP_STORM_STATION</SourceID>
-            <Text>The ghost matter collected by the Inspired was warped into the Deep Storm Station for containment.</Text>
-        </RumorFact>
 
-<RumorFact>
+
+        <RumorFact>
              <IgnoreMoreToExplore/>
             <ID>INSP R3</ID>
-            <Text>The Inspired was a superweapon made to bring massive destruction to the source of ghost matter.</Text>
+            <SourceID>DEEP_STORM_STATION</SourceID>
+            <Text>A scroll in the Deep Storm Station reveals that a Nomai named Cassava built the Inspired to cause massive destruction to the source of ghost matter.</Text>
                <AltText>
-                        <Text>The Inspired was a superweapon made to bring massive destruction to the source of the Interloper.</Text>
+                        <Text>A scroll in the Deep Storm Station reveals that a Nomai named Cassava built the Inspired to cause massive destruction to the source of the Interloper.</Text>
                         <Condition>COMET_INTERIOR_X1</Condition>
                  </AltText>
          </RumorFact>
@@ -58,16 +48,28 @@
             <Text>I found schematics on the Construction Yard detailing the construction of something called the Inspired.</Text>
         </ExploreFact>
 
+           <ExploreFact>
+        <IgnoreMoreToExplore/>
+            <ID>INSP EX4</ID>
+            <Text>The Inspired's construction required all available gravity crystals, and a white hole warp core obtained from the Deep Storm Station's paired warp cores.</Text>
+        </ExploreFact>
+
+            <ExploreFact>
+        <IgnoreMoreToExplore/>
+            <ID>INSP EX5</ID>
+            <Text>The Inspired's lattice is incomplete, with entry points at the front of the structure.</Text>
+        </ExploreFact>
+
          <ExploreFact>
           <IgnoreMoreToExplore/>
-            <ID>INSP EX3.5</ID> 
-            <Text>After realizing the Hearthians were on the verge of extinction, a Nomai named Cassava decided to exchange the Inspired's warp core before launching it towards Timber Hearth.</Text>
+            <ID>INSP EX6</ID> 
+            <Text>After realizing the Hearthians were on the verge of extinction, a Nomai named Cassava decided to launch the Inspired towards Timber Hearth after exchanging its warp core.</Text>
         </ExploreFact>
 
            <ExploreFact>
             <IgnoreMoreToExplore/>
-            <ID>INSP EX4</ID>
-            <Text>The ghost matter collected by the Inspired was warped into the Deep Storm Station for containment, and kept in stationary orbit around Giant's Deep in case this containment was breached.</Text>
+            <ID>INSP EX7</ID>
+            <Text>The Inspired was kept in stationary orbit around Giant's Deep in case containment of ghost matter was breached.</Text>
        </ExploreFact>
 
           

@@ -3,6 +3,7 @@
 
 	"name": "QuantumIsland",
 
+	
 	"Volumes": {
 		"audioVolumes": [
 				{
@@ -437,14 +438,7 @@
 
 
 
-			{
-				"rename":"EYE shelter volume",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Volumes_QuantumTower/RainShelterVolume/GameObject/",
-				"position": {"x": -3.9697,"y": 6.7569,"z": -74.5212},
-				"rotation": {"x": 1.9969,"y": 225.2106,"z": 10.5669},
-				"stretch": {"x":0.2,"y":0.8,"z":0.2},
-				"isRelativeToParent": true
-			},
+		
 			{
 				"rename":"jelly scroll light",
 				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/Prefab_NOM_Computer/PointLight_NOM_Computer",

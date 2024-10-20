@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3801722457
+CRC: 1665324726
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7f8291981c300907faf1c3a6323b4a1e
+    Hash: 68b806fd18b15dc96aeb4cb0bf240708
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7ae1ee532f4e81f1012e4cc05adbe608
+    Hash: 91f6618b88d246c5e59c3d091678f72e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -45,8 +45,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 1e9612e1254f312ce165779388d5fd05, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 80818142ed7b755f9ecef4a391e63964, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: b510d252798b94e5d72fb33fbb25a1ad, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5949ee929a0f4342e2cff9fa5a0f9127, type: 3}
 - Class: 114
@@ -87,22 +85,23 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
-- Class: 137
-  Script: {instanceID: 0}
 - Class: 198
   Script: {instanceID: 0}
 - Class: 199
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Models/Solanum alloyed prefab.prefab
+- Assets/Models/comet mural side.prefab
+- Assets/Models/comet mural front.prefab
 - Assets/Models/bubbel.prefab
 - Assets/Models/well miss you.prefab
-- Assets/Models/Inspired gravity 3.prefab
-- Assets/Models/mural side.prefab
-- Assets/Models/Solaumn alloy.prefab
+- Assets/Nomai Ruins/Resources/Meshes/Inspired gravity 3.prefab
+- Assets/Models/Materials/mural side.prefab
 - Assets/Models/Tractor beam SW 1.prefab
 - Assets/Models/TheInspired.prefab
 - Assets/Models/TheInspired (1).prefab
+- Assets/Models/player nosuit.prefab
 - Assets/Models/rotation guy.prefab
-- Assets/Models/mural front.prefab
+- Assets/Models/Materials/mural front.prefab
 Dependencies: []

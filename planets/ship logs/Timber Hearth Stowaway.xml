@@ -57,11 +57,16 @@
   </RumorFact>
        <ExploreFact>
             <ID>GAL EX1</ID> 
-            <Text>Galena wanted to show me something they made for me. They asked me to shoot my Little Scout up from the exhibit where Rutile is sitting to see what they made.</Text> 
+            <Text>Galena wanted me to ask Slate how the Little Scout sticks onto surfaces.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>GAL EX2</ID> 
-            <Text>I used my Little Scout to read a heartwarming sign that Galena made!</Text> 
+            <Text>Slate says that the Little Scout arms little hooks to allow it to stick onto surfaces for surveying from afar.</Text> 
+       </ExploreFact>
+        <ExploreFact>
+        <IgnoreMoreToExplore/>
+            <ID>GAL EX3</ID> 
+            <Text>Galena broke my Little Scout.. Oops.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -166,7 +171,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>SY EX3</ID> 
-            <Text>A Nomai named Cycad learnt how to use the rule of entanglement remotely by accidentally disengaging his voyager stone.</Text> 
+            <Text>A Nomai named Cycad learned how to use the rule of entanglement as a voyager.</Text> 
          </ExploreFact>
          <ExploreFact>
             <ID>SY EX4</ID> 
@@ -233,6 +238,10 @@
           <ExploreFact>
                     <ID>TH_WR EX3</ID> 
                    <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead.</Text> 
+               </ExploreFact>
+                 <ExploreFact>
+                    <ID>TH_WR EX3.5</ID> 
+                   <Text>Cassava posited that ghost matter could be competitively manipulated by sources of gravity.</Text> 
                </ExploreFact>
                <ExploreFact>
                      <ID>TH_WR EX1</ID> 

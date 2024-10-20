@@ -56,7 +56,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		COLEUS: I confess to having a pair of eyes at the Quantum Moon Locator, Melorae - I was curious when you would realize - but I must test Phlox's hypothesis at once!
+		COLEUS: I confess to having a pair of eyes at the Quantum Moon Locator, Melorae (I was curious when you would realize!) but I must test Phlox's hypothesis at once!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -64,7 +64,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		MELORAE: Hah! My claim is founded! Nobody could so consistently know where the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is without a pair of eyes at the <![CDATA[<color=orange>Quantum Moon Locator.</color>]]>
+		MELORAE: Hah, I should have known! Nobody could know where the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is so consistently without a pair of eyes at the <![CDATA[<color=orange>Quantum Moon Locator.</color>]]>
 		</Text>
 	</TextBlock>
 

@@ -24,15 +24,15 @@
         </ExploreFact>
          <ExploreFact>
             <ID>R_SLR EX2</ID>
-             <Text>The Nomai planned to relocate something here to keep it safe from Ash Twin's shadow depriving them of sunlight and energy.</Text> 
+             <Text>The Nomai planned to relocate something here to keep it safe from Ash Twin's shadow depriving them of energy during sunless days.</Text> 
                      <AltText>
-                         <Text>The Nomai planned to relocate Ember Twin's solar panels here, to prevent Ash Twin's shadow from depriving them of sunlight and energy during sunless days.</Text>
+                         <Text>The Nomai planned to relocate Ember Twin's solar panels here, to prevent Ash Twin's shadow from depriving them of energy during sunless days.</Text>
                          <Condition>SLR_T EX4</Condition>
                     </AltText>
         </ExploreFact>
          <ExploreFact>
             <ID>R_SLR EX3</ID>
-             <Text>A solar eclipse is the easiest way to tell when a sunless day is present.</Text> 
+             <Text>Sunless days are caused by a solar eclipse.</Text> 
         </ExploreFact>
  </Entry>
 

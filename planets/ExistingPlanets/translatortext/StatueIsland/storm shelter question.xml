@@ -1,0 +1,76 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		DAZ: These new storm shelters are incredible, Thatch! Since they were installed, I have felt much safer during my stay on this stormy planet.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		THATCH: I feel the same way, Daz! We owe Kousa at the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> much gratitude for engineering this incredible invention to keep us safe.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		DAZ: Hm..? Why has the storm shelter has suddenly activated? There does not appear to be any cyclones are near the island at the moment.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		DAZ: How strange.. The storm shelters should only activate in the presence of cyclones, should they not? Could this storm shelter be defective?
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		THATCH: No, the issue does not seem unique to this unit alone.. The other storm shelters seem to be simultaneously experiencing the same issue.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		THATCH: Shamefully, I do not know much about storm shelters.. It was not long ago we Nomai on <![CDATA[<color=lightblue>Giant's Deep</color>]]> were completely insulated from cyclones in the <![CDATA[<color=orange>Looming City,</color>]]> you see.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		THATCH: When I next travel home, I shall pay a visit to the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> equator to shed some light on this issue!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+	
+			<RevealFact>
+			<FactID>LC R1</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>GSHOP R2</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Pioneer EX3.5</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+</ShipLogConditions>
+
+</NomaiObject>

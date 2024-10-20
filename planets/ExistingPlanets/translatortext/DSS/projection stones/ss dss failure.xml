@@ -21,7 +21,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		IDAEA: Yarrow, a memory statue aboard the <![CDATA[<color=orange>Sun Station</color>]]> paired with me just now, and memories from a previous cycle were transmitted back to me. Does this mean that the project.. succeeded?
+		IDAEA: Yarrow, a memory statue aboard the <![CDATA[<color=orange>Sun Station</color>]]> paired with me just now. Does this mean that the project.. succeeded?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: I am glad to hear from you at last, my friends. But.. It appears that the Eye of the Universe has eluded us once again.
+		YARROW: I am glad to hear from you at last, my friends. But.. It appears that the <![CDATA[<color=lightblue>Eye of the Universe</color>]]> has eluded us once again.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: Sadly, as we predicted, the energy from Giant's Deep's electric core was not sufficient to find the Eye of the Universe, powering only a 6-second negative time interval.
+		YARROW: Sadly, as predicted, the energy from <![CDATA[<color=lightblue>Giant's Deep's</color>]]> electric core was not sufficient to find the <![CDATA[<color=lightblue>Eye of the Universe,</color>]]> powering only a 6-second negative time interval.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: The memory statues were only activated after the probe fired by the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> elapsed 20 billion loops, and detected redundant flight trajectories.
+		YARROW: The memory statues were only activated after the <![CDATA[<color=orange>Ash Twin Project</color>]]> elapsed 20 billion loops, and began to detect redundant trajectories.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		IDAEA: Still, this means the <![CDATA[<color=orange>Deep Storm Station</color>]]> succeeded in its foremost priorities: we can now be certain that all mechanics of the negative time interval are theoretically sound and functional.
+		IDAEA: But the <![CDATA[<color=orange>Deep Storm Station</color>]]> still succeeded in its foremost priority: we can now be certain that all mechanics of the <![CDATA[<color=orange>Ash Twin Project's</color>]]> negative time interval are theoretically sound and functional.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -61,7 +61,7 @@
 		<ParentID>7</ParentID>
 		<LocationB />
 		<Text>
-		PYE: Idaea is correct. Once the <![CDATA[<color=orange>Sun Station</color>]]> is complete, we can now be confident in its operation without fear of endangering the star system and ourselves!
+		PYE: Idaea is correct. Once the <![CDATA[<color=orange>Sun Station</color>]]> is complete, we can now be confident in its operation without fear of endangering the star system or ourselves!
 		</Text>
 	</TextBlock>
 

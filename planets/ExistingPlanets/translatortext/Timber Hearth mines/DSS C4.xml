@@ -31,7 +31,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-			CASSAVA: The <![CDATA[<color=orange>Sanctuary</color>]]> protected the species left inside it, but those who have been released outside live on extremely borrowed time.. 
+			CASSAVA: The species remaining inside the <![CDATA[<color=orange>Sanctuary</color>]]> were protected, but all those who have been released outside.. 
 		</Text>
 	</TextBlock>
 
@@ -40,7 +40,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-			CASSAVA: <![CDATA[<i>No, no..</i>]]> I was too blinded by my own grief.. Daz.. My friends.. I've failed you. If any of you had survived instead of me, I'm sure you would have... 
+			CASSAVA: <![CDATA[<i>No, no..</i>]]> I was too blinded by my own grief.. If anyone else had survived instead of me, this would not have..
 		</Text>
 	</TextBlock>
 
@@ -49,7 +49,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: ..For now, I must quarantine those within the <![CDATA[<color=orange>Sanctuary</color>]]> by keeping the quantum shard locked in superposition. But.. They cannot remain there indefinitely..
+			CASSAVA: ..For now, I must quarantine those within the <![CDATA[<color=orange>Sanctuary.</color>]]> But.. They cannot remain there indefinitely..
 		</Text>
 	</TextBlock>
 
@@ -58,7 +58,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: ..My mind is set. I know how I can protect these species.
+			CASSAVA: .. My mind is set. I know how I can protect these species.
 		</Text>
 	</TextBlock>
 
@@ -84,7 +84,7 @@
 			<Condition>6</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>INSP EX3.5</FactID>
+			<FactID>INSP EX6</FactID>
 			<Condition>8</Condition>
 		</RevealFact>
 

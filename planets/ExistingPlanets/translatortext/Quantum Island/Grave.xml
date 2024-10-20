@@ -10,19 +10,19 @@
 	<TextBlock>
 			<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>It pains me to report that our final survery expedition to the bramble's exterior (exploring the underside of its north pole) has not yielded any signs of any of our friends from <![CDATA[<color=orange>escape pod 3.</color>]]></Text>
+		<Text>It pains me to report that our survery expeditions have not yet yielded any signs of any of our missing friends..</Text>
 			</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>With our current methods of travel, it would be foolish to even attempt an expedition of any sort into <![CDATA[<color=lightblue>Dark Bramble's</color>]]> dangerous and endless mazes.</Text>
+		<Text>We shall depart for a final expedition of the bramble's exterior soon, where we shall search for survivors on shattered planet's north pole. But.. I do not have much hope.</Text>
 			</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>However small the odds, I had clung onto the hope that our missing friends had managed to escape the bramble somehow and survived on one of these planets..</Text>
+		<Text>However small the odds, I had clung onto the hope that our missing friends had managed to escape somehow and survived on one of these planets, even without a distress beacon..</Text>
 			</TextBlock>
 
 	<TextBlock>
@@ -46,7 +46,7 @@
 		<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<Text>Our clan might have not lost so many - and its survivors might not have suffered such a long separation.</Text>
+		<Text>Our clan might have not lost so many, and its survivors might not have suffered such a long separation.</Text>
 			</TextBlock>
 
 	<TextBlock>
@@ -58,13 +58,13 @@
 	<TextBlock>
 		<ID>10</ID>
 		<ParentID>9</ParentID>
-		<Text>Who knows how many more clans and lives might have fallen prey to the same fate as they tried to follow us, and any who followed them?</Text>
+		<Text>..Who knows how many more clans and lives might have fallen prey to the same fate as they tried to follow us, and any who followed them?</Text>
 			</TextBlock>
 
 	<TextBlock>
 		<ID>11</ID>
 		<ParentID>10</ParentID>
-		<Text>.. My mind grows weary, ruminating on these endless possibilities...</Text>
+		<Text>My mind grows weary, ruminating on these endless possibilities...</Text>
 			</TextBlock>
 
 	<TextBlock>

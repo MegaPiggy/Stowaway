@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Deadly matter in this site has been observed rising as the <![CDATA[<color=lightblue>Attlerock</color>]]> orbits overhead with consistency.
+		CASSAVA: The deadly matter in this site appears to consistently rise as the <![CDATA[<color=lightblue>Attlerock</color>]]> orbits overhead.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -12,7 +12,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Hypothesis confirmed: the matter obeys (and can be competitively manipulated) by both natural and artificial sources of gravity.
+		CASSAVA: Hypothesis: the matter obeys, and can be competitively manipulated by sources of gravity.
 		</Text>
 	</TextBlock>
 
@@ -20,6 +20,10 @@
 <ShipLogConditions>
 				<RevealFact>
 			<FactID>TH_WR EX3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH_WR EX3.5</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
 	</ShipLogConditions>

@@ -4,20 +4,31 @@
 
 <Entry>
         <ID>DB_FROZENGUYS</ID>
-        <Name>Ancient Glacier</Name>
+        <Name>Bramble Expedition</Name>
         <Curiosity>None</Curiosity>
          
          <RumorFact>
             <ID>DBG R1</ID>
              <SourceID>LOOMINGCITY</SourceID>
-                 <RumorName>Bramble Surface Survey Expedition</RumorName>
-            <Text>The Nomai conducted a survey expedition to the exterior of Dark Bramble.</Text> 
+            <Text>The Nomai planned to conduct a survey expedition to Dark Bramble's north pole in search of survivors.</Text> 
+        </RumorFact>
+      <RumorFact>
+            <ID>DBG R2</ID>
+            <Text>The Nomai found frozen species inside this glacier on the underside of Dark Bramble's north pole.</Text> 
         </RumorFact>
      
-
+     
+ <ExploreFact>
+            <ID>DBG EX0</ID> 
+            <Text>The Nomai mourned their failure in locating their missing friends on an expedition to Dark Bramble's exterior. They debated whether or not to attempt more expeditions into the bramble.</Text> 
+        </ExploreFact>
         <ExploreFact>
             <ID>DBG EX1</ID> 
-            <Text>The Nomai found frozen species inside this glacier on the underside of Dark Bramble's north pole.</Text> 
+            <Text>A Nomai named Cassava made a discovery on this expedition. There are platforms on the side of the glacier leading to what he found.</Text>
+             <AltText>
+                         <Text>The Nomai found several species frozen inside the glacier on the underside of Dark Bramble's north pole.</Text>
+                         <Condition>DBG R2</Condition>
+                    </AltText> 
         </ExploreFact>
           <ExploreFact>
             <ID>DBG EX2</ID> 
@@ -35,8 +46,12 @@
          
         <RumorFact>
             <ID>DBA R1</ID>
+            <Text>A Nomai named Plume considered locating an anglerfish nest inside Dark Bramble to cull the countless hordes of anglerfish within the bramble, but was dissuaded from the idea.</Text> 
+        </RumorFact>
+         <RumorFact>
+            <ID>DBA R2</ID>
              <SourceID>DB_VESSEL</SourceID>
-            <Text>A Nomai named Escall discovered this nest while trying to reach the Vessel.</Text> 
+            <Text>A Nomai named Keek discovered this anglerfish nest while trying to reach the Vessel.</Text> 
         </RumorFact>
 
         <ExploreFact>
@@ -45,11 +60,11 @@
         </ExploreFact>
           <ExploreFact>
             <ID>DBA EX2</ID> 
-            <Text>A Nomai named Escall discovered this nest on a desperate mission to reach the Vessel. He.. met a gruesome end.</Text> 
+            <Text>A Nomai named Keek discovered this nest on a desperate mission to reach the Vessel. Keek.. met a gruesome end.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>DBA EX3</ID>
-            <Text>Escall noted that the eggs were warm, gelatinous, and filled with liquid.</Text> 
+            <Text>Keek noted that the eggs were warm, gelatinous, and filled with liquid.</Text> 
      </ExploreFact>
      
       

@@ -11,6 +11,11 @@
 				<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
 				<DialogueTarget>Slate_Kids_Direction 2</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
+				<Text>Hey Slate, Galena wanted to ask you how the Little Scout sticks onto surfaces.</Text>
+				<DialogueTarget>Slate_Kids_Galena</DialogueTarget>
+			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -22,6 +27,11 @@
 				<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
 				<DialogueTarget>Slate_Kids_Direction 2</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
+				<Text>Hey Slate, Galena wanted to ask you how the Little Scout sticks onto surfaces.</Text>
+				<DialogueTarget>Slate_Kids_Galena</DialogueTarget>
+			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -32,6 +42,11 @@
 		<RequiredPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</RequiredPersistentCondition>
 				<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
 				<DialogueTarget>Slate_Kids_Direction 2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
+				<Text>Hey Slate, Galena wanted to ask you how the Little Scout sticks onto surfaces.</Text>
+				<DialogueTarget>Slate_Kids_Galena</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 
@@ -45,6 +60,11 @@
 				<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
 				<DialogueTarget>Slate_Kids_Direction 2</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
+				<Text>Hey Slate, Galena wanted to ask you how the Little Scout sticks onto surfaces.</Text>
+				<DialogueTarget>Slate_Kids_Galena</DialogueTarget>
+			</DialogueOption>
 		</DialogueOptionsList>
 
 	</DialogueNode>
@@ -56,6 +76,11 @@
 		<RequiredPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</RequiredPersistentCondition>
 				<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
 				<DialogueTarget>Slate_Kids_Direction 2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
+				<Text>Hey Slate, Galena wanted to ask you how the Little Scout sticks onto surfaces.</Text>
+				<DialogueTarget>Slate_Kids_Galena</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 
@@ -76,6 +101,19 @@
 					<Page>I wonder if that Marl'll ever let go of that grudge.. <![CDATA[<Pause>]]> No good comes outta holding a grudge against a tree, you know?</Page>
 						<Page>That's all I know. Just get a move on - you'll probably just find all of 'em on the way up to the observatory for those launch codes, anyway.</Page>
 		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Slate_Kids_Galena</Name>
+		<Dialogue>
+			<Page>Hah, were they too scared to ask me after I spooked them off the last time they hid in my ships?</Page>
+			<Page>Anyway, with hooks, duh.</Page>
+			<Page>The Little Scout arms some tiny hooks when launched that it uses latch onto whatever surface it's shot at.</Page>
+				<Page>It doesn't roll off a hill anymore, so make sure you use it whenever you need to survey stuff from afar - especially with that 360 degree camera I put elbow grease into.</Page>
+		</Dialogue>
+						 <RevealFacts>
+     						   <FactID>GAL EX2</FactID>
+    					  </RevealFacts>
 	</DialogueNode>
 
 </DialogueTree>

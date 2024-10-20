@@ -13,7 +13,6 @@
             <Text>Gravity crystals used to build the Orbital Probe Cannon were sourced from this workshop on Brittle Hollow.</Text> 
         </RumorFact>
          <RumorFact>
-           <SourceID>CONSTRUCT_BAY</SourceID>
             <ID>GSHOP R2</ID>
             <Text>The Nomai on Giant's Deep visited this workshop on Brittle Hollow's equator to inquire about storm shelters activating in the absence of cyclones.</Text> 
         </RumorFact>

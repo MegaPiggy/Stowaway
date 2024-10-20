@@ -38,7 +38,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: These combined gravitational forces cause an extraordinarily strong pull of gravity. This force is what causes sand to be pulled towards the other twin at the alignment point, creating the funnel of sand.
+		OENO: These combined gravitational forces cause an extraordinarily strong pull of gravity, pulling on the vision orbs as the alignment passes overhead and causing the doors to activate.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -46,7 +46,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		OENO: The same force pulls on the vision orb as the alignment passes overhead, causing the doors to activate.
+		OENO: The same force is also what causes sand to be pulled towards the other twin at the alignment point, creating the funnel of sand.
 		</Text>
 	</TextBlock>
 <TextBlock>

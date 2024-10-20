@@ -95,6 +95,22 @@
 				"isRelativeToParent": true,
 				"removeChildren": ["Decal_NOM_OPC_Schematic_Side","Decal_NOM_OPC_Schematic_Back"]
 				},
+				{
+					"rename":"mural torch 1",
+					"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Props_NOM_Whiteboard_Shared/",
+					"position":{"x": 2.7042,"y": 3.4063,"z": 0.0349},
+					"rotation": {"x": 359.9615,"y": 5.2701,"z": 0.4166},
+					"isRelativeToParent": true,
+					"parentPath": "Sector_ConstructionYard/Yard Mural board"
+					},
+					{
+						"rename":"mural torch 2",
+						"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Props_NOM_Whiteboard_Shared/",
+						"position":{"x": -2.5072,"y": 3.3683,"z": 0.3623},
+						"rotation": {"x": 359.9643,"y": 4.8841,"z": 0.4168},
+						"isRelativeToParent": true,
+						"parentPath": "Sector_ConstructionYard/Yard Mural board"
+					},
 			{
 				"rename":"Bay chair",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
@@ -116,27 +132,8 @@
 					"rotation": {"x": 358.0905,"y":350.8618,"z": 0.3071}, 
 					"isRelativeToParent": true
 					},
-			{
-				"rename":"bay storm shelter",
-				"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_SafetyTractorBeam/",
-				"position":{"x": 27.0361,"y": 0.9189,"z": -64.1132},
-				"rotation": {"x":358.2119,"y":21.7309,"z": 358.7906},
-				"isRelativeToParent": true
-				},
-				{
-					"rename":"bay table",
-					"assetBundle": "planets/bundle/prefabs",
-					"path":"assets/nomai ruins/prefabs/table.prefab",
-					"position":{"x": 22.6056,"y": 0.8388,"z": -66.2831},
-					"rotation": {"x":0.1491,"y": 265.5813,"z": 1.9283},
-					"isRelativeToParent": true
-					},
-			{
-				"rename":"bay recorder light",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal/Light_NOM_GravityCrystal",
-				"position": {"x": 21.8867, "y": 2.9065, "z": -66.0669},
-				"isRelativeToParent": true
-				},
+		
+		
 			{
 				"rename":"Stowaway Water GM volume 1",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
@@ -225,12 +222,13 @@
 			"isRelativeToParent": true
 		},
 		
+		
 			{
 				"rename": "Weapon mural side",
 				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/mural side.prefab",
+				"path":"assets/models/comet mural side.prefab",
 				"parentPath": "Sector_ConstructionYard/Yard Mural board",
-				"position": {"x":1.3255,"y": 1.6509, "z": 0.0218},
+				"position": {"x":1.2619,"y": 1.6509, "z": 0.0218},
 				"rotation": {"x":90,"y":0, "z": 0},
 				"scale": 0.25,
 				"isRelativeToParent": true
@@ -238,9 +236,9 @@
 			{
 				"rename": "Weapon mural front",
 				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/mural front.prefab",
+				"path":"assets/models/comet mural front.prefab",
 				"parentPath": "Sector_ConstructionYard/Yard Mural board",
-				"position": {"x":-1.1127,"y": 1.6509, "z": 0.0218},
+				"position": {"x":-1.16,"y": 1.6509, "z": 0.0218},
 				"rotation": {"x":90,"y":0, "z": 0},
 				"scale": 0.25,
 				"isRelativeToParent": true
@@ -558,13 +556,7 @@
 				"rotation": {"x": 357.994, "y": 300.0251,"z": 1.9018},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cassava sad.xml"
 			},
-			{
-				"rename": "Shelter question recording",
-				"type": "recorder",
-				"position": {"x": 21.8867, "y": 1.9065, "z": -66.0669},
-				"rotation": {"x": 358.7878, "y": 308.8004,"z": 1.5072},
-				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/storm shelter question.xml"
-			},
+		
 			
 			{
 				"rename": "Stowaway water rule TEXT",
@@ -579,7 +571,7 @@
 				"position": {"x": -9.1029, "y": 6.3395, "z": 33.145},
 				"rotation": {"x": 8.0254, "y": 280.7329,"z": 57.6706},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/weapon schematic.xml",
-				"seed":1
+				"seed":2
 			},
 			{
 				"rename": "OPC Schematic Scroll w RearSecret",

@@ -83,7 +83,7 @@
         </ExploreFact>
              <ExploreFact>
             <ID>WorkshopTop EX5</ID> 
-            <Text>"Think of each projection stone as unique keys, and the projection walls as having locks for each key."</Text> 
+            <Text>A single projection stone can unlock many conversations across different projection walls.</Text> 
         </ExploreFact>
         </Entry>
 </Entry>
@@ -153,6 +153,10 @@
             <Text>A Nomai named Melorae stressed the importance of protecting themselves from cyclones, or seeking a landmass clear of the cyclones' path entirely.</Text> 
         </ExploreFact>
          <ExploreFact>
+           <ID>Pioneer EX3.5</ID> 
+            <Text>A Nomai named Daz noticed the island's storm shelters powering on by themselves, even in the absence of cyclones.</Text> 
+        </ExploreFact>
+         <ExploreFact>
             <ID>Pioneer EX4</ID> 
             <Text>The Nomai discovered a species of tentacled lifeforms on the surface of Giant's Deep.</Text> 
                    <AltText>
@@ -185,10 +189,6 @@
                <ExploreFact>
             <ID>CB_EX2</ID> 
             <Text>I found schematics for something called the Inspired.</Text> 
-        </ExploreFact>
-        <ExploreFact>
-           <ID>CB_EX3</ID> 
-            <Text>A Nomai named Cassava noticed that storm shelters sometimes power on by themselves, even in the absence of cyclones.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>CB_EX4</ID> 
@@ -285,6 +285,19 @@
             <ID>LC EX1</ID>
                   <Text>A great tower that once served as a Nomai settlement, built on an island within the eye of the hurricane.</Text> 
         </ExploreFact>
+        <ExploreFact>
+            <ID>LC EX4</ID> 
+            <Text>The Nomai abandoned this tower due to extenuating circumstances, chronicled in scrolls within the tower.</Text> 
+                 <AltText>
+                      <Text>The Nomai abandoned this tower after a quantum shard made it inhospitable. They moved to the island they found on their first expedition, and noted another island as a potential construction site.</Text>
+                     <Condition>LC R4</Condition>
+                 </AltText>
+        </ExploreFact>
+           <ExploreFact>
+            <ID>LC EX4.5</ID> 
+            <Text>The second island was noted to sail in the opposite direction as the first island, making its days three times longer than the other island.</Text> 
+        </ExploreFact>
+
           <ExploreFact>
             <ID>LC EX2</ID> 
             <Text>Objects left on a quantum shard will travel with the shard.</Text> 
@@ -294,20 +307,8 @@
             <Text>Giant's Deep's thick clouds completely obscure sight of anything outside the planet.</Text> 
         </ExploreFact>
         <ExploreFact>
-            <ID>LC EX4</ID> 
-            <Text>The Nomai abandoned this tower due to extenuating circumstances, chronicled in scrolls within the tower.</Text> 
-                 <AltText>
-                      <Text>The Nomai abandoned this tower after a quantum shard made it inhospitable. They moved to the island they found on their first expedition, and noted another island which had potential as a construction site.</Text>
-                     <Condition>LC R4</Condition>
-                 </AltText>
-        </ExploreFact>
-           <ExploreFact>
-            <ID>LC EX4.5</ID> 
-            <Text>The second island was noted to sail in the opposite direction as the first island, making its days three times longer than the other island.</Text> 
-        </ExploreFact>
-        <ExploreFact>
             <ID>LC EX5</ID> 
-            <Text>A Nomai named Melorae discovered that quantum objects could be locked in place by observing them through photos.</Text> 
+            <Text>Quantum objects can be locked in place by observing them through photos.</Text> 
         </ExploreFact>
 
     <Entry>
@@ -354,49 +355,37 @@
       <RumorFact>
             <RumorName>Deepest Space</RumorName>
             <ID>DSS Probe</ID> 
-            <Text>My scout was warped somewhere into a space filled with ghost matter. There are glowing masks and wires built into the walls.</Text>
+            <Text>My scout was warped somewhere into a space with glowing masks and wires. It appears to be flooded with ghost matter.</Text>
     </RumorFact>
     <RumorFact>
             <ID>DSS R2</ID>
              <RumorName>Deep Storm Station</RumorName>
              <RumorNamePriority>1</RumorNamePriority>
-            <Text>I was able to enter the Deep Storm Station using a voyager stone. The gravity on this plane of the station seems to be too strong to jump to the other side of the station.</Text> 
+            <Text>I was able to enter the Deep Storm Station using a voyager stone. The gravity on this part of the station is too strong for me to jump to the other side.</Text> 
     </RumorFact>
     <RumorFact>
              <ID>DSS R3</ID> 
             <RumorName>Deep Storm Station</RumorName>
              <RumorNamePriority>1</RumorNamePriority>
-            <Text>Two Nomai named Pye and Idaea tried to warp to the Deep Storm Station, but arrived on Statue Island instead. They returned to Ash Twin to await guidance.</Text> 
-        </RumorFact>
-        <RumorFact>
-             <ID>DSS R4</ID> 
-            <Text>A Nomai named Cassava urgently reminded himself never to lock the Quantum Moon in orbit around Giant's Deep, wo.</Text> 
+            <Text>Two Nomai named Pye and Idaea tried to warp to the Deep Storm Station, but arrived on Statue Island instead. They returned to Ash Twin, seeking guidance.</Text> 
         </RumorFact>
         
      <RumorFact>
-                  <RumorName>Deep Storm Station</RumorName>
-                   <RumorNamePriority>1</RumorNamePriority>
                   <ID>CONV R1</ID> 
                      <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
                  <Text>The Deep Storm Station powered a 6-second negative time interval to test the mechanics of the Ash Twin Project.</Text> 
     </RumorFact>
     <RumorFact>
-                <RumorName>Deep Storm Station</RumorName>
-                <RumorNamePriority>1</RumorNamePriority>
                  <ID>CONV R2</ID> 
                <SourceID>LOVERSCOVE</SourceID>
-            <Text>While sharing joyous news of his engagement, Daz revealed that he had proposed to Cassava during a 6-second negative time interval.</Text> 
+            <Text>While sharing joyous news of his engagement with the Deep Storm Station, Daz revealed that he had proposed to Cassava during a 6-second negative time interval.</Text> 
     </RumorFact>
          <RumorFact>
-                <RumorName>Deep Storm Station</RumorName>
-                <RumorNamePriority>1</RumorNamePriority>
                  <ID>CONV R3</ID> 
                <SourceID>GD_CONSTRUCTION_YARD</SourceID>
-            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to warp in to charge a return warp that would allow them to return them to the surface.</Text> 
+            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to warp in to charge a return warp that would allow them to return to the surface.</Text> 
     </RumorFact>
          <RumorFact>
-                <RumorName>Deep Storm Station</RumorName>
-                <RumorNamePriority>1</RumorNamePriority>
                  <ID>CONV R4</ID> 
                <SourceID>SCROLL_WORKSHOP</SourceID>
             <Text>A Nomai named Daz was cut off while writing to the Deep Storm Station from the Scroll and Stone Workshop.</Text> 
@@ -421,24 +410,34 @@
   
          <ExploreFact>
             <ID>DSS EX3</ID> 
-            <Text>A Nomai named Cassava was protected from some sort of danger aboard the Deep Storm Station. He used voyager stones to travel outside the station safely.</Text>
+            <Text>A Nomai named Cassava was protected from some sort of danger aboard the Deep Storm Station, and used voyager stones to travel outside the station safely.</Text>
             <AltText>
-                <Text>A Nomai named Cassava survived the arrival of ghost matter in the star system aboard the Deep Storm Station. He used voyager stones to travel outside the station safely.</Text>
+                <Text>A Nomai named Cassava survived the arrival of ghost matter in the star system aboard the Deep Storm Station, and used voyager stones to travel outside the station safely.</Text>
                 <Condition>COMET_INTERIOR_X1</Condition>
             </AltText>
         </ExploreFact>
         
-        <ExploreFact>
-            <ID>DSS EX5</ID> 
-            <Text>Cassava warped all ghost matter captured by the Inspired into the Deep Storm Station to contain it indefinitely, at the cost of his own life.</Text>
+  <ExploreFact>
+            <ID>DSS EX3.5</ID> 
+            <Text>Cassava took great care to never keep the Quantum Moon locked in orbit around Giant's Deep for extended periods of time.</Text> 
+             <AltText>
+                <Text>Cassava took great care to never keep the Quantum Moon locked in orbit around Giant's Deep for extended periods of time, to protect the planet's jellyfish from ghost matter.</Text>
+                <Condition>LCJ EX2</Condition>
+            </AltText>
         </ExploreFact>
+
          <ExploreFact>
             <ID>DSS EX4</ID> 
-            <Text>Cassava released the species within the Sanctuary back to the surface using his voyager.</Text> 
+            <Text>Cassava released the species within the Sanctuary back to the surface with his voyager after ensuring it was safe to do so.</Text> 
         </ExploreFact>
+        <ExploreFact>
+            <ID>DSS EX5</ID> 
+            <Text>After gathering as much ghost matter from the star system as he was safely able to, Cassava warped ghost matter into the Deep Storm Station to contain it at the cost of his own life.</Text>
+        </ExploreFact>
+    
              <ExploreFact>
             <ID>DSS EX6</ID> 
-            <Text>A recording in the Deep Storm Station contained Cassava's last words. The Nomai known as Cassava met his end without fear.</Text> 
+            <Text>The Nomai known as Cassava met his end without fear, praying for the future of the native species.</Text> 
         </ExploreFact>
 
 </Entry>
