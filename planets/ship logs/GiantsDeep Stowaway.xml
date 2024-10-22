@@ -29,6 +29,10 @@
             <ID>Workshop R4</ID>
             <Text>A new type of projection stone used the memory storage systems to allow paired Nomai to explore remotely beyond projection pools.</Text> 
         </RumorFact>
+            <RumorFact>
+            <ID>Workshop R5</ID>
+            <Text>Projection stones were crafted at the Scroll and Stone Workshop.</Text> 
+        </RumorFact>
         
         <ExploreFact>
             <ID>Workshop EX1</ID> 
