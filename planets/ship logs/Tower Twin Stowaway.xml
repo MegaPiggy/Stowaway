@@ -72,7 +72,7 @@
         </ExploreFact>
        <ExploreFact>
             <ID>TH Tower EX2</ID>
-             <Text>A Nomai named Cycad delivered a message to Timber Hearth, informing the Nomai there about an issue on Ash Twin.</Text> 
+             <Text>A Nomai named Oeno was invited to Ash Twin to investigate some sort of problem.</Text> 
         </ExploreFact>
        <ExploreFact>
             <ID>TH Tower EX3</ID> 
@@ -103,7 +103,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>SS Tower EX2</ID>
-             <Text>I found a scroll containing Oeno's notes explaining why the doors on Ash Twin were activating without input.</Text> 
+             <Text>I found a scroll containing Oeno's report on why the doors on Ash Twin were activating without input.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX3</ID>
@@ -111,7 +111,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX4</ID>
-             <Text>This combined force pulls vision orbs on Ash Twin upward as the alignment passes overhead.</Text> 
+             <Text>This combined force pulls vision orbs on Ash Twin upward as the alignment passes overhead, causing the doors to activate.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>SS Tower EX5</ID>
@@ -147,13 +147,22 @@
             <SourceID>CT_CHERT</SourceID>
              <Text>Chert flew to Ash Twin on their first expedition to admire the colossal solar towers on each of the planet's poles. They wondered why the Nomai didn't build the solar panels on Ember Twin's poles as well.</Text> 
         </RumorFact>
+          <RumorFact>
+          <IgnoreMoreToExplore/>
+            <ID>SLR_T R2</ID>
+             <Text>A Nomai named Yarrow worked on the solar towers on Ash Twin.</Text> 
+        </RumorFact>
+        <ExploreFact>
+                     <ID>SLR_T EX0</ID> 
+                     <Text>A Nomai named Bur reported seeing the rotating doors on several towers along Ash Twin's equator opening and closing on their own.</Text> 
+              </ExploreFact>
          <ExploreFact>
             <ID>SLR_T EX1</ID>
-             <Text>I found a Nomai recording atop one of the solar towers that describes their construction.</Text> 
+             <Text>Towers installed with colossal solar panels constructed at both of Ash Twin's poles.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>SLR_T EX2</ID>
-             <Text>The solar towers on Ash Twin were deliberately built on the north and south poles to avoid something called the sunless day.</Text> 
+             <Text>The solar towers on Ash Twin were deliberately built on the north and south pole to avoid something called the sunless day.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>SLR_T EX3</ID>

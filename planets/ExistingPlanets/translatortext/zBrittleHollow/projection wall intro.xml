@@ -1,0 +1,76 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PHLOX: How Projection Walls Work
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PHLOX: Projection walls allow Nomai to talk to each other without being in the same place. It's a wonderful technology for talking to friends from far away!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		PHLOX: To use a projection wall, a projection stone needs to be put in the pedestal. This connects the projection wall to the corresponding projection wall, sharing anything written on both walls!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		PHLOX: Incoming messages from the other projection wall are written in an orange color! This makes it easier to tell which side is talking.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		FILIX: Well done, Phlox! But did you know the projection walls are a newer version of the way our Vessel communications used to work?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		PHLOX: Really? I didn't know that!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		FILIX: It's true! Though they are unable to connect to the Vessels' communication network, the projection walls were an iteration of their design, which separated incoming and outgoing messages into different walls.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		PHLOX: New projection stones are crafted at the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> every day, allowing us to talk and project from more and more places!
+		</Text>
+	</TextBlock>
+
+
+</NomaiObject>

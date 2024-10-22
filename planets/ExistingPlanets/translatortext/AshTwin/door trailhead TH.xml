@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		YARROW: Oeno! It is good to see you well, my friend. I apologize for sending Cycad in my place to find you - I would have loved to visit your <![CDATA[<color=orange>mining site on Timber Hearth</color>]]> again.
+		YARROW: Oeno! It is good to see you well, my friend. I apologize for bothering you, but the construction of the <![CDATA[<color=orange>solar towers</color>]]> has been a great amount of work on my shoulders.
 		</Text>
 	</TextBlock>
 			<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: Was Cycad able to inform you about the issue before sending you my way?
+		YARROW: Was Cycad able to inform you about the issue Bur noticed before sending you my way?
 		</Text>
 	</TextBlock>
 			<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: If you join me at the other tower with the same issue, I believe I will be able to better demonstrate my findings there! 
+		OENO: If you join me at the other tower, I believe I will be able to better demonstrate my findings there! 
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: He has, and the matter puzzled me enough to leave my work! I shall share my findings with you as soon as I can locate the problem.
+		OENO: He has, and the matter puzzled me enough to leave my work at the <![CDATA[<color=orange>Timber Hearth Mines!</color>]]> I shall share my findings with you as soon as I locate the problem.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		YARROW: You have my deepest thanks, Oeno! I wish I could have had time to visit <![CDATA[<color=orange>mining site 2b</color>]]> and delivered my message myself, but alas.
+		YARROW: You have my deepest thanks, Oeno! 
 		</Text>
 	</TextBlock>
 	
@@ -53,15 +53,23 @@
 	<ShipLogConditions>
 
 		<RevealFact>
+			<FactID>TH_NOMAI_MINE_R1</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>SLR_T R2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
 			<FactID>TH Tower EX2</FactID>
-			<Condition>2</Condition>
+			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>TH Tower EX3</FactID>
 			<Condition>3</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>TH Tower EX3</FactID>
+			<FactID>TH Tower EX4</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
 			

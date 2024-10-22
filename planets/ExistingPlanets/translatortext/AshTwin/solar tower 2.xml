@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		BUR: Oh, I feel as though I am being cooked from within, wearing this heavy-insulation suit during construction..
+		BUR: Oh, I feel as though I am being cooked from within, wearing this insulative suit during construction..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		BUR: I am sure our friends from the <![CDATA[<color=orange>Timber Hearth Mines</color>]]> worked hard on them to insulate us from the star's heat, but this is unbearable!
+		BUR: I am sure our friends from the <![CDATA[<color=orange>Timber Hearth Mines</color>]]> worked hard on them to insulate us, but this heat is unbearable!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -22,7 +22,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		BUR: Could we not have waited for a sunless day on <![CDATA[<color=lightblue>Ash Twin</color>]]> to begin work on this solar tower, like we did when building the solar panels on <![CDATA[<color=lightblue>Ember Twin?</color>]]>
+		BUR: Could we not have waited for a sunless day to begin work on the <![CDATA[<color=orange>solar tower,</color>]]> like we did while building the solar panels on <![CDATA[<color=lightblue>Ember Twin?</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -30,7 +30,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		ANNONA: We could not, Bur. The north and south poles never experience sunless days - that is precisely why we chose to build the solar towers here.
+		YARROW: We could not, Bur. The north and south poles never experience sunless days - that is precisely why they were chosen as sites for the <![CDATA[<color=orange>solar towers.</color>]]>
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -38,7 +38,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		ANNONA: In fact, there are plans to relocate <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels soon, due to issues we have discovered with its current site.
+		YARROW: In fact, there are plans to relocate <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels soon, due to issues we have discovered with its current site.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -46,7 +46,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		MELORAE: On the sunward side, as the funnel of sand follows the sunless day, we will never need to worry about the funnel of sand here.
+		MELORAE: On the sunward side, as the funnel of sand follows the sunless day, we will never need to worry about the funnel of sand here!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -54,7 +54,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		ANNONA: Has the <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels been decided yet, Melorae?
+		YARROW: Melorae, has the <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels been decided yet?
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -62,7 +62,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		MELORAE: We have! So far, we have settled on a grassy plateau on <![CDATA[<color=lightblue>Ember Twin's</color>]]> surface, directly above the <![CDATA[<color=orange>Sunless City.</color>]]>
+		MELORAE: It has! So far, we have settled on a grassy plateau on <![CDATA[<color=lightblue>Ember Twin's</color>]]> surface, directly above the <![CDATA[<color=orange>Sunless City.</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -78,7 +78,23 @@
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		ANNONA: That sounds promising. I shall try to visit this <![CDATA[<color=orange>relocation site</color>]]> to see it for myself soon.
+		YARROW: That sounds promising. I shall visit this <![CDATA[<color=orange>relocation site</color>]]> to see it for myself soon.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<LocationB />
+		<ParentID>10</ParentID>
+		<Text>
+		YARROW: Now, let us resume our work, my friends. Do not forget we have a <![CDATA[<color=orange>solar tower</color>]]> on the south pole to construct as well!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<LocationB />
+		<ParentID>11</ParentID>
+		<Text>
+		BUR: What?! I shall melt before even this one is completed!
 		</Text>
 	</TextBlock>
 

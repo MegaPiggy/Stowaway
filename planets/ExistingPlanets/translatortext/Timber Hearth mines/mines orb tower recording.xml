@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CYCAD: Here you are, Oeno! Yarrow was looking for you earlier regarding a matter.
+		CYCAD: I have faith... You can do it!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		OENO: I have been adjusting our vision orbs to accomodate the native lifeforms' vision.. I am hopeful they will learn to use it soon!
+		OENO: I have been adjusting our vision orbs to accomodate the native lifeforms' vision, you see! I am hopeful the native species will learn to use them soon.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		CYCAD: Still, it is a joy watching you teach the native species more about our culture and technology, Oeno. I am sure they will thrive to learn from the universe themselves one day!
+		CYCAD: Still, it is a joy watching you teach and play with the native species, Oeno. I am sure they will thrive to learn from the universe themselves one day!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -61,48 +61,8 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		OENO: Of course! It's lovely seeing these lifeforms growing more curious as they become more comfortable with our presence.
+		OENO: That is my hope too! It is lovely seeing these lifeforms learning and growing as they become more comfortable with our presence.
 				</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>9</ID>
-		<LocationB />
-		<ParentID>8</ParentID>
-		<Text>
-		OENO: Now, what matter did Yarrow need my help with, Cycad?
-				</Text>
-	</TextBlock>
-		<TextBlock>
-		<ID>10</ID>
-		<LocationB />
-		<ParentID>9</ParentID>
-		<Text>
-		CYCAD: Ah, yes. According to Yarrow, the <![CDATA[<color=orange>Sun Station</color>]]> crew reported their warp tower's rotating doors opening and closing by themselves, without any sort of input!
-				</Text>
-	</TextBlock>
-		<TextBlock>
-		<ID>11</ID>
-		<LocationA />
-		<ParentID>10</ParentID>
-		<Text>
-		CYCAD: ..And when Yarrow went to check on the issue, he noticed the same thing happening at Timber Hearth's warp tower as well!
-		</Text>
-	</TextBlock>
-		<TextBlock>
-		<ID>12</ID>
-		<LocationA />
-		<ParentID>11</ParentID>
-		<Text>
-		OENO: Hm.. How strange.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>13</ID>
-		<LocationA />
-		<ParentID>12</ParentID>
-		<Text>
-		OENO: My thanks for delivering this message, Cycad. I shall travel to <![CDATA[<color=lightblue>Ash Twin</color>]]> to investigate this issue as soon as I can.
-		</Text>
 	</TextBlock>
 	
 
@@ -112,10 +72,7 @@
 			<FactID>Campsite Orb EX1</FactID>
 			<Condition>6</Condition>
 		</RevealFact>
-				<RevealFact>
-			<FactID>Campsite Orb EX2</FactID>
-			<Condition>11</Condition>
-		</RevealFact>
+			
 		
 </ShipLogConditions>
 

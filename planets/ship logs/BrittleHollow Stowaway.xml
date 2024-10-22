@@ -2,6 +2,8 @@
     <ID>BRITTLE_HOLLOW</ID>
 
 
+
+
 <Entry>
         <ID>BH_WORKSHOP</ID>
         <Name>Gravity Crystal Workshop</Name>
@@ -23,7 +25,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>GSHOP EX2</ID> 
-            <Text>Storm shelters were engineered in this workshop (in collaboration with the Sunless City) to protect the Nomai working on Giant's Deep.</Text> 
+            <Text>Storm shelters were engineered in this workshop in collaboration with the Sunless City to protect the Nomai working on Giant's Deep.</Text> 
         </ExploreFact>
  <ExploreFact>
             <ID>GSHOP EX3</ID>

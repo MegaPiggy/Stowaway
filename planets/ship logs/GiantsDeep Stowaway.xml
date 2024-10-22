@@ -138,7 +138,7 @@
         </RumorFact>
         <ExploreFact>
             <ID>Pioneer EX1</ID> 
-            <Text>This camp on Statue Island's shores sheltered Nomai during their first survey expedition to Giant's Deep.</Text> 
+            <Text>This camp on Statue Island's shore sheltered Nomai during their first survey expedition to Giant's Deep.</Text> 
         </ExploreFact>
            <ExploreFact>
             <ID>Pioneer EX2</ID> 
@@ -268,12 +268,12 @@
           <RumorFact>
             <ID>LC R2</ID> 
             <SourceID>BISLE_STUDY</SourceID>
-            <Text>A Nomai named Thatch proposed transporting a frozen jellyfish back to a habitat in the Looming City for research.</Text> 
+            <Text>The Nomai transported a frozen jellyfish from Bramble Island to a habitat in the Looming City for research.</Text> 
         </RumorFact>
           <RumorFact>
             <ID>LC R3</ID> 
             <SourceID>BISLE_STUDY</SourceID>
-            <Text>A Nomai named Melorae expressed her curiosity about how the jellyfish would interact with the quantum shard in the Looming City.</Text> 
+            <Text>The Nomai were curious about how the jellyfish would interact with the quantum shard in the Looming City.</Text> 
         </RumorFact>
           <RumorFact>
             <ID>LC R4</ID> 
@@ -295,7 +295,7 @@
         </ExploreFact>
            <ExploreFact>
             <ID>LC EX4.5</ID> 
-            <Text>The second island was noted to sail in the opposite direction as the first island, making its days three times longer than the other island.</Text> 
+            <Text>This second island was noted to sail in the opposite direction, making its days three times longer than the first island.</Text> 
         </ExploreFact>
 
           <ExploreFact>
@@ -383,7 +383,7 @@
          <RumorFact>
                  <ID>CONV R3</ID> 
                <SourceID>GD_CONSTRUCTION_YARD</SourceID>
-            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to warp in to charge a return warp that would allow them to return to the surface.</Text> 
+            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to warp in, to charge a return warp that would allow them to return to the surface.</Text> 
     </RumorFact>
          <RumorFact>
                  <ID>CONV R4</ID> 
@@ -420,19 +420,15 @@
   <ExploreFact>
             <ID>DSS EX3.5</ID> 
             <Text>Cassava took great care to never keep the Quantum Moon locked in orbit around Giant's Deep for extended periods of time.</Text> 
-             <AltText>
-                <Text>Cassava took great care to never keep the Quantum Moon locked in orbit around Giant's Deep for extended periods of time to protect jellyfish from ghost matter.</Text>
-                <Condition>LCJ EX2</Condition>
-            </AltText>
         </ExploreFact>
 
          <ExploreFact>
             <ID>DSS EX4</ID> 
-            <Text>Cassava released the species within the Sanctuary back to the surface with his voyager after ensuring it was safe.</Text> 
+            <Text>Cassava released the species within the Sanctuary back to the surface with his voyager after ensuring it was safe again.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>DSS EX5</ID> 
-            <Text>After gathering as much ghost matter from the star system as he was safely able to, Cassava warped ghost matter into the Deep Storm Station to contain it, at the cost of his own life.</Text>
+            <Text>Cassava gathered as much ghost matter from the star system as he was safely able to, and warped it into the Deep Storm Station to contain it at the cost of his own life.</Text>
         </ExploreFact>
     
              <ExploreFact>

@@ -1,0 +1,77 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	Clue should be guiding players towards rotating doors on warp towers activating on their own
+	Actors should be
+	Context should be Pye visiting the solar tower crew? One of the members warping from TH notices?
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		BUR: Yarrow, I may need an extended rest soon. I fear this terrible heat is affecting my mind..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		YARROW: What!? Bur, do you require medical assistance? Are you physically unwell?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		BUR: No, I am physically well.. However, when I was resting in one of the towers along the equator earlier, I saw the tower's rotating doors opening and closing by themselves!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		BUR: I decided to seek shelter in a different tower, but I saw the same thing occurring there too!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		BUR: I am not one for superstition, but there was no one nearby when this incident occurred.. Either these doors are aberrant, or my brain must be!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		YARROW: How strange! I am sure it must be some sort of defect in these towers' rotating doors.. I shall seek Oeno's assistance in investigating this issue when I return.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		YARROW: But first: allow me to accompany you home to seek aid, Bur!
+		</Text>
+	</TextBlock>
+
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>SLR_T EX0</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>SLR_T EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

@@ -43,7 +43,7 @@
 			<Dialogue>
 				<Page>Well, have you seen the colossal towers of solar panels on each of the Ash Twin's poles? They are truly a magnificent sight to behold.</Page>
 				<Page>I first noticed them while stargazing, and wished to visit Ash Twin to get a closer look at these wondrous structures.</Page>
-				<Page>With solar panels of such scale, the Nomai must have been able to harness an incredible amount of energy with them!</Page>
+				<Page>With solar panels of such scale, the Nomai must have been able to harness an incredible amount of energy with them! I highly recommend visiting them when you get a chance.</Page>
 				<Page>Fantastic view aside: you might be able to glean more about them with that new translator tool of yours. I highly recommend visiting them when you get the chance!</Page>
 				</Dialogue>
 							<RevealFacts>
@@ -102,8 +102,8 @@
 			<Dialogue>
 				<Page>Hm... It will take a while longer, I believe.</Page>
 				<Page>Come back once more of the sand has drained off from Ash Twin, and I might be able to give you a more precise answer then!</Page>
-				<Page>If you’re feeling impatient, feel free to take a nap by the campfire to pass the time.</Page>
-				<Page>I have set up this camp here to avoid the sand column's path - so you need not worry about the sand column wandering this way while you rest.</Page>
+				<Page>If you’re feeling impatient, feel free to take a nap by a campfire to pass the time.</Page>
+				<Page>I set up this camp here to avoid the sand column's path - so please, put away any worry about the sand column wandering this way while you rest.</Page>
 			</Dialogue>
 		<DialogueOptionsList>
 				<DialogueOption>
@@ -123,7 +123,7 @@
 			<Page>Goodness! That's right, that's what we were discussing at first, wasn't it? My apologies for rambling!</Page>
 				<Page>Well, have you seen the colossal towers of solar panels on each of the Ash Twin's poles? They are truly a magnificent sight to behold.</Page>
 				<Page>I first noticed them while stargazing, and wished to visit Ash Twin to get a closer look at these wondrous structures.</Page>
-				<Page>With solar panels of such scale, the Nomai must have been able to harness an incredible amount of energy with them!</Page>
+				<Page>With solar panels of such scale, the Nomai must have been able to harness an incredible amount of energy with them! I highly recommend visiting them when you get a chance.</Page>
 				<Page>Fantastic view aside: you might be able to glean more about them with that new translator tool of yours! I highly recommend visiting them when you get the chance.</Page>
 				</Dialogue>
 							<RevealFacts>
@@ -145,7 +145,7 @@
 		<Name>FoundSomethingMenu</Name>
 		<DialogueOptionsList>
 			<DialogueOption>
-			<RequiredLogCondition>SS Tower EX3</RequiredLogCondition>
+			<RequiredLogCondition>SS Tower EX5</RequiredLogCondition>
 					<Text>I found out what causes the sand to flow between the twins.</Text>
 					<DialogueTarget>ChertSW5</DialogueTarget>
 			</DialogueOption>
@@ -159,8 +159,8 @@
 				<Page>So if I understand correctly.. Gravity from the sun and the twin closer to the sun cause a combined force that pulls sand to the other twin when the twins orbit into alignment?</Page>
 				<Page>It sounds peculiar.. but it makes complete sense now that you've spelled it out!</Page>
 				<Page>Surely, the gravitational centre of the solar system combining its pull with another planet would cause some interesting tidal effects. And you said the Nomai called this phenomenon the "sunless day"?</Page>
-				<Page>Incredible work, hatchling! Solving a mystery that has puzzled me for ages on your first expedition is truly something else.</Page>
-				<Page>After we gather more conclusive data on this phenomenon, let us mark your findings with a new exhibit in the village museum, and celebrate with some sap wine!</Page>
+				<Page>Excellent work, hatchling. Solving a mystery that has puzzled me for ages on your first expedition is truly something else!</Page>
+				<Page>After we gather more conclusive data on this phenomenon, we should mark your findings with a new exhibit in the village museum, then celebrate with some sap wine!</Page>
 				</Dialogue>
 </DialogueNode>
 

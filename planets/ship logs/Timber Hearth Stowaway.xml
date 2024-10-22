@@ -163,7 +163,7 @@
         
         <ExploreFact>
             <ID>SY EX1</ID> 
-            <Text>The Nomai built this Sanctuary to protect the native lifeforms of Timber Hearth during the operation of the Ash Twin Project.</Text> 
+            <Text>A Sanctuary built by the Nomai to protect the native lifeforms of Timber Hearth during the operation of the Ash Twin Project.</Text> 
        </ExploreFact>
           <ExploreFact>
             <ID>SY EX2</ID> 
@@ -204,10 +204,7 @@
                 <ID>Campsite Orb EX1</ID> 
                 <Text>A Nomai named Oeno modified vision orbs to acommodate Timber Hearth's native lifeforms. She was disappointed to learn the vision orb was not being activated by them, but by the Attlerock’s gravity as it orbited overhead.</Text> 
        </ExploreFact>
-           <ExploreFact>
-                     <ID>Campsite Orb EX2</ID> 
-                     <Text>A Nomai named Yarrow reported the rotating doors on the Sun Station and Timber Hearth warp towers opening and closing on their own from time to time.</Text> 
-              </ExploreFact>
+           
          <ExploreFact>
             <ID>Campsite EX2</ID> 
             <Text>The Nomai planned to build a Sanctuary in a space within Timber Hearth's underground pools visited by a quantum shard.</Text> 

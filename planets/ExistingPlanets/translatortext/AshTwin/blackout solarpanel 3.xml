@@ -51,7 +51,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		RAMIE: I must disagree, Melorae.. Surely it cannot be so difficult to tell when there is a solar eclipse!
+		RAMIE: I must disagree, Melorae.. Surely it cannot be so difficult to tell when a solar eclipse is occurring!
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		MELORAE: Ramie, my friend.. Recall that the <![CDATA[<color=orange>Sunless City</color>]]> is located underground! We are not able to detect a solar eclipse!
+		MELORAE: Ramie, my friend.. Recall that the <![CDATA[<color=orange>Sunless City</color>]]> is located underground! We are not so easily able to detect a solar eclipse!
 		</Text>
 	</TextBlock>
 
