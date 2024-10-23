@@ -211,12 +211,8 @@
         </ExploreFact>
          <ExploreFact>
             <ID>Campsite EX3</ID>
-            <Text>The Nomai planned to use a new invention from the Scroll and Stone Workshop on Giant's Deep for convenient entry into the Sanctuary.</Text> 
+            <Text>The Nomai planned to use a new invention from the Scroll and Stone Workshop on Giant's Deep to enter the Sanctuary.</Text> 
         </ExploreFact>
-          <ExploreFact>
-            <ID>Campsite EX4</ID> 
-            <Text>A warp transmitter requires a connected warp receiver to function.</Text> 
-      </ExploreFact>
 
 
              <Entry>

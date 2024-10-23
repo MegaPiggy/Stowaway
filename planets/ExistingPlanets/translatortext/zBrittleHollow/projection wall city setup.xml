@@ -1,0 +1,52 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		ILEX: Did anyone see my scroll containing a report on projection walls? I cannot find it anywhere!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		ILEX: Oh, I hope it didn't fall into the black hole... I learned so much about projection walls while putting that report together!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		LAMI: Don't worry, Ilex. If it fell into the black hole, I'm sure someone will return it at the warp receiver for you to retrieve, like all scrolls that fall in!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		ILEX: I can't rely on that chance for my grades, Lami! Oh, I'll just recreate the report from memory...
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+	<RevealFact>
+			<FactID>BH_H EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_H EX4</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

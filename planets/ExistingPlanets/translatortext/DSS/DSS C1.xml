@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: No.. No.. This can't be... Everyone is...!
+		CASSAVA: <![CDATA[<i>No.. No.. This can't be...</i>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		CASSAVA: Am I now trapped here without escape? I have little chance of staving off thirst and hunger for long here.
+		CASSAVA: Am I now trapped here without escape? I have little chance of staving off thirst and hunger for long here..
 		</Text>
 	</TextBlock>
 	<TextBlock>	
@@ -53,7 +53,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		CASSAVA: I.. I must seek out and understand what has happened.. As well as search for any other survivors...
+		CASSAVA: I.. I must seek out and understand what has happened - as well as search for any other survivors...
 		</Text>
 			</TextBlock>
 

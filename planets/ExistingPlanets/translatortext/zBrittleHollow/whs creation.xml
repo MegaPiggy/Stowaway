@@ -1,0 +1,86 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+Clue to convey: Warp transmitters require a warp receiver (context: wait, the warp receiver isnt installed yet!)
+
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CLARY: Friends, the <![CDATA[<color=orange>White Hole Station's</color>]]> construction was completed today. I cannot wait to jump into the black hole to visit and test it soon!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		FILIX: How exciting, Clary! If the <![CDATA[<color=orange>White Hole Station</color>]]> works, Nomai on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> shall never need to live in fear of falling into the black hole again!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		POKE: Wait, Clary! The <![CDATA[<color=orange>White Hole Station</color>]]> isn't operational yet! <![CDATA[<i>Do not</i>]]> jump into the black hole!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		POKE: A warp transmitter requires a connected warp receiver to function; the <![CDATA[<color=orange>White Hole Station's</color>]]> warp transmitter does not yet have a connected warp receiver for it to transport Nomai to!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		CLARY: I owe Filix my deepest gratitude for <![CDATA[<i>verbally</i>]]> warning me before I leapt.. Has a site been chosen for the warp receiver yet, Poke?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		POKE: There should be ample space on the surface above the <![CDATA[<color=orange>Hanging City.</color>]]> Building the warp receiver there should also provide convenient travel back to the city from the <![CDATA[<color=orange>White Hole Station.</color>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		CLARY: In that case, I'm off to install the warp receiver! Afterwards.. I shall finally have my chance to jump into a black hole!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+
+		<RevealFact>
+			<FactID>BH_H EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_H EX2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_H EX3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+
+</ShipLogConditions>
+
+</NomaiObject>

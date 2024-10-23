@@ -7,13 +7,13 @@
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
       <Page>Trip 2, entry #1</Page>
-      <Page>Crashes: 30 (It's fun hearing the brittle crust cracking)</Page>
+      <Page>Crashes: 30 (It's fun hearing the brittle crust crack)</Page>
       <Page>Woah. What are these weird lil' crystals? They're making me stick to the wall..</Page>
-          <Page>Guess they must play with gravity somehow? The Nomai sure had some pretty sweet tech!</Page>
-             <Page>I should try bring one home to Timber Hearth! If that's even.. possible.</Page>
-              <Page>Bet it'd make a pretty neat exhibit in Hornfels' new museum!</Page>
+          <Page>Guess they must play with gravity somehow? Man, the Nomai had some sweet tech!</Page>
+             <Page>I should try bring one home to Timber Hearth! Uh, if that's even.. possible.</Page>
+              <Page>Bet it'd make a pretty neat exhibit in Hornfels' new museum.</Page>
              <Page>And if Slate could install one of these in the ship, it'd probably help out a ton with spacesickness in the ship, too.</Page>
-             <Page>If it works out, maybe I could finally fly that lil' hatchling who's afraid of space to see the ruins on this planet at last.</Page>
+             <Page>If it works out, maybe I could finally fly that lil' hatchling who's afraid of space to see the ruins on this planet at last!</Page>
     </Dialogue>
   </DialogueNode>
 

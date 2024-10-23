@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		PHLOX: How Projection Walls Work
+		ILEX: How Projection Walls Work
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		PHLOX: Projection walls allow Nomai to talk to each other without being in the same place. It's a wonderful technology for talking to friends from far away!
+		ILEX: Projection walls allow Nomai to talk to each other without being in the same place. It's a wonderful technology for talking to friends from far away!
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		PHLOX: To use a projection wall, a projection stone must be placed into its pedestal. This connects the projection wall to the stone's corresponding projection wall, sharing anything written on both walls!
+		ILEX: To use a projection wall, a projection stone must be placed into its pedestal. This allows connection to the stone's corresponding projection wall, sharing anything written on both walls!
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		PHLOX: Incoming messages from the other projection wall are written in an orange color! This makes it easy to always tell which side is talking.
+		ILEX: Incoming messages from the other projection wall are always displayed in an orange color! This makes it easy to always tell which side is talking.
 		</Text>
 	</TextBlock>
 
@@ -41,7 +41,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		FILIX: Well done, Phlox! But did you know the projection walls are a newer version of the way our Vessel communications used to work?
+		PLUME: Well done, Phlox! But did you know that projection walls were recreated after the way our Vessel's communications used to work?
 		</Text>
 	</TextBlock>
 
@@ -50,7 +50,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		PHLOX: Really? My father has never told me about that!
+		ILEX: Really? I never knew that!
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		FILIX: It's true! Though we are unable to connect to the Vessels' communication network, our projection walls were an iteration of their design, which separated incoming and outgoing messages into different walls.
+		PLUME: It's true. Though unable to connect to the Vessels' communication network, the projection walls are an iteration on its design, which once separated incoming and outgoing messages on different walls.
 		</Text>
 	</TextBlock>
 
@@ -68,7 +68,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		PHLOX: New projection stones are crafted at the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> every day, allowing us to talk and project from more and more places!
+		ILEX: New projection stones are crafted at the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> every day, allowing us to talk and project to more and more places!
 		</Text>
 	</TextBlock>
 
