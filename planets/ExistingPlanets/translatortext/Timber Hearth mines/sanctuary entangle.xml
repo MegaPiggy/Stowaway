@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CYCAD: I disengaged my voyager stone by accident earlier, causing the quantum shard to slip from my sight.. along with one of the native species resting on it!
+		CYCAD: I disengaged my voyager stone by accident earlier, causing the quantum shard to slip from my sight - along with one of the native species resting on it!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: I have delivered the lifeform back into the <![CDATA[<color=orange>Sanctuary,</color>]]> Cycad! But why were you unable to use the rule of entanglement to give chase yourself?
+		OENO: I have delivered the lifeform back to you, Cycad. But, Cycad.. Are you not aware the voyager is capable of using the rule of quantum entanglement as well?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		CYCAD: The surface of the planet is never dark enough for one to travel to using the rule of entanglement (unlike these slumbering species), isn't it?
+		CYCAD: But Oeno, isn't the surface of the planet too bright for one to use the rule of quantum entanglement (unlike these slumbering species)?
 				</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CYCAD: Oh, but earlier, the quantum shard moved when...
+		OENO: Come now, Cycad. Did you not notice what caused the quantum shard to move earlier?
 				</Text>
 	</TextBlock>
 	
@@ -62,7 +62,7 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		CYCAD: I see.. A voyager is unable to observe its surroundings on its own. How embarrassing to only now learn how to use the rule of entanglement as a voyager!
+		CYCAD: I see.. A voyager is unable to observe its surroundings on its own. You have my gratitude, Oeno!
 		</Text>
 	</TextBlock>
 	

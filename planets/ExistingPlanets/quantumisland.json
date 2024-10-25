@@ -740,10 +740,11 @@
 		"isRelativeToParent": true
 	},
 	{
-		"rename":"Shard discovery scroll",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/tower excavation discovery.xml",
+		"rename":"Jellyfish bramble scroll",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/jelly specimen.xml",
 		"position": {"x": 0.9582, "y": 1.4982,"z": 0.48},
 		"rotation": {"x": 4.2749, "y": 111.7028, "z": 295.6037},
+		"seed":1,
 		"type":"scroll",
 		"parentPath": "Sector_QuantumIsland/Gallery Bed 2",
 		"isRelativeToParent": true

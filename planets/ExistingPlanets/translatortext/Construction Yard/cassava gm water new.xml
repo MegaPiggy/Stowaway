@@ -28,13 +28,17 @@
 
 
 	<ShipLogConditions>
+	<RevealFact>
+			<FactID>TH_WR R1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
 		<RevealFact>
 			<FactID>CB_EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>CB_EX3</FactID>
-			<Condition>2</Condition>
+			<Condition>3</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

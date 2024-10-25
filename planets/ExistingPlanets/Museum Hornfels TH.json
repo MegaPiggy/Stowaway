@@ -152,11 +152,35 @@
 			"isRelativeToParent": true,
 			"nomaiText": [
 				{
-					"id":"GD_StatueIslandScrollWorkshop",
+					"id": "GD_DeepStormStation",
+					"location": "b",
+					"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/DSS final note.xml",
+					"seed":5,
+					"arcInfo": [
+						{},
+						{"position": {"x":0.7508,"y": 0.1441},"zRotation": 174.9183,"mirror": false},
+						{},{},{},{},{},{},{},{"position": {"x":-1.8202,"y": -0.4096},"zRotation": 224.6098,"mirror": true}
+					]
+				},
+				{
+					"id": "GD_StatueIslandScrollWorkshop",
 					"location": "a",
-					"xmlFile": "planets/ExistingPlanets/translatorText/Timber Hearth mines/sanctuary entangle.xml",
-					"seed":1
-				}]}
+					"seed": 3,
+					"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
+					"arcInfo": [
+						{},
+						{},
+						{},
+						{"position": {"x":-0.3198,"y": 2.3755},"zRotation": 313.8314,"mirror": false},
+						{"position": {"x":1.0425,"y": 2.2456},"zRotation": 276.3438,"mirror": false},
+						{"position": {"x":0.0125,"y": 2.1913},"zRotation": 263.2943,"mirror": false},
+						{"position": {"x": 0.7413,"y": 1.6118},"zRotation": 259.661,"mirror": false},
+						{"position": {"x":1.3596,"y": 0.7185},"zRotation": 185.136,"mirror": false},
+						{"position": {"x":1.1312,"y": -0.0784},"zRotation":  251.3098,"mirror": true}
+					]
+				}
+				
+				]}
 	}
 ],
 		"translatorText": [

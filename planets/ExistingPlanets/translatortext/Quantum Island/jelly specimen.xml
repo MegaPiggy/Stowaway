@@ -1,0 +1,42 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>COLEUS: Friends, I am happy to report the frozen specimen we transported from Bramble Island appears to be thriving in its new habitat!</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>MELORAE: What wonderful news! I am glad we will not need to venture outside the <![CDATA[<color=orange>Looming City</color>]]> again soon, knowing now what roams there..</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>PLUME: My gratitude for all your hard work, my friends.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>PLUME: With the assistance of this specimen, we are better equipped than ever to study and understand this species' behavior.</Text>
+	</TextBlock>
+
+
+
+<ShipLogConditions>
+
+		<RevealFact>
+			<FactID>LC EX5</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Study R2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+
+</ShipLogConditions>
+	
+
+</NomaiObject>

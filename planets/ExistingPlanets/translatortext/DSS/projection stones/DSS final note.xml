@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: When my order is given, all gathered deadly matter will be warped into this space.
+		CASSAVA: When the order is given, all deadly matter I have gathered will be warped into this space.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		CASSAVA: I have ordered the <![CDATA[<color=orange>Inspired</color>]]> to remain in stationary orbit around <![CDATA[<color=lightblue>Giant's Deep..</color>]]> Should containment fail in my absence, I pray that it will catch any ghost matter that leaks out.
+		CASSAVA: I have ordered the <![CDATA[<color=orange>Inspired</color>]]> to remain in stationary orbit around <![CDATA[<color=lightblue>Giant's Deep..</color>]]> Should containment fail in my absence, I pray that it will catch any matter that leaks out.
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: And finally, after ascertaining the safety of the planet's surface, I have released the species within the <![CDATA[<color=orange>Sanctuary</color>]]> with my voyager at last.
+		CASSAVA: But before I give the order, I have released the species within the <![CDATA[<color=orange>Sanctuary</color>]]> back to the surface using my voyager.
 </Text>
 	</TextBlock>
 
@@ -46,7 +46,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: My dearest hope.. is that these species will be able to live on to learn from the universe in our stead.
+		CASSAVA: My dearest hope is that these species will continue to grow and learn from the universe in our stead. I only wish we could have been a part of their journey..
 		</Text>
 	</TextBlock>
 
@@ -55,7 +55,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: I only wish.. I could see all the amazing discoveries they will surely make..
+		CASSAVA: Perhaps someday, they may even find the <![CDATA[<color=orange>Sanctuary</color>]]> and my stagnant voyager within it!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -63,7 +63,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: ...I am ready.
+		CASSAVA: All that remains.. is to collapse the innumerable possibilities before me.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -71,7 +71,7 @@
 		<ParentID>8</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: My friends.. Daz.. I shall join you all shortly.
+		CASSAVA: My friends.. Daz.. I cannot wait to be with you again.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -79,7 +79,7 @@
 		<ParentID>9</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: The universe is - and we shall become one with it!
+		CASSAVA: The universe is.. and we shall become one with it!
 		</Text>
 	</TextBlock>
 

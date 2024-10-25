@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		MELORAE: Friends, Coleus and I shall be departing for our joint expedition of the star system's other planets with our reunited friends soon! Please wish us both well!
+		MELORAE: Friends, Coleus and I shall be departing for our expedition with our friends on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> soon. Please wish us both well!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -22,7 +22,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		MELORAE: They have! We shall be traveling to the stormy planet with them - while another group explores the forested planet.
+		MELORAE: They have. We shall be traveling to the stormy planet with them, while another group explores the forested planet. How fortunate for us!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -46,7 +46,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: It does, a little.. But it fills me with greater terror! We have no way of knowing what awaits us once we penetrate those thick clouds!
+		COLEUS: A little, I suppose.. But it fills me with greater terror! We have no way of knowing what awaits us once we penetrate those thick clouds!
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -54,7 +54,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		MELORAE: Come now, Coleus.. Look on the sunward side: it also means we will get to explore a planet that is dark, cool and far from the <![CDATA[<color=lightblue>sun's</color>]]> dreadful heat!
+		MELORAE: Come now, Coleus.. Look on the sunward side: it also means enjoying a stay on a planet dark, cool and far from the <![CDATA[<color=lightblue>sun's</color>]]> dreadful heat!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -62,7 +62,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		COLEUS: Hah, so that was the reason you were so excited!
+		COLEUS: Hah, so that was the true source of your glee! Indeed, it shall be a pleasure to depart this scorching planet at last..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -70,7 +70,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		COLEUS: Indeed, it shall be a pleasure to depart this scorching planet at last. I eagerly await what knowledge this stormy planet will share with us!
+		COLEUS: I cannot wait to learn what knowledge this stormy planet will share with us!
 		</Text>
 	</TextBlock>
 	

@@ -45,7 +45,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		PLUME: Remember to use your masks to document your surroundings, so we may share this planet with our friends when we return home to Brittle Hollow and Ember Twin.
+		THATCH: An update: friends, this island appears to have a wonderful, cavernous interior!
 		</Text>
 	</TextBlock>
 			<TextBlock>	
@@ -53,7 +53,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		THATCH: Friends, this island appears to have a wonderful, cavernous interior. Until we can find more ideal shelter, I believe we should move our supplies from this camp into there!
+		THATCH: Until we can find more ideal shelter, I believe we should move our supplies from this camp into there!
 		</Text>
 			</TextBlock>
 				

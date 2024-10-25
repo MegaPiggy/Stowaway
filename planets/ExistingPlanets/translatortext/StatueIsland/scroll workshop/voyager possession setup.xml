@@ -2,11 +2,13 @@
 	
 	<![CDATA[<color=orange>Excavation Site</color>]]>
 
+Clue: Voyagers stay when you disconnect. Walking into the pool reconnects you
+
 	<TextBlock>
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		OENO: Daz, your new voyager stones are truly revolutionary. The construction of the <![CDATA[<color=orange>Sanctuary</color>]]> has already progressed swiftly thanks to you!
+		DAZ: I noticed somebody has left their voyager idle after using the voyager stone again today. Please, remember to end your voyages properly, my friends!
 		</Text>
 	</TextBlock>
 
@@ -15,7 +17,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		OENO: However, after spending much time working with them, Coleus and I believe we may have already found a few quirks with the technology we require you to look into.
+		PHLOX: Oh, I apologize, Daz; I believe I am the one responsible. May I ask what is the procedure to properly end a voyage?
 		</Text>
 	</TextBlock>
 
@@ -24,25 +26,25 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		OENO: To start: while working in shifts with Coleus, I noticed my voyage consistently beginning some distance outside of the projection pool. (Coleus corroborated this issue during his shifts too!)
+		DAZ: It is simple! You simply need to disengage your voyager stone from the projection pool's pedestal.
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
-		<ParentID>3</ParentID>
+		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		OENO: In the dark, this has caused me to stumble off the tiny island more times than I wish to admit! Is this an intended feature of the voyager stone?
+		DAZ: If the projection pool is still swirling, that means it is still active and awaiting reconnection.
 		</Text>
 	</TextBlock>
 
 		<TextBlock>
 		<ID>5</ID>
-		<ParentID>2</ParentID>
+		<ParentID>4</ParentID>
 		<LocationB />
 		<Text>
-		OENO: More alarmingly: during Coleus' shift, as he used the voyager stone, I began to receive memories from his voyage, and even heard his thoughts! it was as if we had some sort of telepathic connection!
+		DAZ: Stepping onto an active projection pool will reconnect you with the voyager, returning you to its position. This allows one to easily resume voyages far from the projection pool!
 		</Text>
 	</TextBlock>
 
@@ -51,7 +53,7 @@
 		<ParentID>5</ParentID>
 		<LocationB />
 		<Text>
-		OENO: I understand the voyager stones function using the memory storage system crafted for the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		DAZ: An update: Phlox, you have left your voyager idle again!
 		</Text>
 	</TextBlock>
 
@@ -60,25 +62,12 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		OENO: Could there perhaps have been some sort of mix-up between our memory masks, caused by us sharing the same voyager stone?
+		PHLOX: I apologize, Daz, I cannot help it.. These voyagers are so useful to keep around as reference while sculpting statues in our image!
 		</Text>
 	</TextBlock>
 
-		<TextBlock>
-		<ID>8</ID>
-		<ParentID>7</ParentID>
-		<LocationB />
-		<Text>
-		OENO: We have decided to pause our work with the voyager stones until these issues can be amended. We would deeply appreciate if you could investigate them soon, Daz!
-		</Text>
-	</TextBlock>
-
-<ShipLogConditions>
-		<RevealFact>
-			<FactID>Workshop EX3</FactID>
-			<Condition>7</Condition>
-		</RevealFact>
 	
+<ShipLogConditions>
 	</ShipLogConditions>
 
 </NomaiObject>

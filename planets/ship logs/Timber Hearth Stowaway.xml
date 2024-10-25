@@ -167,11 +167,15 @@
        </ExploreFact>
           <ExploreFact>
             <ID>SY EX2</ID> 
-            <Text>The Hearthians left within the Sanctuary were protected from ghost matter, and quarantined inside this space.</Text> 
+            <Text>The Hearthians left within the Sanctuary were protected from some sort of danger, and quarantined inside this space.</Text> 
+            <AltText>
+                <Text>The Hearthians left within the Sanctuary were protected from ghost matter, and quarantined inside this space.</Text>
+                <Condition>COMET_INTERIOR_X1</Condition>
+            </AltText>
         </ExploreFact>
           <ExploreFact>
             <ID>SY EX3</ID> 
-            <Text>A Nomai named Cycad learned how to use the rule of entanglement as a voyager.</Text> 
+            <Text>A Nomai named Cycad sought help after he disengaged his voyager stone by accident, causing a quantum shard to escape his sight. Another Nomai reminded him that voyagers are able to use the rule of quantum entanglement.</Text> 
          </ExploreFact>
          <ExploreFact>
             <ID>SY EX4</ID> 
@@ -211,7 +215,11 @@
         </ExploreFact>
          <ExploreFact>
             <ID>Campsite EX3</ID>
-            <Text>The Nomai planned to use a new invention from the Scroll and Stone Workshop on Giant's Deep to enter the Sanctuary.</Text> 
+            <Text>The Nomai used a new invention from the Scroll and Stone Workshop on Giant's Deep to enter the Sanctuary.</Text> 
+        </ExploreFact>
+           <ExploreFact>
+            <ID>Campsite EX4</ID>
+            <Text>This new invention would allow the Nomai to use the rule of quantum entanglement without complete darkness.</Text> 
         </ExploreFact>
 
 
@@ -221,13 +229,12 @@
                   <Name>Nomai Ruins</Name>
 
                 <Curiosity>STOWAWAYS</Curiosity>
+             
                <RumorFact>
-                 <ID>TH_WR R1</ID>
-                    <SourceID>TH_WARPTOWER</SourceID>
-                     <Text>A Nomai named Cycad delivered news about rotating doors on Ash Twin activating on their own to Timber Hearth.</Text>
-                </RumorFact>     
-                
-
+            <ID>TH_WR R1</ID> 
+            <RumorName>Timber Hearth Ghost Matter</RumorName>
+            <Text>A Nomai named Cassava traveled to Timber Hearth to study another property of ghost matter he noticed.</Text> 
+        </RumorFact>
           <ExploreFact>
                     <ID>TH_WR EX3</ID> 
                    <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead.</Text> 

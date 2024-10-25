@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Daz, do you have the projection stone containing our conversation with the Deep Storm Station, from the day we became engaged? I wish to keep it as a memento of that day!
+		CASSAVA: Daz, I seem to be unable to retrieve a conversation I wrote using this projection stone. Could there be an issue with its data?
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -14,7 +14,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: My love, I'm afraid you misunderstand! The conversation was not recorded on the projection stone itself, but the projection wall we wrote it on.
+		DAZ: My love, I'm afraid you misunderstand! Conversations shared across projection stones are not recorded onto the stone itself like our scrolls - they are recorded on projection walls!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -22,7 +22,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Conversations shared across projection walls are only recorded on the walls at both ends of the conversation, and viewed with the corresponding projection stones.
+		DAZ: The projection walls at both ends of the conversation record these shared conversations, and allow Nomai to view them again using the corresponding projection stones.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -30,7 +30,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Put simply, one can only access that conversation through the <![CDATA[<color=orange>Lovers' Cove</color>]]> projection wall or the <![CDATA[<color=orange>Deep Storm Station</color>]]> projection wall, using the corresponding projection stones!
+		DAZ: To find the conversation you seek, you will need to use the corresponding projection stone at the projection wall it was written on!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -38,7 +38,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: This applies for any conversation written on a projection wall! That is why a single projection stone can unlock many conversations across different projection walls.
+		DAZ: This applies for any conversation shared across a projection wall! A single projection stone can unlock many conversations across different projection walls.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -46,7 +46,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: I see.. Oh, how shameful to have only learned today how projection walls work when I am engaged to you, Daz!
+		CASSAVA: Oh! Goodness, no wonder I could not find so many conversations I had written before.. You have my gratitude, Daz!
 		</Text>
 	</TextBlock>
 	

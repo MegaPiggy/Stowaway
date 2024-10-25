@@ -7,15 +7,7 @@
 	{
 		"revealVolumes":
 		[
-			{
-			"reveals":["Pioneer R1"],
-			"revealOn": "observe",
-			"revealFor": "both",
-			"radius": 1,
-			"position": {"x":11.1952,"y": -3.5767 ,"z": -93.2351},
-			"isRelativeToParent": true,
-			"maxDistance": 5
-			}
+		
 		]
 	},
 	
@@ -36,6 +28,27 @@
 
 		"details":
 		[		
+		
+			{
+				"rename": "Orcnid w Stray Legs",
+				"path": "DarkBramble_Body/Sector_DB/Geometry_DB/OtherComponentsGroup/Beast_DB_FrozenJellyfish_v3",
+				"position": {"x": -194.1157, "y": -259.9105, "z": -41.6838},
+				"rotation": {"x": 331.0691, "y": 236.2045, "z": 209.1143},
+				"scale":0.6,
+				"isRelativeToParent": true,
+				"keepLoaded": true
+			},
+			{
+				"rename": "Orcnid collider",
+				"assetBundle": "planets/bundle/dev",
+				"path": "assets/models/devcom/cube.prefab",
+				"position": {"x": 13.059, "y": -5.2642, "z": -90.4243},
+				"rotation": {"x": 336.4444, "y": 237.3125, "z": 0.2139},
+				"scale": 5,
+				"isRelativeToParent": true
+			},
+
+
 			{
 				"rename":"whiteboard light",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text/",
@@ -554,8 +567,8 @@
 				"rename":"Jellyfish mural tablet",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/tablet.prefab",
-				"position":{"x":11.4512,"y": -3.6618,"z": -93.6009},
-				"rotation":{"x":336.4135,"y": 257.5005,"z": 178.8469},
+				"position":{"x":2.954,"y": 4.6859,"z": -92.1262},
+				"rotation":{"x":32.6081,"y": 339.4995,"z": 185.0364},
 				"isRelativeToParent": true
 			},
 			{
@@ -981,12 +994,19 @@
 							{
 								"id": "TH_Sanctuary",
 								"location": "b",
-								"seed": 1,
+								"seed": 3,
 								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
 								"arcInfo": [
-												{},{},{},{},{},{},{},{},
-												{"mirror": false,"position": {"x":-0.8517,"y": 2.1612},"zRotation": 314.4789}
-											]
+									{},
+									{},
+									{},
+									{"position": {"x":-0.3198,"y": 2.3755},"zRotation": 313.8314,"mirror": false},
+									{"position": {"x":1.0425,"y": 2.2456},"zRotation": 276.3438,"mirror": false},
+									{"position": {"x":0.0125,"y": 2.1913},"zRotation": 263.2943,"mirror": false},
+									{"position": {"x": 0.7413,"y": 1.6118},"zRotation": 259.661,"mirror": false},
+									{"position": {"x":1.3596,"y": 0.7185},"zRotation": 185.136,"mirror": false},
+									{"position": {"x":1.1312,"y": -0.0784},"zRotation":  251.3098,"mirror": true}
+								]
 							},
 							{
 								"id": "GD_DeepStormStation",
@@ -1111,20 +1131,9 @@
 				"rotation": {"x": 281.3267, "y": 64.7731, "z": 341.4119},
 				"type": "scroll",
 				"isRelativeToParent": true,
-				"seed": 4,
+				"seed":5,
 				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession setup.xml",
-			"arcInfo": [
-					{},
-					{},
-					{},
-					{},
-					{"position": {"x":1.2728,"y": 1.2918},
-				"zRotation": 16.1187,
-			"mirror": true},
-					{},
-					{},
-					{}
-				],
+			
 				"parentPath": "Sector_StatueIsland/scroll shelves"
 			},
 			{

@@ -45,7 +45,7 @@
 		<ParentID>4</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Poke, Pye and Clary are already exploring the newly arrived <![CDATA[<color=lightblue>comet</color>]]> at this very moment. Imagine what we may
+		DAZ: Poke, Pye and Clary are already exploring the newly arrived <![CDATA[<color=lightblue>comet</color>]]> at this very moment. Imagine what knowledge we may
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -53,7 +53,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Daz? Did something interrupt your thought?
+		CASSAVA: Daz? Did something interrupt your thought? Your voyager is still here in the <![CDATA[<color=orange>Deep Storm Station..</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>

@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		OENO: You saw the vision orb move up slightly, didn't you, Cycad? Neither of us were looking directly at it!
+		OENO: You saw the vision orb move upwards, didn't you, Cycad? Neither of us were looking directly at it!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		CYCAD: Still, it is a joy watching you teach and play with the native species, Oeno. I am sure they will thrive to learn from the universe themselves one day!
+		CYCAD: Still, it is a joy watching you teach and play with the native species, Oeno.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -61,7 +61,15 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		OENO: That is my hope too! It is lovely seeing these lifeforms learning and growing as they become more comfortable with our presence.
+		OENO: I am glad to hear you say so! It is lovely seeing these lifeforms growing more curious as they become more comfortable with our presence.
+				</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		OENO: I can only imagine how they will surprise us as they continue to grow and learn from this universe!
 				</Text>
 	</TextBlock>
 	

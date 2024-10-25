@@ -4,9 +4,9 @@
 
 	<TextBlock>
 		<ID>1</ID>
-		<LocationB />
+		<LocationA />
 		<Text>
-		DAZ: Oeno, I saw your scroll today regarding the issues you and Coleus encountered during the <![CDATA[<color=orange>Sanctuary's</color>]]> construction. (My thanks to both of you for your help testing the voyager stones!)
+		OENO: Daz, the <![CDATA[<color=orange>Sanctuary's</color>]]> construction has been completed already, thanks to your voyager stones! I hope you will voyage to visit it soon to see our work.
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: To your first observation: what you described is indeed an intended feature! The memory storage systems allow one voyager per system to remain on standby while disconnected.
+		DAZ: What terrific news! Cassava, you should join me with a voyager stone - I am sure you will be impressed by our friends' work!
 		</Text>
 	</TextBlock>
 	
@@ -24,16 +24,16 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: When reengaged, the voyager continues from that exact position - allowing Nomai to quickly return to their voyages, no matter how far they traveled from the projection pool!
+		CASSAVA: I would love to! I have no doubt that
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
-		<ParentID>1</ParentID>
+		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: I find your hypothesis highly compelling - the memory storage systems must be confused somehow to cause the telepathic link you described. However, it is not to do with the voyager stone itself..
+		DAZ: Whose thoughts are these? Cassava, is that you..? Are we.. Are we sharing the same voyage?!
 		</Text>
 	</TextBlock>
 
@@ -42,16 +42,16 @@
 		<ParentID>4</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: The problem seems to arise when multiple Nomai share the same projection pool, as you and Coleus likely did while working in shifts.
+		CASSAVA: I-I am unsure! I only stepped into the projection pool you were using.. Quickly, disengage the projection stone from the pedestal at once!
 		</Text>
 	</TextBlock>
 	
 		<TextBlock>
 		<ID>6</ID>
-		<ParentID>5</ParentID>
-		<LocationB />
+		<ParentID>3</ParentID>
+		<LocationA />
 		<Text>
-		DAZ: It appears the voyager system currently fails to discern between the first voyager, and any subsequent Nomai voyaging from that projection pool to the same destination.
+		OENO: What happened? Are you both alright?
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Instead of creating a new voyager, they inhabit the inactive voyager - causing both memory storage systems to be connected to the same voyager, and creating a stream of shared consciousness!
+		CASSAVA: I.. I believe I may have accidentally connected to Daz's voyager, after stepping into the projection pool he was using.. I was unaware the voyager stones were capable of such a thing!
 		</Text>
 	</TextBlock>
 
@@ -68,18 +68,18 @@
 <TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<LocationA />
+		<LocationB />
 		<Text>		
-			OENO: Goodness, what an illuminating and expedient assessment, Daz! I suppose such a major issue should be fixed.. though I must admit it was fun sharing a consciousness with someone else!
+			DAZ: Our thoughts and experiences were being streamed to each other through the voyager's connection to our memory masks... For the briefest of moments, we were one, Cassava!
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>9</ID>
 		<ParentID>8</ParentID>
-		<LocationA />
+		<LocationB />
 		<Text>
-			OENO: But now that we know the issue, Coleus and I shall simply work from different projection pools until it is fixed - that should prevent the system from confusing our memory storage systems again!
+			CASSAVA: Daz, that was incredible.. I can only imagine what we may be able to do with this incredible discovery!
 		</Text>
 	</TextBlock>
 

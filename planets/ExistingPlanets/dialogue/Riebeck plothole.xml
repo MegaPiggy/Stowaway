@@ -454,8 +454,8 @@
 		<Name>Riebeck_NT</Name>
 		<Dialogue>
 			<Page>Just imagine! We might all be sitting around a campfire today, sharing stories and marshmallows with the Nomai.</Page>
-			<Page>Hey, you ever wonder how the Nomai would roast their marshmallows? I have! <![CDATA[<size=20>]]>I've spent a little too long sitting here paralyzed in fear.<![CDATA[</size>]]></Page>
-			<Page>All we know about their diet is that they mostly ate plants - so maybe they'd just eat marshmallows out of the can? Y'know, like the opposite of Gabbro!</Page>
+			<Page>Hey, you ever wonder how the Nomai would roast their marshmallows? I have! <![CDATA[<size=20>]]>I've spent a little too long sitting here outside their city, paralyzed in fear.<![CDATA[</size>]]></Page>
+			<Page>All we know about their diet is that they mostly ate plants - so maybe they'd just eat marshmallows out of the can? Y'know, like the opposite of Gabbro! Still don't know why they love the taste of burnt marshmallows.</Page>
 			<Page>.. Sorry, that was just something silly I was thinking about.</Page>
 		</Dialogue>
 	</DialogueNode>

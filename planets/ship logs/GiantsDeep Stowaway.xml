@@ -105,6 +105,11 @@
             <RumorName>Jellyfish Study Site</RumorName>
             <Text>A group of Nomai discovered frozen jellyfish on this island. They decided to find higher elevation to be safe from the waves while studying them.</Text> 
         </RumorFact>
+        <RumorFact>
+            <ID>Study R2</ID>
+            <RumorName>Jellyfish Study Site</RumorName>
+            <Text>The Nomai transported a frozen jellyfish from this island to the Looming City.</Text> 
+        </RumorFact>
         
         <ExploreFact>
             <ID>Study EX1</ID> 
@@ -135,14 +140,10 @@
 
        
 
-          <RumorFact>
-            <ID>Pioneer R1</ID>
-              <IgnoreMoreToExplore/>
-            <Text>I found a mural of what appears to be Nomai observing jellyfish on the surface of the ocean.</Text> 
-        </RumorFact>
+         
         <ExploreFact>
             <ID>Pioneer EX1</ID> 
-            <Text>This camp on Statue Island's shore sheltered Nomai during their first survey expedition to Giant's Deep.</Text> 
+            <Text>This camp sheltered Nomai during their first survey expedition to Giant's Deep.</Text> 
         </ExploreFact>
            <ExploreFact>
             <ID>Pioneer EX2</ID> 
@@ -150,7 +151,7 @@
         </ExploreFact>
              <ExploreFact>
             <ID>Pioneer EX3B</ID> 
-            <Text>The Nomai recorded their first encounter with a cyclone on the planet here. A Nomai named Thatch complained about becoming soaked when the island plunged back into the ocean.</Text>
+            <Text>The Nomai recorded their first encounter with a cyclone here. A Nomai named Thatch complained about becoming soaked when the island plunged back into the ocean.</Text>
         </ExploreFact>
          <ExploreFact>
             <ID>Pioneer EX3</ID> 
@@ -158,15 +159,11 @@
         </ExploreFact>
          <ExploreFact>
            <ID>Pioneer EX3.5</ID> 
-            <Text>A Nomai named Daz noticed the island's storm shelters powering on by themselves, even in the absence of cyclones.</Text> 
+            <Text>A Nomai named Daz noticed storm shelters powering on by themselves, even in the absence of cyclones.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>Pioneer EX4</ID> 
-            <Text>The Nomai discovered a species of tentacled lifeforms on the surface of Giant's Deep.</Text> 
-                   <AltText>
-                  <Text>The Nomai discovered jellyfish on the surface of Giant's Deep.</Text>
-                  <Condition>Pioneer R1</Condition>
-                  </AltText>
+            <Text>The Nomai discovered jellyfish on the surface of Giant's Deep.</Text> 
         </ExploreFact>
 </Entry>
 
@@ -312,7 +309,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>LC EX5</ID> 
-            <Text>Quantum objects can be locked in place by observing them through photos.</Text> 
+            <Text>The Nomai transported a frozen jellyfish here from Bramble Island in hopes of studying jellyfish behavior.</Text> 
         </ExploreFact>
 
     <Entry>
@@ -428,16 +425,16 @@
 
          <ExploreFact>
             <ID>DSS EX4</ID> 
-            <Text>Cassava released the species within the Sanctuary back to the surface with his voyager after ensuring it was safe again.</Text> 
+            <Text>Cassava released the species within the Sanctuary back to the surface using his voyager.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>DSS EX5</ID> 
-            <Text>Cassava gathered as much ghost matter from the star system as he was safely able to, and warped it into the Deep Storm Station to contain it at the cost of his own life.</Text>
+            <Text>Cassava gathered much of the ghost matter in the star system and warped it into the Deep Storm Station, to contain it at the cost of his own life.</Text>
         </ExploreFact>
     
              <ExploreFact>
             <ID>DSS EX6</ID> 
-            <Text>The Nomai known as Cassava met his end without fear, praying for the future of the native species.</Text> 
+            <Text>The Nomai known as Cassava met his end praying for the future of the native species, wishing the Nomai could have been part of their journey.</Text> 
         </ExploreFact>
 
 </Entry>
