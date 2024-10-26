@@ -1,0 +1,68 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name":"Hollow's Lantern",
+
+	
+	"Props" :
+	{
+
+	"details": [
+		{
+			"rename":"lava floating raft",
+			"parentPath": "MoltenCore_VM",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
+			"position":{"x":29.1363,"y": 81.9031,"z": 7.1496},
+			"rotation":{"x":357.9273,"y": 317.627,"z": 341.2101},
+			"scale":1,
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"frictionless orb",
+			"parentPath": "MoltenCore_VM",
+			"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/spherecollider.prefab",
+				"position": {"x":29.0081,"y": 82.7222,"z": 7.5874},
+				"rotation": {"x":15.47,"y": 17.6313,"z": 349.0074},
+			"scale":1.2,
+			"isRelativeToParent": true
+		}
+	],
+	"translatorText": [
+		{
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/vm heat.xml",
+			"parentPath": "MoltenCore_VM",
+			"type": "recorder",
+			"position": {"x":29.0081,"y": 82.4222,"z": 7.5874},
+			"rotation": {"x":15.47,"y": 17.6313,"z": 349.0074},
+			"isRelativeToParent": true
+		},
+		{
+			"type": "computer",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/vm lava levels.xml",
+			"parentPath": "Sector_VM/Interactables_VM",
+			"rename":"lava levels computer",
+			"position": {"x":35.95,"y": 92.1,"z": 34.42},
+			"rotation": {"x":10.8557,"y": 359.3234,"z": 356.412},
+			"isRelativeToParent": true
+		}
+	]
+
+},
+
+
+
+
+
+"removeChildren": [
+	"Sector_VM/Interactables_VM/Prefab_NOM_Computer"
+],
+
+"ShipLog" :
+{
+	"xmlFile": "planets/ship logs/VM Stowaway.xml",
+	"spriteFolder": "planets/ship logs/sprites"
+}
+}
+

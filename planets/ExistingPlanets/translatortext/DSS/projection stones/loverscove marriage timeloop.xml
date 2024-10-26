@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: The test has concluded, but our goal is not yet within reach. But as Pye says, the project was a successful stepping stone for the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		YARROW: I am afraid our goal is not yet within reach.. But as Pye says, the <![CDATA[<color=orange>Deep Storm Station</color>]]> was a successful stepping stone.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: Regardless, let us not be distracted by these results from a far more important question!
+		YARROW: But come, let us not be distracted by these results...
 		</Text>
 	</TextBlock>
 	<TextBlock>

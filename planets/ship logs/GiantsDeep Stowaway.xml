@@ -143,11 +143,11 @@
          
         <ExploreFact>
             <ID>Pioneer EX1</ID> 
-            <Text>This camp sheltered Nomai during their first survey expedition to Giant's Deep.</Text> 
+            <Text>This beach was where Nomai landed on their first survey expedition to Giant's Deep, before they moved their supplies into the island's interior for shelter.</Text> 
         </ExploreFact>
-           <ExploreFact>
-            <ID>Pioneer EX2</ID> 
-            <Text>The expedition team moved their supplies into the island's interior for shelter.</Text> 
+         <ExploreFact>
+            <ID>Pioneer EX4</ID> 
+            <Text>The Nomai encountered jellyfish on the surface of Giant's Deep.</Text> 
         </ExploreFact>
              <ExploreFact>
             <ID>Pioneer EX3B</ID> 
@@ -155,15 +155,11 @@
         </ExploreFact>
          <ExploreFact>
             <ID>Pioneer EX3</ID> 
-            <Text>A Nomai named Melorae stressed the importance of protecting themselves from cyclones, or seeking a landmass clear of the cyclones' path entirely.</Text> 
+            <Text>The Nomai looked for ways to protect themselves from cyclones, as well as landmasses clear of the cyclones' path.</Text> 
         </ExploreFact>
          <ExploreFact>
            <ID>Pioneer EX3.5</ID> 
-            <Text>A Nomai named Daz noticed storm shelters powering on by themselves, even in the absence of cyclones.</Text> 
-        </ExploreFact>
-         <ExploreFact>
-            <ID>Pioneer EX4</ID> 
-            <Text>The Nomai discovered jellyfish on the surface of Giant's Deep.</Text> 
+            <Text>The Nomai noticed the island's storm shelters powering on by themselves, even in the absence of cyclones.</Text> 
         </ExploreFact>
 </Entry>
 
@@ -238,7 +234,7 @@
         <ExploreFact>
             <IgnoreMoreToExplore/>
             <ID>Cove EX3</ID> 
-            <Text>While sharing joyous news of his engagement, Daz revealed that he had proposed to Cassava during a 6-second negative time interval.</Text> 
+            <Text>While sharing joyous news of his engagement, Daz revealed that he had proposed to Cassava during a negative time interval.</Text> 
         </ExploreFact>
            <ExploreFact>
             <ID>Cove EX4</ID> 
@@ -309,7 +305,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>LC EX5</ID> 
-            <Text>The Nomai transported a frozen jellyfish here from Bramble Island in hopes of studying jellyfish behavior.</Text> 
+            <Text>The Nomai transported a frozen jellyfish here from Bramble Island to study the jellyfish's behavior.</Text> 
         </ExploreFact>
 
     <Entry>
@@ -325,12 +321,12 @@
         </RumorFact>
         <RumorFact>
             <ID>LCJ R2</ID> 
-            <Text>A Nomai named Solanum lost a scroll from the tower in this pool. A jellyfish at the bottom of the pool is blocking the scroll with electrifying tentacles.</Text> 
+            <Text>A Nomai named Solanum lost a scroll from the tower in this pool. A jellyfish at the bottom of the pool has surrounded the scroll with its electrifying tentacles.</Text> 
         </RumorFact>
         
          <ExploreFact>
             <ID>LCJ EX1</ID> 
-            <Text>A pool under the Looming City that houses a jellyfish the Nomai studied. A scroll sits at the bottom of the pool, guarded by the jellyfish.</Text> 
+            <Text>A pool under the Looming City that houses a jellyfish. A scroll sits at the bottom of the pool, guarded by the jellyfish.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>LCJ EX2</ID> 
@@ -354,7 +350,7 @@
 		<IsCuriosity/>
 
       <RumorFact>
-            <RumorName>Deepest Space</RumorName>
+            <RumorName>Deep Core</RumorName>
             <ID>DSS Probe</ID> 
             <Text>My scout was warped somewhere into a space with glowing masks and wires. It appears to be flooded with ghost matter.</Text>
     </RumorFact>
@@ -374,12 +370,12 @@
      <RumorFact>
                   <ID>CONV R1</ID> 
                      <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
-                 <Text>The Deep Storm Station powered a 6-second negative time interval to test the mechanics of the Ash Twin Project.</Text> 
+                 <Text>The Deep Storm Station used energy from Giant's Deep's electric core to test the mechanisms of the Ash Twin Project.</Text> 
     </RumorFact>
     <RumorFact>
                  <ID>CONV R2</ID> 
                <SourceID>LOVERSCOVE</SourceID>
-            <Text>While sharing joyous news of his engagement with the Deep Storm Station, Daz revealed that he had proposed to Cassava during a 6-second negative time interval.</Text> 
+            <Text>While sharing joyous news of his engagement with the Deep Storm Station, Daz revealed that he proposed to Cassava during a 6-second negative time interval.</Text> 
     </RumorFact>
          <RumorFact>
                  <ID>CONV R3</ID> 
@@ -399,7 +395,7 @@
             <ID>DSS EX1</ID> 
             <Text>An underwater station built at the heart of Giant's Deep.</Text>
                   <AltText>
-                        <Text>An underwater station at the heart of Giant's Deep, built to test the mechanics of the Ash Twin Project using energy from the planet's electric core.</Text>
+                        <Text>An underwater station at the heart of Giant's Deep, built to test the mechanisms of the Ash Twin Project using energy from the planet's electric core.</Text>
                         <Condition>CONV R1</Condition>
                  </AltText>
         </ExploreFact>
@@ -434,7 +430,7 @@
     
              <ExploreFact>
             <ID>DSS EX6</ID> 
-            <Text>The Nomai known as Cassava met his end praying for the future of the native species, wishing the Nomai could have been part of their journey.</Text> 
+            <Text>The Nomai known as Cassava met his end without fear, wishing the Nomai could have been part of the native species' journey.</Text> 
         </ExploreFact>
 
 </Entry>

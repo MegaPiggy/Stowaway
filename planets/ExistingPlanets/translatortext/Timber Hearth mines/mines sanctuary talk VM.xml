@@ -66,6 +66,10 @@
 	
 
 <ShipLogConditions>
+<RevealFact>
+			<FactID>LV R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
 				<RevealFact>
 			<FactID>Campsite EX1</FactID>
 			<Condition>1</Condition>

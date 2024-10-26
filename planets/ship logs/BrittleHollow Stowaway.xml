@@ -27,7 +27,7 @@
      </ExploreFact>
          <ExploreFact>
             <ID>BH_H EX4</ID> 
-            <Text>Scrolls lost to the black hole are returned by Nomai at the warp receiver.</Text> 
+            <Text>Scrolls lost to the black hole are returned by Nomai at Brittle Hollow's warp receiver.</Text> 
         </ExploreFact>
       
 </Entry>
@@ -49,11 +49,11 @@
 
         <ExploreFact>
             <ID>GSHOP EX1</ID> 
-            <Text>Gravity crystals were crafted from fragments of Brittle Hollow's crust at this workshop.</Text> 
+            <Text>Gravity crystals were crafted from fragments of Brittle Hollow's crust and stored at this workshop.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>GSHOP EX2</ID> 
-            <Text>Storm shelters were engineered in this workshop in collaboration with the Sunless City to protect the Nomai working on Giant's Deep.</Text> 
+            <Text>Storm shelters were engineered at this workshop in collaboration with the Sunless City to protect Nomai working on Giant's Deep.</Text> 
         </ExploreFact>
  <ExploreFact>
             <ID>GSHOP EX3</ID>
@@ -61,7 +61,15 @@
      </ExploreFact>
          <ExploreFact>
             <ID>GSHOP EX4</ID> 
-            <Text>The solar panels powering the storm shelters are tuned to detect even faint amounts of sunlight, causing the storm shelters to activate when the sun is directly overhead.</Text> 
+            <Text>Nomai on Giant's Deep reported some sort of issue with the storm shelter when the sun was directly overhead.</Text> 
+             <AltText>
+                         <Text>The solar panels powering the storm shelters are tuned to detect even faint amounts of sunlight, causing storm shelters to activate when the sun is directly overhead.</Text>
+                         <Condition>GSHOP R2</Condition>
+                    </AltText>
+        </ExploreFact>
+          <ExploreFact>
+            <ID>GSHOP EX5</ID> 
+            <Text>Feldspar discovered gravity crystals here on their first expedition into space. They wanted to bring one home, but were unable to find any available crystals at this site.</Text> 
         </ExploreFact>
       
 </Entry>

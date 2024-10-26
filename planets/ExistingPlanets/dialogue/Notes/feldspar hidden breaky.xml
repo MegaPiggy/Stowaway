@@ -6,15 +6,21 @@
     <Name>Feldspar_Destroyer</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>Trip 2, entry #1</Page>
+      <Page>Trip 1, entry #3</Page>
       <Page>Crashes: 30 (It's fun hearing the brittle crust crack)</Page>
       <Page>Woah. What are these weird lil' crystals? They're making me stick to the wall..</Page>
-          <Page>Guess they must play with gravity somehow? Man, the Nomai had some sweet tech!</Page>
-             <Page>I should try bring one home to Timber Hearth! Uh, if that's even.. possible.</Page>
-              <Page>Bet it'd make a pretty neat exhibit in Hornfels' new museum.</Page>
-             <Page>And if Slate could install one of these in the ship, it'd probably help out a ton with spacesickness in the ship, too.</Page>
-             <Page>If it works out, maybe I could finally fly that lil' hatchling who's afraid of space to see the ruins on this planet at last!</Page>
+          <Page>Are they playing with gravity somehow? Oh, wow.. This would be incredible for exploring, wouldn't it?</Page>
+             <Page>I <![CDATA[<i>gotta</i>]]> bring this home to Timber Hearth! If that's even.. possible.</Page>
+             <Page>Hnnnng. HNNNNG.</Page>
+              <Page>Okay, pulling isn't working. I think if I pull any harder I'm gonna break it..</Page>
+               <Page>Guess you can't pull these out without breaking 'em once they're set? Good to know, I guess..</Page>
+             <Page>Alright, note to self, Feldspar: if you find any more of these not stuck to a wall, bring 'em home!</Page>
+             <Page>..Man, nothing in all these houses? Did the Nomai use them all up or something?</Page>
+             <Page>Guess I'll keep looking elsewhere. I ain't going home without one to put on exhibit in Hornfel's new museum!</Page>
     </Dialogue>
+                <RevealFacts>
+     						   <FactID>GSHOP EX5</FactID>
+    					  </RevealFacts>
   </DialogueNode>
 
 </DialogueTree>

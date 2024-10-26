@@ -7,7 +7,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CLARY: Friends, the <![CDATA[<color=orange>White Hole Station's</color>]]> construction was completed today. I cannot wait to jump into the black hole to visit and test it soon!
+		CLARY: Friends, the <![CDATA[<color=orange>White Hole Station's</color>]]> construction was completed today. I cannot wait to jump into the black hole to test it soon!
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		POKE: Wait, Clary! The <![CDATA[<color=orange>White Hole Station</color>]]> isn't operational yet! <![CDATA[<i>Do not</i>]]> jump into the black hole!
+		POKE: Wait, Clary! The <![CDATA[<color=orange>White Hole Station</color>]]> is not operational yet! <![CDATA[<i>Do not</i>]]> jump into the black hole!
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		CLARY: I owe Filix my deepest gratitude for <![CDATA[<i>verbally</i>]]> warning me before I leapt.. Has a site been chosen for the warp receiver yet, Poke?
+		CLARY: I owe Filix my deepest gratitude for <![CDATA[<i>verbally</i>]]> warning me before I leapt.. Has a site been chosen for the <![CDATA[<color=orange>White Hole Station's</color>]]> warp receiver yet, Poke?
 		</Text>
 	</TextBlock>
 
@@ -61,7 +61,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CLARY: In that case, I'm off to install the warp receiver! Afterwards.. I shall finally have my chance to jump into a black hole!
+		CLARY: In that case, I'm off to install the warp receiver. I simply cannot wait to finally experience jumping into a black hole for the first time!
 		</Text>
 	</TextBlock>
 

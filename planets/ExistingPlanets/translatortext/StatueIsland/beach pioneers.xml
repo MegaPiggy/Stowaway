@@ -60,12 +60,9 @@
 
 <ShipLogConditions>
 	
+	
 		<RevealFact>
 			<FactID>Pioneer EX1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>Pioneer EX2</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
 

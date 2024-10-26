@@ -24,7 +24,7 @@
 		{
 			"audio": "OW_TH_UnderwaterRushing",
 			"rename": "Sanctuary water noises",
-			"track": "environmentUnfiltered",
+			"track": "environment",
 			"priority": 129,
 			"volume": 0.65,
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},

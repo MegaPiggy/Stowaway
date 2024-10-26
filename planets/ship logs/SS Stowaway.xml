@@ -20,11 +20,11 @@
 
         <ExploreFact>
             <ID>SS EX1</ID> 
-            <Text>The Deep Storm Station used the electric core of Giant's Deep to power a 6-second negative time interval that would test the mechanics of the Ash Twin Project.</Text> 
+            <Text>The Deep Storm Station used the electric core of Giant's Deep to test the mechanisms of the Ash Twin Project.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>SS EX2</ID> 
-            <Text>Though it failed to find the Eye, this test confirmed that the Ash Twin Project's systems were theoretically sound, giving the Nomai confidence to use the Sun Station without fear.</Text> 
+            <Text>Though it failed to find the Eye, the test confirmed that the Ash Twin Project was theoretically sound, giving the Nomai confidence to use the Sun Station without fear.</Text> 
         </ExploreFact>
     </Entry>
 </AstroObjectEntry>

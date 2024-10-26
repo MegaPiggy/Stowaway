@@ -14,7 +14,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: It is good to see you well as ever, Kousa! I see you have been working hard to keep the shelves in the <![CDATA[<color=orange>Gravity Crystal Workshop's</color>]]> stocked full with gravity crystals.
+		PLUME: It is good to see you well as ever, Kousa! I see you have been working hard to keep the shelves in the <![CDATA[<color=orange>Gravity Crystal Workshop's</color>]]> stocked full of gravity crystals.
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		KOUSA: I'm glad you noticed! With the <![CDATA[<color=orange>White Hole Station</color>]]> now operational, it has become easier than ever to harvest pieces of the planet's undercrust broken off by meteors to carve new gravity crystals.
+		KOUSA: Your eye is keen! A recent meteor from <![CDATA[<color=orange>Hollow's Lantern</color>]]> broke off some tiny pieces of the planet's crust, providing an abundance of material to carve new gravity crystals.
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		KOUSA: Now, what brings you here to my humble workshop today?
+		KOUSA: But what brings you here to my humble workshop today, my friend?
 		</Text>
 	</TextBlock>
 
@@ -41,7 +41,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: Kousa, do you not recall? You invited me to come to your workshop today to show me an invention of yours!
+		PLUME: Kousa, do you not recall? You asked me to come to your workshop today to show me an invention of yours.
 		</Text>
 	</TextBlock>
 	
@@ -50,7 +50,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: If I recall correctly, you described it as an invention that would help us to weather the terrible storms during our expeditions to the ocean planet?
+		PLUME: If I recall correctly, you described it as an invention that would help our expedition team weather the terrible storms on the ocean planet?
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Oh... Yes, yes, of course. How could I have forgotten? I wanted to show you my newest invention! It is right outside!
+		KOUSA: Oh... Yes, yes, of course. I wanted to show you my newest invention! How could I have forgotten? It is right outside!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -67,7 +67,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: The storm shelter is a device that generates a gravity field designed to hold Nomai in place, perfect for protecting Nomai when islands are lifted into space.
+		KOUSA: The storm shelter generates a gravity field designed to hold Nomai in place, perfect for protecting Nomai when islands are lifted into space.
 		</Text>
 	</TextBlock>
 

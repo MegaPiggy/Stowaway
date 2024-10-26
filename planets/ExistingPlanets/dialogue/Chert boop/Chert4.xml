@@ -5,11 +5,11 @@
 
 
 	<DialogueNode>
-		<Name>Chert1</Name>
+		<Name>Questions</Name>
 			
 		<DialogueOptionsList>
 			<DialogueOption>
-					<Text>Where do you think we'll go when we die?</Text>
+					<Text>Would you like to roast one last marshmallows together, Chert?</Text>
 					<DialogueTarget>Chert SW1</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -18,64 +18,13 @@
 	<DialogueNode>
 		<Name>Chert SW1</Name>
 			<Dialogue>
-				<Page>...Wherever Feldspar went.</Page>
-				<Page>..Wherever the Nomai went.</Page>
-				<Page>What about you?</Page>	
+				<Page>Oh, you need not bother.. The sun will roast everything shortly.</Page>
+				<Page>When the supernova approaches, just have a marshmallow on your stick ready.</Page>	
+				<Page>I'd like to see how quickly it burns up, for reference.</Page>
 			</Dialogue>
-				<DialogueOptionsList>
-				<DialogueOption>
-					<Text>Maybe we go to another world.</Text>
-					<DialogueTarget>Chert D1</DialogueTarget>
-				</DialogueOption>
-				<DialogueOption>
-					<Text>Maybe we reincarnate as something else in this world.</Text>
-					<DialogueTarget>Chert D2</DialogueTarget>
-				</DialogueOption>
-				<DialogueOption>
-					<Text>Maybe we just disappear.</Text>
-					<DialogueTarget>Chert D3</DialogueTarget>
-				</DialogueOption>
-				<DialogueOption>
-				<RequiredLogCondition>DSS EX6</RequiredLogCondition>
-					<Text>Maybe we become part of the universe again.</Text>
-					<DialogueTarget>Chert D4</DialogueTarget>
-				</DialogueOption>
-		</DialogueOptionsList>
-	</DialogueNode>
-
-	<DialogueNode>
-		<Name>Chert D1</Name>
-			<Dialogue>
-				<Page>Haha... What a fanciful thought.</Page>
-				<Page>The idea that nothing can end, that there must be something after this...</Page>
-				<Page>I wish it had any glimmer of scientific possibility.</Page>
-				</Dialogue>
-	</DialogueNode>
-		<DialogueNode>
-		<Name>Chert D2</Name>
-			<Dialogue>
-				<Page>Haha... What a fanciful thought.</Page>
-				<Page>But..</Page>
-				<Page>Even if you came back as something else, the stars have died. What could you even do in a universe taking its last breath?</Page>
-				</Dialogue>
-	</DialogueNode>
-		<DialogueNode>
-		<Name>Chert D3</Name>
-			<Dialogue>
-				<Page>...</Page>
-				<Page>I think so, too.</Page>
-				<Page>Let us take in the last we'll see of this world together.. Before it all ends.</Page>
-				</Dialogue>
 	</DialogueNode>
 
 
-		<DialogueNode>
-		<Name>Chert D4</Name>
-			<Dialogue>
-				<Page>...</Page>
-				<Page>What a beautiful thought..</Page>
-				<Page>Then.. <![CDATA[<Pause=2>]]> Let us return to the universe together, my friend.</Page>
-				</Dialogue>
-	</DialogueNode>
+
 
 </DialogueTree>

@@ -1,0 +1,35 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+Clue: Supernova generate lots of heat
+
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+		<TextBlock>
+		<ID>1</ID>
+		<Text>
+		    WARNING: Increased solar activity detected.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text> 
+		    WARNING: Increased volcanic activity detected. Unstable lava levels detected.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>
+		    VERDICT: Location is now inhospitable. Evacuation recommended.
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>LV EX1</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+			
+
+	</ShipLogConditions>
+
+</NomaiObject>

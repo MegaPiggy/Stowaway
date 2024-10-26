@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		ILEX: Did anyone see my scroll containing a report on projection walls? I cannot find it anywhere!
+		ILEX: Has anyone seen a scroll containing my report on projection walls? I cannot find it anywhere!
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		ILEX: Oh, I hope it didn't fall into the black hole... I learned so much about projection walls while putting that report together!
+		ILEX: Oh, I hope it didn't fall into the black hole... I was eager to show everyone what I learned about projection walls!
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		LAMI: Don't worry, Ilex. If it fell into the black hole, I'm sure someone will return it at the warp receiver for you to retrieve, like all scrolls that fall in!
+		LAMI: Don't worry, Ilex. I'm sure it'll end up at Brittle Hollow's warp receiver, like all scrolls that fall into the black hole do! No scroll stays lost for long!
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		ILEX: I can't rely on that chance for my grades, Lami! Oh, I'll just recreate the report from memory...
+		ILEX: What? I can't rely on that for my grades, Lami! Oh... I'll just recreate the report from memory...
 		</Text>
 	</TextBlock>
 

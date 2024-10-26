@@ -1,0 +1,97 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+Clue: Supernova generate lots of heat
+
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CLARY: Friends, a troubling thought has been on my mind.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CLARY: What if this ore.. does not work?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		ROOT: That is why we are testing and improving the durability of this ore here at the <![CDATA[<color=orange>Volcanic Testing Site,</color>]]> is it not?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		CLARY: I know that much, Root! My concern is.. Are we sure that the temperatures we are testing this ore at will be comparable to that of a supernova?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		CLARY: A supernova radiates immense amounts of heat, enough to melt entire celestial bodies!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		CLARY: I must wonder if we may be putting too much faith in this ore's durability, when the slightest miscalculation could destroy everything..
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		ROOT: Our elders have travelled countless galaxies, Clary. It is they who have passed down to us precise measurements of a supernova's temperatures and power. You may rest those fears!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		CLARY: That is a relief to hear.. though I cannot begin to imagine what dangers our elders must have faced to obtain such knowledge!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		CLARY: Still, it is truly astounding to imagine anything standing up to the might of a supernova. The universe never fails to surprise me!
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>LV EX2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LV EX3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

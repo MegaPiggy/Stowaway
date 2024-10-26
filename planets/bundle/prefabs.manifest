@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 569523142
+CRC: 2188179635
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d590ea45659151962ac6bf6787c1f588
+    Hash: 65581bbefe9c5c3edf2387793d1e2d9c
   TypeTreeHash:
     serializedVersion: 2
     Hash: a6e9e1fee256f76df4330145814c9470
@@ -75,6 +75,7 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Stairs_L.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Corner_L_Broken.prefab
 - Assets/Nomai Ruins/Prefabs/Gravity Crystal.prefab
+- Assets/Nomai Ruins/Prefabs/LAVA rockpiece.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_B.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_B_Corner_Mir.prefab
 - Assets/Nomai Ruins/Prefabs/ToyShip.prefab

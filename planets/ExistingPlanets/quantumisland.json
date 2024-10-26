@@ -623,7 +623,8 @@
 		},	
 		{
 			"rename": "Pioneer Quantum Camp torch",
-			"path":"QuantumIsland_Body/Sector_QuantumIsland/Lighting_QuantumTower/OtherComponentsGroup/Prefab_NOM_WallTorch (16)",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/walltorch.prefab",
 			"position":{"x":-5.0863,"y": 1.8246,"z": -67.1127},
 			"rotation":{"x":30.75,"y": 177.5927,"z": 356.971},
 			"isRelativeToParent": true

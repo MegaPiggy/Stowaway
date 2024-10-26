@@ -152,14 +152,16 @@
             <ID>SLR_T R2</ID>
              <Text>A Nomai named Yarrow worked on the solar towers on Ash Twin.</Text> 
         </RumorFact>
-        <ExploreFact>
-                     <ID>SLR_T EX0</ID> 
-                     <Text>A Nomai named Bur reported seeing the rotating doors on several towers along Ash Twin's equator opening and closing on their own.</Text> 
-              </ExploreFact>
+     
          <ExploreFact>
             <ID>SLR_T EX1</ID>
              <Text>Towers installed with colossal solar panels constructed at both of Ash Twin's poles.</Text> 
         </ExploreFact>
+       <ExploreFact>
+                     <ID>SLR_T EX0</ID> 
+                     <Text>A Nomai named Bur noticed the rotating doors on several towers along Ash Twin's equator opening and closing on their own.</Text> 
+              </ExploreFact>
+     
          <ExploreFact>
             <ID>SLR_T EX2</ID>
              <Text>The solar towers on Ash Twin were deliberately built on the north and south pole to avoid something called the sunless day.</Text> 
@@ -170,7 +172,7 @@
         </ExploreFact>
          <ExploreFact>
             <ID>SLR_T EX4</ID>
-             <Text>The Nomai described plans to relocate the solar panels on Ember Twin due to issues with its current site.</Text> 
+             <Text>The Nomai had plans to relocate the solar panels on Ember Twin due to issues with its current site.</Text> 
         </ExploreFact>
  </Entry>
 

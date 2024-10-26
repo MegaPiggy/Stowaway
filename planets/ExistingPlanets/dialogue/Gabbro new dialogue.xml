@@ -53,7 +53,9 @@
 		<Name>CampfireWave</Name>
 		<Dialogue>
 			<Page>I mean.. sure? You could light that one back up if you really want to.</Page>
-			<Page>But I'm just saying! That fire up the hill's probably better.</Page>
+			<Page>But I'm just saying! That fire up the hill's probably better, or at least better for taking naps.</Page>
+			<Page>Man, now I just wanna get up and go roast a can of marshmallows..</Page>
+			<Page>When you roast it just right, it just melts in your mouth and melts away any pain you're feelin', y'know?</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -61,7 +63,7 @@
 		<Name>WillDo</Name>
 		<Dialogue>
 			<Page>Man, now I just wanna get up and go roast a can of marshmallows..</Page>
-			<Page>When you roast it just right, it just melts in your mouth and melts away any bad thoughts and bruises, y'know?</Page>
+			<Page>When you roast it just right, it just melts in your mouth and melts away any pain you're feelin', y'know?</Page>
 		</Dialogue>
 	</DialogueNode>
 

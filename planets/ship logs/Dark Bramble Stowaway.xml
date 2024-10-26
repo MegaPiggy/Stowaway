@@ -22,6 +22,9 @@
             <ID>DBG EX0</ID> 
             <Text>The Nomai mourned their failure in locating their missing friends on an expedition to Dark Bramble's exterior. They debated whether or not to attempt more expeditions into the bramble.</Text> 
         </ExploreFact>
+           <ID>DBG EX0.5</ID> 
+            <Text>The Nomai reported seeing countless hordes of anglerfish everywhere inside the bramble.</Text> 
+        </ExploreFact>
         <ExploreFact>
             <ID>DBG EX1</ID> 
             <Text>A Nomai named Cassava made a discovery on this expedition. There are platforms on the side of the glacier leading to what he found.</Text>

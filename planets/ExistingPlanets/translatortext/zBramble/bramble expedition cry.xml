@@ -161,6 +161,10 @@
 			<FactID>DBG EX0</FactID>
 			<Condition>11</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>DBG EX0.5</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
 	<RevealFact>
 			<FactID>DBG EX1</FactID>
 			<Condition>17</Condition>

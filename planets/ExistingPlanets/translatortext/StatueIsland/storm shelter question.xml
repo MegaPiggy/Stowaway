@@ -67,6 +67,7 @@
 			<FactID>GSHOP R2</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
+		
 		<RevealFact>
 			<FactID>Pioneer EX3.5</FactID>
 			<Condition>4</Condition>
