@@ -50,7 +50,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: If I recall correctly, you described the invention in your scroll as something that would help our expedition team weather the terrible storms on the ocean planet?
+		PLUME: If I recall correctly, you described the invention in your scroll as something that would help our expedition team weather the terrible storms we have faced?
 		</Text>
 	</TextBlock>
 
@@ -80,7 +80,11 @@
 		</RevealFact>
 				<RevealFact>
 			<FactID>GSHOP EX2</FactID>
-			<Condition>11</Condition>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_H R1</FactID>
+			<Condition>7</Condition>
 		</RevealFact>
 		
 	</ShipLogConditions>

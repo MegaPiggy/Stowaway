@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		OENO: The warp towers' rotating doors have been reported opening and closing on their own, without input from any Nomai.
+		OENO: Yarrow and I have noticed the rotating doors on several towers on Ash Twin opening and closing on their own, even without being activated by the sight of any Nomai.
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: After closer study, I can confidently conclude that the phenomenon is not caused by any structural defect in the doors, but by the sunless day.
+		OENO: After closer study, I can confidently conclude that the phenomenon is not caused by any structural defect in the doors, but by the sunless day!
 		</Text>
 	</TextBlock>
 
@@ -51,7 +51,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		OENO: The same force is also what causes sand to be pulled towards the other twin at the alignment point, creating the funnel of sand.
+		OENO: The same force is also what causes sand to be pulled towards the other twin at the alignment point, creating the striking funnel of sand between the Hourglass Twins.
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		YARROW: My deepest thanks for your hard work in investigating this issue, Oeno! I am sure Bur will be relieved to hear your findings.
+		YARROW: What an enlightening report, Oeno! Now that we know the issue, we will know how to amend it in the future. My thanks for your hard work, Oeno.
 		</Text>
 	</TextBlock>
 

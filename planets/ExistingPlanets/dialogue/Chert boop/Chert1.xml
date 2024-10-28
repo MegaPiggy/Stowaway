@@ -41,16 +41,20 @@
 	<DialogueNode>
 		<Name>Chert SW2</Name>
 			<Dialogue>
-				<Page>Well, have you seen the colossal towers of solar panels on each of the Ash Twin's poles? They are truly a magnificent sight to behold.</Page>
-				<Page>I first noticed them while stargazing, and wished to visit Ash Twin to get a closer look at these wondrous structures.</Page>
-				<Page>With solar panels of such scale, the Nomai must have been able to harness an incredible amount of energy with them! I highly recommend visiting them when you get a chance.</Page>
-				<Page>Fantastic view aside: you might be able to glean more about them with that new translator tool of yours. I highly recommend visiting them when you get the chance!</Page>
-				<Page>Oh, but do be careful! I believe my scout detected some ghost matter surrounding one of the towers during my visit. I'd strongly suggest visiting the other tower instead.</Page>
+				<Page>A good question! I once spotted a ring of tall Nomai structures along Ash Twin's equator while stargazing, and wished to visit Ash Twin to get a closer look at these structures.</Page>
+				<Page>From what I could tell, the structures appeared to be for stargazing. Each one had windows in their roofs that allowed you to peer out and see the planets and stars.</Page>
+				<Page>I must say, it was quite heartwarming to learn the Nomai shared my love for the stars!</Page>
+				<Page>That's what I assumed they were for, anyways! If you visit them, you might be able to glean more about them with that new translator tool of yours.</Page>
 				</Dialogue>
-							<RevealFacts>
-     						   <FactID>SLR_T R1</FactID>
-    					  </RevealFacts>
+						
 		<DialogueOptionsList>
+				<DialogueOption>
+				<RequiredLogCondition>WHS_X1</RequiredLogCondition>
+				<RequiredLogCondition>TT_WARP_TOWERS_X2</RequiredLogCondition>
+					<Text>I already did! Those are Nomai warp towers that connect to the other planets.</Text>
+					<DialogueTarget>Chert SW4</DialogueTarget>
+				</DialogueOption>
+
 				<DialogueOption>
 					<Text>I will, but tell me more about the Twins' shifting sands!</Text>
 					<DialogueTarget>Chert SW3B</DialogueTarget>
@@ -122,16 +126,19 @@
 		<Name>Chert SW2.5</Name>
 			<Dialogue>
 			<Page>Goodness! That's right, that's what we were discussing at first, wasn't it? My apologies for rambling!</Page>
-				<Page>Well, have you seen the colossal towers of solar panels on each of the Ash Twin's poles? They are truly a magnificent sight to behold.</Page>
-				<Page>I first noticed them while stargazing, and wished to visit Ash Twin to get a closer look at these wondrous structures.</Page>
-				<Page>With solar panels of such scale, the Nomai must have been able to harness an incredible amount of energy with them! I highly recommend visiting them when you get a chance.</Page>
-				<Page>Fantastic view aside: you might be able to glean more about them with that new translator tool of yours. I highly recommend visiting them when you get the chance!</Page>
-				<Page>Oh, but do be careful! I believe my scout detected some ghost matter surrounding one of the towers during my visit. I'd strongly suggest visiting the other tower instead.</Page>
+			<Page>I once spotted a ring of tall Nomai structures along Ash Twin's equator while stargazing, and wished to visit Ash Twin to get a closer look at these structures.</Page>
+				<Page>From what I could tell, the structures appeared to be for stargazing. Each one had windows in their roofs that allowed you to peer out and see the planets and stars.</Page>
+				<Page>I must say, it was quite heartwarming to learn the Nomai shared my love for the stars!</Page>
+				<Page>That's what I assumed they were for, anyways! If you visit them, you might be able to glean more about them with that new translator tool of yours.</Page>
 				</Dialogue>
-							<RevealFacts>
-     						   <FactID>SLR_T R1</FactID>
-    					  </RevealFacts>
 		<DialogueOptionsList>
+				<DialogueOption>
+				<RequiredLogCondition>WHS_X1</RequiredLogCondition>
+				<RequiredLogCondition>TT_WARP_TOWERS_X2</RequiredLogCondition>
+					<Text>I already did! Those are Nomai warp towers that connect to the other planets.</Text>
+					<DialogueTarget>Chert SW4</DialogueTarget>
+				</DialogueOption>
+
 				<DialogueOption>
 					<Text>I will, but tell me more about the Twins' shifting sands!</Text>
 					<DialogueTarget>Chert SW3B</DialogueTarget>
@@ -165,6 +172,36 @@
 				<Page>After we gather more conclusive data on this phenomenon, we should mark your findings with a new exhibit in the village museum, then celebrate with some sap wine!</Page>
 				</Dialogue>
 </DialogueNode>
+
+<DialogueNode>
+		<Name>Chert SW4</Name>
+			<Dialogue>
+				<Page>Goodness! That's what those towers are?! How.. how could I have missed that?</Page>
+				<Page>This does sound quite plausible.. The model ship and the Little Scouts do utilize some kind of Nomai warp technology that lets us warp them back to a fixed point, don't they?</Page>
+				<Page>Oh, a Nomai warp system right under our noses... If I had been more observant, our space program might be revolutionized by now!</Page>
+				<Page>But, you said that the Nomai used these "warp towers" to travel around their settlements across the star system easily..</Page>
+				<Page>In that case, could there be a "warp tower" that connects to Timber Hearth as well?</Page>
+				<Page>Imagine how much easier space travel would be for the space program, if this Nomai warp system allowed us easy travel back to and from Timber Hearth!</Page>
+				<Page>I would love nothing more than to go investigate for myself, while the sand is draining from Ash Twin.. but I must focus on finishing these star charts first!</Page>
+				<Page>Would you kindly investigate in my stead? I promise to catch up with you as soon as I finish these charts!</Page>
+			</Dialogue>
+							<RevealFacts>
+     						   <FactID>GD Tower R1.5</FactID>
+    					  </RevealFacts>
+						  <RevealFacts>
+     						   <FactID>BH Tower R2</FactID>
+    					  </RevealFacts>
+						  <RevealFacts>
+     						   <FactID>TH Tower R2</FactID>
+    					  </RevealFacts>
+						  <RevealFacts>
+     						   <FactID>SS Tower R2</FactID>
+    					  </RevealFacts> 
+						  <RevealFacts>
+     						   <FactID>HGT Tower R2</FactID>
+    					  </RevealFacts>
+	</DialogueNode>
+
 
 </DialogueTree>
 

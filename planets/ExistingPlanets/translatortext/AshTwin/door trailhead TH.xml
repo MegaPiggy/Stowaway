@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: The vision orbs that control the doors' mechanisms should only be controlled by sight.. It is their rising into the door's slots that triggers the door to open or close.
+		OENO: The vision orbs that control the doors' mechanisms are controlled by sight.. I am unsure why these mechanisms are being activated in the absence of any input!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		YARROW: I recall the solar towers on Ash Twin's poles are controlled by similar mechanisms. Perhaps we should travel to the solar towers to investigate if the same thing occurs there!
+		YARROW: I recall the <![CDATA[<color=orange>solar towers</color>]]> on <![CDATA[<color=lightblue>Ash Twin's</color>]]> poles are controlled by similar mechanisms.. Perhaps we should travel to the <![CDATA[<color=orange>solar towers</color>]]> to investigate if the same thing occurs there, Oeno!
 		</Text>
 	</TextBlock>
 	
@@ -53,24 +53,20 @@
 	<ShipLogConditions>
 
 		<RevealFact>
-			<FactID>TH_NOMAI_MINE_R1</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>SLR_T R2</FactID>
-			<Condition>1</Condition>
+			<FactID>SLR_T R1</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>TH Tower EX2</FactID>
-			<Condition>1</Condition>
+			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>TH Tower EX3</FactID>
-			<Condition>3</Condition>
+			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>TH Tower EX4</FactID>
-			<Condition>4</Condition>
+			<Condition>6</Condition>
 		</RevealFact>
 			
 	</ShipLogConditions>

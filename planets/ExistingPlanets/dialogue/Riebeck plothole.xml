@@ -434,9 +434,7 @@
 				<Page>(I-I mean, sure, you do have that wicked awesome translator tool - but still!!)</Page>
 			<Page>Hey, um.. Thanks for flying to tell me about all this! I really appreciate it, hatchling.</Page>
 			<Page>But, wow! There's definitely some major part of this mystery we still need to figure out...</Page>
-			<Page>Hey, if you need a lead, you could take a look around the <![CDATA[<color=orange>Hanging City</color>]]> just north of here. It's the most advanced Nomai settlement, after all - there's gotta be a clue in there somewhere!</Page>
 		</Dialogue>
-		<RevealFacts><FactID>BH_H R1</FactID></RevealFacts>
 	</DialogueNode>
 
 <DialogueNode>
@@ -445,9 +443,7 @@
 				<Page>Oh, wow. Wow. This is a serious mystery we have on our hands... This is a whole new page of Hearthian history we've never even known about!</Page>
 			<Page>Um, seeing as you're the only one with a translator tool right now, <![CDATA[<size=20>]]>and I'm a little paralyzed above a black hole,<![CDATA[</size>]]> I'll um, be counting on you to find out what you can about this exciting mystery for now.</Page>
 			<Page>Oh! If you find anything, I'd SERIOUSLY love to hear about your findings! <![CDATA[<size=20>]]>Um, if it's not too much trouble!<![CDATA[</size>]]></Page>
-			<Page>Hey, if you need a lead, you could take a look around the <![CDATA[<color=orange>Hanging City</color>]]> just north of here. It's the most advanced Nomai settlement, after all - there's gotta be a clue in there somewhere!</Page>
 		</Dialogue>
-		<RevealFacts><FactID>BH_H R1</FactID></RevealFacts>
 	</DialogueNode>
 
 <DialogueNode>

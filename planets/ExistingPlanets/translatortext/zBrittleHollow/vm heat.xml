@@ -16,7 +16,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CLARY: What if this ore.. does not work?
+		CLARY: Is there a possibility that this ore.. will not work?
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		ROOT: That is why we are testing and improving the durability of this ore here at the <![CDATA[<color=orange>Volcanic Testing Site,</color>]]> is it not?
+		ROOT: Clary, what a strange question! That is why we are testing and improving the durability of this ore here at the <![CDATA[<color=orange>Volcanic Testing Site,</color>]]> is it not?
 		</Text>
 	</TextBlock>
 

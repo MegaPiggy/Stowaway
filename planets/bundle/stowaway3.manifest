@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3172081233
+CRC: 3428695709
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 42890baf4bddd5619b140048ae5af93f
+    Hash: 326ca22d6e5572a5cf03ce135c237a04
   TypeTreeHash:
     serializedVersion: 2
     Hash: 91f6618b88d246c5e59c3d091678f72e
@@ -99,10 +99,11 @@ Assets:
 - Assets/Nomai Ruins/Resources/Meshes/Inspired gravity 3.prefab
 - Assets/Models/Materials/mural side.prefab
 - Assets/Models/Tractor beam SW 1.prefab
+- Assets/Models/ASH TWIN BEAM south.prefab
 - Assets/Models/TheInspired.prefab
 - Assets/Models/TheInspired (1).prefab
 - Assets/Models/player nosuit.prefab
-- Assets/Models/ASH TWIN BEAM.prefab
+- Assets/Models/ASH TWIN BEAM north.prefab
 - Assets/Models/rotation guy.prefab
 - Assets/Models/Materials/mural front.prefab
 - Assets/Models/SphereCollider.prefab

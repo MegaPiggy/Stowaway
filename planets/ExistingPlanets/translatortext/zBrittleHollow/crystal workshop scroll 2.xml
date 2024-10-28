@@ -74,12 +74,16 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>GSHOP EX1</FactID>
-			<Condition>3</Condition>
+			<FactID>BH_H EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_H EX4</FactID>
+			<Condition>4</Condition>
 		</RevealFact>
 				<RevealFact>
-			<FactID>GSHOP EX2</FactID>
-			<Condition>11</Condition>
+			<FactID>BH_H EX5</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 		
 	</ShipLogConditions>

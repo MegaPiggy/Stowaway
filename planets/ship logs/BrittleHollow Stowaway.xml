@@ -9,8 +9,8 @@
          
          <RumorFact>
             <ID>BH_H R1</ID>
-            <RumorName>Hanging City</RumorName>
-            <Text>Riebeck suggested looking around the Hanging City for clues.</Text> 
+            <RumorName>Storm Shelter Invitation</RumorName>
+            <Text>A Nomai named Kousa left a scroll in the Hanging City that goes into more detail about the storm shelter.</Text> 
         </RumorFact>
 
         <ExploreFact>
@@ -19,16 +19,20 @@
         </ExploreFact>
           <ExploreFact>
             <ID>BH_H EX2</ID>
-            <Text>I found a scroll recording the incomplete construction of the White Hole Station. A warp receiver was planned to be constructed on the surface above the Hanging City.</Text> 
+            <Text>I found a conversation detailing the incomplete construction of the White Hole Station. Its warp receiver was planned to be constructed on the surface above the Hanging City.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>BH_H EX3</ID>
             <Text>A warp transmitter requires a connected warp receiver to function.</Text> 
-            
      </ExploreFact>
+
          <ExploreFact>
             <ID>BH_H EX4</ID> 
-            <Text>Scrolls lost to the black hole are returned by Nomai at Brittle Hollow's warp receiver.</Text> 
+            <Text>Storm shelters were engineered to protect Nomai on an expedition to Giant's Deep, by generating a gravity field when islands are lifted into space.</Text> 
+        </ExploreFact>
+            <ExploreFact>
+            <ID>BH_H EX5</ID> 
+            <Text>The Sunless City contributed to the invention of the storm shelter, allowing the device to autonomously power on and off.</Text> 
         </ExploreFact>
       
 </Entry>
@@ -52,9 +56,9 @@
             <ID>GSHOP EX1</ID> 
             <Text>Gravity crystals were crafted from fragments of Brittle Hollow's crust and stored at this workshop.</Text> 
         </ExploreFact>
-          <ExploreFact>
+         <ExploreFact>
             <ID>GSHOP EX2</ID> 
-            <Text>Storm shelters were engineered at this workshop in collaboration with the Sunless City to protect Nomai working on Giant's Deep.</Text> 
+            <Text>An invention called the storm shelter was engineered at this workshop to help Nomai weather storms on their expedition.</Text> 
         </ExploreFact>
  <ExploreFact>
             <ID>GSHOP EX3</ID>

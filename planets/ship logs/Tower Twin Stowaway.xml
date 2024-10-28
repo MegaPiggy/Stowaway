@@ -12,6 +12,10 @@
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>A tower on Ash Twin in the shape of a spire.</Text> 
         </RumorFact>
+        <RumorFact>
+            <ID>GD Tower R1.5</ID>
+             <Text>Chert wonders if there is a tower on Ash Twin that travels to Timber Hearth.</Text> 
+        </RumorFact>
           <RumorFact>
             <ID>GD Tower R2</ID>
              <Text>Two Nomai waited outside this tower in hopes of traveling to the Deep Storm Station.</Text> 
@@ -47,6 +51,11 @@
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>A tower on Ash Twin that resembles column formations.</Text> 
         </RumorFact>
+        
+        <RumorFact>
+            <ID>BH Tower R2</ID>
+             <Text>Chert wonders if there is a tower on Ash Twin that travels to Timber Hearth.</Text> 
+        </RumorFact>
          <ExploreFact>
             <ID>BH Tower EX1</ID>
              <Text>A tower on Ash Twin that resembles column formations.</Text> 
@@ -66,21 +75,26 @@
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>A tower on Ash Twin in the shape of a mountain.</Text> 
         </RumorFact>
+        <RumorFact>
+            <ID>TH Tower R2</ID>
+             <Text>Chert wonders if there is a tower on Ash Twin that travels to Timber Hearth.</Text> 
+        </RumorFact>
+
          <ExploreFact>
             <ID>TH Tower EX1</ID>
              <Text>A tower on Ash Twin in the shape of a mountain.</Text> 
         </ExploreFact>
        <ExploreFact>
             <ID>TH Tower EX2</ID>
-             <Text>A Nomai named Oeno was invited to Ash Twin to investigate some sort of problem.</Text> 
+             <Text>The Nomai kept the rotating doors of this tower closed, to prevent native life accidentally transported there from wandering far without protection and oxygen.</Text> 
         </ExploreFact>
        <ExploreFact>
             <ID>TH Tower EX3</ID> 
-            <Text>After studying the issue, Oeno concluded that the issue was caused by something called the sunless day.</Text> 
+            <Text>A Nomai named Oeno noticed the rotating doors of this tower opening on their own in the absence of any input.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>TH Tower EX4</ID> 
-            <Text>Oeno suggested traveling to the other tower with the same issue to better demonstrate her findings.</Text> 
+            <Text>A Nomai named Yarrow suggested traveling to the solar towers on Ash Twin's poles to investigate if the same issue was occuring there.</Text> 
         </ExploreFact>
  </Entry>
 
@@ -96,6 +110,10 @@
             <ID>SS Tower R1</ID>
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>A tower on Ash Twin with pointed edges.</Text> 
+        </RumorFact>
+        <RumorFact>
+            <ID>SS Tower R2</ID>
+             <Text>Chert wonders if there is a tower on Ash Twin that travels to Timber Hearth.</Text> 
         </RumorFact>
          <ExploreFact>
             <ID>SS Tower EX1</ID>
@@ -131,6 +149,10 @@
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>Two towers on Ash Twin joined together by an arch.</Text> 
         </RumorFact>
+        <RumorFact>
+            <ID>HGT Tower R2</ID>
+             <Text>Chert wonders if there is a tower on Ash Twin that travels to Timber Hearth.</Text> 
+        </RumorFact>
          <ExploreFact>
             <ID>HGT Tower EX1</ID>
              <Text>Two towers on Ash Twin joined together by an arch.</Text> 
@@ -144,23 +166,18 @@
 
           <RumorFact>
             <ID>SLR_T R1</ID>
-            <SourceID>CT_CHERT</SourceID>
-             <Text>Chert flew to Ash Twin on their first expedition to admire the colossal solar towers on each of the planet's poles. They wondered why the Nomai didn't build the solar panels on Ember Twin's poles as well.</Text> 
-        </RumorFact>
-          <RumorFact>
-          <IgnoreMoreToExplore/>
-            <ID>SLR_T R2</ID>
-             <Text>A Nomai named Yarrow worked on the solar towers on Ash Twin.</Text> 
+             <Text>A Nomai named Yarrow suggested traveling to the solar towers on Ash Twin's poles to investigate if their vision orbs were experiencing similar issues.</Text> 
         </RumorFact>
      
          <ExploreFact>
             <ID>SLR_T EX1</ID>
              <Text>Towers installed with colossal solar panels constructed at both of Ash Twin's poles.</Text> 
         </ExploreFact>
-       <ExploreFact>
-                     <ID>SLR_T EX0</ID> 
-                     <Text>A Nomai named Bur noticed the rotating doors on several towers along Ash Twin's equator opening and closing on their own.</Text> 
-              </ExploreFact>
+      <ExploreFact>
+            <ID>SLR_T EX5</ID>
+             <Text>The Nomai did not observe issues with the solar towers' vision orbs. They planned to check the other tower on Ash Twin with rotating doors to investigate a hypothesis their investigation had inspired.</Text> 
+        </ExploreFact>
+        
      
          <ExploreFact>
             <ID>SLR_T EX2</ID>
