@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: I am afraid our goal is not yet within reach.. But as Pye says, the <![CDATA[<color=orange>Deep Storm Station</color>]]> was a successful stepping stone.
+		YARROW: It is good to hear from you, my friends. But, I am afraid our goal, though closer than ever, is not yet within reach.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: But come, let us not be distracted by these results...
+		YARROW: But regardless, we should not be negative on such a joyous day.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		DAZ: Well, I.. I was afraid of the possibility you might feel differently.. That's why I.. wanted to see 6 seconds into the future of my proposal..
+		DAZ: Well, I.. I was afraid of the possibility you might feel differently.. That's why I.. wanted to see a few seconds into the future of my proposal..
 		</Text>
 			</TextBlock>
 				<TextBlock>	
@@ -61,7 +61,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		Cassava: Daz.. You mean the world to me... There was no possibility of any other answer. But that means.. we had a time-traveling marriage! How many in existence could lay claim to that?!
+		Cassava: Daz, you mean the world to me.. There was no possibility of any other answer. But to have had a time-traveling marriage... How many in existence could lay claim to that?!
 		</Text>
 			</TextBlock>
 				<TextBlock>	

@@ -53,17 +53,20 @@
 		<Name>CampfireWave</Name>
 		<Dialogue>
 			<Page>I mean.. sure? You could light that one back up if you really want to.</Page>
-			<Page>But I'm just saying! That fire up the hill's probably better, or at least better for taking naps.</Page>
-			<Page>Man, now I just wanna get up and go roast a can of marshmallows..</Page>
-			<Page>When you roast it just right, it just melts in your mouth and melts away any pain you're feelin', y'know?</Page>
+			<Page>But I'm just saying, I've woken up wet and groggy every time I slept at that campfire.</Page>
+			<Page>Now, if you don't mind..</Page>
+			<Page>I'm gonna hurry and catch a few winks before a cyclone roars by and ruins my nap again.</Page>
+			<Page>I swear, those things are Hearthian alarm clocks.. Even I can't sleep through them!</Page>
 		</Dialogue>
 	</DialogueNode>
 
 <DialogueNode>
 		<Name>WillDo</Name>
 		<Dialogue>
-			<Page>Man, now I just wanna get up and go roast a can of marshmallows..</Page>
-			<Page>When you roast it just right, it just melts in your mouth and melts away any pain you're feelin', y'know?</Page>
+			<Page>Sweet. Stay safe out there, time buddy.</Page>
+			<Page>Now, if you don't mind..</Page>
+			<Page>I'm gonna hurry and catch a few winks before a cyclone roars by and ruins my nap again.</Page>
+			<Page>I swear, those things are Hearthian alarm clocks.. Even I can't sleep through them!</Page>
 		</Dialogue>
 	</DialogueNode>
 

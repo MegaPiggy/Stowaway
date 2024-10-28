@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		OENO: May I ask who has been leaving the rotating doors to this tower open? They must remain closed when not in use!
+		YARROW: Oeno! It is good to see you well, my friend. I apologize for bothering you, but the construction of the <![CDATA[<color=orange>solar towers</color>]]> has been a great amount of work on my shoulders.
 		</Text>
 	</TextBlock>
 			<TextBlock>
@@ -13,15 +13,15 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: By keeping these doors closed, we can ensure that any native life that is accidentally transported here does not wander far without protection or oxygen.
+		YARROW: Was Cycad able to inform you about the issue Bur noticed before sending you my way?
 		</Text>
 	</TextBlock>
 			<TextBlock>
 		<ID>3</ID>
 		<LocationB />
-		<ParentID>1</ParentID>
+		<ParentID>2</ParentID>
 		<Text>
-		OENO: An update: on closer inspection, the doors appear to be unlocking by themself.. This is very strange. Could there be some sort of defect in these rotating doors' mechanisms?
+		OENO: An update: I have concluded the issue is not caused by any mechanical issue. I believe it to be caused by the sunless day instead.
 		</Text>
 	</TextBlock>
 			<TextBlock>
@@ -29,23 +29,23 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		YARROW: I have noticed these rotating doors opening and even closing by themself without input as well, Oeno! It is truly puzzling.
+		OENO: If you join me at the other tower, I believe I will be able to better demonstrate my findings there! 
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<LocationB />
-		<ParentID>4</ParentID>
+		<ParentID>2</ParentID>
 		<Text>
-		OENO: The vision orbs that control the doors' mechanisms should only be controlled by sight.. It is their rising into the door's slots that triggers the door to open or close.
+		OENO: He has, and the matter puzzled me enough to leave my work at the <![CDATA[<color=orange>Timber Hearth Mines!</color>]]> I shall share my findings with you as soon as I locate the problem.
 		</Text>
 	</TextBlock>
-		<TextBlock>
+	<TextBlock>
 		<ID>6</ID>
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		YARROW: I recall the solar towers on Ash Twin's poles are controlled by similar mechanisms. Perhaps we should travel to the solar towers to investigate if the same thing occurs there!
+		YARROW: You have my deepest thanks, Oeno! 
 		</Text>
 	</TextBlock>
 	

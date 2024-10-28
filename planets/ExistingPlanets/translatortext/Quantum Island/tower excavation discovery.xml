@@ -17,7 +17,7 @@
 		<ID>3</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			MELORAE: We should capture a photo of it to share with our friends back home. We've located yet another quantum shard! I wonder what lessons it may have to teach us.</Text>
+			MELORAE: We should capture a photo of it to share with our friends when we return. We've located yet another quantum shard! I wonder what lessons it may have to teach us.</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>4</ID>
@@ -29,7 +29,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			MELORAE: <![CDATA[<i>Wait.</i>]]> The photo I took of the shard is still, technically, within my view..</Text>
+			MELORAE: <![CDATA[<i>Wait.</i>]]> The photo I took of the shard is still within my view..</Text>
 	</TextBlock>
 
 	<TextBlock>

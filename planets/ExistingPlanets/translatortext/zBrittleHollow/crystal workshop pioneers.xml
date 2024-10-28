@@ -41,7 +41,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: Kousa, do you not recall? You asked me to come to your workshop today to show me an invention of yours.
+		PLUME: Kousa, do you not recall? You left a scroll in the <![CDATA[<color=orange>Hanging City,</color>]]> inviting me to your workshop today to show me an invention of yours!
 		</Text>
 	</TextBlock>
 	
@@ -50,7 +50,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: If I recall correctly, you described it as an invention that would help our expedition team weather the terrible storms on the ocean planet?
+		PLUME: If I recall correctly, you described the invention in your scroll as something that would help our expedition team weather the terrible storms on the ocean planet?
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Oh... Yes, yes, of course. I wanted to show you my newest invention! How could I have forgotten? It is right outside!
+		KOUSA: Oh... Yes, yes, of course, I wanted to show you my newest invention! Thank goodness I left that scroll in the <![CDATA[<color=orange>Hanging City,</color>]]> for you before it slipped my mind.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -67,74 +67,10 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: The storm shelter generates a gravity field designed to hold Nomai in place, perfect for protecting Nomai when islands are lifted into space.
+		KOUSA: It is right outside. Please, follow me! I am too excited to show you how the storm shelter works.
 		</Text>
 	</TextBlock>
 
-	<TextBlock>
-		<ID>9</ID>
-		<ParentID>8</ParentID>
-		<LocationA />
-		<Text>
-		KOUSA: This is our first collaboration with the..... The...
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>10</ID>
-		<ParentID>9</ParentID>
-		<LocationA />
-		<Text>
-		PLUME: The <![CDATA[<color=orange>Sunless City?</color>]]>
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>11</ID>
-		<ParentID>10</ParentID>
-		<LocationA />
-		<Text>
-		KOUSA: Yes, yes! The <![CDATA[<color=orange>Sunless City!</color>]]> They kindly shared their technology with us to power this invention.
-		</Text>
-	</TextBlock>
-		<TextBlock>
-		<ID>12</ID>
-		<ParentID>11</ParentID>
-		<LocationA />
-		<Text>
-		KOUSA: Thanks to their contributions, the device can autonomously power itself when the island is launched into orbit, and even deactivates on its own afterwards, conserving power!
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>13</ID>
-		<ParentID>12</ParentID>
-		<LocationA />
-		<Text>
-		PLUME: How incredible! I must thank our friends from the <![CDATA[<color=orange>Sunless City</color>]]> when we next set off for our an expedition together.
-		</Text>
-	</TextBlock>
-		<TextBlock>
-		<ID>14</ID>
-		<ParentID>13</ParentID>
-		<LocationA />
-		<Text>
-		PLUME: And of course, you have my deepest gratitude for your wisdom and hard work engineering this device, Kousa! This device shall make our stay on such a turbulent planet much safer.
-		</Text>
-	</TextBlock>
-		<TextBlock>
-		<ID>15</ID>
-		<ParentID>14</ParentID>
-		<LocationA />
-		<Text>
-		KOUSA: I am proud to do what I can to protect all of you on your journey, my friend.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>16</ID>
-		<ParentID>15</ParentID>
-		<LocationA />
-		<Text>
-		KOUSA: Now, why were you here again?
-		</Text>
-	</TextBlock>
 
 
 <ShipLogConditions>

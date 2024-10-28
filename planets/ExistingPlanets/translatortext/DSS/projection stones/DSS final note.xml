@@ -29,7 +29,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		CASSAVA: I have ordered the <![CDATA[<color=orange>Inspired</color>]]> to remain in stationary orbit around <![CDATA[<color=lightblue>Giant's Deep..</color>]]> Should containment fail in my absence, I pray that it will catch any matter that leaks out.
+		CASSAVA: I have ordered the <![CDATA[<color=orange>Inspired</color>]]> to remain in stationary orbit around <![CDATA[<color=lightblue>Giant's Deep..</color>]]> Should this containment fail, I pray that it will catch any matter that leaks out.
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -46,7 +46,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: My dearest hope is that these species will continue to grow and learn from the universe in our stead. I only wish we could have been a part of their journey..
+		CASSAVA: My dearest hope is that these species will continue to grow and learn from the universe in our stead. 
 		</Text>
 	</TextBlock>
 
@@ -55,7 +55,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Perhaps someday, they may even find the <![CDATA[<color=orange>Sanctuary</color>]]> and my stagnant voyager within it!
+		CASSAVA: I only wish we could have been a part of their journey..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -63,7 +63,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: All that remains.. is to collapse the innumerable possibilities before me.
+		CASSAVA: Now, all that remains is to collapse the innumerable possibilities before me.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -79,7 +79,7 @@
 		<ParentID>9</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: The universe is.. and we shall become one with it!
+		CASSAVA: The universe is.. and we shall all become one with it.
 		</Text>
 	</TextBlock>
 
@@ -92,10 +92,6 @@
 		<RevealFact>
 			<FactID>DSS EX5</FactID>
 			<Condition>2</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>DSS EX6</FactID>
-			<Condition>10</Condition>
 		</RevealFact>
 
 

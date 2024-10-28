@@ -7,25 +7,25 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			COLEUS: My guess is <![CDATA[<color=lightblue>Giant's Deep.</color>]]></Text>
+			COLEUS: The <![CDATA[<color=lightblue>Quantum Moon</color>]]> was orbiting <![CDATA[<color=lightblue>Giant's Deep!</color>]]> Phlox wins the jellyfish game again!</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			MELORAE: My guess is the sixth location.</Text>
+			PLUME: Yay! I won, I won!</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>3</ID>
-		<ParentID>2</ParentID>
+		<ParentID>1</ParentID>
 		<Text>
-			PHLOX: The <![CDATA[<color=lightblue>Quantum Moon</color>]]> was orbiting <![CDATA[<color=lightblue>Giant's Deep!</color>]]> Coleus wins the phantom moon game again!</Text>
+			PHLOX: What? I do not believe this.. Even with a set of eyes outside the planet, your guesses are too consistently precise, my son!</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			MELORAE: I do not believe in such coincidences! Coleus, did you leave a pair of eyes at the <![CDATA[<color=orange>Quantum Moon locator?</color>]]> You have won too many games in succession!
+		MELORAE: I am unsure what are the rules of this game, but it is quite entertaining! How does one play this jellyfish game?
 			</Text>
 	</TextBlock>
 
@@ -33,22 +33,22 @@
 		<ID>5</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			PHLOX: Oh! Melorae, Melorae! The tentacled species are visiting the surface again!</Text>
+			COLEUS: The rules are simple, Melorae: whoever guesses the planet the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is currently orbiting, wins!</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>6</ID>
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		PHLOX: Whenever <![CDATA[<color=lightblue>Giant's Deep</color>]]> wins, the tentacled species come up to visit us! They must be happy to meet the <![CDATA[<color=lightblue>Quantum Moon</color>]]> too!
+		MELORAE: Oh, how delightful! Is this game named after how jellyfish rise to the surface seeking the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity? If so, what a wonderful way to incorporate our research into this game!
 		</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>7</ID>
 		<LocationB />
-		<ParentID>6</ParentID>
+		<ParentID>5</ParentID>
 		<Text>
-		MELORAE: I.. I have never noticed this trend before. Could the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity be causing these water-composed species to rise to the surface?
+		MELORAE: But in that case, to have won so many games in succession.. Did you perhaps leave a set of eyes at the <![CDATA[<color=orange>Quantum Moon Locator!</color>]]> Phlox?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -56,7 +56,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		COLEUS: I confess to having a pair of eyes at the Quantum Moon Locator, Melorae (I was curious when you would realize!) but I must test Phlox's hypothesis at once!
+		PLUME: Ah, I should have known! Nobody could know where the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is so consistently without a set of eyes at the <![CDATA[<color=orange>Quantum Moon Locator!</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -64,7 +64,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		MELORAE: Hah, I should have known! Nobody could know where the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is so consistently without a pair of eyes at the <![CDATA[<color=orange>Quantum Moon Locator.</color>]]>
+		PHLOX: Haha, I knew papa would figure it out eventually! You're the smartest, papa!
 		</Text>
 	</TextBlock>
 

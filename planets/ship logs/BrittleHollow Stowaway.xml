@@ -9,7 +9,7 @@
          
          <RumorFact>
             <ID>BH_H R1</ID>
-            <RumorName>Riebeck</RumorName>
+            <RumorName>Hanging City</RumorName>
             <Text>Riebeck suggested looking around the Hanging City for clues.</Text> 
         </RumorFact>
 
@@ -21,9 +21,10 @@
             <ID>BH_H EX2</ID>
             <Text>I found a scroll recording the incomplete construction of the White Hole Station. A warp receiver was planned to be constructed on the surface above the Hanging City.</Text> 
         </ExploreFact>
- <ExploreFact>
+         <ExploreFact>
             <ID>BH_H EX3</ID>
             <Text>A warp transmitter requires a connected warp receiver to function.</Text> 
+            
      </ExploreFact>
          <ExploreFact>
             <ID>BH_H EX4</ID> 

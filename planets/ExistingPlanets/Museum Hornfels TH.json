@@ -241,7 +241,7 @@
 				"position": {"x": -236.4538,"y": -46.0363,"z": -68.5974},
 				"rotation": {"x": 274.6971,"y": 146.8382,"z": 7.6289},
 				"type": "scroll",
-				"seed":3,
+				"seed":1,
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/cassava moon.xml",
 				"isRelativeToParent": true
 			},

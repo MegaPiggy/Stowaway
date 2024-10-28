@@ -9,14 +9,14 @@
 		<ID>2</ID>
 		<LocationB />
 		<ParentID>1</ParentID>
-		<Text>CASSAVA: An update: disturbingly, the deadly matter appears able to penetrate any surface.. The only exception to this property appears to be water, which completely neutralizes its advance.</Text>
+		<Text>CASSAVA: The deadly matter has proven disturbingly capable of penetrating any space.. The only protection appears to be water, which completely neutralizes its advance.</Text>
 	</TextBlock>
 	
 	<TextBlock>
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>CASSAVA: If this hypothesis is true... Is that how I alone was able to survive whatever happened?</Text>
+		<Text>CASSAVA: If this hypothesis is true... Is that how I was able to survive whatever happened?</Text>
 	</TextBlock>
 
 	<TextBlock>	

@@ -16,14 +16,14 @@
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>Suitable warp core obtained from paired warp cores powering the <![CDATA[<color=orange>Deep Storm Station.</color>]]></Text>
+		<Text>Suitable warp core obtained from paired white hole and black hole warp cores within the <![CDATA[<color=orange>Deep Storm Station</color>]]>.</Text>
 		</TextBlock>
 
 		<TextBlock>
 		<ID>4</ID>
 		<LocationA />
 		<ParentID>3</ParentID>
-		<Text>This will disable operation of the <![CDATA[<color=orange>Deep Storm Station</color>]]> indefinitely, but this should be of little importance now.</Text>
+		<Text>This will disable the <![CDATA[<color=orange>Deep Storm Station</color>]]> indefinitely, but this should be of little importance now.</Text>
 		</TextBlock>
 		
 	<TextBlock>	

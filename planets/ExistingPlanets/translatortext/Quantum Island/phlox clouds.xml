@@ -5,7 +5,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-		PHLOX: Papa, can we play the phantom moon game tonight?
+		PHLOX: Papa, can we play the jellyfish game tonight?
 		</Text>
 	</TextBlock>
 
@@ -13,7 +13,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: I'm afraid not, Phlox.. Giant's Deep's thick clouds completely obscure sight of anything outside the planet. It will be hard to play the phantom moon game if we cannot see the skies!
+		PLUME: I'm afraid not, Phlox.. The thick clouds on this stormy planet never seem to part, even as its storms calm.
 		</Text>
 	</TextBlock>
 
@@ -21,33 +21,33 @@
 		<ID>3</ID>
 		<ParentID>1</ParentID>
 		<Text>
-		COLEUS: What are the rules of this phantom moon game, Phlox? May we participate sometime?</Text>
+		COLEUS: It will be hard to play the jellyfish game if we cannot even see the skies!</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-	PHLOX: Um, of course! We close our eyes and guess which planet the phantom moon goes to. Whoever guesses correctly is the winner!</Text>
+	PHLOX: Oh, but papa! Coleus taught me a way to play the jellyfish game - even without being able to see the skies!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-	COLEUS: Oh, how fun! If you'd like, Phlox, perhaps after our next trip to <![CDATA[<color=lightblue>Ember Twin,</color>]]> we could all play this game together!</Text>
+	PLUME: I wish I could teach you, papa.. But Coleus told me not to tell you, to make the game more even!</Text>
 	</TextBlock>
 
 		<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-		MELORAE: After our trip? Coleus.. Surely you aren't thinking of cheating in a children's game!</Text>
+		PHLOX: How curious! I suppose this will make it less of a game of pure chance, then.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: Of course not, Melorae! I simply thought there would be a more ideal view of the whole star system there for such a game..</Text>
+	 PLUME: Let us put this trick Coleus has taught you to the test then, my little dwarf star!</Text>
 	</TextBlock>
 
 

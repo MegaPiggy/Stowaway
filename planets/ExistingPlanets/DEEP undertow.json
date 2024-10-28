@@ -80,6 +80,7 @@
 	"Props" :
 	
 	{
+		
 	"singularities": [
 		{
 			"rename":"DSS white hole",
@@ -258,7 +259,17 @@
 				}]
 			}
 		],
+
+
+		
 		"details": [
+
+			
+			
+		
+
+
+
 			{
 				"rename":"DSS ghost matter"
 			},

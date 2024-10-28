@@ -3,7 +3,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text><![CDATA[<color=orange>ORBITAL PROBE CANNON</color>]]> SCHEMATICS</Text>
+		<Text><![CDATA[<color=orange>DEEP STORM STATION</color>]]> SCHEMATICS</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -11,7 +11,8 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		Components: 3 modules connected to central chamber, with double-sized gravity cannon attached to front of central module.
+		Components: Central chamber capable of handling large amounts of energy, and 1 prototype warp core.
+		Components: 3 modules connected to central chamber, with double-size gravity cannon attached to front of central module.
 		</Text>
 			</TextBlock>
 
@@ -20,14 +21,14 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		A reminder: we must communicate an estimate of the amount of gravity crystals needed to power the gravity cannon to the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> soon!</Text>
+		This warp core will allow us to gather valuable data for the continued development of the advanced warp core.</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<LocationB />
 		<ParentID>1</ParentID>
-		<Text>Each chamber will be equipped with projection pools and walls to facilitate swift communication of information between Nomai aboard each module.</Text>
+		<Text>The chamber will need to be equipped with a new projection pool and projection wall to facilitate swift communication of information within the station.</Text>
 	</TextBlock>
 
 	<TextBlock>

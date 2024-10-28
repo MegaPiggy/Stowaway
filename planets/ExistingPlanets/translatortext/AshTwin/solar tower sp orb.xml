@@ -9,7 +9,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		BUR: Yarrow, I may need an extended rest soon. I fear this terrible heat is affecting my mind..
+		YARROW: After some investigation, I can conlude this solar tower's vision orbs do not appear to be experiencing the phenomenon we noticed.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -17,7 +17,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: What!? Bur, do you require medical assistance? Are you physically unwell?
+		OENO: I can corroborate your findings, Yarrow. I did not see the phenomenon occuring at the northern solar tower, either.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -25,42 +25,17 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		BUR: No, I am physically well.. However, when I was resting in one of the towers along the equator earlier, I saw the tower's rotating doors opening and closing by themselves!
+		OENO: However, this investigation has given me an idea.. Yarrow, I believe we should check the other tower with rotating doors!
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<LocationB />
-		<ParentID>3</ParentID>
+		<ParentID>2</ParentID>
 		<Text>
-		BUR: I decided to seek shelter in a different tower, but I saw the same thing occurring there too!
+		OENO: if it experiences the issue we are investigating, I believe I may know the cause of this phenomenon at last!
 		</Text>
 	</TextBlock>
-		<TextBlock>
-		<ID>5</ID>
-		<LocationB />
-		<ParentID>3</ParentID>
-		<Text>
-		BUR: I am not one for superstition, but there was no one nearby when this incident occurred.. Either these doors are aberrant, or my brain must be!
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>6</ID>
-		<LocationB />
-		<ParentID>5</ParentID>
-		<Text>
-		YARROW: How strange! I am sure it must be some sort of defect in these towers' rotating doors.. I shall seek Oeno's assistance in investigating this issue when I return.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>7</ID>
-		<LocationB />
-		<ParentID>6</ParentID>
-		<Text>
-		YARROW: But first: allow me to accompany you home to seek aid, Bur!
-		</Text>
-	</TextBlock>
-
 	
 <ShipLogConditions>
 		<RevealFact>

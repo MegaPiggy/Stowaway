@@ -193,9 +193,12 @@
         </ExploreFact>
 
              <ExploreFact>
-            <IgnoreMoreToExplore/>
             <ID>CB_EX5</ID> 
-            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to use the warp pad there to warp in, to charge a return warp that would allow them to return to the surface.</Text> 
+            <Text>A Nomai named Cassava decided to run more launches using an alternate power source. He asked Nomai seeking him to do so using the Construction Yard's projection wall.</Text> 
+              <AltText>
+                         <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to use the warp pad there to warp in, to charge a return warp that would allow them to return to the surface.</Text>
+                         <Condition>CONV R3</Condition>
+                    </AltText> 
         </ExploreFact>
 </Entry>
 
@@ -215,7 +218,7 @@
         <RumorFact>
             <ID>Cove R2</ID> 
              <RumorName>Ghost Matter Cove</RumorName>
-            <Text>Gabbro made a second campfire outside this cove, but abandoned it after finding the waves were washing high enough to extinguish it.</Text>
+            <Text>Gabbro set up a campfire outside this cove, but found they would wake up wet and groggy when sleeping at it.</Text>
         </RumorFact>
          <RumorFact>
             <ID>Cove R3</ID>
@@ -232,9 +235,12 @@
             <Text>A Nomai named Daz proposed to a Nomai named Cassava in this cove! Strangely, Daz appeared to celebrate Cassava's acceptance before receiving an answer.</Text> 
         </ExploreFact>
         <ExploreFact>
-            <IgnoreMoreToExplore/>
             <ID>Cove EX3</ID> 
-            <Text>While sharing joyous news of his engagement, Daz revealed that he had proposed to Cassava during a negative time interval.</Text> 
+            <Text>Daz and Cassava wrote to the Deep Storm Station through the projection wall, excited by the success of some sort of test.</Text> 
+                    <AltText>
+                         <Text>While sharing joyous news of his engagement, Daz revealed that he had proposed to Cassava during a brief negative time interval.</Text>
+                         <Condition>CONV R2</Condition>
+                    </AltText> 
         </ExploreFact>
            <ExploreFact>
             <ID>Cove EX4</ID> 
@@ -259,7 +265,6 @@
 
          <RumorFact>
             <ID>LC R1</ID> 
-            <SourceID>CONSTRUCT_BAY</SourceID>
             <Text>The Nomai on Giant's Deep used to be completely insulated from cyclones in the Looming City.</Text> 
         </RumorFact>
           <RumorFact>
@@ -301,6 +306,10 @@
         </ExploreFact>
            <ExploreFact>
             <ID>LC EX3</ID> 
+            <Text>A Nomai named Phlox learned how to play something called the jellyfish game without being able to see the skies.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>LC EX3.5</ID> 
             <Text>Giant's Deep's thick clouds completely obscure sight of anything outside the planet.</Text> 
         </ExploreFact>
         <ExploreFact>
@@ -330,7 +339,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>LCJ EX2</ID> 
-            <Text>The Nomai discovered that jellyfish are drawn to the surface of the ocean by the Quantum Moon's gravity.</Text> 
+            <Text>The jellyfish game was named after the Nomai's discovery that jellyfish were drawn to the surface of the ocean by the Quantum Moon's gravity.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>LCJ EX3</ID> 
@@ -375,7 +384,7 @@
     <RumorFact>
                  <ID>CONV R2</ID> 
                <SourceID>LOVERSCOVE</SourceID>
-            <Text>While sharing joyous news of his engagement with the Deep Storm Station, Daz revealed that he proposed to Cassava during a 6-second negative time interval.</Text> 
+            <Text>While sharing joyous news of his engagement with the Deep Storm Station, Daz revealed that he proposed to Cassava during a brief negative time interval.</Text> 
     </RumorFact>
          <RumorFact>
                  <ID>CONV R3</ID> 
@@ -425,12 +434,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>DSS EX5</ID> 
-            <Text>Cassava gathered much of the ghost matter in the star system and warped it into the Deep Storm Station, to contain it at the cost of his own life.</Text>
-        </ExploreFact>
-    
-             <ExploreFact>
-            <ID>DSS EX6</ID> 
-            <Text>The Nomai known as Cassava met his end without fear, wishing the Nomai could have been part of the native species' journey.</Text> 
+            <Text>Cassava gathered as much ghost matter from the star system and warped it into the Deep Storm Station to contain it indefinitely.</Text>
         </ExploreFact>
 
 </Entry>

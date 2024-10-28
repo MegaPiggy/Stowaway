@@ -15,6 +15,22 @@
 		CASSAVA: Hypothesis: the matter obeys, and can be competitively manipulated by sources of gravity.
 		</Text>
 	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		CASSAVA: Hypothesis confirmed. The possibilities this creates...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		CASSAVA: I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> at once.
+		</Text>
+	</TextBlock>
 
 
 <ShipLogConditions>
