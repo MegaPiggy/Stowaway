@@ -7,7 +7,11 @@
         <Name>The Inspired</Name>
         <Curiosity>STOWAWAYS</Curiosity>
    
-
+  <RumorFact>
+             <IgnoreMoreToExplore/>
+            <ID>INSP R1</ID>
+            <Text>Gravity crystals from the Gravity Crystal Workshop were used in the construction of something called the Inspired.</Text>
+         </RumorFact>
         <RumorFact>
              <IgnoreMoreToExplore/>
             <ID>INSP R2</ID>
@@ -50,7 +54,11 @@
            <ExploreFact>
         <IgnoreMoreToExplore/>
             <ID>INSP EX4</ID>
-            <Text>The Inspired's construction used all available gravity crystals, and a white hole warp core from the Deep Storm Station's paired warp cores.</Text>
+            <Text>The Inspired's construction used all available gravity crystals, and a white hole warp core powering the Deep Storm Station.</Text>
+             <AltText>
+                        <Text>The Inspired's construction used all available gravity crystals from the Gravity Crystal Workshop, and a white hole warp core powering the Deep Storm Station.</Text>
+                        <Condition>INSP R1</Condition>
+                 </AltText>
         </ExploreFact>
 
          <ExploreFact>

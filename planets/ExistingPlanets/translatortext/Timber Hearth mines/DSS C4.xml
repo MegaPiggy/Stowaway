@@ -40,7 +40,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-			CASSAVA: <![CDATA[<i>No, no..</i>]]> I was too blinded by my own grief.. If anyone else had survived instead of me, this would not have..
+			CASSAVA: <![CDATA[<i>No, no..</i>]]> I was too blinded by my own grief..
 		</Text>
 	</TextBlock>
 
@@ -49,7 +49,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: ..For now, I must quarantine those within the <![CDATA[<color=orange>Sanctuary.</color>]]> But.. They cannot remain there indefinitely..
+			CASSAVA: ..For now, I must quarantine those within the <![CDATA[<color=orange>Sanctuary.</color>]]> But they cannot remain there indefinitely..
 		</Text>
 	</TextBlock>
 

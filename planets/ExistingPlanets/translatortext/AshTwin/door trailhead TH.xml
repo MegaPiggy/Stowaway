@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: By keeping these doors closed, we can ensure that any native life that is accidentally transported here does not wander far without protection or oxygen.
+		OENO: By keeping these doors closed, we can ensure that any native life that is accidentally transported here from <![CDATA[<color=lightblue>Timber Hearth</color>]]> does not wander far without protection or oxygen.
 		</Text>
 	</TextBlock>
 			<TextBlock>
@@ -21,7 +21,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: An update: on closer inspection, the doors appear to be unlocking by themself.. This is very strange. Could there be some sort of defect in these rotating doors' mechanisms?
+		OENO: An update: I have noticed something very strange.
 		</Text>
 	</TextBlock>
 			<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		YARROW: I have noticed these rotating doors opening and even closing by themself without input as well, Oeno! It is truly puzzling.
+		OENO: Has anyone else noticed this tower's rotating doors opening and even closing by themself without any input?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: The vision orbs that control the doors' mechanisms are controlled by sight.. I am unsure why these mechanisms are being activated in the absence of any input!
+		OENO: The vision orbs that control the doors' mechanisms are controlled by sight.. Somebody must be pulling my locomotive limb, or there must be some defect in these rotating doors!
 		</Text>
 	</TextBlock>
 		<TextBlock>

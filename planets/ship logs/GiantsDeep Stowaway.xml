@@ -191,6 +191,7 @@
             <ID>CB_EX4</ID> 
             <Text>A Nomai named Cassava observed ghost matter being temporarily neutralized by water. He traveled to Timber Hearth to study another property of ghost matter he noticed.</Text> 
         </ExploreFact>
+        
 
              <ExploreFact>
             <ID>CB_EX5</ID> 
@@ -297,7 +298,7 @@
         </ExploreFact>
            <ExploreFact>
             <ID>LC EX4.5</ID> 
-            <Text>This second island was noted to sail in the opposite direction, making its days three times longer than the first island.</Text> 
+            <Text>This second island was noted to sail in the opposite direction, making its days much longer than the first island.</Text> 
         </ExploreFact>
 
           <ExploreFact>
@@ -424,6 +425,19 @@
         </ExploreFact>
         
   <ExploreFact>
+            <ID>DSS EXW</ID> 
+            <Text>Several species in the star system were protected from some sort of danger by the property of immersion.</Text> 
+            <AltText>
+                <Text>Several species in the star system were protected from ghost matter by the property of immersion.</Text>
+                <Condition>COMET_INTERIOR_X1</Condition>
+            </AltText>
+        </ExploreFact>
+          <ExploreFact>
+            <ID>DSS EXG</ID> 
+            <Text>The Inspired used a lattice of gravity crystals to exploit the property of attraction.</Text> 
+        </ExploreFact>
+
+  <ExploreFact>
             <ID>DSS EX3.5</ID> 
             <Text>Cassava took great care to never keep the Quantum Moon locked in orbit around Giant's Deep for extended periods of time.</Text> 
         </ExploreFact>
@@ -434,7 +448,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>DSS EX5</ID> 
-            <Text>Cassava gathered as much ghost matter from the star system and warped it into the Deep Storm Station to contain it indefinitely.</Text>
+            <Text>Cassava gathered ghost matter from the star system and warped it into the Deep Storm Station to contain it indefinitely.</Text>
         </ExploreFact>
 
 </Entry>

@@ -11,7 +11,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Using a lattice of gravity crystals arranged towards its core, the <![CDATA[<color=orange>Inspired</color>]]> will exert a highly localized gravitational field to capture and compact all deadly matter spread across the star system into itself.
+		CASSAVA: Using a lattice of gravity crystals arranged towards its core, the <![CDATA[<color=orange>Inspired</color>]]> will be able to exploit the property of attraction I have discovered.
 		</Text>
 			</TextBlock>
 			<TextBlock>	
@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-			 CASSAVA: The accumulated pressure will be explosively released, spreading the matter across, and delivering massive destruction to any star system within its blast radius.
+			 CASSAVA: The accumulated pressure will be explosively released, spreading its payload across, and delivering massive destruction to any star system within its blast radius.
 		</Text>
 	</TextBlock>
 
@@ -53,6 +53,10 @@
 
 <ShipLogConditions>
 
+<RevealFact>
+			<FactID>DSS EXG</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
 <RevealFact>
 			<FactID>DSS EX1</FactID>
 			<Condition>1</Condition>

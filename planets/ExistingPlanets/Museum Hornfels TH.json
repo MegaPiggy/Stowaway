@@ -184,7 +184,15 @@
 	}
 ],
 		"translatorText": [
-			
+		
+			{
+				"rename": "TH Mine NoEntry cairn",
+				"position": {"x": -67.9423,"y": -21.4103,"z": -201.8577},
+				"rotation": {"x": 278.5499,"y": 260.0885,"z": 114.6591},
+				"type": "cairnTH",
+				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/gate cairn.xml",
+				"isRelativeToParent": true
+			},
 			{
 				"rename": "sanctuary scroll",
 				"position": {"x":-98.3442,"y": 17.0017,"z": 126.348},
@@ -261,14 +269,14 @@
 				"position": {"x": -70.2688, "y": 11.8111, "z": -202.2706},
 				"rotation": {"x": 36.4779, "y": 117.2331, "z": 276.9099},
 				"type": "recorder",
-				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/mines orb tower recording.xml"
+				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/mines sanctuary talk VM.xml"
 			},
 			{
 				"rename": "Campsite recording",
 				"position": {"x": -155.0376, "y": 5.5499, "z": -130.3022},
 				"rotation": {"x": 51.38, "y": 145.983, "z": 274.6353},
 				"type": "recorder",
-				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/mines sanctuary talk VM.xml"
+				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/camp hearthian.xml"
 			}
 			
 		],
@@ -277,22 +285,18 @@
 		"details": [
 		
 			{
-				"rename":"Galena broken scout 1",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Props_Crossroads/OtherComponentsGroup/Reibeck_Camp/Props_HEA_Probe_STATIC/",
-				"position": {"x": 2.6408, "y": 24.0568, "z": 192.8201},
-				"rotation": {"x": 0.4187, "y": 268.0706, "z": 29.8275},
-				"activationCondition": "Galena_Breaker",
-				"blinkWhenActiveChanged": true,
+				"rename":"Mines Literal Gate 1",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Interactables_CaveTwin/TLE_ProbeWindow",
+				"position": {"x": -66.6338, "y": -28.8488 , "z": -219.2198},
+				"rotation": {"x": 13.1357, "y": 197.3444, "z": -0.0001},
 				"isRelativeToParent": true
 			},
 			{
-				"rename": "Galena broken scout 1 zap",
-				"parentPath": "Sector_TH/Galena broken scout 1",
-				"path":"HearthianMapSatellite_Body/Sector_HearthianMapSatellite/Effects_HearthianMapSatellite/Effects_HEA_Sparks (1)",
-				"position": {"x": -0.0575, "y": 0.6678, "z": -1.6779},
-				"rotation": {"x": 25.3968, "y": 352.1892, "z": 244.6256},
-				"activationCondition": "Galena_Breaker",
-				"blinkWhenActiveChanged": true,
+				"rename":"Mines Literal Gate 2",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Interactables_CaveTwin/TLE_ProbeWindow",
+				"parentPath": "Sector_TH/Mines Literal Gate 1",
+				"position": {"x": 4.3299, "y": -0.0487, "z": -13.5858},
+				"rotation": {"x": 0, "y": 0, "z": 0},
 				"isRelativeToParent": true
 			},
 
@@ -447,6 +451,7 @@
 				"path": "assets/models/devcom/cube.prefab",
 				"position": {"x": -0.4208, "y": 8.7389, "z": 0.0934},
 				"rotation": {"x": 271.3771, "y": 238.5813, "z": 32.3693},
+				"parentPath": "Sector_TH/Campsite log seat",
 				"stretch": {"x":1,"y":1,"z":18.9745},
 				"isRelativeToParent": true
 			},

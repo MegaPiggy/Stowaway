@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		BUR: Oh, I feel as though I am being cooked from within, wearing this insulative suit during construction..
+		MELORAE: Are you well, Bur? The construction of the <![CDATA[<color=orange>solar tower,</color>]]> has taken its toll on you!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		BUR: I am sure our friends from the <![CDATA[<color=orange>Timber Hearth Mines</color>]]> worked hard on them to insulate us, but this heat is unbearable!
+		BUR: Yes, relatively.. But, my friends...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -22,7 +22,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		BUR: Could we not have waited for a sunless day to begin work on the <![CDATA[<color=orange>solar tower,</color>]]> like we did while building the solar panels on <![CDATA[<color=lightblue>Ember Twin?</color>]]>
+		BUR: Why did we not wait for a sunless day to begin work on the <![CDATA[<color=orange>solar tower,</color>]]> like we did while building the solar panels on <![CDATA[<color=lightblue>Ember Twin?</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>

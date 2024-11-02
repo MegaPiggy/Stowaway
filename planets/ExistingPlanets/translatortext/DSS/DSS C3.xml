@@ -40,7 +40,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-			CASSAVA: I should launch the Inspired regardless to destroy any siblings of this comet - before any more drift towards, or are already on a journey towards this star system...
+			CASSAVA: I should launch the <![CDATA[<color=orange>Inspired</color>]]> regardless to destroy any siblings of this comet - before any more drift towards, or are already on a journey towards this star system...
 		</Text>
 	</TextBlock>
 

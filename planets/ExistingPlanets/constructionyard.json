@@ -569,16 +569,16 @@
 			{
 				"rename": "Inspired schematic scroll",
 				"type": "scroll",
-				"position": {"x": -9.1029, "y": 6.3395, "z": 33.145},
-				"rotation": {"x": 8.0254, "y": 280.7329,"z": 57.6706},
+				"position": {"x": -9.0466, "y": 5.8529, "z": 31.2122},
+				"rotation": {"x": 2.4324, "y": 268.4509,"z": 60.1365},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/weapon schematic.xml",
 				"seed":2
 			},
 			{
 				"rename": "OPC Schematic Scroll w RearSecret",
 				"type": "scroll",
-				"position": {"x": -9.0466, "y": 5.8529, "z": 31.2122},
-				"rotation": {"x": 2.4324, "y": 268.4509,"z": 60.1365},
+				"position": {"x": -9.1029, "y": 6.3395, "z": 33.145},
+				"rotation": {"x": 8.0254, "y": 280.7329,"z": 57.6706},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cyard schematic opc.xml",
 				"seed":8
 			},

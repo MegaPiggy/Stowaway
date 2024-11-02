@@ -12,7 +12,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Hypothesis: the matter obeys, and can be competitively manipulated by sources of gravity.
+		CASSAVA: Hypothesis: the deadly matter obeys, and can be competitively manipulated by sources of gravity.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: Hypothesis confirmed. The possibilities this creates...
+		CASSAVA: I have confirmed this property of attraction. Oh, the possibilities created by this discovery...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -40,7 +40,7 @@
 		</RevealFact>
 		<RevealFact>
 			<FactID>TH_WR EX3.5</FactID>
-			<Condition>2</Condition>
+			<Condition>4</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

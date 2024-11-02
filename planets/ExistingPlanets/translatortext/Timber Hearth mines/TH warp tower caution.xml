@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: For those unaware, this planet is home to amphibious lifeforms, which you may encounter swimming onto land to explore the planet's surface.
+		OENO: The warp receiver powers a return warp that allows travel back to the paired warp transmitter after a Nomai has traveled to it.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: The warp receiver powers a return warp that allows travel back to the paired warp transmitter after a Nomai has traveled to it.
+		OENO: For those unaware, this planet is home to amphibious lifeforms, which you may encounter swimming onto land to explore the planet's surface.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -56,7 +56,7 @@
 		</RevealFact>
 			<RevealFact>
 			<FactID>TH_WR EX1</FactID>
-			<Condition>5</Condition>
+			<Condition>4</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>TH_WR EX2</FactID>

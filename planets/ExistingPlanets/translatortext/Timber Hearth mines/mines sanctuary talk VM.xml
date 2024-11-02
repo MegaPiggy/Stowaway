@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		COLEUS: Friends, the forge has asked for one more shipment of ore from our mines to be delivered to the <![CDATA[<color=orange>Volcanic Testing Site.</color>]]>
+		COLEUS: Friends, the forge has asked for one more shipment of ore from our mines to be delivered to <![CDATA[<color=lightblue>Hollow's Lantern.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		COLEUS: Though it was formed on this planet, the ore still requires treatment at <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> to reach its full capabilities.
+		COLEUS: Though it was formed on this planet, the ore still requires treatment at the <![CDATA[<color=orange>Volcanic Testing Site</color>]]> on <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> to reach its full capabilities.
 		</Text>
 	</TextBlock>
 	
@@ -59,7 +59,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: We will need to put extra eyes into carefully reinforcing the walls of the <![CDATA[<color=orange>Sanctuary,</color>]]> to prevent the surrounding water from penetrating the protective shell.
+		COLEUS: We will need to put extra eyes into carefully reinforcing the walls of the <![CDATA[<color=orange>Sanctuary,</color>]]> to prevent the surrounding water from penetrating this protective shell.
 				</Text>
 	</TextBlock>
 

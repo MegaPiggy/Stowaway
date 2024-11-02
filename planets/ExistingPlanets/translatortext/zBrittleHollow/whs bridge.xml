@@ -7,7 +7,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CLARY: Friends, the <![CDATA[<color=orange>White Hole Station's</color>]]> construction was completed today. I cannot wait to jump into the black hole to test it soon!
+		CLARY: Friends, the <![CDATA[<color=orange>White Hole Station's</color>]]> construction was completed today!
 		</Text>
 	</TextBlock>
 
@@ -16,7 +16,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		FILIX: How exciting, Clary! Once the <![CDATA[<color=orange>White Hole Station</color>]]> is operational, we will finally be able to live without constant fear of falling into the black hole.
+		CLARY: I shall be jumping into the black hole shortly to test the <![CDATA[<color=orange>White Hole Station.</color>]]> Oh, I cannot wait to jump into the black hole at last soon!
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		POKE: Wait, Clary! The <![CDATA[<color=orange>White Hole Station</color>]]> is not operational yet! <![CDATA[<i>Do not</i>]]> jump into the black hole!
+		FILIX: How exciting, Clary! Once the <![CDATA[<color=orange>White Hole Station</color>]]> is operational, we will finally be able to live without constant fear of falling into the black hole.
 		</Text>
 	</TextBlock>
 
@@ -34,7 +34,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		POKE: A warp transmitter requires a connected warp receiver to function; the <![CDATA[<color=orange>White Hole Station's</color>]]> warp transmitter does not yet have a connected warp receiver for it to transport Nomai to!
+		POKE: Wait, Clary! <![CDATA[<i>Do not</i>]]> jump into the black hole!
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		CLARY: I owe Filix my deepest gratitude for <![CDATA[<i>verbally</i>]]> warning me before I leapt.. Has a site been chosen for the <![CDATA[<color=orange>White Hole Station's</color>]]> warp receiver yet, Poke?
+		POKE: Filix, did she hear my warning?! Oh, Clary!
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		POKE: There should be ample space on the surface above the <![CDATA[<color=orange>Hanging City.</color>]]> Building the warp receiver there should also provide convenient travel back to the city from the <![CDATA[<color=orange>White Hole Station.</color>]]>
+		FILIX: Your warning appears to have been in time, Poke! Your sister was able to catch the Belaying Beam before the black hole swallowed her. But what happened, Poke?
 		</Text>
 	</TextBlock>
 
@@ -61,10 +61,18 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CLARY: In that case, I'm off to install the warp receiver. I simply cannot wait to finally experience jumping into a black hole for the first time!
+		POKE: I'll explain later, Filix! For now, Clary still needs our help: her maneuver landed her on the ledge right below the <![CDATA[<color=orange>Belaying Beam!</color>]]>
 		</Text>
 	</TextBlock>
 
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		POKE: For some reason, she hasn't come back up using the <![CDATA[<color=orange>Belaying Beam..</color>]]> Is she injured..? Oh.. Filix, we should hurry to her!
+		</Text>
+	</TextBlock>
 
 <ShipLogConditions>
 

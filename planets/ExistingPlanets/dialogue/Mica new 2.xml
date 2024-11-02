@@ -46,8 +46,7 @@
 		<Dialogue>
 		<Page>Beats me! I thought you’d know, being in the space program and all.</Page>
 		<Page>Actually, I'm pretty sure they explained why at some point, but everyone was too excited to see the takeoff at last to remember that part.</Page>
-		<Page>I think it was something about the Hourglass Twins' sand column? You know, that thing the Hourglass Twins does that we don't really understand.</Page>
-			<Page>Well hey, maybe if you <![CDATA[<i>take off soon...</i>]]> You can find Chert and ask them yourself about their launch day, and the sand column!</Page>
+			<Page>Well hey, maybe if you <![CDATA[<i>take off soon...</i>]]> You can find Chert and ask them yourself about their launch day yourself!</Page>
 			 </Dialogue>
 						  <RevealFacts>
      						   <FactID>MICA EX2</FactID>

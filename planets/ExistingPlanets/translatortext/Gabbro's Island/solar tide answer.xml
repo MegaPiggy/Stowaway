@@ -42,7 +42,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		DAZ: That explains it. The waves caused by the sun must be washing high enough on the island to submerge the projection pool, dissolving my voyager.
+		DAZ: Ah, I should not be surprised, then! The voyager dissolves when immersed in bodies of water, you see.
 		</Text>
 	</TextBlock>
 
@@ -51,7 +51,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		CASSAVA: I see.. Well, it's not a large issue, thankfully! We'll simply need to keep these waves in mind whenever we voyage to Giant's Deep.
+		CASSAVA: The waves caused by the sun must be washing high enough on this island to submerge my voyager, dissolving it!
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		DAZ: It <![CDATA[<i>is</i>]]> an issue! That means it'll be inconvenient to use voyager stones to work here on Giant's Deep remotely.. My plan is in shambles!
+		CASSAVA: I see.. In that case, we shall need to keep these waves in mind whenever we voyage to Giant's Deep!
 		</Text>
 	</TextBlock>
 

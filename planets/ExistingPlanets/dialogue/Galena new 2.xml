@@ -81,11 +81,6 @@
 				<Text>Uhhh, how about we just ask Slate instead??</Text>
 				<DialogueTarget>ShyKidNew2</DialogueTarget>
 			</DialogueOption>
-			<DialogueOption>
-			<RequiredCondition>IsWearingSuit</RequiredCondition>
-				<Text>You know what? Sure, go ahead.</Text>
-				<DialogueTarget>ShyKidNew4</DialogueTarget>
-			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -104,11 +99,6 @@
 				<Text>Uhhh, why don't we check with Slate first, on second thoughts??</Text>
 				<DialogueTarget>ShyKidNew2</DialogueTarget>
 			</DialogueOption>
-			<DialogueOption>
-			<RequiredCondition>IsWearingSuit</RequiredCondition>
-				<Text>You know what? Sure, go ahead.</Text>
-				<DialogueTarget>ShyKidNew4</DialogueTarget>
-			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -116,7 +106,7 @@
 		<Name>ShyKidNew2</Name>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>..Um.. I'm scared to talk to Slate..<![CDATA[</size>]]></Page>
-				<Page><![CDATA[<size=20>]]>They said they'd strap me to the ship if they ever caught me hiding in one again while working on it...<![CDATA[</size>]]></Page>
+				<Page><![CDATA[<size=20>]]>They said they'd fly me into the sun if they ever caught me hiding in one of their ships while they were working on it...<![CDATA[</size>]]></Page>
 				<Page><![CDATA[<size=20>]]>Could you.. help me ask them, astronaut?<![CDATA[</size>]]></Page>
 		</Dialogue>
 						 <RevealFacts>
@@ -149,7 +139,7 @@
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Oh.. So it just uses hooks...<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>..I'll never trust Tephra again.....<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Thank you for telling me, astronaut... Um, take care in space!<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Thank you for telling me, astronaut. Take care in space!<![CDATA[</size>]]></Page>
 		</Dialogue>
 	</DialogueNode>
 

@@ -41,7 +41,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: Kousa, do you not recall? You left a scroll in the <![CDATA[<color=orange>Hanging City,</color>]]> inviting me to your workshop today to show me an invention of yours!
+		PLUME: Kousa, do you not recall? You left a scroll in the <![CDATA[<color=orange>Hanging City,</color>]]> inviting me to your workshop to show me a new invention of yours!
 		</Text>
 	</TextBlock>
 	
@@ -50,7 +50,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: If I recall correctly, you described the invention in your scroll as something that would help our expedition team weather the terrible storms we have faced?
+		PLUME: If I recall correctly, you described in the scroll that it was a device that would help our expedition team weather the terrible storms we have faced?
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Oh... Yes, yes, of course, I wanted to show you my newest invention! Thank goodness I left that scroll in the <![CDATA[<color=orange>Hanging City,</color>]]> for you before it slipped my mind.
+		KOUSA: Oh... Yes, yes, of course! Thank goodness I left that scroll for you in the <![CDATA[<color=orange>Hanging City,</color>]]> for you before it slipped my mind..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -67,7 +67,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: It is right outside. Please, follow me! I am too excited to show you how the storm shelter works.
+		KOUSA: It is right outside! Come, come! I am excited to show you how the storm shelter works.
 		</Text>
 	</TextBlock>
 

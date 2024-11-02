@@ -3,7 +3,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>CASSAVA: Of note: water appears to temporarily neutralize the deadly matter as the waves wash onto the island.</Text>
+		<Text>CASSAVA: Of note: water appears to temporarily neutralize the deadly matter as it is immersed by the waves that wash onto the island.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
@@ -23,7 +23,7 @@
 	<ID>4</ID>
 		<LocationB />
 		<ParentID>3</ParentID>
-		<Text>CASSAVA: ..I must focus on my research. There is another property of this exotic deadly matter I have noticed that I must investigate further on <![CDATA[<color=lightblue>Timber Hearth.</color>]]></Text>
+		<Text>CASSAVA: ..I must focus on my research. There is another property of this matter I have noticed that I must investigate further on <![CDATA[<color=lightblue>Timber Hearth.</color>]]></Text>
 	</TextBlock>
 
 

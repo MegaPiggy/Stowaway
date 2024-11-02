@@ -13,11 +13,11 @@
   </RumorFact>
  <ExploreFact>
             <ID>MICA EX1</ID> 
-            <Text>Mica says that Chert delayed their first launch several times due to something about the Hourglass Twins' sand column.</Text> 
+            <Text>Mica says that Chert delayed their first launch several times for some reason.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>MICA EX2</ID> 
-            <Text>Mica told me to ask Chert myself about the reason they delayed their launch day.</Text> 
+            <Text>Mica told me to ask Chert about why they delayed their launch day.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -63,11 +63,6 @@
             <ID>GAL EX2</ID> 
             <Text>Slate says that the Little Scout arms little hooks to allow it to stick onto surfaces for surveying from afar.</Text> 
        </ExploreFact>
-        <ExploreFact>
-        <IgnoreMoreToExplore/>
-            <ID>GAL EX3</ID> 
-            <Text>Galena broke my Little Scout.. Oops.</Text> 
-       </ExploreFact>
 </Entry>
 
 <Entry>
@@ -83,7 +78,7 @@
   <RumorFact>
            <SourceID>GD_GABBRO_ISLAND</SourceID>
             <ID>ARK R2</ID> 
-            <Text>Arkose says Gabbro noticed ghost matter disappearing as well.</Text> 
+            <Text>Arkose says that Gabbro told them that ghost matter disappears.</Text> 
   </RumorFact>
 
        <ExploreFact>
@@ -92,7 +87,7 @@
        </ExploreFact>
        <ExploreFact>
             <ID>ARK EX2</ID> 
-            <Text>Arkose says that Gabbro noticed ghost matter disappearing as well, though they weren't sure why.</Text> 
+            <Text>Arkose says that Gabbro told them that ghost matter disappears, but Gabbro doesn't know why.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -237,15 +232,15 @@
         </RumorFact>
           <ExploreFact>
                     <ID>TH_WR EX3</ID> 
-                   <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead.</Text> 
+                   <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead. He posited that ghost matter could be competitively manipulated by sources of gravity.</Text> 
                </ExploreFact>
                  <ExploreFact>
                     <ID>TH_WR EX3.5</ID> 
-                   <Text>Cassava posited that ghost matter could be competitively manipulated by sources of gravity. This discovery spurred him to return to Giant's Deep.</Text> 
+                   <Text>This discovery was named the property of attraction, and spurred Cassava to return to Giant's Deep.</Text> 
                </ExploreFact>
                <ExploreFact>
                      <ID>TH_WR EX1</ID> 
-                     <Text>The Nomai on Timber Hearth were careful not to leave this warp receiver unattended, to protect the amphibious native lifeforms from being warped to Ash Twin.</Text> 
+                     <Text>The Nomai on Timber Hearth were careful not to leave this warp receiver unattended, to protect the planet's amphibious native lifeforms from being warped to Ash Twin.</Text> 
               </ExploreFact>
                  <ExploreFact>
                      <ID>TH_WR EX2</ID> 
