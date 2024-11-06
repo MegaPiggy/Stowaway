@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: I have confirmed this property of attraction. Oh, the possibilities created by this discovery...
+		CASSAVA: I have confirmed this property of attraction. The possibilities created by this discovery...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> at once.
+		CASSAVA: ..I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> at once.
 		</Text>
 	</TextBlock>
 

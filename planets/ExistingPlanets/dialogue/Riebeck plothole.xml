@@ -443,6 +443,9 @@
 				<Page>Oh, wow. Wow. This is a serious mystery we have on our hands... This is a whole new page of Hearthian history we've never even known about!</Page>
 			<Page>Um, seeing as you're the only one with a translator tool right now, <![CDATA[<size=20>]]>and I'm a little paralyzed above a black hole,<![CDATA[</size>]]> I'll um, be counting on you to find out what you can about this exciting mystery for now.</Page>
 			<Page>Oh! If you find anything, I'd SERIOUSLY love to hear about your findings! <![CDATA[<size=20>]]>Um, if it's not too much trouble!<![CDATA[</size>]]></Page>
+			<Page>I'll um, most likely still be stuck here by the time you get back..</Page>
+			<Page>If you ever need a break from your adventuring, feel free to join me by the campfire, though!</Page>
+			<Page>It's nice and toasty.. And it helps time slip by, so you forget you're sitting above a monstrous force of nature!</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -461,7 +464,8 @@
 		<Dialogue>
 			<Page>Y-yeah! That's what we're here to...</Page>
 			<Page>Oh.. Oh stars. I just saw a huge rock being spaghettified into the black hole in the distance..... Nope. Nope.</Page>
-			 <Page>Y-You go on ahead. M-M-Make some huge discoveries we'll both be proud of! I'm... gonna be stuck here a while longer.</Page>
+			 <Page>Y-You go on ahead. M-M-Make some huge discoveries we'll both be proud of!</Page>
+			  <Page>I'm... gonna be stuck here a while longer.</Page>
 		</Dialogue>
 	</DialogueNode>
 

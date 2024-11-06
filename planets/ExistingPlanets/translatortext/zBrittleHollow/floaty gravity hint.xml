@@ -1,0 +1,67 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		LAEVI: Lami, enough play! Please, use the <![CDATA[<color=orange>Artificial Gravity Highway</color>]]> normally: we shall be late returning home to <![CDATA[<color=lightblue>Ember Twin</color>]]> at this rate!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		LAMI: No! I do not need to use the <![CDATA[<color=orange>Artificial Gravity Highway</color>]]> to get home.. For I am Lami, the greatest jumper of our clan!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		LAMI: Just watch! I'm going to jump from the bottom of the highway all the way to the highest district, in one go!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		LAMI: What..? That jump was so weak.. Why can't I jump as high anymore? I jumped so high earlier, elsewhere on <![CDATA[<color=lightblue>Brittle Hollow!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		LAEVI: It's because we're on the north pole now, Lami..
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		LAEVI: If you wish to jump to greater heights, then let us hurry and return to the <![CDATA[<color=lightblue>Hourglass Twins..</color>]]> You will be able to jump as high as you like there!
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+	<RevealFact>
+			<FactID>BH_H EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_H EX4</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

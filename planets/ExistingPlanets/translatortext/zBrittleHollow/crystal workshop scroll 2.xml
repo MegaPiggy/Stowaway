@@ -14,7 +14,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: I have heard many tales of your hardships during your stay, and could not help but wonder if there was not something I could do to help..
+		KOUSA: I have heard many tales of your hardships during your stay, and could not help but wonder if there was not something I could do to help..
 		</Text>
 	</TextBlock>
 
@@ -41,7 +41,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: Thanks to the <![CDATA[<color=orange>Sunless City's</color>]]> contributions, the device is able to autonomously power itself when islands are launched into orbit, and even deactivates on its own afterwards to conserve power.
+		KOUSA: Thanks to the <![CDATA[<color=orange>Sunless City's</color>]]> contributions, the device is able to autonomously power itself when islands are launched into orbit, and even deactivates on its own afterwards to conserve power.
 		</Text>
 	</TextBlock>
 	
@@ -50,7 +50,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: I humbly invite you to visit my workshop soon so I may share this invention with you, and send it with you on your next expedition!
+		KOUSA: I humbly invite you to visit my workshop soon so I may share this invention with you, and send it with you on your next expedition!
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: How incredible, Kousa! I must thank our friends from the <![CDATA[<color=orange>Sunless City</color>]]> when we next set off for our an expedition together.
+		PLUME: How incredible, Kousa! I must thank our friends from the <![CDATA[<color=orange>Sunless City</color>]]> when we next set off for our an expedition together.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -67,7 +67,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: And of course, you have my deepest gratitude for your hard work, Kousa. I shall visit the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> as soon as I can after my rest.
+		PLUME: And of course, you have my deepest gratitude for your hard work, Kousa. I shall visit the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> as soon as I can after my rest.
 		</Text>
 	</TextBlock>
 

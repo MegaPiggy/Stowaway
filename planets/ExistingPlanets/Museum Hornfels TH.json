@@ -283,7 +283,14 @@
 
 		
 		"details": [
-		
+			{
+				"rename":"Gate torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position": {"x": -69.4568, "y": -23.3966, "z": -203.5316},
+				"rotation": {"x": 273.1927, "y": 291.3129, "z": 83.5469},
+				"isRelativeToParent": false
+			},
 			{
 				"rename":"Mines Literal Gate 1",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Interactables_CaveTwin/TLE_ProbeWindow",

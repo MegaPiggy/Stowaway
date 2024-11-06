@@ -1,0 +1,94 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+Clue to convey: Warp transmitters require a warp receiver (context: wait, the warp receiver isnt installed yet!)
+
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		ILEX: Greetings, Bells! I had a question regarding the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> and hoped you might be able to indulge my curiosity.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		ILEX: As it is difficult to calculate shuttle trajectories to a quantum destination, Solanum has asked me to travel to <![CDATA[<color=lightblue>Ember Twin</color>]]> today to share a set of eyes for her pilgrimage.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		ILEX: However, while traveling here, I was reminded of the existence of a second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow..</color>]]> I am curious why we could not have used this locator for the same purpose!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		BELLS: Greetings, Ilex! I am proud to hear a young Nomai seeking out such questions on their own initiative! But the reason is quite simple.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		BELLS: You see, unlike the locator on <![CDATA[<color=lightblue>Ember Twin,</color>]]> the locator here on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> was built underground to protect its delicate sensors from meteor impacts.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		BELLS: Unfortunately, this means that much of the sky is obscured at this site - which would make using the rule of quantum imaging much more difficult at this locator.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		ILEX: I see.. What a pity! I had hoped to use the locator on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> to use the rule of quantum imaging without enduring the heat on this planet..
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		BELLS: I can only offer you my compassion, young Ilex.. Perhaps when the time comes for your pilgrimage, we will have devised a way for Nomai to use the rule of quantum imaging from afar!
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+
+		<RevealFact>
+			<FactID>BH_H EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_H EX2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_H EX3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+
+</ShipLogConditions>
+
+</NomaiObject>

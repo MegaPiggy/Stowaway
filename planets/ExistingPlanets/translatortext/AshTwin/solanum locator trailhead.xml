@@ -1,0 +1,86 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	Clue: There is another QM locator on BH and two Nomai are debating which one is better
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		SOLANUM: Ilex, it is good to see you! You have my gratitude for being an extra set of eyes today during my pilgrimage to the <![CDATA[<color=lightblue>Quantum Moon.</color>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		ILEX: Of course, my friend! I only hope you will be my set of eyes as well, when it is my turn!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		ILEX: However, I am curious.. Was there a reason Bells instructed us to travel all the way to <![CDATA[<color=lightblue>Ember Twin?</color>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		ILEX: After all, there is a second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on Brittle Hollow, is there not? Could that one not have served the same purpose?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		SOLANUM: That is a wise question.. I believe I may have even noticed it while visiting Bells earlier, but the thought never crossed my mind!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		SOLANUM: I must return to the <![CDATA[<color=orange>Gravity Cannon</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> as soon as I can to begin preparations for my pilgrimage.. But perhaps you should ask Bells, if your curiosity burns!
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		SOLANUM: If I recall, the only projection wall on <![CDATA[<color=lightblue>Ember Twin</color>]]> is the one outside the <![CDATA[<color=orange>High Energy Lab.</color>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		SOLANUM: If you are able to find a projection stone that connects you to her, you should be able to use that projection wall to seek Bells, Ilex!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		ILEX: I shall seek one then, while you complete your preparations! Be curious on your journey, my friend.
+		</Text>
+	</TextBlock>
+
+</NomaiObject>

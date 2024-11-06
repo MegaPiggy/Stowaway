@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: The vision orbs that control the doors' mechanisms are controlled by sight.. Somebody must be pulling my locomotive limb, or there must be some defect in these rotating doors!
+		OENO: The vision orbs that control the doors' mechanisms are controlled by sight.. Either somebody is pulling my locomotive limb, or there must be some defect in these rotating doors!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		YARROW: I recall the <![CDATA[<color=orange>solar towers</color>]]> on <![CDATA[<color=lightblue>Ash Twin's</color>]]> poles are controlled by similar mechanisms.. Perhaps we should travel to the <![CDATA[<color=orange>solar towers</color>]]> to investigate if the same thing occurs there, Oeno!
+		YARROW: I recall the <![CDATA[<color=orange>solar towers</color>]]> on each of <![CDATA[<color=lightblue>Ash Twin's</color>]]> poles are controlled by similar mechanisms.. Perhaps we should travel to both towers to investigate if the same thing occurs there, Oeno!
 		</Text>
 	</TextBlock>
 	

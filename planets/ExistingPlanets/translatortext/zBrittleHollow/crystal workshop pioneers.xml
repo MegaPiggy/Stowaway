@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		KOUSA: Your eye is keen! A recent meteor from <![CDATA[<color=orange>Hollow's Lantern</color>]]> broke off some tiny pieces of the planet's crust, providing an abundance of material to carve new gravity crystals.
+		KOUSA: Your eye is keen! A recent meteor impact broke off some tiny pieces of the planet's crust, providing an abundance of material to carve new gravity crystals.
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Oh... Yes, yes, of course! Thank goodness I left that scroll for you in the <![CDATA[<color=orange>Hanging City,</color>]]> for you before it slipped my mind..
+		KOUSA: Oh... Yes, yes, of course! Thank goodness I left that scroll for you in the <![CDATA[<color=orange>Hanging City,</color>]]> before it slipped my mind..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -67,7 +67,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: It is right outside! Come, come! I am excited to show you how the storm shelter works.
+		KOUSA: It is right outside. Please, follow me! I am excited to show you how the storm shelter works!
 		</Text>
 	</TextBlock>
 
