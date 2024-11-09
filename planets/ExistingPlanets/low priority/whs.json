@@ -19,7 +19,7 @@
 				"rotation": {"x":51.3289,"y": 262.4717,"z": 301.0463},
 				"isRelativeToParent": true,
 				"type":"scroll",
-				"xmlFile": "planets/ExistingPlanets/translatortext/projection wall intro.xml",
+				"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/projection wall intro.xml",
 				"seed":1,
 				"arcInfo":
 				[

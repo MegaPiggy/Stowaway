@@ -82,7 +82,7 @@
 		<Name>Teph Answers 1D</Name>
 		<Dialogue>
 					<Page>Um.. I dunno! It's somewhere on Timber Hearth, outside the village?</Page>
-					<Page>I think I saw it before playing with Tektite's probe launcher, up the hill. Maybe you can try using Tektite's scout launcher to find it, astronaut!</Page>
+					<Page>I think Tektite's probe launcher up the hill says which way it's in.. Maybe you should use it to find the Nomai Ruins before you go, astronaut!</Page>
 					<Page>Galena and I wanted to look there ourselves - but Mayor Rutile told us not to ever go near there, because there's lots of dangerous ghost matter around that area that we can't see.</Page>
 					<Page>Could you look around the <![CDATA[<color=orange>Nomai Ruins</color>]]> for us, astronaut? The purple rock might be going to a cave there that we don't know about!</Page>
 					<Page>Hornfels told me the astronauts' Little Scouts can take pictures and see where ghost matter is hiding..</Page>
@@ -94,7 +94,7 @@
 		<Name>Teph Answers 1E</Name>
 			<Dialogue>
 					<Page>Um.. I dunno! It's somewhere on Timber Hearth, outside the village?</Page>
-					<Page>I think I saw it before playing with Tektite's probe launcher, up the hill. Maybe you can try using Tektite's scout launcher to find it, astronaut!</Page>
+					<Page>I think Tektite's probe launcher up the hill says which way it's in.. Maybe you should use it to find the Nomai Ruins before you go, astronaut!</Page>
 		</Dialogue>
 	</DialogueNode>
 

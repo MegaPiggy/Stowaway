@@ -12,7 +12,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CYCAD: What a lush and bountiful planet.. Imagine if we had been fortunate enough to crash onto such a hospitable planet!
+		CYCAD: What a lush and bountiful planet.. Imagine if we had been fortunate enough to crash onto such a hospitable planet, Oeno!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: We cannot work in hypotheticals, Cycad. What matters is that our clan is finally reunited - and that we have been given the chance to explore this new planet together!
+		OENO: We should not work in hypotheticals, Cycad! What matters is that our clan is finally reunited.. and that we have been given the chance to explore this new planet together!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		CYCAD: ..Oeno, what was that?! Something is scampering around our campsite! Is this planet less hospitable than it appeared?
+		CYCAD: Oeno, what was that?! Something is scampering around our campsite!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -44,7 +44,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		CYCAD: That is a relief to hear, Oeno. But that aside: we have found a new species native to this star system already!
+		CYCAD: That is a relief to hear.. But that aside: we have found a new species native to this star system already!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -52,7 +52,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		CYCAD: How exciting! I cannot wait to share our discoveries here with our friends back home.
+		OENO: How exciting! I cannot wait to share our discoveries here with our friends back home.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -68,7 +68,7 @@
 		<LocationA />
 		<ParentID>8</ParentID>
 		<Text>
-		OENO: The lifeform has fled deeper into the mountain! Come, Cycad: let us follow it slowly!
+		OENO: The lifeform has fled deeper into the mountain! Come, Cycad: let us follow it!
 		</Text>
 	</TextBlock>
 

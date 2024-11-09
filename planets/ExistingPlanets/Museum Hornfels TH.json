@@ -362,14 +362,15 @@
 				"stretch": {"x":1.5,"y":1.4,"z":1}
 			},
 			{
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume/NotificationVolume",
 				"rename":"Forest GM 1 notification",
 				"position": {"x":-93.972,"y": 20.8087,"z": -152.1071},
+				"rotation": {"x":48.1288,"y": 294.7789,"z": 80.7419},
 				"scale":3,
 				"isRelativeToParent": true
 			},
 			{
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume/NotificationVolume",
 				"rename":"Forest GM 2 notification",
 				"position": {"x":-117.0639,"y": -66.4285,"z": -186.5172},
 				"scale":3,

@@ -118,30 +118,9 @@
 				"xmlFile":"planets/ExistingPlanets/translatortext/Bramble Island/water column.xml",
 			"parentPath": "Sector_BrambleIsland/scroll tablet"
 			}
-		],
+		]
 
 	
-		"remotes":
-		[
-		{
-			"id": "Dev",
-			"decalPath": "planets/assets/team askeratk.png",
-			"whiteboard":{
-				"rename":"Dev whiteboard",
-				"position":{"x": -26.3093,"y": -44.9899, "z": -4.1706},
-				"rotation":{"x":357.6109,"y":214.3977,"z":181.4597},
-				"isRelativeToParent": true,
-				"nomaiText": [
-								{
-					"id": "GD_DeepStormStation",
-					"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/ss dss failure.xml",
-					"location":"b",
-					"seed": 4
-								}
-							]
-						}
-		}
-		]
 	}
 
 

@@ -5,7 +5,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-		PHLOX: Papa, can we play the seeking game tonight?
+		PHLOX: Papa, can we play the wandering game tonight?
 		</Text>
 	</TextBlock>
 
@@ -19,35 +19,35 @@
 
 	<TextBlock>
 		<ID>3</ID>
-		<ParentID>1</ParentID>
+		<ParentID>2</ParentID>
 		<Text>
-		COLEUS: It will be hard to play the seeking game if we cannot even see the skies!</Text>
+		PLUME: It will be hard to play the wandering game if we cannot even see the skies!</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
-		<ParentID>3</ParentID>
+		<ParentID>2</ParentID>
 		<Text>
-	PHLOX: Oh, but papa! Coleus taught me a way to play the jellyfish game - even without being able to see the skies!</Text>
+	PHLOX: What if we ask Coleus to be our set of eyes outside the planet? He can simply tell us who was correct when he returns!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-	PLUME: I wish I could teach you, papa.. But Coleus told me not to tell you, to make the game more even!</Text>
+	PLUME: Hah, you must really want to play the wandering game tonight, Phlox!</Text>
 	</TextBlock>
 
 		<TextBlock>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-		PHLOX: How curious! I suppose this will make it less of a game of pure chance, then.</Text>
+		COLEUS: I would be happy to assist in your game, Plume!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-	 PLUME: Let us put this trick Coleus has taught you to the test then, my little dwarf star!</Text>
+	 PLUME: You have my gratitude, Coleus. Now, tell me what your first guess is, my little dwarf star!</Text>
 	</TextBlock>
 
 

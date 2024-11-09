@@ -313,6 +313,16 @@
 							"isRelativeToParent": true,
 							"stretch": {"x": 6.8836,"y": 4.4309,"z": 2.5964}
 					},
+					{
+						"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
+							"rename":"DSS GM volume 4 shelf 2",
+							"position": {"x": -5.6966,"y": 11.875,"z": -1.4012},
+							"rotation": {"x": 286.8405,"y": 135.7928,"z": 222.8911},
+							"removeChildren": ["ProbeVisuals"],
+							"parentPath": "Sector_GD/DSS ghost matter",
+							"isRelativeToParent": true,
+							"stretch": {"x": 6.8836,"y": 4.4309,"z": 2.5964}
+					},
 
 					
 			{

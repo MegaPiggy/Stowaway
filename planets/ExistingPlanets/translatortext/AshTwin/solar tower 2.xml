@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		MELORAE: Are you well, Bur? The construction of the <![CDATA[<color=orange>solar tower,</color>]]> has taken its toll on you!
+		MELORAE: Are you well, Bur? The construction of the <![CDATA[<color=orange>solar tower</color>]]> appears to have taken a great toll on you!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		BUR: Yes, relatively.. But, my friends...
+		BUR: Yes, relatively speaking.. But, my friends...
 		</Text>
 	</TextBlock>
 	<TextBlock>

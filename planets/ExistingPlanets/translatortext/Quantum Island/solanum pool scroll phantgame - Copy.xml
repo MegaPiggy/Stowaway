@@ -7,7 +7,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			COLEUS: The <![CDATA[<color=lightblue>Quantum Moon</color>]]> was orbiting <![CDATA[<color=lightblue>Giant's Deep!</color>]]> Phlox wins the seeking game again!
+			COLEUS: The <![CDATA[<color=lightblue>Quantum Moon</color>]]> was orbiting <![CDATA[<color=lightblue>Giant's Deep!</color>]]> Phlox wins the wandering game again!
 			</Text>
 	</TextBlock>
 		<TextBlock>
@@ -21,14 +21,14 @@
 		<ID>3</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			PHLOX: Goodness! That is the third time you have won the seeking game while the Quantum Moon was visiting Giant's Deep, Phlox!
+			PHLOX: Goodness! That is the third time you have won the wandering game while the Quantum Moon was visiting Giant's Deep, Phlox!
 			</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-		MELORAE: I am unsure what are the rules of this game, but it is quite entertaining! How does one play this seeking game?
+		MELORAE: I am unsure what are the rules of this game, but it is quite entertaining! How does one play this wandering game?
 			</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		MELORAE: Hypothesis: Could the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity be causing these water-composed species to rise to the surface?
+		MELORAE: Hypothesis: Could the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity be causing the jellyfishes' water-composed bodies to rise to the surface?
 		</Text>
 	</TextBlock>
 	<TextBlock>

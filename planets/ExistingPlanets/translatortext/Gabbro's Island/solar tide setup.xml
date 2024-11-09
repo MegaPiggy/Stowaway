@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: I'm thrilled to lend my assistance in testing your new projection stone, Daz!
+		CASSAVA: I'm thrilled to lend my assistance in testing the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> new invention today, Daz!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: To start: please let me know if you can read this message on the wall.
+		CASSAVA: I cannot wait to see you walk beyond this projection pool!
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		DAZ: Now, for the moment of truth! Will I be able to walk beyond the projection pool?
+		DAZ: Now, for the moment of truth... Will the invention allow me to walk beyond the projection pool?
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		CASSAVA: Daz? Did something interrupt your thought? Your voyager has just disappeared..
+		CASSAVA: Daz? Did something interrupt your thought? Your vessel has just disappeared..
 		</Text>
 	</TextBlock>
 	<TextBlock>
