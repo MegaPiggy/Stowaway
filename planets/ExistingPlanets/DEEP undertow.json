@@ -266,62 +266,108 @@
 
 			
 			
-		
+			{
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Interactables_QuantumTower/Prefab_NOM_DockingTractorBeam/Props_NOM_LargeTractorBeam_Geo/",
+					"rename":"DSS under pool platform",
+					"position": {"x": -4.4211,"y": -3.6941,"z": -12.7222},
+					"rotation": {"x": 77.3763,"y": 345.8798,"z": 346.2623},
+					"isRelativeToParent": true
+				},
 
 
 
 			{
 				"rename":"DSS ghost matter"
 			},
-			{
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
-					"rename":"DSS GM volume 1 behindmask",
-					"position": {"x": 10.1805,"y": -0.6517,"z": 1.2927},
-					"rotation": {"x": 72.0499,"y": 312.0412,"z": 133.5286},
-					"removeChildren": ["ProbeVisuals"],
-					"parentPath": "Sector_GD/DSS ghost matter",
-					"isRelativeToParent": true,
-					"stretch": {"x": 2.4309,"y": 2.8491,"z": 4.6364}
-				},
+			
 				{
-					"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+						"rename":"DSS GM volume 1 behindmask A",
+						"position": {"x": 7.3535,"y": 5.7504,"z": 3.92},
+						"rotation": {"x": 349.964,"y": 267.7348,"z": 102.448},
+						"removeChildren": ["ProbeVisuals"],
+						"parentPath": "Sector_GD/DSS ghost matter",
+						"scale":1.4,
+						"isRelativeToParent": true
+					},
+					{
+						"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+							"rename":"DSS GM volume 1 behindmask B",
+							"position": {"x": 9.1446,"y": -2.1971,"z": 5.3869},
+							"rotation": {"x": 349.964,"y": 267.7348,"z": 102.448},
+							"removeChildren": ["ProbeVisuals"],
+							"parentPath": "Sector_GD/DSS ghost matter",
+							"isRelativeToParent": true
+						},
+					{
+						"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+							"rename":"DSS GM volume 1 behindmask C",
+							"position": {"x": 3.8473,"y": -9.1281 ,"z": 6.7449},
+							"rotation": {"x": 349.964,"y": 267.7348,"z": 102.448},
+							"removeChildren": ["ProbeVisuals"],
+							"parentPath": "Sector_GD/DSS ghost matter",
+							"scale":1.4,
+							"isRelativeToParent": true
+						},
+						{
+							"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+								"rename":"DSS GM volume 1 behind sol D",
+								"position": {"x": -11.3634,"y": 10.3591 ,"z": 2.6374},
+								"rotation": {"x": 27.7753 ,"y": 83.3689,"z": 256.1197},
+								"removeChildren": ["ProbeVisuals"],
+								"parentPath": "Sector_GD/DSS ghost matter",
+								"isRelativeToParent": true
+							},
+							{
+								"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+									"rename":"DSS GM volume 1 behind sol E",
+									"position": {"x": -14.1196,"y": -7.534 ,"z": 6.5209},
+									"rotation": {"x": 77.7207,"y": 356.234,"z": 176.3807},
+									"removeChildren": ["ProbeVisuals"],
+									"parentPath": "Sector_GD/DSS ghost matter",
+									"isRelativeToParent": true
+								},
+
+
+				{
+					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
 						"rename":"DSS GM volume 2 sol",
-						"position": {"x": -14.9927,"y": 0.8909,"z": 1.2519},
-						"rotation": {"x": 72.0499,"y": 312.0412,"z": 133.5286},
+						"position": {"x": -12.5123,"y": 1.0551,"z": 4.1132},
+						"rotation": {"x": 76.9022,"y": 338.9301,"z": 159.4928},
 						"removeChildren": ["ProbeVisuals"],
 						"parentPath": "Sector_GD/DSS ghost matter",
 						"isRelativeToParent": true,
-						"stretch": {"x": 3.8309,"y": 3.6018,"z": 4.6364}
+						"scale":1.7
 					},
 					{
-						"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
-							"rename":"DSS GM volume 3 statue",
-							"position": {"x": -5.6976,"y": -11.5056,"z": 4.288},
-							"rotation": {"x": 286.8405,"y": 135.7928,"z": 222.8911},
+						"rename": "DSS GM volume 3 statue",
+						"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+						"position":{"x": -6.4203 ,"y": -10.1278,"z": 6.5491},
+						"rotation": {"x": 76.9022,"y": 338.9301,"z": 159.4928},
+						"scale":1.7,
+						"isRelativeToParent": true,
+						"parentPath": "Sector_GD/DSS ghost matter",
+						"removeChildren": ["ProbeVisuals"]
+					},
+					{
+						"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+							"rename":"DSS GM volume 4 shelf A",
+							"position": {"x": -3.0993,"y": 8.859,"z": 2.9722},
+							"rotation": {"x": 76.9022,"y": 338.9301,"z": 159.4928},
 							"removeChildren": ["ProbeVisuals"],
 							"parentPath": "Sector_GD/DSS ghost matter",
 							"isRelativeToParent": true,
-							"stretch": {"x": 6.8836,"y": 4.4309,"z": 2.5964}
+							"scale":1.7
 					},
 					{
-						"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
-							"rename":"DSS GM volume 4 shelf",
-							"position": {"x": -5.6966,"y": 11.875,"z": -1.4012},
-							"rotation": {"x": 286.8405,"y": 135.7928,"z": 222.8911},
-							"removeChildren": ["ProbeVisuals"],
-							"parentPath": "Sector_GD/DSS ghost matter",
-							"isRelativeToParent": true,
-							"stretch": {"x": 6.8836,"y": 4.4309,"z": 2.5964}
-					},
-					{
-						"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
-							"rename":"DSS GM volume 4 shelf 2",
-							"position": {"x": -5.6966,"y": 11.875,"z": -1.4012},
-							"rotation": {"x": 286.8405,"y": 135.7928,"z": 222.8911},
-							"removeChildren": ["ProbeVisuals"],
-							"parentPath": "Sector_GD/DSS ghost matter",
-							"isRelativeToParent": true,
-							"stretch": {"x": 6.8836,"y": 4.4309,"z": 2.5964}
+						"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+						"rename":"DSS GM volume 4 shelf B",
+						"position": {"x": -3.0993,"y": 8.859,"z": 2.9722},
+						"rotation": {"x": 76.9022,"y": 338.9301,"z": 159.4928},
+						"removeChildren": ["ProbeVisuals"],
+						"parentPath": "Sector_GD/DSS ghost matter",
+						"isRelativeToParent": true,
+						"scale":1.7
 					},
 
 					
@@ -574,8 +620,8 @@
 			{
 				"rename":"DSS air volume",
 				"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1/OxygenVolume",
-				"position": {"x": -4.4732,"y": -0.2584,"z": -2.0817},
-				"scale":4.5,
+				"position": {"x":-2.1438,"y":-0.4531,"z":-3.5499},
+				"scale":4.6,
 				"isRelativeToParent": true
 			},
 
@@ -741,24 +787,37 @@
 				"position":{"x":0.0001,"y": -24.8419, "z": 4.278},
 				"isRelativeToParent": true
 			},
+
+			
 			{
 				"rename":"Deep Storm Station",
-				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken",
 				"position":{"x": -4.2103,"y": -1.8566,"z": -3.644},
 				"rotation":{"x":347.7455,"y": 359.9378,"z": 170.5793},
-				"removeChildren":
-				[
-					"OPC_SUNKEN_MODULE",
-					"SunkenModuleVolume",
-					"Proxy_ModuleSunken",
-					"Volumes_Module_Sunken",
-					"Effects_Module_Sunken",
-					"Interactables_Module_Sunken",
-					"Geo_GDCore/OrbitalProbeCannon_Module_Intact_Sunken/OrbitalProbeCannon_Module_Intact_Exterior",
-					"Geo_GDCore/OrbitalProbeCannon_Connector_Sunken",
-					"Geo_Module_Sunken_HideFromProjectionPool",
-					"Props_Module_Sunken"
-				]
+				"isRelativeToParent": true
+			},
+			{
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Geo_GDCore",
+				"parentPath": "Sector_GD/Deep Storm Station",
+				"position":{"x":0,"y": 0,"z": 0},
+				"rotation":{"x":0,"y": 0, "z": 0},
+				"isRelativeToParent": true,
+				"removeChildren": ["OrbitalProbeCannon_Connector_Sunken",
+			 "OrbitalProbeCannon_Module_Intact_Sunken/OrbitalProbeCannon_Module_Intact_Exterior"],
+			 "removeComponents": true
+			},
+			{
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_GDCore/Prefab_NOM_Airlock/Structure_NOM_Airlock_new/",
+				"parentPath": "Sector_GD/Deep Storm Station",
+				"position":{"x":0,"y": 20.0001,"z": 0.0002},
+				"rotation":{"x":0,"y": 270, "z": 270},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Lighting_Module_Sunken",
+				"parentPath": "Sector_GD/Deep Storm Station",
+				"position":{"x":0,"y": 0,"z": 0},
+				"rotation":{"x":270,"y": 0, "z": 0},
+				"isRelativeToParent": true
 			},
 			{
 				"rename":"goodbye water stencil",

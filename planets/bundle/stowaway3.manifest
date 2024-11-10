@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3428695709
+CRC: 3470225123
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 326ca22d6e5572a5cf03ce135c237a04
+    Hash: 9f21e8af629cabb8e42fa3def21ce318
   TypeTreeHash:
     serializedVersion: 2
     Hash: 91f6618b88d246c5e59c3d091678f72e
@@ -93,11 +93,13 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Models/Solanum alloyed prefab.prefab
 - Assets/Models/comet mural side.prefab
+- Assets/Models/db egg hole.prefab
 - Assets/Models/comet mural front.prefab
 - Assets/Models/bubbel.prefab
 - Assets/Models/well miss you.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Inspired gravity 3.prefab
 - Assets/Models/Materials/mural side.prefab
+- Assets/Models/bubbel collider.prefab
 - Assets/Models/Tractor beam SW 1.prefab
 - Assets/Models/ASH TWIN BEAM south.prefab
 - Assets/Models/TheInspired.prefab

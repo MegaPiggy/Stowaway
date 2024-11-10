@@ -30,16 +30,16 @@
 				"assetBundle": "planets/bundle/eye stuff",
 				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 48.6218452,
-					"y": 297.6023,
-					"z": 116.838089
+					"x": 355.6945,
+					"y": 313.1844,
+					"z": 349.5768
 				},
 				"position": {
-					"x": -126.5558,
-					"y": 27.9295883,
-					"z": -306.60553
+					"x": 3.4432,
+					"y": -0.2838,
+					"z": 0.0193
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/big mountain fossil 1"
 			},
 
@@ -48,16 +48,16 @@
 				"assetBundle": "planets/bundle/eye stuff",
 				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 40.6316681,
-					"y": 80.05913,
-					"z": 245.424255
+					"x": 350.0789,
+					"y": 227.735,
+					"z": 2.7551
 				},
 				"position": {
-					"x": -125.105171,
-					"y": 30.0765877,
-					"z": -307.485931
+					"x": 5.554,
+					"y": -0.4925,
+					"z": -1.7098
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/big mountain fossil 1"
 			},
 
@@ -66,16 +66,16 @@
 				"assetBundle": "planets/bundle/eye stuff",
 				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 301.5238,
-					"y": 118.537781,
-					"z": 238.717621
+					"x": 9.8197,
+					"y": 124.9326,
+					"z": 5.7167
 				},
 				"position": {
-					"x": -119.581238,
-					"y": 31.7711639,
-					"z": -308.252319
+					"x": 6.6987,
+					"y": -0.5823,
+					"z": -7.4231
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/big mountain fossil 1"
 			},
 
@@ -120,16 +120,16 @@
 				"assetBundle": "planets/bundle/eye stuff",
 				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 315.6997,
-					"y": 269.807465,
-					"z": 133.024979
+					"x": 17.9757,
+					"y": 88.5364,
+					"z": 22.3923
 				},
 				"position": {
-					"x": -72.774704,
-					"y": 20.437027,
-					"z": -323.431671
+					"x": 3.8006 ,
+					"y": 16.8971,
+					"z": -55.9926
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/big mountain fossil 1"
 			},
 
@@ -156,16 +156,16 @@
 				"assetBundle": "planets/bundle/eye stuff",
 				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 295.4729,
-					"y": 262.2796,
-					"z": 114.54277
+					"x": 16.4682,
+					"y": 46.1556,
+					"z": 4.9799
 				},
 				"position": {
-					"x": -66.22812,
-					"y": 20.5570755,
-					"z": -326.9352
+					"x": -1.5345,
+					"y": 20.5544,
+					"z": -60.38
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/big mountain fossil 1"
 			},
 
@@ -192,16 +192,16 @@
 				"assetBundle": "planets/bundle/eye stuff",
 				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 327.400879,
-					"y": 111.29248,
-					"z": 281.2569
+					"x": 358.9146,
+					"y": 149.0117,
+					"z": 44.8162
 				},
 				"position": {
-					"x": -62.68651,
-					"y": -41.26799,
-					"z": -320.222015
+					"x": -59.6429,
+					"y": 42.6986,
+					"z": -56.7756
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/big mountain fossil 1"
 			},
 
@@ -246,16 +246,16 @@
 				"assetBundle": "planets/bundle/eye stuff",
 				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 5.95603371,
-					"y": 105.8965,
-					"z": 314.9509
+					"x": 346.6863,
+					"y": 183.0941,
+					"z": 28.1794
 				},
 				"position": {
-					"x": -134.3717,
-					"y": -28.3601418,
-					"z": -299.219116
+					"x": -48.6417,
+					"y": 19.0563,
+					"z": 14.3372
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/big mountain fossil 1"
 			},
 
@@ -264,16 +264,16 @@
 				"assetBundle": "planets/bundle/eye stuff",
 				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 359.894043,
-					"y": 94.47878,
-					"z": 278.7397
+					"x": 356.6477,
+					"y": 185.1243,
+					"z": 35.8891
 				},
 				"position": {
-					"x": -130.207321,
-					"y": -35.0464478,
-					"z": -300.742371
+					"x": -54.3904,
+					"y": 23.2147,
+					"z": 10.8264
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/big mountain fossil 1"
 			},
 
@@ -282,16 +282,16 @@
 				"assetBundle": "planets/bundle/eye stuff",
 				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 6.16879559,
-					"y": 113.903694,
-					"z": 322.6082
+					"x": 337.5844,
+					"y": 176.7958,
+					"z": 28.8872
 				},
 				"position": {
-					"x": -136.5006,
-					"y": -34.6273232,
-					"z": -300.080078
+					"x": -53.7851,
+					"y": 22.9348,
+					"z":  17.1277
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/big mountain fossil 1"
 			},
 
@@ -300,16 +300,16 @@
 				"assetBundle": "planets/bundle/eye stuff",
 				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 354.787048,
-					"y": 94.9083252,
-					"z": 269.852234
+					"x": 275.824,
+					"y": 63.6098,
+					"z": 130.8655
 				},
 				"position": {
-					"x": -132.698715,
-					"y": -36.886795,
-					"z": -300.6377
+					"x": -55.749,
+					"y": 24.0615,
+					"z":  13.5032
 				},
-				"isRelativeToParent": false,
+				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/big mountain fossil 1"
 			},
 
@@ -318,14 +318,14 @@
 				"assetBundle": "planets/bundle/eye stuff",
 				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 350.663879,
-					"y": 97.49283,
-					"z": 269.724854
+					"x": 358.2431,
+					"y": 175.5408,
+					"z": 27.5514
 				},
 				"position": {
-					"x": -126.725189,
-					"y": -39.15184,
-					"z": -301.361755
+					"x": -58.1793,
+					"y":  25.7002,
+					"z": 7.774
 				},
 				"isRelativeToParent": false,
 				"parentPath": "Sector_TH/big mountain fossil 1"
