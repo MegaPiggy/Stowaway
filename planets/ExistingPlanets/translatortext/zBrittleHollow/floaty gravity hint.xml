@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		LAEVI: Lami, enough play! Please, use the <![CDATA[<color=orange>Artificial Gravity Highway</color>]]> normally: we shall be late returning home to <![CDATA[<color=lightblue>Ember Twin</color>]]> at this rate!
+		LAEVI: Lami, please, use the <![CDATA[<color=orange>Artificial Gravity Highway</color>]]> normally. We shall be late returning home to <![CDATA[<color=lightblue>Ember Twin</color>]]> at this rate!
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		LAMI: No! The great Lami has no need for the <![CDATA[<color=orange>Artificial Gravity Highway</color>]]> when he is able to jump to impossible heights!
+		LAMI: Hah! The great Lami has no need for the <![CDATA[<color=orange>Artificial Gravity Highway</color>]]> when he is able to jump to impossible heights!
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		LAMI: Just watch! I'm going to jump from the bottom of the highway all the way to the highest district, in one go!
+		LAMI: Just watch, Laevi: I'm going to jump from the bottom of the highway all the way to the highest district, in one go!
 		</Text>
 	</TextBlock>
 
@@ -48,7 +48,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		LAEVI: If you wish to jump to greater heights, then I suggest we return to the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> without delay!
+		LAEVI: If you wish to learn how to jump to greater heights, then I suggest we return to the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> without delay!
 		</Text>
 	</TextBlock>
 
@@ -58,10 +58,13 @@
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>BH_H EX4</FactID>
-			<Condition>3</Condition>
+			<FactID>BH_H EX6</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
-
+		<RevealFact>
+			<FactID>BH_H EX7</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
 	</ShipLogConditions>
 
 </NomaiObject>

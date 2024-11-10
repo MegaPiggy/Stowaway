@@ -41,7 +41,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		PLUME: Well done, Phlox! But did you know that projection walls were recreated after the way our Vessel's communications used to work?
+		FILIX: A concise and informative report, Ilex! But did you know that projection walls were recreated after the way our Vessel's communications used to work?
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		PLUME: It's true! Though unable to connect to the Vessels' communication network, the projection walls are an iteration on its design, which separated incoming and outgoing messages on different walls.
+		FILIX: It's true! Though unable to connect to the Vessels' communication network, the projection walls are an iteration on its design, which separated incoming and outgoing messages on different walls.
 		</Text>
 	</TextBlock>
 

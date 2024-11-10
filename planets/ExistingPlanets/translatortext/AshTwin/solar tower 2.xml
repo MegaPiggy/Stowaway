@@ -38,7 +38,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		YARROW: In fact, there are plans to relocate <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels soon, due to issues we have discovered with its current site.
+		YARROW: In fact, that is why we plan to relocate <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels soon, due to issues we have discovered with its current site.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -54,7 +54,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		YARROW: Melorae, has the <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels been decided yet?
+		YARROW: Melorae, has a <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels been decided yet?
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -78,7 +78,7 @@
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		YARROW: That sounds promising. I shall visit this <![CDATA[<color=orange>relocation site</color>]]> to see it for myself soon.
+		YARROW: That sounds promising! I shall visit this <![CDATA[<color=orange>relocation site</color>]]> to see it for myself soon.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -86,7 +86,7 @@
 		<LocationB />
 		<ParentID>10</ParentID>
 		<Text>
-		YARROW: Now, let us resume our work, my friends. Do not forget we have a <![CDATA[<color=orange>solar tower</color>]]> on the south pole to construct as well!
+		YARROW: Now, let us resume our work, my friends. Do not forget we have a <![CDATA[<color=orange>solar tower</color>]]> on <![CDATA[<color=lightblue>Ash Twin's</color>]]> south pole to construct as well!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -94,16 +94,12 @@
 		<LocationB />
 		<ParentID>11</ParentID>
 		<Text>
-		BUR: What?! I shall melt before even this one is completed!
+		BUR: What?! I shall melt before even this tower is completed!
 		</Text>
 	</TextBlock>
 
 	
 <ShipLogConditions>
-		<RevealFact>
-			<FactID>TH_NOMAI_MINE_R1</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
 
 		<RevealFact>
 			<FactID>SLR_T EX1</FactID>

@@ -71,7 +71,8 @@
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Um...<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>I wanted to ask you about the Little Scout...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>When Feldspar was still here, they'd let Tephra and I play with their Little Scout. We'd shoot it onto walls and all over the ceiling and take cool photos with it all day long... It was fun..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>When Feldspar was still here, they'd let Tephra and I play with their Little Scout.<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>We'd shoot it onto walls and all over the ceiling and take cool photos with it all day long... It was fun..<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>I always wanted to ask them how the Little Scout sticks onto stuff like that.. But.. I never got to...<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>Tephra says there's a mini gravity crystal in each Little Scout that helps it stick on things - but.. I didn't want to break open Feldspar's Little Scout to find out..<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>So.. Can we use your Little Scout, astronaut? Please? It's just a quick look...<![CDATA[</size>]]></Page>
@@ -106,7 +107,6 @@
 		<Name>ShyKidNew2</Name>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>..Um.. I'm scared to talk to Slate..<![CDATA[</size>]]></Page>
-				<Page><![CDATA[<size=20>]]>They said they'd fly me into the sun if they ever caught me hiding in one of their ships while they were working on it...<![CDATA[</size>]]></Page>
 				<Page><![CDATA[<size=20>]]>Could you.. help me ask them, astronaut?<![CDATA[</size>]]></Page>
 		</Dialogue>
 						 <RevealFacts>

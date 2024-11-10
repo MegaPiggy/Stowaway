@@ -1,5 +1,48 @@
 <AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
     <ID>BRITTLE_HOLLOW</ID>
+<Entry>
+        <ID>BH_LOCATOR</ID>
+        <Name>Brittle Hollow Quantum Moon Locator</Name>
+        <Curiosity>QuantumMoon</Curiosity>
+         
+         <RumorFact>
+            <ID>BH_QML R1</ID>
+            <Text>There is a Quantum Moon Locator somewhere on Brittle Hollow.</Text> 
+        </RumorFact>
+         <RumorFact>
+            <ID>BH_QML R2</ID>
+            <Text>A Nomai named Ilex visited Ember Twin to serve as another Nomai's eyes during their pilgrimage to the Quantum Moon, but was curious why they did not use a Quantum Moon Locator on Brittle Hollow.</Text> 
+        </RumorFact>
+         <RumorFact>
+            <ID>BH_QML R3</ID>
+            <Text>A Nomai named Solanum promised to inquire about the Quantum Moon Locator on Brittle Hollow during her visit to it.</Text> 
+        </RumorFact>
+         <RumorFact>
+            <ID>BH_QML R4</ID>
+            <SourceID>CT_QUANTUM_MOON_LOCATOR</SourceID>
+            <Text>A Nomai named Ilex visited Ember Twin to serve as another Nomai's eyes during their pilgrimage to the Quantum Moon using the Quantum Moon Locator there.</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>BH_QML EX1</ID> 
+            <Text>A Nomai device in the Tower of Quantum Knowledge, built to track the Quantum Moon's location.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>BH_QML EX2</ID>
+            <Text>A Nomai named Ilex provided a set of eyes from the Quantum Moon Locator on Ember Twin for another Nomai's pilgrimage to the Quantum Moon.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>BH_QML EX3</ID>
+            <Text>As the locator on Brittle Hollow is underground, it is more difficult to use to track the Quantum Moon.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>BH_QML EX4</ID>
+            <Text>The Quantum Moon Locator on Ember Twin has a clear view of the sky, allowing use of the rule of quantum imaging from afar.</Text> 
+     </ExploreFact>
+      
+</Entry>
+
+
 
 
 <Entry>
@@ -15,11 +58,7 @@
 
         <ExploreFact>
             <ID>BH_H EX1</ID> 
-            <Text>A pair of artificial gravity highways that allows one to ascend the Hanging City's districts.</Text> 
-        </ExploreFact>
-          <ExploreFact>
-            <ID>BH_H EX2</ID>
-            <Text>I found a conversation detailing the incomplete construction of the White Hole Station. Its warp receiver was planned to be constructed on the surface above the Hanging City.</Text> 
+            <Text>Artificial gravity highways that allows one to ascend the Hanging City's districts.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>BH_H EX3</ID>
@@ -28,14 +67,25 @@
 
          <ExploreFact>
             <ID>BH_H EX4</ID> 
-            <Text>Storm shelters were engineered to protect Nomai on an expedition to Giant's Deep, by generating a gravity field when islands are lifted into space.</Text> 
+            <Text>Storm shelters generate a gravity field to protect Nomai in zero-gravity.</Text> 
         </ExploreFact>
             <ExploreFact>
             <ID>BH_H EX5</ID> 
             <Text>The Sunless City contributed to the invention of the storm shelter, allowing the device to autonomously power on and off.</Text> 
         </ExploreFact>
+             <ExploreFact>
+            <ID>BH_H EX6</ID> 
+            <Text>A Nomai named Lami was confused why he was unable to jump as high as he did elsewhere on Brittle Hollow, and was told it was because they were now on the north pole.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>BH_H EX7</ID> 
+            <Text>Nomai can learn how to jump to greater heights on the Hourglass Twins.</Text> 
+        </ExploreFact>
       
 </Entry>
+
+
+
 
 <Entry>
         <ID>BH_WORKSHOP</ID>

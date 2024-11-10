@@ -821,7 +821,7 @@
 			},
 			{
 				"rename":"goodbye water stencil",
-				"path":"GiantsDeep_Body/Sector_GD/Deep Storm Station/Effects_Module_Sunken/sunkenModuleStencil",
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Effects_Module_Sunken/sunkenModuleStencil",
 				"parentPath": "Sector_GD/Deep Storm Station",
 				"position":{"x":1.6527,"y": -2.4782,"z": 0},
 				"rotation":{"x":0,"y": 0, "z": 0},
@@ -835,11 +835,11 @@
 				"scale":1.1
 			},
 			{
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume (1)/NotificationVolume/",
 				"rename":"DSS GM notification",
 				"parentPath": "Sector_GD/Deep Storm Station",
 				"position": {"x":0,"y": 0,"z": 0},
-				"scale":2.5,
+				"scale":1,
 				"isRelativeToParent": true
 			},
 			{
@@ -886,7 +886,7 @@
 			},
 			{
 				"rename":"Broken Gravity flipper pad",
-				"path":"GiantsDeep_Body/Sector_GD/Deep Storm Station/Interactables_Module_Sunken/Prefab_NOM_GravityFlipper/Props_NOM_SafetyTractorBeam (1)",
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken/Prefab_NOM_GravityFlipper/Props_NOM_SafetyTractorBeam (1)",
 				"parentPath": "Sector_GD/Broken Gravity crystal 1",
 				"scale":0.6,
 				"position":{"x": -0.3124,"y": 0.8753,"z": -0.2457},

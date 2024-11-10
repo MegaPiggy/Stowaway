@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		CASSAVA: Daz? Did something interrupt your thought? Your vessel has just disappeared..
+		CASSAVA: Daz? Did something interrupt your thought? Your voyager has just disappeared..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -54,6 +54,10 @@
 		<RevealFact>
 			<FactID>Cove R3</FactID>
 			<Condition>5</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Cove R4</FactID>
+			<Condition>2</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

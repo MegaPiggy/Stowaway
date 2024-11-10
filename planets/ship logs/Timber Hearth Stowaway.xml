@@ -63,6 +63,11 @@
             <ID>GAL EX2</ID> 
             <Text>Slate says that the Little Scout arms little hooks to allow it to stick onto surfaces for surveying from afar.</Text> 
        </ExploreFact>
+       
+       <ExploreFact>
+            <ID>GAL EX3</ID> 
+            <Text>The Little Scout has a 360-degree camera that can be rotated once it has landed.</Text> 
+       </ExploreFact>
 </Entry>
 
 <Entry>
@@ -135,10 +140,10 @@
             <RumorName>Sanctuary</RumorName>
             <RumorNamePriority>2</RumorNamePriority>
             <ID>SY R2</ID> 
-            <Text>The Nomai planned to build a Sanctuary within Timber Hearth's underground pools, where a quantum shard traveled.</Text> 
+            <Text>The Nomai built the Sanctuary in a cave within Timber Hearth's underground pools, where a quantum shard traveled.</Text> 
         </RumorFact>
         <RumorFact>
-           <SourceID>VM_VOLCANO</SourceID>
+           <SourceID>VM_SIDE</SourceID>
                  <RumorName>Sanctuary</RumorName>
             <RumorNamePriority>2</RumorNamePriority>
             <ID>SY R3</ID> 
@@ -200,21 +205,21 @@
             <Text>This campsite belonged to the Nomai working on Timber Hearth.</Text> 
         </ExploreFact>
           <ExploreFact>
-                <ID>Campsite Orb EX1</ID> 
-                <Text>A Nomai named Oeno modified vision orbs to acommodate Timber Hearth's native lifeforms. She was disappointed to learn the vision orb was not being activated by them, but by the Attlerock’s gravity as it orbited overhead.</Text> 
+                <ID>Campsite EX1.5</ID> 
+                <Text>The Nomai discovered a new native species during an expedition to Timber Hearth, and followed it deeper into the mountain.</Text> 
        </ExploreFact>
            
          <ExploreFact>
             <ID>Campsite EX2</ID> 
-            <Text>The Nomai planned to build a Sanctuary in a space within Timber Hearth's underground pools visited by a quantum shard.</Text> 
+            <Text>The Nomai constructed something called the Sanctuary within Timber Hearth's underground pools, in a cave visited by a quantum shard.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>Campsite EX3</ID>
-            <Text>The Nomai used a new invention from the Scroll and Stone Workshop on Giant's Deep to enter the Sanctuary.</Text> 
+            <Text>The Nomai used a new invention from the Scroll and Stone Workshop on Giant's Deep to enter and exit the Sanctuary.</Text> 
         </ExploreFact>
            <ExploreFact>
             <ID>Campsite EX4</ID>
-            <Text>This new invention would allow the Nomai to use the rule of quantum entanglement without complete darkness.</Text> 
+            <Text>This new invention allowed the Nomai to use the rule of quantum entanglement, even without complete darkness.</Text> 
         </ExploreFact>
 
 

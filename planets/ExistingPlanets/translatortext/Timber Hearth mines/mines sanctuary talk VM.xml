@@ -50,7 +50,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: It has! We have chosen a site located in the planet's underground pools, visited by a wandering quantum shard.
+		COLEUS: It has! We have chosen a cave located in the planet's underground pools, visited by a wandering quantum shard.
 				</Text>
 	</TextBlock>
 
@@ -68,10 +68,6 @@
 <ShipLogConditions>
 <RevealFact>
 			<FactID>LV R1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-				<RevealFact>
-			<FactID>Campsite EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 				<RevealFact>

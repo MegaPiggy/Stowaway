@@ -74,17 +74,13 @@
 
 <ShipLogConditions>
 				
-		<RevealFact>
-			<FactID>TH_NOMAI_MINE_R1</FactID>
+			<RevealFact>
+			<FactID>Campsite EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
-			<RevealFact>
-			<FactID>TH_WR EX1</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
 		<RevealFact>
-			<FactID>TH_WR EX2</FactID>
-			<Condition>6</Condition>
+			<FactID>Campsite EX1.5</FactID>
+			<Condition>9</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

@@ -10,29 +10,33 @@
           <RumorFact>
             <ID>R_SLR R1</ID>
             <SourceID>SOLAR_TOWER</SourceID>
-             <Text>A Nomai recording on one of the solar towers on Ash Twin described plans to relocate Ember Twin's solar panels due to issues with its current site.</Text> 
+             <Text>A Nomai recording on Ash Twin described plans to relocate Ember Twin's solar panels due to issues with its current site.</Text> 
         </RumorFact>
           <RumorFact>
             <ID>R_SLR R2</ID>
             <SourceID>CT_SUNLESS_CITY</SourceID>
-             <Text>The Nomai planned to relocate the solar panels on Ember Twin to a grassy plateau on the surface, directly above the Sunless City.</Text> 
+             <Text>The Nomai planned to relocate the solar panels on Ember Twin to a grassy plateau on the surface above the Sunless City.</Text> 
         </RumorFact>
 
          <ExploreFact>
             <ID>R_SLR EX1</ID>
-             <Text>A grassy plateau on Ember Twin's south pole that the Nomai scouted as a potential relocation site.</Text> 
+             <Text>A grassy plateau on Ember Twin's south pole that the Nomai scouted as a potential relocation site.</Text>
+              <AltText>
+                         <Text>A grassy plateau on Ember Twin's south pole that the Nomai scouted as a potential relocation site for their solar panels.</Text>
+                         <Condition>SLR_T EX4</Condition> 
+               </AltText>
         </ExploreFact>
          <ExploreFact>
             <ID>R_SLR EX2</ID>
-             <Text>The Nomai planned to relocate something here to keep it safe from Ash Twin's shadow depriving them of energy during sunless days.</Text> 
-                     <AltText>
-                         <Text>The Nomai planned to relocate Ember Twin's solar panels here, to prevent Ash Twin's shadow from depriving them of energy during sunless days.</Text>
-                         <Condition>SLR_T EX4</Condition>
-                    </AltText>
+             <Text>The Nomai on Ember Twin were deprived of energy by Ash Twin's shadow during sunless days.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>R_SLR EX3</ID>
              <Text>Sunless days happen during a solar eclipse.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>R_SLR EX4</ID>
+             <Text>Leaving a set of eyes on the planet's surface allows one to detect the presence of a sunless day while underground.</Text> 
         </ExploreFact>
  </Entry>
 

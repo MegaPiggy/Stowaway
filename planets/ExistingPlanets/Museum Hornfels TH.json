@@ -283,38 +283,7 @@
 
 		
 		"details": [
-			{
-				"rename":"tree GD",
-				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_GD/Interactables_GDState/GDState_Quantum_Objects/Quantum_TreeClump_1/Rock_Tree/",
-				"position": {"x": -105.6103, "y": 23.2981, "z": 115.1803},
-				"rotation": {"x": 61.3992, "y": 48.1154, "z": 77.68},
-				"scale": 0.4,
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"tree BH",
-				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_BH/Interactables_BHState/BHState_Quantum_Objects/BH_State_Crater_1/BH_Q_TreeClumps/BH_Q_TreeClump_Straight/Tree_Rock/",
-				"position": {"x": -104.1321, "y": 5.3657, "z": 114.1397},
-				"rotation": {"x": 300.7838, "y": 72.6272, "z": 70.09},
-				"stretch": {"x":0.6,"y": 1.32,"z": 0.6},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"tree HGT",
-				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_HT/Interactables_HTState/Interactables_CTState/CTState_Q_Objects/CTState_QYuccaTree/Q_YuccaTree/Prefab_Tree_HT_Yucca/",
-				"position": {"x": -100.0454, "y": 23.0576, "z": 121.0125},
-				"rotation": {"x": 16.8706, "y": 46.7327, "z": 86.9554},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"tree TH",
-				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_QRedwood/",
-				"position": {"x": -97.878, "y": 8.5377, "z": 125.9669},
-				"rotation": {"x": 284.1559, "y": 200.5461, "z": 297.9187},
-				"scale":0.3,
-				"isRelativeToParent": true
-			},
-
+			
 
 
 
@@ -719,8 +688,8 @@
 			{
 				"rename":"Galena signboard",
 				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/Props_HEA_SignPost (1)/LampPost_Sign",
-				"position":{"x": -15.6575,"y": -43.0854,"z": 222.1396},
-				"rotation":{"x": 3.2707,"y": 105.1649,"z": 96.7437},
+				"position":{"x": -14.9866,"y": -54.9871,"z": 219.0049},
+				"rotation":{"x": 1.3371,"y": 264.3752,"z": 268.4774},
 				"scale": 3,
 				"isRelativeToParent": true
 			},

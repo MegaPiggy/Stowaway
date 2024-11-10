@@ -3,7 +3,7 @@
 
 	"name": "Angler Nest Dimension",
 
-	"removeChildren": ["Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body"],
+	"removeChildren": [""],
 	"Props": {
 		"details": [
 		

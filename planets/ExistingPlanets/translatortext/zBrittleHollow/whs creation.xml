@@ -72,10 +72,6 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>BH_H EX2</FactID>
-			<Condition>6</Condition>
-		</RevealFact>
-		<RevealFact>
 			<FactID>BH_H EX3</FactID>
 			<Condition>4</Condition>
 		</RevealFact>

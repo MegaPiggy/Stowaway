@@ -188,8 +188,12 @@
             <Text>I found schematics for something called the Inspired.</Text> 
         </ExploreFact>
          <ExploreFact>
+            <ID>CB_EX3</ID> 
+            <Text>A Nomai named Cassava observed ghost matter being temporarily neutralized when immersed by waves washing onto the island, positing that ghost matter is unable to penetrate water.</Text> 
+        </ExploreFact>
+         <ExploreFact>
             <ID>CB_EX4</ID> 
-            <Text>A Nomai named Cassava observed ghost matter being temporarily neutralized by water. He traveled to Timber Hearth to study another property of ghost matter he noticed.</Text> 
+            <Text>Cassava traveled to Timber Hearth to investigate a second property of ghost matter.</Text> 
         </ExploreFact>
         
 
@@ -214,17 +218,22 @@
         <RumorFact>
             <ID>Cove R1</ID> 
              <RumorName>Ghost Matter Cove</RumorName>
-            <Text>There is a small cove on Gabbro's Island guarded by ghost matter.</Text>
+            <Text>There is a small cove on Gabbro's Island flooded by ghost matter.</Text>
         </RumorFact>
         <RumorFact>
             <ID>Cove R2</ID> 
              <RumorName>Ghost Matter Cove</RumorName>
-            <Text>Gabbro set up a campfire outside this cove, but found they would wake up wet and groggy when sleeping at it.</Text>
+            <Text>Gabbro set up a second campfire outside this cove, but found they would wake up wet and groggy when sleeping at it.</Text>
         </RumorFact>
          <RumorFact>
             <ID>Cove R3</ID>
              <RumorName>Ghost Matter Cove</RumorName>
-            <Text>A Nomai named Daz tested a new type of projection stone with a Nomai named Cassava on this island. During this test, his voyager disappeared without warning, to Cassava’s alarm.</Text>
+            <Text>A new invention from the Scroll and Stone Workshop was tested here. During the test, something called the voyager disappeared without warning.</Text>
+        </RumorFact>
+          <RumorFact>
+            <ID>Cove R4</ID>
+             <RumorName>Ghost Matter Cove</RumorName>
+            <Text>This new invention would allow Nomai to walk beyond the projection pool.</Text>
         </RumorFact>
 
          <ExploreFact>
@@ -439,7 +448,7 @@
 
   <ExploreFact>
             <ID>DSS EX3.5</ID> 
-            <Text>Cassava took great care to never keep the Quantum Moon locked in orbit around Giant's Deep for extended periods of time.</Text> 
+            <Text>Cassava was careful to never keep the Quantum Moon locked in orbit around Giant's Deep for extended periods of time.</Text> 
         </ExploreFact>
 
          <ExploreFact>

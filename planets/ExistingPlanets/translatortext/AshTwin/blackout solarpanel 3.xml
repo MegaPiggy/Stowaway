@@ -15,7 +15,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		MELORAE: It is! I believe this would location would be much more favorable than the current site.
+		MELORAE: It is! I believe this would location would be much more favorable for harnessing energy during sunless days.
 		</Text>
 	</TextBlock>
 
@@ -33,7 +33,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		RAMIE: And the <![CDATA[<color=orange>High Energy Lab</color>]]> will be free from accusations of rerouting the <![CDATA[<color=orange>Sunless City's</color>]]> energy, I hope!
+		RAMIE: And the <![CDATA[<color=orange>High Energy Lab</color>]]> will be free from accusations of rerouting the <![CDATA[<color=orange>Sunless City's</color>]]> energy without warning!
 		</Text>
 	</TextBlock>
 
@@ -42,7 +42,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		MELORAE: I apologize for my accusations, Ramie: but surely you understand the difficulty in discerning between a sunless day, and the <![CDATA[<color=orange>High Energy Lab</color>]]> rerouting energy from the city without warning!
+		MELORAE: I apologize for my accusations, Ramie.. But surely, you understand the difficulty in discerning between a sunless day, and the <![CDATA[<color=orange>High Energy Lab</color>]]> rerouting energy from the city without warning!
 		</Text>
 	</TextBlock>
 
@@ -63,7 +63,38 @@
 		MELORAE: Ramie, my friend.. Recall that the <![CDATA[<color=orange>Sunless City</color>]]> is located underground! We are not so easily able to detect a solar eclipse!
 		</Text>
 	</TextBlock>
-
+<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		RAMIE: Your statement is true.. But in that case, may I suggest leaving a set of eyes on the planet's surface?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		RAMIE: A set of eyes on the surface would allow one to detect the presence of a sunless day while underground.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		MELORAE: What a wise idea, Ramie! Perhaps you would like to be that set of eyes for us?
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>11</ID>
+		<LocationB />
+		<ParentID>10</ParentID>
+		<Text>
+		RAMIE: I must humbly object, my friend!
+		</Text>
+	</TextBlock>
 	
 <ShipLogConditions>
 		<RevealFact>
@@ -77,6 +108,10 @@
 			<RevealFact>
 			<FactID>R_SLR EX3</FactID>
 			<Condition>6</Condition>
+		</RevealFact>	
+		<RevealFact>
+			<FactID>R_SLR EX4</FactID>
+			<Condition>9</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

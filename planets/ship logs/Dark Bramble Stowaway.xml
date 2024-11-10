@@ -28,11 +28,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>DBG EX1</ID> 
-            <Text>A Nomai named Cassava made a discovery on this expedition. There are platforms on the side of the glacier leading to what he found.</Text>
-             <AltText>
-                         <Text>The Nomai found several species frozen inside the glacier on the underside of Dark Bramble's north pole.</Text>
-                         <Condition>DBG R2</Condition>
-                    </AltText> 
+            <Text>The Nomai found several species frozen inside the glacier on the underside of Dark Bramble's north pole.</Text>
         </ExploreFact>
           <ExploreFact>
             <ID>DBG EX2</ID> 
@@ -43,36 +39,6 @@
 
 
 
-<Entry>
-        <ID>DB_ANGLERNEST</ID>
-        <Name>Anglerfish Nest</Name>
-        <Curiosity>Vessel</Curiosity>
-         
-        <RumorFact>
-            <ID>DBA R1</ID>
-            <Text>A Nomai named Plume considered locating an anglerfish nest inside Dark Bramble to cull the countless hordes of anglerfish within the bramble, but was dissuaded from the idea.</Text> 
-        </RumorFact>
-         <RumorFact>
-            <ID>DBA R2</ID>
-             <SourceID>DB_VESSEL</SourceID>
-            <Text>A Nomai named Keek discovered this anglerfish nest while trying to reach the Vessel.</Text> 
-        </RumorFact>
-
-        <ExploreFact>
-            <ID>DBA EX1</ID> 
-            <Text>A cluster of anglerfish eggs guarded fiercely by anglerfish deep within Dark Bramble.</Text> 
-        </ExploreFact>
-          <ExploreFact>
-            <ID>DBA EX2</ID> 
-            <Text>A Nomai named Keek discovered this nest on a desperate mission to reach the Vessel. Keek.. met a gruesome end.</Text> 
-        </ExploreFact>
-        <ExploreFact>
-            <ID>DBA EX3</ID>
-            <Text>Keek noted that the eggs were warm, gelatinous, and filled with liquid.</Text> 
-     </ExploreFact>
-     
-      
-</Entry>
 
 
 

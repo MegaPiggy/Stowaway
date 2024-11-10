@@ -86,15 +86,19 @@
         </ExploreFact>
        <ExploreFact>
             <ID>TH Tower EX2</ID>
-             <Text>The Nomai kept the rotating doors of this tower closed, to prevent native life accidentally transported there from wandering far without protection and oxygen.</Text> 
+             <Text>The Nomai kept the rotating doors of this tower closed to keep native life from Timber Hearth transported there from wandering any farther without protection and oxygen.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>TH Tower EX2.5</ID> 
+            <Text>Rotating doors are controlled by sight through vision orbs.</Text> 
         </ExploreFact>
        <ExploreFact>
             <ID>TH Tower EX3</ID> 
-            <Text>A Nomai named Oeno noticed the rotating doors of this tower opening on their own in the absence of any input.</Text> 
+            <Text>A Nomai named Oeno noticed this tower's rotating doors opening and closing by themself, even in the absence of any Nomai.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>TH Tower EX4</ID> 
-            <Text>A Nomai named Yarrow suggested traveling to the solar towers on Ash Twin's poles to investigate if the same issue was occuring there.</Text> 
+            <Text>A Nomai named Yarrow suggested traveling to the solar towers on Ash Twin's poles to investigate if the vision orbs there experienced the same issue.</Text> 
         </ExploreFact>
  </Entry>
 
@@ -166,7 +170,7 @@
 
           <RumorFact>
             <ID>SLR_T R1</ID>
-             <Text>A Nomai named Yarrow suggested traveling to the solar towers on Ash Twin's poles to investigate if their vision orbs were experiencing similar issues.</Text> 
+             <Text>The Nomai traveled to the solar towers on Ash Twin's poles to investigate if their vision orbs were experiencing similar issues.</Text> 
         </RumorFact>
      
          <ExploreFact>
@@ -181,7 +185,7 @@
      
          <ExploreFact>
             <ID>SLR_T EX2</ID>
-             <Text>The solar towers on Ash Twin were deliberately built on the north and south pole to avoid something called the sunless day.</Text> 
+             <Text>The solar towers on Ash Twin were built on the planet's poles to avoid something called the sunless day.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>SLR_T EX3</ID>

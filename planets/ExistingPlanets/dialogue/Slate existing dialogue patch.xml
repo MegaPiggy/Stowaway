@@ -106,13 +106,17 @@
 	<DialogueNode>
 		<Name>Slate_Kids_Galena</Name>
 		<Dialogue>
-			<Page>Hah, were they too scared to ask me after I spooked them off the last time they hid in my ships? Can't blame 'em.</Page>
-			<Page>Anyway, it sticks onto stuff with hooks. Duh.</Page>
-			<Page>The Little Scout arms some tiny hooks when launched that it uses latch onto whatever surface it's shot at.</Page>
-				<Page>It doesn't roll off a hill anymore, so make sure you use it whenever you need to survey stuff from afar - especially with that 360 degree camera I put elbow grease into.</Page>
+			<Page>Hah, were they too shy to ask me? Poor lil' hatchling.</Page>
+			<Page>Uh, it's just hooks. Nothing crazy.</Page>
+			<Page>The Little Scout just arms some tiny hooks when launched that it uses latch onto whatever surface it's shot at. Got too many complaints the old one rolled off everything.</Page>
+				<Page>It's actually useful now, so make sure you use it whenever you need to survey stuff from afar.</Page>
+				<Page>Speaking of, there's something under the launch tower you can test the Little Scout out on.</Page>
+				<Page>Go on and fire that thing right up where Rutile's sitting, and see what you find looking around with the scout's camera!</Page>
+				<Page>If you don't see it, just rotate the camera about once it's landed. I put real elbow grease into making that ball joint, so you better get use out of all 360-degrees.</Page>
 		</Dialogue>
 						 <RevealFacts>
      						   <FactID>GAL EX2</FactID>
+							   <FactID>GAL EX3</FactID>
     					  </RevealFacts>
 	</DialogueNode>
 

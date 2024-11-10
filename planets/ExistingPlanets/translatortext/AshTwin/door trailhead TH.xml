@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: Has anyone else noticed this tower's rotating doors opening and even closing by themself without any input?
+		OENO: Has anyone else noticed this tower's rotating doors opening and even closing by themself?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: The vision orbs that control the doors' mechanisms are controlled by sight.. Either somebody is pulling my locomotive limb, or there must be some defect in these rotating doors!
+		OENO: The rotating doors' vision orbs are controlled by sight, but the issue occurs even in the absence of any Nomai.. Either somebody is pulling my locomotive limb, or there must be some defect in these doors!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -59,6 +59,10 @@
 		<RevealFact>
 			<FactID>TH Tower EX2</FactID>
 			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH Tower EX2.5</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>TH Tower EX3</FactID>
