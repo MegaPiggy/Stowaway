@@ -10,7 +10,11 @@
 
 
 <ShipLogConditions>
-
+		<RevealFact>
+			<FactID>Campsite EX5</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		
 	</ShipLogConditions>
 
 

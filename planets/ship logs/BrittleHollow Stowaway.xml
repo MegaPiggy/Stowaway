@@ -90,7 +90,7 @@
 <Entry>
         <ID>BH_WORKSHOP</ID>
         <Name>Gravity Crystal Workshop</Name>
-        <Curiosity>None</Curiosity>
+        <Curiosity>SunkenModule</Curiosity>
          
          <RumorFact>
             <ID>GSHOP R1</ID>

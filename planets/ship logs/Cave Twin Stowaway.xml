@@ -17,6 +17,11 @@
             <SourceID>CT_SUNLESS_CITY</SourceID>
              <Text>The Nomai planned to relocate the solar panels on Ember Twin to a grassy plateau on the surface above the Sunless City.</Text> 
         </RumorFact>
+         <RumorFact>
+            <ID>R_SLR R3</ID>
+            <SourceID>BH_LOCATOR</SourceID>
+             <Text>I found a Nomai recording in a cave under this site describing a second Quantum Moon Locator on Brittle Hollow.</Text> 
+        </RumorFact>
 
          <ExploreFact>
             <ID>R_SLR EX1</ID>

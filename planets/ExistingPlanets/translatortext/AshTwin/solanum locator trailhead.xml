@@ -72,6 +72,10 @@
 			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
+			<FactID>R_SLR R3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
 			<FactID>BH_QML R2</FactID>
 			<Condition>5</Condition>
 		</RevealFact>

@@ -4,7 +4,7 @@
 <Entry>
              <ID>GD_WARPTOWER</ID>
              <Name>Spire Tower</Name>
-             <Curiosity>None</Curiosity>
+             <Curiosity>TimeLoop</Curiosity>
              <IgnoreMoreToExplore/>
 
           <RumorFact>
@@ -43,7 +43,7 @@
 <Entry>
             <ID>BH_WARPTOWER</ID>
             <Name>Column Tower</Name>
-           <Curiosity>None</Curiosity>
+           <Curiosity>TimeLoop</Curiosity>
           <IgnoreMoreToExplore/>
 
           <RumorFact>
@@ -67,7 +67,7 @@
 <Entry>
         <ID>TH_WARPTOWER</ID>
         <Name>Mountain Tower</Name>
-        <Curiosity>None</Curiosity>
+        <Curiosity>TimeLoop</Curiosity>
         <IgnoreMoreToExplore/>
 
           <RumorFact>
@@ -107,7 +107,7 @@
 <Entry>
               <ID>SS_WARPTOWER</ID>
               <Name>Star Tower</Name>
-            <Curiosity>None</Curiosity>
+            <Curiosity>TimeLoop</Curiosity>
             <IgnoreMoreToExplore/>
 
           <RumorFact>
@@ -145,7 +145,7 @@
 <Entry>
            <ID>HGT_WARPTOWER</ID>
             <Name>Arch Towers</Name>
-             <Curiosity>None</Curiosity>
+             <Curiosity>TimeLoop</Curiosity>
             <IgnoreMoreToExplore/>
 
           <RumorFact>

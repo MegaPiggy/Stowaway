@@ -8,7 +8,7 @@
 
        <ID>SCROLL_WORKSHOP</ID>
         <Name>Scroll and Stone Workshop</Name>
-        <Curiosity>STOWAWAYS</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
  
         <RumorFact>
             <ID>Workshop R1</ID>
@@ -21,18 +21,18 @@
             <Text>Projection stones for the Orbital Probe Cannon were crafted at a workshop on Statue Island.</Text> 
         </RumorFact>
          <RumorFact>
-              <SourceID>GD_STATUE_ISLAND</SourceID>
             <ID>Workshop R3</ID>
-            <Text>Nomai scrolls and projection stones were crafted at this workshop on Statue Island.</Text> 
+            <Text>Projection stones were crafted at this workshop.</Text> 
         </RumorFact>
              <RumorFact>
             <ID>Workshop R4</ID>
-            <Text>A new type of projection stone used the memory storage systems to allow paired Nomai to explore remotely beyond projection pools.</Text> 
+            <Text>A new invention at this workshop allowed Nomai to walk beyond a projection pool while projecting to it.</Text>
         </RumorFact>
-            <RumorFact>
+           <RumorFact>
             <ID>Workshop R5</ID>
-            <Text>Projection stones were crafted at the Scroll and Stone Workshop.</Text> 
+            <Text>A new type of projection stone used the memory storage systems to allow paired Nomai to explore remotely beyond projection pools.</Text>
         </RumorFact>
+        
         
         <ExploreFact>
             <ID>Workshop EX1</ID> 
@@ -43,7 +43,7 @@
             <Text>A new type of projection stone called the voyager stone was developed at this workshop.</Text>
             <AltText>
                       <Text>A new type of projection stone called the voyager stone was developed at this workshop. This new type of projection stone would use memory storage systems to allow Nomai to explore remotely beyond projection pools.</Text>
-                      <Condition>Workshop R4</Condition>
+                      <Condition>Workshop R5</Condition>
             </AltText>
         </ExploreFact>
            <ExploreFact>
@@ -58,7 +58,7 @@
     <Entry>
        <ID>SCROLL_WORKSHOP_TOP</ID>
         <Name>Workshop Loft</Name>
-        <Curiosity>STOWAWAYS</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
           <RumorFact>
             <ID>WorkshopTop R1</ID>
             <Text>There is a second floor of the Scroll and Stone Workshop, but it seems too high to reach. A Nomai elevator blocks the doorway.</Text> 
@@ -136,7 +136,7 @@
 <Entry>
         <ID>PIONEER_BEACH</ID>
         <Name>Pioneers' Beach</Name>
-       <Curiosity>None</Curiosity>
+       <Curiosity>Stowaway</Curiosity>
 
        
 
@@ -173,7 +173,7 @@
  <Entry>
        <ID>CONSTRUCT_BAY</ID>
         <Name>Construction Bay</Name>
-        <Curiosity>STOWAWAYS</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
 
         <ExploreFact>
            <ID>CB_EX1</ID> 
@@ -214,7 +214,7 @@
 <Entry>
         <ID>LOVERSCOVE</ID>
         <Name>Lovers' Cove</Name>
-        <Curiosity>STOWAWAYS</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
         <RumorFact>
             <ID>Cove R1</ID> 
              <RumorName>Ghost Matter Cove</RumorName>
@@ -365,7 +365,7 @@
    <ID>DEEP_STORM_STATION</ID>
         <Name>Deep Storm Station</Name>
 
-        <Curiosity>STOWAWAYS</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
 		<IsCuriosity/>
 
       <RumorFact>

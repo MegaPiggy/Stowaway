@@ -25,7 +25,7 @@
         <ID>TH_TEPHRA</ID>
         <Name>Tephra</Name>
 
-        <Curiosity>STOWAWAYS</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>TEPH R1</ID> 
@@ -74,7 +74,7 @@
         <ID>TH_ARKOSE</ID>
         <Name>Arkose</Name>
 
-        <Curiosity>STOWAWAYS</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>ARK R1</ID> 
@@ -101,7 +101,7 @@
         <ID>TH_MORAINE</ID>
         <Name>Moraine</Name>
 
-        <Curiosity>STOWAWAYS</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>MOR R1</ID> 
@@ -127,7 +127,7 @@
         <ID>TH_SANCTUARY</ID>
         <Name>Sanctuary</Name>
 
-        <Curiosity>STOWAWAYS</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
         <RumorFact>
             <RumorName>Glittering Cave</RumorName>
             <RumorNamePriority>1</RumorNamePriority>
@@ -163,7 +163,11 @@
         
         <ExploreFact>
             <ID>SY EX1</ID> 
-            <Text>A Sanctuary built by the Nomai to protect the native lifeforms of Timber Hearth during the operation of the Ash Twin Project.</Text> 
+            <Text>A Sanctuary built to protect the native lifeforms of Timber Hearth during the operation of the Ash Twin Project.</Text> 
+             <AltText>
+                <Text>A Sanctuary built in Timber Hearth's underground pools to protect the native lifeforms of Timber Hearth during the operation of the Ash Twin Project.</Text>
+                <Condition>Campsite EX2</Condition>
+            </AltText>
        </ExploreFact>
           <ExploreFact>
             <ID>SY EX2</ID> 
@@ -192,7 +196,7 @@
              <ID>TH_CAMPSITE</ID>
         <Name>Nomai Campsite</Name>
 
-        <Curiosity>STOWAWAYS</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
 
           <RumorFact>
             <ID>Campsite R1</ID> 
@@ -221,6 +225,10 @@
             <ID>Campsite EX4</ID>
             <Text>This new invention allowed the Nomai to use the rule of quantum entanglement, even without complete darkness.</Text> 
         </ExploreFact>
+          <ExploreFact>
+            <ID>Campsite EX5</ID>
+            <Text>I found Nomai text warning of danger invisible to the naked eye beyond a barricade.</Text> 
+        </ExploreFact>
 
 
              <Entry>
@@ -228,7 +236,7 @@
                 <ID>TH_WARPPOINT</ID>
                   <Name>Nomai Ruins</Name>
 
-                <Curiosity>STOWAWAYS</Curiosity>
+                <Curiosity>Stowaway</Curiosity>
              
                <RumorFact>
             <ID>TH_WR R1</ID> 

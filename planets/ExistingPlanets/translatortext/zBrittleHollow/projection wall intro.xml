@@ -74,7 +74,7 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>Workshop R5</FactID>
+			<FactID>Workshop R3</FactID>
 			<Condition>8</Condition>
 		</RevealFact>
 

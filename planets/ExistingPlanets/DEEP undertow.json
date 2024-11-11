@@ -332,7 +332,7 @@
 				{
 					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
 						"rename":"DSS GM volume 2 sol",
-						"position": {"x": -12.5123,"y": 1.0551,"z": 4.1132},
+						"position": {"x": -13.4123,"y": 1.0551,"z": 4.1132},
 						"rotation": {"x": 76.9022,"y": 338.9301,"z": 159.4928},
 						"removeChildren": ["ProbeVisuals"],
 						"parentPath": "Sector_GD/DSS ghost matter",
@@ -352,7 +352,7 @@
 					{
 						"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
 							"rename":"DSS GM volume 4 shelf A",
-							"position": {"x": -3.0993,"y": 8.859,"z": 2.9722},
+							"position": {"x": -3.0993,"y": 10.259,"z": 2.5722},
 							"rotation": {"x": 76.9022,"y": 338.9301,"z": 159.4928},
 							"removeChildren": ["ProbeVisuals"],
 							"parentPath": "Sector_GD/DSS ghost matter",
@@ -362,7 +362,7 @@
 					{
 						"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
 						"rename":"DSS GM volume 4 shelf B",
-						"position": {"x": -3.0993,"y": 8.859,"z": 2.9722},
+						"position": {"x": -3.0993,"y": 10.259,"z": 2.5722},
 						"rotation": {"x": 76.9022,"y": 338.9301,"z": 159.4928},
 						"removeChildren": ["ProbeVisuals"],
 						"parentPath": "Sector_GD/DSS ghost matter",
@@ -839,7 +839,7 @@
 				"rename":"DSS GM notification",
 				"parentPath": "Sector_GD/Deep Storm Station",
 				"position": {"x":0,"y": 0,"z": 0},
-				"scale":1,
+				"scale":1.6,
 				"isRelativeToParent": true
 			},
 			{

@@ -127,7 +127,8 @@
 		"enabled": false
 	},
 	"ReferenceFrame": {
-		"hideInMap": true
+		"hideInMap": true,
+		"maxTargetDistance": 200
 	},
 
 	"Base": {
