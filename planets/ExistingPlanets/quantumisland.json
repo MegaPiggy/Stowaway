@@ -485,7 +485,7 @@
 				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
 				"isRelativeToParent": true,
 				"position": {"x":0,"y":0,"z":0},
-				"rotation": {"x":0,"y":315,"z":90},
+				"rotation": {"x":0,"y":0,"z":90},
 				"parentPath": "Sector_QuantumIsland/GD TOWER f3 gm wisps"
 			},
 			{
