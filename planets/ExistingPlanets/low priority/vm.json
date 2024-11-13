@@ -6,10 +6,11 @@
 	"Orbit": {
 		"showOrbitLine": true,
 		"primaryBody": "Brittle Hollow",
-		"semiMajorAxis" : 1500,
+		"semiMajorAxis" : 1000,
 		"initialRotation": 10,
-		"trueAnomaly": 300,
-		"alignmentAxis": {"x":0,"y":-1,"z":0}
+		"trueAnomaly": 200,
+		"alignmentAxis": {"x":0,"y":-1,"z":0},
+		"isMoon": true
 	},
 	"Props" :
 	{

@@ -16,7 +16,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		SOLANUM: You have my gratitude for being my set of eyes during my pilgrimage today to the <![CDATA[<color=lightblue>Quantum Moon.</color>]]>
+		SOLANUM: You have my gratitude for lending me your assistance during my pilgrimage today to the <![CDATA[<color=lightblue>Quantum Moon.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		ILEX: Of course, my friend. I only hope you will be my set of eyes as well, when it is my turn! 
+		ILEX: Of course, my friend. I am glad to be able to assist! 
 		</Text>
 	</TextBlock>
 
@@ -34,7 +34,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		ILEX: However, I was curious: was there a reason we needed to travel to <![CDATA[<color=lightblue>Ember Twin</color>]]> today? 
+		ILEX: But Solanum, I was curious: why have we traveled to <![CDATA[<color=lightblue>Ember Twin</color>]]> today? 
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		ILEX: To be more precise, was there a reason we could not have used the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> back on <![CDATA[<color=lightblue>Brittle Hollow?</color>]]>
+		ILEX: After all, there is already a <![CDATA[<color=orange>Quantum Moon Locator</color>]]> back on <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> is there not? Could it not have served the same purpose we require?
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		SOLANUM: That is a wise question, my friend.. I'm afraid I do not know the answer.
+		SOLANUM: That is a wise question, my friend.. I'm afraid in my eagerness, such a question had not crossed my mind!
 		</Text>
 	</TextBlock>
 
@@ -61,7 +61,15 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		SOLANUM: I shall be returning to <![CDATA[<color=lightblue>Brittle Hollow</color>]]> shortly to begin my expedition. If time allows, I shall try to visit the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> to inquire Bells about it!
+		SOLANUM: I shall be returning to <![CDATA[<color=lightblue>Brittle Hollow</color>]]> shortly to begin my expedition..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		SOLANUM: If time allows, I shall try to visit the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> to inquire Bells about this!
 		</Text>
 	</TextBlock>
 
@@ -81,7 +89,7 @@
 		</RevealFact>
 		<RevealFact>
 			<FactID>BH_QML R3</FactID>
-			<Condition>7</Condition>
+			<Condition>8</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

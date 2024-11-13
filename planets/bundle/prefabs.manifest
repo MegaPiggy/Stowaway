@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2188179635
+CRC: 3326694411
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 65581bbefe9c5c3edf2387793d1e2d9c
+    Hash: 306d27e3d26e075ff22964ed870073b2
   TypeTreeHash:
     serializedVersion: 2
     Hash: a6e9e1fee256f76df4330145814c9470
@@ -104,6 +104,7 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Window_Corner_BOTH_Broken.prefab
 - Assets/Nomai Ruins/unused prefabs/gravity crystal chips.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_F.prefab
+- Assets/Nomai Ruins/Prefabs/SolarCellMounted.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_R.prefab
 - Assets/Nomai Ruins/Prefabs/Fancy Door.prefab
 - Assets/Nomai Ruins/Prefabs/protohearthian.fbx
@@ -130,6 +131,7 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Table.prefab
 - Assets/Nomai Ruins/Prefabs/Stairs_R.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Mir.prefab
+- Assets/Nomai Ruins/Prefabs/SolarPanelAT.prefab
 - Assets/Nomai Ruins/Prefabs/ToyBall.prefab
 - Assets/Nomai Ruins/Prefabs/Staff.prefab
 - Assets/Nomai Ruins/Prefabs/Chair.prefab

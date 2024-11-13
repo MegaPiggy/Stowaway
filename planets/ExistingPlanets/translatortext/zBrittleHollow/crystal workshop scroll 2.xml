@@ -14,7 +14,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		KOUSA: I have heard many tales of your hardships during your stay, and could not help but wonder if there was not something I could do to help..
+		KOUSA: Since your last expedition, I have pondered hard for a way to offer you protection from the terrible storms you face on the stormy planet..
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		KOUSA: This is why I have engineered a new invention to offer protection from these storms, with great help from our friends in the <![CDATA[<color=orange>Sunless City</color>]]>  - the storm shelter!
+		KOUSA: To that end, in collaboration with our friends from the <![CDATA[<color=orange>Sunless City,</color>]]> we have engineered a new invention together: the storm shelter!
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		KOUSA: The storm shelter is a device that generates a gravity field designed to hold Nomai in place, perfect for protecting Nomai in zero-gravity.
+		KOUSA: The storm shelter is a device that generates a gravity field designed to hold Nomai in place, perfect for protecting Nomai on the stormy planet.
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: How incredible, Kousa! I must thank our friends from the <![CDATA[<color=orange>Sunless City</color>]]> when we next set off for our an expedition together.
+		PLUME: How incredible, Kousa! I must thank our friends from the <![CDATA[<color=orange>Sunless City</color>]]> when we next set off for our expedition together.
 		</Text>
 	</TextBlock>
 	<TextBlock>

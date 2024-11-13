@@ -112,7 +112,7 @@
 			"decalPath": "planets/assets/GD dss icon.png",
 			"platform":
 				{
-					"position":{"x":-4.2705,"y": -3.3252,"z": -11.2985},
+					"position":{"x":-4.2705,"y": -3.3252,"z": -11.4985},
 					"rotation":{"x":335.4288,"y": 96.0572,"z": 77.2046},
 					"disablePool": true,
 					"disableStructure": true
@@ -283,7 +283,7 @@
 				{
 					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
 						"rename":"DSS GM volume 1 behindmask A",
-						"position": {"x": 7.3535,"y": 5.7504,"z": 3.92},
+						"position": {"x": 8.3135,"y": 5.7504,"z": 3.92},
 						"rotation": {"x": 349.964,"y": 267.7348,"z": 102.448},
 						"removeChildren": ["ProbeVisuals"],
 						"parentPath": "Sector_GD/DSS ghost matter",
@@ -302,7 +302,7 @@
 					{
 						"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
 							"rename":"DSS GM volume 1 behindmask C",
-							"position": {"x": 3.8473,"y": -9.1281 ,"z": 6.7449},
+							"position": {"x": 4.9117,"y": -10.2778 ,"z": 6.5427},
 							"rotation": {"x": 349.964,"y": 267.7348,"z": 102.448},
 							"removeChildren": ["ProbeVisuals"],
 							"parentPath": "Sector_GD/DSS ghost matter",

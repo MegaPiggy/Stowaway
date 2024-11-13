@@ -20,7 +20,7 @@
          <RumorFact>
             <ID>R_SLR R3</ID>
             <SourceID>BH_LOCATOR</SourceID>
-             <Text>I found a Nomai recording in a cave under this site describing a second Quantum Moon Locator on Brittle Hollow.</Text> 
+             <Text>I found a Nomai recording near this site describing a second Quantum Moon Locator on Brittle Hollow.</Text> 
         </RumorFact>
 
          <ExploreFact>
@@ -33,7 +33,7 @@
         </ExploreFact>
          <ExploreFact>
             <ID>R_SLR EX2</ID>
-             <Text>The Nomai on Ember Twin were deprived of energy by Ash Twin's shadow during sunless days.</Text> 
+             <Text>The Nomai on Ember Twin were regularly deprived of energy by Ash Twin's shadow, causing confusion between sunless days and the High Energy Lab rerouting their energy.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>R_SLR EX3</ID>

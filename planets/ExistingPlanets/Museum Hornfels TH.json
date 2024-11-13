@@ -22,11 +22,11 @@
 "Volumes": {
 	"audioVolumes": [
 		{
-			"audio": "OW_TH_UnderwaterRushing",
-			"rename": "Sanctuary water noises",
+			"audio": "TH_ZeroGCaveAmbient_LP",
+			"rename": "Sanctuary shutupbugs ambience",
 			"track": "environment",
 			"priority": 129,
-			"volume": 0.65,
+			"volume": 0.35,
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
 			"radius": 15,
 			"isRelativeToParent": true
@@ -64,6 +64,18 @@
 		
 	"Props" :
 	{
+		"audioSources": [
+			{
+				"audio": "OW_TH_UnderwaterRushing",
+				"rename": "Sanctuary water noises",
+				"track": "environment",
+				"volume": 0.35,
+				"position":{"x": -109.9268,"y": 12.6085,"z": 126.075},
+				"maxDistance": 200,
+				"minDistance": 10,
+				"isRelativeToParent": true
+			}
+		],
 		"quantumGroups": [
 			{
 				"id":"Museum Shard",
@@ -232,8 +244,8 @@
 
 			{
 				"rename": "village whiteboard",
-				"position": {"x": -63.4057,"y": 13.2392,"z": 215.6522},
-				"rotation": {"x": 74.5895,"y": 69.8421,"z": 85.4317},
+				"position": {"x": -65.0221,"y": 11.3374,"z": 215.3631},
+				"rotation": {"x": 54.2568,"y": 69.8419,"z": 85.4317},
 				"type": "whiteboard",
 				"isRelativeToParent": true
 			},
@@ -266,7 +278,7 @@
 
 			{
 				"rename": "NM Mines door recording",
-				"position": {"x": -70.2688, "y": 11.8111, "z": -202.2706},
+				"position": {"x": -67.5237, "y": 11.9602, "z": -203.196},
 				"rotation": {"x": 36.4779, "y": 117.2331, "z": 276.9099},
 				"type": "recorder",
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/mines sanctuary talk VM.xml"
@@ -539,7 +551,7 @@
 				"rename":"TH mine outside treepot",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/treepot.prefab",
-				"position":{"x": -70.6018,"y": 11.9777,"z": -201.788},
+				"position":{"x": -67.8563,"y": 12.2468,"z": -202.6481},
 				"rotation":{"x": 3.7851,"y": 21.4478,"z": 238.7171},
 				"isRelativeToParent": true
 			},
@@ -836,31 +848,37 @@
 			},
 
 
+
+
+
+			{
+				"rename":"Museum shard base",
+				"isRelativeToParent": true,
+				"quantumGroupID": "Museum Shard"
+			},
 		{
 			"rename":"Museum shard NEW",
 			"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
 			"removeChildren": ["VisibilityTracker", "Rock_TH_Observatory_QRock/Collider_TH_Observatory_QRock"],
 			"removeComponents": true,
-			"position":{"x":-0.0648,"y": -0.2449,"z": -0.9449},
-			"rotation":{"x":30.5644,"y": 280.9139,"z": 281.967},
 			"scale":1.7,
 			"isRelativeToParent": true,
-			"quantumGroupID": "Museum Shard"
+			"parentPath": "Sector_TH/Museum shard base"
 		},
 		{
 			"rename":"visibilitytracker 2",
 			"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root/VisibilityTracker/",
-			"parentPath": "Sector_TH/Museum shard NEW",
+			"parentPath": "Sector_TH/Museum shard base/Museum shard NEW",
 			"scale":1.3,
 			"isRelativeToParent": true
 		},
 		{
 			"rename":"Museum shard base",
 			"path":"QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Nomai_ANIM_Cairns/Cairn1_Bottom",
-			"parentPath": "Sector_TH/Museum shard NEW",
-			"position":{"x": -0.0666,"y": -0.5886,"z": -0.2576},
-			"rotation":{"x": 344.7383,"y": 220.7885,"z": 17.9852},
-			"stretch": {"x":  0.7, "y": 1.2,"z": 0.7},
+			"parentPath": "Sector_TH/Museum shard base/Museum shard NEW",
+			"position":{"x": -0.0557,"y": -0.4886,"z": -0.3576},
+			"rotation":{"x": 347.2702,"y": 218.5882,"z": 357.354},
+			"stretch": {"x":  0.7, "y": 0.8,"z": 0.8},
 			"isRelativeToParent": true
 		},
 		
@@ -868,17 +886,17 @@
 			"rename":"Museum shard new collider Top",
 			"assetBundle": "planets/bundle/dev",
 				"path": "assets/models/devcom/cube.prefab",
-			"parentPath": "Sector_TH/Museum shard NEW",
-			"position": {"x": -0.1259, "y": 0.4107, "z": 0.0061},
-			"rotation": {"x": 0.0512, "y": 338.1224, "z": 0.4284},
+				"parentPath": "Sector_TH/Museum shard base/Museum shard NEW",
+			"position": {"x": -0.0641, "y": 0.4107, "z": 0.0061},
+			"rotation": {"x": 1.6257, "y": 301.7532, "z": 0.4284},
 			"isRelativeToParent": true,
-			"stretch": {"x":0.5,"y":0.8,"z":0.6}
+			"stretch": {"x":0.4,"y":0.7,"z":0.5}
 		},
 		{
 			"rename":"Museum shard new collider Longmid",
 			"assetBundle": "planets/bundle/dev",
 				"path": "assets/models/devcom/cube.prefab",
-			"parentPath": "Sector_TH/Museum shard NEW",
+				"parentPath": "Sector_TH/Museum shard base/Museum shard NEW",
 			"position": {"x": -0.0151, "y": -0.1893, "z": 0.0279},
 			"rotation": {"x": 359.5255, "y": 245.0298, "z": 357.7007},
 			"isRelativeToParent": true,
@@ -888,7 +906,7 @@
 			"rename":"Museum shard new collider BASE",
 			"assetBundle": "planets/bundle/dev",
 				"path": "assets/models/devcom/cube.prefab",
-			"parentPath": "Sector_TH/Museum shard NEW",
+				"parentPath": "Sector_TH/Museum shard base/Museum shard NEW",
 			"position": {"x": -0.0567, "y": -0.5421 , "z": -0.3031},
 			"rotation": {"x": 359.4102, "y": 15.4367, "z": 358.1976},
 			"isRelativeToParent": true,

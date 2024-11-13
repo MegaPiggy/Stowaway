@@ -223,7 +223,7 @@
         <RumorFact>
             <ID>Cove R2</ID> 
              <RumorName>Ghost Matter Cove</RumorName>
-            <Text>Gabbro set up a second campfire outside this cove, but found they would wake up wet and groggy when sleeping at it.</Text>
+            <Text>Gabbro set up a campfire outside this cove I can use to patch up.</Text>
         </RumorFact>
          <RumorFact>
             <ID>Cove R3</ID>
@@ -233,7 +233,7 @@
           <RumorFact>
             <ID>Cove R4</ID>
              <RumorName>Ghost Matter Cove</RumorName>
-            <Text>This new invention would allow Nomai to walk beyond the projection pool.</Text>
+            <Text>A new invention allowed Nomai to walk beyond the projection pool.</Text>
         </RumorFact>
 
          <ExploreFact>

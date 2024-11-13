@@ -11,7 +11,8 @@
 				"Sector_GabbroIsland/Marriage Torch/PointLight_WallTorch",
 				"Sector_GabbroIsland/BASE_LARGE Projection Whiteboard/PedestalAnchor",
 
-				"Sector_GabbroIsland/Interactables_GabbroIsland/DarkMatter_Submergible"
+				"Sector_GabbroIsland/Interactables_GabbroIsland/DarkMatter_Submergible",
+				"Sector_GabbroIsland/Interactables_GabbroIsland/Prefab_HEA_Campfire/"
 			],
 	"Volumes": {
 		
@@ -134,14 +135,15 @@
 			{
 				"rename":"splishy splashy campfire",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Interactables_SouthPole/SouthPole_VisibleFromFar/Prefab_HEA_Campfire",
-				"position": {"x": 13.0728, "y": 2.3686, "z": 4.3369},
+				"position": {"x": 15.8964, "y": 2.2686, "z": 4.3369},
 				"rotation": {"x": 1.4245, "y": 100.4732, "z": 0.7331},
+				"keepLoaded": true,
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"low fire lamp",
 				"path":"TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Lighting_ImpactCrater/Props_HEA_Lantern",
-				"position":{"x": 11.8438,"y":2.3831,"z": 6.1416},
+				"position":{"x": 15.2455,"y": 2.3143,"z": 5.8687},
 				"rotation":{"x": 358.5131,"y": 237.3703,"z": 0.1296}
 			},
 

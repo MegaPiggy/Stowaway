@@ -1,12 +1,14 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	
-	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<![CDATA[<color=orange>Excavation Site</color>]]> 
+	
+	Clue: teach about sunless day, focus on relocation of solar panels on ember twin
 	
 	<TextBlock>
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		MELORAE: Are you well, Bur? The construction of the <![CDATA[<color=orange>solar tower</color>]]> appears to have taken a great toll on you!
+		MELORAE: Bur, are you well? The construction of the <![CDATA[<color=orange>solar tower</color>]]> appears to have taken a great toll on you!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -22,31 +24,31 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		BUR: Why did we not wait for a sunless day to begin work on the <![CDATA[<color=orange>solar tower,</color>]]> like we did while building the solar panels on <![CDATA[<color=lightblue>Ember Twin?</color>]]>
+		BUR: Why did we not wait for a sunless day to begin work on this <![CDATA[<color=orange>solar tower?</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
-		<LocationB />
 		<ParentID>3</ParentID>
+		<LocationB />
 		<Text>
-		YARROW: We could not, Bur. The north and south poles never experience sunless days - that is precisely why they were chosen as sites for the <![CDATA[<color=orange>solar towers.</color>]]>
+		BUR: That is what we did during the construction of the solar panels on <![CDATA[<color=lightblue>Ember Twin,</color>]]> was it not? A sunless day would make this heat so much more bearable!
 		</Text>
 	</TextBlock>
-		<TextBlock>
+	<TextBlock>
 		<ID>5</ID>
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		YARROW: In fact, that is why we plan to relocate <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels soon, due to issues we have discovered with its current site.
+		YARROW: We could not, Bur, as the north and south poles never experience sunless days!
 		</Text>
 	</TextBlock>
-	<TextBlock>
+		<TextBlock>
 		<ID>6</ID>
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		MELORAE: On the sunward side, as the funnel of sand follows the sunless day, we will never need to worry about the funnel of sand here!
+		YARROW: Furthermore, it is due to those sunless days that we will soon need to relocate <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -54,23 +56,23 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		YARROW: Melorae, has a <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels been decided yet?
+		MELORAE: On the sunward side, as the funnel of sand follows the sunless day, we will never need to worry about the funnel of sand here.
 		</Text>
 	</TextBlock>
-<TextBlock>
+	<TextBlock>
 		<ID>8</ID>
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		MELORAE: It has! So far, we have settled on a grassy plateau on <![CDATA[<color=lightblue>Ember Twin's</color>]]> surface, directly above the <![CDATA[<color=orange>Sunless City.</color>]]>
+		YARROW: While we speak, Melorae: Has a <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels been decided yet?
 		</Text>
 	</TextBlock>
-	<TextBlock>
+<TextBlock>
 		<ID>9</ID>
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		MELORAE: There is ample space there, and close proximity to the city will make transportation of energy from the solar panels much simpler!
+		MELORAE: It has! So far, we have settled on a grassy plateau on <![CDATA[<color=lightblue>Ember Twin's</color>]]> surface, directly above the <![CDATA[<color=orange>Sunless City.</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -78,7 +80,7 @@
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		YARROW: That sounds promising! I shall visit this <![CDATA[<color=orange>relocation site</color>]]> to see it for myself soon.
+		MELORAE: There is ample space there, and close proximity to the city will make transportation of energy from the solar panels much simpler!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -86,13 +88,21 @@
 		<LocationB />
 		<ParentID>10</ParentID>
 		<Text>
-		YARROW: Now, let us resume our work, my friends. Do not forget we have a <![CDATA[<color=orange>solar tower</color>]]> on <![CDATA[<color=lightblue>Ash Twin's</color>]]> south pole to construct as well!
+		YARROW: That sounds promising! I shall visit this <![CDATA[<color=orange>relocation site</color>]]> to see it for myself soon.
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>12</ID>
 		<LocationB />
 		<ParentID>11</ParentID>
+		<Text>
+		YARROW: Now, let us resume our work, my friends. Do not forget we have a <![CDATA[<color=orange>solar tower</color>]]> on <![CDATA[<color=lightblue>Ash Twin's</color>]]> south pole to construct as well!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>13</ID>
+		<LocationB />
+		<ParentID>12</ParentID>
 		<Text>
 		BUR: What?! I shall melt before even this tower is completed!
 		</Text>
@@ -107,23 +117,23 @@
 		</RevealFact>
 			<RevealFact>
 			<FactID>SLR_T EX2</FactID>
-			<Condition>4</Condition>
+			<Condition>5</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>SLR_T EX3</FactID>
-			<Condition>6</Condition>
+			<Condition>7</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>SLR_T EX4</FactID>
-			<Condition>5</Condition>
+			<Condition>6</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>R_SLR R1</FactID>
-			<Condition>5</Condition>
+			<Condition>6</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>R_SLR R2</FactID>
-			<Condition>8</Condition>
+			<Condition>9</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

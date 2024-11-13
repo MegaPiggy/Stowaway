@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		OENO: Yarrow and I have noticed the rotating doors on several towers on Ash Twin opening and closing on their own, even without being activated by the sight of any Nomai.
+		OENO: Yarrow and I have noticed the rotating doors on several towers on Ash Twin opening and closing on their own, even without the sight of any Nomai.
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: After closer study, I can confidently conclude that the phenomenon is not caused by any structural defect in the doors, but by the sunless day!
+		OENO: After closer study, I can confidently conclude that the phenomenon is not caused by any structural defect in the doors, but by the sunless day.
 		</Text>
 	</TextBlock>
 
@@ -42,7 +42,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: These combined gravitational forces cause an extraordinarily strong pull of gravity, pulling on the vision orbs as the alignment passes overhead and causing the doors to activate.
+		OENO: These combined gravitational forces cause an extraordinarily strong pull of gravity that pulls on anything in its path, including the vision orbs powering the doors.
 		</Text>
 	</TextBlock>
 

@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		MELORAE: Once the relocation is complete, we will never need to worry about <![CDATA[<color=lightblue>Ash Twin's</color>]]> shadow depriving us of energy during sunless days again!
+		MELORAE: Once the relocation is complete, we will no longer need to worry about <![CDATA[<color=lightblue>Ash Twin's</color>]]> shadow regularly depriving us of energy!
 		</Text>
 	</TextBlock>
 
@@ -76,7 +76,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		RAMIE: A set of eyes on the surface would allow one to detect the presence of a sunless day while underground.
+		RAMIE: A set of eyes on the surface would allow one to detect the presence of a sunless day while underground, would it not?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -103,7 +103,7 @@
 		</RevealFact>
 			<RevealFact>
 			<FactID>R_SLR EX2</FactID>
-			<Condition>3</Condition>
+			<Condition>5</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>R_SLR EX3</FactID>

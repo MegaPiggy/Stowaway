@@ -129,11 +129,11 @@
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX3</ID>
-             <Text>The sunless day occurs as the Hourglass Twins orbit into direct alignment with the sun, causing a combined force of gravity between the sun and the twin closer to the sun.</Text> 
+             <Text>The sunless day occurs as the Hourglass Twins orbit into direct alignment with the sun, causing a combined force of gravity towards the sun.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX4</ID>
-             <Text>This combined force pulls vision orbs on Ash Twin upward as the alignment passes overhead, causing the doors to activate.</Text> 
+             <Text>This combined force pulls on anything in its path, including the vision orbs powering the doors.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>SS Tower EX5</ID>
