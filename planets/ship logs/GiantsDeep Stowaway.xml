@@ -201,7 +201,7 @@
             <ID>CB_EX5</ID> 
             <Text>A Nomai named Cassava decided to run more launches using an alternate power source. He asked Nomai seeking him to do so using the Construction Yard's projection wall.</Text> 
               <AltText>
-                         <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to use the warp pad there to warp in, to charge a return warp that would allow them to return to the surface.</Text>
+                         <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai on the surface to charge a return warp that would allow them to warp out.</Text>
                          <Condition>CONV R3</Condition>
                     </AltText> 
         </ExploreFact>

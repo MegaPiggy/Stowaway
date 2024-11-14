@@ -2,13 +2,13 @@
 	<TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>COLEUS: Friends, I am happy to report the frozen specimen we transported from Bramble Island appears to be thriving in its new habitat!</Text>
+		<Text>COLEUS: Friends, I am happy to report the frozen specimen we transported from <![CDATA[<color=orange>LBramble Island</color>]]> appears to be thriving in its new habitat.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<LocationA />
 		<ParentID>1</ParentID>
-		<Text>MELORAE: What wonderful news! I am glad we will not need to venture outside the <![CDATA[<color=orange>Looming City</color>]]> again soon, knowing now what roams there..</Text>
+		<Text>MELORAE: What wonderful news! I am glad we will not need to venture outside the <![CDATA[<color=orange>Looming City</color>]]> again soon, knowing now what roams beyond this space..</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
@@ -20,7 +20,7 @@
 		<ID>4</ID>
 		<LocationA />
 		<ParentID>3</ParentID>
-		<Text>PLUME: With this specimen, we are now better equipped than ever to study and understand the mysteries of this species' behavior.</Text>
+		<Text>PLUME: With the assistance of this specimen, we are now better equipped than ever to study and understand the mysteries of this species' behavior.</Text>
 	</TextBlock>
 
 

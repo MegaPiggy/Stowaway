@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Friends, we have successfully completed the excavation of the core of Giant's Deep. With this, the <![CDATA[<color=orange>Deep Storm Station</color>]]> takes its first step towards realization!
+		AVENS: Friends, the excavation of Giant's Deep's core is complete. With this, the <![CDATA[<color=orange>Deep Storm Station</color>]]> takes its first step towards realization!
 		</Text>
 	</TextBlock>
 	
@@ -14,7 +14,7 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		AVENS: I expected zero-g at the center of a planet to feel quite different from zero-g in space, but it does not feel dissimilar to working aboard the cannon! Wouldn't you agree, Mallow?
+		MALLOW: Oh, Avens, isn't it exciting? Once the <![CDATA[<color=orange>Deep Storm Station</color>]]> is complete, our clan will be more prepared than ever to follow our ambitions!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -30,7 +30,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Daz, Clary is almost done installing the new warp receiver within the <![CDATA[<color=orange>Deep Storm Station.</color>]]> Once it is ready, it should connect us with the warp transmitter on the <![CDATA[<color=orange>Construction Yard!</color>]]>
+		CASSAVA: Daz, Clary is almost done installing the new warp receiver within the <![CDATA[<color=orange>Deep Storm Station.</color>]]> Once it is ready, it should connect us with the warp transmitter on the surface.
 </Text>
 	</TextBlock>
 
@@ -39,7 +39,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		CLARY: Of note: we require a Nomai on the surface to warp to our warp receiver, in order to charge a return warp that will allow us to warp out!
+		CLARY: Of note: we will require a Nomai on the surface to charge a return warp that will allow us to warp out of this space!
 		</Text>
 	</TextBlock>
 
@@ -48,7 +48,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		DAZ: Have no fear, Clary; I am already waiting on the warp transmitter, eager to reunite with Cassava!
+		DAZ: Have no fear, Clary. I am already waiting to do so! I cannot wait to reunite with Cassava.
 		</Text>
 	</TextBlock>
 
@@ -57,7 +57,7 @@
 		<LocationAB />
 		<ParentID>6</ParentID>
 		<Text>
-		CLARY: My deepest gratitude, Daz. I shall be glad to take my leave before I become trapped in the station with <![CDATA[<i>two</i>]]> pairs of gelatinous Nomai!
+		CLARY: You have my gratitude, Daz. I shall be glad to take my leave, before I become trapped in the station with <![CDATA[<i>two</i>]]> pairs of gelatinous Nomai!
 		</Text>
 	</TextBlock>
 
