@@ -29,7 +29,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: I only wish my brother were here as well..
+		PLUME: I only hope Keek, and our many other lost friends are still well..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		PLUME: Come, my friends. We should explore this island for shelter from the endless rain, before those great cyclones head our way.
+		PLUME: Come, my friends. This stormy planet does not appear keen to have guests. We should explore this island for shelter before those great cyclones head our way.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		THATCH: An update: friends, this island appears to have a wonderful, cavernous interior!
+		THATCH: An update: friends, this island appears to have a wonderful, cavernous interior.
 		</Text>
 	</TextBlock>
 			<TextBlock>	

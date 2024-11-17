@@ -145,7 +145,7 @@
 					"rotation": {"x":0,"y": 0,"z": 0},
 					"parentPath": "Sector_QuantumIsland/f3 QuantumGravCrystal/Prefab_NOM_GravityCrystal",
 					"isRelativeToParent": true,
-					"probability": 2
+					"probability": 1.2
 				},
 				{
 					"position": {"x": 4.7851,"y": 16.6072, "z": -13.7716},
@@ -169,7 +169,8 @@
 					"position": {"x":-0.1102,"y": -0.8995, "z":  -0.09},
 					"rotation": {"x":0,"y": 0,"z": 0},
 				"parentPath":  "Sector_QuantumIsland/f4 QuantumGravCrystal 1/Prefab_NOM_GravityCrystal",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"probability": 1.2
 				},
 					{
 						"position": {"x":10.4506,"y": 41.5538, "z": 2.7546},
@@ -270,8 +271,8 @@
 			{
 				"rename":"GD TOWER f1arch crystals A",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": 1.4979,"y": 0.6527,"z": 3.1423},
-				"rotation":{"x": 2.2454,"y": 263.9871,"z": 0},
+				"position":{"x": 1.4979,"y": 0.6491,"z": 3.1423},
+				"rotation":{"x": 2.2454,"y": 263.9871,"z": 355.9178},
 				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom1/Interactables_PuzzleRoom1/PuzzleRoom_1/QuantumArch/",
 				"isRelativeToParent": true
 			},
@@ -343,7 +344,7 @@
 			{
 				"rename":"GD TOWER f2 capcrystals 1",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": -15.8445,"y": 0.7473,"z": -15.2745},
+				"position":{"x": -15.8445,"y": 0.6473,"z": -15.2745},
 				"rotation":{"x": 2.2764,"y": 284.512,"z": 358.4964},
 				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_E",
 				"isRelativeToParent": true
@@ -351,7 +352,7 @@
 			{
 				"rename":"GD TOWER f2 capcrystals 2",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": -14.9027,"y": 0.7473,"z": 15.1874},
+				"position":{"x": -14.9027,"y": 0.6473,"z": 15.1874},
 				"rotation":{"x": 2.2764,"y": 284.512,"z": 358.4964},
 				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_F",
 				"isRelativeToParent": true
@@ -359,7 +360,7 @@
 			{
 				"rename":"GD TOWER f2 capcrystals 3",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": 15.8283,"y": 0.7473,"z": 15.4928},
+				"position":{"x": 15.8283,"y": 0.6473,"z": 15.4928},
 				"rotation":{"x": 2.2764,"y": 284.512,"z": 358.4964},
 				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_G",
 				"isRelativeToParent": true
@@ -367,7 +368,7 @@
 			{
 				"rename":"GD TOWER f2 capcrystals 4",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": 15.8283,"y": 0.7473,"z": -15.2745},
+				"position":{"x": 15.8283,"y": 0.6473,"z": -15.2745},
 				"rotation":{"x": 2.2764,"y": 284.512,"z": 358.4964},
 				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_H",
 				"isRelativeToParent": true
@@ -644,7 +645,7 @@
 			{
 				"rename":"finalchamber whiteboard light",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_InterRoom/",
-				"position": {"x": 17.5679, "y": 32.4912, "z":  0.0344},
+				"position": {"x": 13.1224, "y": 32.4912, "z": 0.0726},
 				"isRelativeToParent": true
 			},
 
@@ -1150,8 +1151,8 @@
 
 	{
 		"rename":"Final chamber whiteboard",
-		"position": {"x": 18.4624, "y": 30.8814,"z": 0.07298},
-		"rotation": {"x": 0, "y": 268.6082, "z": 0},
+		"position": {"x": 12.4006, "y": 30.8814,"z": 0.073},
+		"rotation": {"x": 0, "y": 90, "z": 0},
 		"type":"whiteboard",
 		"isRelativeToParent": true
 	},
@@ -1246,7 +1247,7 @@
 	{
 		"rename": "Welcome directionboard text",
 		"position": {"x": 76.2827, "y": -6.3469, "z": -40.5387},
-		"rotation": {"x": 7.3959, "y": 163.3078, "z": 7.0516},
+		"rotation": {"x": 0.1906, "y": 205.3065, "z": 10.5517},
 		"type": "whiteboard",
 		"seed":2,
 		"xmlFile":"planets/ExistingPlanets/translatortext/Quantum Island/entrance board.xml"

@@ -16,7 +16,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		SOLANUM: You have my gratitude for lending me your assistance during my pilgrimage today to the <![CDATA[<color=lightblue>Quantum Moon.</color>]]>
+		SOLANUM: You have my deepest gratitude for coming all this way to <![CDATA[<color=lightblue>Ember Twin</color>]]> today to assist me.
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		ILEX: Of course, my friend. I am glad to be able to assist! 
+		ILEX: It is no matter, Solanum. I am glad to be of assistance!
 		</Text>
 	</TextBlock>
 
@@ -34,7 +34,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		ILEX: But Solanum, I was curious: why have we traveled to <![CDATA[<color=lightblue>Ember Twin</color>]]> today? 
+		ILEX: However, I was curious: was there a reason we needed to travel to <![CDATA[<color=lightblue>Ember Twin</color>]]> today? 
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		SOLANUM: That is a wise question, my friend.. I'm afraid in my eagerness, such a question had not crossed my mind!
+		SOLANUM: That is a wise question, my friend.. I'm afraid in my eagerness, I had not even thought to question Bells' instructions!
 		</Text>
 	</TextBlock>
 
@@ -61,7 +61,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		SOLANUM: I shall be returning to <![CDATA[<color=lightblue>Brittle Hollow</color>]]> shortly to begin my expedition..
+		SOLANUM: I shall be returning to <![CDATA[<color=lightblue>Brittle Hollow</color>]]> shortly to begin my expedition.
 		</Text>
 	</TextBlock>
 	<TextBlock>

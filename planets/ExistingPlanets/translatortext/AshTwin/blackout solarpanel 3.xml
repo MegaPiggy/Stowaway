@@ -99,10 +99,6 @@
 <ShipLogConditions>
 		<RevealFact>
 			<FactID>R_SLR EX1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>R_SLR EX2</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
 			<RevealFact>

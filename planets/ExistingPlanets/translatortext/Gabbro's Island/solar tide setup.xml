@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: I'm thrilled to lend my assistance in testing the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> new invention today, Daz!
+		DAZ: You have my gratitude for your assistance in testing the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> new invention today, Cassava!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,15 +13,15 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: I cannot wait to see you walk beyond this projection pool!
+		CASSAVA: It is my pleasure, Daz. I cannot wait to see you walk beyond the projection pool using this new invention!
 		</Text>
 	</TextBlock>
 <TextBlock>
 		<ID>3</ID>
 		<LocationB />
-		<ParentID>2</ParentID>
+		<ParentID>1</ParentID>
 		<Text>
-		DAZ: I read you bright and clear, my love!
+		CASSAVA: Whenever you are ready, we may begin, my love!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		DAZ: Now, for the moment of truth... Will the invention allow me to walk beyond the projection pool while projecting to it?
+		DAZ: Now, for the moment of truth: it is time to revolutionize projection technology!
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		CASSAVA: Daz? Did something interrupt your thought? Your voyager has just disappeared..
+		CASSAVA: Daz? Did something happen? Your voyager has just disappeared..
 		</Text>
 	</TextBlock>
 	<TextBlock>

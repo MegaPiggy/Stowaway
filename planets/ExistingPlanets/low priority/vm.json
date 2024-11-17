@@ -8,7 +8,7 @@
 		"primaryBody": "Brittle Hollow",
 		"semiMajorAxis" : 1000,
 		"initialRotation": 10,
-		"trueAnomaly": 200,
+		"trueAnomaly": 145,
 		"alignmentAxis": {"x":0,"y":-1,"z":0},
 		"isMoon": true
 	},

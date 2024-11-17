@@ -14,6 +14,11 @@
          </RumorFact>
         <RumorFact>
              <IgnoreMoreToExplore/>
+            <ID>INSP R1.5</ID>
+            <Text>The Inspired used a lattice of gravity crystals to exploit something called the property of attraction.</Text>
+         </RumorFact>
+          <RumorFact>
+             <IgnoreMoreToExplore/>
             <ID>INSP R2</ID>
             <SourceID>COMET_INTERIOR</SourceID>
             <Text>The Interloper was used as the model for the Inspired.</Text>
@@ -23,9 +28,9 @@
              <IgnoreMoreToExplore/>
             <ID>INSP R3</ID>
             <SourceID>DEEP_STORM_STATION</SourceID>
-            <Text>A scroll in the Deep Storm Station reveals that a Nomai named Cassava built the Inspired to cause massive destruction to the source of ghost matter.</Text>
+            <Text>A scroll in the Deep Storm Station reveals that the Inspired was built to bring destruction to the source of ghost matter.</Text>
                <AltText>
-                        <Text>A scroll in the Deep Storm Station reveals that a Nomai named Cassava built the Inspired to cause massive destruction to the source of the Interloper.</Text>
+                        <Text>A scroll in the Deep Storm Station reveals that the Inspired was built to bring destruction to the source of the Interloper.</Text>
                         <Condition>COMET_INTERIOR_X1</Condition>
                  </AltText>
          </RumorFact>
@@ -44,9 +49,9 @@
   <ExploreFact>
              <IgnoreMoreToExplore/>
             <ID>INSP EX2</ID>
-            <Text>The Inspired was a superweapon made to bring massive destruction to the source of ghost matter.</Text>
+            <Text>The Inspired was a superweapon made by a Nomai named Cassava, to bring great destruction to the source of ghost matter.</Text>
                <AltText>
-                        <Text>The Inspired was a superweapon made to bring massive destruction to the source of the Interloper.</Text>
+                        <Text>The Inspired was a superweapon made by a Nomai named Cassava, to bring great destruction to the source of the Interloper.</Text>
                         <Condition>COMET_INTERIOR_X1</Condition>
                  </AltText>
         </ExploreFact>
@@ -56,15 +61,9 @@
             <ID>INSP EX4</ID>
             <Text>The Inspired's construction used all available gravity crystals, and a white hole warp core powering the Deep Storm Station.</Text>
              <AltText>
-                        <Text>The Inspired's construction used all available gravity crystals from the Gravity Crystal Workshop, and a white hole warp core powering the Deep Storm Station.</Text>
-                        <Condition>INSP R1</Condition>
+                        <Text>The Inspired's construction used all available gravity crystals, and a white hole warp core powering the Deep Storm Station. Using a lattice of gravity crystals, it would exploit the property of attraction.</Text>
+                        <Condition>DSS EXG</Condition>
                  </AltText>
-        </ExploreFact>
-
-         <ExploreFact>
-        <IgnoreMoreToExplore/>
-            <ID>INSP EX4.5</ID>
-            <Text>The Interloper was used as the model for the Inspired's structure.</Text>
         </ExploreFact>
 
         <ExploreFact>

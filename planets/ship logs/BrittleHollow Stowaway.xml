@@ -11,7 +11,7 @@
         </RumorFact>
          <RumorFact>
             <ID>BH_QML R2</ID>
-            <Text>A Nomai named Ilex visited Ember Twin to assist another Nomai's pilgrimage to the Quantum Moon, but was curious why they did not use the Quantum Moon Locator on Brittle Hollow.</Text> 
+            <Text>A Nomai named Ilex was curious about a Quantum Moon Locator on Brittle Hollow.</Text> 
         </RumorFact>
          <RumorFact>
             <ID>BH_QML R3</ID>
@@ -29,11 +29,11 @@
         </ExploreFact>
         <ExploreFact>
             <ID>BH_QML EX2</ID>
-            <Text>A Nomai named Ilex provided a set of eyes from the Quantum Moon Locator on Ember Twin for another Nomai's pilgrimage to the Quantum Moon.</Text> 
+            <Text>A Nomai named Ilex provided a set of eyes from the Quantum Moon Locator on Ember Twin, to aid another Nomai's pilgrimage to the Quantum Moon.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>BH_QML EX3</ID>
-            <Text>As the locator on Brittle Hollow is underground, it is more difficult to use to track the Quantum Moon.</Text> 
+            <Text>The locator on Brittle Hollow is more difficult to use to track the Quantum Moon because it was built underground.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>BH_QML EX4</ID>

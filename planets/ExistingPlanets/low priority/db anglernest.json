@@ -3,8 +3,64 @@
 
 	"name": "Angler Nest Dimension",
 
-	"removeChildren": [""],
+	"removeChildren": ["Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body"],
 	"Props": {
+		"singularities": [
+			{
+				"rename":"whitehole main",
+				"uniqueID": "DB_MAIN",
+				"pairedSingularity": "BI_MAIN",
+				"type": "whiteHole",
+				"horizonRadius": 10,
+				"position": {"x":-1109.89,"y": 168.975,"z": 5.7811},
+				"rotation": {"x":0,"y":270,"z":0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"whitehole btm",
+				"type":"whiteHole",
+				"uniqueID": "DB_BOTTOM",
+				"pairedSingularity": "BI_BOTTOM",
+				"horizonRadius": 10,
+				"position": {"x":-383.4995,"y": -763.6439,"z": 903.596},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"whitehole opp",
+				"type":"whiteHole",
+				"uniqueID": "DB_OPP",
+				"pairedSingularity": "BI_OPP",
+				"horizonRadius": 10,
+				"position": {"x": 847.9765,"y": 477.7153,"z": -721.3297},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"whitehole top",
+				"type":"whiteHole",
+				"uniqueID": "DB_TOP",
+				"pairedSingularity": "BI_TOP",
+				"horizonRadius": 10,
+				"position": {"x": 58.2758,"y": 986.511,"z": 828.8588},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"whitehole left",
+				"type":"whiteHole",
+				"uniqueID": "DB_LEFT",
+				"pairedSingularity": "BI_LEFT",
+				"horizonRadius": 10,
+				"position": {"x": -402.8115,"y": -405.2699,"z": -1143.358},
+				"isRelativeToParent": true
+			},{
+				"rename":"whitehole right",
+				"type":"whiteHole",
+				"uniqueID": "DB_RIGHT",
+				"pairedSingularity": "BI_RIGHT",
+				"horizonRadius": 10,
+				"position": {"x": 920.4231,"y": -362.05,"z": 450.8627},
+				"isRelativeToParent": true
+			}
+		],
 		"details": [
 		
 

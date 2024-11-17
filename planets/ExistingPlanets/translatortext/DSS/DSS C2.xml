@@ -71,10 +71,6 @@
 			<FactID>INSP R2</FactID>
 			<Condition>6</Condition>
 		</RevealFact>
-		<RevealFact>
-			<FactID>INSP EX4.5</FactID>
-			<Condition>6</Condition>
-		</RevealFact>
 	
 </ShipLogConditions>
 

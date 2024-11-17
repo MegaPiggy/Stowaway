@@ -39,7 +39,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		CLARY: Of note: we will require a Nomai on the surface to charge a return warp that will allow us to warp out of this space!
+		CLARY: Of note: we will require some assistance in charging a return warp that will allow us to return to the surface!
 		</Text>
 	</TextBlock>
 
@@ -48,7 +48,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		DAZ: Have no fear, Clary. I am already waiting to do so! I cannot wait to reunite with Cassava.
+		DAZ: Have no fear, Clary: I am already ready to do so! I cannot wait to reunite with my beloved Cassava!
 		</Text>
 	</TextBlock>
 

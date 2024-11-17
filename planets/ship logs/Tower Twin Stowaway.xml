@@ -128,16 +128,20 @@
              <Text>I found a scroll containing Oeno's report on why the doors on Ash Twin were activating without input.</Text> 
         </ExploreFact>
         <ExploreFact>
+            <ID>SS Tower EX2.5</ID>
+             <Text>Ember Twin's gravity pulls on Ash Twin like a moon would.</Text> 
+        </ExploreFact>
+        <ExploreFact>
             <ID>SS Tower EX3</ID>
-             <Text>The sunless day occurs as the Hourglass Twins orbit into direct alignment with the sun, causing a combined force of gravity towards the sun.</Text> 
+             <Text>A sunless day occurs when the Hourglass Twins orbit into direct alignment with the sun, causing a combined force of gravity from the sun, as well as the twin closer to the sun.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX4</ID>
-             <Text>This combined force pulls on anything in its path, including the vision orbs powering the doors.</Text> 
+             <Text>These combined gravitational forces pull on anything in its path, including the vision orbs powering the doors.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>SS Tower EX5</ID>
-             <Text>Combined gravitational forces are the cause of the sand funnel between the Hourglass Twins.</Text> 
+             <Text>The sunless day is the cause of the sand funnel between the Hourglass Twins.</Text> 
         </ExploreFact>
  </Entry>
 
@@ -179,7 +183,7 @@
         </ExploreFact>
       <ExploreFact>
             <ID>SLR_T EX5</ID>
-             <Text>The Nomai did not observe issues with the solar towers' vision orbs. They planned to check the other tower on Ash Twin with rotating doors to investigate a hypothesis their investigation had inspired.</Text> 
+             <Text>The Nomai did not observe issues with the solar towers' vision orbs. They planned to investigate the issue further at the other tower on Ash Twin with rotating doors.</Text> 
         </ExploreFact>
         
      

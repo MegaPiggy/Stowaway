@@ -25,15 +25,11 @@
 
          <ExploreFact>
             <ID>R_SLR EX1</ID>
-             <Text>A grassy plateau on Ember Twin's south pole that the Nomai scouted as a potential relocation site.</Text>
+             <Text>A grassy plateau on Ember Twin's south pole that the Nomai scouted as a potential relocation site for something. They hoped that this relocation would allow them to no longer be deprived of energy by Ash Twin's shadow.</Text>
               <AltText>
-                         <Text>A grassy plateau on Ember Twin's south pole that the Nomai scouted as a potential relocation site for their solar panels.</Text>
+                         <Text>A grassy plateau on Ember Twin's south pole that the Nomai scouted as a potential relocation site for the solar panels on Ember Twin, due to Ash Twin's shadow regularly depriving them of energy.</Text>
                          <Condition>SLR_T EX4</Condition> 
                </AltText>
-        </ExploreFact>
-         <ExploreFact>
-            <ID>R_SLR EX2</ID>
-             <Text>The Nomai on Ember Twin were regularly deprived of energy by Ash Twin's shadow, causing confusion between sunless days and the High Energy Lab rerouting their energy.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>R_SLR EX3</ID>

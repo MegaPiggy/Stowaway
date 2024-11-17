@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		OENO: As the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> orbit around each other, they become aligned along a straight line with the sun at regular intervals, causing the sunless day on the twin farther from the sun.
+		OENO: As the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> orbit around each other, they become aligned along a straight line with the sun at regular intervals, causing a sunless day on the twin farther from the sun.
 		</Text>
 	</TextBlock>
 
@@ -51,7 +51,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		OENO: The same force is also what causes sand to be pulled towards the other twin at the alignment point, creating the striking funnel of sand between the Hourglass Twins.
+		OENO: The sunless day is also what causes sand to be pulled towards the other twin at the alignment point, creating the striking funnel of sand between the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		YARROW: What an enlightening report, Oeno! Now that we know the issue, we will know how to amend it in the future. My thanks for your hard work, Oeno.
+		YARROW: What an enlightening report, Oeno! Now that we know the issue, we will know how to amend it in the future. You have my gratitude for your hard work.
 		</Text>
 	</TextBlock>
 
@@ -69,7 +69,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: Normally, Ember Twin's gravity alone should not be enough to cause these vision orbs to activate. However, when combined with the gravity of the sun, the outcome changes.
+		OENO: Though Ember Twin's gravity pulls on Ash Twin like a moon would, this force alone should not be enough to cause vision orbs to activate.
 		</Text>
 	</TextBlock>
 	
@@ -77,6 +77,11 @@
 		<RevealFact>
 			<FactID>SS Tower EX2</FactID>
 			<Condition>1</Condition>
+		</RevealFact>
+
+	<RevealFact>
+			<FactID>SS Tower EX2.5</FactID>
+			<Condition>4</Condition>
 		</RevealFact>
 
 			<RevealFact>

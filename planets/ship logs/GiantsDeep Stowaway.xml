@@ -26,7 +26,7 @@
         </RumorFact>
              <RumorFact>
             <ID>Workshop R4</ID>
-            <Text>A new invention at this workshop allowed Nomai to walk beyond a projection pool while projecting to it.</Text>
+            <Text>A new invention from this workshop allowed Nomai to walk beyond a projection pool.</Text>
         </RumorFact>
            <RumorFact>
             <ID>Workshop R5</ID>
@@ -399,7 +399,7 @@
          <RumorFact>
                  <ID>CONV R3</ID> 
                <SourceID>GD_CONSTRUCTION_YARD</SourceID>
-            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai at the Construction Yard to warp in, to charge a return warp that would allow them to return to the surface.</Text> 
+            <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai to help charge a return warp that would allow them to return to the surface.</Text> 
     </RumorFact>
          <RumorFact>
                  <ID>CONV R4</ID> 

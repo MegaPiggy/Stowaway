@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<LocationB />
 		<ParentID>1</ParentID>
-		<Text>SOLANUM: Ilex has kindly provided his eyes at the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]> during my pilgrimage to the Quantum Moon today.
+		<Text>SOLANUM: Ilex is kindly providing his eyes at the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]> during my pilgrimage to the <![CDATA[<color=lightblue>Quantum Moon</color>]]> today.
 		</Text>
 	</TextBlock>
 
@@ -84,7 +84,7 @@
 		<LocationA />
 		<ParentID>9</ParentID>
 		<Text>
-		BELLS: Now, it is time to depart for your pilgrimage at last, Solanum. Ilex is providing you a set of eyes on <![CDATA[<color=lightblue>Ember Twin;</color>]]> you musn't keep him waiting too long!
+		BELLS: Now, it is time to depart for your pilgrimage at last, Solanum. Remember, Ilex is providing you a set of eyes on <![CDATA[<color=lightblue>Ember Twin;</color>]]> you musn't keep him waiting too long!
 		</Text>
 	</TextBlock>
 
