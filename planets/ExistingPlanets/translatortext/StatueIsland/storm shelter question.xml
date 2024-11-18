@@ -20,7 +20,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		DAZ: Hm..? Why has the storm shelter has suddenly activated? There does not appear to be any cyclones are near the island at the moment.
+		DAZ: Hm..? Why has the storm shelter suddenly activated? There are no cyclones are near the island at the moment.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -36,7 +36,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		THATCH: No, the issue does not seem unique to this unit alone.. The other storm shelters seem to be simultaneously experiencing the same issue.
+		THATCH: No, the issue does not seem unique to this unit alone.. The other storm shelters seem to be simultaneously experiencing the same issue!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -44,7 +44,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		THATCH: Shamefully, I do not know much about storm shelters.. It was not long ago we Nomai on <![CDATA[<color=lightblue>Giant's Deep</color>]]> were completely insulated from cyclones in the <![CDATA[<color=orange>Looming City,</color>]]> you see.
+		THATCH: Shamefully, I do not know much about the mechanisms of these devices.. It was not long ago we Nomai on <![CDATA[<color=lightblue>Giant's Deep</color>]]> were completely insulated from cyclones in the <![CDATA[<color=orange>Looming City,</color>]]> you see.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -52,7 +52,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		THATCH: When I next travel home, I shall pay a visit to the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> equator to shed some light on this issue!
+		THATCH: When I next travel home, I shall pay a visit to the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> to shed some light on this issue!
 		</Text>
 	</TextBlock>
 

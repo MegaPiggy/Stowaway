@@ -5,16 +5,15 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		LAMI: Come on, Laevi, tell me the secret! We're on the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> now, aren't we?
+		LAMI: Come on, Laevi, tell me the secret! We're on <![CDATA[<color=lightblue>Ash Twin</color>]]> now, aren't we?
 		</Text>
 	</TextBlock>
-
 	<TextBlock>
 		<ID>2</ID>
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		LAEVI: Patience, Lami.. We must wait for <![CDATA[<color=lightblue>Ember Twin</color>]]> to orbit overhead first.
+		LAMI: You promised back in the <![CDATA[<color=orange>Hanging City</color>]]> that you would teach me the secret once we arrived!
 		</Text>
 	</TextBlock>
 
@@ -23,39 +22,48 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
+		LAEVI: Patience, Lami.. To play this game, we must wait for the sunless day to align overhead us first.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
 		LAMI: It's coming, it's coming, Laevi!
 		</Text>
 	</TextBlock>
 
 <TextBlock>
-		<ID>4</ID>
+		<ID>5</ID>
 		<LocationB />
-		<ParentID>3</ParentID>
+		<ParentID>4</ParentID>
 		<Text>
 		LAMI: No cheating! Use your legs only!
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
-		<ID>5</ID>
-		<LocationB />
-		<ParentID>4</ParentID>
-		<Text>
-		LAMI: Ow, my head hurts... But Laevi, that was so fun! You're the best sibling ever!
-		</Text>
-	</TextBlock>
-	<TextBlock>
 		<ID>6</ID>
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		LAEVI: It was quite exhilarating, wasn't it? Should we do it again?
+		LAMI: Ow, my head hurts... But Laevi, that was so fun! You're the best sibling ever!
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
 		<LocationB />
 		<ParentID>6</ParentID>
+		<Text>
+		LAEVI: It was quite exhilarating, wasn't it? Should we do it again?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
 		<Text>
 		LAMI: Yes, yes, let's do it again! I wanna do that everywhere I go!
 		</Text>
@@ -66,6 +74,10 @@
 	<RevealFact>
 			<FactID>BH Tower EX2</FactID>
 			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_H R2</FactID>
+			<Condition>2</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

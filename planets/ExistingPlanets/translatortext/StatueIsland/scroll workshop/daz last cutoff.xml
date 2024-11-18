@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		DAZ: My love, is there a voyager stone to <![CDATA[<color=lightblue>Timber Hearth</color>]]> in the <![CDATA[<color=orange>Deep Storm Station?</color>]]> I believe I will need some assistance in the task of locating the stowaways within the <![CDATA[<color=orange>Sanctuary.</color>]]>
+		DAZ: My love, is there a voyager stone to the <![CDATA[<color=lightblue>Sanctuary</color>]]> somewhere in the <![CDATA[<color=orange>Deep Storm Station?</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Could you voyage here to the <![CDATA[<color=orange>Deep Storm Station</color>]]> to check, Daz? My apologies, I am preparing to start another test at the moment.
+		DAZ: It appears there are still several of the native species inside the <![CDATA[<color=lightblue>Sanctuary</color>]]> who have grown too used to the space, and elude release back to the surface. We require more eyes to assist in their release!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		DAZ: Ah, here it is! It was in the <![CDATA[<color=orange>Deep Storm Station</color>]]> after all. Almost as if.. fate wanted you to join me in my task as well?
+		CASSAVA: It appears there is one here, Daz. Hah.. Did you leave this voyager stone here in an attempt to slyly encourage me to join you? Your efforts to lift my low spirits are steadfast, but unsubtle, my love!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -29,7 +29,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Hah! Your attempts to subtly persuade me to join you have given way, I see. But.. I do not feel I can allow myself such joy right now, Daz.
+		CASSAVA: I would love nothing more than to join you in assisting Oeno, Daz. But.. I do not feel I can allow myself such joy right now.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -68,7 +68,7 @@
 
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>WorkshopTop EX4</FactID>
+			<FactID>WorkshopTop EX3</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
 		<RevealFact>

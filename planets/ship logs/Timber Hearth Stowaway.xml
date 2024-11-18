@@ -155,6 +155,18 @@
             <ID>SY R4</ID> 
             <Text>The Nomai planned to use a new invention from the Scroll and Stone Workshop which would provide convenient entry into the Sanctuary.</Text> 
         </RumorFact>
+        
+         <RumorFact>
+               <RumorName>Sanctuary</RumorName>
+            <RumorNamePriority>2</RumorNamePriority>
+            <ID>SY R4.5</ID> 
+            <Text>There was trouble of some kind at the Sanctuary.</Text> 
+            <AltText>
+                         <Text>Several of the native species inside the Sanctuary grew too used to the space and eluded the Nomai's attempts to release them back to the surface.</Text>
+                         <Condition>CONV R4</Condition>
+                    </AltText>
+        </RumorFact>
+
           <RumorFact>
            <SourceID>DEEP_STORM_STATION</SourceID>
             <ID>SY R5</ID> 

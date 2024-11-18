@@ -43,8 +43,7 @@
 				"position": {"x": -1.2668, "y": 34.6011, "z": -0.2484},
 				"rotation": {"x": 0, "y": 337.9624, "z": 0},
 				"isRelativeToParent": true,
-				"stretch":{"x":2.7,"y": 2.8964,"z":3},
-				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+				"stretch":{"x":2.7,"y": 2.8964,"z":3}
 			},
 			{
 				"rename": "Orcnid w Stray Legs",
@@ -134,8 +133,22 @@
 				"rename":"island interior bucket",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/treepot.prefab",
-				"position": {"x": -1.721, "y": 0.8603, "z": 34.1244},
-				"rotation": {"x": 279.0722, "y": 38.4636, "z": 282.5286},
+				"position": {"x": 1.9554, "y": 0.8603, "z": 31.8026},
+				"rotation": {"x": 291.1706, "y": 344.4149, "z": 326.1822},
+				"isRelativeToParent": true
+			},	{
+				"rename":"interior snackbox",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/broken box.prefab",
+				"position": {"x": 4.3754, "y": 0.8695, "z": 31.212},
+				"rotation": {"x": 359.8668, "y": 100.3212, "z": 3.611},
+				"isRelativeToParent": true
+			},{
+				"rename":"interior torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position": {"x": 5.4838, "y": 0.855, "z": 30.0138},
+				"rotation": {"x": 285.3457, "y": 0.9638, "z": 128.8283},
 				"isRelativeToParent": true
 			},
 			
@@ -1127,7 +1140,7 @@
 			},
 			{
 				"rename":"Pioneer inside shelter recorder",
-				"position": {"x": -1.2901,"y": 1.2014,"z": 33.7876},
+				"position": {"x": 3.0463,"y": 0.9341,"z": 31.0076},
 				"rotation": {"x": 1.434,"y": 119.4439,"z": 8.9591},
 				"type": "recorder",
 				"isRelativeToParent": true,

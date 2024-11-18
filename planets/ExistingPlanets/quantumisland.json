@@ -143,20 +143,20 @@
 				{
 					"position": {"x": 0.2244,"y": 0, "z": 0},
 					"rotation": {"x":0,"y": 0,"z": 0},
-					"parentPath": "Sector_QuantumIsland/f3 QuantumGravCrystal/Prefab_NOM_GravityCrystal",
+					"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom3/Interactables_PuzzleRoom3/PuzzleRoom_3/QuantumGravCrystal",
 					"isRelativeToParent": true,
 					"probability": 1.2
 				},
 				{
 					"position": {"x": 4.7851,"y": 16.6072, "z": -13.7716},
 					"rotation": {"x":0,"y": 0,"z": 90},
-					"parentPath": "Sector_QuantumIsland/f3 QuantumGravCrystal/Prefab_NOM_GravityCrystal",
+					"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom3/Interactables_PuzzleRoom3/PuzzleRoom_3/QuantumGravCrystal",
 					"isRelativeToParent": true
 				},
 				{
 					"position": {"x":4.785,"y": 16.9782, "z": 14.32},
 					"rotation": {"x":0,"y": 0,"z": 90},
-					"parentPath": "Sector_QuantumIsland/f3 QuantumGravCrystal/Prefab_NOM_GravityCrystal",
+					"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom3/Interactables_PuzzleRoom3/PuzzleRoom_3/QuantumGravCrystal",
 					"isRelativeToParent": true
 				}
 			]
@@ -166,9 +166,9 @@
 		"type": "sockets",
 			"sockets": [
 				{
-					"position": {"x":-0.1102,"y": -0.8995, "z":  -0.09},
+					"position": {"x":-1,"y": -0.8995, "z":  -0.09},
 					"rotation": {"x":0,"y": 0,"z": 0},
-				"parentPath":  "Sector_QuantumIsland/f4 QuantumGravCrystal 1/Prefab_NOM_GravityCrystal",
+				"parentPath":  "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom4/Interactables_PuzzleRoom4/PuzzleRoom_4/Sockets_WallOne/QuantumGravCrystal",
 				"isRelativeToParent": true,
 				"probability": 1.2
 				},
@@ -241,7 +241,7 @@
 			},
 			{
 				"rename":"GD TOWER f1 GM visibilitytracker",
-				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root/VisibilityTracker/",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
 				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f1 gm wisps",
 				"scale":1.4,
 				"isRelativeToParent": true
@@ -262,7 +262,7 @@
 			},
 			{
 				"rename":"GD TOWER f2 GM visibilitytracker",
-				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root/VisibilityTracker/",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
 				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f2 gm wisps",
 				"scale":1.4,
 				"isRelativeToParent": true
@@ -487,7 +487,7 @@
 			},
 			{
 				"rename":"GD TOWER f3 GM visibilitytracker",
-				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root/VisibilityTracker/",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
 				"parentPath": "Sector_QuantumIsland/GD TOWER f3 gm wisps",
 				"scale":1.4,
 				"isRelativeToParent": true
@@ -560,21 +560,8 @@
 				"isRelativeToParent": true
 			},
 
-			{
-				"rename":"f3 QuantumGravCrystal",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom3/Interactables_PuzzleRoom3/PuzzleRoom_3/QuantumGravCrystal",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"f4 QuantumGravCrystal 1",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom4/Interactables_PuzzleRoom4/PuzzleRoom_4/Sockets_WallOne/QuantumGravCrystal",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"f4 QuantumGravCrystal 2",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom4/Interactables_PuzzleRoom4/PuzzleRoom_4/Sockets_WallOne/QuantumGravCrystal",
-				"isRelativeToParent": true
-			},
+		
+			
 			{
 				"rename":"GD TOWER f4 gm wisps",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
@@ -600,7 +587,7 @@
 			},
 			{
 				"rename":"GD TOWER f4 GM visibilitytracker",
-				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root/VisibilityTracker/",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
 				"parentPath": "Sector_QuantumIsland/GD TOWER f4 gm wisps",
 				"scale":1.4,
 				"isRelativeToParent": true
@@ -1283,10 +1270,7 @@
 		"Sector_QuantumIsland/aquarium fill light/Aquarium bubbles/GeyserParticles/GeyserSpout",
 		"Sector_QuantumIsland/aquarium fill light/Aquarium bubbles/Geyser_OneShotAudioSrc",
 		"Sector_QuantumIsland/aquarium fill light/Aquarium bubbles/Geyser_LoopAudioSrc",
-		"Sector_QuantumIsland/aquarium fill light/Aquarium bubbles/Terrain_TH_SeperateGeyser_Small (16)",
-
-		"Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom4/Interactables_PuzzleRoom4/PuzzleRoom_4/Sockets_WallOne/QuantumGravCrystal",
-		"Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom3/Interactables_PuzzleRoom3/PuzzleRoom_3/QuantumGravCrystal"
+		"Sector_QuantumIsland/aquarium fill light/Aquarium bubbles/Terrain_TH_SeperateGeyser_Small (16)"
 
 	]
 	}

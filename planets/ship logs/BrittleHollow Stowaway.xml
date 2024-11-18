@@ -52,8 +52,14 @@
          
          <RumorFact>
             <ID>BH_H R1</ID>
-            <RumorName>Storm Shelter Invitation</RumorName>
+            <RumorName>Storm Shelter Scroll</RumorName>
             <Text>A Nomai named Kousa left a scroll in the Hanging City that goes into more detail about the storm shelter.</Text> 
+        </RumorFact>
+         <RumorFact>
+            <IgnoreMoreToExplore/>
+            <ID>BH_H R2</ID>
+            <RumorName>Hanging City Game</RumorName>
+            <Text>A Nomai named Lami was eager to learn some sort of secret his brother had promised to teach him when they were in the Hanging City.</Text> 
         </RumorFact>
 
         <ExploreFact>
@@ -75,11 +81,11 @@
         </ExploreFact>
              <ExploreFact>
             <ID>BH_H EX6</ID> 
-            <Text>A Nomai named Lami was confused why he was unable to jump as high as he did elsewhere on Brittle Hollow, and was told it was because they were now on the north pole.</Text> 
+            <Text>A Nomai named Lami was confused why he was unable to jump as high as his brother did elsewhere on Brittle Hollow, and was told it was because they were now on the north pole.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>BH_H EX7</ID> 
-            <Text>Nomai can learn how to jump to greater heights on the Hourglass Twins.</Text> 
+            <Text>A Nomai named Laevi promised to teach his brother how to jump to greater heights on Ash Twin.</Text> 
         </ExploreFact>
       
 </Entry>
@@ -99,7 +105,7 @@
         </RumorFact>
          <RumorFact>
             <ID>GSHOP R2</ID>
-            <Text>The Nomai on Giant's Deep visited this workshop on Brittle Hollow's equator to inquire about storm shelters activating in the absence of cyclones.</Text> 
+            <Text>Nomai on Giant's Deep visited this workshop on Brittle Hollow to inquire about storm shelters activating in the absence of cyclones.</Text> 
         </RumorFact>
 
         <ExploreFact>
