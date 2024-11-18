@@ -13,57 +13,6 @@
 	},
 	"Props": {
 		"singularities": [
-			{
-				"rename":"bh main",
-				"type":"blackHole",
-				"uniqueID": "BI_MAIN",
-				"pairedSingularity": "DB_MAIN",
-				"horizonRadius": 1,
-				"position": {"x":30.1529,"y": 7.1466,"z": -35.4445},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"bh btm",
-				"type":"blackHole",
-				"uniqueID": "BI_BOTTOM",
-				"pairedSingularity": "DB_BOTTOM",
-				"horizonRadius": 1,
-				"position": {"x":34.0679,"y": 4.7518,"z": -37.5464},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"bh opp",
-				"type":"blackHole",
-				"uniqueID": "BI_OPP",
-				"pairedSingularity": "DB_OPP",
-				"horizonRadius": 1,
-				"position": {"x":38.3344,"y": 8.0738,"z": -37.8195},
-				"isRelativeToParent": true
-			},{
-				"rename":"bh top",
-				"type":"blackHole",
-				"uniqueID": "BI_TOP",
-				"pairedSingularity": "DB_TOP",
-				"horizonRadius": 1,
-				"position": {"x":30.9291,"y": 11.5532,"z": -39.2725},
-				"isRelativeToParent": true
-			},{
-				"rename":"bh left",
-				"type":"blackHole",
-				"uniqueID": "BI_LEFT",
-				"pairedSingularity": "DB_LEFT",
-				"horizonRadius": 1,
-				"position": {"x":34.3704,"y": 10.5308,"z": -34.9499},
-				"isRelativeToParent": true
-			},{
-				"rename":"bh right",
-				"type":"blackHole",
-				"uniqueID": "BI_RIGHT",
-				"pairedSingularity": "DB_RIGHT",
-				"horizonRadius": 1,
-				"position": {"x":31.2352,"y": 5.696,"z": -41.091},
-				"isRelativeToParent": true
-			},
 
 			{
 				"type": "whiteHole",
@@ -79,48 +28,7 @@
 
 	
 		"details": [
-			{
-				"rename":"bramble seed gd",
-				"path":"DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Pivot/InnerWarp_ToAnglerNest",
-				
-				"position": {"x":33.3988,"y": 7.9179,"z": -37.8097},
-				"rotation": {"x":341.7333,"y": 265.6082,"z": 240.8425},
-				"scale": 0.1,
-				"removeChildren": ["Effects/InnerWarpFogSphere", "Effects/PointLight_DB_FogLight/", "Terrain_DB_BrambleSphere_Inner_v2/fogbackdrop_v2"],
-				"isRelativeToParent": true,
-				"keepLoaded": true
-			},
-			{
-				"rename":"bramble red aura LIGHT",
-				"path":"DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Pivot/InnerWarp_ToAnglerNest/Terrain_DB_BrambleSphere_Inner_v2/fogbackdrop_v2",
-				"parentPath": "Sector_BrambleIsland/bramble seed gd/Effects",
-				"position": {"x": 0, "y": 0, "z": 0},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"bramble red aura LIGHT",
-				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
-				"parentPath": "Sector_BrambleIsland/bramble seed gd/Effects",
-				"position": {"x": 12.586, "y": 18.3456, "z": -16.6057},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"bramble fogsphere 1",
-				"path":"TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/BrambleSeed/VolumetricFogSphere/",
-				"position": {"x": -5.6416, "y": 14.7352, "z": 1.6879},
-				"rotation": {"x": 304.6343,"y": 279.4851,"z": 186.1093},
-				"parentPath": "Sector_BrambleIsland/bramble seed gd/Effects",
-				"scale": 100,
-				"isRelativeToParent": true
-			},{
-				"rename":"bramble fogsphere 2",
-				"path":"TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Interactables_ImpactCrater/BrambleSeed/VolumetricFogSphere/",
-				"position": {"x": -5.6416, "y": 14.7352, "z": 1.6879},
-				"rotation": {"x": 304.6343,"y": 279.4851,"z": 186.1093},
-				"parentPath": "Sector_BrambleIsland/bramble seed gd/Effects",
-				"scale": 100,
-				"isRelativeToParent": true
-			},
+			
 		{
 			"rename":"intro tablet",
 			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Interactables_OrbitalProbeCannon/Interactables_VisibleOrbitalProbeCannon/ModuleSign_2/Prefab_NOM_Tablet",

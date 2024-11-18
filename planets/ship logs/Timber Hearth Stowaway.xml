@@ -57,16 +57,16 @@
   </RumorFact>
        <ExploreFact>
             <ID>GAL EX1</ID> 
-            <Text>Galena wanted me to ask Slate how the Little Scout sticks onto surfaces.</Text> 
+            <Text>Galena's toy rocket got swept by the river into the drain behind the village water wheel! They asked me to use the Little Scout to see if their toy rocket was inside the drain.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>GAL EX2</ID> 
-            <Text>Slate says that the Little Scout arms little hooks to allow it to stick onto surfaces for surveying from afar.</Text> 
+            <Text>The Little Scout's camera can be rotated to look around.</Text> 
        </ExploreFact>
        
        <ExploreFact>
             <ID>GAL EX3</ID> 
-            <Text>The Little Scout has a 360-degree camera that can be rotated once it has landed.</Text> 
+            <Text>I used my Little Scout to find Galena's toy rocket in the drain.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -92,7 +92,7 @@
        </ExploreFact>
        <ExploreFact>
             <ID>ARK EX2</ID> 
-            <Text>Arkose says that Gabbro told them that ghost matter disappears, but Gabbro doesn't know why.</Text> 
+            <Text>Arkose says that Gabbro told them that ghost matter disappears, though they weren't sure why.</Text> 
        </ExploreFact>
 </Entry>
 

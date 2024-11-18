@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		AVENS: Friends, the excavation of Giant's Deep's core is complete. With this, the <![CDATA[<color=orange>Deep Storm Station</color>]]> takes its first step towards realization!
+		AVENS: Friends, the excavation of Giant's Deep's core is complete. At this rate, I am confident we will be able to complete the <![CDATA[<color=orange>Deep Storm Station</color>]]> before the <![CDATA[<color=orange>Sun Station!</color>]]>
 		</Text>
 	</TextBlock>
 	
@@ -14,7 +14,7 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		MALLOW: Oh, Avens, isn't it exciting? Once the <![CDATA[<color=orange>Deep Storm Station</color>]]> is complete, our clan will be more prepared than ever to follow our ambitions!
+		MALLOW: I hope so too.. Without the <![CDATA[<color=orange>Deep Storm Station</color>]]> giving us the confidence to follow in our ambitions, we won't be able to use the <![CDATA[<color=orange>Sun Station</color>]]> at all!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -39,7 +39,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		CLARY: Of note: we will require some assistance in charging a return warp that will allow us to return to the surface!
+		CLARY: Of note: we will require some assistance in charging a return warp that will allow us to return to the planet's surface!
 		</Text>
 	</TextBlock>
 
@@ -57,7 +57,7 @@
 		<LocationAB />
 		<ParentID>6</ParentID>
 		<Text>
-		CLARY: You have my gratitude, Daz. I shall be glad to take my leave, before I become trapped in the station with <![CDATA[<i>two</i>]]> pairs of gelatinous Nomai!
+		CLARY: You have my gratitude, Daz. With my work here done, I shall be glad to take my leave from <![CDATA[<i>two</i>]]> sets of gelatinous Nomai!
 		</Text>
 	</TextBlock>
 
@@ -68,8 +68,16 @@
 			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
+			<FactID>CB_EX6</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
 			<FactID>CONV R3</FactID>
 			<Condition>5</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>CONV R3.5</FactID>
+			<Condition>2</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

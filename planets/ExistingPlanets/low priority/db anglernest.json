@@ -4,63 +4,11 @@
 	"name": "Angler Nest Dimension",
 
 	"removeChildren": ["Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body"],
+
 	"Props": {
-		"singularities": [
-			{
-				"rename":"whitehole main",
-				"uniqueID": "DB_MAIN",
-				"pairedSingularity": "BI_MAIN",
-				"type": "whiteHole",
-				"horizonRadius": 10,
-				"position": {"x":-1109.89,"y": 168.975,"z": 5.7811},
-				"rotation": {"x":0,"y":270,"z":0},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"whitehole btm",
-				"type":"whiteHole",
-				"uniqueID": "DB_BOTTOM",
-				"pairedSingularity": "BI_BOTTOM",
-				"horizonRadius": 10,
-				"position": {"x":-383.4995,"y": -763.6439,"z": 903.596},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"whitehole opp",
-				"type":"whiteHole",
-				"uniqueID": "DB_OPP",
-				"pairedSingularity": "BI_OPP",
-				"horizonRadius": 10,
-				"position": {"x": 847.9765,"y": 477.7153,"z": -721.3297},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"whitehole top",
-				"type":"whiteHole",
-				"uniqueID": "DB_TOP",
-				"pairedSingularity": "BI_TOP",
-				"horizonRadius": 10,
-				"position": {"x": 58.2758,"y": 986.511,"z": 828.8588},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"whitehole left",
-				"type":"whiteHole",
-				"uniqueID": "DB_LEFT",
-				"pairedSingularity": "BI_LEFT",
-				"horizonRadius": 10,
-				"position": {"x": -402.8115,"y": -405.2699,"z": -1143.358},
-				"isRelativeToParent": true
-			},{
-				"rename":"whitehole right",
-				"type":"whiteHole",
-				"uniqueID": "DB_RIGHT",
-				"pairedSingularity": "BI_RIGHT",
-				"horizonRadius": 10,
-				"position": {"x": 920.4231,"y": -362.05,"z": 450.8627},
-				"isRelativeToParent": true
-			}
-		],
+		
+		
+		
 		"details": [
 		
 
@@ -68,13 +16,14 @@
 				"rename":"broken egg",
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/db egg hole.prefab",
-				"position": {"x":0,"y": 0,"z": 0},
-				"rotation": {"x":0,"y": 0,"z": 0},
+				"position": {"x":-33.4691,"y": -12.6709,"z": 6.149},
+				"rotation": {"x":358.5674,"y": 40.4037,"z": 318.0007},
+				"scale":1.4,
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"broken egg water visual",
-				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_GD/Effects_GDState/Ocean/",
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Ocean_GD/",
 				"position": {"x":0,"y": 0,"z": 0},
 				"rotation": {"x":0,"y": 0,"z": 0},
 				"scale":3.7,
@@ -82,24 +31,15 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename":"broken egg fish",
-				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/AnglerFishTankPivot/Beast_Anglerfish",
-				"position": {"x":-2.2128,"y": -0.2021,"z": 0.258},
-				"rotation": {"x":37.9422,"y": 276.5182,"z": 335.4908},
-				"scale": 0.005,
-				"parentPath": "Sector_AnglerNestDimension/broken egg",
-				"isRelativeToParent": true
-			},
-			{
-				"rename": "bubbel shell collider",
-				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/bubbel collider.prefab",
+				"rename":"broken egg watervolume",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_GD/Volumes_GDState/OceanFluidVolume/",
 				"position": {"x":0,"y": 0,"z": 0},
 				"rotation": {"x":0,"y": 0,"z": 0},
-				"scale":8,
+				"scale": 0.05,
 				"parentPath": "Sector_AnglerNestDimension/broken egg",
 				"isRelativeToParent": true
 			}
+			
 		],
 
 		"translatorText": [

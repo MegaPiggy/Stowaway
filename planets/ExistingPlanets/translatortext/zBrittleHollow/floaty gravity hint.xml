@@ -32,7 +32,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		LAMI: What happened? That jump was so weak.. I was able to jump so high earlier, elsewhere on <![CDATA[<color=lightblue>Brittle Hollow!</color>]]>
+		LAMI: What happened? That jump was so weak.. I was able to jump so much higher earlier, elsewhere on <![CDATA[<color=lightblue>Brittle Hollow!</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -40,7 +40,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		LAEVI: If you wish to learn how to jump to greater heights, then I suggest we return to the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> without delay!
+		LAEVI: That is because we're on the north pole now, Lami..
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -48,7 +48,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		LAEVI: That is because we're on the north pole now, Lami..
+		LAEVI: If you wish to learn how to jump to greater heights, then I suggest we return to the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> without delay!
 		</Text>
 	</TextBlock>
 
@@ -59,11 +59,11 @@
 		</RevealFact>
 		<RevealFact>
 			<FactID>BH_H EX6</FactID>
-			<Condition>6</Condition>
+			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>BH_H EX7</FactID>
-			<Condition>5</Condition>
+			<Condition>6</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

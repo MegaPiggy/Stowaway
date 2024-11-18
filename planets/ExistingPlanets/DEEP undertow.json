@@ -42,7 +42,7 @@
 				"revealFor": "probe",
 				"position": {"x":-2.1438,"y":-0.4531,"z":-3.5499},
 				"isRelativeToParent": true,
-				"maxDistance": 18
+				"maxDistance": 10
 			},
 			{
 				"reveals": ["DSS R2"],

@@ -75,7 +75,8 @@
 
 			{
 				"rename":"stormshelter table",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/table.prefab",
 				"position": {"x": -26.0851, "y": 8.1066, "z": -6.2425},
 				"rotation": {"x": 355.4305, "y": 34.9211, "z": 1.5226},
 				"isRelativeToParent": true
@@ -737,7 +738,8 @@
 			},
 			{
 				"rename": "scroll in sculpting 2",
-				"path": "StatueIsland_Body/Sector_StatueIsland/scroll in sculpting",
+				"assetBundle": "planets/bundle/sculpt scroll",
+				"path": "assets/nomai ruins/props_nom_scroll_geo.prefab",
 				"position": {"x": 29.519, "y": -0.2791, "z": 9.3741},
 				"rotation": {"x": 73.3606, "y": 97.5452, "z": 325.5218},
 				"isRelativeToParent": true,
@@ -745,7 +747,8 @@
 			},
 			{
 				"rename": "scroll in sculpting 3",
-				"path": "StatueIsland_Body/Sector_StatueIsland/scroll in sculpting",
+				"assetBundle": "planets/bundle/sculpt scroll",
+				"path": "assets/nomai ruins/props_nom_scroll_geo.prefab",
 				"position": {"x": 29.7077, "y": -0.8452, "z": 8.2105},
 				"rotation": {"x": 45.3873, "y": 127.2293, "z": 292.1215},
 				"isRelativeToParent": true,

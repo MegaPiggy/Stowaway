@@ -205,6 +205,12 @@
                          <Condition>CONV R3</Condition>
                     </AltText> 
         </ExploreFact>
+        
+     <ExploreFact>
+            <IgnoreMoreToExplore/>
+                 <ID>CB_EX6</ID> 
+            <Text>Without the Deep Storm Station, the Nomai would not be confident in following in their ambitions to use the Sun Station.</Text> 
+    </ExploreFact>
 </Entry>
 
 ///
@@ -377,7 +383,7 @@
             <ID>DSS R2</ID>
              <RumorName>Deep Storm Station</RumorName>
              <RumorNamePriority>1</RumorNamePriority>
-            <Text>I was able to enter the Deep Storm Station using a voyager stone. The gravity on this part of the station is too strong for me to jump to the other side.</Text> 
+            <Text>I was able to enter the Deep Storm Station.</Text> 
     </RumorFact>
     <RumorFact>
              <ID>DSS R3</ID> 
@@ -400,6 +406,11 @@
                  <ID>CONV R3</ID> 
                <SourceID>GD_CONSTRUCTION_YARD</SourceID>
             <Text>The Nomai excavated the core of Giant's Deep to construct the Deep Storm Station. They asked Nomai to help charge a return warp that would allow them to return to the surface.</Text> 
+    </RumorFact>
+     <RumorFact>
+                 <ID>CONV R3.5</ID> 
+               <SourceID>GD_CONSTRUCTION_YARD</SourceID>
+            <Text><Text>Without the Deep Storm Station, the Nomai would not be confident in following in their ambitions to use the Sun Station.</Text> </Text> 
     </RumorFact>
          <RumorFact>
                  <ID>CONV R4</ID> 

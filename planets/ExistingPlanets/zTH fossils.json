@@ -7,7 +7,22 @@
 	{
 		"details":
 		[
-			
+			{
+				"rename":"village sewer fossil",
+				"assetBundle": "planets/bundle/eye stuff",
+				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
+				"rotation": {
+					"x": 36.5316 ,
+					"y": 82.2272,
+					"z": 101.2585
+				},
+				"position": {
+					"x": -45.1868,
+					"y": -27.66,
+					"z": 178.1619
+				}
+			},
+
 			{
 				"rename":"big mountain fossil 1",
 				"assetBundle": "planets/bundle/eye stuff",

@@ -60,6 +60,10 @@
             <ID>BH Tower EX1</ID>
              <Text>A tower on Ash Twin that resembles column formations.</Text> 
         </ExploreFact>
+         <ExploreFact>
+            <ID>BH Tower EX2</ID>
+             <Text>Two Nomai children waited inside this tower for Ember Twin to orbit overhead to play some sort of game.</Text> 
+        </ExploreFact>
  </Entry>
 
 
@@ -129,11 +133,11 @@
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX2.5</ID>
-             <Text>Ember Twin's gravity pulls on Ash Twin like a moon would.</Text> 
+             <Text>The Hourglass Twins feel a pull of gravity from each other.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX3</ID>
-             <Text>A sunless day occurs when the Hourglass Twins orbit into direct alignment with the sun, causing a combined force of gravity from the sun, as well as the twin closer to the sun.</Text> 
+             <Text>A sunless day occurs when the Hourglass Twins orbit into direct alignment with the sun, causing a combined force of gravity from both the sun and the twin closer to the sun.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX4</ID>
