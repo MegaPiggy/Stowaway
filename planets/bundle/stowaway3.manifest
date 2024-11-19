@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2589788466
+CRC: 2049768438
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bd58a85994601b00d841e2f6d0f7ef49
+    Hash: fb85d7c33d73fce31080dc4314a4d5d0
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 91f6618b88d246c5e59c3d091678f72e
+    Hash: 03eef29357354d4eed063cb2134f636b
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -54,6 +54,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 97799c07190331b5ea4838ff8ff2a8e0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: c1e03d384261f6f301ef6513a478c3a8, type: 3}
@@ -67,6 +69,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 562554eab4e78f975d9f792c45544c0b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d0a6aeb05d852b7ba1f13e9ddeb7586, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9893321d896ff975d056df09969d1ee0, type: 3}
 - Class: 114
@@ -96,7 +100,6 @@ Assets:
 - Assets/Models/db egg hole.prefab
 - Assets/Models/comet mural front.prefab
 - Assets/Models/bubbel.prefab
-- Assets/Models/well miss you.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Inspired gravity 3.prefab
 - Assets/Models/Materials/mural side.prefab
 - Assets/Models/bubbel collider.prefab
@@ -106,6 +109,7 @@ Assets:
 - Assets/Models/TheInspired (1).prefab
 - Assets/Models/player nosuit.prefab
 - Assets/Models/ASH TWIN BEAM north.prefab
+- Assets/Models/bh tower occluder.prefab
 - Assets/Models/rotation guy.prefab
 - Assets/Models/Materials/mural front.prefab
 - Assets/Models/SphereCollider.prefab

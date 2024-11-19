@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		LAEVI: Lami, please, use the <![CDATA[<color=orange>Artificial Gravity Highway</color>]]> normally. We have played this game enough times!
+		LAEVI: Lami, please, I ask as your big brother: just use the <![CDATA[<color=orange>Artificial Gravity Highway</color>]]> normally.. We have played this game enough times!
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		LAEVI: Besides, you'll never jump as high as I did without knowing the secret..
+		LAMI: Not yet! I won't give up.. Not until I beat your jump!
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		LAMI: Grr.. Just watch, Laevi! I'm going to jump from the bottom of the highway all the way to the highest district, in one go!
+		LAMI: Just watch, Laevi: I'm going to jump from the bottom of the highway all the way to the highest district, in one go!
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		LAMI: Aw, that jump was so weak.. I just can't figure it out! Why can't I just as high as you did elsewhere on <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> Laevi?
+		LAMI: Aw, that jump was so weak.. I just can't figure it out! Why can't I just as high as you did elsewhere on <![CDATA[<color=lightblue>Brittle Hollow?</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -40,7 +40,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		LAEVI: That is because we're on the north pole now, Lami.
+		LAEVI: If you wish to learn how to jump to greater heights, then I suggest we return to <![CDATA[<color=lightblue>Ash Twin</color>]]> without delay!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -48,7 +48,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		LAEVI: If you wish to learn how to jump to greater heights, then I suggest we return to <![CDATA[<color=lightblue>Ash Twin</color>]]> without delay!
+		LAEVI: That is because we're on the north pole now, Lami..
 		</Text>
 	</TextBlock>
 
@@ -59,11 +59,11 @@
 		</RevealFact>
 		<RevealFact>
 			<FactID>BH_H EX6</FactID>
-			<Condition>5</Condition>
+			<Condition>6</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>BH_H EX7</FactID>
-			<Condition>6</Condition>
+			<Condition>5</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

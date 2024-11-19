@@ -29,11 +29,11 @@
         </ExploreFact>
         <ExploreFact>
             <ID>BH_QML EX2</ID>
-            <Text>A Nomai named Ilex provided a set of eyes from the Quantum Moon Locator on Ember Twin, to aid another Nomai's pilgrimage to the Quantum Moon.</Text> 
+            <Text>A Nomai named Ilex provided a set of eyes from the Quantum Moon Locator on Ember Twin to aid another Nomai's pilgrimage to the Quantum Moon.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>BH_QML EX3</ID>
-            <Text>The locator on Brittle Hollow is more difficult to use to track the Quantum Moon because it was built underground.</Text> 
+            <Text>The locator on Brittle Hollow is more difficult to use to track the Quantum Moon because it is underground.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>BH_QML EX4</ID>
@@ -59,7 +59,7 @@
             <IgnoreMoreToExplore/>
             <ID>BH_H R2</ID>
             <RumorName>Hanging City Game</RumorName>
-            <Text>A Nomai named Lami was eager to learn some sort of secret his brother had promised to teach him when they were in the Hanging City.</Text> 
+            <Text>A Nomai named Laevi promised to teach his brother some sort of secret in the Hanging City.</Text> 
         </RumorFact>
 
         <ExploreFact>
@@ -81,7 +81,7 @@
         </ExploreFact>
              <ExploreFact>
             <ID>BH_H EX6</ID> 
-            <Text>A Nomai named Lami was confused why he was unable to jump as high as his brother did elsewhere on Brittle Hollow, and was told it was because they were now on the north pole.</Text> 
+            <Text>Two Nomai children here played a game to see who could jump higher. One was confused why he was unable to jump as high as his brother did elsewhere on Brittle Hollow, and was told it was because they were on the north pole.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>BH_H EX7</ID> 
@@ -107,6 +107,10 @@
             <ID>GSHOP R2</ID>
             <Text>Nomai on Giant's Deep visited this workshop on Brittle Hollow to inquire about storm shelters activating in the absence of cyclones.</Text> 
         </RumorFact>
+          <RumorFact>
+            <ID>GSHOP R3</ID>
+            <Text>A Nomai named Plume visited this workshop to learn more about the storm shelter.</Text> 
+        </RumorFact>
 
         <ExploreFact>
             <ID>GSHOP EX1</ID> 
@@ -114,7 +118,7 @@
         </ExploreFact>
          <ExploreFact>
             <ID>GSHOP EX2</ID> 
-            <Text>An invention called the storm shelter was engineered at this workshop to help Nomai weather storms on their expedition.</Text> 
+            <Text>An invention called the storm shelter was engineered at this workshop to help Nomai weather the storms they had faced on their expedition.</Text> 
         </ExploreFact>
  <ExploreFact>
             <ID>GSHOP EX3</ID>
@@ -122,7 +126,7 @@
      </ExploreFact>
          <ExploreFact>
             <ID>GSHOP EX4</ID> 
-            <Text>Nomai on Giant's Deep reported some sort of issue with the storm shelter when the sun was directly overhead.</Text> 
+            <Text>The solar panels powering the storm shelters are tuned to detect even faint amounts of sunlight. Nomai on Giant's Deep reported some sort of issue with the storm shelter when the sun was directly overhead.</Text> 
              <AltText>
                          <Text>The solar panels powering the storm shelters are tuned to detect even faint amounts of sunlight, causing storm shelters to activate when the sun is directly overhead.</Text>
                          <Condition>GSHOP R2</Condition>

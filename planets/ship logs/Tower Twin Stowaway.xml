@@ -62,7 +62,7 @@
         </ExploreFact>
          <ExploreFact>
             <ID>BH Tower EX2</ID>
-             <Text>Two Nomai children waited inside this tower to play some sort of game. They waited for the sunless day to align over them to play this game.</Text> 
+             <Text>Two Nomai children waited inside this tower for the sunless day to align over them, eager to play some sort of game.</Text> 
         </ExploreFact>
  </Entry>
 
@@ -137,7 +137,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX3</ID>
-             <Text>A sunless day occurs when the Hourglass Twins orbit into direct alignment with the sun, causing a combined force of gravity from both the sun and the twin closer to the sun.</Text> 
+             <Text>A sunless day occurs when the Hourglass Twins orbit into direct alignment with the sun, causing a combined force of gravity from the sun and gravity from the twin closer to the sun.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX4</ID>

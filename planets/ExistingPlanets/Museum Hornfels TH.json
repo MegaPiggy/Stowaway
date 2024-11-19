@@ -278,7 +278,7 @@
 
 			{
 				"rename": "NM Mines door recording",
-				"position": {"x": -67.5237, "y": 11.9602, "z": -203.196},
+				"position": {"x": -67.5237, "y": 11.9602, "z": -203.152},
 				"rotation": {"x": 36.4779, "y": 117.2331, "z": 276.9099},
 				"type": "recorder",
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/mines sanctuary talk VM.xml"
@@ -362,8 +362,8 @@
 				"rename": "bubbel shell collider",
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/bubbel.prefab",
-				"position":{"x": 1.5871,"y": 1.1843 ,"z": 1.565},
-				"scale":75,
+				"position":{"x": 0.3243,"y": 0.317 ,"z": -0.3013},
+				"scale":80,
 				"parentPath": "Sector_TH/sanctuary extShell",
 				"isRelativeToParent": true
 			},
@@ -577,11 +577,19 @@
 				"rename":"TH mine outside treepot",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/treepot.prefab",
-				"position":{"x": -67.8563,"y": 12.2468,"z": -202.6481},
+				"position":{"x": -67.8563,"y": 12.2468,"z": -202.619},
 				"rotation":{"x": 3.7851,"y": 21.4478,"z": 238.7171},
 				"isRelativeToParent": true
 			},
-
+			{
+				"rename":"TH mine outside torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position":{"x": -68.2517,"y": 10.6659,"z": -201.8386},
+				"rotation":{"x": 1.392,"y": 180.5977,"z": 43.6228},
+				"removeChildren": ["WallTorch_Connector"],
+				"isRelativeToParent": true
+			},
 
 			
 			

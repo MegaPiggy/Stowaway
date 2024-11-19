@@ -76,6 +76,13 @@
 					<Page>I wonder if that Marl'll ever let go of that grudge.. <![CDATA[<Pause>]]> No good comes outta holding a grudge against a tree, you know?</Page>
 						<Page>That's all I know. Just get a move on - you'll probably just find all of 'em on the way up to the observatory for those launch codes, anyway.</Page>
 		</Dialogue>
+						<RevealFacts>
+     						   <FactID>MICA R1</FactID>
+     						   <FactID>TEPH R1</FactID>
+     						   <FactID>GAL R1</FactID>
+     						   <FactID>ARK R1</FactID>
+     						   <FactID>MOR R1</FactID>
+    					  </RevealFacts>
 	</DialogueNode>
 
 
