@@ -267,8 +267,8 @@
 			},
 			{
 				"rename": "TH warp receiver tutorial recorder",
-				"position": {"x": -238.848,"y": -37.2673,"z": -62.4267},
-				"rotation": {"x": 289.8614,"y": 190.3643,"z": 244.6068},
+				"position": {"x": -240.8466,"y": -34.6136,"z": -59.7903},
+				"rotation": {"x": 71.1162,"y": 140.8051,"z": 243.2462},
 				"type": "recorder",
 				"isRelativeToParent": true,
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/TH warp tower caution.xml"
@@ -295,7 +295,14 @@
 
 		
 		"details": [
-			
+			{
+				"rename":"warp table",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/table.prefab",
+				"position":{"x": -239.7156,"y": -34.4967 ,"z": -60.2316},
+				"rotation":{"x": 14.1597,"y": 164.1766,"z": 261.3581},
+				"isRelativeToParent": true
+			},
 			{
 				"rename":"aquifer block",
 				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/SurfaceGeyser_Small/QuantumGeyser_Small/Terrain_TH_SurfaceGeyser_Small/",
@@ -585,8 +592,8 @@
 				"rename":"TH mine outside torch",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position":{"x": -68.2517,"y": 10.6659,"z": -201.8386},
-				"rotation":{"x": 1.392,"y": 180.5977,"z": 43.6228},
+				"position":{"x": -68.3061,"y": 10.1003,"z": -202.1257},
+				"rotation":{"x": 306.1553,"y": 251.1158,"z": 33.8622},
 				"removeChildren": ["WallTorch_Connector"],
 				"isRelativeToParent": true
 			},

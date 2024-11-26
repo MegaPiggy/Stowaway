@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<LocationB />
 		<ParentID>1</ParentID>
-		<Text>SOLANUM: Ilex is kindly providing his eyes at the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]> during my pilgrimage to the <![CDATA[<color=lightblue>Quantum Moon</color>]]> today.
+		<Text>SOLANUM: Ilex is kindly providing his eyes at the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]> to aid in my pilgrimage to the <![CDATA[<color=lightblue>Quantum Moon</color>]]> today.
 		</Text>
 	</TextBlock>
 
@@ -48,7 +48,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		BELLS: With much of the sky is obscured at this site, it is much more difficult to track the <![CDATA[<color=lightblue>Quantum Moon</color>]]> using this locator.
+		BELLS: With much of the sky obscured at this site, it is much more difficult to track the <![CDATA[<color=lightblue>Quantum Moon</color>]]> using this locator.
 		</Text>
 	</TextBlock>
 

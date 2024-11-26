@@ -5,25 +5,25 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			PLUME: Friends, I have discovered a new quantum shard while excavating one of the lower chambers today. Please do not be alarmed if it visits your chamber without warning!</Text>
+			PLUME: Friends, a new quantum shard I discovered while excavating one of the lower chambers today appears to be exploring our tower. Do not be alarmed if it visits your chamber without warning!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			THATCH: But of course: that must have been the source of the signal we heard coming from this planet when we were studying the quantum shard on <![CDATA[<color=lightblue>Brittle Hollow!</color>]]></Text>
+			THATCH: But of course.. That must have been the source of the signal we heard coming from this planet when we were studying the quantum shard on <![CDATA[<color=lightblue>Brittle Hollow!</color>]]></Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>3</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			MELORAE: We should capture a photo of it to share with our friends when we return. We've located yet another quantum shard! I wonder what lessons it may have to teach us.</Text>
+			MELORAE: We should capture a photo of it to share with our friends when we return. We've located yet another quantum shard! I wonder what lessons this one may have to teach us.</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			COLEUS: Hm? How strange.. The quantum shard suddenly appears to no longer desire to travel for some reason, even though none of us are observing it!</Text>
+			COLEUS: How strange.. Friends, the quantum shard appears unable to travel suddenly for some reason. It seems locked in superposition, even though none of us are observing it..</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>5</ID>
@@ -36,21 +36,21 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			MELORAE: Could.. Could observing the quantum shard, even through a photo, somehow be locking it in superposition?</Text>
+			MELORAE: Hypothesis: could it be possible to keep quantum objects locked in superposition by observing an image of them?</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>7</ID>
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: Hypothesis confirmed! <![CDATA[<i>Hypothesis confirmed!</i>]]> Melorae, you've discovered a new quantum rule! My mentor and I are the greatest quantum geologists in the universe!
+		COLEUS: Hypothesis confirmed! <![CDATA[<i>Hypothesis confirmed!</i>]]> Melorae, you've discovered a new quantum rule! Now, you're officially a quantum geologist too!
 		</Text>
 	</TextBlock>
 
 
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>LC EX5</FactID>
+			<FactID>LC EX3</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
 	

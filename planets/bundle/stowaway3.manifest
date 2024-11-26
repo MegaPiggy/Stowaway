@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2049768438
+CRC: 3170440511
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: fb85d7c33d73fce31080dc4314a4d5d0
+    Hash: 4de89013280319ad42966f5b3fabddf7
   TypeTreeHash:
     serializedVersion: 2
     Hash: 03eef29357354d4eed063cb2134f636b
@@ -96,15 +96,16 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Models/Solanum alloyed prefab.prefab
-- Assets/Models/comet mural side.prefab
+- Assets/Models/Materials/comet mural side.prefab
 - Assets/Models/db egg hole.prefab
-- Assets/Models/comet mural front.prefab
+- Assets/Models/Materials/comet mural front.prefab
 - Assets/Models/bubbel.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Inspired gravity 3.prefab
 - Assets/Models/Materials/mural side.prefab
 - Assets/Models/bubbel collider.prefab
 - Assets/Models/Tractor beam SW 1.prefab
 - Assets/Models/ASH TWIN BEAM south.prefab
+- Assets/Models/comet mural front v4.prefab
 - Assets/Models/TheInspired.prefab
 - Assets/Models/TheInspired (1).prefab
 - Assets/Models/player nosuit.prefab
@@ -113,4 +114,5 @@ Assets:
 - Assets/Models/rotation guy.prefab
 - Assets/Models/Materials/mural front.prefab
 - Assets/Models/SphereCollider.prefab
+- Assets/Models/comet mural side v4.prefab
 Dependencies: []

@@ -32,7 +32,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		OENO: For this project, we will be using the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> latest invention to journey to this space instead!
+		OENO: For this project, we will be using the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> latest invention to journey to this space instead.
 		</Text>
 	</TextBlock>
 	
@@ -41,7 +41,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		OENO: Using this new invention, we will be able to freely use the rule of quantum entanglement - even in the absence of complete darkness!
+		OENO: Furthermore, this new invention will even allow us to freely use the rule of quantum entanglement!
 		</Text>
 	</TextBlock>
 

@@ -23,10 +23,28 @@
 			},
 			{
 				"rename":"broken egg water visual",
-				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Ocean_GD/",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_GD/Effects_GDState/Ocean/",
 				"position": {"x":0,"y": 0,"z": 0},
 				"rotation": {"x":0,"y": 0,"z": 0},
 				"scale":3.7,
+				"parentPath": "Sector_AnglerNestDimension/broken egg",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"broken egg water visual inverted",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_GD/Effects_GDState/Ocean/",
+				"position": {"x":0,"y": 0,"z": 0},
+				"rotation": {"x":0,"y": 0,"z": 0},
+				"scale":-3.7,
+				"parentPath": "Sector_AnglerNestDimension/broken egg",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"broken egg water gravity",
+				"path":"GiantsDeep_Body/Sector_GD/Volumes_GD/Ocean_Gravity/",
+				"position": {"x":0,"y": 0,"z": 0},
+				"rotation": {"x":0,"y": 0,"z": 0},
+				"scale":0.008,
 				"parentPath": "Sector_AnglerNestDimension/broken egg",
 				"isRelativeToParent": true
 			},

@@ -18,7 +18,7 @@
         </RumorFact>
           <RumorFact>
             <ID>GD Tower R2</ID>
-             <Text>Two Nomai waited outside this tower in hopes of traveling to the Deep Storm Station.</Text> 
+             <Text>Two Nomai debated about the Sun Station and some sort of safety test, while waiting outside this tower to travel to something called the Deep Storm Station.</Text> 
         </RumorFact>
        
         
@@ -29,12 +29,12 @@
         </ExploreFact>
        <ExploreFact>
             <ID>GD Tower EX2</ID> 
-            <Text>Two Nomai debated about the Sun Station, while waiting outside this warp tower to travel to something called the Deep Storm Station.</Text> 
+            <Text>The Deep Storm Station used energy from the electric core of Giant's Deep to test the mechanisms of the Ash Twin Project's negative time interval.</Text> 
         </ExploreFact>
 
            <ExploreFact>
             <ID>GD Tower EX3</ID> 
-            <Text>Nomai traveled to a new warp pad installed on the Construction Yard to enter the Deep Storm Station.</Text> 
+            <Text>Nomai traveled to a new warp pad on Giant's Deep to enter the Deep Storm Station.</Text> 
           </ExploreFact>
  </Entry>
  
@@ -62,7 +62,11 @@
         </ExploreFact>
          <ExploreFact>
             <ID>BH Tower EX2</ID>
-             <Text>Two Nomai children waited inside this tower for the sunless day to align over them, eager to play some sort of game.</Text> 
+             <Text>Two Nomai children waited inside this tower for the sunless day to play some sort of game.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>BH Tower EX3</ID>
+             <Text>The secret to the children's game was to wait for the sunless day.</Text> 
         </ExploreFact>
  </Entry>
 

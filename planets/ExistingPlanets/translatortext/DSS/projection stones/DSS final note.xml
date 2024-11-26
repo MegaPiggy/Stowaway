@@ -79,19 +79,15 @@
 		<ParentID>9</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: The universe is.. and we shall all become one with it.
+		CASSAVA: The universe is.. and we are now one with it.
 		</Text>
 	</TextBlock>
 
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>DSS EX4</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
-		<RevealFact>
 			<FactID>DSS EX5</FactID>
-			<Condition>2</Condition>
+			<Condition>5</Condition>
 		</RevealFact>
 
 

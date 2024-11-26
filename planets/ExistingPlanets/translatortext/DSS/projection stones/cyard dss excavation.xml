@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		AVENS: Friends, the excavation of Giant's Deep's core is complete. At this rate, I am confident we will be able to complete the <![CDATA[<color=orange>Deep Storm Station</color>]]> before the <![CDATA[<color=orange>Sun Station!</color>]]>
+		AVENS: Friends, our work is nearly complete.
 		</Text>
 	</TextBlock>
 	
@@ -14,7 +14,7 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		MALLOW: I hope so too.. Without the <![CDATA[<color=orange>Deep Storm Station</color>]]> giving us the confidence to follow in our ambitions, we won't be able to use the <![CDATA[<color=orange>Sun Station</color>]]> at all!
+		AVENS: At this rate, I am confident we will be able to complete the <![CDATA[<color=orange>Deep Storm Station</color>]]> before the <![CDATA[<color=orange>Sun Station!</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -22,7 +22,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Avens, Mallow: kindly focus on the task of reinforcing the station's walls. We are surrounded by <![CDATA[<i>oceans</i>]]> of pressure - we must fortify the station's integrity with great care!
+		MALLOW: I hope so too, my love! Without the <![CDATA[<color=orange>Deep Storm Station</color>]]> ready, we won't be able to use the <![CDATA[<color=orange>Sun Station</color>]]> with confidence.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -39,7 +39,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		CLARY: Of note: we will require some assistance in charging a return warp that will allow us to return to the planet's surface!
+		CLARY: Of note: we will require some assistance in charging a return warp back to the planet's surface!
 		</Text>
 	</TextBlock>
 
@@ -57,7 +57,7 @@
 		<LocationAB />
 		<ParentID>6</ParentID>
 		<Text>
-		CLARY: You have my gratitude, Daz. With my work here done, I shall be glad to take my leave from <![CDATA[<i>two</i>]]> sets of gelatinous Nomai!
+		CLARY: You have my gratitude, Daz. With my work here done, I shall be glad to take my leave before I am stuck with <![CDATA[<i>two</i>]]> pairs of gelatinous Nomai!
 		</Text>
 	</TextBlock>
 

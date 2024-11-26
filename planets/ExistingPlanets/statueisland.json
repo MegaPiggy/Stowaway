@@ -56,11 +56,10 @@
 			},
 			{
 				"rename": "Orcnid collider",
-				"assetBundle": "planets/bundle/dev",
-				"path": "assets/models/devcom/cube.prefab",
-				"position": {"x": 13.059, "y": -5.2642, "z": -90.4243},
-				"rotation": {"x": 336.4444, "y": 237.3125, "z": 0.2139},
-				"scale": 5,
+				"path": "Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_collider",
+				"position": {"x": -7.4614, "y": -552.4193, "z": -8.8027},
+				"rotation": {"x": 296.4384, "y": 85.6072, "z": 56.0576},
+				"scale": 1,
 				"isRelativeToParent": true
 			},
 
@@ -69,6 +68,11 @@
 				"rename":"whiteboard light",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text/",
 				"position": {"x": 8.212, "y": 34.0126, "z": -11.0675},
+				"isRelativeToParent": true
+			},{
+				"rename":"warp recorder light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text/",
+				"position": {"x": -7.24, "y": 40.6518, "z": -113.1431},
 				"isRelativeToParent": true
 			},
 
@@ -147,11 +151,21 @@
 				"rename":"interior torch",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position": {"x": 5.4838, "y": 0.855, "z": 30.0138},
+				"removeChildren": ["WallTorch_Connector"],
+				"position": {"x": 5.4838, "y": 0.555, "z": 30.0138},
 				"rotation": {"x": 285.3457, "y": 0.9638, "z": 128.8283},
 				"isRelativeToParent": true
 			},
-			
+			{
+				"rename":"interior torch 2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"removeChildren": ["WallTorch_Connector"],
+				"position": {"x": -23.9805, "y": 7.8162, "z": -5.2243},
+				"rotation": {"x": 283.5051, "y": 268.074, "z": 164.4017},
+				"isRelativeToParent": true
+			},
+
 			{
 				"rename":"Daz",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_Skeleton_Large_Pile_A",
@@ -181,7 +195,7 @@
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/shelf.prefab",
 				"rename":"lying shelf",
-				"position": {"x": 0.5745, "y":-9.4345, "z": -0.3327},
+				"position": {"x": 0.4745, "y":-9.4345, "z": -0.4327},
 				"rotation": {"x": 350.1011, "y":4.2318, "z": 93.5654},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_StatueIsland/scroll shelves"
@@ -199,7 +213,7 @@
 			{
 				"rename": "Decoy Scroll 2",
 				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Lighting_StatueIslandInterior/OtherComponentsGroup/FillLight_Text",
-				"position": {"x": 0.6763, "y": -5.9309, "z": -0.7237},
+				"position": {"x": 0.5763, "y": -5.9309, "z": -0.8237},
 				"rotation": {"x": 299.8098, "y":63.9048, "z": 358.6066},
 				"parentPath": "Sector_StatueIsland/scroll shelves",
 				"isRelativeToParent": true
@@ -242,7 +256,7 @@
 
 
 			{
-				"rename":"Whiteboard purplight",
+				"rename":"storm shelter purplight",
 				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/Prefab_NOM_Computer/PointLight_NOM_Computer",
 				"position": {"x": 10.3289, "y": 36.1571, "z": 4.1434},
 				"rotation": {"x": 354.0322, "y": 154.7702, "z": 270},
@@ -257,6 +271,7 @@
 				"rename":"Scroll Workshop",
 				"position": {"x": 0, "y": 0, "z": 0},
 				"rotation": {"x": 0, "y": 0, "z": 0},
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
 				"isRelativeToParent": true
 			},
 			{
@@ -428,7 +443,7 @@
 				"rename":"Brokenwall corner upper warpwindow",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/brokenwall_b_mir.prefab",
-				"position": {"x": 18.0073, "y": 42.9558, "z": -20.7837},
+				"position": {"x": 17.8073, "y": 42.9558, "z": -20.9837},
 				"rotation": {"x": 0, "y": 318.2863, "z": 0},
 				"stretch": {"x":1,"y":1.3,"z":1},
 				"keepLoaded": true,

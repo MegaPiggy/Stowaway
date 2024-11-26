@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		COLEUS: I checked the shuttle, and it thankfully appears well, even after that crash. Oh, imagine if we became stranded on this planet..
+		COLEUS: The shuttle thankfully appears well, even after that crash.. Imagine if we became stranded on this planet!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-			MELORAE: We may have to be prepared to, should another cyclone approach.. But goodness, this planet is far more treacherous than I could have anticipated.
+			MELORAE: We should be prepared to, should another cyclone approach.. But goodness, this planet is far more treacherous than I could have anticipated.
 		</Text>
 			</TextBlock>
 			<TextBlock>	

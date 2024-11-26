@@ -28,17 +28,21 @@
 				<Page>That's weird, right? Must be some quirk with the sensors, I thought.</Page>
 				<Page>But I took some photos with the scout camera too, and lo and behold - the ghost matter really was gone!</Page>
 				<Page>Weirder, a moment later, the scout says there's danger again.. And the ghost matter was back in the photos, too.</Page>
-				<Page>Wasn't a one-off, either! Seems to happen on this island more than any of the other islands for whatever reason, though.</Page>
-				<Page>So... Any idea what it could be?</Page>
+				<Page>But hey, there's some ghost matter right in the cove back there. Feel free to check it out with your scout if you're feeling curious!</Page>
+				<Page>Full disclosure, I haven't actually like.. stuck a limb into the ghost matter. <![CDATA[<Pause=1>]]> Don't know if I trust Slate's sensors more than my common sense, y'know?</Page>
+				<Page>So y'know, just be careful.</Page>
+				<Page>If you happen to get hurt, there should be a campfire I built right outside the cove you can patch up by.</Page>
+				<Page>It's probably nothing a nap can't sleep off, so long as you don't take a bath in the stuff.</Page>
 		</Dialogue>
 		 				  <RevealFacts>
      						   <FactID>Cove R1</FactID>
     					  </RevealFacts>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>FoundSomethingMenu</Name>
 		<DialogueOptionsList>
-		<DialogueOption>
-				<Text>Weird.. I'm not sure.</Text>
-				<DialogueTarget>WillDo</DialogueTarget>
-			</DialogueOption>
 			<DialogueOption>
 				<RequiredLogCondition>CB_EX4</RequiredLogCondition>
 				<Text>I found out water neutralizes ghost matter temporarily.</Text>
@@ -58,21 +62,6 @@
 		</Dialogue>
 	</DialogueNode>
 
-<DialogueNode>
-		<Name>WillDo</Name>
-		<Dialogue>
-		<Page>Yeah, it's a head scratcher.</Page>
-		<Page>I know ghost matter evaporates away with time, but isn't that supposed to take ages? The patches we've found all look like they've got a long way to go.</Page>
-		<Page>But hey, there's some ghost matter right in the cove back there. Feel free to check it out with your scout if you're feeling curious!</Page>
-		<Page>Full disclosure, I haven't actually like.. stuck a limb into the ghost matter. <![CDATA[<Pause=1>]]> Don't know if I trust Slate's sensors more than my common sense, y'know?</Page>
-			<Page>So y'know.. Just be careful.</Page>
-			<Page>If you happen to get hurt, there should be a campfire I built right outside the cove you can patch up by.</Page>
-			<Page>It's probably nothing a nap can't sleep off, so long as you don't take a bath in the stuff.</Page>
-		</Dialogue>
-		 				  <RevealFacts>
-     						   <FactID>Cove R2</FactID>
-    					  </RevealFacts>
-	</DialogueNode>
 
 
 

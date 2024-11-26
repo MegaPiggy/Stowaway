@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Oh, Daz, look at the sunset on the horizon! I'd forgotten how short the days last on this island and <![CDATA[<color=orange>Statue Island..</color>]]>
+		CASSAVA: Goodness, Daz, the sun is already setting on <![CDATA[<color=lightblue>Giant's Deep's</color>]]> horizon! What time is it? Are we late for the test?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -12,7 +12,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: And someone has even furnished <![CDATA[<color=orange>Lover's Cove</color>]]> with one of Phlox's beautiful statues! Did you transport this here, Daz?
+		DAZ: Fear not, Cassava: days simply pass by much quicker on this island and <![CDATA[<color=orange>Statue Island!</color>]]> 
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: Oh? What are you recording, my love?
+		CASSAVA: Ah, of course! I always seem to forget. Nevertheless, we should return soon, in case time slips by us again. We have enjoyed our quiet getaway to <![CDATA[<color=orange>Lovers' Cove</color>]]> long enough!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -28,7 +28,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		DAZ: O-oh, is this recording? I, quite meant to play us some music to unwind!
+		DAZ: We should, indeed.. But before that, my love.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -36,7 +36,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		DAZ: But, since it is already preserving our words.. I would like to say a few heartfelt words to you, my love.
+		DAZ: While we are still in each other's sole company, there are a few heartfelt words I would like to say to you.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -76,7 +76,7 @@
 		<LocationA />
 		<ParentID>9</ParentID>
 		<Text>
-		CASSAVA: D-Daz, I've been waiting too long to hear-
+		CASSAVA: Daz.. I've been waiting so long to hear-
 		</Text>
 			</TextBlock>
 				<TextBlock>	
@@ -84,7 +84,7 @@
 		<LocationA />
 		<ParentID>10</ParentID>
 		<Text>
-		DAZ: YES!! I knew you'd say yes! Hypothesis confirmed! You said yes!!
+		DAZ: Yes! I knew you'd say yes! Hypothesis confirmed! You said yes!!
 		</Text>
 			</TextBlock>
 				<TextBlock>
@@ -112,7 +112,7 @@
 		<ID>15</ID>
 		<ParentID>14</ParentID>
 		<Text>
-		DAZ: I'll explain everything shortly, love. Come, let us write to our friends in the <![CDATA[<color=orange>Deep Storm Station</color>]]> through the projection wall at once!
+		DAZ: I promise to explain everything shortly, love. Come, let us write to our friends in the <![CDATA[<color=orange>Deep Storm Station</color>]]> through the projection wall at once!
 		</Text>
 	</TextBlock>
 	
@@ -124,7 +124,11 @@
 		</RevealFact>
 			<RevealFact>
 			<FactID>Cove EX4</FactID>
-			<Condition>1</Condition>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Cove EX3</FactID>
+			<Condition>12</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>Cove EX2</FactID>

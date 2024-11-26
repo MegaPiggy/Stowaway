@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: But regardless, we should not be negative on such a joyous day.
+		YARROW: But regardless, we should not be negative on such a joyous day..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		DAZ: Well, I.. I was afraid of the possibility you might feel differently.. That's why I.. wanted to see a few seconds into the future of my proposal..
+		DAZ: Well, I.. I was afraid of the possibility you might feel differently.. That's why I.. wanted to see 3 seconds into the future of my proposal..
 		</Text>
 			</TextBlock>
 				<TextBlock>	

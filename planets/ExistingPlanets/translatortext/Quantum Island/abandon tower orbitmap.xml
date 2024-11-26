@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: The interior of this dwelling has rapidly taken on a quantum nature after prolonged exposure to the quantum shard. As much as it pains me, I believe we must relocate in order to thrive.
+		PLUME: The interior of this dwelling has rapidly taken on a quantum nature after prolonged exposure to the quantum shard. As much as it pains me, I believe we must relocate to one of the planet's outer islands.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: Does anyone have any proposals for which of the planet's other islands we should move our settlement to?
+		PLUME: Does anyone have any proposals for which island we should relocate our settlement to?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		COLEUS: The island we arrived on our first expedition would be a good choice. The height of that island's cliffs offers the most protection from the ocean's waves.
+		COLEUS: The island we arrived on our first expedition would be a good choice. The height of that island's cliffs offers the most protection from the ocean's waves!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		THATCH: Of note: this second island sails in the opposite direction, making its days much longer than the other island.
+		THATCH: Of note: there appears to be a smaller quantum shard that travels across each of the planet's outer islands. This is troubling, if this shard may invade our settlement as this tower was invaded..
 		</Text>
 	</TextBlock>
 	<TextBlock>	
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: On the other apphendage, this should reduce how frequently the island is immersed, which would be favorable for a site of construction!
+		COLEUS: An update: thankfully, it appears that this smaller shard has a much smaller sphere of influence. This means it should be safe to settle on these islands without worry that they will become quantum as well!
 		</Text>
 			</TextBlock>
 

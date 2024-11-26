@@ -14,7 +14,7 @@
 				"rename": "workshop tractor BEAM",
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/tractor beam sw 1.prefab",
-				"position": {"x": 0, "y": 0, "z":0},
+				"position": {"x": 0.3, "y": 0, "z": -0.7},
 				"rotation": {"x": 0, "y": 0, "z":0},
 				"isRelativeToParent": true,
 				"keepLoaded": true,

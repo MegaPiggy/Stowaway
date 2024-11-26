@@ -11,8 +11,7 @@
 				"Sector_GabbroIsland/Marriage Torch/PointLight_WallTorch",
 				"Sector_GabbroIsland/BASE_LARGE Projection Whiteboard/PedestalAnchor",
 
-				"Sector_GabbroIsland/Interactables_GabbroIsland/DarkMatter_Submergible",
-				"Sector_GabbroIsland/Interactables_GabbroIsland/Prefab_HEA_Campfire/"
+				"Sector_GabbroIsland/Interactables_GabbroIsland/DarkMatter_Submergible"
 			],
 	"Volumes": {
 		
@@ -69,7 +68,21 @@
 				"position":{"x": -30.8565,"y":  12.0299,"z": 4.6659},
 				"isRelativeToParent": true
 			},
-			
+			{
+				"rename":"cove corner torch1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
+				"position": {"x": -18.1617, "y": 0.3636, "z": 36.5678},
+				"rotation": {"x": 3.4615,"y": 48.9562,"z": 5.6759},
+				"isRelativeToParent": true
+			},	{
+				"rename":"cove corner torch2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
+				"position": {"x": -19.019, "y": 1.2932, "z": 25.5179},
+				"rotation": {"x":3.4615,"y": 48.9562,"z": 5.6759},
+				"isRelativeToParent": true
+			},
 
 			{
 				"rename":"ledgegate GM volume",
@@ -89,7 +102,14 @@
 				"parentPath": "Sector_GabbroIsland/ledgegate GM volume",
 				"isRelativeToParent": false
 			},
-
+			{
+				"rename":"ledgegate GM notif",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume (1)/NotificationVolume/",
+				"position":{"x": -31.2073,"y": 11.298,"z": 2.1473},
+				"rotation":{"x": 359.4487,"y": 118.2582,"z": 11.1395},
+				"scale":2,
+				"isRelativeToParent": true
+			},
 
 
 			{
@@ -235,8 +255,8 @@
 			{
 				"rename":"highcove torch 2",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Lighting_GravityCannon/Prefab_NOM_WallTorch (4)",
-				"position": {"x": -27.1711, "y": 14.037, "z": 7.9762},
-				"rotation": {"x": 26.6374, "y": 238.6026, "z": 352.9176},
+				"position": {"x": -25.0657, "y": 12.9134, "z": 7.238},
+				"rotation": {"x": 28.7619, "y": 74.147 , "z": 352.9176},
 				"isRelativeToParent": true
 			},
 
@@ -322,7 +342,7 @@
 		{
 			"rename":"Marriage Torch light 3",
 			"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
-			"position":{"x":6.1297,"y": 3.4793 ,"z": 25.8457},
+			"position":{"x":6.7097,"y": 4.1448,"z": 25.8453},
 			"rotation":{"x":2.7752,"y": 341.1754,"z": 356.7977}
 		},
 		{
@@ -366,11 +386,12 @@
 				"xmlFile":"planets/ExistingPlanets/translatortext/Gabbro's Island/marriage loverscove.xml"
 			},
 			{"rename": "Solar tide setup wall",
-			"position": {"x": -19.3009, "y": 1.4989, "z": 33.5488},
+			"position": {"x": -19.301, "y": 1.5992, "z": 35.0486},
 			"rotation": {"x": 359.6072, "y": 95.4035, "z": 4.0538},
 			"type": "wall",
-			"seed":2,
-			"xmlFile":"planets/ExistingPlanets/translatortext/Gabbro's Island/solar tide setup.xml"}
+			"seed":1,
+			"xmlFile":"planets/ExistingPlanets/translatortext/Gabbro's Island/solar tide setup.xml"
+		}
 		],
 		"remotes":[
 			{
@@ -385,11 +406,11 @@
 				{"id":"GD_LoversCove",
 					"decalPath": "planets/assets/GD loverscove icon.png",
 					"platform":{
-						"position": {"x": -12.5992, "y": 1.1777, "z": 30.2858},
-						"rotation": {"x": 4.5623, "y": 4.9962, "z": 1.4217}
+						"position": {"x": -12.3993, "y": 1.3219, "z": 30.5861},
+						"rotation": {"x": 4.7714, "y": 4.9962, "z": 1.4217}
 						},
 					"whiteboard": {
-						"position": {"x":-19.8249, "y": 0.9475,"z": 29.0916},
+						"position": {"x": -19.625, "y": 0.8478,"z": 30.8388},
 						"rotation": {"x":359.8438, "y": 94.0756, "z": 4.0096},
 					"disableWall": true,
 					"nomaiText":

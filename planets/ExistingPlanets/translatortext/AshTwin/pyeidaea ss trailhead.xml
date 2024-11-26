@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		PYE: Poke! Thank goodness you're here, my friend. We're positively lost: is this not the method of entry into the <![CDATA[<color=orange>Deep Storm Station?</color>]]>
+		PYE: Poke, thank goodness you're here! We're positively lost: is this not the method of entry into the <![CDATA[<color=orange>Deep Storm Station?</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,39 +13,39 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		IDAEA: We have been trying to warp there from this warp tower, but this warp transmitter seems to only bring us to Statue Island!
+		POKE: What? Of course not, Pye! To travel into the <![CDATA[<color=orange>Deep Storm Station,</color>]]> you will need to journey to a new warp pad constructed on <![CDATA[<color=lightblue>Giant's Deep.</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<ParentID>2</ParentID>
+		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		POKE: Did the two of you not receive directions from Cassava? Even <![CDATA[<i>I</i>]]> received instructions from him - through Daz!
+		POKE: But is there some sort of event happening today? Why are the two of you visiting there suddenly?
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<LocationB />
-		<ParentID>1</ParentID>
+		<ParentID>3</ParentID>
 		<Text>
-		POKE: Goodness, no! We need to head to the new warp pad constructed at the <![CDATA[<color=orange>Construction Yard</color>]]> on Giant's Deep as fast as we can, before the test begins!
+		IDAEA: Have you not heard, Poke? Today is the day of the <![CDATA[<color=orange>Deep Storm Station's</color>]]> test! We are already running terribly late!
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<LocationA />
-		<ParentID>3</ParentID>
+		<ParentID>4</ParentID>
 		<Text>
-	PYE: <![CDATA[<i>Wait!</i>]]> I remember now - Cassava gave me a projection stone to the <![CDATA[<color=orange>Deep Storm Station</color>]]> some time ago so we could observe the test through the projection pool! Oh, where did I leave it...
+		IDAEA: Using energy from the electric core of <![CDATA[<color=lightblue>Giant's Deep,</color>]]> the <![CDATA[<color=orange>Deep Storm Station</color>]]> will soon test the mechanisms of the <![CDATA[<color=orange>Ash Twin Project's</color>]]> negative time interval!
 		</Text>
 	</TextBlock>
 	<TextBlock>	
 	<ID>6</ID>
 		<LocationA />
-		<ParentID>5</ParentID>
+		<ParentID>4</ParentID>
 		<Text>
-		IDAEA: <![CDATA[<i>Pye!</i>]]> How could you forget such an important detail? It must be somewhere in that clutter you always leave on the <![CDATA[<color=orange>Sun Station's catwalk...</color>]]>
+		PYE: Wait.. There may be hope for us yet, Idaea: I recall seeing a projection stone to the <![CDATA[<color=orange>Deep Storm Station</color>]]> somewhere on the <![CDATA[<color=orange>Sun Station's catwalk!</color>]]>
 		</Text>
 			</TextBlock>
 				<TextBlock>	
@@ -53,7 +53,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		POKE: There's no time to waste! Come, my friends - let us return to the <![CDATA[<color=orange>Sun Station</color>]]> at once to find that projection stone!
+		POKE: In that case, there's no time to waste! Let us return to the <![CDATA[<color=orange>Sun Station</color>]]> at once to locate that projection stone, my friends!
 		</Text>
 			</TextBlock>
 				
@@ -70,7 +70,11 @@
 			<Condition>6</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>GD Tower EX4</FactID>
+			<FactID>GD Tower EX2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>GD Tower EX3</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
 

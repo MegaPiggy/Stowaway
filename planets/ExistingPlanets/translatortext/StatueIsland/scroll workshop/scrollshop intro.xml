@@ -8,19 +8,19 @@
 		<ID>2</ID>
 		<LocationA />
 		<ParentID>1</ParentID>
-		<Text>DAZ: If you are here to inquire about the memory statues, kindly seek Phlox in the <![CDATA[<color=orange>Statue Workshop</color>]]> inside the island in my absence.</Text>
+		<Text>DAZ: If you are here to inquire about the memory statues, kindly seek Phlox in the <![CDATA[<color=orange>Statue Workshop</color>]]> within the island in my absence.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>DAZ: However, if you seek my expertise in crafting new projection stones (or wish to test out an exciting new type of projection stone), please seek me in my workshop upstairs!</Text>
+		<Text>DAZ: However, if you seek my expertise in crafting new projection stones (or wish to test out an exciting new type of projection stone)... Please seek me in my <![CDATA[<color=orange>Workshop Loft</color>]]> upstairs!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>2</ParentID>
 		<LocationA />
-		<Text>PHLOX: Daz, I was only responsible for the memory statues' exteriors! You designed the memory storage systems - how terrible of you to direct such intricate queries to me!</Text>
+		<Text>PHLOX: Daz, I was only responsible for sculpting the memory statues! You designed the memory storage systems - how terrible of you to direct such intricate queries to me!</Text>
 	</TextBlock>
 <TextBlock>
 		<ID>5</ID>

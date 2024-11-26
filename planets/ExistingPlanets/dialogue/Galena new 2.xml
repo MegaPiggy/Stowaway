@@ -109,7 +109,6 @@
 		</DialogueOptionsList>
 						 <RevealFacts>
      						   <FactID>GAL EX1</FactID>
-     						   <FactID>GAL EX2</FactID>
     					  </RevealFacts>
 	</DialogueNode>
 

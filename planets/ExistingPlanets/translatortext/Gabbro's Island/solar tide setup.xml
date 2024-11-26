@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		DAZ: You have my gratitude for your assistance in testing the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> new invention today, Cassava!
+		DAZ: You have my gratitude for your assistance in testing the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> new invention today, Cassava.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: It is my pleasure, Daz. I cannot wait to see you walk beyond the projection pool using this new invention!
+		CASSAVA: It is my pleasure, love. This invention will be truly incredible: I cannot wait to see you walking beyond the projection pool!
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -21,7 +21,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Whenever you are ready, we may begin, my love!
+		DAZ: Now, for the moment of truth... It is time to revolutionize projection technology!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,19 +29,11 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		DAZ: Now, for the moment of truth: it is time to revolutionize projection technology!
+		CASSAVA: Daz? Did something happen? Your voyager has just disappeared..
 		</Text>
 	</TextBlock>
 <TextBlock>
 		<ID>5</ID>
-		<LocationB />
-		<ParentID>4</ParentID>
-		<Text>
-		CASSAVA: Daz? Did something happen? Your voyager has just disappeared..
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>6</ID>
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
@@ -53,7 +45,7 @@
 <ShipLogConditions>
 		<RevealFact>
 			<FactID>Cove R3</FactID>
-			<Condition>5</Condition>
+			<Condition>4</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>Cove R4</FactID>

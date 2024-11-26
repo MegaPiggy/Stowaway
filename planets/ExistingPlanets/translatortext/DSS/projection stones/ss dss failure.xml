@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		PYE: Our apologies for our tardiness, Yarrow! Idaea and I were lost on our way before Poke found us!
+		PYE: Our apologies for our tardiness, Yarrow. Idaea and I were lost on our way, before Poke found us!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: As predicted, the energy from <![CDATA[<color=lightblue>Giant's Deep's</color>]]> electric core was insufficient for that needed to find the <![CDATA[<color=lightblue>Eye of the Universe.</color>]]>
+		YARROW: As predicted, the <![CDATA[<color=orange>Deep Storm Station</color>]]> was unable to locate the <![CDATA[<color=lightblue>Eye of the Universe.</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		IDAEA: But the <![CDATA[<color=orange>Deep Storm Station</color>]]> still succeeded in its foremost priority: we can now be certain that the <![CDATA[<color=orange>Ash Twin Project's</color>]]> mechanisms are theoretically sound and functional.
+		IDAEA: But Yarrow, the <![CDATA[<color=orange>Deep Storm Station</color>]]> still succeeded: thanks to the test, we can now be certain that the <![CDATA[<color=orange>Ash Twin Project's</color>]]> mechanisms are theoretically sound and functional.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -61,7 +61,7 @@
 		<ParentID>7</ParentID>
 		<LocationB />
 		<Text>
-		PYE: Idaea is correct, Yarrow. Once the <![CDATA[<color=orange>Sun Station</color>]]> is complete, we can now be confident in its operation without fear of endangering the star system or ourselves!
+		PYE: Idaea is correct, Yarrow. Once the <![CDATA[<color=orange>Sun Station</color>]]> is complete, we can now be confident in its operation without fear of endangering the star system and ourselves!
 		</Text>
 	</TextBlock>
 

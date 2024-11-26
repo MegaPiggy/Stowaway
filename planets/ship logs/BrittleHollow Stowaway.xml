@@ -6,14 +6,12 @@
         <Curiosity>QuantumMoon</Curiosity>
          
          <RumorFact>
+            <IgnoreMoreToExplore/>
             <ID>BH_QML R1</ID>
             <Text>There is another Quantum Moon Locator somewhere on Brittle Hollow.</Text> 
         </RumorFact>
          <RumorFact>
-            <ID>BH_QML R2</ID>
-            <Text>A Nomai named Ilex was curious about a Quantum Moon Locator on Brittle Hollow.</Text> 
-        </RumorFact>
-         <RumorFact>
+            <IgnoreMoreToExplore/>
             <ID>BH_QML R3</ID>
             <Text>A Nomai named Solanum hoped to visit and inquire about the Quantum Moon Locator on Brittle Hollow.</Text> 
         </RumorFact>
@@ -64,7 +62,7 @@
 
         <ExploreFact>
             <ID>BH_H EX1</ID> 
-            <Text>Artificial gravity highways that allows one to ascend the Hanging City's districts.</Text> 
+            <Text>Artificial gravity highways that allow one to ascend the Hanging City's districts.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>BH_H EX3</ID>
@@ -81,7 +79,7 @@
         </ExploreFact>
              <ExploreFact>
             <ID>BH_H EX6</ID> 
-            <Text>Two Nomai children here played a game to see who could jump higher. One was confused why he was unable to jump as high as his brother did elsewhere on Brittle Hollow, and was told it was because they were on the north pole.</Text> 
+            <Text>Two Nomai children here played a game to see who could jump higher. One was unable to jump as high as the other did, and told it was because they were now on Brittle Hollow's north pole.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>BH_H EX7</ID> 

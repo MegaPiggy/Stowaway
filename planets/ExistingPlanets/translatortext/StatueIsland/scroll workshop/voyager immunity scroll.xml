@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		PHLOX: Friends, a tentacled organism has become beached on the shore!
+		PHLOX: Friends, another jellyfish has become beached on the shore today!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		PHLOX: I have tried to offer aid, but its powerful bioelectricity deters me... I request urgent assistance in aiding it before it perishes!
+		PHLOX: I tried to offer aid to it, but its powerful bioelectricity deters me... I request urgent assistance in aiding it before it perishes!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		PHLOX: An update: the tentacled organism has been safely returned to the waves, thanks to Daz and his incredible voyager stone!
+		PHLOX: An update: the jellyfish has been safely returned to the waves, thanks to Daz and his incredible voyager stone!
 		</Text>
 	</TextBlock>
 

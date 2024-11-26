@@ -42,7 +42,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		DAZ: Ah, I should not be surprised, then! The voyager dissolves when immersed in bodies of water, you see.
+		DAZ: Ah, I should not be surprised, then. The voyager dissolves when immersed in bodies of water, you see!
 		</Text>
 	</TextBlock>
 
@@ -51,7 +51,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		CASSAVA: The waves caused by the sun must be washing high enough on this island to submerge my voyager, dissolving it!
+		DAZ: As the sun orbits overhead, it causes waves to wash higher on the island. They must be washing high enough to submerge and dissolve the voyager on connection!
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CASSAVA: I see.. In that case, we shall need to keep these waves in mind whenever we voyage to Giant's Deep!
+		CASSAVA: I see.. In that case, we shall need to keep these waves in mind whenever we voyage on <![CDATA[<color=lightblue>Giant's Deep!</color>]]>
 		</Text>
 	</TextBlock>
 

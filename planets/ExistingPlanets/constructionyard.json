@@ -77,15 +77,15 @@
 			{
 				"rename":"Schematic shelf 1",
 				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)/",
-				"position":{"x": -8.65,"y": 6.5403,"z": 34.397},
-				"rotation": {"x": 359.2959 ,"y": 269.7468,"z": 85.6111},
+				"position":{"x": -35.676,"y": 5.2712,"z": -16.7751},
+				"rotation": {"x": 356.6271 ,"y": 86.9863,"z": 87.0911},
 				"isRelativeToParent": true
 				},
 				{
 					"rename":"Schematic shelf 2",
 					"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)/",
-					"position":{"x": -8.65,"y": 5.5884,"z": 33.1621},
-					"rotation": {"x": 359.2959 ,"y": 269.7468,"z": 85.6111},
+					"position":{"x": -35.6216,"y": 4.2284,"z": -16.7591},
+					"rotation": {"x": 356.6271 ,"y": 86.9863,"z": 87.0911},
 					"isRelativeToParent": true
 					},
 			{
@@ -227,7 +227,7 @@
 			{
 				"rename": "Weapon mural side",
 				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/comet mural side.prefab",
+				"path":"assets/models/comet mural side v4.prefab",
 				"parentPath": "Sector_ConstructionYard/Yard Mural board",
 				"position": {"x":1.2619,"y": 1.6509, "z": 0.0218},
 				"rotation": {"x":90,"y":0, "z": 0},
@@ -237,7 +237,7 @@
 			{
 				"rename": "Weapon mural front",
 				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/comet mural front.prefab",
+				"path":"assets/models/comet mural front v4.prefab",
 				"parentPath": "Sector_ConstructionYard/Yard Mural board",
 				"position": {"x":-1.16,"y": 1.6509, "z": 0.0218},
 				"rotation": {"x":90,"y":0, "z": 0},
@@ -570,16 +570,16 @@
 			{
 				"rename": "Inspired schematic scroll",
 				"type": "scroll",
-				"position": {"x": -9.0466, "y": 5.8529, "z": 31.2122},
-				"rotation": {"x": 2.4324, "y": 268.4509,"z": 60.1365},
+				"position": {"x": -35.2729, "y": 5.0605, "z": -15.5085},
+				"rotation": {"x": 5.1224, "y": 98.1334,"z": 58.6162},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/weapon schematic.xml",
 				"seed":2
 			},
 			{
 				"rename": "OPC Schematic Scroll w RearSecret",
 				"type": "scroll",
-				"position": {"x": -9.1029, "y": 6.3395, "z": 33.145},
-				"rotation": {"x": 8.0254, "y": 280.7329,"z": 57.6706},
+				"position": {"x": -35.0121, "y": 4.5172, "z": -14.7808},
+				"rotation": {"x": 359.7966, "y": 85.773,"z": 61.6739},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cyard schematic opc.xml",
 				"seed":8
 			},

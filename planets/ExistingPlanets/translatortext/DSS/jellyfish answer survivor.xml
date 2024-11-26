@@ -19,7 +19,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: My sole solace is the survival of several species native to the star system.. I am certain the property of immersion was what protected them.
+		CASSAVA: My sole solace is the survival of several species native to the star system.. I am certain the property of immersion must be the reason for their continued survival.
 		</Text>
 			</TextBlock>
 
@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-			 CASSAVA: But that also means.. If any of them were to ever return to the planet's surface...
+			 CASSAVA: But that means.. If any of them were to ever return to the planet's surface...
 		</Text>
 	</TextBlock>
 
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		 CASSAVA: What.. What a terrifying thought. I owe this planet's thick clouds my deepest gratitude for obscuring the <![CDATA[<color=lightblue>Quantum Moon</color>]]> from my sight..
+		 CASSAVA: What.. What a terrifying thought..
 		</Text>
 			</TextBlock>
 
@@ -46,7 +46,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		 CASSAVA: A note of utmost importance to myself: I must be sure <![CDATA[<i>never</i>]]> to trap the <![CDATA[<color=lightblue>Quantum Moon</color>]]> in superposition around <![CDATA[<color=lightblue>Giant's Deep</color>]]> for any extended amount of time.
+		 CASSAVA: What a miracle that the planet's thick clouds obscured my sight of anything outside <![CDATA[<color=lightblue>Giant's Deep..</color>]]> I owe them my deepest gratitude for protecting the native species from harm.
 		</Text>
 			</TextBlock>
 

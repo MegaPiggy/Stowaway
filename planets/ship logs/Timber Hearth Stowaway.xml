@@ -59,10 +59,6 @@
             <ID>GAL EX1</ID> 
             <Text>Galena's toy rocket got swept by the river into the drain behind the village water wheel! They asked me to use the Little Scout to see if their toy rocket was inside the drain.</Text> 
        </ExploreFact>
-       <ExploreFact>
-            <ID>GAL EX2</ID> 
-            <Text>The Little Scout's camera can be rotated to look around.</Text> 
-       </ExploreFact>
        
        <ExploreFact>
             <ID>GAL EX3</ID> 
@@ -183,15 +179,15 @@
        </ExploreFact>
           <ExploreFact>
             <ID>SY EX2</ID> 
-            <Text>The Hearthians left within the Sanctuary were protected from some sort of danger, and quarantined inside this space.</Text> 
+            <Text>The native species of Timber Hearth were endangered by some sort of danger because of their amphibious nature. A Nomai named Cassava quarantined the surviving species left inside the Sanctuary.</Text> 
             <AltText>
-                <Text>The Hearthians left within the Sanctuary were protected from ghost matter, and quarantined inside this space.</Text>
+                <Text>The native species of Timber Hearth were endangered by ghost matter because of their amphibious nature. A Nomai named Cassava quarantined the surviving species left inside the Sanctuary.</Text>
                 <Condition>COMET_INTERIOR_X1</Condition>
             </AltText>
         </ExploreFact>
           <ExploreFact>
             <ID>SY EX3</ID> 
-            <Text>A Nomai named Cycad sought help after he disengaged his voyager stone by accident, causing a quantum shard to escape his sight. Another Nomai reminded him that voyagers are able to use the rule of quantum entanglement.</Text> 
+            <Text>A Nomai named Cycad sought help after he disengaged his voyager stone by accident, causing a quantum shard to escape his sight. Another Nomai reminded him that voyagers were able to use the rule of quantum entanglement.</Text> 
          </ExploreFact>
          <ExploreFact>
             <ID>SY EX4</ID> 
@@ -235,7 +231,7 @@
         </ExploreFact>
            <ExploreFact>
             <ID>Campsite EX4</ID>
-            <Text>This new invention allowed the Nomai to use the rule of quantum entanglement, even without complete darkness.</Text> 
+            <Text>The Scroll and Stone Workshop's new invention allowed the Nomai to freely use the rule of quantum entanglement.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>Campsite EX5</ID>

@@ -1164,8 +1164,8 @@
 	},
 	
 	{
-		"rename":"Ember twin scroll",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/phlox clouds.xml",
+		"rename":"imaging discovery scroll",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/tower excavation discovery.xml",
 		"position": {"x": -0.2072, "y": 1.2248,"z": 0.4005},
 		"rotation": {"x": 0.6397, "y": 0.746, "z": 63.43510},
 		"type":"scroll",
@@ -1174,11 +1174,11 @@
 		"isRelativeToParent": true
 	},
 	{
-		"rename":"Jellyfish bramble scroll",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/jelly specimen.xml",
+		"rename":"jellyfish question setup scroll",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/phlox clouds v3.xml",
 		"position": {"x": 0.9582, "y": 1.4982,"z": 0.48},
 		"rotation": {"x": 4.2749, "y": 111.7028, "z": 295.6037},
-		"seed":1,
+		"seed":5,
 		"type":"scroll",
 		"parentPath": "Sector_QuantumIsland/Gallery Bed 2",
 		"isRelativeToParent": true
@@ -1199,30 +1199,9 @@
 		"parentPath": "Sector_QuantumIsland/jelly scroll light",
 		"isRelativeToParent": true,
 		"arcInfo": [
-				{},
-				{},
-				{},
-				{},
-				{},
-				{},
-				{
-					"position": {"x":-1.8623,"y": 1.9383},
-					"zRotation": 102.7729,
-					"mirror": true
-				},
-				{
-					"position": {"x":-1.9754,"y": 0.8989},
-					"zRotation": 293.1344,
-					"mirror": false
-				},
-				{
-					"position": {"x":-0.9897,"y": 0.0315},
-					"zRotation": 167.9305,
-					"mirror": false
-				}
 			],
-				"seed":0,
-				"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum pool scroll phantgame.xml"
+				"seed":6,
+				"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum pool scroll phantgame v3.xml"
 	},
 	
 

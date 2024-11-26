@@ -27,14 +27,14 @@
 		<ID>4</ID>
 		<LocationB />
 		<ParentID>1</ParentID>
-		<Text>Each chamber will be equipped with projection pools and walls to facilitate swift communication of information between Nomai aboard each module.</Text>
+		<Text>Installation of a warp receiver on the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> connected to the new warp transmitter on <![CDATA[<color=lightblue>Giant's Deep</color>]]> is to be communicated to the <![CDATA[<color=orange>Black Hole Forge</color>]]> soon.</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>5</ID>
 		<LocationA />
 		<ParentID>4</ParentID>
-		<Text>Crafting of new projection stones is to be conveyed to Daz at the <![CDATA[<color=orange>Scroll and Stone Workshop.</color>]]>
+		<Text>CASSAVA: What? There must be some confusion: the new warp transmitter on <![CDATA[<color=lightblue>Giant's Deep</color>]]> will not be connected to the <![CDATA[<color=orange>Orbital Probe Cannon,</color>]]> my friends!
 		</Text>
 	</TextBlock>
 
@@ -42,7 +42,8 @@
 	<ID>6</ID>
 		<LocationA />
 		<ParentID>5</ParentID>
-		<Text>CASSAVA: I shall be returning to Statue Island soon. I would be happy to convey this message to the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> during my visit!</Text>
+		<Text>PRIVET: My apologies, Cassava! I had thought that was the purpose of this new warp transmitter.
+		</Text>
 	</TextBlock>
 
 	<TextBlock>	
@@ -50,7 +51,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		PRIVET: Of course you will. Send Daz my regards, Cassava!</Text>
+		CASSAVA: If the <![CDATA[<color=orange>Black Hole Forge</color>]]> were able to work more quickly, we would be able to travel to both destinations by warp. Sadly, the rate at which new warp cores are crafted is not proportionate to our ambition!</Text>
 	</TextBlock>
 
 	<ShipLogConditions>
@@ -62,10 +63,6 @@
 		<RevealFact>
 			<FactID>GSHOP R1</FactID>
 			<Condition>3</Condition>
-		</RevealFact>
-			<RevealFact>
-			<FactID>Workshop R2</FactID>
-			<Condition>6</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

@@ -42,7 +42,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		MELORAE: I apologize for my accusations, Ramie.. But surely, you understand the difficulty in discerning between a sunless day, and the <![CDATA[<color=orange>High Energy Lab</color>]]> rerouting energy from the city without warning!
+		MELORAE: I apologize for my accusations, Ramie.. But surely, you understand the difficulty in discerning between a sunless day and the <![CDATA[<color=orange>High Energy Lab's</color>]]> experiments leaving the city in the dark!
 		</Text>
 	</TextBlock>
 
@@ -68,7 +68,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		RAMIE: Your statement is true.. But in that case, may I suggest leaving a set of eyes on the planet's surface?
+		RAMIE: Urk. Your statement holds truth.. But in that case, may I suggest leaving a set of eyes on the planet's surface?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -76,7 +76,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		RAMIE: A set of eyes on the surface would allow one to detect the presence of a sunless day while underground, would it not?
+		RAMIE: A set of eyes on the surface would allow one to detect the presence of a sunless day even while underground, would it not?
 		</Text>
 	</TextBlock>
 	<TextBlock>
