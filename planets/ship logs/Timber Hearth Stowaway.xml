@@ -13,11 +13,7 @@
   </RumorFact>
  <ExploreFact>
             <ID>MICA EX1</ID> 
-            <Text>Mica says that Chert delayed their first launch several times for some reason.</Text> 
-       </ExploreFact>
-       <ExploreFact>
-            <ID>MICA EX2</ID> 
-            <Text>Mica told me to ask Chert about why they delayed their launch day.</Text> 
+            <Text>Mica says that Chert delayed their launch day several times for some reason.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -84,10 +80,6 @@
 
        <ExploreFact>
             <ID>ARK EX1</ID> 
-            <Text>Arkose noticed the patch of ghost matter in the village disappearing sometimes.</Text> 
-       </ExploreFact>
-       <ExploreFact>
-            <ID>ARK EX2</ID> 
             <Text>Arkose says that Gabbro told them that ghost matter disappears, though they weren't sure why.</Text> 
        </ExploreFact>
 </Entry>
@@ -136,7 +128,7 @@
             <RumorName>Sanctuary</RumorName>
             <RumorNamePriority>2</RumorNamePriority>
             <ID>SY R2</ID> 
-            <Text>The Nomai built the Sanctuary in a cave within Timber Hearth's underground pools, where a quantum shard traveled.</Text> 
+            <Text>The Nomai built the Sanctuary in a cave within Timber Hearth's underground pools where a quantum shard traveled.</Text> 
         </RumorFact>
         <RumorFact>
            <SourceID>VM_SIDE</SourceID>
@@ -149,16 +141,16 @@
                <RumorName>Sanctuary</RumorName>
             <RumorNamePriority>2</RumorNamePriority>
             <ID>SY R4</ID> 
-            <Text>The Nomai planned to use a new invention from the Scroll and Stone Workshop which would provide convenient entry into the Sanctuary.</Text> 
+            <Text>The Nomai planned to use a new invention from the Scroll and Stone Workshop to enter the Sanctuary.</Text> 
         </RumorFact>
         
          <RumorFact>
                <RumorName>Sanctuary</RumorName>
             <RumorNamePriority>2</RumorNamePriority>
             <ID>SY R4.5</ID> 
-            <Text>There was trouble of some kind at the Sanctuary.</Text> 
+            <Text>The Nomai reported trouble of some kind at the Sanctuary.</Text> 
             <AltText>
-                         <Text>Several of the native species inside the Sanctuary grew too used to the space and eluded the Nomai's attempts to release them back to the surface.</Text>
+                         <Text>Several of the native species inside the Sanctuary eluded the Nomai's attempts to release them back to the surface.</Text>
                          <Condition>CONV R4</Condition>
                     </AltText>
         </RumorFact>
@@ -208,6 +200,7 @@
 
           <RumorFact>
             <ID>Campsite R1</ID> 
+            <IgnoreMoreToExplore/>
             <RumorName>Nomai Ruins</RumorName>
             <Text>Tephra asked me to explore the Nomai Ruins outside the village for undiscovered caves the quantum shard might travel to.</Text> 
         </RumorFact>

@@ -77,6 +77,11 @@
 			<FactID>GD Tower EX3</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
+		
+		<RevealFact>
+			<FactID>CONV R1</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
 
 	</ShipLogConditions>
 

@@ -13,6 +13,11 @@
 				<Text>I heard you delayed your launch date several times! Why’s that?</Text>
 				<DialogueTarget>Chert SW1</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+				<RequiredPersistentCondition>Sandflow</RequiredPersistentCondition>
+				<Text>How much longer do you think it'd take for sand to flow back to Ash Twin now?</Text>
+				<DialogueTarget>Chert SW S</DialogueTarget>
+			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -23,8 +28,8 @@
 				<Page>I hope you didn’t take too long to take off - or they’ll be telling future space cadets about how you delayed your launch for generations to come, too!</Page>
 				<Page>As I've told them many times.. The reason I delayed my launch date was because the Hourglass Twins' sand was flowing towards Ash Twin on the day I was setting off.</Page>
 				<Page>Since I was planning to explore Ash Twin on my first trip, it'd have been silly to set off while it was being buried by oceans of sand.</Page>
-				<Page>That’s why I opted to delay my launch, though more times than I'd have liked.. But surely I can't be blamed for that - I have no control over the universe's whims!</Page>		
-				<Page>Still, it certainly sparked a lifelong curiosity about the Hourglass Twins. To this day, I can't help but wonder if there's more to the sand flowing back and forth than natural phenomenon.</Page>		
+				<Page>That’s why I opted to delay my launch - though more times than I'd have liked.. But surely I can't be blamed for the universe's whims!</Page>		
+				<Page>Still, it certainly sparked a lifelong fascination with the Hourglass Twins in me. To this day, I can't help but wonder if there's more to the Hourglass Twins than natural phenomena.</Page>		
 			</Dialogue>
 		<DialogueOptionsList>
 				<DialogueOption>
@@ -42,9 +47,9 @@
 		<Name>Chert SW2</Name>
 			<Dialogue>
 				<Page>A good question! I once spotted a ring of tall Nomai structures along Ash Twin's equator while stargazing, and wished to visit Ash Twin to get a closer look at these structures.</Page>
-				<Page>From what I could tell, the structures appeared to be for stargazing. Each one had windows in their roofs that allowed you to peer out and see the planets and stars.</Page>
+				<Page>From what I could tell, the structures appeared to be for stargazing. Each one has windows in their roofs that allowed you to peer out and see the planets and stars.</Page>
 				<Page>I must say, it was quite heartwarming to learn the Nomai shared my love for the stars!</Page>
-				<Page>That's what I assumed they were for, anyways! If you visit them, you might be able to glean more about them with that new translator tool of yours.</Page>
+				<Page>That's my interpretation, anyways! If you visit them, you might be able to glean more about them with that new translator tool of yours.</Page>
 				</Dialogue>
 						
 		<DialogueOptionsList>
@@ -103,12 +108,12 @@
 
 	<DialogueNode>
 		<Name>Chert SW3.5</Name>
-		<SetCondition>Sandflow</SetCondition>
+		<SetPersistentCondition>Sandflow</SetPersistentCondition>
 			<Dialogue>
 				<Page>Hm... It will take a while longer, I believe.</Page>
 				<Page>Come back once more of the sand has drained off from Ash Twin, and I might be able to give you a more precise answer then!</Page>
 				<Page>If you’re feeling impatient, feel free to take a nap by a campfire to pass the time.</Page>
-				<Page>I set up this camp here to avoid the sand column's path - so please, put away any worry about the sand column wandering this way while you rest.</Page>
+				<Page>I set up this camp here to avoid the sand column's path - so please, rest easy about the sand column wandering this way while you rest.</Page>
 			</Dialogue>
 		<DialogueOptionsList>
 				<DialogueOption>
@@ -123,13 +128,23 @@
 	</DialogueNode>
 
 <DialogueNode>
+		<Name>Chert SW S</Name>
+			<Dialogue>
+				<Page>Hm... It will take a while longer, I believe.</Page>
+				<Page>Come back once more of the sand has drained off from Ash Twin, and I might be able to give you a more precise answer then!</Page>
+				<Page>If you’re feeling impatient, feel free to take a nap by a campfire to pass the time.</Page>
+				<Page>I set up this camp here to avoid the sand column's path - so please, rest easy about the sand column wandering this way while you rest.</Page>
+			</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
 		<Name>Chert SW2.5</Name>
 			<Dialogue>
 			<Page>Goodness! That's right, that's what we were discussing at first, wasn't it? My apologies for rambling!</Page>
 			<Page>I once spotted a ring of tall Nomai structures along Ash Twin's equator while stargazing, and wished to visit Ash Twin to get a closer look at these structures.</Page>
-				<Page>From what I could tell, the structures appeared to be for stargazing. Each one had windows in their roofs that allowed you to peer out and see the planets and stars.</Page>
+				<Page>From what I could tell, the structures appeared to be for stargazing. Each one has windows in their roofs that allowed you to peer out and see the planets and stars.</Page>
 				<Page>I must say, it was quite heartwarming to learn the Nomai shared my love for the stars!</Page>
-				<Page>That's what I assumed they were for, anyways! If you visit them, you might be able to glean more about them with that new translator tool of yours.</Page>
+				<Page>That's my interpretation, anyways! If you visit them, you might be able to glean more about them with that new translator tool of yours.</Page>
 				</Dialogue>
 		<DialogueOptionsList>
 				<DialogueOption>

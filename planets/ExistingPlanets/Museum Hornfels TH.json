@@ -20,6 +20,17 @@
 		
 		
 "Volumes": {
+	"rulesets": {
+		"probeRulesets": [
+			{
+				"lanternRange": 5,
+				"overrideLanternRange": true,
+				"radius": 10,
+			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
+			"isRelativeToParent": true
+			}
+		]
+	},
 	"audioVolumes": [
 		{
 			"audio": "TH_ZeroGCaveAmbient_LP",
@@ -358,22 +369,6 @@
 			},
 
 
-			{
-				"rename":"sanctuary extShell",
-				"path":"TowerTwin_Body/Sector_TowerTwin/Geometry_TowerTwin/OtherComponentsGroup/ControlledByProxy_Base/Terrain_HT_TowerTwin_TLD_Shell/",
-				"position": {"x": -44.6366, "y": 25.8768 , "z": 101.2934},
-				"rotation": {"x": 61.3209, "y": 81.6028, "z": 72.7967},
-				"isRelativeToParent": true
-			},
-			{
-				"rename": "bubbel shell collider",
-				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/bubbel.prefab",
-				"position":{"x": 0.3243,"y": 0.317 ,"z": -0.3013},
-				"scale":80,
-				"parentPath": "Sector_TH/sanctuary extShell",
-				"isRelativeToParent": true
-			},
 		
 			{
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
@@ -760,7 +755,7 @@
 			{
 				"rename":"Sanctuary RAILS",
 				"path":"WhiteholeStationSuperstructure_Body/Geometry_WhiteholeStationSuperstructure/ControlledByProxy_WhiteholeStation/Structure_NOM_WhiteHoleStation_Rails",
-				"position":{"x": -98.8676,"y": 13.9809,"z": 126.5532},
+				"position":{"x": -109.562,"y": 16.0009,"z": 120.6296},
 				"rotation":{"x": 357.4664,"y": 320.3704,"z": 127.6975},
 				"scale":0.39,
 				"isRelativeToParent": true
@@ -768,7 +763,7 @@
 			{
 				"rename":"Sanctuary sun orbit",
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken/HologramProjector/HologramDisplayPoint/Hologram_LatestProbeTrajectory/ScaleRoot/GiantsDeepRoot/Cannon_Pivot",
-				"position":{"x": -95.7233,"y": 16.7189,"z": 128.4589},
+				"position":{"x": -106.5561,"y": 18.9662,"z": 122.7516},
 				"rotation":{"x":7.674,"y": 136.5031,"z": 52.3203},
 				"scale":10,
 				"removeChildren": ["CannonRoot"],
@@ -794,12 +789,21 @@
 			{
 				"rename":"Nighttime block",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Interactables_QuantumTower/Prefab_NOM_DockingTractorBeam/Props_NOM_LargeTractorBeam_Geo",
-				"position":{"x":-94.5508,"y": 12.9658,"z": 118.363},
-				"rotation":{"x":40.2481,"y": 50.3797,"z": 262.7756},
-				"scale":1,
+				"position":{"x": -103.1251,"y": 14.2129,"z": 115.1538},
+				"rotation":{"x":40.2498,"y": 25.9689,"z": 248.671},
+				"scale":0.7,
 				"isRelativeToParent": true
 			},
-		
+			{
+				"rename":"sanctuary underside hill",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Geometry_QuantumTower/Terrain_QuantumTower/Terrain_GD_QuantumIsland/",
+				"position":{"x":-67.928,"y": 13.5009,"z": 84.4422},
+				"rotation":{"x":60.065,"y": 215.2783,"z": 270.9452},
+				"stretch": {"x":0.11,"y":0.09,"z":0.11},
+				"isRelativeToParent": true
+			},
+
+
 
 			{
 				"rename":"Sanctuary plant",
@@ -826,32 +830,38 @@
 				"isRelativeToParent": true
 			},
 			
-			
+			{
+				"rename":"Sanctuary shell rotate",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/rotation guy.prefab",
+				"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
+				"isRelativeToParent": true
+			},
 			{
 				"rename":"Sanctuary shell",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/star ore shell.prefab",
-				"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
-				"rotation":{"x":331.3686,"y": 62.1643,"z": 95.5896},
-				"scale": 0.5,
-				"ignoreSun": true,
+				"position":{"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_TH/Sanctuary shell rotate",
+				"scale": 1.5,
 				"isRelativeToParent": true,
 				"keepLoaded": true
 			},
 			{
 				"rename":"Sanctuary sunoverride",
 				"path":"TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_noDLC/OcclusionEffects_Grove/OcclusionVolume_RadioTower",
-				"position":{"x": -82.8252,"y": 11.3031,"z": 123.3348},
+				"position":{"x": -86.8687,"y": 17.8649,"z": 95.6679},
 				"rotation":{"x":331.3686,"y": 62.1643,"z": 95.5896},
-				"scale": 60,
+				"scale": 95,
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"Sanctuary water visual",
-				"path":"SolarSystemRoot/RingWorld_Body/Sector_RingInterior/Sector_Zone4/Sector_PrisonDocks/Structures_PrisonDocks/Prison_Zone4/Geo_Prison/Effects_IP_PrisonWater",
-				"position":{"x": -97.4024,"y": 15.6242,"z": 117.6719},
-				"rotation":{"x":278.9115,"y": 110.8896,"z": 34.8704},
-				"scale": 2,
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/water plane.prefab",
+				"position":{"x": -97.4024,"y": 15.6242,"z": 114.9191},
+				"rotation":{"x":275.3447,"y": 140.4986,"z": 357.649},
+				"scale": 5,
 				"isRelativeToParent": true
 			},
 			{
@@ -891,9 +901,8 @@
 		},
 		{
 			"rename":"visibilitytracker 2",
-			"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root/VisibilityTracker/",
+			"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
 			"parentPath": "Sector_TH/Museum shard base/Museum shard NEW",
-			"scale":1.3,
 			"isRelativeToParent": true
 		},
 		{

@@ -14,7 +14,7 @@
 				<DialogueTarget>Chert SW1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<RequiredCondition>Sandflow</RequiredCondition>
+				<RequiredPersistentCondition>Sandflow</RequiredPersistentCondition>
 				<Text>Um, how much longer do you think it'd take for sand to flow back to Ash Twin now?</Text>
 				<DialogueTarget>Chert SW S</DialogueTarget>
 			</DialogueOption>
@@ -34,8 +34,8 @@
 		<Name>Chert SW S</Name>
 			<Dialogue>
 				<Page>Too long... It won't happen in time, now..</Page>
-				<Page>I'm, I'm sorry. I don't think there's.. enough time for the sand to flow back now.</Page>
-				<Page>It's.. It's about to happen already... Oh...</Page>
+				<Page>I'm.. I'm sorry.</Page>
+				<Page>More importantly, it's.. It's about to happen already... Oh...</Page>
 				</Dialogue>
 	</DialogueNode>
 

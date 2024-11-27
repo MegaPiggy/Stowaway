@@ -69,11 +69,15 @@
 	<ShipLogConditions>
 		<RevealFact>
 			<FactID>WorkshopTop EX3</FactID>
-			<Condition>7</Condition>
+			<Condition>8</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>CONV R4</FactID>
-			<Condition>7</Condition>
+			<Condition>8</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Workshop R2</FactID>
+			<Condition>8</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

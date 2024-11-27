@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Daz, I seem to be unable to retrieve a conversation I wrote using this projection stone. Could there be an issue with its data?
+		CASSAVA: Daz, I seem to be unable to retrieve a conversation I wrote using this projection stone. Could there be an issue with the data stored on it?
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -14,7 +14,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: My love, I'm afraid you misunderstand! Conversations shared across projection stones are not recorded on the stone itself, like scrolls are - they are recorded on projection walls!
+		DAZ: My love, I'm afraid you misunderstand. Conversations shared across projection stones are not recorded on the stone itself (like scrolls are) - they are recorded on projection walls!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -30,7 +30,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: To find the conversation you seek, you will need to use the corresponding projection stone at the projection wall it was written on!
+		DAZ: To find the conversation you seek, you simply need to use the corresponding projection stone at the projection wall it was written on.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -38,7 +38,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: This applies for any conversation shared across a projection wall! A single projection stone can unlock many conversations across different projection walls.
+		DAZ: This applies for any conversation shared across a projection wall. A single projection stone can unlock many conversations across different projection walls!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -46,7 +46,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Oh! Goodness, no wonder I could not find so many conversations I had written before.. You have my gratitude, Daz!
+		CASSAVA: Goodness, no wonder I could not find so many conversations I had written before.. I am glad to have learned this today! You have my gratitude, Daz.
 		</Text>
 	</TextBlock>
 	

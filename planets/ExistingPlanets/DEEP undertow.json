@@ -90,7 +90,7 @@
 			"hasWarpEffects": false,
 			"horizonRadius": 0.5,
 			"parentPath": "Sector_GD/Deep Storm Station",
-			"position":{"x": 0.0855,"y": -0.1328,"z": 0.9054},
+			"position":{"x": 0.0855,"y": -0.0328,"z": 0.9054},
 			"isRelativeToParent": true
 		},
 		{
@@ -101,7 +101,7 @@
 			"hasWarpEffects": false,
 			"horizonRadius": 0.1,
 			"parentPath": "Sector_GD/Deep Storm Station",
-			"position":{"x": 0.0855,"y": -0.1328,"z": 0.9054},
+			"position":{"x": 0.0855,"y": -0.0328,"z": 0.9054},
 			"isRelativeToParent": true
 		}
 	],

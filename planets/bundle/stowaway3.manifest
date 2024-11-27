@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3170440511
+CRC: 2290519410
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 4de89013280319ad42966f5b3fabddf7
+    Hash: 59ad39b6d43353a1fd992caacbe427ca
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 03eef29357354d4eed063cb2134f636b
+    Hash: d9e735094377dab218b1cb6cd36f11aa
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -60,6 +60,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: c1e03d384261f6f301ef6513a478c3a8, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 8a3f0f389341c132f21af676b0f2d74c, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 892a6b987a18588fe03a5937388e4a4d, type: 3}
@@ -106,6 +108,7 @@ Assets:
 - Assets/Models/Tractor beam SW 1.prefab
 - Assets/Models/ASH TWIN BEAM south.prefab
 - Assets/Models/comet mural front v4.prefab
+- Assets/Models/water plane.prefab
 - Assets/Models/TheInspired.prefab
 - Assets/Models/TheInspired (1).prefab
 - Assets/Models/player nosuit.prefab
@@ -114,5 +117,6 @@ Assets:
 - Assets/Models/rotation guy.prefab
 - Assets/Models/Materials/mural front.prefab
 - Assets/Models/SphereCollider.prefab
+- Assets/Models/waterfall clear.prefab
 - Assets/Models/comet mural side v4.prefab
 Dependencies: []

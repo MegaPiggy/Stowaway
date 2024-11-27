@@ -92,6 +92,11 @@
 			<FactID>CONV R2</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
+<RevealFact>
+			<FactID>Cove R2</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+
 	</ShipLogConditions>
 
 </NomaiObject>

@@ -16,7 +16,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CLARY: Is there a possibility that this ore.. will not work?
+		CLARY: Is there a possibility that this ore.. may fail?
 		</Text>
 	</TextBlock>
 
@@ -61,16 +61,23 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		ROOT: Our elders have travelled countless galaxies, Clary. It is they who have passed down to us precise measurements of a supernova's temperatures and power. You may rest those fears!
+		ROOT: I understand your concerns, Clary: but our elders have travelled countless galaxies, and gained knowledge shared by their many sibling clans.
 		</Text>
 	</TextBlock>
-
+<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		ROOT: It is they who have passed down to us precise measurements of a supernova's temperatures and power. We would not dare work in theory for such crucial data!
+		</Text>
+	</TextBlock>
 	<TextBlock>
 		<ID>8</ID>
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		CLARY: That is a relief to hear.. though I cannot begin to imagine what dangers our elders must have faced to obtain such knowledge!
+		CLARY: That is a relief to hear. I cannot begin to imagine what dangers our elders must have faced to obtain such knowledge!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -78,7 +85,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		CLARY: Still, it is truly astounding to imagine anything standing up to the might of a supernova. The universe never fails to surprise me!
+		CLARY: Still, it is astounding to imagine anything standing up to the might of a supernova.. The universe never fails to surprise us!
 		</Text>
 	</TextBlock>
 

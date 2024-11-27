@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		KOUSA: To that end, in collaboration with our friends from the <![CDATA[<color=orange>Sunless City,</color>]]> we have engineered a new invention together: the storm shelter!
+		KOUSA: To that end, we have engineered a new invention in collaboration with our friends from the <![CDATA[<color=orange>Sunless City:</color>]]> the storm shelter!
 		</Text>
 	</TextBlock>
 
@@ -67,7 +67,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: And of course, you have my deepest gratitude for your hard work, Kousa. I shall visit the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> to learn more about the storm shelter, as soon as I have rested from my journey.
+		PLUME: And of course, you have my deepest gratitude for your hard work, Kousa. I look forward to visiting the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> to learn more about the storm shelters soon!
 		</Text>
 	</TextBlock>
 

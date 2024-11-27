@@ -15,7 +15,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		MELORAE: It is! I believe this would location would be much more favorable for harnessing energy during sunless days.
+		MELORAE: It is! I believe this location would be much more favorable for harnessing energy during sunless days.
 		</Text>
 	</TextBlock>
 
@@ -42,7 +42,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		MELORAE: I apologize for my accusations, Ramie.. But surely, you understand the difficulty in discerning between a sunless day and the <![CDATA[<color=orange>High Energy Lab's</color>]]> experiments leaving the city in the dark!
+		MELORAE: I apologize for my accusations, Ramie.. But surely you must understand the difficulty in discerning between a sunless day, and the <![CDATA[<color=orange>High Energy Lab's</color>]]> experiments leaving the city in the dark!
 		</Text>
 	</TextBlock>
 
@@ -51,7 +51,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		RAMIE: I must disagree, Melorae.. Surely it cannot be so difficult to tell when a solar eclipse is occurring!
+		RAMIE: I must disagree, Melorae.. Surely it cannot be so difficult to tell when a solar eclipse is occurring.
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		MELORAE: Ramie, my friend.. Recall that the <![CDATA[<color=orange>Sunless City</color>]]> is located underground! We are not so easily able to detect a solar eclipse!
+		MELORAE: Ramie, my friend: Recall that the <![CDATA[<color=orange>Sunless City</color>]]> is located underground. We are not so easily able to detect a solar eclipse!
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -68,7 +68,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		RAMIE: Urk. Your statement holds truth.. But in that case, may I suggest leaving a set of eyes on the planet's surface?
+		RAMIE: That.. may be true. But in that case, may I suggest leaving a set of eyes on the planet's surface?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -92,7 +92,7 @@
 		<LocationB />
 		<ParentID>10</ParentID>
 		<Text>
-		RAMIE: I must humbly object, my friend!
+		RAMIE: I must humbly decline, my friend!
 		</Text>
 	</TextBlock>
 	

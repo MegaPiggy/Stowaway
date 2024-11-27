@@ -11,7 +11,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Everywhere I search, the star system has been engulfed by this dreadful danger, only visible to the third eye.
+		CASSAVA: Everywhere I search, the star system has been engulfed by this strange substance, only visible to the third eye.
 		</Text>
 			</TextBlock>
 			<TextBlock>	
@@ -46,7 +46,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		 CASSAVA: What a miracle that the planet's thick clouds obscured my sight of anything outside <![CDATA[<color=lightblue>Giant's Deep..</color>]]> I owe them my deepest gratitude for protecting the native species from harm.
+		 CASSAVA: What a miracle that <![CDATA[<color=lightblue>Giant's Deep's'</color>]]> thick clouds obscured my sight of anything outside the planet.. I owe them my deepest gratitude for protecting the native species from harm.
 		</Text>
 			</TextBlock>
 

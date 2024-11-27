@@ -474,7 +474,7 @@
 				"rename":"GD TOWER f3 gm wisps",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
 				"isRelativeToParent": true,
-				"position": {"x":1.8582,"y":-0.1436,"z":-0.0582},
+				"position": {"x":2.0146,"y":-0.1436,"z":-0.0582},
 				"rotation": {"x":0,"y":0,"z":90},
 				"parentPath": "Sector_QuantumIsland/GD TOWER f3 gm wisps"
 			},
@@ -898,7 +898,7 @@
 				"path":"DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/FeldsparShip_Body/ElectricityVolume",
 				"parentPath": "Sector_QuantumIsland/Cerberus Jelly",
 				"position": {"x":0,"y": -10.4364,"z": 0},
-				"stretch": {"x":1.7, "y":3, "z":1.7},
+				"stretch": {"x":1.7, "y":2.9, "z":1.7},
 				"isRelativeToParent": true
 			},
 			{
@@ -1198,8 +1198,6 @@
 		"type":"scroll",
 		"parentPath": "Sector_QuantumIsland/jelly scroll light",
 		"isRelativeToParent": true,
-		"arcInfo": [
-			],
 				"seed":6,
 				"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum pool scroll phantgame v3.xml"
 	},

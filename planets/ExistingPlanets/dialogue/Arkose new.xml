@@ -27,9 +27,6 @@
 			<Page>Oof, my arm’s tired from throwing...</Page>
 			<Page>But yeah! I’m just trying to find out why the ghost matter goes away sometimes!</Page>
 		</Dialogue>
-						 <RevealFacts>
-     						   <FactID>ARK EX1</FactID>
-    					  </RevealFacts>
 			 <DialogueOptionsList>
 			<DialogueOption>
 				<Text>Sorry, what? The ghost matter.. goes away sometimes?</Text>
@@ -51,8 +48,7 @@
 			<Page>It’s dangerous to get too close to the ghost matter, so I’m using these rocks to see if I can figure it out on my own.</Page>
 		</Dialogue>
 							 <RevealFacts>
-							 <FactID>ARK EX1</FactID>
-     						  	 <FactID>ARK EX2</FactID>
+     						  	 <FactID>ARK EX1</FactID>
      						  	 <FactID>ARK R2</FactID>
     					 	 </RevealFacts>
 			 <DialogueOptionsList>

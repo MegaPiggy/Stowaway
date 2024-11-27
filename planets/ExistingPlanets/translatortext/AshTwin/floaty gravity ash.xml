@@ -49,23 +49,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		LAMI: You're the best big brother ever, Laevi.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>7</ID>
-		<LocationB />
-		<ParentID>6</ParentID>
-		<Text>
-		LAEVI: It was quite exhilarating, wasn't it? Should we do it again?
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>8</ID>
-		<LocationB />
-		<ParentID>7</ParentID>
-		<Text>
-		LAMI: Yes, yes, let's do it again! I wanna do that everywhere I go!
+		LAMI: You're the best big brother ever, Laevi!
 		</Text>
 	</TextBlock>
 	

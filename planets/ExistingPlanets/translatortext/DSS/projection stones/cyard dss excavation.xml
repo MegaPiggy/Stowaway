@@ -14,7 +14,7 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		AVENS: At this rate, I am confident we will be able to complete the <![CDATA[<color=orange>Deep Storm Station</color>]]> before the <![CDATA[<color=orange>Sun Station!</color>]]>
+		AVENS: At this rate, I am confident we will be able to complete the <![CDATA[<color=orange>Deep Storm Station</color>]]> before the <![CDATA[<color=orange>Sun Station</color>]]> is operational!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -63,20 +63,17 @@
 
 
 <ShipLogConditions>
-	<RevealFact>
-			<FactID>CB_EX5</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>CB_EX6</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
 		<RevealFact>
 			<FactID>CONV R3</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>CONV R3.5</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+
+		<RevealFact>
+			<FactID>CB_R1</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
 	</ShipLogConditions>

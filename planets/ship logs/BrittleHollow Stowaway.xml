@@ -13,7 +13,7 @@
          <RumorFact>
             <IgnoreMoreToExplore/>
             <ID>BH_QML R3</ID>
-            <Text>A Nomai named Solanum hoped to visit and inquire about the Quantum Moon Locator on Brittle Hollow.</Text> 
+            <Text>Unlike the locator on Ember Twin, the Quantum Moon Locator on Brittle Hollow is able to track the sixth location.</Text> 
         </RumorFact>
          <RumorFact>
             <ID>BH_QML R4</ID>
@@ -27,7 +27,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>BH_QML EX2</ID>
-            <Text>A Nomai named Ilex provided a set of eyes from the Quantum Moon Locator on Ember Twin to aid another Nomai's pilgrimage to the Quantum Moon.</Text> 
+            <Text>A Nomai named Ilex provided a set of eyes from the Quantum Moon Locator on Ember Twin to aid Solanum's pilgrimage to the Quantum Moon.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>BH_QML EX3</ID>
