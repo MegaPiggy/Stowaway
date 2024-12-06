@@ -10,11 +10,19 @@ namespace Stowaway.Components
 	[RequireComponent(typeof(OverheadDetector))]
 	public class GhostMatterFloatController : MonoBehaviour
 	{
+		private OWRigidbody _rigidbody;
 		private OverheadDetector _overheadDetector;
+		private Vector3 _original;
+		private Vector3 _up;
+		private float _originalY;
 
 		public void Start()
 		{
+			_rigidbody = this.GetAttachedOWRigidbody();
 			_overheadDetector = this.GetRequiredComponent<OverheadDetector>();
+			_original = transform.position - _rigidbody.transform.position;
+			_originalY = _original.magnitude;
+			_up = _original / _original.magnitude;
 		}
 
 		public void OnDestroy()
