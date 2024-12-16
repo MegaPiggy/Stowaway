@@ -4,6 +4,7 @@
 	"name": "TimberHearth",
 	"removeChildren":
 		[
+			"Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiResearchExhibit/Character_NOM_Skeleton_v2/Nomai_Pelvis/",
 			"Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Prefab_NOM_Whiteboard_Shared",
 			"Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Prefab_NOM_SharedStone",
 
@@ -19,6 +20,8 @@
 
 		
 		
+
+
 "Volumes": {
 	"rulesets": {
 		"probeRulesets": [
@@ -64,8 +67,8 @@
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
 			"isRelativeToParent": true,
 			"radius": 11.2,
-			"revealOn": "enter",
-			"revealFor": "probe",
+			"revealOn": "snapshot",
+			"maxDistance": 10,
 			"reveals": ["SY R1"]
 		}
 		
@@ -306,6 +309,10 @@
 
 		
 		"details": [
+		
+
+
+
 			{
 				"rename":"warp table",
 				"assetBundle": "planets/bundle/prefabs",
@@ -328,14 +335,7 @@
 				"rotation":{"x": 340.1163,"y": 74.1128,"z": 99.1262},
 				"isRelativeToParent": true
 			},
-			{
-				"rename":"aquifer toy",
-				"path":"ModelRocket_Body/Geo_ModelRocket/",
-				"position":{"x": -49.2152,"y": -29.6427,"z": 175.4916},
-				"rotation":{"x": 357.5106,"y": 55.4858,"z": 136.4344},
-				"scale": 0.6,
-				"isRelativeToParent": true
-			},{
+		{
 				"rename":"aquifer probe prompt",
 				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Interactables_OrbitalProbeCannon/Interactables_VisibleOrbitalProbeCannon/OPC_Connector_Broken_BrokenPiece (1)/ProbePromptReceiver/",
 				"position":{"x": -47.4333,"y": -29.614,"z": 177.5344},
@@ -411,7 +411,7 @@
 				"rename":"Forest GM 1 notification",
 				"position": {"x":-93.972,"y": 20.8087,"z": -152.1071},
 				"rotation": {"x":48.1288,"y": 294.7789,"z": 80.7419},
-				"scale":3,
+				"scale":2,
 				"isRelativeToParent": true
 			},
 			{
@@ -755,7 +755,7 @@
 			{
 				"rename":"Sanctuary RAILS",
 				"path":"WhiteholeStationSuperstructure_Body/Geometry_WhiteholeStationSuperstructure/ControlledByProxy_WhiteholeStation/Structure_NOM_WhiteHoleStation_Rails",
-				"position":{"x": -109.562,"y": 16.0009,"z": 120.6296},
+				"position":{"x": -109.562,"y": 14.8009,"z": 120.6296},
 				"rotation":{"x": 357.4664,"y": 320.3704,"z": 127.6975},
 				"scale":0.39,
 				"isRelativeToParent": true
@@ -763,7 +763,7 @@
 			{
 				"rename":"Sanctuary sun orbit",
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken/HologramProjector/HologramDisplayPoint/Hologram_LatestProbeTrajectory/ScaleRoot/GiantsDeepRoot/Cannon_Pivot",
-				"position":{"x": -106.5561,"y": 18.9662,"z": 122.7516},
+				"position":{"x": -106.5561,"y": 17.7662,"z": 122.7516},
 				"rotation":{"x":7.674,"y": 136.5031,"z": 52.3203},
 				"scale":10,
 				"removeChildren": ["CannonRoot"],
@@ -835,6 +835,7 @@
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/rotation guy.prefab",
 				"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
+				"rotation": {"x":0,"y":0,"z":0},
 				"isRelativeToParent": true
 			},
 			{
@@ -842,6 +843,7 @@
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/star ore shell.prefab",
 				"position":{"x": 0,"y": 0,"z": 0},
+				"rotation": {"x":0,"y":0,"z":0},
 				"parentPath": "Sector_TH/Sanctuary shell rotate",
 				"scale": 1.5,
 				"isRelativeToParent": true,

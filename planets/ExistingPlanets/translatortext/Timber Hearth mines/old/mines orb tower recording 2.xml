@@ -1,0 +1,87 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CYCAD: I have faith... You can do it!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		OENO: <![CDATA[<i>No!</i>]]> It scampered off again...
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		OENO: You saw the vision orb move upwards, didn't you, Cycad? Neither of us were looking directly at it!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		OENO: I have been adjusting our vision orbs to accomodate the native lifeforms' vision, you see! I am hopeful the native species will learn to use them soon.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		COLEUS: I wish I could credit their eyes, Oeno - but I'm afraid it was more likely the <![CDATA[<color=lightblue>Attlerock's</color>]]> gravity pulling the vision orb upwards as it orbited overhead..
+				</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		OENO: Was the <![CDATA[<color=lightblue>Attlerock</color>]]> orbiting overhead just now? Oh, how maddening!
+				</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		CYCAD: Still, it is a joy watching you teach and play with the native species, Oeno.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		OENO: I am glad to hear you say so! It is lovely seeing these lifeforms growing more curious as they become more comfortable with our presence.
+				</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		OENO: I can only imagine how they will surprise us as they continue to grow and learn from this universe!
+				</Text>
+	</TextBlock>
+	
+
+<ShipLogConditions>
+
+	<RevealFact>
+			<FactID>Campsite Orb EX1</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+			
+		
+</ShipLogConditions>
+
+</NomaiObject>

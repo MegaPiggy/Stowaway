@@ -80,10 +80,6 @@
 			<FactID>Campsite EX3</FactID>
 			<Condition>8</Condition>
 		</RevealFact>
-			<RevealFact>
-			<FactID>Campsite EX4</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
 
 				<RevealFact>
 			<FactID>SY R4</FactID>

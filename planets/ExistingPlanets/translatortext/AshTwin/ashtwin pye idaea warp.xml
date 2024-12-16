@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		PYE: Recall my promise, Idaea; I swore to you that I would not support the <![CDATA[<color=orange>Sun Station's</color>]]> use, unless we were sure it would not cause destruction.
+		PYE: Recall my promise to you, Idaea; I swore to you I would only support this project if I were certain it would not cause destruction.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -62,7 +62,7 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		IDAEA: Our destination aligns above us!
+		IDAEA: Our destination aligns above us.
 		</Text>
 	</TextBlock>
 
@@ -71,7 +71,7 @@
 		<LocationA />
 		<ParentID>8</ParentID>
 		<Text>
-		IDAEA: Come, Pye: The <![CDATA[<color=orange>Deep Storm Station</color>]]> awaits.
+		IDAEA: Come, Pye: The <![CDATA[<color=orange>Deep Storm Station</color>]]> awaits!
 		</Text>
 	</TextBlock>
 

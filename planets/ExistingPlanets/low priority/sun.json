@@ -1,0 +1,81 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name":"Sun",
+	"removeChildren": ["Sector_SUN/Effects_SUN/SolarFlareEmitter/SolarFlareDome(Clone)"],
+
+	"Props" :
+	{
+		"details": [
+			{
+				"rename":"sun gm wisp normal",
+				"keepLoaded": true,
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/gm sphere.prefab",
+				"parentPath": "Sector_SUN/Volumes_SUN/ScaledVolumesRoot/DestructionFluidVolume/",
+				"scale":1700
+			},
+			{
+				"rename":"sun gm notif normal",
+				"keepLoaded": true,
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume/NotificationVolume",
+				"parentPath": "Sector_SUN/Volumes_SUN/ScaledVolumesRoot/DestructionFluidVolume/",
+				"scale":203
+			},
+			
+
+
+			{
+				"rename":"sun gm wisp supernova",
+				"keepLoaded": true,
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/gm sphere.prefab",
+				"parentPath": "Sector_SUN/Volumes_SUN/SupernovaVolume",
+				"scale":1.3
+			}
+			
+		]
+	},
+	"Volumes": {
+		"notificationVolumes": [
+			{
+				"entryNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY!!", "duration": 100},
+				"exitNotification": {"displayMessage": ""},
+				"parentPath": "Sector_SUN/Volumes_SUN/SupernovaVolume",
+				"radius": 2
+			},
+			{
+				"entryNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY!", "duration": 100},
+				"exitNotification": {"displayMessage": ""},
+				"parentPath": "Sector_SUN/Volumes_SUN/SupernovaVolume",
+				"radius": 3
+			},
+			{
+				"entryNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY", "duration": 100},
+				"exitNotification": {"displayMessage": ""},
+				"parentPath": "Sector_SUN/Volumes_SUN/SupernovaVolume",
+				"radius": 8.5
+			}
+		],
+		"hazardVolumes": [
+			{
+				"rename": "gm volume normal",
+				"type": "ghostMatter",
+				"radius": 2200,
+				"damagePerSecond": 10,
+				"parentPath": "Sector_SUN/Volumes_SUN/ScaledVolumesRoot/DestructionFluidVolume/"
+			},
+			{
+				"rename": "gm volume supernova",
+				"type": "ghostMatter",
+				"radius": 1.6,
+				"damagePerSecond": 10,
+				"parentPath": "Sector_SUN/Volumes_SUN/SupernovaVolume"
+			}
+		]
+		
+		
+	}
+	
+
+}

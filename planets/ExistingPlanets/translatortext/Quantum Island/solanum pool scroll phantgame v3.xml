@@ -15,7 +15,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			PLUME: In the absence of those on the expedition to the <![CDATA[<color=lightblue>Quantum Moon,</color>]]> I must investigate the cause of this phenomenon on my own.
+			PLUME: In the absence of those on the expedition to the <![CDATA[<color=lightblue>Quantum Moon,</color>]]> I have decided to investigate the cause of this phenomenon on my own.
 			</Text>
 	</TextBlock>
 
@@ -65,7 +65,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		PLUME: Hypothesis confirmed! Hypothesis confirmed! My friends, we have found the secret to the jellyfishes' behavior at last!
+		PLUME: Hypothesis confirmed! Hypothesis confirmed! At last, we have found the secret to the jellyfishes' behavior!
 		</Text>
 	</TextBlock>
 

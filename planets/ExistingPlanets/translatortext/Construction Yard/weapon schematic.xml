@@ -2,7 +2,7 @@
 <TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text><![CDATA[<color=orange>INSPIRED PROJECT</color>]]> SCHEMATICS</Text>
+		<Text><![CDATA[<color=orange>INSPIRED</color>]]> SCHEMATICS</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -39,7 +39,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		Of note: Gravity crystals insufficient to complete lattice at the front of structure. Care must be taken to minimize entry points in this section.</Text>
+		Of note: Amount of gravity crystals insufficient to complete lattice at front of structure. Care must be taken to minimize entry points in this section.</Text>
 			</TextBlock>
 
 

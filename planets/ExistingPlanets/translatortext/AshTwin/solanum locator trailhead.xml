@@ -7,7 +7,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		SOLANUM: Ilex, you are here already? I apologize for the wait! I did not think you would reach <![CDATA[<color=lightblue>Ember Twin</color>]]> so quickly.
+		SOLANUM: Ilex, I apologize for the wait! I did not think you would reach <![CDATA[<color=lightblue>Ember Twin</color>]]> so quickly.
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		ILEX: Although, I suppose if I had been late, I could have simply visited the new <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> to support your pilgrimage nonetheless!
+		ILEX: Still, I believe I could have simply visited the new <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> to support your pilgrimage.
 		</Text>
 	</TextBlock>
 
@@ -34,7 +34,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		SOLANUM: Wait.. Is there a second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow?</color>]]> This is the first time I have heard of it!
+		SOLANUM: Wait.. There was a second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> built on <![CDATA[<color=lightblue>Brittle Hollow?</color>]]> This is the first time I have heard of it!
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		ILEX: There is. I was curious why you did not use this newer locator.. especially when unlike this locator, it is able to track the sixth location!
+		ILEX: There is. I was curious why you did not use this newer locator.. especially when it is able to track when the <![CDATA[<color=lightblue>Quantum Moon</color>]]> visits the sixth location, unlike this locator!
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		SOLANUM: That sounds quite curious. It was Bells who advised me on my pilgrimage.. I wonder why she never mentioned this locator! Would it have made the pilgrimage too simple?
+		SOLANUM: That sounds quite curious! I wonder why Bells never mentioned this locator to me.. Would it have made the pilgrimage too simple?
 		</Text>
 	</TextBlock>
 

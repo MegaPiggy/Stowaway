@@ -179,7 +179,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>SY EX3</ID> 
-            <Text>A Nomai named Cycad sought help after he disengaged his voyager stone by accident, causing a quantum shard to escape his sight. Another Nomai reminded him that voyagers were able to use the rule of quantum entanglement.</Text> 
+            <Text>A Nomai named Cycad was concerned after a quantum shard escaped his sight after accidentally disconnecting from his voyager. Another Nomai reminded him that voyagers are able to use the rule of quantum entanglement.</Text> 
          </ExploreFact>
          <ExploreFact>
             <ID>SY EX4</ID> 
@@ -220,11 +220,7 @@
         </ExploreFact>
          <ExploreFact>
             <ID>Campsite EX3</ID>
-            <Text>The Nomai used a new invention from the Scroll and Stone Workshop on Giant's Deep to enter and exit the Sanctuary.</Text> 
-        </ExploreFact>
-           <ExploreFact>
-            <ID>Campsite EX4</ID>
-            <Text>The Scroll and Stone Workshop's new invention allowed the Nomai to freely use the rule of quantum entanglement.</Text> 
+            <Text>The Nomai used a new invention from the Scroll and Stone Workshop on Giant's Deep to enter and exit the Sanctuary. This new invention allowed the Nomai to freely use the rule of quantum entanglement.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>Campsite EX5</ID>

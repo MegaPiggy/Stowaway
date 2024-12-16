@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		LAEVI: Lami, I ask as your big brother: Please, use the <![CDATA[<color=orange>Artificial Gravity Highway</color>]]> normally. We have already played this game enough times!
+		LAEVI: Lami, I ask as your big brother: Please, use the <![CDATA[<color=orange>Artificial Gravity Highway</color>]]> normally! We have already played this game enough times..
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		LAMI: Not yet, Laevi! I won't give up on this game, not until I jump higher than you!
+		LAMI: Not yet! I won't rest until I can beat your record, Laevi!
 		</Text>
 	</TextBlock>
 
@@ -48,7 +48,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		LAEVI: That is because we're on <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> north pole now, Lami..
+		LAEVI: It is because we're on <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> north pole now, Lami..
 		</Text>
 	</TextBlock>
 

@@ -73,17 +73,17 @@ Clue: Supernova generate lots of heat
 		</Text>
 	</TextBlock>
 	<TextBlock>
-		<ID>8</ID>
+		<ID>9</ID>
 		<LocationB />
-		<ParentID>7</ParentID>
+		<ParentID>8</ParentID>
 		<Text>
 		CLARY: That is a relief to hear. I cannot begin to imagine what dangers our elders must have faced to obtain such knowledge!
 		</Text>
 	</TextBlock>
 	<TextBlock>
-		<ID>9</ID>
+		<ID>10</ID>
 		<LocationB />
-		<ParentID>8</ParentID>
+		<ParentID>9</ParentID>
 		<Text>
 		CLARY: Still, it is astounding to imagine anything standing up to the might of a supernova.. The universe never fails to surprise us!
 		</Text>

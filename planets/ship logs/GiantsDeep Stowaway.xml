@@ -122,6 +122,10 @@
             <RumorName>Jellyfish Study Site</RumorName>
             <Text>The Nomai discovered frozen jellyfish on this island. They decided to seek higher elevation on the island safe from waves to study them.</Text>
         </RumorFact>
+         <RumorFact>
+            <ID>Study R2</ID>
+            <Text>Nomai at this site noticed Giant's Deep becoming completely dark, before what appeared to be a giant column of water launched the island into space.</Text>
+        </RumorFact>
         
         <ExploreFact>
             <ID>Study EX1</ID> 
@@ -133,7 +137,11 @@
          </ExploreFact>
           <ExploreFact>
             <ID>Study EX3</ID> 
-            <Text>Nomai at this site noticed Giant's Deep becoming completely dark, before what appeared to be a giant column of water launched the island into space.</Text>
+            <Text>A Nomai named Melorae was cut off after seeing the sky become dark.</Text>
+             <AltText>
+                         <Text>Nomai at this site noticed Giant's Deep becoming completely dark, before what appeared to be a giant column of water launched the island into space.</Text>
+                         <Condition>Study R2</Condition> 
+               </AltText>
         </ExploreFact>
 </Entry>
       
@@ -384,7 +392,7 @@
             <RumorName>Irradiated Station</RumorName>
                  <IgnoreMoreToExplore/>
             <ID>DSS Probe</ID> 
-            <Text>My scout was warped somewhere into a space with glowing masks and wires. It appears to be flooded with ghost matter.</Text>
+            <Text>My scout was warped somewhere into a space flooded with ghost matter. I could see purple electricity outside the viewport.</Text>
     </RumorFact>
     <RumorFact>
             <ID>DSS R2</ID>
@@ -437,9 +445,9 @@
 
         <ExploreFact>
             <ID>DSS EX1</ID> 
-            <Text>An underwater station built at the heart of Giant's Deep.</Text>
+            <Text>An underwater Nomai station deep within Giant's Deep.</Text>
                   <AltText>
-                        <Text>An underwater station at the heart of Giant's Deep, built to test the mechanisms of the Ash Twin Project using energy from the planet's electric core.</Text>
+                        <Text>An underwater Nomai station deep within Giant's Deep, built to test the mechanisms of the Ash Twin Project using energy from the planet's electric core.</Text>
                         <Condition>CONV R1</Condition>
                  </AltText>
         </ExploreFact>
@@ -469,7 +477,7 @@
 
   <ExploreFact>
             <ID>DSS EX3.5</ID> 
-            <Text>Giant's Deep's thick clouds obscure sight of anything outside the planet, protecting the native species from harm.</Text> 
+            <Text>Giant's Deep's thick clouds obscured sight of anything outside the planet, protecting the native species from harm.</Text> 
         </ExploreFact>
 
           <ExploreFact>
@@ -479,7 +487,7 @@
 
         <ExploreFact>
             <ID>DSS EX5</ID> 
-            <Text>After releeasing the species within the Sanctuary with his voyager, Cassava warped all ghost matter he gathered from the star system into the Deep Storm Station to contain it indefinitely.</Text>
+            <Text>After releasing the species within the Sanctuary with his voyager, Cassava gathered ghost matter that had engulfed the other planets and warped it into the Deep Storm Station, containing it indefinitely.</Text>
         </ExploreFact>
 
 </Entry>

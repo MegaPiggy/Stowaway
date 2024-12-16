@@ -51,7 +51,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		CASSAVA: If the <![CDATA[<color=orange>Black Hole Forge</color>]]> were able to work more quickly, we would be able to travel to both destinations by warp. Sadly, the rate at which new warp cores are crafted is not proportionate to our ambition!</Text>
+		CASSAVA: If the <![CDATA[<color=orange>Black Hole Forge</color>]]> were able to work more quickly, we would travel to both destinations by warp.. Sadly, the rate at which new warp cores are crafted is not proportionate to our ambition!</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

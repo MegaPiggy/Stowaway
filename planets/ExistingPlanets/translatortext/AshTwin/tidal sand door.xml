@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		OENO: Yarrow and I have noticed the rotating doors on several towers on Ash Twin opening and closing on their own, even without the sight of any Nomai.
+		OENO: Yarrow and I have noticed the rotating doors on several towers on Ash Twin opening and closing on their own, even without the influence of any Nomai.
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: After closer study, I can confidently conclude that the phenomenon is not caused by any structural defect in the doors, but by the sunless day.
+		OENO: After closer study, I can confidently conclude that this phenomenon is not caused by any structural defect in the doors, but by the sunless day.
 		</Text>
 	</TextBlock>
 
@@ -69,7 +69,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: Though the Hourglass Twins feel a pull of gravity from each other, this force alone should not be enough to cause vision orbs to activate.
+		OENO: Though the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> feel a constant pull of gravity from each other, this force alone should not be enough to cause vision orbs to activate.
 		</Text>
 	</TextBlock>
 	

@@ -23,7 +23,6 @@
             <SourceID>COMET_INTERIOR</SourceID>
             <Text>The Interloper was used as the model for the Inspired.</Text>
          </RumorFact>
-
         <RumorFact>
              <IgnoreMoreToExplore/>
             <ID>INSP R3</ID>
@@ -49,9 +48,9 @@
   <ExploreFact>
              <IgnoreMoreToExplore/>
             <ID>INSP EX2</ID>
-            <Text>The Inspired was a superweapon made by a Nomai named Cassava, to bring great destruction to the source of ghost matter.</Text>
+            <Text>A Nomai named Cassava built the Inspired to bring great destruction to the source of ghost matter.</Text>
                <AltText>
-                        <Text>The Inspired was a superweapon made by a Nomai named Cassava, to bring great destruction to the source of the Interloper.</Text>
+                        <Text>A Nomai named Cassava built the Inspired to bring great destruction to the source of the Interloper.</Text>
                         <Condition>COMET_INTERIOR_X1</Condition>
                  </AltText>
         </ExploreFact>
@@ -62,7 +61,7 @@
             <Text>The Inspired's construction used all available gravity crystals, and a white hole warp core powering the Deep Storm Station.</Text>
              <AltText>
                         <Text>The Inspired's construction used all available gravity crystals, and a white hole warp core powering the Deep Storm Station. Using a lattice of gravity crystals, it would exploit the property of attraction.</Text>
-                        <Condition>DSS EXG</Condition>
+                        <Condition>INSP R1.5</Condition>
                  </AltText>
         </ExploreFact>
 
@@ -81,7 +80,7 @@
            <ExploreFact>
             <IgnoreMoreToExplore/>
             <ID>INSP EX7</ID>
-            <Text>The Inspired was kept in stationary orbit around Giant's Deep, in case containment of ghost matter was breached.</Text>
+            <Text>The Inspired was kept in stationary orbit around Giant's Deep in case containment of ghost matter was breached.</Text>
        </ExploreFact>
 
           

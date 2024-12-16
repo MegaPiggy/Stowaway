@@ -8,7 +8,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		MELORAE: Bur, are you well? The construction of the <![CDATA[<color=orange>solar tower</color>]]> appears to have taken a great toll on you!
+		MELORAE: Bur, are you well? The construction of this <![CDATA[<color=orange>solar tower</color>]]> appears to have taken a great toll on you!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		BUR: Why did we not wait for a sunless day to begin work on this <![CDATA[<color=orange>solar tower?</color>]]>
+		BUR: Why did we not wait for a sunless day to begin work on the <![CDATA[<color=orange>solar tower?</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -40,7 +40,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		YARROW: We could not, Bur, as the north and south poles never experience sunless days.
+		YARROW: We could not, Bur.. The north and south poles never experience sunless days.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -56,7 +56,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		MELORAE: On the sunward side, as the funnel of sand follows the sunless day, we will never need to worry about the funnel of sand here.
+		MELORAE: On the sunward side, as the funnel of sand follows the sunless day, we will never need to worry about the funnel of sand while working here.
 		</Text>
 	</TextBlock>
 	<TextBlock>

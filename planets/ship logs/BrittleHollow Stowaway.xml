@@ -13,7 +13,8 @@
          <RumorFact>
             <IgnoreMoreToExplore/>
             <ID>BH_QML R3</ID>
-            <Text>Unlike the locator on Ember Twin, the Quantum Moon Locator on Brittle Hollow is able to track the sixth location.</Text> 
+            <SourceID>CT_QUANTUM_MOON_LOCATOR</SourceID>
+            <Text>The Quantum Moon Locator on Brittle Hollow is able to track when the Quantum Moon is visiting the sixth location, unlike the locator on Ember Twin.</Text> 
         </RumorFact>
          <RumorFact>
             <ID>BH_QML R4</ID>
@@ -31,11 +32,11 @@
         </ExploreFact>
           <ExploreFact>
             <ID>BH_QML EX3</ID>
-            <Text>The locator on Brittle Hollow is more difficult to use to track the Quantum Moon because it is underground.</Text> 
+            <Text>The Quantum Moon Locator on Brittle Hollow is unable to track the precise positions of the planets, and has a poor view of the sky.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>BH_QML EX4</ID>
-            <Text>The Quantum Moon Locator on Ember Twin has a clear view of the sky, allowing use of the rule of quantum imaging from afar.</Text> 
+            <Text>The Quantum Moon Locator on Ember Twin has both a clear view of the sky and the ability to pinpoint each celestial body, making it easier to use the rule of quantum imaging from afar.</Text> 
      </ExploreFact>
       
 </Entry>
@@ -132,7 +133,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>GSHOP EX5</ID> 
-            <Text>All available gravity crystals from this workshop were transported to Giant's Deep to build something called the Inspired.</Text> 
+            <Text>All available gravity crystals at this workshop were transported to Giant's Deep to build something called the Inspired.</Text> 
         </ExploreFact>
       
 </Entry>

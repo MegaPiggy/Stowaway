@@ -14,7 +14,8 @@
         </RumorFact>
         <RumorFact>
             <ID>GD Tower R1.5</ID>
-             <Text>Chert wonders if there is a tower on Ash Twin that travels to Timber Hearth.</Text> 
+             <RumorName>Warp Tower</RumorName>
+             <Text>The return warp on Timber Hearth sends one to a corresponding warp tower on Ash Twin.</Text> 
         </RumorFact>
           <RumorFact>
             <ID>GD Tower R2</ID>
@@ -54,7 +55,8 @@
         
         <RumorFact>
             <ID>BH Tower R2</ID>
-             <Text>Chert wonders if there is a tower on Ash Twin that travels to Timber Hearth.</Text> 
+            <RumorName>Warp Tower</RumorName>
+             <Text>The return warp on Timber Hearth sends one to a corresponding warp tower on Ash Twin.</Text> 
         </RumorFact>
          <ExploreFact>
             <ID>BH Tower EX1</ID>
@@ -84,8 +86,9 @@
              <Text>A tower on Ash Twin in the shape of a mountain.</Text> 
         </RumorFact>
         <RumorFact>
-            <ID>TH Tower R2</ID>
-             <Text>Chert wonders if there is a tower on Ash Twin that travels to Timber Hearth.</Text> 
+            <ID>TH Tower R2</ID>       
+            <RumorName>Warp Tower</RumorName>
+             <Text>The return warp on Timber Hearth sends one to a corresponding warp tower on Ash Twin.</Text> 
         </RumorFact>
 
          <ExploreFact>
@@ -125,7 +128,8 @@
         </RumorFact>
         <RumorFact>
             <ID>SS Tower R2</ID>
-             <Text>Chert wonders if there is a tower on Ash Twin that travels to Timber Hearth.</Text> 
+            <RumorName>Warp Tower</RumorName>
+             <Text>The return warp on Timber Hearth sends one to a corresponding warp tower on Ash Twin.</Text> 
         </RumorFact>
          <ExploreFact>
             <ID>SS Tower EX1</ID>
@@ -167,7 +171,8 @@
         </RumorFact>
         <RumorFact>
             <ID>HGT Tower R2</ID>
-             <Text>Chert wonders if there is a tower on Ash Twin that travels to Timber Hearth.</Text> 
+            <RumorName>Warp Tower</RumorName>
+             <Text>The return warp on Timber Hearth sends one to a corresponding warp tower on Ash Twin.</Text> 
         </RumorFact>
          <ExploreFact>
             <ID>HGT Tower EX1</ID>

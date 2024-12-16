@@ -21,7 +21,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		SOLANUM: However, he was curious why we were instructed to use the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin,</color>]]> instead of the one here on <![CDATA[<color=lightblue>Brittle Hollow!</color>]]>
+		SOLANUM: However, he was curious why we were not instructed to use the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> here, which is capable of tracking the <![CDATA[<color=lightblue>Quantum Moon</color>]]> even as it visits the sixth location!
 		</Text>
 	</TextBlock>
 
@@ -48,7 +48,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		BELLS: With much of the sky obscured at this site, it is much more difficult to track the <![CDATA[<color=lightblue>Quantum Moon</color>]]> using this locator.
+		BELLS: Not only is much of the sky obscured at this site, it is also unable to track the planets' precise positions.. The locator simply detects the absence of the Quantum Moon's signal at the sixth location.
 		</Text>
 	</TextBlock>
 
@@ -57,7 +57,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		BELLS: With a clear view of the sky, the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]> allows one to easily use the rule of quantum imaging from afar.
+		BELLS: With its clear view of the sky, and ability to pinpoint each celestial body, we deemed the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]> much more useful for using the rule of quantum imaging from afar.
 		</Text>
 	</TextBlock>
 

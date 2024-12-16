@@ -59,7 +59,7 @@
 				"path": "Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_collider",
 				"position": {"x": -7.4614, "y": -552.4193, "z": -8.8027},
 				"rotation": {"x": 296.4384, "y": 85.6072, "z": 56.0576},
-				"scale": 1,
+				"parentPath": "Sector_StatueIsland/Orcnid w Stray Legs/",
 				"isRelativeToParent": true
 			},
 

@@ -7,7 +7,7 @@
 	
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Woah! Just saying my goodbyes, Mica. Why'd I have changed my mind?</Text>
+				<Text>Hey, Mica. Got any questions for me about space?</Text>
 				<DialogueTarget>ModelRocketKid_Sand_intro</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -19,19 +19,25 @@
 		<Name>ModelRocketKid_Sand_intro</Name>
 		 <SetPersistentCondition>Mica_Chert</SetPersistentCondition>
 		<Dialogue>
-			<Page>You tell me! You astronauts always change your first launches at the last minute.</Page>
-				<Page>Remember Gabbro's first launch? They delayed it just because they wanted to get another nap in first!</Page>
-				<Page>And Riebeck, well, Riebeck had good reason to delay theirs, at least.. They had to be grounded while they calmed their nerves.</Page>
-			<Page>Oh, oh - but remember <![CDATA[<i>Chert's</i>]]> first launch?</Page>
-     		 <Page>They delayed their first launch <![CDATA[<Pause=1>]]> SEVERAL <![CDATA[<Pause=1>]]> times. We had like, three farewell parties!</Page>
+			<Page>Uhh, sure, if you wanna know! It's less a question and more of a complaint, though.</Page>
+				<Page>Could you help me ask Chert when Ash Twin's sand actually starts flowing back to Ember Twin?</Page>
+				<Page>You probably know this already, being in the space program and all - but apparently, the sand flows back and forth between the Hourglass Twins from time to time.. It's wicked cool!</Page>
+				<Page>Chert told me before they took off that the Hourglass Twins were going to start doing that again soon, so I've been waiting every day to fly my new model rocket into that big ol' sand column that appears when the sand starts flowing between the planets.</Page>
+			<Page>I've been waiting and waiting, staring into the sun every day trying to see if the sand's started flowing.. But it just doesn't happen!</Page>
+     		 <Page>When in the world does this weird planetary sand exchange happen?! I'm going crazy waiting for it!</Page>
 			 </Dialogue>
 			  				<RevealFacts>
      						   <FactID>MICA EX1</FactID>
     					  </RevealFacts>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>I don't remember that. Why'd Chert have so many delays?</Text>
+				<Text>Oh, it happens pretty soon. Just be patient, Mica!</Text>
 				<DialogueTarget>ModelRocketKid_SW1</DialogueTarget>
+			</DialogueOption>
+			
+			<DialogueOption>
+				<Text>Sure, I'll ask Chert for ya.</Text>
+				<DialogueTarget>ModelRocketKid_SW2</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
 	</DialogueNode>
@@ -44,9 +50,9 @@
 <DialogueNode>
 		<Name>ModelRocketKid_SW1</Name>
 		<Dialogue>
-		<Page>Beats me! I thought you’d know, being in the space program and all.</Page>
-		<Page>Actually, I'm pretty sure they explained why at some point, but everyone was too excited to see the takeoff at last to remember that part.</Page>
-			<Page>Well hey, maybe if you <![CDATA[<i>take off soon...</i>]]> You can find Chert and ask them yourself about their launch day yourself!</Page>
+		<Page>Yeah, yeah. That's what everyone tells me.</Page>
+		<Page>I wait another day, then I beg Moraine to lend me their signalscope to check, and I get disappointed every time!</Page>
+			<Page>Look, could you just find Chert and ask them for me?</Page>
 			 </Dialogue>
 </DialogueNode>
 

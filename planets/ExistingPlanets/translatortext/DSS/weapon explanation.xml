@@ -11,7 +11,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Using a lattice of gravity crystals arranged towards its core, the <![CDATA[<color=orange>Inspired</color>]]> will power a highly localized gravitational field to exploit the property of attraction.
+		CASSAVA: Using a lattice of gravity crystals, the <![CDATA[<color=orange>Inspired</color>]]> will power a highly localized gravitational field to exploit the property of attraction.
 		</Text>
 			</TextBlock>
 			<TextBlock>	
@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-			 CASSAVA: The accumulated pressure will be explosively released, spreading its payload across, and delivering massive destruction to any star system within its blast radius.
+			 CASSAVA: As the accumulated pressure is explosively released, it will spread its payload across and deliver destruction to any star system within its blast radius.
 		</Text>
 	</TextBlock>
 
@@ -66,11 +66,11 @@
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>INSP R3</FactID>
-			<Condition>6</Condition>
+			<FactID>INSP R1.5</FactID>
+			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>INSP EX2</FactID>
+			<FactID>INSP R3</FactID>
 			<Condition>6</Condition>
 		</RevealFact>
 	

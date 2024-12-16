@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		YARROW: Is everyone ready? The <![CDATA[<color=orange>Deep Storm Station's</color>]]> test will soon begin!
+		YARROW: Is everyone ready? The test will soon begin!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -61,7 +61,7 @@
 		<ParentID>7</ParentID>
 		<LocationB />
 		<Text>
-		PYE: Idaea is correct, Yarrow. Once the <![CDATA[<color=orange>Sun Station</color>]]> is complete, we can now be confident in its operation without fear of endangering the star system and ourselves!
+		PYE: Idaea is correct, Yarrow. Once the <![CDATA[<color=orange>Sun Station</color>]]> is complete, we can now be confident in its operation without fear of endangering the star system and its inhabitants!
 		</Text>
 	</TextBlock>
 
