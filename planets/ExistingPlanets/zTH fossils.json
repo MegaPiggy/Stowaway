@@ -6,7 +6,53 @@
 	"Props":
 	{
 		"details":
-		[
+		[{
+			"rename":"village patch fossil 1",
+			"assetBundle": "planets/bundle/eye stuff",
+			"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
+			"rotation": {
+				"x": 5.7546,
+				"y": 270.9965,
+				"z": 279.6456
+			},
+			"position": {
+				"x": 35.2082,
+				"y": 37.0264,
+				"z": 227.5744
+			}
+		},
+		{
+			"rename":"village patch fossil 2",
+			"assetBundle": "planets/bundle/eye stuff",
+			"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
+			"rotation": {
+				"x": 306.9965,
+				"y": 255.4365,
+				"z": 289.2079
+			},
+			"position": {
+				"x": 33.6994,
+				"y": 42.2888,
+				"z": 226.925
+			}
+		},
+		{
+			"rename":"village patch fossil 3",
+			"assetBundle": "planets/bundle/eye stuff",
+			"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
+			"rotation": {
+				"x": 283.285,
+				"y": 321.8699,
+				"z": 204.8902
+			},
+			"position": {
+				"x": 39.5707,
+				"y": 44.3631,
+				"z": 224.9933
+			}
+		},
+
+
 			{
 				"rename":"village sewer fossil",
 				"assetBundle": "planets/bundle/eye stuff",

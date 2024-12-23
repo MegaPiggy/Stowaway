@@ -311,7 +311,7 @@
 				"rename":"Ceiling holefixer 2",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/floor_broken_f.prefab",
-				"position": {"x": 15.1206, "y": 48.0092, "z": -9.9539},
+				"position": {"x": 15.1206, "y": 48.5092, "z": -9.9539},
 				"rotation": {"x": 0.7832, "y": 231.4644, "z": 358.3756},
 				"stretch": {"x":3.5909,"y": 2.8,"z": 3.6582},
 				"keepLoaded": true,

@@ -34,7 +34,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		POKE: A warp transmitter requires a connected warp receiver to function; the <![CDATA[<color=orange>White Hole Station's</color>]]> does not yet have a connected warp receiver for it to transport Nomai to at this time!
+		POKE: A warp transmitter requires a connected warp receiver to function; the <![CDATA[<color=orange>White Hole Station</color>]]> does not yet have a connected warp receiver for it to transport Nomai to at this time!
 		</Text>
 	</TextBlock>
 

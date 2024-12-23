@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
-    "popupMessage": "We recommend completing the basegame before exploring the story of the Stowaway.\nWe hope that you will enter this mod with a curious mind, ready to learn more about this universe!",
+    "popupMessage": "We recommend completing the basegame before exploring the story of the Stowaway.\nTo start the mod, talk to Slate about ghost matter, after dying to ghost matter at least once!",
     "credits": [
         "atk#Designer\n#Writer\n#Level Designer\n#2D Illustrator",
         "MegaPiggy#Main Programmer\n#MVP",

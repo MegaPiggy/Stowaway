@@ -9,19 +9,20 @@
 
 			<DialogueOption>
 			<CancelledCondition>Asked_Galena</CancelledCondition>
-				<Text>You look like you have something to ask me, Galena.</Text>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
+				<Text>Hey, Galena. Did you hear anything about ghost matter disappearing?</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
 
 			<DialogueOption>
 			<RequiredCondition>Asked_Galena</RequiredCondition>
-				<Text>Where do I look for your toy rocket again, Galena?</Text>
+				<Text>Where do I look for this skeleton again, Galena?</Text>
 				<DialogueTarget>ShyKidNew1B</DialogueTarget>
 			</DialogueOption>
 
 				<DialogueOption>
 				<RequiredLogCondition>GAL EX3</RequiredLogCondition>
-				<Text>I found your model rocket in the drain, Galena.</Text>
+				<Text>I saw the skeleton in the drain, Galena.</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -30,22 +31,22 @@
 <DialogueNode>
 		<Name>ShyKid2</Name>
 	
-		<DialogueOptionsList>
+	<DialogueOptionsList>
 			<DialogueOption>
 			<CancelledCondition>Asked_Galena</CancelledCondition>
-				<Text>You still look like you have something to ask me, Galena.</Text>
+				<Text>Hey, Galena. Did you hear anything about ghost matter disappearing?</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
 
 			<DialogueOption>
 			<RequiredCondition>Asked_Galena</RequiredCondition>
-				<Text>Where do I look for your toy rocket again, Galena?</Text>
+				<Text>Where do I look for this skeleton again, Galena?</Text>
 				<DialogueTarget>ShyKidNew1B</DialogueTarget>
 			</DialogueOption>
 
 				<DialogueOption>
 				<RequiredLogCondition>GAL EX3</RequiredLogCondition>
-				<Text>I found your model rocket in the drain, Galena.</Text>
+				<Text>I saw the skeleton in the drain, Galena.</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -58,19 +59,19 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 			<CancelledCondition>Asked_Galena</CancelledCondition>
-				<Text>You still look like you have something to ask me, Galena.</Text>
+				<Text>Hey, Galena. Did you hear anything about ghost matter disappearing?</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
 
 			<DialogueOption>
 			<RequiredCondition>Asked_Galena</RequiredCondition>
-				<Text>Where do I look for your toy rocket again, Galena?</Text>
+				<Text>Where do I look for this skeleton again, Galena?</Text>
 				<DialogueTarget>ShyKidNew1B</DialogueTarget>
 			</DialogueOption>
 
 				<DialogueOption>
 				<RequiredLogCondition>GAL EX3</RequiredLogCondition>
-				<Text>I found your model rocket in the drain, Galena.</Text>
+				<Text>I saw the skeleton in the drain, Galena.</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -80,12 +81,17 @@
 		<Name>ShyKidNew1</Name>
 		<SetCondition>Asked_Galena</SetCondition>
 		<Dialogue>
+			<Page><![CDATA[<size=20>]]>No..? I've never heard of that before..<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>Um...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>I need your help, astronaut..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>So how do you make ghosts disappear, astronaut?<![CDATA[</size>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>
-				<Text>What's up, Galena?</Text>
+				<Text>Not 'ghosts'.. Ghost matter, Galena.</Text>
+				<DialogueTarget>ShyKidNew1.5</DialogueTarget>
+			</DialogueOption>
+		<DialogueOption>
+				<Text>Er.. Are there.. ghosts in the village somewhere?</Text>
 				<DialogueTarget>ShyKidNew2</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -93,17 +99,34 @@
 
 
 <DialogueNode>
-		<Name>ShyKidNew2</Name>
+		<Name>ShyKidNew1.5</Name>
 		<Dialogue>
-		<Page><![CDATA[<size=20>]]>My toy rocket got swept down the river again..<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>I think it got swept into the drain behind the village water wheel.. But it was really scary crawling into there last time this happened..<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Could you please use your Little Scout to look in there for me, astronaut?<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>It's the little drain behind the water wheel. You'll see it if you follow the river down the village..<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Um, it's really cramped in the drain - so you might need to rotate the Little Scout's camera to see in there...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>Oh...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Um, could you help me make a ghost disappear anyway, astronaut?<![CDATA[</size>]]></Page>
 		</Dialogue>	
 		<DialogueOptionsList>
 		<DialogueOption>
-				<Text>I'll see what I can do!</Text>
+				<Text>Are there.. ghosts in the village somewhere?</Text>
+				<DialogueTarget>ShyKidNew2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ShyKidNew2</Name>
+		<Dialogue>
+		<Page><![CDATA[<size=20>]]>Um.. I'm not sure.. Mayor Rutile says I'm just hearing noises.<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>But.. I think there's a ghost who's angry at me, because I found its skeleton the other day..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>While I was playing in the river, my toy got swept down the river, into the drain behind the village waterwheel..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>When I crawled into the drain behind the waterwheel to get my toy back... I discovered a creepy skeleton in there!<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>It was so scary... I feel like it's watching me all the time now...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Could you please use your Little Scout to look in the drain to see if the skeleton's still there, astronaut?<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>It's in the drain behind the village waterwheel. You'll find it if you just follow the river down the village..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Um, it's really cramped in there, so you might need to rotate the Little Scout's camera to see in there...<![CDATA[</size>]]></Page>
+		</Dialogue>	
+		<DialogueOptionsList>
+		<DialogueOption>
+				<Text>I'll see what I can do.</Text>
 				<DialogueTarget>ShyKidNew4</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -115,7 +138,7 @@
 <DialogueNode>
 		<Name>ShyKidNew1B</Name>
 				<Dialogue>
-				<Page><![CDATA[<size=20>]]>Um.. The little drain behind the water wheel. You'll see it if you follow the river down the village..<![CDATA[</size>]]></Page>
+				<Page><![CDATA[<size=20>]]>Um.. The little drain behind the village waterwheel. You'll see it if you follow the river down the village..<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>I'd just like you to look into there with your Little Scout for me..<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>It's really cramped in there though, so you might need to rotate the Little Scout's camera to see in there...<![CDATA[</size>]]></Page>
 		</Dialogue>
@@ -139,8 +162,10 @@
 	<DialogueNode>
 		<Name>ShyKidNew3</Name>
 		<Dialogue>
-			<Page><![CDATA[<size=20>]]>Ah... I was hoping it wasn't in there...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>I'll try ask if I can use Spinel's fishing rod to fish it out later..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Oh...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Um, I guess it'd be worse if it'd disappeared somehow. That'd be even scarier...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>But since you saw it.. That means you'll be haunted now too, astronaut.<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>That makes me feel a little better. Now, we'll be haunted together...<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>Thank you, astronaut.. Stay safe in space!<![CDATA[</size>]]></Page>
 		</Dialogue>
 	</DialogueNode>

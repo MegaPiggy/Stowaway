@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: As predicted, the <![CDATA[<color=orange>Deep Storm Station</color>]]> was unable to locate the <![CDATA[<color=lightblue>Eye of the Universe.</color>]]>
+		YARROW: As we predicted, the <![CDATA[<color=orange>Deep Storm Station</color>]]> was unable to locate the <![CDATA[<color=lightblue>Eye of the Universe.</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: The memory statues were only activated after the <![CDATA[<color=orange>Ash Twin Project</color>]]> elapsed 20 billion loops, and began to detect redundant trajectories.
+		YARROW: The memory statues were only activated after it had elapsed 20 billion loops, and began to detect redundant trajectories.
 		</Text>
 	</TextBlock>
 	<TextBlock>

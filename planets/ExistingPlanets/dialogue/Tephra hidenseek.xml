@@ -8,8 +8,9 @@
 		<DialogueOptionsList>
 	
 			<DialogueOption>
-				<Text>Hey Tephra, got any new dirt for me before I take off?</Text>
-				<DialogueTarget>Teph Quantum</DialogueTarget>
+				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
+				<Text>Hey Tephra, did you hear anything about ghost matter disappearing?</Text>
+				<DialogueTarget>Teph SW_1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
@@ -26,9 +27,80 @@
 
 
 <DialogueNode>
+		<Name>Teph SW_1</Name>
+		<Dialogue>
+			<Page>Wait, ghost matter disappears sometimes? Really? I didn't know!</Page>
+			<Page>That's awesome! I'm gonna go jump into a patch of ghost matter right now!</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>No no no, I was asking who might've told you that!</Text>
+				<DialogueTarget>Teph SW_2</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>Don't ever do that! You'll just get badly hurt!</Text>
+				<DialogueTarget>Teph SW_2</DialogueTarget>
+			</DialogueOption>
+			</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Teph SW_2</Name>
+		<Dialogue>
+			<Page>Oh..</Page>
+			<Page>Aw... I thought since it's disappearing too, I might finally be able to find out where the weird rock in the museum goes.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>The weird rock in the museum?</Text>
+				<DialogueTarget>Teph SW_3</DialogueTarget>
+			</DialogueOption>
+			</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>Teph SW_3</Name>
+		<Dialogue>
+			<Page>Yeah, the weird purple rock in the exhibit right outside the museum that jumps around! It's <![CDATA[<i>so</i>]]> good at hiding!</Page>
+			<Page>Oh, but I don't mean when it jumps behind you and scares you.. I mean when it disappears completely!</Page>
+			<Page>Galena and I both looked all over Timber Hearth to find where it goes when it disappears. But we could never find the purple rock's <![CDATA[<color=orange>super secret hiding spot.</color>]]></Page>
+			<Page>The only place we couldn't explore was the Nomai Ruins on Timber Hearth, outside the village.</Page>
+			<Page>We wanted to look there too.. But Mayor Rutile told us not to ever go near there, because there's lots of dangerous ghost matter around that area that we can't see.</Page>
+			<Page>I thought if the ghost matter disappeared, maybe we could look there at last..</Page>
+			<Page>Um, could you help us check out the Nomai Ruins on Timber Hearth, astronaut? You're taller than us, so you if you accidentally walk into some ghost matter, you'll just lose your legs.</Page>
+			<Page>If you find the purple rock's <![CDATA[<color=orange>super secret hiding spot</color>]]>, that'd make you the best seeker in the village!</Page>
+		</Dialogue>
+						 <RevealFacts>
+     						   <FactID>TEPH EX1</FactID>
+     						   <FactID>TEPH EX3</FactID>
+    					  </RevealFacts>
+<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Huh... I'll keep an eye out for it!</Text>
+				<DialogueTarget>Teph Answers 1C</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>Wait, where are the Nomai Ruins again?</Text>
+				<DialogueTarget>Teph Answers 1D</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+</DialogueNode>
+
+
+<DialogueNode>
+		<Name>Teph Answers 1E</Name>
+			<Dialogue>
+					<Page>Um.. It's somewhere on Timber Hearth, outside the village!</Page>
+					<Page>Oh! I think there's a picture framed in the museum of the <![CDATA[<color=orange>Nomai Ruins..</color>]]> If you look at that, that might help you find it?</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+<DialogueNode>
 		<Name>Teph Answers 1</Name>
 		<Dialogue>
-			<Page>Wha? Really?! Where does it go?</Page>
+			<Page>Woah, really?! Where does it go?</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -48,33 +120,16 @@
 		<SetPersistentCondition>Tephra_NMR</SetPersistentCondition>
 		<Dialogue>
 					<Page>Wow, you found it already?! You're awesome, astronaut!</Page>
-					<Page>But.. How do you get in the spooky cave it's hiding in? Galena and I want to get in so we can use it for playing hide and seek!</Page>
-					<Page>Galena and I looked all over Timber Hearth - even inside the zero-g cave! But we've never seen the purple rock inside any of these caves.</Page>
-					<Page>Oh..! There might be more caves around the <![CDATA[<color=orange>Nomai Ruins</color>]]> outside the village, though! That's the one place we've never looked.</Page>
+					<Page>But.. How do you get in the spooky cave it's hiding in? Galena and I want to get in so we can use it for playing hide and seek..</Page>
 		</Dialogue>
-							<RevealFacts>
-     						   <FactID>TEPH EX3</FactID>
-    					  </RevealFacts>
-		<DialogueOptionsList>
-			<DialogueOption>
-				<Text>Why not?</Text>
-				<DialogueTarget>Teph Answers 1C</DialogueTarget>
-			</DialogueOption>
-				<DialogueOption>
-				<Text>Huh. Where are the Nomai Ruins again?</Text>
-				<DialogueTarget>Teph Answers 1D</DialogueTarget>
-			</DialogueOption>
-		</DialogueOptionsList>
 	</DialogueNode>
 
 			
 	<DialogueNode>
 		<Name>Teph Answers 1C</Name>
 			<Dialogue>
-					<Page>We wanted to look there too - but Mayor Rutile told us not to ever go near there, because there's lots of dangerous ghost matter around that area that we can't see.</Page>
-					<Page>So.. Could you look around the <![CDATA[<color=orange>Nomai Ruins</color>]]> for us, astronaut? The purple rock might be going to a cave there that we don't know about!</Page>
-					<Page>Hornfels says the astronauts' Little Scouts can take pictures to see where ghost matter is hiding. You can even use it like a little handheld camera if use the photo mode!</Page>
-					<Page>If you use that, I bet you'll be totally safe from the ghost matter, astronaut!</Page>
+					<Page>Yay! You're the best, astronaut!</Page>
+					<Page>Remember to come back and tell us, if you find where the purple rock goes!</Page>
 			</Dialogue>
 	</DialogueNode>
 
@@ -82,96 +137,22 @@
 		<Name>Teph Answers 1D</Name>
 		<Dialogue>
 					<Page>Um.. It's somewhere on Timber Hearth, outside the village!</Page>
-					<Page>I think Tektite's probe launcher up the hill says which way it's in.. Maybe you should use it to find the Nomai Ruins before you go, astronaut!</Page>
-					<Page>Galena and I wanted to look there ourselves - but Mayor Rutile told us not to ever go near there, because there's lots of dangerous ghost matter around that area that we can't see.</Page>
-					<Page>Could you look around the <![CDATA[<color=orange>Nomai Ruins</color>]]> for us, astronaut? The purple rock might be going to a cave there that we don't know about!</Page>
-					<Page>Hornfels says the astronauts' Little Scouts can take pictures to see where ghost matter is hiding. You can even use it like a little handheld camera if use the photo mode!</Page>
-					<Page>If you use that, I bet you'll be totally safe from the ghost matter, astronaut!</Page>
+					<Page>Oh! I think there's a picture framed in the museum of the <![CDATA[<color=orange>Nomai Ruins..</color>]]> If you look at that, that might help you find it?</Page>
+					<Page>Alright, off you go, astronaut!</Page>
+					<Page>Remember to come back and tell us, if you find where the purple rock goes!</Page>
 		</Dialogue>
 	</DialogueNode>
 
-<DialogueNode>
-		<Name>Teph Answers 1E</Name>
-			<Dialogue>
-					<Page>Um.. I dunno! It's somewhere on Timber Hearth, outside the village?</Page>
-					<Page>I think Tektite's probe launcher up the hill says which way it's in.. Maybe you should use it to find the Nomai Ruins before you go, astronaut!</Page>
-		</Dialogue>
-	</DialogueNode>
 
 	<DialogueNode>
 		<Name>Teph Answers 2</Name>
 		<Dialogue>
-			<Page>Woah, really? The supernova is something the sun does that the exhibit in the museum talks about, right?</Page>
+			<Page>Woah, really? The supernova is something the sun does, right? The exhibit in the museum taught me that!</Page>
 					<Page>Why would the Nomai build something like that? Is it just an emergency hiding spot in case that happens someday?</Page>
 					<Page>But if it is, why would they seal it up and hide it like that? There's no way to get in or out of there, heehee!</Page>
 					<Page>The Nomai are <![CDATA[<i>weeeird!</i>]]></Page>
 		</Dialogue>
 	</DialogueNode>
 
-
-<DialogueNode>
-		<Name>Teph Quantum</Name>
-		<Dialogue>
-			<Page>Wait, you're taking off today? <![CDATA[<i>Really?!</i>]]> I didn't know!</Page>
-			<Page>Aw, I'll.. I'll miss you, astronaut.</Page>
-			<Page>Um, I don't really have any new dirt on me.. <![CDATA[<Pause>]]> <![CDATA[<i>Oh wait, I know!</i>]]></Page>
-			<Page>There's a new champion of hide and seek in the village, if that's dirt to you!</Page>
-		</Dialogue>
-		<DialogueOptionsList>
-			<DialogueOption>
-				<Text>Oh? Someone better at hiding than you or Galena? Who could that be?</Text>
-				<DialogueTarget>Teph trail 1</DialogueTarget>
-			</DialogueOption>
-				<DialogueOption>
-				<Text>Is it Feldspar?</Text>
-				<DialogueTarget>Teph trail 1B</DialogueTarget>
-			</DialogueOption>
-			</DialogueOptionsList>
-	</DialogueNode>
-
-<DialogueNode>
-		<Name>Teph trail 1</Name>
-		<Dialogue>
-			<Page>It's a <![CDATA[<i>'what',</i>]]> not a 'who'!</Page>
-			<Page>It's that weird rock at the museum!</Page>
-		</Dialogue>
-		<DialogueOptionsList>
-			<DialogueOption>
-				<Text>Weird rock?</Text>
-				<DialogueTarget>Teph trail 2</DialogueTarget>
-			</DialogueOption>
-			</DialogueOptionsList>
-</DialogueNode>
-
-<DialogueNode>
-		<Name>Teph trail 1B</Name>
-		<Dialogue>
-			<Page>Um.. That's a really horrible joke to make, astronaut..</Page>
-			<Page>No, I'm talking about the weird rock outside the museum!</Page>
-		</Dialogue>
-		<DialogueOptionsList>
-			<DialogueOption>
-				<Text><![CDATA[<size=20>]]>Sorry.<![CDATA[</size>]]> Weird rock?</Text>
-				<DialogueTarget>Teph trail 2</DialogueTarget>
-			</DialogueOption>
-			</DialogueOptionsList>
-</DialogueNode>
-
-<DialogueNode>
-		<Name>Teph trail 2</Name>
-		<Dialogue>
-			<Page>Yeah, the weird purple rock in the exhibit right outside the museum! It's <![CDATA[<i>so</i>]]> good at hiding!</Page>
-			<Page>Oh, I don't mean when it jumps behind you and scares you..</Page>
-			<Page>I mean when it disappears completely!</Page>
-			<Page>Galena and I both looked all over Timber Hearth to find where it goes when it disappears from that place. But neither of us ever found its <![CDATA[<color=orange>super secret hiding spot!</color>]]></Page>
-			<Page>Can you help us find where it goes, astronaut?</Page>
-			<Page>If you find it, that'd make you the best seeker in the village!</Page>
-		</Dialogue>
-						 <RevealFacts>
-     						   <FactID>TEPH EX1</FactID>
-							   <FactID>TEPH EX2</FactID>
-    					  </RevealFacts>
-
-</DialogueNode>
 
 </DialogueTree>

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3618041663
+CRC: 3718989680
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8c49bc1f053a1d4b790735bd0ebb6ace
+    Hash: cff9cba1d2802b98e5e2736ad11e3427
   TypeTreeHash:
     serializedVersion: 2
     Hash: 9b67060910e7c70806d8782af91d6da4
@@ -117,6 +117,8 @@ Assets:
 - Assets/Models/TheInspired.prefab
 - Assets/Models/TheInspired (1).prefab
 - Assets/Models/player nosuit.prefab
+- Assets/Models/th portrait.prefab
+- Assets/Models/et portrait.prefab
 - Assets/Models/ASH TWIN BEAM north.prefab
 - Assets/Models/bh tower occluder.prefab
 - Assets/Models/rotation guy.prefab

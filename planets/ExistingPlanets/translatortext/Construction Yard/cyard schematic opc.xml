@@ -27,7 +27,7 @@
 		<ID>4</ID>
 		<LocationB />
 		<ParentID>1</ParentID>
-		<Text>Installation of a warp receiver on the <![CDATA[<color=orange>Orbital Probe Cannon</color>]]> connected to the new warp transmitter on <![CDATA[<color=lightblue>Giant's Deep</color>]]> is to be communicated to the <![CDATA[<color=orange>Black Hole Forge</color>]]> soon.</Text>
+		<Text>Installation of the <![CDATA[<color=orange>Orbital Probe Cannon's</color>]]> warp receiver (connected to the new warp transmitter on <![CDATA[<color=lightblue>Giant's Deep</color>]]>) is to be communicated to the <![CDATA[<color=orange>Black Hole Forge</color>]]> soon.</Text>
 	</TextBlock>
 
 	<TextBlock>

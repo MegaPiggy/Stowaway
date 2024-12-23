@@ -14,10 +14,10 @@
 			<RequiredPersistentCondition>Shutup_Moraine</RequiredPersistentCondition>
 			<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
 				<Text>I dived into the waterways and found a Nomai mural depicting Hearthian ancestors on land.</Text>
-				<DialogueTarget>SignalscopeKidNew3</DialogueTarget>
+				<DialogueTarget>SignalscopeKidNew4</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<Text>Hey, Moraine. Slate said you had something to ask before I fly off?</Text>
+				<Text>Hey Moraine, did you hear anything about ghost matter disappearing?</Text>
 				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -26,56 +26,75 @@
 <DialogueNode>
 		<Name>SignalscopeKidNew1</Name>
 		<Dialogue>
-			<Page>Oh, that.. Um, I just wanted to make a silly request if it's okay, astronaut.</Page>
-			<Page>Do you remember that time Riebeck dropped their banjo into one of the geysers by accident? They were so worried and sad they had lost that banjo..</Page>
-			<Page>Apparently, there wasn't any trace of the banjo after they grabbed their suit and jumped down after it. I was kind of spooked when I first heard this story..</Page>
-			<Page>But days later, Riebeck found out the banjo had shot out one of the geyser mountains on the other side of the planet! Gneiss said it was a miracle.</Page>
-				<Page>But ever since that incident, I've always been curious about what might be inside those geysers.</Page> <Page>There's gotta be some massive underwater cave system connected between the geysers for the banjo to have been carried so far from the village.</Page>
-				<Page>Who knows how far they wind, or what we might find down there! I feel excited just thinking about it..</Page>
-				<Page>I wanted to jump down there and swim around myself, but Mayor Rutile says I'll drown if I do that, so I should ask one of the astronauts to help me look instead.</Page>
-					<Page>So... Um, could you maybe.. <![CDATA[<Pause>]]> jump in one of the geysers and look around if there's anything cool in Timber Hearth's spooky depths for me, astronaut?</Page>
+			<Page>Yeah, I thought everyone knew that. Ghost matter evaporates slowly, doesn't it?</Page>
+			<Page>Still, it's a little scary how long it's taken that little patch in the village to evaporate..</Page>
+			<Page>The fact that there are Hearthian skeletons in there, tells us that little patch must have been around even when our Hearthian ancestors were learning to walk on land!</Page>
+			</Dialogue>
+			<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Wait, those are Hearthian skeletons?</Text>
+				<DialogueTarget>SignalscopeKidNew2</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+		</DialogueNode>
+
+		<DialogueNode>
+		<Name>SignalscopeKidNew2</Name>
+		<Dialogue>
+			<Page>Yeah! Didn't you know? Riebeck says those must have been early Hearthians, unlucky enough to stumble upon that patch of ghost matter while exploring the surface of Timber Hearth.</Page>
+			<Page>Our species used to be aquatic before our ancestors learned to walk on land, you know.</Page>
+			<Page>Riebeck thinks our ancestors learned how to live on land because if they didn't, we'd have died instantly whenever we got launched out of the water by geysers!</Page>
+			<Page>But even though they could go on land, Riebeck says our ancestors mainly lived in the huge underground cave system inside the geysers.</Page>
+			<Page>Apparently, there's a whole interconnected underwater cave system inside the planet that our ancestors swam around in!</Page>
+			<Page>That part's a recent discovery, though. Nobody's even explored the waterways yet, since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
+				<Page>Oh, I can't even imagine what it'd be like... Swimming around those same waterways our ancestors lived in for millennia!</Page>
+				<Page>I'd love to jump down a geyser and explore the waterways myself - but Mayor Rutile says I'll drown, since we can't breathe underwater like early Hearthians did, and I'm bad at holding my breath..</Page>
+				<Page>Hey, um.. The traveler's spacesuit lets you breathe in space, right? Do you think it'd let you breathe underwater too, astronaut?</Page>
+				<Page>I'd hate for you to get your spacesuit wet before your launch, but.. Could you jump down a geyser and explore the waterways inside Timber Hearth in my place?</Page>
 		</Dialogue>
 							<RevealFacts>
      						  	 <FactID>MOR EX1</FactID>
     					 	 </RevealFacts>
 	 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>That sounds dangerous! I'll give it a try sometime.</Text>
-				<DialogueTarget>SignalscopeKidNew2</DialogueTarget>
+				<Text>That sounds fun! I'll give it a go sometime.</Text>
+				<DialogueTarget>SignalscopeKidNew3</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 			<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>I dived down there and found a Nomai mural of our Hearthian ancestors!</Text>
-				<DialogueTarget>SignalscopeKidNew3</DialogueTarget>
+				<Text>I swam around the waterways already! I found a Nomai mural of our Hearthian ancestors down there.</Text>
+				<DialogueTarget>SignalscopeKidNew4</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
 	</DialogueNode>
 
+
+
 <DialogueNode>
-		<Name>SignalscopeKidNew2</Name>
+		<Name>SignalscopeKidNew3</Name>
 		<SetPersistentCondition>Shutup_Moraine</SetPersistentCondition>
 		<Dialogue>
 				<Page>Really? You're the best, astronaut!</Page>
-				<Page>If you do find anything, I wanna hear all about it!</Page>
-				<Page>Just be careful not to hit your head right before your takeoff, okay?</Page>
+				<Page>If you do find anything down there, I wanna hear all about it, okay?</Page>
+				<Page>Oooh, it's like revisiting the place where our ancestors came from! This is gonna be an incredible day for Hearthian history, astronaut!</Page>
 		</Dialogue>
 	</DialogueNode>
 
 <DialogueNode>
-		<Name>SignalscopeKidNew3</Name>
+		<Name>SignalscopeKidNew4</Name>
 		<Dialogue>
-				<Page>Woah.. What? A Nomai mural of.. our ancestors on land? ..That’s <![CDATA[<i>awesome!</i>]]></Page>
-				<Page>It’s not some secret underwater monster like I was hoping.. But it’s still really awesome!</Page>
+				<Page>Woah.. What? A Nomai mural of.. our ancestors on land? That’s <![CDATA[<i>awesome!</i>]]></Page>
+				<Page>It’s not a huge underwater monster like I was hoping.. But it’s still really awesome!</Page>
 				<Page>But wait... <![CDATA[<Pause>]]> Doesn’t that mean Hearthians must have already existed when the Nomai were around?</Page>
-					<Page>And it sounds like we were still able to live on both land and water back then! </Page>
-				<Page>Man, when did Hearthians stop being able to breathe underwater completely then? If we were still able to breathe underwater nowadays, I'd be able to swim around the waterways all day!</Page>
+					<Page>And it sounds like we were still able to live on both water AND land back then! </Page>
+					<Page>Aw, when did Hearthians stop being able to breathe underwater completely then? If we were still able to breathe underwater nowadays, I'd be able to swim around the waterways all day..</Page>
 				<Page>But wow.. Isn't this discovery gonna totally upend our knowledge of Hearthian history?</Page>
-					<Page>I think you’d better fly to Brittle Hollow as soon as you can to tell Riebeck about this huge discovery, astronaut!</Page>
-					<Page>They're probably going to lose their marbles revising the Hearthian history books.</Page>
+					<Page>I think you’d better fly to Brittle Hollow as soon as you can to tell Riebeck about this huge discovery, astronaut! They'll probably lose their marbles revising the Hearthian history books.</Page>
 					<Page>Don’t forget, you can use your signalscope to track down the other travelers more easily!</Page>
 		</Dialogue>
 							<RevealFacts>
      						  	 <FactID>MOR EX2</FactID>	 
+     						  	 <FactID>MOR EX3</FactID>	 
      						  	 <FactID>MOR R2</FactID>
     					 	 </RevealFacts>
 		
@@ -90,14 +109,14 @@
 		<Name>SignalscopeKid5</Name>
 		<DialogueOptionsList>
 				<DialogueOption>
-				<Text>Hey, Moraine. Slate said you had something to ask before I fly off?</Text>
-				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-			<RequiredPersistentCondition>Shutup_Moraine</RequiredPersistentCondition>
+				<RequiredPersistentCondition>Shutup_Moraine</RequiredPersistentCondition>
 			<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>I dived into the waterways and found a Nomai mural depicting Hearthian ancestors on land!</Text>
-				<DialogueTarget>SignalscopeKidNew3</DialogueTarget>
+				<Text>I dived into the waterways and found a Nomai mural depicting Hearthian ancestors on land.</Text>
+				<DialogueTarget>SignalscopeKidNew4</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>Hey Moraine, did you hear anything about ghost matter disappearing?</Text>
+				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>

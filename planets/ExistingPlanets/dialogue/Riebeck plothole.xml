@@ -304,7 +304,7 @@
 			<Page>I know it was a long time ago, but still.. That’s... really sad, isn’t it?</Page>
 			<Page>Stars above, it’s lucky we weren't around yet when...</Page>
 			<Page>Wait.. No, that's not right! You found a mural of our ancestors in the waterways, right? That means we must have been around at the time that happened to the Nomai!</Page>
-			 <Page>But if that's the case.. How in the stars did our ancestors survive what the Nomai couldn't?!</Page>
+			 <Page>But if that's the case.. <![CDATA[<Pause=1>]]> How in the stars did our ancestors survive what the Nomai couldn't?</Page>
 			 <Page>Why weren't we.. <![CDATA[<Pause=2>]]> you know... <![CDATA[<Pause=2>]]> killed by ghost matter as well?</Page>
 		</Dialogue>
 <DialogueOptionsList>
@@ -356,7 +356,7 @@
 			<Page>So we did coexist with them. They.. They studied and even admired us.. Oh, stars above.</Page>
     		  <Page>Not only that - our ancestors had already evolved to live on land during that time! Gosh, it couldn't have been that long since the Nomai were still around then, right?</Page>
 	 		 <Page>But.. wait... You told me earlier that the Interloper killed all the Nomai in the star system.</Page>
-			 <Page>If our ancestors were already around at the time.. How in the stars did our ancestors survive what the Nomai couldn't?!</Page>
+			 <Page>If our ancestors were already around at the time.. How in the stars did our ancestors survive what the Nomai couldn't?</Page>
 			 <Page>Why weren't we.. <![CDATA[<Pause=2>]]> you know... <![CDATA[<Pause=2>]]> killed by ghost matter as well?</Page>
 		</Dialogue>
   <DialogueOptionsList>
@@ -375,11 +375,12 @@
 <DialogueNode>
 		<Name>Riebeck_SW2</Name>
 		<Dialogue>
-				<Page>What? Water.. protects you from ghost matter?! That's.. news to me! Could that be how our species survived?!</Page>
+				<Page>What? Water.. protects you from ghost matter?! That's.. That's news to me! Could that be how our species survived?!</Page>
 			<Page>But, ah.. Mm.. No, that still can't be the whole story.</Page>
 			<Page>The mural you found showed our ancestors were already amphibious at the time of the Nomai's extinction.. So wouldn't they have been fried the moment they surfaced?</Page>
 			<Page>Did our ancestors simply survive by the skin of their teeth by staying underwater, until the ghost matter evaporated with time?</Page>
 			<Page>But if that's the case.. Shouldn't our species have adapted to stay underwater due to natural selection, rather than evolving to live exclusively on land?</Page>
+			<Page>We know there was still some ghost matter on the surface too, like that patch in the village that some of our ancestors fell victim to.</Page>
 			<Page>It feels like we're still missing a big piece of the puzzle here...</Page>
 		</Dialogue>
 		<DialogueOptionsList>
@@ -402,7 +403,7 @@
 			<Page>So that's how we survived.</Page>
 			<Page>Stars above, the Nomai really are just.. that amazing, huh?</Page>
 			<Page>Even after losing everyone and everything they knew, this lone Nomai survivor still gave their all to protect us..</Page>
-			<Page>That is a wild story, though. I never thought a Nomai might be capable of.. of anger and grief like that.</Page>
+			<Page>That is a wild story, though. I never thought a Nomai might be capable of.. of grief and anger like that.</Page>
 			<Page>But still, in the end, they used the weapon they made in their anger to save us.</Page>
 			<Page>Do you.. know what their name was?</Page>
 		</Dialogue>

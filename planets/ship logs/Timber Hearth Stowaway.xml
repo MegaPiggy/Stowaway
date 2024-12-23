@@ -9,11 +9,15 @@
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>MICA R1</ID> 
-            <Text>Slate says I should go talk to the hatchlings in the village before I take off.</Text> 
+            <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
   </RumorFact>
  <ExploreFact>
             <ID>MICA EX1</ID> 
-            <Text>Mica says that Chert delayed their launch day several times for some reason.</Text> 
+            <Text>Chert told Mica that sand would start flowing between the Hourglass Twins again soon. According to Mica, not even Chert knows what causes sand to flow between the twins.</Text> 
+       </ExploreFact>
+        <ExploreFact>
+            <ID>MICA EX2</ID> 
+            <Text>Mica got sick of waiting, and asked me to ask Chert why it takes so long for sand to flow between the twins.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -25,19 +29,15 @@
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>TEPH R1</ID> 
-            <Text>Slate says I should go talk to the hatchlings in the village before I take off.</Text> 
+            <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
   </RumorFact>
        <ExploreFact>
             <ID>TEPH EX1</ID> 
             <Text>Tephra and Galena noticed the quantum shard in the museum disappearing completely sometimes.</Text> 
        </ExploreFact>
-       <ExploreFact>
-            <ID>TEPH EX2</ID> 
-            <Text>Tephra asked me to find out where the museum's quantum shard goes when it disappears.</Text> 
-       </ExploreFact>
          <ExploreFact>
             <ID>TEPH EX3</ID> 
-            <Text>Tephra says there might be undiscovered caves at the Nomai Ruins outside the village that the quantum shard travels to.</Text> 
+            <Text>Tephra and Galena looked all over Timber Hearth to find where the quantum shard goes. The only place on Timber Hearth they couldn't explore was the Nomai Ruins outside the village, because of the ghost matter in that area.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -49,16 +49,16 @@
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>GAL R1</ID> 
-            <Text>Slate says I should go talk to the hatchlings in the village before I take off.</Text> 
+            <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
   </RumorFact>
        <ExploreFact>
             <ID>GAL EX1</ID> 
-            <Text>Galena's toy rocket got swept by the river into the drain behind the village water wheel! They asked me to use the Little Scout to see if their toy rocket was inside the drain.</Text> 
+            <Text>Galena says they found a skeleton in the drain behind the village waterwheel.</Text> 
        </ExploreFact>
        
        <ExploreFact>
             <ID>GAL EX3</ID> 
-            <Text>I used my Little Scout to find Galena's toy rocket in the drain.</Text> 
+            <Text>I used my Little Scout to see the skeleton in the drain.. I think I might be haunted now.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -70,7 +70,7 @@
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>ARK R1</ID> 
-            <Text>Slate says I should go talk to the hatchlings in the village before I take off.</Text> 
+            <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
   </RumorFact>
   <RumorFact>
            <SourceID>GD_GABBRO_ISLAND</SourceID>
@@ -80,7 +80,11 @@
 
        <ExploreFact>
             <ID>ARK EX1</ID> 
-            <Text>Arkose says that Gabbro told them that ghost matter disappears, though they weren't sure why.</Text> 
+            <Text>Arkose says that Gabbro told them that that ghost matter disappears the last time they returned from Giant's Deep, though Gabbro didn't seem to know why.</Text> 
+       </ExploreFact>
+        <ExploreFact>
+            <ID>ARK EX2</ID> 
+            <Text>Arkose told me to ask Gabbro about ghost matter if I wanted to learn more about it.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -93,20 +97,24 @@
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>MOR R1</ID> 
-            <Text>Slate says I should go talk to the hatchlings in the village before I take off.</Text> 
+            <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
   </RumorFact>
     <RumorFact>
            <SourceID>BH_RIEBECK</SourceID>
             <ID>MOR R2</ID> 
             <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways.</Text> 
   </RumorFact>
-       <ExploreFact>
-            <ID>MOR EX1</ID> 
-            <Text>Moraine asked if I could dive into a geyser to find anything hidden in the waterways of Timber Hearth.</Text> 
+   <RumorFact>
+            <ID>MOR R3</ID> 
+            <Text>Moraine asked me to jump down a geyser to investigate the unexplored, underground waterways of Timber Hearth in their place.</Text> 
+  </RumorFact>
+         <ExploreFact>
+            <ID>MOR EX2</ID> 
+            <Text>Moraine says the Nomai mural I found in the waterways is a discovery that will upend our knowledge of Hearthian history!</Text> 
        </ExploreFact>
        <ExploreFact>
-            <ID>MOR EX2</ID> 
-            <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways.</Text> 
+            <ID>MOR EX3</ID> 
+            <Text>Moraine says I should fly to Brittle Hollow to tell Riebeck about the Nomai mural as soon as I can.</Text> 
        </ExploreFact>
 </Entry>
 

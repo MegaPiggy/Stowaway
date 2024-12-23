@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		AVENS: Friends, our work is nearly complete.
+		AVENS: Friends, we write to you from the newly operational <![CDATA[<color=orange>Deep Storm Station!</color>]]>
 		</Text>
 	</TextBlock>
 	
@@ -14,15 +14,15 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		AVENS: At this rate, I am confident we will be able to complete the <![CDATA[<color=orange>Deep Storm Station</color>]]> before the <![CDATA[<color=orange>Sun Station</color>]]> is operational!
+		AVENS: The station's integrity is holding perfectly even at these pressures! No flaws in its structure have been detected that could allow any water to enter the station.
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<LocationA />
+		<LocationB />
 		<Text>
-		MALLOW: I hope so too, my love! Without the <![CDATA[<color=orange>Deep Storm Station</color>]]> ready, we won't be able to use the <![CDATA[<color=orange>Sun Station</color>]]> with confidence.
+		MALLOW: I am relieved to hear that, my love! All that time we put into ensuring the station's interior was perfectly sealed was worth the trouble.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -48,7 +48,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		DAZ: Have no fear, Clary: I am already ready to do so! I cannot wait to reunite with my beloved Cassava!
+		DAZ: Have no fear, Clary: Mallow and I are both ready ready to do so! We cannot wait to reunite with both of our romantic interests!
 		</Text>
 	</TextBlock>
 
@@ -57,7 +57,7 @@
 		<LocationAB />
 		<ParentID>6</ParentID>
 		<Text>
-		CLARY: You have my gratitude, Daz. With my work here done, I shall be glad to take my leave before I am stuck with <![CDATA[<i>two</i>]]> pairs of gelatinous Nomai!
+		CLARY: You have my gratitude, Daz. With my work here done, I shall be glad to take my leave before I am stuck here with <![CDATA[<i>two</i>]]> pairs of gelatinous Nomai!
 		</Text>
 	</TextBlock>
 

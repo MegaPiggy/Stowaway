@@ -1,0 +1,132 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>Slate</NameField>
+
+<DialogueNode>
+		<Name>Slate Kids Intro</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>Hey, hold up a sec!</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+   			 <DialogueOption>
+				<Text>What is it?</Text>
+				<DialogueTarget>Slate_Kids_1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+      			<RequiredPersistentCondition>COMPLETED_SHIPLOG_TUTORIAL</RequiredPersistentCondition>
+				<Text>Use the shiplog to track places I've been to. Got it! Thank you! Seeya!</Text>
+				<DialogueTarget>Slate_Kids_2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>Slate Kids Intro Loop3On</Name>
+		<EntryCondition>LOOP_COUNT_GOE_3</EntryCondition>
+		<Dialogue>
+			<Page>Hey, hold up a sec!</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+   			 <DialogueOption>
+				<Text>What is it?</Text>
+				<DialogueTarget>Slate_Kids_1</DialogueTarget>
+			</DialogueOption>
+    <DialogueOption>
+				<Text>Yeah yeah yeah, I already know about the launch codes.</Text>
+				<DialogueTarget>Slate_Kids_2</DialogueTarget>
+	</DialogueOption>
+			<DialogueOption>
+      			<RequiredPersistentCondition>COMPLETED_SHIPLOG_TUTORIAL</RequiredPersistentCondition>
+				<Text>Use the shiplog to track places I've been to. Got it! Thank you! Seeya!</Text>
+				<DialogueTarget>Slate_Kids_2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>Slate_Kids_1</Name>
+		 <SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
+		<Dialogue>
+			<Page>Aren't you gonna say goodbye to everyone before you take off? The whole village's gonna miss ya.</Page>
+			<Page>If nothing else, at least say bye to the little hatchlings. All of 'em seem to have something to ask or say to you before you go.</Page>
+			<Page>Go humor 'em, just in case this is last they see of you for a while, y'know?</Page>
+		</Dialogue>
+						  <RevealFacts>
+     					 	  <FactID>MICA R1</FactID>
+     						   <FactID>TEPH R1</FactID>
+     						   <FactID>GAL R1</FactID>
+     						   <FactID>ARK R1</FactID>
+     						   <FactID>MOR R1</FactID>
+    					  </RevealFacts>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Alright, alright, I'll go talk to the little gills before I go.</Text>
+				<DialogueTarget>Slate_Kids_Gettoit</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where are they again?</Text>
+				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	
+	<DialogueNode>
+		<Name>Slate_Kids_2</Name>
+		 <SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
+		<Dialogue>
+		<Page>Uh, no. What are you talking about?</Page>
+			<Page>I was gonna ask if you were gonna say goodbye to everyone before you take off. The whole village's gonna miss you, you know?</Page>
+			<Page>If nothing else, at least say bye to the little hatchlings. All of 'em seem to have something to ask or say to you before you go.</Page>
+			<Page>Go humor 'em, just in case this is last they see of you for a while, y'know?</Page>
+		</Dialogue>
+		 				  <RevealFacts>
+     						   <FactID>MICA R1</FactID>
+     						   <FactID>TEPH R1</FactID>
+     						   <FactID>GAL R1</FactID>
+     						   <FactID>ARK R1</FactID>
+     						   <FactID>MOR R1</FactID>
+    					  </RevealFacts>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Alright, alright, I'll go talk to the little gills before I go.</Text>
+				<DialogueTarget>Slate_Kids_Gettoit</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Where are they again?</Text>
+				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Slate_Kids_Gettoit</Name>
+		<Dialogue>
+			<Page>Cool. Just remember: there's Mica, Tephra, Galena, Arkose, and Moraine.</Page>
+			<Page>If you forget to say goodbye to any one of them, they'll probably never forget it as long as they live.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Slate_Kids_Direction</Name>
+		<Dialogue>
+			<Page>Stars, <![CDATA[<i>I don't know!</i>]]> I'm just roasting marshmallows and relaxing here. They're hatchlings, they might have clambered into your ship somehow for all I know.</Page>
+			<Page>Mica's probably still fiddling with the model rocket, just up the hill.</Page>
+				<Page>Tephra and Galena should be playing in the village somewhere.</Page>
+				<Page>I saw those two trekking outside the village recently for whatever reason, though - so don't take my word on that.</Page>
+				<Page>Arkose's probably still throwing rocks into the patch of ghost matter at the top of the village.</Page>
+				<Page>Still uh.. no idea why they do that all day.</Page>
+					<Page>And Moraine's probably stargazing on the big tree in the village, making sure Marl doesn't chop it down.</Page>
+					<Page>I wonder if that Marl'll ever let go of that grudge.. <![CDATA[<Pause>]]> No good comes outta holding a grudge against a tree, you know?</Page>
+						<Page>That's all I know. Just get a move on - you'll probably just find all of 'em on the way up to the observatory for those launch codes, anyway.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+
+</DialogueTree>

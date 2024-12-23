@@ -50,7 +50,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: I humbly invite you to visit my workshop soon so I may share this invention with you, and send it with you on your next expedition!
+		KOUSA: I humbly invite you to visit my workshop on <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> surface soon, so that I may share this invention with you and send it with you on your next expedition!
 		</Text>
 	</TextBlock>
 

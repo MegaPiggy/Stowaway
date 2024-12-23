@@ -3,80 +3,14 @@
 	<NameField>Slate</NameField>
 
 
-<DialogueNode>
-		<Name>Scientist1A</Name>
-		<DialogueOptionsList>
-				<DialogueOption>
-				<Text>Is there anything I should do before I take off?</Text>
-				<DialogueTarget>Slate_SW1</DialogueTarget>
-			</DialogueOption>
-					<DialogueOption>
-						<RequiredPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</RequiredPersistentCondition>
-						<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
-						<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
-					</DialogueOption>
-		</DialogueOptionsList>
-	</DialogueNode>
-
-<DialogueNode>
-		<Name>Scientist2</Name>
-		<DialogueOptionsList>
-		<DialogueOption>
-				<Text>Is there anything I should do before I take off?</Text>
-				<DialogueTarget>Slate_SW1</DialogueTarget>
-			</DialogueOption>
-					<DialogueOption>
-						<RequiredPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</RequiredPersistentCondition>
-						<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
-						<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
-					</DialogueOption>
-		</DialogueOptionsList>
-	</DialogueNode>
-
 	<DialogueNode>
 		<Name>Scientist1B</Name>
 		<DialogueOptionsList>
 		<DialogueOption>
-				<Text>Uh, I think I need to clear my head.. Should I do anything else before I take off again?</Text>
-				<DialogueTarget>Slate_SW2</DialogueTarget>
+				<RequiredPersistentCondition>KILLED_IN_GHOST_MATTER</RequiredPersistentCondition>
+				<Text>I.. I think I just died in some ghost matter.</Text>
+				<DialogueTarget>ScientistAnswer38</DialogueTarget>
 			</DialogueOption>
-					<DialogueOption>
-						<RequiredPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</RequiredPersistentCondition>
-						<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
-						<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
-					</DialogueOption>
-		</DialogueOptionsList>
-	</DialogueNode>
-
-
-
-<DialogueNode>
-		<Name>Scientist4</Name>
-		<DialogueOptionsList>
-		<DialogueOption>
-				<Text>Uh, hang on. Is there anything else I should do before I take off?</Text>
-				<DialogueTarget>Slate_SW1</DialogueTarget>
-			</DialogueOption>
-					<DialogueOption>
-						<RequiredPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</RequiredPersistentCondition>
-						<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
-						<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
-					</DialogueOption>
-		</DialogueOptionsList>
-	</DialogueNode>
-	
-	<DialogueNode>
-		<Name>Scientist5</Name>
-		<DialogueOptionsList>
-		<DialogueOption>
-				<Text>Hey Slate, I'm a time traveler now. Got any questions for me before I take off?</Text>
-				<DialogueTarget>Slate_SW3</DialogueTarget>
-			</DialogueOption>
-					<DialogueOption>
-						<RequiredPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</RequiredPersistentCondition>
-						<Text>Um, where are the hatchlings again, if I wanted to say goodbye?</Text>
-						<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
-					</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -86,41 +20,47 @@
 
 
 	<DialogueNode>
-		<Name>Slate_SW1</Name>
-		<Dialogue>
-			<Page>Oh sure, if you're in no rush.</Page>
-			<Page>Go talk to the little hatchlings around the village before you go, will ya?</Page>
-			<Page>The young hatchlings always get excited about space, every time a new space cadet leaves the village to go into space. Just humor them and answer whatever questions they have about space best you can.</Page>
-			<Page>It's just good for the space program's image. Someday, these little hatchlings might join the space program themself, y'know?</Page>
-			<Page>Also, this ain't my business, but if you leave without a word, they'll probably hold a lifelong grudge against the astronaut that didn't say bye to them. No pressure.</Page>	
-		</Dialogue>
-				<RevealFacts>
-     						   <FactID>MICA R1</FactID>
-     						   <FactID>TEPH R1</FactID>
-     						   <FactID>GAL R1</FactID>
-     						   <FactID>ARK R1</FactID>
-     						   <FactID>MOR R1</FactID>
-    					  </RevealFacts>
+		<Name>ScientistAnswer38</Name>
 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>Alright, alright, I'll go talk to the little gills before I go.</Text>
-				<DialogueTarget>Slate_Kids_Gettoit</DialogueTarget>
+				<Text>Wait.. I told you I died and you didn't freak out!</Text>
+				<DialogueTarget>ScientistAnswer38_A</DialogueTarget>
 			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+		<DialogueNode>
+		<Name>ScientistAnswer38_A</Name>
+		<Dialogue>
+			<Page>Uhh, yeah? I thought it was pretty clear we were talking in dream terms? Pretty normal to get nightmares of all your phobias the day you take off - just ask Riebeck.</Page>
+			<Page>Sheesh, I didn't know you were that paranoid about ghost matter you were dreaming about dying to it, though. Tektite really spooked ya, huh?</Page>
+			<Page>Look, your suit should alert you whenever there's ghost matter nearby at all, so don't worry about just randomly falling into a patch without warning.</Page>
+			<Page>Once you know there's ghost matter around, just shoot your scout down and rotate the camera around to look out for it. You can even switch it to a handheld photo mode that lets you take pictures without launching the scout.</Page>
+			<Page>It's honestly so convenient, it's really out of my hands if you still manage to walk into some ghost matter... Unless you'd like me to just magically make all ghost matter disappear to idiotproof the star system.</Page>
+			<Page>..Huh. That reminds me of something interesting I heard in the village the other day, actually.</Page>
+		</Dialogue>
+<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Where are they again?</Text>
-				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
+				<Text>Oh yeah? What'd you hear?</Text>
+				<DialogueTarget>ScientistAnswer38_B</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>I should get going.</Text>
+				<DialogueTarget>ScientistAnswer38_Z</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
 <DialogueNode>
-		<Name>Slate_SW2</Name>
+		<Name>ScientistAnswer38_B</Name>
 		<Dialogue>
-			<Page>Again? Sheesh, you're still half-asleep, aren't you?</Page>
-			<Page>Hey, go talk to the little hatchlings around the village while you clear your head. I don't want you near the ship while you're still dazed.</Page>
-			<Page>The young hatchlings always get excited about space every time a new space cadet leaves the village to go into space. Just humor them and answer whatever questions they have about space.. er, as best as you can.</Page>
-			<Page>It's just good for the space program's image. Someday, these little hatchlings might join the space program themself, y'know?</Page>
-			<Page>Also, this ain't my business, but if you leave without a word, they'll probably hold a lifelong grudge against the astronaut that didn't say bye to them. No pressure.</Page>	
+
+			<Page>Hm? Hah! Sorry to get your hopes up, but it was probably just some nasty prank the kids were playing.</Page>
+			<Page>If you really wanna know, I overheard one of the little hatchlings say that ghost matter disappears sometimes.</Page>
+			<Page>They were probably just trying to trick a more gullible hatchling into sticking a hand into some ghost matter.. <![CDATA[<Pause=1>]]> <![CDATA[<i>]]>Classic.<![CDATA[</i>]]></Page>	
+			<Page>If you want, feel free to interrogate all those smallfries to figure out who it was and reprimand them for me. Don't want those kids losing a limb or two to something stupid now.</Page>	
+			<Page>I'd do it myself, but.. You're headed around the village on your way to get those launch codes anyway.</Page>	
+			<Page>And besides, heh.. <![CDATA[<Pause=2>]]> Now that I've told you, you can't leave that thread hanging before you go, can you?</Page>	
 		</Dialogue>
 				<RevealFacts>
      						   <FactID>MICA R1</FactID>
@@ -130,64 +70,45 @@
      						   <FactID>MOR R1</FactID>
     					  </RevealFacts>
 <DialogueOptionsList>
-			<DialogueOption>
+				<DialogueOption>
 				<Text>Alright, alright, I'll go talk to the little gills before I go.</Text>
 				<DialogueTarget>Slate_Kids_Gettoit</DialogueTarget>
 			</DialogueOption>
-			<DialogueOption>
-				<Text>Where are they again?</Text>
+				<DialogueOption>
+				<Text>Where are the hatchlings again?</Text>
 				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
-
-<DialogueNode>
-		<Name>Slate_SW3</Name>
-		<Dialogue>Hey Slate, I'm a time traveler now. Got any questions for me before I take off?
-			<Page>Yeah, just one. Did you bang your head tossing and turning?</Page>
-				<Page></Page>
-			<Page>Go talk to the little hatchlings around the village before you go, will ya?</Page>
-			<Page>The young hatchlings always get excited about space, every time a new space cadet leaves the village to go into space. Just humor them and answer whatever questions they have about space best you can.</Page>
-			<Page>It's just good for the space program's image. Someday, these little hatchlings might join the space program themself, y'know?</Page>
-			<Page>Also, this ain't my business, but if you leave without a word, they'll probably hold a lifelong grudge against the astronaut that didn't say bye to them. No pressure.</Page>	
-		</Dialogue>
-				<RevealFacts>
-     						   <FactID>MICA R1</FactID>
-     						   <FactID>TEPH R1</FactID>
-     						   <FactID>GAL R1</FactID>
-     						   <FactID>ARK R1</FactID>
-     						   <FactID>MOR R1</FactID>
-    					  </RevealFacts>
-<DialogueOptionsList>
-			<DialogueOption>
-				<Text>Alright, alright, I'll go talk to the little gills before I go.</Text>
-				<DialogueTarget>Slate_Kids_Gettoit</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<Text>Where are they again?</Text>
-				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
-			</DialogueOption>
-		</DialogueOptionsList>
-	</DialogueNode>
 
 	<!-- ################################################## -->
 	<!-- ###################VISUAL BREAK################### -->
 	<!-- ################################################## -->
+
+<DialogueNode>
+		<Name>ScientistAnswer38_Z</Name>
+		<Dialogue>
+			<Page>Oh, ok, just cut me off then.</Page>
+			<Page>Bah, it's like you can sense when I'm about to sneakily ask you to do something.</Page>
+			<Page>On your way then, you rascal.</Page>
+		</Dialogue>
+	</DialogueNode>
 
 
 	<DialogueNode>
 		<Name>Slate_Kids_Gettoit</Name>
 		<Dialogue>
-			<Page>Cool. Just remember: there's Mica, Tephra, Galena, Arkose, and Moraine.</Page>
-			<Page>If you forget to say goodbye to any one of them, they'll probably never forget it as long as they live.</Page>
+			<Page>Cool. Just remember, there's five suspects: Mica, Tephra, Galena, Arkose, and Moraine.</Page>
+			<Page>Just talk to each of them. Real nonchalantly, like: "Which one of you kids tried to kill your friends the other day?"</Page>
+			<Page>Ah... I'd be a great detective.</Page>
 		</Dialogue>
 	</DialogueNode>
 
 <DialogueNode>
 		<Name>Slate_Kids_Direction</Name>
 		<Dialogue>
-			<Page>Uh, how'd I know? I'm just roasting marshmallows here.</Page>
+			<Page>Stars above, just look around the village! They're all probably just playing around somewhere.</Page>
 			<Page>Mica's probably still fiddling with the model rocket, just up the hill.</Page>
 				<Page>Tephra and Galena should be playing in the village somewhere.</Page>
 				<Page>I saw those two trekking outside the village recently for whatever reason, though - so don't take my word on that.</Page>

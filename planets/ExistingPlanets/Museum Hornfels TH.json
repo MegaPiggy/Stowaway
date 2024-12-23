@@ -310,7 +310,34 @@
 		
 		"details": [
 		
-
+			{
+				"rename":"Museum portrait 1",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/th portrait.prefab",
+				"position": {"x": -49.3593, "y": -12.852, "z": 222.6401},
+				"rotation":{"x":359.7328,"y": 166.1347 ,"z": 331.8488},
+				"stretch": {"x":0.3255,"y": 1,"z": 0.1855},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Museum portrait 2",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/et portrait.prefab",
+				"position": {"x": -45.5701, "y": -9.8607, "z": 223.5785},
+				"rotation":{"x":359.8167,"y": 166.425,"z": 313.5775},
+				"stretch": {"x":0.3255,"y": 1,"z": 0.1855},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"arkose remote 1",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+				"position": {"x":0,"y": 0,"z": 0},
+				"rotation":{"x": 0, "y": 0,"z": 0},
+				"deactivationCondition": "ark1",
+				"blinkWhenActiveChanged": false,
+				"isRelativeToParent": true
+			},
+			
 
 
 			{
@@ -957,27 +984,18 @@
 				"xmlFile": "planets/ExistingPlanets/dialogue/Slate existing dialogue patch.xml"
 			},
 			{
-				"rename":"Slate remote intro",
-				"position": {"x":43.0928,"y": -32.9543,"z": 182.2643},
+				"rename":"Arkose remote gm 1",
+				"position": {"x":31.8732,"y": 34.8503,"z": 228.3586},
 				"radius": 0,
-				"blockAfterPersistentCondition": "STOWAWAY_GO_TALK_TO_KIDS",
 				"remoteTrigger": {
-					"position": {"x":5.6347,"y": -42.2488,"z": 187.3667},
+					"position": {"x":39.4346,"y": 40.88,"z": 227.6},
 					"radius":4
 				},
-				"xmlFile": "planets/ExistingPlanets/dialogue/Slate remote intro.xml"
+				"xmlFile": "planets/ExistingPlanets/dialogue/arkose remote scream.xml",
+				"parentPath": "Sector_TH/arkose remote 1",
+				"isRelativeToParent": true
 			},
-			{
-				"rename":"Slate remote intro 2",
-				"position": {"x":1.682,"y": -40.7851,"z": 185.7339},
-				"radius": 0,
-				"blockAfterPersistentCondition": "STOWAWAY_GO_TALK_TO_KIDS",
-				"remoteTrigger": {
-					"position": {"x":33.103,"y": -40.4716,"z": 183.5703},
-					"radius":4
-				},
-				"xmlFile": "planets/ExistingPlanets/dialogue/Slate remote intro 2.xml"
-			},
+			
 
 			{
 				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Mica/ConversationZone",
