@@ -17,7 +17,7 @@
        </ExploreFact>
         <ExploreFact>
             <ID>MICA EX2</ID> 
-            <Text>Mica got sick of waiting, and asked me to ask Chert why it takes so long for sand to flow between the twins.</Text> 
+            <Text>Mica wants me to ask Chert why it takes so long for sand to flow between the twins.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -80,11 +80,11 @@
 
        <ExploreFact>
             <ID>ARK EX1</ID> 
-            <Text>Arkose says that Gabbro told them that that ghost matter disappears the last time they returned from Giant's Deep, though Gabbro didn't seem to know why.</Text> 
+            <Text>Arkose says that Gabbro told them that that ghost matter disappears the last time they returned from Giant's Deep.</Text> 
        </ExploreFact>
         <ExploreFact>
             <ID>ARK EX2</ID> 
-            <Text>Arkose told me to ask Gabbro about ghost matter if I wanted to learn more about it.</Text> 
+            <Text>Gabbro doesn't know why it happens, but they were the one that first told Arkose about ghost matter disappearing sometimes.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -105,12 +105,12 @@
             <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways.</Text> 
   </RumorFact>
    <RumorFact>
-            <ID>MOR R3</ID> 
-            <Text>Moraine asked me to jump down a geyser to investigate the unexplored, underground waterways of Timber Hearth in their place.</Text> 
+            <ID>MOR EX1</ID> 
+            <Text>There's an unexplored interconnected underwater cave system inside the geysers. Moraine wonders what might be down there.</Text> 
   </RumorFact>
          <ExploreFact>
             <ID>MOR EX2</ID> 
-            <Text>Moraine says the Nomai mural I found in the waterways is a discovery that will upend our knowledge of Hearthian history!</Text> 
+            <Text>Moraine says the Nomai mural I found in the waterways will upend our knowledge of Hearthian history!</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>MOR EX3</ID> 

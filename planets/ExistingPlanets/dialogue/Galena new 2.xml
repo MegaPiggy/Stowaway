@@ -34,6 +34,7 @@
 	<DialogueOptionsList>
 			<DialogueOption>
 			<CancelledCondition>Asked_Galena</CancelledCondition>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
 				<Text>Hey, Galena. Did you hear anything about ghost matter disappearing?</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
@@ -59,6 +60,7 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 			<CancelledCondition>Asked_Galena</CancelledCondition>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
 				<Text>Hey, Galena. Did you hear anything about ghost matter disappearing?</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
@@ -169,6 +171,86 @@
 			<Page><![CDATA[<size=20>]]>Thank you, astronaut.. Stay safe in space!<![CDATA[</size>]]></Page>
 		</Dialogue>
 	</DialogueNode>
+
+
+	<!-- ################################################## -->
+	<!-- ################# HIDE AND SEEK ################## -->
+	<!-- ################################################## -->
+
+
+	<DialogueNode>
+		<Name>FoundYou</Name>
+		<DialogueOptionsList>
+			<DialogueOption>
+			<CancelledCondition>Asked_Galena</CancelledCondition>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
+				<Text>Hey, Galena. Did you hear anything about ghost matter disappearing?</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+			<RequiredCondition>Asked_Galena</RequiredCondition>
+				<Text>Where do I look for this skeleton again, Galena?</Text>
+				<DialogueTarget>ShyKidNew1B</DialogueTarget>
+			</DialogueOption>
+
+				<DialogueOption>
+				<RequiredLogCondition>GAL EX3</RequiredLogCondition>
+				<Text>I saw the skeleton in the drain, Galena.</Text>
+				<DialogueTarget>ShyKidNew3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>LastKidFound</Name>
+		<DialogueOptionsList>
+			<DialogueOption>
+			<CancelledCondition>Asked_Galena</CancelledCondition>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
+				<Text>Hey, Galena. Did you hear anything about ghost matter disappearing?</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+			<RequiredCondition>Asked_Galena</RequiredCondition>
+				<Text>Where do I look for this skeleton again, Galena?</Text>
+				<DialogueTarget>ShyKidNew1B</DialogueTarget>
+			</DialogueOption>
+
+				<DialogueOption>
+				<RequiredLogCondition>GAL EX3</RequiredLogCondition>
+				<Text>I saw the skeleton in the drain, Galena.</Text>
+				<DialogueTarget>ShyKidNew3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>AlreadyFoundYou</Name>
+			<DialogueOptionsList>
+			<DialogueOption>
+			<CancelledCondition>Asked_Galena</CancelledCondition>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
+				<Text>Hey, Galena. Did you hear anything about ghost matter disappearing?</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+			<RequiredCondition>Asked_Galena</RequiredCondition>
+				<Text>Where do I look for this skeleton again, Galena?</Text>
+				<DialogueTarget>ShyKidNew1B</DialogueTarget>
+			</DialogueOption>
+
+				<DialogueOption>
+				<RequiredLogCondition>GAL EX3</RequiredLogCondition>
+				<Text>I saw the skeleton in the drain, Galena.</Text>
+				<DialogueTarget>ShyKidNew3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
 
 
 </DialogueTree>

@@ -28,6 +28,21 @@
 
 		"details":
 		[		
+		{
+			"rename":"Beach Tent 1",
+			"path":"TimberHearth_Body/Sector_TH/Tent wall 1",
+			"position": {"x": -37.5215, "y": -10.5292, "z": -106.3691},
+			"rotation": {"x": 329.7224, "y": 253.9703, "z": 7.4013},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"Beach Tent 2",
+			"path":"TimberHearth_Body/Sector_TH/Tent wall 1",
+			"position": {"x": -42.101, "y": -10.1368, "z": -101.10423},
+			"rotation": {"x": 317.4332, "y": 326.1635, "z": 10.5133},
+			"isRelativeToParent": true
+		},
+
 			{
 				"rename":"house torch",
 				"assetBundle": "planets/bundle/prefabs",
@@ -107,6 +122,7 @@
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Interactables_SouthPole/SouthPole_VisibleFromFar/Prefab_HEA_Campfire",
 				"position": {"x": -48.1811, "y": -11.6182, "z": -108.4257},
 				"rotation": {"x": 9.9326, "y": 230.6569, "z": 2.3795},
+				"keepLoaded": true,
 				"isRelativeToParent": true
 			},
 			{
@@ -729,7 +745,7 @@
 				"rename": "scrollboulder torch",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position": {"x": 30.1046, "y": 0.0116, "z": 9.0695},
+				"position": {"x": 29.9461, "y": 0.0044, "z": 9.2286},
 				"rotation": {"x": 8.2359, "y": 134.2555, "z": 180.9567},
 				"parentPath": "Sector_StatueIsland/Sculpting Boulders",
 				"removeChildren": ["WallTorch_Connector"],
@@ -797,7 +813,7 @@
 				"rename": "projstone boulder torch",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position": {"x": 29.4004, "y": -0.4596, "z": 17.0039},
+				"position": {"x": 29.1004, "y": -0.5596, "z": 17.0039},
 				"rotation": {"x": 28.4369, "y": 100.5726, "z": 10.913},
 				"removeChildren": ["WallTorch_Connector"],
 				"isRelativeToParent": true,
@@ -1147,8 +1163,8 @@
 			},
 			{
 				"rename":"Jellyfish notice recorder",
-				"position": {"x":4.9274,"y": 4.2856,"z": -89.716},
-				"rotation": {"x":351.7044,"y": 298.4751,"z": 7.3399},
+				"position": {"x":0.1129,"y": 4.1438,"z": -91.0069},
+				"rotation": {"x":357.6299,"y": 301.346,"z": 11.9654},
 				"type": "recorder",
 				"isRelativeToParent": true,
 				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/jellyfish surfacing notice.xml"

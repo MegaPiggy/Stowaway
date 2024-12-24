@@ -41,7 +41,7 @@
 		<Dialogue>
 			<Page>Huh? Oh, wow, so you noticed that too, astronaut?</Page>
 			<Page>And here I was, thinking Gabbro and I were the only ones who knew about it, heehee!</Page>
-			<Page>But yeah! That's why I'm throwing rocks at the patch here in the village all day, astronaut.. I’m trying to find out why ghost matter goes away sometimes!</Page>
+			<Page>But yeah! That's why I'm throwing rocks at the patch here in the village all day, astronaut.. I’m trying to find out why ghost matter goes away completely sometimes!</Page>
 		</Dialogue>
 			 <DialogueOptionsList>
 			<DialogueOption>
@@ -55,12 +55,12 @@
 	<DialogueNode>
 		<Name>ArkoseNew1.5</Name>
 		<Dialogue>
-			<Page>Yeah, I know, right?! It's weird!</Page>
+			<Page>Yeah, I know, right?! It's weird! And I don't mean just evaporating slowly like it does bit by bit.. I mean all at once!</Page>
 			<Page>You know how there’s a green glowy trail when you throw something into a patch of ghost matter?</Page>
 			<Page>When I throw rocks into this patch of ghost matter, sometimes, it doesn’t leave a trail at all.</Page>
 			<Page>I dunno what causes it! It doesn’t happen every time, even when I throw harder, or use different kinds of rocks.</Page>
-			<Page>I asked Gabbro about it last time they came back from Giant's Deep, and they said ghost matter just goes away sometimes! You should ask them if you wanna learn more about it.</Page>
-			<Page>I don't think they know why it happens either, though.. It’s dangerous to get too close to the ghost matter, so I’m using these rocks to see if I can figure it out on my own.</Page>
+			<Page>I asked Gabbro about it last time they came back from Giant's Deep, and they said ghost matter just goes away sometimes! Gabbro didn't know why it happens.. but they were the one that told me!</Page>
+			<Page>It’s dangerous to get too close to the ghost matter, so I’m using these rocks to see if I can figure it out on my own.</Page>
 		</Dialogue>
 							 <RevealFacts>
      						  	 <FactID>ARK EX1</FactID>

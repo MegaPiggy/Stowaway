@@ -588,14 +588,14 @@
 			},
 			{
 				"rename":"Tent 2",
-				"path":"Sector_TH/Tent wall 1",
+				"path":"TimberHearth_Body/Sector_TH/Tent wall 1",
 				"position": {"x": -151.3642, "y": -9.5186, "z": -133.0712},
 				"rotation": {"x": 336.7781, "y": 183.9071, "z": 242.4277},
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"Tent 3",
-				"path":"Sector_TH/Tent 2",
+				"path":"TimberHearth_Body/Sector_TH/Tent 2",
 				"position": {"x": -160.9941, "y": -11.7362, "z": -121.9005},
 				"rotation": {"x": 47.6221, "y": 193.8561, "z": 314.0461},
 				"isRelativeToParent": true
@@ -1001,14 +1001,21 @@
 				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Villager_HEA_Mica/ConversationZone",
 				"xmlFile": "planets/ExistingPlanets/dialogue/Mica new 2.xml"
 			},
+
 			{
 				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Tephra/ConversationZone",
 				"xmlFile": "planets/ExistingPlanets/dialogue/Tephra hidenseek.xml"
+			},{
+				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_Hidden/Villager_HEA_Tephra (1)/ConversationZone/",
+				"xmlFile": "planets/ExistingPlanets/dialogue/Tephra hidenseek.xml"
 			},
-		{
-			"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Galena/ConversationZone",
-			"xmlFile": "planets/ExistingPlanets/dialogue/Galena new 2.xml"
-		},
+			{
+				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_PreGame/Villager_HEA_Galena/ConversationZone",
+				"xmlFile": "planets/ExistingPlanets/dialogue/Galena new 2.xml"
+			},{
+				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_LowerVillage/Characters_LowerVillage/Kids_Hidden/Villager_HEA_Galena (1)/ConversationZone",
+				"xmlFile": "planets/ExistingPlanets/dialogue/Galena new 2.xml"
+			},
 		{
 			"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Arkose_GhostMatter/ConversationZone",
 			"xmlFile": "planets/ExistingPlanets/dialogue/Arkose new.xml"

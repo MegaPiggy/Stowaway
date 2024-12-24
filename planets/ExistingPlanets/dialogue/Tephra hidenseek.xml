@@ -6,7 +6,6 @@
 		<Name>HideAndSeek1</Name>
 	
 		<DialogueOptionsList>
-	
 			<DialogueOption>
 				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
 				<Text>Hey Tephra, did you hear anything about ghost matter disappearing?</Text>
@@ -68,8 +67,8 @@
 			<Page>The only place we couldn't explore was the Nomai Ruins on Timber Hearth, outside the village.</Page>
 			<Page>We wanted to look there too.. But Mayor Rutile told us not to ever go near there, because there's lots of dangerous ghost matter around that area that we can't see.</Page>
 			<Page>I thought if the ghost matter disappeared, maybe we could look there at last..</Page>
-			<Page>Um, could you help us check out the Nomai Ruins on Timber Hearth, astronaut? You're taller than us, so you if you accidentally walk into some ghost matter, you'll just lose your legs.</Page>
-			<Page>If you find the purple rock's <![CDATA[<color=orange>super secret hiding spot</color>]]>, that'd make you the best seeker in the village!</Page>
+			<Page>Um, could you help us check out the Nomai Ruins on Timber Hearth, astronaut? The purple rock might be hiding there somewhere!</Page>
+			<Page>You're taller than us, so you if you accidentally walk into some ghost matter, you'll just lose your legs!</Page>
 		</Dialogue>
 						 <RevealFacts>
      						   <FactID>TEPH EX1</FactID>
@@ -92,7 +91,7 @@
 		<Name>Teph Answers 1E</Name>
 			<Dialogue>
 					<Page>Um.. It's somewhere on Timber Hearth, outside the village!</Page>
-					<Page>Oh! I think there's a picture framed in the museum of the <![CDATA[<color=orange>Nomai Ruins..</color>]]> If you look at that, that might help you find it?</Page>
+					<Page>Oh! I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins..</color>]]> framed in the museum, astronaut. If you look at that, that should tell you what it looks like!</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -129,7 +128,7 @@
 		<Name>Teph Answers 1C</Name>
 			<Dialogue>
 					<Page>Yay! You're the best, astronaut!</Page>
-					<Page>Remember to come back and tell us, if you find where the purple rock goes!</Page>
+					<Page>Come back and tell us if you find where the purple rock goes, alright?
 			</Dialogue>
 	</DialogueNode>
 
@@ -137,9 +136,9 @@
 		<Name>Teph Answers 1D</Name>
 		<Dialogue>
 					<Page>Um.. It's somewhere on Timber Hearth, outside the village!</Page>
-					<Page>Oh! I think there's a picture framed in the museum of the <![CDATA[<color=orange>Nomai Ruins..</color>]]> If you look at that, that might help you find it?</Page>
-					<Page>Alright, off you go, astronaut!</Page>
-					<Page>Remember to come back and tell us, if you find where the purple rock goes!</Page>
+					<Page>Oh! I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins..</color>]]> framed in the museum, astronaut. If you look at that, that should tell you what it looks like!</Page>
+					<Page>Good luck out there, astronaut!</Page>
+					<Page>Come back and tell us if you find where the purple rock goes, alright?</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -154,5 +153,94 @@
 		</Dialogue>
 	</DialogueNode>
 
+
+	<!-- ################################################## -->
+	<!-- ################# HIDE AND SEEK ################## -->
+	<!-- ################################################## -->
+
+
+	<DialogueNode>
+		<Name>FoundYou</Name>
+			<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
+				<Text>Hey Tephra, did you hear anything about ghost matter disappearing?</Text>
+				<DialogueTarget>Teph SW_1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<RequiredLogCondition>SY R1</RequiredLogCondition>
+				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
+				<DialogueTarget>Teph Answers 1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<RequiredPersistentCondition>Tephra_NMR</RequiredPersistentCondition>
+				<Text>Where are the Nomai Ruins again?</Text>
+				<DialogueTarget>Teph Answers 1E</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>LastKidFound</Name>
+			<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
+				<Text>Hey Tephra, did you hear anything about ghost matter disappearing?</Text>
+				<DialogueTarget>Teph SW_1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<RequiredLogCondition>SY R1</RequiredLogCondition>
+				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
+				<DialogueTarget>Teph Answers 1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<RequiredPersistentCondition>Tephra_NMR</RequiredPersistentCondition>
+				<Text>Where are the Nomai Ruins again?</Text>
+				<DialogueTarget>Teph Answers 1E</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>AlreadyFoundYou</Name>
+			<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
+				<Text>Hey Tephra, did you hear anything about ghost matter disappearing?</Text>
+				<DialogueTarget>Teph SW_1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<RequiredLogCondition>SY R1</RequiredLogCondition>
+				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
+				<DialogueTarget>Teph Answers 1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<RequiredPersistentCondition>Tephra_NMR</RequiredPersistentCondition>
+				<Text>Where are the Nomai Ruins again?</Text>
+				<DialogueTarget>Teph Answers 1E</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>PlayedTheGame</Name>
+			<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
+				<Text>Hey Tephra, did you hear anything about ghost matter disappearing?</Text>
+				<DialogueTarget>Teph SW_1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<RequiredLogCondition>SY R1</RequiredLogCondition>
+				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
+				<DialogueTarget>Teph Answers 1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<RequiredPersistentCondition>Tephra_NMR</RequiredPersistentCondition>
+				<Text>Where are the Nomai Ruins again?</Text>
+				<DialogueTarget>Teph Answers 1E</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
 
 </DialogueTree>

@@ -99,18 +99,19 @@
 				<Page>I asked Chert when the sand would start flowing between the twins again before they took off, and they told me it was gonna happen real soon!</Page>
 				<Page>So I've been waiting and waiting, staring into the sun every single day trying to see if the sand's started flowing.. But it still hasn't happened!</Page>
      		 <Page>What's taking so long? When does this weird planetary sand exchange happen?! I'm going crazy waiting for it!</Page>
+     		 <Page>Bah, I'm just ranting now.. Look, if you find Chert out in space, could you help me ask them why it takes so long for sand to flow between the twins, astronaut?</Page>
 			 </Dialogue>
 			  				<RevealFacts>
-     						   <FactID>MICA EX1</FactID>
+     						   <FactID>MICA EX2</FactID>
     					  </RevealFacts>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>I'll uh, ask Chert why it takes so long for the sand to flow between the twins.</Text>
+				<Text>Sure thing.</Text>
 				<DialogueTarget>ModelRocketKid_SW1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
-				<Text>Oh, it happens pretty soon! Just be patient, Mica.</Text>
+				<Text>Oh, the sand starts flowing pretty soon... Just be patient, Mica.</Text>
 				<DialogueTarget>ModelRocketKid_SW2</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -126,7 +127,7 @@
 		<Page>Dumb sand column.. It's so weird, not even Chert can make heads or tails of it!</Page>
 		<Page>I wonder if we'll ever learn what even causes it.</Page>
 						 <RevealFacts>
-     						   <FactID>MICA EX2</FactID>
+     						   <FactID>MICA EX1</FactID>
     					  </RevealFacts>
 			 </Dialogue>
 </DialogueNode>
@@ -136,7 +137,7 @@
 		<Dialogue>
 		<Page>Yeah, yeah. That's what everyone tells me.</Page>
 		<Page>I wait another day, then I beg Moraine to lend me their signalscope to check, and I get disappointed every time!</Page>
-			<Page>Look, could you help me ask Chert why it takes so long for the sand to flow between the twins? I just don't wanna put all my eggs in one basket.. No offense!</Page>
+			<Page>Look, could you help me ask Chert if you see them? I just don't wanna put all my eggs in one basket.. No offense!</Page>
 			<Page>Dumb sand column.. It's so weird, not even Chert can make heads or tails of it!</Page>
 			<Page>I wonder if we'll ever learn what even causes it.</Page>
 			 </Dialogue>

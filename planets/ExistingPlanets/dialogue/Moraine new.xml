@@ -17,6 +17,7 @@
 				<DialogueTarget>SignalscopeKidNew4</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
+				<RequiredLogCondition>MOR R1</RequiredLogCondition>
 				<Text>Hey Moraine, did you hear anything about ghost matter disappearing?</Text>
 				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
 			</DialogueOption>
@@ -27,12 +28,12 @@
 		<Name>SignalscopeKidNew1</Name>
 		<Dialogue>
 			<Page>Yeah, I thought everyone knew that. Ghost matter evaporates slowly, doesn't it?</Page>
-			<Page>Still, it's a little scary how long it's taken that little patch in the village to evaporate..</Page>
-			<Page>The fact that there are Hearthian skeletons in there, tells us that little patch must have been around even when our Hearthian ancestors were learning to walk on land!</Page>
+			<Page>Still, it's a little scary how long it's taken just that little patch in the village to evaporate..</Page>
+			<Page>The fact that there are skeletons of early Hearthians in there, tells us that little patch must have been around even when our Hearthian ancestors were learning to walk on land!</Page>
 			</Dialogue>
 			<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Wait, those are Hearthian skeletons?</Text>
+				<Text>Wait, there are Hearthian skeletons in there?</Text>
 				<DialogueTarget>SignalscopeKidNew2</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -41,16 +42,14 @@
 		<DialogueNode>
 		<Name>SignalscopeKidNew2</Name>
 		<Dialogue>
-			<Page>Yeah! Didn't you know? Riebeck says those must have been early Hearthians, unlucky enough to stumble upon that patch of ghost matter while exploring the surface of Timber Hearth.</Page>
+			<Page>Yeah! You didn't notice them before? We haven't been able to remove them because of the ghost matter to put them in the museum, but Riebeck says they're definitely Hearthian!</Page>
+			<Page>Riebeck says they must have been some ancestors of ours unlucky enough to stumble upon that patch of ghost matter, while exploring the surface of Timber Hearth.</Page>
 			<Page>Our species used to be aquatic before our ancestors learned to walk on land, you know.</Page>
-			<Page>Riebeck thinks our ancestors learned how to live on land because if they didn't, we'd have died instantly whenever we got launched out of the water by geysers!</Page>
-			<Page>But even though they could go on land, Riebeck says our ancestors mainly lived in the huge underground cave system inside the geysers.</Page>
-			<Page>Apparently, there's a whole interconnected underwater cave system inside the planet that our ancestors swam around in!</Page>
+			<Page>Riebeck thinks Hearthians had to learn how to live on land because if they didn't, we'd have died instantly whenever we got launched out of the water by geysers!</Page>
+			<Page>But even though they could go on land, Riebeck says our ancestors still mainly lived in the huge underground cave system inside the geysers.</Page>
+			<Page>Apparently, there's a whole interconnected underwater cave system inside the geysers that our ancestors swam around in!</Page>
 			<Page>That part's a recent discovery, though. Nobody's even explored the waterways yet, since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
-				<Page>Oh, I can't even imagine what it'd be like... Swimming around those same waterways our ancestors lived in for millennia!</Page>
-				<Page>I'd love to jump down a geyser and explore the waterways myself - but Mayor Rutile says I'll drown, since we can't breathe underwater like early Hearthians did, and I'm bad at holding my breath..</Page>
-				<Page>Hey, um.. The traveler's spacesuit lets you breathe in space, right? Do you think it'd let you breathe underwater too, astronaut?</Page>
-				<Page>I'd hate for you to get your spacesuit wet before your launch, but.. Could you jump down a geyser and explore the waterways inside Timber Hearth in my place?</Page>
+				<Page>Oh, I can't even imagine what's down there, in the waterways our ancestors lived in for millennia!</Page>
 		</Dialogue>
 							<RevealFacts>
      						  	 <FactID>MOR EX1</FactID>
@@ -75,6 +74,7 @@
 		<SetPersistentCondition>Shutup_Moraine</SetPersistentCondition>
 		<Dialogue>
 				<Page>Really? You're the best, astronaut!</Page>
+				<Page>I'd love to jump down a geyser to explore myself.. But Mayor Rutile says I'll drown, since we can't breathe underwater like early Hearthians did, and I'm bad at holding my breath..</Page>
 				<Page>If you do find anything down there, I wanna hear all about it, okay?</Page>
 				<Page>Oooh, it's like revisiting the place where our ancestors came from! This is gonna be an incredible day for Hearthian history, astronaut!</Page>
 		</Dialogue>
@@ -115,6 +115,7 @@
 				<DialogueTarget>SignalscopeKidNew4</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
+				<RequiredLogCondition>MOR R1</RequiredLogCondition>
 				<Text>Hey Moraine, did you hear anything about ghost matter disappearing?</Text>
 				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
 			</DialogueOption>

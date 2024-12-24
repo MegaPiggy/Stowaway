@@ -7,7 +7,6 @@
 		<Name>Scientist1B</Name>
 		<DialogueOptionsList>
 		<DialogueOption>
-				<RequiredPersistentCondition>KILLED_IN_GHOST_MATTER</RequiredPersistentCondition>
 				<Text>I.. I think I just died in some ghost matter.</Text>
 				<DialogueTarget>ScientistAnswer38</DialogueTarget>
 			</DialogueOption>
@@ -35,8 +34,8 @@
 			<Page>Uhh, yeah? I thought it was pretty clear we were talking in dream terms? Pretty normal to get nightmares of all your phobias the day you take off - just ask Riebeck.</Page>
 			<Page>Sheesh, I didn't know you were that paranoid about ghost matter you were dreaming about dying to it, though. Tektite really spooked ya, huh?</Page>
 			<Page>Look, your suit should alert you whenever there's ghost matter nearby at all, so don't worry about just randomly falling into a patch without warning.</Page>
-			<Page>Once you know there's ghost matter around, just shoot your scout down and rotate the camera around to look out for it. You can even switch it to a handheld photo mode that lets you take pictures without launching the scout.</Page>
-			<Page>It's honestly so convenient, it's really out of my hands if you still manage to walk into some ghost matter... Unless you'd like me to just magically make all ghost matter disappear to idiotproof the star system.</Page>
+			<Page>Once you know there's ghost matter around, just use the scout to look out for it. You can even switch it to a handheld photo mode that lets you take pictures without launching it first.</Page>
+			<Page>It's so convenient, it's honestly out of my hands if you still manage to walk into some ghost matter... Unless you'd like me to just magically make all ghost matter disappear to idiotproof the star system.</Page>
 			<Page>..Huh. That reminds me of something interesting I heard in the village the other day, actually.</Page>
 		</Dialogue>
 <DialogueOptionsList>
@@ -58,7 +57,7 @@
 			<Page>Hm? Hah! Sorry to get your hopes up, but it was probably just some nasty prank the kids were playing.</Page>
 			<Page>If you really wanna know, I overheard one of the little hatchlings say that ghost matter disappears sometimes.</Page>
 			<Page>They were probably just trying to trick a more gullible hatchling into sticking a hand into some ghost matter.. <![CDATA[<Pause=1>]]> <![CDATA[<i>]]>Classic.<![CDATA[</i>]]></Page>	
-			<Page>If you want, feel free to interrogate all those smallfries to figure out who it was and reprimand them for me. Don't want those kids losing a limb or two to something stupid now.</Page>	
+			<Page>If you want, feel free to interrogate all those smallfries to figure out who it was and scold 'em for me. Don't want those kids losing a limb or two to something stupid now.</Page>	
 			<Page>I'd do it myself, but.. You're headed around the village on your way to get those launch codes anyway.</Page>	
 			<Page>And besides, heh.. <![CDATA[<Pause=2>]]> Now that I've told you, you can't leave that thread hanging before you go, can you?</Page>	
 		</Dialogue>
