@@ -59,8 +59,8 @@
 <DialogueNode>
 		<Name>ModelRocketKid_Annoy</Name>
 		<Dialogue>
-			<Page>Wha? Astronaut, are you really trying to trick me into touching some ghost matter? That's messed up.</Page>
-			<Page>Sheesh! First, Chert lies to me, and now this? You astronauts can be real mean sometimes!</Page>
+			<Page>Wha? Astronaut, are you.. trying to trick me into touching some ghost matter? That's <![CDATA[<i>messed up.</i>]]></Page>
+			<Page>Sheesh.. First, Chert lies to me, and now this? You astronauts can be real mean sometimes!</Page>
 		</Dialogue>
 			 <DialogueOptionsList>
 			<DialogueOption>
@@ -99,14 +99,14 @@
 				<Page>I asked Chert when the sand would start flowing between the twins again before they took off, and they told me it was gonna happen real soon!</Page>
 				<Page>So I've been waiting and waiting, staring into the sun every single day trying to see if the sand's started flowing.. But it still hasn't happened!</Page>
      		 <Page>What's taking so long? When does this weird planetary sand exchange happen?! I'm going crazy waiting for it!</Page>
-     		 <Page>Bah, I'm just ranting now.. Look, if you find Chert out in space, could you help me ask them why it takes so long for sand to flow between the twins, astronaut?</Page>
+     		 <Page>Bah, I'm just ranting now.. Look, if you run into Chert, could you help me ask them why it takes so long for sand to flow between the twins, astronaut?</Page>
 			 </Dialogue>
 			  				<RevealFacts>
      						   <FactID>MICA EX2</FactID>
     					  </RevealFacts>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>Sure thing.</Text>
+				<Text>Sure, I'll ask Chert if I see 'em.</Text>
 				<DialogueTarget>ModelRocketKid_SW1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -123,13 +123,14 @@
 <DialogueNode>
 		<Name>ModelRocketKid_SW1</Name>
 		<Dialogue>
-		<Page>Thanks, astronaut. Ugh, but I bet the moment you take off, the sand's gonna finally start flowing. I'm gonna have the biggest egg on my face..</Page>
+		<Page>Thanks, astronaut.</Page>
+		<Page>Ugh, but I bet the moment you take off, the sand's gonna finally start flowing. I'm gonna have the biggest egg on my face..</Page>
 		<Page>Dumb sand column.. It's so weird, not even Chert can make heads or tails of it!</Page>
 		<Page>I wonder if we'll ever learn what even causes it.</Page>
-						 <RevealFacts>
+			 </Dialogue>
+						  <RevealFacts>
      						   <FactID>MICA EX1</FactID>
     					  </RevealFacts>
-			 </Dialogue>
 </DialogueNode>
 
 <DialogueNode>
@@ -142,7 +143,7 @@
 			<Page>I wonder if we'll ever learn what even causes it.</Page>
 			 </Dialogue>
 						 <RevealFacts>
-     						   <FactID>MICA EX2</FactID>
+     						   <FactID>MICA EX1</FactID>
     					  </RevealFacts>
 </DialogueNode>
 

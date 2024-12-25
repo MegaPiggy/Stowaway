@@ -41,7 +41,7 @@
 		<Dialogue>
 			<Page>Huh? Oh, wow, so you noticed that too, astronaut?</Page>
 			<Page>And here I was, thinking Gabbro and I were the only ones who knew about it, heehee!</Page>
-			<Page>But yeah! That's why I'm throwing rocks at the patch here in the village all day, astronaut.. I’m trying to find out why ghost matter goes away completely sometimes!</Page>
+			<Page>But yeah! That's why I'm throwing rocks at the patch here in the village all day, astronaut.. <![CDATA[<Pause=1>]]> I’m trying to find out why ghost matter goes away completely sometimes!</Page>
 		</Dialogue>
 			 <DialogueOptionsList>
 			<DialogueOption>
@@ -55,7 +55,8 @@
 	<DialogueNode>
 		<Name>ArkoseNew1.5</Name>
 		<Dialogue>
-			<Page>Yeah, I know, right?! It's weird! And I don't mean just evaporating slowly like it does bit by bit.. I mean all at once!</Page>
+			<Page>Yeah, I know, right?! It's weird!</Page>
+			<Page>And I don't mean just evaporating slowly like it does bit by bit... I mean <![CDATA[<i>all at once!</i>]]></Page>
 			<Page>You know how there’s a green glowy trail when you throw something into a patch of ghost matter?</Page>
 			<Page>When I throw rocks into this patch of ghost matter, sometimes, it doesn’t leave a trail at all.</Page>
 			<Page>I dunno what causes it! It doesn’t happen every time, even when I throw harder, or use different kinds of rocks.</Page>
@@ -64,6 +65,7 @@
 		</Dialogue>
 							 <RevealFacts>
      						  	 <FactID>ARK EX1</FactID>
+     						  	 <FactID>ARK EX2</FactID>
      						  	 <FactID>ARK R2</FactID>
     					 	 </RevealFacts>
 			 <DialogueOptionsList>

@@ -17,7 +17,7 @@
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredPersistentCondition>Tephra_NMR</RequiredPersistentCondition>
+				<RequiredLogCondition>TEPH EX3</RequiredLogCondition>
 				<Text>Where are the Nomai Ruins again?</Text>
 				<DialogueTarget>Teph Answers 1E</DialogueTarget>
 			</DialogueOption>
@@ -29,11 +29,11 @@
 		<Name>Teph SW_1</Name>
 		<Dialogue>
 			<Page>Wait, ghost matter disappears sometimes? Really? I didn't know!</Page>
-			<Page>That's awesome! I'm gonna go jump into a patch of ghost matter right now!</Page>
+			<Page>That's awesome... I'm gonna go jump into a patch of ghost matter right now!</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>No no no, I was asking who might've told you that!</Text>
+				<Text><![CDATA[<i>No no no,</i>]]> I was asking who might've told you that!</Text>
 				<DialogueTarget>Teph SW_2</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -61,13 +61,13 @@
 <DialogueNode>
 		<Name>Teph SW_3</Name>
 		<Dialogue>
-			<Page>Yeah, the weird purple rock in the exhibit right outside the museum that jumps around! It's <![CDATA[<i>so</i>]]> good at hiding!</Page>
-			<Page>Oh, but I don't mean when it jumps behind you and scares you.. I mean when it disappears completely!</Page>
+			<Page>Yeah, the purple rock in the exhibit outside the museum that jumps around! It's <![CDATA[<i>so</i>]]> good at hiding!</Page>
+			<Page>Oh, but I don't mean when it jumps behind you and scares you.. I mean when it disappears <![CDATA[<i>completely!</i>]]></Page>
 			<Page>Galena and I both looked all over Timber Hearth to find where it goes when it disappears. But we could never find the purple rock's <![CDATA[<color=orange>super secret hiding spot.</color>]]></Page>
-			<Page>The only place we couldn't explore was the Nomai Ruins on Timber Hearth, outside the village.</Page>
-			<Page>We wanted to look there too.. But Mayor Rutile told us not to ever go near there, because there's lots of dangerous ghost matter around that area that we can't see.</Page>
+			<Page>The only place we couldn't look was the <![CDATA[<color=orange>Nomai Ruins</color>]]> on Timber Hearth, outside the village.</Page>
+			<Page>We wanted to look there too.. But Mayor Rutile told us to never EVER go near there, because there's lots of dangerous ghost matter around that area that we can't see.</Page>
 			<Page>I thought if the ghost matter disappeared, maybe we could look there at last..</Page>
-			<Page>Um, could you help us check out the Nomai Ruins on Timber Hearth, astronaut? The purple rock might be hiding there somewhere!</Page>
+			<Page>Um, could you help us check out the <![CDATA[<color=orange>Nomai Ruins</color>]]> on Timber Hearth, astronaut? The purple rock might be hiding there somewhere!</Page>
 			<Page>You're taller than us, so you if you accidentally walk into some ghost matter, you'll just lose your legs!</Page>
 		</Dialogue>
 						 <RevealFacts>
@@ -76,7 +76,7 @@
     					  </RevealFacts>
 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>Huh... I'll keep an eye out for it!</Text>
+				<Text>Uh... I'll keep an eye out for it!</Text>
 				<DialogueTarget>Teph Answers 1C</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -91,7 +91,7 @@
 		<Name>Teph Answers 1E</Name>
 			<Dialogue>
 					<Page>Um.. It's somewhere on Timber Hearth, outside the village!</Page>
-					<Page>Oh! I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins..</color>]]> framed in the museum, astronaut. If you look at that, that should tell you what it looks like!</Page>
+					<Page>Oh! I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins</color>]]> framed in the museum, astronaut. If you look at that, that should tell you what it looks like!</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -116,7 +116,6 @@
 
 	<DialogueNode>
 		<Name>Teph Answers 1B</Name>
-		<SetPersistentCondition>Tephra_NMR</SetPersistentCondition>
 		<Dialogue>
 					<Page>Wow, you found it already?! You're awesome, astronaut!</Page>
 					<Page>But.. How do you get in the spooky cave it's hiding in? Galena and I want to get in so we can use it for playing hide and seek..</Page>
@@ -128,7 +127,7 @@
 		<Name>Teph Answers 1C</Name>
 			<Dialogue>
 					<Page>Yay! You're the best, astronaut!</Page>
-					<Page>Come back and tell us if you find where the purple rock goes, alright?
+					<Page>Come back and tell us if you find where the purple rock goes, alright?</Page>
 			</Dialogue>
 	</DialogueNode>
 
@@ -136,7 +135,7 @@
 		<Name>Teph Answers 1D</Name>
 		<Dialogue>
 					<Page>Um.. It's somewhere on Timber Hearth, outside the village!</Page>
-					<Page>Oh! I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins..</color>]]> framed in the museum, astronaut. If you look at that, that should tell you what it looks like!</Page>
+					<Page>Oh! I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins</color>]]> framed in the museum, astronaut. If you look at that, that should tell you what it looks like!</Page>
 					<Page>Good luck out there, astronaut!</Page>
 					<Page>Come back and tell us if you find where the purple rock goes, alright?</Page>
 		</Dialogue>
@@ -173,7 +172,7 @@
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredPersistentCondition>Tephra_NMR</RequiredPersistentCondition>
+				<RequiredLogCondition>TEPH EX3</RequiredLogCondition>
 				<Text>Where are the Nomai Ruins again?</Text>
 				<DialogueTarget>Teph Answers 1E</DialogueTarget>
 			</DialogueOption>
@@ -194,7 +193,7 @@
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredPersistentCondition>Tephra_NMR</RequiredPersistentCondition>
+				<RequiredLogCondition>TEPH EX3</RequiredLogCondition>
 				<Text>Where are the Nomai Ruins again?</Text>
 				<DialogueTarget>Teph Answers 1E</DialogueTarget>
 			</DialogueOption>
@@ -215,7 +214,7 @@
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredPersistentCondition>Tephra_NMR</RequiredPersistentCondition>
+				<RequiredLogCondition>TEPH EX3</RequiredLogCondition>
 				<Text>Where are the Nomai Ruins again?</Text>
 				<DialogueTarget>Teph Answers 1E</DialogueTarget>
 			</DialogueOption>
@@ -236,7 +235,7 @@
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredPersistentCondition>Tephra_NMR</RequiredPersistentCondition>
+				<RequiredLogCondition>TEPH EX3</RequiredLogCondition>
 				<Text>Where are the Nomai Ruins again?</Text>
 				<DialogueTarget>Teph Answers 1E</DialogueTarget>
 			</DialogueOption>

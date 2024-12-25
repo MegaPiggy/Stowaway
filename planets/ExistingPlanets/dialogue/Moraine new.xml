@@ -42,11 +42,12 @@
 		<DialogueNode>
 		<Name>SignalscopeKidNew2</Name>
 		<Dialogue>
-			<Page>Yeah! You didn't notice them before? We haven't been able to remove them because of the ghost matter to put them in the museum, but Riebeck says they're definitely Hearthian!</Page>
-			<Page>Riebeck says they must have been some ancestors of ours unlucky enough to stumble upon that patch of ghost matter, while exploring the surface of Timber Hearth.</Page>
+			<Page>Yeah! You didn't notice them before?</Page>
+			<Page>We haven't been able to remove them because of the ghost matter to put them in the museum, but Riebeck says they're definitely Hearthian!</Page>
+			<Page>Riebeck says they must have been some ancestors of ours, unlucky enough to stumble upon that patch of ghost matter while exploring the surface of Timber Hearth.</Page>
 			<Page>Our species used to be aquatic before our ancestors learned to walk on land, you know.</Page>
 			<Page>Riebeck thinks Hearthians had to learn how to live on land because if they didn't, we'd have died instantly whenever we got launched out of the water by geysers!</Page>
-			<Page>But even though they could go on land, Riebeck says our ancestors still mainly lived in the huge underground cave system inside the geysers.</Page>
+			<Page>Even though they could go on land, Riebeck says our ancestors still mainly lived in the huge underground cave system inside the geysers.</Page>
 			<Page>Apparently, there's a whole interconnected underwater cave system inside the geysers that our ancestors swam around in!</Page>
 			<Page>That part's a recent discovery, though. Nobody's even explored the waterways yet, since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
 				<Page>Oh, I can't even imagine what's down there, in the waterways our ancestors lived in for millennia!</Page>
@@ -56,7 +57,7 @@
     					 	 </RevealFacts>
 	 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>That sounds fun! I'll give it a go sometime.</Text>
+				<Text>Maybe I'll dive down there to look around sometime.</Text>
 				<DialogueTarget>SignalscopeKidNew3</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -73,7 +74,7 @@
 		<Name>SignalscopeKidNew3</Name>
 		<SetPersistentCondition>Shutup_Moraine</SetPersistentCondition>
 		<Dialogue>
-				<Page>Really? You're the best, astronaut!</Page>
+				<Page>Really? Wow, you're so cool, astronaut!</Page>
 				<Page>I'd love to jump down a geyser to explore myself.. But Mayor Rutile says I'll drown, since we can't breathe underwater like early Hearthians did, and I'm bad at holding my breath..</Page>
 				<Page>If you do find anything down there, I wanna hear all about it, okay?</Page>
 				<Page>Oooh, it's like revisiting the place where our ancestors came from! This is gonna be an incredible day for Hearthian history, astronaut!</Page>
