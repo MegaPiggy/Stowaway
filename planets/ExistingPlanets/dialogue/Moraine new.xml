@@ -49,15 +49,15 @@
 			<Page>Riebeck thinks Hearthians had to learn how to live on land because if they didn't, we'd have died instantly whenever we got launched out of the water by geysers!</Page>
 			<Page>Even though they could go on land, Riebeck says our ancestors still mainly lived in the huge underground cave system inside the geysers.</Page>
 			<Page>Apparently, there's a whole interconnected underwater cave system inside the geysers that our ancestors swam around in!</Page>
-			<Page>That part's a recent discovery, though. Nobody's even explored the waterways yet, since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
-				<Page>Oh, I can't even imagine what's down there, in the waterways our ancestors lived in for millennia!</Page>
+			<Page>That part's a recent discovery, though. Nobody's even explored the waterways yet, since Riebeck <![CDATA[<i>"wasn't going to get eaten by an underwater monster",</i>]]> and the other astronauts were uh, busy, lazy, or missing.</Page>
+				<Page>Oh, I can't even imagine what's down there, in the waterways our ancestors lived in for millennia.. Would you ever be interested in jumping into a geyser to explore Timber Hearth's spooky depths, astronaut?</Page>
 		</Dialogue>
 							<RevealFacts>
      						  	 <FactID>MOR EX1</FactID>
     					 	 </RevealFacts>
 	 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>Maybe I'll dive down there to look around sometime.</Text>
+				<Text>I might dive down there to look around sometime.</Text>
 				<DialogueTarget>SignalscopeKidNew3</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -84,13 +84,14 @@
 <DialogueNode>
 		<Name>SignalscopeKidNew4</Name>
 		<Dialogue>
-				<Page>Woah.. What? A Nomai mural of.. our ancestors on land? That’s <![CDATA[<i>awesome!</i>]]></Page>
+				<Page>Woah.. What? A Nomai mural of.. our ancestors on land? That’s.. That's <![CDATA[<i>awesome!</i>]]></Page>
 				<Page>It’s not a huge underwater monster like I was hoping.. But it’s still really awesome!</Page>
-				<Page>But wait... <![CDATA[<Pause>]]> Doesn’t that mean Hearthians must have already existed when the Nomai were around?</Page>
+				<Page>But wait... Doesn’t that mean Hearthians must have already existed when the Nomai were around?</Page>
 					<Page>And it sounds like we were still able to live on both water AND land back then! </Page>
-					<Page>Aw, when did Hearthians stop being able to breathe underwater completely then? If we were still able to breathe underwater nowadays, I'd be able to swim around the waterways all day..</Page>
+					<Page>Aw, when did Hearthians stop being able to breathe underwater completely then?</Page>
+					<Page>If we were still able to breathe underwater nowadays, I'd be able to swim around the waterways all day..</Page>
 				<Page>But wow.. Isn't this discovery gonna totally upend our knowledge of Hearthian history?</Page>
-					<Page>I think you’d better fly to Brittle Hollow as soon as you can to tell Riebeck about this huge discovery, astronaut! They'll probably lose their marbles revising the Hearthian history books.</Page>
+					<Page>I think you’d better fly to Brittle Hollow as soon as you can to tell Riebeck about this huge discovery, astronaut. They'll probably lose their marbles revising the Hearthian history books!</Page>
 					<Page>Don’t forget, you can use your signalscope to track down the other travelers more easily!</Page>
 		</Dialogue>
 							<RevealFacts>
