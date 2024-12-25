@@ -10,7 +10,7 @@
 		<DialogueOptionsList>
 		<DialogueOption>
 		<RequiredPersistentCondition>Mica_Chert</RequiredPersistentCondition>
-				<Text>I heard you delayed your launch date several times! Why’s that?</Text>
+				<Text>Mica wanted me to ask why it's taken so long for sand to start flowing back to the other twin.</Text>
 				<DialogueTarget>Chert SW1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -25,16 +25,15 @@
 		<Name>Chert SW1</Name>
 			<Dialogue>
 				<Page>..What? Who cares about that now?! Everything's.. everything's about to...!</Page>
-				<Page>..You should have delayed your launch date, hatchling.. You.. You shouldn't have ever left Timber Hearth..</Page>
-				<Page>At least you could have spent a bit more time with everyone in the village, instead of dying alone on this horrible planet, far from home...</Page>	
+				<Page>Oh, poor Mica...</Page>
+				<Page>I hope they at least got to see it, before everything ends...</Page>	
 			</Dialogue>
 	</DialogueNode>
 
 	<DialogueNode>
 		<Name>Chert SW S</Name>
 			<Dialogue>
-				<Page>Too long... It won't happen in time, now..</Page>
-				<Page>I'm.. I'm sorry.</Page>
+				<Page>What? I.. I don't know! Not.. Not long. But..</Page>
 				<Page>More importantly, it's.. It's about to happen already... Oh...</Page>
 				</Dialogue>
 	</DialogueNode>

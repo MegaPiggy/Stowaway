@@ -18,8 +18,9 @@
 	<DialogueNode>
 		<Name>Chert SW1</Name>
 			<Dialogue>
-				<Page>Oh, you need not bother.. The sun will roast everything shortly.</Page>
-				<Page>When the supernova approaches, could you leave a marshmallow on your stick for me?</Page>	
+				<Page>No.. No, thank you.</Page>
+				<Page>But..</Page>
+				<Page>When the sun explodes, could you leave a marshmallow on the stick for me?</Page>	
 				<Page>I'd like to see how quickly it burns up.. For personal reference.</Page>
 			</Dialogue>
 	</DialogueNode>

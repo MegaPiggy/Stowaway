@@ -26,6 +26,7 @@
 			<Page>Whatever. Let's hear your ideas for what causes the twins' weird shifting sands, astronaut!</Page>
 				 <DialogueOptionsList>
 					<DialogueOption>
+					<RequiredPersistentCondition>Chert_Natural</RequiredPersistentCondition>
 						<Text>Chert says it's just some sort of natural phenomenon.</Text>
 							<DialogueTarget>ModelRocketKid_Sand_No</DialogueTarget>
 					</DialogueOption>
@@ -90,7 +91,6 @@
 
 <DialogueNode>
 		<Name>ModelRocketKid_SW_Intro</Name>
-		 <SetPersistentCondition>Mica_Chert</SetPersistentCondition>
 		<Dialogue>
 			<Page>Uugh, I'm gonna look so silly being angry about this..</Page>
 				<Page>You should know this already, being in the space program and all - but apparently, the sand flows back and forth between the Hourglass Twins from time to time. It's wicked awesome!</Page>

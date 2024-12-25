@@ -37,7 +37,7 @@
        </ExploreFact>
          <ExploreFact>
             <ID>TEPH EX3</ID> 
-            <Text>Tephra and Galena looked all over Timber Hearth to find where the quantum shard goes. The only place on Timber Hearth they couldn't explore was the Nomai Ruins outside the village, because of the ghost matter in that area.</Text> 
+            <Text>Tephra and Galena looked all over Timber Hearth to find where the quantum shard goes. The only part of Timber Hearth they couldn't look was the Nomai Ruins outside the village, because of the ghost matter in that area.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -84,7 +84,7 @@
        </ExploreFact>
         <ExploreFact>
             <ID>ARK EX2</ID> 
-            <Text>Gabbro doesn't know why it happens, but they were the one that first told Arkose about ghost matter disappearing sometimes.</Text> 
+            <Text>Gabbro doesn't know why it happens, but they were the one that told Arkose that ghost matter disappears sometimes.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -104,10 +104,10 @@
             <ID>MOR R2</ID> 
             <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways.</Text> 
   </RumorFact>
-   <RumorFact>
+         <ExploreFact>
             <ID>MOR EX1</ID> 
             <Text>There's an unexplored interconnected underwater cave system inside the geysers. Moraine wonders what might be down there.</Text> 
-  </RumorFact>
+       </ExploreFact>
          <ExploreFact>
             <ID>MOR EX2</ID> 
             <Text>Moraine says the Nomai mural I found in the waterways will upend our knowledge of Hearthian history!</Text> 

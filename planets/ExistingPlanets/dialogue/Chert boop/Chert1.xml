@@ -2,15 +2,31 @@
 
 	<NameField>Chert</NameField>
 
+<DialogueNode>
+		<Name>Chert3</Name>
+		<DialogueOptionsList>
+		<DialogueOption>
+				<Text>Sounds good.</Text>
+				<DialogueTarget>Chert5</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
 
+	<DialogueNode>
+		<Name>Chert3.5</Name>
+		<SetPersistentCondition>Chert_Natural</SetPersistentCondition>
+		<Dialogue>
+				<Page>Watch out for falling sand, okay? I’ve had to dig myself out once or twice, and that’s not half as fun as it sounds.</Page>
+			</Dialogue>
+	</DialogueNode>
 
 	<DialogueNode>
 		<Name>Questions</Name>
 			
 		<DialogueOptionsList>
 		<DialogueOption>
-		<RequiredPersistentCondition>Mica_Chert</RequiredPersistentCondition>
-				<Text>I heard you delayed your launch date several times! Why’s that?</Text>
+				<RequiredLogCondition>MICA EX2</RequiredLogCondition>
+				<Text>Mica wanted me to ask why it's taken so long for sand to start flowing back to the other twin.</Text>
 				<DialogueTarget>Chert SW1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -24,20 +40,16 @@
 	<DialogueNode>
 		<Name>Chert SW1</Name>
 			<Dialogue>
-				<Page>Ah, I’m guessing you heard about this from Mica?</Page>
-				<Page>I hope you didn’t take too long to take off - or they’ll be telling future space cadets about how you delayed your launch for generations to come, too!</Page>
-				<Page>As I've told them many times.. The reason I delayed my launch date was because the Hourglass Twins' sand was flowing towards Ash Twin on the day I was setting off.</Page>
-				<Page>Since I was planning to explore Ash Twin on my first trip, it'd have been silly to set off while it was being buried by oceans of sand.</Page>
-				<Page>That’s why I opted to delay my launch - though more times than I'd have liked.. But surely I can't be blamed for the universe's whims!</Page>		
-				<Page>Still, it certainly sparked a lifelong fascination with the Hourglass Twins in me. To this day, I can't help but wonder if there's more to the Hourglass Twins than natural phenomena.</Page>		
+				<Page>Goodness, have they been waiting all this time for the sand to start flowing between the Twins?</Page>
+				<Page> Oh, dear.. If I'd known they'd be so excited, I'd have given them a more precise date to look forwards to!</Page>
 			</Dialogue>
 		<DialogueOptionsList>
 				<DialogueOption>
-					<Text>The sand flows <![CDATA[<i>back</i>]]> to Ash Twin?</Text>
+					<Text>Wait.. We have precise dates for when the Hourglass Twins' sand exchange occurs?</Text>
 					<DialogueTarget>Chert SW2</DialogueTarget>
 				</DialogueOption>
 				<DialogueOption>
-					<Text>What made you want to explore Ash Twin?</Text>
+					<Text>What do you think even causes sand to flow between the Twins?</Text>
 					<DialogueTarget>Chert SW3</DialogueTarget>
 				</DialogueOption>
 		</DialogueOptionsList>
@@ -46,26 +58,20 @@
 	<DialogueNode>
 		<Name>Chert SW2</Name>
 			<Dialogue>
-				<Page>A good question! I once spotted a ring of tall Nomai structures along Ash Twin's equator while stargazing, and wished to visit Ash Twin to get a closer look at these structures.</Page>
-				<Page>From what I could tell, the structures appeared to be for stargazing. Each one has windows in their roofs that allowed you to peer out and see the planets and stars.</Page>
-				<Page>I must say, it was quite heartwarming to learn the Nomai shared my love for the stars!</Page>
-				<Page>That's my interpretation, anyways! If you visit them, you might be able to glean more about them with that new translator tool of yours.</Page>
+				<Page>We do! In fact, I was planning on announcing it to the village once I'd gathered more data about the phenomenon.</Page>
+				<Page>We could even gather in the village regularly, to watch it happen with a little celebration!</Page>
+				<Page>You see.. the Hourglass Twins' sand exchange occurs at very regular intervals.</Page>
+				<Page>After spending an unhealthy amount of time on the Twins (goodness, you should see how tan I've gotten!) I have found that each time the Twins' sandflow subsides, it takes a consistent three weeks for the sand to flow back to the other twin.</Page>
+				<Page>That the process takes place with such consistency only makes it even more puzzling to me, though.. I can't think of any natural phenomenon that occurs with such precision!</Page>
 				</Dialogue>
 						
 		<DialogueOptionsList>
 				<DialogueOption>
-				<RequiredLogCondition>WHS_X1</RequiredLogCondition>
-				<RequiredLogCondition>TT_WARP_TOWERS_X2</RequiredLogCondition>
-					<Text>I already did! Those are Nomai warp towers that connect to the other planets.</Text>
+					<Text>Could you tell me how long it takes for the sand to stop flowing between the Twins right now, then?</Text>
 					<DialogueTarget>Chert SW4</DialogueTarget>
 				</DialogueOption>
-
 				<DialogueOption>
-					<Text>I will, but tell me more about the Twins' shifting sands!</Text>
-					<DialogueTarget>Chert SW3B</DialogueTarget>
-				</DialogueOption>
-				<DialogueOption>
-					<Text>Will do!</Text>
+					<Text>What do you think even causes sand to flow between the Twins?</Text>
 					<DialogueTarget>Chert5</DialogueTarget>
 				</DialogueOption>
 		</DialogueOptionsList>
@@ -73,51 +79,41 @@
 
 	<DialogueNode>
 		<Name>Chert SW3</Name>
+		<SetPersistentCondition>Chert_Natural</SetPersistentCondition>
 			<Dialogue>
-				<Page>Why, yes! Haven’t you noticed before?</Page>
-				<Page>Right now, sand is flowing from Ash Twin to Ember Twin - but the process eventually reverses.</Page>
-				<Page>In fact, if you wait, you should be able to see it beginning to flow back to Ash Twin!</Page>
-				<Page>Even stranger, the process seems to happen in very precise and consistent intervals.. Flowing from one twin to the other, and back again after the same length of time.</Page>
-				<Page>It's a mystery that has bothered me for quite some time!</Page>
-				<Page>But until we can find more evidence to the contrary, all we can conclude is that it seems to be a very strange natural phenomenon.</Page>
+				<Page>Oh, how I wish I knew the answer to that question too, young hatchling.</Page>
+				<Page>For sand to flow from one planet to the other.. then flow back to the other planet.. There is simply no rational explanation for it.</Page>
+				<Page>The fact that the process takes place with such consistency only makes it even more puzzling to me. I cannot think of any natural phenomenon that occurs in this way, and with such precision!</Page>
+				<Page>But still.. Until we find any evidence to the contrary, we can only conclude that it might be some natural phenomenon we do not fully comprehend yet.</Page>
+				<Page>If you plan on exploring the Twins in search of an answer to this mystery, I do have another detail about the sand column, and some accompanying advice to share with you!</Page>
+				<Page>For whatever reason, the column of sand that drains sand from one Twin to the other seems to only ever wander along the Hourglass Twins' equator.</Page>
+				<Page>No matter how long I've stayed here, the sand column has never once wandered across this camp.</Page>
+				<Page>To that end, I would suggest starting your exploration to the poles of the Hourglass Twins - if you wish to be safe from being pulled into space by the sand column, or crushed by falling sand!</Page>
 			</Dialogue>
 		<DialogueOptionsList>
 				<DialogueOption>
-					<Text>How long do you think it'd take for sand to start flowing back to Ash Twin again?</Text>
-					<DialogueTarget>Chert SW3.5</DialogueTarget>
+					<Text>Could you tell me how long it takes for the sand to stop flowing between the Twins right now?</Text>
+					<DialogueTarget>Chert SW4</DialogueTarget>
 				</DialogueOption>
-		</DialogueOptionsList>
-	</DialogueNode>
-<DialogueNode>
-		<Name>Chert SW3B</Name>
-			<Dialogue>
-				<Page>Gladly!</Page>
-				<Page>Right now, sand is flowing from Ash Twin to Ember Twin - but did you know the process eventually reverses?</Page>
-				<Page>If you wait, you should be able to see it beginning to flow back to Ash Twin!</Page>
-				<Page>Even stranger, the process seems to happen in very precise and consistent intervals.. Flowing from one twin to the other, and back again after the same length of time.</Page>
-				<Page>It's a mystery that has bothered me for quite some time!</Page>
-				<Page>But until we can find more evidence to the contrary, all we can conclude is that it seems to be a very strange natural phenomenon.</Page>
-			</Dialogue>
-		<DialogueOptionsList>
 				<DialogueOption>
-					<Text>How long do you think it'd take for sand to start flowing back to Ash Twin again?</Text>
-					<DialogueTarget>Chert SW3.5</DialogueTarget>
+					<Text>That sounds wise! Thanks for the advice, Chert.</Text>
+					<DialogueTarget>Chert5</DialogueTarget>
 				</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
 	<DialogueNode>
-		<Name>Chert SW3.5</Name>
+		<Name>Chert SW4</Name>
 		<SetPersistentCondition>Sandflow</SetPersistentCondition>
 			<Dialogue>
-				<Page>Hm... It will take a while longer, I believe.</Page>
-				<Page>Come back once more of the sand has drained off from Ash Twin, and I might be able to give you a more precise answer then!</Page>
-				<Page>If you’re feeling impatient, feel free to take a nap by a campfire to pass the time.</Page>
-				<Page>I set up this camp here to avoid the sand column's path - so please, rest easy about the sand column wandering this way while you rest.</Page>
+				<Page>It will take.. Ah, I'm.. not too sure, since I didn't keep track when this interval began..</Page>
+				<Page>I am sure the interval does not last longer than 20 minutes, though. If you feel impatient, feel free to take a nap by a campfire to pass the time!</Page>
+				<Page>Time slips by during a good nap, after all.</Page>
+				<Page>I intentionally set up this camp to be out of the sand column's path - so please, rest easy about the possibility of the sand column wandering this way while you rest.</Page>
 			</Dialogue>
 		<DialogueOptionsList>
 				<DialogueOption>
-					<Text>Cool, cool. Tell me about what you found on Ash Twin, though!</Text>
+					<Text>What do you think even causes sand to flow between the Twins, though?</Text>
 					<DialogueTarget>Chert SW2.5</DialogueTarget>
 				</DialogueOption>
 				<DialogueOption>
@@ -127,43 +123,6 @@
 		</DialogueOptionsList>
 	</DialogueNode>
 
-<DialogueNode>
-		<Name>Chert SW S</Name>
-			<Dialogue>
-				<Page>Hm... It will take a while longer, I believe.</Page>
-				<Page>Come back once more of the sand has drained off from Ash Twin, and I might be able to give you a more precise answer then!</Page>
-				<Page>If you’re feeling impatient, feel free to take a nap by a campfire to pass the time.</Page>
-				<Page>I set up this camp here to avoid the sand column's path - so please, rest easy about the sand column wandering this way while you rest.</Page>
-			</Dialogue>
-	</DialogueNode>
-
-<DialogueNode>
-		<Name>Chert SW2.5</Name>
-			<Dialogue>
-			<Page>Goodness! That's right, that's what we were discussing at first, wasn't it? My apologies for rambling!</Page>
-			<Page>I once spotted a ring of tall Nomai structures along Ash Twin's equator while stargazing, and wished to visit Ash Twin to get a closer look at these structures.</Page>
-				<Page>From what I could tell, the structures appeared to be for stargazing. Each one has windows in their roofs that allowed you to peer out and see the planets and stars.</Page>
-				<Page>I must say, it was quite heartwarming to learn the Nomai shared my love for the stars!</Page>
-				<Page>That's my interpretation, anyways! If you visit them, you might be able to glean more about them with that new translator tool of yours.</Page>
-				</Dialogue>
-		<DialogueOptionsList>
-				<DialogueOption>
-				<RequiredLogCondition>WHS_X1</RequiredLogCondition>
-				<RequiredLogCondition>TT_WARP_TOWERS_X2</RequiredLogCondition>
-					<Text>I already did! Those are Nomai warp towers that connect to the other planets.</Text>
-					<DialogueTarget>Chert SW4</DialogueTarget>
-				</DialogueOption>
-
-				<DialogueOption>
-					<Text>I will, but tell me more about the Twins' shifting sands!</Text>
-					<DialogueTarget>Chert SW3B</DialogueTarget>
-				</DialogueOption>
-				<DialogueOption>
-					<Text>Will do!</Text>
-					<DialogueTarget>Chert5</DialogueTarget>
-				</DialogueOption>
-		</DialogueOptionsList>
-	</DialogueNode>
 
 	<DialogueNode>
 		<Name>FoundSomethingMenu</Name>
@@ -191,14 +150,7 @@
 <DialogueNode>
 		<Name>Chert SW4</Name>
 			<Dialogue>
-				<Page>Goodness! That's what those towers are?! How.. how could I have missed that?</Page>
-				<Page>This does sound quite plausible.. The model ship and the Little Scouts do utilize some kind of Nomai warp technology that lets us warp them back to a fixed point, don't they?</Page>
-				<Page>Oh, a Nomai warp system right under our noses... If I had been more observant, our space program might be revolutionized by now!</Page>
-				<Page>But, you said that the Nomai used these "warp towers" to travel around their settlements across the star system easily..</Page>
-				<Page>In that case, could there be a "warp tower" that connects to Timber Hearth as well?</Page>
-				<Page>Imagine how much easier space travel would be for the space program, if this Nomai warp system allowed us easy travel back to and from Timber Hearth!</Page>
-				<Page>I would love nothing more than to go investigate for myself, while the sand is draining from Ash Twin.. but I must focus on finishing these star charts first!</Page>
-				<Page>Would you kindly investigate in my stead? I promise to catch up with you as soon as I finish these charts!</Page>
+				<Page>PLACEHOLDER FOR SHIPLOGS WHEN I MOVE THESE SHIPLOGS TO ANOTHER CLUE</Page>
 			</Dialogue>
 							<RevealFacts>
      						   <FactID>GD Tower R1.5</FactID>
