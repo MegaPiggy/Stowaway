@@ -5,25 +5,17 @@
              <ID>GD_WARPTOWER</ID>
              <Name>Spire Tower</Name>
              <Curiosity>TimeLoop</Curiosity>
-             <IgnoreMoreToExplore/>
 
           <RumorFact>
             <ID>GD Tower R1</ID>
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>A tower on Ash Twin in the shape of a spire.</Text> 
         </RumorFact>
-        <RumorFact>
-            <ID>GD Tower R1.5</ID>
-             <RumorName>Warp Tower</RumorName>
-             <Text>The return warp on Timber Hearth sends one to a corresponding warp tower on Ash Twin.</Text> 
-        </RumorFact>
           <RumorFact>
             <ID>GD Tower R2</ID>
              <Text>Two Nomai debated about the Sun Station and some sort of safety test, while waiting outside this tower to travel to something called the Deep Storm Station.</Text> 
         </RumorFact>
        
-        
-     
        <ExploreFact>
             <ID>GD Tower EX1</ID>
              <Text>A tower on Ash Twin in the shape of a spire.</Text> 
@@ -32,7 +24,6 @@
             <ID>GD Tower EX2</ID> 
             <Text>The Deep Storm Station used energy from the electric core of Giant's Deep to test the mechanisms of the Ash Twin Project's negative time interval.</Text> 
         </ExploreFact>
-
            <ExploreFact>
             <ID>GD Tower EX3</ID> 
             <Text>Nomai traveled to a new warp pad on Giant's Deep to enter the Deep Storm Station.</Text> 
@@ -45,7 +36,6 @@
             <ID>BH_WARPTOWER</ID>
             <Name>Column Tower</Name>
            <Curiosity>TimeLoop</Curiosity>
-          <IgnoreMoreToExplore/>
 
           <RumorFact>
             <ID>BH Tower R1</ID>
@@ -53,18 +43,13 @@
              <Text>A tower on Ash Twin that resembles column formations.</Text> 
         </RumorFact>
         
-        <RumorFact>
-            <ID>BH Tower R2</ID>
-            <RumorName>Warp Tower</RumorName>
-             <Text>The return warp on Timber Hearth sends one to a corresponding warp tower on Ash Twin.</Text> 
-        </RumorFact>
          <ExploreFact>
             <ID>BH Tower EX1</ID>
              <Text>A tower on Ash Twin that resembles column formations.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>BH Tower EX2</ID>
-             <Text>Two Nomai children waited inside this tower for the sunless day to play some sort of game.</Text> 
+             <Text>Two Nomai children waited inside this tower for something called the sunless day to play some sort of game.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>BH Tower EX3</ID>
@@ -78,17 +63,11 @@
         <ID>TH_WARPTOWER</ID>
         <Name>Mountain Tower</Name>
         <Curiosity>TimeLoop</Curiosity>
-        <IgnoreMoreToExplore/>
 
           <RumorFact>
             <ID>TH Tower R1</ID>
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>A tower on Ash Twin in the shape of a mountain.</Text> 
-        </RumorFact>
-        <RumorFact>
-            <ID>TH Tower R2</ID>       
-            <RumorName>Warp Tower</RumorName>
-             <Text>The return warp on Timber Hearth sends one to a corresponding warp tower on Ash Twin.</Text> 
         </RumorFact>
 
          <ExploreFact>
@@ -119,17 +98,11 @@
               <ID>SS_WARPTOWER</ID>
               <Name>Star Tower</Name>
             <Curiosity>TimeLoop</Curiosity>
-            <IgnoreMoreToExplore/>
 
           <RumorFact>
             <ID>SS Tower R1</ID>
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>A tower on Ash Twin with pointed edges.</Text> 
-        </RumorFact>
-        <RumorFact>
-            <ID>SS Tower R2</ID>
-            <RumorName>Warp Tower</RumorName>
-             <Text>The return warp on Timber Hearth sends one to a corresponding warp tower on Ash Twin.</Text> 
         </RumorFact>
          <ExploreFact>
             <ID>SS Tower EX1</ID>
@@ -169,11 +142,6 @@
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>Two towers on Ash Twin joined together by an arch.</Text> 
         </RumorFact>
-        <RumorFact>
-            <ID>HGT Tower R2</ID>
-            <RumorName>Warp Tower</RumorName>
-             <Text>The return warp on Timber Hearth sends one to a corresponding warp tower on Ash Twin.</Text> 
-        </RumorFact>
          <ExploreFact>
             <ID>HGT Tower EX1</ID>
              <Text>Two towers on Ash Twin joined together by an arch.</Text> 
@@ -189,7 +157,13 @@
             <ID>SLR_T R1</ID>
              <Text>The Nomai traveled to the solar towers on Ash Twin's poles to investigate if their vision orbs were experiencing similar issues.</Text> 
         </RumorFact>
-     
+      <RumorFact>
+            <ID>SLR_T R2</ID>
+            <IgnoreMoreToExplore/>
+            <RumorName>Hourglass Twins Poles</RumorName>
+             <Text>Chert suggests exploring the Hourglass Twins' poles first to be safe from the column of sand.</Text> 
+        </RumorFact>
+
          <ExploreFact>
             <ID>SLR_T EX1</ID>
              <Text>Towers installed with colossal solar panels constructed at both of Ash Twin's poles.</Text> 
@@ -210,7 +184,7 @@
         </ExploreFact>
          <ExploreFact>
             <ID>SLR_T EX4</ID>
-             <Text>The Nomai had plans to relocate the solar panels on Ember Twin due to issues with its current site.</Text> 
+             <Text>The Nomai discussed plans to relocate the solar panels on Ember Twin, due to issues with its current site.</Text> 
         </ExploreFact>
  </Entry>
 

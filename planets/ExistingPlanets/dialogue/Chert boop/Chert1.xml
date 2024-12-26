@@ -88,8 +88,12 @@
 				<Page>If you plan on exploring the Twins in search of an answer to this mystery, I do have another detail about the sand column, and some accompanying advice to share with you!</Page>
 				<Page>For whatever reason, the column of sand that drains sand from one Twin to the other seems to only ever wander along the Hourglass Twins' equator.</Page>
 				<Page>No matter how long I've stayed here, the sand column has never once wandered across this camp.</Page>
-				<Page>To that end, I would suggest starting your exploration to the poles of the Hourglass Twins - if you wish to be safe from being pulled into space by the sand column, or crushed by falling sand!</Page>
+				<Page>To that end, I would suggest starting your exploration to the poles of the Hourglass Twins. That should keep you safe from being pulled into space by the sand column, or crushed by falling sand!</Page>
 			</Dialogue>
+						<RevealFacts>
+     						   <FactID>R_SLR R4</FactID>
+     						   <FactID>SLR_T R2</FactID>
+    					  </RevealFacts>
 		<DialogueOptionsList>
 				<DialogueOption>
 					<Text>Could you tell me how long it takes for the sand to stop flowing between the Twins right now?</Text>

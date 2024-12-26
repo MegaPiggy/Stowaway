@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		OENO: Yarrow and I noticed the rotating doors on several towers on Ash Twin opening and closing on their own, even without the influence of any Nomai.
+		OENO: Yarrow and I noticed the rotating doors on several towers on Ash Twin opening and closing on their own, even in the absence of any Nomai.
 		</Text>
 	</TextBlock>
 
@@ -33,7 +33,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: The twin farther from the sun feels not only the sun's great gravity - but also gravity from the twin closer to the sun, pulling it in the same direction.
+		OENO: The twin farther from the sun feels not only gravity from the sun, but also gravity from the twin closer to the sun pulling in the same direction.
 		</Text>
 	</TextBlock>
 
@@ -51,7 +51,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		OENO: The sunless day is also what causes sand to be pulled towards the other twin at the alignment point, creating the striking funnel of sand between the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]>
+		OENO: It is this same force that causes sand to be pulled towards the other twin at the alignment point, creating the striking funnel of sand between the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]>
 		</Text>
 	</TextBlock>
 

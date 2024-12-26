@@ -80,10 +80,6 @@
 			<FactID>GD Tower R2</FactID>
 			<Condition>9</Condition>
 		</RevealFact>
-		<RevealFact>
-			<FactID>GD Tower EX2</FactID>
-			<Condition>9</Condition>
-		</RevealFact>
 	</ShipLogConditions>
 	
 </NomaiObject>

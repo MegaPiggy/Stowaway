@@ -41,7 +41,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		OENO: Furthermore, this new invention will even allow us to freely use the rule of quantum entanglement!
+		COLEUS: Indeed. Fortunately for us, Daz has asked all of us to use his invention during the <![CDATA[<color=orange>Sanctuary's</color>]]> construction!
 		</Text>
 	</TextBlock>
 
@@ -50,7 +50,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: Indeed. And fortunately for us, Daz has asked all of us to use his invention during the <![CDATA[<color=orange>Sanctuary's</color>]]> construction!
+		COLEUS: Furthermore, I have heard this new invention will even allow us to freely use the rule of quantum entanglement!
 				</Text>
 	</TextBlock>
 
@@ -68,7 +68,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		OENO: Cycad, you must visit the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on <![CDATA[<color=lightblue>Giant's Deep</color>]]> to learn more about Daz's invention when you can!
+		OENO: Cycad, you must visit the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on <![CDATA[<color=lightblue>Giant's Deep</color>]]> to learn more about Daz's invention when you are able!
 				</Text>
 	</TextBlock>
 

@@ -281,8 +281,8 @@
 			},
 			{
 				"rename": "TH warp receiver tutorial recorder",
-				"position": {"x": -240.8466,"y": -34.6136,"z": -59.7903},
-				"rotation": {"x": 71.1162,"y": 140.8051,"z": 243.2462},
+				"position": {"x": -240.5692,"y": -34.3826,"z": -61.3245},
+				"rotation": {"x": 317.5052,"y": 174.0598,"z": 258.6037},
 				"type": "recorder",
 				"isRelativeToParent": true,
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/TH warp tower caution.xml"
@@ -463,6 +463,13 @@
 				"rotation":{"x":355.7633,"y": 347.9005,"z": 98.7099},
 				"stretch": {"x":1,"y": 1.3,"z": 1.1},
 				"isRelativeToParent": true
+			},{
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
+				"rename":"Stowaway GM wisps 2",
+				"position":{"x":0,"y": 0,"z": 0},
+				"rotation":{"x":0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Stowaway GM wisps"
 			},
 			{
 				"rename":"TH stowaway GM volume",

@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		KOUSA: To our friends returning from the expedition to the stormy planet: I hope you have been well!
+		KOUSA: To our friends returning from the expedition to the stormy planet: We welcome you home to <![CDATA[<color=lightblue>Brittle Hollow</color>]]> with great pleasure!
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		KOUSA: Since your last expedition, I have pondered hard for a way to offer you protection from the terrible storms you have faced on your journey..
+		KOUSA: I have heard tell of the terrible storms you have faced on your expeditions to the stormy planet, and could not help but wonder what I could do to protect you better from these conditions..
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		KOUSA: To that end, we have engineered a new invention in collaboration with our friends from the <![CDATA[<color=orange>Sunless City:</color>]]> the storm shelter!
+		KOUSA: To that end, I am proud to present to you the solution we have engineered, in collaboration with our friends from the <![CDATA[<color=orange>Sunless City;</color>]]> the storm shelter!
 		</Text>
 	</TextBlock>
 
@@ -50,7 +50,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: I humbly invite you to visit my workshop on <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> surface soon, so that I may share this invention with you and send it with you on your next expedition!
+		KOUSA: I humbly invite you to visit the <![CDATA[<color=lightblue>Gravity Crystal Workshop</color>]]> soon, so that I may share this invention with you, and send it with you on your next expedition!
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: How incredible, Kousa! I must thank our friends from the <![CDATA[<color=orange>Sunless City</color>]]> when we next set off for our expedition together.
+		PLUME: How incredible, Kousa! I must thank our friends from the <![CDATA[<color=orange>Sunless City</color>]]> when we next set off for our expedition to the stormy planet together.
 		</Text>
 	</TextBlock>
 	<TextBlock>

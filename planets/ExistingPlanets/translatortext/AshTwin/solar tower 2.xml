@@ -127,10 +127,6 @@
 			<FactID>SLR_T EX4</FactID>
 			<Condition>6</Condition>
 		</RevealFact>
-			<RevealFact>
-			<FactID>R_SLR R1</FactID>
-			<Condition>6</Condition>
-		</RevealFact>
 		<RevealFact>
 			<FactID>R_SLR R2</FactID>
 			<Condition>9</Condition>

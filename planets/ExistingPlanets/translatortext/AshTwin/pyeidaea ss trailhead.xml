@@ -70,6 +70,10 @@
 			<Condition>6</Condition>
 		</RevealFact>
 		<RevealFact>
+			<FactID>GD Tower EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
 			<FactID>GD Tower EX2</FactID>
 			<Condition>5</Condition>
 		</RevealFact>

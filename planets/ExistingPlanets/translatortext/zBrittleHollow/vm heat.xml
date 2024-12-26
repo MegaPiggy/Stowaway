@@ -16,7 +16,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CLARY: Is there a possibility that this ore.. may fail?
+		CLARY: Is there a possibility that this ore.. may not withstand the supernova's heat?
 		</Text>
 	</TextBlock>
 
@@ -91,12 +91,12 @@ Clue: Supernova generate lots of heat
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>LV EX2</FactID>
-			<Condition>6</Condition>
+			<FactID>LV EX1</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>LV EX3</FactID>
-			<Condition>5</Condition>
+			<FactID>LV EX2</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

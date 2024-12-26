@@ -21,11 +21,18 @@ Clue: Supernova generate lots of heat
 		    VERDICT: Location is now inhospitable. Evacuation recommended.
 		</Text>
 	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>
+		    Please ensure that any fragments of ore used in testing left in the lava pools have been retrieved before evacuating.
+		</Text>
+	</TextBlock>
+
 
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>LV EX1</FactID>
+			<FactID>LV R2</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
 			

@@ -39,6 +39,10 @@
             <ID>TEPH EX3</ID> 
             <Text>Tephra and Galena looked all over Timber Hearth to find where the quantum shard goes. The only part of Timber Hearth they couldn't look was the Nomai Ruins outside the village, because of the ghost matter in that area.</Text> 
        </ExploreFact>
+         <ExploreFact>
+            <ID>TEPH EX4</ID> 
+            <Text>Tephra says there's a picture of the Nomai Ruins framed in the museum.</Text> 
+       </ExploreFact>
 </Entry>
 
 <Entry>
@@ -84,7 +88,12 @@
        </ExploreFact>
        <ExploreFact>
             <ID>ARK EX2</ID> 
-            <Text>I should ask Gabbro what else they know about ghost matter disappearing.</Text> 
+            <Text>I should ask Gabbro what they know about ghost matter disappearing.</Text> 
+       </ExploreFact>
+       <ExploreFact>
+            <ID>ARK EX3</ID> 
+            <IgnoreMoreToExplore/>
+            <Text>Gabbro asked me to to tell Arkose about the effect of water on ghost matter, so they can stop trying to figure out why ghost matter disappears.</Text> 
        </ExploreFact>
 </Entry>
 
@@ -104,17 +113,18 @@
             <ID>MOR R2</ID> 
             <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways.</Text> 
   </RumorFact>
-         <ExploreFact>
-            <ID>MOR EX1</ID> 
-            <Text>There's an unexplored interconnected underwater cave system inside the geysers. Moraine asked me to jump into a geyser to explore Timber Hearth's depths, and to tell them what I find down there.</Text> 
-       </ExploreFact>
+          <RumorFact>
+            <ID>MOR R3</ID> 
+            <Text>There is an unexplored, interconnected underwater cave system inside the geysers. Moraine asked if I could jump into a geyser to explore Timber Hearth's depths for them, and tell them whatever I find down there.</Text> 
+  </RumorFact>
+
          <ExploreFact>
             <ID>MOR EX2</ID> 
-            <Text>Moraine says the Nomai mural I found in the waterways will upend our knowledge of Hearthian history!</Text> 
+            <Text>According to Moraine, the Nomai mural I found in the waterways will upend our knowledge of Hearthian history.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>MOR EX3</ID> 
-            <Text>Moraine says I should fly to Brittle Hollow to tell Riebeck about the Nomai mural as soon as I can.</Text> 
+            <Text>Moraine says I should fly to Brittle Hollow to tell Riebeck about the Nomai mural in the waterways as soon as I can!</Text> 
        </ExploreFact>
 </Entry>
 
@@ -187,7 +197,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>SY EX3</ID> 
-            <Text>A Nomai named Cycad was concerned after a quantum shard escaped his sight after accidentally disconnecting from his voyager. Another Nomai reminded him that voyagers are able to use the rule of quantum entanglement.</Text> 
+            <Text>A quantum shard escaped a Nomai's sight when the Nomai accidentally disconnected from his voyager. Another Nomai reminded him that voyagers were able to use the rule of quantum entanglement.</Text> 
          </ExploreFact>
          <ExploreFact>
             <ID>SY EX4</ID> 
@@ -209,18 +219,14 @@
           <RumorFact>
             <ID>Campsite R1</ID> 
             <IgnoreMoreToExplore/>
-            <RumorName>Nomai Ruins</RumorName>
-            <Text>Tephra asked me to explore the Nomai Ruins outside the village for undiscovered caves the quantum shard might travel to.</Text> 
+            <RumorName>Riebeck's Hunch</RumorName>
+            <Text>Riebeck thinks there might be a Nomai structure near the pools where I found the Nomai mural in Timber Hearth's waterways.</Text> 
         </RumorFact>
 
           <ExploreFact>
             <ID>Campsite EX1</ID> 
             <Text>This campsite belonged to the Nomai working on Timber Hearth.</Text> 
         </ExploreFact>
-          <ExploreFact>
-                <ID>Campsite EX1.5</ID> 
-                <Text>The Nomai discovered a new native species during an expedition to Timber Hearth, and followed it deeper into the mountain.</Text> 
-       </ExploreFact>
            
          <ExploreFact>
             <ID>Campsite EX2</ID> 
@@ -228,8 +234,12 @@
         </ExploreFact>
          <ExploreFact>
             <ID>Campsite EX3</ID>
-            <Text>The Nomai used a new invention from the Scroll and Stone Workshop on Giant's Deep to enter and exit the Sanctuary. This new invention allowed the Nomai to freely use the rule of quantum entanglement.</Text> 
+            <Text>The Nomai used a new invention from the Scroll and Stone Workshop on Giant's Deep to enter and exit the Sanctuary. This new invention allowed Nomai to freely use the rule of quantum entanglement.</Text> 
         </ExploreFact>
+          <ExploreFact>
+                <ID>Campsite EX1.5</ID> 
+                <Text>The Nomai discovered a new native species during an expedition to Timber Hearth, and followed it deeper into the mountain.</Text> 
+       </ExploreFact>
           <ExploreFact>
             <ID>Campsite EX5</ID>
             <Text>I found Nomai text warning of danger invisible to the naked eye beyond a barricade.</Text> 
@@ -248,13 +258,21 @@
             <RumorName>Timber Hearth Ghost Matter</RumorName>
             <Text>A Nomai named Cassava traveled to Timber Hearth to study another property of ghost matter he noticed.</Text> 
         </RumorFact>
+        <RumorFact>
+            <ID>TH_WR R2</ID> 
+            <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead.</Text> 
+        </RumorFact>
+
           <ExploreFact>
                     <ID>TH_WR EX3</ID> 
-                   <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead. He posited that ghost matter could be competitively manipulated by sources of gravity.</Text> 
+                   <Text>There is a scroll left in a toppled shelf here, but it has been surrounded by ghost matter.</Text> 
+                   <AltText>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead. He posited that ghost matter could be competitively manipulated by sources of gravity.
+                         <Condition>TH_WR R2</Condition>
+                         </AltText>
                </ExploreFact>
                  <ExploreFact>
                     <ID>TH_WR EX3.5</ID> 
-                   <Text>This discovery was named the property of attraction, and spurred Cassava to return to Giant's Deep.</Text> 
+                   <Text>This discovery was named the property of attraction.</Text> 
                </ExploreFact>
                <ExploreFact>
                      <ID>TH_WR EX1</ID> 

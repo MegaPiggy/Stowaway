@@ -20,19 +20,19 @@
 		<Name>GM_Talk</Name>
 		<Dialogue>
 			<Page>Hm? Oh yea, I noticed that on my last trip here.</Page>
-			<Page>That smart lil' cookie noticed the same thing back on Timber Hearth, and asked me about it last time I visited the village.</Page>
+			<Page>That smart lil' cookie Arkose asked me about it last time I visited the village.</Page>
 			<Page>You know the Little Scout has a feature that tells you if there's danger where you shoot it, right?</Page>
-				<Page>It works great for scouting out ghost matter. Lights up a warning when you shoot it into a patch of the deadly stuff - which is sweet if you tend to forget there's invisible deadly stuff in front of you like me.</Page>
+				<Page>It works great for scouting out ghost matter. Lights up a warning when you shoot it into a patch of the deadly stuff... which is sweet if you tend to forget there's a patch of invisible deadly matter around you, like me.</Page>
 				<Page>Well, one time, I was using it to scout a big patch of ghost matter on one of the islands here on Giant's Deep. Just left it down in case I forget about the stuff.</Page>
-				<Page>But suddenly, the scout suddenly starts saying it's safe!</Page>
+				<Page>But suddenly, the scout's sensors suddenly starts saying it's safe!</Page>
 				<Page>That's weird, right? Must be some quirk with the sensors, I thought.</Page>
 				<Page>But I took some photos with the scout camera too, and lo and behold - the ghost matter really was gone!</Page>
 				<Page>Weirder, a moment later, the scout says there's danger again.. And the ghost matter was back in the photos, too.</Page>
-				<Page>But hey, there's some ghost matter right in the cove back there. Feel free to check it out with your scout if you're feeling curious!</Page>
+				<Page>But hey, if you don't believe me, there's some ghost matter right in the cove back there. Feel free to check it out with your scout if you're feeling curious.</Page>
 				<Page>Full disclosure, I haven't actually like.. stuck a limb into the ghost matter. <![CDATA[<Pause=1>]]> Don't know if I trust Slate's sensors more than my common sense, y'know?</Page>
 				<Page>So y'know, just be careful.</Page>
 				<Page>If you happen to get hurt, there should be a campfire I built right outside the cove you can patch up by.</Page>
-				<Page>It's probably nothing a nap can't sleep off, so long as you don't take a bath in the stuff.</Page>
+				<Page>It's probably nothing a nap can't sleep off.. So long as you don't take a bath in the stuff.</Page>
 		</Dialogue>
 		 				  <RevealFacts>
      						   <FactID>Cove R1</FactID>
@@ -55,11 +55,15 @@
 		<Name>CampfireWave</Name>
 		<Dialogue>
 			<Page>Oh, woah. For real?</Page>
-			<Page>Huh. Makes sense it only happens sometimes then.. Must be the waves washing up on the island sometimes doing that.</Page>
+			<Page>Huh.. So water's what's doing it. Makes sense it only happens sometimes then.. Must be the waves washing up on the island sometimes causing the ghost matter to turn inert for a sec.</Page>
 			<Page>Oh, shucks.. If it needs to be totally submerged, doesn't that mean it probably only happens to the ghost matter on Giant's Deep then? Not really anywhere else with this much water in the star system..</Page>
 			<Page>Well, uh.. Would you mind telling Arkose about this too, next time you're on Timber Hearth?</Page>
-			<Page>Last I heard, that poor little hatchling was still chucking rocks into that patch of ghost matter in the village non-stop trying to figure out why ghost matter disappears.. It'd be good to let 'em know they can stop now.</Page>
+			<Page>Last I heard, that poor little hatchling was still chucking rocks into that patch of ghost matter in the village non-stop, trying to figure out why ghost matter disappears..</Page>
+			<Page>It'd be nice to let 'em know they can stop now, now that you've figured out what causes it!</Page>
 		</Dialogue>
+							<RevealFacts>
+     						  	 <FactID>ARK EX3</FactID>
+    					 	 </RevealFacts>
 	</DialogueNode>
 
 

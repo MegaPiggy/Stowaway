@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		CYCAD: But Oeno, the surface of the planet is never dark enough for one to use the rule of quantum entanglement (unlike these slumbering species)..
+		CYCAD: But Oeno, the surface of the planet is never dark enough for conscious beings to use the rule of quantum entanglement! How could the rule of quantum entanglement be used here?
 				</Text>
 	</TextBlock>
 	<TextBlock>
@@ -62,7 +62,7 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		CYCAD: But of course.. A voyager is unable to observe its surroundings on its own! You have my gratitude for this lesson, Oeno!
+		CYCAD: I have figured it out at last thanks to your help, Oeno.. A voyager is unable to observe its surroundings on its own! You have my gratitude for this lesson!
 		</Text>
 	</TextBlock>
 	

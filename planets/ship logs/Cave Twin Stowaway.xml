@@ -7,18 +7,23 @@
             <Name>Relocation Site</Name>
              <Curiosity>None</Curiosity>
 
-          <RumorFact>
-            <ID>R_SLR R1</ID>
-            <SourceID>SOLAR_TOWER</SourceID>
-             <Text>A Nomai recording on Ash Twin described plans to relocate Ember Twin's solar panels due to issues with its current site.</Text> 
-        </RumorFact>
+          
           <RumorFact>
             <ID>R_SLR R2</ID>
             <SourceID>CT_SUNLESS_CITY</SourceID>
-             <Text>The Nomai planned to relocate the solar panels on Ember Twin to a grassy plateau on the surface above the Sunless City.</Text> 
+            <RumorName>Relocation Site</RumorName>
+                        <RumorNamePriority>1</RumorNamePriority>
+             <Text>The Nomai planned to relocate the solar panels on Ember Twin to a grassy plateau on Ember Twin's surface, directly above the Sunless City.</Text> 
+        </RumorFact>
+      <RumorFact>
+            <ID>R_SLR R4</ID>
+            <IgnoreMoreToExplore/>
+            <RumorName>Hourglass Twins Poles</RumorName>
+             <Text>Chert suggests exploring the Hourglass Twins' poles first to be safe from the column of sand.</Text> 
         </RumorFact>
          <RumorFact>
             <ID>R_SLR R3</ID>
+            <RumorName>Hourglass Twins Poles</RumorName>
             <SourceID>BH_LOCATOR</SourceID>
              <Text>I found a Nomai recording near this site describing a second Quantum Moon Locator on Brittle Hollow.</Text> 
         </RumorFact>

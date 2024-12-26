@@ -93,6 +93,9 @@
 					<Page>Um.. It's somewhere on Timber Hearth, outside the village!</Page>
 					<Page>Oh! I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins</color>]]> framed in the museum, astronaut. If you look at that, that should tell you what it looks like!</Page>
 		</Dialogue>
+						 <RevealFacts>
+     						   <FactID>TEPH EX4</FactID>
+    					  </RevealFacts>
 	</DialogueNode>
 
 
@@ -139,6 +142,9 @@
 					<Page>Good luck out there, astronaut!</Page>
 					<Page>Come back and tell us if you find where the purple rock goes, alright?</Page>
 		</Dialogue>
+						 <RevealFacts>
+     						   <FactID>TEPH EX4</FactID>
+    					  </RevealFacts>
 	</DialogueNode>
 
 

@@ -17,6 +17,7 @@
             <Text>The Quantum Moon Locator on Brittle Hollow is able to track when the Quantum Moon is visiting the sixth location, unlike the locator on Ember Twin.</Text> 
         </RumorFact>
          <RumorFact>
+            <IgnoreMoreToExplore/>
             <ID>BH_QML R4</ID>
             <SourceID>CT_QUANTUM_MOON_LOCATOR</SourceID>
             <Text>A Nomai named Ilex provided a set of eyes from the Quantum Moon Locator on Ember Twin.</Text> 
@@ -80,7 +81,7 @@
         </ExploreFact>
              <ExploreFact>
             <ID>BH_H EX6</ID> 
-            <Text>Two Nomai children here played a game to see who could jump higher. One was unable to jump as high as the other did, and told it was because they were now on Brittle Hollow's north pole.</Text> 
+            <Text>Two Nomai children here played a game to see who could jump higher. One was unable to jump as high as the other did, and was told it was because they were now on Brittle Hollow's north pole.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>BH_H EX7</ID> 

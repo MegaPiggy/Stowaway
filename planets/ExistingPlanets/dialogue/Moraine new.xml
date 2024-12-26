@@ -57,7 +57,7 @@
     					 	 </RevealFacts>
 	 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>I might dive down there to look around sometime.</Text>
+				<Text>I could dive down there to look around sometime.</Text>
 				<DialogueTarget>SignalscopeKidNew3</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>

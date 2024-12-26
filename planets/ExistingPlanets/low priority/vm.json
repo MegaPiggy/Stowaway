@@ -25,6 +25,15 @@
 			"rotation":{"x":357.9273,"y": 317.627,"z": 341.2101},
 			"scale":1,
 			"isRelativeToParent": true
+		},{
+			"rename":"lava floating raft 2",
+			"parentPath": "MoltenCore_VM",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
+			"position":{"x":23.8327,"y": 83.0722,"z": 12.9805},
+			"rotation":{"x":324.203,"y": 308.6537,"z": 297.7463},
+			"scale":1.2,
+			"isRelativeToParent": true
 		},
 		{
 			"rename":"frictionless orb",
@@ -42,7 +51,7 @@
 			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/vm heat.xml",
 			"parentPath": "MoltenCore_VM",
 			"type": "recorder",
-			"position": {"x":29.0081,"y": 82.4222,"z": 7.5874},
+			"position": {"x":29.0081,"y": 82.4222,"z": 7.6874},
 			"rotation": {"x":15.47,"y": 17.6313,"z": 349.0074},
 			"isRelativeToParent": true
 		},
