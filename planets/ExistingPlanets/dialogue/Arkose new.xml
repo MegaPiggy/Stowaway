@@ -145,7 +145,8 @@
 		<Name>Arkose_WaterRule</Name>
 		<Dialogue>
 			<Page>Woah.. <![CDATA[<Pause>]]> Is that what's making the ghost matter here disappear?</Page>
-			<Page>But.. There's not much water around here. The geyser isn't spraying enough, and it hasn't rained at all lately.. I don't think that's what causing the ghost matter here to disappear..</Page>
+			<Page>But.. There's not much water around here.</Page>
+			<Page>The geyser isn't spraying enough, and it hasn't rained at all lately.. I don't think that's what causing the ghost matter here to disappear..</Page>
 			<Page>But um, that's still really cool, astronaut!</Page>
 			<Page>I'm gonna ask Slate to build me a suit of water later, so I can do snow angels in the ghost matter...</Page>
 			</Dialogue>
@@ -156,7 +157,8 @@
 		<SetCondition>Gravdumb</SetCondition>
 		<Dialogue>
 			<Page><![CDATA[<i>Huh?! Really?!</i>]]></Page>
-			<Page>Ohh, so <![CDATA[<i>that's</i>]]> why the ghost matter goes away sometimes.. It must be the Attlerock's gravity pulling this patch here up when it's coming over the village!</Page>
+			<Page>Ohh, so <![CDATA[<i>that's</i>]]> why the ghost matter goes away sometimes!</Page>
+			<Page>It must be the Attlerock's gravity pulling this patch here up when it's coming over the village!</Page>
 			<Page>I know that part, 'cos of the exhibit in the museum with the rolling balls!</Page>
 			<Page>I was so focused I never even noticed the Attlerock coming over the village every time it disappeared..</Page>
 			<Page>Thanks a bunch for telling me, astronaut! Phew, now I can finally rest my arm...</Page>

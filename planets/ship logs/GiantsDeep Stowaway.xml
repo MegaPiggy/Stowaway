@@ -326,7 +326,7 @@
             <ID>LC EX5</ID> 
             <Text>The Nomai abandoned this tower due to extenuating circumstances, chronicled in scrolls within the tower.</Text> 
                  <AltText>
-                      <Text>The Nomai abandoned this tower after a quantum shard made it inhospitable. They moved to the island they found on their first expedition, and noted another island as a potential construction site.</Text>
+                      <Text>The Nomai abandoned this tower after a quantum shard made it inhospitable. They moved to the island they landed on their first expedition, and noted another island as a potential construction site.</Text>
                      <Condition>LC R4</Condition>
                  </AltText>
         </ExploreFact>
@@ -463,7 +463,7 @@
             <Text>A Nomai named Cassava was protected from some sort of danger aboard the Deep Storm Station, and used voyager stones to travel outside the station safely.</Text>
             <AltText>
                 <Text>A Nomai named Cassava survived the arrival of ghost matter in the star system aboard the Deep Storm Station, and used voyager stones to travel outside the station safely.</Text>
-                <Condition>COMET_INTERIOR_X1</Condition>
+                <Condition>COMET_INTERIOR_X3</Condition>
             </AltText>
         </ExploreFact>
         
@@ -472,7 +472,7 @@
             <Text>Several species in the star system were protected from some sort of danger by the property of immersion. Cassava feared what might happen if they ever returned to the planet's surface.</Text> 
             <AltText>
                 <Text>Several species in the star system were protected from ghost matter by the property of immersion. Cassava feared what might happen if they ever returned to the planet's surface.</Text>
-                <Condition>COMET_INTERIOR_X1</Condition>
+                <Condition>COMET_INTERIOR_X3</Condition>
             </AltText>
         </ExploreFact>
 
@@ -488,7 +488,7 @@
 
         <ExploreFact>
             <ID>DSS EX5</ID> 
-            <Text>After releasing the species within the Sanctuary with his voyager, Cassava gathered ghost matter that had engulfed the other planets and warped it into the Deep Storm Station, containing it indefinitely.</Text>
+            <Text>After releasing the species within the Sanctuary with his voyager, Cassava gathered as much ghost matter as he safely could from the star system and warped it into the Deep Storm Station, containing it indefinitely.</Text>
         </ExploreFact>
 
 </Entry>

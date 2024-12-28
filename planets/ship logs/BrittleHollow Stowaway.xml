@@ -127,7 +127,7 @@
         </ExploreFact>
  <ExploreFact>
             <ID>GSHOP EX3</ID>
-            <Text>There is a scroll in a shelf in one of the ruins outside the workshop, but it is surrounded by ghost matter.</Text> 
+            <Text>There is a scroll in a shelf in one of the ruins outside the workshop surrounded by ghost matter.</Text> 
               <AltText>
                          <Text>Storm shelters are powered by solar panels, not cyclones.</Text>
                          <Condition>GSHOP R4</Condition>

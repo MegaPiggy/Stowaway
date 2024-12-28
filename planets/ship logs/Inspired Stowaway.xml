@@ -6,7 +6,13 @@
         <ID>INSPIRED</ID>
         <Name>The Inspired</Name>
         <Curiosity>Stowaway</Curiosity>
-   
+         <AltPhotoCondition>INSP R0</AltPhotoCondition>
+
+     <RumorFact>
+             <IgnoreMoreToExplore/>
+            <ID>INSP R0</ID>
+            <Text>I found a frozen comet hidden in the shadow of Giant's Deep.</Text>
+         </RumorFact>
   <RumorFact>
              <IgnoreMoreToExplore/>
             <ID>INSP R1</ID>
@@ -38,10 +44,7 @@
          <ExploreFact>
           <IgnoreMoreToExplore/>
             <ID>INSP EX1</ID>
-            <Text>I found a frozen comet hidden in the shadow of Giant's Deep.</Text>
-                 <AltText>
                         <Text>An artificial comet hidden in the shadow of Giant's Deep.</Text>
-                        <Condition>INSP R3</Condition>
                  </AltText>
         </ExploreFact>
 
@@ -51,7 +54,7 @@
             <Text>A Nomai named Cassava built the Inspired to bring great destruction to the source of ghost matter.</Text>
                <AltText>
                         <Text>A Nomai named Cassava built the Inspired to bring great destruction to the source of the Interloper.</Text>
-                        <Condition>COMET_INTERIOR_X1</Condition>
+                        <Condition>COMET_INTERIOR_X3</Condition>
                  </AltText>
         </ExploreFact>
         

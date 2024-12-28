@@ -192,7 +192,7 @@
             <Text>The native species of Timber Hearth were endangered by some sort of danger because of their amphibious nature. A Nomai named Cassava quarantined the surviving species left inside the Sanctuary.</Text> 
             <AltText>
                 <Text>The native species of Timber Hearth were endangered by ghost matter because of their amphibious nature. A Nomai named Cassava quarantined the surviving species left inside the Sanctuary.</Text>
-                <Condition>COMET_INTERIOR_X1</Condition>
+                <Condition>COMET_INTERIOR_X3</Condition>
             </AltText>
         </ExploreFact>
           <ExploreFact>
@@ -265,7 +265,7 @@
 
           <ExploreFact>
                     <ID>TH_WR EX3</ID> 
-                   <Text>There is a scroll left in a toppled shelf here, but it is surrounded by ghost matter.</Text> 
+                   <Text>There is a scroll left in a toppled shelf here surrounded by ghost matter.</Text> 
                    <AltText>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead. He posited that ghost matter could be competitively manipulated by sources of gravity.
                          <Condition>TH_WR R2</Condition>
                          </AltText>

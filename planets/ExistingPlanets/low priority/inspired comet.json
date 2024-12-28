@@ -42,6 +42,15 @@
 				"layer": 0,
 				"priority": 2
 			}
+		],
+		"revealVolumes": [
+			{
+				"position": {"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"radius": 130,
+				"revealOn": "enter",
+				"reveals": ["INSP R0"]
+			}
 		]
 	},
 "Props": {
