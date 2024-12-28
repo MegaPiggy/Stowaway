@@ -212,6 +212,21 @@
 				"y": -291.8289
 			}
 		},
+		{
+			"id": "DB_FROZENGUYS_2",
+			"position": {
+				"x": 1962.541,
+				"y": -367.0245
+			}
+		},
+		{
+			"id": "DB_ANGLERNEST",
+			"position": {
+				"x": 479.8589,
+				"y": -860.0823
+			}
+		},
+
 
 		{
 			"id": "SS_SECRET",

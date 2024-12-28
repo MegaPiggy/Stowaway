@@ -10,19 +10,19 @@
 	<TextBlock>
 			<ID>2</ID>
 		<ParentID>1</ParentID>
-		<Text>It pains me to report that our survery expeditions have not yet yielded any signs of any of our missing friends..</Text>
+		<Text>It pains me to report that our survey expeditions have not yet yielded any signs of any of our missing friends..</Text>
 			</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
-		<Text>We shall depart for a final expedition of the bramble's exterior soon, where we shall search for survivors on shattered planet's north pole. But.. I do not have much hope.</Text>
+		<Text>We shall depart for a final expedition of the bramble's exterior soon, where we shall search for survivors on the shattered planet's north pole. But.. I do not have much hope.</Text>
 			</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
-		<Text>However small the odds, I had clung to the hope that our missing friends had managed to escape somehow and survived on one of these planets, even without a distress beacon..</Text>
+		<Text>However small the odds, I had clung to the hope that our missing friends had managed to escape somehow and survived on one of these planets, even without a distress beacon.</Text>
 			</TextBlock>
 
 	<TextBlock>
@@ -40,7 +40,7 @@
 			<TextBlock>
 		<ID>7</ID>
 		<ParentID>6</ParentID>
-		<Text>Where would our clan would be today, if we had never heard the signal from the Eye.. or taken more precautions before heeding its call?</Text>
+		<Text>Where would our clan would be today, if we had never heard the signal from the Eye.. Or if we had taken more precautions, before heeding its call?</Text>
 			</TextBlock>
 
 		<TextBlock>
@@ -52,7 +52,7 @@
 	<TextBlock>
 		<ID>9</ID>
 		<ParentID>8</ParentID>
-		<Text>But.. If we had taken the proper precautions..</Text>
+		<Text>But.. If we had taken the proper precautions...</Text>
 			</TextBlock>
 
 	<TextBlock>
@@ -85,18 +85,6 @@
 		<Text>Of course, Phlox. I'll join you in the tower soon, my child.</Text>
 			</TextBlock>
 			
-	<TextBlock>
-		<ID>15</ID>
-		<ParentID>14</ParentID>
-		<Text>Keek, wherever you are...</Text>
-			</TextBlock>
-			
-	<TextBlock>
-		<ID>16</ID>
-		<ParentID>15</ParentID>
-		<Text>I promise to always care for your son like my very own.</Text>
-	</TextBlock>
-
 
 <ShipLogConditions>
 			<RevealFact>

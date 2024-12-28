@@ -11,6 +11,7 @@
      <RumorFact>
              <IgnoreMoreToExplore/>
             <ID>INSP R0</ID>
+            <RumorName>Sunless Comet</RumorName>
             <Text>I found a frozen comet hidden in the shadow of Giant's Deep.</Text>
          </RumorFact>
   <RumorFact>

@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		OENO: The expedition has concluded.. We have found no signs of any survivors on the bramble's exterior.
+		OENO: This expedition has concluded.. We have found no signs of any survivors on the bramble's exterior.
 		</Text>
 	</TextBlock>
 
@@ -33,7 +33,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: Worse, countless hordes of anglerfish dwell in nearly every arm of the bramble. We were incredibly fortunate to have escaped the bramble at all.
+		OENO: Worse, countless hordes of anglerfish dwell in nearly every arm of the bramble.. Our escape pods were incredibly fortunate to have escaped the bramble at all.
 		</Text>
 	</TextBlock>
 
@@ -42,7 +42,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		PLUME: Perhaps.. If we could find their <![CDATA[<color=orange>nest,</color>]]> we could cull some of the anglerfishes' numbers slowly with time..
+		PLUME: Perhaps if we could find the <![CDATA[<color=orange>anglerfish's nest,</color>]]> we could slowly cull some of the anglerfishes' numbers with time..
 		</Text>
 	</TextBlock>
 
@@ -69,7 +69,7 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		OENO: The anglerfish bear no ill will against us. We should not seek vengeance against them for their instincts.
+		OENO: The anglerfish bear no ill will against us. We should not seek vengeance against them for their natural hunting instincts.
 		</Text>
 	</TextBlock>
 
@@ -78,7 +78,7 @@
 		<LocationA />
 		<ParentID>8</ParentID>
 		<Text>
-		PLUME: But my brother could still be alive.. Our friends may be holding out hope for us inside - as long as the anglerfish stand in our way, our only choice will be to abandon them!
+		PLUME: But Keek and my brother could still be alive.. Our friends may be holding out hope for us inside. As long as the anglerfish stand in our way, our only choice will be to abandon them!
 		</Text>
 	</TextBlock>
 
@@ -96,7 +96,7 @@
 		<LocationA />
 		<ParentID>10</ParentID>
 		<Text>
-		OENO: We cannot endanger more lives, including that of the native species.. We can only keep learning in their stead.
+		OENO: We cannot endanger more lives, especially those of the native species.. We can only keep learning in our friends' stead.
 		</Text>
 	</TextBlock>
 
@@ -105,7 +105,7 @@
 		<LocationA />
 		<ParentID>11</ParentID>
 		<Text>
-		PLUME: We will find this <![CDATA[<color=lightblue>Eye of the Universe. </color>]]>
+		PLUME: ..We will find this <![CDATA[<color=lightblue>Eye of the Universe.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -114,7 +114,7 @@
 		<LocationA />
 		<ParentID>12</ParentID>
 		<Text>
-		PLUME: It was by sheer fortune that we should have survived in place of those who perished.. I believe we must devote ourselves to this mission they gave their lives for.
+		PLUME: It was by sheer fortune that we should have survived in place of those who perished.. We must devote ourselves to this mission they gave their lives for.
 		</Text>
 	</TextBlock>
 
@@ -150,16 +150,16 @@
 		<LocationA />
 		<ParentID>16</ParentID>
 		<Text>
-		CASSAVA: I'm afraid not, Plume.. But please, follow me. I have constructed platforms on the side of this glacier that will lead us to this discovery!
+		CASSAVA: I'm afraid not, Plume.. But please, follow me. I have constructed platforms on the side of this glacier to guide you to my discovery.
 		</Text>
 	</TextBlock>
 
 
 <ShipLogConditions>
 
-		<RevealFact>
+	<RevealFact>
 			<FactID>DBG EX0</FactID>
-			<Condition>11</Condition>
+			<Condition>3</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>DBG EX0.5</FactID>
@@ -167,7 +167,16 @@
 		</RevealFact>
 	<RevealFact>
 			<FactID>DBG EX1</FactID>
+			<Condition>11</Condition>
+		</RevealFact>
+
+	<RevealFact>
+			<FactID>DBF R1</FactID>
 			<Condition>17</Condition>
+		</RevealFact>
+	<RevealFact>
+			<FactID>DBA R1</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 
 </ShipLogConditions>

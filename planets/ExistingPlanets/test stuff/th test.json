@@ -62,7 +62,16 @@
 	"hasWarpEffects": false,
 	"horizonRadius": 1,
 	"position":{"x":27.4433,"y": -48.2061,"z": 182.6343}
-		}
+		},
+		{
+			"rename":"BrambleDarkAngler black hole",
+			"type": "blackHole",
+			"uniqueID": "TH SHORTCUT X",
+			"pairedSingularity": "DB WH",
+			"hasWarpEffects": false,
+			"horizonRadius": 1,
+			"position":{"x":27.4433,"y": -48.2061,"z": 191.7253}
+				}
 		],
 		"details": [
 		

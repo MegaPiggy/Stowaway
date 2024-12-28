@@ -67,21 +67,30 @@
 		<LocationA />
 			<ParentID>7</ParentID>
 		<Text>
-		CASSAVA: We are with you, Plume. I am certain that if we put your minds together, our clan will accomplish anything we set our hearts to!
+		CASSAVA: We are with you, Plume.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationA />
+			<ParentID>8</ParentID>
+		<Text>
+		CASSAVA: I am certain that if we put our minds together, our clan will accomplish anything we set our hearts to!
 		</Text>
 	</TextBlock>
 
 
 <ShipLogConditions>
 
-		<RevealFact>
-			<FactID>DBG R2</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
 	<RevealFact>
-			<FactID>DBG EX2</FactID>
+			<FactID>DBF EX1</FactID>
 			<Condition>3</Condition>
 		</RevealFact>
+	<RevealFact>
+			<FactID>DBF EX2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+
 
 </ShipLogConditions>
 

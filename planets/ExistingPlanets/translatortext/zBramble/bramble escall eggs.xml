@@ -15,7 +15,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		KEEK: Even with my limited supply of air, the members of <![CDATA[<color=orange>Escape Pod 3</color>]]> are counting on me to reach the <![CDATA[<color=orange>Vessel</color>]]> and rescue them..
+		KEEK: Even with my limited supply of air, the members of <![CDATA[<color=orange>Escape Pod 3</color>]]> are counting on me to reach the <![CDATA[<color=orange>Vessel</color>]]> and call for help..
 		</Text>
 	</TextBlock>
 
@@ -24,7 +24,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		KEEK: Oh, Plume.. Phlox.. Everyone... I pray that you are all safe...
+		KEEK: Oh.. Please be well, my friends...
 		</Text>
 	</TextBlock>
 
