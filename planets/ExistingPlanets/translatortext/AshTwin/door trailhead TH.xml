@@ -51,6 +51,14 @@
 	
 
 	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TH Tower R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH Tower EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
 
 		<RevealFact>
 			<FactID>SLR_T R1</FactID>

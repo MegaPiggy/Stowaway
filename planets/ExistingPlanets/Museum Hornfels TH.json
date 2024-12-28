@@ -400,6 +400,13 @@
 				"position": {"x": -69.4568, "y": -23.3966, "z": -203.5316},
 				"rotation": {"x": 273.1927, "y": 291.3129, "z": 83.5469},
 				"isRelativeToParent": false
+			},{
+				"rename":"Gate torch 2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position": {"x": -58.6116, "y": -24.7639, "z": -206.7107},
+				"rotation": {"x": 273.1927, "y": 291.3129, "z": 83.5469},
+				"isRelativeToParent": false
 			},
 			{
 				"rename":"Mines Literal Gate 1",

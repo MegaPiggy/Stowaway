@@ -55,6 +55,15 @@
 	
 
 <ShipLogConditions>
+		<RevealFact>
+			<FactID>BH Tower R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH Tower EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+
 	<RevealFact>
 			<FactID>BH Tower EX2</FactID>
 			<Condition>3</Condition>

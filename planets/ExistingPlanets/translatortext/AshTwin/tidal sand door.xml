@@ -74,6 +74,17 @@
 	</TextBlock>
 	
 <ShipLogConditions>
+
+		<RevealFact>
+			<FactID>SS Tower R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>SS Tower EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+
+
 		<RevealFact>
 			<FactID>SS Tower EX2</FactID>
 			<Condition>1</Condition>

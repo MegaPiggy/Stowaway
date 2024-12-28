@@ -76,6 +76,12 @@
 	</TextBlock>
 
 	<ShipLogConditions>
+
+		<RevealFact>
+			<FactID>GD Tower R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+
 		<RevealFact>
 			<FactID>GD Tower R2</FactID>
 			<Condition>9</Condition>
