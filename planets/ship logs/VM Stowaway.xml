@@ -15,9 +15,15 @@
         <RumorFact>
             <ID>LV R2</ID>
             <RumorName>Lava Pools</RumorName>
+            <RumorNamePriority>1</RumorNamePriority>
             <Text>A Nomai computer reported increased volcanic activity and unstable lava levels on Hollow's Lantern.</Text> 
         </RumorFact>
-        
+          <RumorFact>
+            <ID>LV R3</ID>
+            <RumorName>Lava Pools</RumorName>
+            <RumorNamePriority>1</RumorNamePriority>
+            <Text>There is a Nomai recorder perched precariously on one of the fragments of ore floating in the pool of lava.</Text> 
+        </RumorFact>
         
         <ExploreFact>
             <ID>LV EX1</ID>

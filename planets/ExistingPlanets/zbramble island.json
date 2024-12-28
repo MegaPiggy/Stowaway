@@ -7,10 +7,20 @@
 		"Sector_BrambleIsland/Interactables_BrambleIsland/Prefab_HEA_FuelTank",
 		"Sector_BrambleIsland/Geo_BrambleIsland/BatchedGroup/BatchedMeshRenderers_13"
 	],
-	"Bramble": {
-		
-		
+	
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"position": {"x": -63.0034,"y": 18.2155,"z": 8.9465},
+				"isRelativeToParent": true,
+				"radius": 11.2,
+				"revealOn": "snapshot",
+				"reveals": ["Study EX3"],
+				"maxDistance": 25
+			}
+		]
 	},
+
 	"Props": {
 		"singularities": [
 
@@ -28,14 +38,45 @@
 
 	
 		"details": [
-			
+			{
+				"rename":"Bramble Tent 1",
+				"path":"TimberHearth_Body/Sector_TH/Tent wall 1",
+				"position": {"x": 56.2254, "y": 10.756, "z": 0.5587},
+				"rotation": {"x": 323.8014, "y": 188.133, "z": 355.2122},
+				"isRelativeToParent": true
+			},
 		{
 			"rename":"intro tablet",
 			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Interactables_OrbitalProbeCannon/Interactables_VisibleOrbitalProbeCannon/ModuleSign_2/Prefab_NOM_Tablet",
-			"position": {"x":46.6342,"y": 9.8524,"z": -4.7125},
-			"rotation": {"x":347.8173,"y": 93.4427,"z": 357.6559},
+			"position": {"x":57.3981 ,"y": 10.952,"z": 2.3202},
+			"rotation": {"x":358.929,"y": 5.0166,"z": 2.9325},
 			"isRelativeToParent": true
 		},
+
+		{
+			"rename":"Bramble Tent 2",
+			"path":"TimberHearth_Body/Sector_TH/Tent wall 1",
+			"position": {"x": -60.2562, "y": 16.7278, "z": 6.5043},
+			"rotation": {"x": 321.2092, "y": 96.5175, "z": 344.214},
+			"isRelativeToParent": true
+		},	{
+			"rename":"Bramble tent crystals 1",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+			"position":{"x": 0.2485,"y": 3.9578,"z": -2.0283},
+			"rotation":{"x": 9.767,"y": 232.4883,"z": 7.2375},
+			"parentPath": "Sector_BrambleIsland/Bramble Tent 2",
+			"scale":0.5,
+			"isRelativeToParent": true
+		},{
+			"rename":"Bramble tent crystals 2",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+			"position":{"x": 0.1254,"y": 2.1387,"z": 0.5956},
+			"rotation":{"x": 35.2633,"y": 267.9177,"z": 267.3545},
+			"parentPath": "Sector_BrambleIsland/Bramble Tent 2",
+			"scale":0.5,
+			"isRelativeToParent": true
+		},
+
 		{
 			"rename":"scroll tablet",
 			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Interactables_OrbitalProbeCannon/Interactables_VisibleOrbitalProbeCannon/ModuleSign_2/Prefab_NOM_Tablet",
@@ -54,11 +95,13 @@
 		{
 			"rename":"bramble camp box 2",
 			"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
-			"position": {"x":2.4522,"y": 0.0614,"z": 0.4848},
+			"position": {"x": -1.1533,"y": 0.0541,"z": -1.7861},
 			"rotation": {"x": 357.0252,"y": 154.2182,"z": 357.9092},
 			"parentPath": "Sector_BrambleIsland/scroll tablet",
 			"isRelativeToParent": true
 		},
+
+
 		{
 			"rename":"Studysite plant",
 			"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1",
@@ -73,14 +116,7 @@
 			"rotation": {"x": 29.7435, "y": 164.8566, "z": 7.7645},
 			"isRelativeToParent": true
 		},
-		{
-			"rename":"Intro torch",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Lighting_GravityCannon/Prefab_NOM_WallTorch (4)",
-			"position": {"x": 47.8497, "y": 10.4527, "z": -5.7293},
-			"rotation": {"x": 15.8345, "y": 254.9572, "z": 323.6499},
-			"removeChildren": ["Props_NOM_WallTorch_Connector"],
-			"isRelativeToParent": true
-		},
+		
 		{
 			"rename":"Fuel replacement",
 			"path":"BrambleIsland_Body/Sector_BrambleIsland/Interactables_BrambleIsland/Prefab_HEA_FuelTank",
@@ -98,8 +134,8 @@
 		"translatorText": [
 			
 			{
-				"position": {"x": 47.0911,"y": 10.4498,"z": -4.2043},
-				"rotation": {"x":350.1659,"y": 117.831,"z": 352.1179},
+				"position": {"x": 58.4292,"y": 11.5323,"z": 2.6987},
+				"rotation": {"x": 357.1491,"y": 50.9037,"z": 1.2725},
 				"isRelativeToParent": true,
 				"type": "recorder",
 				"xmlFile":"planets/ExistingPlanets/translatortext/Bramble Island/bramble intro recording.xml"

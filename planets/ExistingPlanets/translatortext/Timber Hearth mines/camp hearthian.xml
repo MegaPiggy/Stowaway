@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		CYCAD: Oeno, what was that?! Something is scampering around our campsite!
+		CYCAD: That is a wise perspective, Oeno! I am glad to be here with you as well! We..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -36,7 +36,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: I have located the entity you noticed, Cycad. Fear not: it does not appear to be hostile!
+		CYCAD: Oeno, I just heard something.. Something is scampering around our campsite! Are we being ambushed by some wild fauna?!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -44,7 +44,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		CYCAD: That is a relief to hear.. But that aside: we have found a new species native to this star system already!
+		OENO: An update: I have located the entity you noticed, Cycad. Fear not, it appears far from hostile. It seems quite meek now that we have noticed it!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -52,7 +52,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		OENO: How exciting! I cannot wait to share our discoveries here with our friends back home!
+		CYCAD: That is a relief to hear.. But that aside: we have found a new species native to this star system already!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -60,13 +60,21 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		OENO: Wait, my friend! Do not be shy! Where are you going?
+		OENO: How exciting! I cannot wait to share our discoveries here with our friends back home.
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>9</ID>
 		<LocationA />
 		<ParentID>8</ParentID>
+		<Text>
+		OENO: Wait, my friend! Do not be shy! Where are you going?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<LocationA />
+		<ParentID>9</ParentID>
 		<Text>
 		OENO: The lifeform has fled deeper into the mountain! Come, Cycad: let us follow it!
 		</Text>
@@ -80,7 +88,7 @@
 		</RevealFact>
 		<RevealFact>
 			<FactID>Campsite EX1.5</FactID>
-			<Condition>9</Condition>
+			<Condition>10</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

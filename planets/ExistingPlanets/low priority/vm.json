@@ -12,6 +12,19 @@
 		"alignmentAxis": {"x":0,"y":-1,"z":0},
 		"isMoon": true
 	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"position": {"x":29.0081,"y": 82.4222,"z": 7.6874},
+				"isRelativeToParent": true,
+				"parentPath": "MoltenCore_VM",
+				"radius": 11.2,
+				"revealOn": "observe",
+				"maxDistance": 25,
+				"reveals": ["LV R3"]
+			}
+		]
+	},
 	"Props" :
 	{
 
@@ -30,9 +43,9 @@
 			"parentPath": "MoltenCore_VM",
 			"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
-			"position":{"x":23.8327,"y": 83.0722,"z": 12.9805},
-			"rotation":{"x":324.203,"y": 308.6537,"z": 297.7463},
-			"scale":1.2,
+			"position":{"x": 21.5727,"y": 84.1612,"z": 13.2878},
+			"rotation":{"x": 320.3351,"y": 304.3657,"z": 295.5533},
+			"scale":2,
 			"isRelativeToParent": true
 		},
 		{

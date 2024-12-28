@@ -72,10 +72,6 @@
 			<FactID>Study EX2</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
-		<RevealFact>
-			<FactID>Study EX3</FactID>
-			<Condition>7</Condition>
-		</RevealFact>
 
 		<RevealFact>
 			<FactID>LC R2</FactID>

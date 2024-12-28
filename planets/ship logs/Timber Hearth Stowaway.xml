@@ -33,7 +33,7 @@
   </RumorFact>
        <ExploreFact>
             <ID>TEPH EX1</ID> 
-            <Text>Tephra and Galena noticed the quantum shard in the museum disappearing completely sometimes.</Text> 
+            <Text>Tephra and Galena noticed the quantum shard in the village museum disappearing completely sometimes.</Text> 
        </ExploreFact>
          <ExploreFact>
             <ID>TEPH EX3</ID> 
@@ -115,7 +115,7 @@
   </RumorFact>
           <RumorFact>
             <ID>MOR R3</ID> 
-            <Text>There is an unexplored, interconnected underwater cave system inside the geysers. Moraine asked if I could jump into a geyser to explore Timber Hearth's depths for them, and tell them whatever I find down there.</Text> 
+            <Text>There is an unexplored, interconnected underwater cave system inside the geysers. Moraine asked if I could jump into a geyser to explore Timber Hearth's depths, and tell them whatever I find down there.</Text> 
   </RumorFact>
 
          <ExploreFact>
@@ -222,6 +222,11 @@
             <RumorName>Riebeck's Hunch</RumorName>
             <Text>Riebeck thinks there might be a Nomai structure near the pools where I found the Nomai mural in Timber Hearth's waterways.</Text> 
         </RumorFact>
+           <RumorFact>
+            <ID>Campsite R2</ID> 
+            <IgnoreMoreToExplore/>
+            <Text>There is a Nomai campsite on the path from the Nomai Ruins into the geyser mountain.</Text> 
+        </RumorFact>
 
           <ExploreFact>
             <ID>Campsite EX1</ID> 
@@ -234,15 +239,15 @@
         </ExploreFact>
          <ExploreFact>
             <ID>Campsite EX3</ID>
-            <Text>The Nomai used a new invention from the Scroll and Stone Workshop on Giant's Deep to enter and exit the Sanctuary. This new invention allowed Nomai to freely use the rule of quantum entanglement.</Text> 
+            <Text>A new invention from the Scroll and Stone Workshop allowed Nomai to freely use the rule of quantum entanglement.</Text> 
         </ExploreFact>
           <ExploreFact>
                 <ID>Campsite EX1.5</ID> 
-                <Text>The Nomai discovered a new native species during an expedition to Timber Hearth, and followed it deeper into the mountain.</Text> 
+                <Text>The Nomai discovered a new species during an expedition to Timber Hearth, and followed it deeper into the mountain.</Text> 
        </ExploreFact>
           <ExploreFact>
             <ID>Campsite EX5</ID>
-            <Text>I found Nomai text warning of danger invisible to the naked eye beyond a barricade.</Text> 
+            <Text>I found Nomai text warning of danger invisible to the naked eye beyond a thorny barricade.</Text> 
         </ExploreFact>
 
 
@@ -276,7 +281,7 @@
                </ExploreFact>
                <ExploreFact>
                      <ID>TH_WR EX1</ID> 
-                     <Text>The Nomai on Timber Hearth were careful not to leave this warp receiver unattended, to protect the planet's amphibious native lifeforms from being warped to Ash Twin.</Text> 
+                     <Text>The Nomai on Timber Hearth were careful not to leave this warp receiver unattended, to protect the planet's native life from being warped to Ash Twin.</Text> 
               </ExploreFact>
                  <ExploreFact>
                      <ID>TH_WR EX2</ID> 

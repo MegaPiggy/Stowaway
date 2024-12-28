@@ -54,6 +54,10 @@
 			<FactID>TH_NOMAI_MINE_R1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>Campsite R2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
 			<RevealFact>
 			<FactID>TH_WR EX1</FactID>
 			<Condition>4</Condition>

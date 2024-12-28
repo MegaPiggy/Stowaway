@@ -972,7 +972,14 @@
 			}
 			
 		],
-		"translatorText": [
+		"translatorText": [{
+			"rename": "DSS computer",
+			"position": {"x": -2.6723,"y": 5.1065,"z": -13.7916},
+			"rotation": {"x": 72.6935,"y": 311.9571,"z": 312.6144},
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/murder computer.xml",
+			"type":"computer",
+			"isRelativeToParent": true
+		},
 			{
 				"rename": "DSS Otherside scroll whiteboard",
 				"position": {"x": -13.7046,"y": -2.1636,"z":  -12.3693},
