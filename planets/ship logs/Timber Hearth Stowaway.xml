@@ -265,7 +265,7 @@
 
           <ExploreFact>
                     <ID>TH_WR EX3</ID> 
-                   <Text>There is a scroll left in a toppled shelf here surrounded by ghost matter.</Text> 
+                   <Text>There is a scroll in a toppled shelf here, but it is surrounded by ghost matter.</Text> 
                    <AltText>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead. He posited that ghost matter could be competitively manipulated by sources of gravity.
                          <Condition>TH_WR R2</Condition>
                          </AltText>
