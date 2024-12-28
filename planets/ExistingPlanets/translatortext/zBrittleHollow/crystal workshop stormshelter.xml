@@ -77,6 +77,10 @@
 	
 <ShipLogConditions>
 				<RevealFact>
+			<FactID>GSHOP R4</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+				<RevealFact>
 			<FactID>GSHOP EX3</FactID>
 			<Condition>4</Condition>
 		</RevealFact>

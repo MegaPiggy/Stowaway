@@ -70,6 +70,14 @@
 			"revealOn": "snapshot",
 			"maxDistance": 10,
 			"reveals": ["SY R1"]
+		},
+		{
+			"position":{"x":-236.3961,"y": -46.0138,"z": -69.0241}, 
+			"isRelativeToParent": true,
+			"radius": 11.2,
+			"revealOn": "observe",
+			"maxDistance": 15,
+			"reveals": ["TH_WR EX3"]
 		}
 		
 	]

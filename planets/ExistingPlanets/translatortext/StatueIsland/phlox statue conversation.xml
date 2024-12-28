@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		DAZ: Phlox, when you have time to spare after toiling away at your statues, I would deeply appreciate if you could deliver more templates soon to the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> upstairs!
+		DAZ: Phlox, after you complete this next memory statue, I would deeply appreciate if you could deliver more projection stone templates soon to the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> upstairs!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		PHLOX: I would be more than happy to, but I delivered several stacks of projection stone templates to you just recently! Have you already burned through all of them?
+		PHLOX: I would be more than happy to, Daz! But what happened to the stack I delivered just recently! Have you already burned through all of them?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		DAZ: The voyager stone's development is nearing completion; I require more templates to craft and test more projection locations, before I can be confident in its use.
+		DAZ: I'm afraid so! The voyager stone's development is nearing completion; I require more templates to test more projection locations before I can be confident in its use.
 			</Text>
 	</TextBlock>
 			<TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		PHLOX: Oh.. I was not aware I needed to be paired to a memory statue to use them. Is there a reason for this prerequisite?
+		PHLOX: Oh, I was not aware I needed to be paired to a memory statue to use the voyager stones! Is there a reason for this prerequisite?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		DAZ: The voyager stones are designed to work with our memory storage system for the memory statues, recording and transmitting experiences from the projection pool back to the individual.
+		DAZ: Voyager stones use the memory statues' memory storage systems to record and transmit experiences from the projection pool back to the individual.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -61,7 +61,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		DAZ: Without the individual being first paired to a memory statue, I'm afraid the voyager stone would be little more than any ordinary projection stone in function.
+		DAZ: Without the individual being first paired to a memory statue, I'm afraid the voyager stone would be little more than any ordinary projection stone in function!
 		</Text>
 	</TextBlock>
 

@@ -164,13 +164,13 @@
 
 
 			<DialogueOption>
-				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
+				<RequiredLogCondition>COMET_INTERIOR_X3</RequiredLogCondition>
 				<CancelledCondition>Told_Mural</CancelledCondition>
 				<Text>I went to the comet, and...</Text>
 				<DialogueTarget>RiebeckLearned_7</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
+				<RequiredLogCondition>COMET_INTERIOR_X3</RequiredLogCondition>
 				<RequiredCondition>Told_Mural</RequiredCondition>
 				<Text>I went to the comet, and...</Text>
 				<DialogueTarget>RiebeckLearned_7_B</DialogueTarget>
@@ -335,7 +335,7 @@
 		</Dialogue>
   <DialogueOptionsList>
 			<DialogueOption>
-				<RequiredLogCondition>COMET_INTERIOR_X1</RequiredLogCondition>
+				<RequiredLogCondition>COMET_INTERIOR_X3</RequiredLogCondition>
 				<Text>Uh, about that. I went to the comet, and...</Text>
 				<DialogueTarget>RiebeckLearned_7_B</DialogueTarget>
 			</DialogueOption>

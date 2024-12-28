@@ -8,13 +8,18 @@
          <RumorFact>
             <IgnoreMoreToExplore/>
             <ID>BH_QML R1</ID>
-            <Text>There is another Quantum Moon Locator somewhere on Brittle Hollow.</Text> 
+            <Text>There is a second Quantum Moon Locator somewhere on Brittle Hollow.</Text> 
         </RumorFact>
          <RumorFact>
             <IgnoreMoreToExplore/>
             <ID>BH_QML R3</ID>
             <SourceID>CT_QUANTUM_MOON_LOCATOR</SourceID>
             <Text>The Quantum Moon Locator on Brittle Hollow is able to track when the Quantum Moon is visiting the sixth location, unlike the locator on Ember Twin.</Text> 
+        </RumorFact>
+         <RumorFact>
+            <IgnoreMoreToExplore/>
+            <ID>BH_QML R2</ID>
+            <Text>A Nomai named Solanum visited the Quantum Moon Locator on Brittle Hollow to learn its secrets.</Text> 
         </RumorFact>
          <RumorFact>
             <IgnoreMoreToExplore/>
@@ -111,19 +116,27 @@
             <ID>GSHOP R3</ID>
             <Text>A Nomai named Plume visited this workshop to learn more about the storm shelter.</Text> 
         </RumorFact>
+          <RumorFact>
+            <ID>GSHOP R4</ID>
+            <Text>Storm shelters are powered by solar panels, not cyclones.</Text> 
+        </RumorFact>
 
         <ExploreFact>
             <ID>GSHOP EX1</ID> 
             <Text>Gravity crystals were crafted from fragments of Brittle Hollow's crust and stored at this workshop.</Text> 
         </ExploreFact>
+ <ExploreFact>
+            <ID>GSHOP EX3</ID>
+            <Text>There is a scroll in a shelf in one of the ruins outside the workshop, but it is surrounded by ghost matter.</Text> 
+              <AltText>
+                         <Text>Storm shelters are powered by solar panels, not cyclones.</Text>
+                         <Condition>GSHOP R4</Condition>
+                    </AltText>
+     </ExploreFact>
          <ExploreFact>
             <ID>GSHOP EX2</ID> 
             <Text>An invention called the storm shelter was engineered at this workshop to help Nomai weather the storms they had faced on their expedition.</Text> 
         </ExploreFact>
- <ExploreFact>
-            <ID>GSHOP EX3</ID>
-            <Text>Storm shelters are powered by solar panels, not cyclones.</Text> 
-     </ExploreFact>
          <ExploreFact>
             <ID>GSHOP EX4</ID> 
             <Text>The solar panels powering the storm shelters are tuned to detect even faint amounts of sunlight. Nomai on Giant's Deep reported some sort of issue with the storm shelter when the sun was directly overhead.</Text> 

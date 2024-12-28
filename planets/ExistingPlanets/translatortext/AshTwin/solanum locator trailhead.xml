@@ -87,6 +87,10 @@
 			<FactID>BH_QML R3</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QML R2</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
 	</ShipLogConditions>
 
 </NomaiObject>

@@ -22,9 +22,9 @@ Clue: Supernova generate lots of heat
 		</Text>
 	</TextBlock>
 	<TextBlock>
-		<ID>3</ID>
+		<ID>4</ID>
 		<Text>
-		    Please ensure that any fragments of ore used in testing left in the lava pools have been retrieved before evacuating.
+		    Please retrieve any fragments of ore left in the lava pools used in durability testing before evacuating.
 		</Text>
 	</TextBlock>
 

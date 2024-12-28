@@ -54,10 +54,6 @@
             <ID>Workshop EX2.5</ID> 
             <Text>A Nomai named Daz used a voyager stone to rescue a jellyfish beached on the shore without being shocked.</Text>
         </ExploreFact>
-         <ExploreFact>
-            <ID>Workshop EX3</ID> 
-            <Text>A Nomai named Oeno noticed her voyages beginning outside the projection pool while using a voyager stone, and experienced a strange telepathic connection with another Nomai using a voyager stone.</Text>
-        </ExploreFact>
 
     <Entry>
        <ID>SCROLL_WORKSHOP_TOP</ID>
@@ -125,6 +121,11 @@
          <RumorFact>
             <ID>Study R2</ID>
             <Text>Nomai at this site noticed Giant's Deep becoming completely dark, before what appeared to be a giant column of water launched the island into space.</Text>
+        </RumorFact>
+         <RumorFact>
+            <ID>Study R3</ID>
+             <RumorName>Jellyfish Specimen Origins</RumorName>
+            <Text>The jellyfish at the Looming City was transported there by the Nomai from Bramble Island.</Text>
         </RumorFact>
         
         <ExploreFact>
@@ -299,7 +300,7 @@
 
          <RumorFact>
             <ID>LC R1</ID> 
-            <Text>The Nomai on Giant's Deep used to be completely insulated from cyclones in the Looming City.</Text> 
+            <Text>Nomai living on Giant's Deep used to be completely insulated from cyclones in the Looming City.</Text> 
         </RumorFact>
           <RumorFact>
             <ID>LC R2</ID> 

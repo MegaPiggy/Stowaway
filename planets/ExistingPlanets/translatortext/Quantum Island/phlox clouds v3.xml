@@ -5,7 +5,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-		PHLOX: Papa, the jellyfish are visiting the surface again!
+		PHLOX: Papa, the jellyfish came to the surface again today!
 		</Text>
 	</TextBlock>
 
@@ -21,20 +21,20 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-		PLUME: Oh, how I wish the others could be here to assist me in collecting more data on this phenomenon!</Text>
+		PLUME: Has this phenomenon increased in frequency, or are we only now able to observe it consistently with the help of the specimen we transported from <![CDATA[<color=orange>Bramble Island?</color>]]> Oh, how I wish our friends were here to share their thoughts!</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-	PLUME: An update: It has been some time, yet the jellyfish still remain on the planet's surface. This is truly peculiar.</Text>
+	PLUME: An update: It has been some time, yet the jellyfish still remain on the planet's surface.. This is truly peculiar.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-	PLUME: We have never observed them staying on the surface for so long before.. What could possibly be causing this phenomenon?</Text>
+	PLUME: We have never observed them staying on the surface for such durations before! What could possibly be causing this phenomenon?</Text>
 	</TextBlock>
 
 		<TextBlock>
@@ -54,6 +54,10 @@
 <ShipLogConditions>
 		<RevealFact>
 			<FactID>LC EX4</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Study R3</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
 		
