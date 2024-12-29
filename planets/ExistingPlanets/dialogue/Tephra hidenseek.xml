@@ -13,6 +13,7 @@
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
+				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
 				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
@@ -130,8 +131,13 @@
 		<Name>Teph Answers 1C</Name>
 			<Dialogue>
 					<Page>Yay! You're the best, astronaut!</Page>
+					<Page>Oh! If you can't find the <![CDATA[<color=orange>Nomai Ruins,</color>]]> I think there's a picture of it framed in the museum, astronaut. If you look at that, that should tell you what it looks like!</Page>
+					<Page>Good luck out there, astronaut!</Page>
 					<Page>Come back and tell us if you find where the purple rock goes, alright?</Page>
 			</Dialogue>
+						 <RevealFacts>
+     						   <FactID>TEPH EX4</FactID>
+    					  </RevealFacts>
 	</DialogueNode>
 
 <DialogueNode>
@@ -174,6 +180,7 @@
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
+				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
 				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
@@ -195,6 +202,7 @@
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
+				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
 				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
@@ -216,6 +224,7 @@
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
+				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
 				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
@@ -237,6 +246,7 @@
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
+				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
 				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>

@@ -21,6 +21,7 @@
 			</DialogueOption>
 
 				<DialogueOption>
+				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
 				<RequiredLogCondition>GAL EX3</RequiredLogCondition>
 				<Text>I saw the skeleton in the drain, Galena.</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
@@ -46,6 +47,7 @@
 			</DialogueOption>
 
 				<DialogueOption>
+				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
 				<RequiredLogCondition>GAL EX3</RequiredLogCondition>
 				<Text>I saw the skeleton in the drain, Galena.</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
@@ -72,6 +74,7 @@
 			</DialogueOption>
 
 				<DialogueOption>
+				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
 				<RequiredLogCondition>GAL EX3</RequiredLogCondition>
 				<Text>I saw the skeleton in the drain, Galena.</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
@@ -195,6 +198,7 @@
 			</DialogueOption>
 
 				<DialogueOption>
+				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
 				<RequiredLogCondition>GAL EX3</RequiredLogCondition>
 				<Text>I saw the skeleton in the drain, Galena.</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
@@ -220,6 +224,7 @@
 			</DialogueOption>
 
 				<DialogueOption>
+				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
 				<RequiredLogCondition>GAL EX3</RequiredLogCondition>
 				<Text>I saw the skeleton in the drain, Galena.</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
@@ -244,6 +249,7 @@
 			</DialogueOption>
 
 				<DialogueOption>
+				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
 				<RequiredLogCondition>GAL EX3</RequiredLogCondition>
 				<Text>I saw the skeleton in the drain, Galena.</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>

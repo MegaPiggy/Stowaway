@@ -7,7 +7,7 @@
 		
 		<DialogueOptionsList>
 			<DialogueOption>
-				<RequiredPersistentCondition>Shutup_Arkose</RequiredPersistentCondition>
+				<RequiredLogCondition>ARK EX1</RequiredLogCondition>
 				<Text>I learnt something cool about ghost matter, Arkose!</Text>
 				<DialogueTarget>ArkoseNewLIST</DialogueTarget>
 			</DialogueOption>
@@ -60,8 +60,10 @@
 			<Page>You know how there’s a green glowy trail when you throw something into a patch of ghost matter?</Page>
 			<Page>When I throw rocks into this patch of ghost matter, sometimes, it doesn’t leave a trail at all.</Page>
 			<Page>I dunno what causes it! It doesn’t happen every time, even when I throw harder, or use different kinds of rocks.</Page>
-			<Page>I asked Gabbro about it last time they came back from Giant's Deep, and they said ghost matter just goes away sometimes! Gabbro didn't know why it happens.. but they were the one that told me!</Page>
-			<Page>It’s dangerous to get too close to the ghost matter, so I’m using these rocks to see if I can figure it out on my own.</Page>
+			<Page>I asked Gabbro about it last time they came back from Giant's Deep, and they said ghost matter just goes away sometimes!</Page>
+			<Page>It’s dangerous to get too close to the ghost matter, so I thought I'd use these rocks to see if I could figure it out on my own.</Page>
+			<Page>But now, my arm's sore from throwing rocks nonstop... Maybe I should have just asked Gabbro..</Page>
+			<Page>If you see them out in space, could you help me ask Gabbro why the ghost matter disappears, astronaut? I think I'm done trying to figure it out on my own..</Page>
 		</Dialogue>
 							 <RevealFacts>
      						  	 <FactID>ARK EX1</FactID>
@@ -70,7 +72,7 @@
     					 	 </RevealFacts>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>Maybe I'll go ask Gabbro what they know about that, then.</Text>
+				<Text>Sure, I'll ask Gabbro if I see 'em.</Text>
 				<DialogueTarget>ArkoseNew2</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -79,10 +81,11 @@
 
 <DialogueNode>
 		<Name>ArkoseNew2</Name>
-		<SetPersistentCondition>Shutup_Arkose</SetPersistentCondition>
 		<Dialogue>
-			<Page>Oh! If you find anything about ghost matter out there, come back and tell me too, astronaut! Pleeease?</Page>
-			<Page>I wanna know all about ghost matter, so I'll be totally ready when I become an astronaut someday!</Page>
+			<Page>You rock, astronaut!</Page>
+			<Page>Alright, I'll keep up throwing rocks until then! SECOND WIND!!</Page>
+			<Page>..Oh! If you find anything cool about ghost matter, promise you'll come back and tell me too, astronaut! Pleeease?</Page>
+			<Page>I wanna know everything about ghost matter, so I'll be totally ready when I become an astronaut like you someday!</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -133,7 +136,7 @@
 		<Dialogue>
 			<Page>Woah.. Is that true?</Page>
 			<Page>The Nomai must have been really, really smart to figure that out and leave the star system! I hope they're okay, wherever they are.</Page>
-			<Page>But, woah... So there was ghost matter everywhere, covering the WHOLE star system? That sounds.. scary.... <![CDATA[<Pause>]]> But really awesome!</Page>
+			<Page>But, woah... So there was ghost matter everywhere, covering the WHOLE star system? That sounds.. scary.... <![CDATA[<Pause=1>]]> But really awesome!</Page>
 			<Page>Where did all that ghost matter go then, astronaut?</Page>
 			<Page>I mean, I know ghost matter evaporates... But that takes a suuuuper long time, right?</Page>
 			<Page>If they started going away at the same time, why's this patch so much slower? Is it just super bad at evaporating?</Page>
@@ -144,7 +147,7 @@
 <DialogueNode>
 		<Name>Arkose_WaterRule</Name>
 		<Dialogue>
-			<Page>Woah.. <![CDATA[<Pause>]]> Is that what's making the ghost matter here disappear?</Page>
+			<Page>Woah.. <![CDATA[<Pause=1>]]> Is that what's making the ghost matter here disappear?</Page>
 			<Page>But.. There's not much water around here.</Page>
 			<Page>The geyser isn't spraying enough, and it hasn't rained at all lately.. I don't think that's what causing the ghost matter here to disappear..</Page>
 			<Page>But um, that's still really cool, astronaut!</Page>
@@ -192,7 +195,7 @@
 		<Name>Arkose5</Name>
 		 <DialogueOptionsList>
 		 	<DialogueOption>
-				<RequiredPersistentCondition>Shutup_Arkose</RequiredPersistentCondition>
+				<RequiredLogCondition>ARK EX1</RequiredLogCondition>
 				<Text>I learnt something cool about ghost matter, Arkose!</Text>
 				<DialogueTarget>ArkoseNewLIST</DialogueTarget>
 			</DialogueOption>
