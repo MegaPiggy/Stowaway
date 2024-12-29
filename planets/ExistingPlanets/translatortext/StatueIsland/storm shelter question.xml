@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		DAZ: These new storm shelters are incredible, Thatch! I have never felt safer visiting <![CDATA[<color=lightblue>Giant's Deep</color>]]> in their presence!
+		DAZ: These new storm shelters are incredible, Thatch! I have never felt safer visiting <![CDATA[<color=lightblue>Giant's Deep</color>]]> thanks to their presence.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -12,7 +12,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		THATCH: I feel the same way, Daz! We owe Kousa at the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> much gratitude for engineering this incredible invention to keep us safe.
+		THATCH: I feel the same way, Daz! We owe Kousa at the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> much gratitude for engineering this incredible invention to keep us safe during our stay.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		DAZ: Hm..? Why has the storm shelter suddenly activated? There are no cyclones near the island at the moment.
+		DAZ: Hm..? Why has the storm shelter suddenly activated? There are no cyclones near the island at the moment, are there?
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -52,7 +52,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		THATCH: When I next travel home, I shall pay a visit to the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> to learn more about the storm shelter, and shed light on this issue!
+		THATCH: When I next travel home, I shall pay a visit to the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> equator to learn more about how these storm shelters work!
 		</Text>
 	</TextBlock>
 

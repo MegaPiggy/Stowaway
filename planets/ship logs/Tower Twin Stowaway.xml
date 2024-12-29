@@ -13,7 +13,7 @@
         </RumorFact>
           <RumorFact>
             <ID>GD Tower R2</ID>
-             <Text>Two Nomai debated about the Sun Station and some sort of safety test, while waiting outside this tower to travel to something called the Deep Storm Station.</Text> 
+             <Text>Two Nomai debated about some sort of safety test while waiting outside this tower to travel to something called the Deep Storm Station.</Text> 
         </RumorFact>
           <RumorFact>
             <ID>GD Tower R3</ID>
@@ -189,7 +189,7 @@
             <IgnoreMoreToExplore/>
             <RumorName>Hourglass Twins Poles</RumorName>
             <SourceID>CT_CHERT</SourceID>
-             <Text>Chert suggests exploring the Hourglass Twins' poles first to be safe from the column of sand.</Text> 
+             <Text>Chert suggests exploring the Hourglass Twins' poles to be safe from the column of sand.</Text> 
         </RumorFact>
 
          <ExploreFact>

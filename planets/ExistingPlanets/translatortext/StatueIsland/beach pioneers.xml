@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		COLEUS: The shuttle has landed safely. Friends, I am happy to announce our survey expedition officially underway!
+		COLEUS: The shuttle has landed safely. Friends, our survey expedition of this stormy planet is officially underway!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -63,6 +63,10 @@
 	
 		<RevealFact>
 			<FactID>Pioneer EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Pioneer EX3B</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
 

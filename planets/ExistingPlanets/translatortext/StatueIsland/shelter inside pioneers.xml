@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		MELORAE: What just happened?! Was the island just.. launched into space by a cyclone?! 
+		MELORAE: What has happened? Was the island just.. launched into space by a cyclone?! 
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		MELORAE: Brace yourselves, everybody! We're about to crash back into the planet's atmosphere!
+		MELORAE: Brace yourselves, everyone! We're about to crash back into the planet's atmosphere!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -61,7 +61,7 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-			MELORAE: We <![CDATA[<i>must</i>]]> think of some way protect ourselves from these cyclones - or better yet, seek a landmass entirely clear of the path of the cyclones to settle and thrive on!
+			MELORAE: We <![CDATA[<i>must</i>]]> think of some way protect ourselves from these cyclones - or better yet, seek a landmass entirely clear of the cyclones' path to settle and thrive on!
 		</Text>
 			</TextBlock>
 	
@@ -70,7 +70,7 @@
 
 <ShipLogConditions>
 	<RevealFact>
-			<FactID>Pioneer EX3B</FactID>
+			<FactID>Pioneer R1</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
 		<RevealFact>

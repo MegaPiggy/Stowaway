@@ -43,7 +43,8 @@
 				"path":"TimberHearth_Body/Sector_TH/Tent wall 1",
 				"position": {"x": 56.2254, "y": 10.756, "z": 0.5587},
 				"rotation": {"x": 323.8014, "y": 188.133, "z": 355.2122},
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"keepLoaded": true
 			},
 		{
 			"rename":"intro tablet",

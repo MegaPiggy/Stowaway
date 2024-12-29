@@ -46,8 +46,12 @@
 	</TextBlock>
 
 <ShipLogConditions>
-				<RevealFact>
+		<RevealFact>
 			<FactID>Study R2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>Study EX4</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
 	</ShipLogConditions>

@@ -106,15 +106,16 @@
          <RumorFact>
             <ID>GSHOP R1</ID>
             <SourceID>CONSTRUCT_BAY</SourceID>
+            <IgnoreMoreToExplore/>
             <Text>Gravity crystals used to build the Orbital Probe Cannon were sourced from this workshop on Brittle Hollow.</Text> 
         </RumorFact>
          <RumorFact>
             <ID>GSHOP R2</ID>
-            <Text>Nomai on Giant's Deep visited this workshop on Brittle Hollow to inquire about storm shelters activating in the absence of cyclones.</Text> 
+            <Text>Nomai on Giant's Deep visited this workshop on Brittle Hollow's equator to inquire about storm shelters activating in the absence of cyclones.</Text> 
         </RumorFact>
           <RumorFact>
             <ID>GSHOP R3</ID>
-            <Text>A Nomai named Plume visited this workshop to learn more about the storm shelter.</Text> 
+            <Text>A Nomai named Plume visited this workshop to learn more about storm shelters.</Text> 
         </RumorFact>
           <RumorFact>
             <ID>GSHOP R4</ID>

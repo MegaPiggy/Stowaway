@@ -110,12 +110,11 @@
 
 <Entry>
        <ID>BISLE_STUDY</ID>
-        <Name>Backshore Study Site</Name>
+        <Name>Jellyfish Study Shore</Name>
         <Curiosity>None</Curiosity>
  
            <RumorFact>
             <ID>Study R1</ID>
-            <RumorName>Jellyfish Study Site</RumorName>
             <Text>The Nomai discovered frozen jellyfish on this island. They decided to seek higher elevation on the island safe from waves to study them.</Text>
         </RumorFact>
          <RumorFact>
@@ -140,9 +139,13 @@
             <ID>Study EX3</ID> 
             <Text>There is a scroll here laying inside a Nomai tent, but it is surrounded by ghost matter.</Text>
              <AltText>
-                         <Text>Nomai at this site noticed Giant's Deep becoming completely dark, before what appeared to be a giant column of water launched the island into space.</Text>
+                         <Text>A Nomai named Melorae was cut off during her research when she noticed Giant's Deep becoming completely dark.</Text>
                          <Condition>Study R2</Condition> 
                </AltText>
+        </ExploreFact>
+          <ExploreFact>
+            <ID>Study EX4</ID> 
+                <Text>Nomai at this site were launched into space, not by a cyclone, but by an enormous column of water.</Text>
         </ExploreFact>
 </Entry>
       
@@ -159,12 +162,14 @@
         <Name>Pioneers' Beach</Name>
        <Curiosity>Stowaway</Curiosity>
 
-       
-
+        <RumorFact>
+            <ID>Pioneer R1</ID>
+            <Text>I found a Nomai recording of the Nomai's encounter with a cyclone.</Text>
+        </RumorFact>
          
         <ExploreFact>
             <ID>Pioneer EX1</ID> 
-            <Text>This beach was where Nomai landed on their first survey expedition to Giant's Deep, before they moved their supplies into the island's interior for shelter.</Text> 
+            <Text>This beach was where Nomai landed on their first survey expedition to Giant's Deep.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>Pioneer EX4</ID> 
@@ -172,11 +177,15 @@
         </ExploreFact>
              <ExploreFact>
             <ID>Pioneer EX3B</ID> 
-            <Text>The Nomai recorded their first encounter with a cyclone here. A Nomai named Thatch complained about becoming soaked when the island plunged back into the ocean.</Text>
+            <Text>The Nomai moved their camp into the island's interior to seek shelter from the planet's storms.</Text>
+                     <AltText>
+                            <Text>I found a Nomai recording of the Nomai's encounter with a cyclone. A Nomai named Thatch complained about becoming soaked when the island plunged back into the ocean.</Text>
+                     <Condition>Pioneer R1</Condition>
+                    </AltText>
         </ExploreFact>
          <ExploreFact>
             <ID>Pioneer EX3</ID> 
-            <Text>The Nomai looked for ways to protect themselves from cyclones, as well as landmasses clear of the cyclones' path.</Text> 
+            <Text>The Nomai searched for ways to protect themselves from cyclones, as well as landmasses clear of the cyclones' path.</Text> 
         </ExploreFact>
          <ExploreFact>
            <ID>Pioneer EX3.5</ID> 

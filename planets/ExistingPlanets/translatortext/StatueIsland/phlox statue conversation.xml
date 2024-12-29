@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		PHLOX: I would be more than happy to, Daz! But what happened to the stack I delivered just recently! Have you already burned through all of them?
+		PHLOX: I would be more than happy to, Daz! But what happened to the stack I delivered just recently? Surely you haven't burned through all of them already!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		DAZ: I'm afraid so! The voyager stone's development is nearing completion; I require more templates to test more projection locations before I can be confident in its use.
+		DAZ: I'm afraid I have! The voyager stone's development is nearing completion; I require more templates to test more projection locations before I can be confident in its use.
 			</Text>
 	</TextBlock>
 			<TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		PHLOX: Oh, I was not aware I needed to be paired to a memory statue to use the voyager stones! Is there a reason for this prerequisite?
+		PHLOX: I was not aware I needed to be paired to a memory statue to use the voyager stones! Is there a reason for this prerequisite?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		DAZ: Voyager stones use the memory statues' memory storage systems to record and transmit experiences from the projection pool back to the individual.
+		DAZ: Ah, you see, the voyager stones use the same memory storage systems as the memory statues to record and transmit experiences from the projection pool back to the individual.
 		</Text>
 	</TextBlock>
 	<TextBlock>
