@@ -9,31 +9,111 @@
 	
 	<DialogueNode>
 		<Name>SignalscopeKid1</Name>
-		<DialogueOptionsList>
+			<DialogueOptionsList>
 		<DialogueOption>
-			<RequiredPersistentCondition>Shutup_Moraine</RequiredPersistentCondition>
+			<RequiredLogCondition>MOR R3</RequiredLogCondition>
 			<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>I dived into the waterways and found a Nomai mural depicting Hearthian ancestors on land.</Text>
+				<Text>I dived into the waterways and found a Nomai mural of ancient Hearthians on land.</Text>
 				<DialogueTarget>SignalscopeKidNew4</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>MOR R1</RequiredLogCondition>
-				<Text>Hey Moraine, did you hear anything about ghost matter disappearing?</Text>
+				<Text>Hey Moraine. Have you.. heard anything about stuff that disappears sometimes?</Text>
 				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>MOR EX3</RequiredLogCondition>
+				<Text>Hang on, why did you think there was more than one comet?</Text>
+				<DialogueTarget>SignalscopeKidNewC1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>INSP R0</RequiredLogCondition>
+				<Text>I think I found the comet you saw!</Text>
+				<DialogueTarget>SignalscopeKidNewC2</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
+
 <DialogueNode>
-		<Name>SignalscopeKidNew1</Name>
+		<Name>SignalscopeKidNewC1</Name>
 		<Dialogue>
-			<Page>Yeah, I thought everyone knew that. Ghost matter evaporates slowly, doesn't it?</Page>
-			<Page>Still, it's a little scary how long it's taken just that little patch in the village to evaporate..</Page>
-			<Page>The fact that there are skeletons of early Hearthians in there, tells us that little patch of ghost matter must have been around even when our Hearthian ancestors were learning to walk on land!</Page>
+			<Page>O-oh, um.. Sorry, I think I probably just saw wrong..</Page>
+			<Page>You know how busted my signalscope is, with how much Tephra and Galena play with it.. Just look at how much shinier your brand new signalscope is, astronaut!</Page>
+			<Page>But, if you really wanna know.. I thought I saw two comets in the sky a few nights ago.</Page>
+			<Page>I've been trying to catch this second comet again ever since, just to see if it's real.. But I haven't been able to see it again since.. So.. I think it really was just a smudge on my signalscope.</Page>
+			<Page>But ahh, I really wanna hope.. Imagine if I'd discovered a new celestial body, astronaut! That'd be a dream come true.</Page>
+			</Dialogue>
+							<RevealFacts>
+     						  	 <FactID>MOR R4</FactID>
+    					 	 </RevealFacts>
+		</DialogueNode>
+
+<DialogueNode>
+		<Name>SignalscopeKidNewC2</Name>
+		<Dialogue>
+			<Page>R-really?! Please, tell me more about it!</Page>
+			<Page>What was this comet like? Where was it hiding?</Page>
 			</Dialogue>
 			<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Wait, there are Hearthian skeletons in that patch of ghost matter?</Text>
+				<Text>It's hidden in Giant's Deep's shadow.</Text>
+				<DialogueTarget>SignalscopeKidNewC3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>INSP EX4</RequiredLogCondition>
+				<Text>It's made of gravity crystals, and the Nomai made it.</Text>
+				<DialogueTarget>SignalscopeKidNewC4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>INSP EX2</RequiredLogCondition>
+				<Text>It's a Nomai superweapon.</Text>
+				<DialogueTarget>SignalscopeKidNewC5</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+		</DialogueNode>
+
+<DialogueNode>
+		<Name>SignalscopeKidNewC3</Name>
+		<Dialogue>
+			<Page>Ohh.. So that's why it's so hard to see it.. I guess Giant's Deep must have kept it hidden from us pretty well!</Page>
+			<Page>But.. that's weird, isn't it?</Page>
+			<Page>Hornfels told me comets can have weird orbits.. But comets aren't supposed to stay still like that, are they? The Interloper sure doesn't do that!</Page>
+			<Page>Why is this comet hiding itself inside a planet's shadow like that? It's kinda creepy..</Page>
+			</Dialogue>
+		</DialogueNode>
+
+<DialogueNode>
+		<Name>SignalscopeKidNewC4</Name>
+		<Dialogue>
+			<Page>Woah, wha? The Nomai MADE the comet.. And the whole thing's made of gravity crystals..? That's. NUTS, astronaut!!</Page>
+			<Page>Where'd the Nomai even get so many gravity crystals?!</Page>
+			<Page>Also, isn't a whole comet-sized chunk of gravity crystals kinda much? What could they possibly need that much for?</Page>
+			<Page>Were the Nomai trying to make a little artificial moon?</Page>
+			<Page>Haha, that's such a cute idea.. I could totally see the Nomai doing that!</Page>
+			</Dialogue>
+		</DialogueNode>
+
+		<DialogueNode>
+		<Name>SignalscopeKidNewC5</Name>
+		<Dialogue>
+			<Page>Huh? A.. weapon?</Page>
+			<Page>But.. Weren't the Nomai really peaceful and friendly? Why.. What'd they need a weapon like that for?</Page>
+			<Page>That's.. really weird.</Page>
+			<Page>Um...If it really is a weapon.. I'm sure they must have had a good reason to make something like that.</Page>
+			</Dialogue>
+		</DialogueNode>
+
+<DialogueNode>
+		<Name>SignalscopeKidNew1</Name>
+		<Dialogue>
+			<Page>What a strange question, astronaut! Um.. Do geysers count?</Page>
+			<Page>Hornfels taught me that geysers erupt sometimes and stop because of heat from the planet's geo-ther-mal vents.. Isn't that cool?</Page>
+			<Page>Oh, I wish I could jump into one of those geysers to explore the waterways inside them!</Page>
+			</Dialogue>
+			<DialogueOptionsList>
+			<DialogueOption>
+				<Text>There are waterways inside the geysers?</Text>
 				<DialogueTarget>SignalscopeKidNew2</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -42,16 +122,14 @@
 		<DialogueNode>
 		<Name>SignalscopeKidNew2</Name>
 		<Dialogue>
-			<Page>Yeah! You didn't notice them before?</Page>
-			<Page>We haven't been able to remove them to put them in the museum because of the ghost matter, but Riebeck says they're definitely Hearthian!</Page>
-			<Page>Riebeck says they must have been some early ancestors of ours, unlucky enough to stumble upon that patch of ghost matter while exploring the surface of Timber Hearth.</Page>
-			<Page>Our species used to be aquatic before our ancestors learned to walk on land, you know.</Page>
-			<Page>Riebeck thinks Hearthians had to learn how to live on land because if they didn't, we'd have died instantly whenever we got launched out of the water by geysers!</Page>
-			<Page>Even though they could go on land, our ancestors still mainly lived in the huge underground cave system inside the geysers.</Page>
-			<Page>Apparently, there's a whole interconnected underwater cave system inside the geysers that our ancestors swam around in!</Page>
-			<Page>That part's a recent discovery, though. Nobody's even explored the waterways yet, since Riebeck <![CDATA[<i>"wasn't going to get eaten by an underwater monster",</i>]]> and the other astronauts were uh, busy, lazy, or missing.</Page>
-				<Page>Oh, I can't even imagine what's down there, in the waterways our ancestors lived in for millennia..</Page>
-				<Page>Would you ever be interested in jumping into a geyser to explore Timber Hearth's spooky depths, astronaut?</Page>
+			<Page>Yeah, you know, the waterways that our ancestors swam around in and lived in!</Page>
+			<Page>You know our species used to be aquatic a long time ago, right?</Page>
+			<Page>According to Riebeck, our ancestors had to learn to live on land because if they didn't, they'd have died instantly whenever the geysers launched them out of the water.</Page>
+			<Page>But even after learning to live on land, our ancestors still mainly lived in these waterways inside the geysers.</Page>
+			<Page>Turns out, there's a massive underwater cave system inside the geysers that our ancestors swam around in!</Page>
+			<Page>That part's a recent discovery, though.. Nobody's even properly explored them yet, since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
+				<Page>Oh, I'd love to jump down a geyser to explore those ancient waterways myself, but since we lost the ability to breathe underwater a long time ago, I'd probably just drown..</Page>
+				<Page>I'd hate to get your spacesuit wet, but.. Would <![CDATA[<i>you</i>]]> be interested in jumping into a geyser to explore Timber Hearth's spooky depths, astronaut?</Page>
 		</Dialogue>
 							<RevealFacts>
      						  	 <FactID>MOR R3</FactID>
@@ -73,35 +151,32 @@
 
 <DialogueNode>
 		<Name>SignalscopeKidNew3</Name>
-		<SetPersistentCondition>Shutup_Moraine</SetPersistentCondition>
 		<Dialogue>
 				<Page>Really? Wow, you're so cool, astronaut!</Page>
-				<Page>I'd love to jump down a geyser to explore myself.. But Mayor Rutile says I'll drown, since we lost the ability to breathe underwater a long time ago, and I'm bad at holding my breath..</Page>
 				<Page>If you do find anything down there, I wanna hear all about it, okay?</Page>
-				<Page>Oooh, it's like revisiting the place where we came from! This is gonna be an incredible day for Hearthian history, astronaut!</Page>
+				<Page>Oooh, it's like revisiting the place where we all came from! This is gonna be an incredible day for Hearthian history, astronaut!</Page>
 		</Dialogue>
 	</DialogueNode>
 
 <DialogueNode>
 		<Name>SignalscopeKidNew4</Name>
+		<SetCondition>morc1</SetCondition>
 		<Dialogue>
-				<Page>Woah.. What? A Nomai mural of.. our ancestors on land? That’s.. That's <![CDATA[<i>awesome!</i>]]></Page>
+				<Page>Woah, what..? A Nomai mural of our ancestors on land..? That’s.. That's <![CDATA[<i>awesome!</i>]]></Page>
 				<Page>It’s not a huge underwater monster like I was hoping.. But it’s still really awesome!</Page>
-				<Page>But wait... Doesn’t that mean Hearthians must have already existed when the Nomai were around?</Page>
-					<Page>And it sounds like we were still able to live on both water AND land back then! </Page>
-					<Page>Aw, when did Hearthians stop being able to breathe underwater completely then?</Page>
-					<Page>If we were still able to breathe underwater nowadays, I'd be able to swim around the waterways all day..</Page>
-				<Page>But wow.. Isn't this discovery gonna totally upend our knowledge of Hearthian history?</Page>
-					<Page>I think you’d better fly to Brittle Hollow as soon as you can to tell Riebeck about this huge discovery, astronaut. They'll probably lose their marbles revising the Hearthian history books!</Page>
-					<Page>Don’t forget, you can use your signalscope to track down the other travelers more easily!</Page>
+				<Page>But wait... Doesn’t that mean our ancestors were already alive when the Nomai were around?</Page>
+					<Page>What's more, it sounds like we were still able to live on both water AND land back then..</Page>
+					<Page>Aw, when did Hearthians stop being able to breathe underwater completely then? If we were still able to breathe underwater nowadays, I'd be able to swim around the waterways all day!</Page>
+					<Page>But wow.. Isn't this discovery gonna totally upend our knowledge of Hearthian history, astronaut?</Page>
+					<Page>If Riebeck heard about this discovery, they'd probably lose their marbles revising the Hearthian history books!</Page>
+					<Page>Oooh, I bet Riebeck's gonna kick themself for turning down the chance to be the first to explore those waterways..</Page>
+					<Page>I can't imagine the look on Riebeck's face when they hear about this!</Page>
 		</Dialogue>
 							<RevealFacts>
+     						  	 <FactID>MOR EX1</FactID>	 
      						  	 <FactID>MOR EX2</FactID>	 
-     						  	 <FactID>MOR EX3</FactID>	 
      						  	 <FactID>MOR R2</FactID>
     					 	 </RevealFacts>
-		
-		<SetCondition>SHOW_SIGNALSCOPE_PROMPT</SetCondition>
 	</DialogueNode>
 
 
@@ -111,16 +186,26 @@
 		<DialogueNode>
 		<Name>SignalscopeKid5</Name>
 		<DialogueOptionsList>
-				<DialogueOption>
-				<RequiredPersistentCondition>Shutup_Moraine</RequiredPersistentCondition>
+		<DialogueOption>
+			<RequiredLogCondition>MOR R3</RequiredLogCondition>
 			<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>I dived into the waterways and found a Nomai mural depicting Hearthian ancestors on land.</Text>
+				<Text>I dived into the waterways and found a Nomai mural of ancient Hearthians on land.</Text>
 				<DialogueTarget>SignalscopeKidNew4</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>MOR R1</RequiredLogCondition>
-				<Text>Hey Moraine, did you hear anything about ghost matter disappearing?</Text>
+				<Text>Hey Moraine. Have you.. heard anything about stuff that disappears sometimes?</Text>
 				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>MOR EX3</RequiredLogCondition>
+				<Text>Hang on, why did you think there was more than one comet?</Text>
+				<DialogueTarget>SignalscopeKidNewC1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>INSP R0</RequiredLogCondition>
+				<Text>I think I found the comet you saw!</Text>
+				<DialogueTarget>SignalscopeKidNewC2</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>

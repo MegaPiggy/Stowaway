@@ -5,7 +5,6 @@
 <DialogueNode>
 		<Name>Arkose Intro</Name>
 		<EntryCondition>DEFAULT</EntryCondition>
-		<SetCondition>ark1</SetCondition>
 		<Dialogue>
 			<Page><![CDATA[<i>]]>AHHH!!!<![CDATA[</i>]]> Astronaut, what're you doing?!</Page>
 			<Page>...</Page>

@@ -31,11 +31,12 @@
 		<DialogueNode>
 		<Name>ScientistAnswer38_A</Name>
 		<Dialogue>
-			<Page>Uhh, yeah? I thought it was pretty clear we were talking in dream terms? Pretty normal to get nightmares of all your phobias the day you take off - just ask Riebeck.</Page>
+			<Page>Uhh, yeah? I thought it was pretty clear we were talking in dream terms.</Page>
+			<Page>Pretty normal to get nightmares of all your phobias the day you take off.. Just ask Riebeck.</Page>
 			<Page>Sheesh, I didn't know you were that paranoid about ghost matter you were dreaming about dying to it, though. Tektite really spooked ya, huh?</Page>
 			<Page>Look, your suit should alert you whenever there's ghost matter nearby at all, so don't worry about just randomly falling into a patch without warning.</Page>
 			<Page>Once you know there's ghost matter around, just use the scout to look out for it. You can even switch it to a handheld photo mode that lets you take pictures without launching it first.</Page>
-			<Page>It's so convenient, it's honestly out of my hands if you still manage to walk into some ghost matter... <![CDATA[<Pause=1>]]> Unless you'd like me to just magically make all ghost matter disappear to idiotproof the star system.</Page>
+			<Page>It's so convenient, it's honestly out of my hands if you still manage to walk into some ghost matter.. <![CDATA[<Pause=1>]]> Unless you'd like me to just magically make all ghost matter disappear to idiotproof the star system.</Page>
 			<Page>Hm.</Page>
 			<Page>That reminds me of something interesting I heard in the village the other day, actually..</Page>
 		</Dialogue>
@@ -56,11 +57,9 @@
 		<Dialogue>
 
 			<Page>Hah! Sorry to get your hopes up, but it was probably just some nasty prank the kids were playing.</Page>
-			<Page>If you really wanna know, I overheard one of the little hatchlings say that ghost matter disappears sometimes.</Page>
+			<Page>If you really wanna know: I overheard one of the kids in the village say that ghost matter disappears sometimes.</Page>
 			<Page>They were probably just trying to trick a more gullible hatchling into sticking a hand into some ghost matter.. <![CDATA[<Pause=1>]]> <![CDATA[<i>]]>Classic.<![CDATA[</i>]]></Page>	
-			<Page>If you want, feel free to interrogate all those smallfries to figure out who it was and scold 'em for me. Don't want those kids losing a limb or two to something stupid now.</Page>	
-			<Page>I'd do it myself, but.. You're headed around the village on your way to get those launch codes anyway.</Page>	
-			<Page>And besides, heh.. <![CDATA[<Pause=1>]]> Now that I've told you, you can't leave that thread hanging before you go, can you?</Page>	
+			<Page>If you want, feel free to interrogate all those smallfries to figure out who it was and scold 'em for me. Don't want those kids losing a limb or two to something stupid now.</Page>
 		</Dialogue>
 				<RevealFacts>
      						   <FactID>MICA R1</FactID>
@@ -71,7 +70,7 @@
     					  </RevealFacts>
 <DialogueOptionsList>
 				<DialogueOption>
-				<Text>Alright, alright, I'll go talk to the little gills before I go.</Text>
+				<Text>Sure, I'll talk to them.</Text>
 				<DialogueTarget>Slate_Kids_Gettoit</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -89,9 +88,8 @@
 <DialogueNode>
 		<Name>ScientistAnswer38_Z</Name>
 		<Dialogue>
-			<Page>Oh, ok, just cut me off then.</Page>
-			<Page>Bah, it's like you can sense when I'm about to sneakily ask you to do something.</Page>
-			<Page>On your way then, you rascal.</Page>
+			<Page>Oh, ok. Just cut me off then.</Page>
+			<Page>Bah, it's like you can sense when I'm about to sneakily ask you to do something.. On your way then, you rascal.</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -100,7 +98,8 @@
 		<Name>Slate_Kids_Gettoit</Name>
 		<Dialogue>
 			<Page>Cool. Just remember, there's five suspects: Mica, Tephra, Galena, Arkose, and Moraine.</Page>
-			<Page>Just talk to each of them. Real nonchalantly, like: "Which one of you kids tried to kill your friends the other day?"</Page>
+			<Page>Oh, you should try to be subtle with your questions, though. Otherwise, they might catch wind of your little investigation.</Page>
+			<Page>Try to ask real nonchalantly, like: "Did you hear anything about stuff that disappears sometimes?"</Page>
 			<Page>Ah... I'd be a great detective.</Page>
 		</Dialogue>
 	</DialogueNode>
@@ -108,15 +107,18 @@
 <DialogueNode>
 		<Name>Slate_Kids_Direction</Name>
 		<Dialogue>
-			<Page>Stars above, just look around the village! They're all probably just playing around somewhere.</Page>
+			<Page>Stars above, just look around the village! They're all probably playing around somewhere.</Page>
 			<Page>Mica's probably still fiddling with the model rocket, just up the hill.</Page>
 				<Page>Tephra and Galena should be playing in the village somewhere.</Page>
 				<Page>I saw those two trekking outside the village recently for whatever reason, though - so don't take my word on that.</Page>
 				<Page>Arkose's probably still throwing rocks into the patch of ghost matter at the top of the village.</Page>
 				<Page>Still uh.. no idea why they do that all day.</Page>
 					<Page>And Moraine's probably stargazing on that big tree in the village, making sure Marl doesn't chop it down.</Page>
-					<Page>I wonder if that Marl'll ever let go of that grudge.. <![CDATA[<Pause>]]> No good comes outta holding a grudge against a tree, you know?</Page>
-						<Page>That's all I know. Just get a move on - you'll probably just find all of 'em on the way up to the observatory for those launch codes, anyway.</Page>
+					<Page>I wonder if that Marl'll ever let go of that grudge.. No good comes outta holding a grudge against a tree, y'know?</Page>
+					<Page>Oh, try to be subtle with your questions though. Otherwise, the kids might catch wind of your little investigation.</Page>
+						<Page>Try to ask them real nonchalantly, like: "Did you hear anything about stuff that disappears sometimes?"</Page>
+						<Page>Ah, I'd be a great detective.</Page>
+						<Page>Just get a move on - you'll probably find all of 'em on the way up to the observatory for those launch codes, anyway.</Page>
 		</Dialogue>
 	</DialogueNode>
 

@@ -41,6 +41,13 @@
 			"position": {"x": -42.101, "y": -10.1368, "z": -101.10423},
 			"rotation": {"x": 317.4332, "y": 326.1635, "z": 10.5133},
 			"isRelativeToParent": true
+		},{
+			"rename":"tent snackbox",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/broken box.prefab",
+			"position": {"x": -35.3867, "y": -10.2113, "z": -106.6542},
+			"rotation": {"x": 7.6492, "y": 247.5706, "z": 7.1917},
+			"isRelativeToParent": true
 		},
 
 		{
@@ -676,8 +683,8 @@
 				"rename":"Jellyfish mural tablet",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/tablet.prefab",
-				"position":{"x":2.954,"y": 4.6859,"z": -92.1262},
-				"rotation":{"x":32.6081,"y": 339.4995,"z": 185.0364},
+				"position":{"x":-21.0494,"y": -6.4961,"z": -93.7168},
+				"rotation":{"x":66.4131,"y": 275.0193,"z": 170.0771},
 				"isRelativeToParent": true
 			},
 			{
@@ -694,8 +701,8 @@
 				"rename":"muralboard opp torch",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position":{"x": 10.0496,"y": -0.4282,"z": -94.9121},
-				"rotation":{"x": 3.1624,"y": 64.8637 ,"z": 356.1329},
+				"position":{"x": 5.826,"y": 5.415,"z": -91.923},
+				"rotation":{"x": 359.597,"y": 337.1902,"z": 356.1329},
 				"isRelativeToParent": true
 			},
 
@@ -762,7 +769,7 @@
 			{
 				"rename":"Pioneer bench",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
-				"position":{"x":-20.26,"y": -7.3128,"z": -93.3282},
+				"position":{"x":-20.06,"y": -7.3128,"z": -93.3282},
 				"rotation":{"x":11.6777,"y": 289.8684,"z": 358.1764},
 				"stretch":{"x":2,"y":1,"z":1},
 				"isRelativeToParent": true
@@ -1192,19 +1199,8 @@
 							{
 								"id": "TH_Sanctuary",
 								"location": "b",
-								"seed": 3,
-								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
-								"arcInfo": [
-									{},
-									{},
-									{},
-									{"position": {"x":-0.3198,"y": 2.3755},"zRotation": 313.8314,"mirror": false},
-									{"position": {"x":1.0425,"y": 2.2456},"zRotation": 276.3438,"mirror": false},
-									{"position": {"x":0.0125,"y": 2.1913},"zRotation": 263.2943,"mirror": false},
-									{"position": {"x": 0.7413,"y": 1.6118},"zRotation": 259.661,"mirror": false},
-									{"position": {"x":1.3596,"y": 0.7185},"zRotation": 185.136,"mirror": false},
-									{"position": {"x":1.1312,"y": -0.0784},"zRotation":  251.3098,"mirror": true}
-								]
+								"seed": 1,
+								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml"
 							},
 							{
 								"id": "GD_DeepStormStation",
@@ -1278,16 +1274,16 @@
 			
 			{
 				"rename":"Beach Pioneer recorder",
-				"position": {"x":-20.4833,"y": -6.662,"z": -93.6072},
-				"rotation": {"x":10.8624,"y": 322.2972,"z": 4.682},
+				"position": {"x": -35.7741,"y": -10.4233,"z": -107.7605},
+				"rotation": {"x": 4.1076,"y": 258.354,"z": 6.9147},
 				"type": "recorder",
 				"isRelativeToParent": true,
 				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/beach pioneers.xml"
 			},
 			{
 				"rename":"Jellyfish notice recorder",
-				"position": {"x":0.1129,"y": 4.1438,"z": -91.0069},
-				"rotation": {"x":357.6299,"y": 301.346,"z": 11.9654},
+				"position": {"x": -22.5615,"y": -7.6038,"z": -94.4981},
+				"rotation": {"x":10.8624,"y": 322.2972,"z": 4.682},
 				"type": "recorder",
 				"isRelativeToParent": true,
 				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/jellyfish surfacing notice.xml"

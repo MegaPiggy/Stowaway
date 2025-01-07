@@ -55,26 +55,6 @@
 			<Condition>4</Condition>
 		</RevealFact>
 
-		<RevealFact>
-			<FactID>GD Tower R3</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>BH Tower R2</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>TH Tower R2</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>SS Tower R2</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>HGT Tower R2</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
 	</ShipLogConditions>
 
 </NomaiObject>

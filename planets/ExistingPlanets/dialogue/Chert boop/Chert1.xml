@@ -26,12 +26,12 @@
 		<DialogueOptionsList>
 		<DialogueOption>
 				<RequiredLogCondition>MICA EX2</RequiredLogCondition>
-				<Text>Mica wanted me to ask why it's taken so long for sand to start flowing back to the other twin.</Text>
+				<Text>Hey Chert, how did you know when the sand would start flowing between the Hourglass Twins again?</Text>
 				<DialogueTarget>Chert SW1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredPersistentCondition>Sandflow</RequiredPersistentCondition>
-				<Text>How much longer do you think it'd take for sand to flow back to Ash Twin now?</Text>
+				<Text>How much longer do you think it'd take for the sand to stop flowing between the Twins?</Text>
 				<DialogueTarget>Chert SW S</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -40,34 +40,15 @@
 	<DialogueNode>
 		<Name>Chert SW1</Name>
 			<Dialogue>
-				<Page>Goodness, have they been waiting all this time for the sand to start flowing between the Twins?</Page>
-				<Page> Oh, dear.. If I'd known they'd be so excited, I'd have given them a more precise date to look forwards to!</Page>
-			</Dialogue>
-		<DialogueOptionsList>
-				<DialogueOption>
-					<Text>Wait.. We have precise dates for when the Hourglass Twins' sand exchange occurs?</Text>
-					<DialogueTarget>Chert SW2</DialogueTarget>
-				</DialogueOption>
-				<DialogueOption>
-					<Text>What do you think even causes sand to flow between the Twins?</Text>
-					<DialogueTarget>Chert SW3</DialogueTarget>
-				</DialogueOption>
-		</DialogueOptionsList>
-	</DialogueNode>
-
-	<DialogueNode>
-		<Name>Chert SW2</Name>
-			<Dialogue>
-				<Page>We do! In fact, I was planning on announcing it to the village once I'd gathered more data about the phenomenon.</Page>
-				<Page>We could even gather in the village regularly, to watch it happen with a little celebration!</Page>
-				<Page>You see.. the Hourglass Twins' sand exchange occurs at very regular intervals.</Page>
-				<Page>After spending an unhealthy amount of time on the Twins (goodness, you should see how tan I've gotten!) I have found that each time the Twins' sandflow subsides, it takes a consistent three weeks for the sand to flow back to the other twin.</Page>
-				<Page>That the process takes place with such consistency only makes it even more puzzling to me, though.. I can't think of any natural phenomenon that occurs with such precision!</Page>
+				<Page>Oh? You heard about this from the village, I presume!</Page>
+				<Page>The village always seems to be amazed when I tell them my predictions for the next sand transfer. It's a fun party trick, isn't it?</Page>
+				<Page>But there's no magic to it - the Hourglass Twins' sand transfer simply occurs at very regular intervals.</Page>
+				<Page>After spending some time studying this phenomenon, I have found that after each time the sandflow subsides, it takes a consistent, precise three weeks for the sand to flow back to the other twin again.</Page>
+				<Page>That the process takes place with such consistency only makes it even more puzzling to me, though.. I simply can't think of any natural phenomenon that occurs with such precision!</Page>
 				</Dialogue>
-						
 		<DialogueOptionsList>
 				<DialogueOption>
-					<Text>Could you tell me how long it takes for the sand to stop flowing between the Twins right now, then?</Text>
+					<Text>When do you think the sand will stop flowing between the Twins?</Text>
 					<DialogueTarget>Chert SW4</DialogueTarget>
 				</DialogueOption>
 				<DialogueOption>
@@ -82,13 +63,13 @@
 		<SetPersistentCondition>Chert_Natural</SetPersistentCondition>
 			<Dialogue>
 				<Page>Oh, how I wish I knew the answer to that question too, young hatchling.</Page>
-				<Page>For sand to flow from one planet to the other.. then flow back to the other planet.. There is simply no rational explanation for it.</Page>
+				<Page>For sand to flow from one planet to the other.. then back to the other planet.. There is simply no rational explanation for it.</Page>
 				<Page>The fact that the process takes place with such consistency only makes it even more puzzling to me. I cannot think of any natural phenomenon that occurs in this way, and with such precision!</Page>
-				<Page>But still.. Until we find any evidence to the contrary, we can only conclude that it might be some natural phenomenon we do not fully comprehend yet.</Page>
+				<Page>But still.. Until we find any evidence to the contrary, we can only conclude that it is some natural phenomenon we do not fully comprehend yet.</Page>
 				<Page>If you plan on exploring the Twins in search of an answer to this mystery, I do have another detail about the sand column, and some accompanying advice to share with you!</Page>
-				<Page>For whatever reason, the column of sand that drains sand from one Twin to the other seems to only ever wander along the Hourglass Twins' equator.</Page>
-				<Page>No matter how long I've stayed here, the sand column has never once wandered across this camp.</Page>
-				<Page>To that end, I would suggest starting your exploration to the poles of the Hourglass Twins. That should keep you safe from being pulled into space by the sand column, or crushed by falling sand!</Page>
+				<Page>For whatever reason, the sand only drains from one Twin to the other, along the Hourglass Twins' equator.</Page>
+				<Page>No matter how long I've stayed here, that great column of sand has never once wandered across this camp.</Page>
+				<Page>To that end, I would suggest starting your exploration at the poles of the Hourglass Twins. That should keep you safe from being pulled into space by the sand column, or crushed by falling sand!</Page>
 			</Dialogue>
 						<RevealFacts>
      						   <FactID>R_SLR R4</FactID>
@@ -96,7 +77,7 @@
     					  </RevealFacts>
 		<DialogueOptionsList>
 				<DialogueOption>
-					<Text>Could you tell me how long it takes for the sand to stop flowing between the Twins right now?</Text>
+					<Text>Do you know when the sand will stop flowing between the Twins?</Text>
 					<DialogueTarget>Chert SW4</DialogueTarget>
 				</DialogueOption>
 				<DialogueOption>
@@ -111,7 +92,7 @@
 		<SetPersistentCondition>Sandflow</SetPersistentCondition>
 			<Dialogue>
 				<Page>It will take.. Ah, I'm.. not too sure, since I didn't keep track when this interval began..</Page>
-				<Page>I am sure the interval does not last longer than 20 minutes, though. If you feel impatient, feel free to take a nap by a campfire to pass the time!</Page>
+				<Page>I am sure the sandflow does not last longer than 20 minutes, though. If you feel impatient, feel free to take a nap by a campfire to pass the time!</Page>
 				<Page>Time slips by during a good nap, after all.</Page>
 				<Page>I intentionally set up this camp to be out of the sand column's path - so please, rest easy about the possibility of the sand column wandering this way while you rest.</Page>
 			</Dialogue>

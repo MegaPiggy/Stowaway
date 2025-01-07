@@ -8,13 +8,13 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
-				<Text>Hey Tephra, did you hear anything about ghost matter disappearing?</Text>
+				<Text>Hey Tephra. Have you.. heard anything about stuff that disappears sometimes?</Text>
 				<DialogueTarget>Teph SW_1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
-				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
-				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
+				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
+				<Text>I found where the purple rock in the museum goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -29,31 +29,23 @@
 <DialogueNode>
 		<Name>Teph SW_1</Name>
 		<Dialogue>
-			<Page>Wait, ghost matter disappears sometimes? Really? I didn't know!</Page>
-			<Page>That's awesome... I'm gonna go jump into a patch of ghost matter right now!</Page>
+			<Page>*GASP* <![CDATA[<i>You've noticed it too, astronaut?!</i>]]></Page>
+			<Page>Where does it go, astronaut? Where does the purple rock in the museum go?!</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text><![CDATA[<i>No no no,</i>]]> I was asking who might've told you that!</Text>
-				<DialogueTarget>Teph SW_2</DialogueTarget>
+				<Text>Woah, woah! What purple rock?!</Text>
+				<DialogueTarget>Teph SW_3</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>SY R1</RequiredLogCondition>
+				<Text>It travels to a dark cave somewhere on Timber Hearth.</Text>
+				<DialogueTarget>Teph Answers 1B</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<Text>Don't ever do that! You'll just get badly hurt!</Text>
-				<DialogueTarget>Teph SW_2</DialogueTarget>
-			</DialogueOption>
-			</DialogueOptionsList>
-	</DialogueNode>
-
-	<DialogueNode>
-		<Name>Teph SW_2</Name>
-		<Dialogue>
-			<Page>Oh..</Page>
-			<Page>Aw... I thought since it's disappearing too, I might finally be able to find out where the weird rock in the museum goes.</Page>
-		</Dialogue>
-		<DialogueOptionsList>
-			<DialogueOption>
-				<Text>The weird rock in the museum?</Text>
-				<DialogueTarget>Teph SW_3</DialogueTarget>
+				<RequiredLogCondition>SY EX1</RequiredLogCondition>
+				<Text>It travels to a sanctuary made to protect Hearthians from a supernova.</Text>
+				<DialogueTarget>Teph Answers 2</DialogueTarget>
 			</DialogueOption>
 			</DialogueOptionsList>
 	</DialogueNode>
@@ -62,29 +54,16 @@
 <DialogueNode>
 		<Name>Teph SW_3</Name>
 		<Dialogue>
-			<Page>Yeah, the purple rock in the exhibit outside the museum that jumps around! It's <![CDATA[<i>so</i>]]> good at hiding!</Page>
-			<Page>Oh, but I don't mean when it jumps behind you and scares you.. I mean <![CDATA[<i>when it disappears completely!</i>]]></Page>
-			<Page>Galena and I both looked all over Timber Hearth to find where it goes when it disappears. But we could never find the purple rock's <![CDATA[<color=orange>super secret hiding spot.</color>]]></Page>
-			<Page>The only place we couldn't look was the <![CDATA[<color=orange>Nomai Ruins</color>]]> on Timber Hearth, outside the village.</Page>
-			<Page>We wanted to look there too.. But Mayor Rutile told us to never EVER go near there, because there's lots of dangerous ghost matter around that area that we can't see.</Page>
-			<Page>I thought if the ghost matter disappeared, maybe we could look there at last..</Page>
-			<Page>Um, could you help us check out the <![CDATA[<color=orange>Nomai Ruins</color>]]> on Timber Hearth, astronaut? The purple rock might be hiding there somewhere!</Page>
-			<Page>You're taller than us, so you if you accidentally walk into some ghost matter, you'll just lose your legs!</Page>
+			<Page>Aw.. I thought you were gonna tell me something about it, astronaut - not the other way around..</Page>
+			<Page>But yup, Galena and I both saw the purple rock in the museum disappearing sometimes!</Page>
+			<Page>And I don't mean when it jumps behind you and scares you.. <![CDATA[<Pause=1>]]> I mean <![CDATA[<i>when it disappears completely</i>]]> from the museum!</Page>
+			<Page>Galena and I both looked all over Timber Hearth to find where the purple rock goes when it disappears.. But we've never found the purple rock's <![CDATA[<color=orange>super secret hiding spot!</color>]]></Page>
+			<Page>I wonder where it's going when it disappears..</Page>
+			<Page>I'm gonna find where it's hiding one of these days, and become the best hide-and-seeker on Timber Hearth!</Page>
 		</Dialogue>
 						 <RevealFacts>
-     						   <FactID>TEPH EX1</FactID>
-     						   <FactID>TEPH EX3</FactID>
+     						   <FactID>TEPH R2</FactID>
     					  </RevealFacts>
-<DialogueOptionsList>
-			<DialogueOption>
-				<Text>Uh... I'll keep an eye out for it!</Text>
-				<DialogueTarget>Teph Answers 1C</DialogueTarget>
-			</DialogueOption>
-				<DialogueOption>
-				<Text>Wait, where are the Nomai Ruins again?</Text>
-				<DialogueTarget>Teph Answers 1D</DialogueTarget>
-			</DialogueOption>
-		</DialogueOptionsList>
 </DialogueNode>
 
 
@@ -107,6 +86,7 @@
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
+				<RequiredLogCondition>SY R1</RequiredLogCondition>
 				<Text>It travels to a dark cave somewhere on Timber Hearth.</Text>
 				<DialogueTarget>Teph Answers 1B</DialogueTarget>
 			</DialogueOption>
@@ -121,21 +101,36 @@
 	<DialogueNode>
 		<Name>Teph Answers 1B</Name>
 		<Dialogue>
-					<Page>Wow, you found it already?! You're awesome, astronaut!</Page>
-					<Page>But.. How do you get in the spooky cave it's hiding in? Galena and I want to get in so we can use it for playing hide and seek..</Page>
+					<Page>Woah.. How did you figure that out, astronaut? That's incredible!</Page>
+					<Page>But where is this spooky cave it's hiding in? Galena and I want to get in so we can use it for playing hide and seek!</Page>
+					<Page>We've looked all over Timber Hearth, even inside the zero-g cave.. But we've never seen the purple rock inside any of those caves..</Page>
+					<Page><![CDATA[<i>Oh, I know!</i>]]></Page>
+					<Page>There might be more caves around the <![CDATA[<color=orange>Nomai Ruins</color>]]> outside the village, astronaut! That's the one place we've never looked.</Page>
 		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Why not?</Text>
+				<DialogueTarget>Teph Answers 1C</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>Huh. Where are the Nomai Ruins again?</Text>
+				<DialogueTarget>Teph Answers 1D</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
 	</DialogueNode>
 
 			
 	<DialogueNode>
 		<Name>Teph Answers 1C</Name>
 			<Dialogue>
-					<Page>Yay! You're the best, astronaut!</Page>
-					<Page>Oh! If you can't find the <![CDATA[<color=orange>Nomai Ruins,</color>]]> I think there's a picture of it framed in the museum, astronaut. If you look at that, that should tell you what it looks like!</Page>
+					<Page>We wanted to look there too - but Mayor Rutile told us not to ever go near there, because there's lots of dangerous ghost matter around there that we can't see.</Page>
+					<Page>So.. Could you look around the <![CDATA[<color=orange>Nomai Ruins</color>]]> for us, astronaut? The purple rock might be going to a cave there that we don't know about!</Page>
+					<Page>Oh, I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins,</color>]]> framed in the museum, astronaut. That should help if you have trouble finding it!</Page>
 					<Page>Good luck out there, astronaut!</Page>
 					<Page>Come back and tell us if you find where the purple rock goes, alright?</Page>
 			</Dialogue>
 						 <RevealFacts>
+     						   <FactID>TEPH EX3</FactID>
      						   <FactID>TEPH EX4</FactID>
     					  </RevealFacts>
 	</DialogueNode>
@@ -144,11 +139,12 @@
 		<Name>Teph Answers 1D</Name>
 		<Dialogue>
 					<Page>Um.. It's somewhere on Timber Hearth, outside the village!</Page>
-					<Page>Oh! I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins</color>]]> framed in the museum, astronaut. If you look at that, that should tell you what it looks like!</Page>
+					<Page>Oh! I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins</color>]]> framed in the museum, astronaut. If you look at that, that should help you find it!</Page>
 					<Page>Good luck out there, astronaut!</Page>
 					<Page>Come back and tell us if you find where the purple rock goes, alright?</Page>
 		</Dialogue>
 						 <RevealFacts>
+     						   <FactID>TEPH EX3</FactID>
      						   <FactID>TEPH EX4</FactID>
     					  </RevealFacts>
 	</DialogueNode>
@@ -175,12 +171,12 @@
 			<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
-				<Text>Hey Tephra, did you hear anything about ghost matter disappearing?</Text>
+				<Text>Hey Tephra. Have you.. heard anything about stuff that disappears sometimes?</Text>
 				<DialogueTarget>Teph SW_1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
-				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
+				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
 				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
@@ -197,12 +193,12 @@
 			<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
-				<Text>Hey Tephra, did you hear anything about ghost matter disappearing?</Text>
+				<Text>Hey Tephra. Have you.. heard anything about stuff that disappears sometimes?</Text>
 				<DialogueTarget>Teph SW_1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
-				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
+				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
 				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
@@ -219,12 +215,12 @@
 			<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
-				<Text>Hey Tephra, did you hear anything about ghost matter disappearing?</Text>
+				<Text>Hey Tephra. Have you.. heard anything about stuff that disappears sometimes?</Text>
 				<DialogueTarget>Teph SW_1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
-				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
+				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
 				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
@@ -241,12 +237,12 @@
 			<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
-				<Text>Hey Tephra, did you hear anything about ghost matter disappearing?</Text>
+				<Text>Hey Tephra. Have you.. heard anything about stuff that disappears sometimes?</Text>
 				<DialogueTarget>Teph SW_1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
-				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
+				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
 				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>

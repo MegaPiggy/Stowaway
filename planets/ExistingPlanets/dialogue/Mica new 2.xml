@@ -8,7 +8,7 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>MICA R1</RequiredLogCondition>
-				<Text>Hey, Mica. Did you hear anything about ghost matter disappearing?</Text>
+				<Text>Hey, Mica. Have you.. heard anything about stuff that disappears sometimes?</Text>
 				<DialogueTarget>ModelRocketKid_Annoy</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -22,7 +22,7 @@
 <DialogueNode>
 		<Name>ModelRocketKid_Sand2</Name>
 		<Dialogue>
-			<Page>Really? You.. just woke up, though.</Page>
+			<Page>Wha? Are you still half-awake from your nap, astronaut? Those were dream discoveries!</Page>
 			<Page>Whatever. Let's hear your ideas for what causes the twins' weird shifting sands, astronaut!</Page>
 				 <DialogueOptionsList>
 					<DialogueOption>
@@ -50,102 +50,45 @@
 <DialogueNode>
 		<Name>ModelRocketKid_Sand</Name>
 		<Dialogue>
-			<Page>Huh.. So it's gravity from the sun, and gravity from the twin closer to the sun combining, that causes sand to flow between the twins...</Page>
-			<Page>Wait, so.. All I need to do is wait for the Hourglass Twins to align with the sun for the sand transfer to begin? How'd you figure that out in your sleep, astronaut?!</Page>
-			<Page>I'm not sure about the science.. But it does kinda sound plausible! The sun's gotta have some strong gravitational pull, after all.</Page>
-			<Page>Well, that's one lifelong mystery solved overnight. Thanks for telling me your brainwave, astronaut!</Page>
+			<Page>Huh.. So it's gravity from the sun... and gravity from the twin closer to the sun combining, that causes sand to flow between the twins...</Page>
+			<Page>Huh.. That makes sense! The sun's gotta have some strong gravitational pull, after all.</Page>
+			<Page>If that's true, is that how Chert knows when the Hourglass Twins exchange sand so precisely? Well, that or they just measured how long it takes for the Twins to orbit into alignment.. That's probably more likely.</Page>
+			<Page>I guess the only way we'll only know if your theory's true, is if the sand flows back to the other Twin the next time the Hourglass Twins align with the sun, huh?</Page>
+			<Page>That's gonna take a while.. But I look forward to testing your theory out, astronaut!</Page>
 		</Dialogue>
 	</DialogueNode>
 
 <DialogueNode>
 		<Name>ModelRocketKid_Annoy</Name>
 		<Dialogue>
-			<Page>Wha? Astronaut, are you.. trying to trick me into touching some ghost matter? That's <![CDATA[<i>messed up.</i>]]></Page>
-			<Page>Sheesh.. First, Chert lies to me, and now this? You astronauts can be real mean sometimes!</Page>
+			<Page>Stuff that disappears sometimes? Uh.. That's a really vague question, astronaut.</Page>
+			<Page>Oh, Chert told me the sand column between the Hourglass Twins disappears sometimes! Does that count?</Page>
 		</Dialogue>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>What do you mean, Chert lied to you?</Text>
+				<Text>The sand column disappears?</Text>
 				<DialogueTarget>ModelRocketKid_SW_Intro</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<Text>No no, I was asking if you had heard that rumor!</Text>
-				<DialogueTarget>ModelRocketKid_SW_IntroB</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
 	</DialogueNode>
-
-<DialogueNode>
-		<Name>ModelRocketKid_SW_IntroB</Name>
-		<Dialogue>
-		<Page>O-oh. Well, sorry I accused you for nothing then. You're a good egg, astronaut.</Page>
-		<Page>But really, why'd Chert have to lie to me?! I thought they were the <![CDATA[<i>]]>best egg<![CDATA[</i>]]> outta you lot!</Page>
-			 </Dialogue>
-	 <DialogueOptionsList>
-			<DialogueOption>
-				<Text>What do you mean, Chert lied to you? <![CDATA[<size=20>]]>Also, ouch.<![CDATA[</size>]]></Text>
-				<DialogueTarget>ModelRocketKid_SW_Intro</DialogueTarget>
-			</DialogueOption>
-	</DialogueOptionsList>
-</DialogueNode>
 
 <DialogueNode>
 		<Name>ModelRocketKid_SW_Intro</Name>
 		<Dialogue>
-			<Page>Uugh, I'm gonna look so silly being angry about this..</Page>
-				<Page>You should know this already, being in the space program and all - but apparently, the sand flows back and forth between the Hourglass Twins from time to time. It's wicked awesome!</Page>
-				<Page>Thing is, it's been a pretty long time since the last time it's happened. Not like.. super long! But still a pretty long time.</Page>
-				<Page>Ever since Chert told me about it, I've wanted to fly my new model rocket into that big ol' sand column that appears when sand flows between the twins.</Page>
-				<Page>I asked Chert when the sand would start flowing between the twins again before they took off.. And they told me it was gonna happen real soon!</Page>
-				<Page>So I've been waiting and waiting, staring into the sun every single day trying to see if the sand's started flowing.. But it still hasn't happened!</Page>
-     		 <Page>What's taking so long? When does this weird planetary sand exchange happen?! I'm going crazy waiting for it!</Page>
-     		 <Page>Bah, I'm just ranting now.. Look, if you run into Chert, could you help me ask them why it takes so long for sand to flow between the twins, astronaut?</Page>
+			<Page>Yeah! Didn't you know? That big column of sand only appears when sand flows between the Hourglass Twins. And that hasn't happened for a while!</Page>
+			<Page>I remember Chert had just taken off into space again the last time sand flowed between the Twins.. And that's a while ago!</Page>
+				<Page>Oh, but don't worry, astronaut! Chert said that sand should start flowing between the Twins again soon!</Page>
+				<Page>Chert told me that on the morning of your launch day, as the sun rises over the village, the sand would start flowing between the Twins again at last.</Page>
+				<Page>Isn't that lucky, astronaut? It feels like a good omen for your launch!</Page>
+				<Page>I haven't the faintest clue how Chert knows when the sand exchange happens so precisely - but they've never been wrong before!</Page>
+				<Page>Since you're taking off soon, you should visit the Hourglass Twins to see the sand column before it goes away again, astronaut. I bet it's an incredible sight up close!</Page>
 			 </Dialogue>
 			  				<RevealFacts>
+     						   <FactID>MICA EX1</FactID>
      						   <FactID>MICA EX2</FactID>
     					  </RevealFacts>
-			 <DialogueOptionsList>
-			<DialogueOption>
-				<Text>Sure, I'll ask Chert if I see 'em.</Text>
-				<DialogueTarget>ModelRocketKid_SW1</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<RequiredLogCondition>TT_WARP_TOWERS_X1</RequiredLogCondition>
-				<Text>Oh, the sand starts flowing pretty soon... Just be patient, Mica.</Text>
-				<DialogueTarget>ModelRocketKid_SW2</DialogueTarget>
-			</DialogueOption>
-	</DialogueOptionsList>
 	</DialogueNode>
 
-
-
-
-<DialogueNode>
-		<Name>ModelRocketKid_SW1</Name>
-		<Dialogue>
-		<Page>Thanks, astronaut.</Page>
-		<Page>Ugh, but I bet the moment you take off, the sand's gonna finally start flowing. I'm gonna have the biggest egg on my face..</Page>
-		<Page>Dumb sand column.. It's so weird, not even Chert can make heads or tails of it!</Page>
-			<Page>Nature can be a real mystery, huh astronaut?</Page>
-			 </Dialogue>
-						  <RevealFacts>
-     						   <FactID>MICA EX1</FactID>
-    					  </RevealFacts>
-</DialogueNode>
-
-<DialogueNode>
-		<Name>ModelRocketKid_SW2</Name>
-		<Dialogue>
-		<Page>Yeah, yeah. That's what everyone tells me.</Page>
-		<Page>I wait another day, then I beg Moraine to lend me their signalscope to check, and I get disappointed every time!</Page>
-			<Page>Look, could you help me ask Chert if you see them? I just don't wanna put all my eggs in one basket.. No offense!</Page>
-			<Page>Dumb sand column.. It's so weird, not even Chert can make heads or tails of it!</Page>
-			<Page>Nature can be a real mystery, huh astronaut?</Page>
-			 </Dialogue>
-						 <RevealFacts>
-     						   <FactID>MICA EX1</FactID>
-    					  </RevealFacts>
-</DialogueNode>
 
 	
 

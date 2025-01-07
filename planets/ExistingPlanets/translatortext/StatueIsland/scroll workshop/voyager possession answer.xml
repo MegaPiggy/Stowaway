@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		OENO: Daz, the <![CDATA[<color=orange>Sanctuary's</color>]]> construction has been completed already, thanks to your voyager stones! I hope you will voyage to visit it soon to see our work.
+		OENO: Daz, the <![CDATA[<color=orange>Sanctuary's</color>]]> construction is progressing swiftly thanks to your voyager stones. I hope you will visit us soon to see our work!
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: What terrific news! Cassava, you should join me with a voyager stone - I am sure you will be impressed by our friends' work!
+		DAZ: What terrific news! Cassava is here with me right now. Would you like to voyage with me to the <![CDATA[<color=orange>Sanctuary</color>]]> to visit our friends, my love?
 		</Text>
 	</TextBlock>
 	
@@ -24,34 +24,34 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		CASSAVA: I would love to! I have no doubt that
+		CASSAVA: I would love to, love. I have no doubt that
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
-		<ParentID>3</ParentID>
+		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Whose thoughts are these? Cassava, is that you..? Are we.. Are we sharing the same voyage?!
+		DAZ: What was that? Cassava.. What.. What did we just experience?!
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
-		<LocationB />
+		<LocationA />
 		<Text>
-		CASSAVA: I-I am unsure! I only stepped into the projection pool you were using.. Quickly, disengage the projection stone from the pedestal at once!
+		OENO: What happened? Are both of you alright?
 		</Text>
 	</TextBlock>
 	
 		<TextBlock>
 		<ID>6</ID>
-		<ParentID>3</ParentID>
-		<LocationA />
+		<ParentID>5</ParentID>
+		<LocationB />
 		<Text>
-		OENO: What happened? Are you both alright?
+		CASSAVA: We are well, Oeno.. I am unsure what occurred - but when I stepped into the projection pool Daz was using to voyage, both of us felt.. coterminous!
 		</Text>
 	</TextBlock>
 
@@ -60,37 +60,14 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		CASSAVA: I.. I believe I may have accidentally connected to Daz's voyager, after stepping into the projection pool he was using.. I was unaware the voyager stones were capable of such a thing!
-		</Text>
-	</TextBlock>
-
-	
-<TextBlock>
-		<ID>8</ID>
-		<ParentID>7</ParentID>
-		<LocationB />
-		<Text>		
-			DAZ: Our thoughts and experiences were being streamed to each other through the voyager's connection to our memory masks... For the briefest of moments, we were one, Cassava!
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>9</ID>
-		<ParentID>8</ParentID>
-		<LocationB />
-		<Text>
-			CASSAVA: Daz, that was incredible.. I can only imagine what we may be able to do with this incredible discovery!
+		DAZ: What a strange quirk of this new technology.. Though it pains me to say so, it is tragically clear that there is much more work to do before my voyager stones are ready to be released!
 		</Text>
 	</TextBlock>
 
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>WorkshopTop EX1</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>WorkshopTop EX2</FactID>
+			<FactID>WorkshopTop EX6</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
 	</ShipLogConditions>

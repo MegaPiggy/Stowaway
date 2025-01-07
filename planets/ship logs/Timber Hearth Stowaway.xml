@@ -11,13 +11,14 @@
             <ID>MICA R1</ID> 
             <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
   </RumorFact>
- <ExploreFact>
-            <ID>MICA EX1</ID> 
-            <Text>Chert told Mica that sand would start flowing between the Hourglass Twins again soon. According to Mica, not even Chert knows what causes sand to flow between the twins.</Text> 
-       </ExploreFact>
+  
         <ExploreFact>
+            <ID>MICA EX1</ID> 
+            <Text>Mica says that sand hasn't been flowing between the Hourglass Twins for some time.</Text> 
+       </ExploreFact>
+          <ExploreFact>
             <ID>MICA EX2</ID> 
-            <Text>Mica wants me to ask Chert why it takes so long for sand to flow between the Hourglass Twins.</Text> 
+            <Text>According to Chert, sand would start flowing between the Hourglass Twins again on the morning of my launch day, right as the sun rises over the village.</Text>
        </ExploreFact>
 </Entry>
 
@@ -31,13 +32,18 @@
             <ID>TEPH R1</ID> 
             <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
   </RumorFact>
+<RumorFact>
+            <ID>TEPH R2</ID> 
+            <Text>Tephra wonders where the quantum shard in the museum goes when it disappears completely.</Text> 
+  </RumorFact>
+
        <ExploreFact>
             <ID>TEPH EX1</ID> 
-            <Text>Tephra and Galena noticed the quantum shard in the village museum disappearing completely sometimes.</Text> 
+            <Text>Tephra and Galena noticed the quantum shard in the museum disappearing completely sometimes.</Text> 
        </ExploreFact>
          <ExploreFact>
             <ID>TEPH EX3</ID> 
-            <Text>Tephra and Galena looked all over Timber Hearth to find where the quantum shard goes. The only part of Timber Hearth they couldn't look was the Nomai Ruins outside the village, because of the ghost matter in that area.</Text> 
+            <Text>The only part of Timber Hearth Tephra and Galena were unable to explore was the Nomai Ruins outside the village, because of the ghost matter in that area.</Text> 
        </ExploreFact>
          <ExploreFact>
             <ID>TEPH EX4</ID> 
@@ -55,14 +61,18 @@
             <ID>GAL R1</ID> 
             <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
   </RumorFact>
-       <ExploreFact>
-            <ID>GAL EX1</ID> 
-            <Text>Galena says they found a skeleton in the drain behind the village waterwheel. They asked me to use my Little Scout to check if the skeleton was still there.</Text> 
-       </ExploreFact>
+       <RumorFact>
+            <ID>GAL R2</ID> 
+            <Text>Galena says their toy rocket washed down the river into the drain behind the village waterwheel. They asked me to use my Little Scout to check if the rocket was still there.</Text> 
+       </RumorFact>
        
        <ExploreFact>
-            <ID>GAL EX3</ID> 
-            <Text>I used my Little Scout to see the skeleton in the drain.. I think I might be haunted now.</Text> 
+            <ID>GAL EX1</ID> 
+            <Text>I used my Little Scout to look inside the drain behind the village waterwheel and found Galena's toy rocket in there.</Text>
+                 <AltText>
+                 <Text>I used my Little Scout to look inside the drain behind the village waterwheel and found a toy rocket in there.</Text>
+                    <Condition>GAL R2</Condition>
+                    </AltText> 
        </ExploreFact>
 </Entry>
 
@@ -79,22 +89,23 @@
   <RumorFact>
            <SourceID>GD_GABBRO_ISLAND</SourceID>
             <ID>ARK R2</ID> 
-            <Text>Arkose says that Gabbro told them that ghost matter disappears.</Text> 
+            <Text>Arkose says that Gabbro was the one who told them that ghost matter disappears.</Text> 
   </RumorFact>
 
        <ExploreFact>
             <ID>ARK EX1</ID> 
-            <Text>Arkose says that Gabbro was the one that told them that that ghost matter disappears sometimes, when they last returned from Giant's Deep.</Text> 
+            <Text>Arkose noticed that the patch of ghost matter in the village wouldn't leave a trail sometimes when they threw rocks into it.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>ARK EX2</ID> 
-            <Text>Arkose tried to figure out why ghost matter disappears, but couldn't figure it out. They want me to ask Gabbro why it happens.</Text> 
-       </ExploreFact>
+            <Text>Gabbro was the one who told Arkose that ghost matter disappears sometimes, when they last returned from Giant's Deep.</Text> 
+       </ExploreFact> 
        <ExploreFact>
             <ID>ARK EX3</ID> 
             <IgnoreMoreToExplore/>
-            <Text>Gabbro asked me to to tell Arkose about the effect of water on ghost matter, so they can stop trying to figure out why ghost matter disappears.</Text> 
+            <Text>Gabbro asked me to to tell Arkose about how water neutralizes ghost matter, so they can stop trying to figure it out on their own.</Text> 
        </ExploreFact>
+     
 </Entry>
 
 
@@ -111,20 +122,33 @@
     <RumorFact>
            <SourceID>BH_RIEBECK</SourceID>
             <ID>MOR R2</ID> 
-            <Text>Moraine says I should tell Riebeck about the Nomai mural I found in the waterways.</Text> 
+            <Text>Moraine says that Riebeck would lose their marbles if they heard about the Nomai mural I found.</Text> 
   </RumorFact>
           <RumorFact>
             <ID>MOR R3</ID> 
-            <Text>There is an unexplored, interconnected underwater cave system inside the geysers. Moraine asked if I could jump into a geyser to explore Timber Hearth's depths, and tell them whatever I find down there.</Text> 
+            <Text>There is an unexplored, massive underwater cave system inside Timber Hearth's geysers. Moraine asked if I could jump into a geyser to explore Timber Hearth's depths, and tell them what's down there.</Text> 
+  </RumorFact>
+  <RumorFact>
+            <ID>MOR R4</ID> 
+            <Text>Moraine says they saw two comets in the sky one night, but couldn't find the second comet again.</Text> 
   </RumorFact>
 
+<ExploreFact>
+            <ID>MOR EX1</ID> 
+            <Text>According to Riebeck, our species lived in the ancient waterways inside Timber Hearth's geysers, even after learning to live on land.</Text> 
+       </ExploreFact>
          <ExploreFact>
             <ID>MOR EX2</ID> 
-            <Text>According to Moraine, the Nomai mural I found in the waterways will upend our knowledge of Hearthian history.</Text> 
+            <Text>Moraine says that Riebeck would lose their marbles if they heard about the Nomai mural I found in the waterways.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>MOR EX3</ID> 
-            <Text>Moraine says I should fly to Brittle Hollow to tell Riebeck about the Nomai mural in the waterways as soon as I can!</Text> 
+            <Text>For some reason, Moraine asked me how many comets there were in the star system. They seemed confused by my answer.</Text> 
+                 <AltText>
+                 <Text>Moraine says they saw two comets in the sky one night, but haven't been able to find this second comet again. They bashfully brushed off what they saw as probably just a smudge on their signalscope.
+                 </Text>
+                    <Condition>MOR R4</Condition>
+                    </AltText> 
        </ExploreFact>
 </Entry>
 
@@ -271,7 +295,7 @@
           <ExploreFact>
                     <ID>TH_WR EX3</ID> 
                    <Text>There is a scroll in a toppled shelf here, but it is surrounded by ghost matter.</Text> 
-                   <AltText>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead. He posited that ghost matter could be competitively manipulated by sources of gravity.
+                   <AltText><Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead. He posited that ghost matter could be competitively manipulated by sources of gravity.</Text>
                          <Condition>TH_WR R2</Condition>
                          </AltText>
                </ExploreFact>

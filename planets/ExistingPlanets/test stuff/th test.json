@@ -123,9 +123,9 @@
 				"nomaiText": [
 					{
 						"id":"TH_Sanctuary",
-						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cassava gm water new.xml",
-					"seed":10
+						"location": "b",
+						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
+					"seed":1
 					}
 					]
 				

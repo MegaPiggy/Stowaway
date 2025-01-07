@@ -112,9 +112,8 @@
 			"decalPath": "planets/assets/GD dss icon.png",
 			"platform":
 				{
-					"position":{"x":-4.2705,"y": -3.3252,"z": -11.4985},
-					"rotation":{"x":335.4288,"y": 96.0572,"z": 77.2046},
-					"disablePool": true,
+					"position":{"x":-4.2705,"y": -3.3252,"z": -11.409},
+					"rotation":{"x": 334.8285,"y": 95.7955,"z": 76.4284},
 					"disableStructure": true
 				},
 			"whiteboard":

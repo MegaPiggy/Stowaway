@@ -92,7 +92,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>WorkshopTop EX3</ID> 
-            <Text>A Nomai named Daz was cut off while writing to the Deep Storm Station from the Scroll and Stone Workshop.</Text> 
+            <Text>A Nomai named Daz was cut off while writing to the Deep Storm Station.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>WorkshopTop EX4</ID> 
@@ -101,6 +101,10 @@
              <ExploreFact>
             <ID>WorkshopTop EX5</ID> 
             <Text>A single projection stone can unlock many conversations across different projection walls.</Text> 
+        </ExploreFact>
+             <ExploreFact>
+            <ID>WorkshopTop EX6</ID> 
+            <Text>The Nomai encountered a strange quirk of the voyager stones after a Nomai stepped into a projection pool another Nomai was using to voyage. Both Nomai reported feeling "coterminous".</Text> 
         </ExploreFact>
         </Entry>
 </Entry>
@@ -115,7 +119,7 @@
  
            <RumorFact>
             <ID>Study R1</ID>
-            <Text>The Nomai discovered frozen jellyfish on this island. They decided to seek higher elevation on the island safe from waves to study them.</Text>
+            <Text>The Nomai discovered frozen jellyfish on this island. They decided to seek higher elevation on the island to study them.</Text>
         </RumorFact>
          <RumorFact>
             <ID>Study R2</ID>
@@ -145,7 +149,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>Study EX4</ID> 
-                <Text>Nomai at this site were launched into space, not by a cyclone, but by an enormous column of water.</Text>
+                <Text>Nomai on this island were launched into space by an enormous column of water.</Text>
         </ExploreFact>
 </Entry>
       
@@ -235,7 +239,11 @@
 
              <ExploreFact>
             <ID>CB_EX5</ID> 
-            <Text>A Nomai named Cassava decided to run more launches using an alternate power source. He asked Nomai seeking him to use the Construction Yard's projection wall.</Text> 
+            <Text>A Nomai named Cassava decided to run more launches using an alternate power source. He asked Nomai seeking him to use the Construction Yard's projection wall.</Text>
+                <AltText>
+                        <Text>The Nomai ensured the Deep Storm Station's interior was perfectly sealed.</Text>
+                        <Condition>CONV R3.5</Condition>
+                 </AltText>
         </ExploreFact>
         
 </Entry>
@@ -402,14 +410,13 @@
             <RumorName>Irradiated Station</RumorName>
                  <IgnoreMoreToExplore/>
             <ID>DSS Probe</ID> 
-            <Text>My scout was warped somewhere into a space flooded with ghost matter. I could see purple electricity outside the viewport.</Text>
+            <Text>My scout was warped into some sort of Nomai station flooded with ghost matter.</Text>
     </RumorFact>
     <RumorFact>
             <ID>DSS R2</ID>
                  <IgnoreMoreToExplore/>
-             <RumorName>Deep Storm Station</RumorName>
-             <RumorNamePriority>1</RumorNamePriority>
-            <Text>I was able to enter the Deep Storm Station.</Text> 
+             <RumorName>Irradiated Station</RumorName>
+            <Text>I was warped into some sort of Nomai station flooded with ghost matter.</Text> 
     </RumorFact>
     <RumorFact>
              <ID>DSS R3</ID> 
@@ -421,31 +428,38 @@
         
      <RumorFact>
                   <ID>CONV R1</ID> 
+                <RumorName>Deep Storm Station</RumorName>
                  <IgnoreMoreToExplore/>
-                     <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
+             <RumorNamePriority>1</RumorNamePriority>
                  <Text>The Deep Storm Station used energy from Giant's Deep's electric core to test the mechanisms of the Ash Twin Project.</Text> 
     </RumorFact>
     <RumorFact>
-                 <ID>CONV R2</ID> 
+            <ID>CONV R2</ID> 
+            <RumorName>Deep Storm Station</RumorName>
                  <IgnoreMoreToExplore/>
-               <SourceID>LOVERSCOVE</SourceID>
+             <RumorNamePriority>1</RumorNamePriority>
             <Text>A Nomai named Daz proposed to his lover during a negative time interval, allowing him to see 3 seconds into the future of his proposal.</Text> 
     </RumorFact>
          <RumorFact>
-                 <ID>CONV R3</ID> 
+                 <ID>CONV R3</ID>
+                 <RumorName>Deep Storm Station</RumorName>
                  <IgnoreMoreToExplore/>
-               <SourceID>GD_CONSTRUCTION_YARD</SourceID>
+             <RumorNamePriority>1</RumorNamePriority>
             <Text>The Nomai working aboard the Deep Storm Station wrote to the Construction Yard, asking for help in charging a return warp that would allow them to return to the surface.</Text> 
     </RumorFact>
      <RumorFact>
-                 <ID>CONV R3.5</ID> 
+                 <ID>CONV R3.5</ID>
+                 <RumorName>Deep Storm Station</RumorName>
                  <IgnoreMoreToExplore/>
+             <RumorNamePriority>1</RumorNamePriority>
                <SourceID>GD_CONSTRUCTION_YARD</SourceID>
             <Text><Text>The Nomai ensured the Deep Storm Station's interior was perfectly sealed.</Text> </Text> 
     </RumorFact>
          <RumorFact>
-                 <ID>CONV R4</ID> 
+                 <ID>CONV R4</ID>
+                 <RumorName>Deep Storm Station</RumorName>
                  <IgnoreMoreToExplore/>
+             <RumorNamePriority>1</RumorNamePriority>
                <SourceID>SCROLL_WORKSHOP</SourceID>
             <Text>A Nomai named Daz was cut off while writing to the Deep Storm Station from the Scroll and Stone Workshop.</Text> 
     </RumorFact>

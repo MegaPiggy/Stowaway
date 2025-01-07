@@ -15,11 +15,6 @@
             <ID>GD Tower R2</ID>
              <Text>Two Nomai debated about some sort of safety test while waiting outside this tower to travel to something called the Deep Storm Station.</Text> 
         </RumorFact>
-          <RumorFact>
-            <ID>GD Tower R3</ID>
-            <SourceID>TT_WARP_TOWERS</SourceID>
-             <Text>The Nomai investigated some sort of issue at a tower on Ash Twin with rotating doors.</Text> 
-        </RumorFact>
        
        <ExploreFact>
             <ID>GD Tower EX1</ID>
@@ -47,11 +42,6 @@
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>A tower on Ash Twin that resembles column formations.</Text> 
         </RumorFact>
-          <RumorFact>
-            <ID>BH Tower R2</ID>
-            <SourceID>TT_WARP_TOWERS</SourceID>
-             <Text>The Nomai investigated some sort of issue at a tower on Ash Twin with rotating doors.</Text> 
-        </RumorFact>
 
          <ExploreFact>
             <ID>BH Tower EX1</ID>
@@ -78,11 +68,6 @@
             <ID>TH Tower R1</ID>
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>A tower on Ash Twin in the shape of a mountain.</Text> 
-        </RumorFact>
-          <RumorFact>
-            <ID>TH Tower R2</ID>
-            <SourceID>TT_WARP_TOWERS</SourceID>
-             <Text>The Nomai investigated some sort of issue at a tower on Ash Twin with rotating doors.</Text> 
         </RumorFact>
 
          <ExploreFact>
@@ -119,11 +104,6 @@
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>A tower on Ash Twin with pointed edges.</Text> 
         </RumorFact> 
-        <RumorFact>
-            <ID>SS Tower R2</ID>
-            <SourceID>TT_WARP_TOWERS</SourceID>
-             <Text>The Nomai investigated some sort of issue at a tower on Ash Twin with rotating doors.</Text> 
-        </RumorFact>
 
          <ExploreFact>
             <ID>SS Tower EX1</ID>
@@ -162,11 +142,6 @@
             <ID>HGT Tower R1</ID>
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>Two towers on Ash Twin joined together by an arch.</Text> 
-        </RumorFact>
-        <RumorFact>
-            <ID>HGT Tower R2</ID>
-            <SourceID>TT_WARP_TOWERS</SourceID>
-             <Text>The Nomai investigated some sort of issue at a tower on Ash Twin with rotating doors.</Text> 
         </RumorFact>
 
          <ExploreFact>

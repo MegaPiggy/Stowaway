@@ -60,7 +60,7 @@
 			"isRelativeToParent": true,
 			"radius":0.3,
 			"revealOn": "snapshot",
-			"reveals": ["GAL EX3"],
+			"reveals": ["GAL EX1"],
 			"maxDistance": 3
 		},
 		{
@@ -199,19 +199,8 @@
 				{
 					"id": "GD_StatueIslandScrollWorkshop",
 					"location": "a",
-					"seed": 3,
-					"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
-					"arcInfo": [
-						{},
-						{},
-						{},
-						{"position": {"x":-0.3198,"y": 2.3755},"zRotation": 313.8314,"mirror": false},
-						{"position": {"x":1.0425,"y": 2.2456},"zRotation": 276.3438,"mirror": false},
-						{"position": {"x":0.0125,"y": 2.1913},"zRotation": 263.2943,"mirror": false},
-						{"position": {"x": 0.7413,"y": 1.6118},"zRotation": 259.661,"mirror": false},
-						{"position": {"x":1.3596,"y": 0.7185},"zRotation": 185.136,"mirror": false},
-						{"position": {"x":1.1312,"y": -0.0784},"zRotation":  251.3098,"mirror": true}
-					]
+					"seed": 1,
+					"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml"
 				}
 				
 				]}
@@ -336,15 +325,7 @@
 				"stretch": {"x":0.3255,"y": 1,"z": 0.1855},
 				"isRelativeToParent": true
 			},
-			{
-				"rename":"arkose remote 1",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
-				"position": {"x":0,"y": 0,"z": 0},
-				"rotation":{"x": 0, "y": 0,"z": 0},
-				"deactivationCondition": "ark1",
-				"blinkWhenActiveChanged": false,
-				"isRelativeToParent": true
-			},
+			
 			
 
 			
@@ -368,6 +349,16 @@
 				"path":"assets/nomai ruins/prefabs/table.prefab",
 				"position":{"x": -239.7156,"y": -34.4967 ,"z": -60.2316},
 				"rotation":{"x": 14.1597,"y": 164.1766,"z": 261.3581},
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"aquifer toy",
+				"path":"ModelRocket_Body/Geo_ModelRocket/",
+				"position":{"x": -49.2152,"y": -29.6427,"z": 175.4916},
+				"rotation":{"x": 357.5106,"y": 55.4858,"z": 136.4344},
+				"scale": 0.6,
 				"isRelativeToParent": true
 			},
 			{
@@ -1055,7 +1046,6 @@
 					"radius":4
 				},
 				"xmlFile": "planets/ExistingPlanets/dialogue/arkose remote scream.xml",
-				"parentPath": "Sector_TH/arkose remote 1",
 				"isRelativeToParent": true
 			},
 			
@@ -1087,8 +1077,72 @@
 
 			"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Moraine/ConversationZone",
 			"xmlFile": "planets/ExistingPlanets/dialogue/Moraine new.xml"
+		},
+		{
+			"rename":"Moraine remote comet 1 leftpath",
+			"position": {"x": 12.7916, "y": 3.4398, "z": 235.7638},
+			"radius": 0,
+			"remoteTrigger": {
+				"position": {"x": 16.7861, "y": 6.0634 , "z": 234.7673},
+				"prereqCondition": "morc1",
+				"radius":2
+			},
+			"blockAfterPersistentCondition": "morc2",
+			"xmlFile": "planets/ExistingPlanets/dialogue/moraine remote comet.xml",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"Moraine remote comet 2 ledgeleft",
+			"position": {"x": 12.7916, "y": 3.4398, "z": 235.7638},
+			"radius": 0,
+			"remoteTrigger": {
+				"position": {"x": 12.0116, "y": 9.5125, "z": 234.7673},
+				"prereqCondition": "morc1",
+				"radius":4
+			},
+			"blockAfterPersistentCondition": "morc2",
+			"xmlFile": "planets/ExistingPlanets/dialogue/moraine remote comet.xml",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"Moraine remote comet 3 ledgeright",
+			"position": {"x": 12.7916, "y": 3.4398, "z": 235.7638},
+			"radius": 0,
+			"remoteTrigger": {
+				"position": {"x": 11.7807, "y": -2.9893 , "z": 235.9674},
+				"prereqCondition": "morc1",
+				"radius":4
+			},
+			"blockAfterPersistentCondition": "morc2",
+			"xmlFile": "planets/ExistingPlanets/dialogue/moraine remote comet.xml",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"Moraine remote comet 4 rightpath",
+			"position": {"x": 12.7916, "y": 3.4398, "z": 235.7638},
+			"radius": 0,
+			"remoteTrigger": {
+				"position": {"x": 14.6079, "y": -0.6258, "z": 234.7673},
+				"prereqCondition": "morc1",
+				"radius":2
+			},
+			"blockAfterPersistentCondition": "morc2",
+			"xmlFile": "planets/ExistingPlanets/dialogue/moraine remote comet.xml",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"Moraine remote comet 5 top",
+			"position": {"x": 12.7916, "y": 3.4398, "z": 235.7638},
+			"radius": 0,
+			"remoteTrigger": {
+				"position": {"x": 14.0552, "y": 3.6307, "z": 241.1294},
+				"prereqCondition": "morc1",
+				"radius":4
+			},
+			"blockAfterPersistentCondition": "morc2",
+			"xmlFile": "planets/ExistingPlanets/dialogue/moraine remote comet.xml",
+			"isRelativeToParent": true
 		}
-		
 	
 
 
