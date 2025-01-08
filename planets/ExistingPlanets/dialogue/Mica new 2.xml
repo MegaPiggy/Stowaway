@@ -22,7 +22,7 @@
 <DialogueNode>
 		<Name>ModelRocketKid_Sand2</Name>
 		<Dialogue>
-			<Page>Wha? Are you still half-awake from your nap, astronaut? Those were dream discoveries!</Page>
+			<Page>Wha? Are you still half-awake from your nap, astronaut? You musta had some crazy dreams!</Page>
 			<Page>Whatever. Let's hear your ideas for what causes the twins' weird shifting sands, astronaut!</Page>
 				 <DialogueOptionsList>
 					<DialogueOption>

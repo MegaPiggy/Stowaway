@@ -59,7 +59,7 @@
 			<Page>And I don't mean when it jumps behind you and scares you.. <![CDATA[<Pause=1>]]> I mean <![CDATA[<i>when it disappears completely</i>]]> from the museum!</Page>
 			<Page>Galena and I both looked all over Timber Hearth to find where the purple rock goes when it disappears.. But we've never found the purple rock's <![CDATA[<color=orange>super secret hiding spot!</color>]]></Page>
 			<Page>I wonder where it's going when it disappears..</Page>
-			<Page>I'm gonna find where it's hiding one of these days, and become the best hide-and-seeker on Timber Hearth!</Page>
+			<Page>If you find out where the purple rock goes, promise you'll come back and tell us, astronaut!</Page>
 		</Dialogue>
 						 <RevealFacts>
      						   <FactID>TEPH R2</FactID>
@@ -125,11 +125,12 @@
 			<Dialogue>
 					<Page>We wanted to look there too - but Mayor Rutile told us not to ever go near there, because there's lots of dangerous ghost matter around there that we can't see.</Page>
 					<Page>So.. Could you look around the <![CDATA[<color=orange>Nomai Ruins</color>]]> for us, astronaut? The purple rock might be going to a cave there that we don't know about!</Page>
-					<Page>Oh, I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins,</color>]]> framed in the museum, astronaut. That should help if you have trouble finding it!</Page>
+					<Page>Oh, I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins</color>]]> framed in the museum, astronaut. That should help if you have trouble finding it!</Page>
 					<Page>Good luck out there, astronaut!</Page>
-					<Page>Come back and tell us if you find where the purple rock goes, alright?</Page>
+					<Page>Come back and tell us if you find anything there, alright?</Page>
 			</Dialogue>
 						 <RevealFacts>
+     						   <FactID>TEPH EX1</FactID>
      						   <FactID>TEPH EX3</FactID>
      						   <FactID>TEPH EX4</FactID>
     					  </RevealFacts>
@@ -141,9 +142,10 @@
 					<Page>Um.. It's somewhere on Timber Hearth, outside the village!</Page>
 					<Page>Oh! I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins</color>]]> framed in the museum, astronaut. If you look at that, that should help you find it!</Page>
 					<Page>Good luck out there, astronaut!</Page>
-					<Page>Come back and tell us if you find where the purple rock goes, alright?</Page>
+					<Page>Come back and tell us if you find anything there, alright?</Page>
 		</Dialogue>
 						 <RevealFacts>
+     						   <FactID>TEPH EX1</FactID>
      						   <FactID>TEPH EX3</FactID>
      						   <FactID>TEPH EX4</FactID>
     					  </RevealFacts>

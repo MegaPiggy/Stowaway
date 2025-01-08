@@ -60,8 +60,8 @@
 			<Page>You know how there’s a green glowy trail when you throw something into a patch of ghost matter?</Page>
 			<Page>When I throw rocks into this patch of ghost matter, sometimes, it doesn’t leave a trail at all.</Page>
 			<Page>I dunno what causes it! It doesn’t happen every time, even when I throw harder, or use different kinds of rocks.</Page>
-			<Page>I asked Gabbro about it last time they came back from Giant's Deep, and they said ghost matter just goes away sometimes!</Page>
-			<Page>They didn't seem to know why, though..</Page>
+			<Page>I asked Gabbro about it last time they came back from Giant's Deep, and yeah, they said ghost matter just goes away sometimes!</Page>
+			<Page>They didn't seem to know much more than that, though.</Page>
 			<Page>It’s dangerous to get too close to the ghost matter, so I thought I'd just keep throwing rocks to see if I could figure it out on my own.</Page>
 		</Dialogue>
 							 <RevealFacts>
@@ -148,7 +148,7 @@
 			<Page>But.. There's not much water around here.</Page>
 			<Page>The geyser isn't spraying enough, and it hasn't rained at all lately.. I don't think that's what causing the ghost matter here to disappear..</Page>
 			<Page>But um, that's still really cool, astronaut!</Page>
-			<Page>I'm gonna ask Slate to build me a suit of water later, so I can do snow angels in the ghost matter later!</Page>
+			<Page>I'm gonna ask Slate to build me a suit of water so I can do snow angels in the ghost matter later!</Page>
 			</Dialogue>
 	</DialogueNode>
 

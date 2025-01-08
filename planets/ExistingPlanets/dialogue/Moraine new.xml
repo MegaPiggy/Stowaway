@@ -124,11 +124,11 @@
 		<Dialogue>
 			<Page>Yeah, you know, the waterways that our ancestors swam around in and lived in!</Page>
 			<Page>You know our species used to be aquatic a long time ago, right?</Page>
-			<Page>According to Riebeck, our ancestors had to learn to live on land because if they didn't, they'd have died instantly whenever the geysers launched them out of the water.</Page>
+			<Page>According to Riebeck, our ancestors had to learn to live on land because if they didn't, they'd have died instantly whenever the geysers launched them out of the waterways.</Page>
 			<Page>But even after learning to live on land, our ancestors still mainly lived in these waterways inside the geysers.</Page>
 			<Page>Turns out, there's a massive underwater cave system inside the geysers that our ancestors swam around in!</Page>
 			<Page>That part's a recent discovery, though.. Nobody's even properly explored them yet, since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
-				<Page>Oh, I'd love to jump down a geyser to explore those ancient waterways myself, but since we lost the ability to breathe underwater a long time ago, I'd probably just drown..</Page>
+				<Page>Oh, I'd love to jump down a geyser to explore those ancient waterways myself - but since we lost the ability to breathe underwater a long time ago, I'd probably just drown..</Page>
 				<Page>I'd hate to get your spacesuit wet, but.. Would <![CDATA[<i>you</i>]]> be interested in jumping into a geyser to explore Timber Hearth's spooky depths, astronaut?</Page>
 		</Dialogue>
 							<RevealFacts>
@@ -169,8 +169,7 @@
 					<Page>Aw, when did Hearthians stop being able to breathe underwater completely then? If we were still able to breathe underwater nowadays, I'd be able to swim around the waterways all day!</Page>
 					<Page>But wow.. Isn't this discovery gonna totally upend our knowledge of Hearthian history, astronaut?</Page>
 					<Page>If Riebeck heard about this discovery, they'd probably lose their marbles revising the Hearthian history books!</Page>
-					<Page>Oooh, I bet Riebeck's gonna kick themself for turning down the chance to be the first to explore those waterways..</Page>
-					<Page>I can't imagine the look on Riebeck's face when they hear about this!</Page>
+					<Page>Oooh, I bet Riebeck's gonna kick themself for turning down the chance to be the first to explore those waterways.. I can't imagine the look on their face when they hear about this!</Page>
 		</Dialogue>
 							<RevealFacts>
      						  	 <FactID>MOR EX1</FactID>	 

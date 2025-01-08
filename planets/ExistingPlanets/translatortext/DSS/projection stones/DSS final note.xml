@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: I have gathered as much of the deadly matter spread around the star system as I am safely able to.
+		CASSAVA: I have gathered as much of the deadly matter from across the star system as I am safely able to.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: When the order is given, all deadly matter I have gathered will be warped into this space.
+		CASSAVA: When the order is given, the collected deadly matter will be warped into this space.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -46,7 +46,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: My dearest hope is that these species will continue to grow and learn from the universe in our stead. 
+		CASSAVA: It is my dearest hope that these species will continue to grow and learn from the universe in our stead.
 		</Text>
 	</TextBlock>
 
