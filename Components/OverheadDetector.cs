@@ -217,5 +217,7 @@ namespace Stowaway.Components
 		}
 
 		public void DefaultDirectMoonClamps() => SetMoonClamps(0.945f, 1f);
+
+		public void DefaultDirectSunClamps() => SetSunClamps(0.945f, 1f);
 	}
 }
