@@ -237,6 +237,8 @@ public class Stowaway : ModBehaviour
 				solarPanelComponent.SetSolarTideStormShelter(stormShelterComponent);
 			}
 		}
+
+		initGhostMatter(brittleHollow, "workshop gm wisps replacement");
 	}
 
 	private void initAshTwin_Late()
@@ -252,6 +254,8 @@ public class Stowaway : ModBehaviour
 			door.gameObject.GetAddComponent<OverheadDetector>();
 			door.gameObject.GetAddComponent<NomaiDoorTugger>().SetCanOpenAndClose(true);
 		}
+
+		initGhostMatter(ashTwin, "SS tower GM wisps door");
 	}
 
 	private void initTimberHearth_Late()
@@ -262,6 +266,11 @@ public class Stowaway : ModBehaviour
 			gateway.gameObject.GetAddComponent<OverheadDetector>();
 			gateway.gameObject.GetAddComponent<NomaiGatewayTugger>();
 		}
+
+		initGhostMatter(timberHearth, "AuroraWisps village patch");
+		initGhostMatter(timberHearth, "Forest GM wisps 1");
+		initGhostMatter(timberHearth, "Forest GM wisps 2");
+		initGhostMatter(timberHearth, "Stowaway GM wisps");
 	}
 
 	private void initEmberTwin_Late()
@@ -495,8 +504,16 @@ public class Stowaway : ModBehaviour
 		}
 		else
 		{
-			WriteError($"No island controller found on {islandObject.name}");
+			WriteWarning($"No island controller found on {islandObject.name}");
 		}
+	}
+
+	private void initGhostMatter(AstroObject astroObject, string path)
+	{
+		var gmObject = astroObject.GetRootSector().transform.Find(path).gameObject;
+
+		var overhead = gmObject.GetAddComponent<OverheadDetector>();
+		var gmFloat = gmObject.GetAddComponent<GhostMatterFloatController>();
 	}
 
 	private static readonly string BundleLocation = "planets/bundle";
