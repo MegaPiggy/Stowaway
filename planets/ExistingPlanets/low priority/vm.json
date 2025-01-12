@@ -3,27 +3,9 @@
 
 	"name":"Hollow's Lantern",
 
-	"Orbit": {
-		"showOrbitLine": true,
-		"primaryBody": "Brittle Hollow",
-		"semiMajorAxis" : 1000,
-		"siderealPeriod": 5,
-		"trueAnomaly": 145,
-		"alignmentAxis": {"x":0,"y":-1,"z":0},
-		"isMoon": true
-	},
+	
 	"Volumes": {
-		"revealVolumes": [
-			{
-				"position": {"x":29.0081,"y": 82.4222,"z": 7.6874},
-				"isRelativeToParent": true,
-				"parentPath": "MoltenCore_VM",
-				"radius": 11.2,
-				"revealOn": "observe",
-				"maxDistance": 25,
-				"reveals": ["LV R3"]
-			}
-		]
+		
 	},
 	"Props" :
 	{
@@ -32,40 +14,134 @@
 		{
 			"rename":"lava floating raft",
 			"parentPath": "MoltenCore_VM",
-			"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
-			"position":{"x":29.1363,"y": 81.9031,"z": 7.1496},
-			"rotation":{"x":357.9273,"y": 317.627,"z": 341.2101},
+			"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/lava bell.prefab",
+			"position":{"x": 26.0489 ,"y": 82.8794,"z": 12.9441},
+			"rotation":{"x": 357.9273,"y": 287.1698 ,"z": 341.2101},
 			"scale":1,
-			"isRelativeToParent": true
-		},{
-			"rename":"lava floating raft 2",
-			"parentPath": "MoltenCore_VM",
-			"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
-			"position":{"x": 21.5727,"y": 84.1612,"z": 13.2878},
-			"rotation":{"x": 320.3351,"y": 304.3657,"z": 295.5533},
-			"scale":2,
 			"isRelativeToParent": true
 		},
 		{
-			"rename":"frictionless orb",
-			"parentPath": "MoltenCore_VM",
+			"rename":"decoy recorder",
+			"parentPath": "MoltenCore_VM/lava floating raft/",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_Recorder/Props_NOM_Recorder/",
+				"removeChildren": ["Props_NOM_Recorder_Col"],
+				"position": {"x":-4.916 ,"y": -1.749,"z": -5.2513},
+				"rotation": {"x": 23.9129,"y": 239.6359,"z": 7.305},
+			"isRelativeToParent": true
+		},
+		
+		{
+			"rename":"inspection bridge",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge/Structure_NOM_BHSettleBridge",
+				"position": {"x": 26.4192,"y": 98.9363,"z": 3.97151},
+				"rotation": {"x": 350,"y": 308,"z": 345},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"empty switch",
 			"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/spherecollider.prefab",
-				"position": {"x":29.0081,"y": 82.7222,"z": 7.5874},
-				"rotation": {"x":15.47,"y": 17.6313,"z": 349.0074},
-			"scale":1.2,
+				"path":"assets/models/empty switch.prefab",
+				"position": {"x":16.3281,"y": 100.5184,"z": 5.8438},
+				"rotation": {"x": 349.6746,"y": 241.8574 ,"z": 359.6269},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"bell rails",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Geometry_HangingCity/OtherComponentsGroup/Architecture_HangingCity/BlackHoleForgeBase_railings/BlackHoleForge_rails/",
+				"position": {"x":39.5389,"y": 109.35,"z": 10.4234},
+				"rotation": {"x": 341.8297,"y": 239.4388,"z": 185.8238},
+				"stretch": {"x":0.1,"y":0.1,"z":0.2},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"bell rails collider",
+			"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/rail collider.prefab",
+				"position": {"x":35.968,"y": 100.0738,"z": 9.447},
+				"rotation": {"x": 341.8787,"y": 239.9225,"z": 185.7747},
+				"stretch": {"x":0.1,"y":0.1,"z":0.2},
+			"isRelativeToParent": true
+		},
+
+
+		{
+			"rename":"VM ore treepot",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/treepot.prefab",
+			"position":{"x": 14.9047,"y": 100.696,"z": 5.8164},
+			"rotation":{"x": 355.0062,"y": 199.8409,"z": 359.3005},
+			"isRelativeToParent": true
+		},{
+			"rename":"vm box ore 1",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
+			"position":{"x":0.054,"y": 0.7174,"z": 0.205},
+			"rotation":{"x":305.944,"y": 101.9598,"z": 268.0872},
+			"stretch":{"x":0.3, "y":0.3,"z":0.4},
+			"parentPath": "Sector_VM/VM ore treepot/",
+			"isRelativeToParent": true
+		},{
+			"rename":"vm box ore 2",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
+			"position":{"x":-0.0548,"y": 0.5412,"z": -0.2299},
+			"rotation":{"x":346.5613,"y": 65.3746,"z": 78.97},
+			"stretch":{"x":0.3, "y":0.4,"z":0.2},
+			"parentPath": "Sector_VM/VM ore treepot/",
+			"isRelativeToParent": true
+		},{
+			"rename":"vm box ore 3",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
+			"position":{"x":-0.1997,"y": 0.5427,"z": 0.1151},
+			"rotation":{"x":321.7981,"y": 30.1357,"z": 40.5518},
+			"stretch":{"x":0.3, "y":0.3,"z":0.2},
+			"parentPath": "Sector_VM/VM ore treepot/",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"VM bell bay Box",
+			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
+			"position": {"x": 17.0136, "y": 101.1263, "z": -0.186},
+			"rotation":{"x": 2.8975 ,"y": 280.7259,"z": 0.3686},
+			"isRelativeToParent": true
+		},
+		
+		{
+			"rename":"VM bell bay torch",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+			"position": {"x": 18.5485, "y": 102.9973, "z": 0.4929},
+			"rotation": {"x": 13.7369, "y": 348.0284, "z": 6.8457},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"VM site boxcollider",
+			"assetBundle": "planets/bundle/dev",
+			"path": "assets/models/devcom/cube.prefab",
+			"position":{"x": 26.7406,"y": 89.9416,"z": 42.167},
+			"rotation":{"x": 348.1874,"y": 167.7852,"z": 18.3779},
+			"scale":4,
 			"isRelativeToParent": true
 		}
 	],
 	"translatorText": [
 		{
-			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/vm heat.xml",
-			"parentPath": "MoltenCore_VM",
+			"rename":"divingbell intro recorder",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/vm divingbell.xml",
 			"type": "recorder",
-			"position": {"x":29.0081,"y": 82.4222,"z": 7.6874},
-			"rotation": {"x":15.47,"y": 17.6313,"z": 349.0074},
+			"position": {"x": 16.9953,"y": 102.0875,"z": -0.051},
+			"rotation": {"x": 1.7592,"y": 333.1962 ,"z": 358.5736},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"hidden lava recorder",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/vm heat.xml",
+			"parentPath": "MoltenCore_VM/lava floating raft",
+			"type": "recorder",
+			"position": {"x":-4.9396,"y": -4.1362,"z": -5.1603},
+			"rotation": {"x":23.9129,"y": 239.6359,"z": 7.305},
 			"isRelativeToParent": true
 		},
 		{

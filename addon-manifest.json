@@ -1,6 +1,7 @@
 {
 	"$schema" : "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
-    "popupMessage": "We recommend completing the basegame before exploring the story of the Stowaway.\n\nTo start the mod:\nTalk to Slate about ghost matter, after dying to ghost matter at least once!",
+
+    "popupMessage": "We recommend completing the basegame before exploring the story of the Stowaway.\n\nTo start the mod:\nSlate has some helpful advice for those who keep dying to ghost matter.",
     "achievements": [
         {
             "ID": "STOWAWAY_QUANTUM_SMUGGLING",
@@ -23,6 +24,7 @@
             "conditionIDs": [ "GolemConnection" ]
         }
     ],
+    
     "credits": [
         "atk#Designer\n#Writer\n#Level Designer\n#2D Illustrator",
         "MegaPiggy#Main Programmer\n#MVP",

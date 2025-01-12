@@ -39,7 +39,7 @@
 
        <ExploreFact>
             <ID>TEPH EX1</ID> 
-            <Text>Tephra and Galena noticed the quantum shard in the museum disappearing completely sometimes.</Text> 
+            <Text>Tephra and Galena noticed the quantum shard in the museum disappearing completely sometimes. They wondered where it went when it disappeared completely.</Text> 
        </ExploreFact>
          <ExploreFact>
             <ID>TEPH EX3</ID> 
@@ -94,11 +94,11 @@
 
        <ExploreFact>
             <ID>ARK EX1</ID> 
-            <Text>Arkose noticed that the patch of ghost matter in the village wouldn't leave a trail sometimes when they threw rocks into it.</Text> 
+            <Text>Arkose noticed that the patch of ghost matter in the village wouldn't leave a glowing trail sometimes while throwing rocks at it.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>ARK EX2</ID> 
-            <Text>Gabbro was the one who told Arkose that ghost matter disappears sometimes, when they last returned from Giant's Deep.</Text> 
+            <Text>Gabbro was the one who told Arkose that ghost matter disappears sometimes when they last returned from Giant's Deep.</Text> 
        </ExploreFact> 
        <ExploreFact>
             <ID>ARK EX3</ID> 

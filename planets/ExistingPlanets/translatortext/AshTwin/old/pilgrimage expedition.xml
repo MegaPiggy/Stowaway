@@ -7,7 +7,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		Is everyone ready? Our friends will be setting off on their shuttle soon!
+		COLEUS: Melorae, are you ready? We are finally ready to begin our first expedition to the Quantum Moon!
 		</Text>
 	</TextBlock>
 
@@ -16,7 +16,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		ILEX: Of course! I did not wish to risk being late for your pilgrimage today, my friend.
+		MELORAE: Of course I am, Coleus! I have looked forward to this fateful expedition for so long!
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		ILEX: Still, I believe I could have simply visited the new <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> to support your pilgrimage.
+		MELORAE: Where is Thatch? We agreed to meet here at the Quantum Moon Locator before we set off, did we not? He is running late!
 		</Text>
 	</TextBlock>
 
@@ -34,7 +34,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		SOLANUM: Wait.. There was a second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> built on <![CDATA[<color=lightblue>Brittle Hollow?</color>]]> This is the first time I have heard of it!
+		COLEUS: We have waited some time, but Thatch has still not arrived. Could he have lost his way? Or..
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		ILEX: There is. I was curious why you did not use this newer locator.. especially when it is able to track when the <![CDATA[<color=lightblue>Quantum Moon</color>]]> visits the sixth location, unlike this locator!
+		COLEUS: Could he have confused our instructions for another <![CDATA[<color=orange>Quantum Moon Locator?</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		SOLANUM: That sounds quite curious! I wonder why Bells never mentioned this locator to me.. Would it have made the pilgrimage too simple?
+		MELORAE: But Coleus, this is the only Quantum Moon Locator on the Hourglass Twins! Unless... Could our friends on Brittle Hollow have had the same idea to build a Quantum Moon Locator before our reunion?
 		</Text>
 	</TextBlock>
 
@@ -61,7 +61,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		SOLANUM: I shall be returning to <![CDATA[<color=lightblue>Brittle Hollow</color>]]> shortly to begin my expedition.
+		COLEUS: We cannot proceed with this expedition without Thatch. It would not be safe to conduct the expedition without  
 		</Text>
 	</TextBlock>
 	<TextBlock>

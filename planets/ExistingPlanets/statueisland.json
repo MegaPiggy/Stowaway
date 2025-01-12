@@ -747,7 +747,7 @@
 				"rename":"Pioneer Shelter torch",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position":{"x":-18.4849,"y": -3.7358,"z": -90.0794},
+				"position":{"x":-20.7213,"y": -4.4849,"z": -95.5866},
 				"rotation":{"x":3.432,"y":  297.5252,"z": 3.1503},
 				"isRelativeToParent": true
 			},

@@ -64,12 +64,12 @@
 			<Dialogue>
 				<Page>Oh, how I wish I knew the answer to that question too, young hatchling.</Page>
 				<Page>For sand to flow from one planet to the other.. then back to the other planet.. There is simply no rational explanation for it.</Page>
-				<Page>The fact that the process takes place with such consistency only makes it even more puzzling to me. I cannot think of any natural phenomenon that occurs in this way, and with such precision!</Page>
-				<Page>But still.. Until we find any evidence to the contrary, we can only conclude that it is some natural phenomenon we do not fully comprehend yet.</Page>
-				<Page>If you plan on exploring the Twins in search of an answer to this mystery, I do have another detail about the sand column, and some accompanying advice to share with you!</Page>
-				<Page>For whatever reason, the sand only drains from one Twin to the other, along the Hourglass Twins' equator.</Page>
-				<Page>No matter how long I've stayed here, that great column of sand has never once wandered across this camp.</Page>
-				<Page>To that end, I would suggest starting your exploration at the poles of the Hourglass Twins. That should keep you safe from being pulled into space by the sand column, or crushed by falling sand!</Page>
+				<Page>The fact that the process takes place with such consistency only makes it even more puzzling. I cannot think of any natural phenomenon that occurs in this way, and with such precision!</Page>
+				<Page>But until we find any evidence to the contrary, we can only conclude that it is some strange natural phenomenon we do not yet fully comprehend.</Page>
+				<Page>And speaking of strange things...</Page>
+				<Page>Have you seen the great towers of solar panels atop Ash Twin's north and south poles? The Nomai must have built them long ago. They seem to be producing a tremendous amount of solar energy, though we do not know for what purpose.</Page>
+				<Page>It may be a fanciful idea - but could the Nomai have used energy from these solar panels, to power some sort of device that funnels sand to the other Twin?</Page>
+				<Page>Fanciful or not, I believe it may be fruitful for us to explore these solar panels on Ash Twin's poles. Once the sand has drained off a little more, you should be sure to pay a visit to Ash Twin's poles!</Page>
 			</Dialogue>
 						<RevealFacts>
      						   <FactID>R_SLR R4</FactID>
@@ -128,31 +128,9 @@
 				<Page>It sounds peculiar.. but it makes complete sense now that you've spelled it out!</Page>
 				<Page>Surely, the gravitational centre of the solar system combining its pull with another planet would cause some interesting tidal effects. And you said the Nomai called this phenomenon the "sunless day"?</Page>
 				<Page>Excellent work, hatchling. Solving a mystery that has puzzled me for ages on your first expedition is truly something else!</Page>
-				<Page>After we gather more conclusive data on this phenomenon, we should mark your findings with a new exhibit in the village museum, then celebrate with some sap wine!</Page>
+				<Page>After we gather more conclusive data on this phenomenon, we should mark your findings with a new exhibit in the village museum, before we celebrate with some sap wine!</Page>
 				</Dialogue>
 </DialogueNode>
-
-<DialogueNode>
-		<Name>Chert SW4</Name>
-			<Dialogue>
-				<Page>PLACEHOLDER FOR SHIPLOGS WHEN I MOVE THESE SHIPLOGS TO ANOTHER CLUE</Page>
-			</Dialogue>
-							<RevealFacts>
-     						   <FactID>GD Tower R1.5</FactID>
-    					  </RevealFacts>
-						  <RevealFacts>
-     						   <FactID>BH Tower R2</FactID>
-    					  </RevealFacts>
-						  <RevealFacts>
-     						   <FactID>TH Tower R2</FactID>
-    					  </RevealFacts>
-						  <RevealFacts>
-     						   <FactID>SS Tower R2</FactID>
-    					  </RevealFacts> 
-						  <RevealFacts>
-     						   <FactID>HGT Tower R2</FactID>
-    					  </RevealFacts>
-	</DialogueNode>
 
 
 </DialogueTree>

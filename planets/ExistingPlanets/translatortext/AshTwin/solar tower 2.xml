@@ -8,7 +8,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		MELORAE: Bur, are you well? The construction of this <![CDATA[<color=orange>solar tower</color>]]> appears to have taken a great toll on you!
+		MELORAE: Bur, are you well? The construction appears to have taken a great toll on you!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -16,7 +16,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		BUR: Yes, relatively speaking.. But, my friends...
+		BUR: As well as I can be.. But, my friends: Why did we not wait for a sunless day to begin work on the <![CDATA[<color=orange>solar tower?</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		BUR: Why did we not wait for a sunless day to begin work on the <![CDATA[<color=orange>solar tower?</color>]]>
+		BUR: That is what we did during the construction of the solar panels on <![CDATA[<color=lightblue>Ember Twin,</color>]]> was it not? A sunless day would make this heat so much more bearable!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -32,7 +32,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		BUR: That is what we did during the construction of the solar panels on <![CDATA[<color=lightblue>Ember Twin,</color>]]> was it not? A sunless day would make this heat so much more bearable!
+		YARROW: We could not, Bur.. For the north and south poles never experience sunless days.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -40,7 +40,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		YARROW: We could not, Bur.. The north and south poles never experience sunless days.
+		YARROW: Furthermore, it is due to those sunless days that we will soon need to relocate <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -48,7 +48,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		YARROW: Furthermore, it is due to those sunless days that we will soon need to relocate <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels!
+		YARROW: It will not be soon, as the completion of the <![CDATA[<color=orange>Ash Twin Project</color>]]> takes priority.. But this relocation will no doubt be necessary in the future.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -67,7 +67,7 @@
 		YARROW: While we speak, Melorae: Has a <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels been decided yet?
 		</Text>
 	</TextBlock>
-<TextBlock>
+	<TextBlock>
 		<ID>9</ID>
 		<LocationB />
 		<ParentID>8</ParentID>
@@ -75,7 +75,7 @@
 		MELORAE: It has! So far, we have settled on a grassy plateau on <![CDATA[<color=lightblue>Ember Twin's</color>]]> surface, directly above the <![CDATA[<color=orange>Sunless City.</color>]]>
 		</Text>
 	</TextBlock>
-	<TextBlock>
+<TextBlock>
 		<ID>10</ID>
 		<LocationB />
 		<ParentID>9</ParentID>
@@ -107,6 +107,7 @@
 		BUR: What?! I shall melt before even this tower is completed!
 		</Text>
 	</TextBlock>
+	
 
 	
 <ShipLogConditions>

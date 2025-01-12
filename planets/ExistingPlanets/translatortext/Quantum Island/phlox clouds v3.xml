@@ -21,20 +21,20 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-		PLUME: Has this phenomenon increased in frequency, or are we only now able to observe it consistently with the help of the specimen we transported from <![CDATA[<color=orange>Bramble Island?</color>]]> Oh, how I wish our friends were here to share their thoughts!</Text>
+		PLUME: Has this phenomenon become more frequent? Or are we simply observing it consistently now with the help of the specimen we transported from <![CDATA[<color=orange>Bramble Island?</color>]]> When our friends return, I must ponder this with them at once!</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-	PLUME: An update: It has been some time, yet the jellyfish still remain on the planet's surface.. This is truly peculiar.</Text>
+	PLUME: An update: It has been some time, yet the jellyfish still remain on the planet's surface... This is truly peculiar.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-	PLUME: We have never observed them staying on the surface for such durations before! What could possibly be causing this phenomenon?</Text>
+	PLUME: We have never observed them staying on the surface for such durations before. What could possibly be causing this change in their behavior?</Text>
 	</TextBlock>
 
 		<TextBlock>

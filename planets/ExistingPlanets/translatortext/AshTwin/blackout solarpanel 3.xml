@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		MELORAE: Once the relocation is complete, we will no longer need to worry about <![CDATA[<color=lightblue>Ash Twin's</color>]]> shadow regularly depriving us of energy!
+		MELORAE: Once the relocation is complete, we will no longer need to worry about <![CDATA[<color=lightblue>Ash Twin's</color>]]> shadow regularly depriving us of energy.
 		</Text>
 	</TextBlock>
 
@@ -33,7 +33,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		RAMIE: And with any luck, the <![CDATA[<color=orange>High Energy Lab</color>]]> will be free from accusations of rerouting the <![CDATA[<color=orange>Sunless City's</color>]]> energy without warning!
+		RAMIE: Will the <![CDATA[<color=orange>High Energy Lab</color>]]> will be free from any new accusations of rerouting the <![CDATA[<color=orange>Sunless City's</color>]]> energy without warning, in that case?
 		</Text>
 	</TextBlock>
 
