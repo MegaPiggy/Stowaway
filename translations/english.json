@@ -11,5 +11,23 @@
 		"TH_Sanctuary": "Timber Hearth",
 		"TH_Mines2": "Timber Hearth",
 		"Inspired": "The Inspired"
+	},
+	"AchievementTranslations": {
+		"STOWAWAY_QUANTUM_SMUGGLING": {
+			"Name": "Quantum Smuggling",
+			"Description": "Drop an item on a quantum object and pick it up at a different state"
+		},
+		"STOWAWAY_SOLAR_PANEL_BONKED": {
+			"Name": "Bonk",
+			"Description": "Bump into a solar panel with your ship disabling any storm shelters nearby"
+		},
+		"STOWAWAY_TORNADO_CAMPFIRE_WAKE_UP": {
+			"Name": "..Snerk. Whuh?",
+			"Description": "Wake up from a tornado while sleeping at a campfire"
+		},
+		"STOWAWAY_GOLEM_CONNECTION": {
+			"Name": "Golem",
+			"Description": "Use an advanced projection stone to create a voyager"
+		}
 	}
 }
