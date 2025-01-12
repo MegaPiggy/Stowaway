@@ -21,8 +21,8 @@ namespace Stowaway.Components
 		{
 			_rigidbody = this.GetAttachedOWRigidbody();
 			_overheadDetector = this.GetRequiredComponent<OverheadDetector>();
-			_overheadDetector.DefaultDirectMoonClamps();
-			_overheadDetector.DefaultDirectSunClamps();
+			_overheadDetector.SetMoonClamps(0.9f, 0.99f);
+			_overheadDetector.SetSunClamps(0.9f, 0.99f);
 			_original = _rigidbody.transform.InverseTransformPoint(transform.position);
 			_originalPosY = _original.magnitude;
 			_up = _original / _original.magnitude;
@@ -38,19 +38,24 @@ namespace Stowaway.Components
 		{
 			var isMoonOverhead = _overheadDetector.IsMoonOverhead();
 			var isSunOverhead = _overheadDetector.IsSunOverhead();
+			var riseFactor = 0f;
 
 			if (isMoonOverhead || isSunOverhead) // stretches
 			{
-				var bothFactor = Mathf.Clamp01(_overheadDetector.GetMoonOverheadPercentage() + _overheadDetector.GetSunOverheadPercentage());
-				transform.localScale = new Vector3(transform.localScale.x, _originalScaleY + (bothFactor * 2), transform.localScale.z);
+				var moonFactor = _overheadDetector.GetMoonOverheadPercentage();
+				var sunFactor = _overheadDetector.GetSunOverheadPercentage();
+				var bothFactor = Mathf.Clamp01(moonFactor + sunFactor);
+				transform.localScale = new Vector3(transform.localScale.x, _originalScaleY + bothFactor, transform.localScale.z);
+				riseFactor = (bothFactor / 2);
 			}
 
 			if (isMoonOverhead) // moves
 			{
-				// gradually rises during alignment, then falls back to starting position.
-				var moonFactor = _overheadDetector.GetMoonOverheadPercentage();
-				transform.position = _rigidbody.transform.TransformPoint(_up * (_originalPosY + (moonFactor * 5)));
+				riseFactor *= 10;
 			}
+
+			// gradually rises during alignment, then falls back to starting position.
+			transform.position = _rigidbody.transform.TransformPoint(_up * (_originalPosY + riseFactor));
 		}
 	}
 }
