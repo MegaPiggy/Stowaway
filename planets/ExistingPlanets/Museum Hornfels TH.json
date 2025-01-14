@@ -98,9 +98,68 @@
 				"isRelativeToParent": true
 			}
 		],
-		"quantumGroups": [
+		"socketQuantumGroups": [
+			{	"details": [
+				{
+					"rename":"Museum shard root",
+					"isRelativeToParent": true
+				},
 			{
-				"id":"Museum Shard",
+				"rename":"Museum shard NEW",
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
+				"removeChildren": ["VisibilityTracker", "Rock_TH_Observatory_QRock/Collider_TH_Observatory_QRock"],
+				"removeComponents": true,
+				"scale":1.7,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Museum shard root"
+			},
+			{
+				"rename":"visibilitytracker 2",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
+				"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Museum shard base",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Nomai_ANIM_Cairns/Cairn1_Bottom",
+				"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
+				"position":{"x": -0.0557,"y": -0.4886,"z": -0.3576},
+				"rotation":{"x": 347.2702,"y": 218.5882,"z": 357.354},
+				"stretch": {"x":  0.7, "y": 0.8,"z": 0.8},
+				"isRelativeToParent": true
+			},
+			
+			{
+				"rename":"Museum shard new collider Top",
+				"assetBundle": "planets/bundle/dev",
+					"path": "assets/models/devcom/cube.prefab",
+					"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
+				"position": {"x": -0.0641, "y": 0.4107, "z": 0.0061},
+				"rotation": {"x": 1.6257, "y": 301.7532, "z": 0.4284},
+				"isRelativeToParent": true,
+				"stretch": {"x":0.4,"y":0.7,"z":0.5}
+			},
+			{
+				"rename":"Museum shard new collider Longmid",
+				"assetBundle": "planets/bundle/dev",
+					"path": "assets/models/devcom/cube.prefab",
+					"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
+				"position": {"x": -0.0151, "y": -0.1893, "z": 0.0279},
+				"rotation": {"x": 359.5255, "y": 245.0298, "z": 357.7007},
+				"isRelativeToParent": true,
+				"stretch": {"x":0.5,"y":0.8,"z":0.3}
+			},
+			{
+				"rename":"Museum shard new collider BASE",
+				"assetBundle": "planets/bundle/dev",
+					"path": "assets/models/devcom/cube.prefab",
+					"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
+				"position": {"x": -0.0567, "y": -0.5421 , "z": -0.3031},
+				"rotation": {"x": 359.4102, "y": 15.4367, "z": 358.1976},
+				"isRelativeToParent": true,
+				"stretch": {"x":0.7,"y":0.2,"z":0.7}
+			}
+			],
 				"sockets": [
 					{
 						"position":{"x": -79.7751,"y": -10.9381,"z": 211.6283},
@@ -278,7 +337,7 @@
 			},
 			{
 				"rename": "TH warp receiver tutorial recorder",
-				"position": {"x": -240.5692,"y": -34.3826,"z": -61.3245},
+				"position": {"x": -240.5292,"y": -34.399,"z": -61.3045},
 				"rotation": {"x": 317.5052,"y": 174.0598,"z": 258.6037},
 				"type": "recorder",
 				"isRelativeToParent": true,
@@ -345,10 +404,9 @@
 			},
 			{
 				"rename":"warp table",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/table.prefab",
-				"position":{"x": -239.7156,"y": -34.4967 ,"z": -60.2316},
-				"rotation":{"x": 14.1597,"y": 164.1766,"z": 261.3581},
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
+				"position":{"x": -239.5936,"y": -34.4093,"z": -60.9421},
+				"rotation":{"x": 283.4963,"y": 204.1538,"z": 231.372},
 				"isRelativeToParent": true
 			},
 
@@ -962,72 +1020,13 @@
 				"rotation":{"x": 279.5258,"y": 142.7041,"z": 350.1608},
 				"stretch": {"x":1.7,"y": 1.5,"z": 1.7},
 				"isRelativeToParent": true
-			},
+			}
 
 
 
 
 
-			{
-				"rename":"Museum shard root",
-				"isRelativeToParent": true,
-				"quantumGroupID": "Museum Shard"
-			},
-		{
-			"rename":"Museum shard NEW",
-			"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/QuantumShard_Root",
-			"removeChildren": ["VisibilityTracker", "Rock_TH_Observatory_QRock/Collider_TH_Observatory_QRock"],
-			"removeComponents": true,
-			"scale":1.7,
-			"isRelativeToParent": true,
-			"parentPath": "Sector_TH/Museum shard root"
-		},
-		{
-			"rename":"visibilitytracker 2",
-			"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
-			"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
-			"isRelativeToParent": true
-		},
-		{
-			"rename":"Museum shard base",
-			"path":"QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Interactables_EYEState/ConversationPivot/NomaiConversation/Prefab_QM_SolanumRocks/Nomai_ANIM_Cairns/Cairn1_Bottom",
-			"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
-			"position":{"x": -0.0557,"y": -0.4886,"z": -0.3576},
-			"rotation":{"x": 347.2702,"y": 218.5882,"z": 357.354},
-			"stretch": {"x":  0.7, "y": 0.8,"z": 0.8},
-			"isRelativeToParent": true
-		},
 		
-		{
-			"rename":"Museum shard new collider Top",
-			"assetBundle": "planets/bundle/dev",
-				"path": "assets/models/devcom/cube.prefab",
-				"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
-			"position": {"x": -0.0641, "y": 0.4107, "z": 0.0061},
-			"rotation": {"x": 1.6257, "y": 301.7532, "z": 0.4284},
-			"isRelativeToParent": true,
-			"stretch": {"x":0.4,"y":0.7,"z":0.5}
-		},
-		{
-			"rename":"Museum shard new collider Longmid",
-			"assetBundle": "planets/bundle/dev",
-				"path": "assets/models/devcom/cube.prefab",
-				"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
-			"position": {"x": -0.0151, "y": -0.1893, "z": 0.0279},
-			"rotation": {"x": 359.5255, "y": 245.0298, "z": 357.7007},
-			"isRelativeToParent": true,
-			"stretch": {"x":0.5,"y":0.8,"z":0.3}
-		},
-		{
-			"rename":"Museum shard new collider BASE",
-			"assetBundle": "planets/bundle/dev",
-				"path": "assets/models/devcom/cube.prefab",
-				"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
-			"position": {"x": -0.0567, "y": -0.5421 , "z": -0.3031},
-			"rotation": {"x": 359.4102, "y": 15.4367, "z": 358.1976},
-			"isRelativeToParent": true,
-			"stretch": {"x":0.7,"y":0.2,"z":0.7}
-		}
 
 		
 		],

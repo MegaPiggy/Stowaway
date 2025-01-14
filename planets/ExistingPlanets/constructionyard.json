@@ -601,7 +601,7 @@
 				"position": {"x": 1.7628, "y": 34.9356, "z": -32.3269},
 				"rotation": {"x": 355.9176, "y": 270.8998, "z": 180.3277},
 				"frequency": "DeepStormStation",
-				"alignmentWindow": 45
+				"alignmentWindow": 360
 			}
 		]
 	}

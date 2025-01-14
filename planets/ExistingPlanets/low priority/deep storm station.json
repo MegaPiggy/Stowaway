@@ -34,6 +34,14 @@
 			"isRelativeToParent": true
 		},
 		{
+			"rename":"DSS voyager ghost",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/models/Solanum alloyed prefab.prefab",
+			"position": {"x": -8.7384, "y": -5.891, "z": -0.0902},
+			"rotation":{"x": 306.3947,"y": 180.0001 ,"z": 269.9999},
+			"isRelativeToParent": true
+		},
+		{
 			"rename":"DSS memory masks full",
 			"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/MaskPlatform",
 			"position": {"x": 9.3, "y": 0, "z": 0},
@@ -41,6 +49,44 @@
 			"scale": 0.5,
 			"isRelativeToParent": true
 		},
+		{
+			"rename":"Nomai Statue 2 Box",
+			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
+			"position": {"x": 8.7602, "y": 8, "z": 0.1},
+			"rotation":{"x": 0,"y": 180,"z": 270},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"Nomai Statue",
+			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Prefab_NOM_StatueHead",
+			"parentPath": "Sector_GD/Nomai Statue 2 Box",
+			"position": {"x": 0.0423, "y": 1.0001, "z": -0.0025},
+			"rotation":{"x": 359.2769,"y": 359.3925,"z": 0.0204},
+			"isRelativeToParent": true
+		},
+		{
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
+			"position": {"x": -2.0333,"y": -0.0289,"z": -1.802},
+			"rotation": {"x": 0.0561,"y": 90.3979,"z": 0.1063},
+			"parentPath": "Sector_GD/Nomai Statue 2 Box",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"DSS air volume",
+			"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1/OxygenVolume",
+			"position": {"x":-2.1438,"y":-0.4531,"z":-3.5499},
+			"scale":4.6,
+			"isRelativeToParent": true
+		},
+
+
+
+
+
+
+
+
 			{
 				"rename":"DSS fill light",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom4/Lighting_PuzzleRoom4/OtherComponentsGroup/PuzzleRoom_4/Alcove/FillLight_NOM_Alcove/",
@@ -77,8 +123,173 @@
 				"rotation":{"x":270,"y": 90, "z": 0},
 				"stretch": {"x":1,"y":1.4,"z":1},
 				"isRelativeToParent": true
+			},
+			{
+				"rename":"Projection underfloor",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Interactables_QuantumTower/Prefab_NOM_DockingTractorBeam/Props_NOM_LargeTractorBeam_Geo/",
+				"position":{"x":-9.9,"y": 0,"z": 0},
+				"rotation":{"x": 90,"y": 90, "z": 0},
+				"scale":0.65,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"window whitehole fix",
+				"assetBundle": "planets/bundle/dss shell",
+				"path":"assets/nomai ruins/innershell.prefab",
+				"position":{"x":0,"y": 0,"z": 0},
+				"scale":0.03,
+				"isRelativeToParent": true
 			}
 	],
+	"remotes": [
+			{"id":"GD_DeepStormStation",
+			"decalPath": "planets/assets/GD dss icon.png",
+			"platform":
+				{
+					"position":{"x":-8.75,"y": 0,"z": -0},
+					"rotation":{"x": 90,"y": 90,"z": 0},
+					"disableStructure": true
+				},
+			"whiteboard":
+				{
+					"rename":"DSS Whiteboard Pedestal",
+					"position":{"x": 5.2487,"y": -5.1944,"z": -11.8263},
+					"rotation":{"x": 347.0541, "y": 267.6173,"z": 282.4678},
+					"isRelativeToParent": true,
+					"nomaiText":
+				[
+					{
+						"id": "TH_Sanctuary",
+						"location": "a",
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/DSS final note.xml",
+						"seed":5,
+						"arcInfo": [
+							{},
+							{"position": {"x":0.7508,"y": 0.1441},"zRotation": 174.9183,"mirror": false},
+							{},{},{},{},{},{},{},{"position": {"x":-1.8202,"y": -0.4096},"zRotation": 224.6098,"mirror": true}
+						]
+					},
+					{
+						"id": "GD_ConstructionYard",
+						"location": "a",
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml"
+					},
+					{
+						"id": "SunStation",
+						"location": "a",
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/ss dss failure.xml",
+						"seed":4
+					},
+					{
+						"id": "GD_LoversCove",
+						"location": "a",
+						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/loverscove marriage timeloop.xml",
+						"arcInfo": [
+							{},
+							{},
+							{},
+							{},
+							{
+								"mirror": true,
+								"position": {"x":2.1638,"y": 1.5215},
+								"zRotation": 349.5079
+							},
+							{"mirror": true,
+								"position": {"x":1.778,"y": 1.575},
+								"zRotation": 54.532
+							},
+							{"mirror": true,
+								"position": {"x":1.0872,"y": 2.4965},
+								"zRotation": 69.5822
+							},
+							{"mirror": true,
+								"position": {"x":0.1722,"y": 1.9935},
+								"zRotation": 112.1742
+							},
+							{"mirror": true,
+								"position": {"x":-0.115,"y": 1.8738},
+								"zRotation": 56.1776
+							},
+							{"mirror": true,
+								"position": {"x":-1.1567,"y": 1.4039},
+								"zRotation": 77.6473
+							}
+						]
+					},
+					{
+						"id": "GD_StatueIslandScrollWorkshop",
+						"location": "a",
+						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/daz last cutoff.xml",
+						"seed":2,
+						"arcInfo": [
+							{},
+							{},
+							{},
+							{},
+							{},
+							{
+								"mirror": false,
+								"position": {"x": 0.5606,"y": 1.2276},
+								"zRotation": 333.2463
+							},
+							{
+								"mirror": true,
+								"position": {"x": 0.9917 ,"y": 1.7874},
+								"zRotation": 21.4176
+							},
+							{
+								"mirror":true,
+								"position": {"x": 0.4279,"y": 2.4362},
+								"zRotation": 55.4789
+							}]
+					}
+				]
+				}
+			},{
+				"id":"GD_LoversCove",
+				"decalPath": "planets/assets/voyager loverscove icon.png",
+				"stones": [{
+					"rename":"DSS lovers stone",
+					"position": {"x": 3.4508,"y": -0.784,"z": -11.8062},
+					"rotation": {"x":314.304,"y": 102.4715,"z": 73.9934},
+					"isRelativeToParent": true
+				}]
+			},
+			{
+				"id":"GD_StatueIslandScrollWorkshop",
+				"decalPath": "planets/assets/voyager statueisle icon.png",
+				"stones": [{
+					"rename":"DSS dazshop stone",
+					"position": {"x":3.4771,"y": -0.839,"z": -11.8595},
+					"rotation": {"x":344.4984,"y": 95.8816,"z": 78.6617},
+					"isRelativeToParent": true
+				}]
+			},
+			
+			{
+				"id":"GD_ConstructionYard",
+				"decalPath": "planets/assets/voyager cyard icon.png",
+				"stones": [{
+					"rename":"DSS cyard stone",
+					"position": {"x": 3.0838,"y": -0.6294,"z": -11.8989},
+					"rotation": {"x": 355.3577,"y": 93.7117,"z": 79.0429},
+					"isRelativeToParent": true
+				}]
+			},
+			
+			{
+				"id":"TH_Sanctuary",
+				"decalPath": "planets/assets/voyager th icon.png",
+				"stones": [{
+					"rename":"DSS Cassava TH stone",
+					"position": {"x": -0.3289,"y": 1.0598,"z": -0.0565},
+					"rotation": {"x": 0,"y": 160.4708,"z": 0.0001},
+					"parentPath": "Sector_GD/Table clump",
+					"isRelativeToParent": true
+				}]
+			}
+		],
+
 
 	"warpReceivers": [{
 		"frequency": "DeepStormStation",
