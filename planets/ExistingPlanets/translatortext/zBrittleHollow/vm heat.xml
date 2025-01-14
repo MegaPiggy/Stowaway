@@ -16,7 +16,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		PYE: <![CDATA[<i>Oh, Clary!</i>]]> At long last, I am free from this dreadful <![CDATA[<color=orange>diving bell!</color>]]>  Though it was mostly insulated from the heat, the cramped interior was quite unkind on my cervical spine!
+		PYE: <![CDATA[<i>Oh, Clary!</i>]]> At long last, I am free from this dreadful <![CDATA[<color=orange>diving bell!</color>]]> Though it was mostly insulated from the heat, the cramped interior was quite unkind on my cervical spine!
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		ROOT: You have our deepest apologies, Pye.. But, with this success, we can now be certain that a protective shell crafted from this ore is capable of withstanding even the might of a supernova!
+		ROOT: You have our deepest apologies, Pye! But, with this success, we can now be certain that a protective shell crafted from this ore is capable of withstanding even the might of a supernova.
 		</Text>
 	</TextBlock>
 
@@ -34,7 +34,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		PYE: But, Root.. The <![CDATA[<color=orange>diving bell</color>]]> was only tested by the heat of this volcanic lava pool, was it not?
+		PYE: What? But, Root.. The <![CDATA[<color=orange>diving bell</color>]]> was only tested by the heat of this volcanic lava pool.
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		CLARY: Your concern is not at all surprising, Pye! But fear not: our clan's elders have travelled countless galaxies, and even more knowledge was learned from their sibling clans.
+		CLARY: Your concern is not at all surprising, Pye! But fear not: our clan's elders have travelled countless galaxies, and even more knowledge was shared by their sibling clans.
 		</Text>
 	</TextBlock>
 

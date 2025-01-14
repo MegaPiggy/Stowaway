@@ -92,18 +92,8 @@
 			"parentPath": "Sector_GD/Deep Storm Station",
 			"position":{"x": 0.0855,"y": -0.0328,"z": 0.9054},
 			"isRelativeToParent": true
-		},
-		{
-			"rename":"DSS white hole",
-			"type": "whiteHole",
-			"uniqueID": "DSS WH 2",
-			"pairedSingularity": "TH SHORTCUT 0",
-			"hasWarpEffects": false,
-			"horizonRadius": 0.1,
-			"parentPath": "Sector_GD/Deep Storm Station",
-			"position":{"x": 0.0855,"y": -0.0328,"z": 0.9054},
-			"isRelativeToParent": true
 		}
+		
 	],
 	
 
@@ -1050,7 +1040,7 @@
 
 		
 		"warpReceivers": [{
-		"frequency": "DeepStormStation",
+		"frequency": "DeepStormStation OLD",
 		"position": {"x": -4.2433, "y": 0.2414, "z": 5.8823},
 		"rotation":{"x":285.8991,"y": 139.323,"z": 219.5074},
 		"isRelativeToParent": true

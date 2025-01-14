@@ -1,0 +1,118 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name":"Deep Storm Station",
+	
+
+	
+	
+"Props": {
+	
+	"singularities": [
+		
+		{
+			"rename":"DSS white hole",
+			"type": "whiteHole",
+			"uniqueID": "DSS WH 2",
+			"pairedSingularity": "TH SHORTCUT 0",
+			"hasWarpEffects": false,
+			"horizonRadius": 0.5,
+			"position":{"x": 0,"y": 0,"z": 0},
+			"isRelativeToParent": true
+		}
+	],
+	"details": [
+	
+		{
+			"rename":"DSS body",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/models/JellyfishVessel.prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":90,"y": 0,"z": 90},
+			"scale":100,
+			"keepLoaded": true,
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"DSS memory masks full",
+			"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/MaskPlatform",
+			"position": {"x": 9.3, "y": 0, "z": 0},
+			"rotation":{"x": 0 ,"y": 0,"z": 90},
+			"scale": 0.5,
+			"isRelativeToParent": true
+		},
+			{
+				"rename":"DSS fill light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom4/Lighting_PuzzleRoom4/OtherComponentsGroup/PuzzleRoom_4/Alcove/FillLight_NOM_Alcove/",
+				"position":{"x":0,"y": 0,"z": 0},
+				"rotation":{"x":270,"y": 0, "z": 0},
+				"isRelativeToParent": true
+			},{
+				"rename":"DSS fill light 2",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_InterRoom/",
+				"position":{"x":0,"y": 0,"z": 0},
+				"rotation":{"x":270,"y": 0, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"dss domediamond",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
+				"position": {"x": 0.0674, "y": -58.1735, "z": 0.3374},
+				"rotation": {"x": 0, "y": 90, "z": 270},
+				"scale":10,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"dss diamondlight",
+				"path":"Probe_Body/Lantern/",
+				"position": {"x": 0.1254, "y": -53.7916, "z": 0.2907},
+				"rotation": {"x": 0, "y": 90, "z": 270},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"DSS hole filler",
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken/Prefab_NOM_RemoteViewer (1)/Structure_NOM_RemoteViewer/",
+				"position":{"x":8.6693,"y": -0.0495,"z": -0.0781},
+				"rotation":{"x":270,"y": 90, "z": 0},
+				"stretch": {"x":1,"y":1.4,"z":1},
+				"isRelativeToParent": true
+			}
+	],
+
+	"warpReceivers": [{
+		"frequency": "DeepStormStation",
+		"position": {"x": 9.7949, "y": -0.0186, "z": -0.1669},
+		"rotation":{"x":270,"y": 90,"z": 0},
+		"isRelativeToParent": true
+	}
+	]
+},
+	
+	
+	"MapMarker": {
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"hideInMap": true,
+		"enabled": false
+	},
+
+	"Orbit": {
+		"showOrbitLine": false,
+		"primaryBody": "Giant's Deep",
+		"semiMajorAxis" : 450,
+		"siderealPeriod": 0,
+		"trueAnomaly": 280,
+		"isTidallyLocked": true,
+		"alignmentAxis": {"x":0,"y":1,"z":0}
+	}
+
+
+
+
+
+
+
+
+}

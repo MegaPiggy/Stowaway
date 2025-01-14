@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 615548455
+CRC: 3993895458
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ce8fa322533b26ddd11e3dd123b17a0c
+    Hash: 9ea0256b687873fada472ea25feb9872
   TypeTreeHash:
     serializedVersion: 2
-    Hash: a6378597541ba1740168c4cd1faa4150
+    Hash: 9453243c96718836439defa392c4ce73
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -52,6 +52,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 1163abd376bac17c52f957f63c4164c5, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: d3e77ae3309b6f323de07b456da83fb0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
@@ -83,6 +85,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 7d0a6aeb05d852b7ba1f13e9ddeb7586, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 3cb5a34c0b2b4edb1b44fafe70d79e7b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 9893321d896ff975d056df09969d1ee0, type: 3}
 - Class: 114
@@ -117,6 +121,7 @@ Assets:
 - Assets/Models/bubbel.prefab
 - Assets/Nomai Ruins/Resources/Meshes/Inspired gravity 3.prefab
 - Assets/Models/Materials/mural side.prefab
+- Assets/Models/JellyfishVessel.prefab
 - Assets/Models/bubbel collider.prefab
 - Assets/Models/Tractor beam SW 1.prefab
 - Assets/Models/ASH TWIN BEAM south.prefab
