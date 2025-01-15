@@ -239,6 +239,7 @@ public class Stowaway : ModBehaviour
 		}
 
 		initGhostMatter(brittleHollow, "workshop gm wisps replacement");
+		initGhostMatter(brittleHollow, "Sector_QuantumFragment/QTOWER GM/QTOWER GM wisps");
 	}
 
 	private void initAshTwin_Late()
@@ -256,6 +257,7 @@ public class Stowaway : ModBehaviour
 		}
 
 		initGhostMatter(ashTwin, "SS tower GM wisps door");
+		initGhostMatter(ashTwin, "SS tower GM wisps warppad");
 	}
 
 	private void initTimberHearth_Late()
