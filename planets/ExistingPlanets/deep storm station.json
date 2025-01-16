@@ -91,7 +91,7 @@
 			"rename":"domescr table 2",
 			"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/table.prefab",
-			"position": {"x": 2.4128,"y": -30,"z": 7.6431},
+			"position": {"x": 7.4128,"y": -30,"z": 7.6431},
 			"rotation": {"x": 0,"y": 62.295,"z": 180.0001},
 			"isRelativeToParent": true
 		},{
@@ -103,28 +103,29 @@
 		},{
 			"rename":"domescr chair 2",
 			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
-			"position": {"x": 3.6621,"y": -30,"z": 6.7174},
+			"position": {"x": 8.6621,"y": -30,"z": 6.7174},
 			"rotation": {"x": 0,"y": 109.7708,"z": 180},
 			"isRelativeToParent": true
 		},{
 			"rename":"domescr nomhelmet",
 			"path":"SunStation_Body/Sector_SunStation/Sector_ControlModule/Props/OtherComponentsGroup/ARTPASS_Props_ControlINT/Props_NOM_Mask_GearNew/",
-			"position": {"x": 2.7732,"y": -31.4034,"z": 7.1837},
+			"position": {"x": 7.7732,"y": -31.4034,"z": 7.1837},
 			"rotation": {"x": 0,"y": 153.2212,"z": 180},
 			"isRelativeToParent": true
 		},
 		{
 			"rename":"inspired control hologram",
 			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken/HologramProjector/HologramDisplayPoint/Hologram_LatestProbeTrajectory/ScaleRoot/GiantsDeepRoot",
-			"position": {"x": -9.0413,"y": -36.4818,"z": 6.362},
+			"position": {"x": -3.4777,"y": -31.8019,"z": -21.0017},
 			"rotation": {"x": 0,"y": 270,"z": 180},
+			"scale":0.5,
 			"isRelativeToParent": true
 		},
 		{
 			"rename":"test projectionliquid just to see visual",
 			"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
-			"position": {"x": -9.0413,"y": -36.4818,"z": 6.362},
-			"rotation": {"x": 0,"y": 270,"z": 180},
+			"position": {"x": -9.5,"y": 0,"z": 0},
+			"rotation": {"x": 0,"y": 0,"z": 270},
 			"scale":16,
 			"isRelativeToParent": true
 		},
@@ -206,7 +207,7 @@
 			"rename": "DSS C1",
 			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C1.xml",
 			"type":"scroll",
-			"position": {"x": 3.1232,"y": -31.1939,"z": 8.2566},
+			"position": {"x": 8.1232,"y": -31.1939,"z": 8.2566},
 			"rotation": {"x": 0.0001,"y": 331.5177,"z": 243.435},
 			"seed":4,
 			"arcInfo": [
