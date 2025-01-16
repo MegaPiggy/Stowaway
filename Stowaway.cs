@@ -112,6 +112,10 @@ public class Stowaway : ModBehaviour
 		{
 			initQuantumIsland_Late();
 		}
+		if (body == "DeepStormStation")
+		{
+			initDeepStormStation(NewHorizonsAPI.GetPlanet("Deep Storm Station"));
+		}
 		if (body.EndsWith("Island"))
 		{
 			initIsland(SearchUtilities.Find(body + "_Body"));
@@ -207,6 +211,18 @@ public class Stowaway : ModBehaviour
 		column.AddComponent<QuantumMoonWaterColumnController>();
 
 		ModHelper.Events.Unity.FireOnNextUpdate(() => column.SetActive(true));
+	}
+
+	private void initDeepStormStation(GameObject deepStormStation)
+	{
+		var sector = deepStormStation.transform.Find("Sector");
+		var rfVolume = deepStormStation.transform.Find("RFVolume");
+		var volumes = deepStormStation.transform.Find("Volumes");
+
+		var pos = Vector3.up * 130;
+		sector.localPosition = pos;
+		rfVolume.localPosition = pos;
+		volumes.localPosition = pos;
 	}
 
 	private void initInspiredComet(GameObject inspired)
