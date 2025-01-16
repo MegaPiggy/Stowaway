@@ -73,6 +73,16 @@
 					"rename": "DSS_Stone"
 				}]
 			},	
+			{"id": "GD_DeepStormStation",
+			"decalPath": "planets/assets/GD dss icon.png",
+			"stones": [
+				{
+					"position": {"x": 66.8955, "y": -5.1023 , "z": -42.5467},
+					"rotation": {"x": 8.433, "y": 57.6725, "z": 355.6197},
+					"isRelativeToParent": true,
+					"rename": "DSS_Stone normal"
+				}]
+			},
 
 
 			{"id": "GD_QuantumIsland",
@@ -86,9 +96,7 @@
 
 
 
-	"socketQuantumGroups": [
-	
-		
+	"socketQuantumGroups": [		
 		{
 			"rename": "f1 quantum gm",
 			"details":[
@@ -96,7 +104,8 @@
 					"rename":"GD TOWER f1 gm wisps",
 					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
 					"isRelativeToParent": true,
-					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes"
+					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+					"randomizeYRotation": false
 				},
 				{
 					"rename":"GD TOWER f1 GM volume",
@@ -143,7 +152,8 @@
 					"rename":"GD TOWER f2 gm wisps",
 					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
 					"isRelativeToParent": true,
-					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes"
+					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+					"randomizeYRotation": false
 				},
 				{
 					"rename":"GD TOWER f2 GM volume",
@@ -191,7 +201,8 @@
 					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
 					"isRelativeToParent": true,
 					"position": {"x":0,"y":0,"z":0},
-					"rotation": {"x":0,"y":0,"z":0}
+					"rotation": {"x":0,"y":0,"z":0},
+					"randomizeYRotation": false
 				},
 				{
 					"rename":"GD TOWER f3 gm wisps",
@@ -247,7 +258,8 @@
 					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
 					"isRelativeToParent": true,
 					"position": {"x":0,"y":0,"z":0},
-					"rotation": {"x":0,"y":0,"z":0}
+					"rotation": {"x":0,"y":0,"z":0},
+					"randomizeYRotation": false
 				},
 				{
 					"rename":"GD TOWER f4 gm wisps",

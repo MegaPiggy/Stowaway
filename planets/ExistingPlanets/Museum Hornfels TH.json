@@ -99,10 +99,11 @@
 			}
 		],
 		"socketQuantumGroups": [
-			{	"details": [
+			{"details": [
 				{
 					"rename":"Museum shard root",
-					"isRelativeToParent": true
+					"isRelativeToParent": true,
+					"randomizeYRotation": false
 				},
 			{
 				"rename":"Museum shard NEW",

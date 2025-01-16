@@ -788,7 +788,8 @@
 			
 			{
 				"rename":"Sculpting Boulders table",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Props_NOM_Table",
+				"assetBundle": "planets/bundle/prefabs",
+					"path":"assets/nomai ruins/prefabs/table.prefab",
 				"position":{"x":38.7386,"y": 0.8681,"z": 0.8322},
 				"rotation":{"x":358.0095 ,"y": 146.9746,"z": 353.4785},
 				"isRelativeToParent": true
