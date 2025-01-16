@@ -106,20 +106,6 @@
 					"isRelativeToParent": true,
 					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
 					"randomizeYRotation": false
-				},
-				{
-					"rename":"GD TOWER f1 GM volume",
-					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
-					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f1 gm wisps",
-					"isRelativeToParent": true,
-					"removeChildren": ["ProbeVisuals","ObjectTrail"]
-				},
-				{
-					"rename":"GD TOWER f1 GM visibilitytracker",
-					"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
-					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f1 gm wisps",
-					"scale":1.4,
-					"isRelativeToParent": true
 				}
 			],
 			"sockets": [
@@ -154,20 +140,6 @@
 					"isRelativeToParent": true,
 					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
 					"randomizeYRotation": false
-				},
-				{
-					"rename":"GD TOWER f2 GM volume",
-					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
-					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f2 gm wisps",
-					"isRelativeToParent": true,
-					"removeChildren": ["ProbeVisuals","ObjectTrail"]
-				},
-				{
-					"rename":"GD TOWER f2 GM visibilitytracker",
-					"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
-					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f2 gm wisps",
-					"scale":1.4,
-					"isRelativeToParent": true
 				}
 			],
 			"sockets": [
@@ -203,28 +175,6 @@
 					"position": {"x":0,"y":0,"z":0},
 					"rotation": {"x":0,"y":0,"z":0},
 					"randomizeYRotation": false
-				},
-				{
-					"rename":"GD TOWER f3 gm wisps",
-					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
-					"isRelativeToParent": true,
-					"position": {"x":2.0146,"y":-0.1436,"z":-0.0582},
-					"rotation": {"x":0,"y":0,"z":90},
-					"parentPath": "Sector_QuantumIsland/GD TOWER f3 gm wisps"
-				},
-				{
-					"rename":"GD TOWER f3 GM volume",
-					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
-					"parentPath": "Sector_QuantumIsland/GD TOWER f3 gm wisps",
-					"isRelativeToParent": true,
-					"removeChildren": ["ProbeVisuals","ObjectTrail"]
-				},
-				{
-					"rename":"GD TOWER f3 GM visibilitytracker",
-					"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
-					"parentPath": "Sector_QuantumIsland/GD TOWER f3 gm wisps",
-					"scale":1.4,
-					"isRelativeToParent": true
 				}
 			],
 			"sockets": [
@@ -260,28 +210,6 @@
 					"position": {"x":0,"y":0,"z":0},
 					"rotation": {"x":0,"y":0,"z":0},
 					"randomizeYRotation": false
-				},
-				{
-					"rename":"GD TOWER f4 gm wisps",
-					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
-					"isRelativeToParent": true,
-					"position": {"x":0,"y":0,"z":0},
-					"rotation": {"x":0,"y":0,"z":90},
-					"parentPath": "Sector_QuantumIsland/GD TOWER f4 gm wisps"
-				},
-				{
-					"rename":"GD TOWER f4 GM volume",
-					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
-					"parentPath": "Sector_QuantumIsland/GD TOWER f4 gm wisps",
-					"isRelativeToParent": true,
-					"removeChildren": ["ProbeVisuals","ObjectTrail"]
-				},
-				{
-					"rename":"GD TOWER f4 GM visibilitytracker",
-					"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
-					"parentPath": "Sector_QuantumIsland/GD TOWER f4 gm wisps",
-					"scale":1.4,
-					"isRelativeToParent": true
 				}
 			],
 			"sockets": [
@@ -345,8 +273,94 @@
 				"rotation":{"x": 0,"y": 0,"z": 0},
 				"isRelativeToParent": true
 			},
+			{
+				"rename":"GD TOWER f1 GM volume",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f1 gm wisps",
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals","ObjectTrail"]
+			},
+			{
+				"rename":"GD TOWER f1 GM visibilitytracker",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f1 gm wisps",
+				"scale":1.4,
+				"isRelativeToParent": true
+			},
 			
-			
+				{
+					"rename":"GD TOWER f2 GM volume",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f2 gm wisps",
+					"isRelativeToParent": true,
+					"removeChildren": ["ProbeVisuals","ObjectTrail"]
+				},
+				{
+					"rename":"GD TOWER f2 GM visibilitytracker",
+					"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
+					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f2 gm wisps",
+					"scale":1.4,
+					"isRelativeToParent": true
+				},
+				{
+					"rename":"GD TOWER f3 gm wisps",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
+					"isRelativeToParent": true,
+					"position": {"x":2.0146,"y":-0.1436,"z":-0.0582},
+					"rotation": {"x":0,"y":0,"z":90},
+					"parentPath": "Sector_QuantumIsland/GD TOWER f3 gm wisps"
+				},
+				{
+					"rename":"GD TOWER f3 GM volume",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+					"parentPath": "Sector_QuantumIsland/GD TOWER f3 gm wisps",
+					"isRelativeToParent": true,
+					"removeChildren": ["ProbeVisuals","ObjectTrail"]
+				},
+				{
+					"rename":"GD TOWER f3 GM visibilitytracker",
+					"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
+					"parentPath": "Sector_QuantumIsland/GD TOWER f3 gm wisps",
+					"scale":1.4,
+					"isRelativeToParent": true
+				},
+				{
+					"rename":"GD TOWER f4 gm wisps",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
+					"isRelativeToParent": true,
+					"position": {"x":0,"y":0,"z":0},
+					"rotation": {"x":0,"y":0,"z":90},
+					"parentPath": "Sector_QuantumIsland/GD TOWER f4 gm wisps"
+				},
+				{
+					"rename":"GD TOWER f4 GM volume",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+					"parentPath": "Sector_QuantumIsland/GD TOWER f4 gm wisps",
+					"isRelativeToParent": true,
+					"removeChildren": ["ProbeVisuals","ObjectTrail"]
+				},
+				{
+					"rename":"GD TOWER f4 GM visibilitytracker",
+					"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
+					"parentPath": "Sector_QuantumIsland/GD TOWER f4 gm wisps",
+					"scale":1.4,
+					"isRelativeToParent": true
+				},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			{
 				"rename":"GD TOWER f1arch crystals A",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
@@ -1187,8 +1201,8 @@
 	{
 		"rename":"imaging discovery scroll",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/tower excavation discovery.xml",
-		"position": {"x": 9.1607, "y": 115.8025,"z": -1.0692},
-		"rotation": {"x": 355.4768, "y": 251.8611, "z": 48.3927},
+		"position": {"x": -0.2072, "y": 1.2248,"z": 0.4005},
+		"rotation": {"x": 0.6397, "y": 0.746, "z": 63.43510},
 		"type":"scroll",
 		"seed":4,
 		"parentPath": "Sector_QuantumIsland/scroll shelf 1",
@@ -1197,8 +1211,8 @@
 	{
 		"rename":"jellyfish question setup scroll",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/phlox clouds v3.xml",
-		"position": {"x": 0.9582, "y": 1.4982,"z": 0.48},
-		"rotation": {"x": 4.2749, "y": 111.7028, "z": 295.6037},
+		"position": {"x": 19.1298, "y": 1.5089,"z": -0.7584},
+		"rotation": {"x": 2.8988, "y": 261.7177, "z": 48.3928},
 		"seed":5,
 		"type":"scroll",
 		"parentPath": "Sector_QuantumIsland/Gallery Bed 2",

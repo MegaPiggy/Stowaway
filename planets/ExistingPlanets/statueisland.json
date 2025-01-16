@@ -111,8 +111,8 @@
 			{
 				"rename": "Orcnid w Stray Legs",
 				"path": "DarkBramble_Body/Sector_DB/Geometry_DB/OtherComponentsGroup/Beast_DB_FrozenJellyfish_v3",
-				"position": {"x": -194.1157, "y": -259.9105, "z": -41.6838},
-				"rotation": {"x": 331.0691, "y": 236.2045, "z": 209.1143},
+				"position": {"x": -273.226, "y": 65.1372, "z": -250.3617},
+				"rotation": {"x": 356.2477, "y": 148.2892, "z": 283.0847},
 				"scale":0.6,
 				"isRelativeToParent": true,
 				"keepLoaded": true
