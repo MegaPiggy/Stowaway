@@ -43,13 +43,93 @@
 			"isRelativeToParent": true
 		},
 	
+		{
+			"rename":"inspired control hatch",
+			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"DSS solarsystemroot",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Sector_Observatory/Interactables_Observatory/HologramProjector/HologramDisplayPoint/Hologram_SolarSystem/SolarSystemRoot/",
+			"position": {"x": -22.5442, "y": -30.8946, "z": -0.0582},
+			"rotation":{"x": 0,"y": 90,"z": 180},
+			"parentPath": "Sector/inspired control hatch",
+			"scale":0.1,
+			"isRelativeToParent": true
+		},{
+			"rename":"DSS solarsystemroot INSPIRED",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/models/TheInspired gold.prefab",
+			"position": {"x": 0, "y": 0, "z": 0.6509},
+			"rotation":{"x": 45,"y": 0,"z": 90},
+			"parentPath": "Sector/inspired control hatch/DSS solarsystemroot/GiantsDeep/Sphere",
+			"scale":0.001,
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"tree ring",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/giant tree ring.prefab",
+			"position": {"x": -22.8442, "y": -29.1, "z": -0.2301},
+			"rotation":{"x": 0,"y": 90,"z": 180},
+			"parentPath": "Sector/inspired control hatch",
+			"stretch": {"x":1.1,"y":1.2,"z":1.1},
+			"isRelativeToParent": true
+		},{
+			"rename":"projection liquid",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Sector_Observatory/Interactables_Observatory/HologramProjector/HologramPool/",
+			"position": {"x": -22.7264, "y": -30.0309, "z": -0.0948},
+			"rotation":{"x": 0,"y": 90,"z": 180},
+			"parentPath": "Sector/inspired control hatch",
+			"stretch": {"x":4,"y":2,"z":4},
+			"isRelativeToParent": true
+		},{
+			"rename":"shuttle controls",
+				"path":"Comet_Body/Prefab_NOM_Shuttle/Sector_NomaiShuttleInterior/Interactibles_NomaiShuttleInterior/ControlPanel/Props_NOM_Shuttle_ControlPanel/OrbTrack/",
+			"position": {"x": -20.2819, "y": -30.9946, "z": 0},
+			"rotation":{"x": 45,"y": 90,"z": 180},
+			"parentPath": "Sector/inspired control hatch",
+			"scale":0.5,
+			"isRelativeToParent": true
+		},{
+			"rename":"Cassava",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_SimpleChair/Props_NOM_SkeletonSeated/Props_NOM_Skeleton_Seated_B_Wall",
+			"position": {"x": -19.5446, "y": -29.4, "z": 0.9144},
+			"rotation":{"x": 18.5055,"y": 89.139,"z": 180},
+			"parentPath": "Sector/inspired control hatch",
+			"isRelativeToParent": true
+		},{
+			"rename":"solarsystem diamond 1",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
+			"position": {"x": -20.0935, "y": -30.4, "z": 0},
+			"rotation": {"x": 0,"y": 180,"z": 180},
+			"parentPath": "Sector/inspired control hatch",
+			"isRelativeToParent": true
+		},{
+			"rename":"solarsystem diamond 2",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
+			"position": {"x": -20.8062, "y": -30.4, "z": 0},
+			"rotation": {"x": 0,"y": 0,"z": 180},
+			"parentPath": "Sector/inspired control hatch",
+			"isRelativeToParent": true
+		},
 
+
+
+		{
+			"rename":"domescr props",
+			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+			"isRelativeToParent": true
+		},
 		{
 			"rename":"domescr table 1",
 			"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/table.prefab",
 			"position": {"x": -3.8163,"y": -30,"z": 7.512},
 			"rotation": {"x": 0 ,"y": 117.5676,"z": 180},
+			"parentPath": "Sector/domescr props",
 			"isRelativeToParent": true
 		},{
 			"rename":"domescr table 2",
@@ -57,47 +137,198 @@
 				"path":"assets/nomai ruins/prefabs/table.prefab",
 			"position": {"x": 7.4128,"y": -30,"z": 7.6431},
 			"rotation": {"x": 0,"y": 62.295,"z": 180.0001},
+			"parentPath": "Sector/domescr props",
 			"isRelativeToParent": true
 		},{
 			"rename":"domescr chair 1",
 			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
 			"position": {"x": -2.9275,"y": -30,"z": 8.4185},
 			"rotation": {"x": 0,"y": 1.1236,"z": 180},
+			"parentPath": "Sector/domescr props",
 			"isRelativeToParent": true
 		},{
 			"rename":"domescr chair 2",
 			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
 			"position": {"x": 8.6621,"y": -30,"z": 6.7174},
 			"rotation": {"x": 0,"y": 109.7708,"z": 180},
+			"parentPath": "Sector/domescr props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domescr chair 3",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+			"position": {"x": 5.6548,"y": -30,"z": 8.8643},
+			"rotation": {"x": 0,"y": 314.1517,"z": 180},
+			"parentPath": "Sector/domescr props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domescr chair 4",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+			"position": {"x": 3.8881,"y": -30,"z": 6.9756},
+			"rotation": {"x": 0,"y": 14.9291,"z": 180},
+			"parentPath": "Sector/domescr props",
 			"isRelativeToParent": true
 		},{
 			"rename":"domescr nomhelmet",
 			"path":"SunStation_Body/Sector_SunStation/Sector_ControlModule/Props/OtherComponentsGroup/ARTPASS_Props_ControlINT/Props_NOM_Mask_GearNew/",
-			"position": {"x": 7.7732,"y": -31.4034,"z": 7.1837},
-			"rotation": {"x": 0,"y": 153.2212,"z": 180},
+			"position": {"x": -3.1068, "y": -31.4034,"z": 7.1837},
+			"rotation": {"x": 0,"y": 143.9273,"z": 180},
+			"parentPath": "Sector/domescr props",
 			"isRelativeToParent": true
 		},
-
-
-
-
 		{
 			"rename":"comet map tablet",
 			"assetBundle": "planets/bundle/prefabs",
 			"path":"assets/nomai ruins/prefabs/tablet.prefab",
 			"position": {"x": 0, "y": -30.6709, "z": 5.3435},
 				"rotation": {"x": 308.346, "y": 1.9476, "z": 180},
+				"parentPath": "Sector/domescr props",
 			"isRelativeToParent": true
 		},{
 			"rename":"comet map mural",
 			"assetBundle": "planets/bundle/stowaway3",
 			"path": "assets/models/comet map.prefab",
-			"parentPath": "Sector/comet map tablet",
+			"parentPath": "Sector/domescr props/comet map tablet",
 			"position":{"x": 0,"y": 0.5054,"z": 0.05},
 			"rotation": {"x": 0,"y": 0,"z":0},
 			"isRelativeToParent": true,
 			"scale":0.17
+		},{
+			"rename":"domescr planty",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
+			"position": {"x": -4.5624, "y": -30, "z": 22.2789},
+				"rotation": {"x": 0, "y": 148.8775, "z": 180},
+				"parentPath": "Sector/domescr props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domescr box",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/container.prefab",
+			"position": {"x": -1.8452, "y": -30.4483, "z": 21.2566},
+				"rotation": {"x": 0, "y": 88.9296, "z": 270},
+				"parentPath": "Sector/domescr props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domescr boxpool",
+			"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
+			"position": {"x": -1.8129, "y": -29.9891, "z": 19.2016},
+				"rotation": {"x": 0, "y": 132.2837, "z": 180},
+				"scale":3,
+				"parentPath": "Sector/domescr props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domescr boxpool comet",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path": "assets/models/interloper proxy.prefab",
+			"position": {"x": -1.7129, "y": -30.2146, "z": 18.9016},
+				"rotation": {"x": 347.4572, "y": 132.2837, "z": 180},
+				"scale":0.005,
+				"parentPath": "Sector/domescr props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domescr holoseat 1",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/holo seat.prefab",
+			"position": {"x": -3.1283, "y": -30, "z": 11.8017},
+				"rotation": {"x": 0, "y": 44.1033, "z": 180},
+				"parentPath": "Sector/domescr props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domescr holoseat 2",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/holo seat.prefab",
+			"position": {"x": 3.5462, "y": -30, "z": 11.0871},
+				"rotation": {"x": 0, "y": 318.0696, "z": 180},
+				"parentPath": "Sector/domescr props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domescr purple light",
+			"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+			"position": {"x": 0.0571, "y": -31.6727, "z": 14.727},
+				"parentPath": "Sector/domescr props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domescr diamond",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
+			"position": {"x": -1.5288, "y": -30, "z": 7.2871},
+			"rotation": {"x": 0,"y": 90,"z": 270},
+			"scale":2,
+				"parentPath": "Sector/domescr props",
+			"isRelativeToParent": true
 		},
+
+
+		{
+			"rename":"domeproj props",
+			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+			"isRelativeToParent": true
+		},{
+			"rename":"domeproj staff",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/staff.prefab",
+			"position": {"x": 1.4545,"y": -30.0566,"z": -14.4311},
+			"rotation": {"x": 63.0225 ,"y": 186.0272,"z": 208.7552},
+			"parentPath": "Sector/domeproj props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domeproj table",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/table.prefab",
+			"position": {"x": -1.8225,"y": -30,"z": -6.5727},
+			"rotation": {"x": 0,"y": 267.9222,"z": 180},
+			"parentPath": "Sector/domeproj props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domeproj planty",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
+			"position": {"x": 1.0569,"y": -30,"z": -6.8849},
+			"rotation": {"x": 0,"y": 174.5706,"z": 180},
+			"parentPath": "Sector/domeproj props",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"domeproj chair 1",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+			"position": {"x": 3.0687,"y": -30,"z": -6.7094},
+			"rotation": {"x": 0,"y": 184.9033,"z": 180},
+			"parentPath": "Sector/domeproj props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domeproj chair 2",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+			"position": {"x": 4.6627,"y": -30,"z": -6.4923},
+			"rotation": {"x": 0,"y": 163.5496,"z": 180},
+			"parentPath": "Sector/domeproj props",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"domeproj holoseat 1",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/holo seat.prefab",
+			"position": {"x": -3.4938, "y": -30, "z": -10.4511},
+				"rotation": {"x": 0, "y": 147.0218, "z": 180},
+				"parentPath": "Sector/domeproj props",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"domeproj holoseat 2",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/holo seat.prefab",
+			"position": {"x": 2.9207, "y": -30, "z": -10.6638},
+				"rotation": {"x": 0, "y": 227.6836, "z": 180},
+				"parentPath": "Sector/domeproj props",
+			"isRelativeToParent": true
+		},{
+			"rename":"domeproj holoseat fill light",
+			"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom4/Lighting_PuzzleRoom4/OtherComponentsGroup/PuzzleRoom_4/Alcove/FillLight_NOM_Alcove/",
+			"position": {"x": -0.2896, "y": -31.1063, "z": -12.9834},
+				"parentPath": "Sector/domeproj props",
+			"isRelativeToParent": true
+		},
+
+		
 		{
 			"rename":"inspired control hologram",
 			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken/HologramProjector/HologramDisplayPoint/Hologram_LatestProbeTrajectory/ScaleRoot/GiantsDeepRoot",
@@ -147,7 +378,7 @@
 			"rename":"box liquid",
 			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/HologramProjector/",
 			"parentPath": "Sector/inspired control hologram",
-			"position": {"x": -0.1568,"y": -1.662,"z": 0.0904},
+			"position": {"x": -0.1568,"y": -1.7202,"z": 0.0904},
 			"rotation": {"x": 0,"y": 291.4597,"z": 0},
 			"scale":0.1,
 			"isRelativeToParent": true
@@ -165,8 +396,7 @@
 		
 		{
 			"rename":"DSS GM",
-			"assetBundle": "planets/bundle/prefabs",
-			"path":"assets/nomai ruins/prefabs/walltorch.prefab/Point Light",
+			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
 			"isRelativeToParent": true
 		},
 		{
@@ -178,12 +408,128 @@
 			"parentPath": "Sector/DSS GM",
 			"isRelativeToParent": true
 		},
+
+
+
+		{
+			"rename":"lookup pillars",
+			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"lookup pillar 1",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/shortcolumn.prefab",
+			"position": {"x": 7,"y": -30.001,"z": -5.8495},
+			"rotation": {"x": 0,"y": 90,"z": 180},
+			"parentPath": "Sector/lookup pillars",
+			"isRelativeToParent": true
+		},		{
+			"rename":"lookup pillar 2",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/shortcolumn.prefab",
+			"position": {"x": -7,"y": -30.001,"z": -5.8495},
+			"rotation": {"x": 0,"y": 90,"z": 180},
+			"parentPath": "Sector/lookup pillars",
+			"isRelativeToParent": true
+		},		{
+			"rename":"lookup pillar 3",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/shortcolumn.prefab",
+			"position": {"x": 7,"y": -30,"z": 5.8194},
+			"rotation": {"x": 0,"y": 90,"z": 180},
+			"parentPath": "Sector/lookup pillars",
+			"isRelativeToParent": true
+		},		{
+			"rename":"lookup pillar 4",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/shortcolumn.prefab",
+			"position": {"x": -7,"y": -30,"z": 5.8194},
+			"rotation": {"x": 0,"y": 90,"z": 180},
+			"parentPath": "Sector/lookup pillars",
+			"isRelativeToParent": true
+		},
+
+		{
+			"rename":"bridge debris",
+			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"debris pillar 1",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/shortcolumn.prefab",
+			"position": {"x": 5.938,"y": -22.434,"z": 4.42},
+			"rotation": {"x": 288.9404,"y": 359.9149,"z": 0},
+			"parentPath": "Sector/bridge debris",
+			"scale":1.5,
+			"isRelativeToParent": true
+		},{
+			"rename":"debris shelf 1",
+			"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+			"position": {"x": 6.8,"y": -22.3838,"z": -3.638},
+			"rotation": {"x": 355.4334,"y": 0,"z": 90},
+			"parentPath": "Sector/bridge debris",
+			"isRelativeToParent": true
+		},{
+			"rename":"debris shelf 2",
+			"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+			"position": {"x": 6.8872,"y": -25.9679,"z": 3.7524},
+			"rotation": {"x": 357.0463,"y": 180.9864,"z": 270.1741},
+			"parentPath": "Sector/bridge debris",
+			"isRelativeToParent": true
+		},{
+			"rename":"debris planty",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
+			"position": {"x": 6.8,"y": -24.881,"z": -2.4276},
+			"rotation": {"x": 339.3746,"y": -0.0001,"z": 90},
+			"parentPath": "Sector/bridge debris",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"debris pillar 2",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/shortcolumn.prefab",
+			"position": {"x": -5.9891,"y":-25.401,"z": -3.9982},
+			"rotation": {"x": 298.1901,"y": 178.724,"z": 0.6453},
+			"parentPath": "Sector/bridge debris",
+			"scale":1.5,
+			"isRelativeToParent": true
+		},{
+			"rename":"debris w shelf 1",
+			"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+			"position": {"x": -6.8,"y": -23.5327,"z": 2.846},
+			"rotation": {"x": 71.6042,"y": 0,"z": 270},
+			"parentPath": "Sector/bridge debris",
+			"isRelativeToParent": true
+		},{
+			"rename":"debris w shelf 2",
+			"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+			"position": {"x": -6.8,"y": -24.3542,"z": 1.9749},
+			"rotation": {"x": 66.2524,"y": 46.8027,"z": 295.3432},
+			"parentPath": "Sector/bridge debris",
+			"isRelativeToParent": true
+		},{
+			"rename":"debris purple light",
+			"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+			"position": {"x": 4.4736, "y": -25.7896, "z": 3.5355},
+			"parentPath": "Sector/bridge debris",
+			"isRelativeToParent": true
+		},
+
+		{
+			"rename":"dss gravityflipper 1",
+			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+			"isRelativeToParent": true
+		},
 		{
 			"rename":"dss gravityflipper 1",
 			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken/Prefab_NOM_GravityFlipper/",
 			"position":{"x": -8.6889,"y": -9.0336,"z": -6.4871},
 			"rotation": {"x": 90,"y": 180,"z": 90},
 			"removeChildren": ["GravityFluidVolume"],
+			"parentPath": "Sector/dss gravityflipper 1",
 			"isRelativeToParent": true
 		},{
 			"rename":"dss gravityflipper 1 volume",
@@ -191,6 +537,7 @@
 			"position":{"x":9.4563,"y": -9.0662,"z": -6.5004},
 			"rotation": {"x": 90,"y": 270,"z": 0},
 			"removeChildren": ["BeamVolume/BeamParticles","BeamVolume/BeamRings"],
+			"parentPath": "Sector/dss gravityflipper 1",
 			"isRelativeToParent": true
 		},
 		{
@@ -199,6 +546,13 @@
 			"position":{"x": 8.6785,"y": -8.985,"z": -6.5131},
 			"rotation": {"x": 0,"y": 0,"z": 90},
 			"scale":0.6,
+			"parentPath": "Sector/dss gravityflipper 1",
+			"isRelativeToParent": true
+		},
+		
+		{
+			"rename":"dss gravityflipper 2",
+			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
 			"isRelativeToParent": true
 		},
 		{
@@ -207,6 +561,7 @@
 			"position":{"x": 8.7384,"y": 9.5336,"z": 6.1217},
 			"rotation": {"x": 0,"y": 0,"z": 90},
 			"removeChildren": ["GravityFluidVolume"],
+			"parentPath": "Sector/dss gravityflipper 2",
 			"isRelativeToParent": true
 		},{
 			"rename":"dss gravityflipper 2 volume",
@@ -214,6 +569,7 @@
 			"position":{"x":-9.3324,"y": 9.6482,"z": 6.0483},
 			"rotation": {"x": 0,"y": 0,"z": 270},
 			"removeChildren": ["BeamVolume/BeamParticles","BeamVolume/BeamRings"],
+			"parentPath": "Sector/dss gravityflipper 2",
 			"isRelativeToParent": true
 		},
 		{
@@ -222,6 +578,7 @@
 			"position":{"x": -8.6797,"y": 9.5287,"z": 6.1182},
 			"rotation": {"x": 0,"y": 0,"z": 270},
 			"scale":0.6,
+			"parentPath": "Sector/dss gravityflipper 2",
 			"isRelativeToParent": true
 		},
 
@@ -274,13 +631,6 @@
 			"position": {"x": -2.0333,"y": -0.0289,"z": -1.802},
 			"rotation": {"x": 0.0561,"y": 90.3979,"z": 0.1063},
 			"parentPath": "Sector/Nomai Statue 2 Box",
-			"isRelativeToParent": true
-		},
-		{
-			"rename":"station plant air volume",
-			"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1/OxygenVolume",
-			"parentPath": "Sector/Nomai Statue 2 Box/nomtree1",
-			"scale":4.6,
 			"isRelativeToParent": true
 		},
 			{
@@ -357,8 +707,8 @@
 			"rename": "DSS C1",
 			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C1.xml",
 			"type":"scroll",
-			"position": {"x": 8.1232,"y": -31.1939,"z": 8.2566},
-			"rotation": {"x": 0.0001,"y": 331.5177,"z": 243.435},
+			"position": {"x": 4.2849,"y": -26.1123,"z": 3.1928},
+			"rotation": {"x": 347.6561,"y": 177.4629,"z": 243.7879},
 			"seed":4,
 			"arcInfo": [
 				{"type": "adult"},
@@ -369,6 +719,24 @@
 				{"type": "teenager"},
 				{"type": "teenager"}
 			],
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "DSS C2",
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C2.xml",
+			"type":"scroll",
+			"position": {"x": -0.0003,"y": -30.4639,"z": 14.7754},
+			"rotation": {"x": 2.5382,"y": 358.5455,"z": 237.3125},
+			"seed":3,
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "DSS C3",
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C3.xml",
+			"type":"scroll",
+			"position": {"x": -4.072,"y": -31.1939,"z": 8.5145},
+			"rotation": {"x": 0,"y": 355.1019,"z": 243.435},
+			"seed":3,
 			"isRelativeToParent": true
 		}
 	],
@@ -476,13 +844,24 @@
 					}
 				]
 				}
-			},{
+			},
+			{
+				"id":"GD_ConstructionYard",
+				"decalPath": "planets/assets/voyager cyard icon.png",
+				"stones": [{
+					"rename":"DSS cyard stone",
+					"position": {"x": -2.7964,"y": -30.6494,"z": 8.4795},
+					"rotation": {"x": 0,"y": 197.6586,"z": 180},
+					"isRelativeToParent": true
+				}]
+			},
+			{
 				"id":"GD_LoversCove",
 				"decalPath": "planets/assets/voyager loverscove icon.png",
 				"stones": [{
 					"rename":"DSS lovers stone",
-					"position": {"x": 3.4508,"y": -0.784,"z": -11.8062},
-					"rotation": {"x":314.304,"y": 102.4715,"z": 73.9934},
+					"position": {"x": -0.8895,"y": -30.3111,"z": -12.9325},
+					"rotation": {"x": 0,"y": 15.5148,"z": 180},
 					"isRelativeToParent": true
 				}]
 			},
@@ -491,19 +870,8 @@
 				"decalPath": "planets/assets/voyager statueisle icon.png",
 				"stones": [{
 					"rename":"DSS dazshop stone",
-					"position": {"x":3.4771,"y": -0.839,"z": -11.8595},
-					"rotation": {"x":344.4984,"y": 95.8816,"z": 78.6617},
-					"isRelativeToParent": true
-				}]
-			},
-			
-			{
-				"id":"GD_ConstructionYard",
-				"decalPath": "planets/assets/voyager cyard icon.png",
-				"stones": [{
-					"rename":"DSS cyard stone",
-					"position": {"x": 3.0838,"y": -0.6294,"z": -11.8989},
-					"rotation": {"x": 355.3577,"y": 93.7117,"z": 79.0429},
+					"position": {"x": 2.9635,"y": -30.6495,"z": -6.7417},
+					"rotation": {"x": 0,"y": 21.2317,"z": 180},
 					"isRelativeToParent": true
 				}]
 			},
@@ -513,8 +881,8 @@
 				"decalPath": "planets/assets/voyager th icon.png",
 				"stones": [{
 					"rename":"DSS Cassava TH stone",
-					"position": {"x": -0.3289,"y": 1.0598,"z": -0.0565},
-					"rotation": {"x": 0,"y": 160.4708,"z": 0.0001},
+					"position": {"x": -8.2996,"y": -0.2913,"z": -0.0889},
+					"rotation": {"x": 0,"y": 0,"z": 270},
 					"parentPath": "Sector_GD/Table clump",
 					"isRelativeToParent": true
 				}]
@@ -531,7 +899,7 @@
 	]
 },
 	
-	
+	"Base": {"showMinimap": false},
 	"MapMarker": {
 		"enabled": false
 	},

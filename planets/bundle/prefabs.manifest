@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1263703241
+CRC: 852643607
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: af2b127cf29e7e23da538b4df65d04c0
+    Hash: 6cd10a59092ead6f1d4c856429889811
   TypeTreeHash:
     serializedVersion: 2
     Hash: 256c3df89ab0f222e430766dbdd2a2a7
@@ -116,6 +116,7 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_L.prefab
 - Assets/Nomai Ruins/Prefabs/Fancy Door BOTH.prefab
 - Assets/Nomai Ruins/Prefabs/Giant Tree Ring.prefab
+- Assets/Nomai Ruins/Prefabs/ShortPillar.prefab
 - Assets/Nomai Ruins/Prefabs/CeilingLamp.prefab
 - Assets/Nomai Ruins/Prefabs/Holo Seat.prefab
 - Assets/Nomai Ruins/Prefabs/Props_NOM_Transponder.prefab
@@ -129,6 +130,7 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Fancy Door L.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Corner_BOTH.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_D.prefab
+- Assets/Nomai Ruins/Prefabs/ShortColumn.prefab
 - Assets/Nomai Ruins/Prefabs/Vase.prefab
 - Assets/Nomai Ruins/Prefabs/RailingPost.prefab
 - Assets/Nomai Ruins/Prefabs/Table.prefab
