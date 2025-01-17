@@ -4,17 +4,46 @@
 	"name":"Deep Storm Station",
 	
 
-	
+"Volumes": {
+		"revealVolumes": [
+			{
+				"reveals": ["DSS Probe"],
+				"radius":10,
+				"revealOn": "enter",
+				"revealFor": "probe",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"maxDistance": 10
+			},
+			{
+				"reveals": ["DSS R2"],
+				"radius":10,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true
+			}
+		]
+	},	
 	
 "Props": {
 	
 	"singularities": [
 		
 		{
-			"rename":"DSS white hole",
+			"rename":"DSS white hole shortcut",
 			"type": "whiteHole",
 			"uniqueID": "DSS WH 2",
 			"pairedSingularity": "TH SHORTCUT 0",
+			"hasWarpEffects": false,
+			"horizonRadius": 0.5,
+			"position":{"x": 0,"y": 0,"z": 0},
+			"isRelativeToParent": true
+		},{
+			"rename":"DSS white hole",
+			"type": "whiteHole",
+			"uniqueID": "DSS WH",
+			"pairedSingularity": "INSP BH",
 			"hasWarpEffects": false,
 			"horizonRadius": 0.5,
 			"position":{"x": 0,"y": 0,"z": 0},
@@ -42,7 +71,29 @@
 			"rotation":{"x": 49.0473,"y": 180 ,"z": 270},
 			"isRelativeToParent": true
 		},
-	
+
+		{
+			"rename":"b1 scroll stuff",
+			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"b1 scroll shelf",
+			"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+			"position": {"x": 8.1949,"y": 11.3526,"z": -0.7429},
+			"rotation": {"x": 300,"y": 180,"z": 180},
+			"parentPath": "Sector/b1 scroll stuff",
+			"isRelativeToParent": true
+		},{
+			"rename":"b1 scroll shelf light",
+			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken/Prefab_NOM_GravityFlipper/Light_NOM_GravityCrystal",
+			"position": {"x": 7.8744,"y": 10.0318,"z": -1.3238},
+			"parentPath": "Sector/b1 scroll stuff",
+			"isRelativeToParent": true
+		},
+
+
+
 		{
 			"rename":"inspired control hatch",
 			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
@@ -285,6 +336,14 @@
 			"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
 			"position": {"x": 1.0569,"y": -30,"z": -6.8849},
 			"rotation": {"x": 0,"y": 174.5706,"z": 180},
+			"parentPath": "Sector/domeproj props",
+			"isRelativeToParent": true
+		},{
+			"rename":"block the skeleton planty",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
+			"position": {"x": -11.6326,"y": -30,"z": 0},
+			"rotation": {"x": 0,"y": 270,"z": 180},
 			"parentPath": "Sector/domeproj props",
 			"isRelativeToParent": true
 		},
@@ -701,6 +760,25 @@
 			"position":{"x": 0,"y": -30,"z": 23},
 			"rotation":{"x": 0, "y": 180,"z": 180},
 			"type":"whiteboard",
+			"isRelativeToParent": true
+		},{
+			"rename": "DSS weapon Scroll",
+			"type":"scroll",
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/weapon explanation.xml",
+			"seed":2,
+			"position": {"x": 8.4185,"y": 10.5093,"z": -1.0436},
+			"rotation": {"x": 59.8892,"y": 11.9853, "z": 77.8949},
+			"parentPath": "Sector/b1 scroll stuff",
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "DSS Jellyfish answer Scroll",
+			"type":"scroll",
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/jellyfish answer survivor.xml",
+			"seed":3,
+			"position": {"x": 8.1003,"y": 10.0979,"z": -1.6489},
+			"rotation": {"x": 60.5948,"y": 2.7517, "z": 89.7407},
+			"parentPath": "Sector/b1 scroll stuff",
 			"isRelativeToParent": true
 		},
 		{
