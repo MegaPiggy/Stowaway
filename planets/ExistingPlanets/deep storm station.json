@@ -515,6 +515,13 @@
 			"rename":"bridge debris",
 			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
 			"isRelativeToParent": true
+		},{
+			"rename":"debris return chair",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+			"position": {"x": -6.8,"y": -25.0206,"z": -0.5336},
+			"rotation": {"x": 60.833,"y": 0,"z": 270},
+			"parentPath": "Sector/bridge debris",
+			"isRelativeToParent": true
 		},
 		{
 			"rename":"debris pillar 1",
@@ -715,13 +722,6 @@
 				"position": {"x": 0, "y": -58.2136, "z": 0},
 				"rotation": {"x": 0, "y": 0, "z": 90},
 				"scale":10,
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"dss diamondlight",
-				"path":"Probe_Body/Lantern/LightSourceVol",
-				"position": {"x": 0.1254, "y": -53.7916, "z": 0.2907},
-				"rotation": {"x": 0, "y": 90, "z": 270},
 				"isRelativeToParent": true
 			},
 			{
