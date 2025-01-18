@@ -227,6 +227,25 @@ public class Stowaway : ModBehaviour
 
 	private void initInspiredComet(GameObject inspired)
 	{
+		var sector = inspired.transform.Find("Sector");
+		var rfVolume = inspired.transform.Find("RFVolume");
+		var volumes = inspired.transform.Find("Volumes");
+		var fieldDetector = inspired.transform.Find("FieldDetector");
+		var gravityWell = inspired.transform.Find("GravityWell");
+
+		var pos = Vector3.up * 2400;
+		sector.localPosition = pos;
+		rfVolume.localPosition = pos;
+		volumes.localPosition = pos;
+		fieldDetector.localPosition = pos;
+		gravityWell.localPosition = pos;
+
+		var rot = new Vector3(270, 180, 0);
+		sector.localEulerAngles = rot;
+		rfVolume.localEulerAngles = rot;
+		volumes.localEulerAngles = rot;
+		fieldDetector.localEulerAngles = rot;
+		gravityWell.localEulerAngles = rot;
 	}
 
 	private void initBrittleHollow_Late()
