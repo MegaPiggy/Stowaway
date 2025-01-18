@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		Of note: Please remember to end your voyages properly after using a voyager stone.
+		Of note: Please remember to end your voyages properly after using a voyager stone!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		REMINDER: Removing the voyager stone from the pedestal will allow you to end any lingering voyagers.
+		REMINDER: Removing the voyager stone from the projection pool will allow you to end any lingering voyagers.
 		</Text>
 	</TextBlock>
 	

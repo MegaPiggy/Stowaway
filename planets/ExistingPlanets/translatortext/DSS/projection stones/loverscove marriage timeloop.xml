@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: It is good to hear from you, my friends. But, I am afraid our goal, though closer than ever, is not yet within reach.
+		YARROW: It is good to hear from you, my friends. But.. I am afraid our goal, though closer than ever, is not yet within reach.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: But regardless, we should not be negative on such a joyous day..
+		YARROW: Regardless, we should not be negative on such a joyous day!
 		</Text>
 	</TextBlock>
 	<TextBlock>

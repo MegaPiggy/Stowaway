@@ -148,9 +148,8 @@
 			"rename":"text spiral checking station",
 			"type": "whiteboard",
 			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
-			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225},
-			"xmlFile":"planets/ExistingPlanets/translatortext/Gabbro's Island/solar tide setup.xml",
-					"seed":0
+			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225},"xmlFile": "planets/ExistingPlanets/translatortext/DSS/weapon explanation.xml",
+					"seed":10
 					
 		},
 		
@@ -159,24 +158,24 @@
 			"position": {"x":24.3426, "y": -45.7584,"z": 183.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-			"xmlFile":"planets/ExistingPlanets/translatortext/Gabbro's Island/solar tide setup.xml",
-			"seed":1
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/weapon explanation.xml",
+			"seed":7
 		},
 		{
 			"rename": "text spiral checking station floor 2",
 			"position": {"x":24.3426, "y": -45.7584,"z": 184.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-			"xmlFile":"planets/ExistingPlanets/translatortext/Gabbro's Island/solar tide setup.xml",
-			"seed":2
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/weapon explanation.xml",
+			"seed":8
 		},
 		{
 			"rename": "text spiral checking station floor 3",
 			"position": {"x":24.3426, "y": -45.7584,"z": 185.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-			"xmlFile":"planets/ExistingPlanets/translatortext/Gabbro's Island/solar tide setup.xml",
-			"seed":3
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/weapon explanation.xml",
+			"seed":9
 		}
 			]
 	},

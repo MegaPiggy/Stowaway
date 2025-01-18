@@ -38,6 +38,7 @@
 			"hasWarpEffects": false,
 			"horizonRadius": 0.5,
 			"position":{"x": 0,"y": 0,"z": 0},
+			"rotation": {"x":0,"y":0,"z":180},
 			"isRelativeToParent": true
 		},{
 			"rename":"DSS white hole",
@@ -47,6 +48,7 @@
 			"hasWarpEffects": false,
 			"horizonRadius": 0.5,
 			"position":{"x": 0,"y": 0,"z": 0},
+			"rotation": {"x":0,"y":0,"z":180},
 			"isRelativeToParent": true
 		}
 	],
@@ -717,7 +719,7 @@
 			},
 			{
 				"rename":"dss diamondlight",
-				"path":"Probe_Body/Lantern/",
+				"path":"Probe_Body/Lantern/LightSourceVol",
 				"position": {"x": 0.1254, "y": -53.7916, "z": 0.2907},
 				"rotation": {"x": 0, "y": 90, "z": 270},
 				"isRelativeToParent": true
@@ -766,7 +768,7 @@
 			"rename": "DSS weapon Scroll",
 			"type":"scroll",
 			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/weapon explanation.xml",
-			"seed":2,
+			"seed":10,
 			"position": {"x": 8.4185,"y": 10.5093,"z": -1.0436},
 			"rotation": {"x": 59.8892,"y": 11.9853, "z": 77.8949},
 			"parentPath": "Sector/b1 scroll stuff",
@@ -786,7 +788,7 @@
 			"rename": "DSS C1",
 			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C1.xml",
 			"type":"scroll",
-			"position": {"x": 4.2849,"y": -26.1123,"z": 3.1928},
+			"position": {"x": 4.3177,"y": -25.6487,"z": 3.1928},
 			"rotation": {"x": 347.6561,"y": 177.4629,"z": 243.7879},
 			"seed":4,
 			"arcInfo": [
@@ -970,7 +972,7 @@
 
 	"warpReceivers": [{
 		"frequency": "DeepStormStation",
-		"position": {"x": 9.7949, "y": -0.0186, "z": -0.1669},
+		"position": {"x": 9.64, "y": 0, "z": 0},
 		"rotation":{"x":270,"y": 90,"z": 0},
 		"isRelativeToParent": true
 	}
