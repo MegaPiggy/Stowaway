@@ -227,13 +227,6 @@ public class Stowaway : ModBehaviour
 
 	private void initInspiredComet(GameObject inspired)
 	{
-		var cometTailController = inspired.GetComponentInChildren<CometTailController>(true);
-		var cometTail = cometTailController.gameObject;
-		var inspiredTailController = cometTail.AddComponent<InspiredTailController>();
-		inspiredTailController.gasTail = cometTailController.gasTail; // GasTail
-		inspiredTailController.dustTail = cometTailController.dustTail; // DustTail
-		GameObject.DestroyImmediate(cometTailController);
-		inspiredTailController.SetTarget(inspired.transform.Find("Sector/Target"));
 	}
 
 	private void initBrittleHollow_Late()
