@@ -61,12 +61,12 @@
 <DialogueNode>
 		<Name>ModelRocketKid_Annoy</Name>
 		<Dialogue>
-			<Page>Stuff that disappears sometimes? Uh.. That's a really vague question, astronaut.</Page>
-			<Page>Oh, Chert told me the sand column between the Hourglass Twins disappears sometimes! Does that count?</Page>
+			<Page>Stuff that.. disappears sometimes? Like, generally speaking?</Page>
+			<Page>Oh, I see... Are you talking about how the Hourglass Twins' sand column disappears sometimes?</Page>
 		</Dialogue>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>The sand column disappears?</Text>
+				<Text>The sand column.. disappears?</Text>
 				<DialogueTarget>ModelRocketKid_SW_Intro</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -75,12 +75,12 @@
 <DialogueNode>
 		<Name>ModelRocketKid_SW_Intro</Name>
 		<Dialogue>
-			<Page>Yeah! Didn't you know? That big column of sand only appears when sand flows between the Hourglass Twins. And that hasn't happened for a while!</Page>
-			<Page>I remember Chert had just taken off into space again the last time sand flowed between the Twins.. And that's a while ago!</Page>
-				<Page>Oh, but don't worry, astronaut! Chert said that sand should start flowing between the Twins again soon!</Page>
-				<Page>Chert told me that on the morning of your launch day, as the sun rises over the village, the sand would start flowing between the Twins again at last.</Page>
+			<Page>Yeah! Didn't you know? That big column of sand ONLY appears when sand flows between the Hourglass Twins. It's been gone for a while!</Page>
+			<Page>I remember Chert had just taken off into space again the last time sand flowed between the Twins.. And that's weeks ago.</Page>
+				<Page>Oh, but don't worry, astronaut.. Chert said that sand should start flowing between the Twins again soon!</Page>
+				<Page>Chert told me that on the morning of your launch day - right as the sun rises over the village - the sand would start flowing between the Twins again at last!</Page>
 				<Page>Isn't that lucky, astronaut? It feels like a good omen for your launch!</Page>
-				<Page>I haven't the faintest clue how Chert knows when the sand exchange happens so precisely - but they've never been wrong before!</Page>
+				<Page>I haven't the faintest clue how Chert knows when the sand exchange happens so precisely - but their predictions have never been wrong before.</Page>
 				<Page>Since you're taking off soon, you should visit the Hourglass Twins to see the sand column before it goes away again, astronaut. I bet it's an incredible sight up close!</Page>
 			 </Dialogue>
 			  				<RevealFacts>

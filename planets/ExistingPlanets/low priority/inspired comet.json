@@ -103,7 +103,7 @@
 		"stretch": {"x":2,"y":1,"z":1},
 		"keepLoaded": true,
 		"isRelativeToParent": true
-	},{
+		},{
 		"rename":"Inspired gas tail 2",
 		"path":"Comet_Body/Sector_CO/Effects_CO/Effects_CO_TailMeshes/Effects_CO_GasTail/",
 		"position": {"x":0,"y": 0,"z": 0},
@@ -167,7 +167,7 @@
 	},
 	"ReferenceFrame": {
 		"hideInMap": true,
-		"maxTargetDistance": 200
+		"enabled": false
 	},
 
 	"Base": {

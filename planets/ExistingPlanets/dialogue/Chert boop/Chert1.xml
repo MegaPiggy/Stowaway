@@ -43,7 +43,7 @@
 				<Page>Oh? You heard about this from the village, I presume!</Page>
 				<Page>The village always seems to be amazed when I tell them my predictions for the next sand transfer. It's a fun party trick, isn't it?</Page>
 				<Page>But there's no magic to it - the Hourglass Twins' sand transfer simply occurs at very regular intervals.</Page>
-				<Page>After spending some time studying this phenomenon, I have found that after each time the sandflow subsides, it takes a consistent, precise three weeks for the sand to flow back to the other twin again.</Page>
+				<Page>After spending some time studying this phenomenon, I have found that after each time the sandflow subsides, it takes a consistent, precise month and two days for the sand to flow back to the other twin again.</Page>
 				<Page>That the process takes place with such consistency only makes it even more puzzling to me, though.. I simply can't think of any natural phenomenon that occurs with such precision!</Page>
 				</Dialogue>
 		<DialogueOptionsList>
@@ -62,14 +62,14 @@
 		<Name>Chert SW3</Name>
 		<SetPersistentCondition>Chert_Natural</SetPersistentCondition>
 			<Dialogue>
-				<Page>Oh, how I wish I knew the answer to that question too, young hatchling.</Page>
+				<Page>Ha! How I wish I knew the answer to that question too, young hatchling.</Page>
 				<Page>For sand to flow from one planet to the other.. then back to the other planet.. There is simply no rational explanation for it.</Page>
 				<Page>The fact that the process takes place with such consistency only makes it even more puzzling. I cannot think of any natural phenomenon that occurs in this way, and with such precision!</Page>
 				<Page>But until we find any evidence to the contrary, we can only conclude that it is some strange natural phenomenon we do not yet fully comprehend.</Page>
-				<Page>And speaking of strange things...</Page>
-				<Page>Have you seen the great towers of solar panels atop Ash Twin's north and south poles? The Nomai must have built them long ago. They seem to be producing a tremendous amount of solar energy, though we do not know for what purpose.</Page>
-				<Page>It may be a fanciful idea - but could the Nomai have used energy from these solar panels, to power some sort of device that funnels sand to the other Twin?</Page>
-				<Page>Fanciful or not, I believe it may be fruitful for us to explore these solar panels on Ash Twin's poles. Once the sand has drained off a little more, you should be sure to pay a visit to Ash Twin's poles!</Page>
+				<Page>Oh! If you plan on exploring the Twins in search of an answer to this mystery, I do have another detail about the sand column to share that might be useful!</Page>
+				<Page>For whatever reason, the sand only drains from one Twin to the other along the Hourglass Twins' equator.</Page>
+				<Page>No matter how much time I spend here, that great column of sand has never once wandered across this camp.</Page>
+				<Page>To that end, I would suggest starting your exploration at the poles of the Hourglass Twins. That should keep you safe from being pulled into space by the sand column, or crushed by falling sand!</Page>
 			</Dialogue>
 						<RevealFacts>
      						   <FactID>R_SLR R4</FactID>
@@ -77,11 +77,11 @@
     					  </RevealFacts>
 		<DialogueOptionsList>
 				<DialogueOption>
-					<Text>Do you know when the sand will stop flowing between the Twins?</Text>
+					<Text>Cool, cool. When do you think the sand will stop flowing between the Twins?</Text>
 					<DialogueTarget>Chert SW4</DialogueTarget>
 				</DialogueOption>
 				<DialogueOption>
-					<Text>That sounds wise! Thanks for the advice, Chert.</Text>
+					<Text>That sounds wise. Thanks, Chert.</Text>
 					<DialogueTarget>Chert5</DialogueTarget>
 				</DialogueOption>
 		</DialogueOptionsList>

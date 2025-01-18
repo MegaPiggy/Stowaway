@@ -108,13 +108,12 @@
 <DialogueNode>
 		<Name>SignalscopeKidNew1</Name>
 		<Dialogue>
-			<Page>What a strange question, astronaut! Um.. Do geysers count?</Page>
-			<Page>Hornfels taught me that geysers erupt sometimes and stop because of heat from the planet's geo-ther-mal vents.. Isn't that cool?</Page>
-			<Page>Oh, I wish I could jump into one of those geysers to explore the waterways inside them!</Page>
+			<Page>Huh? What a strange question, astronaut!</Page>
+			<Page>Um.. Does our ability to breathe underwater count?</Page>
 			</Dialogue>
 			<DialogueOptionsList>
 			<DialogueOption>
-				<Text>There are waterways inside the geysers?</Text>
+				<Text>Wait.. We used to be able to breathe underwater?</Text>
 				<DialogueTarget>SignalscopeKidNew2</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -123,14 +122,14 @@
 		<DialogueNode>
 		<Name>SignalscopeKidNew2</Name>
 		<Dialogue>
-			<Page>Yeah, you know, the waterways that our ancestors swam around in and lived in!</Page>
-			<Page>You know our species used to be aquatic a long time ago, right?</Page>
-			<Page>According to Riebeck, our ancestors had to learn to live on land because if they didn't, they'd have died instantly whenever the geysers launched them out of the waterways.</Page>
-			<Page>But even after learning to live on land, our ancestors still mainly lived in these waterways inside the geysers.</Page>
-			<Page>Turns out, there's a massive underwater cave system inside the geysers that our ancestors swam around in!</Page>
-			<Page>That part's a recent discovery, though.. Nobody's even properly explored them yet, since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
-				<Page>Oh, I'd love to jump down a geyser to explore those ancient waterways myself - but since we lost the ability to breathe underwater a long time ago, I'd probably just drown..</Page>
-				<Page>I'd hate to get your spacesuit wet, but.. Would <![CDATA[<i>you</i>]]> be interested in jumping into a geyser to explore Timber Hearth's spooky depths, astronaut?</Page>
+			<Page>Yeah! Isn't that cool? We used to be able to breathe underwater like the little fishies do!</Page>
+			<Page>You know our species was totally aquatic a long, long time ago, right?</Page>
+			<Page>According to Riebeck, our ancestors had to learn to live on land because if they didn't, they'd have died instantly whenever the geysers launched them out of the waterways where we lived.</Page>
+			<Page>But even after learning to live on land, for some reason, our ancestors continued to live inside the waterways inside the geysers.</Page>
+			<Page>Apparently, there's even a massive underwater cave system inside the geysers that our ancestors swam around in!</Page>
+			<Page>That part's a recent discovery, though.. Nobody's properly explored them yet, since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
+				<Page>I'd hate to get your spacesuit wet, but.. Would <![CDATA[<i>you</i>]]> be interested in jumping into one of those geysers to explore Timber Hearth's spooky depths, astronaut?</Page>
+				<Page>I'd dive into a geyser to explore those ancient waterways myself - but Riebeck says since we stopped being able to breathe underwater, I'd probably just drown..</Page>
 		</Dialogue>
 							<RevealFacts>
      						  	 <FactID>MOR R3</FactID>
