@@ -685,6 +685,7 @@
 			"isRelativeToParent": true
 		},
 		{
+			"rename": "nomtree1",
 			"assetBundle": "planets/bundle/prefabs",
 			"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
 			"position": {"x": -2.0333,"y": -0.0289,"z": -1.802},
@@ -961,7 +962,6 @@
 					"rename":"DSS Cassava TH stone",
 					"position": {"x": -8.2996,"y": -0.2913,"z": -0.0889},
 					"rotation": {"x": 0,"y": 0,"z": 270},
-					"parentPath": "Sector_GD/Table clump",
 					"isRelativeToParent": true
 				}]
 			}
