@@ -3,7 +3,26 @@
 
 	"name":"Inspired",
 	
-
+"CometTail": {
+	"primaryBody": "Sun",
+	"gasTint": {"a": 0,"b": 0,"g": 0,"r": 0},
+	"innerRadius": 100,
+	"rotationOverride": {"x":270, "y":0,"z":0},
+	"curve": [
+		{
+			"time": 0,
+			"value": 0
+		},
+		{
+			"time": 22.3,
+			"value": 0
+		},
+		{
+			"time": 22.4,
+			"value": 1.2
+		}
+	]
+},
 	"Volumes": {
 		"audioVolumes": [
 			{
@@ -93,22 +112,7 @@
 		"keepLoaded": true,
 		"isRelativeToParent": true
 	},
-	{
-		"rename":"Inspired dust tail",
-		"path":"Comet_Body/Sector_CO/Effects_CO/Effects_CO_TailMeshes/Effects_CO_DustTail/",
-		"position": {"x":0,"y": 0,"z": 0},
-		"rotation": {"x":0,"y": 270,"z": 0},
-		"keepLoaded": true,
-		"isRelativeToParent": true
-	},
-	{
-		"rename":"Inspired dust tail 2",
-		"path":"Comet_Body/Sector_CO/Effects_CO/Effects_CO_TailMeshes/Effects_CO_DustTail/",
-		"position": {"x":0,"y": 0,"z": 0},
-		"rotation": {"x":0,"y": 270,"z": 0},
-		"keepLoaded": true,
-		"isRelativeToParent": true
-	},
+	
 		{
 			"rename": "gravitycannon volume",
 			"path": "BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Interactables_GravityCannon/CannonForceVolume/",
@@ -171,7 +175,8 @@
 		"gravityVolumePriority": 10,
 		"surfaceGravity": 15,
 		"soiOverride": 300,
-		"gravityFallOff": "linear"
+		"gravityFallOff": "linear",
+		"hasFluidDetector": false
 	},
 	"Orbit": {
 		"primaryBody": "Sun",
