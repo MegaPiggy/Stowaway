@@ -14,7 +14,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: It is good to see you well as ever, Kousa! I see you have been working hard to keep the shelves in the <![CDATA[<color=orange>Gravity Crystal Workshop's</color>]]> stocked full of gravity crystals.
+		PLUME: It is good to see you well as ever, Kousa! I see you have been working hard to keep the shelves in the <![CDATA[<color=orange>Gravity Crystal Workshop's</color>]]> fully stocked with gravity crystals.
 		</Text>
 	</TextBlock>
 
@@ -67,7 +67,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: It is right outside! Please, follow me. I am excited to show you how the storm shelter works!
+		KOUSA: My invention is right outside! Please, follow me. I am excited to show you how the storm shelter works!
 		</Text>
 	</TextBlock>
 

@@ -82,7 +82,8 @@
 			"hasWarpEffects": false,
 			"horizonRadius": 17,
 			"position":{"x":0,"y": 0,"z": 0},
-			"isRelativeToParent": true
+			"isRelativeToParent": true,
+			"renderQueueOverride": 2501
 		},
 		{
 			"type": "whiteHole",

@@ -43,7 +43,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		CLARY: What?! Poke, of course you would leave this step for last.. Has a site for the <![CDATA[<color=orange>White Hole Station's</color>]]> warp receiver been chosen yet?
+		CLARY: What?! Poke, why would you leave this step for last.. Has a <![CDATA[<color=orange>Receiver Site</color>]]> for the construction of the <![CDATA[<color=orange>White Hole Station's</color>]]> warp receiver been chosen yet?
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		POKE: There should be ample space on the surface above the <![CDATA[<color=orange>Hanging City.</color>]]> Building the warp receiver there should also provide convenient travel back to the city from the <![CDATA[<color=orange>White Hole Station.</color>]]>
+		POKE: There should be ample space on the surface above the <![CDATA[<color=orange>Hanging City.</color>]]> Building the warp receiver there would also allow us to return to the city quickly from the <![CDATA[<color=orange>White Hole Station.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -61,7 +61,7 @@ Clue to convey: Warp transmitters require a warp receiver (context: wait, the wa
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CLARY: In that case, I'm off to install the warp receiver; I simply cannot wait to finally experience jumping into a black hole, after living above one my whole life!
+		CLARY: In that case, I'm off to this <![CDATA[<color=orange>Receiver Site;</color>]]> I simply cannot wait to finally experience jumping into a black hole, after living above one my whole life!
 		</Text>
 	</TextBlock>
 
