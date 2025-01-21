@@ -16,7 +16,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		ILEX: Of course! I did not wish to risk being late for your pilgrimage today, my friend.
+		ILEX: It was only a short wait! I am simply honored to be here to support your pilgrimage, my friend.
 		</Text>
 	</TextBlock>
 
@@ -25,16 +25,16 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		ILEX: Still, I believe I could have simply visited the new <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> to support your pilgrimage.
+		SOLANUM: You have my gratitude! With your help, I shall be able to dedicate my full focus to calculating a precise shuttle trajectory!
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>4</ID>
-		<LocationB />
 		<ParentID>3</ParentID>
+		<LocationB />
 		<Text>
-		SOLANUM: Wait.. There was a second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> built on <![CDATA[<color=lightblue>Brittle Hollow?</color>]]> This is the first time I have heard of it!
+		ILEX: But, I am curious, Solanum.. Why did you not choose to use the other <![CDATA[<color=orange>Quantum Moon Locator</color>]]> built on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> for this task?
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		ILEX: There is. I was curious why you did not use this newer locator - especially when it is able to track when the <![CDATA[<color=lightblue>Quantum Moon</color>]]> visits the sixth location, unlike this locator!
+		SOLANUM: Wait.. There is a second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> somewhere on <![CDATA[<color=lightblue>Brittle Hollow?</color>]]> This is the first time I have heard of it!
 		</Text>
 	</TextBlock>
 
@@ -52,24 +52,33 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		SOLANUM: That sounds quite curious! I wonder why Bells never mentioned this locator to me.. Would it have made the pilgrimage too simple?
+		ILEX: There is! I was curious why you did not use this newer locator - especially when it is able to track when the <![CDATA[<color=lightblue>Quantum Moon</color>]]> visits the sixth location, unlike this locator!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		SOLANUM: That sounds deeply intriguing! I wonder why Bells never mentioned this locator to me.. Would it have made my pilgrimage too simple?
 		</Text>
 	</TextBlock>
 
 <TextBlock>
-		<ID>7</ID>
+		<ID>8</ID>
 		<LocationB />
-		<ParentID>6</ParentID>
+		<ParentID>7</ParentID>
 		<Text>
 		SOLANUM: I shall be returning to <![CDATA[<color=lightblue>Brittle Hollow</color>]]> shortly to begin my expedition.
 		</Text>
 	</TextBlock>
 	<TextBlock>
-		<ID>8</ID>
+		<ID>9</ID>
 		<LocationB />
-		<ParentID>7</ParentID>
+		<ParentID>8</ParentID>
 		<Text>
-		SOLANUM: If time allows, I shall try to find this second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> to learn its secrets!
+		SOLANUM: If time allows, I shall try to find this second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> to learn what secrets it holds!
 		</Text>
 	</TextBlock>
 

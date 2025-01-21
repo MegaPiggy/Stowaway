@@ -7,7 +7,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		COLEUS: Melorae, are you ready? We are finally ready to begin our first expedition to the Quantum Moon!
+		COLEUS: Melorae, are you ready? We are about to begin our first expedition to the Quantum Moon!
 		</Text>
 	</TextBlock>
 
@@ -16,7 +16,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		MELORAE: Of course I am, Coleus! I have looked forward to this fateful expedition for so long!
+		MELORAE: Of course, Coleus. I have looked forward to this expedition ever since our reunion with our friends on Brittle Hollow, and learning of our shared passion for this wandering moon!
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		MELORAE: Where is Thatch? We agreed to meet here at the Quantum Moon Locator before we set off, did we not? He is running late!
+		MELORAE: But.. where is Thatch? He was supposed to travel here from Brittle Hollow to meet with us at the Quantum Moon Locator before we set off, was he not?
 		</Text>
 	</TextBlock>
 
@@ -34,7 +34,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		COLEUS: We have waited some time, but Thatch has still not arrived. Could he have lost his way? Or..
+		COLEUS: We have waited for some time, but Thatch has still not arrived. Could your nephew have lost his way, Melorae? Or..
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		MELORAE: But Coleus, this is the only Quantum Moon Locator on the Hourglass Twins! Unless... Could our friends on Brittle Hollow have had the same idea to build a Quantum Moon Locator before our reunion?
+		MELORAE: But Coleus, this is the only Quantum Moon Locator we know of! Unless..
 		</Text>
 	</TextBlock>
 
@@ -61,7 +61,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: We cannot proceed with this expedition without Thatch. It would not be safe to conduct the expedition without  
+		MELORAE: Could our friends on Brittle Hollow have built a second Quantum Moon Locator we were not aware of?  
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -69,10 +69,33 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		SOLANUM: If time allows, I shall try to find this second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> to learn its secrets!
+		COLEUS: That is likely.. Our friends on Brittle Hollow would have surely come up with a similar plan to track a wandering moon.. Though I am deeply curious how differently their locator might function from ours!
+		</Text>
+	</TextBlock>	
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		COLEUS: Perhaps they might even have devised a way to track where the Quantum Moon goes when it disappears completely!
 		</Text>
 	</TextBlock>
-
+<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		MELORAE: How you make my heart flutter with possibilities, Coleus!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>11</ID>
+		<LocationB />
+		<ParentID>10</ParentID>
+		<Text>
+		MELORAE: Seeing as we cannot begin the expedition without him, we should travel to Brittle Hollow to try to find Thatch.. as well as to seek out this hypothetical second <![CDATA[<color=orange>Quantum Moon Locator!</color>]]>
+		</Text>
+	</TextBlock>
 
 <ShipLogConditions>
 		<RevealFact>

@@ -1,0 +1,117 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		THATCH: My friends, you've arrived at last! Shall we begin our expedition to the Quantum Moon soon?
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		MELORAE: My apologies, my dear nephew - but we were not aware of this second Quantum Moon Locator on Brittle Hollow! We had been expecting your arrival at the locator we had built on Ember Twin!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		THATCH: Oh! Oh.. Oh dear. My deepest apologies for my mistake! I was not aware there was a Quantum Moon Locator on Ember Twin, either!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB />
+		<Text>
+		THATCH: But.. As our expedition team is already here, would it be possible to use the Quantum Moon Locator here for our expedition today?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		COLEUS: I'm afraid that would not be wise, Thatch. This locator has a poor view of the sky; That will make observing the Quantum Moon quite difficult.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		COLEUS: The plan was to leave a set of eyes at the Quantum Moon Locator to keep the Quantum Moon locked from afar, so that we would be able to carefully plan a shuttle trajectory to it.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		BELLS: With its clear view of the sky, and ability to pinpoint each celestial body, we deemed the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]> much more useful for using the rule of quantum imaging from afar.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		SOLANUM: I see.. But Bells, what purpose does the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> here serve then?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>
+		BELLS: To allow me to know when you have safely reached your destination, my dear pupil.
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>10</ID>
+		<LocationA />
+		<ParentID>9</ParentID>
+		<Text>
+		BELLS: Now, it is time to depart for your pilgrimage at last, Solanum. Remember, Ilex is providing you a set of eyes on <![CDATA[<color=lightblue>Ember Twin;</color>]]> you musn't keep him waiting too long!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_QML EX1</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QML EX2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QML EX3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QML EX4</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QML R4</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

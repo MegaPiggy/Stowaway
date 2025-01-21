@@ -172,7 +172,7 @@
 	},
 
 	"Base": {
-		"surfaceSize": 100,
+		"surfaceSize": 300,
 		"gravityVolumePriority": 10,
 		"surfaceGravity": 15,
 		"soiOverride": 300,
