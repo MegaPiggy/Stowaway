@@ -34,7 +34,7 @@
 			<Page>Uhh, yeah? I thought it was pretty clear we were talking in dream terms.</Page>
 			<Page>Pretty normal to get nightmares of all your phobias the day you take off.. Just ask Riebeck.</Page>
 			<Page>Sheesh, I didn't know you were that paranoid about ghost matter you were dreaming about dying to it, though. Tektite really spooked ya, huh?</Page>
-			<Page>Look, your suit should alert you whenever there's ghost matter nearby at all, so don't worry about just randomly falling into a patch without warning.</Page>
+			<Page>Look: your suit should alert you whenever there's ghost matter nearby at all, so don't worry about just randomly falling into a patch without warning.</Page>
 			<Page>Once you know there's ghost matter around, just use the scout to look out for it. You can even switch it to a handheld photo mode that lets you take pictures without launching it first.</Page>
 			<Page>It's so convenient, it's honestly out of my hands if you still manage to walk into some ghost matter.. <![CDATA[<Pause=1>]]> Unless you'd like me to just magically make all ghost matter disappear to idiotproof the star system.</Page>
 			<Page>Hm.</Page>
@@ -97,8 +97,8 @@
 	<DialogueNode>
 		<Name>Slate_Kids_Gettoit</Name>
 		<Dialogue>
-			<Page>Cool. Just remember, there's five suspects: Mica, Tephra, Galena, Arkose, and Moraine.</Page>
-			<Page>Oh, you should try to be subtle with your questions, though. Otherwise, they might catch wind of your little investigation.</Page>
+			<Page>Cool. Just remember, there's five suspects... Mica, Tephra, Galena, Arkose, and Moraine.</Page>
+			<Page>Oh, and try to be subtle with your questions! Trust me, they're smarter than they look. They might catch wind of your little investigation otherwise.</Page>
 			<Page>Try to ask real nonchalantly, like: "Did you hear anything about stuff that disappears sometimes?"</Page>
 			<Page>Ah... I'd be a great detective.</Page>
 		</Dialogue>

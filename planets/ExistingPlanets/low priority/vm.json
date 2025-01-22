@@ -28,6 +28,7 @@
 				"removeChildren": ["Props_NOM_Recorder_Col"],
 				"position": {"x":-4.916 ,"y": -1.749,"z": -5.2513},
 				"rotation": {"x": 23.9129,"y": 239.6359,"z": 7.305},
+				"scale":0.6,
 			"isRelativeToParent": true
 		},
 		

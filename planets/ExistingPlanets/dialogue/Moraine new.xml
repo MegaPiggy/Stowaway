@@ -123,13 +123,12 @@
 		<Name>SignalscopeKidNew2</Name>
 		<Dialogue>
 			<Page>Yeah! Isn't that cool? We used to be able to breathe underwater like the little fishies do!</Page>
-			<Page>You know our species was totally aquatic a long, long time ago, right?</Page>
-			<Page>According to Riebeck, our ancestors had to learn to live on land because if they didn't, they'd have died instantly whenever the geysers launched them out of the waterways where we lived.</Page>
-			<Page>But even after learning to live on land, for some reason, our ancestors continued to live inside the waterways inside the geysers.</Page>
-			<Page>Apparently, there's even a massive underwater cave system inside the geysers that our ancestors swam around in!</Page>
-			<Page>That part's a recent discovery, though.. Nobody's properly explored them yet, since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
+			<Page>I don't know if it's the first time we lost it, but Riebeck says we've lost it for a long time now, even though our species used to be totally aquatic.</Page>
+			<Page>Riebeck thinks our ancestors had to learn to live on land because if they didn't, they'd have died instantly whenever the geysers launched them out of the waterways where our ancestors lived!</Page>
+			<Page>Apparently, there's some sort of massive underwater cave system inside the geysers that our ancestors once swam around in!</Page>
+			<Page>That part's a recent discovery, though! Nobody's properly explored them yet.. since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
 				<Page>I'd hate to get your spacesuit wet, but.. Would <![CDATA[<i>you</i>]]> be interested in jumping into one of those geysers to explore Timber Hearth's spooky depths, astronaut?</Page>
-				<Page>I'd dive into a geyser to explore those ancient waterways myself - but Riebeck says since we stopped being able to breathe underwater, I'd probably just drown..</Page>
+				<Page>I'd dive into a geyser to explore those ancient waterways myself - but since we stopped being able to breathe underwater, I'd probably just drown..</Page>
 		</Dialogue>
 							<RevealFacts>
      						  	 <FactID>MOR R3</FactID>
@@ -152,9 +151,9 @@
 <DialogueNode>
 		<Name>SignalscopeKidNew3</Name>
 		<Dialogue>
-				<Page>Really? Wow, you're so cool, astronaut!</Page>
+				<Page><![CDATA[<i>Really?</i>]]> Wow, you're so cool, astronaut!</Page>
 				<Page>If you do find anything down there, I wanna hear all about it, okay?</Page>
-				<Page>Oooh, it's like revisiting the place where we all came from! This is gonna be an incredible day for Hearthian history, astronaut!</Page>
+				<Page>Oooh, it's like revisiting the place where we all came from! I bet it's gonna be awesome, astronaut!</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -163,7 +162,7 @@
 		<SetCondition>morc1</SetCondition>
 		<Dialogue>
 				<Page>Woah, what..? A Nomai mural of our ancestors on land..? That’s.. That's <![CDATA[<i>awesome!</i>]]></Page>
-				<Page>It’s not a huge underwater monster like I was hoping.. But it’s still really awesome!</Page>
+				<Page>It’s not a huge underwater monster like I was hoping.. But that’s still REALLY awesome!</Page>
 				<Page>But wait... Doesn’t that mean our ancestors were already alive when the Nomai were around?</Page>
 					<Page>What's more, it sounds like we were still able to live on both water AND land back then..</Page>
 					<Page>Aw, when did Hearthians stop being able to breathe underwater completely then? If we were still able to breathe underwater nowadays, I'd be able to swim around the waterways all day!</Page>

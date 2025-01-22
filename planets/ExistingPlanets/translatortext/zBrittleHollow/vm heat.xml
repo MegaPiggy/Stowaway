@@ -7,7 +7,7 @@ Clue: Supernova generate lots of heat
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CLARY: <![CDATA[<i>Pye, you're safe!</i>]]> Oh, thank goodness, thank goodness.. Everybody! Pye is safe!
+		PYE: My friends, I apologize for my tardiness! It is quite difficult to reach this site.. Please, how has the test of the <![CDATA[<color=orange>diving bell</color>]]> fared?
 		</Text>
 	</TextBlock>
 
@@ -16,7 +16,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		ROOT: We are all tremendously relieved to see you well, Pye!
+		CLARY: Pye! You have arrived just in time - the <![CDATA[<color=orange>diving bell</color>]]> has just finished cooling down from its journey into the lava pool's deepest point.. Now, it is finally time to learn the results!
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		ROOT: With this success, we can now be certain that a protective shell crafted from this ore will be capable of briefly withstanding a supernova!
+		ROOT: Hypothesis confirmed! Hypothesis confirmed! The ice has remained completely solid, even after the <![CDATA[<color=orange>diving bell</color>]]> was submerged in the deepest point of the lava pool!
 		</Text>
 	</TextBlock>
 
@@ -34,7 +34,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		PYE: Indeed, the ore will protect anything insulated inside it, but..
+		CLARY: What terrific news, friends! With this success, we can now be certain that a protective shell crafted from this ore will be capable of withstanding even the might of a supernova!
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		PYE: Would it be possible to foritfy the solar towers on Ash Twin's poles with this ore as well?
+		PYE: I am overjoyed to hear of this success! But, my friends.. The <![CDATA[<color=orange>diving bell</color>]]> was only tested by the heat of this volcanic lava, was it not?
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		CLARY: We can try to augment its materials without affecting its function, but.. Is there a reason for this sudden concern?
+		PYE: A supernova radiates immense amounts of heat, enough to melt away the toughest of materials.. How can we be sure that the temperatures within this lava pool are comparable enough to trust this ore's durability?
 		</Text>
 	</TextBlock>
 
@@ -61,7 +61,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		PYE: The solar towers must be able to endure the incredible heat of a supernova, so that they are not damaged before they can receive enough energy.
+		CLARY: That is a wise question, Pye.. Perhaps we should test the <![CDATA[<color=orange>diving bell</color>]]> once more with a supernova, and see if the ice within remains solid.
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -69,7 +69,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		PYE: Furthermore, this will allow the Ash Twin Project to operate even when buried by Ash Twin's sand!
+		ROOT: Clary, we should not make light of these concerns.. But Pye, have no fear; Our elders have travelled countless galaxies, and more knowledge was shared to them by their many sibling clans.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -77,7 +77,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		PYE: The ore will give the solar towers a much higher melting point than the surrounding sand, allowing the intense heat of the supernova to melt away any sand keeping the solar towers from receiving energy.
+		ROOT: It is they who have passed down to us precise measurements of a supernova's temperatures, equal to that of this lava pool's deepest point.. We would never dare to work in theory for such crucial data!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -85,7 +85,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		PYE: This will allow us to test the Ash Twin Project without constraint, even if sand is burying Ash Twin!
+		PYE: I see.. That is an immense relief to hear.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -93,7 +93,23 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>10</ParentID>
 		<Text>
-		CLARY: Your eyes are filled with such determination, Pye! You have our deepest gratitude for your bravery today again.
+		PYE: Still, I would be happy to test Clary's craftsmanship.. We should to return to check if the ice within the <![CDATA[<color=orange>diving bell</color>]]> remains intact, once we are able to test it against a supernova!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<LocationB />
+		<ParentID>11</ParentID>
+		<Text>
+		CLARY: I was merely joking, Pye! A proper test would require us to carefully seal the <![CDATA[<color=orange>diving bell</color>]]> again once more.. With its structure compromised, the supernova would no doubt melt the ice within it!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>13</ID>
+		<LocationB />
+		<ParentID>12</ParentID>
+		<Text>
+		PYE: Ha! If only your patience could gain a higher melting point as well, my friend!
 		</Text>
 	</TextBlock>
 

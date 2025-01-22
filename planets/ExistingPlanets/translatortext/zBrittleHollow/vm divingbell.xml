@@ -7,7 +7,7 @@ Clue: Supernova generate lots of heat
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		ROOT: Are you sure about this, Pye? Now that the test is about to begin, I.. I fear for your safety!
+		ROOT: Goodness! Why have you delivered such a large chunk of ice to our <![CDATA[<color=orange>Volcanic Testing Site</color>]]> today, Clary? I am surprised it has not already melted in this heat!
 		</Text>
 	</TextBlock>
 
@@ -16,7 +16,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		PYE: Worry not, Root! I have complete faith in the <![CDATA[<color=orange>Volcanic Testing Site's</color>]]> hard work.
+		CLARY: Isn't it marvelous? This spherical chunk of ice was taken from an asteroid belt far outside the star system for sample testing.. I brought it back to study its properties further!
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		PYE: Besides! How could we risk the entire star system's safety, if we were not willing to put ourselves through the same risk?
+		CLARY: Formed in the cold depths outside the star system, it seems to have a much higher melting point than ordinary ice.. though of course, it does not compare to the ore we are testing!
 		</Text>
 	</TextBlock>
 
@@ -34,7 +34,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		ROOT: I.. suppose you are right. Then.. Without further ado, please enter the <![CDATA[<color=orange>diving bell,</color>]]> Pye.
+		CLARY: I brought it today because I thought it would be perfect to seal aboard the <![CDATA[<color=orange>diving bell</color>]]> for our final test of the ore's durability today!
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		ROOT: We will ensure the <![CDATA[<color=orange>diving bell</color>]]> is completely airtight and sealed (with a steady source of oxygen), before it is lowered into the deepest point of the lava pool.
+		ROOT: A wise idea, Clary! With the ice stored within it, we should be able to easily tell if the <![CDATA[<color=orange>diving bell's</color>]]> protective shell was able to adequately insulate heat from its interior.
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		CLARY: Pye: this <![CDATA[<color=orange>diving bell</color>]]> may be your grave - or the last stepping stone to our clan's ambitions. We may only know the result, and.. your fate, once the bell is raised, cooled, and opened again.
+		ROOT: Now, let us seal the <![CDATA[<color=orange>diving bell</color>]]> completely, before we lower it into the lava pool's deepest point!
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -60,7 +60,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		PYE: How exciting! I shall leave my life in your capable appendages, my friends.
+		ROOT: Afterwards, we shall raise it and let it cool - before finally penetrating the protective shell to reveal the results of this test.
 		</Text>
 	</TextBlock>
 

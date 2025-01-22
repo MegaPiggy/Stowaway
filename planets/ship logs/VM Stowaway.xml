@@ -22,21 +22,20 @@
             <ID>LV R3</ID>
             <RumorName>Volcanic Diving Bell</RumorName>
             <RumorNamePriority>2</RumorNamePriority>
-            <Text>A Nomai named Pye allowed herself to be sealed into a diving bell, and lowered into the lava at this site for some sort of test.</Text> 
+            <Text>Ice taken from a nearby asteroid belt was sealed within a protective shell crafted from heat-resistant ore, and lowered into the deepest point of the lava pool as a final test of the ore's durability.</Text> 
         </RumorFact>
         
           <ExploreFact>
             <ID>LV EX2</ID>
-            <Text>The Nomai lowered a diving bell into the lava at this site. They concluded that a protective shell crafted from this ore would be able to withstand a supernova.</Text> 
+            <Text>The Nomai lowered a diving bell crafted from heat-resistant ore into the lava at this site. They concluded that a protective shell crafted from this ore would be able to withstand a supernova.</Text> 
         </ExploreFact>
-        
-          <ExploreFact>
-            <ID>LV EX1</ID>
-            <Text>A supernova radiates immense amounts of heat, enough to melt away the toughest of materials.</Text> 
-          </ExploreFact>
           <ExploreFact>
             <ID>LV EX3</ID>
-            <Text>Data from the Nomai's elders allowed them to use the deepest point of the lava pool to test using temperatures equal to that of a supernova.</Text>
+            <Text>Data from the Nomai's elders gave them knowledge of precise measurements of a supernova's temperatures.</Text>
+        </ExploreFact>
+          <ExploreFact>
+            <ID>LV EX1</ID>
+            <Text>A Nomai named Pye wondered if the ice within the diving bell would remain intact once properly tested against a supernova. Due to its compromised structure, another Nomai felt sure that the ice would melt.</Text> 
         </ExploreFact>
 
 </Entry>
