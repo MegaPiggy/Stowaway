@@ -26,7 +26,7 @@
 			"parentPath": "MoltenCore_VM/lava floating raft/",
 				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_Recorder/Props_NOM_Recorder/",
 				"removeChildren": ["Props_NOM_Recorder_Col"],
-				"position": {"x":-4.916 ,"y": -1.749,"z": -5.2513},
+				"position": {"x": -4.816,"y": -1.849,"z": -5.2513},
 				"rotation": {"x": 23.9129,"y": 239.6359,"z": 7.305},
 				"scale":0.6,
 			"isRelativeToParent": true
