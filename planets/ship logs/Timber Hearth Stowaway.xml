@@ -5,7 +5,7 @@
         <ID>TH_MICA</ID>
         <Name>Mica</Name>
 
-        <Curiosity>None</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>MICA R1</ID> 
@@ -19,6 +19,10 @@
           <ExploreFact>
             <ID>MICA EX2</ID> 
             <Text>According to Chert, sand would start flowing between the Hourglass Twins again on the morning of my launch day, right as the sun rises over the village.</Text>
+       </ExploreFact>
+          <ExploreFact>
+            <ID>MICA EX2</ID> 
+            <Text>Chert somehow knows precisely when sand flows between the Hourglass Twins.</Text>
        </ExploreFact>
 </Entry>
 
@@ -34,7 +38,7 @@
   </RumorFact>
 <RumorFact>
             <ID>TEPH R2</ID> 
-            <Text>Tephra wonders where the quantum shard in the museum goes when it disappears completely.</Text> 
+            <Text>Tephra wonders where the quantum shard in the museum goes when it disappears completely. They made me promise to tell them if I found where the shard went.</Text> 
   </RumorFact>
 
        <ExploreFact>
@@ -43,7 +47,7 @@
        </ExploreFact>
          <ExploreFact>
             <ID>TEPH EX3</ID> 
-            <Text>The only part of Timber Hearth Tephra and Galena were unable to explore was the Nomai Ruins outside the village, because of the ghost matter in that area.</Text> 
+            <Text>Tephra and Galena were unable to explore the Nomai Ruins outside the village because of the ghost matter there. Tephra wondered if the quantum shard could be traveling to an unexplored cave there.</Text> 
        </ExploreFact>
          <ExploreFact>
             <ID>TEPH EX4</ID> 
@@ -68,9 +72,9 @@
        
        <ExploreFact>
             <ID>GAL EX1</ID> 
-            <Text>I used my Little Scout to look inside the drain behind the village waterwheel and found Galena's toy rocket in there.</Text>
+            <Text>I used my Little Scout to look inside the drain behind the village waterwheel and found a toy rocket in there.</Text>
                  <AltText>
-                 <Text>I used my Little Scout to look inside the drain behind the village waterwheel and found a toy rocket in there.</Text>
+                 <Text>I used my Little Scout to look inside the drain behind the village waterwheel and found Galena's toy rocket in there.</Text>
                     <Condition>GAL R2</Condition>
                     </AltText> 
        </ExploreFact>
@@ -94,11 +98,11 @@
 
        <ExploreFact>
             <ID>ARK EX1</ID> 
-            <Text>Arkose noticed that the patch of ghost matter in the village wouldn't leave a glowing trail sometimes while throwing rocks at it.</Text> 
+            <Text>Arkose noticed that the patch of ghost matter in the village woul sometimes not leave a glowing trail when they threw a rock into it.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>ARK EX2</ID> 
-            <Text>Gabbro was the one who told Arkose that ghost matter disappears sometimes when they last returned from Giant's Deep.</Text> 
+            <Text>Gabbro was the one who told Arkose that ghost matter disappears sometimes, when they last returned from Giant's Deep.</Text> 
        </ExploreFact> 
        <ExploreFact>
             <ID>ARK EX3</ID> 
@@ -135,15 +139,15 @@
 
 <ExploreFact>
             <ID>MOR EX1</ID> 
-            <Text>According to Riebeck, our species lived in the ancient waterways inside Timber Hearth's geysers, even after learning to live on land.</Text> 
+            <Text>According to Riebeck, our ancestors once lived in the ancient waterways inside Timber Hearth's geysers.</Text> 
        </ExploreFact>
          <ExploreFact>
             <ID>MOR EX2</ID> 
-            <Text>Moraine says that Riebeck would lose their marbles if they heard about the Nomai mural I found in the waterways.</Text> 
+            <Text>Moraine says that Riebeck would lose their marbles if they heard about the Nomai mural I found in the waterways!</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>MOR EX3</ID> 
-            <Text>For some reason, Moraine asked me how many comets there were in the star system. They seemed confused by my answer.</Text> 
+            <Text>For some reason, Moraine asked me how many comets there were in the star system.</Text> 
                  <AltText>
                  <Text>Moraine says they saw two comets in the sky one night, but haven't been able to find this second comet again. They bashfully brushed off what they saw as probably just a smudge on their signalscope.
                  </Text>

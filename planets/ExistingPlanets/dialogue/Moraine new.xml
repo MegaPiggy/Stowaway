@@ -108,12 +108,13 @@
 <DialogueNode>
 		<Name>SignalscopeKidNew1</Name>
 		<Dialogue>
-			<Page>Huh? What a strange question, astronaut!</Page>
-			<Page>Um.. Does our ability to breathe underwater count?</Page>
+			<Page>Huh? Um.. Why're you asking me, astronaut?</Page>
+			<Page>Did you see... Um, on second thoughts, never mind.</Page>
+			<Page>Could <![CDATA[<i>I</i>]]> ask you about something that disappeared instead, astronaut?</Page>
 			</Dialogue>
 			<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Wait.. We used to be able to breathe underwater?</Text>
+				<Text>Sure!</Text>
 				<DialogueTarget>SignalscopeKidNew2</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -122,13 +123,28 @@
 		<DialogueNode>
 		<Name>SignalscopeKidNew2</Name>
 		<Dialogue>
-			<Page>Yeah! Isn't that cool? We used to be able to breathe underwater like the little fishies do!</Page>
-			<Page>I don't know if it's the first time we lost it, but Riebeck says we've lost it for a long time now, even though our species used to be totally aquatic.</Page>
-			<Page>Riebeck thinks our ancestors had to learn to live on land because if they didn't, they'd have died instantly whenever the geysers launched them out of the waterways where our ancestors lived!</Page>
-			<Page>Apparently, there's some sort of massive underwater cave system inside the geysers that our ancestors once swam around in!</Page>
-			<Page>That part's a recent discovery, though! Nobody's properly explored them yet.. since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
-				<Page>I'd hate to get your spacesuit wet, but.. Would <![CDATA[<i>you</i>]]> be interested in jumping into one of those geysers to explore Timber Hearth's spooky depths, astronaut?</Page>
-				<Page>I'd dive into a geyser to explore those ancient waterways myself - but since we stopped being able to breathe underwater, I'd probably just drown..</Page>
+			<Page>Alright! Um, I should probably ask Riebeck this instead, but just tell me whatever you know!</Page>
+			<Page>Why did we stop being able to breathe underwater, astronaut?</Page>
+			</Dialogue>
+			<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Uh.. Did we use to be able to breathe underwater?</Text>
+				<DialogueTarget>SignalscopeKidNew2.5</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+		</DialogueNode>
+
+		<DialogueNode>
+		<Name>SignalscopeKidNew2.5</Name>
+		<Dialogue>
+			<Page>Oh. Uh, I thought everyone.. knew that.. Um, it's okay, astronaut! I can teach you what Riebeck taught me.</Page>
+			<Page>Riebeck says it isn't clear how long we've lost the ability to breathe underwater - but we definitely know our ancient ancestors used to be totally aquatic!</Page>
+			<Page>Riebeck thinks our ancestors needed to learn to live on land as well, 'cos otherwise, they'd die instantly whenever the geysers launched them out of the waterways where they used to live.</Page>
+			<Page>Isn't that funny? One day, our ancestors must have just been launched out of a geyser into this crater - and centuries later, we're still living here!</Page>
+			<Page>Apparently, there's some sort of massive underwater cave system inside the geysers that our ancestors once lived in.</Page>
+			<Page>That part's a recent discovery, though. Nobody's properly explored the waterways yet, since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
+				<Page>I'd hate to get your spacesuit wet, but.. Would <![CDATA[<i>you</i>]]> be interested in jumping into one of those geysers to explore Timber Hearth's spooky depths sometime, astronaut?</Page>
+				<Page>I'd dive into a geyser to explore those ancient waterways myself - but since I can't breathe underwater, I'd probably just drown..</Page>
 		</Dialogue>
 							<RevealFacts>
      						  	 <FactID>MOR R3</FactID>
@@ -151,9 +167,9 @@
 <DialogueNode>
 		<Name>SignalscopeKidNew3</Name>
 		<Dialogue>
-				<Page><![CDATA[<i>Really?</i>]]> Wow, you're so cool, astronaut!</Page>
+				<Page><![CDATA[<i>Really?</i>]]> Wow, you're awesome, astronaut!</Page>
 				<Page>If you do find anything down there, I wanna hear all about it, okay?</Page>
-				<Page>Oooh, it's like revisiting the place where we all came from! I bet it's gonna be awesome, astronaut!</Page>
+				<Page>Oooh, I wonder what you'll find down there.. I bet it's gonna be awesome, astronaut!</Page>
 		</Dialogue>
 	</DialogueNode>
 

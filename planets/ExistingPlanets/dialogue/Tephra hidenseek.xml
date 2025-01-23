@@ -29,8 +29,8 @@
 <DialogueNode>
 		<Name>Teph SW_1</Name>
 		<Dialogue>
-			<Page>*GASP* <![CDATA[<i>You've noticed it too, astronaut?!</i>]]></Page>
-			<Page>Where does it go, astronaut? Where does the purple rock in the museum go?!</Page>
+			<Page>*GASP* You've noticed it too, astronaut?!</Page>
+			<Page>Where does it go, astronaut? <![CDATA[<i>Where does the purple rock in the museum go?!</i>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -54,12 +54,13 @@
 <DialogueNode>
 		<Name>Teph SW_3</Name>
 		<Dialogue>
+			<Page>W-wha? You don't know about it?</Page>
 			<Page>Aw.. I thought you were gonna tell me something about it, astronaut - not the other way around..</Page>
-			<Page>But yup, Galena and I both saw the purple rock in the museum disappearing sometimes!</Page>
+			<Page>Um, well, basically, Galena and I both saw the purple rock in the museum disappearing sometimes.</Page>
 			<Page>And I don't mean when it jumps behind you and scares you.. <![CDATA[<Pause=1>]]> I mean <![CDATA[<i>when it disappears completely</i>]]> from the museum!</Page>
 			<Page>Galena and I both looked all over Timber Hearth to find where the purple rock goes when it disappears.. But we've never found the purple rock's <![CDATA[<color=orange>super secret hiding spot!</color>]]></Page>
 			<Page>I wonder where it's going when it disappears..</Page>
-			<Page>If you find out where the purple rock goes, promise you'll come back and tell us, astronaut!</Page>
+			<Page>If you find out where the purple rock goes, promise you'll come back and tell us, won't you?</Page>
 		</Dialogue>
 						 <RevealFacts>
      						   <FactID>TEPH R2</FactID>

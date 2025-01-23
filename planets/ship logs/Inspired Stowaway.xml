@@ -17,23 +17,31 @@
   <RumorFact>
              <IgnoreMoreToExplore/>
             <ID>INSP R1</ID>
+            <RumorName>The Inspired</RumorName>
+             <RumorNamePriority>1</RumorNamePriority>
             <Text>Gravity crystals from the Gravity Crystal Workshop were used in the construction of something called the Inspired.</Text>
          </RumorFact>
         <RumorFact>
              <IgnoreMoreToExplore/>
             <ID>INSP R1.5</ID>
+            <RumorName>The Inspired</RumorName>
+             <RumorNamePriority>1</RumorNamePriority>
             <Text>The Inspired used a lattice of gravity crystals to exploit something called the property of attraction.</Text>
          </RumorFact>
           <RumorFact>
              <IgnoreMoreToExplore/>
             <ID>INSP R2</ID>
             <SourceID>COMET_INTERIOR</SourceID>
+            <RumorName>The Inspired</RumorName>
+             <RumorNamePriority>1</RumorNamePriority>
             <Text>The Interloper was used as the model for the Inspired.</Text>
          </RumorFact>
         <RumorFact>
              <IgnoreMoreToExplore/>
             <ID>INSP R3</ID>
             <SourceID>DEEP_STORM_STATION</SourceID>
+            <RumorName>The Inspired</RumorName>
+             <RumorNamePriority>1</RumorNamePriority>
             <Text>A scroll in the Deep Storm Station reveals that the Inspired was built to bring destruction to the source of ghost matter.</Text>
                <AltText>
                         <Text>A scroll in the Deep Storm Station reveals that the Inspired was built to bring destruction to the source of the Interloper.</Text>
@@ -63,7 +71,7 @@
             <ID>INSP EX4</ID>
             <Text>The Inspired's construction used all available gravity crystals, and a white hole warp core powering the Deep Storm Station.</Text>
              <AltText>
-                        <Text>The Inspired's construction used all available gravity crystals, and a white hole warp core powering the Deep Storm Station. Using a lattice of gravity crystals, it would exploit the property of attraction.</Text>
+                        <Text>The Inspired's construction used all available gravity crystals, and a white hole warp core powering the Deep Storm Station. Using its lattice of gravity crystals, it would exploit the property of attraction.</Text>
                         <Condition>INSP R1.5</Condition>
                  </AltText>
         </ExploreFact>

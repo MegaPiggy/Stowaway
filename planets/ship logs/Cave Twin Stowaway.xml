@@ -22,12 +22,6 @@
             <SourceID>CT_CHERT</SourceID>
              <Text>Chert suggests exploring the Hourglass Twins' poles to be safe from the column of sand.</Text> 
         </RumorFact>
-         <RumorFact>
-            <ID>R_SLR R3</ID>
-            <RumorName>Hourglass Twins Poles</RumorName>
-            <SourceID>BH_LOCATOR</SourceID>
-             <Text>I found a Nomai recording near this site describing a second Quantum Moon Locator on Brittle Hollow.</Text> 
-        </RumorFact>
 
          <ExploreFact>
             <ID>R_SLR EX1</ID>

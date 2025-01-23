@@ -29,7 +29,7 @@
 		</Dialogue>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>The ghost matter.. goes away sometimes?</Text>
+				<Text>Ghost matter.. goes away sometimes?</Text>
 				<DialogueTarget>ArkoseNew1.5</DialogueTarget>		
 				<ConditionToCancel>ark1</ConditionToCancel>
 			</DialogueOption>

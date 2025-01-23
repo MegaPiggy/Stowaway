@@ -62,7 +62,7 @@
 		<Name>ModelRocketKid_Annoy</Name>
 		<Dialogue>
 			<Page>Stuff that.. disappears sometimes? Like, generally speaking?</Page>
-			<Page>Oh, I see... Are you talking about how the Hourglass Twins' sand column disappears sometimes?</Page>
+			<Page>OH! Are you talking about how the Hourglass Twins' sand column disappears sometimes?</Page>
 		</Dialogue>
 			 <DialogueOptionsList>
 			<DialogueOption>
@@ -75,12 +75,12 @@
 <DialogueNode>
 		<Name>ModelRocketKid_SW_Intro</Name>
 		<Dialogue>
-			<Page>Yeah! Didn't you know? That big column of sand ONLY appears when sand flows between the Hourglass Twins. It's been gone for a while!</Page>
-			<Page>I remember Chert had just taken off into space again the last time sand flowed between the Twins.. And that's weeks ago.</Page>
-				<Page>Oh, but don't worry, astronaut.. Chert said that sand should start flowing between the Twins again soon!</Page>
-				<Page>Chert told me that on the morning of your launch day - right as the sun rises over the village - the sand would start flowing between the Twins again at last!</Page>
+			<Page>Yeah! Didn't you know? That big column of sand ONLY appears when sand flows between the Hourglass Twins. It's been gone for a while! Just pull out your signalscope and look!</Page>
+			<Page>The last time sand flowed between the Twins was weeks ago, right before Chert took off into space again.</Page>
+				<Page>Oh, That reminds me! Chert told me when the sand would start flowing between the Twins again before they took off!</Page>
+				<Page>Chert said that on the morning of your launch day - right as the sun rises over the village - the sand would start flowing between the Twins again at last!</Page>
 				<Page>Isn't that lucky, astronaut? It feels like a good omen for your launch!</Page>
-				<Page>I haven't the faintest clue how Chert knows when the sand exchange happens so precisely - but their predictions have never been wrong before.</Page>
+				<Page>I have no idea how Chert seems to precisely know when sand flows between the Hourglass Twins - but their predictions've never been wrong before!</Page>
 				<Page>Since you're taking off soon, you should visit the Hourglass Twins to see the sand column before it goes away again, astronaut. I bet it's an incredible sight up close!</Page>
 			 </Dialogue>
 			  				<RevealFacts>
