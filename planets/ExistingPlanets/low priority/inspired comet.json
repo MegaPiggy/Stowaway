@@ -14,7 +14,7 @@
 			"value": 0
 		},
 		{
-			"time": 22.3,
+			"time": 22.2,
 			"value": 0
 		},
 		{
@@ -172,7 +172,7 @@
 	},
 
 	"Base": {
-		"surfaceSize": 300,
+		"surfaceSize": 200,
 		"gravityVolumePriority": 10,
 		"surfaceGravity": 15,
 		"soiOverride": 300,
