@@ -40,19 +40,19 @@
 		"notificationVolumes": [
 			{
 				"entryNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY!!", "duration": 100},
-				"exitNotification": {"displayMessage": ""},
+				"exitNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY!!"},
 				"parentPath": "Sector_SUN/Volumes_SUN/SupernovaVolume",
 				"radius": 2
 			},
 			{
 				"entryNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY!", "duration": 100},
-				"exitNotification": {"displayMessage": ""},
+				"exitNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY!"},
 				"parentPath": "Sector_SUN/Volumes_SUN/SupernovaVolume",
 				"radius": 3
 			},
 			{
 				"entryNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY", "duration": 100},
-				"exitNotification": {"displayMessage": ""},
+				"exitNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY"},
 				"parentPath": "Sector_SUN/Volumes_SUN/SupernovaVolume",
 				"radius": 8.5
 			}
