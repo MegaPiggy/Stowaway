@@ -5,7 +5,8 @@
 	"name": "BrambleIsland",
 	"removeChildren": [
 		"Sector_BrambleIsland/Interactables_BrambleIsland/Prefab_HEA_FuelTank",
-		"Sector_BrambleIsland/Geo_BrambleIsland/BatchedGroup/BatchedMeshRenderers_13"
+		"Sector_BrambleIsland/Geo_BrambleIsland/BatchedGroup/BatchedMeshRenderers_13",
+		"Sector_BrambleIsland/Interactables_BrambleIsland/DarkMatter_Submergible"
 	],
 	
 	"Volumes": {
@@ -38,6 +39,78 @@
 
 	
 		"details": [
+			{
+				"rename":"studysite gm 1",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"studysite gm 1 volume",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+				"position":{"x": -63.4664 ,"y": 17.6703,"z": 7.8726},
+				"rotation":{"x": 348.8915, "y": 312.498,"z": 11.7205},
+				"parentPath": "Sector_BrambleIsland/studysite gm 1",
+				"scale":1.2,
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},{
+				"rename":"studysite gm 1 WISPS",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": -63.2098,"y": 16.8281,"z": 7.5747},
+				"rotation":{"x": 349.9723 , "y": 309.6587,"z": 12.2417},
+				"parentPath": "Sector_BrambleIsland/studysite gm 1",
+				"scale":1.3,
+				"isRelativeToParent": false
+			},
+			{
+				"rename":"studysite gm 2",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"studysite gm 2 volume",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+				"position":{"x": -48.9997 ,"y": 20.0782,"z": 6.7319},
+				"rotation":{"x": 347.2244, "y": 328.622,"z": 7.5772},
+				"parentPath": "Sector_BrambleIsland/studysite gm 2",
+				"scale":1.5,
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},{
+				"rename":"studysite gm 2 WISPS",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": -49.4072,"y": 16.2634,"z": 7.0304},
+				"rotation":{"x": 12.6925, "y": 211.3146,"z": 7.717},
+				"scale": 2,
+				"parentPath": "Sector_BrambleIsland/studysite gm 2",
+				"isRelativeToParent": false
+			},
+			
+			{
+				"rename":"bramblevine gm",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"bramblevine 2 volume",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+				"position":{"x": 13.6843 ,"y": 8.8559,"z": -11.3022},
+				"rotation":{"x": 20.6967, "y": 124.6251,"z": 39.1992},
+				"parentPath": "Sector_BrambleIsland/bramblevine gm",
+				"scale":1,
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},{
+				"rename":"bramblevine WISPS",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 12.222,"y": 7.0601,"z": -10.7375},
+				"rotation":{"x": 14.4238, "y": 114.0422,"z": 4.4622},
+				"scale": 1.2,
+				"parentPath": "Sector_BrambleIsland/bramblevine gm",
+				"isRelativeToParent": false
+			},
+
+
 			{
 				"rename":"Bramble Tent 1",
 				"path":"TimberHearth_Body/Sector_TH/Tent wall 1",

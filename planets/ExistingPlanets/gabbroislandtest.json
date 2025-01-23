@@ -85,12 +85,17 @@
 			},
 
 			{
+				"rename":"ledgegate GM",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/"
+			},
+			{
 				"rename":"ledgegate GM volume",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
 				"position":{"x": -30.9492 ,"y": 11.9446,"z": 4.1087},
 				"rotation":{"x": 353.4803, "y": 158.5184,"z": 7.4884},
 				"scale":1.3,
 				"isRelativeToParent": true,
+				"parentPath": "Sector_GabbroIsland/ledgegate GM",
 				"removeChildren": ["ProbeVisuals"]
 			},
 			{
@@ -99,34 +104,30 @@
 				"position":{"x": -30.6719,"y": 11.0758,"z": 3.6922},
 				"rotation":{"x": 354.2083, "y": 155.8053,"z": 8.3745},
 				"scale":1.2,
-				"parentPath": "Sector_GabbroIsland/ledgegate GM volume",
-				"isRelativeToParent": false
+				"parentPath": "Sector_GabbroIsland/ledgegate GM",
+				"isRelativeToParent": true
 			},
 			{
 				"rename":"ledgegate GM notif",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume (1)/NotificationVolume/",
 				"position":{"x": -31.2073,"y": 11.298,"z": 2.1473},
 				"rotation":{"x": 359.4487,"y": 118.2582,"z": 11.1395},
+				"parentPath": "Sector_GabbroIsland/ledgegate GM",
 				"scale":2,
 				"isRelativeToParent": true
 			},
 
-
+			{
+				"rename":"cove GM otherend",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/"
+			},
 			{
 				"rename":"cove GM volume otherend",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
 				"position":{"x": 21.2969 ,"y": 2.1759,"z": 15.073},
 				"rotation":{"x": 358.6797, "y": 195.882,"z": 2.0656},
 				"scale":1.6,
-				"isRelativeToParent": true,
-				"removeChildren": ["ProbeVisuals"]
-			},
-			{
-				"rename":"cove GM volume gabbroend",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
-				"position":{"x": 0.1422 ,"y": 0.7268,"z": 35.5712},
-				"rotation":{"x": 358.6797, "y": 195.882,"z": 2.0656},
-				"scale":1.3,
+				"parentPath": "Sector_GabbroIsland/cove GM otherend",
 				"isRelativeToParent": true,
 				"removeChildren": ["ProbeVisuals"]
 			},
@@ -136,16 +137,31 @@
 				"position":{"x": 19.8635,"y": 0.7712,"z": 14.1688},
 				"rotation":{"x": 353.7679, "y": 194.1253,"z": 0.5927},
 				"scale":1.5,
-				"parentPath": "Sector_GabbroIsland/cove GM volume otherend",
-				"isRelativeToParent": false
+				"parentPath": "Sector_GabbroIsland/cove GM otherend",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"cove GM gabbroend",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/"
+			},
+			{
+				"rename":"cove GM volume gabbroend",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+				"position":{"x": 0.1422 ,"y": 0.7268,"z": 35.5712},
+				"rotation":{"x": 358.6797, "y": 195.882,"z": 2.0656},
+				"scale":1.3,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_GabbroIsland/cove GM gabbroend",
+				"removeChildren": ["ProbeVisuals"]
 			},
 			{
 				"rename":"gabbroend WISPS",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
-				"position":{"x": 0.4618,"y": -0.2337,"z": -0.6626},
+				"position":{"x": -0.676,"y": 0.2395,"z": 35.5712},
 				"rotation":{"x": 356.6818, "y": 299.0093,"z": 359.4424},
 				"scale":1.3,
-				"parentPath": "Sector_GabbroIsland/cove GM volume gabbroend",
+				"parentPath": "Sector_GabbroIsland/cove GM gabbroend",
 				"isRelativeToParent": true
 			},
 

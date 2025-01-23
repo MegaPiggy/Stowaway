@@ -73,12 +73,20 @@
 		],
 		"details":
 		[
-			
+			{
+				"rename":"Schematic shelves",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+				"position":{"x": 3.5,"y": -0.0002,"z": -13.2074},
+				"rotation": {"x": 0,"y": 19.938,"z": 0},
+				"isRelativeToParent": true
+			},
+				
 			{
 				"rename":"Schematic shelf 1",
 				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)/",
 				"position":{"x": -35.676,"y": 5.2712,"z": -16.7751},
 				"rotation": {"x": 356.6271 ,"y": 86.9863,"z": 87.0911},
+				"parentPath": "Sector_ConstructionYard/Schematic shelves",
 				"isRelativeToParent": true
 				},
 				{
@@ -86,6 +94,7 @@
 					"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)/",
 					"position":{"x": -35.6216,"y": 4.2284,"z": -16.7591},
 					"rotation": {"x": 356.6271 ,"y": 86.9863,"z": 87.0911},
+					"parentPath": "Sector_ConstructionYard/Schematic shelves",
 					"isRelativeToParent": true
 					},
 			{
@@ -113,10 +122,10 @@
 						"parentPath": "Sector_ConstructionYard/Yard Mural board"
 					},
 			{
-				"rename":"Bay chair",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
-				"position":{"x": -17.2136,"y": 2.5305,"z": -40.6465},
-				"rotation": {"x": 0.1621,"y": 266.6399,"z": 2.7592},
+				"rename":"Bay recorder statuebox",
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
+				"position":{"x": -17.4746,"y": 2.6032,"z": -39.4369},
+				"rotation": {"x": 359.9878,"y": 270.2523,"z": 2.7639},
 				"isRelativeToParent": true
 				},
 			{
@@ -134,7 +143,11 @@
 					"isRelativeToParent": true
 					},
 		
-		
+	
+			{
+				"rename":"Stowaway Water GM 1",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/"
+			},
 			{
 				"rename":"Stowaway Water GM volume 1",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
@@ -142,7 +155,22 @@
 				"rotation":{"x": 3.8578, "y": 177.1242,"z": 1.7233},
 				"stretch": {"x":0.8,"y": 0.4,"z": 2.3},
 				"isRelativeToParent": true,
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM 1",
 				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"stowaway wisps 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+				"position":{"x": 29.2874,"y": 1.1525,"z": -39.1637},
+				"rotation":{"x": 0.1608 , "y": 265.2335,"z": 1.9273},
+				"stretch": {"x":2,"y": 1,"z": 0.9},
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM 1",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Stowaway Water GM 2",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/"
 			},
 			{
 				"rename":"Stowaway Water GM volume 2",
@@ -151,44 +179,40 @@
 				"rotation":{"x": 3.8578, "y": 177.1242,"z": 1.7233},
 				"stretch": {"x":0.8,"y": 0.3,"z": 0.9},
 				"isRelativeToParent": true,
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM 2",
 				"removeChildren": ["ProbeVisuals"]
-			},
-			{
-				"rename":"stowaway wisps 1",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
-				"position":{"x": 27.3763 ,"y": 1.6454,"z": -38.832},
-				"rotation":{"x": 0.1395 , "y": 265.8638,"z": 1.929},
-				"stretch": {"x":1,"y": 0.8,"z": 1},
-				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 2",
-				"isRelativeToParent": false
 			},
 			{
 				"rename":"stowaway wisps 2",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
-				"position":{"x": 29.2874,"y": 1.1525,"z": -39.1637},
-				"rotation":{"x": 0.1608 , "y": 265.2335,"z": 1.9273},
-				"stretch": {"x":2,"y": 1,"z": 0.9},
-				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 1",
-				"isRelativeToParent": false
+				"position":{"x": 26.1399,"y": 1.6454,"z": -39.232},
+				"rotation":{"x": 0.1395 , "y": 265.8638,"z": 1.929},
+				"stretch": {"x":1,"y": 0.8,"z": 1},
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM 2",
+				"isRelativeToParent": true
 			},
 			{
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
 				"rename":"CYard warp pad GM notification",
-				"parentPath": "Sector_ConstructionYard/Stowaway Water GM volume 2",
+				"parentPath": "Sector_ConstructionYard/Stowaway Water GM 2",
 				"stretch": {"x":1.5,"y":1.5,"z":0.8},
 				"isRelativeToParent": true
 			},
 
 
 
-
 			{
-				"rename":"DSS GM volume warp pad 1",
+				"rename":"DSS warp pad GM",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/"
+			},
+			{
+				"rename":"DSS warp pad GM volume",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/DarkMatterVolume (2)",
 				"position":{"x": 1.5861,"y": 32.7446,"z": -32.2592},
 				"rotation":{"x": 3.6693, "y": 89.1852,"z": 179.8149},
 				"stretch": {"x":1.6,"y": 0.5,"z": 1.3},
 				"isRelativeToParent": true,
+				"parentPath": "Sector_ConstructionYard/DSS warp pad GM",
 				"removeChildren": ["ProbeVisuals","ObjectTrail"]
 			},
 			{
@@ -197,14 +221,15 @@
 				"position":{"x": 1.8717,"y": 35.0548,"z": -32.3837},
 				"rotation":{"x": 4.0592, "y": 87.8407,"z": 179.4551},
 				"stretch": {"x":1.2,"y": 1.5,"z": 1.2},
-				"parentPath": "Sector_ConstructionYard/DSS GM volume warp pad 1",
-				"isRelativeToParent": false
+				"parentPath": "Sector_ConstructionYard/DSS warp pad GM",
+				"isRelativeToParent": true
 			},
 			{
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_GhostFireEntrance/Interactables_GhostFireEntrance/NotificationVolume",
 				"rename":"CYard warp pad GM notification",
-				"parentPath": "Sector_ConstructionYard/DSS GM volume warp pad 1",
-				"scale":1.5,
+				"parentPath": "Sector_ConstructionYard/DSS warp pad GM",
+				"position":{"x": 0,"y": 32.7446,"z": -32.2592},
+				"stretch": {"x":2,"y": 1.5,"z": 0.8},
 				"isRelativeToParent": true
 			},
 
@@ -553,8 +578,8 @@
 			{
 				"rename": "Sanctuary sad recording",
 				"type": "recorder",
-				"position": {"x": -17.2118, "y": 3.1821, "z": -40.719},
-				"rotation": {"x": 357.994, "y": 300.0251,"z": 1.9018},
+				"position": {"x": -17.9627, "y": 3.6464, "z": -39.5605},
+				"rotation": {"x": 0.9538, "y": 300.5539,"z": 3.0854},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cassava sad.xml"
 			},
 		
@@ -573,6 +598,8 @@
 				"position": {"x": -35.2729, "y": 5.0605, "z": -15.5085},
 				"rotation": {"x": 5.1224, "y": 98.1334,"z": 58.6162},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/weapon schematic.xml",
+				"parentPath": "Sector_ConstructionYard/Schematic shelves",
+				"isRelativeToParent": true,
 				"seed":2
 			},
 			{
@@ -581,6 +608,8 @@
 				"position": {"x": -35.0121, "y": 4.5172, "z": -14.7808},
 				"rotation": {"x": 359.7966, "y": 85.773,"z": 61.6739},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cyard schematic opc.xml",
+				"parentPath": "Sector_ConstructionYard/Schematic shelves",
+				"isRelativeToParent": true,
 				"seed":8
 			},
 			{
