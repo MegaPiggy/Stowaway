@@ -61,6 +61,15 @@
 			"position": {"x":0,"y": 0,"z": 0},
 			"rotation": {"x":90,"y": 0,"z": 90},
 			"scale":100,
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"DSS proxy",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/models/JellyfishV proxy.prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":90,"y": 0,"z": 90},
+			"scale":100,
 			"keepLoaded": true,
 			"isRelativeToParent": true
 		},
