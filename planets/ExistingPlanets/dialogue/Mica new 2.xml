@@ -66,7 +66,7 @@
 		</Dialogue>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>The sand column.. disappears?</Text>
+				<Text>Uh.. The sand column disappears?</Text>
 				<DialogueTarget>ModelRocketKid_SW_Intro</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -75,17 +75,18 @@
 <DialogueNode>
 		<Name>ModelRocketKid_SW_Intro</Name>
 		<Dialogue>
-			<Page>Yeah! Didn't you know? That big column of sand ONLY appears when sand flows between the Hourglass Twins. It's been gone for a while! Just pull out your signalscope and look!</Page>
-			<Page>The last time sand flowed between the Twins was weeks ago, right before Chert took off into space again.</Page>
-				<Page>Oh, That reminds me! Chert told me when the sand would start flowing between the Twins again before they took off!</Page>
-				<Page>Chert said that on the morning of your launch day - right as the sun rises over the village - the sand would start flowing between the Twins again at last!</Page>
+			<Page>Yeah, didn't you know? Just pull out your signalscope and look! Sand hasn't flowed between the Hourglass Twins for a while now.</Page>
+			<Page>Without it, the Hourglass Twins don't really live up to their name, do they? It's just "The Twins", haha!</Page>
+				<Page>Oh, the sand should start flowing between the Twins again real soon, though!</Page>
+				<Page>Chert told me that on the morning of your launch day - right as the sun rises over the horizon in the village - the sand would start flowing between the Hourglass Twins.</Page>
 				<Page>Isn't that lucky, astronaut? It feels like a good omen for your launch!</Page>
-				<Page>I have no idea how Chert seems to precisely know when sand flows between the Hourglass Twins - but their predictions've never been wrong before!</Page>
+				<Page>I have no idea how Chert knows exactly when sand flows between the Hourglass Twins - but they've never been wrong about it before!</Page>
 				<Page>Since you're taking off soon, you should visit the Hourglass Twins to see the sand column before it goes away again, astronaut. I bet it's an incredible sight up close!</Page>
 			 </Dialogue>
 			  				<RevealFacts>
      						   <FactID>MICA EX1</FactID>
      						   <FactID>MICA EX2</FactID>
+     						   <FactID>MICA EX3</FactID>
     					  </RevealFacts>
 	</DialogueNode>
 

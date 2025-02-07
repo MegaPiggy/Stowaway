@@ -18,11 +18,11 @@
        </ExploreFact>
           <ExploreFact>
             <ID>MICA EX2</ID> 
-            <Text>According to Chert, sand would start flowing between the Hourglass Twins again on the morning of my launch day, right as the sun rises over the village.</Text>
+            <Text>According to Chert, sand would start flowing between the Hourglass Twins again on the morning of my launch day, right as the sun rises over the horizon in the village.</Text>
        </ExploreFact>
           <ExploreFact>
             <ID>MICA EX3</ID> 
-            <Text>Chert somehow knows precisely when sand flows between the Hourglass Twins.</Text>
+            <Text>Somehow, Chert knows exactly when sand flows between the Hourglass Twins.</Text>
        </ExploreFact>
 </Entry>
 
@@ -244,12 +244,7 @@
 
         <Curiosity>Stowaway</Curiosity>
 
-          <RumorFact>
-            <ID>Campsite R1</ID> 
-            <IgnoreMoreToExplore/>
-            <RumorName>Riebeck's Hunch</RumorName>
-            <Text>Riebeck thinks there might be a Nomai structure near the pools where I found the Nomai mural in Timber Hearth's waterways.</Text> 
-        </RumorFact>
+         
            <RumorFact>
             <ID>Campsite R2</ID> 
             <IgnoreMoreToExplore/>

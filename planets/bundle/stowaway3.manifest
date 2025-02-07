@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 958391395
+CRC: 2648306510
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0118870ad14a460bef4a7e8b186b3575
+    Hash: 5f142cddfafb2252a66c257e21692837
   TypeTreeHash:
     serializedVersion: 2
     Hash: dfcac9cd7eca92803e63448e3ff08881
@@ -141,6 +141,7 @@ Assets:
 - Assets/Models/TheInspired (1).prefab
 - Assets/Models/empty switch.prefab
 - Assets/Models/player nosuit.prefab
+- Assets/Models/Ash Clouds.prefab
 - Assets/Models/th portrait.prefab
 - Assets/Models/JellyfishV proxy.prefab
 - Assets/Models/et portrait.prefab

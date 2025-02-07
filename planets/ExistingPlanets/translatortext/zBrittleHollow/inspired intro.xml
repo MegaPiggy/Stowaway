@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: All available gravity crystals from the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> have been transported to <![CDATA[<color=lightblue>Giant's Deep.</color>]]>
+		CASSAVA: All available gravity crystals from the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> have been put to use.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -13,7 +13,15 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: You have my gratitude for your work, Kousa.. With this, the <![CDATA[<color=orange>Inspired's</color>]]> construction is underway.
+		CASSAVA: Kousa.. I am proud to have been your apprentice.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		CASSAVA: With this, the <![CDATA[<color=orange>Inspired's</color>]]> construction is underway.
 		</Text>
 	</TextBlock>
 
@@ -21,11 +29,11 @@
 	
 		<RevealFact>
 			<FactID>INSP RI</FactID>
-			<Condition>2</Condition>
+			<Condition>3</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>GSHOP EX5</FactID>
-			<Condition>2</Condition>
+			<Condition>3</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

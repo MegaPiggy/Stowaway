@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		COLEUS: Friends, the forge has asked for one more shipment of ore from our mines to be delivered to <![CDATA[<color=lightblue>Hollow's Lantern.</color>]]>
+		COLEUS: Friends, the forge has asked for another shipment of ore from our mines to be delivered to <![CDATA[<color=lightblue>Hollow's Lantern!</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: We will need to put extra eyes into inspecting the protective shell of the <![CDATA[<color=orange>Sanctuary</color>]]> before it is sealed completely, to ensure the surrounding water does not seep in.
+		COLEUS: Like before, we will need to put extra eyes into inspecting the protective shell of the <![CDATA[<color=orange>Sanctuary</color>]]> before it is sealed completely.
 				</Text>
 	</TextBlock>
 

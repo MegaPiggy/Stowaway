@@ -442,20 +442,11 @@
 		<Name>Riebeck_HUH</Name>
 		<Dialogue>
 				<Page>Oh, wow. Wow. This is a serious mystery we have on our hands... This is a whole new page of Hearthian history we've never even known about!</Page>
-			<Page>Um, seeing as you're the only one with a translator tool right now, <![CDATA[<size=20>]]>and I'm a little paralyzed above a black hole,<![CDATA[</size>]]> I'll um, be counting on you to find out what you can about this exciting mystery for now.</Page>
-			<Page>Hey, um, if you want a lead to go on, I might have one, though!</Page>
-			<Page>You said you found this Nomai mural in Timber Hearth's waterways, right? That's clearly where our ancestors lived, even in the Nomai's time.</Page>
-			<Page>Um, we don't know much about the Nomai, but from what we do know, they really loved nature. I can't see them just intentionally leaving a big tablet polluting the place our ancestors lived..</Page>
-			<Page>It's a bit of a long shot, but.. Do you think there might be a Nomai structure somewhere around the pools where you found the mural?</Page>
-			<Page>If there is a Nomai structure there, maybe the tablet might have been lost into the water there somehow, was what I was thinking. It might be worth a look!</Page>
+			<Page>Um, seeing as you're the only one with a translator tool right now, <![CDATA[<size=20>]]>and I'm a little paralyzed above a black hole,<![CDATA[</size>]]> I hope I can count on you to find out what you can about this exciting mystery!</Page>
 			<Page>Oh! If you find anything, I'd SERIOUSLY love to hear about your findings! <![CDATA[<size=20>]]>Um, if it's not too much trouble!<![CDATA[</size>]]></Page>
-			<Page>I'll um, probably still be stuck here by the time you get back..</Page>
 		</Dialogue> 
-						<RevealFacts>
-     						   <FactID>Campsite R1</FactID>
-    					  </RevealFacts>
 	</DialogueNode>
-
+	
 <DialogueNode>
 		<Name>Riebeck_NT</Name>
 		<Dialogue>
@@ -472,11 +463,6 @@
 			<Page>Y-yeah! That's what we're here to...</Page>
 			<Page>Oh.. Oh stars. I just saw a huge rock being spaghettified into the black hole in the distance..... Nope. Nope.</Page>
 			 <Page>Y-You go on ahead. M-M-Make some huge discoveries we'll both be proud of!</Page>
-			<Page>O-oh, before you go, um, I might have a lead for you to go on!</Page>
-			<Page>You said you found this Nomai mural in Timber Hearth's waterways, right? That's clearly where our ancestors lived, even in the Nomai's time.</Page>
-			<Page>Um, we don't know much about the Nomai, but from what we do know, they really loved nature. I can't see them just intentionally leaving a big tablet polluting the place our ancestors lived..</Page>
-			<Page>It's a bit of a long shot, but.. Do you think there might be a Nomai structure somewhere around the pools where you found the mural?</Page>
-			<Page>If there is a Nomai structure there, maybe the tablet might have been lost into the water there somehow, was what I was thinking. It might be worth a look!</Page>
 		</Dialogue>
 	</DialogueNode>
 
