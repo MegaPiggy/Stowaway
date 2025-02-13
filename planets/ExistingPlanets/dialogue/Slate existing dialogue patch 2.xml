@@ -1,0 +1,243 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+	<NameField>Slate</NameField>
+
+
+	<DialogueNode>
+		<Name>Scientist1B</Name>
+		<DialogueOptionsList>
+		<DialogueOption>
+			<CancelledCondition>I_Join</CancelledCondition>
+				<Text>I think I've seen everything there is to see out there.</Text>
+				<DialogueTarget>ScientistAnswer_QuitA</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+			<CancelledCondition>I_Join</CancelledCondition>
+			<RequiredCondition>Slate_Talked</RequiredCondition>
+				<Text>On second thoughts? I'm ready to get into space now!</Text>
+				<DialogueTarget>ScientistAnswer_JoinA</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+	<DialogueNode>
+		<Name>ScientistAnswer38</Name>
+<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What if I don't know there's ghost matter somewhere?</Text>
+				<DialogueTarget>ScientistAnswer38_A</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+		<DialogueNode>
+		<Name>ScientistAnswer38_A</Name>
+		<Dialogue>
+			<Page>Stars above, your suit tells you when there's ghost matter anywhere nearby! You have your suit on at all times you're off-planet, right? RIGHT?</Page>
+			<Page>Your suit has a built-in sensor that should alert you whenever there's ghost matter nearby at all, so it's basically impossible to just run into a patch without warning.</Page>
+			<Page>Once you know there's ghost matter around, just use the scout to look out for it.</Page>
+			<Page>You can even switch the scout to a handheld photo mode that lets you take pictures without launching it first. It's honestly out of my hands if you still somehow die to ghost matter with all these tools.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+	<!-- ################################################## -->
+	<!-- ###################VISUAL BREAK################### -->
+	<!-- ################################################## -->
+
+
+<DialogueNode>
+		<Name>Scientist5</Name>
+<DialogueOptionsList>
+
+			<DialogueOption>
+			<CancelledCondition>I_Join</CancelledCondition>
+				<Text>Hey Slate, I think I know pretty much everything there is to know.</Text>
+				<DialogueTarget>ScientistAnswer_QuitA</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+			<CancelledCondition>I_Join</CancelledCondition>
+			<RequiredCondition>Slate_Talked</RequiredCondition>
+				<Text>On second thoughts? I'm ready to get into space now!</Text>
+				<DialogueTarget>ScientistAnswer_JoinA</DialogueTarget>
+			</DialogueOption>
+
+		</DialogueOptionsList>
+	</DialogueNode>
+
+		<DialogueNode>
+		<Name>ScientistAnswer_QuitA</Name>
+		<Dialogue>
+			<Page>Hey, you still half-asleep? <![CDATA[<Pause=2>]]> Today's your launch day, you goof. You haven't even left the planet!</Page>
+			<Page>And for the record, no, photos of space don't count as seeing space.</Page>
+			<Page>Come on, don't you wanna head into space and see what's out there for yourself?</Page>
+		</Dialogue>
+<DialogueOptionsList>
+			<DialogueOption>
+				<Text>I just.. feel like maybe it's time to move on.</Text>
+				<DialogueTarget>ScientistAnswer_QuitB</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>Yeah, I guess so.</Text>
+				<DialogueTarget>ScientistAnswer_QuitZ</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ScientistAnswer_QuitB</Name>
+		<Dialogue>
+			<Page>Move on? Uh...</Page>
+			<Page>Are you saying you wanna.. quit the space program?</Page>
+		</Dialogue>
+<DialogueOptionsList>
+			<DialogueOption>
+				<Text>You know what? Why not.</Text>
+				<DialogueTarget>ScientistAnswer_QuitC</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>Uh, on second thoughts...</Text>
+				<DialogueTarget>ScientistAnswer_QuitZ_2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ScientistAnswer_QuitC</Name>
+		<SetCondition>I_Quit</SetCondition>
+		<SetCondition>Slate_Talked</SetCondition>
+		<Dialogue>
+
+			<Page>Sheesh.. First time I’ve had a cadet quit on the first day of their solo voyage..</Page>
+			<Page>Alright. Hand over the keys to your ship then.</Page>
+			<Page>...</Page>
+			<Page>Hey, you know this ain’t final or anything, right? <![CDATA[<Pause=1>]]> Just talk to me if you have a change of heart. I need someone to test if those new retro boosters stay on.</Page>	
+			<Page>Oh, I know what might help.</Page>
+			<Page>Why don’t you go talk to the kids around the village?</Page>
+			<Page>Those little hatchlings are basically endless pools of energy and questions. If you really think you know as much as you do, let's see if you can answer all the questions they have.</Page>
+			<Page>You know.. Even if you don't feel like there's anything worth exploring, you might find something that means a lot to someone else.</Page>
+			</Dialogue>
+				<RevealFacts>
+     						   <FactID>MICA R1</FactID>
+     						   <FactID>TEPH R1</FactID>
+     						   <FactID>GAL R1</FactID>
+     						   <FactID>ARK R1</FactID>
+     						   <FactID>MOR R1</FactID>
+    					  </RevealFacts>
+<DialogueOptionsList>
+				<DialogueOption>
+				<Text>Alright alright, I'll talk to them.</Text>
+				<DialogueTarget>Slate_Kids_Gettoit</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>Where are the hatchlings again?</Text>
+				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ScientistAnswer_JoinA</Name>
+		<SetCondition>I_Join</SetCondition>
+		<Dialogue>
+			<Page>Had a change of mind, I see. Did talking to those little gills give you some new drive to explore?</Page>
+			<Page>Well! I've got no objections if you're raring to go now.</Page>
+			<Page>Go on, fly off and find whatever it is you wanna find out there!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+
+	<!-- ################################################## -->
+	<!-- ###################VISUAL BREAK################### -->
+	<!-- ################################################## -->
+
+<DialogueNode>
+		<Name>ScientistAnswer_QuitZ</Name>
+		<Dialogue>
+			<Page>That's the spirit!</Page>
+			<Page>On your way then, you rascal.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ScientistAnswer_QuitZ_2</Name>
+		<Dialogue>
+			<Page>That's the spirit!</Page>
+			<Page>On your way then, you rascal.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>Slate_Kids_Gettoit</Name>
+		<Dialogue>
+			<Page>Good. Just remember, there's five of them little gills around the village. Mica, Tephra, Galena, Arkose, and Moraine.</Page>
+			<Page>Hopefully one of them will be able to guilt-trip.. I mean, give you some new spark to go into space.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>Slate_Kids_Direction</Name>
+		<Dialogue>
+			<Page>Stars above, just look around the village! They're all probably playing around somewhere.</Page>
+			<Page>Mica's probably still fiddling with the model rocket, just up the hill.</Page>
+				<Page>Tephra and Galena should be playing in the village somewhere.</Page>
+				<Page>I saw those two trekking outside the village recently for whatever reason, though - so don't take my word on that.</Page>
+				<Page>Arkose's probably still throwing rocks into the patch of ghost matter at the top of the village.</Page>
+				<Page>Still uh.. no idea why they do that all day.</Page>
+					<Page>And Moraine's probably stargazing on that big tree in the village, making sure Marl doesn't chop it down.</Page>
+					<Page>I wonder if that Marl'll ever let go of that grudge.. No good comes outta holding a grudge against a tree, y'know?</Page>
+						<Page>Just get a move on - you'll probably find all of 'em on the way up to the observatory for those launch codes, anyway.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+</DialogueTree>
+
+
+
+
+<!--
+	
+
+"My ship’s reactor went critical and I died in the resulting explosion."
+	<DialogueNode>
+		<Name>ReactorCriticalDeath</Name>
+		<Dialogue>
+			<Page>Ugh, I get that nightmare, too.</Page>
+			<Page>Where you die, I mean. You’re not exactly a rocket scientist, you know? Me, I could fix a reactor gone critical in my sleep.</Page>
+			<Page>If your ship reactor’s cooked, best thing <![CDATA[<i>]]>you<![CDATA[</i>]]> can do is to put as much distance as you can between you and the ship.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+"I ran out of oxygen and suffocated."
+	<DialogueNode>
+		<Name>SuffocatedDeath</Name>
+		<Dialogue>
+			<Page>Haha, that’s a classic!</Page>
+			<Page>Don’t worry about it too much — I don’t know an Outer Wilds Ventures member who <![CDATA[<i>]]>hasn’t<![CDATA[</i>]]> had that dream.</Page>
+			<Page>But listen, as long as you keep an eye on your suit’s oxygen levels and remember to refill it inside your ship or wherever you find trees, you’ll be fine.</Page>
+			<Page>Gossan’s still sore that the jetpack can run on oxygen once it’s out of fuel, but hey, it hasn’t killed anyone yet.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+"I got crushed to death on the Hourglass Twins."
+	<DialogueNode>
+		<Name>CrushedDeath</Name>
+		<Dialogue>
+			<Page>Yeesh, that’s a gnarly dream to have right before a first launch.</Page>
+			<Page>You’ll want to stay out of the Hourglass Twins’ sand stream, for sure. And watch out for rising sand levels whenever you’re inside a cave.</Page>
+			<Page>Still, Chert hasn’t managed to get buried alive out there. And they’re <![CDATA[<i>]]>tiny<![CDATA[</i>]]>.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+"I just self-immolated on that campfire and you didn’t even notice."
+	<DialogueNode>
+		<Name>SillyFireDeath</Name>
+		<Dialogue>
+			<Page>Feel free to keep your disturbing and violent dreams to yourself. I don’t feel like being traumatized today, thanks.</Page>
+		</Dialogue>
+	</DialogueNode>
+-->

@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: By keeping these doors closed, we can ensure that any native life that is accidentally transported here from <![CDATA[<color=lightblue>Timber Hearth</color>]]> does not wander far without protection or oxygen.
+		CLARY: Oeno is right, friends. By keeping these doors closed, we can ensure that any native life accidentally transported here from <![CDATA[<color=lightblue>Timber Hearth</color>]]> does not wander far without protection or oxygen!
 		</Text>
 	</TextBlock>
 			<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		YARROW: I recall the <![CDATA[<color=orange>solar towers</color>]]> on each of <![CDATA[<color=lightblue>Ash Twin's</color>]]> poles are controlled by similar mechanisms.. Perhaps we should travel to both towers to investigate if the same thing occurs there, Oeno!
+		CLARY: There is another tower on <![CDATA[<color=lightblue>Ash Twin</color>]]> with rotating doors, Oeno. We should visit that tower to investigate if the same thing occurs there!
 		</Text>
 	</TextBlock>
 	
@@ -55,22 +55,14 @@
 			<FactID>TH Tower R1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
+
 		<RevealFact>
 			<FactID>TH Tower EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
-
-		<RevealFact>
-			<FactID>SLR_T R1</FactID>
-			<Condition>6</Condition>
-		</RevealFact>
 		<RevealFact>
 			<FactID>TH Tower EX2</FactID>
 			<Condition>2</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>TH Tower EX2.5</FactID>
-			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>TH Tower EX3</FactID>

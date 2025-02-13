@@ -8,7 +8,7 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>MICA R1</RequiredLogCondition>
-				<Text>Hey, Mica. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>I....... might have quit the space program.</Text>
 				<DialogueTarget>ModelRocketKid_Annoy</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -23,7 +23,7 @@
 		<Name>ModelRocketKid_Sand2</Name>
 		<Dialogue>
 			<Page>Wha? Are you still half-awake from your nap, astronaut? You musta had some crazy dreams!</Page>
-			<Page>Whatever. Let's hear your ideas for what causes the twins' weird shifting sands, astronaut!</Page>
+			<Page>Eh, whatever. Let's hear your ideas for what causes the twins' weird shifting sands, astronaut!</Page>
 				 <DialogueOptionsList>
 					<DialogueOption>
 					<RequiredPersistentCondition>Chert_Natural</RequiredPersistentCondition>
@@ -61,12 +61,12 @@
 <DialogueNode>
 		<Name>ModelRocketKid_Annoy</Name>
 		<Dialogue>
-			<Page>Stuff that.. disappears sometimes? Like, generally speaking?</Page>
-			<Page>OH! Are you talking about how the Hourglass Twins' sand column disappears sometimes?</Page>
+			<Page>WHAT?!</Page>
+			<Page>But.. But why?! I thought you were so excited to go into space the other day!</Page>
 		</Dialogue>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>Uh.. The sand column disappears?</Text>
+				<Text>There's just nothing left for me to explore!</Text>
 				<DialogueTarget>ModelRocketKid_SW_Intro</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>

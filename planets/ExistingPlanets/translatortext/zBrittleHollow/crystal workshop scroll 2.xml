@@ -32,7 +32,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		KOUSA: The storm shelter is a device that generates a gravity field designed to hold Nomai in place, perfect for protecting Nomai in zero-gravity.
+		KOUSA: The storm shelter is a device that generates a gravity field designed to hold Nomai in place, perfect for protecting Nomai from strong winds.
 		</Text>
 	</TextBlock>
 
@@ -78,11 +78,11 @@
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>BH_H EX4</FactID>
+			<FactID>BH_H EX2</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
 				<RevealFact>
-			<FactID>BH_H EX5</FactID>
+			<FactID>BH_H EX3</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
 			<RevealFact>

@@ -10,7 +10,7 @@
 		"cloudsPrefab": "quantumMoon",
 		"outerCloudRadius": 145,
 		"innerCloudRadius": 135,
-		"tint": {"r": 1,"g": 0,"b": 0,"a": 1},
+		"tint": {"r": 255,"g": 70,"b": 0,"a": 255},
 		"rotationSpeed": 0,
 		"capPath": "planets/assets/ash clouds.png",
 		"texturePath": "planets/assets/ash clouds.png"

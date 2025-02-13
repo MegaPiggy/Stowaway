@@ -13,7 +13,7 @@
         </RumorFact>
           <RumorFact>
             <ID>GD Tower R2</ID>
-             <Text>Two Nomai debated about some sort of safety test while waiting outside this tower to travel to something called the Deep Storm Station.</Text> 
+             <Text>Two Nomai debated a safety test while waiting outside this tower to travel to something called the Deep Storm Station.</Text> 
         </RumorFact>
        
        <ExploreFact>
@@ -76,11 +76,7 @@
         </ExploreFact>
        <ExploreFact>
             <ID>TH Tower EX2</ID>
-             <Text>The Nomai kept the rotating doors of this tower closed to keep native life from Timber Hearth transported there from wandering any farther without protection and oxygen.</Text> 
-        </ExploreFact>
-        <ExploreFact>
-            <ID>TH Tower EX2.5</ID> 
-            <Text>Rotating doors are controlled by sight through vision orbs.</Text> 
+             <Text>The Nomai kept the rotating doors of this tower closed to keep native life from Timber Hearth from wandering any farther without protection and oxygen.</Text> 
         </ExploreFact>
        <ExploreFact>
             <ID>TH Tower EX3</ID> 
@@ -88,7 +84,7 @@
         </ExploreFact>
          <ExploreFact>
             <ID>TH Tower EX4</ID> 
-            <Text>A Nomai named Yarrow suggested traveling to the solar towers on Ash Twin's poles to investigate if the vision orbs there experienced the same issue.</Text> 
+            <Text>Oeno planned to investigate this issue further at the other tower on Ash Twin with rotating doors.</Text> 
         </ExploreFact>
  </Entry>
 
@@ -155,16 +151,12 @@
             <Name>Solar Towers</Name>
              <Curiosity>None</Curiosity>
 
-          <RumorFact>
-            <ID>SLR_T R1</ID>
-             <Text>The Nomai traveled to the solar towers on Ash Twin's poles to investigate if their vision orbs were experiencing similar issues.</Text> 
-        </RumorFact>
       <RumorFact>
-            <ID>SLR_T R2</ID>
+            <ID>SLR_T R1</ID>
             <IgnoreMoreToExplore/>
             <RumorName>Hourglass Twins Poles</RumorName>
             <SourceID>CT_CHERT</SourceID>
-             <Text>Chert suggests exploring the Hourglass Twins' poles to be safe from the column of sand.</Text> 
+             <Text>Chert suggests exploring Ash Twin's poles to keep safe from the column of sand.</Text> 
         </RumorFact>
 
          <ExploreFact>
@@ -172,18 +164,13 @@
              <Text>Towers installed with colossal solar panels constructed at both of Ash Twin's poles.</Text> 
         </ExploreFact>
       <ExploreFact>
-            <ID>SLR_T EX5</ID>
-             <Text>The Nomai did not observe issues with the solar towers' vision orbs. They planned to investigate the issue further at the other tower on Ash Twin with rotating doors.</Text> 
+            <ID>SLR_T EX2</ID>
+             <Text>The Hourglass Twins' poles are completely safe from the sand funnel.</Text> 
         </ExploreFact>
-        
      
          <ExploreFact>
-            <ID>SLR_T EX2</ID>
-             <Text>The solar towers on Ash Twin were built on the planet's poles to avoid something called the sunless day.</Text> 
-        </ExploreFact>
-         <ExploreFact>
             <ID>SLR_T EX3</ID>
-             <Text>The sand funnel between the Hourglass Twins follows the sunless day.</Text> 
+             <Text>The solar towers on Ash Twin were built on the planet's poles to avoid something called the sunless day.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>SLR_T EX4</ID>

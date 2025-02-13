@@ -60,37 +60,31 @@
             <RumorName>Storm Shelter Scroll</RumorName>
             <Text>A Nomai named Kousa left a scroll in the Hanging City that goes into more detail about the storm shelter.</Text> 
         </RumorFact>
-         <RumorFact>
-            <IgnoreMoreToExplore/>
-            <ID>BH_H R2</ID>
-            <RumorName>Hanging City Game</RumorName>
-            <Text>A Nomai named Laevi promised to teach his brother some sort of secret in the Hanging City.</Text> 
-        </RumorFact>
 
         <ExploreFact>
             <ID>BH_H EX1</ID> 
             <Text>Artificial gravity highways that allow one to ascend the Hanging City's districts.</Text> 
         </ExploreFact>
-         <ExploreFact>
-            <ID>BH_H EX3</ID>
-            <Text>A warp transmitter requires a connected warp receiver to function.</Text> 
-     </ExploreFact>
 
          <ExploreFact>
-            <ID>BH_H EX4</ID> 
-            <Text>Storm shelters generate a gravity field to protect Nomai in zero-gravity.</Text> 
+            <ID>BH_H EX2</ID> 
+            <Text>Storm shelters were engineered to protect Nomai from the strong winds on Giant's Deep.</Text> 
         </ExploreFact>
             <ExploreFact>
-            <ID>BH_H EX5</ID> 
+            <ID>BH_H EX3</ID> 
             <Text>The Sunless City contributed to the invention of the storm shelter, allowing the device to autonomously power on and off.</Text> 
         </ExploreFact>
              <ExploreFact>
-            <ID>BH_H EX6</ID> 
-            <Text>Two Nomai children here played a game to see who could jump higher. One was unable to jump as high as the other did, and was told it was because they were now on Brittle Hollow's north pole.</Text> 
+            <ID>BH_H EX4</ID> 
+            <Text>Projection walls allow Nomai to communicate remotely, sharing anything written on both connected walls.</Text> 
         </ExploreFact>
-          <ExploreFact>
-            <ID>BH_H EX7</ID> 
-            <Text>A Nomai named Laevi promised to teach his brother how to jump to greater heights on Ash Twin.</Text> 
+             <ExploreFact>
+            <ID>BH_H EX5</ID> 
+            <Text>Incoming messages on a projection wall are always displayed in an orange color.</Text> 
+        </ExploreFact>
+             <ExploreFact>
+            <ID>BH_H EX6</ID> 
+            <Text>The Nomai's projection walls were an iteration on their Vessel's communication network.</Text> 
         </ExploreFact>
       
 </Entry>

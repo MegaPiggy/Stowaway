@@ -1,0 +1,84 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	Clue should be guiding players towards rotating doors on warp towers activating on their own
+	Actors should be
+	Context should be Pye visiting the solar tower crew? One of the members warping from TH notices?
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		CLARY: Friends, sand is pouring towards <![CDATA[<color=lightblue>Ember Twin</color>]]> right now! We should cease construction of the <![CDATA[<color=orange>solar tower</color>]]> until it stops!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		YARROW: It is alright, Clary! On the Hourglass Twins' poles, we are completely safe from the sand funnel.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		CLARY: Oh? I was not aware of that.. Perhaps I should spend more time away from <![CDATA[<color=lightblue>Brittle Hollow</color>]]> to learn more about the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		CLARY: For instance, I am not even sure what causes this strange transfer of sand between the <![CDATA[<color=lightblue>Hourglass Twins!</color>]]>
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		YARROW: Oh! I would love to explain it to you, Clary!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		YARROW: Have you seen the <![CDATA[<color=orange>Hourglass Observatory</color>]]> in orbit around the <![CDATA[<color=lightblue>Hourglass Twins?</color>]]>
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		YARROW: If you accompany me there, I'd be happy to explain the mechanisms behind the sand transfer to you!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		CLARY: I'd be thrilled to join you at the <![CDATA[<color=orange>Hourglass Observatory,</color>]]> Yarrow!
+		</Text>
+	</TextBlock>
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>SLR_T EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>SLR_T EX2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

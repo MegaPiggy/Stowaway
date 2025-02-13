@@ -7,7 +7,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		SOLANUM: Ilex, I apologize for the wait! I did not think you would reach <![CDATA[<color=lightblue>Ember Twin</color>]]> so quickly.
+		BELLS: Friends, what incredible devices you have constructed in our separation... To think you have built a device capable of tracking the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> precise location at all times!
 		</Text>
 	</TextBlock>
 
@@ -16,7 +16,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		ILEX: It was only a short wait! I am simply honored to be here to support your pilgrimage, my friend.
+		ANNONA: I am pleased you were able to gleam the <![CDATA[<color=orange>Quantum Moon Locator's</color>]]> purpose so clearly! It is heartwarming to be able to share all the things we have built and done in our time apart after the crash, my friends.
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		SOLANUM: You have my gratitude! With your help, I shall be able to dedicate my full focus to calculating a precise shuttle trajectory!
+		ANNONA: The artificial gravity technology developed on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> is particularly impressive.. I eagerly await the day Nomai on <![CDATA[<color=lightblue>Ember Twin</color>]]> will be able to visit you by a shuttle of our own.
 		</Text>
 	</TextBlock>
 
@@ -34,7 +34,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		ILEX: But, I am curious, Solanum.. Why did you not choose to use the other <![CDATA[<color=orange>Quantum Moon Locator</color>]]> built on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> for this task?
+		BELLS: An update: Annona, I only just noticed this locator only tracks five of the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> orbits around the star system.. Why is that?
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		SOLANUM: Wait.. There is a second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> somewhere on <![CDATA[<color=lightblue>Brittle Hollow?</color>]]> This is the first time I have heard of it!
+		ANNONA: We have theorized the existence of a sixth location, but we have not yet been able to confirm this hypothesis - let alone track this hypothetical orbit. Have the Nomai on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> already found a method to do so?
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		ILEX: There is! I was curious why you did not use this newer locator - especially when it is able to track when the <![CDATA[<color=lightblue>Quantum Moon</color>]]> visits the sixth location, unlike this locator!
+		BELLS: I am unsure how it functions exactly, but.. I am fairly sure the <![CDATA[<color=orange>Quantum Moon Locator on Brittle Hollow</color>]]> is able to track the <![CDATA[<color=lightblue>Quantum Moon,</color>]]> even when it visits the sixth location!
 		</Text>
 	</TextBlock>
 
@@ -61,7 +61,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		SOLANUM: That sounds deeply intriguing! I wonder why Bells never mentioned this locator to me.. Would it have made my pilgrimage too simple?
+		ANNONA: How intriguing.. Bells, would you mind guiding me to this <![CDATA[<color=orange>Sixth Location Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> sometime? I would be quite keen to learn more about it.
 		</Text>
 	</TextBlock>
 
@@ -70,7 +70,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		SOLANUM: I shall be returning to <![CDATA[<color=lightblue>Brittle Hollow</color>]]> shortly to begin my expedition.
+		ANNONA: Though it would be thrilling to explore <![CDATA[<color=lightblue>Brittle Hollow</color>]]> on my own, I would prefer not to become lost searching for this <![CDATA[<color=orange>Sixth Location Locator!</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -78,7 +78,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		SOLANUM: If time allows, I shall try to find this second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> to learn what secrets it holds!
+		BELLS: Of course! It would be my honor, my old friend.
 		</Text>
 	</TextBlock>
 

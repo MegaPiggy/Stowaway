@@ -8,7 +8,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		BUR: Oh, this heat.. Friends, why did we not wait for a sunless day to begin work on the <![CDATA[<color=orange>solar tower?</color>]]>
+		BUR: Oh, I cannot stand this heat any longer.. Friends, why did we not wait for a sunless day to begin work on the <![CDATA[<color=orange>solar tower?</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -23,10 +23,10 @@
 
 	<TextBlock>
 		<ID>3</ID>
-		<ParentID>2</ParentID>
+		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		YARROW: We could not, Bur.. We chose to build the <![CDATA[<color=orange>solar tower</color>]]> here, precisely because the north and south poles do not experience sunless days.
+		YARROW: Unfortunately, a sunless day would not protect us here, Bur.. We specifically chose to build the <![CDATA[<color=orange>solar towers</color>]]> on Ash Twin's poles to avoid the sunless day!
 		</Text>
 	</TextBlock>
 
@@ -35,7 +35,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		YARROW: Furthermore, it is due to those sunless days that we will need to soon relocate those solar panels on <![CDATA[<color=lightblue>Ember Twin..</color>]]>
+		YARROW: Furthermore, it is due to those sunless days that we will soon need to relocate the solar panels on <![CDATA[<color=lightblue>Ember Twin.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		YARROW: While we rest in the shade, Melorae: has a <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels been decided yet?
+		YARROW: Melorae, has a <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels been decided yet?
 		</Text>
 	</TextBlock>
 
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		MELORAE: It has! So far, we have settled on a grassy plateau on <![CDATA[<color=lightblue>Ember Twin's</color>]]> surface, directly above the <![CDATA[<color=orange>Sunless City.</color>]]>
+		MELORAE: So far, we have settled on a grassy plateau on <![CDATA[<color=lightblue>Ember Twin's</color>]]> surface, directly above the <![CDATA[<color=orange>Sunless City!</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -69,7 +69,7 @@
 	<TextBlock>
 		<ID>8</ID>
 		<LocationB />
-		<ParentID>7</ParentID>
+		<ParentID>6</ParentID>
 		<Text>
 		YARROW: That sounds promising! I shall visit this <![CDATA[<color=orange>relocation site</color>]]> to see it for myself soon.
 		</Text>
@@ -84,12 +84,8 @@
 			<Condition>1</Condition>
 		</RevealFact>
 			<RevealFact>
-			<FactID>SLR_T EX2</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
-			<RevealFact>
 			<FactID>SLR_T EX3</FactID>
-			<Condition>7</Condition>
+			<Condition>3</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>SLR_T EX4</FactID>

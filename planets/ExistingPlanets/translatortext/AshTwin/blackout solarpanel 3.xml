@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		RAMIE: Is this the <![CDATA[<color=orange>relocation site</color>]]> you had in mind, Melorae?
+		MELORAE: Ramie, the <![CDATA[<color=orange>Sunless City</color>]]> has been plunged into darkness again.. Has the <![CDATA[<color=orange>High Energy Lab</color>]]> rerouted energy from the city without warning again?
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		MELORAE: It is! I believe this location would be much more favorable for harnessing energy during sunless days.
+		RAMIE: Melorae, how many times have you accused us of this? Please, look above you: it is simply the sunless day!
 		</Text>
 	</TextBlock>
 
@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		MELORAE: Once the relocation is complete, we will no longer need to worry about <![CDATA[<color=lightblue>Ash Twin's</color>]]> shadow regularly depriving us of energy.
+		MELORAE: Oh, these binary planets... I cannot wait for the solar panels to be relocated so we will no longer need to worry about <![CDATA[<color=lightblue>Ash Twin's</color>]]> shadow regularly depriving us of energy...
 		</Text>
 	</TextBlock>
 
@@ -33,7 +33,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		RAMIE: Will the <![CDATA[<color=orange>High Energy Lab</color>]]> will be free from any new accusations of rerouting the <![CDATA[<color=orange>Sunless City's</color>]]> energy without warning, in that case?
+		RAMIE: And I cannot wait for the <![CDATA[<color=orange>High Energy Lab</color>]]> to be free from unfounded accusations of rerouting the <![CDATA[<color=orange>Sunless City's</color>]]> energy without warning.
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		MELORAE: Ramie, my friend: Recall that the <![CDATA[<color=orange>Sunless City</color>]]> is located underground. We are not so easily able to detect a solar eclipse!
+		MELORAE: Ramie, recall that the <![CDATA[<color=orange>Sunless City</color>]]> is located deep underground. We are not so easily able to detect a solar eclipse!
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -68,7 +68,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		RAMIE: That.. may be true. But in that case, may I suggest leaving a set of eyes on the planet's surface?
+		RAMIE: You.. have a point. Perhaps we should create a structure in orbit to allow Nomai to more easily observe when the sunless day occurs, then.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -76,7 +76,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		RAMIE: A set of eyes on the planet's surface would allow one to detect the presence of a sunless day even while underground, would it not?
+		RAMIE: A warp tower connected to this structure could be built on Ember Twin, to allow easy access from the <![CDATA[<color=orange>Sunless City</color>]]>to this structure.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -84,15 +84,7 @@
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		MELORAE: What a wise idea, Ramie! Perhaps you would like to be that set of eyes for us?
-		</Text>
-	</TextBlock>
-		<TextBlock>
-		<ID>11</ID>
-		<LocationB />
-		<ParentID>10</ParentID>
-		<Text>
-		RAMIE: I must humbly decline your offer, my friend!
+		MELORAE: That is a wise idea, my friend! Since the relocation of the solar panels will not be taking place soon, a structure like this would be incredibly helpful until then.
 		</Text>
 	</TextBlock>
 	

@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		THATCH: My friends, you've arrived at last! Shall we begin our expedition to the Quantum Moon soon?
+		ANNONA: Could this be the <![CDATA[<color=orange>Sixth Location Locator</color>]]> you mentioned, Bells?
 		</Text>
 	</TextBlock>
 
@@ -14,16 +14,16 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		MELORAE: My apologies, my dear nephew - but we were not aware of this second Quantum Moon Locator on Brittle Hollow! We had been expecting your arrival at the locator we had built on Ember Twin!
+		BELLS: Yes, but.. I apologize for misleading you, Annona. I had assumed our locator was more sophisticated than it actually was...
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>3</ID>
 		<LocationB />
-		<ParentID>1</ParentID>
+		<ParentID>2</ParentID>
 		<Text>
-		THATCH: Oh! Oh.. Oh dear. My deepest apologies for my mistake! I was not aware there was a Quantum Moon Locator on Ember Twin, either!
+		BELLS: According to Filix, the <![CDATA[<color=orange>Sixth Location Locator</color>]]> appears unable to track the precise position of any planet.. It simply detects which celestial body the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is orbiting.
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		THATCH: But.. As our expedition team is already here, would it be possible to use the Quantum Moon Locator here for our expedition today?
+		BELLS: And despite its name, the <![CDATA[<color=orange>Sixth Location Locator</color>]]> can only detect the absence of the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> signal as it visits the sixth location.
 		</Text>
 	</TextBlock>
 
@@ -41,7 +41,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		COLEUS: I'm afraid that would not be wise, Thatch. This locator has a poor view of the sky; That will make observing the Quantum Moon quite difficult.
+		ANNONA: I see.. 
 		</Text>
 	</TextBlock>
 
@@ -50,16 +50,16 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: The plan was to leave a set of eyes at the Quantum Moon Locator to keep the Quantum Moon locked from afar, so that we would be able to carefully plan a shuttle trajectory to it.
+		ANNONA: Nevertheless, I am thrilled to see how differently our friends here on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> have approached designing a device for this purpose.
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>7</ID>
 		<LocationB />
-		<ParentID>4</ParentID>
+		<ParentID>6</ParentID>
 		<Text>
-		BELLS: With its clear view of the sky, and ability to pinpoint each celestial body, we deemed the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]> much more useful for using the rule of quantum imaging from afar.
+		ANNONA: And though it does appear more rudimentary, I do see one major benefit in this locator over ours on <![CDATA[<color=lightblue>Ember Twin.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -68,7 +68,7 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		SOLANUM: I see.. But Bells, what purpose does the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> here serve then?
+		ANNONA: That is, the simplicity and clarity of...
 		</Text>
 	</TextBlock>
 
@@ -77,19 +77,27 @@
 		<LocationA />
 		<ParentID>8</ParentID>
 		<Text>
-		BELLS: To allow me to know when you have safely reached your destination, my dear pupil.
+		ANNONA: Bells, what is that..? A glowing meteor approaches us.
 		</Text>
 	</TextBlock>
 
-		<TextBlock>
+	<TextBlock>
 		<ID>10</ID>
 		<LocationA />
 		<ParentID>9</ParentID>
 		<Text>
-		BELLS: Now, it is time to depart for your pilgrimage at last, Solanum. Remember, Ilex is providing you a set of eyes on <![CDATA[<color=lightblue>Ember Twin;</color>]]> you musn't keep him waiting too long!
+		BELLS: That is.. a meteor from the volcanic moon! And it is rapidly heading towards us!
 		</Text>
 	</TextBlock>
 
+	<TextBlock>
+		<ID>11</ID>
+		<LocationA />
+		<ParentID>10</ParentID>
+		<Text>
+		BELLS: Quick, Annona! We should seek shelter inside the <![CDATA[<color=orange>Tower of Quantum Knowledge</color>]]> before we continue this discussion!
+		</Text>
+	</TextBlock>
 
 <ShipLogConditions>
 		<RevealFact>

@@ -350,7 +350,7 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename":"warp table",
+				"rename":"warp camp statue cube",
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
 				"position":{"x": -239.5936,"y": -34.4093,"z": -60.9421},
 				"rotation":{"x": 283.4963,"y": 204.1538,"z": 231.372},
@@ -1035,7 +1035,7 @@
 		[
 			{
 				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/ConversationZone_RSci",
-				"xmlFile": "planets/ExistingPlanets/dialogue/Slate existing dialogue patch.xml"
+				"xmlFile": "planets/ExistingPlanets/dialogue/Slate existing dialogue patch 2.xml"
 			},
 			{
 				"rename":"Arkose remote gm 1",
