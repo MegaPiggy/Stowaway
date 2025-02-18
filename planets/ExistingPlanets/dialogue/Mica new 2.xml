@@ -8,12 +8,12 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>MICA R1</RequiredLogCondition>
-				<Text>I....... might have quit the space program.</Text>
+				<Text>Hey, Mica. Got any questions about the universe for me?</Text>
 				<DialogueTarget>ModelRocketKid_Annoy</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 			<RequiredLogCondition>SS Tower EX5</RequiredLogCondition>
-				<Text>I figured out what causes the sand transfer on the Hourglass Twins.</Text>
+				<Text>I figured out what causes sand to flow between the Hourglass Twins!</Text>
 				<DialogueTarget>ModelRocketKid_Sand2</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -51,23 +51,29 @@
 		<Name>ModelRocketKid_Sand</Name>
 		<Dialogue>
 			<Page>Huh.. So it's gravity from the sun... and gravity from the twin closer to the sun combining, that causes sand to flow between the twins...</Page>
-			<Page>Huh.. That makes sense! The sun's gotta have some strong gravitational pull, after all.</Page>
-			<Page>If that's true, is that how Chert knows when the Hourglass Twins exchange sand so precisely? Well, that or they just measured how long it takes for the Twins to orbit into alignment.. That's probably more likely.</Page>
-			<Page>I guess the only way we'll only know if your theory's true, is if the sand flows back to the other Twin the next time the Hourglass Twins align with the sun, huh?</Page>
-			<Page>That's gonna take a while.. But I look forward to testing your theory out, astronaut!</Page>
+			<Page>Huh.. That makes sense! The sun's gotta have some insane gravitational pull, after all.</Page>
+			<Page>But I can't just take what you tell me at face value! We gotta test it out!</Page>
+			<Page>Umm.. I guess the only way we'll only know if your theory's true, is if sand stops flowing between the Twins once they orbit out of alignment, huh?</Page>
+			<Page>That's gonna take a while.. But wow, I can't wait to test your theory out, astronaut!</Page>
 		</Dialogue>
 	</DialogueNode>
 
 <DialogueNode>
 		<Name>ModelRocketKid_Annoy</Name>
 		<Dialogue>
-			<Page>WHAT?!</Page>
-			<Page>But.. But why?! I thought you were so excited to go into space the other day!</Page>
+			<Page>Questions about the universe? Uh, wow, you're putting me on the spot, astronaut! Uhh, lemme think a sec...</Page>
+			<Page>How about.. No, I figured that one out... Um, what about... Oh, OH! I got one!</Page>
+			<Page>Ahem... Why does sand stop flowing between the Hourglass Twins, astronaut?</Page>
 		</Dialogue>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>There's just nothing left for me to explore!</Text>
+				<Text>Wait.. Sand stops flowing between the Hourglass Twins?</Text>
 				<DialogueTarget>ModelRocketKid_SW_Intro</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+			<RequiredLogCondition>SS Tower EX5</RequiredLogCondition>
+				<Text>Oh, it's just the sun and the twin closer to the sun falling out of alignment.</Text>
+				<DialogueTarget>ModelRocketKid_Sand</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
 	</DialogueNode>
@@ -75,22 +81,35 @@
 <DialogueNode>
 		<Name>ModelRocketKid_SW_Intro</Name>
 		<Dialogue>
-			<Page>Yeah, didn't you know? Just pull out your signalscope and look! Sand hasn't flowed between the Hourglass Twins for a while now.</Page>
-			<Page>Without it, the Hourglass Twins don't really live up to their name, do they? It's just "The Twins", haha!</Page>
-				<Page>Oh, the sand should start flowing between the Twins again real soon, though!</Page>
-				<Page>Chert told me that on the morning of your launch day - right as the sun rises over the horizon in the village - the sand would start flowing between the Hourglass Twins.</Page>
+			<Page>Yeah, haven't you noticed? Sand hasn't been flowing between the Hourglass Twins for some time now.</Page>
+			<Page>When it's stopped, the Hourglass Twins don't really live up to their name, do they? They should just be called "The Twins", haha!</Page>
+				<Page>Well, at least we know the sand starts flowing between the Twins again real soon.</Page>
+				<Page>Chert told me that on the morning of your launch day - right as the sun rises over the horizon in the village - sand would start flowing between the Hourglass Twins again.</Page>
 				<Page>Isn't that lucky, astronaut? It feels like a good omen for your launch!</Page>
-				<Page>I have no idea how Chert knows exactly when sand flows between the Hourglass Twins - but they've never been wrong about it before!</Page>
-				<Page>Since you're taking off soon, you should visit the Hourglass Twins to see the sand column before it goes away again, astronaut. I bet it's an incredible sight up close!</Page>
+				<Page>Since Chert knows exactly when sand flows between the Hourglass Twins, I asked them why the sandflow stops - but they didn't seem to know the reason either. It's a real headscratcher.</Page>
 			 </Dialogue>
 			  				<RevealFacts>
      						   <FactID>MICA EX1</FactID>
      						   <FactID>MICA EX2</FactID>
      						   <FactID>MICA EX3</FactID>
     					  </RevealFacts>
+			<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Maybe I'll go ask Chert what they know, then.</Text>
+				<DialogueTarget>ModelRocketKid_SW_End</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
 	</DialogueNode>
 
 
+<DialogueNode>
+		<Name>ModelRocketKid_SW_End</Name>
+		<Dialogue>
+			<Page>Sounds like a plan! Chert's got to know something juicy if they're able to tell exactly when the Hourglass Twins' sandflow happens, after all.</Page>
+			<Page>If you learn anything about the sand column, come back and tell me all about it, astronaut!</Page>
+			<Page>It probably wouldn't be useful knowledge to anyone... But it'd mean the world to me finally solve this weird little mystery!</Page>
+			 </Dialogue>
+	</DialogueNode>
 	
 
 

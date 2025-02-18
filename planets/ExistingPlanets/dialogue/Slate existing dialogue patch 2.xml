@@ -6,16 +6,14 @@
 	<DialogueNode>
 		<Name>Scientist1B</Name>
 		<DialogueOptionsList>
-		<DialogueOption>
-			<CancelledCondition>I_Join</CancelledCondition>
-				<Text>I think I've seen everything there is to see out there.</Text>
-				<DialogueTarget>ScientistAnswer_QuitA</DialogueTarget>
-			</DialogueOption>
 			<DialogueOption>
-			<CancelledCondition>I_Join</CancelledCondition>
-			<RequiredCondition>Slate_Talked</RequiredCondition>
-				<Text>On second thoughts? I'm ready to get into space now!</Text>
-				<DialogueTarget>ScientistAnswer_JoinA</DialogueTarget>
+				<Text>Hey Slate, is there anything we haven't figured out yet?</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<RequiredCondition>Slate_Talked</RequiredCondition>
+				<Text>Where are the hatchlings again?</Text>
+				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
@@ -34,10 +32,10 @@
 		<DialogueNode>
 		<Name>ScientistAnswer38_A</Name>
 		<Dialogue>
-			<Page>Stars above, your suit tells you when there's ghost matter anywhere nearby! You have your suit on at all times you're off-planet, right? RIGHT?</Page>
-			<Page>Your suit has a built-in sensor that should alert you whenever there's ghost matter nearby at all, so it's basically impossible to just run into a patch without warning.</Page>
-			<Page>Once you know there's ghost matter around, just use the scout to look out for it.</Page>
-			<Page>You can even switch the scout to a handheld photo mode that lets you take pictures without launching it first. It's honestly out of my hands if you still somehow die to ghost matter with all these tools.</Page>
+			<Page>Stars above, your suit tells you when there's ghost matter anywhere nearby!</Page>
+			<Page>Your suit has a built-in sensor that should alert you whenever there's ghost matter nearby at all - and you should be wearing that suit for oxygen at all times off-planet - so it's basically impossible to just run into a patch without warning.</Page>
+			<Page>Once you know there's ghost matter around, just use the scout to look out for it. You can even switch the scout to a handheld photo mode that lets you take pictures without launching it first.</Page>
+			<Page>I'd honestly be impressed if anyone died to ghost matter with all these tools - so just don't worry too much about the nebulous dangers of space, and take off already.</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -52,72 +50,67 @@
 <DialogueOptionsList>
 
 			<DialogueOption>
-			<CancelledCondition>I_Join</CancelledCondition>
-				<Text>Hey Slate, I think I know pretty much everything there is to know.</Text>
-				<DialogueTarget>ScientistAnswer_QuitA</DialogueTarget>
+				<Text>Hey Slate, is there anything we haven't figured out yet?</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
-
-			<DialogueOption>
-			<CancelledCondition>I_Join</CancelledCondition>
-			<RequiredCondition>Slate_Talked</RequiredCondition>
-				<Text>On second thoughts? I'm ready to get into space now!</Text>
-				<DialogueTarget>ScientistAnswer_JoinA</DialogueTarget>
+				<DialogueOption>
+				<RequiredCondition>Slate_Talked</RequiredCondition>
+				<Text>Where are the hatchlings again?</Text>
+				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
 			</DialogueOption>
-
 		</DialogueOptionsList>
 	</DialogueNode>
 
 		<DialogueNode>
-		<Name>ScientistAnswer_QuitA</Name>
+		<Name>ScientistAnswer_Mysteries1</Name>
 		<Dialogue>
-			<Page>Hey, you still half-asleep? <![CDATA[<Pause=2>]]> Today's your launch day, you goof. You haven't even left the planet!</Page>
-			<Page>And for the record, no, photos of space don't count as seeing space.</Page>
-			<Page>Come on, don't you wanna head into space and see what's out there for yourself?</Page>
+			<Page>Trying to solve some mysteries out there, are you? Sure, there's loads of things we don't know.</Page>
+			<Page>We don't know where Feldspar's gone, for one.. <![CDATA[<Pause=1>]]> *sigh* I miss my most daring ship tester.</Page>
+			<Page>Don't know what happened to the Nomai either. You'd probably score a great exhibit in the museum if you could figure out what happened to the ancient species that once lived in our star system.</Page>
+			<Page>What else, what else... Oh, you seen that moon that disappears when you take your eyes off it? That's another weird one we haven't even begun to crack the mystery of.</Page>
 		</Dialogue>
 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>I just.. feel like maybe it's time to move on.</Text>
-				<DialogueTarget>ScientistAnswer_QuitB</DialogueTarget>
+				<Text>Yeah yeah I know all about those. Anything else?</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries2</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<Text>Yeah, I guess so.</Text>
-				<DialogueTarget>ScientistAnswer_QuitZ</DialogueTarget>
+				<Text>Oh yeah. Guess I'll just keep trying to figure those out.</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries0</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
 	<DialogueNode>
-		<Name>ScientistAnswer_QuitB</Name>
+		<Name>ScientistAnswer_Mysteries2</Name>
 		<Dialogue>
-			<Page>Move on? Uh...</Page>
-			<Page>Are you saying you wanna.. quit the space program?</Page>
+			<Page>Really? <![CDATA[<i>None</i>]]> of t hose mysteries were enticing enough for ya?</Page>
+			<Page>Sheesh, even Gabbro was curious which planet was best for napping on.. Guess you can't draw a magnet to lead.</Page>
+			<Page>Well, you better figure out what you wanna explore before you take off, hatchling. Otherwise, it'll be a pretty boring and pointless waste of fuel going into space.</Page>
+			<Page>..Oh, here's an idea!</Page>
+			<Page>Try asking the kids around the village what questions they have about space! They might know some mysteries we've never heard of.</Page>
 		</Dialogue>
-<DialogueOptionsList>
+		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>You know what? Why not.</Text>
-				<DialogueTarget>ScientistAnswer_QuitC</DialogueTarget>
+				<Text>Why them exactly..?</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries3</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<Text>Uh, on second thoughts...</Text>
-				<DialogueTarget>ScientistAnswer_QuitZ_2</DialogueTarget>
+				<Text>What kind of mysteries would kids know about?</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries3</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
 <DialogueNode>
-		<Name>ScientistAnswer_QuitC</Name>
-		<SetCondition>I_Quit</SetCondition>
+		<Name>ScientistAnswer_Mysteries3</Name>
 		<SetCondition>Slate_Talked</SetCondition>
 		<Dialogue>
-
-			<Page>Sheesh.. First time I’ve had a cadet quit on the first day of their solo voyage..</Page>
-			<Page>Alright. Hand over the keys to your ship then.</Page>
-			<Page>...</Page>
-			<Page>Hey, you know this ain’t final or anything, right? <![CDATA[<Pause=1>]]> Just talk to me if you have a change of heart. I need someone to test if those new retro boosters stay on.</Page>	
-			<Page>Oh, I know what might help.</Page>
-			<Page>Why don’t you go talk to the kids around the village?</Page>
-			<Page>Those little hatchlings are basically endless pools of energy and questions. If you really think you know as much as you do, let's see if you can answer all the questions they have.</Page>
-			<Page>You know.. Even if you don't feel like there's anything worth exploring, you might find something that means a lot to someone else.</Page>
+			<Page>Have you talked to a kid before? They're endless pools of curiosity.</Page>
+			<Page>I'm sure they've got loads of dumb questions about the universe.. Maybe one of them might pique your interest on something new to explore.</Page>
+			<Page>..Besides, if you talk to them now, it'd help to get them off my back later because the newest astronaut didn't say bye to them.</Page>
+			<Page>Oh, and just so I don't get any complaints.. Remember, there's five of those little squirts: Mica, Tephra, Galena, Arkose, and Moraine.</Page>	
+			<Page>Just hear out whatever dumb questions they might have about the universe! Even the dumbest questions deserve answers, after all.</Page>
 			</Dialogue>
 				<RevealFacts>
      						   <FactID>MICA R1</FactID>
@@ -126,55 +119,16 @@
      						   <FactID>ARK R1</FactID>
      						   <FactID>MOR R1</FactID>
     					  </RevealFacts>
-<DialogueOptionsList>
-				<DialogueOption>
-				<Text>Alright alright, I'll talk to them.</Text>
-				<DialogueTarget>Slate_Kids_Gettoit</DialogueTarget>
-			</DialogueOption>
-				<DialogueOption>
-				<Text>Where are the hatchlings again?</Text>
-				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
-			</DialogueOption>
-		</DialogueOptionsList>
 	</DialogueNode>
-
-<DialogueNode>
-		<Name>ScientistAnswer_JoinA</Name>
-		<SetCondition>I_Join</SetCondition>
-		<Dialogue>
-			<Page>Had a change of mind, I see. Did talking to those little gills give you some new drive to explore?</Page>
-			<Page>Well! I've got no objections if you're raring to go now.</Page>
-			<Page>Go on, fly off and find whatever it is you wanna find out there!</Page>
-		</Dialogue>
-	</DialogueNode>
-
-
 
 	<!-- ################################################## -->
 	<!-- ###################VISUAL BREAK################### -->
 	<!-- ################################################## -->
 
 <DialogueNode>
-		<Name>ScientistAnswer_QuitZ</Name>
+		<Name>ScientistAnswer_Mysteries0</Name>
 		<Dialogue>
-			<Page>That's the spirit!</Page>
-			<Page>On your way then, you rascal.</Page>
-		</Dialogue>
-	</DialogueNode>
-
-<DialogueNode>
-		<Name>ScientistAnswer_QuitZ_2</Name>
-		<Dialogue>
-			<Page>That's the spirit!</Page>
-			<Page>On your way then, you rascal.</Page>
-		</Dialogue>
-	</DialogueNode>
-
-	<DialogueNode>
-		<Name>Slate_Kids_Gettoit</Name>
-		<Dialogue>
-			<Page>Good. Just remember, there's five of them little gills around the village. Mica, Tephra, Galena, Arkose, and Moraine.</Page>
-			<Page>Hopefully one of them will be able to guilt-trip.. I mean, give you some new spark to go into space.</Page>
+			<Page>Glad to hear it. Bring back some good campfire stories, hatchling!</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -183,13 +137,12 @@
 		<Dialogue>
 			<Page>Stars above, just look around the village! They're all probably playing around somewhere.</Page>
 			<Page>Mica's probably still fiddling with the model rocket, just up the hill.</Page>
-				<Page>Tephra and Galena should be playing in the village somewhere.</Page>
-				<Page>I saw those two trekking outside the village recently for whatever reason, though - so don't take my word on that.</Page>
-				<Page>Arkose's probably still throwing rocks into the patch of ghost matter at the top of the village.</Page>
-				<Page>Still uh.. no idea why they do that all day.</Page>
-					<Page>And Moraine's probably stargazing on that big tree in the village, making sure Marl doesn't chop it down.</Page>
-					<Page>I wonder if that Marl'll ever let go of that grudge.. No good comes outta holding a grudge against a tree, y'know?</Page>
-						<Page>Just get a move on - you'll probably find all of 'em on the way up to the observatory for those launch codes, anyway.</Page>
+			<Page>Tephra and Galena are probably playing in the village somewhere?</Page>
+			<Page>I saw those two trekking outside the village recently for whatever reason though, so don't take my word on that.</Page>
+			<Page>Arkose's probably still throwing rocks into the patch of ghost matter at the top of the village. Still uh.. no idea why they do that all day.</Page>
+			<Page>And Moraine's probably stargazing on that big tree in the village, making sure Marl doesn't chop it down.</Page>
+			<Page>I wonder if that Marl'll ever let go of that grudge.. No good comes outta holding a grudge against a tree, y'know?</Page>
+			<Page>Just get a move on - you'll probably see 'em on the way up to the observatory for the launch codes anyways.</Page>
 		</Dialogue>
 	</DialogueNode>
 

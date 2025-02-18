@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		OENO: Welcome to <![CDATA[<color=lightblue>Timber Hearth,</color>]]> friends! You may find both our <![CDATA[<color=orange>campsite</color>]]> and <![CDATA[<color=orange>mining site</color>]]> by following the path down into the geyser mountain.
+		OENO: To our friends traveling here from <![CDATA[<color=lightblue>Ash Twin:</color>]]> Welcome! You may find both our <![CDATA[<color=orange>campsite</color>]]> and <![CDATA[<color=orange>mining site</color>]]> by following the path down into the geyser mountain.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: Warp receivers power a return warp that allows travel back to the corresponding warp transmitter one time, after a Nomai has traveled to it.
+		OENO: Our warp receivers power a return warp that allows travel back to the corresponding warp transmitter one time, after a Nomai has traveled to it.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -44,7 +44,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		OENO: A return warp is only powered upon the absence of all entities on the warp receiver. Thus, we advise stalling the return warp until you are ready to return to <![CDATA[<color=lightblue>Ash Twin.</color>]]>
+		OENO: A return warp is only powered upon the absence of all entities on the warp receiver. Thus, we advise stalling the return warp until you are ready to return to <![CDATA[<color=lightblue>Ash Twin!</color>]]>
 		</Text>
 	</TextBlock>
 

@@ -31,9 +31,8 @@
 		<DialogueNode>
 		<Name>ScientistAnswer38_A</Name>
 		<Dialogue>
-			<Page>Uhh, yeah? I thought it was pretty clear we were talking in dream terms.</Page>
-			<Page>Pretty normal to get nightmares of all your phobias the day you take off.. Just ask Riebeck.</Page>
-			<Page>Sheesh, I didn't know you were that paranoid about ghost matter you were dreaming about dying to it, though. Tektite really spooked ya, huh?</Page>
+			<Page>Uhh, yeah? I thought it was pretty clear we were talking in dream terms. It's pretty normal to get nightmares of all your phobias the day you take off - just ask Riebeck.</Page>
+			<Page>Sheesh, I didn't know you were that paranoid about ghost matter you were dreaming about dying to it, though.</Page>
 			<Page>Look, your suit should alert you whenever there's ghost matter nearby at all, so don't worry about just randomly falling into a patch without warning.</Page>
 			<Page>Once you know there's ghost matter around, just use the scout to look out for it. You can even switch it to a handheld photo mode that lets you take pictures without launching it first.</Page>
 			<Page>It's so convenient, it's honestly out of my hands if you still manage to walk into some ghost matter.. <![CDATA[<Pause=1>]]> Unless you'd like me to just magically make all ghost matter disappear to idiotproof the star system.</Page>
@@ -98,9 +97,9 @@
 		<Name>Slate_Kids_Gettoit</Name>
 		<Dialogue>
 			<Page>Cool. Just remember, there's five suspects: Mica, Tephra, Galena, Arkose, and Moraine.</Page>
-			<Page>Oh, you should try to be subtle with your questions, though.</Page>
-			<Page>They might catch wind of your little investigation otherwise.. Trust me, they're smarter than they look.</Page>
-			<Page>Try to ask real nonchalantly, like: "Did you hear anything about stuff that disappears sometimes?"</Page>
+			<Page>Oh, and try to be subtle with your questions.</Page>
+			<Page>These little gills might catch wind of your little investigation otherwise.. Trust me, they're smarter than they look.</Page>
+			<Page>Try to ask real nonchalantly, like: "Hey there, young hatchling! Heard anything about stuff that disappears sometimes?"</Page>
 			<Page>Ah... I'd be a great detective.</Page>
 		</Dialogue>
 	</DialogueNode>
@@ -116,9 +115,9 @@
 				<Page>Still uh.. no idea why they do that all day.</Page>
 					<Page>And Moraine's probably stargazing on that big tree in the village, making sure Marl doesn't chop it down.</Page>
 					<Page>I wonder if that Marl'll ever let go of that grudge.. No good comes outta holding a grudge against a tree, y'know?</Page>
-					<Page>Oh, and try to be subtle with your questions. Otherwise, the kids might catch wind of your little investigation.</Page>
-						<Page>Try to ask them real nonchalantly, like: "Did you hear anything about stuff that disappears sometimes?"</Page>
-						<Page>Ah, I'd be a great detective.</Page>
+					<Page>Oh, try to be subtle with your questions talking to them, though. Otherwise, the rascal might catch wind of your little investigation.</Page>
+						<Page>Try to ask them real nonchalantly.. Like, "Hey there, young hatchling! Heard anything about stuff that disappears sometimes?"</Page>
+						<Page>Ah... I'd be a great detective.</Page>
 						<Page>Just get a move on - you'll probably find all of 'em on the way up to the observatory for those launch codes, anyway.</Page>
 		</Dialogue>
 	</DialogueNode>

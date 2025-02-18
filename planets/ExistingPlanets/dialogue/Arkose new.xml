@@ -13,7 +13,7 @@
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredLogCondition>ARK R1</RequiredLogCondition>
-				<Text>Hey, Arkose. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey, Arkose. Got any questions about the universe for me?</Text>
 				<DialogueTarget>ArkoseNew1</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -39,9 +39,9 @@
 	<DialogueNode>
 		<Name>ArkoseNew1</Name>
 		<Dialogue>
-			<Page>Huh? ..Oh! Are you asking about ghost matter, astronaut?</Page>
-			<Page>And here I was, thinking Gabbro and I were the only ones who knew about it, heehee!</Page>
-			<Page>But yeah! That's why I'm throwing rocks at the patch here in the village all day, astronaut.. <![CDATA[<Pause=1>]]> I’m trying to find out why ghost matter goes away completely sometimes!</Page>
+			<Page>Questions about the universe? Heck yeah I do, astronaut!</Page>
+			<Page>I really wanted to figure this out on my own... But my arm's tired so tired from throwing rocks all day, I just want the answer now!</Page>
+			<Page>Why does ghost matter go away sometimes, astronaut?</Page>
 		</Dialogue>
 			 <DialogueOptionsList>
 			<DialogueOption>
@@ -55,13 +55,12 @@
 	<DialogueNode>
 		<Name>ArkoseNew1.5</Name>
 		<Dialogue>
-			<Page>Yeah, I know, right?! It's weird!</Page>
-			<Page>And I don't mean just evaporating slowly like it does bit by bit... I mean <![CDATA[<i>all at once!</i>]]></Page>
+			<Page>Yeah, isn't it weird?!</Page>
 			<Page>You know how there’s a green glowy trail when you throw something into a patch of ghost matter?</Page>
-			<Page>When I throw rocks into this patch of ghost matter, sometimes, it doesn’t leave a trail at all.</Page>
-			<Page>I dunno what causes it! It doesn’t happen every time, even when I throw harder, or use different kinds of rocks.</Page>
-			<Page>I asked Gabbro about it last time they came back from Giant's Deep, and yeah, they said ghost matter just goes away sometimes!</Page>
-			<Page>They didn't seem to know much more than that, though.</Page>
+			<Page>When I throw rocks into this patch of ghost matter, sometimes, it doesn’t leave a trail at all.. It's like the ghost matter just disappears completely suddenly, just for a moment!</Page>
+			<Page>I dunno what causes it! It doesn’t happen every time, so I keep trying to throw harder, or use different kinds of rocks.</Page>
+			<Page>I asked Gabbro about it last time they came back from Giant's Deep.. And they told me that ghost matter just goes away sometimes! So it really is true!</Page>
+			<Page>Gabbro didn't know what causes ghost matter to disappear either though..</Page>
 			<Page>It’s dangerous to get too close to the ghost matter, so I thought I'd just keep throwing rocks to see if I could figure it out on my own.</Page>
 		</Dialogue>
 							 <RevealFacts>
@@ -133,7 +132,7 @@
 		<Dialogue>
 			<Page>Woah.. Is that true?</Page>
 			<Page>The Nomai must have been really, really smart to figure that out and leave the star system! I hope they're okay, wherever they are.</Page>
-			<Page>But, woah... So there was ghost matter everywhere, covering the WHOLE star system? That sounds.. scary.... <![CDATA[<Pause=1>]]> But really awesome!</Page>
+			<Page>But, woah... So there was ghost matter everywhere, covering the WHOLE star system? That sounds.. scary.... <![CDATA[<Pause=1>]]> And really awesome!</Page>
 			<Page>Where did all that ghost matter go then, astronaut?</Page>
 			<Page>I mean, I know ghost matter evaporates... But that takes a suuuuper long time, right?</Page>
 			<Page>If they started going away at the same time, why's this patch so much slower? Is it just super bad at evaporating?</Page>
@@ -196,9 +195,9 @@
 				<Text>I learnt something cool about ghost matter, Arkose!</Text>
 				<DialogueTarget>ArkoseNewLIST</DialogueTarget>
 			</DialogueOption>
-		 <DialogueOption>
+			<DialogueOption>
 				<RequiredLogCondition>ARK R1</RequiredLogCondition>
-				<Text>Hey, Arkose. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey, Arkose. Got any questions about the universe for me?</Text>
 				<DialogueTarget>ArkoseNew1</DialogueTarget>
 			</DialogueOption>
 		 </DialogueOptionsList>

@@ -10,15 +10,9 @@
 	<DialogueNode>
 		<Name>SignalscopeKid1</Name>
 			<DialogueOptionsList>
-		<DialogueOption>
-			<RequiredLogCondition>MOR R3</RequiredLogCondition>
-			<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>I dived into the waterways and found a Nomai mural of ancient Hearthians on land.</Text>
-				<DialogueTarget>SignalscopeKidNew4</DialogueTarget>
-			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>MOR R1</RequiredLogCondition>
-				<Text>Hey Moraine. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey Moraine. Got any questions about the universe for me?</Text>
 				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -36,19 +30,71 @@
 
 
 <DialogueNode>
+		<Name>SignalscopeKidNew1</Name>
+		<Dialogue>
+			<Page>Oh! I have a question, astronaut!</Page>
+			<Page>Um.. It's a bit of a silly one, but... <![CDATA[<Pause=1>]]> How many comets are there in our star system?</Page>
+			</Dialogue>
+			<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Uh.. Just one..?</Text>
+				<DialogueTarget>SignalscopeKidNew2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+			<RequiredLogCondition>INSP R0</RequiredLogCondition>
+				<Text>There might be two...</Text>
+				<DialogueTarget>SignalscopeKidNewC2</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+		</DialogueNode>
+
+		<DialogueNode>
+		<Name>SignalscopeKidNew2</Name>
+		<Dialogue>
+			<Page>Really? But.. I thought I saw...</Page>
+			<Page>Um, nevermind. Thanks for telling me, astronaut! Good luck in space!</Page>
+			</Dialogue>
+			<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Woah, woah! Did you see something in the sky?</Text>
+				<DialogueTarget>SignalscopeKidNewC1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Right... Thanks.</Text>
+				<DialogueTarget>SignalscopeKidNew2.5</DialogueTarget>
+			</DialogueOption>
+	</DialogueOptionsList>
+							<RevealFacts>
+     						  	 <FactID>MOR EX3</FactID>
+    					 	 </RevealFacts>
+		</DialogueNode>
+
+<DialogueNode>
+		<Name>SignalscopeKidNew2.5</Name>
+		<Dialogue>
+			<Page>Y-yeah! Good luck in space, astronaut!</Page>
+			<Page><![CDATA[<size=20>]]>Uugh, I need to find it again before I tell anyone about it...<![CDATA[</size>]]></Page>
+			</Dialogue>
+		</DialogueNode>
+
+<DialogueNode>
 		<Name>SignalscopeKidNewC1</Name>
 		<Dialogue>
-			<Page>O-oh, um.. Sorry, I think I probably just saw wrong..</Page>
-			<Page>You know how busted my signalscope is, with how much Tephra and Galena play with it.. Just look at how much shinier your brand new signalscope is, astronaut!</Page>
-			<Page>But, if you really wanna know.. I thought I saw two comets in the sky a few nights ago.</Page>
-			<Page>I've been trying to catch this second comet again ever since, just to see if it's real.. But I haven't been able to see it again since.</Page>
-			<Page>So.. I think it really was just a smudge on my signalscope.</Page>
-			<Page>But ahh, I really wanna hope.. Imagine if I'd discovered a new celestial body, astronaut! That'd be a dream come true.</Page>
+			<Page>O-oh, um.. Sorry, I think I probably just saw something else..</Page>
+			<Page>You know how busted my signalscope is, with how much Tephra and Galena play with it! Just look at how much shinier your brand new one is!</Page>
+			<Page>But.. I thought I saw two comets in the sky a few nights ago.</Page>
+			<Page>I'd never miss a comet's bright glowing tail! I definitely saw two comets that night.. But I haven't been able to see it again since, so I really don't know if it was real..</Page>
+			<Page>Um, if you find anything out there that counts as a second comet.. Could you tell me, astronaut?</Page>
+			<Page>If it really exists, it'd be so cool to learn about a new celestial body we know nothing about!</Page>
 			</Dialogue>
 							<RevealFacts>
      						  	 <FactID>MOR R4</FactID>
     					 	 </RevealFacts>
 		</DialogueNode>
+		
+	<!-- ################################################## -->
+	<!-- ################# HIDE AND SEEK ################## -->
+	<!-- ################################################## -->
 
 <DialogueNode>
 		<Name>SignalscopeKidNewC2</Name>
@@ -105,93 +151,10 @@
 			</Dialogue>
 		</DialogueNode>
 
-<DialogueNode>
-		<Name>SignalscopeKidNew1</Name>
-		<Dialogue>
-			<Page>Huh? Um.. Why're you asking me, astronaut?</Page>
-			<Page>Did you see... Um, on second thoughts, never mind.</Page>
-			<Page>Could <![CDATA[<i>I</i>]]> ask you about something that disappeared instead, astronaut?</Page>
-			</Dialogue>
-			<DialogueOptionsList>
-			<DialogueOption>
-				<Text>Sure!</Text>
-				<DialogueTarget>SignalscopeKidNew2</DialogueTarget>
-			</DialogueOption>
-	</DialogueOptionsList>
-		</DialogueNode>
 
-		<DialogueNode>
-		<Name>SignalscopeKidNew2</Name>
-		<Dialogue>
-			<Page>Alright! Um, I should probably ask Riebeck this instead, but just tell me whatever you know!</Page>
-			<Page>Why did we stop being able to breathe underwater, astronaut?</Page>
-			</Dialogue>
-			<DialogueOptionsList>
-			<DialogueOption>
-				<Text>Uh.. Did we use to be able to breathe underwater?</Text>
-				<DialogueTarget>SignalscopeKidNew2.5</DialogueTarget>
-			</DialogueOption>
-	</DialogueOptionsList>
-		</DialogueNode>
-
-		<DialogueNode>
-		<Name>SignalscopeKidNew2.5</Name>
-		<Dialogue>
-			<Page>Oh. Uh, I thought everyone.. knew that.. Um, it's okay, astronaut! I can teach you what Riebeck taught me.</Page>
-			<Page>Riebeck says it isn't clear how long we've lost the ability to breathe underwater - but we definitely know our ancient ancestors used to be totally aquatic!</Page>
-			<Page>Riebeck thinks our ancestors needed to learn to live on land as well, 'cos otherwise, they'd die instantly whenever the geysers launched them out of the waterways where they used to live.</Page>
-			<Page>Isn't that funny? One day, our ancestors must have just been launched out of a geyser into this crater - and centuries later, we're still living here!</Page>
-			<Page>Apparently, there's some sort of massive underwater cave system inside the geysers that our ancestors once lived in.</Page>
-			<Page>That part's a recent discovery, though. Nobody's properly explored the waterways yet, since Riebeck "wasn't going to get eaten by an underwater monster", and the other astronauts were uh, busy, lazy, or missing.</Page>
-				<Page>I'd hate to get your spacesuit wet, but.. Would <![CDATA[<i>you</i>]]> be interested in jumping into one of those geysers to explore Timber Hearth's spooky depths sometime, astronaut?</Page>
-				<Page>I'd dive into a geyser to explore those ancient waterways myself - but since I can't breathe underwater, I'd probably just drown..</Page>
-		</Dialogue>
-							<RevealFacts>
-     						  	 <FactID>MOR R3</FactID>
-    					 	 </RevealFacts>
-	 <DialogueOptionsList>
-			<DialogueOption>
-				<Text>Sure, I could dive down there to look around sometime.</Text>
-				<DialogueTarget>SignalscopeKidNew3</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-			<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>I swam around the waterways already! I found a Nomai mural of our Hearthian ancestors down there.</Text>
-				<DialogueTarget>SignalscopeKidNew4</DialogueTarget>
-			</DialogueOption>
-	</DialogueOptionsList>
-	</DialogueNode>
+		
 
 
-
-<DialogueNode>
-		<Name>SignalscopeKidNew3</Name>
-		<Dialogue>
-				<Page><![CDATA[<i>Really?</i>]]> Wow, you're awesome, astronaut!</Page>
-				<Page>If you do find anything down there, I wanna hear all about it, okay?</Page>
-				<Page>Oooh, I wonder what you'll find down there.. I bet it's gonna be awesome, astronaut!</Page>
-		</Dialogue>
-	</DialogueNode>
-
-<DialogueNode>
-		<Name>SignalscopeKidNew4</Name>
-		<SetCondition>morc1</SetCondition>
-		<Dialogue>
-				<Page>Woah, what..? A Nomai mural of our ancestors on land..? That’s.. That's <![CDATA[<i>awesome!</i>]]></Page>
-				<Page>It’s not a huge underwater monster like I was hoping.. But that’s still REALLY awesome!</Page>
-				<Page>But wait... Doesn’t that mean our ancestors were already alive when the Nomai were around?</Page>
-					<Page>What's more, it sounds like we were still able to live on both water AND land back then..</Page>
-					<Page>Aw, when did Hearthians stop being able to breathe underwater completely then? If we were still able to breathe underwater nowadays, I'd be able to swim around the waterways all day!</Page>
-					<Page>But wow.. Isn't this discovery gonna totally upend our knowledge of Hearthian history, astronaut?</Page>
-					<Page>If Riebeck heard about this discovery, they'd probably lose their marbles revising the Hearthian history books!</Page>
-					<Page>Oooh, I bet Riebeck's gonna kick themself for turning down the chance to be the first to explore those waterways.. I can't imagine the look on their face when they hear about this!</Page>
-		</Dialogue>
-							<RevealFacts>
-     						  	 <FactID>MOR EX1</FactID>	 
-     						  	 <FactID>MOR EX2</FactID>	 
-     						  	 <FactID>MOR R2</FactID>
-    					 	 </RevealFacts>
-	</DialogueNode>
 
 
 
@@ -200,15 +163,9 @@
 		<DialogueNode>
 		<Name>SignalscopeKid5</Name>
 		<DialogueOptionsList>
-		<DialogueOption>
-			<RequiredLogCondition>MOR R3</RequiredLogCondition>
-			<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>I dived into the waterways and found a Nomai mural of ancient Hearthians on land.</Text>
-				<DialogueTarget>SignalscopeKidNew4</DialogueTarget>
-			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>MOR R1</RequiredLogCondition>
-				<Text>Hey Moraine. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey Moraine. Got any questions about the universe for me?</Text>
 				<DialogueTarget>SignalscopeKidNew1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>

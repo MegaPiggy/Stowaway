@@ -815,8 +815,8 @@
 			"rename": "DSS C2",
 			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C2.xml",
 			"type":"scroll",
-			"position": {"x": -0.0003,"y": -30.4639,"z": 14.7754},
-			"rotation": {"x": 2.5382,"y": 358.5455,"z": 237.3125},
+			"position": {"x": -0.2003,"y": -30.4639,"z": 14.7754},
+			"rotation": {"x": 3.5839,"y": 357.0815,"z": 250.2404},
 			"seed":3,
 			"isRelativeToParent": true
 		},

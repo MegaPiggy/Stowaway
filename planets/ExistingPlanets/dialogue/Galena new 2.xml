@@ -8,23 +8,16 @@
 		<DialogueOptionsList>
 
 			<DialogueOption>
-			<CancelledCondition>Asked_Galena</CancelledCondition>
 				<RequiredLogCondition>GAL R1</RequiredLogCondition>
-				<Text>Hey, Galena. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey, Galena. Got any questions about the universe for me?</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
+				<Text>I figured out why jellyfish on Giant's Deep rise to the surface sometimes!</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
 
-			<DialogueOption>
-			<RequiredCondition>Asked_Galena</RequiredCondition>
-				<Text>Where do I look for your toy rocket again, Galena?</Text>
-				<DialogueTarget>ShyKidNew1B</DialogueTarget>
-			</DialogueOption>
-
-				<DialogueOption>
-				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
-				<Text>I saw your toy rocket in the drain, Galena.</Text>
-				<DialogueTarget>ShyKidNew3</DialogueTarget>
-			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -35,23 +28,11 @@
 		<DialogueOptionsList>
 
 			<DialogueOption>
-			<CancelledCondition>Asked_Galena</CancelledCondition>
 				<RequiredLogCondition>GAL R1</RequiredLogCondition>
-				<Text>Hey, Galena. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey, Galena. Got any questions about the universe for me?</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
 
-			<DialogueOption>
-			<RequiredCondition>Asked_Galena</RequiredCondition>
-				<Text>Where do I look for your toy rocket again, Galena?</Text>
-				<DialogueTarget>ShyKidNew1B</DialogueTarget>
-			</DialogueOption>
-
-				<DialogueOption>
-				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
-				<Text>I saw your toy rocket in the drain, Galena.</Text>
-				<DialogueTarget>ShyKidNew3</DialogueTarget>
-			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -62,41 +43,28 @@
 		<DialogueOptionsList>
 
 			<DialogueOption>
-			<CancelledCondition>Asked_Galena</CancelledCondition>
 				<RequiredLogCondition>GAL R1</RequiredLogCondition>
-				<Text>Hey, Galena. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey, Galena. Got any questions about the universe for me?</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
 
-			<DialogueOption>
-			<RequiredCondition>Asked_Galena</RequiredCondition>
-				<Text>Where do I look for your toy rocket again, Galena?</Text>
-				<DialogueTarget>ShyKidNew1B</DialogueTarget>
-			</DialogueOption>
-
-				<DialogueOption>
-				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
-				<Text>I saw your toy rocket in the drain, Galena.</Text>
-				<DialogueTarget>ShyKidNew3</DialogueTarget>
-			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
 <DialogueNode>
 		<Name>ShyKidNew1</Name>
-		<SetCondition>Asked_Galena</SetCondition>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Um...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>My toy rocket disappeared again...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Is it true that there are big scary monsters on Giant's Deep's surface?<![CDATA[</size>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>
-				<Text>Oh no! Where did you last see it?</Text>
+		<RequiredLogCondition>GD_OCEAN_X1</RequiredLogCondition>
+				<Text>Uh... There's jellyfish on Giant's Deep, but they live deep underwater!</Text>
 				<DialogueTarget>ShyKidNew2</DialogueTarget>
 			</DialogueOption>
 		<DialogueOption>
-				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
-				<Text>I used my scout to check the drain behind the waterwheel, Galena. It's in there!</Text>
+				<Text>I'm.. not sure.</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
@@ -106,56 +74,35 @@
 <DialogueNode>
 		<Name>ShyKidNew2</Name>
 		<Dialogue>
-		<Page><![CDATA[<size=20>]]>Um.. I was playing in the river, and left it in the river while I went to go grab a snack...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>The river probably washed it into the drain behind the village waterwheel...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>I know it's probably there, but.. I'm.. <![CDATA[<Pause=1>]]> scared of going near that drain...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Could you please use your Little Scout to look in the drain to see if my rocket's in there, astronaut?<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>It should be the drain behind the village waterwheel. You'll find it if you just follow the river down the village..<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Um, it's really cramped in there, so you might need to rotate the Little Scout's camera to see in there...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>Oh.. But...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Feldspar told me that the monsters on Giant's Deep don't hide underwater all the time...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Feldspar said that sometimes.. <![CDATA[<Pause=1>]]> They come to the surface too!<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>It's so scary.. I thought the surface of Giant's Deep would be safe from monsters, so I could go there someday to watch the pretty waves... But if they come up to the surface too...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Um.. Just be careful if you ever visit Giant's Deep, okay, astronaut?<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Remember that even on the surface, you aren't safe from the monsters!<![CDATA[</size>]]></Page>
 		</Dialogue>	
-		<DialogueOptionsList>
-		<DialogueOption>
-				<Text>I'll see what I can do!</Text>
-				<DialogueTarget>ShyKidNew4</DialogueTarget>
-			</DialogueOption>
-		</DialogueOptionsList>
 						 <RevealFacts>
      						   <FactID>GAL R2</FactID>
     					  </RevealFacts>
 	</DialogueNode>
 
-<DialogueNode>
-		<Name>ShyKidNew1B</Name>
-				<Dialogue>
-				<Page><![CDATA[<size=20>]]>Um.. The little drain behind the village waterwheel. You'll see it if you follow the river down the village..<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>I just want you to look into there with your Little Scout for me..<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>It's really cramped in there though, so you might need to rotate the Little Scout's camera to see in there...<![CDATA[</size>]]></Page>
-		</Dialogue>
-		<DialogueOptionsList>
-		<DialogueOption>
-				<Text>I'll see what I can do!</Text>
-				<DialogueTarget>ShyKidNew4</DialogueTarget>
-			</DialogueOption>
-		</DialogueOptionsList>
-	</DialogueNode>
-
-
-<DialogueNode>
-		<Name>ShyKidNew4</Name>
-		<Dialogue>
-			<Page><![CDATA[<size=20>]]>Really..? Thank you..<![CDATA[</size>]]></Page>
-		</Dialogue>
-	</DialogueNode>
-
-
 	<DialogueNode>
 		<Name>ShyKidNew3</Name>
 		<Dialogue>
-			<Page><![CDATA[<size=20>]]>Oh... I was hoping it wasn't in there...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>I'll try ask if I can use Spinel's fishing rod to fish it out later..<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Thank you, astronaut.. Stay safe in space!<![CDATA[</size>]]></Page>
-		</Dialogue>
+		<Page><![CDATA[<size=20>]]>Oh..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Feldspar's been to Giant's Deep before... They told me about the monsters that live in its oceans...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>It wouldn't be so bad if the monsters stayed deep underwater... <![CDATA[<Pause=1>]]> But Feldspar said that sometimes they come to the surface too.<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>It's so scary.. I thought the surface of Giant's Deep would be safe from monsters, so I could go there someday to watch the pretty waves...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Um.. Just be careful if you ever visit Giant's Deep, okay, astronaut?<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Remember that even on the surface, you aren't safe from the monsters!<![CDATA[</size>]]></Page>
+		</Dialogue>	
+						 <RevealFacts>
+     						   <FactID>GAL R2</FactID>
+    					  </RevealFacts>
 	</DialogueNode>
+
+
+
 
 
 	<!-- ################################################## -->

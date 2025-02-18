@@ -3,22 +3,6 @@
 
 	"name":"Hollow's Lantern",
 
-	"canShowOnTitle": false,
-	"Atmosphere": {
-		"clouds": {
-		"fluidType": "fog",
-		"cloudsPrefab": "quantumMoon",
-		"outerCloudRadius": 145,
-		"innerCloudRadius": 135,
-		"tint": {"r": 255,"g": 70,"b": 0,"a": 255},
-		"rotationSpeed": 0,
-		"capPath": "planets/assets/ash clouds.png",
-		"texturePath": "planets/assets/ash clouds.png"
-		},
-	"atmosphereSunIntensity": 0.5,
-	"size": 140,
-	"atmosphereTint": {"a": 255,"r": 210,"g": 60,"b":0}
-	},
 
 	
 	"Props" :
