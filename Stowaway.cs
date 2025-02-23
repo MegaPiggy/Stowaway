@@ -12,6 +12,9 @@ using NewHorizons.Components.SizeControllers;
 using Stowaway.Misc;
 using NewHorizons.Utility.Files;
 using System.Linq;
+using NewHorizons.Builder.Orbital;
+using NewHorizons.Components.Orbital;
+using NewHorizons.Utility.OWML;
 
 namespace Stowaway;
 
@@ -75,6 +78,14 @@ public class Stowaway : ModBehaviour
 		{
 			initSurfaceMaterials();
 		}
+		if (system == "SolarSystem")
+			SetBinaryInitialMotion(
+				baryCenter: Locator.GetAstroObject(AstroObject.Name.HourglassTwins), 
+				primaryBody: Locator.GetAstroObject(AstroObject.Name.CaveTwin), 
+				secondaryBody: Locator.GetAstroObject(AstroObject.Name.TowerTwin), 
+				semiMajorAxis: 495, 
+				primaryTrueAnomaly: 275, 
+				secondaryTrueAnomaly: 335);
 	}
 
 	private void BodyLoaded(string body)
@@ -319,6 +330,77 @@ public class Stowaway : ModBehaviour
 			door.gameObject.GetAddComponent<OverheadDetector>();
 			door.gameObject.GetAddComponent<NomaiDoorTugger>();
 		}
+	}
+
+
+	public static void SetBinaryInitialMotion(AstroObject baryCenter, AstroObject primaryBody, AstroObject secondaryBody, float semiMajorAxis, float primaryTrueAnomaly, float secondaryTrueAnomaly)
+	{
+		Write($"Setting binary initial motion [{primaryBody.name}] [{secondaryBody.name}]");
+
+		var primaryGravity = new Gravity(primaryBody._gravityVolume);
+		var secondaryGravity = new Gravity(secondaryBody._gravityVolume);
+
+		if (primaryBody.GetGravityVolume() == null) primaryGravity = new Gravity(primaryBody.GetGravityVolume());
+		if (secondaryBody.GetGravityVolume() == null) secondaryGravity = new Gravity(secondaryBody.GetGravityVolume());
+
+		// Update the positions
+		var distance = semiMajorAxis * 2;
+		var m1 = primaryGravity.Mass;
+		var m2 = secondaryGravity.Mass;
+
+		var r1 = distance * m2 / (m1 + m2);
+		var r2 = distance * m1 / (m1 + m2);
+
+		var ecc = 0;
+		var inc = 0;
+		var arg = 0;
+		var lon = 0;
+		var tru = secondaryTrueAnomaly;
+
+		var primaryParameters = OrbitalParameters.FromTrueAnomaly(primaryGravity, secondaryGravity, ecc, r1, inc, arg - 180, lon, primaryTrueAnomaly);
+		var secondaryParameters = OrbitalParameters.FromTrueAnomaly(secondaryGravity, primaryGravity, ecc, r2, inc, arg, lon, secondaryTrueAnomaly);
+
+		primaryBody.transform.position = baryCenter.transform.position + primaryParameters.InitialPosition;
+		secondaryBody.transform.position = baryCenter.transform.position + secondaryParameters.InitialPosition;
+
+		// Update the velocities
+
+		// Two-body is equivalent to reduced mass orbiting the combined mass
+		var reducedMass = 1f / ((1f / m1) + (1f / m2));
+		var combinedMass = m1 + m2;
+
+		var reducedMassGravity = new Gravity(reducedMass, primaryGravity.Power);
+		var combinedMassGravity = new Gravity(combinedMass, primaryGravity.Power);
+
+		var baryCenterVelocity = baryCenter?.GetComponent<InitialMotion>()?.GetInitVelocity() ?? Vector3.zero;
+
+		// Doing the two body problem as a single one body problem gives the relative velocity of secondary to primary
+		var reducedOrbit = OrbitalParameters.FromTrueAnomaly(
+			combinedMassGravity,
+			reducedMassGravity,
+			ecc,
+			distance,
+			inc,
+			arg,
+			lon,
+			tru
+		);
+
+		// mf uh sin theta = v1 / r1 = v2 / r2 bc same angular speed same angle I win!
+		var v = reducedOrbit.InitialVelocity;
+		var primaryVelocity = v / (1 + r2 / r1);
+		var secondaryVelocity = primaryVelocity * r2 / r1;
+
+		// Now we just set things
+		var primaryInitialMotion = primaryBody.GetComponent<InitialMotion>();
+		primaryInitialMotion._cachedInitVelocity = baryCenterVelocity - primaryVelocity;
+		primaryInitialMotion._isInitVelocityDirty = false;
+
+		var secondaryInitialMotion = secondaryBody.GetComponent<InitialMotion>();
+		secondaryInitialMotion._cachedInitVelocity = baryCenterVelocity + secondaryVelocity;
+		secondaryInitialMotion._isInitVelocityDirty = false;
+
+		Write($"Binary Initial Motion: {m1}, {m2}, {r1}, {r2}, {primaryVelocity}, {secondaryVelocity}");
 	}
 
 	private const float sizeMultiplier = 1;
