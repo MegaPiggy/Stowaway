@@ -437,7 +437,7 @@ public class Stowaway : ModBehaviour
 			solarPanelComponent.SetIsland(constructionYardBody?.GetComponent<IslandController>());
 		}
 
-		var socket = SearchUtilities.Find("ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/LandingIsland/Prefab_NOM_Whiteboard/ArcSocket");
+		/*var socket = SearchUtilities.Find("ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/LandingIsland/Prefab_NOM_Whiteboard/ArcSocket");
 		if (socket)
 		{
 			socket.GetAddComponent<SchematicRearSecret>();
@@ -448,7 +448,7 @@ public class Stowaway : ModBehaviour
 		{
 			text._showTextOnStart = false;
 			text.HideImmediate();
-		}
+		}*/
 	}
 
 	private void initStatueIsland_Late()
