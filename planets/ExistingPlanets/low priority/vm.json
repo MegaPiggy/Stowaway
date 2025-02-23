@@ -4,6 +4,13 @@
 	"name":"Hollow's Lantern",
 
 	"canShowOnTitle": false,
+	"Orbit": {
+		"primaryBody": "Brittle Hollow",
+		"semiMajorAxis": 1000,
+		"trueAnomaly": 145,
+		"siderealPeriod": -0.5235988,
+		"axialTilt": 135
+	},
 	"Atmosphere": {
 		"clouds": {
 		"fluidType": "fog",
