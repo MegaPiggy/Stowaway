@@ -7,6 +7,13 @@
 	"Props" :
 	{
 		"details": [
+	
+			{
+			"rename":"sun gravitywell3 sun",
+			"keepLoaded": true,
+			"path":"Sun_Body/GravityWell_SUN/"
+			},
+			
 			{
 				"rename":"sun gm wisp normal",
 				"keepLoaded": true,

@@ -4,21 +4,7 @@
 	
 	"Props": {
 		"details": [
-			{
-				"rename":"et tide alignmentradius 0 spherecollider 2000",
-				"path":"TowerTwin_Body/Volumes_TowerTwin/GravityWell_TT/",
-				"scale":0.5,
-				"position": {"x":-326.6904,"y": -7.2164,"z": -226.1682},
-				"rotation": {"x":0,"y":235,"z":0},
-				"isRelativeToParent": true
-			},
-			{
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Props_HangingCity_District1/OtherComponentsGroup/Props_HangingCity_Building_10/Prefab_NOM_VaseThin",
-				"scale":100,
-				"position": {"x":0,"y":0,"z":0},
-				"isRelativeToParent": true,
-				"parentPath": "Sector/et tide alignmentradius 0 spherecollider 2000"
-			}
+			
 		]
 	}
 }

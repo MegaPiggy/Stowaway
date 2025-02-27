@@ -3,7 +3,13 @@
 
 	"name":"Hollow's Lantern",
 
-
+	"Atmosphere": {
+		"atmosphereTint": {"a": 255,"b": 0,"g": 0,"r": 100},
+		"fogDensity": 2,
+		"atmosphereSunIntensity": 1,
+		"fogSize": 300,
+		"fogTint": {"a": 255,"b": 0,"g": 0,"r": 0}
+	},
 	
 	"Props" :
 	{
