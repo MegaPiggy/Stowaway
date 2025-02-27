@@ -11,9 +11,10 @@
 			{
 			"rename":"sun gravitywell3 sun",
 			"keepLoaded": true,
-			"path":"Sun_Body/GravityWell_SUN/"
+			"path":"Sun_Body/GravityWell_SUN/",
+			"scale":0.2
 			},
-			
+
 			{
 				"rename":"sun gm wisp normal",
 				"keepLoaded": true,
