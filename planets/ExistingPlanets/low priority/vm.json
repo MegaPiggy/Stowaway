@@ -3,18 +3,45 @@
 
 	"name":"Hollow's Lantern",
 
+	"canShowOnTitle": false,
 	"Atmosphere": {
-		"atmosphereTint": {"a": 255,"b": 0,"g": 0,"r": 100},
-		"fogDensity": 2,
-		"atmosphereSunIntensity": 1,
-		"fogSize": 300,
-		"fogTint": {"a": 255,"b": 0,"g": 0,"r": 0}
+		"clouds": {
+		"fluidType": "fog",
+		"cloudsPrefab": "transparent",
+		"outerCloudRadius": 150,
+		"innerCloudRadius": 135,
+		"tint": {"r": 100,"g": 0,"b": 0,"a": 255},
+		"rotationSpeed": 5,
+		"unlit": true,
+		"capPath": "planets/assets/ash clouds 2.png",
+		"texturePath": "planets/assets/ash clouds 2.png",
+		"rampPath": "planets/assets/ash clouds ramp.png"
+		},
+	"atmosphereSunIntensity": 0.5,
+	"size": 150,
+	"atmosphereTint": {"a": 255,"r": 210,"g": 60,"b":0},
+	"fogDensity": 2,
+	"fogSize": 135,
+	"fogTint": {"a": 255,"b": 0,"g": 0,"r": 150}
 	},
 	
 	"Props" :
 	{
 
 	"details": [
+		{
+			"path":"DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Pivot/InnerWarp_ToSmallNest/Effects/FogOverrideVolume/",
+		"isRelativeToParent": true
+	},{
+		"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Volumes_GDInterior/DeepOceanFogOverride/",
+	"isRelativeToParent": true
+},{
+	"path":"TimberHearth_Body/Sector_TH/Sector_ZeroGCave/Volumes_ZeroGCave/ZeroG_FogOverride/",
+"isRelativeToParent": true
+},{
+	"path":"TimberHearth_Body/Sector_TH/Sector_WaterWays/Volumes_WaterWays/WaterCore_FogOverride_Primary/",
+"isRelativeToParent": true
+},
 		{
 			"rename":"lava floating raft",
 			"parentPath": "MoltenCore_VM",
