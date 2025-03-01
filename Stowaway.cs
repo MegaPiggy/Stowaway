@@ -144,11 +144,17 @@ public class Stowaway : ModBehaviour
 	private void initSun_Late()
 	{
 		var sun = Locator.GetAstroObject(AstroObject.Name.Sun);
-		var extraGravity = sun.GetRootSector().transform.Find("sun gravitywell3 sun");
-		extraGravity.localScale = Vector3.one;
-		extraGravity.GetComponent<SphereCollider>().radius = 6000; // Resize sphere
-		extraGravity.GetComponent<GravityVolume>()._surfaceAcceleration = 37.5f; // 400 billion at 100 accel. So change to 37.5 for 150 billion.
-		extraGravity.GetComponent<GravityVolume>().Awake(); // Run start up code that changes gravitationalMass
+		var sector = sun.GetRootSector().transform;
+		var extraGravity = sector.Find("sun gravitywell3 sun");
+		if (extraGravity != null)
+		{
+			var volume = extraGravity.GetComponent<GravityVolume>();
+			volume._surfaceAcceleration = 37.5f; // 400 billion at 100 accel. So change to 37.5 for 150 billion.
+			volume._setMass = false; // Do not set actual mass
+			volume.Awake(); // Run start up code that changes gravitationalMass
+		}
+		else
+			WriteError("Cannot find object at path Sun_Body/Sector_SUN/sun gravitywell3 sun");
 	}
 
 	private void initWaterColumn(AstroObject giantsDeep)
@@ -636,10 +642,19 @@ public class Stowaway : ModBehaviour
 
 	private void initGhostMatter(AstroObject astroObject, string path)
 	{
-		var gmObject = astroObject.GetRootSector().transform.Find(path).gameObject;
+		var gmTransform = astroObject.GetRootSector().transform.Find(path);
 
-		var overhead = gmObject.GetAddComponent<OverheadDetector>();
-		var gmFloat = gmObject.GetAddComponent<GhostMatterFloatController>();
+		if (gmTransform != null)
+		{
+			var gmObject = gmTransform.gameObject;
+			var overhead = gmObject.GetAddComponent<OverheadDetector>();
+			var gmFloat = gmObject.GetAddComponent<GhostMatterFloatController>();
+		}
+		else
+		{
+			var key = astroObject._name == AstroObject.Name.CustomString ? astroObject.GetCustomName() : astroObject._name.ToString();
+			WriteError("Cannot find object at path " + key + "/Sector/" + path);
+		}
 	}
 
 	private static readonly string BundleLocation = "planets/bundle";
