@@ -148,8 +148,10 @@ public class Stowaway : ModBehaviour
 		var extraGravity = sector.Find("sun gravitywell3 sun");
 		if (extraGravity != null)
 		{
+			WriteError("Found object at path Sun_Body/Sector_SUN/sun gravitywell3 sun");
 			var volume = extraGravity.GetComponent<GravityVolume>();
 			volume._surfaceAcceleration = 37.5f; // 400 billion at 100 accel. So change to 37.5 for 150 billion.
+			volume._isPlanetGravityVolume = false;
 			volume._setMass = false; // Do not set actual mass
 			volume.Awake(); // Run start up code that changes gravitationalMass
 		}
@@ -642,17 +644,18 @@ public class Stowaway : ModBehaviour
 
 	private void initGhostMatter(AstroObject astroObject, string path)
 	{
+		var key = astroObject._name == AstroObject.Name.CustomString ? astroObject.GetCustomName() : astroObject._name.ToString();
 		var gmTransform = astroObject.GetRootSector().transform.Find(path);
 
 		if (gmTransform != null)
 		{
+			WriteError("Found object at path " + key + "/Sector/" + path);
 			var gmObject = gmTransform.gameObject;
 			var overhead = gmObject.GetAddComponent<OverheadDetector>();
 			var gmFloat = gmObject.GetAddComponent<GhostMatterFloatController>();
 		}
 		else
 		{
-			var key = astroObject._name == AstroObject.Name.CustomString ? astroObject.GetCustomName() : astroObject._name.ToString();
 			WriteError("Cannot find object at path " + key + "/Sector/" + path);
 		}
 	}
