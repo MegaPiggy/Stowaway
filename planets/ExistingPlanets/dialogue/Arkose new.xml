@@ -56,11 +56,10 @@
 		<Name>ArkoseNew1.5</Name>
 		<Dialogue>
 			<Page>Yeah, isn't it weird?!</Page>
-			<Page>You know how there’s a green glowy trail when you throw something into a patch of ghost matter?</Page>
-			<Page>When I throw rocks into this patch of ghost matter, sometimes, it doesn’t leave a trail at all.. It's like the ghost matter just disappears completely suddenly, just for a moment!</Page>
-			<Page>I dunno what causes it! It doesn’t happen every time, so I keep trying to throw harder, or use different kinds of rocks.</Page>
-			<Page>I asked Gabbro about it last time they came back from Giant's Deep.. And they told me that ghost matter just goes away sometimes! So it really is true!</Page>
-			<Page>Gabbro didn't know what causes ghost matter to disappear either though..</Page>
+			<Page>You know how a green glowy trail appears when you throw something into a patch of ghost matter?</Page>
+			<Page>When I throw rocks into this patch of ghost matter, sometimes, it doesn’t leave a trail at all.</Page>
+			<Page>I asked Gabbro about it last time they came back from Giant's Deep.. They told me that yeah, ghost matter just goes away sometimes!</Page>
+			<Page>Even though they were the one that told me, Gabbro didn't know why ghost matter disappeared either.</Page>
 			<Page>It’s dangerous to get too close to the ghost matter, so I thought I'd just keep throwing rocks to see if I could figure it out on my own.</Page>
 		</Dialogue>
 							 <RevealFacts>

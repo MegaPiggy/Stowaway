@@ -114,10 +114,9 @@
 		<SetCondition>Teph_Talked</SetCondition>
 		<Name>Teph SW_2</Name>
 		<Dialogue>
-			<Page>W-wha? You don't know about it? The purple rock in the museum that jumps around when you look away!</Page>
-			<Page>Galena and I used to play hide and seek with the purple rock in the museum all the time. But one day, we noticed that the purple rock disappears sometimes.</Page>
+			<Page>W-wha? You don't know about it? The purple rock in the museum that disappears when you look away!</Page>
 			<Page>And I don't mean when it jumps behind you and scares you.. <![CDATA[<Pause=1>]]> I mean <![CDATA[<i>when it disappears completely</i>]]> from the museum!</Page>
-			<Page>We have some ideas on secret places the purple rock might be hiding.. But we need your help to look in these places, astronaut! Could you help us?</Page>
+			<Page>Galena and I wanna find where the purple rock is hiding.. We have some ideas, but we need your help to look in these places, astronaut! Could you help us?</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -138,11 +137,11 @@
 		<SetCondition>Teph_Drain</SetCondition>
 		<Name>Teph SW_3</Name>
 			<Dialogue>
-					<Page>Yay! You're the best, astronaut!</Page>
-					<Page>Okay, listen up! If you follow the river down the village, you'll find a waterwheel that splishes water really loudly.</Page>
-					<Page>Behind the waterwheel, there's this tiny drain that the river flows into.. We think the purple rock might be hiding in there - but it's so small that Galena and I can't go in there to check!</Page>
-					<Page>Riebeck let me play with their Little Scout once before.. Did you know the Little Scout's camera can be rotated around once you shoot it out?</Page>
-					<Page>If you shoot your Little Scout into the drain, I bet you could use that rotating camera to look if the purple rock is hiding in there!</Page>
+					<Page>Yay!!</Page>
+					<Page>Okay, listen up! If you follow the river down the village, you'll find a waterwheel that splishes water really loudly.. Behind the waterwheel, there's a drain that the river flows into.</Page>
+					<Page>We think the purple rock might be hiding in there.. But the back of the drain's too small for Galena and I to crawl in to look!</Page>
+					<Page>Riebeck lets me play with their Little Scout sometimes, so we know the Little Scout's camera can look around after it's launched somewhere.</Page>
+					<Page>If you shoot your Little Scout into the drain, I bet you could use that rotating camera to look if the purple rock is hiding in there.</Page>
 					<Page>Come back and tell me what you find in there, okay, astronaut? We have another place for you to check if the purple rock isn't there!</Page>
 		</Dialogue>
 						 <RevealFacts>
@@ -178,11 +177,11 @@
 			<Dialogue>
 					<Page>Yess! Thanks for helping us look again, astronaut!</Page>
 					<Page>Okay, um - the other place we'd like you to look is the massive cave system inside the geysers.</Page>
-					<Page>We need you to look in there for us, because there's a ton of water down there, and we can't hold our breaths long enough to explore it!</Page>
-					<Page>The astronaut's suit should let you breathe underwater - but Riebeck told me that Hearthians used to be able to breathe underwater a long time ago too, like the little fishies do.</Page>
-					<Page>Riebeck said that back then, we lived in these underwater caves inside the geysers - and that we probably learned to live on land because we would die being shot out of water by the geysers otherwise!</Page>
+					<Page>We need you to look in there for us, because there's a ton of water down there, and we can't hold our breaths long enough to explore it.</Page>
+					<Page>The astronaut's suit should let you breathe underwater.. But Riebeck told me that Hearthians used to be able to breathe underwater a long time ago too, like the little fishies do.</Page>
+					<Page>Riebeck said that back then, we lived in these underwater caves inside the geysers - and that we probably learned to live on land, because we would die being shot out of water by the geysers otherwise!</Page>
 					<Page>Since these caves were only discovered recently, nobody's properly explored them yet.. Riebeck wouldn't do it because they're too scared, and all the other astronauts are busy.</Page>
-					<Page>I'd hate to get your suit wet, but a suit's the only way to explore the geyser caves safely. <![CDATA[<Pause=1>]]> So.. Could you jump into a geyser to help us look for the purple rock, astronaut?</Page>
+					<Page>I'd hate to get your suit wet, but a suit's the only way to explore the geyser caves safely. So.. <![CDATA[<Pause=1>]]> Could you jump into a geyser to help us look for the purple rock, astronaut?</Page>
 		</Dialogue>
 			<DialogueOptionsList>
 			<DialogueOption>
@@ -206,12 +205,10 @@
 		<SetCondition>Teph_None</SetCondition>
 			<Dialogue>
 					<Page>Aw, so the purple rock's not down there either..</Page>
-					<Page>Um, that's all the spots we had in mind, astronaut. Unless we think of another way to see where the purple rock's going, I guess that's a dead end.</Page>
-					<Page>But wow, astronaut! Jumping into a geyser was definitely still worth it for this find!</Page>
-					<Page>The Nomai were the aliens that lived in our solar system a long, long time ago, right?</Page>
+					<Page>Um, that's all the spots we had in mind, astronaut. Thanks so much for helping us look! But I guess that's it, unless we think of some way to see where the purple rock goes..</Page>
+					<Page>But wow, astronaut.. The Nomai were the cool aliens that lived in our solar system a long, long time ago, right?</Page>
 					<Page>If the Nomai drew a mural of some Hearthians, that means our species were already around as little fishies when they were around, right? That's crazy!</Page>
-					<Page>It's no purple rock.. but this discovery is gonna rock Hearthian history, astronaut!</Page>
-					<Page>If Riebeck learned about the Nomai drew a mural of us, they'd probably lose their marbles!</Page>
+					<Page>If Riebeck learned the Nomai drew a mural of us, they'd probably lose their marbles!</Page>
 					<Page>Oooh, I bet Riebeck's gonna kick themself for turning down the chance to be the first to explore those caves.. I can't imagine the look on their face when they hear about this!</Page>
 		</Dialogue>
 						 <RevealFacts>

@@ -76,10 +76,10 @@
 		<Dialogue>
 		<Page><![CDATA[<size=20>]]>Oh.. But...<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>Feldspar told me that the monsters on Giant's Deep don't hide underwater all the time...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Feldspar said that sometimes.. <![CDATA[<Pause=1>]]> They come to the surface too!<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Feldspar said that sometimes.. <![CDATA[<Pause=1>]]> They come to the surface too.<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>It's so scary.. I thought the surface of Giant's Deep would be safe from monsters, so I could go there someday to watch the pretty waves... But if they come up to the surface too...<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>Um.. Just be careful if you ever visit Giant's Deep, okay, astronaut?<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Remember that even on the surface, you aren't safe from the monsters!<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Remember, even on the surface, you aren't safe from the monsters!<![CDATA[</size>]]></Page>
 		</Dialogue>	
 						 <RevealFacts>
      						   <FactID>GAL R2</FactID>
@@ -94,7 +94,7 @@
 			<Page><![CDATA[<size=20>]]>It wouldn't be so bad if the monsters stayed deep underwater... <![CDATA[<Pause=1>]]> But Feldspar said that sometimes they come to the surface too.<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>It's so scary.. I thought the surface of Giant's Deep would be safe from monsters, so I could go there someday to watch the pretty waves...<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>Um.. Just be careful if you ever visit Giant's Deep, okay, astronaut?<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Remember that even on the surface, you aren't safe from the monsters!<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Remember, even on the surface, you aren't safe from the monsters!<![CDATA[</size>]]></Page>
 		</Dialogue>	
 						 <RevealFacts>
      						   <FactID>GAL R2</FactID>

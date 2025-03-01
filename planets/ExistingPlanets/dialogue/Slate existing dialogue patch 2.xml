@@ -65,34 +65,155 @@
 		<Name>ScientistAnswer_Mysteries1</Name>
 		<Dialogue>
 			<Page>Trying to solve some mysteries out there, are you? Sure, there's loads of things we don't know.</Page>
-			<Page>We don't know where Feldspar's gone, for one.. <![CDATA[<Pause=1>]]> *sigh* I miss my most daring ship tester.</Page>
+			<Page>We don't know where Feldspar's gone, for one, or if they're even still alive. Ah, I miss my ship tester...</Page>
 			<Page>Don't know what happened to the Nomai either. You'd probably score a great exhibit in the museum if you could figure out what happened to the ancient species that once lived in our star system.</Page>
-			<Page>What else, what else... Oh, you seen that moon that disappears when you take your eyes off it? That's another weird one we haven't even begun to crack the mystery of.</Page>
+			<Page>What else, what else... Oh, you seen that big Nomai station orbiting Giant's Deep? It's a pretty sight. Makes you wonder what it was built for, doesn't it?</Page>
 		</Dialogue>
 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>Yeah yeah I know all about those. Anything else?</Text>
-				<DialogueTarget>ScientistAnswer_Mysteries2</DialogueTarget>
+				<RequiredLogCondition>DB_FELDSPAR_X1</RequiredLogCondition>
+				<CancelledCondition>SQ1</CancelledCondition>
+				<Text>Feldspar's alive! They're just stranded inside Dark Bramble.</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries2A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>COMET_INTERIOR_X3</RequiredLogCondition>
+				<CancelledCondition>SQ2</CancelledCondition>
+				<Text>The Nomai were killed by ghost matter that engulfed the star system from the Interloper.</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries2B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>ORBITAL_PROBE_CANNON_X2</RequiredLogCondition>
+				<CancelledCondition>SQ3</CancelledCondition>
+				<Text>The station orbiting Giant's Deep was built to shoot a probe to look for an entity older than the universe.</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries2C</DialogueTarget>
+			</DialogueOption>
+			
+			<DialogueOption>
+				<Text>Any other mysteries we've never heard about?</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries2_1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<Text>Oh yeah. Guess I'll just keep trying to figure those out.</Text>
+				<Text>Huh.. Guess I'll just keep trying to figure those out.</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries0</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
 	<DialogueNode>
-		<Name>ScientistAnswer_Mysteries2</Name>
+		<Name>ScientistAnswer_Mysteries1Q</Name>
 		<Dialogue>
-			<Page>Really? <![CDATA[<i>None</i>]]> of t hose mysteries were enticing enough for ya?</Page>
+			<Page>Well? Any other answers to the mysteries of the universe come to you in your sleep?</Page>
+		</Dialogue>
+<DialogueOptionsList>
+			<DialogueOption>
+				<RequiredLogCondition>DB_FELDSPAR_X1</RequiredLogCondition>
+				<CancelledCondition>SQ1</CancelledCondition>
+				<Text>Feldspar's alive! They're just stranded inside Dark Bramble.</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries2A</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>COMET_INTERIOR_X3</RequiredLogCondition>
+				<CancelledCondition>SQ2</CancelledCondition>
+				<Text>The Nomai were killed by ghost matter that engulfed the star system from the Interloper.</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries2B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>ORBITAL_PROBE_CANNON_X2</RequiredLogCondition>
+				<CancelledCondition>SQ3</CancelledCondition>
+				<Text>The station orbiting Giant's Deep was built to shoot a probe to look for an entity older than the universe.</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries2C</DialogueTarget>
+			</DialogueOption>
+			
+			<DialogueOption>
+				<RequiredCondition>SQ1</RequiredCondition>
+				<RequiredCondition>SQ2</RequiredCondition>
+				<RequiredCondition>SQ3</RequiredCondition>
+				<Text>So... Is there anything we haven't figured out yet?</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries2_2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>Any other mysteries we've never heard about?</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries2_1</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>Huh.. Guess I'll just keep trying to figure those out.</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries0</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>ScientistAnswer_Mysteries2A</Name>
+		<SetCondition>SQ1</SetCondition>
+		<Dialogue>
+			<Page>Yeah, yeah, and Chert says Feldspar's probably buried in sand somewhere on the Hourglass Twins.. Sad as it sounds, I think I'm leaning more towards Chert's idea, hatchling.</Page>
+			<Page>Look, in case you missed the anglerfish exhibit inside the museum; Being stranded inside Dark Bramble and being alive are basically two contradictory ideas, if you catch my drift.</Page>
+			<Page>You should probably just stay away from Dark Bramble unless you're ready to risk meeting the end.</Page>
+	<!-- Remember how to end the game --> 
+		</Dialogue>
+		<DialogueTarget>ScientistAnswer_Mysteries1Q</DialogueTarget>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ScientistAnswer_Mysteries2B</Name>
+		<SetCondition>SQ2</SetCondition>
+		<Dialogue>
+			<Page>Ghost matter killed the Nomai? Pfft, I've heard way more fancy theories about the Nomai from Riebeck, hatchling.</Page>
+			<Page>Well.. It doesn't sound impossible. Space <![CDATA[<i>]]>is<![CDATA[</i>]]> full of all kinds of dangerous things that could just wipe us out at any second.</Page>
+			<Page>Still, it sounds a little sad and anticlimactic, doesn't it? These ancient, super advanced aliens, dying to something out of their control..</Page>
+			<Page>Guess all we can do is hope something like that doesn't happen to us.</Page>
+	<!-- Remember how tragically the Nomai died --> 
+		</Dialogue>
+		<DialogueTarget>ScientistAnswer_Mysteries1Q</DialogueTarget>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ScientistAnswer_Mysteries2C</Name>
+		<SetCondition>SQ3</SetCondition>
+		<Dialogue>
+			<Page>Entity older than the universe..? Hatchling, that sounds like hogwash. Has Gabbro been filling your head with too many stories of their daydreamed discoveries?</Page>
+			<Page>Well, I guess it does look like a structure designed for shooting something out.. Maybe you're onto something there.</Page>
+			<Page>Bit much to build something that huge just to fire a probe, though, isn't it?</Page>
+			<Page>Well.. Whatever they built it for, it definitely shows the Nomai put elbow grease into building everything they made. You gotta respect that about them.</Page>
+	<!-- Remember how hard the Nomai worked --> 
+		</Dialogue>
+		<DialogueTarget>ScientistAnswer_Mysteries1Q</DialogueTarget>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ScientistAnswer_Mysteries2_1</Name>
+		<Dialogue>
+			<Page>Really? <![CDATA[<i>None</i>]]> of those mysteries were enticing enough for ya?</Page>
 			<Page>Sheesh, even Gabbro was curious which planet was best for napping on.. Guess you can't draw a magnet to lead.</Page>
-			<Page>Well, you better figure out what you wanna explore before you take off, hatchling. Otherwise, it'll be a pretty boring and pointless waste of fuel going into space.</Page>
-			<Page>..Oh, here's an idea!</Page>
-			<Page>Try asking the kids around the village what questions they have about space! They might know some mysteries we've never heard of.</Page>
+			<Page>Well, you better figure out what you wanna explore before you take off. Otherwise, it'll be a pretty boring and pointless waste of fuel going into space.</Page>
+			<Page>.. Oh, I know!</Page>
+			<Page>Try asking the kids around the village what questions they have about space before you go! I'm sure they've got some weird little mysteries for you to tackle.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Why them exactly..?</Text>
+				<Text>Why ask the kids?</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries3</DialogueTarget>
+			</DialogueOption>
+				<DialogueOption>
+				<Text>What kind of mysteries would kids know about?</Text>
+				<DialogueTarget>ScientistAnswer_Mysteries3</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ScientistAnswer_Mysteries2_2</Name>
+		<Dialogue>
+			<Page>Ha! I guess that's our biggest mysteries all solved in your dreams already, eh, hatchling? Nothing left to explore out there!</Page>
+			<Page>Well, you better figure out "what else" there is to explore before you take off. Otherwise, it'll be a pretty boring and pointless waste of fuel for you to go into space at all.</Page>
+			<Page>.. Ah, I know.</Page>
+			<Page>Try asking the kids around the village what questions they have about space before you go. I'm sure they've got some more weird little mysteries for you to tackle.</Page>
+		</Dialogue>
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Why ask the kids?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries3</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -106,11 +227,10 @@
 		<Name>ScientistAnswer_Mysteries3</Name>
 		<SetCondition>Slate_Talked</SetCondition>
 		<Dialogue>
-			<Page>Have you talked to a kid before? They're endless pools of curiosity.</Page>
-			<Page>I'm sure they've got loads of dumb questions about the universe.. Maybe one of them might pique your interest on something new to explore.</Page>
+			<Page>Have you talked to a kid before? They're obnoxiously endless pools of curiosity. I'm sure one of them could give you some idea on what else to explore.</Page>
 			<Page>..Besides, if you talk to them now, it'd help to get them off my back later because the newest astronaut didn't say bye to them.</Page>
-			<Page>Oh, and just so I don't get any complaints.. Remember, there's five of those little squirts: Mica, Tephra, Galena, Arkose, and Moraine.</Page>	
-			<Page>Just hear out whatever dumb questions they might have about the universe! Even the dumbest questions deserve answers, after all.</Page>
+			<Page>Just remember, there's five of those little squirts: Mica, Tephra, Galena, Arkose, and Moraine.</Page>	
+			<Page>If you're out of questions, might as well answer somebody else's dumb questions about the universe, right?</Page>
 			</Dialogue>
 				<RevealFacts>
      						   <FactID>MICA R1</FactID>

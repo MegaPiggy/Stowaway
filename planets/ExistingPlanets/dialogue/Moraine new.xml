@@ -80,10 +80,10 @@
 <DialogueNode>
 		<Name>SignalscopeKidNewC1</Name>
 		<Dialogue>
-			<Page>O-oh, um.. Sorry, I think I probably just saw something else..</Page>
+			<Page>O-oh, um.. Sorry, it was probably nothing..</Page>
 			<Page>You know how busted my signalscope is, with how much Tephra and Galena play with it! Just look at how much shinier your brand new one is!</Page>
-			<Page>But.. I thought I saw two comets in the sky a few nights ago.</Page>
-			<Page>I'd never miss a comet's bright glowing tail! I definitely saw two comets that night.. But I haven't been able to see it again since, so I really don't know if it was real..</Page>
+			<Page>But... I thought I saw two comets in the sky a few nights ago.</Page>
+			<Page>I'd never miss a comet's bright glowing tail! I'm sure I saw two comets that night.. But I haven't been able to see it again since, so I really don't know if it was real..</Page>
 			<Page>Um, if you find anything out there that counts as a second comet.. Could you tell me, astronaut?</Page>
 			<Page>If it really exists, it'd be so cool to learn about a new celestial body we know nothing about!</Page>
 			</Dialogue>
@@ -125,16 +125,15 @@
 		<Dialogue>
 			<Page>Ohh.. So that's why it's so hard to see it.. I guess Giant's Deep must have kept it hidden from us pretty well!</Page>
 			<Page>But.. that's weird, isn't it?</Page>
-			<Page>Hornfels told me comets can have weird orbits.. But comets aren't supposed to stay still like that, are they? The Interloper sure doesn't do that!</Page>
-			<Page>Why is this comet hiding itself inside a planet's shadow like that? It's kinda creepy..</Page>
+			<Page>Hornfels told me comets can have weird orbits.. But comets aren't supposed to stay still behind planets like that, are they? The Interloper sure doesn't do that!</Page>
+			<Page>Why's this comet hiding inside a planet's shadow at all? It's kinda creepy..</Page>
 			</Dialogue>
 		</DialogueNode>
 
 <DialogueNode>
 		<Name>SignalscopeKidNewC4</Name>
 		<Dialogue>
-			<Page>Woah, wha? The Nomai MADE the comet.. And the whole thing's made of gravity crystals..? That's. NUTS, astronaut!!</Page>
-			<Page>Where'd the Nomai even get so many gravity crystals?!</Page>
+			<Page>Woah, wha? The Nomai MADE the comet.. And the whole thing's made of gravity crystals..? That's. NUTS, astronaut!! Where'd the Nomai even get so many gravity crystals?!</Page>
 			<Page>Also, isn't a whole comet-sized chunk of gravity crystals kinda much? What could they possibly need that much for?</Page>
 			<Page>Were the Nomai trying to make a little artificial moon?</Page>
 			<Page>Haha, that's such a cute idea.. I could totally see the Nomai doing that!</Page>
@@ -144,10 +143,10 @@
 		<DialogueNode>
 		<Name>SignalscopeKidNewC5</Name>
 		<Dialogue>
-			<Page>Huh? A.. weapon?</Page>
+			<Page>Huh? A.. weapon? Like, something dangerous?</Page>
 			<Page>But.. Weren't the Nomai really peaceful and friendly? Why.. What'd they need a weapon like that for?</Page>
 			<Page>That's.. really weird.</Page>
-			<Page>Um...If it really is a weapon.. I'm sure they must have had a good reason to make something like that.</Page>
+			<Page>Um... If it really is a weapon.. I'm sure the Nomai must have had a good reason to make something like that.</Page>
 			</Dialogue>
 		</DialogueNode>
 
