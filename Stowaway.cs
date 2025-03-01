@@ -159,7 +159,7 @@ public class Stowaway : ModBehaviour
 	private void initSandFunnel_Late()
 	{
 		var sandFunnel = SearchUtilities.Find("SandFunnel_Body");
-		sandFunnel.transform.localScale = new Vector3(1, 1, 2);
+		sandFunnel.transform.Find("ScaleRoot").localScale = new Vector3(1, 1, 2);
 		sandFunnel.AddComponent<SandFunnelFixer>();
     }
 
