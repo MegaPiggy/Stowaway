@@ -90,6 +90,10 @@ public class Stowaway : ModBehaviour
 
 	private void BodyLoaded(string body)
 	{
+		if (body == "Sun")
+		{
+			initSun_Late();
+		}
 		if (body == "AshTwin")
 		{
 			initAshTwin_Late();
@@ -135,6 +139,16 @@ public class Stowaway : ModBehaviour
 		{
 			initInspiredComet(NewHorizonsAPI.GetPlanet(body));
 		}
+	}
+
+	private void initSun_Late()
+	{
+		var sun = Locator.GetAstroObject(AstroObject.Name.Sun);
+		var extraGravity = sun.GetRootSector().transform.Find("sun gravitywell3 sun");
+		extraGravity.localScale = Vector3.one;
+		extraGravity.GetComponent<SphereCollider>().radius = 6000; // Resize sphere
+		extraGravity.GetComponent<GravityVolume>()._surfaceAcceleration = 37.5f; // 400 billion at 100 accel. So change to 37.5 for 150 billion.
+		extraGravity.GetComponent<GravityVolume>().Awake(); // Run start up code that changes gravitationalMass
 	}
 
 	private void initWaterColumn(AstroObject giantsDeep)
