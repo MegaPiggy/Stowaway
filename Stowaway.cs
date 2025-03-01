@@ -79,6 +79,7 @@ public class Stowaway : ModBehaviour
 			initSurfaceMaterials();
 		}
 		if (system == "SolarSystem")
+		{
 			SetBinaryInitialMotion(
 				baryCenter: Locator.GetAstroObject(AstroObject.Name.HourglassTwins), 
 				primaryBody: Locator.GetAstroObject(AstroObject.Name.CaveTwin), 
@@ -86,6 +87,8 @@ public class Stowaway : ModBehaviour
 				semiMajorAxis: 495, 
 				primaryTrueAnomaly: 275, 
 				secondaryTrueAnomaly: 335);
+			initSandFunnel_Late();
+		}
 	}
 
 	private void BodyLoaded(string body)
@@ -93,6 +96,10 @@ public class Stowaway : ModBehaviour
 		if (body == "Sun")
 		{
 			initSun_Late();
+		}
+		if (body == "HourglassTwins")
+		{
+			initHourglassTwins_Late();
 		}
 		if (body == "AshTwin")
 		{
@@ -141,7 +148,21 @@ public class Stowaway : ModBehaviour
 		}
 	}
 
-	private void initSun_Late()
+	private void initHourglassTwins_Late()
+	{
+		var hgt = Locator.GetAstroObject(AstroObject.Name.HourglassTwins);
+		var sector = hgt.GetRootSector();
+		Delay.RunWhen(() => hgt.GetRootSector() != null && hgt.GetRootSector().GetComponent<SphereShape>() != null, () =>
+			hgt.GetRootSector().GetComponent<SphereShape>().radius += 250);
+	}
+
+	private void initSandFunnel_Late()
+	{
+		var sandFunnel = SearchUtilities.Find("SandFunnel_Body");
+		sandFunnel.AddComponent<SandFunnelFixer>();
+    }
+
+    private void initSun_Late()
 	{
 		var sun = Locator.GetAstroObject(AstroObject.Name.Sun);
 		var sector = sun.GetRootSector().transform;

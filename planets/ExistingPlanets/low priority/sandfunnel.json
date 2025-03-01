@@ -3,12 +3,6 @@
 	"name": "SandFunnel",
 	"Props": {
 		"details": [
-			{
-				"keepLoaded": true,
-				"scale": 300,
-				"rename": "Cube",
-				"path": "TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_DLC/Props_RadioTower/OtherComponentsGroup/Props_Grove/Cube"
-			}
 		]
 	}
 }
