@@ -371,7 +371,7 @@ public class Stowaway : ModBehaviour
 		var lon = 0;
 		var tru = secondaryTrueAnomaly;
 
-		var primaryParameters = OrbitalParameters.FromTrueAnomaly(primaryGravity, secondaryGravity, ecc, r1, inc, arg - 180, lon, primaryTrueAnomaly);
+		var primaryParameters = OrbitalParameters.FromTrueAnomaly(primaryGravity, secondaryGravity, ecc, r1, inc, arg - 180, lon, secondaryTrueAnomaly);
 		var secondaryParameters = OrbitalParameters.FromTrueAnomaly(secondaryGravity, primaryGravity, ecc, r2, inc, arg, lon, secondaryTrueAnomaly);
 
 		primaryBody.transform.position = baryCenter.transform.position + primaryParameters.InitialPosition;
