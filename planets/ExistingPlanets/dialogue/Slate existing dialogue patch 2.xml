@@ -149,8 +149,6 @@
 		<SetCondition>SQ1</SetCondition>
 		<Dialogue>
 			<Page>Yeah, yeah, and Chert says Feldspar's probably buried in sand somewhere on the Hourglass Twins.. Sad as it sounds, I think I'm leaning more towards Chert's idea, hatchling.</Page>
-			<Page>Look, in case you missed the anglerfish exhibit inside the museum; Being stranded inside Dark Bramble and being alive are basically two contradictory ideas, if you catch my drift.</Page>
-			<Page>You should probably just stay away from Dark Bramble unless you're ready to risk meeting the end.</Page>
 	<!-- Remember how to end the game --> 
 		</Dialogue>
 		<DialogueTarget>ScientistAnswer_Mysteries1Q</DialogueTarget>
@@ -161,9 +159,6 @@
 		<SetCondition>SQ2</SetCondition>
 		<Dialogue>
 			<Page>Ghost matter killed the Nomai? Pfft, I've heard way more fancy theories about the Nomai from Riebeck, hatchling.</Page>
-			<Page>Well.. It doesn't sound impossible. Space <![CDATA[<i>]]>is<![CDATA[</i>]]> full of all kinds of dangerous things that could just wipe us out at any second.</Page>
-			<Page>Still, it sounds a little sad and anticlimactic, doesn't it? These ancient, super advanced aliens, dying to something out of their control..</Page>
-			<Page>Guess all we can do is hope something like that doesn't happen to us.</Page>
 	<!-- Remember how tragically the Nomai died --> 
 		</Dialogue>
 		<DialogueTarget>ScientistAnswer_Mysteries1Q</DialogueTarget>
@@ -174,9 +169,6 @@
 		<SetCondition>SQ3</SetCondition>
 		<Dialogue>
 			<Page>Entity older than the universe..? Hatchling, that sounds like hogwash. Has Gabbro been filling your head with too many stories of their daydreamed discoveries?</Page>
-			<Page>Well, I guess it does look like a structure designed for shooting something out.. Maybe you're onto something there.</Page>
-			<Page>Bit much to build something that huge just to fire a probe, though, isn't it?</Page>
-			<Page>Well.. Whatever they built it for, it definitely shows the Nomai put elbow grease into building everything they made. You gotta respect that about them.</Page>
 	<!-- Remember how hard the Nomai worked --> 
 		</Dialogue>
 		<DialogueTarget>ScientistAnswer_Mysteries1Q</DialogueTarget>
