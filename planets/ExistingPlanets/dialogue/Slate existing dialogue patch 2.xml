@@ -65,9 +65,10 @@
 		<Name>ScientistAnswer_Mysteries1</Name>
 		<Dialogue>
 			<Page>Trying to solve some mysteries out there, are you? Sure, there's loads of things we don't know.</Page>
-			<Page>We don't know where Feldspar's gone, for one, or if they're even still alive. Ah, I miss my ship tester...</Page>
-			<Page>Don't know what happened to the Nomai either. You'd probably score a great exhibit in the museum if you could figure out what happened to the ancient species that once lived in our star system.</Page>
-			<Page>What else, what else... Oh, you seen that big Nomai station orbiting Giant's Deep? It's a pretty sight. Makes you wonder what it was built for, doesn't it?</Page>
+			<Page>You heard about the Nomai? That ancient species of aliens that once lived in our star system? You'd probably score a great exhibit in the museum if you could figure out what happened to them.</Page>
+			<Page>And.. We still don't know where Feldspar went, or if they're even still alive.</Page>
+			<Page>Every now and then, the village still asks if the space program's found any clues about Feldspar's fate.. Can't blame 'em, after the best pilot in the space program just up and vanished..</Page>
+			<Page>Without some closure, you can't really move on, you know?</Page>
 		</Dialogue>
 <DialogueOptionsList>
 			<DialogueOption>
@@ -82,15 +83,9 @@
 				<Text>The Nomai were killed by ghost matter that engulfed the star system from the Interloper.</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries2B</DialogueTarget>
 			</DialogueOption>
+
 			<DialogueOption>
-				<RequiredLogCondition>ORBITAL_PROBE_CANNON_X2</RequiredLogCondition>
-				<CancelledCondition>SQ3</CancelledCondition>
-				<Text>The station orbiting Giant's Deep was built to shoot a probe to look for an entity older than the universe.</Text>
-				<DialogueTarget>ScientistAnswer_Mysteries2C</DialogueTarget>
-			</DialogueOption>
-			
-			<DialogueOption>
-				<Text>Any other mysteries we've never heard about?</Text>
+				<Text>Are there any other mysteries we've never heard about?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries2_1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -118,23 +113,13 @@
 				<Text>The Nomai were killed by ghost matter that engulfed the star system from the Interloper.</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries2B</DialogueTarget>
 			</DialogueOption>
-			<DialogueOption>
-				<RequiredLogCondition>ORBITAL_PROBE_CANNON_X2</RequiredLogCondition>
-				<CancelledCondition>SQ3</CancelledCondition>
-				<Text>The station orbiting Giant's Deep was built to shoot a probe to look for an entity older than the universe.</Text>
-				<DialogueTarget>ScientistAnswer_Mysteries2C</DialogueTarget>
-			</DialogueOption>
 			
 			<DialogueOption>
 				<RequiredCondition>SQ1</RequiredCondition>
 				<RequiredCondition>SQ2</RequiredCondition>
 				<RequiredCondition>SQ3</RequiredCondition>
-				<Text>So... Is there anything we haven't figured out yet?</Text>
+				<Text>So... Any other mysteries we've never heard about?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries2_2</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<Text>Any other mysteries we've never heard about?</Text>
-				<DialogueTarget>ScientistAnswer_Mysteries2_1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<Text>Huh.. Guess I'll just keep trying to figure those out.</Text>
@@ -148,7 +133,8 @@
 		<Name>ScientistAnswer_Mysteries2A</Name>
 		<SetCondition>SQ1</SetCondition>
 		<Dialogue>
-			<Page>Yeah, yeah, and Chert says Feldspar's probably buried in sand somewhere on the Hourglass Twins.. Sad as it sounds, I think I'm leaning more towards Chert's idea, hatchling.</Page>
+			<Page>Yeah, yeah, everybody has their theories what happened to them.. I'm done getting my hopes up.</Page>	
+			<Page>Look, in case you missed the anglerfish exhibit inside the museum; Being stranded inside Dark Bramble and being alive are basically two contradictory ideas, if you catch my drift.</Page>
 	<!-- Remember how to end the game --> 
 		</Dialogue>
 		<DialogueTarget>ScientistAnswer_Mysteries1Q</DialogueTarget>
@@ -159,20 +145,14 @@
 		<SetCondition>SQ2</SetCondition>
 		<Dialogue>
 			<Page>Ghost matter killed the Nomai? Pfft, I've heard way more fancy theories about the Nomai from Riebeck, hatchling.</Page>
+			<Page>Well.. It doesn't sound impossible. Space <![CDATA[<i>]]>is<![CDATA[</i>]]> full of all kinds of dangerous things that could just wipe us out at any second.</Page>
+			<Page>Still, it sounds a little sad and anticlimactic, doesn't it? These ancient, super advanced aliens, dying to something out of their control..</Page>
+			<Page>Guess all we can do is hope something like that doesn't happen to us.</Page>
 	<!-- Remember how tragically the Nomai died --> 
 		</Dialogue>
 		<DialogueTarget>ScientistAnswer_Mysteries1Q</DialogueTarget>
 	</DialogueNode>
 
-<DialogueNode>
-		<Name>ScientistAnswer_Mysteries2C</Name>
-		<SetCondition>SQ3</SetCondition>
-		<Dialogue>
-			<Page>Entity older than the universe..? Hatchling, that sounds like hogwash. Has Gabbro been filling your head with too many stories of their daydreamed discoveries?</Page>
-	<!-- Remember how hard the Nomai worked --> 
-		</Dialogue>
-		<DialogueTarget>ScientistAnswer_Mysteries1Q</DialogueTarget>
-	</DialogueNode>
 
 <DialogueNode>
 		<Name>ScientistAnswer_Mysteries2_1</Name>
