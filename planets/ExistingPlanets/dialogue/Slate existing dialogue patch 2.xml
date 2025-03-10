@@ -67,8 +67,7 @@
 			<Page>Trying to solve some mysteries out there, are you? Sure, there's loads of things we don't know.</Page>
 			<Page>You heard about the Nomai? That ancient species of aliens that once lived in our star system? You'd probably score a great exhibit in the museum if you could figure out what happened to them.</Page>
 			<Page>And.. We still don't know where Feldspar went, or if they're even still alive.</Page>
-			<Page>Every now and then, the village still asks if the space program's found any clues about Feldspar's fate.. Can't blame 'em, after the best pilot in the space program just up and vanished..</Page>
-			<Page>Without some closure, you can't really move on, you know?</Page>
+			<Page>You know, the village still asks me every now and again if the space program's found any clues about Feldspar's fate.. Guess none of us have really moved on without getting some sort of closure.</Page>
 		</Dialogue>
 <DialogueOptionsList>
 			<DialogueOption>
@@ -76,29 +75,24 @@
 				<CancelledCondition>SQ1</CancelledCondition>
 				<Text>Feldspar's alive! They're just stranded inside Dark Bramble.</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries2A</DialogueTarget>
-			</DialogueOption>
+			</DialogueOption>	
 			<DialogueOption>
 				<RequiredLogCondition>COMET_INTERIOR_X3</RequiredLogCondition>
 				<CancelledCondition>SQ2</CancelledCondition>
 				<Text>The Nomai were killed by ghost matter that engulfed the star system from the Interloper.</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries2B</DialogueTarget>
-			</DialogueOption>
-
-			<DialogueOption>
-				<Text>Are there any other mysteries we've never heard about?</Text>
-				<DialogueTarget>ScientistAnswer_Mysteries2_1</DialogueTarget>
-			</DialogueOption>
+				</DialogueOption>
 				<DialogueOption>
-				<Text>Huh.. Guess I'll just keep trying to figure those out.</Text>
+				<Text>Huh.. Guess I'll just keep trying to figure those mysteries out.</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries0</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
-	<DialogueNode>
+<DialogueNode>
 		<Name>ScientistAnswer_Mysteries1Q</Name>
 		<Dialogue>
-			<Page>Well? Any other answers to the mysteries of the universe come to you in your sleep?</Page>
+			<Page>Well? Any other answers to the mysteries of the universe you've heard?</Page>
 		</Dialogue>
 <DialogueOptionsList>
 			<DialogueOption>
@@ -128,14 +122,15 @@
 		</DialogueOptionsList>
 	</DialogueNode>
 
-
 <DialogueNode>
 		<Name>ScientistAnswer_Mysteries2A</Name>
 		<SetCondition>SQ1</SetCondition>
 		<Dialogue>
-			<Page>Yeah, yeah, everybody has their theories what happened to them.. I'm done getting my hopes up.</Page>	
-			<Page>Look, in case you missed the anglerfish exhibit inside the museum; Being stranded inside Dark Bramble and being alive are basically two contradictory ideas, if you catch my drift.</Page>
-	<!-- Remember how to end the game --> 
+			<Page>Huh? That's news to me.. Did one of the other travelers radio back that discovery just now?</Page>	
+			<Page>Well! I'm glad the rascal's alive and well. The villagers'll be overjoyed to finally see their missing astronaut back safe and sound soon.. Especially the kids!</Page>
+			<Page>Sheesh, they could have radioed us or started playing their harmonica a little earlier, so we could have gotten a hint of their whereabouts a little sooner.</Page>
+			<Page>Still, glad that mystery's put to rest at last - and with a happy ending at that.</Page>
+	<!-- Feldspar is gated for jellyfish stuff --> 
 		</Dialogue>
 		<DialogueTarget>ScientistAnswer_Mysteries1Q</DialogueTarget>
 	</DialogueNode>
@@ -144,28 +139,28 @@
 		<Name>ScientistAnswer_Mysteries2B</Name>
 		<SetCondition>SQ2</SetCondition>
 		<Dialogue>
-			<Page>Ghost matter killed the Nomai? Pfft, I've heard way more fancy theories about the Nomai from Riebeck, hatchling.</Page>
-			<Page>Well.. It doesn't sound impossible. Space <![CDATA[<i>]]>is<![CDATA[</i>]]> full of all kinds of dangerous things that could just wipe us out at any second.</Page>
-			<Page>Still, it sounds a little sad and anticlimactic, doesn't it? These ancient, super advanced aliens, dying to something out of their control..</Page>
+			<Page>Huh... Did Riebeck make some sort of breakthrough?</Page>
+			<Page>Well.. It doesn't sound impossible. Space <![CDATA[<i>]]>is<![CDATA[</i>]]> full of all kinds of dangerous things that could just wipe entire star systems out at any second.</Page>
+			<Page>So that's where that stuff comes from, eh? Guess we oughta be glad enough of it's evaporated away that we can explore the star system now.</Page>
+			<Page>Still, it sounds a little sad and anticlimactic, doesn't it? These ancient, super advanced aliens, dying to something that out of their control..</Page>
 			<Page>Guess all we can do is hope something like that doesn't happen to us.</Page>
-	<!-- Remember how tragically the Nomai died --> 
+	<!-- Interloper is gated for Inspired stuff --> 
 		</Dialogue>
 		<DialogueTarget>ScientistAnswer_Mysteries1Q</DialogueTarget>
 	</DialogueNode>
-
 
 <DialogueNode>
 		<Name>ScientistAnswer_Mysteries2_1</Name>
 		<Dialogue>
 			<Page>Really? <![CDATA[<i>None</i>]]> of those mysteries were enticing enough for ya?</Page>
 			<Page>Sheesh, even Gabbro was curious which planet was best for napping on.. Guess you can't draw a magnet to lead.</Page>
-			<Page>Well, you better figure out what you wanna explore before you take off. Otherwise, it'll be a pretty boring and pointless waste of fuel going into space.</Page>
+			<Page>C'mon, you've got to have some question about the universe you wanna find the answer to! Otherwise, without questions, you'd just be wandering more than exploring!</Page>
 			<Page>.. Oh, I know!</Page>
 			<Page>Try asking the kids around the village what questions they have about space before you go! I'm sure they've got some weird little mysteries for you to tackle.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Why ask the kids?</Text>
+				<Text>Why ask kids?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries3</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -178,10 +173,12 @@
 	<DialogueNode>
 		<Name>ScientistAnswer_Mysteries2_2</Name>
 		<Dialogue>
-			<Page>Ha! I guess that's our biggest mysteries all solved in your dreams already, eh, hatchling? Nothing left to explore out there!</Page>
-			<Page>Well, you better figure out "what else" there is to explore before you take off. Otherwise, it'll be a pretty boring and pointless waste of fuel for you to go into space at all.</Page>
-			<Page>.. Ah, I know.</Page>
-			<Page>Try asking the kids around the village what questions they have about space before you go. I'm sure they've got some more weird little mysteries for you to tackle.</Page>
+			<Page>Ha! I guess that's all the biggest mysteries solved while you were sleeping, hatchling. That's awful timing, considering today's your launch day. Hope you didn't become an astronaut hoping to solve either of those mysteries today, hatchling.</Page>
+			<Page>Well, got any other questions about the universe in mind to explore, hatchling?</Page>
+			<Page>All the other travelers all set out to answer something, you know - even Gabbro! They wanted to answer where was the best spot to nap in the star system.</Page>
+			<Page>Try to think of any questions you got before you take off. Otherwise, without questions to answer, you'd just be wandering more than exploring.</Page>
+			<Page>..Ah, I know what'll give ya some ideas.</Page>
+			<Page>Try asking the kids around the village what questions they have about space before you go! I'm sure they've got some weird little mysteries for you to tackle.</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -199,7 +196,7 @@
 		<Name>ScientistAnswer_Mysteries3</Name>
 		<SetCondition>Slate_Talked</SetCondition>
 		<Dialogue>
-			<Page>Have you talked to a kid before? They're obnoxiously endless pools of curiosity. I'm sure one of them could give you some idea on what else to explore.</Page>
+			<Page>Have you talked to a kid before? They're obnoxiously endless pools of curiosity. I bet one of them could give you some new things to check out.</Page>
 			<Page>..Besides, if you talk to them now, it'd help to get them off my back later because the newest astronaut didn't say bye to them.</Page>
 			<Page>Just remember, there's five of those little squirts: Mica, Tephra, Galena, Arkose, and Moraine.</Page>	
 			<Page>If you're out of questions, might as well answer somebody else's dumb questions about the universe, right?</Page>
