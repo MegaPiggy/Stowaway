@@ -1,7 +1,7 @@
 {
 	"$schema" : "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
 
-    "popupMessage": "We recommend completing the basegame before exploring the story of the Stowaway, and to resume your journey from that save.\n\nTo begin the mod:\nSlate may have some advice for those who are curious about mysteries of the universe that remain unsolved.",
+    "popupMessage": "We recommend completing the basegame before exploring the story of the Stowaway.\n\nThe children of the village have questions about the universe for the space program's newest astronaut. Have you learnt all there is to learn?",
     "achievements": [
         {
             "ID": "STOWAWAY_QUANTUM_SMUGGLING",

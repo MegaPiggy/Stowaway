@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		OENO: Our shuttle has landed safely. Friends, our survey expedition has officially begun!
+		OENO: Friends, one of the native lifeforms has joined us today at our campsite!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -12,7 +12,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CYCAD: What a lush and bountiful planet.. Imagine if we had been fortunate enough to crash onto such a hospitable planet, Oeno!
+		CYCAD: What curious behavior! This species is usually quite shy.. Has this one grown attached to us from the time we spent in the Sanctuary?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: We should not work in hypotheticals, Cycad! What matters is that our clan is finally reunited.. and that we have been given the chance to explore this new planet together!
+		OENO: I would be surprised if it were able to even recognize us! But it does seem to be much more friendly than usual..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -28,57 +28,10 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		CYCAD: That is a wise perspective, Oeno! I am glad to be here with you as well! We..
+		OENO: Perhaps if we
 		</Text>
 	</TextBlock>
-	<TextBlock>
-		<ID>5</ID>
-		<LocationA />
-		<ParentID>4</ParentID>
-		<Text>
-		CYCAD: Oeno, I just heard something.. Something is scampering around our campsite! Are we being ambushed by some wild fauna?!
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>6</ID>
-		<LocationA />
-		<ParentID>5</ParentID>
-		<Text>
-		OENO: An update: I have located the entity you noticed, Cycad. Fear not, it appears far from hostile. It seems quite meek now that we have noticed it!
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>7</ID>
-		<LocationA />
-		<ParentID>6</ParentID>
-		<Text>
-		CYCAD: That is a relief to hear.. But that aside: we have found a new species native to this star system already!
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>8</ID>
-		<LocationA />
-		<ParentID>7</ParentID>
-		<Text>
-		OENO: How exciting! I cannot wait to share our discoveries here with our friends back home.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>9</ID>
-		<LocationA />
-		<ParentID>8</ParentID>
-		<Text>
-		OENO: Wait, my friend! Do not be shy! Where are you going?
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>10</ID>
-		<LocationA />
-		<ParentID>9</ParentID>
-		<Text>
-		OENO: The lifeform has fled deeper into the mountain! Come, Cycad: let us follow it!
-		</Text>
-	</TextBlock>
+	
 
 <ShipLogConditions>
 				

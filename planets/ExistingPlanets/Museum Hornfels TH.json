@@ -213,12 +213,19 @@
 	}
 ],
 		"translatorText": [
-		
 			{
-				"rename": "TH Mine NoEntry cairn",
-				"position": {"x": -64.1842,"y": -21.4103,"z": -202.8923},
-				"rotation": {"x": 278.5499,"y": 260.0885,"z": 114.6591},
+				"rename": "TH Mine direction cairn",
+				"position": {"x": -148.4303,"y": 5.2601,"z": -136.9203},
+				"rotation": {"x": 358.7913,"y": 317.6837,"z": 87.828},
 				"type": "cairnTH",
+				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/direction cairn.xml",
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "TH Mine NoEntry walltext",
+				"position": {"x": -64.58711,"y": -22.32,"z": -203.1783},
+				"rotation": {"x": 3.2221,"y": 197.5549 ,"z": 98.4217},
+				"type": "wall",
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/gate cairn.xml",
 				"isRelativeToParent": true
 			},
@@ -267,13 +274,6 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename": "Cassava moon Whiteboard",
-				"position": {"x": -227.0547,"y": -38.8298,"z": -97.188},
-				"rotation": {"x": 322.7865,"y": 330.7744,"z": 99.919},
-				"type": "whiteboard",
-				"isRelativeToParent": true
-			},
-			{
 				"rename": "Cassava moon scroll",
 				"position": {"x": -236.4538,"y": -46.0363,"z": -68.5974},
 				"rotation": {"x": 274.6971,"y": 146.8382,"z": 7.6289},
@@ -283,10 +283,11 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename": "TH warp receiver tutorial recorder",
-				"position": {"x": -240.5292,"y": -34.399,"z": -61.3045},
-				"rotation": {"x": 317.5052,"y": 174.0598,"z": 258.6037},
-				"type": "recorder",
+				"rename": "TH warp receiver tutorial whiteboard",
+				"position": {"x": -227.0547,"y": -38.8298,"z": -97.188},
+				"rotation": {"x": 322.7865,"y": 330.7744,"z": 99.919},
+				"type": "whiteboard",
+				"seed":3,
 				"isRelativeToParent": true,
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/TH warp tower caution.xml"
 			},
@@ -386,9 +387,40 @@
 				"position":{"x": -47.4333,"y": -29.614,"z": 177.5344},
 				"rotation":{"x": 344.7034,"y": 82.1628,"z": 107.7959},
 				"isRelativeToParent": true
+			},	{
+				"rename":"warpreceiver decor staff",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/Props_Core_OldSettlement0/Prefab_NOM_Staff",
+				"position": {"x": -235.3889, "y": -45.9223, "z": -69.8981},
+				"rotation":{"x": 330.9039,"y": 205.7216,"z": 225.7501},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"warpreceiver decor corpse",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/QuantumDeadNomaiSuit/State_2/Prefab_NOM_Dead_Suit_GroundA/",
+				"position": {"x": -237.1353, "y": -42.0418, "z": -66.5227},
+				"rotation":{"x": 304.2661,"y": 178.422,"z": 255.0333},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"warpreceiver board purple LIGHT",
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_NomaiEyeExhibit",
+				"position": {"x": -229.2598, "y": -38.4135, "z": -96.5576},
+				"isRelativeToParent": true
 			},
 
-
+			{
+				"rename":"Gate tablet",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/tablet.prefab",
+				"position": {"x": -63.8623, "y": -22.6093, "z": -202.8541},
+				"rotation": {"x": 307.4781, "y": 281.7305, "z": 96.9888},
+				"isRelativeToParent": true
+			},{
+				"rename":"gate purple LIGHT",
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_NomaiEyeExhibit",
+				"position": {"x": -64.1714, "y": -23.2275, "z": -204.9669},
+				"isRelativeToParent": true
+			},
 			{
 				"rename":"Gate torch",
 				"assetBundle": "planets/bundle/prefabs",

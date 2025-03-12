@@ -22,7 +22,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-			CASSAVA: They wander onto land in search of food - and geysers populating the pools they dwell in erupt them from safety. They.. They are already on the brink of... of...
+			CASSAVA: The species remaining inside the <![CDATA[<color=orange>Sanctuary</color>]]> were protected, but all those who have been released outside.. 
 		</Text>
 	</TextBlock>
 
@@ -31,7 +31,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-			CASSAVA: The species remaining inside the <![CDATA[<color=orange>Sanctuary</color>]]> were protected, but all those who have been released outside.. 
+			CASSAVA: They wander onto land in search of food - and geysers populating the pools they dwell in erupt them from safety. They.. They are already on the brink of... of...
 		</Text>
 	</TextBlock>
 

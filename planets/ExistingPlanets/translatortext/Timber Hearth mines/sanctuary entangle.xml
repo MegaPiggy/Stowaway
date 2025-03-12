@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CYCAD: When I disconnected from my voyager briefly, the quantum shard slipped from my sight... along with one of the native species resting on it!
+		CYCAD: I disconnected from my voyager briefly before realizing I had allowed the quantum shard to slip from my sight, along with one of the native species slumbering on it... When I returned, it was no longer on the quantum shard!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		CYCAD: When I regained connection to the voyager, the quantum shard was there, but the lifeform on it was gone!
+		CYCAD: I wished to leave the Sanctuary to search for it, but I found myself unable to travel to Timber Hearth's surface! Please, how does one use the rule of quantum entanglement as a voyager?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		CYCAD: We must find it before the <![CDATA[<color=orange>Ash Twin Project</color>]]> begins; the <![CDATA[<color=orange>Sanctuary</color>]]> is their only protection during the operation of the project!
+		OENO: Leave this task to me, Cycad! I shall locate our runaway friend and deliver it back into the Sanctuary.
 				</Text>
 	</TextBlock>
 		<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: Thank goodness it did not wander far.. But, Cycad: are you not aware the voyager is capable of using the rule of quantum entanglement?
+		CYCAD: Oeno, how did you do that?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		CYCAD: But Oeno, the surface of the planet is never dark enough for conscious beings to use the rule of quantum entanglement! How could the rule of quantum entanglement be used here?
+		CYCAD: The surface of the planet is never dark enough for conscious beings to use the rule of quantum entanglement - and the quantum shard is surely too small to safely carry our unconscious bodies, unlike these lifeforms!
 				</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		OENO: Come now, Cycad! Did you not notice what caused the quantum shard to move earlier?
+		OENO: It is quite simple, Cycad. Simply recall how you caused the quantum shard to move earlier!
 				</Text>
 	</TextBlock>
 	
@@ -62,7 +62,15 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		CYCAD: I have figured it out at last thanks to your help, Oeno.. A voyager is unable to observe its surroundings on its own! You have my gratitude for this lesson!
+		CYCAD: I see! A voyager is unable to observe its surroundings on its own...
+		</Text>
+	</TextBlock>		
+	<TextBlock>
+		<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>
+		CYCAD: You have my gratitude for this lesson, Oeno!
 		</Text>
 	</TextBlock>
 	

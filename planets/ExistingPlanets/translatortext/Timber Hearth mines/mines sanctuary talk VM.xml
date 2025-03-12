@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CYCAD: Isn't the construction of the <![CDATA[<color=orange>Ash Twin Project</color>]]> complete? What will this new shipment of ore be used for?
+		CYCAD: Isn't the construction of <![CDATA[<color=lightblue>Ash Twin's</color>]]> protective shell complete? What will this new shipment of ore be used for, Coleus?
 		</Text>
 	</TextBlock>
 
@@ -41,7 +41,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		CYCAD: I see. Has a suitable site for the <![CDATA[<color=orange>Sanctuary</color>]]> been chosen already?
+		CYCAD: I see! But where on Timber Hearth will the <![CDATA[<color=orange>Sanctuary</color>]]> be built?
 		</Text>
 	</TextBlock>
 
@@ -50,7 +50,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: It has! We have chosen a cave located in the planet's underground pools, visited by a wandering quantum shard.
+		COLEUS: So far, we have settled on a cave within the planet's underground pools, visited by a wandering quantum shard.
 				</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: Like before, we will need to put extra eyes into inspecting the protective shell of the <![CDATA[<color=orange>Sanctuary</color>]]> before it is sealed completely.
+		COLEUS: We will need to put even more eyes into inspecting the <![CDATA[<color=orange>Sanctuary's</color>]]> protective shell before it is sealed completely, to ensure the surrounding groundwater does not seep in!
 				</Text>
 	</TextBlock>
 

@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		OENO: To our friends traveling here from <![CDATA[<color=lightblue>Ash Twin:</color>]]> Welcome! You may find both our <![CDATA[<color=orange>campsite</color>]]> and <![CDATA[<color=orange>mining site</color>]]> by following the path down into the geyser mountain.
+		OENO: Welcome, friends! You may find both our <![CDATA[<color=orange>campsite</color>]]> and <![CDATA[<color=orange>mining site</color>]]> by following the path down into the geyser mountain.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -12,7 +12,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: Of note: Please do not leave this warp receiver's return warp powered and unattended!
+		OENO: Of note: Please take care not to leave the warp receiver's return warp powered and unattended!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,15 +20,15 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: Our warp receivers power a return warp that allows travel back to the corresponding warp transmitter one time, after a Nomai has traveled to it.
+		OENO: Warp receivers power a return warp that allows travel back to the corresponding warp transmitter after a Nomai has traveled to it.
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<LocationA />
-		<ParentID>3</ParentID>
+		<ParentID>2</ParentID>
 		<Text>
-		OENO: An unattended return warp could cause the native species of this planet to be unintentionally sent to <![CDATA[<color=lightblue>Ash Twin,</color>]]> leaving them stranded!
+		OENO: An unattended return warp could cause the native species of this planet to be unintentionally sent to the warp tower on <![CDATA[<color=lightblue>Ash Twin!</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -36,13 +36,21 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: Without any air supply or protection from the heat on that planet, these lives would be gravely endangered by our carelessness.
+		OENO: Though the warp tower is normally oxygenated and pressurized, we have found an issue with the warp tower's doors that leaves them inadequate for keeping lifeforms from wandering outside the tower.
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>6</ID>
 		<LocationA />
 		<ParentID>5</ParentID>
+		<Text>
+		OENO: Without any air supply or protection from the heat on that planet, these lives would be gravely endangered by our carelessness.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
 		<Text>
 		OENO: A return warp is only powered upon the absence of all entities on the warp receiver. Thus, we advise stalling the return warp until you are ready to return to <![CDATA[<color=lightblue>Ash Twin!</color>]]>
 		</Text>
@@ -64,7 +72,7 @@
 		</RevealFact>
 		<RevealFact>
 			<FactID>TH_WR EX2</FactID>
-			<Condition>6</Condition>
+			<Condition>7</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 
