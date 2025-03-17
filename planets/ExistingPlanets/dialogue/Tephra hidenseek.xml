@@ -32,7 +32,7 @@
 			</DialogueOption>
 
 			<DialogueOption>
-				<RequiredLogCondition>TEPH R1.5</RequiredLogCondition>
+				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
 				<Text>I looked inside the drain with my Little Scout.</Text>
 				<DialogueTarget>Teph SW_4</DialogueTarget>
 			</DialogueOption>
@@ -43,12 +43,12 @@
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
-				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
+				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
 				<Text>I found where the purple rock in the museum goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredLogCondition>TEPH EX3</RequiredLogCondition>
+				<RequiredLogCondition>TEPH R4</RequiredLogCondition>
 				<Text>Where are the Nomai Ruins again?</Text>
 				<DialogueTarget>Teph Answers 1E</DialogueTarget>
 			</DialogueOption>
@@ -102,7 +102,7 @@
 		<Name>Teph SW_6B</Name>
 		<Dialogue>
 			<Page>Um, that's all the spots we had in mind, astronaut!</Page>
-			<Page>Unless we can think of another way to see where the purple rock's going, we're at a dead end.</Page>
+			<Page>Until we think of another way to see where the purple rock's going, I think we hit a dead end..</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -129,7 +129,7 @@
 			</DialogueOption>
 			</DialogueOptionsList>
 						 <RevealFacts>
-     						   <FactID>TEPH R2</FactID>
+     						   <FactID>TEPH EX1</FactID>
     					  </RevealFacts>
 </DialogueNode>
 
@@ -138,14 +138,14 @@
 		<Name>Teph SW_3</Name>
 			<Dialogue>
 					<Page>Yay!!</Page>
-					<Page>Okay, listen up! If you follow the river down the village, you'll find a waterwheel that splishes water really loudly.. Behind the waterwheel, there's a drain that the river flows into.</Page>
-					<Page>We think the purple rock might be hiding in there.. But the back of the drain's too small for Galena and I to crawl in to look!</Page>
-					<Page>Riebeck lets me play with their Little Scout sometimes, so we know the Little Scout's camera can look around after it's launched somewhere.</Page>
+					<Page>Okay, listen up! If you follow the river down the village, you'll find a waterwheel that splishes water really loudly. Behind that waterwheel, there's a drain that the river flows into.</Page>
+					<Page>We think the purple rock might be hiding in there, but it's so cramped we couldn't crawl into the drain to look if it's in there.</Page>
+					<Page>I think you could get a look in there if you used the Little Scout, astronaut! Did you know the Little Scout's camera can look around after you launch it onto somewhere?</Page>
 					<Page>If you shoot your Little Scout into the drain, I bet you could use that rotating camera to look if the purple rock is hiding in there.</Page>
 					<Page>Come back and tell me what you find in there, okay, astronaut? We have another place for you to check if the purple rock isn't there!</Page>
 		</Dialogue>
 						 <RevealFacts>
-     						   <FactID>TEPH EX4</FactID>
+     						   <FactID>TEPH EX2</FactID>
     					  </RevealFacts>
 	</DialogueNode>
 
@@ -153,8 +153,8 @@
 		<SetCondition>Teph_Geyser</SetCondition>
 		<Name>Teph SW_4</Name>
 			<Dialogue>
-					<Page>Oh, oh! What'd you find inside the drain, astronaut?</Page>
-					<Page>..A skeleton? Ewww! Why's there a skeleton in there?! Eegh.. I guess the purple rock must be hiding elsewhere..</Page>
+					<Page>Oh, oh! What'd you find inside the drain, astronaut? <![CDATA[<Pause=2>]]> ..A skeleton? Ewww! Why's there a skeleton in there?!</Page>
+					<Page>Eegh.. I guess the purple rock must be hiding elsewhere..</Page>
 					<Page>Well, whatever. We have another idea where the purple rock might be hiding, astronaut - and we need you to check it out for us too! Are you up for it?</Page>
 					<DialogueOptionsList>
 							<DialogueOption>
@@ -167,9 +167,6 @@
 							</DialogueOption>
 					</DialogueOptionsList>
 		</Dialogue>
-						 <RevealFacts>
-     						   <FactID>TEPH EX4</FactID>
-    					  </RevealFacts>
 	</DialogueNode>
 
 <DialogueNode>
@@ -195,6 +192,7 @@
 			</DialogueOption>
 			</DialogueOptionsList>
 						 <RevealFacts>
+     						   <FactID>TEPH EX3</FactID>
      						   <FactID>TEPH EX4</FactID>
     					  </RevealFacts>
 	</DialogueNode>
@@ -204,15 +202,16 @@
 		<Name>Teph SW_6</Name>
 		<SetCondition>Teph_None</SetCondition>
 			<Dialogue>
-					<Page>Aw, so the purple rock's not down there either..</Page>
-					<Page>Um, that's all the spots we had in mind, astronaut. Thanks so much for helping us look! But I guess that's it, unless we think of some way to see where the purple rock goes..</Page>
+					<Page>Aw, so the purple rock's not down there either.. </Page>
+					<Page>Um, thanks so much for helping us look, astronaut! But until we think of some way to see where the purple rock goes, I think we hit a dead end..</Page>
 					<Page>But wow, astronaut.. The Nomai were the cool aliens that lived in our solar system a long, long time ago, right?</Page>
 					<Page>If the Nomai drew a mural of some Hearthians, that means our species were already around as little fishies when they were around, right? That's crazy!</Page>
-					<Page>If Riebeck learned the Nomai drew a mural of us, they'd probably lose their marbles!</Page>
-					<Page>Oooh, I bet Riebeck's gonna kick themself for turning down the chance to be the first to explore those caves.. I can't imagine the look on their face when they hear about this!</Page>
+					<Page>Man, if Riebeck learned the Nomai drew a mural of us, they'd probably lose their marbles!</Page>
+					<Page>Oooh, I bet Riebeck's gonna kick themself for turning down the chance to be the first to explore those caves.. I can't wait to see the look on their face when they hear about this!</Page>
 		</Dialogue>
 						 <RevealFacts>
-     						   <FactID>TEPH EX4</FactID>
+     						   <FactID>TEPH EX5</FactID>
+     						   <FactID>TEPH EX6</FactID>
     					  </RevealFacts>
 	</DialogueNode>
 
@@ -282,13 +281,10 @@
 			<Dialogue>
 					<Page>We wanted to look there too - but Mayor Rutile told us not to ever go near there, because there's lots of dangerous ghost matter around there that we can't see.</Page>
 					<Page>Could you look around the <![CDATA[<color=orange>Nomai Ruins</color>]]> for us, astronaut? The purple rock might be going to a cave there that we don't know about!</Page>
-					<Page>Oh, I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins</color>]]> framed in the museum, astronaut. That should help if you have trouble finding it!</Page>
-					<Page>It has to be going there, astronaut! Come back and tell us if you find anything there, alright?</Page>
+					<Page>Oh, but be careful if you go there, astronaut. I really want to know if the purple rock is there.. But promise me you'll watch out for the ghost matter there!</Page>
 			</Dialogue>
 						 <RevealFacts>
-     						   <FactID>TEPH EX1</FactID>
-     						   <FactID>TEPH EX3</FactID>
-     						   <FactID>TEPH EX4</FactID>
+     						   <FactID>TEPH R4</FactID>
     					  </RevealFacts>
 	</DialogueNode>
 
@@ -300,9 +296,7 @@
 					<Page>Promise you'll come back and tell us if you find anything there, astronaut!</Page>
 		</Dialogue>
 						 <RevealFacts>
-     						   <FactID>TEPH EX1</FactID>
-     						   <FactID>TEPH EX3</FactID>
-     						   <FactID>TEPH EX4</FactID>
+     						   <FactID>TEPH R4</FactID>
     					  </RevealFacts>
 	</DialogueNode>
 
@@ -314,7 +308,7 @@
 					<Page>Oh! I think there's a picture of the <![CDATA[<color=orange>Nomai Ruins</color>]]> framed in the museum, astronaut. If you look at that, that should tell you what it looks like!</Page>
 		</Dialogue>
 						 <RevealFacts>
-     						   <FactID>TEPH EX4</FactID>
+     						   <FactID>TEPH R4</FactID>
     					  </RevealFacts>
 	</DialogueNode>
 
@@ -336,20 +330,50 @@
 
 	<DialogueNode>
 		<Name>FoundYou</Name>
-			<DialogueOptionsList>
+	<DialogueOptionsList>
 			<DialogueOption>
+				<CancelledCondition>Teph_Talked</CancelledCondition>
 				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
-				<Text>Hey Tephra. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey Tephra. Got any questions about the universe for me?</Text>
 				<DialogueTarget>Teph SW_1</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+				<RequiredCondition>Teph_Talked</RequiredCondition>
+				<CancelledCondition>Teph_Geyser</CancelledCondition>
+				<Text>Where should I look for the purple rock again?</Text>
+				<DialogueTarget>Teph SW_3B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>Teph_Geyser</RequiredCondition>
+				<CancelledCondition>Teph_None</CancelledCondition>
+				<Text>Where should I look for the purple rock next?</Text>
+				<DialogueTarget>Teph SW_4B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>Teph_None</RequiredCondition>
+				<Text>Where should I look for the purple rock next?</Text>
+				<DialogueTarget>Teph SW_5B</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
+				<Text>I looked inside the drain with my Little Scout.</Text>
+				<DialogueTarget>Teph SW_4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
+				<Text>I swam around the geyser caves and found a Nomai mural of our Hearthian ancestors!</Text>
+				<DialogueTarget>Teph SW_4</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
-				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
-				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
+				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
+				<Text>I found where the purple rock in the museum goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredLogCondition>TEPH EX3</RequiredLogCondition>
+				<RequiredLogCondition>TEPH R4</RequiredLogCondition>
 				<Text>Where are the Nomai Ruins again?</Text>
 				<DialogueTarget>Teph Answers 1E</DialogueTarget>
 			</DialogueOption>
@@ -380,20 +404,50 @@
 
 	<DialogueNode>
 		<Name>AlreadyFoundYou</Name>
-			<DialogueOptionsList>
+	<DialogueOptionsList>
 			<DialogueOption>
+				<CancelledCondition>Teph_Talked</CancelledCondition>
 				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
-				<Text>Hey Tephra. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey Tephra. Got any questions about the universe for me?</Text>
 				<DialogueTarget>Teph SW_1</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+				<RequiredCondition>Teph_Talked</RequiredCondition>
+				<CancelledCondition>Teph_Geyser</CancelledCondition>
+				<Text>Where should I look for the purple rock again?</Text>
+				<DialogueTarget>Teph SW_3B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>Teph_Geyser</RequiredCondition>
+				<CancelledCondition>Teph_None</CancelledCondition>
+				<Text>Where should I look for the purple rock next?</Text>
+				<DialogueTarget>Teph SW_4B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>Teph_None</RequiredCondition>
+				<Text>Where should I look for the purple rock next?</Text>
+				<DialogueTarget>Teph SW_5B</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
+				<Text>I looked inside the drain with my Little Scout.</Text>
+				<DialogueTarget>Teph SW_4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
+				<Text>I swam around the geyser caves and found a Nomai mural of our Hearthian ancestors!</Text>
+				<DialogueTarget>Teph SW_4</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
-				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
-				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
+				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
+				<Text>I found where the purple rock in the museum goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredLogCondition>TEPH EX3</RequiredLogCondition>
+				<RequiredLogCondition>TEPH R4</RequiredLogCondition>
 				<Text>Where are the Nomai Ruins again?</Text>
 				<DialogueTarget>Teph Answers 1E</DialogueTarget>
 			</DialogueOption>
@@ -402,20 +456,50 @@
 
 	<DialogueNode>
 		<Name>PlayedTheGame</Name>
-			<DialogueOptionsList>
+	<DialogueOptionsList>
 			<DialogueOption>
+				<CancelledCondition>Teph_Talked</CancelledCondition>
 				<RequiredLogCondition>TEPH R1</RequiredLogCondition>
-				<Text>Hey Tephra. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey Tephra. Got any questions about the universe for me?</Text>
 				<DialogueTarget>Teph SW_1</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+				<RequiredCondition>Teph_Talked</RequiredCondition>
+				<CancelledCondition>Teph_Geyser</CancelledCondition>
+				<Text>Where should I look for the purple rock again?</Text>
+				<DialogueTarget>Teph SW_3B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>Teph_Geyser</RequiredCondition>
+				<CancelledCondition>Teph_None</CancelledCondition>
+				<Text>Where should I look for the purple rock next?</Text>
+				<DialogueTarget>Teph SW_4B</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>Teph_None</RequiredCondition>
+				<Text>Where should I look for the purple rock next?</Text>
+				<DialogueTarget>Teph SW_5B</DialogueTarget>
+			</DialogueOption>
+
+			<DialogueOption>
+				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
+				<Text>I looked inside the drain with my Little Scout.</Text>
+				<DialogueTarget>Teph SW_4</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
+				<Text>I swam around the geyser caves and found a Nomai mural of our Hearthian ancestors!</Text>
+				<DialogueTarget>Teph SW_4</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
-				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
-				<Text>I found where the weird rock goes when it hides, Tephra!</Text>
+				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
+				<Text>I found where the purple rock in the museum goes when it hides, Tephra!</Text>
 				<DialogueTarget>Teph Answers 1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredLogCondition>TEPH EX3</RequiredLogCondition>
+				<RequiredLogCondition>TEPH R4</RequiredLogCondition>
 				<Text>Where are the Nomai Ruins again?</Text>
 				<DialogueTarget>Teph Answers 1E</DialogueTarget>
 			</DialogueOption>

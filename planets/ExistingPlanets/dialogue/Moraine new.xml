@@ -42,7 +42,7 @@
 			</DialogueOption>
 			<DialogueOption>
 			<RequiredLogCondition>INSP R0</RequiredLogCondition>
-				<Text>There might be two...</Text>
+				<Text>There's two!</Text>
 				<DialogueTarget>SignalscopeKidNewC2</DialogueTarget>
 			</DialogueOption>
 	</DialogueOptionsList>
@@ -65,7 +65,7 @@
 			</DialogueOption>
 	</DialogueOptionsList>
 							<RevealFacts>
-     						  	 <FactID>MOR EX3</FactID>
+     						  	 <FactID>MOR EX1</FactID>
     					 	 </RevealFacts>
 		</DialogueNode>
 
@@ -81,14 +81,14 @@
 		<Name>SignalscopeKidNewC1</Name>
 		<Dialogue>
 			<Page>O-oh, um.. Sorry, it was probably nothing..</Page>
-			<Page>You know how busted my signalscope is, with how much Tephra and Galena play with it! Just look at how much shinier your brand new one is!</Page>
-			<Page>But... I thought I saw two comets in the sky a few nights ago.</Page>
-			<Page>I'd never miss a comet's bright glowing tail! I'm sure I saw two comets that night.. But I haven't been able to see it again since, so I really don't know if it was real..</Page>
+			<Page>You know how busted my signalscope is, with how much Tephra and Galena play with it. Just look at how much shinier your brand new one is!</Page>
+			<Page>But... <![CDATA[<Pause=1>]]>I thought I saw two comets in the sky a few nights ago.</Page>
+			<Page>I'd never miss a comet's bright glowing tail! I'm sure I saw two comets that night.. But, I haven't been able to see it again since, so I really don't know if it was real..</Page>
 			<Page>Um, if you find anything out there that counts as a second comet.. Could you tell me, astronaut?</Page>
 			<Page>If it really exists, it'd be so cool to learn about a new celestial body we know nothing about!</Page>
 			</Dialogue>
 							<RevealFacts>
-     						  	 <FactID>MOR R4</FactID>
+     						  	 <FactID>MOR EX2</FactID>
     					 	 </RevealFacts>
 		</DialogueNode>
 		

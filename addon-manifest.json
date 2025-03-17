@@ -1,7 +1,7 @@
 {
 	"$schema" : "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
 
-    "popupMessage": "We recommend completing the basegame before exploring the story of the Stowaway.\n\nThe children of the village have questions about the universe for the space program's newest astronaut. Have you learnt all there is to learn?",
+    "popupMessage": "We recommend completing the basegame before exploring the story of the Stowaway.\n\nWelcome back to the space program, traveler! Talk to Slate around the village campfire to complete one last tradition of the space program, before setting off once more.",
     "achievements": [
         {
             "ID": "STOWAWAY_QUANTUM_SMUGGLING",

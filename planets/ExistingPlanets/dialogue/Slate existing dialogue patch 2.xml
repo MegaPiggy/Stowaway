@@ -7,7 +7,7 @@
 		<Name>Scientist1B</Name>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Anything else important I should do before I take off?</Text>
+				<Text>Hey Slate, is there some space program tradition we forgot about?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -23,7 +23,7 @@
 		<Name>Scientist2</Name>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Anything else important I should do before I take off?</Text>
+				<Text>Hey Slate, is there some space program tradition we forgot about?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -66,7 +66,7 @@
 <DialogueOptionsList>
 
 			<DialogueOption>
-				<Text>Anything else important I should do before I take off?</Text>
+				<Text>Hey Slate, is there some space program tradition we forgot about?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -80,11 +80,11 @@
 		<DialogueNode>
 		<Name>ScientistAnswer_Mysteries1</Name>
 		<Dialogue>
-			<Page>Yeah, actually.</Page>
-			<Page>You mind goin' round the village and asking all the little hatchlings any questions about the universe?</Page>
-			<Page>It's just tradition to give y'all slackers flying out there with no plans some new sparks of curiosity from these lil' gills.</Page>
+			<Page>Oh, shoot. Yeah, there's one last one we forgot!</Page>
+			<Page>You mind goin' round the village and asking all the little hatchlings if they got any questions about the universe?</Page>
+			<Page>It's a tradition Feldspar started, just fielding some questions about what's out there from the lil' gills of the village.</Page>
 			<Page>Doesn't matter what the questions are, just hear them out. It's just a bonus if you can answer them and make yourself look smarter.</Page>
-			<Page>Regardless it's just a good look for the space program, nurturing the next generation and all that stuff. One of those squirts might be curious enough about space to join the space program someday too, after all!</Page>
+			<Page>It's just a good look for the space program too, nurturing the next generation and all that stuff. One of those squirts might be curious enough about space to join the space program someday too, after all!</Page>
 		</Dialogue>
 <DialogueOptionsList>
 			<DialogueOption>
@@ -115,21 +115,21 @@
 		<Dialogue>
 			<Page>Cool, cool.</Page>
 			<Page>Just remember, there's five of those little squirts: Mica, Tephra, Galena, Arkose, and Moraine.</Page>
-			<Page>Feel free to take off whenever, after you've talked to them and gotten those launch codes from the museum.</Page>
+			<Page>Feel free to take off whenever once you've talked to all of 'em.</Page>
 		</Dialogue>
 	</DialogueNode>
 
 <DialogueNode>
 		<Name>Slate_Kids_Direction</Name>
 		<Dialogue>
-			<Page>Stars above, just look around the village! There's five of those little squirts, and they're all probably playing around somewhere.</Page>
+			<Page>Uh, I dunno? Pretty sure they're somewhere around the village.</Page>
 			<Page>Mica's probably still fiddling with the model rocket, just up the hill.</Page>
-			<Page>Tephra and Galena are probably playing in the village somewhere?</Page>
+			<Page>Tephra and Galena are probably playing in the village somewhere.</Page>
 			<Page>I saw those two trekking outside the village recently for whatever reason though, so don't take my word on that.</Page>
 			<Page>Arkose's probably still throwing rocks into the patch of ghost matter at the top of the village. Still uh.. no idea why they do that all day.</Page>
 			<Page>And Moraine's probably stargazing on that big tree in the village, making sure Marl doesn't chop it down.</Page>
 			<Page>I wonder if that Marl'll ever let go of that grudge.. No good comes outta holding a grudge against a tree, y'know?</Page>
-			<Page>Just get a move on - you'll probably see 'em on the way up to the observatory for the launch codes anyways.</Page>
+			<Page>Just get a move on - you'll probably see all five squirts on the way up to the observatory for the launch codes anyways.</Page>
 		</Dialogue>
 	</DialogueNode>
 

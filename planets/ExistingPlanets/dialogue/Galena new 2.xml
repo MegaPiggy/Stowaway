@@ -82,7 +82,8 @@
 			<Page><![CDATA[<size=20>]]>Remember, even on the surface, you aren't safe from the monsters!<![CDATA[</size>]]></Page>
 		</Dialogue>	
 						 <RevealFacts>
-     						   <FactID>GAL R2</FactID>
+     						   <FactID>GAL EX1</FactID>
+     						   <FactID>GAL EX2</FactID>
     					  </RevealFacts>
 	</DialogueNode>
 
@@ -97,7 +98,8 @@
 			<Page><![CDATA[<size=20>]]>Remember, even on the surface, you aren't safe from the monsters!<![CDATA[</size>]]></Page>
 		</Dialogue>	
 						 <RevealFacts>
-     						   <FactID>GAL R2</FactID>
+     						   <FactID>GAL EX1</FactID>
+     						   <FactID>GAL EX2</FactID>
     					  </RevealFacts>
 	</DialogueNode>
 

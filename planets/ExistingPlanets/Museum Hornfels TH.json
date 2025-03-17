@@ -60,7 +60,7 @@
 			"isRelativeToParent": true,
 			"radius":0.3,
 			"revealOn": "snapshot",
-			"reveals": ["GAL EX1"],
+			"reveals": ["TEPH R2"],
 			"maxDistance": 3
 		},
 		{
@@ -313,7 +313,26 @@
 
 		
 		"details": [
-		
+			{
+				"rename":"Sanctuary innershell new",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/star ore shell.prefab",
+				"position":{"x": 7.5901,"y": 2.4209,"z": 118.9957},
+				"rotation": {"x":0,"y":0,"z":0},
+				"scale": 0.35,
+				"isRelativeToParent": true,
+				"keepLoaded": true
+			},{
+				"rename":"Sanctuary outershell new",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Geometry_TowerTwin/OtherComponentsGroup/ControlledByProxy_Base/Terrain_HT_TowerTwin_TLD_Shell/TimeLoopShell/outerShell/",
+				"position":{"x": 7.5901,"y": 2.4209,"z": 118.9957},
+				"rotation": {"x":0,"y":0,"z":0},
+				"scale": 0.3,
+				"isRelativeToParent": true,
+				"keepLoaded": true
+			},
+
+			
 			{
 				"rename":"Museum portrait 1",
 				"assetBundle": "planets/bundle/stowaway3",

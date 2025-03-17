@@ -9,7 +9,7 @@
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>MICA R1</ID> 
-            <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
+            <Text>Slate asked me to hear out what questions the kids in the village have about the universe.</Text> 
   </RumorFact>
   
         <ExploreFact>
@@ -31,27 +31,60 @@
         <Name>Tephra</Name>
 
         <Curiosity>Stowaway</Curiosity>
-  <RumorFact>
-           <SourceID>TH_VILLAGE</SourceID>
-            <ID>TEPH R1</ID> 
-            <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
-  </RumorFact>
-<RumorFact>
-            <ID>TEPH R2</ID> 
-            <Text>Tephra wonders where the quantum shard in the museum goes when it disappears completely. They made me promise to tell them if I found where the shard went.</Text> 
-  </RumorFact>
+           <RumorFact>
+              <SourceID>TH_VILLAGE</SourceID>
+                   <ID>TEPH R1</ID> 
+                 <Text>Slate asked me to hear out what questions the kids in the village have about the universe.</Text> 
+          </RumorFact>
+          <RumorFact>
+             <ID>TEPH R2</ID> 
+             <Text>I used my Little Scout to look inside the drain behind the waterwheel, but the museum shard wasn't in there.</Text> 
+          </RumorFact>
+          <RumorFact>
+               <ID>TEPH R3</ID> 
+               <Text>I jumped down a geyser into the underwater caves of Timber Hearth, but the museum shard wasn't in there.</Text> 
+          </RumorFact>
+          <RumorFact>
+              <ID>TEPH R4</ID> 
+             <Text>Tephra asked me to explore the Nomai Ruins outside the village to see if the museum shard was traveling there. They warned me about ghost matter in that area.</Text> 
+          </RumorFact>
 
        <ExploreFact>
             <ID>TEPH EX1</ID> 
             <Text>Tephra and Galena noticed the quantum shard in the museum disappearing completely sometimes. They wondered where it went when it disappeared completely.</Text> 
        </ExploreFact>
-         <ExploreFact>
-            <ID>TEPH EX3</ID> 
-            <Text>Tephra and Galena were unable to explore the Nomai Ruins outside the village because of the ghost matter there. Tephra wondered if the quantum shard could be traveling to an unexplored cave there.</Text> 
+     <ExploreFact>
+            <ID>TEPH EX2</ID> 
+            <Text>Tephra asked me to use my Little Scout to check if the museum shard was inside the drain behind the village waterwheel.</Text> 
+                 <AltText>
+                 <Text>I used my Little Scout to look inside the drain behind the waterwheel, but the museum shard wasn't in there.</Text>
+                    <Condition>TEPH R2</Condition>
+                    </AltText> 
        </ExploreFact>
          <ExploreFact>
+            <ID>TEPH EX3</ID> 
+            <Text>Tephra asked me to dive into a geyser to see if the museum shard was inside the underwater caves of Timber Hearth.</Text> 
+                 <AltText>
+                 <Text>I jumped down a geyser into the underwater caves of Timber Hearth, but the museum shard wasn't in there.</Text>
+                    <Condition>TEPH R3</Condition>
+                    </AltText> 
+       </ExploreFact>
+     <ExploreFact>
             <ID>TEPH EX4</ID> 
-            <Text>Tephra says there's a picture of the Nomai Ruins framed in the museum.</Text> 
+            <Text>According to Riebeck, our ancestors once lived in the ancient waterways inside Timber Hearth's geysers.</Text> 
+       </ExploreFact>
+         <ExploreFact>
+            <ID>TEPH EX5</ID> 
+            <Text>Arkose thinks Riebeck would lose their marbles if they heard about the Nomai mural I found in the waterways.</Text> 
+       </ExploreFact>
+
+         <ExploreFact>
+            <ID>TEPH EX6</ID> 
+            <Text>Tephra says that until we figure out another way to see where the museum shard goes, we've hit a dead end.</Text> 
+                 <AltText>
+                 <Text>Tephra asked me to explore the Nomai Ruins outside the village to see if the museum shard was traveling there. They asked me to be careful of ghost matter in that area.</Text>
+                    <Condition>TEPH R4</Condition>
+                    </AltText> 
        </ExploreFact>
 </Entry>
 
@@ -63,20 +96,20 @@
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>GAL R1</ID> 
-            <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
+            <Text>Slate asked me to hear out what questions the kids in the village have about the universe.</Text> 
   </RumorFact>
        <RumorFact>
             <ID>GAL R2</ID> 
-            <Text>Galena says their toy rocket washed down the river into the drain behind the village waterwheel. They asked me to use my Little Scout to check if the rocket was still there.</Text> 
+            <Text>Galena says Feldspar told them about tentacled monsters on the surface of Giant's Deep.</Text> 
        </RumorFact>
        
        <ExploreFact>
             <ID>GAL EX1</ID> 
-            <Text>I used my Little Scout to look inside the drain behind the village waterwheel and found a toy rocket in there.</Text>
-                 <AltText>
-                 <Text>I used my Little Scout to look inside the drain behind the village waterwheel and found Galena's toy rocket in there.</Text>
-                    <Condition>GAL R2</Condition>
-                    </AltText> 
+            <Text>Galena says Feldspar told them about monsters on Giant's Deep.</Text>
+       </ExploreFact>
+       <ExploreFact>
+            <ID>GAL EX2</ID> 
+            <Text>According to Feldspar, the monsters on Giant's Deep would come to the surface of the ocean sometimes.</Text>
        </ExploreFact>
 </Entry>
 
@@ -88,7 +121,7 @@
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>ARK R1</ID> 
-            <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
+            <Text>Slate asked me to hear out what questions the kids in the village have about the universe.</Text>  
   </RumorFact>
   <RumorFact>
            <SourceID>GD_GABBRO_ISLAND</SourceID>
@@ -98,16 +131,16 @@
 
        <ExploreFact>
             <ID>ARK EX1</ID> 
-            <Text>Arkose noticed that the patch of ghost matter in the village woul sometimes not leave a glowing trail when they threw a rock into it.</Text> 
+            <Text>Arkose noticed that the patch of ghost matter in the village wouldn't leave a glowing trail sometimes when a rock was thrown into it.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>ARK EX2</ID> 
-            <Text>Gabbro was the one who told Arkose that ghost matter disappears sometimes, when they last returned from Giant's Deep.</Text> 
+            <Text>According to Gabbro, ghost matter disappears sometimes.</Text> 
        </ExploreFact> 
        <ExploreFact>
             <ID>ARK EX3</ID> 
             <IgnoreMoreToExplore/>
-            <Text>Gabbro asked me to to tell Arkose about how water neutralizes ghost matter, so they can stop trying to figure it out on their own.</Text> 
+            <Text>Gabbro asked me to tell Arkose about how water neutralizes ghost matter.</Text> 
        </ExploreFact>
      
 </Entry>
@@ -121,38 +154,16 @@
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>MOR R1</ID> 
-            <Text>Slate asked me to find out which hatchling started a rumor that ghost matter disappears sometimes.</Text> 
-  </RumorFact>
-    <RumorFact>
-           <SourceID>BH_RIEBECK</SourceID>
-            <ID>MOR R2</ID> 
-            <Text>Moraine says that Riebeck would lose their marbles if they heard about the Nomai mural I found.</Text> 
-  </RumorFact>
-          <RumorFact>
-            <ID>MOR R3</ID> 
-            <Text>There is an unexplored, massive underwater cave system inside Timber Hearth's geysers. Moraine asked if I could jump into a geyser to explore Timber Hearth's depths, and tell them what's down there.</Text> 
-  </RumorFact>
-  <RumorFact>
-            <ID>MOR R4</ID> 
-            <Text>Moraine says they saw two comets in the sky one night, but couldn't find the second comet again.</Text> 
+            <Text>Slate asked me to hear out what questions the kids in the village have about the universe.</Text>  
   </RumorFact>
 
-<ExploreFact>
+       <ExploreFact>
             <ID>MOR EX1</ID> 
-            <Text>According to Riebeck, our ancestors once lived in the ancient waterways inside Timber Hearth's geysers.</Text> 
-       </ExploreFact>
-         <ExploreFact>
-            <ID>MOR EX2</ID> 
-            <Text>Moraine says that Riebeck would lose their marbles if they heard about the Nomai mural I found in the waterways!</Text> 
+            <Text>For some reason, Moraine asked me how many comets there were in the star system.</Text>
        </ExploreFact>
        <ExploreFact>
-            <ID>MOR EX3</ID> 
-            <Text>For some reason, Moraine asked me how many comets there were in the star system.</Text> 
-                 <AltText>
-                 <Text>Moraine says they saw two comets in the sky one night, but haven't been able to find this second comet again. They bashfully brushed off what they saw as probably just a smudge on their signalscope.
-                 </Text>
-                    <Condition>MOR R4</Condition>
-                    </AltText> 
+            <ID>MOR EX2</ID> 
+            <Text>Moraine says they saw two comets in the sky one night. They were sure it was a second comet, but they haven't been able to find it again since.</Text>
        </ExploreFact>
 </Entry>
 

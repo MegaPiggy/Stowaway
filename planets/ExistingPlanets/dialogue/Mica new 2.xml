@@ -82,11 +82,11 @@
 		<Name>ModelRocketKid_SW_Intro</Name>
 		<Dialogue>
 			<Page>Yeah, haven't you noticed? Sand hasn't been flowing between the Hourglass Twins for some time now.</Page>
-			<Page>When it's stopped, the Hourglass Twins don't really live up to their name, do they? They should just be called "The Twins", haha!</Page>
-				<Page>Well, at least we know the sand starts flowing between the Twins again real soon.</Page>
+			<Page>When sand isn't flowing between them, the "Hourglass Twins" don't really live up to their name, do they? They should just be called "The Twins", haha!</Page>
+				<Page>Oh well. At least we know the sand starts flowing between the Twins again real soon!</Page>
 				<Page>Chert told me that when the sun rises over the horizon on the morning of your launch day, sand would start flowing between the Hourglass Twins again.</Page>
 				<Page>Isn't that lucky, astronaut? It feels like a good omen for your launch!</Page>
-				<Page>Since Chert knows exactly when sand flows between the Hourglass Twins, I asked them why the sandflow stops - but they didn't seem to know the reason either! So, who knows.</Page>
+				<Page>I dunno how Chert knows exactly when sand flows between the Hourglass Twins, but as long as it's coming back soon, I'm happy!</Page>
 			 </Dialogue>
 			  				<RevealFacts>
      						   <FactID>MICA EX1</FactID>
