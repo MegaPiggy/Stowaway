@@ -1,7 +1,7 @@
 {
 	"$schema" : "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
 
-    "popupMessage": "We recommend completing the basegame before exploring the story of the Stowaway.\n\nWelcome back to the space program, traveler! Talk to Slate around the village campfire to complete one last tradition of the space program, before setting off once more.",
+    "popupMessage": "We recommend completing the basegame before exploring the story of the Stowaway.\n\nThere is one last tradition of the space program the newest astronaut has yet to complete. You are encouraged to talk to Slate around the village campfire before setting off.",
     "achievements": [
         {
             "ID": "STOWAWAY_QUANTUM_SMUGGLING",

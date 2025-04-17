@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2648306510
+CRC: 3836022491
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 5f142cddfafb2252a66c257e21692837
+    Hash: 30044301081e5dd278c351c3e6a20059
   TypeTreeHash:
     serializedVersion: 2
     Hash: dfcac9cd7eca92803e63448e3ff08881
@@ -141,11 +141,12 @@ Assets:
 - Assets/Models/TheInspired (1).prefab
 - Assets/Models/empty switch.prefab
 - Assets/Models/player nosuit.prefab
-- Assets/Models/Ash Clouds.prefab
 - Assets/Models/th portrait.prefab
 - Assets/Models/JellyfishV proxy.prefab
+- Assets/Nomai Ruins/HourglassOb final.prefab
 - Assets/Models/et portrait.prefab
 - Assets/Models/comet map.prefab
+- Assets/Models/stateeye crust.prefab
 - Assets/Models/TheInspired gold.prefab
 - Assets/Models/ASH TWIN BEAM north.prefab
 - Assets/Models/bh tower occluder.prefab

@@ -55,7 +55,7 @@
 		<Name>ShyKidNew1</Name>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Um...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Is it true that there are big scary monsters on Giant's Deep's surface?<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Is it true that there are big scary monsters on Giant's Deep?<![CDATA[</size>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>
@@ -75,11 +75,9 @@
 		<Name>ShyKidNew2</Name>
 		<Dialogue>
 		<Page><![CDATA[<size=20>]]>Oh.. But...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Feldspar told me that the monsters on Giant's Deep don't hide underwater all the time...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Feldspar said that sometimes.. <![CDATA[<Pause=1>]]> They come to the surface too.<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>It's so scary.. I thought the surface of Giant's Deep would be safe from monsters, so I could go there someday to watch the pretty waves... But if they come up to the surface too...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Um.. Just be careful if you ever visit Giant's Deep, okay, astronaut?<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Remember, even on the surface, you aren't safe from the monsters!<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>The monsters that Feldspar told me about were on Giant's Deep's surface...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>If the jellyfish live underwater... What are the monsters on the surface..?<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Giant's Deep is scary...<![CDATA[</size>]]></Page>
 		</Dialogue>	
 						 <RevealFacts>
      						   <FactID>GAL EX1</FactID>
@@ -91,11 +89,10 @@
 		<Name>ShyKidNew3</Name>
 		<Dialogue>
 		<Page><![CDATA[<size=20>]]>Oh..<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Feldspar's been to Giant's Deep before... They told me about the monsters that live in its oceans...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>It wouldn't be so bad if the monsters stayed deep underwater... <![CDATA[<Pause=1>]]> But Feldspar said that sometimes they come to the surface too.<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>It's so scary.. I thought the surface of Giant's Deep would be safe from monsters, so I could go there someday to watch the pretty waves...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Um.. Just be careful if you ever visit Giant's Deep, okay, astronaut?<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Remember, even on the surface, you aren't safe from the monsters!<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Feldspar's been to Giant's Deep before... They told me about the monsters that live on that planet...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>It wouldn't be so bad if the monsters stayed far away and deep underwater... <![CDATA[<Pause=1>]]> But Feldspar said that they saw them on Giant's Deep's surface!<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>I don't know what they look like... But if you visit Giant's Deep, be careful of the monsters, astronaut...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Um, and if you see them... Could you come back and tell me what the monsters look like..?<![CDATA[</size>]]></Page>
 		</Dialogue>	
 						 <RevealFacts>
      						   <FactID>GAL EX1</FactID>

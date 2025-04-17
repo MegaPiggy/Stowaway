@@ -527,7 +527,7 @@
 		},{
 			"rename":"debris return chair",
 			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
-			"position": {"x": -6.8,"y": -25.0206,"z": -0.5336},
+			"position": {"x": -6.8252,"y": -25.2107,"z": -0.8569},
 			"rotation": {"x": 60.833,"y": 0,"z": 270},
 			"parentPath": "Sector/bridge debris",
 			"isRelativeToParent": true
@@ -536,7 +536,7 @@
 			"rename":"debris pillar 1",
 			"assetBundle": "planets/bundle/prefabs",
 			"path":"assets/nomai ruins/prefabs/shortcolumn.prefab",
-			"position": {"x": 5.938,"y": -22.434,"z": 4.42},
+			"position": {"x": 6.038,"y": -22.434,"z": 4.42},
 			"rotation": {"x": 288.9404,"y": 359.9149,"z": 0},
 			"parentPath": "Sector/bridge debris",
 			"scale":1.5,
@@ -568,7 +568,7 @@
 			"rename":"debris pillar 2",
 			"assetBundle": "planets/bundle/prefabs",
 			"path":"assets/nomai ruins/prefabs/shortcolumn.prefab",
-			"position": {"x": -5.9891,"y":-25.401,"z": -3.9982},
+			"position": {"x": -6.0891,"y":-25.401,"z": -3.9982},
 			"rotation": {"x": 298.1901,"y": 178.724,"z": 0.6453},
 			"parentPath": "Sector/bridge debris",
 			"scale":1.5,

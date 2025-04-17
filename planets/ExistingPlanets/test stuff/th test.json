@@ -67,7 +67,7 @@
 			"rename":"BrambleDarkAngler black hole",
 			"type": "blackHole",
 			"uniqueID": "TH SHORTCUT X",
-			"pairedSingularity": "DB WH",
+			"pairedSingularity": "HOB WH",
 			"hasWarpEffects": false,
 			"horizonRadius": 1,
 			"position":{"x":27.4433,"y": -48.2061,"z": 191.7253}

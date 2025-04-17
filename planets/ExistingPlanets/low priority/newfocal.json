@@ -15,8 +15,8 @@
 		}
 	},
 	"FocalPoint": {
-		"primary": "Ember Twin",
-		"secondary": "Ash Twin"
+		"primary": "Ash Twin",
+		"secondary": "Ember Twin"
 	},
 	"MapMarker": {
 		"enabled": true

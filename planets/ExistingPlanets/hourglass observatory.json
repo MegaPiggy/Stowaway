@@ -1,0 +1,115 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name":"HourglassObservatory",
+	
+
+	
+"Props": {
+	"singularities": [
+		
+		{
+			"rename":"HOB white hole shortcut",
+			"type": "whiteHole",
+			"uniqueID": "HOB WH",
+			"pairedSingularity": "TH SHORTCUT X",
+			"hasWarpEffects": false,
+			"horizonRadius": 0.5,
+			"position":{"x": 0,"y": 28,"z": 0},
+			"rotation": {"x":0,"y":0,"z":180},
+			"isRelativeToParent": true
+		}
+	],
+	
+	"details": [
+	
+		{
+			"rename":"HOB Body 900 rotation 180",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/nomai ruins/hourglassob final.prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":90,"y": 0,"z": 90},
+			"scale":100,
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"HOB upper ring gravity",
+			"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/RingGravity/RingGravityVolume/",
+			"position": {"x":0,"y": 2.8836 ,"z": 0},
+			"rotation": {"x":0,"y": 0,"z": 0},
+			"stretch": {"x":0.4,"y":0.55,"z":0.4},
+			"isRelativeToParent": true
+		}
+
+		
+	],
+	"translatorText": [
+		{
+			"type": "whiteboard",
+			"position":{"x": 0,"y": 19.9601,"z": -9.6145},
+			"rotation":{"x": 0, "y": 0, "z": 180},
+			"isRelativeToParent": true
+		}
+	],
+
+	"warpReceivers": [
+		{
+			"frequency": "HourglassObservatory",
+			"position": {"x": 0, "y": 30.75, "z": 0},
+			"rotation":{"x": 0,"y": 270 ,"z": 180},
+			"isRelativeToParent": true
+		}
+	],
+
+	"remotes": [
+		{
+			"id":"HG_OB",
+			"decalPath": "planets/assets/GD dss icon.png",
+			"platform":
+			{
+				"position":{"x": 0,"y": 19.9,"z": 0},
+				"rotation":{"x": 0,"y": 180,"z": 180}
+			},
+		"whiteboard":
+			{
+				"rename":"DSS Whiteboard Pedestal",
+				"position":{"x": 0,"y": 19.9601,"z": 9.6145},
+				"rotation":{"x": 0, "y": 180, "z": 180},
+				"isRelativeToParent": true,
+				"nomaiText":
+			[]}
+		}
+			
+		]
+
+
+
+},
+	
+	"Base": {"showMinimap": false,"hasFluidDetector": false},
+	"MapMarker": {
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"hideInMap": true,
+		"enabled": false
+	},
+
+	"Orbit": {
+		"showOrbitLine": false,
+		"primaryBody": "Sun",
+		"semiMajorAxis" : 5000,
+		"trueAnomaly": 125,
+		"isTidallyLocked": true,
+		"alignmentAxis": {"x":0,"y":1,"z":0}
+	}
+
+
+
+
+
+
+
+
+}

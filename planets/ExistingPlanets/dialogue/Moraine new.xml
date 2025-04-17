@@ -32,8 +32,8 @@
 <DialogueNode>
 		<Name>SignalscopeKidNew1</Name>
 		<Dialogue>
-			<Page>Oh! I have a question, astronaut!</Page>
-			<Page>Um.. It's a bit of a silly one, but... <![CDATA[<Pause=1>]]> How many comets are there in our star system?</Page>
+			<Page>Questions about the universe? Oh, um! I have one!</Page>
+			<Page>It's probably silly of me to even ask, but.. <![CDATA[<Pause=1>]]> How many comets are there in our star system, astronaut?</Page>
 			</Dialogue>
 			<DialogueOptionsList>
 			<DialogueOption>
@@ -56,10 +56,6 @@
 			</Dialogue>
 			<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Woah, woah! Did you see something in the sky?</Text>
-				<DialogueTarget>SignalscopeKidNewC1</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
 				<Text>Right... Thanks.</Text>
 				<DialogueTarget>SignalscopeKidNew2.5</DialogueTarget>
 			</DialogueOption>
@@ -80,16 +76,10 @@
 <DialogueNode>
 		<Name>SignalscopeKidNewC1</Name>
 		<Dialogue>
-			<Page>O-oh, um.. Sorry, it was probably nothing..</Page>
-			<Page>You know how busted my signalscope is, with how much Tephra and Galena play with it. Just look at how much shinier your brand new one is!</Page>
-			<Page>But... <![CDATA[<Pause=1>]]>I thought I saw two comets in the sky a few nights ago.</Page>
-			<Page>I'd never miss a comet's bright glowing tail! I'm sure I saw two comets that night.. But, I haven't been able to see it again since, so I really don't know if it was real..</Page>
-			<Page>Um, if you find anything out there that counts as a second comet.. Could you tell me, astronaut?</Page>
-			<Page>If it really exists, it'd be so cool to learn about a new celestial body we know nothing about!</Page>
+			<Page>O-oh, um.. No, it was probably nothing..</Page>
+			<Page>You know how busted my signalscope is, with how much Tephra and Galena play with it. I probably just mistook a smudge.. Sorry, astronaut!</Page>
+			<Page><![CDATA[<size=20>]]>Uugh, I need to find it again before I tell anyone about it...<![CDATA[</size>]]></Page>
 			</Dialogue>
-							<RevealFacts>
-     						  	 <FactID>MOR EX2</FactID>
-    					 	 </RevealFacts>
 		</DialogueNode>
 		
 	<!-- ################################################## -->
@@ -124,9 +114,9 @@
 		<Name>SignalscopeKidNewC3</Name>
 		<Dialogue>
 			<Page>Ohh.. So that's why it's so hard to see it.. I guess Giant's Deep must have kept it hidden from us pretty well!</Page>
-			<Page>But.. that's weird, isn't it?</Page>
+			<Page>But that's weird, isn't it?</Page>
 			<Page>Hornfels told me comets can have weird orbits.. But comets aren't supposed to stay still behind planets like that, are they? The Interloper sure doesn't do that!</Page>
-			<Page>Why's this comet hiding inside a planet's shadow at all? It's kinda creepy..</Page>
+			<Page>Why's this comet hiding inside a planet's shadow? It's kinda creepy..</Page>
 			</Dialogue>
 		</DialogueNode>
 
@@ -144,9 +134,9 @@
 		<Name>SignalscopeKidNewC5</Name>
 		<Dialogue>
 			<Page>Huh? A.. weapon? Like, something dangerous?</Page>
-			<Page>But.. Weren't the Nomai really peaceful and friendly? Why.. What'd they need a weapon like that for?</Page>
+			<Page>But.. Weren't the Nomai really peaceful and friendly? What'd they need a weapon like that for?</Page>
 			<Page>That's.. really weird.</Page>
-			<Page>Um... If it really is a weapon.. I'm sure the Nomai must have had a good reason to make something like that.</Page>
+			<Page>Um... If it really is a weapon.. I'm sure the Nomai must have had a good reason to make something like that, right..?</Page>
 			</Dialogue>
 		</DialogueNode>
 
