@@ -159,6 +159,9 @@ public class Stowaway : ModBehaviour
 	{
 		var hgt = gameObject.GetComponent<NHAstroObject>();
 		hgt._name = AstroObject.Name.HourglassTwins;
+		hgt.isVanilla = true;
+		var mapMarker = gameObject.GetComponent<MapMarker>();
+		mapMarker._labelID = UITextType.LocationHGT_Cap;
 		var emberAstroObject = Locator.GetAstroObject(AstroObject.Name.CaveTwin);
 		var ashAstroObject = Locator.GetAstroObject(AstroObject.Name.TowerTwin);
 		var emberObject = emberAstroObject.gameObject;
