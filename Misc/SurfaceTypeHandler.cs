@@ -66,6 +66,7 @@ namespace Stowaway.Misc
 				case "Effects_CO_MeltingIce_mat":
 				case "Replace_Terrain_Co_Ice_Mat":
 				case "Terrain_DB_Crust_mat":
+				case "Terrain_CO_Ice_BRDF":
 					return SurfaceType.Ice;
 
 				case "Wood":
@@ -94,6 +95,9 @@ namespace Stowaway.Misc
 				case "Structure_NOM_Whiteboard_mat":
 				case "Structure_NOM_WhiteBoardTile_mat":
 				case "Structure_NOM_Porcelain_mat":
+				case "IntactModule_NOM_RemoteViewerFloor_mat":
+				case "Structure_NOM_Grooves_Green_mat":
+				case "Structure_NOM_Zigzag_mat":
 					return SurfaceType.Ceramic;
 
 				case "Fabric":
@@ -117,6 +121,9 @@ namespace Stowaway.Misc
 				case "CopperOld":
 				case "Terrain_HGTA_TimeLoopMetal_mat":
 				case "Structure_NOM_CopperOld_mat":
+				case "Structure_NOM_CopperOld_d":
+				case "Structure_NOM_Copper_mat":
+				case "Effects_NOM_TimeLoopDeviceCable_mat":
 				case "Structure_NOM_Silver_mat":
 					return SurfaceType.MetalNomai;
 
@@ -125,6 +132,7 @@ namespace Stowaway.Misc
 				case "Props_NOM_GravityCrystal_mat":
 				case "Replace_Props_NOM_GravityCrystal_mat":
 				case "Terrain_GM_Crystal_mat":
+				case "Effects_NOM_GravityCrystal_BRDF":
 					return SurfaceType.Crystal;
 
 				case "Energy":
@@ -134,6 +142,7 @@ namespace Stowaway.Misc
 				case "Props_NOM_Orb_mat":
 				case "Props_NOM_Lamp_mat":
 				case "Structure_NOM_Glass_Opaque_mat":
+				case "Structure_NOM_Glass_SunkenModule_mat":
 					return SurfaceType.Glass;
 
 				case "Gravel":
@@ -172,6 +181,7 @@ namespace Stowaway.Misc
 				case "Water":
 				case "Terrain_TH_Water_v2_mat":
 				case "Effects_IP_PrisonWater_mat":
+				case "Effects_IP_PrisonWaterStencil_mat":
 					return SurfaceType.Water;
 
 				default:
