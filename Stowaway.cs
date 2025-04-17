@@ -8,13 +8,15 @@ using System.IO;
 using System.Reflection;
 using Stowaway.Components;
 using UnityEngine;
-using NewHorizons.Components.SizeControllers;
 using Stowaway.Misc;
 using NewHorizons.Utility.Files;
 using System.Linq;
-using NewHorizons.Builder.Orbital;
-using NewHorizons.Components.Orbital;
 using NewHorizons.Utility.OWML;
+using NewHorizons.Components.Orbital;
+using Autodesk.Fbx;
+using Epic.OnlineServices;
+using NewHorizons.Utility.OuterWilds;
+using NewHorizons.Handlers;
 
 namespace Stowaway;
 
@@ -74,25 +76,20 @@ public class Stowaway : ModBehaviour
 
 	private void SystemLoaded(string system)
 	{
+		WriteError($"System Loaded: \"{system}\"");
 		if (system == "SolarSystem" || system == "EyeOfTheUniverse")
 		{
 			initSurfaceMaterials();
 		}
 		if (system == "SolarSystem")
 		{
-			SetBinaryInitialMotion(
-				baryCenter: Locator.GetAstroObject(AstroObject.Name.HourglassTwins), 
-				primaryBody: Locator.GetAstroObject(AstroObject.Name.CaveTwin), 
-				secondaryBody: Locator.GetAstroObject(AstroObject.Name.TowerTwin), 
-				semiMajorAxis: 495, 
-				primaryTrueAnomaly: 275, 
-				secondaryTrueAnomaly: 335);
 			initSandFunnel_Late();
 		}
 	}
 
 	private void BodyLoaded(string body)
 	{
+		WriteError($"Body Loaded: \"{body}\"");
 		if (body == "Sun")
 		{
 			initSun_Late();
@@ -100,6 +97,10 @@ public class Stowaway : ModBehaviour
 		if (body == "HourglassTwins")
 		{
 			initHourglassTwins_Late();
+		}
+		if (body == "TheHourglassTwins")
+		{
+			initNewFocalPoint_Late(NewHorizonsAPI.GetPlanet("The Hourglass Twins"));
 		}
 		if (body == "AshTwin")
 		{
@@ -144,7 +145,7 @@ public class Stowaway : ModBehaviour
 		}
 		if (body.EndsWith("Inspired"))
 		{
-			initInspiredComet(NewHorizonsAPI.GetPlanet(body));
+			initInspiredComet(NewHorizonsAPI.GetPlanet("Inspired"));
 		}
 	}
 
@@ -152,17 +153,87 @@ public class Stowaway : ModBehaviour
 	{
 		var hgt = Locator.GetAstroObject(AstroObject.Name.HourglassTwins);
 		var sector = hgt.GetRootSector();
-		Delay.RunWhen(() => hgt.GetRootSector() != null && hgt.GetRootSector().GetComponent<SphereShape>() != null, () =>
-			hgt.GetRootSector().GetComponent<SphereShape>().radius += 250);
+	}
+
+	private void initNewFocalPoint_Late(GameObject gameObject)
+	{
+		WriteError($"initNewFocalPoint_Late: \"{gameObject.name}\"");
+		var hgt = gameObject.GetComponent<NHAstroObject>();
+		hgt._name = AstroObject.Name.HourglassTwins;
+		WriteError("hgtSector: " + ((hgt.GetRootSector() != null) ? "exists" : "noexists"));
+		Delay.RunWhen(() => hgt.GetRootSector() != null, () =>
+		{
+			var emberAstroObject = Locator.GetAstroObject(AstroObject.Name.CaveTwin);
+			var ashAstroObject = Locator.GetAstroObject(AstroObject.Name.TowerTwin);
+			var emberObject = emberAstroObject.gameObject;
+			var ashObject = ashAstroObject.gameObject;
+			var ember = emberAstroObject.GetRootSector();
+			var ash = ashAstroObject.GetRootSector();
+			var tli = ash.gameObject.FindChild("Sector_TimeLoopInterior").GetComponent<Sector>();
+			var sector = hgt.GetRootSector();
+			sector.OnDestroy();
+			sector._firstUpdate = true;
+			sector._idString = "HOURGLASS_TWINS";
+			sector._name = Sector.Name.HourglassTwins;
+			sector.Awake();
+			Delay.FireOnNextUpdate(() => {
+				GameObject.DestroyImmediate(emberObject.gameObject.FindChild("Sector_HGT"));
+				GameObject.DestroyImmediate(ashObject.gameObject.FindChild("Sector_HGT"));
+				var emberSectorStreaming = emberObject.GetComponentInChildren<SectorStreaming>(true);
+				var ashSectorStreaming = ashObject.GetComponentInChildren<SectorStreaming>(true);
+				emberSectorStreaming.OnDestroy();
+				ashSectorStreaming.OnDestroy();
+				GameObject.DestroyImmediate(emberSectorStreaming.gameObject);
+				GameObject.DestroyImmediate(ashSectorStreaming.gameObject);
+				ember.SetParentSector(sector);
+				ash.SetParentSector(sector);
+			});
+			tli.SetParentSector(sector);
+			var resolutionScale = sector.gameObject.AddComponent<SectorResolutionScale>();
+			resolutionScale._playstation4 = DynamicResolutionManager.TargetResolution._900;
+			resolutionScale._playstation4Pro = DynamicResolutionManager.TargetResolution._900;
+			resolutionScale._playstation5 = DynamicResolutionManager.TargetResolution._1872;
+			resolutionScale._xboxOne = DynamicResolutionManager.TargetResolution._900;
+			resolutionScale._xboxOneS = DynamicResolutionManager.TargetResolution._900;
+			resolutionScale._xboxOneX = DynamicResolutionManager.TargetResolution._1440;
+			resolutionScale._xboxSeriesS = DynamicResolutionManager.TargetResolution._1296;
+			resolutionScale._xboxSeriesX = DynamicResolutionManager.TargetResolution._2088;
+			resolutionScale._xboxSeriesX = DynamicResolutionManager.TargetResolution._2088;
+			resolutionScale.SetSector(sector);
+			var ER = sector.gameObject.AddComponent<EffectRuleset>();
+			ER._type = EffectRuleset.BubbleType.None;
+			ER._sandMaterial = SearchUtilities.Find("FocalBody/Sector_HGT").GetComponent<EffectRuleset>()._sandMaterial;
+
+			var sectorStreamingObj = new GameObject("Sector_Streaming");
+			sectorStreamingObj.transform.SetParent(gameObject.transform, false);
+			var sectorStreaming = sectorStreamingObj.AddComponent<SectorStreaming>();
+			sectorStreaming._softLoadRadius = 3000;
+			sectorStreaming._streamingGroup = StreamingHandler.GetStreamingGroup(AstroObject.Name.CaveTwin);
+			sectorStreaming.SetSector(sector);
+		});
 	}
 
 	private void initSandFunnel_Late()
 	{
+		var nhgt = NewHorizonsAPI.GetPlanet("The Hourglass Twins").transform;
 		var sandFunnel = SearchUtilities.Find("SandFunnel_Body");
+		var body = sandFunnel.GetComponent<OWRigidbody>();
+		body._origParent = nhgt;
+		body._origParentBody = nhgt.GetComponent<OWRigidbody>();
+		sandFunnel.transform.SetParent(nhgt, false);
+		sandFunnel.SetActive(true);
+		body.UnsuspendImmediate(false);
 		sandFunnel.AddComponent<SandFunnelFixer>();
-    }
+		WriteError("SandFunnelFixer");
+		Delay.FireInNUpdates(() =>
+		{
+			sandFunnel.SetActive(true);
+			body.UnsuspendImmediate(false);
+			body.GetAttachedForceDetector().enabled = true;
+		}, 3);
+	}
 
-    private void initSun_Late()
+	private void initSun_Late()
 	{
 		var sun = Locator.GetAstroObject(AstroObject.Name.Sun);
 		var sector = sun.GetRootSector().transform;
@@ -373,77 +444,6 @@ public class Stowaway : ModBehaviour
 			door.gameObject.GetAddComponent<OverheadDetector>();
 			door.gameObject.GetAddComponent<NomaiDoorTugger>();
 		}
-	}
-
-
-	public static void SetBinaryInitialMotion(AstroObject baryCenter, AstroObject primaryBody, AstroObject secondaryBody, float semiMajorAxis, float primaryTrueAnomaly, float secondaryTrueAnomaly)
-	{
-		Write($"Setting binary initial motion [{primaryBody.name}] [{secondaryBody.name}]");
-
-		var primaryGravity = new Gravity(primaryBody._gravityVolume);
-		var secondaryGravity = new Gravity(secondaryBody._gravityVolume);
-
-		if (primaryBody.GetGravityVolume() == null) primaryGravity = new Gravity(primaryBody.GetGravityVolume());
-		if (secondaryBody.GetGravityVolume() == null) secondaryGravity = new Gravity(secondaryBody.GetGravityVolume());
-
-		// Update the positions
-		var distance = semiMajorAxis * 2;
-		var m1 = primaryGravity.Mass;
-		var m2 = secondaryGravity.Mass;
-
-		var r1 = distance * m2 / (m1 + m2);
-		var r2 = distance * m1 / (m1 + m2);
-
-		var ecc = 0;
-		var inc = 0;
-		var arg = 0;
-		var lon = 0;
-		var tru = secondaryTrueAnomaly;
-
-		var primaryParameters = OrbitalParameters.FromTrueAnomaly(primaryGravity, secondaryGravity, ecc, r1, inc, arg, lon, secondaryTrueAnomaly);
-		var secondaryParameters = OrbitalParameters.FromTrueAnomaly(secondaryGravity, primaryGravity, ecc, r2, inc, arg - 180, lon, secondaryTrueAnomaly);
-
-		primaryBody.transform.position = baryCenter.transform.position + primaryParameters.InitialPosition;
-		secondaryBody.transform.position = baryCenter.transform.position + secondaryParameters.InitialPosition;
-
-		// Update the velocities
-
-		// Two-body is equivalent to reduced mass orbiting the combined mass
-		var reducedMass = 1f / ((1f / m1) + (1f / m2));
-		var combinedMass = m1 + m2;
-
-		var reducedMassGravity = new Gravity(reducedMass, primaryGravity.Power);
-		var combinedMassGravity = new Gravity(combinedMass, primaryGravity.Power);
-
-		var baryCenterVelocity = baryCenter?.GetComponent<InitialMotion>()?.GetInitVelocity() ?? Vector3.zero;
-
-		// Doing the two body problem as a single one body problem gives the relative velocity of secondary to primary
-		var reducedOrbit = OrbitalParameters.FromTrueAnomaly(
-			combinedMassGravity,
-			reducedMassGravity,
-			ecc,
-			distance,
-			inc,
-			arg,
-			lon,
-			tru
-		);
-
-		// mf uh sin theta = v1 / r1 = v2 / r2 bc same angular speed same angle I win!
-		var v = reducedOrbit.InitialVelocity;
-		var primaryVelocity = v / (1 + r2 / r1);
-		var secondaryVelocity = primaryVelocity * r2 / r1;
-
-		// Now we just set things
-		var primaryInitialMotion = primaryBody.GetComponent<InitialMotion>();
-		primaryInitialMotion._cachedInitVelocity = baryCenterVelocity - primaryVelocity;
-		primaryInitialMotion._isInitVelocityDirty = false;
-
-		var secondaryInitialMotion = secondaryBody.GetComponent<InitialMotion>();
-		secondaryInitialMotion._cachedInitVelocity = baryCenterVelocity + secondaryVelocity;
-		secondaryInitialMotion._isInitVelocityDirty = false;
-
-		Write($"Binary Initial Motion: {m1}, {m2}, {r1}, {r2}, {primaryVelocity}, {secondaryVelocity}");
 	}
 
 	private const float sizeMultiplier = 1;

@@ -13,13 +13,24 @@ namespace Stowaway.Components
     {
         private OWRigidbody _sandFunnel;
         private OWRigidbody _ashTwin;
+        private OWRigidbody _emberTwin;
         private Transform _scaleRoot;
 
         public void Awake()
         {
             _sandFunnel = this.GetAttachedOWRigidbody();
             _ashTwin = Locator.GetAstroObject(AstroObject.Name.TowerTwin).GetOWRigidbody();
+            _emberTwin = Locator.GetAstroObject(AstroObject.Name.CaveTwin).GetOWRigidbody();
             _scaleRoot = transform.Find("ScaleRoot");
+
+            if (TryGetComponent(out AlignWithTargetBody alignWithTargetBody))
+            {
+                Component.DestroyImmediate(alignWithTargetBody);
+                FixedUpdateManager._alignWithDirections.RemoveDestroyedElements();
+            }
+
+            if (TryGetComponent(out InitialMotion initialMotion))
+                Component.DestroyImmediate(initialMotion);
         }
 
         public void Start()
@@ -28,10 +39,15 @@ namespace Stowaway.Components
             Rescale();
         }
 
-        public void Update()
+        public void LateUpdate()
+        {
+            Rescale();
+        }
+
+        public void FixedUpdate()
         {
             MatchPostitionAndVelocity();
-            Rescale();
+            PointToEmberTwin();
         }
 
         private void MatchPostitionAndVelocity()
@@ -46,6 +62,11 @@ namespace Stowaway.Components
             Vector3 localPosition = _scaleRoot.localScale;
             localPosition.z = 2;
             _scaleRoot.localScale = localPosition;
+        }
+
+        private void PointToEmberTwin()
+        {
+            transform.LookAt(_emberTwin.transform);
         }
     }
 }
