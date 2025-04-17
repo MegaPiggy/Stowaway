@@ -146,7 +146,7 @@
 	"translatorText": [
 		{
 			"rename":"hidden lava recorder",
-			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/vm heat.xml",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/volcanicmoon/vm heat.xml",
 			"parentPath": "MoltenCore_VM/lava floating raft",
 			"type": "recorder",
 			"position": {"x":-4.9396,"y": -4.1362,"z": -5.1603},
@@ -155,7 +155,7 @@
 		},
 		{
 			"type": "computer",
-			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/vm lava levels.xml",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/volcanicmoon/vm lava levels.xml",
 			"parentPath": "Sector_VM/Interactables_VM",
 			"rename":"lava levels computer",
 			"position": {"x":35.95,"y": 92.1,"z": 34.42},
@@ -164,7 +164,7 @@
 		},
 		{
 			"type": "trailmarker",
-			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/divingbell trailhead.xml",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/volcanicmoon/divingbell trailhead.xml",
 			"rename":"divingbell trailmarker",
 			"position": {"x":16.6439,"y": 100.6909,"z": 4.7029},
 			"rotation": {"x":357.607,"y": 236.9441,"z": 359.5468},
