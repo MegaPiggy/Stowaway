@@ -147,6 +147,30 @@ public class Stowaway : ModBehaviour
 		{
 			initInspiredComet(NewHorizonsAPI.GetPlanet("Inspired"));
 		}
+		if (body == "HourglassObservatory")
+		{
+			initHourglassObservatory(NewHorizonsAPI.GetPlanet("Hourglass Observatory"));
+		}
+	}
+
+	private void initHourglassObservatory(GameObject hourglassObservatory)
+	{
+		var sector = hourglassObservatory.transform.Find("Sector");
+		var rfVolume = hourglassObservatory.transform.Find("RFVolume");
+		var volumes = hourglassObservatory.transform.Find("Volumes");
+		var fieldDetector = hourglassObservatory.transform.Find("FieldDetector");
+
+		var pos = Vector3.down * 900;
+		sector.localPosition = pos;
+		rfVolume.localPosition = pos;
+		volumes.localPosition = pos;
+		fieldDetector.localPosition = pos;
+		
+		var rot = new Vector3(0, 180, 180);
+		sector.localEulerAngles = rot;
+		rfVolume.localEulerAngles = rot;
+		volumes.localEulerAngles = rot;
+		fieldDetector.localEulerAngles = rot;
 	}
 
 	private void initHourglassTwins_Late()
