@@ -76,7 +76,7 @@ public class Stowaway : ModBehaviour
 
 	private void SystemLoaded(string system)
 	{
-		WriteError($"System Loaded: \"{system}\"");
+		Write($"System Loaded: \"{system}\"");
 		if (system == "SolarSystem" || system == "EyeOfTheUniverse")
 		{
 			initSurfaceMaterials();
@@ -89,7 +89,7 @@ public class Stowaway : ModBehaviour
 
 	private void BodyLoaded(string body)
 	{
-		WriteError($"Body Loaded: \"{body}\"");
+		Write($"Body Loaded: \"{body}\"");
 		if (body == "Sun")
 		{
 			initSun_Late();
@@ -157,60 +157,55 @@ public class Stowaway : ModBehaviour
 
 	private void initNewFocalPoint_Late(GameObject gameObject)
 	{
-		WriteError($"initNewFocalPoint_Late: \"{gameObject.name}\"");
 		var hgt = gameObject.GetComponent<NHAstroObject>();
 		hgt._name = AstroObject.Name.HourglassTwins;
-		WriteError("hgtSector: " + ((hgt.GetRootSector() != null) ? "exists" : "noexists"));
-		Delay.RunWhen(() => hgt.GetRootSector() != null, () =>
-		{
-			var emberAstroObject = Locator.GetAstroObject(AstroObject.Name.CaveTwin);
-			var ashAstroObject = Locator.GetAstroObject(AstroObject.Name.TowerTwin);
-			var emberObject = emberAstroObject.gameObject;
-			var ashObject = ashAstroObject.gameObject;
-			var ember = emberAstroObject.GetRootSector();
-			var ash = ashAstroObject.GetRootSector();
-			var tli = ash.gameObject.FindChild("Sector_TimeLoopInterior").GetComponent<Sector>();
-			var sector = hgt.GetRootSector();
-			sector.OnDestroy();
-			sector._firstUpdate = true;
-			sector._idString = "HOURGLASS_TWINS";
-			sector._name = Sector.Name.HourglassTwins;
-			sector.Awake();
-			Delay.FireOnNextUpdate(() => {
-				GameObject.DestroyImmediate(emberObject.gameObject.FindChild("Sector_HGT"));
-				GameObject.DestroyImmediate(ashObject.gameObject.FindChild("Sector_HGT"));
-				var emberSectorStreaming = emberObject.GetComponentInChildren<SectorStreaming>(true);
-				var ashSectorStreaming = ashObject.GetComponentInChildren<SectorStreaming>(true);
-				emberSectorStreaming.OnDestroy();
-				ashSectorStreaming.OnDestroy();
-				GameObject.DestroyImmediate(emberSectorStreaming.gameObject);
-				GameObject.DestroyImmediate(ashSectorStreaming.gameObject);
-				ember.SetParentSector(sector);
-				ash.SetParentSector(sector);
-			});
-			tli.SetParentSector(sector);
-			var resolutionScale = sector.gameObject.AddComponent<SectorResolutionScale>();
-			resolutionScale._playstation4 = DynamicResolutionManager.TargetResolution._900;
-			resolutionScale._playstation4Pro = DynamicResolutionManager.TargetResolution._900;
-			resolutionScale._playstation5 = DynamicResolutionManager.TargetResolution._1872;
-			resolutionScale._xboxOne = DynamicResolutionManager.TargetResolution._900;
-			resolutionScale._xboxOneS = DynamicResolutionManager.TargetResolution._900;
-			resolutionScale._xboxOneX = DynamicResolutionManager.TargetResolution._1440;
-			resolutionScale._xboxSeriesS = DynamicResolutionManager.TargetResolution._1296;
-			resolutionScale._xboxSeriesX = DynamicResolutionManager.TargetResolution._2088;
-			resolutionScale._xboxSeriesX = DynamicResolutionManager.TargetResolution._2088;
-			resolutionScale.SetSector(sector);
-			var ER = sector.gameObject.AddComponent<EffectRuleset>();
-			ER._type = EffectRuleset.BubbleType.None;
-			ER._sandMaterial = SearchUtilities.Find("FocalBody/Sector_HGT").GetComponent<EffectRuleset>()._sandMaterial;
-
-			var sectorStreamingObj = new GameObject("Sector_Streaming");
-			sectorStreamingObj.transform.SetParent(gameObject.transform, false);
-			var sectorStreaming = sectorStreamingObj.AddComponent<SectorStreaming>();
-			sectorStreaming._softLoadRadius = 3000;
-			sectorStreaming._streamingGroup = StreamingHandler.GetStreamingGroup(AstroObject.Name.CaveTwin);
-			sectorStreaming.SetSector(sector);
+		var emberAstroObject = Locator.GetAstroObject(AstroObject.Name.CaveTwin);
+		var ashAstroObject = Locator.GetAstroObject(AstroObject.Name.TowerTwin);
+		var emberObject = emberAstroObject.gameObject;
+		var ashObject = ashAstroObject.gameObject;
+		var ember = emberAstroObject.GetRootSector();
+		var ash = ashAstroObject.GetRootSector();
+		var tli = ash.gameObject.FindChild("Sector_TimeLoopInterior").GetComponent<Sector>();
+		var sector = hgt.GetRootSector();
+		sector.OnDestroy();
+		sector._firstUpdate = true;
+		sector._idString = "HOURGLASS_TWINS";
+		sector._name = Sector.Name.HourglassTwins;
+		sector.Awake();
+		Delay.FireOnNextUpdate(() => {
+			GameObject.DestroyImmediate(emberObject.gameObject.FindChild("Sector_HGT"));
+			GameObject.DestroyImmediate(ashObject.gameObject.FindChild("Sector_HGT"));
+			var emberSectorStreaming = emberObject.GetComponentInChildren<SectorStreaming>(true);
+			var ashSectorStreaming = ashObject.GetComponentInChildren<SectorStreaming>(true);
+			emberSectorStreaming.OnDestroy();
+			ashSectorStreaming.OnDestroy();
+			GameObject.DestroyImmediate(emberSectorStreaming.gameObject);
+			GameObject.DestroyImmediate(ashSectorStreaming.gameObject);
+			ember.SetParentSector(sector);
+			ash.SetParentSector(sector);
 		});
+		tli.SetParentSector(sector);
+		var resolutionScale = sector.gameObject.AddComponent<SectorResolutionScale>();
+		resolutionScale._playstation4 = DynamicResolutionManager.TargetResolution._900;
+		resolutionScale._playstation4Pro = DynamicResolutionManager.TargetResolution._900;
+		resolutionScale._playstation5 = DynamicResolutionManager.TargetResolution._1872;
+		resolutionScale._xboxOne = DynamicResolutionManager.TargetResolution._900;
+		resolutionScale._xboxOneS = DynamicResolutionManager.TargetResolution._900;
+		resolutionScale._xboxOneX = DynamicResolutionManager.TargetResolution._1440;
+		resolutionScale._xboxSeriesS = DynamicResolutionManager.TargetResolution._1296;
+		resolutionScale._xboxSeriesX = DynamicResolutionManager.TargetResolution._2088;
+		resolutionScale._xboxSeriesX = DynamicResolutionManager.TargetResolution._2088;
+		resolutionScale.SetSector(sector);
+		var ER = sector.gameObject.AddComponent<EffectRuleset>();
+		ER._type = EffectRuleset.BubbleType.None;
+		ER._sandMaterial = SearchUtilities.Find("FocalBody/Sector_HGT").GetComponent<EffectRuleset>()._sandMaterial;
+
+		var sectorStreamingObj = new GameObject("Sector_Streaming");
+		sectorStreamingObj.transform.SetParent(gameObject.transform, false);
+		var sectorStreaming = sectorStreamingObj.AddComponent<SectorStreaming>();
+		sectorStreaming._softLoadRadius = 3000;
+		sectorStreaming._streamingGroup = StreamingHandler.GetStreamingGroup(AstroObject.Name.CaveTwin);
+		sectorStreaming.SetSector(sector);
 	}
 
 	private void initSandFunnel_Late()
@@ -224,7 +219,6 @@ public class Stowaway : ModBehaviour
 		sandFunnel.SetActive(true);
 		body.UnsuspendImmediate(false);
 		sandFunnel.AddComponent<SandFunnelFixer>();
-		WriteError("SandFunnelFixer");
 		Delay.FireInNUpdates(() =>
 		{
 			sandFunnel.SetActive(true);
@@ -240,7 +234,7 @@ public class Stowaway : ModBehaviour
 		var extraGravity = sector.Find("sun gravitywell3 sun");
 		if (extraGravity != null)
 		{
-			WriteError("Found object at path Sun_Body/Sector_SUN/sun gravitywell3 sun");
+			WriteSuccess("Found object at path Sun_Body/Sector_SUN/sun gravitywell3 sun");
 			var volume = extraGravity.GetComponent<GravityVolume>();
 			volume._surfaceAcceleration = 37.5f; // 400 billion at 100 accel. So change to 37.5 for 150 billion.
 			volume._isPlanetGravityVolume = false;
@@ -670,7 +664,7 @@ public class Stowaway : ModBehaviour
 
 		if (gmTransform != null)
 		{
-			WriteError("Found object at path " + key + "/Sector/" + path);
+			WriteSuccess("Found object at path " + key + "/Sector/" + path);
 			var gmObject = gmTransform.gameObject;
 			var overhead = gmObject.GetAddComponent<OverheadDetector>();
 			var gmFloat = gmObject.GetAddComponent<GhostMatterFloatController>();
