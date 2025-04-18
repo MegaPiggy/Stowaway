@@ -180,6 +180,7 @@
 		"hasFluidDetector": false
 	},
 	"Orbit": {
+		"showOrbitLine": false,
 		"primaryBody": "Sun",
 		"semiMajorAxis" : 16457.58738,
 		"siderealPeriod": 0,
