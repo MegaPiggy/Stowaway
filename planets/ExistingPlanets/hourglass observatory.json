@@ -22,17 +22,28 @@
 	],
 	
 	"details": [
-	
+		
 		{
-			"rename":"HOB Body 900 rotation 180",
+			"rename":"HOBservatory main",
 			"assetBundle": "planets/bundle/stowaway3",
 			"path":"assets/nomai ruins/hourglassob final.prefab",
 			"position": {"x":0,"y": 0,"z": 0},
 			"rotation": {"x":90,"y": 0,"z": 90},
 			"scale":100,
-			"isRelativeToParent": true,
-			"keepLoaded": true
+			"isRelativeToParent": true
 		},
+		{
+			"rename":"HOBservatory proxy",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/nomai ruins/hourglassob proxy.prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":90,"y": 0,"z": 90},
+			"scale":100,
+			"isRelativeToParent": true,
+			"keepLoaded": true,
+			"ignoreSun": true
+		},
+
 		{
 			"rename":"HOB upper ring gravity",
 			"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/RingGravity/RingGravityVolume/",
