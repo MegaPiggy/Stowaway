@@ -123,13 +123,16 @@
 },
 	
 	"Base": {"showMinimap": false,"hasFluidDetector": false, 
-	"surfaceSize": 200},
+	"surfaceSize": 65, "soiOverride": 200},
 	"MapMarker": {
 		"enabled": false
 	},
 	"ReferenceFrame": {
-		"hideInMap": true,
-		"enabled": false
+		"enabled": true,
+		"bracketRadius": 65,
+		"maxTargetDistance": 65,
+		"targetColliderRadius": 65,
+		"targetWhenClose": true
 	},
 
 	"Orbit": {

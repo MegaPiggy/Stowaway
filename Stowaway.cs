@@ -162,15 +162,33 @@ public class Stowaway : ModBehaviour
 
 		var pos = Vector3.down * 900;
 		sector.localPosition = pos;
-		rfVolume.localPosition = pos;
-		volumes.localPosition = pos;
-		fieldDetector.localPosition = pos;
-		
+
+		var centeredPos = Vector3.down * 935;
+		rfVolume.localPosition = centeredPos;
+		volumes.localPosition = centeredPos;
+		fieldDetector.localPosition = centeredPos;
+
 		var rot = new Vector3(0, 180, 180);
 		sector.localEulerAngles = rot;
 		rfVolume.localEulerAngles = rot;
 		volumes.localEulerAngles = rot;
 		fieldDetector.localEulerAngles = rot;
+
+		var sectorSphere = sector.GetComponent<SphereShape>();
+		//sectorSphere.radius = 200;
+		sectorSphere.center = pos - centeredPos;
+
+		var rfv = rfVolume.GetComponent<ReferenceFrameVolume>();
+		rfv._minColliderRadius = 32.5f;
+		rfv._maxColliderRadius = 65;
+		rfv._referenceFrame._autopilotArrivalDistance = 0;
+		rfv._referenceFrame._autoAlignmentDistance = 0;
+		rfv._referenceFrame._matchAngularVelocity = false;
+		rfv._referenceFrame._minMatchAngularVelocityDistance = 0;
+		rfv._referenceFrame._maxMatchAngularVelocityDistance = 0;
+		rfv._referenceFrame._bracketsRadius = 50;
+		rfv._referenceFrame._useCenterOfMass = false;
+		rfv._referenceFrame._localPosition = centeredPos;
 	}
 
 	private void initHourglassTwins_Late()
