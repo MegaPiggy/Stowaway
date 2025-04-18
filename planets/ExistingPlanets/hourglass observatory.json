@@ -79,6 +79,20 @@
 
 		
 	],
+	"proxyDetails": [
+		{
+			"rename":"HOBservatory proxy",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/nomai ruins/hourglassob proxy.prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":90,"y": 0,"z": 90},
+			"scale":100,
+			"isRelativeToParent": true,
+			"keepLoaded": true,
+			"ignoreSun": true,
+			"removeChildren": [ "Volumes", "Body_Exterior/Body_Exterior_Col", "Body_Exterior/Warp_Exterior_Geo/Warp_Exterior_Col", "Body_Interior", "Body_HTO_Col", "Structure_NOM_WarpTransmitter_Collider" ]
+		}
+	],
 	"translatorText": [
 		{
 			"type": "whiteboard",
