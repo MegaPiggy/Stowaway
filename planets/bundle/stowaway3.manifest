@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 436395138
+CRC: 2507002247
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: bd000850a58196130ab44e8d3cc78efd
+    Hash: 6d1aab1d701d066c575a2dcd63ef1c29
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b67b0e243d62fa73de4c6ff591bbb9f5
+    Hash: cf1589c35bbc94081b2da318b90cf552
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -64,8 +64,6 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 9d66ead59999cdfde1b85ce808a55225, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 97799c07190331b5ea4838ff8ff2a8e0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2ca598178f775e7dc1b937bc0b32aae7, type: 3}
@@ -81,6 +79,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 7a54be8810d01e9ae854ddb2580bb460, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 892a6b987a18588fe03a5937388e4a4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
 - Class: 114
@@ -105,8 +105,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 9893321d896ff975d056df09969d1ee0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7731bc3d30c8b009ac33fba6df6e72ae, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 0439374de7aa5c9cadcc76f4256d44a9, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1effb1bd669ff10873e29e11509c3d77, type: 3}
 - Class: 114
@@ -158,12 +156,10 @@ Assets:
 - Assets/Models/bh tower occluder.prefab
 - Assets/Models/rotation guy.prefab
 - Assets/Models/Materials/mural front.prefab
-- Assets/Nomai Ruins/sun gravity 2.prefab
 - Assets/Models/interloper proxy.prefab
 - Assets/Models/SphereCollider.prefab
 - Assets/Models/rail collider.prefab
 - Assets/Models/waterfall clear.prefab
-- Assets/Nomai Ruins/zerog volume ss.prefab
 - Assets/Models/comet mural side v4.prefab
 - Assets/Models/lava bell.prefab
 - Assets/Nomai Ruins/HourglassOb proxy.prefab
