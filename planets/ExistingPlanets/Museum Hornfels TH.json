@@ -1013,14 +1013,6 @@
 				"rotation":{"x":273.8436 ,"y": 100.1827,"z": 36.9031},
 				"isRelativeToParent": true
 			},
-			{
-				"rename":"Sanctuary voyager ghost",
-				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/Solanum alloyed prefab.prefab",
-				"position": {"x": -105.7748, "y": 13.306, "z": 116.4042},
-				"rotation":{"x":327.6758,"y": 44.9579,"z": 83.0889},
-				"isRelativeToParent": true
-			},
 			
 			{
 				"rename":"Sanctuary shell rotate",

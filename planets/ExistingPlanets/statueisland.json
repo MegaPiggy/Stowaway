@@ -1124,7 +1124,7 @@
 					},
 					{
 						"id":"GD_DeepStormStation",
-						"decalPath":"planets/assets/voyager dss icon.png",
+						"decalPath":"planets/assets/voyager dss icon v2.png",
 						"stones":
 						[{
 							"rename":"DSS proj Stone",

@@ -108,7 +108,7 @@
 		],
 		"remotes": [
 			{"id": "TH_Sanctuary",
-			"decalPath": "planets/assets/voyager dss icon.png",
+			"decalPath": "planets/assets/dss icon.png",
 			"stones": [{"position": {"x": 16.38165, "y": -41.92884, "z": 185.4854},
 			"rotation": {"x": 76.79271, "y": 199.0539, "z": 193.8433},
 			"rename": "Cassava Weapon Stone"

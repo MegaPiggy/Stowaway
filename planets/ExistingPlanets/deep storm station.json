@@ -73,15 +73,6 @@
 			"keepLoaded": true,
 			"isRelativeToParent": true
 		},
-		
-		{
-			"rename":"DSS voyager ghost",
-			"assetBundle": "planets/bundle/stowaway3",
-			"path":"assets/models/Solanum alloyed prefab.prefab",
-			"position": {"x": 8.7384, "y": 6.2023, "z": 0.1748},
-			"rotation":{"x": 49.0473,"y": 180 ,"z": 270},
-			"isRelativeToParent": true
-		},
 
 		{
 			"rename":"b1 scroll stuff",
@@ -832,7 +823,7 @@
 	],
 	"remotes": [
 			{"id":"GD_DeepStormStation",
-			"decalPath": "planets/assets/GD dss icon.png",
+			"decalPath": "planets/assets/dss icon.png",
 			"platform":
 				{
 					"position":{"x":-8.85,"y": 0,"z": -0},

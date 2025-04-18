@@ -40,6 +40,14 @@
 			"rotation": {"x":0,"y": 0,"z": 0},
 			"stretch": {"x":0.4,"y":0.55,"z":0.4},
 			"isRelativeToParent": true
+		},
+		{
+			"rename":"HOB cylinder RuinsMusicVolume",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Volumes_QuantumFragment/Prefab_NOM_RuinsMusicVolume/",
+			"position": {"x":0,"y": 16.2455 ,"z": 0},
+			"rotation": {"x":0,"y": 0,"z": 180},
+			"stretch": {"x":0.6,"y":0.2,"z":0.6},
+			"isRelativeToParent": true
 		}
 
 		
@@ -65,7 +73,7 @@
 	"remotes": [
 		{
 			"id":"HG_OB",
-			"decalPath": "planets/assets/GD dss icon.png",
+			"decalPath": "planets/assets/hob icon.png",
 			"platform":
 			{
 				"position":{"x": 0,"y": 19.9,"z": 0},
