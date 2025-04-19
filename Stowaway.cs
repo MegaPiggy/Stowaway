@@ -211,6 +211,7 @@ public class Stowaway : ModBehaviour
 		var ember = emberAstroObject.GetRootSector();
 		var ash = ashAstroObject.GetRootSector();
 		var tli = ash.gameObject.FindChild("Sector_TimeLoopInterior").GetComponent<Sector>();
+		var hgo = NewHorizonsAPI.GetPlanet("Hourglass Observatory").GetComponent<AstroObject>().GetRootSector();
 		var sector = hgt.GetRootSector();
 		sector.OnDestroy();
 		sector._firstUpdate = true;
@@ -230,6 +231,7 @@ public class Stowaway : ModBehaviour
 			ash.SetParentSector(sector);
 		});
 		tli.SetParentSector(sector);
+		hgo.SetParentSector(sector);
 		var resolutionScale = sector.gameObject.AddComponent<SectorResolutionScale>();
 		resolutionScale._playstation4 = DynamicResolutionManager.TargetResolution._900;
 		resolutionScale._playstation4Pro = DynamicResolutionManager.TargetResolution._900;
@@ -387,6 +389,10 @@ public class Stowaway : ModBehaviour
 		sector.localPosition = pos;
 		rfVolume.localPosition = pos;
 		volumes.localPosition = pos;
+
+		var giantsDeep = Locator.GetAstroObject(AstroObject.Name.GiantsDeep).GetRootSector();
+		var dss = deepStormStation.GetComponent<AstroObject>().GetRootSector();
+		dss.SetParentSector(giantsDeep);
 	}
 
 	private void initInspiredComet(GameObject inspired)
@@ -548,6 +554,9 @@ public class Stowaway : ModBehaviour
 		CreateInvertedOccluder(giantsDeep.GetRootSector().transform, "CloudsInvertedOccluder", 930);
 		CreateInvertedOccluder(giantsDeep.GetRootSector().transform, "OceanInvertedOccluder", 500);
 		initWaterColumn(giantsDeep);
+		var rootSector = giantsDeep.GetRootSector();
+		var inspired = NewHorizonsAPI.GetPlanet("Inspired").GetComponent<AstroObject>().GetRootSector();
+		inspired.SetParentSector(rootSector);
 	}
 
 	private void CreateInvertedOccluder(Transform parent, string name, float radius)
