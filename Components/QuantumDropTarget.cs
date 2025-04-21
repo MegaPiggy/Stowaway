@@ -9,69 +9,81 @@ namespace Stowaway.Components
 {
 	public class QuantumDropTarget : MonoBehaviour, IItemDropTarget
 	{
-		private QuantumObject _quantumObject;
-		private QuantumState[] _states;
-		private Dictionary<OWItem, int> _droppedItems;
-		private QuantumState _state;
-		private int _collapses;
+		public QuantumObject quantumObject;
+		public QuantumState[] states;
+		public Dictionary<OWItem, int> droppedItems;
+		public QuantumState state;
+		public int collapses;
 
 		public void Awake()
 		{
-			_droppedItems = new Dictionary<OWItem, int>();
-			_quantumObject = GetComponent<QuantumObject>();
-			_states = GetComponentsInChildren<QuantumState>();
-			_quantumObject.OnPostCollapse += OnPostCollapse;
+			collapses = 0;
+			droppedItems = new Dictionary<OWItem, int>();
+			quantumObject = GetComponent<QuantumObject>();
+			states = GetStates();
+			state = GetCurrentState();
+			quantumObject.OnPostCollapse += OnPostCollapse;
 		}
 
-		private void OnDestroy()
+		public void OnDestroy()
 		{
-			_quantumObject.OnPostCollapse -= OnPostCollapse;
+			quantumObject.OnPostCollapse -= OnPostCollapse;
 		}
 
-		private void OnPostCollapse(QuantumObject quantumObject, bool collapsed)
+		public void OnPostCollapse(QuantumObject quantumObject, bool collapsed)
 		{
-			_collapses++;
-			_state = GetCurrentState();
-		}
+			collapses++;
+			state = GetCurrentState();
 
-		private QuantumState GetCurrentState()
-		{
-			if (_states == null || _states.Length == 0) return null;
-			return _states.FirstOrDefault(state => state.gameObject.activeSelf);
-		}
+			if (state == null) return;
+			if (droppedItems == null || droppedItems.Count == 0) return;
 
-		public void Update()
-		{
-			if (_droppedItems == null || _droppedItems.Count == 0) return;
-			if (_state == null) return;
-			foreach (var droppedItem in  _droppedItems.Keys)
+			foreach (var droppedItem in droppedItems.Keys)
 			{
-				droppedItem.gameObject.transform.SetParent(_state.transform);
+				if (droppedItem != null)
+					droppedItem.transform.SetParent(state.transform);
 			}
+		}
+
+		public QuantumState GetCurrentState()
+		{
+			if (states == null || states.Length == 0) return null;
+			return states.FirstOrDefault(state => state.gameObject.activeSelf);
+		}
+
+		public QuantumState[] GetStates()
+		{
+			List<QuantumState> stateList = new List<QuantumState>();
+			foreach (Transform child in transform)
+			{
+				if (child.TryGetComponent<QuantumState>(out QuantumState state))
+					stateList.Add(state);
+			}
+			return stateList.ToArray();
 		}
 
 		public void AddDroppedItem(GameObject dropTarget, OWItem item)
 		{
-			if (_droppedItems != null) _droppedItems.SafeAdd(item, _collapses);
+			if (droppedItems != null) droppedItems.SafeAdd(item, collapses);
 			item.onPickedUp += new OWEvent<OWItem>.OWCallback(OnPickedUpDroppedItem);
 		}
 
 		private void OnPickedUpDroppedItem(OWItem item)
 		{
-			if (_droppedItems != null)
+			if (droppedItems != null)
 			{
-				if (_droppedItems.TryGetValue(item, out int collapses) && collapses != _collapses)
+				if (droppedItems.TryGetValue(item, out int itemCollapse) && itemCollapse != collapses)
 				{
 					DialogueConditionManager.SharedInstance.SetConditionState("QuantumSmuggled", conditionState: true);
 				}
-				_droppedItems.Remove(item);
+				droppedItems.Remove(item);
 			}
 			item.onPickedUp -= new OWEvent<OWItem>.OWCallback(OnPickedUpDroppedItem);
 		}
 
 		public Transform GetItemDropTargetTransform(GameObject raycastTarget)
 		{
-			if (_states.Length != 0) return GetCurrentState().transform;
+			if (state != null) return state.transform;
 			return transform;
 		}
 	}

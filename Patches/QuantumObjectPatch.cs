@@ -8,14 +8,17 @@ using System.Threading.Tasks;
 
 namespace Stowaway.Patches
 {
-	[HarmonyPatch(typeof(QuantumObject))]
+	[HarmonyPatch(typeof(VisibilityObject))]
 	public static class QuantumObjectPatch
 	{
 		[HarmonyPostfix]
-		[HarmonyPatch(nameof(QuantumObject.Start))]
-		public static void QuantumObject_Start_Postfix(QuantumObject __instance)
+		[HarmonyPatch(nameof(VisibilityObject.Awake))]
+		public static void VisibilityObject_Awake_Postfix(VisibilityObject __instance)
 		{
-			__instance.gameObject.GetAddComponent<QuantumDropTarget>();
+			if (__instance is QuantumObject)
+			{
+				__instance.gameObject.GetAddComponent<QuantumDropTarget>(); // Add only if there isn't one already
+			}
 		}
 	}
 }
