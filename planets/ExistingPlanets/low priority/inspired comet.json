@@ -167,8 +167,11 @@
 		"enabled": false
 	},
 	"ReferenceFrame": {
-		"hideInMap": true,
-		"enabled": false
+		"enabled": true,
+		"bracketRadius": 200,
+		"maxTargetDistance": 400,
+		"targetColliderRadius": 600,
+		"targetWhenClose": true
 	},
 
 	"Base": {

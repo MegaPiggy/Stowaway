@@ -181,6 +181,8 @@ public class Stowaway : ModBehaviour
 		var rfv = rfVolume.GetComponent<ReferenceFrameVolume>();
 		rfv._minColliderRadius = 32.5f;
 		rfv._maxColliderRadius = 65;
+		rfv._referenceFrame._minSuitTargetDistance = 0;
+		rfv._referenceFrame._maxTargetDistance = 200;
 		rfv._referenceFrame._autopilotArrivalDistance = 0;
 		rfv._referenceFrame._autoAlignmentDistance = 0;
 		rfv._referenceFrame._matchAngularVelocity = false;
@@ -402,6 +404,10 @@ public class Stowaway : ModBehaviour
 		var dss = deepStormStation.GetComponent<AstroObject>().GetRootSector();
 		dss.SetParentSector(giantsDeep);
 
+		var rfv = rfVolume.GetComponent<ReferenceFrameVolume>();
+		rfv._referenceFrame._useCenterOfMass = false;
+		rfv._referenceFrame._localPosition = pos;
+
 		Delay.RunWhen(() => ProxyHandler.GetProxy("Deep Storm Station") != null, () =>
 		{
 			var proxy = ProxyHandler.GetProxy("Deep Storm Station");
@@ -430,6 +436,20 @@ public class Stowaway : ModBehaviour
 		volumes.localEulerAngles = rot;
 		fieldDetector.localEulerAngles = rot;
 		gravityWell.localEulerAngles = rot;
+
+		var rfv = rfVolume.GetComponent<ReferenceFrameVolume>();
+		rfv._minColliderRadius = 200;
+		rfv._maxColliderRadius = 400;
+		rfv._referenceFrame._minSuitTargetDistance = 0;
+		rfv._referenceFrame._maxTargetDistance = 600;
+		rfv._referenceFrame._autopilotArrivalDistance = 0;
+		rfv._referenceFrame._autoAlignmentDistance = 0;
+		rfv._referenceFrame._matchAngularVelocity = false;
+		rfv._referenceFrame._minMatchAngularVelocityDistance = 0;
+		rfv._referenceFrame._maxMatchAngularVelocityDistance = 0;
+		rfv._referenceFrame._bracketsRadius = 200;
+		rfv._referenceFrame._useCenterOfMass = false;
+		rfv._referenceFrame._localPosition = pos;
 
 		Delay.RunWhen(() => ProxyHandler.GetProxy("Inspired") != null, () =>
 		{
