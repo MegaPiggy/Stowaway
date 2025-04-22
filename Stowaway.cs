@@ -189,6 +189,13 @@ public class Stowaway : ModBehaviour
 		rfv._referenceFrame._bracketsRadius = 50;
 		rfv._referenceFrame._useCenterOfMass = false;
 		rfv._referenceFrame._localPosition = centeredPos;
+
+		Delay.RunWhen(() => ProxyHandler.GetProxy("Hourglass Observatory") != null, () =>
+		{
+			var proxy = ProxyHandler.GetProxy("Hourglass Observatory");
+			proxy.root.transform.localPosition = pos;
+			proxy.root.transform.localEulerAngles = rot;
+		});
 	}
 
 	private void initHourglassTwins_Late()
@@ -394,6 +401,12 @@ public class Stowaway : ModBehaviour
 		var giantsDeep = Locator.GetAstroObject(AstroObject.Name.GiantsDeep).GetRootSector();
 		var dss = deepStormStation.GetComponent<AstroObject>().GetRootSector();
 		dss.SetParentSector(giantsDeep);
+
+		Delay.RunWhen(() => ProxyHandler.GetProxy("Deep Storm Station") != null, () =>
+		{
+			var proxy = ProxyHandler.GetProxy("Deep Storm Station");
+			proxy.root.transform.localPosition = pos;
+		});
 	}
 
 	private void initInspiredComet(GameObject inspired)
@@ -417,6 +430,13 @@ public class Stowaway : ModBehaviour
 		volumes.localEulerAngles = rot;
 		fieldDetector.localEulerAngles = rot;
 		gravityWell.localEulerAngles = rot;
+
+		Delay.RunWhen(() => ProxyHandler.GetProxy("Inspired") != null, () =>
+		{
+			var proxy = ProxyHandler.GetProxy("Inspired");
+			proxy.root.transform.localPosition = pos;
+			proxy.root.transform.localEulerAngles = rot;
+		});
 	}
 
 	private void initBrittleHollow_Late()
