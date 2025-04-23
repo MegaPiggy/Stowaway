@@ -17,6 +17,7 @@ using Autodesk.Fbx;
 using Epic.OnlineServices;
 using NewHorizons.Utility.OuterWilds;
 using NewHorizons.Handlers;
+using static SandFunnelTriggerVolume;
 
 namespace Stowaway;
 
@@ -139,7 +140,7 @@ public class Stowaway : ModBehaviour
 		{
 			initDeepStormStation(NewHorizonsAPI.GetPlanet("Deep Storm Station"));
 		}
-		if (body.EndsWith("Island"))
+		if (body.EndsWith("Island") || body == "GabbroShip")
 		{
 			initIsland(SearchUtilities.Find(body + "_Body"));
 		}
@@ -342,9 +343,16 @@ public class Stowaway : ModBehaviour
 		var geoGO = SearchUtilities.Find("SandFunnel_Body/ScaleRoot/Geo_SandFunnel").Instantiate(scaleRoot.transform, "Geo_QuantumMoonWaterColumn");
 		var volumesGO = SearchUtilities.Find("SandFunnel_Body/ScaleRoot/Volumes_SandFunnel").Instantiate(scaleRoot.transform, "Volumes_QuantumMoonWaterColumn");
 
+		var sftv = volumesGO.GetComponentInChildren<SandFunnelTriggerVolume>();
+		sftv._alignmentOverrideVolumes = giantsDeep.GetComponentsInChildren<DirectionalForceVolume>(true);
+		sftv._listObjByExposure = new List<SandFunnelObj>(8);
+		sftv._objectsReadyToTrack = new Queue<GameObject>(8);
+
 		var sfv = volumesGO.GetComponentInChildren<SimpleFluidVolume>();
 		sfv.name = "FluidVolume_QuantumMoonWaterColumn";
 		sfv._fluidType = FluidVolume.Type.WATER;
+		sfv._flowSpeed = info.flowSpeed;
+		sfv._layer = 6;
 
 		var waterMaterials = SearchUtilities.Find("BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Geometry_NorthPole/OtherComponentsGroup/Terrain_NorthPoleSurface/BatchedGroup/BatchedMeshRenderers_5").GetComponent<MeshRenderer>().sharedMaterials.CopyMaterials();
 		foreach (var waterMaterial in waterMaterials)

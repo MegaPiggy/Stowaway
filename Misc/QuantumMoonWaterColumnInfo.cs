@@ -13,6 +13,9 @@ namespace Stowaway
 		[DefaultValue(500)]
 		public float height = 500;
 
+		[DefaultValue(70)]
+		public float flowSpeed = 70;
+
 		public MColor tint;
 
 		[DefaultValue(false)]
