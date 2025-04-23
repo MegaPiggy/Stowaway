@@ -19,7 +19,7 @@
 			"size": 5,
 			"height": 380,
 			"flowSpeed": 225,
-			"debug": true
+			"debug": false
 		}
 	},
 
