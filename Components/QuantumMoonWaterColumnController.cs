@@ -129,7 +129,7 @@ namespace Stowaway.Components
 
 		public bool IsQuantumMoonLockedToOrbit()
 		{
-			return isLocked;
+			return isLocked && !PlayerState.OnQuantumMoon();
 			/*var quantumMoon = Locator.GetQuantumMoon();
 			return quantumMoon != null && orbit._stateIndex == quantumMoon.GetStateIndex();*/
 		}
