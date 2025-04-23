@@ -354,20 +354,22 @@ public class Stowaway : ModBehaviour
 		sfv._flowSpeed = info.flowSpeed;
 		sfv._layer = 6;
 
-		var waterMaterials = SearchUtilities.Find("BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Geometry_NorthPole/OtherComponentsGroup/Terrain_NorthPoleSurface/BatchedGroup/BatchedMeshRenderers_5").GetComponent<MeshRenderer>().sharedMaterials.CopyMaterials();
-		foreach (var waterMaterial in waterMaterials)
+		var waterMaterial = SearchUtilities.Find("BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Geometry_NorthPole/OtherComponentsGroup/Terrain_NorthPoleSurface/BatchedGroup/BatchedMeshRenderers_5").GetComponent<MeshRenderer>().sharedMaterial;
+		if (info.tint != null)
 		{
-			if (info.tint != null)
-			{
-				waterMaterial.SetColor("_FogColor", info.tint.ToColor());
-			}
+			waterMaterial.SetColor("_FogColor", info.tint.ToColor());
 		}
+
+		// Reverse so it goes towards QM
+		waterMaterial.SetVector("_WaveMovement", waterMaterial.GetVector("_WaveMovement").ReverseY());
+		waterMaterial.SetVector("_WaveMovement2", waterMaterial.GetVector("_WaveMovement2").ReverseY());
+		waterMaterial.SetVector("_WaveMovement3", waterMaterial.GetVector("_WaveMovement3").ReverseY());
 
 		// Proxy
 		var proxyExterior = proxyGO.transform.Find("SandColumn_Exterior (1)");
 		proxyExterior.name = "WaterColumn_Exterior_Proxy";
 		var proxyExteriorMR = proxyExterior.GetComponent<MeshRenderer>();
-		proxyExteriorMR.sharedMaterials = waterMaterials;
+		proxyExteriorMR.sharedMaterial = waterMaterial;
 		proxyExteriorMR.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
 
 		// Geometry
@@ -377,13 +379,13 @@ public class Stowaway : ModBehaviour
 		var geoExterior = effects.transform.Find("SandColumn_Exterior");
 		geoExterior.name = "WaterColumn_Exterior";
 		var geoExteriorMR = geoExterior.GetComponent<MeshRenderer>();
-		geoExteriorMR.sharedMaterials = waterMaterials;
+		geoExteriorMR.sharedMaterial = waterMaterial;
 		geoExteriorMR.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
 
 		var geoInterior = effects.transform.Find("SandColumn_Interior");
 		geoInterior.name = "WaterColumn_Interior";
 		var geoInteriorMR = geoInterior.GetComponent<MeshRenderer>();
-		geoInteriorMR.sharedMaterials = waterMaterials;
+		geoInteriorMR.sharedMaterial = waterMaterial;
 		geoInteriorMR.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
 
 		proxyGO.GetComponent<SectorProxy>().SetSector(sector);

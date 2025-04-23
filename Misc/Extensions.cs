@@ -8,6 +8,11 @@ namespace Stowaway
 {
 	public static class Extensions
 	{
+		public static Vector4 ReverseY(this Vector4 v)
+		{
+			return new Vector4(v.x, -v.y, v.z, v.w);
+		}
+
 		/// <summary>
 		/// Returns if a value in the <paramref name="source"/> meets both the <paramref name="condition"/> and <paramref name="secondCondition"/>.
 		/// 
