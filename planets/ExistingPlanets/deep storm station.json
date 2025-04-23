@@ -660,15 +660,7 @@
 				"rotation":{"x":270,"y": 0, "z": 0},
 				"isRelativeToParent": true
 			},
-			{
-				"rename":"dss domediamond",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
-				"position": {"x": 0, "y": -58.2136, "z": 0},
-				"rotation": {"x": 0, "y": 0, "z": 90},
-				"scale":10,
-				"isRelativeToParent": true
-			},
+			
 			{
 				"rename":"DSS hole filler",
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken/Prefab_NOM_RemoteViewer (1)/Structure_NOM_RemoteViewer/",
