@@ -266,6 +266,7 @@
 			<Page>Oh wow! <![CDATA[<i>]]>Wow<![CDATA[</i>]]>! This is the best thing that’s ever happened in the history of Outer Wilds Ventures! I can’t believe you talked to an actual Nomai!</Page>
 			<Page>Great! So I just have to go back into space, fly to the Quantum Moon with zero visibility, find a spooky ruin, and travel through a few different types of dangerous terrain to get there.</Page>
 			<Page>Okay, yeah, that’s... that’s not so bad. <![CDATA[<Pause><size=20>]]>That’s probably doable...<![CDATA[</size>]]></Page>
+			<Page>Stars above, what a miracle, though! I can't believe you met a real Nomai! I wonder if there are any others hidden in the star system. After all, if one survived all this time, who's to say there aren't others?</Page>
 		</Dialogue>
 		<DialogueTarget>Questions</DialogueTarget>
 	</DialogueNode>
@@ -300,7 +301,7 @@
 		<SetCondition>Told_Comet</SetCondition>
 		<Dialogue>
 			<Page>Oh, wow. <![CDATA[<i>]]>Wow.<![CDATA[</i>]]> So that’s how the Nomai died? All.. in an instant?</Page>
-			<Page>To think, there's stuff like that out in space that could just kill everyone without warning.. Even a species as advanced as the Nomai.</Page>
+			<Page>To think, there's stuff like that out in space that could just wipe out everyone, even a species as advanced as the Nomai in an instant.</Page>
 			<Page>I know it was a long time ago, but still.. That’s... really sad, isn’t it?</Page>
 			<Page>Stars above, it’s lucky we weren't around yet when...</Page>
 			<Page>Wait.. No, that's not right! You found a mural of our ancestors in the waterways, right? That means we must have been around at the time that happened to the Nomai!</Page>
@@ -386,7 +387,7 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<RequiredLogCondition>DSS EX5</RequiredLogCondition>
-				<Text>There was a Nomai who survived the arrival of ghost matter, and sacrificed himself to protect us...</Text>
+				<Text>There was a Nomai who survived the arrival of ghost matter.</Text>
 				<DialogueTarget>Riebeck_SW3</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
@@ -407,26 +408,7 @@
 			<Page>But still, in the end, they used the weapon they made in their anger to save us.</Page>
 			<Page>Do you.. know what their name was?</Page>
 		</Dialogue>
-		<DialogueOptionsList>
-			<DialogueOption>
-				<Text>Cassava. His name was Cassava.</Text>
-				<DialogueTarget>Riebeck_TY</DialogueTarget>
-			</DialogueOption>
-      </DialogueOptionsList>
 	</DialogueNode>
-
-<DialogueNode>
-		<Name>Riebeck_TY</Name>
-		<Dialogue>
-				<Page>Cassava... What a lovely name.</Page>
-			<Page>Thank you, Cassava.</Page>
-			<Page>.. Hey, you wanna sit down and pull up a marshmallow stick for a bit?</Page>
-			<Page>You've done enough for a first trip, don't you think?</Page>
-			<Page>Space is scary, but..</Page>
-			<Page>Knowing how much they did for us to let us experience it.. I think the best we can do to honor Cassava, and the Nomai as a whole, is to just try to enjoy every moment of our time existing in this universe.</Page>
-		</Dialogue>
-	</DialogueNode>
-
 
 <DialogueNode>
 		<Name>Riebeck_GJ</Name>

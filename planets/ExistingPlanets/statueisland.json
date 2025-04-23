@@ -884,8 +884,8 @@
 			},
 			{
 				"rename": "scroll boulder collider",
-				"assetBundle": "planets/bundle/dev",
-				"path": "assets/models/devcom/cube.prefab",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
 				"position": {"x": 30.1455, "y": 2.3452 , "z": 8.876},
 				"rotation": {"x": 31.5902, "y": 346.7838, "z": 228.6781},
 				"parentPath": "Sector_StatueIsland/Sculpting Boulders",
@@ -894,8 +894,8 @@
 			},
 			{
 				"rename": "scroll lil collider",
-				"assetBundle": "planets/bundle/dev",
-				"path": "assets/models/devcom/cube.prefab",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
 				"position": {"x": 29.8721, "y": -0.3562, "z": 8.2676},
 				"rotation": {"x": 36.4078, "y": 101.7996, "z": 235.0218},
 				"isRelativeToParent": true,
@@ -932,8 +932,8 @@
 
 			{
 				"rename": "projectionstone boulder collider",
-				"assetBundle": "planets/bundle/dev",
-				"path": "assets/models/devcom/cube.prefab",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
 				"position": {"x": 29.9635, "y": 0.6986, "z": 18.5868},
 				"rotation": {"x": 49.738, "y": 163.404, "z": 95.9996},
 				"isRelativeToParent": true,

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 29081173
+CRC: 3196338688
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ec140e4029e2d17f727c23584e14212c
+    Hash: 9c0b847408cf37384b4e05df6569ac80
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 56acb9f38ad1beb1e75ad67c76b19157
+    Hash: c5d8728239c5b2dfb84e4bcc6a363eb3
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,16 +27,13 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
-- Class: 65
-  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Models/devcom/dev mural orb.prefab
-- Assets/Models/devcom/dev mural jellyfish.prefab
-- Assets/Models/devcom/dev mural moon.prefab
-- Assets/Models/devcom/dev mural workshop.prefab
-- Assets/Models/devcom/dev mural stormshelter.prefab
-- Assets/Models/devcom/Cube.prefab
-- Assets/Models/devcom/dev mural tides.prefab
-- Assets/Models/devcom/dev mural inspired.prefab
+- Assets/Nomai Ruins/Resources/Meshes/devcom/dev mural orb.prefab
+- Assets/Nomai Ruins/Resources/Meshes/devcom/dev mural jellyfish.prefab
+- Assets/Nomai Ruins/Resources/Meshes/devcom/dev mural moon.prefab
+- Assets/Nomai Ruins/Resources/Meshes/devcom/dev mural workshop.prefab
+- Assets/Nomai Ruins/Resources/Meshes/devcom/dev mural stormshelter.prefab
+- Assets/Nomai Ruins/Resources/Meshes/devcom/dev mural tides.prefab
+- Assets/Nomai Ruins/Resources/Meshes/devcom/dev mural inspired.prefab
 Dependencies: []

@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 3388980411
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dc1c0422e8499282f2c919939cf4bf53
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 09b54dec22c14c45e977ba5e687b10de
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Nomai Ruins/Resources/Meshes/devcom/Ernesto.prefab
+- Assets/AnimatorOverrideController/Ernesto.prefab
+Dependencies: []

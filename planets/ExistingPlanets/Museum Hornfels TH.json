@@ -611,8 +611,8 @@
 			},
 			{
 				"rename":"Campsite log seat collider",
-				"assetBundle": "planets/bundle/dev",
-				"path": "assets/models/devcom/cube.prefab",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
 				"position": {"x": -0.4208, "y": 8.7389, "z": 0.0934},
 				"rotation": {"x": 271.3771, "y": 238.5813, "z": 32.3693},
 				"parentPath": "Sector_TH/Campsite log seat",
@@ -890,8 +890,8 @@
 			
 			{
 				"rename":"Museum shard new collider Top",
-				"assetBundle": "planets/bundle/dev",
-					"path": "assets/models/devcom/cube.prefab",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
 					"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
 				"position": {"x": -0.0641, "y": 0.4107, "z": 0.0061},
 				"rotation": {"x": 1.6257, "y": 301.7532, "z": 0.4284},
@@ -900,8 +900,8 @@
 			},
 			{
 				"rename":"Museum shard new collider Longmid",
-				"assetBundle": "planets/bundle/dev",
-					"path": "assets/models/devcom/cube.prefab",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
 					"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
 				"position": {"x": -0.0151, "y": -0.1893, "z": 0.0279},
 				"rotation": {"x": 359.5255, "y": 245.0298, "z": 357.7007},
@@ -910,8 +910,8 @@
 			},
 			{
 				"rename":"Museum shard new collider BASE",
-				"assetBundle": "planets/bundle/dev",
-					"path": "assets/models/devcom/cube.prefab",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
 					"parentPath": "Sector_TH/Museum shard root/Museum shard NEW",
 				"position": {"x": -0.0567, "y": -0.5421 , "z": -0.3031},
 				"rotation": {"x": 359.4102, "y": 15.4367, "z": 358.1976},

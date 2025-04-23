@@ -71,7 +71,6 @@
 		{
 			"rename":"HOB Nomai Statue",
 			"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/StatueHead",
-			"parentPath": "Sector/Nomai Statue 2 Box",
 			"position": {"x": 0.1521, "y": 29.0015, "z": -10.1616},
 			"rotation":{"x": 0,"y": 90,"z": 180},
 			"isRelativeToParent": true

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2507002247
+CRC: 236213159
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6d1aab1d701d066c575a2dcd63ef1c29
+    Hash: 49d567e74d1a2258c5c1a32c653fedc8
   TypeTreeHash:
     serializedVersion: 2
-    Hash: cf1589c35bbc94081b2da318b90cf552
+    Hash: 918a7a0796ea1b7ac034b121e785aebe
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -46,7 +46,7 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 1e9612e1254f312ce165779388d5fd05, type: 3}
+  Script: {fileID: 11500000, guid: b16c2c028878adfb8ab327ff50dec23b, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 80818142ed7b755f9ecef4a391e63964, type: 3}
 - Class: 114
@@ -68,11 +68,15 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 2ca598178f775e7dc1b937bc0b32aae7, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 9944c677956d1b716df5ba9fdbe6fec5, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: ef4a7208df34bcc45029964389471a68, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: c1e03d384261f6f301ef6513a478c3a8, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 8a3f0f389341c132f21af676b0f2d74c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8ea510482944075a62ce706d68a40947, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
 - Class: 114
@@ -90,7 +94,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 562554eab4e78f975d9f792c45544c0b, type: 3}
+  Script: {fileID: 11500000, guid: b242914b51b67b90ce5bbf25ba1f26f2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7232097b8a371eed7515bfff6013ce44, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f57b408b9cc714f54694fac55b612ec8, type: 3}
 - Class: 114
@@ -133,7 +139,6 @@ Assets:
 - Assets/Models/db egg hole.prefab
 - Assets/Models/Materials/comet mural front.prefab
 - Assets/Models/bubbel.prefab
-- Assets/Nomai Ruins/Resources/Meshes/Inspired gravity 3.prefab
 - Assets/Models/Materials/mural side.prefab
 - Assets/Models/JellyfishVessel.prefab
 - Assets/Models/bubbel collider.prefab
@@ -157,6 +162,7 @@ Assets:
 - Assets/Models/rotation guy.prefab
 - Assets/Models/Materials/mural front.prefab
 - Assets/Models/interloper proxy.prefab
+- Assets/Models/Cube.prefab
 - Assets/Models/SphereCollider.prefab
 - Assets/Models/rail collider.prefab
 - Assets/Models/waterfall clear.prefab

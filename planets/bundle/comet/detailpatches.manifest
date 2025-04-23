@@ -1,0 +1,180 @@
+ManifestFileVersion: 0
+CRC: 1621144503
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ce14723a385b8570f8551b86e61669cd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b1c4c89ef90976e0af8e967bcb404a52
+HashAppended: 0
+ClassTypes:
+- Class: 43
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (16) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (37).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (42) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (11).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (1).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (33) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (29).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (47).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (52).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (2).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (35).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (11).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (36) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x3.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x5.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (22).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (14).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (11) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (9).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (40) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (43) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (17).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (13).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (35) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (18) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x10.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (8).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (9) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (46) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (18) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (48) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (31) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (21).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (1).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (14) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x9.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (44) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (23) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (24) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (39) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (29) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (27) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (8).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (19) 3.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (13) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (31).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (39).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (23) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (17).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (37) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (12) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (6).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (26) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (16) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (7).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (19) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (14).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (20) 3.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (15) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (10).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x6.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (10) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (44) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (44).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (19).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (42).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (30).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (34).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (26).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (26) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (7).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (10).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (27) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (9).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x11.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (16).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (22) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (30) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (47) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (25) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (18).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (15) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (56).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (12).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (21).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (23).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (13).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (27).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (19).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (37) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (19) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (21) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (36) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x12.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x4.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (32) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (5).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (30) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (18).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (22) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (50).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter x2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (40) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (41).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x8.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (49) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (28) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (2).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (20).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (41) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (12).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (25) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (43).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (31) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (5).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (4).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (28).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (29) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x7.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (46).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (35) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (24).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (17) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (34) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (15).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (51).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (6).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (15).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2 (3).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (32).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (16).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (45).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (22) 3.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (20) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (48).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (21) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (39) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (49).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (54).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (20) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (50) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (23) 3.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (55).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (41) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (25).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (33).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (40).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (45) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (28) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (43) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (36).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (32) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (3).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (17) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (45) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (33) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (21) 3.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (24) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (4).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (42) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (34) 2.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (46) 1.asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter (38).asset
+- Assets/Models/GHOST CRYSTALS/DetailPatch_Fol_GM_Clutter_x2.asset
+Dependencies: []

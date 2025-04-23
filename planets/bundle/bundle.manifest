@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 1524084658
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ex_dustyb
+      Dependencies: {}
+    Info_1:
+      Name: orb 2
+      Dependencies: {}
+    Info_2:
+      Name: felix
+      Dependencies: {}
+    Info_3:
+      Name: stowaway3
+      Dependencies: {}
+    Info_4:
+      Name: dev
+      Dependencies: {}
+    Info_5:
+      Name: friend
+      Dependencies: {}

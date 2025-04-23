@@ -101,70 +101,30 @@
 			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
 			"isRelativeToParent": true
 		},
+		
 		{
-			"rename":"DSS solarsystemroot",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Sector_Observatory/Interactables_Observatory/HologramProjector/HologramDisplayPoint/Hologram_SolarSystem/SolarSystemRoot/",
-			"position": {"x": -22.5442, "y": -30.8946, "z": -0.0582},
+			"rename":"projection liquid inspired",
+				"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
+			"position": {"x": -20.4974, "y": -30.0519, "z": -0.1364},
 			"rotation":{"x": 0,"y": 90,"z": 180},
 			"parentPath": "Sector/inspired control hatch",
-			"scale":0.1,
-			"isRelativeToParent": true
-		},{
-			"rename":"DSS solarsystemroot INSPIRED",
-			"assetBundle": "planets/bundle/stowaway3",
-			"path":"assets/models/TheInspired gold.prefab",
-			"position": {"x": 0, "y": 0, "z": 0.6509},
-			"rotation":{"x": 45,"y": 0,"z": 90},
-			"parentPath": "Sector/inspired control hatch/DSS solarsystemroot/GiantsDeep/Sphere",
-			"scale":0.001,
+			"stretch": {"x":8,"y":24,"z":8},
 			"isRelativeToParent": true
 		},
 		{
-			"rename":"tree ring",
-			"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/giant tree ring.prefab",
-			"position": {"x": -22.8442, "y": -29.1, "z": -0.2301},
+			"rename":"projection liquid interloper",
+				"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
+			"position": {"x": 20.4974, "y": -30.0519, "z": -0.1364},
 			"rotation":{"x": 0,"y": 90,"z": 180},
 			"parentPath": "Sector/inspired control hatch",
-			"stretch": {"x":1.1,"y":1.2,"z":1.1},
+			"stretch": {"x":8,"y":24,"z":8},
 			"isRelativeToParent": true
-		},{
-			"rename":"projection liquid",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Sector_Observatory/Interactables_Observatory/HologramProjector/HologramPool/",
-			"position": {"x": -22.7264, "y": -30.0309, "z": -0.0948},
-			"rotation":{"x": 0,"y": 90,"z": 180},
-			"parentPath": "Sector/inspired control hatch",
-			"stretch": {"x":4,"y":2,"z":4},
-			"isRelativeToParent": true
-		},{
-			"rename":"shuttle controls",
-				"path":"Comet_Body/Prefab_NOM_Shuttle/Sector_NomaiShuttleInterior/Interactibles_NomaiShuttleInterior/ControlPanel/Props_NOM_Shuttle_ControlPanel/OrbTrack/",
-			"position": {"x": -20.2819, "y": -30.9946, "z": 0},
-			"rotation":{"x": 45,"y": 90,"z": 180},
-			"parentPath": "Sector/inspired control hatch",
-			"scale":0.5,
-			"isRelativeToParent": true
-		},{
+		},
+		{
 			"rename":"Cassava",
 			"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_SimpleChair/Props_NOM_SkeletonSeated/Props_NOM_Skeleton_Seated_B_Wall",
-			"position": {"x": -19.5446, "y": -29.4, "z": 0.9144},
+			"position": {"x": -14.9555, "y": -29.3782, "z": -0.4547},
 			"rotation":{"x": 18.5055,"y": 89.139,"z": 180},
-			"parentPath": "Sector/inspired control hatch",
-			"isRelativeToParent": true
-		},{
-			"rename":"solarsystem diamond 1",
-			"assetBundle": "planets/bundle/prefabs",
-			"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
-			"position": {"x": -20.0935, "y": -30.4, "z": 0},
-			"rotation": {"x": 0,"y": 180,"z": 180},
-			"parentPath": "Sector/inspired control hatch",
-			"isRelativeToParent": true
-		},{
-			"rename":"solarsystem diamond 2",
-			"assetBundle": "planets/bundle/prefabs",
-			"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
-			"position": {"x": -20.8062, "y": -30.4, "z": 0},
-			"rotation": {"x": 0,"y": 0,"z": 180},
 			"parentPath": "Sector/inspired control hatch",
 			"isRelativeToParent": true
 		},
@@ -254,31 +214,6 @@
 				"parentPath": "Sector/domescr props",
 			"isRelativeToParent": true
 		},{
-			"rename":"domescr box",
-			"assetBundle": "planets/bundle/prefabs",
-			"path":"assets/nomai ruins/prefabs/container.prefab",
-			"position": {"x": -1.8452, "y": -30.4483, "z": 21.2566},
-				"rotation": {"x": 0, "y": 88.9296, "z": 270},
-				"parentPath": "Sector/domescr props",
-			"isRelativeToParent": true
-		},{
-			"rename":"domescr boxpool",
-			"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
-			"position": {"x": -1.8129, "y": -29.9891, "z": 19.2016},
-				"rotation": {"x": 0, "y": 132.2837, "z": 180},
-				"scale":3,
-				"parentPath": "Sector/domescr props",
-			"isRelativeToParent": true
-		},{
-			"rename":"domescr boxpool comet",
-			"assetBundle": "planets/bundle/stowaway3",
-			"path": "assets/models/interloper proxy.prefab",
-			"position": {"x": -1.7129, "y": -30.2146, "z": 18.9016},
-				"rotation": {"x": 347.4572, "y": 132.2837, "z": 180},
-				"scale":0.005,
-				"parentPath": "Sector/domescr props",
-			"isRelativeToParent": true
-		},{
 			"rename":"domescr holoseat 1",
 			"assetBundle": "planets/bundle/prefabs",
 			"path":"assets/nomai ruins/prefabs/holo seat.prefab",
@@ -338,14 +273,6 @@
 			"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
 			"position": {"x": 1.0569,"y": -30,"z": -6.8849},
 			"rotation": {"x": 0,"y": 174.5706,"z": 180},
-			"parentPath": "Sector/domeproj props",
-			"isRelativeToParent": true
-		},{
-			"rename":"block the skeleton planty",
-			"assetBundle": "planets/bundle/prefabs",
-			"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
-			"position": {"x": -11.6326,"y": -30,"z": 0},
-			"rotation": {"x": 0,"y": 270,"z": 180},
 			"parentPath": "Sector/domeproj props",
 			"isRelativeToParent": true
 		},
@@ -461,11 +388,29 @@
 			"isRelativeToParent": true
 		},
 		{
-			"rename":"ghost gm wisps",
+			"rename":"ghost gm wisps front",
 			"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
-			"position":{"x": 9.484,"y": 8.2023,"z": 0.1},
+			"position":{"x": 9.484,"y": 11.7569,"z": 0.1},
 			"rotation":{"x": 90, "y": 270,"z": 0},
-			"stretch": {"x":1,"y":1.5,"z":1},
+			"stretch": {"x": 3.6582,"y":1.5,"z":1.7218},
+			"parentPath": "Sector/DSS GM",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"ghost gm wisps left",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+			"position":{"x": 8.7384,"y": -1.7729,"z": 11.275},
+			"rotation":{"x": 0, "y": 180,"z": 270},
+			"stretch": {"x": 2.7509,"y": 1,"z": 1},
+			"parentPath": "Sector/DSS GM",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"ghost gm wisps right",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
+			"position":{"x": 8.3765,"y": -1.9663,"z": -10.6639},
+			"rotation":{"x": 0, "y": 180,"z": 270},
+			"stretch": {"x": 2.7509,"y": 1,"z": 1},
 			"parentPath": "Sector/DSS GM",
 			"isRelativeToParent": true
 		},
