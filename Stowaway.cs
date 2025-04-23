@@ -541,9 +541,9 @@ public class Stowaway : ModBehaviour
 		{
 			campfire.gameObject.GetAddComponent<TornadoIslandCampfireDetector>();
 		}
+		var collider = body.GetComponentInChildren<ForceApplier>(true).GetComponent<Collider>();
 		if (body.FindChild("RepellentVolume") == null)
 		{
-			var collider = body.GetComponentInChildren<ForceApplier>(true).GetComponent<Collider>();
 			var localPos = collider.transform.localPosition;
 			var localEuler = collider.transform.localEulerAngles;
 			var repellent = new GameObject("RepellentVolume");
@@ -567,9 +567,60 @@ public class Stowaway : ModBehaviour
 				capsule.center = cCollider.center;
 				capsule.isTrigger = true;
 			}
+			else if (collider is BoxCollider bCollider)
+			{
+				var box = repellent.AddComponent<BoxCollider>();
+				box.size = bCollider.size * sizeMultiplier;
+				box.center = bCollider.center;
+				box.isTrigger = true;
+			}
 			repellent.AddComponent<OWTriggerVolume>();
 			repellent.AddComponent<OtherIslandRepelFluidVolume>();
 			repellent.AddComponent<DebugVolume>();
+		}
+		if (collider.GetComponent<Shape>() == null)
+		{
+			if (collider is SphereCollider sCollider)
+			{
+				var sphereShape = collider.gameObject.AddComponent<SphereShape>();
+				sphereShape._collisionMode = Shape.CollisionMode.Detector;
+				sphereShape._layer = Shape.Layer.Default;
+				sphereShape._layerMask = 5;
+				sphereShape.center = sCollider.center;
+				sphereShape.radius = sCollider.radius;
+				foreach (var detector in collider.GetComponents<Detector>())
+				{
+					detector._shape = sphereShape;
+				}
+			}
+			else if (collider is CapsuleCollider cCollider)
+			{
+				var capsuleShape = collider.gameObject.AddComponent<CapsuleShape>();
+				capsuleShape._collisionMode = Shape.CollisionMode.Detector;
+				capsuleShape._layer = Shape.Layer.Default;
+				capsuleShape._layerMask = 5;
+				capsuleShape.center = cCollider.center;
+				capsuleShape.direction = cCollider.direction;
+				capsuleShape.height = cCollider.height;
+				capsuleShape.radius = cCollider.radius;
+				foreach (var detector in collider.GetComponents<Detector>())
+				{
+					detector._shape = capsuleShape;
+				}
+			}
+			else if (collider is BoxCollider bCollider)
+			{
+				var boxShape = collider.gameObject.AddComponent<BoxShape>();
+				boxShape._collisionMode = Shape.CollisionMode.Detector;
+				boxShape._layer = Shape.Layer.Default;
+				boxShape._layerMask = 5;
+				boxShape.center = bCollider.center;
+				boxShape.size = bCollider.size;
+				foreach (var detector in collider.GetComponents<Detector>())
+				{
+					detector._shape = boxShape;
+				}
+			}
 		}
 		foreach (var door in body.GetComponentsInChildren<NomaiMultiPartDoor>(true))
 		{
