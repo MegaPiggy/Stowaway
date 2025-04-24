@@ -73,37 +73,7 @@
 		],
 		"details":
 		[
-			{
-						"rename":"Yard Mural shelf",
-						"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)/",
-						"position":{"x": -20.3764,"y": 25.6698,"z": -16.3396},
-						"rotation": {"x": 49.2575,"y": 264.5154,"z": 177.752},
-						"isRelativeToParent": true
-			},
-			{
-				"rename":"Yard Mural board",
-				"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/OrbitalControl/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared/",
-				"position":{"x": -20.6171,"y": 25.2882,"z": -20.2421},
-				"rotation": {"x": 48.8532,"y": 269.9724,"z": 182.8432},
-				"isRelativeToParent": true,
-				"removeChildren": ["whiteboard_brokenTiles"]
-				},
-				{
-					"rename":"mural torch 1",
-					"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Lighting_ConstructionYard/OtherComponentsGroup/Prefab_NOM_WallTorch",
-					"position":{"x": 2.7042,"y": 3.4063,"z": 0.0349},
-					"rotation": {"x": 359.9615,"y": 5.2701,"z": 0.4166},
-					"isRelativeToParent": true,
-					"parentPath": "Sector_ConstructionYard/Yard Mural board"
-					},
-					{
-						"rename":"mural torch 2",
-						"path":"ConstructionYardIsland_Body/Sector_ConstructionYard/Lighting_ConstructionYard/OtherComponentsGroup/Prefab_NOM_WallTorch",
-						"position":{"x": -2.5072,"y": 3.3683,"z": 0.3623},
-						"rotation": {"x": 359.9643,"y": 4.8841,"z": 0.4168},
-						"isRelativeToParent": true,
-						"parentPath": "Sector_ConstructionYard/Yard Mural board"
-					},
+			
 			{
 				"rename":"Bay recorder statuebox",
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
@@ -232,33 +202,6 @@
 		},
 		
 		
-			{
-				"rename": "Weapon mural side",
-				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/comet mural side v4.prefab",
-				"parentPath": "Sector_ConstructionYard/Yard Mural board",
-				"position": {"x":1.2619,"y": 1.6509, "z": 0.0218},
-				"rotation": {"x":90,"y":0, "z": 0},
-				"scale": 0.25,
-				"isRelativeToParent": true
-			},
-			{
-				"rename": "Weapon mural front",
-				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/comet mural front v4.prefab",
-				"parentPath": "Sector_ConstructionYard/Yard Mural board",
-				"position": {"x":-1.16,"y": 1.6509, "z": 0.0218},
-				"rotation": {"x":90,"y":0, "z": 0},
-				"scale": 0.25,
-				"isRelativeToParent": true
-			},
-		{
-			"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/Prefab_NOM_Computer/PointLight_NOM_Computer",
-			"parentPath": "Sector_ConstructionYard/Yard Mural board",
-				"position": {"x":0.0837,"y": 1.6509, "z": 1.3527},
-			"isRelativeToParent": true
-		},
-
 		{
 			"rename":"ConstructYard Solar Panels",
 			"assetBundle": "planets/bundle/prefabs",
@@ -574,15 +517,6 @@
 				"rotation": {"x": 1.2598, "y": 264.6384,"z": 352.7045},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cassava gm water new.xml",
 				"seed":8
-			},
-			{
-				"rename": "Inspired schematic scroll",
-				"type": "scroll",
-				"position": {"x": -19.1974, "y": 24.1884, "z": -16.5176},
-				"rotation": {"x": 43.0334, "y": 256.9752,"z": 177.6021},
-				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/weapon schematic.xml",
-				"isRelativeToParent": true,
-				"seed":2
 			}
 			
 		],

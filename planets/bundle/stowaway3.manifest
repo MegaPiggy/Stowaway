@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3807233840
+CRC: 2320135254
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1ccfb5ac0984a0a200653e9c2629f7f6
+    Hash: b1052b1b9cb93a3dd5a98fa8e0b83e29
   TypeTreeHash:
     serializedVersion: 2
     Hash: 918a7a0796ea1b7ac034b121e785aebe
@@ -144,7 +144,7 @@ Assets:
 - Assets/Models/bubbel collider.prefab
 - Assets/Models/Tractor beam SW 1.prefab
 - Assets/Models/ASH TWIN BEAM south.prefab
-- Assets/Models/comet mural front v4.prefab
+- Assets/Models/Materials/comet mural front v4.prefab
 - Assets/Models/water plane.prefab
 - Assets/Models/TheInspired.prefab
 - Assets/Models/TheInspired (1).prefab
@@ -154,7 +154,7 @@ Assets:
 - Assets/Models/JellyfishV proxy.prefab
 - Assets/Nomai Ruins/HourglassOb final.prefab
 - Assets/Models/et portrait.prefab
-- Assets/Models/comet map.prefab
+- Assets/Models/Materials/comet map.prefab
 - Assets/Models/stateeye crust.prefab
 - Assets/Models/TheInspired gold.prefab
 - Assets/Models/ASH TWIN BEAM north.prefab
@@ -166,7 +166,7 @@ Assets:
 - Assets/Models/SphereCollider.prefab
 - Assets/Models/rail collider.prefab
 - Assets/Models/waterfall clear.prefab
-- Assets/Models/comet mural side v4.prefab
+- Assets/Models/Materials/comet mural side v4.prefab
 - Assets/Models/lava bell.prefab
 - Assets/Nomai Ruins/HourglassOb proxy.prefab
 Dependencies: []
