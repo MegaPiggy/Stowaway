@@ -354,7 +354,7 @@ public class Stowaway : ModBehaviour
 		sfv._flowSpeed = info.flowSpeed;
 		sfv._layer = 6;
 
-		var waterMaterial = SearchUtilities.Find("BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Geometry_NorthPole/OtherComponentsGroup/Terrain_NorthPoleSurface/BatchedGroup/BatchedMeshRenderers_5").GetComponent<MeshRenderer>().sharedMaterial;
+		var waterMaterial = new Material(SearchUtilities.Find("BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Geometry_NorthPole/OtherComponentsGroup/Terrain_NorthPoleSurface/BatchedGroup/BatchedMeshRenderers_5").GetComponent<MeshRenderer>().sharedMaterial);
 		if (info.tint != null)
 		{
 			waterMaterial.SetColor("_FogColor", info.tint.ToColor());
