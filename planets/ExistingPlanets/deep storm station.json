@@ -630,19 +630,7 @@
 			"parentPath": "Sector/Nomai Statue 2 Box",
 			"isRelativeToParent": true
 		},
-			{
-				"rename":"DSS fill light",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom4/Lighting_PuzzleRoom4/OtherComponentsGroup/PuzzleRoom_4/Alcove/FillLight_NOM_Alcove/",
-				"position":{"x":0,"y": 0,"z": 0},
-				"rotation":{"x":270,"y": 0, "z": 0},
-				"isRelativeToParent": true
-			},{
-				"rename":"DSS fill light 2",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_InterRoom/",
-				"position":{"x":0,"y": 0,"z": 0},
-				"rotation":{"x":270,"y": 0, "z": 0},
-				"isRelativeToParent": true
-			},
+		
 			
 			{
 				"rename":"DSS hole filler",
