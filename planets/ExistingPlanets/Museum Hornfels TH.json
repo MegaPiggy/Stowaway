@@ -380,14 +380,6 @@
 
 
 			{
-				"rename":"aquifer toy",
-				"path":"ModelRocket_Body/Geo_ModelRocket/",
-				"position":{"x": -49.2152,"y": -29.6427,"z": 175.4916},
-				"rotation":{"x": 357.5106,"y": 55.4858,"z": 136.4344},
-				"scale": 0.6,
-				"isRelativeToParent": true
-			},
-			{
 				"rename":"aquifer block",
 				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/SurfaceGeyser_Small/QuantumGeyser_Small/Terrain_TH_SurfaceGeyser_Small/",
 				"position":{"x": -49.293,"y": -28.8561,"z": 171.9253},

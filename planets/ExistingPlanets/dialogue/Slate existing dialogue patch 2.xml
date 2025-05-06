@@ -7,13 +7,15 @@
 		<Name>Scientist1B</Name>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Hey Slate, is there some space program tradition we forgot about?</Text>
+				<CancelledCondition>I_Quit</CancelledCondition>
+				<Text>Are there any fun space program traditions I should do before I go?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredCondition>Slate_Talked</RequiredCondition>
-				<Text>Where are the hatchlings again?</Text>
-				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
+				<RequiredCondition>I_Quit</RequiredCondition>
+				<CancelledCondition>I_Join</CancelledCondition>
+				<Text>Hey, about the space program's tradition...</Text>
+				<DialogueTarget>Slate_Tradition_Menu</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
@@ -23,13 +25,15 @@
 		<Name>Scientist2</Name>
 		<DialogueOptionsList>
 			<DialogueOption>
-				<Text>Hey Slate, is there some space program tradition we forgot about?</Text>
+				<CancelledCondition>I_Quit</CancelledCondition>
+				<Text>Are there any fun space program traditions I should do before I go?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredCondition>Slate_Talked</RequiredCondition>
-				<Text>Where are the hatchlings again?</Text>
-				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
+				<RequiredCondition>I_Quit</RequiredCondition>
+				<CancelledCondition>I_Join</CancelledCondition>
+				<Text>Hey, about the space program's tradition...</Text>
+				<DialogueTarget>Slate_Tradition_Menu</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
@@ -66,25 +70,32 @@
 <DialogueOptionsList>
 
 			<DialogueOption>
-				<Text>Hey Slate, is there some space program tradition we forgot about?</Text>
+				<CancelledCondition>I_Quit</CancelledCondition>
+				<Text>Are there any fun space program traditions I should do before I go?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredCondition>Slate_Talked</RequiredCondition>
-				<Text>Where are the hatchlings again?</Text>
-				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
+				<RequiredCondition>I_Quit</RequiredCondition>
+				<CancelledCondition>I_Join</CancelledCondition>
+				<Text>Hey, about the space program's tradition...</Text>
+				<DialogueTarget>Slate_Tradition_Menu</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
 		<DialogueNode>
+		<SetCondition>I_Quit</SetCondition>
 		<Name>ScientistAnswer_Mysteries1</Name>
 		<Dialogue>
-			<Page>Oh, shoot. Yeah, there's one last one we forgot!</Page>
-			<Page>You mind goin' round the village and asking all the little hatchlings if they got any questions about the universe?</Page>
-			<Page>It's a tradition Feldspar started, just fielding some questions about what's out there from the lil' gills of the village.</Page>
-			<Page>Doesn't matter what the questions are, just hear them out. It's just a bonus if you can answer them and make yourself look smarter.</Page>
-			<Page>It's just a good look for the space program too, nurturing the next generation and all that stuff. One of those squirts might be curious enough about space to join the space program someday too, after all!</Page>
+			<Page>Oh, shoot, the tradition! I totally forgot about that. Thanks for reminding me!</Page>
+			<Page>Here, hand over your ship keys.</Page>
+			<Page><![CDATA[<i>]]>Relax,<![CDATA[</i>]]> I'll give 'em back once you're done. Just making sure you don't take off before you finish this.</Page>
+			<Page>Now, you remember how the other astronauts went around the village on their launch days, asking each of the hatchlings what questions you had about the universe, right? <![CDATA[<Pause=2>]]> ..You don't? Typical.</Page>
+			<Page>Feldspar was the one who started it on a whim, fielding questions about space from the village's young-uns.. But ever since, we've kept it up for every new cadet in the space program.</Page>
+			<Page>It's just a good look for the space program, nurturing the next generation's curiosity and all - but you don't have to think about it like that. Just think of it as a fun quiz about much you know about the star system!</Page>
+			<Page>Look, it's simple. Just make your way around the village, and try answering any questions the kids have about the universe.</Page>
+			<Page>Doesn't matter what the questions are, just hear 'em out and try your best to answer 'em. The more they know about the universe, the less scary it'll be to them, right?</Page>
+			<Page>Talk to me again once you've answered at least one of their questions, and I'll give your ship keys back! You're free to take off after that.</Page>
 		</Dialogue>
 <DialogueOptionsList>
 			<DialogueOption>
@@ -105,17 +116,59 @@
     					  </RevealFacts>
 	</DialogueNode>
 
+<DialogueNode>
+		<Name>Slate_Tradition_Menu</Name>
+		<Dialogue>
+			<Page>Yeah? Can't be that hard answering some kids' questions, can it?</Page>
+		</Dialogue>
+<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Where are the hatchlings again?</Text>
+				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
+				</DialogueOption>
+			<DialogueOption>
+				<RequiredCondition>Question_Answered</RequiredCondition>
+				<Text>I answered a hatchling's question!</Text>
+				<DialogueTarget>ScientistTradition_1</DialogueTarget>
+			</DialogueOption>	
+			<DialogueOption>
+				<CancelledCondition>Question_Answered</CancelledCondition>
+				<Text>I totally answered one of their questions already. Can I take off yet?</Text>
+				<DialogueTarget>ScientistTradition_2</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
 
 	<!-- ################################################## -->
 	<!-- ###################VISUAL BREAK################### -->
 	<!-- ################################################## -->
+
+
+<DialogueNode>
+		<Name>ScientistTradition_1</Name>
+		<SetCondition>I_Join</SetCondition>
+		<Dialogue>
+			<Page>Alright! That was fun, wasn't it?</Page>
+			<Page>Thank you for your service to the space program. Here's your ship keys back.</Page>
+			<Page>Now go on, take that ship and get outta here!</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ScientistTradition_2</Name>
+		<Dialogue>
+			<Page>Uh...huh. Might wanna work on your lying skills a bit. Get back to it, slacker.</Page>
+			<Page>Come on, it can't be that hard to answer some kids' questions! Just one of them, any of them, and I'll give your ship keys.</Page>
+			<Page>Trust me, I don't want to keep you grounded here and not flying the ship I put so much elbow grease into any longer than I have to.</Page>
+		</Dialogue>
+	</DialogueNode>
 
 <DialogueNode>
 		<Name>ScientistAnswer_Mysteries0</Name>
 		<Dialogue>
 			<Page>Cool, cool.</Page>
 			<Page>Just remember, there's five of those little squirts: Mica, Tephra, Galena, Arkose, and Moraine.</Page>
-			<Page>Feel free to take off whenever once you've talked to all of 'em.</Page>
+			<Page>Come back and talk to me again when you've answered at least one of their questions, and I'll give ya back your ship keys to take off!</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -124,12 +177,12 @@
 		<Dialogue>
 			<Page>Uh, I dunno? Pretty sure they're somewhere around the village.</Page>
 			<Page>Mica's probably still fiddling with the model rocket, just up the hill.</Page>
-			<Page>Tephra and Galena are probably playing in the village somewhere.</Page>
-			<Page>I saw those two trekking outside the village recently for whatever reason though, so don't take my word on that.</Page>
+			<Page>Tephra and Galena are probably playing in the village. Saw those two trekking outside the village recently for whatever reason though, so don't take my word on that.</Page>
 			<Page>Arkose's probably still throwing rocks into the patch of ghost matter at the top of the village. Still uh.. no idea why they do that all day.</Page>
 			<Page>And Moraine's probably stargazing on that big tree in the village, making sure Marl doesn't chop it down.</Page>
 			<Page>I wonder if that Marl'll ever let go of that grudge.. No good comes outta holding a grudge against a tree, y'know?</Page>
 			<Page>Just get a move on - you'll probably see all five squirts on the way up to the observatory for the launch codes anyways.</Page>
+			<Page>Oh, and remember to come back and talk to me again when you've answered at least one of their questions! Can't take off without your ship keys otherwise.</Page>
 		</Dialogue>
 	</DialogueNode>
 

@@ -1,0 +1,115 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		YARROW: Friends from <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> we welcome you to the <![CDATA[<color=orange>Hourglass Observatory!</color>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		YARROW: If you are visiting today to learn about the cause of the sand transfer between the <![CDATA[<color=lightblue>Hourglass Twins,</color>]]> we invite you to look through the observation deck above.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		YARROW: As the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> orbit around each other, they become aligned along a straight line with the sun at regular intervals, casting a sunless day on the twin farther from the sun.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		YARROW: The twin farther from the sun feels not only gravity from the other twin - but also gravity from the sun, pulling it in the same direction.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		YARROW: It is this combined gravitational force that causes sand to be pulled towards the other twin at the alignment point, creating the striking funnel of sand between the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		YARROW: This force wanes as the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> orbit out of alignment. It is only when they complete a full revolution around their barycenter that the flow of sand begins once more, flowing back towards the other twin.
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		CLARY: You have our deepest gratitude for your enlightening explanation of this phenomenon, Yarrow. I feel much more at ease, knowing the <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> sand transfer only occurs during such a precise alignment!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		YARROW: Orbiting around each other like moons, the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> feel a constant pull of gravity from each other. However, this force alone is not strong enough to cause sand transfer.
+		</Text>
+	</TextBlock>
+	
+<ShipLogConditions>
+
+		<RevealFact>
+			<FactID>SS Tower R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>SS Tower EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+
+
+		<RevealFact>
+			<FactID>SS Tower EX2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+
+	<RevealFact>
+			<FactID>SS Tower EX2.5</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+
+			<RevealFact>
+			<FactID>SS Tower EX3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+
+			<RevealFact>
+			<FactID>SS Tower EX4</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+
+			<RevealFact>
+			<FactID>SS Tower EX5</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

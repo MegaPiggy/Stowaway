@@ -33,7 +33,7 @@
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/gm sphere.prefab",
 				"parentPath": "Sector_SUN/Volumes_SUN/SupernovaVolume",
-				"scale":1.3
+				"scale":1.2
 			}
 			
 		]
@@ -63,14 +63,14 @@
 			{
 				"rename": "gm volume normal",
 				"type": "ghostMatter",
-				"radius": 2200,
+				"radius": 2140,
 				"damagePerSecond": 10,
 				"parentPath": "Sector_SUN/Volumes_SUN/ScaledVolumesRoot/DestructionFluidVolume/"
 			},
 			{
 				"rename": "gm volume supernova",
 				"type": "ghostMatter",
-				"radius": 1.6,
+				"radius": 1.5,
 				"damagePerSecond": 10,
 				"parentPath": "Sector_SUN/Volumes_SUN/SupernovaVolume"
 			}

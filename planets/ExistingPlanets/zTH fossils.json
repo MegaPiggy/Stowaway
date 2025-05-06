@@ -58,9 +58,9 @@
 				"assetBundle": "planets/bundle/eye stuff",
 				"path":"assets/models/stowaways eye/Hearthian Fossil.prefab",
 				"rotation": {
-					"x": 36.5316 ,
-					"y": 82.2272,
-					"z": 101.2585
+					"x": -49.2152,
+					"y": -29.4427,
+					"z": 175.4916
 				},
 				"position": {
 					"x": -45.1868,

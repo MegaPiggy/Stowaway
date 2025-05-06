@@ -116,7 +116,7 @@
 		<Dialogue>
 			<Page>W-wha? You don't know about it? The purple rock in the museum that disappears when you look away!</Page>
 			<Page>And I don't mean when it jumps behind you and scares you.. <![CDATA[<Pause=1>]]> I mean <![CDATA[<i>when it disappears completely</i>]]> from the museum!</Page>
-			<Page>Galena and I wanna find where the purple rock is hiding.. We have some ideas, but we need your help to look in these places, astronaut! Could you help us?</Page>
+			<Page>We wanna find out where the purple rock is hiding, but we need your help to look, astronaut. Could you help us?</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -138,11 +138,10 @@
 		<Name>Teph SW_3</Name>
 			<Dialogue>
 					<Page>Yay!!</Page>
-					<Page>Okay, listen up! If you follow the river down the village, you'll find a waterwheel that splishes water really loudly. Behind that waterwheel, there's a drain that the river flows into.</Page>
-					<Page>We think the purple rock might be hiding in there, but it's so cramped we couldn't crawl into the drain to look if it's in there.</Page>
-					<Page>I think you could get a look in there if you used the Little Scout, astronaut! Did you know the Little Scout's camera can look around after you launch it onto somewhere?</Page>
-					<Page>If you shoot your Little Scout into the drain, I bet you could use that rotating camera to look if the purple rock is hiding in there.</Page>
-					<Page>Come back and tell me what you find in there, okay, astronaut? We have another place for you to check if the purple rock isn't there!</Page>
+					<Page>Okay, listen up! There's a waterwheel at the end of this river going down the village. Behind that waterwheel, there's a drain that the river flows into.</Page>
+					<Page>We think the purple rock might be hiding in the drain.. But it's so cramped, we can't crawl into the drain to look if it's in there.</Page>
+					<Page>Did you know the Little Scout's camera can look around after you launch it onto somewhere? If you use the Little Scout's rotating camera, I bet you could look inside the drain to see if the purple rock's hiding in there, astronaut! </Page>
+					<Page>Come back and tell me if you find anything in there, okay, astronaut?</Page>
 		</Dialogue>
 						 <RevealFacts>
      						   <FactID>TEPH EX2</FactID>
@@ -173,11 +172,11 @@
 		<Name>Teph SW_5</Name>
 			<Dialogue>
 					<Page>Yess! Thanks for helping us look again, astronaut!</Page>
-					<Page>Okay, um - the other place we'd like you to look is the massive cave system inside the geysers.</Page>
-					<Page>We need you to look in there for us, because there's a ton of water down there, and we can't hold our breaths long enough to explore it.</Page>
-					<Page>The astronaut's suit should let you breathe underwater.. But Riebeck told me that Hearthians used to be able to breathe underwater a long time ago too, like the little fishies do.</Page>
-					<Page>Riebeck said that back then, we lived in these underwater caves inside the geysers - and that we probably learned to live on land, because we would die being shot out of water by the geysers otherwise!</Page>
-					<Page>Since these caves were only discovered recently, nobody's properly explored them yet.. Riebeck wouldn't do it because they're too scared, and all the other astronauts are busy.</Page>
+					<Page>Okay, so about the other place we'd like you to look.. It's the massive cave system inside the geysers.</Page>
+					<Page>We need you to look in there for us because there's tons of water down there.</Page>
+					<Page>The astronaut's suit should let you breathe underwater, right? Riebeck told me that Hearthians used to be able to breathe underwater a loooong time ago, too, like little fishies do, but we can't anymore.. It sucks.</Page>
+					<Page>Riebeck said that back then, Hearthians lived in these underwater caves inside the geysers. I bet we learned to live on land so we wouldn't die being shot out of water by geysers!</Page>
+					<Page>Since we only found these caves recently, nobody's properly explored them yet.. Riebeck wouldn't do it because they're too scared, and all the other astronauts were busy.</Page>
 					<Page>I'd hate to get your suit wet, but a suit's the only way to explore the geyser caves safely. So.. <![CDATA[<Pause=1>]]> Could you jump into a geyser to help us look for the purple rock, astronaut?</Page>
 		</Dialogue>
 			<DialogueOptionsList>

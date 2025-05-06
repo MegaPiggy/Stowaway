@@ -113,10 +113,10 @@
 				"rotation": {"x": 286.2347, "y": 349.3389, "z": 195.0047},
 				"nomaiText": [
 					{
-						"id":"TH_Sanctuary",
+						"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/hourglass observatory/hob atp.xml",
+						"id": "TH_Sanctuary",
 						"location": "b",
-						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml",
-					"seed":1
+						"seed": 4
 					}
 					]
 				

@@ -54,8 +54,8 @@
 <DialogueNode>
 		<Name>ShyKidNew1</Name>
 		<Dialogue>
-			<Page><![CDATA[<size=20>]]>Um...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Is it true that there are big scary monsters on Giant's Deep?<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Oh, um...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Why does the glowy moon go away sometimes..?<![CDATA[</size>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>
@@ -75,7 +75,7 @@
 		<Name>ShyKidNew2</Name>
 		<Dialogue>
 		<Page><![CDATA[<size=20>]]>Oh.. But...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>The monsters that Feldspar told me about were on Giant's Deep's surface...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Riebeck told me that when the glowy moon goes away, it's dangerous to be on Brittle Hollow...<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>If the jellyfish live underwater... What are the monsters on the surface..?<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>Giant's Deep is scary...<![CDATA[</size>]]></Page>
 		</Dialogue>	

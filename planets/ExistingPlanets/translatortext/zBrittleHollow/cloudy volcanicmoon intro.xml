@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		YARROW: Kousa, do my eyes deceive me? I have observed <![CDATA[<i>two</i>]]> <![CDATA[<color=lightblue>Quantum Moons</color>]]> in orbit around <![CDATA[<color=lightblue>Brittle Hollow</color>]]> today! Please, corroborate my ocular functions!
+		KOUSA: Friends from <![CDATA[<color=lightblue>Ember Twin:</color>]]> should you ever wish to explore the surface of <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> we recommend ensuring that the volcanic moon is cloudless before doing so.
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		KOUSA: Have no fear, Yarrow. I am sure what you observed was only <![CDATA[<color=lightblue>Hollow's Lantern,</color>]]> clouded over by volcanic ash!
+		KOUSA: As volcanic activity increases, the volcanic moon begins to spew thick amounts of smoke, shrouding the moon almost completely from outside view. This signifies that a meteor storm is imminent!
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		YARROW: Oh? I did not know <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> clouded over from time to time. Oh... But what terrible luck!
+		KOUSA: Should you see that the volcanic moon has clouded over, we recommend seeking out shelter to wait out the meteor storm underground, as they do not typically last beyond a few minutes.
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		KOUSA: Why does this news bring you distress, my friend?
+		KOUSA: However, should you wish to journey to the <![CDATA[<color=orange>Quantum Weather Lab,</color>]]> you will need to visit the volcanic moon while it is clouded over!
 		</Text>
 	</TextBlock>
 
@@ -41,34 +41,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		KOUSA: It is a sign that <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> is becoming volcanically active once again - which will bring a bountiful harvest of crystals from <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> crust!
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>6</ID>
-		<LocationB />
-		<ParentID>5</ParentID>
-		<Text>
-		YARROW: I was planning to visit the <![CDATA[<color=orange>Quantum Weather Lab</color>]]> today. But now, I suppose it must wait until these clouds on <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> part.
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>7</ID>
-		<LocationB />
-		<ParentID>6</ParentID>
-		<Text>
-		KOUSA: I have never visited the <![CDATA[<color=orange>Quantum Weather Lab</color>]]> before! Does the volcanic ash impede your journey because it might obscure your sight of the <![CDATA[<color=lightblue>Quantum Moon?</color>]]>
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>8</ID>
-		<LocationB />
-		<ParentID>7</ParentID>
-		<Text>
-		YARROW: No, my friend.. It is a sense of self-preservation that advises me not to land a shuttle on a lava moon with zero visibility!
+		KOUSA: Though unideal, the thick volcanic smoke will cloud your vision of anything outside the volcanic moon. This is currently the only way to access the <![CDATA[<color=orange>Quantum Weather Lab!</color>]]>
 		</Text>
 	</TextBlock>
 

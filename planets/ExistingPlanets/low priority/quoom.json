@@ -1,0 +1,32 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name":"QuantumMoon",
+
+	"Props": {
+		"warpReceivers": [
+		{
+			"position":{"x": 0,"y": 30.5,"z": 0},
+			"rotation":{"x": 0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"frequency": "CloudStudy",
+			"parentPath": "Sector_QuantumMoon/QuantumShrine"
+		}
+	],
+		"details": [
+			
+			{
+				"rename":"eye crust",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/stateeye crust.prefab",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"rotation":{"x": 5.216,"y": 29.0886,"z": 270.5947},
+				"parentPath": "Sector_QuantumMoon/State_EYE/",
+				"scale":17.5,
+				"isRelativeToParent": true
+			}
+
+		
+		]
+	}
+}

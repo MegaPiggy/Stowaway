@@ -153,6 +153,7 @@
 
 	<DialogueNode>
 		<Name>Arkose_GravyRule</Name>
+		<SetCondition>Question_Answered</SetCondition>
 		<SetCondition>Gravdumb</SetCondition>
 		<Dialogue>
 			<Page><![CDATA[<i>Huh?! Really?!</i>]]></Page>

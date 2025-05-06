@@ -32,8 +32,8 @@
 <DialogueNode>
 		<Name>SignalscopeKidNew1</Name>
 		<Dialogue>
-			<Page>Questions about the universe? Oh, um! I have one!</Page>
-			<Page>It's probably silly of me to even ask, but.. <![CDATA[<Pause=1>]]> How many comets are there in our star system, astronaut?</Page>
+			<Page>Questions about the universe? <![CDATA[<i>]]>OH!<![CDATA[</i>]]> Um, I do, I do!</Page>
+			<Page>Um, promise you won't laugh at me, but... <![CDATA[<Pause=2>]]> How many comets are there in our star system, astronaut?</Page>
 			</Dialogue>
 			<DialogueOptionsList>
 			<DialogueOption>
@@ -49,6 +49,7 @@
 		</DialogueNode>
 
 		<DialogueNode>
+		<SetCondition>Question_Answered</SetCondition>
 		<Name>SignalscopeKidNew2</Name>
 		<Dialogue>
 			<Page>Really? But.. I thought I saw...</Page>
@@ -88,6 +89,7 @@
 
 <DialogueNode>
 		<Name>SignalscopeKidNewC2</Name>
+		<SetCondition>Question_Answered</SetCondition>
 		<Dialogue>
 			<Page>R-really?! Please, tell me more about it!</Page>
 			<Page>What was this comet like? Where was it hiding?</Page>

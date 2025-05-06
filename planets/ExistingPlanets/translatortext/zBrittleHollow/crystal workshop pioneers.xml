@@ -14,7 +14,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: It is good to see you well as ever, Kousa! I see you have been working hard to keep the shelves in the <![CDATA[<color=orange>Gravity Crystal Workshop's</color>]]> fully stocked with gravity crystals.
+		PLUME: It is good to see you too, Kousa. I see you have been working hard to keep the shelves in the <![CDATA[<color=orange>Gravity Crystal Workshop's</color>]]> fully stocked with gravity crystals.
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		KOUSA: Your eye is keen! A recent meteor impact broke off some tiny pieces of the planet's crust, providing an abundance of material for me to carve new gravity crystals.
+		KOUSA: Your eye is keen, friend. A recent meteor has provided an abundance of material from the crust for me to carve new gravity crystals!
 		</Text>
 	</TextBlock>
 
@@ -41,7 +41,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: Kousa, do you not recall? You left a scroll in the <![CDATA[<color=orange>Hanging City,</color>]]> inviting me to your workshop to show me a new invention of yours!
+		PLUME: Kousa, do you not recall? You urged me to visit your workshop today to show me a new invention of yours!
 		</Text>
 	</TextBlock>
 	
@@ -50,7 +50,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: I recall you described in the scroll a device that would help our expedition team weather the terrible storms we have faced on the stormy planet?
+		PLUME: If I recall correctly, you described a device that would help our expedition team weather the terrible storms we have faced on the stormy planet?
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Oh... Yes, yes, of course! Thank goodness I left that scroll for you in the <![CDATA[<color=orange>Hanging City,</color>]]> before it slipped my mind..
+		KOUSA: Oh... Yes, yes, of course! The storm shelters! 
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -67,10 +67,27 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: My invention is right outside! Please, follow me. I am excited to show you how the storm shelter works!
+		KOUSA: It is a new device we have engineered in collaboration with our friends from the <![CDATA[<color=orange>Sunless City!</color>]]>
 		</Text>
 	</TextBlock>
 
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<LocationA />
+		<Text>
+		KOUSA: Thanks to the <![CDATA[<color=orange>Sunless City's</color>]]> contributions, the device is able to autonomously power itself when it is needed, and deactivate on its own afterwards to conserve power.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<LocationA />
+		<Text>
+		KOUSA: Perhaps it would be easier to demonstrate than explain.. There is a storm shelter right outside the workshop. If you follow me outside, I would love to show you how it works!
+		</Text>
+	</TextBlock>
 
 
 <ShipLogConditions>
