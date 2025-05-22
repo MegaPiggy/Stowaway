@@ -64,7 +64,7 @@
 	"position":{"x":27.4433,"y": -48.2061,"z": 182.6343}
 		},
 		{
-			"rename":"BrambleDarkAngler black hole",
+			"rename":"Hourglass black hole",
 			"type": "blackHole",
 			"uniqueID": "TH SHORTCUT X",
 			"pairedSingularity": "HOB WH",
@@ -73,8 +73,25 @@
 			"position":{"x":27.4433,"y": -48.2061,"z": 191.7253}
 				}
 		],
-		"details": [
 		
+		"details": [
+			{
+				"rename": "VM simulation",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/nomai ruins/mini volcano simulation.prefab",
+				"scale":0.5,
+				"position":{"x": 39.498,"y": -39.7254,"z": 186.7938},
+				"rotation": {"x":325.521,"y": 290.36,"z": 255.5162},
+				"isRelativeToParent": true
+			},{
+				"rename": "GD simulation",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/nomai ruins/ocean orbit.prefab",
+				"scale":0.5,
+				"position":{"x": 35.1727,"y": -36.7874,"z": 188.594},
+				"rotation": {"x":325.521,"y": 290.36,"z": 255.5162},
+				"isRelativeToParent": true
+			},
 			
 			{
 				"rename": "soalnum",

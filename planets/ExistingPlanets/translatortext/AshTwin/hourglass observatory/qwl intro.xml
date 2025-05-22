@@ -1,0 +1,88 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		1 YARROW: Friends, the sand will soon begin to flow back to Ember Twin. When it does, we will begin work on the Ash Twin Project's solar towers!
+		2 This mural shows the planned structure of the solar towers. There will be a central passage with two exits along its length.
+		3 Friend, how do you know when the sand flows between the Hourglass Twins? Though living on BH is terrifying in its own way, it is quite stressful living on the clock here on the HGT!
+		4 Oh, it is no hunch, my friend! We simply use the Hourglass Observatory!
+		6 The warp tower to the Hourglass Observatory is located on Ember Twin's equator. If you come with me, I would be happy to show you!
+		7 I would be deeply grateful if you could do so!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		YARROW: To allow everyone to make final preparations for this momentous day, we have decided to launch the <![CDATA[<color=orange>Ash Twin Project</color>]]> at the conclusion of this current sand transfer cycle.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		OENO: Wait, Yarrow! Sand is flowing from <![CDATA[<color=lightblue>Ember Twin</color>]]> to <![CDATA[<color=lightblue>Ash Twin</color>]]> during this current sand transfer cycle.. Should we not delay the <![CDATA[<color=orange>Ash Twin Project,</color>]]> until sand flows back once more?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		OENO: I can see the <![CDATA[<color=orange>solar towers</color>]]> already half-buried by sand.. I fear this may interefere with their ability to absorb solar energy to power the <![CDATA[<color=orange>Ash Twin Project!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		YARROW: Worry not, Oeno.. No amount of sand will be able to stand up to the might of a supernova! 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		YARROW: As the sun collapses, the supernova will engulf the star system with immense heat.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		YARROW: Unlike our fortified <![CDATA[<color=orange>solar towers,</color>]]> we are confident any sand will be melted away by this heat as the supernova occurs, allowing our towers to absorb solar energy unimpeded.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>	
+	<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		OENO: I am grateful to hear your reassurance, and even more impressed by your foresight, Yarrow. I shall look forwards greatly to the success of the <![CDATA[<color=orange>Ash Twin Project</color>]]> with my worries put to rest!
+		</Text>
+	</TextBlock>
+
+
+	<ShipLogConditions>
+
+		<RevealFact>
+			<FactID>GD Tower R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+
+		<RevealFact>
+			<FactID>GD Tower R2</FactID>
+			<Condition>9</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+	
+</NomaiObject>

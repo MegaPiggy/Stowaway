@@ -3,7 +3,8 @@
 
 
 	"GlobalMusic": {
-		"endTimesAudio": "planets/assets/endtimes peaceful simplified.wav"
+		"endTimesAudio": "planets/assets/endtimes peaceful simplified.wav",
+		"travelAudio": "planets/assets/gabbros game v10 travlouder.wav"
 	},
 
 	"entryPositions": [

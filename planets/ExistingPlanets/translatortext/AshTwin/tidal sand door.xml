@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		OENO: Yarrow and I noticed the rotating doors on several towers on Ash Twin opening and closing on their own, even in the absence of any Nomai.
+		OENO: It is as I suspected.. Poke, it is the sand column traveling over the rotating doors that causes their vision orbs to rise!
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		OENO: After closer study, I can confidently conclude that this phenomenon is not caused by any structural defect in the doors, but by the sunless day.
+		POKE: But of course! The sand column is flowing towards <![CDATA[<color=lightblue>Ember Twin..</color>]]> The same force that causes sand to flow from one twin to another must be pulling the doors' vision orbs in the same direction!
 		</Text>
 	</TextBlock>
 
@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		OENO: As the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> orbit around each other, they become aligned along a straight line with the sun at regular intervals, causing a sunless day on the twin farther from the sun.
+		POKE: We must investigate this further! Does that mean that the vision orbs would be pulled downwards if sand flows in the opposite direction?
 		</Text>
 	</TextBlock>
 
@@ -33,45 +33,29 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: The twin farther from the sun feels not only gravity from the sun, but also gravity from the twin closer to the sun pulling in the same direction.
+		OENO: I imagine that that would be much harder to notice..
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		OENO: But there may be a better way to investigate our hypothesis... We simply need to wait for the <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> current sand transfer cycle to end!
 		</Text>
 	</TextBlock>
 
 	<TextBlock>
 		<ID>5</ID>
 		<LocationB />
-		<ParentID>4</ParentID>
+		<ParentID>3</ParentID>
 		<Text>
-		OENO: These combined gravitational forces cause an extraordinarily strong pull of gravity that pulls on anything in its path, including the vision orbs powering the doors.
+		OENO: If the vision orbs no longer rise on their own in the sand column's absence, that would be a successful control to prove our hypothesis true!
 		</Text>
 	</TextBlock>
 
-	<TextBlock>
-		<ID>6</ID>
-		<LocationB />
-		<ParentID>5</ParentID>
-		<Text>
-		OENO: It is this same force that causes sand to be pulled towards the other twin at the alignment point, creating the striking funnel of sand between the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]>
-		</Text>
-	</TextBlock>
 
-<TextBlock>
-		<ID>7</ID>
-		<LocationB />
-		<ParentID>6</ParentID>
-		<Text>
-		YARROW: What an enlightening report, Oeno! Now that we know the issue, we should be able to amend it in the future, to better protect any native species warped here from Timber Hearth.
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>8</ID>
-		<LocationB />
-		<ParentID>2</ParentID>
-		<Text>
-		OENO: Though the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> feel a constant pull of gravity from each other, this force alone should not be enough to cause vision orbs to activate.
-		</Text>
-	</TextBlock>
 	
 <ShipLogConditions>
 

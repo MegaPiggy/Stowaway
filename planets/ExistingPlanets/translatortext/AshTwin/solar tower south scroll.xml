@@ -8,7 +8,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		BUR: Oh, I cannot stand this heat any longer.. Friends, why did we not wait for a sunless day to begin work on the <![CDATA[<color=orange>solar tower?</color>]]>
+		POKE: After some investigation, I can conlude this <![CDATA[<color=orange>solar tower's</color>]]> vision orbs do not appear to be experiencing the phenomenon we noticed.
 		</Text>
 	</TextBlock>
 
@@ -17,7 +17,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		BUR: That is what we did during the construction of the solar panels on <![CDATA[<color=lightblue>Ember Twin,</color>]]> was it not? A sunless day would make this heat much more bearable!
+		OENO: I can corroborate your findings, Poke. I did not see the phenomenon occuring at the northern <![CDATA[<color=orange>solar tower,</color>]]> either.
 		</Text>
 	</TextBlock>
 
@@ -26,7 +26,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		YARROW: Unfortunately, a sunless day would not protect us here, Bur.. We specifically chose to build the <![CDATA[<color=orange>solar towers</color>]]> on Ash Twin's poles to avoid the sunless day!
+		OENO: However, this investigation has given me an idea.
 		</Text>
 	</TextBlock>
 
@@ -35,43 +35,17 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		YARROW: Furthermore, it is due to those sunless days that we will soon need to relocate the solar panels on <![CDATA[<color=lightblue>Ember Twin.</color>]]>
+		OENO: There is a second tower on <![CDATA[<color=lightblue>Ash Twin</color>]]> with rotating doors.
 		</Text>
 	</TextBlock>
+		<TextBlock>
 
 		<TextBlock>
 		<ID>5</ID>
 		<LocationB />
-		<ParentID>4</ParentID>
+		<ParentID>3</ParentID>
 		<Text>
-		YARROW: Melorae, has a <![CDATA[<color=orange>relocation site</color>]]> for <![CDATA[<color=lightblue>Ember Twin's</color>]]> solar panels been decided yet?
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>6</ID>
-		<LocationB />
-		<ParentID>5</ParentID>
-		<Text>
-		MELORAE: So far, we have settled on a grassy plateau on <![CDATA[<color=lightblue>Ember Twin's</color>]]> surface, directly above the <![CDATA[<color=orange>Sunless City!</color>]]>
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>7</ID>
-		<LocationB />
-		<ParentID>6</ParentID>
-		<Text>
-		MELORAE: We believe there is ample space there, and close proximity to the city will make transportation of energy from the solar panels much simpler.
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>8</ID>
-		<LocationB />
-		<ParentID>7</ParentID>
-		<Text>
-		YARROW: That sounds promising! I shall visit this <![CDATA[<color=orange>relocation site</color>]]> to see it for myself soon.
+		OENO: We should visit this second tower to see if the issue we observed occurs there!
 		</Text>
 	</TextBlock>
 	

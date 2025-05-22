@@ -569,7 +569,7 @@
 			},
 			{
 				"rename":"AuroraWisps village volume",
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (1)/",
 				"position": {"x":-0.2,"y": 1.5655,"z": 0},
 				"rotation": {"x":0,"y": 332.314,"z": 0},
 				"stretch": {"x":1.5,"y":2.2,"z":1.1},

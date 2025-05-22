@@ -11,7 +11,7 @@
 		{
 			"rename":"HOB white hole shortcut",
 			"type": "whiteHole",
-			"uniqueID": "HOB WH",
+			"uniqueID": "HOB WH 22",
 			"pairedSingularity": "TH SHORTCUT X",
 			"hasWarpEffects": false,
 			"horizonRadius": 0.5,

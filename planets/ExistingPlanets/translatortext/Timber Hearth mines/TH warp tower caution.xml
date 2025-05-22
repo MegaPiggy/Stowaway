@@ -36,7 +36,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: Though the warp tower is normally oxygenated and pressurized, we have found an issue with the warp tower's doors that leaves them inadequate for keeping lifeforms from wandering outside the tower.
+		OENO: Without any air supply or protection from the heat on that planet, these lives would be gravely endangered by our carelessness.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -44,15 +44,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		OENO: Without any air supply or protection from the heat on that planet, these lives would be gravely endangered by our carelessness.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>7</ID>
-		<LocationA />
-		<ParentID>6</ParentID>
-		<Text>
-		OENO: A return warp is only powered upon the absence of all entities on the warp receiver. Thus, we advise stalling the return warp until you are ready to return to <![CDATA[<color=lightblue>Ash Twin!</color>]]>
+		OENO: As return warps are only powered upon the absence of all entities on the warp receiver, we advise visitors to stall the return warp until ready to return to <![CDATA[<color=lightblue>Ash Twin.</color>]]>
 		</Text>
 	</TextBlock>
 

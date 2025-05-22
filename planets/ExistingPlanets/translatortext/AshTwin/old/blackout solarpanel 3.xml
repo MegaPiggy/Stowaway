@@ -1,0 +1,106 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		MELORAE: Ramie, the <![CDATA[<color=orange>Sunless City</color>]]> has been plunged into darkness again.. Has the <![CDATA[<color=orange>High Energy Lab</color>]]> rerouted energy from the city without warning again?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		RAMIE: Melorae, how many times have you accused us of this? Please, look above you: it is simply the sunless day!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		MELORAE: Oh, these binary planets... I cannot wait for the solar panels to be relocated so we will no longer need to worry about <![CDATA[<color=lightblue>Ash Twin's</color>]]> shadow regularly depriving us of energy...
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		RAMIE: And I cannot wait for the <![CDATA[<color=orange>High Energy Lab</color>]]> to be free from unfounded accusations of rerouting the <![CDATA[<color=orange>Sunless City's</color>]]> energy without warning.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		MELORAE: I apologize for my accusations, Ramie.. But surely, you can understand how one might confuse a sunless day for the <![CDATA[<color=orange>High Energy Lab's</color>]]> experiments leaving the city in the dark!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		RAMIE: I must disagree, Melorae.. Surely it cannot be so difficult to tell when a solar eclipse is occurring.
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		MELORAE: Ramie, recall that the <![CDATA[<color=orange>Sunless City</color>]]> is located deep underground. We are not so easily able to detect a solar eclipse!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		RAMIE: You.. have a point. Perhaps we should create a structure in orbit to allow Nomai to more easily observe when the sunless day occurs, then.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		RAMIE: A warp tower connected to this structure could be built on Ember Twin, to allow easy access from the <![CDATA[<color=orange>Sunless City</color>]]>to this structure.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		MELORAE: That is a wise idea, my friend! Since the relocation of the solar panels will not be taking place soon, a structure like this would be incredibly helpful until then.
+		</Text>
+	</TextBlock>
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>R_SLR EX1</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>R_SLR EX3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>	
+		<RevealFact>
+			<FactID>R_SLR EX4</FactID>
+			<Condition>9</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

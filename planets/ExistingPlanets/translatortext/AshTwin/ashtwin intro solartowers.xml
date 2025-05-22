@@ -1,0 +1,83 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		YARROW: Ramie, could these be designs for the <![CDATA[<color=orange>solar towers?</color>]]>
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		YARROW: I should have expected no less of the Nomai who designed the warp towers on <![CDATA[<color=lightblue>Ash Twin..</color>]]> Your work is inspiring as ever, my friend!
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		RAMIE: I am deeply honored by your praise, Yarrow! Yes, this will be the final design for the <![CDATA[<color=orange>solar towers</color>]]> to be built on <![CDATA[<color=lightblue>Ash Twin.</color>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		RAMIE: Now that we are sure the <![CDATA[<color=orange>Ash Twin Project</color>]]> is theoretically sound, I am eager to begin preparations for the construction of the <![CDATA[<color=orange>solar towers</color>]]> that shall power it.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		RAMIE: Have the sites for the <![CDATA[<color=orange>solar towers</color>]]> been chosen yet, Yarrow?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		YARROW: A site has indeed been chosen! At present, we plan to build a solar tower on each of <![CDATA[<color=lightblue>Ash Twin's</color>]]> poles.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		RAMIE: What a wise decision! Building the <![CDATA[<color=orange>solar towers</color>]]> on the planet's poles will allow them to continue functioning at all times - even during sunless days.
+		</Text>
+	</TextBlock>
+
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>R_SLR EX1</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>R_SLR EX3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>	
+		<RevealFact>
+			<FactID>R_SLR EX4</FactID>
+			<Condition>9</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

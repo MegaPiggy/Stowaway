@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		YARROW: Friends from <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> we welcome you to the <![CDATA[<color=orange>Hourglass Observatory!</color>]]>
+		YARROW: Be welcomed in the <![CDATA[<color=orange>Hourglass Observatory,</color>]]> Clary!
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CLARY: You have our deepest gratitude for your enlightening explanation of this phenomenon, Yarrow. I feel much more at ease, knowing the <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> sand transfer only occurs during such a precise alignment!
+		CLARY: You have my deepest gratitude for your thorough explanation, Yarrow. I feel much more at ease now, knowing when and why the <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> sand transfer occurs!
 		</Text>
 	</TextBlock>
 

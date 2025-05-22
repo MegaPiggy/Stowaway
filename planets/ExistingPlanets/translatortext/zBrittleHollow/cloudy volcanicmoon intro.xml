@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		KOUSA: Friends from <![CDATA[<color=lightblue>Ember Twin:</color>]]> should you ever wish to explore the surface of <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> we recommend ensuring that the volcanic moon is cloudless before doing so.
+		PHLOX: Spire, I had not heard you were constructing a new model here at the <![CDATA[<color=orange>Crossroads!</color>]]> Could I ask what this fascinating new model is for?
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		KOUSA: As volcanic activity increases, the volcanic moon begins to spew thick amounts of smoke, shrouding the moon almost completely from outside view. This signifies that a meteor storm is imminent!
+		SPIRE: Greetings, Phlox! This is a simulation of future meteor impacts from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> (our dreaded volcanic moon) on <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> but..
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		KOUSA: Should you see that the volcanic moon has clouded over, we recommend seeking out shelter to wait out the meteor storm underground, as they do not typically last beyond a few minutes.
+		PHLOX: What? That sounds like incredible, Spire!
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		KOUSA: However, should you wish to journey to the <![CDATA[<color=orange>Quantum Weather Lab,</color>]]> you will need to visit the volcanic moon while it is clouded over!
+		PHLOX: With forecasts from this model, we would be able to know precisely where any meteor impacts occur.. It would allow Nomai to safely traverse <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> surface without fear!
 		</Text>
 	</TextBlock>
 
@@ -41,7 +41,49 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		KOUSA: Though unideal, the thick volcanic smoke will cloud your vision of anything outside the volcanic moon. This is currently the only way to access the <![CDATA[<color=orange>Quantum Weather Lab!</color>]]>
+		SPIRE: Yes, it <![CDATA[<i>would</i>]]> be a lovely idea! The only issue is... The model appears to be <![CDATA[<i>flawed.</i>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		SPIRE: Even with data from the negative time interval, a meteor impact calculated using the model was off by orders of magnitudes.. And I simply cannot figure out why.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		PHLOX: How odd.. Have you brought this issue to our friends in the <![CDATA[<color=orange>Hanging City?</color>]]> Perhaps they have ideas to improve the model's calculations.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		PHLOX: I look forward to the day you perfect this model, my friend. Your models of <![CDATA[<color=lightblue>Giant's Deep</color>]]> have already been so revolutionary for our clan!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		SPIRE: How you flatter me, Phlox. You have my gratitude for your advice, my friend!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		SPIRE: As I do not appear to be making progress on my own, I shall break from my fruitless work to seek advice from our friends at the <![CDATA[<color=orange>Hanging City.</color>]]> Perhaps they will notice something I have overlooked!
 		</Text>
 	</TextBlock>
 

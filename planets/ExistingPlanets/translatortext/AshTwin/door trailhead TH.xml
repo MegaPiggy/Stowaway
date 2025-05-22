@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CLARY: Oeno is right, friends. By keeping these doors closed, we can ensure that any native life accidentally transported here from <![CDATA[<color=lightblue>Timber Hearth</color>]]> does not wander far without protection or oxygen!
+		CLARY: Oeno is right, friends. By keeping these doors closed, we can ensure that any native life that accidentally travel here from <![CDATA[<color=lightblue>Timber Hearth</color>]]> do not wander far without protection or oxygen!
 		</Text>
 	</TextBlock>
 			<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: Has anyone else noticed this tower's rotating doors opening and even closing by themself?
+		OENO: Has anyone else noticed this tower's rotating doors opening and closing by themselves?
 		</Text>
 	</TextBlock>
 	<TextBlock>
