@@ -24,7 +24,7 @@
 	"details": [
 		
 		{
-			"rename":"HOBservatory main",
+			"rename":"HOBservatory main set to 0 300 0 and 0 0 180",
 			"assetBundle": "planets/bundle/stowaway3",
 			"path":"assets/nomai ruins/hourglassob final.prefab",
 			"position": {"x":0,"y": 0,"z": 0},
@@ -40,8 +40,7 @@
 			"rotation": {"x":90,"y": 0,"z": 90},
 			"scale":100,
 			"isRelativeToParent": true,
-			"keepLoaded": true,
-			"ignoreSun": true
+			"keepLoaded": true
 		},
 
 		{
@@ -183,7 +182,7 @@
 },
 	
 	"Base": {"showMinimap": false,"hasFluidDetector": false, 
-	"surfaceSize": 130, "soiOverride": 200}, 
+	"surfaceSize": 130, "soiOverride": 100}, 
 	"MapMarker": {
 		"enabled": false
 	},
@@ -199,7 +198,7 @@
 		"showOrbitLine": false,
 		"primaryBody": "BrittleHollow",
 		"semiMajorAxis" : 1000,
-		"trueAnomaly": 355,
+		"trueAnomaly": 350,
 		"isTidallyLocked": true,
 		"alignmentAxis": {"x":0,"y":1,"z":0}
 	}

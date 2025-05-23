@@ -6,7 +6,33 @@
 	"Props" :
 	{
 	"details": [
-		
+		{
+			"rename":"VM landing pad",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Interactables_QuantumTower/Prefab_NOM_DockingTractorBeam/",
+			"position":{"x": 2.5568,"y": 100.4735,"z": 6.2794},
+			"rotation":{"x": 1.2894,"y": 299.1351 ,"z": 355.2228},
+			"scale":1,
+			"keepLoaded": true,
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"vm stable pillar 1",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/shortcolumn.prefab",
+			"position": {"x": 7.805,"y": 72.2101,"z": 12.3294},
+			"rotation": {"x": 5.953,"y": 26.8586 ,"z": 2.5218},
+			"scale":4,
+			"isRelativeToParent": true
+		},	{
+			"rename":"vm stable pillar 2",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/shortcolumn.prefab",
+			"position": {"x": -2.9005,"y": 97.1826,"z": 22.044},
+			"rotation": {"x": 271.2868,"y": 316.9777,"z": 338.2169},
+			"stretch":{"x":6.1,"y":4,"z":4},
+			"isRelativeToParent": true
+		},
+
 		{
 			"rename":"lava floating raft",
 			"parentPath": "MoltenCore_VM",
@@ -17,30 +43,12 @@
 			"scale":1,
 			"isRelativeToParent": true
 		},
-		{
-			"rename":"decoy recorder",
-			"parentPath": "MoltenCore_VM/lava floating raft/",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_Recorder/Props_NOM_Recorder/",
-				"removeChildren": ["Props_NOM_Recorder_Col"],
-				"position": {"x": -4.816,"y": -1.849,"z": -5.2513},
-				"rotation": {"x": 23.9129,"y": 239.6359,"z": 7.305},
-				"scale":0.6,
-			"isRelativeToParent": true
-		},
 		
 		{
 			"rename":"inspection bridge",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/OldSettlement_Interactables/Structure_NOM_BH_OldSettleBridge_Placements/Structure_NOM_BH_OldSettleBridge/Structure_NOM_BHSettleBridge",
 				"position": {"x": 26.4192,"y": 98.9363,"z": 3.97151},
 				"rotation": {"x": 350,"y": 308,"z": 345},
-			"isRelativeToParent": true
-		},
-		{
-			"rename":"empty switch",
-			"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/empty switch.prefab",
-				"position": {"x":16.3281,"y": 100.5184,"z": 5.8438},
-				"rotation": {"x": 349.6746,"y": 241.8574 ,"z": 359.6269},
 			"isRelativeToParent": true
 		},
 		{
@@ -61,13 +69,22 @@
 			"isRelativeToParent": true
 		},
 
-
+		{"rename":"VM ore boxes"},
 		{
-			"rename":"VM ore treepot",
+			"rename":"VM bell bay Box",
+			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
+			"position": {"x": 17.0136, "y": 101.1263, "z": -0.186},
+			"rotation":{"x": 2.8975 ,"y": 280.7259,"z": 0.3686},
+			"parentPath": "Sector_VM/VM ore boxes",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"VM ore treepot 1",
 			"assetBundle": "planets/bundle/prefabs",
 			"path":"assets/nomai ruins/prefabs/treepot.prefab",
-			"position":{"x": 14.9047,"y": 100.696,"z": 5.8164},
-			"rotation":{"x": 355.0062,"y": 199.8409,"z": 359.3005},
+			"parentPath": "Sector_VM/VM ore boxes",
+			"position":{"x": 16.9166,"y": 102.1231,"z": -0.3134},
+			"rotation":{"x": 1.3454,"y": 210.8792,"z": 357.4072},
 			"isRelativeToParent": true
 		},{
 			"rename":"vm box ore 1",
@@ -76,7 +93,7 @@
 			"position":{"x":0.054,"y": 0.7174,"z": 0.205},
 			"rotation":{"x":305.944,"y": 101.9598,"z": 268.0872},
 			"stretch":{"x":0.3, "y":0.3,"z":0.4},
-			"parentPath": "Sector_VM/VM ore treepot/",
+			"parentPath": "Sector_VM/VM ore boxes/VM ore treepot 1",
 			"isRelativeToParent": true
 		},{
 			"rename":"vm box ore 2",
@@ -85,7 +102,7 @@
 			"position":{"x":-0.0548,"y": 0.5412,"z": -0.2299},
 			"rotation":{"x":346.5613,"y": 65.3746,"z": 78.97},
 			"stretch":{"x":0.3, "y":0.4,"z":0.2},
-			"parentPath": "Sector_VM/VM ore treepot/",
+			"parentPath": "Sector_VM/VM ore boxes/VM ore treepot 1",
 			"isRelativeToParent": true
 		},{
 			"rename":"vm box ore 3",
@@ -94,14 +111,99 @@
 			"position":{"x":-0.1997,"y": 0.5427,"z": 0.1151},
 			"rotation":{"x":321.7981,"y": 30.1357,"z": 40.5518},
 			"stretch":{"x":0.3, "y":0.3,"z":0.2},
-			"parentPath": "Sector_VM/VM ore treepot/",
+			"parentPath": "Sector_VM/VM ore boxes/VM ore treepot 1",
 			"isRelativeToParent": true
 		},
+
 		{
-			"rename":"VM bell bay Box",
-			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
-			"position": {"x": 17.0136, "y": 101.1263, "z": -0.186},
-			"rotation":{"x": 2.8975 ,"y": 280.7259,"z": 0.3686},
+			"rename":"VM ore treepot 2",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/treepot.prefab",
+			"parentPath": "Sector_VM/VM ore boxes",
+			"position":{"x": 17.363,"y": 101.3119,"z": -1.9376},
+			"rotation":{"x": 7.1503,"y": 319.8141,"z": 2.8741},
+			"isRelativeToParent": true
+		},{
+			"rename":"vm box ore 1",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
+			"position":{"x":0.054,"y": 0.7174,"z": 0.205},
+			"rotation":{"x":305.944,"y": 101.9598,"z": 268.0872},
+			"stretch":{"x":0.3, "y":0.3,"z":0.4},
+			"parentPath": "Sector_VM/VM ore boxes/VM ore treepot 2",
+			"isRelativeToParent": true
+		},{
+			"rename":"vm box ore 2",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
+			"position":{"x":-0.0548,"y": 0.5412,"z": -0.2299},
+			"rotation":{"x":346.5613,"y": 65.3746,"z": 78.97},
+			"stretch":{"x":0.3, "y":0.4,"z":0.2},
+			"parentPath": "Sector_VM/VM ore boxes/VM ore treepot 2",
+			"isRelativeToParent": true
+		},{
+			"rename":"vm box ore 3",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
+			"position":{"x":-0.1997,"y": 0.5427,"z": 0.1151},
+			"rotation":{"x":321.7981,"y": 30.1357,"z": 40.5518},
+			"stretch":{"x":0.3, "y":0.3,"z":0.2},
+			"parentPath": "Sector_VM/VM ore boxes/VM ore treepot 2",
+			"isRelativeToParent": true
+		},
+
+		{
+			"rename":"VM ore treepot 3 back",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/treepot.prefab",
+			"parentPath": "Sector_VM/VM ore boxes",
+			"position":{"x": 31.5326,"y": 98.653,"z": 5.2038},
+			"rotation":{"x": 351.3411,"y": 259.7981,"z": 1.8732},
+			"isRelativeToParent": true
+		},{
+			"rename":"vm box ore 1",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
+			"position":{"x":0.054,"y": 0.7174,"z": 0.205},
+			"rotation":{"x":305.944,"y": 101.9598,"z": 268.0872},
+			"stretch":{"x":0.3, "y":0.3,"z":0.4},
+			"parentPath": "Sector_VM/VM ore boxes/VM ore treepot 3 back",
+			"isRelativeToParent": true
+		},{
+			"rename":"vm box ore 2",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
+			"position":{"x":-0.0548,"y": 0.5412,"z": -0.2299},
+			"rotation":{"x":346.5613,"y": 65.3746,"z": 78.97},
+			"stretch":{"x":0.3, "y":0.4,"z":0.2},
+			"parentPath": "Sector_VM/VM ore boxes/VM ore treepot 3 back",
+			"isRelativeToParent": true
+		},{
+			"rename":"vm box ore 3",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
+			"position":{"x":-0.1997,"y": 0.5427,"z": 0.1151},
+			"rotation":{"x":321.7981,"y": 30.1357,"z": 40.5518},
+			"stretch":{"x":0.3, "y":0.3,"z":0.2},
+			"parentPath": "Sector_VM/VM ore boxes/VM ore treepot 3 back",
+			"isRelativeToParent": true
+		},
+
+		{
+			"rename":"VM ore treepot 4 empty",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/treepot.prefab",
+			"parentPath": "Sector_VM/VM ore boxes",
+			"position":{"x": 18.4132,"y": 101.8448,"z": -1.8232},
+			"rotation":{"x": 273.4925,"y": 15.8289,"z": 0.0002},
+			"isRelativeToParent": true
+		},{
+			"rename":"VM ore treepot 5 empty",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/treepot.prefab",
+			"parentPath": "Sector_VM/VM ore boxes",
+			"position":{"x": 14.9598,"y": 101.4595,"z": -2.9793},
+			"rotation":{"x": 355.6508,"y": 174.7669,"z": 358.4066},
 			"isRelativeToParent": true
 		},
 		
@@ -109,8 +211,8 @@
 			"rename":"VM bell bay torch",
 			"assetBundle": "planets/bundle/prefabs",
 			"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-			"position": {"x": 18.5485, "y": 102.9973, "z": 0.4929},
-			"rotation": {"x": 13.7369, "y": 348.0284, "z": 6.8457},
+			"position": {"x": 18.1485, "y": 102.9973, "z": -1.378},
+			"rotation": {"x": 13.7369, "y": 212.6545 , "z": 6.8457},
 			"isRelativeToParent": true
 		},
 		{
@@ -125,29 +227,27 @@
 	],
 	"translatorText": [
 		{
-			"rename":"hidden lava recorder",
-			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/volcanicmoon/vm heat.xml",
+			"rename":"VM lava recorder shell",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/volcanicmoon/vm timeloop insulation.xml",
 			"parentPath": "MoltenCore_VM/lava floating raft",
 			"type": "recorder",
-			"position": {"x":-4.9396,"y": -4.1362,"z": -5.1603},
-			"rotation": {"x":23.9129,"y": 239.6359,"z": 7.305},
+			"position": {"x":-4.2177,"y": 0.0856,"z": -5.4767},
+			"rotation": {"x":20.9626,"y": 256.5579,"z": 12.9521},
 			"isRelativeToParent": true
-		},
-		{
-			"type": "computer",
-			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/volcanicmoon/vm lava levels.xml",
-			"parentPath": "Sector_VM/Interactables_VM",
-			"rename":"lava levels computer",
-			"position": {"x":35.95,"y": 92.1,"z": 34.42},
-			"rotation": {"x":10.8557,"y": 359.3234,"z": 356.412},
+		},{
+			"rename":"VM recorder QWL",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/volcanicmoon/qwl major clue.xml",
+			"type": "recorder",
+			"position": {"x":16.0789,"y": 101.2586,"z": -1.5488},
+			"rotation": {"x":354.4247,"y": 233.0779,"z": 354.4121},
 			"isRelativeToParent": true
 		},
 		{
 			"type": "trailmarker",
 			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/volcanicmoon/divingbell trailhead.xml",
 			"rename":"divingbell trailmarker",
-			"position": {"x":16.6439,"y": 100.6909,"z": 4.7029},
-			"rotation": {"x":357.607,"y": 236.9441,"z": 359.5468},
+			"position": {"x": 33.3894,"y": 98.3365,"z": 6.0102},
+			"rotation": {"x": 355.9958,"y": 248.3066,"z": 1.3053},
 			"isRelativeToParent": true
 		}
 	]
@@ -159,7 +259,6 @@
 
 
 "removeChildren": [
-	"Sector_VM/Interactables_VM/Prefab_NOM_Computer"
 ],
 
 "ShipLog" :

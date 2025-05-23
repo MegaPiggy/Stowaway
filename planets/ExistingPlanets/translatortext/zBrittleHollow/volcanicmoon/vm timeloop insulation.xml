@@ -1,0 +1,135 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+Clue: Supernova generate lots of heat
+
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		ROOT: Friends, it brings me great pride to declare that our last shipment of ore has been fully processed by the <![CDATA[<color=orange>Lava Diving Bell!</color>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		ROOT: With this, we have all the ore necessary to fortify both the <![CDATA[<color=orange>Ash Twin Project</color>]]> and the <![CDATA[<color=orange>Sanctuary..</color>]]> I thank each one of you here for your hard work!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		POKE: Root, are you sure we should not at least prepare a small surplus of this ore for other means - if only for cerebral peace?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		POKE: We should insulate as much as we are able to with this ore, to ensure that as many structures and systems continue to operate during the supernova!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		POKE: For instance, the memory statues that allow Nomai to become paired to the <![CDATA[<color=orange>Ash Twin Project</color>]]> are not insulated from the supernova.. Won't the supernova destroying them destroy this connection?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		ROOT: Your concerns are wisely placed, Poke! But fear not: the system is not so fragile!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		ROOT: If a memory statue is destroyed, the paired individual will simply be unable to recall the rest of the loop from that point, as their experiences are no longer being recorded by the memory statue to the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		ROOT: However, as the <![CDATA[<color=orange>Ash Twin Project</color>]]> remains connected to any individuals once paired, the temporary destruction of the memory statues is not a concern.
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		POKE: That sounds reassuring.. but also quite disturbing!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		POKE: What if something catastrophic were to occur only after our memory statues were destroyed? None of us would be aware of such danger!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>11</ID>
+		<LocationB />
+		<ParentID>10</ParentID>
+		<Text>
+		ROOT: The memory statues won't be destroyed simultaneously! They will only be destroyed as each planet is engulfed by the supernova, giving us ample time to notice anything amiss in that scenario.
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>12</ID>
+		<LocationB />
+		<ParentID>11</ParentID>
+		<Text>
+		POKE: But what if something catastrophic occurs only after that?!
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>12</ID>
+		<LocationB />
+		<ParentID>11</ParentID>
+		<Text>
+		ROOT: Then I bet it would be quite exciting to find out about it!
+		</Text>
+	</TextBlock>
+	
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>LV EX1</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LV EX2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LV EX3</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>
