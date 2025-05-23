@@ -94,15 +94,6 @@
 			},
 			
 			{
-				"rename": "soalnum",
-				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/Solanum alloyed prefab.prefab",
-				"scale":1,
-				"position":{"x": 17.872,"y": -45.019,"z": 184.6221},
-				"rotation": {"x":10.4836 ,"y": 98.0242,"z": 103.6309},
-				"isRelativeToParent": true
-			},
-			{
 				"rename": "hearthian husk",
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/player nosuit.prefab",

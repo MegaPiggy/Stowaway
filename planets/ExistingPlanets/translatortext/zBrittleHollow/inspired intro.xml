@@ -13,15 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Kousa.. I am proud to have been your apprentice.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>3</ID>
-		<LocationB />
-		<ParentID>2</ParentID>
-		<Text>
-		CASSAVA: With this, the <![CDATA[<color=orange>Inspired's</color>]]> construction is underway.
+		CASSAVA: You have my gratitude, Kousa.. With this, the <![CDATA[<color=orange>Inspired's</color>]]> construction is underway.
 		</Text>
 	</TextBlock>
 

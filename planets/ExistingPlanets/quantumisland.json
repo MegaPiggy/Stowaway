@@ -266,7 +266,23 @@
 
 
 
-
+			{
+				"rename": "GD ocean simulation",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/nomai ruins/ocean orbit.prefab",
+				"scale":0.3,
+				"position":{"x": 13.843,"y": 31.9196,"z": 0},
+				"rotation": {"x":0,"y": 174.734,"z": 0},
+				"isRelativeToParent": true
+			},
+			{
+			"rename":"projection liquid GD model",
+				"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
+				"position": {"x": 0, "y": -3.26, "z": 0},
+			"parentPath": "Sector_QuantumIsland/GD ocean simulation/",
+			"stretch": {"x":12,"y":64,"z":12},
+			"isRelativeToParent": true
+			},
 			{
 				"rename":"GD TOWER gm volumes",
 				"position":{"x": 0,"y": 0,"z": 0},
@@ -667,7 +683,7 @@
 			{
 				"rename":"finalchamber whiteboard light",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_InterRoom/",
-				"position": {"x": 13.1224, "y": 32.4912, "z": 0.0726},
+				"position": {"x": 19.6752, "y": 32.4912, "z": 0.0726},
 				"isRelativeToParent": true
 			},
 
@@ -1173,8 +1189,8 @@
 
 	{
 		"rename":"Final chamber whiteboard",
-		"position": {"x": 12.4006, "y": 30.8814,"z": 0.073},
-		"rotation": {"x": 0, "y": 90, "z": 0},
+		"position": {"x": 21.0388, "y": 31.1814,"z": 0.073},
+		"rotation": {"x": 0, "y": 270, "z": 0},
 		"type":"whiteboard",
 		"isRelativeToParent": true
 	},
