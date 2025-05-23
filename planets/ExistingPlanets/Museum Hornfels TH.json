@@ -223,10 +223,11 @@
 			},
 			{
 				"rename": "TH Mine NoEntry walltext",
-				"position": {"x": -64.58711,"y": -22.32,"z": -203.1783},
-				"rotation": {"x": 3.2221,"y": 197.5549 ,"z": 98.4217},
+				"position": {"x": -0.2758,"y": 0.5021,"z": 0.6213},
+				"rotation": {"x": 271.058,"y": 22.6211 ,"z": 293.0551},
 				"type": "wall",
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/gate cairn.xml",
+				"parentPath": "Sector_TH/Gate tablet/",
 				"isRelativeToParent": true
 			},
 			{
@@ -296,18 +297,11 @@
 
 
 			{
-				"rename": "NM Mines door recording",
-				"position": {"x": -67.5237, "y": 11.9602, "z": -203.152},
-				"rotation": {"x": 36.4779, "y": 117.2331, "z": 276.9099},
-				"type": "recorder",
-				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/mines sanctuary talk VM.xml"
-			},
-			{
 				"rename": "Campsite recording",
 				"position": {"x": -155.0376, "y": 5.5499, "z": -130.3022},
 				"rotation": {"x": 51.38, "y": 145.983, "z": 274.6353},
 				"type": "recorder",
-				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/camp hearthian.xml"
+				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/mines sanctuary talk vm.xml"
 			}
 			
 		],
@@ -424,8 +418,8 @@
 				"rename":"Gate tablet",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/tablet.prefab",
-				"position": {"x": -63.8623, "y": -22.6093, "z": -202.8541},
-				"rotation": {"x": 307.4781, "y": 281.7305, "z": 96.9888},
+				"position": {"x": -63.7623, "y": -23.8184, "z": -203.2395},
+				"rotation": {"x": 312.2981, "y": 333.0978, "z": 52.321},
 				"isRelativeToParent": true
 			},{
 				"rename":"gate purple LIGHT",
@@ -678,50 +672,7 @@
 			},
 
 			
-			{
-				"rename":"TH mine outside treepot",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/treepot.prefab",
-				"position":{"x": -67.8563,"y": 12.2468,"z": -202.619},
-				"rotation":{"x": 3.7851,"y": 21.4478,"z": 238.7171},
-				"isRelativeToParent": true
-			},{
-				"rename":"mines box ore 1",
-				"assetBundle": "planets/bundle/prefabs",
-					"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
-				"position":{"x":0.054,"y": 0.7174,"z": 0.205},
-				"rotation":{"x":305.944,"y": 101.9598,"z": 268.0872},
-				"stretch":{"x":0.3, "y":0.3,"z":0.4},
-				"parentPath": "Sector_TH/TH mine outside treepot/",
-				"isRelativeToParent": true
-			},{
-				"rename":"mines box ore 2",
-				"assetBundle": "planets/bundle/prefabs",
-					"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
-				"position":{"x":-0.0548,"y": 0.5412,"z": -0.2299},
-				"rotation":{"x":346.5613,"y": 65.3746,"z": 78.97},
-				"stretch":{"x":0.3, "y":0.4,"z":0.2},
-				"parentPath": "Sector_TH/TH mine outside treepot/",
-				"isRelativeToParent": true
-			},{
-				"rename":"mines box ore 3",
-				"assetBundle": "planets/bundle/prefabs",
-					"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
-				"position":{"x":-0.1997,"y": 0.5427,"z": 0.1151},
-				"rotation":{"x":321.7981,"y": 30.1357,"z": 40.5518},
-				"stretch":{"x":0.3, "y":0.3,"z":0.2},
-				"parentPath": "Sector_TH/TH mine outside treepot/",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"TH mine outside torch",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position":{"x": -68.3061,"y": 10.1003,"z": -202.1257},
-				"rotation":{"x": 306.1553,"y": 251.1158,"z": 33.8622},
-				"removeChildren": ["WallTorch_Connector"],
-				"isRelativeToParent": true
-			},
+			
 
 			
 			

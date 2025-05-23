@@ -64,7 +64,7 @@
 				}]
 			},
 			{"id": "GD_DeepStormStation",
-			"decalPath": "planets/assets/voyager dss icon.png",
+			"decalPath": "planets/assets/voyager dss icon v2.png",
 			"stones": [
 				{
 					"position": {"x": 66.8955, "y": -5.1968, "z": -43.5503},
@@ -74,7 +74,7 @@
 				}]
 			},	
 			{"id": "GD_DeepStormStation",
-			"decalPath": "planets/assets/GD dss icon.png",
+			"decalPath": "planets/assets/dss icon.png",
 			"stones": [
 				{
 					"position": {"x": 66.8955, "y": -5.1023 , "z": -42.5467},

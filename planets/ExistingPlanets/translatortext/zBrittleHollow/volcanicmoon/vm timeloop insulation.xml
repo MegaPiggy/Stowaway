@@ -25,7 +25,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		POKE: Root, are you sure we should not at least prepare a small surplus of this ore for other means - if only for cerebral peace?
+		POKE: Root, are you sure we should not at least prepare a small surplus of this ore for other means.. if only for cerebral peace?
 		</Text>
 	</TextBlock>
 
@@ -64,6 +64,7 @@ Clue: Supernova generate lots of heat
 		ROOT: If a memory statue is destroyed, the paired individual will simply be unable to recall the rest of the loop from that point, as their experiences are no longer being recorded by the memory statue to the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
 		</Text>
 	</TextBlock>
+
 <TextBlock>
 		<ID>8</ID>
 		<LocationB />
@@ -72,6 +73,7 @@ Clue: Supernova generate lots of heat
 		ROOT: However, as the <![CDATA[<color=orange>Ash Twin Project</color>]]> remains connected to any individuals once paired, the temporary destruction of the memory statues is not a concern.
 		</Text>
 	</TextBlock>
+
 <TextBlock>
 		<ID>9</ID>
 		<LocationB />
@@ -80,14 +82,16 @@ Clue: Supernova generate lots of heat
 		POKE: That sounds reassuring.. but also quite disturbing!
 		</Text>
 	</TextBlock>
+
 <TextBlock>
 		<ID>10</ID>
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		POKE: What if something catastrophic were to occur only after our memory statues were destroyed? None of us would be aware of such danger!
+		POKE: Suppose if something catastrophic were to occur only after our memory statues were destroyed. None of us would be aware of such impending danger!
 		</Text>
 	</TextBlock>
+
 <TextBlock>
 		<ID>11</ID>
 		<LocationB />
@@ -102,16 +106,16 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>11</ParentID>
 		<Text>
-		POKE: But what if something catastrophic occurs only after that?!
+		POKE: But suppose if something catastrophic occurs only after that!
 		</Text>
 	</TextBlock>
 
 <TextBlock>
-		<ID>12</ID>
+		<ID>13</ID>
 		<LocationB />
-		<ParentID>11</ParentID>
+		<ParentID>12</ParentID>
 		<Text>
-		ROOT: Then I bet it would be quite exciting to find out about it!
+		ROOT: Then I suppose it would be quite exciting to find out about it!
 		</Text>
 	</TextBlock>
 	

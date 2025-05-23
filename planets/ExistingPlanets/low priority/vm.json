@@ -50,6 +50,13 @@
 				"position": {"x": 26.4192,"y": 98.9363,"z": 3.97151},
 				"rotation": {"x": 350,"y": 308,"z": 345},
 			"isRelativeToParent": true
+		},{
+			"rename":"empty switch",
+			"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty switch.prefab",
+				"position": {"x":16.3281,"y": 100.5184,"z": 5.8438},
+				"rotation": {"x": 349.6746,"y": 241.8574 ,"z": 359.6269},
+			"isRelativeToParent": true
 		},
 		{
 			"rename":"bell rails",

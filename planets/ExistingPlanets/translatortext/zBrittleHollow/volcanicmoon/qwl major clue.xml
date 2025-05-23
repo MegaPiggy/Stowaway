@@ -25,7 +25,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		CYCAD: Worry not, my friend. I do not mind traveling by shuttle! In fact, if I had not traveled here by shuttle, I might have missed something rather curious..
+		CYCAD: Worry not, my friend; I enjoy the scenic travel a shuttle brings. However, I have noticed something rather curious!
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		ROOT: Around <![CDATA[<color=lightblue>Hollow's Lantern?</color>]]> Ah! You must have caught a glimpse of the <![CDATA[<color=orange>Quantum Weather Lab,</color>]]> Cycad!
+		ROOT: Around <![CDATA[<color=lightblue>Hollow's Lantern?</color>]]> Ah, you must have caught a glimpse of the <![CDATA[<color=orange>Quantum Weather Lab,</color>]]> Cycad.
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -60,7 +60,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CYCAD: Caught a glimpse? Does that mean the <![CDATA[<color=orange>Quantum Weather Lab</color>]]> exists in quantum superposition around <![CDATA[<color=lightblue>Hollow's Lantern?</color>]]>
+		CYCAD: Caught a glimpse? Does this <![CDATA[<color=orange>Quantum Weather Lab</color>]]> exist in quantum superposition around <![CDATA[<color=lightblue>Hollow's Lantern?</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -69,7 +69,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		ROOT: No, my friend! The <![CDATA[<color=orange>Quantum Weather Lab</color>]]> is named as such, because it was built to study how meteors launched from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> are affected as the <![CDATA[<color=lightblue>Quantum Moon</color>]]> orbits <![CDATA[<color=lightblue>Brittle Hollow.</color>]]>
+		ROOT: No, my friend! The <![CDATA[<color=orange>Quantum Weather Lab</color>]]> is named so, because it was built to study how meteors launched from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> are affected as the <![CDATA[<color=lightblue>Quantum Moon</color>]]> orbits <![CDATA[<color=lightblue>Brittle Hollow.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -78,7 +78,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		ROOT: The station is difficult to glimpse due to its artificial, stationary orbit around <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> - which causes it to often be cloaked in shadow behind <![CDATA[<color=lightblue>Hollow's Lantern,</color>]]> or <![CDATA[<color=lightblue>Brittle Hollow.</color>]]>
+		ROOT: The station is difficult to glimpse due to its artificial, stationary orbit around <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> - which causes it to often be cloaked in shadow behind <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> or <![CDATA[<color=lightblue>Brittle Hollow.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -88,7 +88,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		CYCAD: How intriguing.. I must visit this <![CDATA[<color=orange>Quantum Weather Lab</color>]]> to learn more if I get the chance!
+		CYCAD: How intriguing.. I must visit this <![CDATA[<color=orange>Quantum Weather Lab</color>]]> to learn more when I have the chance!
 		</Text>
 	</TextBlock>
 
