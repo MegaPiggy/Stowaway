@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3609338822
+CRC: 1715541519
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f39d5805698fc238817cd9ef13672371
+    Hash: 42a99d7d5ce8fc01f96ebcd0df26f416
   TypeTreeHash:
     serializedVersion: 2
     Hash: 2ab24cf11f6198e2faab65b3dc5da338
@@ -131,7 +131,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Models/Solanum alloyed prefab.prefab
 - Assets/Models/gm sphere.prefab
 - Assets/Models/Materials/comet mural side.prefab
 - Assets/Models/db egg hole.prefab
