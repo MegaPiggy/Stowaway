@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		OENO: It is as I suspected.. Poke, it is the sand column traveling over the rotating doors that causes their vision orbs to rise!
+		OENO: It is as I suspected, Poke. It appears the rotating doors' vision orbs rise every time the sand column passes overhead.
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		POKE: But of course! The sand column is flowing towards <![CDATA[<color=lightblue>Ember Twin..</color>]]> The same force that causes sand to flow from one twin to another must be pulling the doors' vision orbs in the same direction!
+		POKE: But of course.. The sand column is currently flowing upwards towards <![CDATA[<color=lightblue>Ember Twin.</color>]]> It must be the sunless day that is pulling the doors' vision orbs in the same direction!
 		</Text>
 	</TextBlock>
 
@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		POKE: We must investigate this further! Does that mean that the vision orbs would be pulled downwards if sand flows in the opposite direction?
+		POKE: We must investigate this further! Does that mean that the vision orbs would be pulled downwards when sand flows in the opposite direction?
 		</Text>
 	</TextBlock>
 
@@ -33,25 +33,25 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: I imagine that that would be much harder to notice..
+		OENO: I imagine that that would be much harder to notice.. There must be a better way to investigate our hypothesis.
 		</Text>
 	</TextBlock>
 
 		<TextBlock>
-		<ID>4</ID>
-		<LocationB />
-		<ParentID>3</ParentID>
-		<Text>
-		OENO: But there may be a better way to investigate our hypothesis... We simply need to wait for the <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> current sand transfer cycle to end!
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
 		<ID>5</ID>
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: If the vision orbs no longer rise on their own in the sand column's absence, that would be a successful control to prove our hypothesis true!
+		POKE: In that case, I propose we wait for the <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> current sand transfer cycle to end!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		POKE: If the vision orbs no longer rise on their own in the sand column's absence, that would be a successful control to prove our hypothesis true!
 		</Text>
 	</TextBlock>
 

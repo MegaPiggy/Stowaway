@@ -23,7 +23,7 @@
 
 	<TextBlock>
 		<ID>3</ID>
-		<ParentID>1</ParentID>
+		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
 		OENO: However, this investigation has given me an idea.
@@ -35,7 +35,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: There is a second tower on <![CDATA[<color=lightblue>Ash Twin</color>]]> with rotating doors.
+		OENO: If we observe the issue occurring at this second tower as well, I may have an idea what is causing this issue!
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		OENO: We should visit this second tower to see if the issue we observed occurs there!
+		OENO: There is a second tower on <![CDATA[<color=lightblue>Ash Twin</color>]]> with rotating doors.
 		</Text>
 	</TextBlock>
 	

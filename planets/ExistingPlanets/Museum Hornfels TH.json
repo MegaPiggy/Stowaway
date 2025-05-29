@@ -30,7 +30,8 @@
 				"overrideLanternRange": true,
 				"radius": 10,
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
-			"isRelativeToParent": true
+			"isRelativeToParent": true,
+			"parentPath": "Sector_TH/Sector_Sanctuary"
 			}
 		]
 	},
@@ -43,14 +44,16 @@
 			"volume": 0.35,
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
 			"radius": 15,
-			"isRelativeToParent": true
+			"isRelativeToParent": true,
+			"parentPath": "Sector_TH/Sector_Sanctuary"
 		}
 	],
 	"reverbVolumes":
 	[
 		{
 		"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
-		"radius": 15
+		"radius": 15,
+			"parentPath": "Sector_TH/Sector_Sanctuary"
 		}
 	],
 	"revealVolumes":
@@ -69,7 +72,8 @@
 			"radius": 11.2,
 			"revealOn": "snapshot",
 			"maxDistance": 10,
-			"reveals": ["SY R1"]
+			"reveals": ["SY R1"],
+			"parentPath": "Sector_TH/Sector_Sanctuary"
 		},
 		{
 			"position":{"x":-236.3961,"y": -46.0138,"z": -69.0241}, 
@@ -95,7 +99,8 @@
 				"position":{"x": -109.9268,"y": 12.6085,"z": 126.075},
 				"maxDistance": 50,
 				"minDistance": 10,
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+			"parentPath": "Sector_TH/Sector_Sanctuary"
 			}
 		],
 		"socketQuantumGroups": [
@@ -124,9 +129,11 @@
 						"probability": 1
 					},
 					{
-						"position":{"x": -105.194,"y": 16.9304,"z": 118.096},
+						"position":{"x": -103.7722,"y": 17.865,"z": 117.3124},
 						"rotation": {"x":311.8705,"y": 40.1255,"z": 88.4716},
-						"probability": 5
+						"probability": 5,
+						"parentPath": "Sector_TH/Sector_Sanctuary",
+						"isRelativeToParent": true
 					}
 				]
 			}
@@ -177,6 +184,7 @@
 			"rename": "Campsite pstone",
 			"position": {"x": -153.9741, "y": 12.7284, "z": -129.9912},
 			"rotation": {"x": 277.1894, "y": 111.6268, "z": 298.6733},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 			"isRelativeToParent": true
 		}
 	],
@@ -184,11 +192,13 @@
 	{
 		"position":{"x": -101.8326,"y": 12.3976,"z": 119.711},
 		"rotation":{"x": 316.3963,"y": 55.1629,"z": 81.2394},
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 		"isRelativeToParent": true
 	},
 		"whiteboard": {
 			"position":{"x": -98.4598,"y": 20.2231,"z": 123.4077},
 			"rotation":{"x": 37.2845,"y": 232.3913,"z": 276.4073},
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 			"isRelativeToParent": true,
 			"nomaiText": [
 				{
@@ -213,29 +223,24 @@
 	}
 ],
 		"translatorText": [
-			{
-				"rename": "TH Mine direction cairn",
-				"position": {"x": -148.4303,"y": 5.2601,"z": -136.9203},
-				"rotation": {"x": 358.7913,"y": 317.6837,"z": 87.828},
-				"type": "cairnTH",
-				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/direction cairn.xml",
-				"isRelativeToParent": true
-			},
+			
 			{
 				"rename": "TH Mine NoEntry walltext",
 				"position": {"x": -0.2758,"y": 0.5021,"z": 0.6213},
 				"rotation": {"x": 271.058,"y": 22.6211 ,"z": 293.0551},
 				"type": "wall",
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/gate cairn.xml",
-				"parentPath": "Sector_TH/Gate tablet/",
+				"parentPath": "Sector_TH/Sector_MinesGate/Gate tablet/",
 				"isRelativeToParent": true
 			},
 			{
 				"rename": "sanctuary scroll",
-				"position": {"x":-98.3442,"y": 17.0017,"z": 126.348},
+				"position": {"x":-98.5592,"y": 17.0017,"z": 126.2494},
 				"rotation": {"x":19.5795,"y": 226.9622,"z": 351.1042},
+				"isRelativeToParent": true,
 				"type": "scroll",
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/sanctuary entangle.xml",
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"seed":1,
 				"arcInfo": [
 					{},
@@ -251,9 +256,11 @@
 			},
 			{
 				"rename": "sanctuary cassava whiteboard",
-				"position": {"x":-96.6896,"y": 13.2562,"z": 125.6484},
+				"position": {"x":-96.6896,"y": 13.2562,"z": 123.8491},
 				"rotation": {"x":0.7417 ,"y": 226.4707,"z": 273.6281},
+				"isRelativeToParent": true,
 				"type": "whiteboard",
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"seed":1,
 				"arcInfo": [
 					{},
@@ -282,6 +289,7 @@
 				"type": "scroll",
 				"seed":1,
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/cassava moon.xml",
+					"parentPath": "Sector_TH/Sector_WarpRuins",
 				"isRelativeToParent": true
 			},
 			{
@@ -291,15 +299,24 @@
 				"type": "whiteboard",
 				"seed":3,
 				"isRelativeToParent": true,
+					"parentPath": "Sector_TH/Sector_WarpRuins",
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/TH warp tower caution.xml"
 			},
 			
-
-
+			{
+				"rename": "TH Mine direction cairn",
+				"position": {"x": -210.384,"y": -10.0186,"z": -119.2586},
+				"rotation": {"x": 11.4869,"y": 313.1311,"z": 91.873},
+				"type": "cairnTH",
+				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/direction cairn.xml",
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
+				"isRelativeToParent": true
+			},
 			{
 				"rename": "Campsite recording",
 				"position": {"x": -155.0376, "y": 5.5499, "z": -130.3022},
 				"rotation": {"x": 51.38, "y": 145.983, "z": 274.6353},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"type": "recorder",
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/mines sanctuary talk vm.xml"
 			}
@@ -308,24 +325,7 @@
 
 		
 		"details": [
-			{
-				"rename":"Sanctuary innershell new",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/star ore shell.prefab",
-				"position":{"x": 7.5901,"y": 2.4209,"z": 118.9957},
-				"rotation": {"x":0,"y":0,"z":0},
-				"scale": 0.35,
-				"isRelativeToParent": true,
-				"keepLoaded": true
-			},{
-				"rename":"Sanctuary outershell new",
-				"path":"TowerTwin_Body/Sector_TowerTwin/Geometry_TowerTwin/OtherComponentsGroup/ControlledByProxy_Base/Terrain_HT_TowerTwin_TLD_Shell/TimeLoopShell/outerShell/",
-				"position":{"x": 7.5901,"y": 2.4209,"z": 118.9957},
-				"rotation": {"x":0,"y":0,"z":0},
-				"scale": 0.3,
-				"isRelativeToParent": true,
-				"keepLoaded": true
-			},
+			
 
 			
 			{
@@ -346,32 +346,6 @@
 				"stretch": {"x":0.3255,"y": 1,"z": 0.1855},
 				"isRelativeToParent": true
 			},
-			
-			
-
-			
-			{
-				"rename":"gate cacti 1",
-				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_HGT/Interactables_Tower_HGT/Interactables_Tower_TT/Prefab_HGT_Cactus_Double_A",
-				"position":{"x": -60.8144,"y": -25.3588,"z": -203.1349},
-				"rotation":{"x":289.8564,"y": 274.4069,"z": 100.7854},
-				"isRelativeToParent": true
-			},{
-				"rename":"gate cacti 2",
-				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_HGT/Interactables_Tower_HGT/Interactables_Tower_TT/Prefab_HGT_Cactus_Double_A",
-				"position":{"x": -66.187,"y": -25.9428,"z": -201.6191},
-				"rotation":{"x":276.1812,"y": 9.9616,"z": -0.0002},
-				"scale":0.7,
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"warp camp statue cube",
-				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
-				"position":{"x": -239.5936,"y": -34.4093,"z": -60.9421},
-				"rotation":{"x": 283.4963,"y": 204.1538,"z": 231.372},
-				"isRelativeToParent": true
-			},
-
 
 			{
 				"rename":"aquifer block",
@@ -393,38 +367,42 @@
 				"position":{"x": -47.4333,"y": -29.614,"z": 177.5344},
 				"rotation":{"x": 344.7034,"y": 82.1628,"z": 107.7959},
 				"isRelativeToParent": true
-			},	{
-				"rename":"warpreceiver decor staff",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/Props_Core_OldSettlement0/Prefab_NOM_Staff",
-				"position": {"x": -235.3889, "y": -45.9223, "z": -69.8981},
-				"rotation":{"x": 330.9039,"y": 205.7216,"z": 225.7501},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"warpreceiver decor corpse",
-				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/QuantumDeadNomaiSuit/State_2/Prefab_NOM_Dead_Suit_GroundA/",
-				"position": {"x": -237.1353, "y": -42.0418, "z": -66.5227},
-				"rotation":{"x": 304.2661,"y": 178.422,"z": 255.0333},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"warpreceiver board purple LIGHT",
-				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_NomaiEyeExhibit",
-				"position": {"x": -229.2598, "y": -38.4135, "z": -96.5576},
-				"isRelativeToParent": true
 			},
 
+
+
+			{
+				"rename": "Sector_MinesGate"
+			},
+			{
+				"rename":"gate cacti 1",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_HGT/Interactables_Tower_HGT/Interactables_Tower_TT/Prefab_HGT_Cactus_Double_A",
+				"position":{"x": -60.8144,"y": -25.3588,"z": -203.1349},
+				"rotation":{"x":289.8564,"y": 274.4069,"z": 100.7854},
+				"parentPath": "Sector_TH/Sector_MinesGate",
+				"isRelativeToParent": true
+			},{
+				"rename":"gate cacti 2",
+				"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_HGT/Interactables_Tower_HGT/Interactables_Tower_TT/Prefab_HGT_Cactus_Double_A",
+				"position":{"x": -66.187,"y": -25.9428,"z": -201.6191},
+				"rotation":{"x":276.1812,"y": 9.9616,"z": -0.0002},
+				"parentPath": "Sector_TH/Sector_MinesGate",
+				"scale":0.7,
+				"isRelativeToParent": true
+			},
 			{
 				"rename":"Gate tablet",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/tablet.prefab",
 				"position": {"x": -63.7623, "y": -23.8184, "z": -203.2395},
 				"rotation": {"x": 312.2981, "y": 333.0978, "z": 52.321},
+				"parentPath": "Sector_TH/Sector_MinesGate",
 				"isRelativeToParent": true
 			},{
 				"rename":"gate purple LIGHT",
 				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_NomaiEyeExhibit",
 				"position": {"x": -64.1714, "y": -23.2275, "z": -204.9669},
+				"parentPath": "Sector_TH/Sector_MinesGate",
 				"isRelativeToParent": true
 			},
 			{
@@ -433,6 +411,7 @@
 				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
 				"position": {"x": -69.4568, "y": -23.3966, "z": -203.5316},
 				"rotation": {"x": 273.1927, "y": 291.3129, "z": 83.5469},
+				"parentPath": "Sector_TH/Sector_MinesGate",
 				"isRelativeToParent": false
 			},{
 				"rename":"Gate torch 2",
@@ -440,6 +419,7 @@
 				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
 				"position": {"x": -58.6116, "y": -24.7639, "z": -206.7107},
 				"rotation": {"x": 273.1927, "y": 291.3129, "z": 83.5469},
+				"parentPath": "Sector_TH/Sector_MinesGate",
 				"isRelativeToParent": false
 			},
 			{
@@ -447,12 +427,13 @@
 				"path":"CaveTwin_Body/Sector_CaveTwin/Interactables_CaveTwin/TLE_ProbeWindow",
 				"position": {"x": -66.6338, "y": -28.8488 , "z": -219.2198},
 				"rotation": {"x": 13.1357, "y": 197.3444, "z": -0.0001},
+				"parentPath": "Sector_TH/Sector_MinesGate",
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"Mines Literal Gate 2",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Interactables_CaveTwin/TLE_ProbeWindow",
-				"parentPath": "Sector_TH/Mines Literal Gate 1",
+				"parentPath": "Sector_TH/Sector_MinesGate/Mines Literal Gate 1",
 				"position": {"x": 4.3299, "y": -0.0487, "z": -13.5858},
 				"rotation": {"x": 0, "y": 0, "z": 0},
 				"isRelativeToParent": true
@@ -477,24 +458,24 @@
 				"isRelativeToParent": false
 			},
 			{
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (1)/",
 				"rename":"Forest GM 1",
 				"position": {"x": 0,"y": 1.1,"z": 0},
 				"rotation": {"x":0,"y": 333.5049,"z": 0},
 				"removeChildren": ["ProbeVisuals"],
 				"parentPath": "Sector_TH/Forest GM wisps 1",
 				"isRelativeToParent": true,
-				"stretch": {"x":1.5,"y":1.4,"z":1}
+				"stretch": {"x":1,"y":2,"z":0.5}
 			},
 			{
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (1)/",
 				"rename":"Forest GM 2",
 				"position": {"x": 0,"y": 1.1,"z": 0},
 				"rotation": {"x":0,"y": 333.5049,"z": 0},
 				"removeChildren": ["ProbeVisuals"],
 				"parentPath": "Sector_TH/Forest GM wisps 2",
 				"isRelativeToParent": true,
-				"stretch": {"x":1.5,"y":1.4,"z":1}
+				"stretch": {"x":1,"y":2,"z":0.5}
 			},
 			{
 				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume/NotificationVolume",
@@ -536,10 +517,10 @@
 			},
 			{
 				"rename":"TH stowaway GM volume",
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (2)",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (1)/",
 				"position":{"x":0,"y": 1.0998,"z": -0.018},
 				"rotation":{"x":356.6906,"y": 6.7522,"z": 0},
-				"stretch": {"x": 1.6,"y": 1.5,"z": 1.3},
+				"stretch": {"x":1,"y":2,"z":0.5},
 				"removeChildren": ["ProbeVisuals"],
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Stowaway GM wisps"
@@ -564,9 +545,9 @@
 			{
 				"rename":"AuroraWisps village volume",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Interactables_EyeDistrict/DarkMatter/DarkMatterVolume (1)/",
-				"position": {"x":-0.2,"y": 1.5655,"z": 0},
+				"position": {"x":-0.2,"y": 1,"z": 0},
 				"rotation": {"x":0,"y": 332.314,"z": 0},
-				"stretch": {"x":1.5,"y":2.2,"z":1.1},
+				"stretch": {"x":1,"y":2,"z":0.5},
 				"removeChildren": ["ProbeVisuals"],
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/AuroraWisps village patch"
@@ -586,23 +567,26 @@
 
 
 			
-
+			{
+				"rename":"Sector_TH_NomaiCampsite"
+			},
 			{
 				"rename":"Campsite log seat",
 				"path":"DB_PioneerDimension_Body/Sector_PioneerDimension/Props_PioneerDimension/OtherComponentsGroup/Props_HEA_CampsiteLogAssets/Props_TH_Log (16)/",
 				"position": {"x": -156.1512, "y": 4.3876, "z": -128.1265},
 				"rotation": {"x": 61.0549, "y": 142.083, "z": 359.9258},
 				"stretch": {"x":0.5,"y":0.4,"z":0.5},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"Campsite log seat collider",
 				"assetBundle": "planets/bundle/stowaway3",
 				"path": "assets/models/cube.prefab",
-				"position": {"x": -0.4208, "y": 8.7389, "z": 0.0934},
-				"rotation": {"x": 271.3771, "y": 238.5813, "z": 32.3693},
-				"parentPath": "Sector_TH/Campsite log seat",
-				"stretch": {"x":1,"y":1,"z":18.9745},
+				"position": {"x": -154.0891, "y": 6.1839, "z": -130.5557},
+				"rotation": {"x": 30.8134, "y": 322.1584, "z": 180},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
+				"stretch": {"x":1.5,"y":1.5,"z": 7.3},
 				"isRelativeToParent": true
 			},
 			{
@@ -611,6 +595,7 @@
 				"path":"assets/nomai ruins/prefabs/broken box.prefab",
 				"position": {"x": -155.8425, "y": 5.0372, "z": -129.3951},
 				"rotation": {"x": 20.4481, "y": 318.2293, "z": 93.1902},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
 			{
@@ -619,6 +604,7 @@
 				"path":"assets/nomai ruins/prefabs/broken box.prefab",
 				"position": {"x": -153.7728, "y": 13.0469, "z": -130.2021},
 				"rotation": {"x": 73.9752, "y": 308.0198, "z": 77.4361},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
 			{
@@ -627,11 +613,12 @@
 				"path":"assets/nomai ruins/prefabs/Wall_Corner_BOTH.prefab",
 				"position": {"x": -155.4523, "y": 13.3692, "z": -127.8345},
 				"rotation": {"x": 0, "y": 280.0461, "z": 85.211},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"Tent wall 2",
-				"parentPath": "Sector_TH/Tent wall 1",
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent wall 1",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/Wall_Corner_BOTH.prefab",
 				"position": {"x": 0.0717, "y": 2.9314, "z": -3.8976},
@@ -641,7 +628,7 @@
 			{
 				"rename":"Tent backscreen",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Interactables_CaveTwin/TLE_ProbeWindow",
-				"parentPath": "Sector_TH/Tent wall 1",
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent wall 1",
 				"position": {"x": 1.5612, "y": 1.6909, "z": -1.8392},
 				"rotation": {"x": 274.647, "y": 183.1608, "z": 86.655},
 				"scale":0.24,
@@ -653,39 +640,49 @@
 				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
 				"position": {"x": -155.6989, "y": 12.4467, "z": -129.951},
 				"rotation": {"x": 10.3169, "y": 109.5469, "z": 261.4991},
-				"parentPath": "Sector_TH/Tent wall 1",
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent wall 1",
 				"isRelativeToParent": false
 			},
 			{
 				"rename":"Tent 2",
-				"path":"TimberHearth_Body/Sector_TH/Tent wall 1",
+				"path":"TimberHearth_Body/Sector_TH_NomaiCampsite/Sector_TH/Tent wall 1",
 				"position": {"x": -151.3642, "y": -9.5186, "z": -133.0712},
 				"rotation": {"x": 336.7781, "y": 183.9071, "z": 242.4277},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"Tent 3",
-				"path":"TimberHearth_Body/Sector_TH/Tent 2",
+				"path":"TimberHearth_Body/Sector_TH_NomaiCampsite/Sector_TH/Tent 2",
 				"position": {"x": -160.9941, "y": -11.7362, "z": -121.9005},
 				"rotation": {"x": 47.6221, "y": 193.8561, "z": 314.0461},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
-
-			
-			
-
-			
-			
-
-
-		
 			{
 				"rename":"TH campsite STAIRS",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/stairsthin_long_brk.prefab",
 				"position":{"x": -133.4741,"y": 13.8794,"z": -133.0373},
 				"rotation":{"x": 82.2596 ,"y": 119.3197,"z": 256.482},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"scale": 3,
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Campsite rail torch 1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
+				"position": {"x": -121.9534, "y": -52.6056, "z": -187.8005},
+				"rotation": {"x": 42.9502,"y": 110.371,"z": 251.9097},
+				"isRelativeToParent": true
+			},{
+				"rename":"Campsite rail torch 2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
+				"position": {"x": -125.4779, "y": -57.6048, "z": -183.9872},
+				"rotation": {"x": 42.8267,"y": 110.1672,"z": 249.11},
 				"isRelativeToParent": true
 			},
 			{
@@ -695,99 +692,25 @@
 				"position": {"x": -150.4917, "y": 14.0403, "z": -133.4574},
 				"rotation": {"x": 30.4417, "y": 218.6741, "z": 74.2792},
 				"removeChildren": ["WallTorch_Connector"],
-				"isRelativeToParent": true
-			},
-			
-
-
-
-			{
-				"rename":"Stowaway GM crystals 1",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": -236.5421,"y": -42.8649,"z": -70.7507},
-				"rotation":{"x": 311.9999,"y": 174.7632,"z": 256.904},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
 			{
-				"rename":"Stowaway GM crystals 2",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": -3.0096,"y": 0.036,"z": -1.0125},
-				"rotation":{"x": 359.9417,"y": 341.6249,"z": 1.0596},
-				"parentPath": "Sector_TH/Stowaway GM crystals 1",
+				"rename":"Exit torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position": {"x": -176.5714, "y": 18.2657, "z": -121.0554},
+				"rotation": {"x": 316.8282, "y": 170.1429, "z": 254.2792},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
-			{
-				"rename":"Stowaway GM crystals 3",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": 7.8194,"y": -1.9541,"z": -2.4754},
-				"rotation":{"x": 330.9178,"y": 241.8973,"z": 269.2609},
-				"parentPath": "Sector_TH/Stowaway GM crystals 1",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Stowaway GM crystals 4",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": 0.0815,"y": -0.9458,"z": -6.6361},
-				"rotation":{"x": 331.4653,"y": 60.7337,"z": 91.0316},
-				"parentPath": "Sector_TH/Stowaway GM crystals 1",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Stowaway GM crystals 5",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": -5.7843,"y": -0.1471,"z": -5.483},
-				"rotation":{"x": 0.6285,"y": 305.9467,"z": 1.2278},
-				"parentPath": "Sector_TH/Stowaway GM crystals 1",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Stowaway GM crystals 6",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": 3.719,"y": -0.286,"z": -1.0761},
-				"rotation":{"x": 356.6565,"y": 236.7501,"z": 3.2639},
-				"parentPath": "Sector_TH/Stowaway GM crystals 1",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Stowaway GM crystals 7",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x": -6.367,"y": -0.9445,"z": -9.7214},
-				"rotation":{"x": 319.7386,"y": 67.1844,"z": 80.8831},
-				"parentPath": "Sector_TH/Stowaway GM crystals 1",
-				"isRelativeToParent": true
-			},
-
-			{
-				"rename":"Stowaway shelf",
-				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)/Strucutre_NOM_Shelf",
-				"position": {"x": -235.7025, "y": -47.441, "z": -70.1888},
-				"rotation": {"x": 11.8173, "y": 254.7957, "z": 22.1267},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Stowaway flowers",
-				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/DetailPatches_NomaiCrater/NomaiSideCrater Foliage/Foliage_TH_NomaiSideCrater_GrassPatch (1)",
-				"position": {"x": -235.6701, "y": -41.3105, "z": -74.0075},
-				"rotation": {"x": 292.5604, "y": 175.4832, "z": 252.8568},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Stowaway bridge note LIGHT",
-				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
-				"position": {"x": -238.0804, "y": -44.8836, "z": -68.5094},
-				"isRelativeToParent": true
-			},
-
-
-
-
-
 			{
 				"rename":"Campsite ceiling lamp fallen",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/ceilinglamp.prefab",
 				"position": {"x": -157.0564,"y": -3.0105,"z": -129.0247},
 				"rotation": {"x":358.2899,"y": 105.0044,"z": 77.573},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
 			{
@@ -796,6 +719,7 @@
 				"path":"assets/nomai ruins/prefabs/ceilinglamp.prefab",
 				"position": {"x": -159.9952,"y": -1.9277,"z": -152.1374},
 				"rotation": {"x": 5.3683,"y": 318.2706,"z": 90.4635},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
 			{
@@ -803,8 +727,119 @@
 				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_NomaiEyeExhibit",
 				"position": {"x": -155.6221,"y": 5.7121,"z": -130.4312},
 				"rotation": {"x": 25.3,"y": 320.990,"z": 86.8018},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
+
+
+			{
+				"rename": "Sector_WarpRuins"
+			},
+			{
+				"rename":"Stowaway GM crystals 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -236.5421,"y": -42.8649,"z": -70.7507},
+				"rotation":{"x": 311.9999,"y": 174.7632,"z": 256.904},
+				"parentPath": "Sector_TH/Sector_WarpRuins",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway GM crystals 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -3.0096,"y": 0.036,"z": -1.0125},
+				"rotation":{"x": 359.9417,"y": 341.6249,"z": 1.0596},
+				"parentPath": "Sector_TH/Sector_WarpRuins/Stowaway GM crystals 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway GM crystals 3",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 7.8194,"y": -1.9541,"z": -2.4754},
+				"rotation":{"x": 330.9178,"y": 241.8973,"z": 269.2609},
+				"parentPath": "Sector_TH/Sector_WarpRuins/Stowaway GM crystals 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway GM crystals 4",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 0.0815,"y": -0.9458,"z": -6.6361},
+				"rotation":{"x": 331.4653,"y": 60.7337,"z": 91.0316},
+				"parentPath": "Sector_TH/Sector_WarpRuins/Stowaway GM crystals 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway GM crystals 5",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -5.7843,"y": -0.1471,"z": -5.483},
+				"rotation":{"x": 0.6285,"y": 305.9467,"z": 1.2278},
+				"parentPath": "Sector_TH/Sector_WarpRuins/Stowaway GM crystals 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway GM crystals 6",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 3.719,"y": -0.286,"z": -1.0761},
+				"rotation":{"x": 356.6565,"y": 236.7501,"z": 3.2639},
+				"parentPath": "Sector_TH/Sector_WarpRuins/Stowaway GM crystals 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway GM crystals 7",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -6.367,"y": -0.9445,"z": -9.7214},
+				"rotation":{"x": 319.7386,"y": 67.1844,"z": 80.8831},
+				"parentPath": "Sector_TH/Sector_WarpRuins/Stowaway GM crystals 1",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Stowaway shelf",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)/Strucutre_NOM_Shelf",
+				"position": {"x": -235.7025, "y": -47.441, "z": -70.1888},
+				"rotation": {"x": 11.8173, "y": 254.7957, "z": 22.1267},
+				"parentPath": "Sector_TH/Sector_WarpRuins",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway flowers",
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/DetailPatches_NomaiCrater/NomaiSideCrater Foliage/Foliage_TH_NomaiSideCrater_GrassPatch (1)",
+				"position": {"x": -235.6701, "y": -41.3105, "z": -74.0075},
+				"rotation": {"x": 292.5604, "y": 175.4832, "z": 252.8568},
+				"parentPath": "Sector_TH/Sector_WarpRuins",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Stowaway jellymoon note LIGHT",
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
+				"position": {"x": -238.0804, "y": -44.8836, "z": -68.5094},
+				"parentPath": "Sector_TH/Sector_WarpRuins",
+				"isRelativeToParent": true
+			},
+				{
+				"rename":"warpreceiver decor staff",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 0/Core_OldSettlement0/Props_Core_OldSettlement0/Prefab_NOM_Staff",
+				"position": {"x": -235.3889, "y": -45.9223, "z": -69.8981},
+				"rotation":{"x": 330.9039,"y": 205.7216,"z": 225.7501},
+				"parentPath": "Sector_TH/Sector_WarpRuins",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"warpreceiver decor corpse",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/QuantumDeadNomaiSuit/State_2/Prefab_NOM_Dead_Suit_GroundA/",
+				"position": {"x": -237.1353, "y": -42.0418, "z": -66.5227},
+				"rotation":{"x": 304.2661,"y": 178.422,"z": 255.0333},
+				"parentPath": "Sector_TH/Sector_WarpRuins",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"warpreceiver board purple LIGHT",
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_NomaiEyeExhibit",
+				"position": {"x": -229.2598, "y": -38.4135, "z": -96.5576},
+				"parentPath": "Sector_TH/Sector_WarpRuins",
+				"isRelativeToParent": true
+			},
+
+
 			
 			{
 				"rename":"Museum shard NEW",
@@ -868,23 +903,22 @@
 
 
 
-		
-
-
+			{
+				"rename":"Sector_Sanctuary"
+			},
+	
+			{
+				"rename":"Sanctuary Isle",
+				"isRelativeToParent": true,
+				"position": {"x":0.315,"y":0,"z":-1.501},
+				"parentPath": "Sector_TH/Sector_Sanctuary"
+			},
 			{
 				"rename":"Sanctuary shelf",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/Prefab_NOM_Shelf (2)/Strucutre_NOM_Shelf",
 				"position":{"x": -96.7289,"y": 17.1523,"z": 125.2117},
 				"rotation":{"x": 68.6951,"y": 33.8404,"z": 165.8468},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"sanctuary active pool",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
-				"position": {"x": -0.0041, "y": -0.6562 , "z": -0.211},
-				"rotation": {"x": 0.0075, "y": 180.3452, "z": -0.0019},
-				"scale":6.5,
-				"parentPath": "Sector_TH/Prefab_NOM_RemoteViewer",
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"isRelativeToParent": true
 			},
 			{
@@ -892,14 +926,16 @@
 				"path":"WhiteholeStationSuperstructure_Body/Geometry_WhiteholeStationSuperstructure/ControlledByProxy_WhiteholeStation/Structure_NOM_WhiteHoleStation_Rails",
 				"position":{"x": -109.562,"y": 14.8009,"z": 120.6296},
 				"rotation":{"x": 357.4664,"y": 320.3704,"z": 127.6975},
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"scale":0.39,
 				"isRelativeToParent": true
 			},
 			{
 				"rename":"Sanctuary sun orbit",
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Interactables_Module_Sunken/HologramProjector/HologramDisplayPoint/Hologram_LatestProbeTrajectory/ScaleRoot/GiantsDeepRoot/Cannon_Pivot",
-				"position":{"x": -106.5561,"y": 17.7662,"z": 122.7516},
-				"rotation":{"x":7.674,"y": 136.5031,"z": 52.3203},
+				"position":{"x": -106.5565,"y": 17.7662,"z": 122.7521},
+				"rotation":{"x":349.1942,"y": 150.7467,"z": 51.9236},
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"scale":10,
 				"removeChildren": ["CannonRoot"],
 				"isRelativeToParent": true
@@ -910,7 +946,7 @@
 				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
 				"position":{"x":0.235,"y": -0.4636,"z": -1.401},
 				"rotation":{"x":90,"y": 90,"z": 0},
-				"parentPath": "Sector_TH/Sanctuary sun orbit",
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle/Sanctuary sun orbit",
 				"isRelativeToParent": true
 			},
 			{
@@ -918,7 +954,7 @@
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Lighting_Module_Sunken/FillLight_SunkenModule",
 				"position":{"x":-0.2873,"y": 0.1855,"z": 0.0291},
 				"rotation":{"x":90,"y": 0,"z": 0},
-				"parentPath": "Sector_TH/Sanctuary sun orbit/Sanctuary Lamp",
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle/Sanctuary sun orbit/Sanctuary Lamp",
 				"isRelativeToParent": true
 			},
 			{
@@ -926,6 +962,7 @@
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Interactables_QuantumTower/Prefab_NOM_DockingTractorBeam/Props_NOM_LargeTractorBeam_Geo",
 				"position":{"x": -103.1251,"y": 14.2129,"z": 115.1538},
 				"rotation":{"x":40.2498,"y": 25.9689,"z": 248.671},
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"scale":0.7,
 				"isRelativeToParent": true
 			},
@@ -935,17 +972,16 @@
 				"position":{"x":-67.928,"y": 13.5009,"z": 84.4422},
 				"rotation":{"x":60.065,"y": 215.2783,"z": 270.9452},
 				"stretch": {"x":0.11,"y":0.09,"z":0.11},
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"isRelativeToParent": true
 			},
-
-
-
 			{
 				"rename":"Sanctuary plant",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
 				"position":{"x":-105.0229,"y": 22.4021,"z": 117.2431},
 				"rotation":{"x":71.1896,"y": 271.5473,"z": 314.597},
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"isRelativeToParent": true
 			},
 			{
@@ -954,25 +990,46 @@
 				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
 				"position":{"x":-106.2336,"y": 3.8682,"z": 118.9442},
 				"rotation":{"x":273.8436 ,"y": 100.1827,"z": 36.9031},
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"isRelativeToParent": true
 			},
-			
 			{
-				"rename":"Sanctuary shell rotate",
+				"rename":"Sanctuary mountain big",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)/",
+				"position":{"x": -98.1982,"y": 12.3135,"z": 113.3502},
+				"rotation":{"x":311.0583,"y": 219.0446,"z": 280.4496},
+				"stretch": {"x":2.5,"y": 2,"z": 2.5},
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Sanctuary mountain inner",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)/",
+				"position":{"x": -98.0246,"y": 12.2115,"z": 115.6838},
+				"rotation":{"x": 279.5258,"y": 142.7041,"z": 350.1608},
+				"stretch": {"x":1.7,"y": 1.5,"z": 1.7},
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"Sanctuary rotate",
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/rotation guy.prefab",
+				"isRelativeToParent": true,
 				"position":{"x": -98.5251,"y": 13.9085,"z": 126.4475},
 				"rotation": {"x":0,"y":0,"z":0},
-				"isRelativeToParent": true
+				"parentPath": "Sector_TH/Sector_Sanctuary"
 			},
 			{
-				"rename":"Sanctuary shell",
+				"rename":"Sanctuary innershell",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/star ore shell.prefab",
-				"position":{"x": 0,"y": 0,"z": 0},
+				"position": {"x":0,"y":0,"z":0},
 				"rotation": {"x":0,"y":0,"z":0},
-				"parentPath": "Sector_TH/Sanctuary shell rotate",
 				"scale": 1.5,
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary rotate",
 				"isRelativeToParent": true,
 				"keepLoaded": true
 			},
@@ -981,6 +1038,7 @@
 				"path":"TimberHearth_Body/Sector_TH/Sector_RadioTower/RadioTower_noDLC/OcclusionEffects_Grove/OcclusionVolume_RadioTower",
 				"position":{"x": -86.8687,"y": 17.8649,"z": 95.6679},
 				"rotation":{"x":331.3686,"y": 62.1643,"z": 95.5896},
+				"parentPath": "Sector_TH/Sector_Sanctuary",
 				"scale": 95,
 				"isRelativeToParent": true
 			},
@@ -991,24 +1049,10 @@
 				"position":{"x": -97.4024,"y": 15.6242,"z": 114.9191},
 				"rotation":{"x":275.3447,"y": 140.4986,"z": 357.649},
 				"scale": 5,
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Sanctuary mountain big",
-				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)/",
-				"position":{"x": -98.1982,"y": 12.3135,"z": 113.3502},
-				"rotation":{"x":311.0583,"y": 219.0446,"z": 280.4496},
-				"stretch": {"x":2.5,"y": 2,"z": 2.5},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Sanctuary mountain inner",
-				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)/",
-				"position":{"x": -98.0246,"y": 12.2115,"z": 115.6838},
-				"rotation":{"x": 279.5258,"y": 142.7041,"z": 350.1608},
-				"stretch": {"x":1.7,"y": 1.5,"z": 1.7},
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Sector_Sanctuary"
 			}
+			
 
 
 
@@ -1023,6 +1067,17 @@
 			{
 				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/ConversationZone_RSci",
 				"xmlFile": "planets/ExistingPlanets/dialogue/Slate existing dialogue patch 2.xml"
+			},
+			{
+				"rename":"Slate remote intro",
+				"position": {"x":43.0928,"y": -32.9543,"z": 182.2643},
+				"radius": 0,
+				"blockAfterPersistentCondition": "STOWAWAY_GO_TALK_TO_KIDS",
+				"remoteTrigger": {
+					"position": {"x":5.6347,"y": -42.2488,"z": 187.3667},
+					"radius":4
+				},
+				"xmlFile": "planets/ExistingPlanets/dialogue/Slate remote intro.xml"
 			},
 			{
 				"rename":"Arkose remote gm 1",
@@ -1064,72 +1119,8 @@
 
 			"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_UpperVillage/Characters_UpperVillage/Villager_HEA_Moraine/ConversationZone",
 			"xmlFile": "planets/ExistingPlanets/dialogue/Moraine new.xml"
-		},
-		{
-			"rename":"Moraine remote comet 1 leftpath",
-			"position": {"x": 12.7916, "y": 3.4398, "z": 235.7638},
-			"radius": 0,
-			"remoteTrigger": {
-				"position": {"x": 16.7861, "y": 6.0634 , "z": 234.7673},
-				"prereqCondition": "morc1",
-				"radius":2
-			},
-			"blockAfterPersistentCondition": "morc2",
-			"xmlFile": "planets/ExistingPlanets/dialogue/moraine remote comet.xml",
-			"isRelativeToParent": true
-		},
-		{
-			"rename":"Moraine remote comet 2 ledgeleft",
-			"position": {"x": 12.7916, "y": 3.4398, "z": 235.7638},
-			"radius": 0,
-			"remoteTrigger": {
-				"position": {"x": 12.0116, "y": 9.5125, "z": 234.7673},
-				"prereqCondition": "morc1",
-				"radius":4
-			},
-			"blockAfterPersistentCondition": "morc2",
-			"xmlFile": "planets/ExistingPlanets/dialogue/moraine remote comet.xml",
-			"isRelativeToParent": true
-		},
-		{
-			"rename":"Moraine remote comet 3 ledgeright",
-			"position": {"x": 12.7916, "y": 3.4398, "z": 235.7638},
-			"radius": 0,
-			"remoteTrigger": {
-				"position": {"x": 11.7807, "y": -2.9893 , "z": 235.9674},
-				"prereqCondition": "morc1",
-				"radius":4
-			},
-			"blockAfterPersistentCondition": "morc2",
-			"xmlFile": "planets/ExistingPlanets/dialogue/moraine remote comet.xml",
-			"isRelativeToParent": true
-		},
-		{
-			"rename":"Moraine remote comet 4 rightpath",
-			"position": {"x": 12.7916, "y": 3.4398, "z": 235.7638},
-			"radius": 0,
-			"remoteTrigger": {
-				"position": {"x": 14.6079, "y": -0.6258, "z": 234.7673},
-				"prereqCondition": "morc1",
-				"radius":2
-			},
-			"blockAfterPersistentCondition": "morc2",
-			"xmlFile": "planets/ExistingPlanets/dialogue/moraine remote comet.xml",
-			"isRelativeToParent": true
-		},
-		{
-			"rename":"Moraine remote comet 5 top",
-			"position": {"x": 12.7916, "y": 3.4398, "z": 235.7638},
-			"radius": 0,
-			"remoteTrigger": {
-				"position": {"x": 14.0552, "y": 3.6307, "z": 241.1294},
-				"prereqCondition": "morc1",
-				"radius":4
-			},
-			"blockAfterPersistentCondition": "morc2",
-			"xmlFile": "planets/ExistingPlanets/dialogue/moraine remote comet.xml",
-			"isRelativeToParent": true
 		}
+		
 	
 
 

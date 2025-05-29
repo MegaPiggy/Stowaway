@@ -57,8 +57,8 @@
 	{
 	"rename":"BrambleIsle black hole",
 	"type": "blackHole",
-	"uniqueID": "TH SHORTCUT 4",
-	"pairedSingularity": "BRAM WH",
+	"uniqueID": "TH SHORTCUT X2",
+	"pairedSingularity": "DB WH",
 	"hasWarpEffects": false,
 	"horizonRadius": 1,
 	"position":{"x":27.4433,"y": -48.2061,"z": 182.6343}
@@ -75,33 +75,7 @@
 		],
 		
 		"details": [
-			{
-				"rename": "VM simulation",
-				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/nomai ruins/mini volcano simulation.prefab",
-				"scale":0.5,
-				"position":{"x": 39.498,"y": -39.7254,"z": 186.7938},
-				"rotation": {"x":325.521,"y": 290.36,"z": 255.5162},
-				"isRelativeToParent": true
-			},{
-				"rename": "GD simulation",
-				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/nomai ruins/ocean orbit.prefab",
-				"scale":0.5,
-				"position":{"x": 35.1727,"y": -36.7874,"z": 188.594},
-				"rotation": {"x":325.521,"y": 290.36,"z": 255.5162},
-				"isRelativeToParent": true
-			},
-			
-			{
-				"rename": "hearthian husk",
-				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/player nosuit.prefab",
-				"scale":0.1,
-				"position":{"x": 19.7149,"y": -42.5073,"z": 185.0188},
-				"rotation": {"x":40.1578 ,"y": 106.6679,"z": 107.822},
-				"isRelativeToParent": true
-			}
+	
 
 		
 		],
@@ -140,8 +114,8 @@
 			"type": "whiteboard",
 			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
 			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225},
-			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/solar tower south scroll.xml",
-					"seed":0
+			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/tidal sand door.xml",
+					"seed":4
 					
 		},
 		
@@ -150,24 +124,24 @@
 			"position": {"x":24.3426, "y": -45.7584,"z": 183.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/solar tower south scroll.xml",
-			"seed":1
+			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/tidal sand door.xml",
+			"seed":5
 		},
 		{
 			"rename": "text spiral checking station floor 2",
 			"position": {"x":24.3426, "y": -45.7584,"z": 184.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/solar tower south scroll.xml",
-			"seed":2
+			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/tidal sand door.xml",
+			"seed":6
 		},
 		{
 			"rename": "text spiral checking station floor 3",
 			"position": {"x":24.3426, "y": -45.7584,"z": 185.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/solar tower south scroll.xml",
-			"seed":3
+			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/tidal sand door.xml",
+			"seed":7
 		}
 			]
 	},

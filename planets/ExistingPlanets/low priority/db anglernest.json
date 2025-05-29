@@ -4,13 +4,30 @@
 	"name": "Angler Nest Dimension",
 
 	"removeChildren": ["Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body"],
-
+"Volumes":
+{
+	"forces": 
+		{
+			"radialVolumes": 
+			[
+				{
+				"force": 1,
+				"parentPath": "Sector_AnglerNestDimension/broken egg 1",
+				"fallOff": "linear",
+				"layer": 0,
+				"priority": 1,
+				"radius": 5,
+				"alignRadial": false
+				}
+			]
+		}
+	},
 	"Props": {
 		"singularities": [
 			{
 				"type": "whiteHole",
 				"uniqueID": "DB WH",
-				"pairedSingularity": "TH SHORTCUT X",
+				"pairedSingularity": "TH SHORTCUT X2",
 				"horizonRadius": 0.05,
 				"position": {"x": -60.6175, "y": -9.2306, "z": 2.0491},
 				"isRelativeToParent": true
@@ -20,43 +37,13 @@
 		
 		"details": [
 		
-			{		"rename":"anglerfish recording purple light",
-			"path": "QuantumIsland_Body/Sector_QuantumIsland/Lighting_QuantumTower/OtherComponentsGroup/FillLight_NOM_QuantumTowerMid",
-			"position": {"x": -40.3284,"y": -8.9679,"z": 13.3042},
-			"rotation": {"x": 28.201,"y": 276.5177,"z": 47.4632},
-			"physicsRadius": 0,
-			"isRelativeToParent": true,
-			"hasPhysics": true
-			},
-			{
-				"rename":"anglerfish recording rotate",
-				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/rotation guy.prefab",
-				"position": {"x": 0,"y": 0,"z": 0},
-				"parentPath": "Sector_AnglerNestDimension/anglerfish recording purple light",
-				"isRelativeToParent": true
-			},
+			
 
-			{
-					"rename": "old mask removedbod",
-					"path":"DB_EscapePodDimension_Body/Sector_EscapePodDimension/Interactables_EscapePodDimension/DynamicProps_EscapePodDimension/DeadNomai_Body (4)/Prefab_NOM_Dead_Suit_Advanced_FloatC/Character_NOM_Dead_Suit",
-					"position": {"x": -48.2156,"y": -4.7424,"z": 23.5533},
-					"rotation": {"x": 352.1586,"y": 326.0496,"z": 98.0079},
-					"physicsRadius": 0,
-					"removeChildren": ["Character_NOM_Skeleton_v3","Nomai_Mesh:Mesh","Nomai_Rig_v01:ControlRig","Nomai_Rig_v01:TrajectorySHJnt"],
-					"hasPhysics": true
-			},
-			{
-				"rename": "mask boxcollider",
-				"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/OrbInterface/boxCollider (2)",
-				"position":{"x": 0.4992,"y": -0.1907,"z": 0.2591}, 
-				"rotation": {"x": 0,"y": 0,"z": 0},
-				"isRelativeToParent": true,
-				"parentPath": "Sector_AnglerNestDimension/old mask removedbod/Props_NOM_Mask_GearNew"
-			},
+			
+			
 			
 			{
-				"rename":"broken egg",
+				"rename":"broken egg 1",
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/db egg hole.prefab",
 				"position": {"x":-33.4691,"y": -12.6709,"z": 6.149},
@@ -70,7 +57,7 @@
 				"position": {"x":0,"y": 0,"z": 0},
 				"rotation": {"x":0,"y": 0,"z": 0},
 				"scale":3.7,
-				"parentPath": "Sector_AnglerNestDimension/broken egg",
+				"parentPath": "Sector_AnglerNestDimension/broken egg 1",
 				"isRelativeToParent": true
 			},
 			{
@@ -79,16 +66,7 @@
 				"position": {"x":0,"y": 0,"z": 0},
 				"rotation": {"x":0,"y": 0,"z": 0},
 				"scale":-3.7,
-				"parentPath": "Sector_AnglerNestDimension/broken egg",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"broken egg water gravity",
-				"path":"GiantsDeep_Body/Sector_GD/Volumes_GD/Ocean_Gravity/",
-				"position": {"x":0,"y": 0,"z": 0},
-				"rotation": {"x":0,"y": 0,"z": 0},
-				"scale":0.008,
-				"parentPath": "Sector_AnglerNestDimension/broken egg",
+				"parentPath": "Sector_AnglerNestDimension/broken egg 1",
 				"isRelativeToParent": true
 			},
 			{
@@ -97,22 +75,20 @@
 				"position": {"x":0,"y": 0,"z": 0},
 				"rotation": {"x":0,"y": 0,"z": 0},
 				"scale": 0.05,
-				"parentPath": "Sector_AnglerNestDimension/broken egg",
+				"parentPath": "Sector_AnglerNestDimension/broken egg 1",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"broken egg waterdistort",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/nomai ruins/underwater distort.prefab",
+				"position": {"x":0,"y": 0,"z": 0},
+				"rotation": {"x":0,"y": 0,"z": 0},
+				"scale": 1,
+				"parentPath": "Sector_AnglerNestDimension/broken egg 1",
 				"isRelativeToParent": true
 			}
 			
-		],
-
-	"translatorText": [
-			{
-				"rename":"escall recording",
-				"xmlFile": "planets/ExistingPlanets/translatortext/zBramble/bramble escall eggs.xml",
-				"type": "recorder",
-				"parentPath": "Sector_AnglerNestDimension/anglerfish recording purple light/anglerfish recording rotate",
-				"position": {"x": 0,"y": 0,"z": 0},
-				"rotation": {"x": 0,"y": 0,"z": 0},
-				"isRelativeToParent": true
-			}]
-		
+		]
 	}
 }

@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: If this property of attraction is true.. It will change everything.
+		CASSAVA: Hypothesis confirmed. I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> at once.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: Hypothesis confirmed. I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> at once.
+		CASSAVA: If the hypothesis is true, this property of attraction will change everything.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		</RevealFact>
 		<RevealFact>
 			<FactID>TH_WR EX3.5</FactID>
-			<Condition>4</Condition>
+			<Condition>3</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 
