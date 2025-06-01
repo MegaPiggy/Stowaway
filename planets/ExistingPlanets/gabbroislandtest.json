@@ -291,7 +291,8 @@
 		
 		{
 			"rename":"Marriage Bench",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 			"position":{"x":8.5868,"y": 1.3317,"z": 24.3686},
 			"rotation":{"x":4.0388,"y": 26.611,"z": 359.6216}
 		},

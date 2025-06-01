@@ -1,0 +1,83 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		ILEX: How Projection Walls Work
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		ILEX: Projection walls allow Nomai to talk to each other without being in the same place. It's a wonderful technology for talking to friends that are far away!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		ILEX: To use a projection wall, a projection stone must first be placed into its pedestal. This allows the projection wall to connect to the projection wall corresponding to the projection stone.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		ILEX: Incoming messages from the other projection wall are always displayed in orange spirals! This makes it easy to always tell which side is talking.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		FILIX: Well done, Ilex! But, did you know that projection walls were recreated after the way our Vessel's communications used to work?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		ILEX: Really? I never knew that!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		FILIX: It's true! Though unable to connect to the Vessel's communication network, projection walls are an iteration on the Vessel's design, which would display incoming and outgoing messages on separate walls.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		ILEX: New projection stones are crafted at the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> every day, allowing us to share conversations with, and project to more and more places!
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Workshop R3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

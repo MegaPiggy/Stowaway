@@ -1,0 +1,141 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		BELLS: Friends, now that we have recreated Annona's warp technology, I propose we create a warp receiver on the <![CDATA[<color=lightblue>Quantum Moon</color>]]> at once!
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		BELLS: If we use the <![CDATA[<color=orange>Sixth Location Locator</color>]]> to track when the <![CDATA[<color=lightblue>Quantum Moon</color>]]> visits the sixth location, we could use a warp pad's alignment window to try to pinpoint the sixth location's exact position!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		POKE: It pains me to say this, but we have already tried this, Bells. For reasons we do not know, a warp transmitter paired to the <![CDATA[<color=lightblue>Quantum Moon</color>]]> acts as if it is constantly aligned with its target body.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB />
+		<Text>
+		POKE: That is to say, the warp transmitter allows one to warp at all times - making pinpointing the sixth location using the warp pad's alignment window impossible.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		BELLS: Every time I believe we might finally be one step closer to our goal, the universe seems to imagine a new obstacle in our path..
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		BELLS: Like those supernatural winds that only appear at the sixth location, keeping us from escaping and seeing beyond the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> clouds... It feels like divine intent to keep us from our goal.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		CLARY: Though it may feel that way at times, we must remain rational and logical, Bells.. Do not give up hope!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		CLARY: Perhaps if we build a lab on the <![CDATA[<color=lightblue>Quantum Moon</color>]]> to study these winds, we will be able to uncover why the sixth location alone has such strange and supernatural weather.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>
+		POKE: Clary is right! And even if it does not reveal a way around these obstacles, I am sure studying the sixth location's strange phenomena will deepen our understanding of this universe in some way.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<LocationA />
+		<ParentID>9</ParentID>
+		<Text>
+		BELLS: Your perspectives are filled with hope and wisdom, my friends.. Perhaps I have grown too fixated on this goal that has eluded our clan for so long.
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>11</ID>
+		<LocationA />
+		<ParentID>10</ParentID>
+		<Text>
+		BELLS: We shall build a lab on the top of the shrine on the <![CDATA[<color=lightblue>Quantum Moon</color>]]> to study the sixth location's supernatural winds, and construct a new warp tower connected to this structure.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<LocationA />
+		<ParentID>11</ParentID>
+		<Text>
+		BELLS: Though I am sure the winds will be unbearable at this height, I know of an invention Kousa once engineered to protect our friends on <![CDATA[<color=lightblue>Giant's Deep</color>]]> from the planet's strong winds.
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>13</ID>
+		<LocationA />
+		<ParentID>12</ParentID>
+		<Text>
+		BELLS: If we fortify the lab with this same technology, we may be able to create a space safe enough to study these winds directly.
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>BH_QML EX1</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QML EX2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QML EX3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QML EX4</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QML R4</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

@@ -1,0 +1,19 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "TimeLoopRing",
+
+	"removeChildren": [
+		"Props_TimeLoopRing/OtherComponentsGroup/Props_NOM_StatueHead"
+	],
+
+	"Props": {
+		"details": [
+			{
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiStatueExhibit/NomaiHeadStatue",
+				"position": {"x": -19.9932,"y": -7.3061,"z": 14.9175},
+				"rotation": {"x": 270,"y":  307.3607,"z": 0},
+				"isRelativeToParent": true
+			}
+		]
+	}
+}

@@ -76,8 +76,8 @@
 
 		{
 			"rename":"b1 scroll stuff",
-			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
-			"isRelativeToParent": true
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab"
 		},
 		{
 			"rename":"b1 scroll shelf",
@@ -171,28 +171,32 @@
 			"isRelativeToParent": true
 		},{
 			"rename":"domescr chair 1",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 			"position": {"x": -2.9275,"y": -30,"z": 8.4185},
 			"rotation": {"x": 0,"y": 1.1236,"z": 180},
 			"parentPath": "Sector/domescr props",
 			"isRelativeToParent": true
 		},{
 			"rename":"domescr chair 2",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 			"position": {"x": 8.6621,"y": -30,"z": 6.7174},
 			"rotation": {"x": 0,"y": 109.7708,"z": 180},
 			"parentPath": "Sector/domescr props",
 			"isRelativeToParent": true
 		},{
 			"rename":"domescr chair 3",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 			"position": {"x": 5.6548,"y": -30,"z": 8.8643},
 			"rotation": {"x": 0,"y": 314.1517,"z": 180},
 			"parentPath": "Sector/domescr props",
 			"isRelativeToParent": true
 		},{
 			"rename":"domescr chair 4",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 			"position": {"x": 3.8881,"y": -30,"z": 6.9756},
 			"rotation": {"x": 0,"y": 14.9291,"z": 180},
 			"parentPath": "Sector/domescr props",
@@ -278,14 +282,16 @@
 		},
 		{
 			"rename":"domeproj chair 1",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 			"position": {"x": 3.0687,"y": -30,"z": -8.6094},
 			"rotation": {"x": 0,"y": 184.9033,"z": 180},
 			"parentPath": "Sector/domeproj props",
 			"isRelativeToParent": true
 		},{
 			"rename":"domeproj chair 2",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 			"position": {"x": 5.3118,"y": -30,"z": -8.7905},
 			"rotation": {"x": 0,"y": 163.5496,"z": 180},
 			"parentPath": "Sector/domeproj props",
@@ -462,7 +468,8 @@
 			"isRelativeToParent": true
 		},{
 			"rename":"debris return chair",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 			"position": {"x": -6.8252,"y": -25.2107,"z": -0.8569},
 			"rotation": {"x": 60.833,"y": 0,"z": 270},
 			"parentPath": "Sector/bridge debris",
@@ -616,7 +623,8 @@
 		},
 		{
 			"rename":"memory mask deactivation glow",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 			"position": {"x": 3.0739,"y": 4.0181,"z": -9.1202},
 			"rotation": {"x": 359.3177,"y": 251.4073,"z": 269.9638},
 			"stretch": {"x":6.6927,"y": 1,"z": 7.4673},

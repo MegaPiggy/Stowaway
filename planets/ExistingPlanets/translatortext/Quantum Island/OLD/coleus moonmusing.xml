@@ -5,7 +5,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-		COLEUS: We have never before attempted landing on a quantum celestial body.. As the expedition date approaches, my.. My confidence wanes.
+		COLEUS: We have never before attempted landing on a quantum celestial body.. As the expedition date approaches, my confidence wanes.
 		</Text>
 	</TextBlock>
 
@@ -21,7 +21,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			COLEUS: What dangers could lie in wait in those clouds? Would we.. even be able to sense where we are in the solar system?
+			COLEUS: What dangers could lie in wait in those clouds? Would we even be able to sense where we are in the solar system?
 		</Text>
 	</TextBlock>
 
@@ -29,11 +29,11 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-COLEUS: And when it disappears... Would we disappear with it?</Text>
+			COLEUS: And when it disappears... Would we disappear with it?</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
-		<ParentID>3</ParentID>
+		<ParentID>4</ParentID>
 		<Text>
 	COLEUS: I have my friends, and Plume and Phlox will be watching for us from afar. I have faith.. Even if we disappear, they will find us.</Text>
 	</TextBlock>
@@ -42,7 +42,14 @@ COLEUS: And when it disappears... Would we disappear with it?</Text>
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: And if we were to disappear, it would at least be in the pursuit of knowledge. I hope to become one with the universe.</Text>
+		COLEUS: But if we were to disappear, it would at least be in the pursuit of knowledge.
+	</TextBlock>
+
+		<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+		COLEUS: It would be a chance to become one with the universe.</Text>
 	</TextBlock>
 	
 

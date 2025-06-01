@@ -1,6 +1,39 @@
 {
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 	"name": "The Hourglass Twins",
+	"Volumes": {
+		"forces": {
+			"gravityVolumes": [
+				{
+					"force": 1,
+					"shape": {"type": "sphere"},
+					"radius": 500,
+					"lowerRadius": 0,
+					"upperRadius": 500,
+					"minForce": 0,
+					"minRadius": 0,
+					"alignmentPriority": 0,
+					"alignmentRadius": 0,
+					"inheritable": true,
+					"fallOff": "linear",
+					"position": {"x":0,"y":0,"z":0},
+					"layer": 2,
+					"priority": 0,
+					"isRelativeToParent": true
+				}
+			]
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Props_HangingCity_District1/OtherComponentsGroup/Props_HangingCity_Building_10/Prefab_NOM_VaseThin",
+					"scale":100,
+					"position": {"x":0,"y":0,"z":0},
+					"isRelativeToParent": true
+		}
+		]
+	},
 	"Base": {
 		"soiOverride": 1100
 	},

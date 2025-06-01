@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: The interior of this dwelling has rapidly taken on a quantum nature after prolonged exposure to the quantum shard. As much as it pains me, I believe we must relocate to one of the planet's outer islands.
+		PLUME: The interior of our dwelling has rapidly become quantum after prolonged exposure to the quantum shard. As much as it pains me, I believe we must relocate to one of the planet's outer islands.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -29,7 +29,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		COLEUS: The island we arrived on our first expedition would be a good choice. The height of that island's cliffs offers the most protection from the ocean's waves!
+		COLEUS: The island we arrived on our first expedition would be a good choice. The height of that island's cliffs offers the most protection from the planet's turbulent storms!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		THATCH: I believe one of the other islands would be suitable site to build a construction site as well.
+		THATCH: There is a large rocky island that sails along the northern hemisphere which could be a suitable choice as well!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		THATCH: Of note: there appears to be a smaller quantum shard that travels across each of the planet's outer islands. This is troubling, if this shard may invade our settlement as this tower was invaded..
+		THATCH: Of note: as islands in the northern hemisphere sail around <![CDATA[<color=lightblue>Giant's Deep</color>]]> in an anti-clockwise direction, days on this island last three times longer than the other island.
 		</Text>
 	</TextBlock>
 	<TextBlock>	
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: An update: thankfully, it appears that this smaller shard has a much smaller sphere of influence. This means it should be safe to settle on these islands without worry that they will become quantum as well!
+		PLUME: An update: we shall relocate to the cliffs of the island along the southern hemisphere. Let us set forth on a new journey together, my friends!
 		</Text>
 			</TextBlock>
 

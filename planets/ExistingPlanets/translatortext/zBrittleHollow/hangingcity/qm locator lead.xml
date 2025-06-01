@@ -1,0 +1,66 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		BELLS: Friends, has anyone else heard of a second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> built by our friends?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		FILIX: Could you be recalling the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> built on <![CDATA[<color=lightblue>Ember Twin's</color>]]> south pole, Bells? We saw that during our first journey to <![CDATA[<color=lightblue>Ember Twin!</color>]]>
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		BELLS: Yes, that must be it! I recall our excitement seeing that device on <![CDATA[<color=lightblue>Ember Twin's</color>]]> surface now.. The relief that our friends had survived and thrived on such a hostile planet was infectious!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		BELLS: I have heard that unlike the locator here on <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> their <![CDATA[<color=orange>Quantum Moon Locator</color>]]> is able to track the precise position of the wandering moon.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		BELLS: We were so overwhelmed in the joy of our reunion, I did not think to inquire how their device worked! I hope to study it to improve the <![CDATA[<color=orange>Sixth Location Locator</color>]]> here on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> too.
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		FILIX: How fascinating! I must visit this locator when I next visit <![CDATA[<color=lightblue>Ember Twin</color>]]> to see how differently it works from the <![CDATA[<color=orange>Sixth Location Locator!</color>]]>
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Workshop R3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

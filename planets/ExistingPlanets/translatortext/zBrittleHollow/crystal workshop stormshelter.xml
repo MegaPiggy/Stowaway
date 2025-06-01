@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		THATCH: Kousa, we thank you deeply for your incredible invention. The storm shelters have done a wonderful job protecting us from the cyclones on <![CDATA[<color=lightblue>Giant's Deep</color>]]> thus far!
+		THATCH: Kousa, I am pleased to report that the storm shelters have done a wonderful job protecting us from the cyclones on <![CDATA[<color=lightblue>Giant's Deep</color>]]> thus far!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -13,7 +13,7 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		THATCH: However, I was curious about the issue we reported regarding this new invention some time ago.. Have you been able to investigate this issue as of yet?
+		THATCH: However, we do have one small question.. Is there any reason why storm shelters sometimes power on, even in the absence of cyclones?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -55,7 +55,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		KOUSA: That is why these solar panels are tuned to detect the faintest sunlight, allowing them to power the storm shelter slightly before and after a cyclone encounter, keeping its guests safely protected.
+		KOUSA: To keep guests safely protected, the solar panels are tuned to detect the faintest sunlight, allowing them to power the storm shelter slightly before and after a cyclone encounter.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -63,7 +63,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		KOUSA: As the sun passes directly over an island, more sunlight is able to penetrate the clouds and reach the solar panel. This is the most likely cause of the issue the Nomai on <![CDATA[<color=lightblue>Giant's Deep</color>]]> have encountered.
+		KOUSA: As the sun passes directly over an island, more sunlight is able to penetrate the clouds and reach the solar panel. That is the most likely cause of the issue you have encountered!
 		</Text>
 	</TextBlock>
 		<TextBlock>

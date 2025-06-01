@@ -1,0 +1,52 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>SOLANUM: I leave this message seeking help with a matter!</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>SOLANUM: I took one of the scrolls from within the tower, hoping to learn more about the <![CDATA[<color=orange>Looming City's</color>]]> history.. But it slipped from my grasp as I fell into the pool!</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>SOLANUM: I dove in to retrieve it, but a tentacled species dwelling within the pool appears to be fiercely guarding it!</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>SOLANUM: Its long, electrifying appendages have entirely surrounded the scroll, and there appears to be no way to slip under its vigilance.</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>SOLANUM: I feel deeply ashamed leaving this scroll until I complete my pilgrimage - but I have already received a few shocks trying to retrieve it..</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>SOLANUM: If anyone who finds this message is able to beseech the lifeform to budge: I would be most grateful if you would kindly retrieve the scroll in my stead!</Text>z
+	</TextBlock>
+
+<ShipLogConditions>
+			<RevealFact>
+					<FactID>LCJ R2</FactID>
+					<Condition>6</Condition>
+			</RevealFact>
+</ShipLogConditions>
+	
+</NomaiObject>

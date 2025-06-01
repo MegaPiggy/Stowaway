@@ -14,7 +14,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		PLUME: It is good to see you too, Kousa. I see you have been working hard to keep the shelves in the <![CDATA[<color=orange>Gravity Crystal Workshop's</color>]]> fully stocked with gravity crystals.
+		PLUME: I am glad to see you well too, Kousa! I see you have been working hard to keep the shelves in the <![CDATA[<color=orange>Gravity Crystal Workshop's</color>]]> fully stocked with gravity crystals.
 		</Text>
 	</TextBlock>
 
@@ -50,7 +50,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		PLUME: If I recall correctly, you described a device that would help our expedition team weather the terrible storms we have faced on the stormy planet?
+		PLUME: You mentioned a device engineered with help from the <![CDATA[<color=orange>Sunless City,</color>]]> that would help our expedition team weather the terrible storms we have faced on our expedition?
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Oh... Yes, yes, of course! The storm shelters! 
+		KOUSA: Ah, yes, I recall now.. I wished to show you the storm shelter!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -67,7 +67,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: It is a new device we have engineered in collaboration with our friends from the <![CDATA[<color=orange>Sunless City!</color>]]>
+		KOUSA: The storm shelter uses gravity crystals to powers a gravitational field to hold Nomai in place when islands are ejected into orbit.
 		</Text>
 	</TextBlock>
 
@@ -76,7 +76,7 @@
 		<ParentID>8</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Thanks to the <![CDATA[<color=orange>Sunless City's</color>]]> contributions, the device is able to autonomously power itself when it is needed, and deactivate on its own afterwards to conserve power.
+		KOUSA: Thanks to the <![CDATA[<color=orange>Sunless City's</color>]]> contributions, the device is able to autonomously power itself upon entering orbit, and even deactivates on its own afterwards to conserve power!
 		</Text>
 	</TextBlock>
 
@@ -85,7 +85,16 @@
 		<ParentID>9</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: Perhaps it would be easier to demonstrate than explain.. There is a storm shelter right outside the workshop. If you follow me outside, I would love to show you how it works!
+		KOUSA: I believe it would be easier to demonstrate than explain..
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<LocationA />
+		<Text>
+		KOUSA: There is a storm shelter right outside the <![CDATA[<color=orange>Gravity Crystal Workshop,</color>]]> my friend. If you follow me outside, I would love to show you how it works!
 		</Text>
 	</TextBlock>
 

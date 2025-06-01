@@ -235,7 +235,7 @@
 			},
 			{
 				"rename": "sanctuary scroll",
-				"position": {"x":-98.5592,"y": 17.0017,"z": 126.2494},
+				"position": {"x":-98.4592,"y": 16.9017,"z": 126.2494},
 				"rotation": {"x":19.5795,"y": 226.9622,"z": 351.1042},
 				"isRelativeToParent": true,
 				"type": "scroll",
@@ -256,7 +256,7 @@
 			},
 			{
 				"rename": "sanctuary cassava whiteboard",
-				"position": {"x":-96.6896,"y": 13.2562,"z": 123.8491},
+				"position": {"x":-96.7896,"y": 13.4562,"z": 125.6491},
 				"rotation": {"x":0.7417 ,"y": 226.4707,"z": 273.6281},
 				"isRelativeToParent": true,
 				"type": "whiteboard",
@@ -568,7 +568,9 @@
 
 			
 			{
-				"rename":"Sector_TH_NomaiCampsite"
+				"rename":"Sector_TH_NomaiCampsite",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab"
 			},
 			{
 				"rename":"Campsite log seat",
@@ -608,7 +610,7 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename":"Tent wall 1",
+				"rename":"Tent A",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/Wall_Corner_BOTH.prefab",
 				"position": {"x": -155.4523, "y": 13.3692, "z": -127.8345},
@@ -618,7 +620,7 @@
 			},
 			{
 				"rename":"Tent wall 2",
-				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent wall 1",
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent A",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/Wall_Corner_BOTH.prefab",
 				"position": {"x": 0.0717, "y": 2.9314, "z": -3.8976},
@@ -628,7 +630,7 @@
 			{
 				"rename":"Tent backscreen",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Interactables_CaveTwin/TLE_ProbeWindow",
-				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent wall 1",
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent A",
 				"position": {"x": 1.5612, "y": 1.6909, "z": -1.8392},
 				"rotation": {"x": 274.647, "y": 183.1608, "z": 86.655},
 				"scale":0.24,
@@ -640,25 +642,87 @@
 				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
 				"position": {"x": -155.6989, "y": 12.4467, "z": -129.951},
 				"rotation": {"x": 10.3169, "y": 109.5469, "z": 261.4991},
-				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent wall 1",
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent A",
 				"isRelativeToParent": false
 			},
+
+
 			{
-				"rename":"Tent 2",
-				"path":"TimberHearth_Body/Sector_TH_NomaiCampsite/Sector_TH/Tent wall 1",
-				"position": {"x": -151.3642, "y": -9.5186, "z": -133.0712},
-				"rotation": {"x": 336.7781, "y": 183.9071, "z": 242.4277},
+				"rename":"Tent B",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/Wall_Corner_BOTH.prefab",
+				"position": {"x": -155.4523, "y": 13.3692, "z": -127.8345},
+				"rotation": {"x": 0, "y": 280.0461, "z": 85.211},
 				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
 			{
-				"rename":"Tent 3",
-				"path":"TimberHearth_Body/Sector_TH_NomaiCampsite/Sector_TH/Tent 2",
-				"position": {"x": -160.9941, "y": -11.7362, "z": -121.9005},
-				"rotation": {"x": 47.6221, "y": 193.8561, "z": 314.0461},
+				"rename":"Tent wall 2",
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent B",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/Wall_Corner_BOTH.prefab",
+				"position": {"x": 0.0717, "y": 2.9314, "z": -3.8976},
+				"rotation": {"x": 281.9493, "y": 179.1961, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Tent backscreen",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Interactables_CaveTwin/TLE_ProbeWindow",
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent B",
+				"position": {"x": 1.5612, "y": 1.6909, "z": -1.8392},
+				"rotation": {"x": 274.647, "y": 183.1608, "z": 86.655},
+				"scale":0.24,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Tent torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position": {"x": -155.6989, "y": 12.4467, "z": -129.951},
+				"rotation": {"x": 10.3169, "y": 109.5469, "z": 261.4991},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent B",
+				"isRelativeToParent": false
+			},
+			
+			
+			{
+				"rename":"Tent C",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/Wall_Corner_BOTH.prefab",
+				"position": {"x": -155.4523, "y": 13.3692, "z": -127.8345},
+				"rotation": {"x": 0, "y": 280.0461, "z": 85.211},
 				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
+			{
+				"rename":"Tent wall 2",
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent C",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/Wall_Corner_BOTH.prefab",
+				"position": {"x": 0.0717, "y": 2.9314, "z": -3.8976},
+				"rotation": {"x": 281.9493, "y": 179.1961, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Tent backscreen",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Interactables_CaveTwin/TLE_ProbeWindow",
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent C",
+				"position": {"x": 1.5612, "y": 1.6909, "z": -1.8392},
+				"rotation": {"x": 274.647, "y": 183.1608, "z": 86.655},
+				"scale":0.24,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Tent torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position": {"x": -155.6989, "y": 12.4467, "z": -129.951},
+				"rotation": {"x": 10.3169, "y": 109.5469, "z": 261.4991},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent C",
+				"isRelativeToParent": false
+			},
+			
+			
 			{
 				"rename":"TH campsite STAIRS",
 				"assetBundle": "planets/bundle/prefabs",
@@ -733,7 +797,9 @@
 
 
 			{
-				"rename": "Sector_WarpRuins"
+				"rename": "Sector_WarpRuins",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab"
 			},
 			{
 				"rename":"Stowaway GM crystals 1",
@@ -904,7 +970,9 @@
 
 
 			{
-				"rename":"Sector_Sanctuary"
+				"rename":"Sector_Sanctuary",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab"
 			},
 	
 			{

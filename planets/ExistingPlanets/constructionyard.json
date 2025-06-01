@@ -241,14 +241,16 @@
 			
 			{
 				"rename":"Warp Stair 1",
-			"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 			"position": {"x":-2.6706, "y": 35.0869, "z": -32.3533},
 			"rotation": {"x": 348, "y": 270, "z": 180},
 			"stretch": {"x":5.5382,"y": 1,"z": 3.4182}
 			},
 			{
 				"rename":"Warp Stair 2",
-			"path": "BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 			"position": {"x":6.2072, "y": 34.4292, "z": -32.6816},
 			"rotation": {"x": 352.7591, "y": 90, "z": 180},
 			"stretch": {"x":5.5382,"y": 1,"z": 3.4182}

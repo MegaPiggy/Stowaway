@@ -266,6 +266,8 @@
 
 
 
+
+
 			{
 				"rename": "GD ocean simulation",
 				"assetBundle": "planets/bundle/stowaway3",
@@ -283,6 +285,115 @@
 			"stretch": {"x":12,"y":64,"z":12},
 			"isRelativeToParent": true
 			},
+
+
+			{
+				"rename":"Sector_QuantumTowerBeach",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab"
+			},
+				{
+				"rename":"QIsle beach rock1",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Props_StatueIslandInterior/BatchedGroup/BatchedMeshRenderers_0",
+				"position": {"x":64.8864,"y": -3.4734,"z": -8.5224},
+				"rotation": {"x":31.3003,"y": 91.532,"z": 1.4829},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+				"scale":1.3,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"QIsle beach rock2",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Props_StatueIslandInterior/BatchedGroup/BatchedMeshRenderers_0",
+				"position": {"x":68.5263,"y": -3.917,"z": -11.0315},
+				"rotation": {"x":34.4261,"y": 104.4433,"z": 2.9428},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+				"scale":1.3,
+				"isRelativeToParent": true
+			},{
+				"rename":"intro whiteboard light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"position": {"x": 73.482, "y": -3.7307, "z": -50.4158},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+				"isRelativeToParent": true
+			},	{
+				"rename": "intro boulder collider left",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
+				"position": {"x": 70.8334, "y": -6.1997, "z": -50.50},
+				"rotation": {"x": 12.3781, "y": 132.9931, "z": 1.2446},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+				"isRelativeToParent": true,
+				"scale":4
+			},
+			{
+				"rename": "intro boulder collider right",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
+				"position": {"x": 74.877, "y": -6.4252 , "z": -46.5512},
+				"rotation": {"x": 14.606, "y": 146.7382, "z": 7.6034},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+				"isRelativeToParent": true,
+				"scale":4
+			},
+			
+			{
+				"rename":"Grave arch object",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab"
+			},
+			{
+			"rename":"Grave Arch",
+			"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom1/Interactables_PuzzleRoom1/PuzzleRoom_1/QuantumArch/Structure_NOM_QuantumIsland_Arch",
+			"position":{"x":63.2668,"y": -5.2176,"z": -51.1561},
+			"rotation":{"x":11.8645,"y": 113.5084 ,"z": 359.1028},
+			"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/Grave arch object",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"Grave Plant",
+			"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1/GEO_NomaiTree_1_Trunk",
+			"position":{"x":63.7171,"y": -5.6212,"z": -51.1269},
+			"rotation":{"x":11.2835,"y": 122.2943 ,"z": 357.4865},
+			"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/Grave arch object",
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "Grave Sandpile base",
+			"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
+			"position":{"x":62.1425,"y": -5.049,"z": -50.4282},
+			"rotation":{"x":0.7309,"y": 27.0563,"z": 351.6822},
+			"stretch":{"x":10.7854,"y": 1.3164,"z": 6.9563},
+			"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/Grave arch object",
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "Grave Sandpile root",
+			"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
+			"position":{"x":63.6445,"y": -5.2802,"z": -51.3283},
+			"rotation":{"x":10.778,"y": 125.9007,"z": 0.7447},
+			"stretch":{"x":2.1618,"y": 3.2855,"z": 2.7345},
+			"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/Grave arch object",
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "Grave cave torch cairn",
+			"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeShrine/Interactables_EyeShrine/Prefab_NOM_CT_Cairn_Light_A",
+			"position":{"x":64.1274,"y": -5.6591,"z": -53.4719},
+			"rotation":{"x":10.7945,"y": 99.1146,"z": 355.0479},
+			"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/Grave arch object",
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "Grave BH torch cairn",
+			"path":"BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_4/Core_CannonPath_4/Interactibles_Core_CannonPath_3 (1)/Prefab_NOM_BH_Cairn_Light_B",
+			"position":{"x":65.7034,"y": -5.5479,"z": -50.3766},
+			"rotation":{"x":10.5889,"y": 100.7898,"z": 354.6094},
+			"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/Grave arch object",
+			"isRelativeToParent": true
+		},	
+
+
+		
 			{
 				"rename":"GD TOWER gm volumes",
 				"position":{"x": 0,"y": 0,"z": 0},
@@ -353,7 +464,7 @@
 					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
 					"parentPath": "Sector_QuantumIsland/GD TOWER f4 gm wisps",
 					"isRelativeToParent": true,
-					"removeChildren": ["ProbeVisuals","ObjectTrail"]
+					"removeChildren": ["ProbeVisuals","ObjectTrail", "NotificationVolume"]
 				},
 				{
 					"rename":"GD TOWER f4 GM visibilitytracker",
@@ -424,12 +535,6 @@
 				"rotation":{"x": 1.4455,"y": 102.9451 ,"z": 357.3707},
 				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_D",
 				"isRelativeToParent": true
-			},{
-				"rename":"GD GM notif f1",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume (1)/NotificationVolume/",
-				"position":{"x": 0,"y": 177.7511,"z": 0},
-				"scale":2.5,
-				"isRelativeToParent": true
 			},
 
 
@@ -482,6 +587,16 @@
 				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_H",
 				"isRelativeToParent": true
 			},
+
+
+
+			{
+				"rename":"GD GM notif f1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume (1)/NotificationVolume/",
+				"position":{"x": 0,"y": 177.7511,"z": 0},
+				"scale":2.5,
+				"isRelativeToParent": true
+			},
 			{
 				"rename":"GD GM notif f2",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume (1)/NotificationVolume/",
@@ -506,6 +621,8 @@
 				"isRelativeToParent": true
 			},
 
+
+			
 			{
 				"rename":"GD TOWER f3 wall crystals 1",
 				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
@@ -649,12 +766,7 @@
 
 
 
-			{
-				"rename":"intro whiteboard light",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
-				"position": {"x": 76.9201, "y": -4.8325, "z": -41.8105},
-				"isRelativeToParent": true
-			},
+			
 			{
 				"rename":"chamber1 scroll light",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
@@ -674,34 +786,12 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename":"chamber3 scroll light",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
-				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/Prefab_NOM_NomaiTree_Var_2",
-				"position": {"x": 1.1818, "y": 1.5047, "z": 0.2117},
-				"isRelativeToParent": true
-			},
-			{
 				"rename":"finalchamber whiteboard light",
 				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_InterRoom/",
 				"position": {"x": 19.6752, "y": 32.4912, "z": 0.0726},
 				"isRelativeToParent": true
 			},
 
-
-			{
-				"rename":"intro sandpile",
-				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
-				"position": {"x": 41.9693, "y": -1.6762, "z": -28.7242},
-				"rotation": {"x": 341.59, "y": 325.129, "z": 353.4226},
-				"scale": 2,
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"intro sandpile LIGHT",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
-				"position": {"x": 42.6445, "y": -1.623, "z": -28.6105},
-				"isRelativeToParent": true
-			},
 
 			{
 				"rename":"GD quantum shard dumbwaiter",
@@ -798,7 +888,8 @@
 
 			{
 				"rename":"Storehouse bench",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 				"position": {"x": 0.6486 , "y": 79.9579, "z": -9.9634},
 					"rotation": {"x": 0, "y": 358.5199, "z": 0},
 				"isRelativeToParent": true
@@ -1063,48 +1154,7 @@
 		
 
 
-		{
-			"rename":"Grave Arch",
-			"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom1/Interactables_PuzzleRoom1/PuzzleRoom_1/QuantumArch/Structure_NOM_QuantumIsland_Arch",
-			"position":{"x":63.2668,"y": -5.2176,"z": -51.1561},
-			"rotation":{"x":11.8645,"y": 113.5084 ,"z": 359.1028}
-		},
-		{
-			"rename":"Grave Plant",
-			"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1/GEO_NomaiTree_1_Trunk",
-			"position":{"x":63.7171,"y": -5.6212,"z": -51.1269},
-			"rotation":{"x":11.2835,"y": 122.2943 ,"z": 357.4865}
-		},
-		{
-			"rename": "Grave Sandpile base",
-			"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
-			"position":{"x":62.1425,"y": -5.049,"z": -50.4282},
-			"rotation":{"x":0.7309,"y": 27.0563,"z": 351.6822},
-			"stretch":{"x":10.7854,"y": 1.3164,"z": 6.9563},
-			"isRelativeToParent": true
-		},
-		{
-			"rename": "Grave Sandpile root",
-			"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
-			"position":{"x":63.6445,"y": -5.2802,"z": -51.3283},
-			"rotation":{"x":10.778,"y": 125.9007,"z": 0.7447},
-			"stretch":{"x":2.1618,"y": 3.2855,"z": 2.7345},
-			"isRelativeToParent": true
-		},
-		{
-			"rename": "Grave cave torch cairn",
-			"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeShrine/Interactables_EyeShrine/Prefab_NOM_CT_Cairn_Light_A",
-			"position":{"x":64.1274,"y": -5.6591,"z": -53.4719},
-			"rotation":{"x":10.7945,"y": 99.1146,"z": 355.0479},
-			"isRelativeToParent": true
-		},
-		{
-			"rename": "Grave BH torch cairn",
-			"path":"BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_4/Core_CannonPath_4/Interactibles_Core_CannonPath_3 (1)/Prefab_NOM_BH_Cairn_Light_B",
-			"position":{"x":65.7034,"y": -5.5479,"z": -50.3766},
-			"rotation":{"x":10.5889,"y": 100.7898,"z": 354.6094},
-			"isRelativeToParent": true
-		},	
+	
 		{
 			"rename": "Pioneer Quantum Camp torch",
 			"assetBundle": "planets/bundle/prefabs",
@@ -1186,7 +1236,23 @@
 
 
 "translatorText":[
-
+	{
+		"rename":"bonus qm recording idk old but neat writing maybe slap it in the tower exterior",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/coleus moonmusing.xml",
+		"position": {"x": 1.7073, "y": -0.0382,"z": 0.7073},
+		"rotation": {"x": 0, "y": 109.6918, "z": 0},
+		"type":"recorder",
+		"isRelativeToParent": true
+	},
+	{
+		"rename":"Eye shrine trailmarker",
+		"position": {"x": 58.8188, "y": -6.4222,"z": -64.3977},
+		"rotation": {"x": 26.271, "y": 74.8599, "z": 348.4666},
+		"type":"trailmarker",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/eye shrine trail.xml",
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+		"isRelativeToParent": true
+	},
 	{
 		"rename":"Final chamber whiteboard",
 		"position": {"x": 21.0388, "y": 31.1814,"z": 0.073},
@@ -1194,18 +1260,8 @@
 		"type":"whiteboard",
 		"isRelativeToParent": true
 	},
-
 	{
-		"rename":"Solanum oops recording",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum oops recording.xml",
-		"position": {"x": 42.1572, "y": -1.7113, "z": -28.6342},
-		"rotation": {"x": 28.2577, "y": 56.0466, "z": 349.775},
-		"type":"recorder",
-		"isRelativeToParent": true
-	},
-
-	{
-		"rename":"Phlox shuttle tutorial recording",
+		"rename":"Phlox item entangle tutorial recording",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/phlox item entangle tutorial.xml",
 		"position": {"x": 1.7073, "y": -0.0382,"z": 0.7073},
 		"rotation": {"x": 0, "y": 109.6918, "z": 0},
@@ -1225,33 +1281,16 @@
 		"isRelativeToParent": true
 	},
 	{
-		"rename":"jellyfish question setup scroll",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/phlox clouds v3.xml",
+		"rename":"Abandon tower scroll",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/abandon tower orbitmap.xml",
 		"position": {"x": 19.1298, "y": 1.5089,"z": -0.7584},
 		"rotation": {"x": 2.8988, "y": 261.7177, "z": 48.3928},
-		"seed":5,
+		"seed":1,
 		"type":"scroll",
 		"parentPath": "Sector_QuantumIsland/Gallery Bed 2",
 		"isRelativeToParent": true
 	},
-	{
-		"rename":"Abandon tower scroll",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/abandon tower orbitmap.xml",
-		"position": {"x": -0.0227, "y": 1.04,"z": 0.5673},
-		"rotation": {"x": 10.9849, "y": 349.0603, "z": 51.2731},
-		"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/Prefab_NOM_NomaiTree_Var_2",
-		"type":"scroll",
-		"seed":1,
-		"isRelativeToParent": true
-	},
-	{
-		"rename":"Sunken Pool Jelly scroll",
-		"type":"scroll",
-		"parentPath": "Sector_QuantumIsland/jelly scroll light",
-		"isRelativeToParent": true,
-				"seed":6,
-				"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/solanum pool scroll phantgame v3.xml"
-	},
+	
 	
 
 
@@ -1260,9 +1299,10 @@
 	
 	
 	{
-		"rename": "Welcome directionboard text",
-		"position": {"x": 76.2827, "y": -6.3469, "z": -40.5387},
-		"rotation": {"x": 0.1906, "y": 205.3065, "z": 10.5517},
+		"rename": "Welcome directionboard whiteboard",
+		"position": {"x": 72.6883, "y": -4.8887, "z": -49.6383},
+		"rotation": {"x": 12.4761, "y": 136.1015, "z": 3.2734},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
 		"type": "whiteboard",
 		"seed":2,
 		"xmlFile":"planets/ExistingPlanets/translatortext/Quantum Island/entrance board.xml"

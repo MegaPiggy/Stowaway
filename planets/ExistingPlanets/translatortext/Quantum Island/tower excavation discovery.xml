@@ -17,13 +17,13 @@
 		<ID>3</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			MELORAE: We should capture a photo of it to share with our friends when we return. We've located yet another quantum shard! I wonder what lessons this one may have to teach us.</Text>
+			MELORAE: I shall capture a photo of it to share with our friends when we return!</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			COLEUS: How strange.. Friends, the quantum shard appears unable to travel suddenly for some reason. It seems locked in superposition, even though none of us are observing it..</Text>
+			COLEUS: How strange.. Friends, the quantum shard appears unable to travel suddenly for some reason. It seems locked in superposition, even though none of us are observing it.</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>5</ID>
@@ -36,14 +36,14 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			MELORAE: Hypothesis: could it be possible to keep quantum objects locked in superposition by observing an image of them?</Text>
+			MELORAE: Hypothesis: is it be possible to keep quantum objects locked in superposition by observing an image of them?</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>7</ID>
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		COLEUS: Hypothesis confirmed! <![CDATA[<i>Hypothesis confirmed!</i>]]> Melorae, you've discovered another new quantum rule! Imagine the possibilities this creates!
+		COLEUS: Hypothesis confirmed! <![CDATA[<i>Hypothesis confirmed!</i>]]> Melorae, you've discovered a new quantum rule! What an incredible day for quantum geology!
 		</Text>
 	</TextBlock>
 

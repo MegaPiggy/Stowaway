@@ -768,7 +768,8 @@
 			},
 			{
 				"rename":"Pioneer bench",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_OldSettlement/Fragment OldSettlement 1/Core_OldSettlement 1/Props_Core_OldSettlement1/Prefab_NOM_SimpleChair_NoSkeleton",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
 				"position":{"x":-20.06,"y": -7.3128,"z": -93.3282},
 				"rotation":{"x":11.6777,"y": 289.8684,"z": 358.1764},
 				"stretch":{"x":2,"y":1,"z":1},

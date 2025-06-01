@@ -66,7 +66,7 @@
 		{
 			"rename":"Hourglass black hole",
 			"type": "blackHole",
-			"uniqueID": "TH SHORTCUT X",
+			"uniqueID": "TH SHORTCUT X1",
 			"pairedSingularity": "HOB WH",
 			"hasWarpEffects": false,
 			"horizonRadius": 1,
@@ -114,8 +114,8 @@
 			"type": "whiteboard",
 			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
 			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225},
-			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/tidal sand door.xml",
-					"seed":4
+					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/inspired intro.xml",
+					"seed":1
 					
 		},
 		
@@ -124,24 +124,24 @@
 			"position": {"x":24.3426, "y": -45.7584,"z": 183.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/tidal sand door.xml",
-			"seed":5
+					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/inspired intro.xml",
+			"seed":2
 		},
 		{
 			"rename": "text spiral checking station floor 2",
 			"position": {"x":24.3426, "y": -45.7584,"z": 184.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/tidal sand door.xml",
-			"seed":6
+					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/inspired intro.xml",
+			"seed":3
 		},
 		{
 			"rename": "text spiral checking station floor 3",
 			"position": {"x":24.3426, "y": -45.7584,"z": 185.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/tidal sand door.xml",
-			"seed":7
+					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/inspired intro.xml",
+			"seed":4
 		}
 			]
 	},

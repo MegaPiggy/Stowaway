@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1392335592
+CRC: 4187640309
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 83a3eba0fa50525cf8e9de94d3341b42
+    Hash: d94c20fa25b23631e51b1a0ed6dddac7
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 2ab24cf11f6198e2faab65b3dc5da338
+    Hash: 14f7f7b20b64d1cda8841f4d331d426b
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -61,6 +61,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: d3e77ae3309b6f323de07b456da83fb0, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31bd9164073070d2ce3b96fff1a310c7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
 - Class: 114
@@ -145,6 +147,7 @@ Assets:
 - Assets/Models/Tractor beam SW 1.prefab
 - Assets/Models/ASH TWIN BEAM south.prefab
 - Assets/Models/Materials/comet mural front v4.prefab
+- Assets/Models/empty.prefab
 - Assets/Nomai Ruins/Mini Volcano Simulation.prefab
 - Assets/Models/water plane.prefab
 - Assets/Models/TheInspired.prefab
@@ -153,8 +156,10 @@ Assets:
 - Assets/Nomai Ruins/Mini QM Simulation.prefab
 - Assets/Models/player nosuit.prefab
 - Assets/Models/th portrait.prefab
+- Assets/Nomai Ruins/Prefabs/BigArch.prefab
 - Assets/Models/JellyfishV proxy.prefab
 - Assets/Nomai Ruins/HourglassOb final.prefab
+- Assets/Models/underwater distort.prefab
 - Assets/Models/et portrait.prefab
 - Assets/Models/Materials/comet map.prefab
 - Assets/Models/stateeye crust.prefab

@@ -1,0 +1,74 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CONOY: We plan to build a structure in stationary orbit around <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> to study the discrepancy Spire has recently observed.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CONOY: Are there any suggestions for where a warp tower connected to this structure should be built?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		PRIVET: There are already plans to build several warp towers on <![CDATA[<color=lightblue>Ash Twin</color>]]> for the <![CDATA[<color=orange>Ash Twin Project.</color>]]> We should not build the tower there, as it could interfere with those plans.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		SPIRE: I would suggest building the warp tower on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> for our convenience - but I fear constant meteor impacts could cause the tower's base to shift over time!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		PRIVET: Even if its predictions are not always accurate, your model could inform us of a site least likely to be impacted by <![CDATA[<color=lightblue>Hollow's Lantern,</color>]]> Spire.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		CONOY: Additionally, if we build the warp tower's base across several pieces of <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> crust, that should also strengthen the tower's stability greatly!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		PRIVET: If we pinpoint a site never struck by meteors using the model, a tower built at that site should be much safer from meteor impacts!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Workshop R3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>
