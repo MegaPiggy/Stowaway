@@ -76,13 +76,13 @@
 				"path": "Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_collider",
 				"position": {"x": -7.4614, "y": -552.4193, "z": -8.8027},
 				"rotation": {"x": 296.4384, "y": 85.6072, "z": 56.0576},
-				"parentPath": "Sector_StatueIsland/Orcnid w Stray Legs/",
+				"parentPath": "Sector_GabbroIsland/Orcnid w Stray Legs/",
 				"isRelativeToParent": true
 			},{
 				"rename":"Orcnid LIGHT",
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
 				"position": {"x": 0.7869, "y": -548.7158, "z": -0.1643},
-				"parentPath": "Sector_StatueIsland/Orcnid w Stray Legs/",
+				"parentPath": "Sector_GabbroIsland/Orcnid w Stray Legs/",
 				"isRelativeToParent": true
 			},
 

@@ -1193,12 +1193,14 @@
 
 
 "translatorText":[
+	
 	{
-		"rename":"bonus qm recording idk old but neat writing maybe slap it in the tower exterior",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/coleus moonmusing.xml",
-		"position": {"x": 1.7073, "y": -0.0382,"z": 0.7073},
-		"rotation": {"x": 0, "y": 109.6918, "z": 0},
+		"rename":"Plume eye debate rec",
+		"position": {"x":-4.0519,"y": -2.6592,"z": -75.698},
+		"rotation": {"x":16.7487,"y": 203.6263,"z": 359.5786},
 		"type":"recorder",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/eye shrine clouds.xml",
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
 		"isRelativeToParent": true
 	},
 	{
@@ -1248,13 +1250,6 @@
 		"isRelativeToParent": true
 	},
 	
-	
-
-
-
-	
-	
-	
 	{
 		"rename": "Welcome directionboard whiteboard",
 		"position": {"x": 72.6883, "y": -4.8887, "z": -49.6383},
@@ -1262,15 +1257,8 @@
 				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
 		"type": "whiteboard",
 		"seed":2,
-		"xmlFile":"planets/ExistingPlanets/translatortext/Quantum Island/entrance board.xml"
-	},
-	{
-		"rename":"Plume eye debate rec",
-		"position": {"x":-4.0519,"y": -2.6592,"z": -75.698},
-		"rotation": {"x":16.7487,"y": 203.6263,"z": 359.5786},
-		"isRelativeToParent": true,
-		"type":"recorder",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/Grave.xml"
+		"xmlFile":"planets/ExistingPlanets/translatortext/Quantum Island/entrance board.xml",
+		"isRelativeToParent": true
 	}
 	
 

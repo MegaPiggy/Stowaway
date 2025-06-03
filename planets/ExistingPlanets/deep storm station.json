@@ -606,32 +606,6 @@
 
 
 		{
-			"rename":"DSS memory masks full",
-			"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/MaskPlatform",
-			"position": {"x": 9.3, "y": 0, "z": 0},
-			"rotation":{"x": 0 ,"y": 0,"z": 90},
-			"scale": 0.5,
-			"isRelativeToParent": true
-		},	{
-			"rename":"memory mask deactivation eyes",
-			"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_LowerVillage/Lighting_LowerVillage/OtherComponentsGroup/BlueLanterns/Props_HEA_BlueLantern/Lantern_Base",
-			"position": {"x": 2.7653,"y": 4.0557,"z": -8.1285},
-			"rotation": {"x": 22.6289,"y": 75.7459,"z": 284.1296},
-			"stretch": {"x":2.3,"y": 1,"z": 2.3},
-			"parentPath": "Sector/DSS memory masks full",
-			"isRelativeToParent": true
-		},
-		{
-			"rename":"memory mask deactivation glow",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/chair.prefab",
-			"position": {"x": 3.0739,"y": 4.0181,"z": -9.1202},
-			"rotation": {"x": 359.3177,"y": 251.4073,"z": 269.9638},
-			"stretch": {"x":6.6927,"y": 1,"z": 7.4673},
-			"parentPath": "Sector/DSS memory masks full",
-			"isRelativeToParent": true
-		},
-		{
 			"rename":"Nomai Statue 2 Box",
 			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
 			"position": {"x": -8.7197, "y": 10.8124, "z": 0},

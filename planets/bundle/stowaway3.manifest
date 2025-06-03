@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 948184621
+CRC: 2718355170
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dc72bb574eb732cbb804b62f86f127e7
+    Hash: 71d445f68d505cf82c4622a8549f8a7c
   TypeTreeHash:
     serializedVersion: 2
     Hash: 28c450d1e1ca5f95e30e74c6e3e0f4b4
@@ -160,6 +160,7 @@ Assets:
 - Assets/Models/empty switch.prefab
 - Assets/Nomai Ruins/Mini QM Simulation.prefab
 - Assets/Models/player nosuit.prefab
+- Assets/Nomai Ruins/four eyed monolith.prefab
 - Assets/Models/th portrait.prefab
 - Assets/Models/JellyfishV proxy.prefab
 - Assets/Nomai Ruins/HourglassOb final.prefab
