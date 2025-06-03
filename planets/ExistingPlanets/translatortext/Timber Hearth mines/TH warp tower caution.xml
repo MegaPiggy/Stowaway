@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		OENO: Welcome, friends! You may find both our <![CDATA[<color=orange>campsite</color>]]> and <![CDATA[<color=orange>mining site</color>]]> by following the path down into the geyser mountain.
+		OENO: Welcome to <![CDATA[<color=lightblue>Timber Hearth,</color>]]> friends! You may find both our <![CDATA[<color=orange>campsite</color>]]> and <![CDATA[<color=orange>mining site</color>]]> by following the path down into the geyser mountain.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: Warp receivers power a return warp that allows travel back to the corresponding warp transmitter after a Nomai has traveled to it.
+		OENO: Each time a warp receiver is used, the warp receiver powers a single-use return warp, allowing for travel back to the corresponding warp transmitter.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: An unattended return warp could cause the native species of this planet to be unintentionally sent to the warp tower on <![CDATA[<color=lightblue>Ash Twin!</color>]]>
+		OENO: However, as the native life of <![CDATA[<color=lightblue>Timber Hearth</color>]]> are amphibious, an unattended return warp could allow these species to be unintentionally warped to <![CDATA[<color=lightblue>Ash Twin!</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -36,7 +36,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: Without any air supply or protection from the heat on that planet, these lives would be gravely endangered by our carelessness.
+		OENO: Without any air supply or protection from the heat on that planet, the lives of these native species would be gravely endangered by our carelessness.
 		</Text>
 	</TextBlock>
 	<TextBlock>

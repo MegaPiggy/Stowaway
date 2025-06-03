@@ -305,10 +305,10 @@
 			
 			{
 				"rename": "TH Mine direction cairn",
-				"position": {"x": -210.384,"y": -10.0186,"z": -119.2586},
-				"rotation": {"x": 11.4869,"y": 313.1311,"z": 91.873},
+				"position": {"x": -149.501,"y": 2.2512,"z": -135.886},
+				"rotation": {"x": 357.4489,"y": 317.1022,"z": 89.2887},
 				"type": "cairnTH",
-				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/direction cairn.xml",
+				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/hearthian cairn.xml",
 				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
@@ -401,8 +401,8 @@
 			},{
 				"rename":"gate purple LIGHT",
 				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_NomaiEyeExhibit",
-				"position": {"x": -64.1714, "y": -23.2275, "z": -204.9669},
-				"parentPath": "Sector_TH/Sector_MinesGate",
+				"position": {"x": 0.4074, "y": 1.7632, "z": -0.4751},
+				"parentPath": "Sector_TH/Sector_MinesGate/Gate tablet",
 				"isRelativeToParent": true
 			},
 			{
@@ -573,6 +573,40 @@
 				"path":"assets/models/empty.prefab"
 			},
 			{
+				"rename":"hearthian model box",
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": -149.433, "y": 4.0754, "z": -135.2883},
+				"rotation": {"x": 21.7355, "y": 315.0672, "z": 85.7523},
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "hearthian alloy model",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/protohearthian_rock.prefab",
+				"scale":0.08,
+				"position": {"x": -0.2127, "y": 0.9746, "z": 0.2},
+				"rotation": {"x": 357.2355, "y": 348.0468, "z": 6.002},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/hearthian model box",
+				"isRelativeToParent": true
+			},	{
+			"rename":"projection liquid hearthian model",
+				"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
+				"position": {"x": 0, "y": 0.7764, "z": 0},
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/hearthian model box",
+				"scale":0.8,
+			"isRelativeToParent": true
+			},
+			{
+				"rename":"hearthian model diamondlamp",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
+				"position": {"x": -150.4705, "y": 3.0715, "z": -134.8062},
+				"rotation": {"x": 270, "y": 135.2816, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
 				"rename":"Campsite log seat",
 				"path":"DB_PioneerDimension_Body/Sector_PioneerDimension/Props_PioneerDimension/OtherComponentsGroup/Props_HEA_CampsiteLogAssets/Props_TH_Log (16)/",
 				"position": {"x": -156.1512, "y": 4.3876, "z": -128.1265},
@@ -651,8 +685,8 @@
 				"rename":"Tent B",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/Wall_Corner_BOTH.prefab",
-				"position": {"x": -155.4523, "y": 13.3692, "z": -127.8345},
-				"rotation": {"x": 0, "y": 280.0461, "z": 85.211},
+				"position": {"x": -151.3642, "y": -9.5186, "z": -133.0712},
+				"rotation": {"x": 336.7781, "y": 183.9071, "z": 242.4277},
 				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
@@ -674,23 +708,15 @@
 				"scale":0.24,
 				"isRelativeToParent": true
 			},
-			{
-				"rename":"Tent torch",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position": {"x": -155.6989, "y": 12.4467, "z": -129.951},
-				"rotation": {"x": 10.3169, "y": 109.5469, "z": 261.4991},
-				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent B",
-				"isRelativeToParent": false
-			},
+			
 			
 			
 			{
 				"rename":"Tent C",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/Wall_Corner_BOTH.prefab",
-				"position": {"x": -155.4523, "y": 13.3692, "z": -127.8345},
-				"rotation": {"x": 0, "y": 280.0461, "z": 85.211},
+				"position": {"x": -160.9941, "y": -11.7362, "z": -121.9005},
+				"rotation": {"x": 47.6221, "y": 193.8561, "z": 314.0461},
 				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
@@ -712,15 +738,7 @@
 				"scale":0.24,
 				"isRelativeToParent": true
 			},
-			{
-				"rename":"Tent torch",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position": {"x": -155.6989, "y": 12.4467, "z": -129.951},
-				"rotation": {"x": 10.3169, "y": 109.5469, "z": 261.4991},
-				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite/Tent C",
-				"isRelativeToParent": false
-			},
+			
 			
 			
 			{
@@ -747,16 +765,6 @@
 				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
 				"position": {"x": -125.4779, "y": -57.6048, "z": -183.9872},
 				"rotation": {"x": 42.8267,"y": 110.1672,"z": 249.11},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Mural torch",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-				"position": {"x": -150.4917, "y": 14.0403, "z": -133.4574},
-				"rotation": {"x": 30.4417, "y": 218.6741, "z": 74.2792},
-				"removeChildren": ["WallTorch_Connector"],
-				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite",
 				"isRelativeToParent": true
 			},
 			{
@@ -800,6 +808,14 @@
 				"rename": "Sector_WarpRuins",
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/empty.prefab"
+			},{
+				"rename":"Stowaway crystal bucket",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/nomai ruins/crystal pot.prefab",
+				"position":{"x": -235.8336,"y": -42.0649,"z": -71.1899},
+				"rotation":{"x": 305.768,"y": 176.1022,"z": 254.0002},
+				"parentPath": "Sector_TH/Sector_WarpRuins",
+				"isRelativeToParent": true
 			},
 			{
 				"rename":"Stowaway GM crystals 1",

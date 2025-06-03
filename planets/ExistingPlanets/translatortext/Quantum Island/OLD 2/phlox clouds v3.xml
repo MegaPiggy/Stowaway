@@ -1,0 +1,66 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+
+	<![CDATA[<i>Excavation Site</i>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+		PHLOX: Papa, the jellyfish came to the surface again today!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+		PLUME: What?! This consistency is unprecedented.. Did they not visit the surface yesterday as well?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+		PLUME: Has this phenomenon become more frequent? Or are we simply observing it consistently now with the help of the specimen we transported from <![CDATA[<color=orange>Bramble Island?</color>]]> When our friends return, I must ponder this with them at once!</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+	PLUME: An update: It has been some time, yet the jellyfish still remain on the planet's surface... This is truly peculiar.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+	PLUME: We have never observed them staying on the surface for such durations before. What could possibly be causing this change in their behavior?</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>6</ID>
+		<ParentID>3</ParentID>
+		<Text>
+		 PHLOX: Where have Thatch, Melorae and Coleus gone, papa?</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+	 PLUME: They set off this morning for a new expedition, Phlox. Thank goodness we stayed behind to see this exciting phenomenon - but what a shame for it to only occur now in their absence!</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>LC EX4</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Study R3</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		
+	</ShipLogConditions>
+
+</NomaiObject>

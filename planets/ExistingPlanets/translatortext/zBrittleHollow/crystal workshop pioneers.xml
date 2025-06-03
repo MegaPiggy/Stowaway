@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		KOUSA: Your eye is keen, friend. A recent meteor has provided an abundance of material from the crust for me to carve new gravity crystals!
+		KOUSA: Your eye is keen, friend! A recent meteor impact has provided an abundance of material for us to carve into new gravity crystals.
 		</Text>
 	</TextBlock>
 
@@ -67,7 +67,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: The storm shelter uses gravity crystals to powers a gravitational field to hold Nomai in place when islands are ejected into orbit.
+		KOUSA: To protect the Nomai working on the stormy planet, the storm shelter generates a gravitational field to hold Nomai in place when islands are ejected into orbit.
 		</Text>
 	</TextBlock>
 
@@ -85,16 +85,7 @@
 		<ParentID>9</ParentID>
 		<LocationA />
 		<Text>
-		KOUSA: I believe it would be easier to demonstrate than explain..
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>11</ID>
-		<ParentID>10</ParentID>
-		<LocationA />
-		<Text>
-		KOUSA: There is a storm shelter right outside the <![CDATA[<color=orange>Gravity Crystal Workshop,</color>]]> my friend. If you follow me outside, I would love to show you how it works!
+		KOUSA: There is a storm shelter right outside, my friend. If you follow me outside, I would love to show you how it works!
 		</Text>
 	</TextBlock>
 

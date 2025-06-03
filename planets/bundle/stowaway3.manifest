@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4187640309
+CRC: 948184621
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: d94c20fa25b23631e51b1a0ed6dddac7
+    Hash: dc72bb574eb732cbb804b62f86f127e7
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 14f7f7b20b64d1cda8841f4d331d426b
+    Hash: 28c450d1e1ca5f95e30e74c6e3e0f4b4
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -65,6 +65,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 31bd9164073070d2ce3b96fff1a310c7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 36f7e306a24855db0f89ced7314d6ce8, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 97799c07190331b5ea4838ff8ff2a8e0, type: 3}
 - Class: 114
@@ -127,6 +129,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
 - Class: 198
   Script: {instanceID: 0}
 - Class: 199
@@ -140,14 +144,15 @@ Assets:
 - Assets/Models/SolarTower mural.prefab
 - Assets/Models/Materials/comet mural front.prefab
 - Assets/Models/bubbel.prefab
-- Assets/AnimatorController/QuantumShrine WeatherLab proto.prefab
 - Assets/Models/Materials/mural side.prefab
 - Assets/Models/JellyfishVessel.prefab
 - Assets/Models/bubbel collider.prefab
 - Assets/Models/Tractor beam SW 1.prefab
 - Assets/Models/ASH TWIN BEAM south.prefab
+- Assets/Models/protohearthian_rock.prefab
 - Assets/Models/Materials/comet mural front v4.prefab
 - Assets/Models/empty.prefab
+- Assets/Nomai Ruins/Crystal pot.prefab
 - Assets/Nomai Ruins/Mini Volcano Simulation.prefab
 - Assets/Models/water plane.prefab
 - Assets/Models/TheInspired.prefab
@@ -156,7 +161,6 @@ Assets:
 - Assets/Nomai Ruins/Mini QM Simulation.prefab
 - Assets/Models/player nosuit.prefab
 - Assets/Models/th portrait.prefab
-- Assets/Nomai Ruins/Prefabs/BigArch.prefab
 - Assets/Models/JellyfishV proxy.prefab
 - Assets/Nomai Ruins/HourglassOb final.prefab
 - Assets/Models/underwater distort.prefab

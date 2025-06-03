@@ -1,0 +1,49 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		OENO: Friends, one of the native lifeforms has joined us today at our campsite!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		CYCAD: What curious behavior! This species is usually quite shy.. Has this one grown attached to us from the time we spent in the Sanctuary?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		OENO: I would be surprised if it were able to even recognize us! But it does seem to be much more friendly than usual..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>
+		OENO: Perhaps if we
+		</Text>
+	</TextBlock>
+	
+
+<ShipLogConditions>
+				
+			<RevealFact>
+			<FactID>Campsite EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Campsite EX1.5</FactID>
+			<Condition>10</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+
+</NomaiObject>

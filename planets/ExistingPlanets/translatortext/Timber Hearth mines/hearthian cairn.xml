@@ -1,0 +1,17 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		OENO: For those visiting <![CDATA[<color=lightblue>Timber Hearth</color>]]> to study the native species of this planet: you may find their dwelling across the bridge, in the pools outside <![CDATA[<color=orange>mining site 2b.</color>]]>
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		
+	</ShipLogConditions>
+
+
+</NomaiObject>

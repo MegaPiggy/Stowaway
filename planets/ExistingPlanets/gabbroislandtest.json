@@ -63,11 +63,31 @@
 		],
 		"details": [	
 			{
-				"rename":"highledge warm light",
-				"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
-				"position":{"x": -30.8565,"y":  12.0299,"z": 4.6659},
+				"rename": "Orcnid w Stray Legs",
+				"path": "DarkBramble_Body/Sector_DB/Geometry_DB/OtherComponentsGroup/Beast_DB_FrozenJellyfish_v3",
+				"position": {"x": -134.4334, "y": 230.5865, "z": -225.9512},
+				"rotation": {"x": 310.5041, "y": 26.7854, "z": 0.0001},
+				"scale":0.6,
+				"isRelativeToParent": true,
+				"keepLoaded": true
+			},
+			{
+				"rename": "Orcnid collider",
+				"path": "Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_collider",
+				"position": {"x": -7.4614, "y": -552.4193, "z": -8.8027},
+				"rotation": {"x": 296.4384, "y": 85.6072, "z": 56.0576},
+				"parentPath": "Sector_StatueIsland/Orcnid w Stray Legs/",
+				"isRelativeToParent": true
+			},{
+				"rename":"Orcnid LIGHT",
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
+				"position": {"x": 0.7869, "y": -548.7158, "z": -0.1643},
+				"parentPath": "Sector_StatueIsland/Orcnid w Stray Legs/",
 				"isRelativeToParent": true
 			},
+
+
+			
 			{
 				"rename":"cove corner torch1",
 				"assetBundle": "planets/bundle/prefabs",
@@ -84,42 +104,12 @@
 				"isRelativeToParent": true
 			},
 
-			{
-				"rename":"ledgegate GM",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/"
-			},
-			{
-				"rename":"ledgegate GM volume",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
-				"position":{"x": -30.9492 ,"y": 11.9446,"z": 4.1087},
-				"rotation":{"x": 353.4803, "y": 158.5184,"z": 7.4884},
-				"scale":1.3,
-				"isRelativeToParent": true,
-				"parentPath": "Sector_GabbroIsland/ledgegate GM",
-				"removeChildren": ["ProbeVisuals"]
-			},
-			{
-				"rename":"ledgegate GM WISPS",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/Effects_GM_AuroraWisps (1)",
-				"position":{"x": -30.6719,"y": 11.0758,"z": 3.6922},
-				"rotation":{"x": 354.2083, "y": 155.8053,"z": 8.3745},
-				"scale":1.2,
-				"parentPath": "Sector_GabbroIsland/ledgegate GM",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"ledgegate GM notif",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume (1)/NotificationVolume/",
-				"position":{"x": -31.2073,"y": 11.298,"z": 2.1473},
-				"rotation":{"x": 359.4487,"y": 118.2582,"z": 11.1395},
-				"parentPath": "Sector_GabbroIsland/ledgegate GM",
-				"scale":2,
-				"isRelativeToParent": true
-			},
+			
 
 			{
 				"rename":"cove GM otherend",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/"
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab"
 			},
 			{
 				"rename":"cove GM volume otherend",
@@ -143,7 +133,8 @@
 
 			{
 				"rename":"cove GM gabbroend",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/"
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab"
 			},
 			{
 				"rename":"cove GM volume gabbroend",
@@ -183,98 +174,7 @@
 				"rotation":{"x": 358.5131,"y": 237.3703,"z": 0.1296}
 			},
 
-			{
-				"rename":"Gabbro highcove gravitycrystal",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal",
-				"removeChildren": ["Light_NOM_GravityCrystal"],
-				"position":{"x": -28.1172,"y": 7.5142,"z": -6.1632},
-				"rotation":{"x": 42.6745,"y": 112.9559,"z": 317.3199},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Gabbro highcove gravitycrystal light",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal/Light_NOM_GravityCrystal",
-				"parentPath": "Sector_GabbroIsland/Gabbro highcove gravitycrystal",
-				"position": {"x":0,"y": 1.425,"z": 0},
-				"keepLoaded": true,
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"highcove table",
-				"assetBundle": "planets/bundle/prefabs",
-					"path":"assets/nomai ruins/prefabs/table.prefab",
-				"position": {"x":-31.2614 ,"y": 10.7803,"z": 5.4077},
-				"rotation": {"x":357.0576, "y": 142.6942,"z": 9.7532},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"highcove snackbox",
-				"assetBundle": "planets/bundle/prefabs",
-					"path":"assets/nomai ruins/prefabs/broken box.prefab",
-				"position": {"x": -30.9972, "y": 11.8736, "z": 5.1012},
-				"rotation": {"x": 350.5819, "y": 193.4996, "z": 3.8904},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"highcove gm0",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x":-23.3594,"y": 7.5277,"z": -1.2657},
-				"rotation":{"x": 29.8361,"y": 13.2709,"z": 279.7133},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"highcove gm1",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x":-34.347,"y": 11.7592,"z": 5.9534},
-				"rotation":{"x":353.1019,"y": 164.1712,"z": 5.865},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"highcove gm2",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x":-30.9799,"y": 10.7907,"z": 10.2298},
-				"rotation":{"x":351.9258,"y": 225.4557,"z": 357.4232},
-				"isRelativeToParent": false,
-				"parentPath": "Sector_GabbroIsland/highcove gm1"
-			},
-			{
-				"rename":"highcove gm3",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x":-34.456,"y": 10.9474,"z": 11.8648},
-				"rotation":{"x":351.9276,"y": 175.4314,"z": 2.9682},
-				"isRelativeToParent": false,
-				"parentPath": "Sector_GabbroIsland/highcove gm1"
-			},
-			{
-				"rename":"highcove gm4",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x":-35.7063,"y": 12.4525,"z": 1.6831},
-				"rotation":{"x":1.24,"y": 105.7325,"z": 9.1937},
-				"isRelativeToParent": false,
-				"parentPath": "Sector_GabbroIsland/highcove gm1"
-			},
-			{
-				"rename":"highcove gm5",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
-				"position":{"x":-30.1528,"y": 12.0962,"z": 0.8745},
-				"rotation":{"x":355.5519,"y": 207.3467,"z": 353.6985},
-				"isRelativeToParent": false,
-				"parentPath": "Sector_GabbroIsland/highcove gm1"
-			},
-			{
-				"rename":"highcove torch 1",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Lighting_GravityCannon/Prefab_NOM_WallTorch (4)",
-				"position": {"x": -36.6821, "y": 14.037, "z": 5.1144},
-				"rotation": {"x": 26.6376, "y": 83.890, "z": 352.9176},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"highcove torch 2",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Lighting_GravityCannon/Prefab_NOM_WallTorch (4)",
-				"position": {"x": -25.0657, "y": 12.9134, "z": 7.238},
-				"rotation": {"x": 28.7619, "y": 74.147 , "z": 352.9176},
-				"isRelativeToParent": true
-			},
+			
 
 
 
@@ -374,112 +274,18 @@
 			"position":{"x": 7.1636,"y": 2.2,"z": 25.2},
 			"rotation":{"x": 358.5567,"y": 282.3507,"z": 356.402},
 			"isRelativeToParent": true
-		},
-		
-
-	
-
-
-		{
-			"rename":"high ledge lamp",
-			"path":"TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Lighting_ImpactCrater/Props_HEA_Lantern",
-			"position":{"x":-22.7498,"y":10.0489,"z": 16.5378},
-			"rotation":{"x":359.2572,"y": 126.5675,"z": 6.9586}
-		},
-		{
-			"rename":"BASE_LARGE Projection Whiteboard",
-			"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_Whiteboard_Shared",
-			"position": {"x": -19.5349, "y": 0.6475, "z":  31.1577},
-			"rotation": {"x": 359.5715, "y": 94.2078, "z": 3.8933},
-			"scale":2
 		}
 	],
-		"translatorText": [
+		"translatorText": 
+		[
 			{
 				"rename": "Marriage Recording",
 				"position": {"x": 9.706928, "y": 0.9691101, "z": 30.35715},
 				"rotation": {"x": 1.777405, "y": 277.2332, "z": 1.093918},
 				"type": "recorder",
 				"xmlFile":"planets/ExistingPlanets/translatortext/Gabbro's Island/marriage loverscove.xml"
-			},
-			{"rename": "Solar tide setup wall",
-			"position": {"x": -19.301, "y": 1.5992, "z": 35.0486},
-			"rotation": {"x": 359.6072, "y": 95.4035, "z": 4.0538},
-			"type": "wall",
-			"seed":1,
-			"xmlFile":"planets/ExistingPlanets/translatortext/Gabbro's Island/solar tide setup.xml"
-		}
-		],
-		"remotes":[
-			{
-				"id":"GD_StatueIslandScrollWorkshop",
-				"decalPath": "planets/assets/voyager statueisle icon.png",
-				"stones": [
-					{
-						"position": {"x": -30.858, "y": 12.0109, "z": 4.7429},
-						"rotation": {"x": 339.0696, "y": 300.0268, "z": 20.5326},
-						"rename": "ScrollWorkshop_Stone"
-					}]},
-				{"id":"GD_LoversCove",
-					"decalPath": "planets/assets/GD loverscove icon.png",
-					"platform":{
-						"position": {"x": -12.3993, "y": 1.3219, "z": 30.5861},
-						"rotation": {"x": 4.7714, "y": 4.9962, "z": 1.4217}
-						},
-					"whiteboard": {
-						"position": {"x": -19.625, "y": 0.8478,"z": 30.8388},
-						"rotation": {"x":359.8438, "y": 94.0756, "z": 4.0096},
-					"disableWall": true,
-					"nomaiText":
-			[
-				{
-						"id":"GD_StatueIslandScrollWorkshop",
-						"location": "a",
-						"seed":4,
-						"xmlFile": "planets/ExistingPlanets/translatorText/Gabbro's Island/solar tide answer.xml"
-					},
-				
-					{
-						"id": "GD_DeepStormStation",
-						"location": "b",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/loverscove marriage timeloop.xml",
-						"arcInfo": [
-							{},
-							{},
-							{},
-							{},
-							{
-								"mirror": true,
-								"position": {"x":2.1638,"y": 1.5215},
-								"zRotation": 349.5079
-							},
-							{"mirror": true,
-								"position": {"x":1.778,"y": 1.575},
-								"zRotation": 54.532
-							},
-							{"mirror": true,
-								"position": {"x":1.0872,"y": 2.4965},
-								"zRotation": 69.5822
-							},
-							{"mirror": true,
-								"position": {"x":0.1722,"y": 1.9935},
-								"zRotation": 112.1742
-							},
-							{"mirror": true,
-								"position": {"x":-0.115,"y": 1.8738},
-								"zRotation": 56.1776
-							},
-							{"mirror": true,
-								"position": {"x":-1.1567,"y": 1.4039},
-								"zRotation": 77.6473
-							}
-						]
-					}
-				
-				]
-				}
 			}
 		]
-		}
+	}
 	
-	}			
+}			

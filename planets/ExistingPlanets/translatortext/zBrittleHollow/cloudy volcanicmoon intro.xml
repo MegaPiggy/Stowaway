@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		SPIRE: This is a simulation of where future meteor impacts from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> (our dreaded volcanic moon) will occur on <![CDATA[<color=lightblue>Brittle Hollow.</color>]]>
+		SPIRE: This is a simulation of where meteor impacts from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> (our dreaded volcanic moon) will occur on <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> ten minutes in the future.
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		SPIRE: With forecasts from this model, Nomai will be able to know precisely when and where any meteor impacts occur - allowing them to safely traverse <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> surface without fear!
+		SPIRE: With forecasts from this model, we will be able to better know when and where meteor impacts occur, allowing us to safely traverse <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> surface without fear!
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		PHLOX: A meteor approached and crashed near me just now - on a path where the model had said there would be none!
+		PHLOX: A meteor approached and crashed near me just now.. on a path where the model had said there would be none!
 		</Text>
 	</TextBlock>
 
@@ -68,7 +68,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		PHLOX: Could there be some flaw in this model's calculations of where meteors fall - or was that harrowing encounter simply an unfortunate anomaly?
+		PHLOX: Could there be some flaw in this model's calculations of where meteors fall, or was that harrowing encounter simply an unfortunate anomaly?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -84,7 +84,7 @@
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		SPIRE: How strange.. There indeed appears to be periods of inaccuracy, where meteors do not land where the model has predicted. Yet, without any modification, it returns to predicting impacts with perfect accuracy!
+		SPIRE: How strange.. There appears to be periods of inaccuracy where meteors do not land as predicted. Yet, without any modification, it resumes predicting impacts with perfect accuracy!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -92,7 +92,7 @@
 		<LocationB />
 		<ParentID>10</ParentID>
 		<Text>
-		PHLOX: An update: While studying meteor impacts during the negative time interval to improve Spire's model, we noticed a disturbing issue.
+		PHLOX: An update: Spire and I have noticed something rather disturbing.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -100,7 +100,7 @@
 		<LocationB />
 		<ParentID>11</ParentID>
 		<Text>
-		PHLOX: Spire, I must return to Giant's Deep to ask Daz about this issue at once. Could you bring this matter to our friends at the <![CDATA[<color=orange>Hanging City?</color>]]>
+		PHLOX: Spire, I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> to ask Daz about this issue at once. Could you bring this matter to our friends at the <![CDATA[<color=orange>Hanging City?</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -108,7 +108,7 @@
 		<LocationB />
 		<ParentID>12</ParentID>
 		<Text>
-		SPIRE: Of course, my friend. I only hope that somebody at the <![CDATA[<color=orange>Hanging City</color>]]> will have an answer to this mystery!
+		SPIRE: Of course, Phlox. I pray that somebody at the <![CDATA[<color=orange>Hanging City</color>]]> will have an answer to this mystery...
 		</Text>
 	</TextBlock>
 

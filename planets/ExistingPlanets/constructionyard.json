@@ -72,15 +72,48 @@
 			}
 		],
 		"details":
-		[
-			
-			{
-				"rename":"Bay recorder statuebox",
-				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
-				"position":{"x": -17.4746,"y": 2.6032,"z": -39.4369},
-				"rotation": {"x": 359.9878,"y": 270.2523,"z": 2.7639},
+		[	{
+				"rename":"Cyard hint tablet",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/tablet.prefab",
+				"position": {"x": -20.0283, "y": 2.6328, "z": -38.4994},
+				"rotation": {"x": 1.3477, "y": 240.8348, "z": 2.4133},
 				"isRelativeToParent": true
-				},
+			},{
+				"rename":"gate purple LIGHT",
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Lighting_Observatory/Exhibits/PointLight_HEA_NomaiEyeExhibit",
+				"position": {"x": 0.4074, "y": 1.7632, "z": -0.4751},
+				"parentPath": "Sector_ConstructionYard/Cyard hint tablet",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Cyard crystal bucket",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/nomai ruins/crystal pot.prefab",
+				"position":{"x": 24.2326,"y": 1.7783,"z": -38.2005},
+				"rotation":{"x": 3.4199,"y": 237.4599,"z": 1.927},
+				"isRelativeToParent": true
+			},{
+				"rename":"Cyard crystal bucket 2",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/nomai ruins/crystal pot.prefab",
+				"position":{"x": -21.5476,"y": 2.5602,"z": -40.0977},
+				"rotation":{"x": 358.6809 ,"y": 298.4879,"z": 2.4291},
+				"isRelativeToParent": true
+			},{
+				"rename":"Cyard decor corpse 1",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/QuantumDeadNomaiSuit/State_4/Prefab_NOM_Dead_Suit_GroundC",
+				"position": {"x": 19.5894, "y": 1.4909, "z": -37.6873},
+				"rotation":{"x": 340.4986,"y": 264.8339,"z": 1.9084},
+				"isRelativeToParent": true
+			},{
+				"rename":"Cyard decor corpse 2",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/QuantumDeadNomaiSuit/State_1/Prefab_NOM_Dead_Suit_GroundD/",
+				"position": {"x": 25.5362, "y": 1.7726, "z": -41.5351},
+				"rotation":{"x": 359.77,"y": 276.8288,"z": 1.9203},
+				"isRelativeToParent": true
+			},
+			
 			{
 				"rename":"Block shelf 1",
 				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)/",
@@ -483,12 +516,21 @@
 		
 
 			{
-				"rename": "fallen torch",
-				"path": "StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Lighting_StatueIslandInterior/OtherComponentsGroup/Prefab_NOM_WallTorch",
-				"position": {"x": 28.7623, "y": 1.7685, "z": -37.8559},
-				"rotation": {"x": 291.7495, "y": 241.5807, "z": 80.7598},
+				"rename": "cyard wb torch 1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position": {"x": 29.4241, "y": 5.078, "z": -37.0548},
+				"rotation": {"x": 0.1618, "y": 265.203 , "z": 1.9273},
+				"isRelativeToParent": true
+			},{
+				"rename": "cyard wb torch 2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position": {"x": 29.4241, "y": 4.8762, "z": -41.3456},
+				"rotation": {"x": 0.1618, "y": 265.203 , "z": 1.9273},
 				"isRelativeToParent": true
 			},
+			
 			{
 				"rename":"Stowaway cyard LIGHT",
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
@@ -504,14 +546,13 @@
 		"translatorText": 
 		[
 			{
-				"rename": "Sanctuary sad recording",
-				"type": "recorder",
-				"position": {"x": -17.9627, "y": 3.6464, "z": -39.5605},
-				"rotation": {"x": 0.9538, "y": 300.5539,"z": 3.0854},
-				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cassava sad.xml"
+				"rename": "Cyard tablet text hint",
+				"type": "wall",
+				"position": {"x": -0.2,"y": 0.5091,"z": 0.5},
+				"rotation": {"x": 270,"y": 33.3664 ,"z": 0},
+				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/gm water hint.xml",
+				"parentPath": "Sector_ConstructionYard/Cyard hint tablet"
 			},
-		
-			
 			{
 				"rename": "Stowaway water rule TEXT",
 				"type": "wall",

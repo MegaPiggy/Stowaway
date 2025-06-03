@@ -1,0 +1,24 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>CASSAVA: After sufficient observation of the deadly matter, I can now confidently confirm my earlier hypothesis of its properties.</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>WorkshopTop R2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	<RevealFact>
+			<FactID>CB_EX5</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+<RevealFact>
+			<FactID>SY R4.5</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

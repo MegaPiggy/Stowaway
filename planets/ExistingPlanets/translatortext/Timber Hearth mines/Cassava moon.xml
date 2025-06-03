@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: Hypothesis confirmed. I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> at once.
+		CASSAVA: Hypothesis confirmed... I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> at once.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: If the hypothesis is true, this property of attraction will change everything.
+		CASSAVA: If the hypothesized property of attraction is true, it will change everything.
 		</Text>
 	</TextBlock>
 

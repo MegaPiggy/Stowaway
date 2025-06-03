@@ -30,14 +30,14 @@
 		[		
 		{
 			"rename":"Beach Tent 1",
-			"path":"TimberHearth_Body/Sector_TH/Tent wall 1",
+			"path":"TimberHearth_Body/Sector_TH_NomaiCampsite/Tent A",
 			"position": {"x": -37.5215, "y": -10.1856, "z": -104.6237},
 			"rotation": {"x": 319.9595, "y": 300.3281, "z": 11.9631},
 			"isRelativeToParent": true
 		},
 		{
 			"rename":"Beach Tent 2",
-			"path":"TimberHearth_Body/Sector_TH/Tent wall 1",
+			"path":"TimberHearth_Body/Sector_TH_NomaiCampsite/Tent A",
 			"position": {"x": -42.101, "y": -10.1368, "z": -101.10423},
 			"rotation": {"x": 317.4332, "y": 326.1635, "z": 10.5133},
 			"isRelativeToParent": true

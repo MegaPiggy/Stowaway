@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2629888552
+CRC: 3930587332
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -12,14 +12,14 @@ AssetBundleManifest:
       Name: felix
       Dependencies: {}
     Info_3:
-      Name: stowaway3
-      Dependencies: {}
-    Info_4:
       Name: dev
       Dependencies: {}
-    Info_5:
+    Info_4:
       Name: friend
       Dependencies: {}
-    Info_6:
+    Info_5:
       Name: giantsdeep/meshes/structures
+      Dependencies: {}
+    Info_6:
+      Name: stowaway3
       Dependencies: {}

@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		YARROW: Ramie, could these be designs for the <![CDATA[<color=orange>solar towers?</color>]]>
+		YARROW: Ramie, is this your design for the <![CDATA[<color=orange>solar towers?</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: I should have expected no less of the Nomai who designed the warp towers on <![CDATA[<color=lightblue>Ash Twin..</color>]]> Your work is inspiring as ever, my friend!
+		YARROW: I should have expected no less of the Nomai who designed the warp towers on <![CDATA[<color=lightblue>Ash Twin!</color>]]>
 		</Text>
 	</TextBlock>
 	

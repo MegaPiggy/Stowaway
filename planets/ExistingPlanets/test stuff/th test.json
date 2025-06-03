@@ -75,7 +75,15 @@
 		],
 		
 		"details": [
-	
+			{
+				"rename": "hearthian husk",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/protohearthian_rock.prefab",
+				"scale":0.1,
+				"position":{"x": 20.0313,"y": -45.4565,"z": 184.6188},
+				"rotation": {"x":70.6127 ,"y": 108.3506,"z": 137.1097},
+				"isRelativeToParent": true
+			}
 
 		
 		],

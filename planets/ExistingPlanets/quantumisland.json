@@ -8,9 +8,10 @@
 		"audioVolumes": [
 				{
 					"audio": "OW_GD_WavesAgainstBeach",
-					"rename": "Pioneer Beach waves",
+					"rename": "Pioneer Beach waves audiovolume",
 					"track": "environmentUnfiltered",
 					"priority": 129,
+					"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
 					"position": {"x": -6.4272, "y": -3.1543, "z": -75.1605},
 					"volume": 0.35,
 					"radius":10,
@@ -88,7 +89,7 @@
 			{"id": "GD_QuantumIsland",
 			"decalPath": "planets/assets/team askeratk.png",
 			"platform":{
-				"position": {"x": 72, "y": -5.8, "z": -47},
+				"position": {"x": 69.1982, "y": -5.4144, "z": -43.4074},
 				"rotation": {"x": 0.8953013, "y": 35.79652, "z": 349.9525}
 		}}
 			],
@@ -334,12 +335,33 @@
 				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
 				"isRelativeToParent": true,
 				"scale":4
+			},{
+			"rename": "qshore lead torch",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+			"position": {"x": 60.143,"y": -6.7799,"z": -63.4583},
+			"rotation": {"x": 281.6749,"y": 106.0411,"z": -0.0003},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+				"removeChildren": ["WallTorch_Connector"],
+			"isRelativeToParent": true
 			},
-			
+			{
+			"rename": "qshore lead sandpile",
+			"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
+			"position": {"x": 60.1103,"y": -6.5526,"z": -63.3129},
+			"rotation":{"x": 358.9453,"y": 218.2089,"z": 8.0896},
+			"scale":2,
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+			"isRelativeToParent": true
+			},
+
 			{
 				"rename":"Grave arch object",
 				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/models/empty.prefab"
+				"path":"assets/models/empty.prefab",
+					"position": {"x":-10.3455, "y": 5.2654,"z": -24.7855},
+					"rotation":{"x": 353.5474,"y": 342.8055,"z": 359.9618},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/"
 			},
 			{
 			"rename":"Grave Arch",
@@ -1014,13 +1036,7 @@
 
 
 		
-			{
-				"rename":"jelly scroll light",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/Prefab_NOM_Computer/PointLight_NOM_Computer",
-				"position": {"x": 3.3818,"y": -33.451,"z": 4.9746},
-				"rotation": {"x": 344.224,"y": 340.8761,"z": 0},
-				"isRelativeToParent": true
-			},
+		
 			
 		
 		
@@ -1058,71 +1074,7 @@
 				"isRelativeToParent": true
 			},
 
-			{
-				"rename":"aquarium fill light",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Lighting_QuantumTower/OtherComponentsGroup/FillLight_NOM_QuantumTowerCave/",
-				"position": {"x": 2.0102, "y": -25.816, "z": -1.0701},
-				"isRelativeToParent": false
-			},
-			{
-				"rename": "Aqua lamp",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Interactables_NorthPole/Prefab_NOM_WarpReceiver/Props_NOM_Lamp_Wall",
-				"position": {"x": -1.4182, "y": -15.4037, "z": -12.5037},
-				"rotation": {"x": 356.8205, "y": 295.1642, "z": 271.0659},
-				"scale":5,
-				"parentPath": "Sector_QuantumIsland/aquarium fill light",
-				"isRelativeToParent": false
-			},
-			{
-				"rename":"Aquarium bubbles",
-				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_01/",
-				"position": {"x": -2.7067, "y": -5.9162, "z": -9.5069},
-				"rotation": {"x": 1.516 , "y": 297.6412, "z": 357.8299},
-				"parentPath": "Sector_QuantumIsland/aquarium fill light",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Aquarium pipe",
-				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Props_HangingCity_District1/OtherComponentsGroup/Props_HangingCity_Building_10/Prefab_NOM_VaseThin",
-				"position": {"x": -2.4626, "y": -32.2202, "z": -11.8794},
-				"rotation": {"x": 275.3497, "y": 278.1909, "z": 285.6423},
-				"scale":5,
-				"parentPath": "Sector_QuantumIsland/aquarium fill light",
-				"isRelativeToParent": false
-			},
-			{
-				"rename":"aqua moss",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Geometry_StatueIsland/OtherComponentsGroup/ControlledByProxy_StatueIsland/Props_GD_StatueIsland_Mossfix/",
-				"position": {"x": -15.2067, "y": -36.1431, "z": 5.305},
-				"rotation": {"x": 359.6595, "y": 23.9221, "z": 0.1815},
-				"parentPath": "Sector_QuantumIsland/aquarium fill light",
-				"isRelativeToParent": false
-			},
-			{
-				"rename":"aqua moss 2",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Geometry_StatueIsland/OtherComponentsGroup/ControlledByProxy_StatueIsland/Props_GD_StatueIsland_Mossfix/",
-				"position": {"x": 3.0714, "y": -36.2899, "z": 11.3282},
-				"rotation": {"x": 358.6015, "y": 107.628, "z": 0.1066},
-				"parentPath": "Sector_QuantumIsland/aquarium fill light",
-				"isRelativeToParent": false
-			},
-			{
-				"rename":"aqua moss 3",
-				"path":"StatueIsland_Body/Sector_StatueIsland/Geometry_StatueIsland/OtherComponentsGroup/ControlledByProxy_StatueIsland/Props_GD_StatueIsland_Mossfix/",
-				"position": {"x": 28.3615, "y": -35.774, "z": 2.1457},
-				"rotation": {"x": 358.692, "y": 138.9461, "z": 358.295},
-				"parentPath": "Sector_QuantumIsland/aquarium fill light",
-				"isRelativeToParent": false
-			},
-			{
-				"rename": "GiantsLoft Reeds",
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_Lakebed/DetailPatches_Lakebed/Lakebed_VisibleFrom_Far/Campsite/Foliage_HT_High (8)",
-				"position": {"x": -9.2455, "y": -33.88, "z": 0},
-				"rotation": {"x": 348.4751, "y": 30.3939, "z": 353.8319},
-				"stretch": {"x":2,"y": 3,"z": 2},
-				"parentPath": "Sector_QuantumIsland/aquarium fill light",
-				"isRelativeToParent": false
-			},
+			
 
 
 
@@ -1154,13 +1106,18 @@
 		
 
 
-	
+			{
+				"rename":"Sector_EyeShrineShore",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab"
+			},
 		{
 			"rename": "Pioneer Quantum Camp torch",
 			"assetBundle": "planets/bundle/prefabs",
 			"path":"assets/nomai ruins/prefabs/walltorch.prefab",
 			"position":{"x":-5.0863,"y": 1.8246,"z": -67.1127},
 			"rotation":{"x":30.75,"y": 177.5927,"z": 356.971},
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
 			"isRelativeToParent": true
 		},	
 		{
@@ -1169,14 +1126,14 @@
 			"position":{"x":-2.4047,"y": 18.248,"z": -76.2763},
 			"rotation":{"x":287.3269,"y": 189.9638,"z": 356.7981},
 			"scale":3,
-			"parentPath": "Sector_QuantumIsland/Pioneer Quantum Camp torch",
-			"isRelativeToParent": false
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
+			"isRelativeToParent": true
 		},	
 		{
 			"rename": "Pioneer Quantum Camp extra pointlight",
 			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Lighting_Module_Sunken/FillLight_SunkenModule",
-			"position":{"x":-6.2892,"y": 2.3333,"z": 5.5403},
-			"parentPath": "Sector_QuantumIsland/Pioneer Quantum Camp torch",
+			"position":{"x": 1.3226,"y": 1.2799,"z": -72.9713},
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
 			"isRelativeToParent": true
 		},	
 		
@@ -1185,8 +1142,8 @@
 			"path":"StatueIsland_Body/Sector_StatueIsland/Geometry_StatueIsland/OtherComponentsGroup/ControlledByProxy_StatueIsland/Trees/BatchedGroup/BatchedMeshRenderers_0",
 			"position":{"x":-100.5457,"y": -75.8067,"z": -76.487},
 			"rotation":{"x":1.3568,"y": 274.6389,"z": 5.2299},
-			"parentPath": "Sector_QuantumIsland/Pioneer Quantum Camp torch",
-			"isRelativeToParent": false
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
+			"isRelativeToParent": true
 		},	
 		{
 			"rename": "Pioneer Quantum Camp pole",
@@ -1195,25 +1152,25 @@
 			"position":{"x":-2.3844,"y": 19.3019,"z":  -76.4587},
 			"rotation":{"x":14.7848,"y": 157.7401,"z": 170.8623},
 			"stretch":{"x":4.5,"y": 17.28,"z": 4.5},
-			"parentPath": "Sector_QuantumIsland/Pioneer Quantum Camp torch",
-			"isRelativeToParent": false
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
+			"isRelativeToParent": true
 		},	
 		{
 			"rename": "Pioneer Quantum Camp HoloSeat_1",
 			"assetBundle": "planets/bundle/prefabs",
 			"path":"assets/nomai ruins/prefabs/holo seat.prefab",
-			"position":{"x":-2.4797,"y": -0.4643,"z": 6.6505},
-			"rotation":{"x":350.0275,"y": 36.2848,"z": 346.9267},
-			"parentPath": "Sector_QuantumIsland/Pioneer Quantum Camp torch",
+			"position":{"x": -2.3548,"y": -1.8616,"z": -72.5482},
+			"rotation":{"x": 16.4852,"y": 215.6565,"z": 3.0305},
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
 			"isRelativeToParent": true
 		},
 		{
 			"rename": "Pioneer Quantum Camp HoloSeat_2",
 			"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/holo seat.prefab",
-			"position":{"x":-2.0828,"y": -0.8817,"z": 6.3076},
-			"rotation":{"x":353.5611,"y": 66.7623,"z": 340.7699},
-			"parentPath": "Sector_QuantumIsland/Pioneer Quantum Camp torch",
+			"position":{"x": -2.7506,"y":-2.0625,"z": -72.0458},
+			"rotation":{"x": 8.3766,"y": 245.6604,"z": 7.9488},
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
 			"isRelativeToParent": true
 		}
 		
@@ -1287,7 +1244,7 @@
 		"rotation": {"x": 2.8988, "y": 261.7177, "z": 48.3928},
 		"seed":1,
 		"type":"scroll",
-		"parentPath": "Sector_QuantumIsland/Gallery Bed 2",
+		"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
 		"isRelativeToParent": true
 	},
 	
@@ -1331,14 +1288,7 @@
 	"removeChildren":
 		[
 
-
-
-		"Sector_QuantumIsland/aquarium fill light/Aquarium bubbles/FluidVolume_Geyser",
-		"Sector_QuantumIsland/aquarium fill light/Aquarium bubbles/GeyserParticles/GeyserShaft",
-		"Sector_QuantumIsland/aquarium fill light/Aquarium bubbles/GeyserParticles/GeyserSpout",
-		"Sector_QuantumIsland/aquarium fill light/Aquarium bubbles/Geyser_OneShotAudioSrc",
-		"Sector_QuantumIsland/aquarium fill light/Aquarium bubbles/Geyser_LoopAudioSrc",
-		"Sector_QuantumIsland/aquarium fill light/Aquarium bubbles/Terrain_TH_SeperateGeyser_Small (16)"
+		"Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Interactables_FinalRoom/Prefab_GD_QuantumShardSocket (14)/"
 
 	]
 	}
