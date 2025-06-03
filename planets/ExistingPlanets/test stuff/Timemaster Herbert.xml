@@ -15,7 +15,7 @@
 	          		</DialogueOption>
 	                   		<DialogueOption>
 	              	  		<Text>Nah.</Text>
-	      	  	        	<DialogueTarget>Timemaster 2</DialogueTarget>		
+	      	  	        	<DialogueTarget>Timemaster 3</DialogueTarget>		
 	          		</DialogueOption>
 	          </DialogueOptionsList>
   </DialogueNode>
@@ -33,7 +33,7 @@
 	  <SetCondition>ATP_Sync</SetCondition>
     <Name>Timemaster 3</Name>
     <Dialogue>
-      <Page>Okie.</Page>
+      <Page>Okie dokie.</Page>
     </Dialogue> 
   </DialogueNode>
 

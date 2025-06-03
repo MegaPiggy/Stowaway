@@ -68,9 +68,9 @@
 				"parentPath": "Sector_SUN/Volumes_SUN/ScaledVolumesRoot/DestructionFluidVolume/"
 			},
 			{
-				"rename": "gm volume supernova",
+				"rename": "gm volume supernova radius 0.15",
 				"type": "ghostMatter",
-				"radius": 1.5,
+				"radius": 0,
 				"damagePerSecond": 10,
 				"parentPath": "Sector_SUN/Volumes_SUN/SupernovaVolume"
 			}

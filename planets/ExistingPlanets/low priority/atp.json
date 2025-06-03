@@ -21,28 +21,47 @@
 		],
 		"translatorText": [
 			{
-				"rename":"ATP memorystatue computer",
+				"rename":"ATP memorystatue postsync",
 				"position":{"x": 0,"y": 0,"z": 0},
 				"rotation": {"x":0,"y": 0,"z": 0},
 				"isRelativeToParent": true,
-				"parentPath": "Interactibles_TimeLoopRing_Hidden/ATP memorystatue computer object",
+				"parentPath": "Interactibles_TimeLoopRing_Hidden/ATP memorystatue postsync object",
 				"type":"computer",
-				"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/atp memorystatue.xml"
+				"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/atp/atp memorystatue.xml"
+			},
+			{
+				"rename":"ATP memorystatue presync",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"rotation": {"x":0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Interactibles_TimeLoopRing_Hidden/ATP memorystatue presync object",
+				"type":"computer",
+				"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/atp/atp memorystatue og.xml"
+			},
+			{
+				"rename":"ATP warning",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"rotation": {"x":0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Interactibles_TimeLoopRing_Hidden/ATP warning object",
+				"type":"computer",
+				"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/atp/atp warning.xml"
 			}
 		],
 		"details": [
 			{
-				"rename":"ATP computer og replaced",
-				"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing_Hidden/Prefab_NOM_Computer/",
-				"parentPath": "Interactibles_TimeLoopRing_Hidden/",
+				"rename":"ATP memorystatue presync object",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab",
 				"position": {"x": 26.3537,"y": 0.18,"z": -6.67},
 				"rotation": {"x": 321.0001,"y": 0,"z": 90},
-				"deactivationCondition": "ATP_Sync",
+				"parentPath": "Interactibles_TimeLoopRing_Hidden/",
 				"isRelativeToParent": true,
+				"deactivationCondition": "ATP_Sync",
 				"blinkWhenActiveChanged": false
 			},
 			{
-				"rename":"ATP memorystatue computer object",
+				"rename":"ATP memorystatue postsync object",
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/empty.prefab",
 				"position": {"x": 26.3537,"y": 0.18,"z": -6.67},
@@ -52,6 +71,17 @@
 				"activationCondition": "ATP_Sync",
 				"blinkWhenActiveChanged": false
 			},
+			{
+				"rename":"ATP warning object",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab",
+				"position": {"x": -25.61,"y": 2.4,"z": 10.78},
+				"rotation": {"x": 90,"y": 112.503,"z": 0},
+				"parentPath": "Interactibles_TimeLoopRing_Hidden/",
+				"isRelativeToParent": true
+			},
+
+
 			{
 				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/NomaiStatueExhibit/NomaiHeadStatue",
 				"position": {"x": -19.9932,"y": -7.3061,"z": 14.9175},
@@ -66,7 +96,8 @@
 				"rotation": {"x": 90,"y": 55,"z": 0},
 				"deactivationCondition": "ATP_Sync",
 				"isRelativeToParent": true,
-				"blinkWhenActiveChanged": false
+				"blinkWhenActiveChanged": false,
+				"keepLoaded": true
 			},
 
 			{
@@ -77,7 +108,8 @@
 				"rotation": {"x": 90,"y": 55,"z": 0},
 				"isRelativeToParent": true,
 				"activationCondition": "ATP_Sync",
-				"blinkWhenActiveChanged": false
+				"blinkWhenActiveChanged": false,
+				"keepLoaded": true
 			},
 			{
 				"rename":"mask glowy",
@@ -85,6 +117,27 @@
 				"isRelativeToParent": true,
 				"position": {"x": 0.0022,"y": -4.3208,"z": 0.0152},
 				"parentPath": "Sector/ATP four eyed mask platform"
+			},
+			{
+				"rename":"4thmask data memory stream",
+				"path":"TimeLoopRing_Body/Effects_TimeLoopRing/Effects_NOM_TimeLoopDataStream/",
+				"position": {"x": 0,"y": 0,"z": 0},
+				"rotation": {"x": 325,"y": 180,"z": 180},
+				"activationCondition": "ATP_Sync",
+				"isRelativeToParent": true,
+				"blinkWhenActiveChanged": false,
+				"parentPath": "Effects_TimeLoopRing/Effects_NOM_TimeLoopDataStream",
+				"keepLoaded": true
+			},{
+				"rename":"4thmask endtimes pulse wire",
+				"path":"TimeLoopRing_Body/Effects_TimeLoopRing/centralPulse 1/",
+				"position": {"x": 3.2852,"y": -0.0597,"z": -9.6579},
+				"rotation": {"x": 359.0341,"y": 285.0022,"z": 359.7411},
+				"activationCondition": "ATP_Sync",
+				"isRelativeToParent": true,
+				"blinkWhenActiveChanged": false,
+				"parentPath": "Effects_TimeLoopRing/centralPulse 1/",
+				"keepLoaded": true
 			}
 		]
 	}
