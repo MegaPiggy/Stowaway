@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: However, as the native life of <![CDATA[<color=lightblue>Timber Hearth</color>]]> are amphibious, an unattended return warp could allow these species to be unintentionally warped to <![CDATA[<color=lightblue>Ash Twin!</color>]]>
+		OENO: An unattended return warp could cause the local wildlife of <![CDATA[<color=lightblue>Timber Hearth</color>]]> to be unintentionally warped to <![CDATA[<color=lightblue>Ash Twin</color>]]> during their visits to the planet's surface.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -36,7 +36,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: Without any air supply or protection from the heat on that planet, the lives of these native species would be gravely endangered by our carelessness.
+		OENO: Without any air supply or protection from the heat on that planet, the lives of these native species could be gravely endangered by our carelessness.
 		</Text>
 	</TextBlock>
 	<TextBlock>

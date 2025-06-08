@@ -1,0 +1,29 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<Text>Model calculating meteor impacts occuring in: 10 MINUTES.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<Text>WARNING: Critical meteor impact predicted to occur at: Gravity Cannon.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<Text>WARNING: Critical meteor impact predicted to occur at: Escape Pod 3.</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<Text>WARNING: Critical meteor impact predicted to occur at: Tower of Quantum Knowledge.</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Workshop R3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

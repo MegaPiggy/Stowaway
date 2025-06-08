@@ -14,12 +14,13 @@
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredLogCondition>GAL R1</RequiredLogCondition>
-				<Text>I figured out why jellyfish on Giant's Deep rise to the surface sometimes!</Text>
+				<Text>I found a Nomai computer that predicts where meteors land on Brittle Hollow, but..</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
 
 		</DialogueOptionsList>
 	</DialogueNode>
+
 
 
 <DialogueNode>
@@ -32,9 +33,15 @@
 				<Text>Hey, Galena. Got any questions about the universe for me?</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
+				<Text>I found a Nomai computer that predicts where meteors land on Brittle Hollow, but..</Text>
+				<DialogueTarget>ShyKid_Model</DialogueTarget>
+			</DialogueOption>
 
 		</DialogueOptionsList>
 	</DialogueNode>
+
 
 
 <DialogueNode>
@@ -47,61 +54,111 @@
 				<Text>Hey, Galena. Got any questions about the universe for me?</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
+				<Text>I found a Nomai computer that predicts where meteors land on Brittle Hollow, but..</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
 
 		</DialogueOptionsList>
 	</DialogueNode>
 
+
+
 <DialogueNode>
 		<Name>ShyKidNew1</Name>
 		<Dialogue>
-			<Page><![CDATA[<size=20>]]>Oh, um...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Why does the glowy moon go away sometimes..?<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Oh.. Um...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Is it true that Brittle Hollow's south pole is the safest spot on that planet from meteors?<![CDATA[</size>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>
-		<RequiredLogCondition>GD_OCEAN_X1</RequiredLogCondition>
-				<Text>Uh... There's jellyfish on Giant's Deep, but they live deep underwater!</Text>
+				<Text>Uh... Who told you that?</Text>
 				<DialogueTarget>ShyKidNew2</DialogueTarget>
 			</DialogueOption>
 		<DialogueOption>
-				<Text>I'm.. not sure.</Text>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
+				<Text>There's not really anywhere totally safe on Brittle Hollow because of the Quantum Moon.</Text>
+				<DialogueTarget>Model2</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+
+<DialogueNode>
+		<Name>ShyKidNew2</Name>
+		<Dialogue>
+		<Page><![CDATA[<size=20>]]>Um... Riebeck...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>Riebeck was really worried about their ship getting hit by a meteor and leaving them stranded.. So they studied where meteors tended to land on Brittle Hollow before they took off...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Riebeck told me that the safest spot on Brittle Hollow from meteors was the south pole, so that's where they'll leave their ship... But nobody in the village knows if that's really true.<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Brittle Hollow looks so cool, I wanna go there if I become an astronaut one day.. But I don't want to be stranded there too...<![CDATA[</size>]]></Page>
+		</Dialogue>	
+						 <RevealFacts>
+     						   <FactID>GAL EX1</FactID>
+     						   <FactID>GAL EX2</FactID>
+    					  </RevealFacts>
+		<DialogueOptionsList>
+		<DialogueOption>
+				<Text>Maybe I'll go ask Riebeck what they know, then.</Text>
 				<DialogueTarget>ShyKidNew3</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
 
-<DialogueNode>
-		<Name>ShyKidNew2</Name>
-		<Dialogue>
-		<Page><![CDATA[<size=20>]]>Oh.. But...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Riebeck told me that when the glowy moon goes away, it's dangerous to be on Brittle Hollow...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>If the jellyfish live underwater... What are the monsters on the surface..?<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Giant's Deep is scary...<![CDATA[</size>]]></Page>
-		</Dialogue>	
-						 <RevealFacts>
-     						   <FactID>GAL EX1</FactID>
-     						   <FactID>GAL EX2</FactID>
-    					  </RevealFacts>
-	</DialogueNode>
 
 	<DialogueNode>
 		<Name>ShyKidNew3</Name>
 		<Dialogue>
-		<Page><![CDATA[<size=20>]]>Oh..<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Feldspar's been to Giant's Deep before... They told me about the monsters that live on that planet...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>It wouldn't be so bad if the monsters stayed far away and deep underwater... <![CDATA[<Pause=1>]]> But Feldspar said that they saw them on Giant's Deep's surface!<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>I don't know what they look like... But if you visit Giant's Deep, be careful of the monsters, astronaut...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Um, and if you see them... Could you come back and tell me what the monsters look like..?<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>Okay..<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Just be careful where you land your ship on Brittle Hollow, okay..?<![CDATA[</size>]]></Page>
 		</Dialogue>	
-						 <RevealFacts>
-     						   <FactID>GAL EX1</FactID>
-     						   <FactID>GAL EX2</FactID>
-    					  </RevealFacts>
 	</DialogueNode>
 
+	
 
+	<!-- ################################################## -->
+	<!-- ################# MODEL ANSWERS ################## -->
+	<!-- ################################################## -->
 
+	<DialogueNode>
+		<Name>ShyKid_Model</Name>
+		<Dialogue>
+		<Page><![CDATA[<size=20>]]>Woah.. The Nomai really are smart...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>But.. Why is their computer sometimes right and sometimes wrong..?<![CDATA[</size>]]></Page>
+		</Dialogue>	
+		<DialogueOptionsList>
+
+		<DialogueOption>
+				<Text>I'm still figuring that out.</Text>
+				<DialogueTarget>ShyKid_Model1</DialogueTarget>
+		</DialogueOption>
+		<DialogueOption>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
+				<Text>It's because the Quantum Moon's gravity messes with where meteors land.</Text>
+				<DialogueTarget>ShyKid_Model2</DialogueTarget>
+		</DialogueOption>
+
+		</DialogueOptionsList>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>ShyKid_Model1</Name>
+		<Dialogue>
+		<Page><![CDATA[<size=20>]]>Okay...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>But thanks for telling me, astronaut... Maybe you're sometimes right and sometimes wrong too...<![CDATA[</size>]]></Page>
+		</Dialogue>
+	</DialogueNode>
+	<DialogueNode>
+		<Name>ShyKid_Model2</Name>
+		<Dialogue>
+		<Page><![CDATA[<size=20>]]>Oh...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>The Quantum Moon.. You mean that weird moon that orbits around every planet in the star system, right..?<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>But if meteors are unpredictable, there really is nowhere safe on Brittle Hollow from meteors then...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>If I become an astronaut, I'll just explore a planet that won't have to worry about meteors or the Quantum Moon...<![CDATA[</size>]]></Page>
+		</Dialogue>
+	</DialogueNode>
 
 
 	<!-- ################################################## -->
@@ -114,24 +171,17 @@
 	<DialogueOptionsList>
 
 			<DialogueOption>
-			<CancelledCondition>Asked_Galena</CancelledCondition>
 				<RequiredLogCondition>GAL R1</RequiredLogCondition>
-				<Text>Hey, Galena. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey, Galena. Got any questions about the universe for me?</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
+				<Text>I found a Nomai computer that predicts where meteors land on Brittle Hollow, but..</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
 
-			<DialogueOption>
-			<RequiredCondition>Asked_Galena</RequiredCondition>
-				<Text>Where do I look for your toy rocket again, Galena?</Text>
-				<DialogueTarget>ShyKidNew1B</DialogueTarget>
-			</DialogueOption>
-
-				<DialogueOption>
-				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
-				<Text>I saw your toy rocket in the drain, Galena.</Text>
-				<DialogueTarget>ShyKidNew3</DialogueTarget>
-			</DialogueOption>
-		</DialogueOptionsList>
+	</DialogueOptionsList>
 	</DialogueNode>
 
 
@@ -140,23 +190,16 @@
 			<DialogueOptionsList>
 
 			<DialogueOption>
-			<CancelledCondition>Asked_Galena</CancelledCondition>
 				<RequiredLogCondition>GAL R1</RequiredLogCondition>
-				<Text>Hey, Galena. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey, Galena. Got any questions about the universe for me?</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
+				<Text>I found a Nomai computer that predicts where meteors land on Brittle Hollow, but..</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
 
-			<DialogueOption>
-			<RequiredCondition>Asked_Galena</RequiredCondition>
-				<Text>Where do I look for your toy rocket again, Galena?</Text>
-				<DialogueTarget>ShyKidNew1B</DialogueTarget>
-			</DialogueOption>
-
-				<DialogueOption>
-				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
-				<Text>I saw your toy rocket in the drain, Galena.</Text>
-				<DialogueTarget>ShyKidNew3</DialogueTarget>
-			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -165,23 +208,16 @@
 			<DialogueOptionsList>
 
 			<DialogueOption>
-			<CancelledCondition>Asked_Galena</CancelledCondition>
 				<RequiredLogCondition>GAL R1</RequiredLogCondition>
-				<Text>Hey, Galena. Have you.. heard anything about stuff that disappears sometimes?</Text>
+				<Text>Hey, Galena. Got any questions about the universe for me?</Text>
+				<DialogueTarget>ShyKidNew1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<RequiredLogCondition>GAL R1</RequiredLogCondition>
+				<Text>I found a Nomai computer that predicts where meteors land on Brittle Hollow, but..</Text>
 				<DialogueTarget>ShyKidNew1</DialogueTarget>
 			</DialogueOption>
 
-			<DialogueOption>
-			<RequiredCondition>Asked_Galena</RequiredCondition>
-				<Text>Where do I look for your toy rocket again, Galena?</Text>
-				<DialogueTarget>ShyKidNew1B</DialogueTarget>
-			</DialogueOption>
-
-				<DialogueOption>
-				<RequiredLogCondition>GAL EX1</RequiredLogCondition>
-				<Text>I saw your toy rocket in the drain, Galena.</Text>
-				<DialogueTarget>ShyKidNew3</DialogueTarget>
-			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
 

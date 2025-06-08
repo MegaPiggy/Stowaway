@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2718355170
+CRC: 544239113
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 71d445f68d505cf82c4622a8549f8a7c
+    Hash: 3d6136db0190dae822bacab62303890b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 28c450d1e1ca5f95e30e74c6e3e0f4b4
+    Hash: 1ea1b8f33a81123cd2ed69c9129b3295
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -82,6 +82,8 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 8ea510482944075a62ce706d68a40947, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 5b895e78b496f0b8d3aa4cd1fbe3ef9e, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7a54be8810d01e9ae854ddb2580bb460, type: 3}
@@ -147,6 +149,7 @@ Assets:
 - Assets/Models/Materials/mural side.prefab
 - Assets/Models/JellyfishVessel.prefab
 - Assets/Models/bubbel collider.prefab
+- Assets/Nomai Ruins/Mining tractor beam.prefab
 - Assets/Models/Tractor beam SW 1.prefab
 - Assets/Models/ASH TWIN BEAM south.prefab
 - Assets/Models/protohearthian_rock.prefab
@@ -164,7 +167,6 @@ Assets:
 - Assets/Models/th portrait.prefab
 - Assets/Models/JellyfishV proxy.prefab
 - Assets/Nomai Ruins/HourglassOb final.prefab
-- Assets/Models/underwater distort.prefab
 - Assets/Models/et portrait.prefab
 - Assets/Models/Materials/comet map.prefab
 - Assets/Models/stateeye crust.prefab

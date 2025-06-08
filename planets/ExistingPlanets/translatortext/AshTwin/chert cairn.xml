@@ -1,0 +1,22 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		<![CDATA[<color=orange>Solar Tower</color>]]> designs \\n (60m)
+		</Text>
+	</TextBlock>
+
+
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>R_SLR EX1</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

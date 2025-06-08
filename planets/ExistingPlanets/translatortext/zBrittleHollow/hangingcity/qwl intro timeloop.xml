@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		SPIRE: After Phlox noticed inaccuracies in the model's predictions, we decided to study meteor impacts during a negative time interval, hoping to improve the model's data.
+		SPIRE: After Phlox noticed inaccuracies in the model's predictions, we decided to study meteor impacts during a negative time interval to improve the model's data.
 		</Text>
 	</TextBlock>
 

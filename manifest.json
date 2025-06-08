@@ -6,6 +6,6 @@
   "uniqueName": "atk.Stowaway",
   "version": "0.1.0",
   "owmlVersion": "2.11.1",
-  "dependencies": [ "xen.NewHorizons"],
-  "conflicts": ["Tlya.arkosebugfix","Acamaeda.Sand","xen-42.SandControl"]
+  "dependencies": [ "xen.NewHorizons", "JohnCorby.VanillaFix"],
+  "conflicts": ["Tlya.arkosebugfix","gpixl.NoMoreGDClouds","hearth1an.TheVision"]
 }

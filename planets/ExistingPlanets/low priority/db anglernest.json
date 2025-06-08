@@ -4,24 +4,7 @@
 	"name": "Angler Nest Dimension",
 
 	"removeChildren": ["Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body"],
-"Volumes":
-{
-	"forces": 
-		{
-			"radialVolumes": 
-			[
-				{
-				"force": 1,
-				"parentPath": "Sector_AnglerNestDimension/broken egg 1",
-				"fallOff": "linear",
-				"layer": 0,
-				"priority": 1,
-				"radius": 5,
-				"alignRadial": false
-				}
-			]
-		}
-	},
+	
 	"Props": {
 		"singularities": [
 			{
@@ -34,7 +17,20 @@
 			}
 		],
 		
-		
+		"audioSources": [
+			{
+				"rename": "baby anglerfish snores",
+				"track": "environmentUnfiltered",
+				"audio": "planets/assets/anglerfish snoring.mp3",
+				"parentPath": "Sector_AnglerNestDimension/broken egg 1",
+				"position": {"x":0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"maxDistance": 60,
+				"minDistance": 1,
+				"volume": 1
+			}
+		],
+
 		"details": [
 		
 			
@@ -46,8 +42,8 @@
 				"rename":"broken egg 1",
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/db egg hole.prefab",
-				"position": {"x":-33.4691,"y": -12.6709,"z": 6.149},
-				"rotation": {"x":358.5674,"y": 40.4037,"z": 318.0007},
+				"position": {"x": -29.8964,"y": -16.6309,"z": 17.449},
+				"rotation": {"x": 350.3359,"y": 4.1056,"z": 327.0433},
 				"scale":1.4,
 				"isRelativeToParent": true
 			},
@@ -70,23 +66,18 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename":"broken egg watervolume",
-				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_GD/Volumes_GDState/OceanFluidVolume/",
+				"rename":"mini anglerfish",
+				"path": "DB_AnglerNestDimension_Body/Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body/Beast_Anglerfish",
 				"position": {"x":0,"y": 0,"z": 0},
 				"rotation": {"x":0,"y": 0,"z": 0},
-				"scale": 0.05,
 				"parentPath": "Sector_AnglerNestDimension/broken egg 1",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"broken egg waterdistort",
-			"assetBundle": "planets/bundle/stowaway3",
-			"path":"assets/models/underwater distort.prefab",
-				"position": {"x":0,"y": 0,"z": 0},
-				"rotation": {"x":0,"y": 0,"z": 0},
-				"scale": 1,
-				"parentPath": "Sector_AnglerNestDimension/broken egg 1",
-				"isRelativeToParent": true
+				"isRelativeToParent": true,
+				"scale":0.02,
+				"removeChildren": 
+				[
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogLight",
+					"B_angler_root/B_angler_body01/B_angler_body02/B_angler_antenna01/B_angler_antenna02/B_angler_antenna03/B_angler_antenna04/B_angler_antenna05/B_angler_antenna06/B_angler_antenna07/B_angler_antenna08/B_angler_antenna09/B_angler_antenna10/B_angler_antenna11/B_angler_antenna12_end/Lure_FogGlow"
+				]
 			}
 			
 		]

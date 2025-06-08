@@ -8,7 +8,7 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<CancelledCondition>I_Quit</CancelledCondition>
-				<Text>So.. What were you gonna tell me to explore out there?</Text>
+				<Text>What's the important news you wanted to tell me?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -26,7 +26,7 @@
 		<DialogueOptionsList>
 			<DialogueOption>
 				<CancelledCondition>I_Quit</CancelledCondition>
-				<Text>So.. What were you gonna tell me to explore out there?</Text>
+				<Text>What's the important news you wanted to tell me?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -71,7 +71,7 @@
 
 			<DialogueOption>
 				<CancelledCondition>I_Quit</CancelledCondition>
-				<Text>So.. What were you gonna tell me to explore out there?</Text>
+				<Text>What's the important news you wanted to tell me?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -88,14 +88,15 @@
 		<SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
 		<Name>ScientistAnswer_Mysteries1</Name>
 		<Dialogue>
-			<Page>Alright you ready? Then hand over your ship keys.</Page>
-			<Page><![CDATA[<i>]]>Relax,<![CDATA[</i>]]> I'll give 'em back once you're done. Just making sure you don't take off before you finish this tradition.</Page>
-			<Page>Now, you remember how the other astronauts went around the village on their launch days, asking each of the hatchlings what questions you had about the universe, right? <![CDATA[<Pause=2>]]> ..You don't? Typical.</Page>
-			<Page>Feldspar was the one who started it on a whim, fielding questions about space from the village's young-uns.. But ever since, we've kept it up for every new cadet in the space program.</Page>
-			<Page>It's just a good look for the space program, nurturing the next generation's curiosity and all - but you don't have to think about it like that. Just think of it as a fun quiz about much you know about the star system!</Page>
+			<Page>Oh, just a space program tradition I forgot to tell ya about.</Page>
+			<Page>You remember how on the other astronauts' launch days, they went around the village asking what questions you kids had about the universe before taking off? <![CDATA[<Pause=2>]]> ..You don't? Typical.</Page>
+			<Page>Feldspar was the one who started it on a whim, taking questions from the young-uns before they took off for the first time.. But we've kept it up for every new cadet in the space program.</Page>
+			<Page>It's just a good look for the space program, nurturing the next generation's curiosity and all - but don't think about it like that. Just think of it like.. A fun quiz about much you know about the star system!</Page>
 			<Page>Look, it's simple. Just make your way around the village, and try answering any questions the kids have about the universe.</Page>
-			<Page>Doesn't matter what the questions are, just hear 'em out and try your best to answer 'em.?</Page>
-			<Page>Talk to me again once you've answered at least one of their questions, and I'll give you the keys to your ship back! You're free to take off after that.</Page>
+			<Page>Doesn't matter what the questions are, just hear 'em out. And try to answer at least one, so you don't look like we didn't teach you anything.</Page>
+			<Page>Sound good? Then hand your ship keys to me for a sec.</Page>
+			<Page><![CDATA[<i>]]>Relax,<![CDATA[</i>]]> I'll give 'em back once you're done. Just making sure you don't take off before you finish this.</Page>
+			<Page>Talk to me again once you've answered at least one of the hatchlings' questions, and I'll give you the keys back! You're free to take off after that.</Page>
 		</Dialogue>
 <DialogueOptionsList>
 			<DialogueOption>

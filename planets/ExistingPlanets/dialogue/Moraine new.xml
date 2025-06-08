@@ -33,7 +33,8 @@
 		<Name>SignalscopeKidNew1</Name>
 		<Dialogue>
 			<Page>Questions about the universe? <![CDATA[<i>]]>OH!<![CDATA[</i>]]> Um, I do, I do!</Page>
-			<Page>Um, promise you won't laugh at me, but... <![CDATA[<Pause=2>]]> How many comets are there in our star system, astronaut?</Page>
+			<Page>Promise you won't laugh at me for asking, okay?</Page>
+			<Page>Um... How many comets are there in our star system?</Page>
 			</Dialogue>
 			<DialogueOptionsList>
 			<DialogueOption>

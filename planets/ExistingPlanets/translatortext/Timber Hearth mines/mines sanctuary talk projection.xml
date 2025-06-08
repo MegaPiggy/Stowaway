@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		COLEUS: The projection pool has been installed, Oeno! Now, we will be able to travel to this site easily for future work.
+		COLEUS: Friends, the <![CDATA[<color=orange>Sanctuary's</color>]]> projection pool has been successfully installed! You should be able to peer through the pool to see our progress now.
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		CYCAD: Looking through the projection pool, this space seems rather small, Coleus.. Will there be enough space for the warp receiver?
+		CYCAD: Looking through the projection pool, this space seems rather small, Coleus.. Are we sure there is enough space for a warp receiver?
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		OENO: For this project, we will be using the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> latest invention to journey to this space instead.
+		OENO: For this project, we will be using the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> latest invention to journey to this space instead!
 		</Text>
 	</TextBlock>
 	
@@ -41,7 +41,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		COLEUS: Indeed. Fortunately for us, Daz has asked all of us to use his invention during the <![CDATA[<color=orange>Sanctuary's</color>]]> construction!
+		COLEUS: According to Daz, the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> new invention will allow Nomai to explore outside the radius of a projection pool, not just peer through it.
 		</Text>
 	</TextBlock>
 
@@ -50,8 +50,8 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		COLEUS: According to Daz, this new invention will allow us to travel outside the radius of a projection pool, not just peer through one!
-				</Text>
+		COLEUS: With such technology, we will be able to travel anywhere without the restrictions of a warp pad!
+		</Text>
 	</TextBlock>
 
 	<TextBlock>
@@ -59,7 +59,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		OENO: I cannot wait, Coleus! I am sure this technology will be truly revolutionary for our clan.
+		OENO: I cannot wait, Coleus.. I am sure this technology will be truly revolutionary for our clan!
 				</Text>
 	</TextBlock>
 
@@ -68,7 +68,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		OENO: Cycad, you must visit the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on <![CDATA[<color=lightblue>Giant's Deep</color>]]> to learn more about Daz's invention when you are able!
+		OENO: Cycad, if you wish to learn more about Daz's invention, you should visit the <![CDATA[<color=orange>Scroll and Stone Workshop</color>]]> on <![CDATA[<color=lightblue>Giant's Deep</color>]]> to see it in motion!
 				</Text>
 	</TextBlock>
 

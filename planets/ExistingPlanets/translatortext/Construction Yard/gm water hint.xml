@@ -2,8 +2,17 @@
 <TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>CASSAVA: After sufficient observation of the deadly matter, I can now confidently confirm my earlier hypothesis of its properties.</Text>
+		<Text>CASSAVA: How curious.. Are the native species unaffected by the deadly matter, or were they protected by the deadly matter somehow?</Text>
 	</TextBlock>
+	
+<TextBlock>	
+	<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		CASSAVA: Further observation is needed. I shall record my findings on the other side of the Construction Bay. 
+		</Text>
+</TextBlock>
 
 <ShipLogConditions>
 		<RevealFact>

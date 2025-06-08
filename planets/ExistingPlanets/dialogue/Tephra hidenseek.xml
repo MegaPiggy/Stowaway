@@ -15,15 +15,9 @@
 
 			<DialogueOption>
 				<RequiredCondition>Teph_Talked</RequiredCondition>
-				<CancelledCondition>Teph_Geyser</CancelledCondition>
+				<CancelledCondition>Teph_None</CancelledCondition>
 				<Text>Where should I look for the purple rock again?</Text>
 				<DialogueTarget>Teph SW_3B</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<RequiredCondition>Teph_Geyser</RequiredCondition>
-				<CancelledCondition>Teph_None</CancelledCondition>
-				<Text>Where should I look for the purple rock next?</Text>
-				<DialogueTarget>Teph SW_4B</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredCondition>Teph_None</RequiredCondition>
@@ -37,11 +31,6 @@
 				<DialogueTarget>Teph SW_4</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>I swam around the geyser caves and found a Nomai mural of our Hearthian ancestors!</Text>
-				<DialogueTarget>Teph SW_4</DialogueTarget>
-			</DialogueOption>
-				<DialogueOption>
 				<RequiredLogCondition>SY R1</RequiredLogCondition>
 				<RequiredLogCondition>TEPH EX1</RequiredLogCondition>
 				<Text>I found where the purple rock in the museum goes when it hides, Tephra!</Text>
@@ -92,17 +81,10 @@
 		</Dialogue>
 	</DialogueNode>
 <DialogueNode>
-		<Name>Teph SW_4B</Name>
-		<Dialogue>
-			<Page>Oh, we wanted you to look in the cave system inside the geysers. There's a ton of water down there, so we can't explore it..</Page>
-			<Page>If you wear your suit, you should be able to breathe underwater to see if the purple rock is hiding down there!</Page>
-		</Dialogue>
-	</DialogueNode>
-<DialogueNode>
 		<Name>Teph SW_6B</Name>
 		<Dialogue>
-			<Page>Um, that's all the spots we had in mind, astronaut!</Page>
-			<Page>Until we think of another way to see where the purple rock's going, I think we hit a dead end..</Page>
+			<Page>Um, that's the only spot we had in mind, astronaut.</Page>
+			<Page>Until we think of another way to see where the purple rock's going, I guess we've hit a dead end..</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -114,9 +96,10 @@
 		<SetCondition>Teph_Talked</SetCondition>
 		<Name>Teph SW_2</Name>
 		<Dialogue>
-			<Page>W-wha? You don't know about it? The purple rock in the museum that disappears when you look away!</Page>
-			<Page>And I don't mean when it jumps behind you and scares you.. <![CDATA[<Pause=1>]]> I mean <![CDATA[<i>when it disappears completely</i>]]> from the museum!</Page>
-			<Page>We wanna find out where the purple rock is hiding, but we need your help to look, astronaut. Could you help us?</Page>
+			<Page>W-wha.. You don't know about it? The purple rock in the museum that disappears when you look away!</Page>
+			<Page>And I don't mean when it jumps behind you and scares you.. <![CDATA[<Pause=1>]]> I mean <![CDATA[<i>when it disappears completely from the museum!</i>]]></Page>
+			<Page>Galena and I looked all over Timber Hearth for the purple rock, but we haven't seen it anywhere. Not the same one, at least!</Page>
+			<Page>I think we have a new idea on where to look, but we need your help to look there, astronaut.. Could you help us?</Page>
 		</Dialogue>
 		<DialogueOptionsList>
 			<DialogueOption>
@@ -137,11 +120,14 @@
 		<SetCondition>Teph_Drain</SetCondition>
 		<Name>Teph SW_3</Name>
 			<Dialogue>
-					<Page>Yay!!</Page>
-					<Page>Okay, listen up! There's a waterwheel at the end of this river going down the village. Behind that waterwheel, there's a drain that the river flows into.</Page>
-					<Page>We think the purple rock might be hiding in the drain.. But it's so cramped, we can't crawl into the drain to look if it's in there.</Page>
-					<Page>Did you know the Little Scout's camera can look around after you launch it onto somewhere? If you use the Little Scout's rotating camera, I bet you could look inside the drain to see if the purple rock's hiding in there, astronaut! </Page>
-					<Page>Come back and tell me if you find anything in there, okay, astronaut?</Page>
+					<Page>Yay! Thanks, astronaut!</Page>
+					<Page>Okay, listen up! If you follow the river that goes down the village, you'll see a big ol' waterwheel.</Page>
+					<Page>Behind that waterwheel, there's this dark, tiny drain that the river flows into...</Page>
+					<Page>We think the purple rock might be hiding in that drain.. But it's so cramped, we can't crawl into the drain to look if it's in there. We need someone with a Little Scout to look inside - like you!</Page>
+					<Page>You just need to put on your spacesuit, and you'll be able to fire the Little Scout all pew-pew-pew... then use its camera to see inside!</Page>
+					<Page>Um, but, it might be too cramped to see inside, even with a Little Scout..</Page>
+					<Page>If it is, maybe try rotating the Little Scout's camera to look around, after launching it inside the drain? Slate taught us the Little Scout could do that recently.</Page>
+					<Page>That's all we know! Come back and tell me what you find in there, okay, astronaut?</Page>
 		</Dialogue>
 						 <RevealFacts>
      						   <FactID>TEPH EX2</FactID>
@@ -149,76 +135,12 @@
 	</DialogueNode>
 
 <DialogueNode>
-		<SetCondition>Teph_Geyser</SetCondition>
+		<SetCondition>Teph_None</SetCondition>
 		<Name>Teph SW_4</Name>
 			<Dialogue>
-					<Page>Oh, oh! What'd you find inside the drain, astronaut? <![CDATA[<Pause=2>]]> ..A skeleton? Ewww! Why's there a skeleton in there?!</Page>
-					<Page>Eegh.. I guess the purple rock must be hiding elsewhere..</Page>
-					<Page>Well, whatever. We have another idea where the purple rock might be hiding, astronaut - and we need you to check it out for us too! Are you up for it?</Page>
-					<DialogueOptionsList>
-							<DialogueOption>
-								<Text>Sure. Where's the next spot?</Text>
-								<DialogueTarget>Teph SW_5</DialogueTarget>
-							</DialogueOption>
-							<DialogueOption>
-								<Text>Sorry, maybe later.</Text>
-								<DialogueTarget>Teph SW_0</DialogueTarget>
-							</DialogueOption>
-					</DialogueOptionsList>
-		</Dialogue>
-	</DialogueNode>
-
-<DialogueNode>
-		<Name>Teph SW_5</Name>
-			<Dialogue>
-					<Page>Yess! Thanks for helping us look again, astronaut!</Page>
-					<Page>Okay, so about the other place we'd like you to look.. It's the massive cave system inside the geysers.</Page>
-					<Page>We need you to look in there for us because there's tons of water down there.</Page>
-					<Page>The astronaut's suit should let you breathe underwater, right? Riebeck told me that Hearthians used to be able to breathe underwater a loooong time ago, too, like little fishies do, but we can't anymore.. It sucks.</Page>
-					<Page>Riebeck said that back then, Hearthians lived in these underwater caves inside the geysers. I bet we learned to live on land so we wouldn't die being shot out of water by geysers!</Page>
-					<Page>Since we only found these caves recently, nobody's properly explored them yet.. Riebeck wouldn't do it because they're too scared, and all the other astronauts were busy.</Page>
-					<Page>I'd hate to get your suit wet, but a suit's the only way to explore the geyser caves safely. So.. <![CDATA[<Pause=1>]]> Could you jump into a geyser to help us look for the purple rock, astronaut?</Page>
-		</Dialogue>
-			<DialogueOptionsList>
-			<DialogueOption>
-				<Text>Sure, I'll give it a go sometime.</Text>
-				<DialogueTarget>Teph SW_0B</DialogueTarget>
-			</DialogueOption>
-				<DialogueOption>
-				<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>I swam around down there already! I found a Nomai mural of our Hearthian ancestors down there.</Text>
-				<DialogueTarget>Teph SW_6</DialogueTarget>
-			</DialogueOption>
-			</DialogueOptionsList>
-						 <RevealFacts>
-     						   <FactID>TEPH EX3</FactID>
-     						   <FactID>TEPH EX4</FactID>
-    					  </RevealFacts>
-	</DialogueNode>
-
-
-<DialogueNode>
-		<Name>Teph SW_6</Name>
-		<SetCondition>Teph_None</SetCondition>
-			<Dialogue>
-					<Page>Aw, so the purple rock's not down there either.. </Page>
-					<Page>Um, thanks so much for helping us look, astronaut! But until we think of some way to see where the purple rock goes, I think we hit a dead end..</Page>
-					<Page>But wow, astronaut.. The Nomai were the cool aliens that lived in our solar system a long, long time ago, right?</Page>
-					<Page>If the Nomai drew a mural of some Hearthians, that means our species were already around as little fishies when they were around, right? That's crazy!</Page>
-					<Page>Man, if Riebeck learned the Nomai drew a mural of us, they'd probably lose their marbles!</Page>
-					<Page>Oooh, I bet Riebeck's gonna kick themself for turning down the chance to be the first to explore those caves.. I can't wait to see the look on their face when they hear about this!</Page>
-		</Dialogue>
-						 <RevealFacts>
-     						   <FactID>TEPH EX5</FactID>
-     						   <FactID>TEPH EX6</FactID>
-    					  </RevealFacts>
-	</DialogueNode>
-
-<DialogueNode>
-		<Name>Teph SW_0B</Name>
-			<Dialogue>
-					<Page>Woohoo, I can't wait! You're gonna be the first geyser spelunker, astronaut.. The coolest type of spelunker!</Page>
-					<Page>Remember to come back and tell us what you find down there!</Page>
+					<Page>Oh, oh! What'd you find inside the drain, astronaut? <![CDATA[<Pause=2>]]> ..A skeleton? Why's there a skeleton in there? Gross...</Page>
+					<Page>Aw, I guess the purple rock must be hiding elsewhere.. </Page>
+					<Page>Well, thanks so much for helping us look, astronaut! But until we think of some other way to see where the purple rock goes, I guess that's a dead end for now..</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -339,15 +261,9 @@
 
 			<DialogueOption>
 				<RequiredCondition>Teph_Talked</RequiredCondition>
-				<CancelledCondition>Teph_Geyser</CancelledCondition>
+				<CancelledCondition>Teph_None</CancelledCondition>
 				<Text>Where should I look for the purple rock again?</Text>
 				<DialogueTarget>Teph SW_3B</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<RequiredCondition>Teph_Geyser</RequiredCondition>
-				<CancelledCondition>Teph_None</CancelledCondition>
-				<Text>Where should I look for the purple rock next?</Text>
-				<DialogueTarget>Teph SW_4B</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredCondition>Teph_None</RequiredCondition>
@@ -358,11 +274,6 @@
 			<DialogueOption>
 				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
 				<Text>I looked inside the drain with my Little Scout.</Text>
-				<DialogueTarget>Teph SW_4</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>I swam around the geyser caves and found a Nomai mural of our Hearthian ancestors!</Text>
 				<DialogueTarget>Teph SW_4</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -413,15 +324,9 @@
 
 			<DialogueOption>
 				<RequiredCondition>Teph_Talked</RequiredCondition>
-				<CancelledCondition>Teph_Geyser</CancelledCondition>
+				<CancelledCondition>Teph_None</CancelledCondition>
 				<Text>Where should I look for the purple rock again?</Text>
 				<DialogueTarget>Teph SW_3B</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<RequiredCondition>Teph_Geyser</RequiredCondition>
-				<CancelledCondition>Teph_None</CancelledCondition>
-				<Text>Where should I look for the purple rock next?</Text>
-				<DialogueTarget>Teph SW_4B</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredCondition>Teph_None</RequiredCondition>
@@ -432,11 +337,6 @@
 			<DialogueOption>
 				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
 				<Text>I looked inside the drain with my Little Scout.</Text>
-				<DialogueTarget>Teph SW_4</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>I swam around the geyser caves and found a Nomai mural of our Hearthian ancestors!</Text>
 				<DialogueTarget>Teph SW_4</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
@@ -465,15 +365,9 @@
 
 			<DialogueOption>
 				<RequiredCondition>Teph_Talked</RequiredCondition>
-				<CancelledCondition>Teph_Geyser</CancelledCondition>
+				<CancelledCondition>Teph_None</CancelledCondition>
 				<Text>Where should I look for the purple rock again?</Text>
 				<DialogueTarget>Teph SW_3B</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<RequiredCondition>Teph_Geyser</RequiredCondition>
-				<CancelledCondition>Teph_None</CancelledCondition>
-				<Text>Where should I look for the purple rock next?</Text>
-				<DialogueTarget>Teph SW_4B</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<RequiredCondition>Teph_None</RequiredCondition>
@@ -484,11 +378,6 @@
 			<DialogueOption>
 				<RequiredLogCondition>TEPH R2</RequiredLogCondition>
 				<Text>I looked inside the drain with my Little Scout.</Text>
-				<DialogueTarget>Teph SW_4</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
-				<RequiredLogCondition>TH_NOMAI_MINE_X3</RequiredLogCondition>
-				<Text>I swam around the geyser caves and found a Nomai mural of our Hearthian ancestors!</Text>
 				<DialogueTarget>Teph SW_4</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>

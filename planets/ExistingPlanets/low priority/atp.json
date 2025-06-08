@@ -87,6 +87,11 @@
 				"position": {"x": -19.9932,"y": -7.3061,"z": 14.9175},
 				"rotation": {"x": 270,"y":  307.3607,"z": 0},
 				"isRelativeToParent": true
+			},{
+				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Prefab_NOM_StatueHead/",
+				"position": {"x": -21.0574,"y": -7.3921,"z": 15.7624},
+				"rotation": {"x": 359.8933,"y": 217.0857,"z": 80.1426},
+				"isRelativeToParent": true
 			},
 			
 			{
@@ -116,6 +121,7 @@
 				"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/MaskPlatform/MaskMonoliths/",
 				"isRelativeToParent": true,
 				"position": {"x": 0.0022,"y": -4.3208,"z": 0.0152},
+				"keepLoaded": true,
 				"parentPath": "Sector/ATP four eyed mask platform"
 			},
 			{
