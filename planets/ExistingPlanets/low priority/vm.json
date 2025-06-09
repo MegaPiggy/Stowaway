@@ -246,6 +246,15 @@
 			"rotation":{"x": 348.1874,"y": 167.7852,"z": 18.3779},
 			"scale":4,
 			"isRelativeToParent": true
+		},
+		{
+			"rename":"VM site boxcollider trailmarker",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path": "assets/models/cube.prefab",
+			"position":{"x": 33.4689,"y": 99.0197,"z": 6.0127},
+			"rotation":{"x": 351.4484 ,"y": 254.1359,"z": 0.973},
+			"scale":0.7,
+			"isRelativeToParent": true
 		}
 	],
 	"translatorText": [

@@ -25,7 +25,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		POKE: Root, are you sure we should not at least prepare a small surplus of this ore - if only for cerebral peace?
+		POKE: Root, are you sure we cannot at least prepare a small surplus of this ore - if only for cerebral peace?
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		POKE: For instance, the memory statues that allow Nomai to be paired to the <![CDATA[<color=orange>Ash Twin Project</color>]]> are not insulated from the supernova.. When the supernova destroys them, won't this connection be broken?
+		POKE: For instance: the memory statues that allow Nomai to be paired to the <![CDATA[<color=orange>Ash Twin Project</color>]]> are not insulated from the supernova.. When the supernova destroys them, won't this connection be broken?
 		</Text>
 	</TextBlock>
 
@@ -61,7 +61,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		ROOT: If a memory statue is destroyed, the paired individual will simply be unable to recall the rest of the loop from that point, as their experiences are no longer being recorded by the memory statue to the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		ROOT: If a memory statue is destroyed, the paired individual will only be unable to recall memories beyond that point, as their experiences are no longer being recorded by the memory statue to the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -88,7 +88,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		POKE: Suppose if something catastrophic were to occur only after our memory statues are destroyed... None of us would be aware of that impending danger!
+		POKE: Suppose something catastrophic were to occur only after our memory statues are destroyed... None of us would be aware of that impending danger!
 		</Text>
 	</TextBlock>
 

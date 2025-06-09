@@ -34,7 +34,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		CYCAD: However, we are curious why the Volcanic Testing Site needed so much more ore suddenly!
+		CYCAD: However, we are curious why the <![CDATA[<color=orange>Volcanic Testing Site</color>]]> needed so much more ore suddenly!
 		</Text>
 	</TextBlock>
 
@@ -69,7 +69,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		ROOT: No, no, my friend! The <![CDATA[<color=orange>Quantum Weather Lab</color>]]> was given its name, because it was built to study how meteors launched from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> are affected as the <![CDATA[<color=lightblue>Quantum Moon</color>]]> orbits <![CDATA[<color=lightblue>Brittle Hollow.</color>]]>
+		ROOT: No, no, my friend!
 		</Text>
 	</TextBlock>
 
@@ -78,7 +78,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		ROOT: Due to its artificial, stationary orbit around <![CDATA[<color=lightblue>Hollow's Lantern,</color>]]> it is often cloaked in shadow behind <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> or <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> thus making it difficult to see normally.
+		ROOT: The <![CDATA[<color=orange>Quantum Weather Lab</color>]]> was given its name, because it was built to study how meteors launched from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> are affected as the <![CDATA[<color=lightblue>Quantum Moon</color>]]> orbits <![CDATA[<color=lightblue>Brittle Hollow.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -87,7 +87,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		ROOT: We will be using this ore to build a protective shell that will protect the station's interior from meteor impacts, which it will doubtless need to weather often.
+		ROOT: Due to its artificial, stationary orbit around <![CDATA[<color=lightblue>Hollow's Lantern,</color>]]> it is often cloaked in shadow behind <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> or <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> making it difficult to see normally.
 		</Text>
 	</TextBlock>
 
@@ -95,6 +95,15 @@ Clue: Supernova generate lots of heat
 		<ID>11</ID>
 		<LocationB />
 		<ParentID>10</ParentID>
+		<Text>
+		ROOT: We will be using the additional ore you delivered to build a protective shell that will protect the station's interior from meteor impacts, which it will doubtless need to weather often.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<LocationB />
+		<ParentID>11</ParentID>
 		<Text>
 		CYCAD: What an exciting project! I look forward to visiting this <![CDATA[<color=orange>Quantum Weather Lab</color>]]> to learn more once its construction is complete, my friend.
 		</Text>
