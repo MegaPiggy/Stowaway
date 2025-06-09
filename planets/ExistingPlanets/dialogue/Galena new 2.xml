@@ -125,8 +125,8 @@
 	<DialogueNode>
 		<Name>ShyKid_Model</Name>
 		<Dialogue>
-		<Page><![CDATA[<size=20>]]>Woah.. The Nomai really are smart...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>But.. Why is their computer sometimes right and sometimes wrong..?<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>Woah.. The Nomai are so smart...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>But... Why is their computer sometimes right and sometimes wrong..?<![CDATA[</size>]]></Page>
 		</Dialogue>	
 		<DialogueOptionsList>
 
@@ -147,16 +147,16 @@
 		<Name>ShyKid_Model1</Name>
 		<Dialogue>
 		<Page><![CDATA[<size=20>]]>Okay...<![CDATA[</size>]]></Page>
-		<Page><![CDATA[<size=20>]]>But thanks for telling me, astronaut... Maybe you're sometimes right and sometimes wrong too...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>Tell me if you learn more.. Please?<![CDATA[</size>]]></Page>
 		</Dialogue>
 	</DialogueNode>
 	<DialogueNode>
 		<Name>ShyKid_Model2</Name>
 		<Dialogue>
 		<Page><![CDATA[<size=20>]]>Oh...<![CDATA[</size>]]></Page>
-		<Page><![CDATA[<size=20>]]>The Quantum Moon.. You mean that weird moon that orbits around every planet in the star system, right..?<![CDATA[</size>]]></Page>
-		<Page><![CDATA[<size=20>]]>But if meteors are unpredictable, there really is nowhere safe on Brittle Hollow from meteors then...<![CDATA[</size>]]></Page>
-		<Page><![CDATA[<size=20>]]>If I become an astronaut, I'll just explore a planet that won't have to worry about meteors or the Quantum Moon...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>The Quantum Moon is the weird moon that orbits around every planet in the star system, right..? I guess it makes sense for it to cause weird things to happen...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>So... If the Quantum Moon stays away, the meteors won't be so random and unpredictable...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>Once I become an astronaut, I just need to find some way to know where the Quantum Moon always is then...<![CDATA[</size>]]></Page>
 		</Dialogue>
 	</DialogueNode>
 

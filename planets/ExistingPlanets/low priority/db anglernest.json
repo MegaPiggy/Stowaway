@@ -5,6 +5,24 @@
 
 	"removeChildren": ["Sector_AnglerNestDimension/Interactables_AnglerNestDimension/UNSORTED/Anglerfish_Body"],
 	
+	"Volumes":
+{
+	"forces": 
+		{
+			"radialVolumes": 
+			[
+				{
+				"force": 1,
+				"parentPath": "Sector_AnglerNestDimension/broken egg 1",
+				"fallOff": "linear",
+				"layer": 0,
+				"priority": 1,
+				"radius": 5,
+				"alignRadial": false
+				}
+			]
+		}
+	},
 	"Props": {
 		"singularities": [
 			{
@@ -25,7 +43,7 @@
 				"parentPath": "Sector_AnglerNestDimension/broken egg 1",
 				"position": {"x":0,"y": 0,"z": 0},
 				"isRelativeToParent": true,
-				"maxDistance": 60,
+				"maxDistance": 150,
 				"minDistance": 1,
 				"volume": 1
 			}

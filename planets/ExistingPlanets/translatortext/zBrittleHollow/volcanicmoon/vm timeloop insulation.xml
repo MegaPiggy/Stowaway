@@ -7,7 +7,7 @@ Clue: Supernova generate lots of heat
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		ROOT: Friends, it brings me great pride to declare that our last shipment of ore has been fully processed by the <![CDATA[<color=orange>Lava Diving Bell!</color>]]>
+		ROOT: Friends, it brings me great pride to share that the last shipment of ore has been fully processed by the <![CDATA[<color=orange>Lava Diving Bell!</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -16,7 +16,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		ROOT: With this, we have all the ore necessary to fortify both the <![CDATA[<color=orange>Ash Twin Project</color>]]> and the <![CDATA[<color=orange>Sanctuary..</color>]]> I thank each one of you here for your hard work!
+		ROOT: I am relieved to end our intrusion on the native life of <![CDATA[<color=lightblue>Timber Hearth,</color>]]> now that we have all the ore necessary to fortify all critical structures from the supernova.
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		POKE: Root, are you sure we should not at least prepare a small surplus of this ore for other means.. if only for cerebral peace?
+		POKE: Root, are you sure we should not at least prepare a small surplus of this ore - if only for cerebral peace?
 		</Text>
 	</TextBlock>
 
@@ -34,7 +34,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		POKE: We should insulate as much as we are able to with this ore, to ensure that as many structures and systems continue to operate during the supernova!
+		POKE: We should insulate as much as we are able to with this wondrous ore, to ensure that as many structures and systems continue to operate during the supernova..
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		POKE: For instance, the memory statues that allow Nomai to become paired to the <![CDATA[<color=orange>Ash Twin Project</color>]]> are not insulated from the supernova.. Won't the supernova destroying them destroy this connection?
+		POKE: For instance, the memory statues that allow Nomai to be paired to the <![CDATA[<color=orange>Ash Twin Project</color>]]> are not insulated from the supernova.. When the supernova destroys them, won't this connection be broken?
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		ROOT: Your concerns are wisely placed, Poke! But fear not: the system is not so fragile!
+		ROOT: Your concerns are wisely placed, Poke.. But fear not: the system is not so fragile!
 		</Text>
 	</TextBlock>
 
@@ -88,7 +88,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		POKE: Suppose if something catastrophic were to occur only after our memory statues were destroyed. None of us would be aware of such impending danger!
+		POKE: Suppose if something catastrophic were to occur only after our memory statues are destroyed... None of us would be aware of that impending danger!
 		</Text>
 	</TextBlock>
 
@@ -97,7 +97,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>10</ParentID>
 		<Text>
-		ROOT: The memory statues won't be destroyed simultaneously! They will only be destroyed as each planet is engulfed by the supernova, giving us ample time to notice anything amiss in that scenario.
+		ROOT: The memory statues won't be destroyed by the supernova simultaneously, Poke!
 		</Text>
 	</TextBlock>
 
@@ -106,7 +106,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>11</ParentID>
 		<Text>
-		POKE: But suppose if something catastrophic occurs only after that!
+		ROOT: As they have been placed on different planets, the memory statues will only be destroyed as each planet is engulfed by the supernova - giving us ample time to notice anything amiss in that scenario.
 		</Text>
 	</TextBlock>
 
@@ -115,7 +115,16 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>12</ParentID>
 		<Text>
-		ROOT: Then I suppose it would be quite exciting to find out about it!
+		POKE: But suppose something catastrophic occurs only after that!
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>14</ID>
+		<LocationB />
+		<ParentID>13</ParentID>
+		<Text>
+		ROOT: Then I suppose it would be quite exciting to find out about it, my friend!
 		</Text>
 	</TextBlock>
 	

@@ -7,7 +7,7 @@ Clue: Supernova generate lots of heat
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CYCAD: Here is the last shipment of ore from <![CDATA[<color=orange>mining site 2b,</color>]]> Root!
+		CYCAD: Here is the additional shipment of ore you requested from <![CDATA[<color=orange>mining site 2b,</color>]]> Root!
 		</Text>
 	</TextBlock>
 
@@ -16,7 +16,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		ROOT: You have my gratitude, Cycad! We are truly sorry to have troubled you with so many shuttle trips for this delivery.
+		ROOT: You have our gratitude, Cycad. We are truly sorry to have troubled you with this last, unforeseen delivery!
 		</Text>
 	</TextBlock>
 
@@ -25,7 +25,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		CYCAD: Worry not, friend.
+		CYCAD: It is no trouble, friend.
 		</Text>
 	</TextBlock>
 
@@ -34,7 +34,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		CYCAD: During my many journeys here in the shuttle, I could not help but notice a station in orbit around <![CDATA[<color=lightblue>Hollow's Lantern!</color>]]>
+		CYCAD: However, we are curious why the Volcanic Testing Site needed so much more ore suddenly!
 		</Text>
 	</TextBlock>
 
@@ -43,7 +43,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		CYCAD: If I had not traveled by shuttle, I would surely have missed this discovery! Might you have any idea what this structure is, Root?
+		CYCAD: (To be specific, Coleus wished to inquire, so that we may have an estimate if any additional ore is needed.)
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		ROOT: Around <![CDATA[<color=lightblue>Hollow's Lantern?</color>]]> Ah, you must have caught a glimpse of the <![CDATA[<color=orange>Quantum Weather Lab,</color>]]> Cycad.
+		ROOT: Ah, that would be for the construction of the new <![CDATA[<color=orange>Quantum Weather Lab,</color>]]> Cycad. You may have caught a glimpse of it on your way to <![CDATA[<color=lightblue>Hollow's Lantern!</color>]]>
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -69,7 +69,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		ROOT: No, my friend! The <![CDATA[<color=orange>Quantum Weather Lab</color>]]> is named so, because it was built to study how meteors launched from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> are affected as the <![CDATA[<color=lightblue>Quantum Moon</color>]]> orbits <![CDATA[<color=lightblue>Brittle Hollow.</color>]]>
+		ROOT: No, no, my friend! The <![CDATA[<color=orange>Quantum Weather Lab</color>]]> was given its name, because it was built to study how meteors launched from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> are affected as the <![CDATA[<color=lightblue>Quantum Moon</color>]]> orbits <![CDATA[<color=lightblue>Brittle Hollow.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -78,19 +78,28 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		ROOT: The station is difficult to glimpse due to its artificial, stationary orbit around <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> - which causes it to often be cloaked in shadow behind <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> or <![CDATA[<color=lightblue>Brittle Hollow.</color>]]>
+		ROOT: Due to its artificial, stationary orbit around <![CDATA[<color=lightblue>Hollow's Lantern,</color>]]> it is often cloaked in shadow behind <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> or <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> thus making it difficult to see normally.
 		</Text>
 	</TextBlock>
 
-	
 <TextBlock>
 		<ID>10</ID>
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		CYCAD: How intriguing.. I must visit this <![CDATA[<color=orange>Quantum Weather Lab</color>]]> to learn more when I have the chance!
+		ROOT: We will be using this ore to build a protective shell that will protect the station's interior from meteor impacts, which it will doubtless need to weather often.
 		</Text>
 	</TextBlock>
+
+<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		CYCAD: What an exciting project! I look forward to visiting this <![CDATA[<color=orange>Quantum Weather Lab</color>]]> to learn more once its construction is complete, my friend.
+		</Text>
+	</TextBlock>
+	
 
 <ShipLogConditions>
 		<RevealFact>
