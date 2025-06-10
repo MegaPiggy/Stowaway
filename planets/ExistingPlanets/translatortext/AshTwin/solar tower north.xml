@@ -9,7 +9,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		CLARY: Yarrow, the sand column is roaming <![CDATA[<color=lightblue>Ash Twin</color>]]> right now! I worry for your safety.. You should cease construction of the <![CDATA[<color=orange>solar tower</color>]]> for now!
+		CLARY: Yarrow, the column of sand is roaming <![CDATA[<color=lightblue>Ash Twin</color>]]> right now!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -17,7 +17,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: It is alright, Clary! The sand column does not travel over the <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> poles.. We are safe here.
+		CLARY: I worry for your safety.. You should cease construction of the <![CDATA[<color=orange>solar tower</color>]]> until it subsides!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -25,7 +25,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		CLARY: Oh.. That is a relief to hear. How fortunate I am able to learn so much about the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> from you, Yarrow!
+		YARROW: Worry not, Clary! As the column of sand only ever travels along the <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> equator, we are safe here on the planet's poles.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -33,7 +33,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		CLARY: But even after all this time, I am still not sure what causes this strange flow of sand between the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]> What could cause such a phenomenon?
+		YARROW: Still, your concern is deeply appreciated, my friend.. It is heartwarming that you came all this way to warn me!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -41,7 +41,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		YARROW: Oh? I would love to explain the cause of the <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> sandflow to you, Clary!
+		CLARY: Oh? I had not noticed that the column of sand only roamed along the equator before you mentioned it!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -49,7 +49,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		YARROW: There is a station in orbit around the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> called the <![CDATA[<color=orange>Hourglass Observatory..</color>]]> If you accompany me there, I'd be happy to explain the mechanisms behind the sand transfer to you!
+		CLARY: There are so many things I do not understand about this strange flow of sand between the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]> What could even cause such a phenomenon?
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -57,7 +57,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CLARY: I'd be thrilled to visit this <![CDATA[<color=orange>Hourglass Observatory</color>]]> with you, Yarrow! But I need to return to <![CDATA[<color=lightblue>Brittle Hollow</color>]]> briefly first. Where should I meet you when I am ready?
+		YARROW: Ah, I did not realize you were unaware of the cause of the sand transfer, Clary! I would be happy to explain the phenomenon known as the sunless day to you.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -65,7 +65,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		YARROW: I understand. When you wish to visit the <![CDATA[<color=orange>Hourglass Observatory,</color>]]> I shall be waiting for you at the warp tower on <![CDATA[<color=lightblue>Ember Twin's</color>]]> equator, Clary.
+		YARROW: Though, it may be a difficult concept to explain without some demonstration... Ah, I know.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -73,7 +73,34 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		CLARY: You have my gratitude, Yarrow. I look forward to this journey with you!
+		YARROW: There is a station in orbit around the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> called the <![CDATA[<color=orange>Hourglass Observatory.</color>]]> If you accompany me there, I could more clearly explain the mechanisms behind the sand transfer there!
+		</Text>
+	</TextBlock>
+	
+		<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		CLARY: I'd be thrilled if you would explain this phenomenon to me, Yarrow! However, there is some work I need to tend to first.. Where should I meet you once I am ready?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<LocationB />
+		<ParentID>10</ParentID>
+		<Text>
+			YARROW: I understand. Let us meet at the <![CDATA[<color=orange>Hourglass Observatory's</color>]]> warp tower on <![CDATA[<color=lightblue>Ember Twin's</color>]]> equator when you are ready then!
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>12</ID>
+		<LocationB />
+		<ParentID>11</ParentID>
+		<Text>
+		CLARY: You have my gratitude, Yarrow. I look forward to visiting the <![CDATA[<color=orange>Hourglass Observatory</color>]]> together with you!
 		</Text>
 	</TextBlock>
 	

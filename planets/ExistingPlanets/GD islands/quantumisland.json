@@ -1,0 +1,1282 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "QuantumIsland",
+
+	
+	"Volumes": {
+		"audioVolumes": [
+				{
+					"audio": "OW_GD_WavesAgainstBeach",
+					"rename": "Pioneer Beach waves audiovolume",
+					"track": "environmentUnfiltered",
+					"priority": 129,
+					"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
+					"position": {"x": -6.4272, "y": -3.1543, "z": -75.1605},
+					"volume": 0.35,
+					"radius":10,
+					"isRelativeToParent": true
+				}
+			]
+	},
+	
+	
+	"Props" :
+	{
+			
+		"remotes":[
+	
+			{"id": "GD_LoversCove",
+			"decalPath": "planets/assets/voyager loverscove icon.png",
+			"stones": [
+				{
+					"position": {"x": 69.63309, "y": -5.356702, "z": -40.67367},
+					"rotation": {"x": 354.2888, "y": 245.7604, "z": 7.322618},
+					"rename": "LoversCoveStone"
+				}]
+			},
+		
+			{"id": "TH_Sanctuary",
+			"decalPath": "planets/assets/voyager th icon.png",
+			"stones": [
+				{
+					"position": {"x": 67.995, "y": -5.2458, "z": -42.1444},
+					"rotation": {"x": 354.2888, "y": 245.7604, "z": 7.322618},
+					"rename": "TimberHearthMines_Stone"
+				}]
+			},
+			{"id": "GD_StatueIslandScrollWorkshop",
+			"decalPath": "planets/assets/voyager statueisle icon.png",
+			"stones": [
+				{
+					"position": {"x": 67.155, "y": -5.0967, "z": -41.7735},
+					"rotation": {"x": 354.2888, "y": 245.7604, "z": 7.322618},
+					"rename": "StatueIsle_Stone"
+				}]
+			},
+			{"id": "GD_ConstructionYard",
+			"decalPath": "planets/assets/voyager cyard icon.png",
+			"stones": [
+				{
+					"position": {"x": 67.7721, "y": -5.2747, "z": -42.9606},
+					"rotation": {"x": 8.4394, "y": 92.4266, "z": 355.632},
+					"isRelativeToParent": true,
+					"rename": "Cyard_Stone"
+				}]
+			},
+			{"id": "GD_DeepStormStation",
+			"decalPath": "planets/assets/voyager dss icon v2.png",
+			"stones": [
+				{
+					"position": {"x": 66.8955, "y": -5.1968, "z": -43.5503},
+					"rotation": {"x": 8.433, "y": 92.3428, "z": 355.6197},
+					"isRelativeToParent": true,
+					"rename": "DSS_Stone"
+				}]
+			},	
+			{"id": "GD_DeepStormStation",
+			"decalPath": "planets/assets/dss icon.png",
+			"stones": [
+				{
+					"position": {"x": 66.8955, "y": -5.1023 , "z": -42.5467},
+					"rotation": {"x": 8.433, "y": 57.6725, "z": 355.6197},
+					"isRelativeToParent": true,
+					"rename": "DSS_Stone normal"
+				}]
+			},
+
+
+			{"id": "GD_QuantumIsland",
+			"decalPath": "planets/assets/team askeratk.png",
+			"platform":{
+				"position": {"x": 69.1982, "y": -5.4144, "z": -43.4074},
+				"rotation": {"x": 0.8953013, "y": 35.79652, "z": 349.9525}
+		}}
+			],
+
+
+
+
+	"socketQuantumGroups": [		
+		{
+			"rename": "f1 quantum gm",
+			"details":[
+				{
+					"rename":"GD TOWER f1 gm wisps",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
+					"isRelativeToParent": true,
+					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+					"randomizeYRotation": false
+				}
+			],
+			"sockets": [
+				{
+					"position": {"x": 10.8403, "y": 166.1524, "z": -10.3263},
+					"rotation": {"x": 0, "y": 93.3935, "z": 0},
+					"probability": 1.2
+				},
+
+				{
+					"position": {"x": 10.8403, "y": 166.1524, "z": 9.9555},
+					"rotation": {"x": 0, "y": 93.3935, "z": 0}
+				},
+				{
+					"position": {"x": -10.967, "y": 166.1524, "z":9.9555},
+					"rotation": {"x": 0, "y": 93.3935, "z": 0}
+				},
+				{
+					"position": {"x":-10.967,"y": 166.1524,"z": -10.1245},
+					"rotation": {"x": 0, "y": 93.3935, "z": 0}
+				}
+			]
+		},
+
+		{
+			"rename": "f2 quantum gm",
+			"details":
+			[
+				{
+					"rename":"GD TOWER f2 gm wisps",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
+					"isRelativeToParent": true,
+					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+					"randomizeYRotation": false
+				}
+			],
+			"sockets": [
+				{
+					"position": {"x": 20.9616, "y": -0.4997, "z": 20.7671},
+					"rotation": {"x": 0, "y": 86 , "z": 0},
+					"isRelativeToParent": true,
+					"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom2/Interactables_PuzzleRoom2/PuzzleRoom_2/QuantumArch/"
+				},
+				{
+					"position": {"x": -21.1957, "y": -0.4997, "z": 20.3297}, 
+					"rotation": {"x": 0, "y": 182.0068, "z": 0},
+					"isRelativeToParent": true,
+					"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom2/Interactables_PuzzleRoom2/PuzzleRoom_2/QuantumArch/"
+				},
+				{
+					"position": {"x": 0.0372,"y": -0.4997,"z": -0.7247},
+					"rotation": {"x": 0, "y": 181.4311, "z": 0},
+					"isRelativeToParent": true,
+					"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom2/Interactables_PuzzleRoom2/PuzzleRoom_2/QuantumArch/",
+					"probability": 2
+				}
+			]
+		},
+
+		{
+			"rename": "f3 quantum gm",
+			"details":[
+				{
+					"rename":"GD TOWER f3 gm wisps",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
+					"isRelativeToParent": true,
+					"position": {"x":0,"y":0,"z":0},
+					"rotation": {"x":0,"y":0,"z":0},
+					"randomizeYRotation": false
+				}
+			],
+			"sockets": [
+				{
+					"position": {"x": 0.2244,"y": 0, "z": 0},
+					"rotation": {"x":0,"y": 0,"z": 0},
+					"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom3/Interactables_PuzzleRoom3/PuzzleRoom_3/QuantumGravCrystal",
+					"isRelativeToParent": true,
+					"probability": 1.2
+				},
+				{
+					"position": {"x": 4.7851,"y": 16.6072, "z": -13.7716},
+					"rotation": {"x":0,"y": 0,"z": 90},
+					"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom3/Interactables_PuzzleRoom3/PuzzleRoom_3/QuantumGravCrystal",
+					"isRelativeToParent": true
+				},
+				{
+					"position": {"x":4.785,"y": 16.9782, "z": 14.32},
+					"rotation": {"x":0,"y": 0,"z": 90},
+					"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom3/Interactables_PuzzleRoom3/PuzzleRoom_3/QuantumGravCrystal",
+					"isRelativeToParent": true
+				}
+			]
+		},
+
+		{
+			"rename": "f4 quantum gm",
+			"details": [
+				{
+					"rename":"GD TOWER f4 gm wisps",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
+					"isRelativeToParent": true,
+					"position": {"x":0,"y":0,"z":0},
+					"rotation": {"x":0,"y":0,"z":0},
+					"randomizeYRotation": false
+				}
+			],
+			"sockets": [
+				{
+					"position": {"x":-1,"y": -0.8995, "z":  -0.09},
+					"rotation": {"x":0,"y": 0,"z": 0},
+				"parentPath":  "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom4/Interactables_PuzzleRoom4/PuzzleRoom_4/Sockets_WallOne/QuantumGravCrystal",
+				"isRelativeToParent": true,
+				"probability": 1.2
+				},
+					{
+						"position": {"x":10.4506,"y": 41.5538, "z": 2.7546},
+						"rotation": {"x":0,"y": 253.9225,"z": 0},
+						"isRelativeToParent": true
+					},
+						{
+							"position": {"x":10.1848,"y": 41.5538, "z": -3.8578},
+							"rotation": {"x":0,"y": 271.7473,"z": 0},
+							"isRelativeToParent": true
+		}
+		]
+	}
+		
+	
+		],
+		"details": [
+		
+			{
+				"rename":"ANTIWATER",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/anti water.prefab",
+				"position": {"x": 105.0161, "y": -19.4543, "z": -86.8627},
+				"isRelativeToParent": true,
+				"scale":0.4
+			},
+			{
+				"rename":"WATERANTI",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/antino water.prefab",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"parentPath": "Sector_QuantumIsland/ANTIWATER",
+				"scale": 2.5,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"ANTIWATER lamp",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"parentPath": "Sector_QuantumIsland/ANTIWATER",
+				"isRelativeToParent": true
+			},
+			
+
+
+
+
+
+			{
+				"rename": "GD ocean simulation",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/nomai ruins/ocean orbit.prefab",
+				"scale":0.3,
+				"position":{"x": 13.843,"y": 31.9196,"z": 0},
+				"rotation": {"x":0,"y": 174.734,"z": 0},
+				"isRelativeToParent": true
+			},
+			{
+			"rename":"projection liquid GD model",
+				"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
+				"position": {"x": 0, "y": -3.26, "z": 0},
+			"parentPath": "Sector_QuantumIsland/GD ocean simulation/",
+			"stretch": {"x":12,"y":64,"z":12},
+			"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"Sector_QuantumTowerBeach",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab"
+			},
+				{
+				"rename":"QIsle beach rock1",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Props_StatueIslandInterior/BatchedGroup/BatchedMeshRenderers_0",
+				"position": {"x":64.8864,"y": -3.4734,"z": -8.5224},
+				"rotation": {"x":31.3003,"y": 91.532,"z": 1.4829},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+				"scale":1.3,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"QIsle beach rock2",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Props_StatueIslandInterior/BatchedGroup/BatchedMeshRenderers_0",
+				"position": {"x":68.5263,"y": -3.917,"z": -11.0315},
+				"rotation": {"x":34.4261,"y": 104.4433,"z": 2.9428},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+				"scale":1.3,
+				"isRelativeToParent": true
+			},{
+				"rename":"intro whiteboard light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"position": {"x": 73.482, "y": -3.7307, "z": -50.4158},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+				"isRelativeToParent": true
+			},	{
+				"rename": "intro boulder collider left",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
+				"position": {"x": 70.8334, "y": -6.1997, "z": -50.50},
+				"rotation": {"x": 12.3781, "y": 132.9931, "z": 1.2446},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+				"isRelativeToParent": true,
+				"scale":4
+			},
+			{
+				"rename": "intro boulder collider right",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
+				"position": {"x": 74.877, "y": -6.4252 , "z": -46.5512},
+				"rotation": {"x": 14.606, "y": 146.7382, "z": 7.6034},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+				"isRelativeToParent": true,
+				"scale":4
+			},{
+			"rename": "qshore lead torch",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+			"position": {"x": 60.143,"y": -6.7799,"z": -63.4583},
+			"rotation": {"x": 281.6749,"y": 106.0411,"z": -0.0003},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+				"removeChildren": ["WallTorch_Connector"],
+			"isRelativeToParent": true
+			},
+			{
+			"rename": "qshore lead sandpile",
+			"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
+			"position": {"x": 60.1103,"y": -6.5526,"z": -63.3129},
+			"rotation":{"x": 358.9453,"y": 218.2089,"z": 8.0896},
+			"scale":2,
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+			"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Grave arch object",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab",
+					"position": {"x":-10.3455, "y": 5.2654,"z": -24.7855},
+					"rotation":{"x": 353.5474,"y": 342.8055,"z": 359.9618},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/"
+			},
+			{
+			"rename":"Grave Arch",
+			"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom1/Interactables_PuzzleRoom1/PuzzleRoom_1/QuantumArch/Structure_NOM_QuantumIsland_Arch",
+			"position":{"x":63.2668,"y": -5.2176,"z": -51.1561},
+			"rotation":{"x":11.8645,"y": 113.5084 ,"z": 359.1028},
+			"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/Grave arch object",
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"Grave Plant",
+			"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1/GEO_NomaiTree_1_Trunk",
+			"position":{"x":63.7171,"y": -5.6212,"z": -51.1269},
+			"rotation":{"x":11.2835,"y": 122.2943 ,"z": 357.4865},
+			"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/Grave arch object",
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "Grave Sandpile base",
+			"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
+			"position":{"x":62.1425,"y": -5.049,"z": -50.4282},
+			"rotation":{"x":0.7309,"y": 27.0563,"z": 351.6822},
+			"stretch":{"x":10.7854,"y": 1.3164,"z": 6.9563},
+			"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/Grave arch object",
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "Grave Sandpile root",
+			"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
+			"position":{"x":63.6445,"y": -5.2802,"z": -51.3283},
+			"rotation":{"x":10.778,"y": 125.9007,"z": 0.7447},
+			"stretch":{"x":2.1618,"y": 3.2855,"z": 2.7345},
+			"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/Grave arch object",
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "Grave cave torch cairn",
+			"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeShrine/Interactables_EyeShrine/Prefab_NOM_CT_Cairn_Light_A",
+			"position":{"x":64.1274,"y": -5.6591,"z": -53.4719},
+			"rotation":{"x":10.7945,"y": 99.1146,"z": 355.0479},
+			"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/Grave arch object",
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "Grave BH torch cairn",
+			"path":"BrittleHollow_Body/Sector_BH/Sector Cannon Path/Fragment CannonPath_4/Core_CannonPath_4/Interactibles_Core_CannonPath_3 (1)/Prefab_NOM_BH_Cairn_Light_B",
+			"position":{"x":65.7034,"y": -5.5479,"z": -50.3766},
+			"rotation":{"x":10.5889,"y": 100.7898,"z": 354.6094},
+			"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/Grave arch object",
+			"isRelativeToParent": true
+		},	
+
+
+		
+			{
+				"rename":"GD TOWER gm volumes",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"rotation":{"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f1 GM volume",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f1 gm wisps",
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals","ObjectTrail"]
+			},
+			{
+				"rename":"GD TOWER f1 GM visibilitytracker",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f1 gm wisps",
+				"scale":1.4,
+				"isRelativeToParent": true
+			},
+			
+				{
+					"rename":"GD TOWER f2 GM volume",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f2 gm wisps",
+					"isRelativeToParent": true,
+					"removeChildren": ["ProbeVisuals","ObjectTrail"]
+				},
+				{
+					"rename":"GD TOWER f2 GM visibilitytracker",
+					"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
+					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes/GD TOWER f2 gm wisps",
+					"scale":1.4,
+					"isRelativeToParent": true
+				},
+				{
+					"rename":"GD TOWER f3 gm wisps",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
+					"isRelativeToParent": true,
+					"position": {"x":2.0146,"y":-0.1436,"z":-0.0582},
+					"rotation": {"x":0,"y":0,"z":90},
+					"parentPath": "Sector_QuantumIsland/GD TOWER f3 gm wisps"
+				},
+				{
+					"rename":"GD TOWER f3 GM volume",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+					"parentPath": "Sector_QuantumIsland/GD TOWER f3 gm wisps",
+					"isRelativeToParent": true,
+					"removeChildren": ["ProbeVisuals","ObjectTrail"]
+				},
+				{
+					"rename":"GD TOWER f3 GM visibilitytracker",
+					"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
+					"parentPath": "Sector_QuantumIsland/GD TOWER f3 gm wisps",
+					"scale":1.4,
+					"isRelativeToParent": true
+				},
+				{
+					"rename":"GD TOWER f4 gm wisps",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/Effects_GM_AuroraWisps",
+					"isRelativeToParent": true,
+					"position": {"x":0,"y":0,"z":0},
+					"rotation": {"x":0,"y":0,"z":90},
+					"parentPath": "Sector_QuantumIsland/GD TOWER f4 gm wisps"
+				},
+				{
+					"rename":"GD TOWER f4 GM volume",
+					"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume",
+					"parentPath": "Sector_QuantumIsland/GD TOWER f4 gm wisps",
+					"isRelativeToParent": true,
+					"removeChildren": ["ProbeVisuals","ObjectTrail", "NotificationVolume"]
+				},
+				{
+					"rename":"GD TOWER f4 GM visibilitytracker",
+					"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
+					"parentPath": "Sector_QuantumIsland/GD TOWER f4 gm wisps",
+					"scale":1.4,
+					"isRelativeToParent": true
+				},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			{
+				"rename":"GD TOWER f1arch crystals A",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 1.4979,"y": 0.6491,"z": 3.1423},
+				"rotation":{"x": 2.2454,"y": 263.9871,"z": 355.9178},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom1/Interactables_PuzzleRoom1/PuzzleRoom_1/QuantumArch/",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f1arch crystals B",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 0.9964,"y": 0.7166,"z": -3.7478},
+				"rotation":{"x": 1.4527,"y": 53.7844 ,"z": 0},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom1/Interactables_PuzzleRoom1/PuzzleRoom_1/QuantumArch/",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f1 capcrystals 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -13.6199,"y": 0.6801,"z": 9.523},
+				"rotation":{"x": 1.4455,"y": 102.9451 ,"z": 357.3707},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_A",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f1 capcrystals 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -13.7544,"y": 0.6801,"z": -8.6479},
+				"rotation":{"x": 1.4455,"y": 121.3708 ,"z": 357.3707},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_B",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f1 capcrystals 3",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 12.5019,"y": 0.6801,"z": 8.5957},
+				"rotation":{"x": 1.4455,"y": 115.1272,"z": 357.3707},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_C",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f1 capcrystals 4",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 11.0601,"y": 0.6801,"z": -10.9188},
+				"rotation":{"x": 1.4455,"y": 102.9451 ,"z": 357.3707},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_D",
+				"isRelativeToParent": true
+			},
+
+
+
+			{
+				"rename":"GD TOWER f2arch crystals A",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -1.1739,"y": 0.7604,"z": -4.7708},
+				"rotation":{"x": 2.0438,"y":  152.8917,"z": 358.25810},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom2/Interactables_PuzzleRoom2/PuzzleRoom_2/QuantumArch/Structure_NOM_QuantumIsland_Arch/",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f2arch crystals B",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 3.4652,"y": 0.7313,"z": -0.3497},
+				"rotation":{"x": 1.4711,"y": 169.9432,"z": 355.7961},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerPuzzleRoom2/Interactables_PuzzleRoom2/PuzzleRoom_2/QuantumArch/Structure_NOM_QuantumIsland_Arch/",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f2 capcrystals 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -15.8445,"y": 0.6473,"z": -15.2745},
+				"rotation":{"x": 2.2764,"y": 284.512,"z": 358.4964},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_E",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f2 capcrystals 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -14.9027,"y": 0.6473,"z": 15.1874},
+				"rotation":{"x": 2.2764,"y": 284.512,"z": 358.4964},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_F",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f2 capcrystals 3",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 15.8283,"y": 0.6473,"z": 15.4928},
+				"rotation":{"x": 2.2764,"y": 284.512,"z": 358.4964},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_G",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f2 capcrystals 4",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 15.8283,"y": 0.6473,"z": -15.2745},
+				"rotation":{"x": 2.2764,"y": 284.512,"z": 358.4964},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/Structure_NOM_QuantumTower_tunnelCaps/cap_H",
+				"isRelativeToParent": true
+			},
+
+
+
+			{
+				"rename":"GD GM notif f1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume (1)/NotificationVolume/",
+				"position":{"x": 0,"y": 177.7511,"z": 0},
+				"scale":2.5,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD GM notif f2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume (1)/NotificationVolume/",
+				"position":{"x": 0,"y": 131.8229,"z": 0},
+				"scale":1.3,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD GM notif f3",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume (1)/NotificationVolume/",
+				"position":{"x": 0,"y": 98.6299,"z": 0},
+				"rotation": {"x":0,"y":142.3046,"z":0},
+				"scale":1.4,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD GM notif f4",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/Interactables_HangingCity_District1/DarkMatterVolume (1)/NotificationVolume/",
+				"position":{"x": 9.9254,"y": 55.3911,"z": 0.4354},
+				"rotation": {"x":86.6212,"y":180.0001,"z":270.0002},
+				"scale":1.7,
+				"isRelativeToParent": true
+			},
+
+
+			
+			{
+				"rename":"GD TOWER f3 wall crystals 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -11.1436,"y": 98.7154,"z": -11.5975},
+				"rotation":{"x": 44.9046,"y": 139.66,"z": 92.3872},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f3 wall crystals 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 11.1601,"y": 98.8106,"z": -11.6743},
+				"rotation":{"x": 50.0889,"y": 47.0236,"z": 91.4962},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f3 wall crystals 3",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 10.9052,"y": 98.9071,"z": 11.805},
+				"rotation":{"x": 53.895,"y": 135.0002,"z": 270.0002},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f3 wall crystals 4",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -11.1146,"y": 98.8009,"z": 11.5659},
+				"rotation":{"x": 42.3411,"y": 45.0001,"z": 270.0001},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f3 floorcrystals 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 9.5742,"y": 95.348,"z": 9.4157},
+				"rotation":{"x": 1.8438,"y": 316.4117,"z": -0.003},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f3 floorcrystals 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -9.2156,"y": 95.3336,"z": 8.7678},
+				"rotation":{"x": 1.1709,"y": 54.9638,"z": 359.2727},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},{
+				"rename":"GD TOWER f3 floorcrystals 3",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": -9.5018,"y": 95.3116,"z": -9.4513},
+				"rotation":{"x": 2.2638,"y": 311.4426,"z": 0.003},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},{
+				"rename":"GD TOWER f3 floorcrystals 4",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 9.4947 ,"y": 95.3463,"z": -9.5094},
+				"rotation":{"x": 2.1491,"y": 200,"z": 0},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+
+
+
+			
+
+			
+			
+			{
+				"rename":"GD TOWER f4 wall crystals 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 14.1545,"y": 63.3618,"z": 4.3978},
+				"rotation":{"x": 76.7427,"y": 2.9655,"z": 90.0002},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f4 wall crystals 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 14.1436,"y": 63.4407,"z": -2.4144},
+				"rotation":{"x": 57.1087,"y": 2.4108,"z": 90},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f4 wall crystals 3",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 14.1545,"y": 57.2244,"z": 2.1359},
+				"rotation":{"x": 71.7146,"y": 2.5597,"z": 89.9999},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f4 wall crystals 4",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 13.9327,"y": 54.6918,"z": -3.9824},
+				"rotation":{"x": 45.6164,"y": 0,"z": 90},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f4 wall crystals 5",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 14.1327,"y": 49.4083,"z": 3.3475},
+				"rotation":{"x": 59.5917,"y": 2.1288,"z": 90.0001},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f4 wall crystals 6",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 14.0636,"y": 45.9816,"z": -2.9604},
+				"rotation":{"x": 11.7375,"y": 0,"z": 90},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f4 floorcrystals 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 10.3879,"y": 42.8774,"z": 3.4264},
+				"rotation":{"x": 1.3633,"y": 186.5515,"z": 357.6871},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"GD TOWER f4 floorcrystals 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_District1/DetailPatches_HangingCity_District1/Props_GM_Clutter (4)",
+				"position":{"x": 10.985,"y": 42.8865,"z": -4.8359},
+				"rotation":{"x": -0.0004,"y": 189.1528,"z": 0.0002},
+				"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
+				"isRelativeToParent": true
+			},
+
+		
+			
+			
+
+			
+			
+
+
+
+			
+			{
+				"rename":"chamber1 scroll light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"position": {"x": -9.1964, "y": 147.4376, "z": -1.2717},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"chamber2 RECORDER light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"position": {"x": 8.1621, "y": 114.578, "z": -0.7531},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"chamber2 scroll light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"position": {"x": 10.1375, "y": 115.8786, "z": -1.2833},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"finalchamber whiteboard light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_InterRoom/",
+				"position": {"x": 19.6752, "y": 32.4912, "z": 0.0726},
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"GD quantum shard dumbwaiter",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Interactables_NorthUnderground/QuantumEntanglementRock/Rocks_HCT_QuantumEntanglement_v2/",
+				"position": {"x": 0.2371,"y": -0.4666,"z": -0.3424},
+				"rotation": {"x": 0.3109, "y": 141.6904, "z": 20.1146},
+				"stretch": {"x":0.2473,"y":0.4211,"z":0.3},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerInterior/Interactables_QuantumTowerInterior/QuantumShard/Rock_TH_Grove_QRock"
+			},
+
+
+
+			{
+				"rename":"Storehouse box stacked",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": -1.5667, "y": 79.9579, "z": 9.7584},
+					"rotation": {"x": 0, "y": 196.2131, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": -1.0734, "y": 0, "z": -0.4267},
+					"rotation": {"x": 0, "y": 16.8735 , "z": 0},
+					"parentPath": "Sector_QuantumIsland/Storehouse box stacked",
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": -0.5937, "y": 0.9351, "z": -0.3452},
+					"rotation": {"x": 0, "y": 9.978, "z": 0},
+					"parentPath": "Sector_QuantumIsland/Storehouse box stacked",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"box outcast",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": 3.399, "y": 0, "z": 2.7246},
+					"rotation": {"x": 0, "y": 266.7011, "z": 0},
+					"parentPath": "Sector_QuantumIsland/Storehouse box stacked",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Storehouse box trio",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": -10.0476, "y": 79.9579, "z": -0.8782},
+					"rotation": {"x": 0, "y": 94.9514, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": -1.2623, "y": 0, "z": 0.4825},
+					"rotation": {"x": 0, "y": 323.746, "z": 0},
+					"parentPath": "Sector_QuantumIsland/Storehouse box trio",
+				"isRelativeToParent": true
+			},
+			{
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
+				"position": {"x": -0.0864, "y": 0, "z": 0.9088},
+					"rotation": {"x": 0, "y": 99.5257 , "z": 0},
+					"parentPath": "Sector_QuantumIsland/Storehouse box trio",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Storehouse box splatoon",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": 10.2617, "y": 80.4517, "z": 0.8688},
+					"rotation": {"x": 0, "y": -0.0011, "z": 90},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
+				"position": {"x": 0.4667, "y": 0.4883, "z": 0.0838},
+					"rotation": {"x": 338.3112, "y": 0, "z": 270},
+					"parentPath": "Sector_QuantumIsland/Storehouse box splatoon",
+				"isRelativeToParent": true
+			},
+			{
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
+				"position": {"x": -0.4937, "y": 0.5326, "z": 1.0256},
+					"rotation": {"x": 326.6908, "y": 0, "z": 270},
+					"parentPath": "Sector_QuantumIsland/Storehouse box splatoon",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Storehouse bench",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
+				"position": {"x": 0.6486 , "y": 79.9579, "z": -9.9634},
+					"rotation": {"x": 0, "y": 358.5199, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
+				"position": {"x": 0.9697, "y": 0, "z": 0.6325},
+					"rotation": {"x": 0, "y": 24.8419, "z": 0},
+					"parentPath": "Sector_QuantumIsland/Storehouse bench",
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"Gallery Bed 1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/bed.prefab",
+				"position": {"x": 10.16, "y": 114.2245, "z": -0.1108},
+					"rotation": {"x": 0, "y": 180, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Gallery Bed 2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/bed.prefab",
+				"position": {"x": -10.0473, "y": 114.2245, "z": -0.1108},
+					"rotation": {"x": 0, "y": 0, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Gallery Bed 3",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/bed.prefab",
+				"position": {"x": -0.1546, "y": 114.2245, "z": 10.1601},
+					"rotation": {"x": 0, "y": 90, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Gallery Bed 4",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/bed.prefab",
+				"position": {"x":-0.1546,"y": 114.2245,"z": -10.1345},
+					"rotation": {"x": 0, "y": 270, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Gallery bed toy",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/toyship.prefab",
+				"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
+				"position": {"x": 0.3018, "y": 3.3873, "z": -1.6581},
+				"rotation": {"x": 0, "y": 319.6169, "z": 0},
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"scroll shelf 1",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"isRelativeToParent": true,
+					"position": {"x": -8.9328, "y": 146.4498, "z": -0.5773},
+					"rotation": {"x": 0, "y": 90, "z": 0}
+			},
+			{
+				"rename":"scroll shelf 1B",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"position": {"x": -1.0964,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumIsland/scroll shelf 1",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"scroll shelf 2",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"isRelativeToParent": true,
+					"position": {"x": 0.5563, "y": 146.4498, "z": -8.9374},
+					"rotation": {"x": 0, "y": 0, "z": 0}
+			},
+			{
+				"rename":"scroll shelf 2B",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"position": {"x": -1.0964,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumIsland/scroll shelf 2",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"scroll shelf 3",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"isRelativeToParent": true,
+					"position": {"x": 8.929, "y": 146.4498, "z": 0.6118},
+					"rotation": {"x": 0, "y": 270, "z": 0}
+			},
+			{
+				"rename":"scroll shelf 3B",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"position": {"x": -1.0964,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumIsland/scroll shelf 3",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"scroll shelf 4",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"isRelativeToParent": true,
+				"position": {"x": -0.5292,"y": 146.4498,"z": 8.9226},
+					"rotation": {"x": 0, "y": 180, "z": 0}
+			},
+			{
+				"rename":"scroll shelf 4B",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"position": {"x": -1.0964,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumIsland/scroll shelf 4",
+				"isRelativeToParent": true
+			},
+
+
+
+
+		
+		
+			
+		
+		
+			
+
+	
+		
+			{
+				"rename":"Cerberus Jelly",
+				"path":"Jellyfish_Body/Beast_GD_Jellyfish_v4",
+				"position": {"x": 3.2547, "y": -20.8492, "z": 6.8948},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"stretch":{"x":0.5, "y":0.5, "z":0.5}
+			},
+			{
+				"rename":"quantum island trampoline volume",
+				"path":"DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/FeldsparShip_Body/ElectricityVolume",
+				"parentPath": "Sector_QuantumIsland/Cerberus Jelly",
+				"position": {"x":0,"y": -10.4364,"z": 0},
+				"stretch": {"x":1.7, "y":2.9, "z":1.7},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"quantum island insulation volume",
+				"path":"Jellyfish_Body/Volumes/InsulatingVolume",
+				"parentPath": "Sector_QuantumIsland/Cerberus Jelly",
+				"position": {"x":0,"y": -12.4145,"z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"jelly light",
+				"path":"BrambleIsland_Body/Sector_BrambleIsland/Lighting_BrambleIsland/Pointlight_Jellyfish_01",
+				"parentPath": "Sector_QuantumIsland/Cerberus Jelly",
+				"position": {"x":0,"y": -3,"z": 0},
+				"isRelativeToParent": true
+			},
+
+			
+
+
+
+			
+			
+	
+
+
+
+			
+
+
+
+		{
+			"rename":"BH Decal Tower_Top",
+			"path":"QuantumMoon_Body/Sector_QuantumMoon/QuantumShrine/Structure_NOM_QuantumShrine/QuantumMoonLocator/PlanetPivot2/emblem_2/PlanetDecal (2)",
+			"position":{"x":-30.1217,"y": 217.5459,"z": -3.6624},
+			"rotation":{"x":359.9466,"y": 271.411,"z": 1.0521},
+			"scale":3
+		},
+		{
+			"rename":"HT Decal Tower_Top",
+			"path":"QuantumMoon_Body/Sector_QuantumMoon/QuantumShrine/Structure_NOM_QuantumShrine/QuantumMoonLocator/PlanetPivot/emblems/PlanetDecal",
+			"position":{"x":30.3288,"y": 218.0459,"z": -3.8624},
+			"rotation":{"x":0.1705,"y": 88.7519,"z": 167.1757},
+			"scale":5
+		},
+		
+		
+
+
+			{
+				"rename":"Sector_EyeShrineShore",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab"
+			},
+		{
+			"rename": "Pioneer Quantum Camp torch",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+			"position":{"x":-5.0863,"y": 1.8246,"z": -67.1127},
+			"rotation":{"x":30.75,"y": 177.5927,"z": 356.971},
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
+			"isRelativeToParent": true
+		},	
+		{
+			"rename": "Pioneer Quantum Camp ROOF",
+			"path":"CaveTwin_Body/Sector_CaveTwin/Interactables_CaveTwin/Structure_NOM_EyeSymbol",
+			"position":{"x":-2.4047,"y": 18.248,"z": -76.2763},
+			"rotation":{"x":287.3269,"y": 189.9638,"z": 356.7981},
+			"scale":3,
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
+			"isRelativeToParent": true
+		},	
+		{
+			"rename": "Pioneer Quantum Camp extra pointlight",
+			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Lighting_Module_Sunken/FillLight_SunkenModule",
+			"position":{"x": 1.3226,"y": 1.2799,"z": -72.9713},
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
+			"isRelativeToParent": true
+		},	
+		
+		{
+			"rename": "Pioneer Quantum Camp bushes",
+			"path":"StatueIsland_Body/Sector_StatueIsland/Geometry_StatueIsland/OtherComponentsGroup/ControlledByProxy_StatueIsland/Trees/BatchedGroup/BatchedMeshRenderers_0",
+			"position":{"x":-100.5457,"y": -75.8067,"z": -76.487},
+			"rotation":{"x":1.3568,"y": 274.6389,"z": 5.2299},
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
+			"isRelativeToParent": true
+		},	
+		{
+			"rename": "Pioneer Quantum Camp pole",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/staff.prefab",
+			"position":{"x":-2.3844,"y": 19.3019,"z":  -76.4587},
+			"rotation":{"x":14.7848,"y": 157.7401,"z": 170.8623},
+			"stretch":{"x":4.5,"y": 17.28,"z": 4.5},
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
+			"isRelativeToParent": true
+		},	
+		{
+			"rename": "Pioneer Quantum Camp HoloSeat_1",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/holo seat.prefab",
+			"position":{"x": -2.3548,"y": -1.8616,"z": -72.5482},
+			"rotation":{"x": 16.4852,"y": 215.6565,"z": 3.0305},
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "Pioneer Quantum Camp HoloSeat_2",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/holo seat.prefab",
+			"position":{"x": -2.7506,"y":-2.0625,"z": -72.0458},
+			"rotation":{"x": 8.3766,"y": 245.6604,"z": 7.9488},
+			"parentPath": "Sector_QuantumIsland/Sector_EyeShrineShore",
+			"isRelativeToParent": true
+		}
+		
+	
+		
+		
+	
+
+
+
+
+
+			
+			
+			
+			
+		],
+
+
+
+
+"translatorText":[
+	
+	{
+		"rename":"Plume eye debate rec",
+		"position": {"x":-4.0519,"y": -2.6592,"z": -75.698},
+		"rotation": {"x":16.7487,"y": 203.6263,"z": 359.5786},
+		"type":"recorder",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/eye shrine clouds.xml",
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+		"isRelativeToParent": true
+	},
+	{
+		"rename":"Eye shrine trailmarker",
+		"position": {"x": 58.8188, "y": -6.4222,"z": -64.3977},
+		"rotation": {"x": 26.271, "y": 74.8599, "z": 348.4666},
+		"type":"trailmarker",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/eye shrine trail.xml",
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+		"isRelativeToParent": true
+	},
+	{
+		"rename":"Final chamber whiteboard",
+		"position": {"x": 21.0388, "y": 31.1814,"z": 0.073},
+		"rotation": {"x": 0, "y": 270, "z": 0},
+		"type":"whiteboard",
+		"isRelativeToParent": true
+	},
+	{
+		"rename":"Phlox item entangle tutorial recording",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/phlox item entangle tutorial.xml",
+		"position": {"x": 1.7073, "y": -0.0382,"z": 0.7073},
+		"rotation": {"x": 0, "y": 109.6918, "z": 0},
+		"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
+		"type":"recorder",
+		"isRelativeToParent": true
+	},
+	
+	{
+		"rename":"imaging discovery scroll",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/tower excavation discovery.xml",
+		"position": {"x": -0.2072, "y": 1.2248,"z": 0.4005},
+		"rotation": {"x": 0.6397, "y": 0.746, "z": 63.43510},
+		"type":"scroll",
+		"seed":4,
+		"parentPath": "Sector_QuantumIsland/scroll shelf 1",
+		"isRelativeToParent": true
+	},
+	{
+		"rename":"Abandon tower scroll",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/abandon tower orbitmap.xml",
+		"position": {"x": 19.1298, "y": 1.5089,"z": -0.7584},
+		"rotation": {"x": 2.8988, "y": 261.7177, "z": 48.3928},
+		"seed":1,
+		"type":"scroll",
+		"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
+		"isRelativeToParent": true
+	},
+	
+	{
+		"rename": "Welcome directionboard whiteboard",
+		"position": {"x": 72.6883, "y": -4.8887, "z": -49.6383},
+		"rotation": {"x": 12.4761, "y": 136.1015, "z": 3.2734},
+				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
+		"type": "whiteboard",
+		"seed":2,
+		"xmlFile":"planets/ExistingPlanets/translatortext/Quantum Island/entrance board.xml",
+		"isRelativeToParent": true
+	}
+	
+
+
+
+	
+	
+]},
+
+	
+
+
+
+	
+	"removeChildren":
+		[
+
+		"Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Interactables_FinalRoom/Prefab_GD_QuantumShardSocket (14)/"
+
+	]
+	}

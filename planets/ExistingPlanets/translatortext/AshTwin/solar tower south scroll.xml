@@ -8,7 +8,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		POKE: After some investigation, I can conlude this <![CDATA[<color=orange>solar tower's</color>]]> vision orbs do not appear to be experiencing the phenomenon we noticed.
+		POKE: After some investigation, I can conlude this <![CDATA[<color=orange>solar tower's</color>]]> vision orbs do not appear to be experiencing the phenomenon Oeno and I noticed.
 		</Text>
 	</TextBlock>
 
@@ -17,7 +17,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		OENO: I can corroborate your findings, Poke. I did not see the phenomenon occuring at the northern <![CDATA[<color=orange>solar tower,</color>]]> either.
+		OENO: I can corroborate your findings, Poke. I did not see the phenomenon occuring at the northern <![CDATA[<color=orange>solar tower,</color>]]> either..
 		</Text>
 	</TextBlock>
 

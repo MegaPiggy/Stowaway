@@ -29,16 +29,21 @@
 		<Dialogue>
 			<Page>Questions about the universe? Uh, wow, you're putting me on the spot, astronaut! Uhh, lemme think a sec...</Page>
 			<Page>How about.. No, I figured that one out... Um, what about... Oh, OH! I got one!</Page>
-			<Page>Um, when does sand start flowing between the Hourglass Twins again, astronaut?</Page>
+			<Page>Um, why does sand stop flowing between the Hourglass Twins sometimes, astronaut?</Page>
 		</Dialogue>
 			 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>Pretty soon..?</Text>
+				<Text>I'm not really sure.</Text>
 				<DialogueTarget>ModelRocketKid_SW_Intro_2</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 				<Text>Wait.. Sand stops flowing between the Hourglass Twins?</Text>
 				<DialogueTarget>ModelRocketKid_SW_Intro</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+					<RequiredPersistentCondition>Chert_Natural</RequiredPersistentCondition>
+						<Text>Chert says it's just some sort of natural phenomenon.</Text>
+							<DialogueTarget>ModelRocketKid_Sand_No</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
 			<RequiredLogCondition>SS Tower EX5</RequiredLogCondition>
@@ -53,8 +58,8 @@
 		<Dialogue>
 			<Page>Yeah, haven't you noticed? Try looking at the Hourglass Twins with your signalscope right now, astronaut!</Page>
 			<Page>Without sand flowing between them, the "Hourglass Twins" don't really live up to their name, do they? We should just call them "The Twins" the rest of the time, heh.</Page>
-			<Page>Chert told me sand should start flowing back to Ember Twin again really soon.. <![CDATA[<Pause=2>]]> But that's SO vague!</Page>
-			<Page>I wanna be ready to watch when sand starts flowing between the Twins again, but since Chert took off into space without telling me how much longer it'll take, I have no idea when it's gonna happen..</Page>
+			<Page>Chert told me that sand stops flowing between the Hourglass Twins for weeks.. But how long is that exactly?!</Page>
+			<Page>I wanna be ready to watch when sand starts flowing between the Twins again - but since Chert took off into space without telling me how much longer it'll take, I have no idea when it's gonna happen..</Page>
 			 </Dialogue>
 			  				<RevealFacts>
      						   <FactID>MICA EX1</FactID>
@@ -72,10 +77,10 @@
 <DialogueNode>
 		<Name>ModelRocketKid_SW_Intro_2</Name>
 		<Dialogue>
-			<Page>Uugh, I know that already..</Page>
-			<Page>Chert told me it'd happen again really soon - but I've been waiting and waiting, and nothing! It feels like one of those things that won't happen until you stop waiting for it.</Page>
+			<Page>Aw.. I guess I shouldn't be surprised, when even Chert couldn't figure it out.</Page>
 			<Page>Without sand flowing between them, the "Hourglass Twins" don't even live up to their name! We should just call them "The Twins" until sand finally flows between them again.</Page>
-			<Page>If you see Chert out there, could you help me ask how much longer it'll take? I wanna be ready to watch when sand starts flowing to the other Twin again!</Page>
+			<Page>Chert told me that sand stops flowing between the Hourglass Twins for weeks, but I have no idea how long exactly that is!</Page>
+			<Page>I wanna be ready to watch when sand starts flowing between the Twins again - but since Chert took off into space without telling me how much longer it'll take, I have no idea when it's gonna happen..</Page>
 			  </Dialogue>
 			  				<RevealFacts>
      						   <FactID>MICA EX1</FactID>
@@ -94,8 +99,7 @@
 		<Name>ModelRocketKid_SW_End</Name>
 		<Dialogue>
 			<Page>Sounds like a plan.</Page>
-			<Page>Hey, astronaut, if you learn anything about why sand flows between the Hourglass Twins..</Page>
-			<Page>..Promise you'll come back and tell me all about it? I wanna learn more about this weird phenomenon too!</Page>
+			<Page>Hey, astronaut, if you learn anything about why sand flows between the Hourglass Twins, promise you'll come back and tell me all about it? I wanna learn more about this weird phenomenon too!</Page>
 			 </Dialogue>
 	</DialogueNode>
 

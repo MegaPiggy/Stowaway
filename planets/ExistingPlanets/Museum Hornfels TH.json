@@ -15,11 +15,7 @@
 			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume",
 			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (1)",
 			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
-			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (3)",
-
-			"Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_02",
-			"Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/DrillPlatform",
-			"Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/TractorBeam_Mining (1)"
+			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (3)"
 		],
 
 		
@@ -94,18 +90,7 @@
 		
 	"Props" :
 	{
-		"geysers": [
-			{
-				"rename":"NomaiMines puzzle geyser",
-				"position": {"x": 0, "y": -3.23, "z": 0},
-				"rotation":{"x": 0,"y": 0,"z": 0},
-				"parentPath": "Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/NomaiMines puzzle geyser small",
-				"isRelativeToParent": true,
-				"activeDuration": 6,
-				"inactiveDuration": 10,
-				"force": 50
-			}
-		],
+		
 		"audioSources": [
 			{
 				"audio": "OW_TH_UnderwaterRushing",
@@ -123,6 +108,8 @@
 			{"details": [
 				{
 					"rename":"Museum shard root",
+					"assetBundle": "planets/bundle/stowaway3",
+					"path":"assets/models/empty.prefab",
 					"isRelativeToParent": true,
 					"randomizeYRotation": false
 				}
@@ -341,26 +328,11 @@
 
 		
 		"details": [
-			{
-				"rename":"NomaiMines tractorbeam",
-				"assetBundle": "planets/bundle/stowaway3",
-				"path":"assets/nomai ruins/mining tractor beam.prefab",
-				"position": {"x": 0, "y": 0, "z": 0},
-				"rotation":{"x": 0, "y": 0, "z": 0},
-				"parentPath": "Sector_TH/Sector_NomaiMines/Interactables_NomaiMines",
-				"isRelativeToParent": true
-			},{
-				"rename":"NomaiMines puzzle geyser small",
-				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_02/Terrain_TH_SeperateGeyser_Small (16)",
-				"position": {"x": 17.3772, "y": 137.7766, "z": 5.46},
-				"rotation":{"x":1.5846 ,"y": 345.7976,"z": 349.1883},
-				"parentPath": "Sector_TH/Sector_NomaiMines/Interactables_NomaiMines",
-				"isRelativeToParent": true
-			},
+			
 			{
 				"rename":"NomaiMines jellymoon light",
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
-				"parentPath": "Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/NomaiMines puzzle geyser small",
+				"parentPath": "Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_02/",
 				"position": {"x": 0, "y": 8, "z": 0},
 				"isRelativeToParent": true
 			},{
@@ -368,15 +340,6 @@
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
 				"parentPath": "Sector_TH/Sector_NomaiMines/Interactables_NomaiMines/Geyser_NomaiMines_01/",
 				"position": {"x": 0, "y": 8, "z": 0},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"mines diamondlamp",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
-				"position": {"x": 42.6399, "y": 213.9324, "z": 7.6397},
-				"rotation": {"x": 358.5505, "y": 337.3642, "z": 76.0134},
-				"parentPath": "Sector_TH/Sector_NomaiMines/Interactables_NomaiMines",
 				"isRelativeToParent": true
 			},
 

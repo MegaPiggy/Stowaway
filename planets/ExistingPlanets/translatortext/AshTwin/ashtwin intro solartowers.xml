@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		YARROW: Ramie, is this your design for the <![CDATA[<color=orange>solar towers?</color>]]>
+		YARROW: Ramie, are you using this model to design the appearance of the <![CDATA[<color=orange>solar towers?</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -33,7 +33,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		RAMIE: Now that we are sure the <![CDATA[<color=orange>Ash Twin Project</color>]]> is theoretically sound, I am eager to begin preparations for the construction of the <![CDATA[<color=orange>solar towers</color>]]> that shall power it.
+		RAMIE: Now that we are sure the <![CDATA[<color=orange>Ash Twin Project</color>]]> is theoretically sound, I am eager to finally begin the construction of the <![CDATA[<color=orange>solar towers</color>]]> that will power it.
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,25 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		RAMIE: What a wise decision! Building the <![CDATA[<color=orange>solar towers</color>]]> on the planet's poles will allow them to continue functioning at all times - even during sunless days.
+		RAMIE: I see! That is a wise decision.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		RAMIE: Building the <![CDATA[<color=orange>solar towers</color>]]> on the planet's poles will allow them to continue functioning at all times - even during sunless days.
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		RAMIE: (Without flattering my work, it would also make the <![CDATA[<color=orange>solar towers</color>]]> especially striking when sand is completely drained from <![CDATA[<color=lightblue>Ash Twin!</color>]]>)
 		</Text>
 	</TextBlock>
 

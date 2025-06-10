@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 3884446063
+CRC: 3649323748
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7e9342d229d34278c9125cb69bbe886b
+    Hash: 38caaaa1f63e681584b5938eb4f2ca21
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 853482125d84580f86cb9a688ddb8cb7
+    Hash: 5ddd84f8242cbc9145954483a0b7fd9e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -70,8 +70,6 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 89ed79a4a3f08c8e17bf69dc74e4e9a6, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 455660559346aadad850370831994683, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 36f7e306a24855db0f89ced7314d6ce8, type: 3}
@@ -99,6 +97,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 7a54be8810d01e9ae854ddb2580bb460, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 892a6b987a18588fe03a5937388e4a4d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ed03af49f0a9abc29e61f405ee2bd4ad, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
 - Class: 114
@@ -173,7 +173,6 @@ Assets:
 - Assets/Models/Materials/mural side.prefab
 - Assets/Models/JellyfishVessel.prefab
 - Assets/Models/bubbel collider.prefab
-- Assets/Nomai Ruins/Mining tractor beam.prefab
 - Assets/Models/Tractor beam SW 1.prefab
 - Assets/Models/ASH TWIN BEAM south.prefab
 - Assets/Models/protohearthian_rock.prefab
@@ -184,7 +183,6 @@ Assets:
 - Assets/Models/water plane.prefab
 - Assets/Models/TheInspired.prefab
 - Assets/Models/TheInspired (1).prefab
-- Assets/Models/empty switch.prefab
 - Assets/Nomai Ruins/Mini QM Simulation.prefab
 - Assets/Models/player nosuit.prefab
 - Assets/Nomai Ruins/four eyed monolith.prefab

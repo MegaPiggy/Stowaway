@@ -1,0 +1,1383 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name": "StatueIsland",
+
+	"Volumes":
+	{
+		"revealVolumes":
+		[
+		
+		]
+	},
+	
+	"Props":{
+
+		"singularities": [
+			{
+				"type": "whiteHole",
+				"uniqueID": "STAT WH",
+				"pairedSingularity": "TH SHORTCUT 2",
+				"horizonRadius": 0.05,
+				"position": {"x": -18.6173, "y": 35, "z":  -9.0526},
+				"isRelativeToParent": true
+			}
+		],
+
+
+
+		"details":
+		[		
+		{
+			"rename":"Beach Tent 1",
+			"path":"TimberHearth_Body/Sector_TH_NomaiCampsite/Tent A",
+			"position": {"x": -37.5215, "y": -10.1856, "z": -104.6237},
+			"rotation": {"x": 319.9595, "y": 300.3281, "z": 11.9631},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"Beach Tent 2",
+			"path":"TimberHearth_Body/Sector_TH_NomaiCampsite/Tent A",
+			"position": {"x": -42.101, "y": -10.1368, "z": -101.10423},
+			"rotation": {"x": 317.4332, "y": 326.1635, "z": 10.5133},
+			"isRelativeToParent": true
+		},{
+			"rename":"tent snackbox",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/broken box.prefab",
+			"position": {"x": -35.3867, "y": -10.2113, "z": -106.6542},
+			"rotation": {"x": 7.6492, "y": 247.5706, "z": 7.1917},
+			"isRelativeToParent": true
+		},
+
+		{
+			"rename":"Camp gc 1",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal",
+			"position": {"x": 7.8069, "y": 0.8198, "z": 31.3561},
+			"rotation": {"x": 0.1842, "y": 102.5357, "z": 3.6968},
+			"isRelativeToParent": true
+		},	{
+			"rename":"Camp gc 2",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal",
+			"position": {"x": 1.5871 , "y": 0.6344, "z": 33.6331},
+			"rotation": {"x": 3.8064, "y": 357.0285, "z": 359.1512},
+			"isRelativeToParent": true
+		},	{
+			"rename":"Camp gc 3",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal",
+			"position": {"x": -0.4216, "y": 1.0161, "z": 29.0969},
+			"rotation": {"x": 359.9866, "y": 90.9151, "z": 3.3907},
+			"isRelativeToParent": true
+		},{
+			"rename":"Camp hoop",
+			"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_SafetyTractorBeam/Props_NOM_SmallTractorBeam_Top/Props_NOM_SmallTractorBeam_Geo/",
+			"position": {"x": -29.4124, "y": 9.9005, "z": -11.8697},
+			"rotation": {"x": 53.4015, "y": 358.6576 , "z": 303.2394},
+			"isRelativeToParent": true
+		},
+			{
+				"rename":"house torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position":{"x": 6.2469,"y": 34.0664,"z": 0.4437},
+				"rotation":{"x": 0,"y": 242.3306 ,"z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"EZ pool floor",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/floor.prefab",
+				"position": {"x": -0.5759, "y": 34.2938, "z": -0.4484},
+				"rotation": {"x": 0, "y": 337.9624, "z": 0},
+				"isRelativeToParent": true,
+				"stretch":{"x":2.4,"y": 1,"z":2.8}
+			},{
+				"rename":"EZ pool floor corner",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/floor_broken_c.prefab",
+				"position": {"x": 3.6642, "y": 34.7178, "z": -3.7233},
+				"rotation": {"x": 0, "y": 249.1225, "z": 0},
+				"stretch":{"x":0.6,"y":1,"z":1},
+				"isRelativeToParent": true
+			},{
+				"rename":"EZ pool floor Ridge",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/floor.prefab",
+				"position": {"x": 3.6095, "y": 34.6596, "z": 1.1789},
+				"rotation": {"x": 0, "y": 67.9615, "z": 0},
+				"isRelativeToParent": true,
+				"stretch":{"x":2.8382,"y":2.1,"z":0.1545}
+			},
+			{
+				"rename": "Orcnid w Stray Legs",
+				"path": "DarkBramble_Body/Sector_DB/Geometry_DB/OtherComponentsGroup/Beast_DB_FrozenJellyfish_v3",
+				"position": {"x": -273.226, "y": 65.1372, "z": -250.3617},
+				"rotation": {"x": 356.2477, "y": 148.2892, "z": 283.0847},
+				"scale":0.6,
+				"isRelativeToParent": true,
+				"keepLoaded": true
+			},
+			{
+				"rename": "Orcnid collider",
+				"path": "Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_collider",
+				"position": {"x": -7.4614, "y": -552.4193, "z": -8.8027},
+				"rotation": {"x": 296.4384, "y": 85.6072, "z": 56.0576},
+				"parentPath": "Sector_StatueIsland/Orcnid w Stray Legs/",
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"whiteboard light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text/",
+				"position": {"x": 8.212, "y": 34.0126, "z": -11.0675},
+				"isRelativeToParent": true
+			},{
+				"rename":"warp recorder light",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text/",
+				"position": {"x": -7.24, "y": 40.6518, "z": -113.1431},
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"stormshelter table",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/table.prefab",
+				"position": {"x": -26.0851, "y": 8.1066, "z": -6.2425},
+				"rotation": {"x": 355.4305, "y": 34.9211, "z": 1.5226},
+				"isRelativeToParent": true
+			},
+		{
+			"rename":"statue beach TREE",
+			"path":"QuantumMoon_Body/Sector_QuantumMoon/State_GD/Interactables_GDState/GDState_Quantum_Objects/Quantum_TreeClump_1/Rock_Tree",
+			"keepLoaded": true,
+			"scale": 0.5,
+			"position": {"x": -49.5157, "y": -10.5445, "z": -101.4368},
+			"rotation": {"x": 7.5295, "y": 187.8105, "z": 353.4385},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"statue beach o2",
+			"path":"Moon_Body/Sector_THM/Interactables_THM/Prefab_NOM_NomaiTree_Var_1/OxygenVolume/",
+			"scale": 4,
+			"position": {"x": -0.6327, "y": 0.1141 , "z": 10.3748},
+			"rotation": {"x": 6.5138, "y": 171.3258, "z": 352.4292},
+			"parentPath": "Sector_StatueIsland/statue beach TREE",
+			"isRelativeToParent": true
+		},
+			{
+				"rename":"statue beach campfire",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Interactables_SouthPole/SouthPole_VisibleFromFar/Prefab_HEA_Campfire",
+				"position": {"x": -48.1811, "y": -11.6182, "z": -108.4257},
+				"rotation": {"x": 9.9326, "y": 230.6569, "z": 2.3795},
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"sleepbag",
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_StartingCamp/Props_StartingCamp/OtherComponentsGroup/Props_HEA_CampsiteSleepingBag/",
+				"position": {"x": -49.9406, "y": -11.7903, "z": -109.0002},
+				"rotation": {"x": 7.2019, "y": 149.6153, "z": 350.1777},
+				"isRelativeToParent": true
+			},
+			{
+				"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
+				"position": {"x": -7.8915, "y": 40.3584, "z": -113.54989},
+				"rotation": {"x": 357.9402, "y": 79.4454, "z": 348.0139},
+				"scale":2,
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"workshop corner torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
+				"position": {"x": 15.6708, "y": 43.3866, "z": -9.8966},
+				"rotation": {"x":0,"y": 158.0559,"z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"island interior bucket",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/treepot.prefab",
+				"position": {"x": 1.9554, "y": 0.8603, "z": 31.8026},
+				"rotation": {"x": 291.1706, "y": 344.4149, "z": 326.1822},
+				"isRelativeToParent": true
+			},	{
+				"rename":"interior snackbox",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/broken box.prefab",
+				"position": {"x": 4.3754, "y": 0.8695, "z": 31.212},
+				"rotation": {"x": 359.8668, "y": 100.3212, "z": 3.611},
+				"isRelativeToParent": true
+			},{
+				"rename":"interior torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"removeChildren": ["WallTorch_Connector"],
+				"position": {"x": 5.4838, "y": 0.555, "z": 30.0138},
+				"rotation": {"x": 285.3457, "y": 0.9638, "z": 128.8283},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"interior torch 2 diamondfinal",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
+				"position": {"x": -24.517, "y": 8.152, "z": -5.6845},
+				"rotation": {"x": 356.7263, "y": 98.4431, "z": 86.7498},
+				"isRelativeToParent": true
+			},{
+				"rename":"interior torch 3 wallfinal",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position": {"x": -30.5394, "y": 12.513, "z": -9.7206},
+				"rotation": {"x": 357.1004, "y": 66.1369, "z": 0.2164},
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Daz",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_NorthPoleSurface/Props_NorthPoleSurface/OtherComponentsGroup/LowBuilding/Prefab_NOM_Skeleton_Large_Pile_A",
+				"position": {"x": 21.2937, "y": 43.3811, "z": -15.97639},
+				"rotation": {"x": 357.4571, "y": 180.4221, "z": 351.5736},
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/staff.prefab",
+				"parentPath": "Sector_StatueIsland/Daz",
+				"position": {"x": 0.8, "y": -0.2, "z": -0.2},
+				"rotation": {"x": 53.9384, "y":227.6327, "z": 60.5253},
+				"isRelativeToParent": true
+			},
+			
+
+			{
+				"rename":"scroll shelves",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/shelf.prefab",
+				"position": {"x": 8.7337, "y": 32.2466, "z": -15.5491},
+				"rotation": {"x": 0, "y":49.1675, "z": 90},
+				"isRelativeToParent": true
+			},
+			{
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/shelf.prefab",
+				"rename":"lying shelf",
+				"position": {"x": 0.4745, "y":-9.4345, "z": -0.4327},
+				"rotation": {"x": 350.1011, "y":4.2318, "z": 93.5654},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/scroll shelves"
+			},
+			{
+				"rename":"top shelf",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/shelf.prefab",
+				"position": {"x": 3.5327, "y":-8.5873, "z": 7.7773},
+				"rotation": {"x": 0, "y":270.0911, "z": 177.4504},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/scroll shelves"
+			},
+		
+			{
+				"rename": "Decoy Scroll 2",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Lighting_StatueIslandInterior/OtherComponentsGroup/FillLight_Text",
+				"position": {"x": 0.5763, "y": -5.9309, "z": -0.8237},
+				"rotation": {"x": 299.8098, "y":63.9048, "z": 358.6066},
+				"parentPath": "Sector_StatueIsland/scroll shelves",
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "Decoy Scroll 3",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Lighting_StatueIslandInterior/OtherComponentsGroup/FillLight_Text",
+				"position": {"x": 3.6636, "y": -8.4728, "z": 5.1754},
+				"rotation": {"x": 277.1546, "y": 271.107, "z": 144.0687},
+				"parentPath": "Sector_StatueIsland/scroll shelves",
+				"isRelativeToParent": true
+			},
+			
+
+		
+			{
+				"path":"CaveTwin_Body/Sector_CaveTwin/Interactables_CaveTwin/TLE_ProbeWindow",
+				"position": {"x": 19.578, "y": 45.7717, "z": -18.9773},
+				"rotation": {"x": 90, "y": 316.6192, "z": 0},
+				"stretch": {"x":0.5291,"y": 1,"z": 0.3964},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"scr workshop table",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/table.prefab",
+				"position": {"x": 17.3917, "y": 43.1393, "z": -12.4699},
+				"rotation": {"x": 0, "y": 289.2717, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"scr workshop planty",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
+				"position": {"x":10.227 ,"y": 43.3866,"z": -14.3692},
+				"rotation": {"x":0,"y": 312.1996,"z": 0},
+				"isRelativeToParent": true
+			},
+		
+
+
+			{
+				"rename":"storm shelter purplight",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/Prefab_NOM_Computer/PointLight_NOM_Computer",
+				"position": {"x": 10.3289, "y": 36.1571, "z": 4.1434},
+				"rotation": {"x": 354.0322, "y": 154.7702, "z": 270},
+				"isRelativeToParent": true
+			},
+
+
+
+
+
+			{
+				"rename":"Scroll Workshop",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z": 0},
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Text (1)/",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Hole in the Ceiling",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/floor_broken_c.prefab",
+				"position": {"x": 15.2618, "y": 48.5741, "z": -15.6473},
+				"rotation": {"x": 0.1254, "y": 226.6174, "z": 0.8882},
+				"isRelativeToParent": true,
+				"keepLoaded": true,
+				"scale":2.8,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Hole in the Ceiling 2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/floor_broken_c.prefab",
+				"position": {"x": 12.323, "y": 48.3537, "z": -16.48756},
+				"rotation": {"x": 359.5346, "y": 40.6815, "z": 1.7422},
+				"isRelativeToParent": true,
+				"keepLoaded": true,
+				"scale":2,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Ceiling holefixer",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/floor_broken_f.prefab",
+				"position": {"x": 14.0775, "y": 48.1373, "z": -19.3621},
+				"rotation": {"x": 359.5346, "y": 40.6815, "z": 1.7422},
+				"scale": 2.8,
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Ceiling holefixer 2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/floor_broken_f.prefab",
+				"position": {"x": 15.1206, "y": 48.5092, "z": -9.9539},
+				"rotation": {"x": 0.7832, "y": 231.4644, "z": 358.3756},
+				"stretch": {"x":3.5909,"y": 2.8,"z": 3.6582},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Workshop floor",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/floor.prefab",
+				"position": {"x": 16.1128, "y": 43.0637, "z": -15.2473},
+				"rotation": {"x": 0, "y": 227.6979, "z": 0},
+				"isRelativeToParent": true,
+				"stretch":{"x":2.7,"y":1,"z":2.3},
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Workshop floor Ridge",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/floor.prefab",
+				"position": {"x": 12.9727, "y": 43.3892, "z": -18.1619},
+				"rotation": {"x": 0, "y": 227.7979, "z": 0},
+				"isRelativeToParent": true,
+				"keepLoaded": true,
+				"stretch":{"x":2.7,"y":2,"z":0.1545},
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Workshop floor Ridge 2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/floor.prefab",
+				"position": {"x": 12.8491, "y": 43.3892, "z":  -11.8001},
+				"rotation": {"x": 0, "y": 316.4998, "z": 0},
+				"isRelativeToParent": true,
+				"stretch":{"x": 2.0545,"y":2,"z": 0.5327},
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+	
+			{
+				"rename":"Lower building roof",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/floor_broken_c.prefab",
+				"position": {"x": 6.4293, "y": 36.1369, "z": -19.5969},
+				"rotation": {"x": 1.8026, "y": 134.8025, "z": 359.9114},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+	
+			{
+				"rename":"Left Wall1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall_corner_l.prefab",
+				"position": {"x": 13.7619, "y": 39.7143, "z": -9.5873},
+				"rotation": {"x": 0, "y": 315.2555, "z": 358.4215},
+				"stretch": {"x":1,"y":2.2,"z":1},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Door TEXT farside",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/brokenwall_a_mir.prefab",
+				"position": {"x": 5.7746, "y": 31.0562, "z": -22.1711},
+				"rotation": {"x": 0.7474, "y":44.5613, "z": 357.9337},
+				"stretch": {"x":1.8,"y":1.3,"z":1},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Window Full low",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/window_corner_l_broken.prefab",
+				"position": {"x": 13.7619, "y": 31.8161, "z": -9.5873},
+				"rotation": {"x": 0, "y": 315.432, "z": 0},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Window Full up",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/window_corner_l_broken.prefab",
+				"position": {"x": 13.7619, "y": 35.7997, "z": -9.5873},
+				"rotation": {"x": 0, "y": 315.432, "z": 0},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Wall Back Wall",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall_corner_r.prefab",
+				"position": {"x": 17.6836, "y": 31.9125, "z": -10.8074},
+				"rotation": {"x": 0.8108, "y": 46.3294, "z": 359.0556},
+				"stretch": {"x":2,"y": 4.2,"z": 1},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Wall attic window BACK",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/window_corner_l_broken.prefab",
+				"position": {"x": 21.4099, "y": 43.0334, "z": -14.4637},
+				"rotation": {"x": 0.6108, "y": 45.8294, "z": 358.9556},
+				"stretch": {"x":1.1,"y":1.4,"z":1},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			
+
+
+			{
+				"rename":"Brokenwall corner upper",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/brokenwall_b_mir.prefab",
+				"position": {"x": 7.8836, "y": 42.9558, "z": -15.3237},
+				"rotation": {"x": 0, "y": 135.948, "z": 0},
+				"stretch": {"x":1.4,"y":1.3,"z":1},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Brokenwall corner upper warpwindow",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/brokenwall_b_mir.prefab",
+				"position": {"x": 17.8073, "y": 42.9558, "z": -20.9837},
+				"rotation": {"x": 0, "y": 318.2863, "z": 0},
+				"stretch": {"x":1,"y":1.3,"z":1},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Brokenwall corner horizon",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/brokenwall_a.prefab",
+				"position": {"x": 22.3474, "y": 41.6561 , "z": -16.2566},
+				"rotation": {"x": 0, "y": 135.8506, "z": 270},
+				"stretch": {"x":1,"y": 2.0309,"z": 1},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Wall low text",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall.prefab",
+				"position": {"x": 10.9545, "y": 32.3342, "z": -12.3546},
+				"rotation": {"x": 0, "y": 315.432, "z": 0},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Wall mid text",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall.prefab",
+				"position": {"x": 10.9545, "y": 36.3161, "z": -12.3546},
+				"rotation": {"x": 0, "y": 315.432, "z": 0},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Wall up text",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall.prefab",
+				"position": {"x": 10.9545, "y": 40.2615, "z": -12.3546},
+				"rotation": {"x": 0, "y": 315.432, "z": 358.0218},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Wall door plain wall",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall.prefab",
+				"position": {"x": 7.9113, "y": 31.4555, "z": -15.3538},
+				"rotation": {"x": 0, "y": 315.432, "z": 0},
+				"stretch": {"x":1.2,"y":1,"z":1},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Wall doorside hill corner",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/brokenwall_a_mir.prefab",
+				"position": {"x": 7.964, "y": 35.4409, "z": -15.2868},
+				"rotation": {"x": 0.158, "y": 135.3562, "z": 0},
+				"stretch": {"x":1.6,"y":1,"z":1},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"Wall text attic window",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/window_broken.prefab",
+				"position": {"x": 11.0545, "y": 44.1469, "z": -12.2546},
+				"rotation": {"x": 0, "y": 315.432, "z": 0},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			
+
+
+			{
+				"rename":"workshop door",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/doorway_corner_both.prefab",
+				"position": {"x": 4.8146, "y": 32.2216, "z": -18.2911},
+				"rotation": {"x": 0, "y": 315.2555, "z": 0},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+
+			{
+				"rename":"workshop ceilinglamp",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/ceilinglamp.prefab",
+				"position": {"x": 15.0202, "y": 42.7743, "z": -15.2863},
+				"rotation": {"x": 0, "y": 227.1765, "z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"workshop rails 1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/railing.prefab",
+				"position": {"x": 10.0365, "y": 43.7852, "z": -15.17},
+				"rotation": {"x": 0, "y": 48, "z": 0},
+				"stretch": {"x":1.1,"y":1.2,"z":1},
+				"keepLoaded": true,
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop"
+			},
+			{
+				"rename":"workshop rails 2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/railing.prefab",
+				"position": {"x": 1.3, "y": 0, "z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop/workshop rails 1"
+			},
+			{
+				"rename":"workshop rails 3",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/railing.prefab",
+				"position": {"x": 2.6, "y": 0, "z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop/workshop rails 1"
+			},
+			{
+				"rename":"workshop rails 4",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/railing.prefab",
+				"position": {"x": 3.9, "y": 0, "z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop/workshop rails 1"
+			},
+			{
+				"rename":"workshop rails 5",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/railing.prefab",
+				"position": {"x": 5.2, "y": 0, "z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop/workshop rails 1"
+			},
+			{
+				"rename":"workshop rails torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
+				"position": {"x": 6.2945, "y": 0, "z": 0.1856},
+				"rotation": {"x":0,"y": 316.2873,"z": 0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Scroll Workshop/workshop rails 1"
+			},
+
+
+
+
+
+			
+			
+
+			
+
+
+			{
+				"rename":"Jellyfish mural tablet",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/tablet.prefab",
+				"position":{"x":-21.0494,"y": -6.4961,"z": -93.7168},
+				"rotation":{"x":66.4131,"y": 275.0193,"z": 170.0771},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"jellyfish mural",
+				"assetBundle": "planets/bundle/jellyfish mural",
+				"path": "assets/nomai ruins/jellyfish mural.prefab",
+				"parentPath": "Sector_StatueIsland/Jellyfish mural tablet",
+				"position":{"x": 0.0109,"y": -0.0182,"z": -0.1491},
+				"rotation": {"x": 0.1348,"y": 359.7129,"z":179.8527},
+				"isRelativeToParent": true,
+				"scale":0.27
+			},
+			{
+				"rename":"muralboard opp torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position":{"x": 5.826,"y": 5.415,"z": -91.923},
+				"rotation":{"x": 359.597,"y": 337.1902,"z": 356.1329},
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Pioneer Shelter Roof",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/stairsthin_long_brk.prefab",
+				"keepLoaded": true,
+				"position":{"x":-22.8209,"y": -2.6906,"z": -92.0291},
+				"rotation":{"x":350.7217,"y": 281.4008,"z": 2.7079},
+				"stretch": {"x":2.3,"y": 1.3,"z": 1},
+				"isRelativeToParent": true
+			},
+		
+			{
+				"rename":"Pioneer Shelter Pole Left",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/staff.prefab",
+				"position":{"x":-25.0003,"y": -1.8452,"z": -90.1344},
+				"rotation":{"x":32.9559,"y": 281.8645,"z": 182.5994},
+				"stretch": {"x":1,"y": 5.3927,"z": 1},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Pioneer Shelter Pole Right",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/staff.prefab",
+				"position":{"x":-25.7847,"y": -1.5779,"z": -94.5668},
+				"rotation":{"x":33.0362,"y": 281.0156,"z": 179.0962},
+				"stretch": {"x":1,"y": 5.3927,"z": 1},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Pioneer Shelter plant",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
+				"position":{"x":-19.8127,"y": -7.7083,"z": -90.1061},
+				"rotation":{"x":3.7242,"y": 238.6027,"z": 348.7438},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Pioneer Shelter torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position":{"x":-20.7213,"y": -4.4849,"z": -95.5866},
+				"rotation":{"x":3.432,"y":  297.5252,"z": 3.1503},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Pioneer smol box",
+				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthUnderground/Sector_City/Sector_EyeDistrict/Props_EyeDistrict/OtherComponentsGroup/Props_LargeBuilding/Prefab_NOM_Box",
+				"position":{"x":-20.2828,"y": -7.5815,"z": -91.051},
+				"rotation":{"x":1.6904,"y": 220.6607,"z": 348.2735},
+				"isRelativeToParent": true
+			},
+{
+				"rename":"Pioneer container",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position":{"x":-17.8144,"y": -7.2806,"z": -89.7173},
+				"rotation":{"x":8.2059,"y": 228.6219,"z": 345.6038},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Pioneer bench",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
+				"position":{"x":-20.06,"y": -7.3128,"z": -93.3282},
+				"rotation":{"x":11.6777,"y": 289.8684,"z": 358.1764},
+				"stretch":{"x":2,"y":1,"z":1},
+				"isRelativeToParent": true
+			},
+			
+
+
+	
+		
+
+		
+		
+			
+
+			
+			
+			{
+				"rename":"Sculpting Boulders table",
+				"assetBundle": "planets/bundle/prefabs",
+					"path":"assets/nomai ruins/prefabs/table.prefab",
+				"position":{"x":38.7386,"y": 0.8681,"z": 0.8322},
+				"rotation":{"x":358.0095 ,"y": 146.9746,"z": 353.4785},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Sculpting Boulders",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Props_StatueIslandInterior/BatchedGroup/BatchedMeshRenderers_0",
+				"position":{"x":25.0694,"y": -27.0139,"z": 11.2264},
+				"rotation":{"x":1.5978,"y": 162.8106,"z": 108.0298},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"sculpting box scr",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": 28.9906, "y": -1.4712, "z": 7.0649},
+					"rotation": {"x": 57.3777, "y": 338.9415, "z": 243.9077},
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders",
+				"isRelativeToParent": true
+			},{
+				"rename": "box scroll in sculpting 1",
+				"assetBundle": "planets/bundle/sculpt scroll",
+				"path": "assets/nomai ruins/props_nom_scroll_geo.prefab",
+				"position": {"x": -0.0155, "y": 0.9269, "z": 0.2331},
+				"rotation": {"x": 337.8899, "y": 36.3536, "z": 358.3621},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders/sculpting box scr"
+			},
+			{
+				"rename": "box scroll in sculpting 2",
+				"assetBundle": "planets/bundle/sculpt scroll",
+				"path": "assets/nomai ruins/props_nom_scroll_geo.prefab",
+				"position": {"x": -0.0428, "y": 1.0582, "z": -0.1181},
+				"rotation": {"x": 337.9029, "y": 306.7998, "z": 58.6089},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders/sculpting box scr"
+			},{
+				"rename":"sculpting box proj",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": 30.1226, "y": 0.7212 , "z": 15.6466},
+					"rotation": {"x": 15.2833, "y": 191.83, "z": 114.5718},
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders",
+				"isRelativeToParent": true
+			},{
+				"rename": "box projectstone 1",
+				"assetBundle": "planets/bundle/sculpt projectstone",
+				"path": "assets/nomai ruins/props_nom_sharedstone.prefab",
+				"position": {"x": -0.0764, "y": 0.8809, "z": 0.1528},
+				"rotation": {"x": 0, "y": 331.6478, "z": 0},
+				"stretch": {"x":1,"y":0.4,"z":1},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders/sculpting box proj"
+			},{
+				"rename": "box projectstone 2",
+				"assetBundle": "planets/bundle/sculpt projectstone",
+				"path": "assets/nomai ruins/props_nom_sharedstone.prefab",
+				"position": {"x": -0.2426, "y": 0.9716, "z": 0.0018},
+				"rotation": {"x": 0, "y": 303.0055, "z": 0},
+				"stretch": {"x":1,"y":0.4,"z":1},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders/sculpting box proj"
+			},{
+				"rename": "box projectstone 3",
+				"assetBundle": "planets/bundle/sculpt projectstone",
+				"path": "assets/nomai ruins/props_nom_sharedstone.prefab",
+				"position": {"x": 0.4022, "y": 1.0388, "z": -0.1203},
+				"rotation": {"x": 42.8645, "y": 281.6986 , "z": 355.7685},
+				"stretch": {"x":1,"y":0.4,"z":1},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders/sculpting box proj"
+			},{
+				"rename": "box projectstone 4",
+				"assetBundle": "planets/bundle/sculpt projectstone",
+				"path": "assets/nomai ruins/props_nom_sharedstone.prefab",
+				"position": {"x": 0.0277, "y": 0.9406, "z": -0.3185},
+				"rotation": {"x": 328.3498, "y": 85.1685, "z": 53.4835},
+				"stretch": {"x":1,"y":0.4,"z":1},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders/sculpting box proj"
+			},
+
+			{
+				"rename": "scrollboulder torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position": {"x": 29.9461, "y": 0.0044, "z": 9.2286},
+				"rotation": {"x": 8.2359, "y": 134.2555, "z": 180.9567},
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders",
+				"removeChildren": ["WallTorch_Connector"],
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "scroll boulder collider",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
+				"position": {"x": 30.1455, "y": 2.3452 , "z": 8.876},
+				"rotation": {"x": 31.5902, "y": 346.7838, "z": 228.6781},
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders",
+				"isRelativeToParent": true,
+				"scale":4
+			},
+			{
+				"rename": "scroll lil collider",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
+				"position": {"x": 29.8721, "y": -0.3562, "z": 8.2676},
+				"rotation": {"x": 36.4078, "y": 101.7996, "z": 235.0218},
+				"isRelativeToParent": true,
+				"scale":1,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			{
+				"rename": "scroll in sculpting",
+				"assetBundle": "planets/bundle/sculpt scroll",
+				"path": "assets/nomai ruins/props_nom_scroll_geo.prefab",
+				"position": {"x": 30.4055, "y": 0.5244, "z": 9.5762},
+				"rotation": {"x": 9.68564, "y": 5.2864, "z": 240.7498},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			{
+				"rename": "scroll in sculpting 2",
+				"assetBundle": "planets/bundle/sculpt scroll",
+				"path": "assets/nomai ruins/props_nom_scroll_geo.prefab",
+				"position": {"x": 29.519, "y": -0.2791, "z": 9.3741},
+				"rotation": {"x": 73.3606, "y": 97.5452, "z": 325.5218},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			{
+				"rename": "scroll in sculpting 3",
+				"assetBundle": "planets/bundle/sculpt scroll",
+				"path": "assets/nomai ruins/props_nom_scroll_geo.prefab",
+				"position": {"x": 29.7077, "y": -0.8452, "z": 8.2105},
+				"rotation": {"x": 45.3873, "y": 127.2293, "z": 292.1215},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+
+			{
+				"rename": "projectionstone boulder collider",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path": "assets/models/cube.prefab",
+				"position": {"x": 29.9635, "y": 0.6986, "z": 18.5868},
+				"rotation": {"x": 49.738, "y": 163.404, "z": 95.9996},
+				"isRelativeToParent": true,
+				"scale":4,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			{
+				"rename": "projstone boulder torch",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/walltorch.prefab",
+				"position": {"x": 29.1004, "y": -0.5596, "z": 17.0039},
+				"rotation": {"x": 28.4369, "y": 100.5726, "z": 10.913},
+				"removeChildren": ["WallTorch_Connector"],
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			{
+				"rename": "projectstone in sculpting",
+				"assetBundle": "planets/bundle/sculpt projectstone",
+				"path": "assets/nomai ruins/props_nom_sharedstone.prefab",
+				"position": {"x": 29.842, "y": -0.1379, "z": 17.5406},
+				"rotation": {"x": 30.9597, "y": 347.0966, "z": 213.0103},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			{
+				"rename": "projectstone in sculpting 2",
+				"assetBundle": "planets/bundle/sculpt projectstone",
+				"path": "assets/nomai ruins/props_nom_sharedstone.prefab",
+				"position": {"x": 30.8659, "y": 0.0538, "z": 17.0828},
+				"rotation": {"x": 339.9922, "y": 256.2971, "z": 134.3938},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			{
+				"rename": "projectstone in sculpting 3",
+				"assetBundle": "planets/bundle/sculpt projectstone",
+				"path": "assets/nomai ruins/props_nom_sharedstone.prefab",
+				"position": {"x": 29.2604, "y": -1.0992, "z": 18.2973},
+				"rotation": {"x": 47.4341, "y": 311.2338, "z": 215.0378},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			{
+				"rename": "projectstone in sculpting 4",
+				"assetBundle": "planets/bundle/sculpt projectstone",
+				"path": "assets/nomai ruins/props_nom_sharedstone.prefab",
+				"position": {"x": 29.1393, "y": -1.1521, "z": 18.3064},
+				"rotation": {"x": 36.6944, "y": 328.0229, "z": 229.2751},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sculpting Boulders"
+			},
+			
+
+			
+			{
+				"rename":"Scroll Hiding Lamp",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
+				"keepLoaded": true,
+				"position":{"x":-2.3519,"y": 44.8993,"z": 5.7586},
+				"rotation":{"x":89.972,"y": 246.2342,"z": 0},
+				"scale":4,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"jellyfish recording lamp",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/wall diamond lamp.prefab",
+				"position":{"x": 7.2207,"y": 4.0324,"z": -90.8213},
+				"rotation":{"x":5.0557,"y": 240.5844,"z": 101.0901},
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"StatueIsle Solar Panels",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/solarcell.prefab",
+				"position": {"x":11.2744, "y": 51.2408 , "z": -96.7434},
+				"rotation": {"x":301.7489, "y": 118.4124, "z": 357.9875},
+				"scale":0.6,
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "SolarPanel Zap_Right",
+				"parentPath": "Sector_StatueIsland/StatueIsle Solar Panels",
+				"path":"HearthianMapSatellite_Body/Sector_HearthianMapSatellite/Effects_HearthianMapSatellite/Effects_HEA_Sparks (1)",
+				"position": {"x": 1.4854, "y": 12.4837, "z": -0.1327},
+				"scale":2,
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "SolarPanel Zap_Left",
+				"parentPath": "Sector_StatueIsland/StatueIsle Solar Panels",
+				"path":"HearthianMapSatellite_Body/Sector_HearthianMapSatellite/Effects_HearthianMapSatellite/Effects_HEA_Sparks (1)",
+				"position": {"x": -5.5946, "y": 7.8528, "z": 4.0309},
+				"rotation": {"x": 25.0002, "y": 0.8746, "z": 42.3216},
+				"scale":2,
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+
+			
+		
+
+			{
+				"rename":"Scrollshop Fill light",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/FillLight_Cave",
+				"position":{"x":12.1571,"y": 32.5193,"z": -18.8395},
+				"rotation":{"x":12.3186,"y": 309.4892,"z": 28.6877},
+				"isRelativeToParent": true
+			}
+
+			
+
+
+
+		],
+		"remotes": [
+			{
+				"id":"GD_StatueIslandDecalPodium",
+				"decalPath": "planets/assets/GD statue island icon.png",
+				"platform":
+				{
+					
+					"rename": "Statue Island decal Podium",
+					"parentPath": "Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_RemoteViewer",
+					"position": {"x":0,"y":0,"z":0},
+					"rotation": {"x":0,"y":0,"z":0},
+					"isRelativeToParent": true
+				}
+			},
+			{
+				"id":"GD_StatueIslandScrollWorkshop",
+				"decalPath": "planets/assets/GD statue island icon.png",
+				"platform":
+				{
+					
+					"rename": "Scroll Workshop pool",
+					"position": {"x": 16.7327, "y": 43.8024, "z": -15.8024},
+					"rotation": {"x": 359.9524, "y": 228.1331,"z": 359.9003},
+					"isRelativeToParent": true
+				}
+			},
+			{
+				"id":"GD_StatueIslandConvenience",
+				"decalPath": "planets/assets/GD statue island icon.png",
+				"platform":
+				{
+					
+					"rename": "Statue EZ pool",
+					"position": {"x": -0.5252, "y": 35.04294, "z": -0.1482},
+					"rotation": {"x": 0, "y": 337.9624,"z": 0},
+					"isRelativeToParent": true
+				}
+			},
+
+
+						{
+				"id":"TH_Sanctuary",
+				"decalPath":"planets/assets/voyager th icon.png",
+				"stones":
+				[{
+					"rename":"Sanctuary Voyager Stone",
+					"position": {"x": 17.6974, "y": 44.276, "z": -13.091},
+					"rotation": {"x": 0, "y": 358.5098, "z": 0},
+					"isRelativeToParent": true
+				}]
+					},
+					{
+			"id":"Empty",
+			"decalPath": "planets/assets/empty icon.png",
+			"stones": [{
+				"rename":"empty stone 1",
+				"position":{"x": 17.417,"y": 44.1991,"z": -12.5147},
+				"rotation": {"x":0,"y": 314.9741,"z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"empty stone 2",
+				"position": {"x": 17.7115, "y": 44.1991, "z": -12.9674},
+				"rotation": {"x": 0, "y": 192.3829, "z": 0},
+				"isRelativeToParent": true
+			}]
+					},
+					{
+						"id":"GD_DeepStormStation",
+						"decalPath":"planets/assets/voyager dss icon v2.png",
+						"stones":
+						[{
+							"rename":"DSS proj Stone",
+							"position": {"x": 20.091, "y": 43.2227, "z": -16.4185},
+							"rotation": {"x": 349.2441, "y": 137.5369, "z": 345.0887},
+							"isRelativeToParent": true
+						}]
+					},
+					{
+						"id":"GD_LoversCove",
+						"decalPath":"planets/assets/voyager loverscove icon.png",
+						"stones":
+						[{
+							"rename":"Solar tide lovestone",
+							"position":{"x": 11.1884,"y": 32.8184,"z": -19.7936},
+							"rotation": {"x": 358.854, "y": 336.2834, "z": 2.1073},
+							"isRelativeToParent": true
+						}]
+					},
+					{
+						"id":"GD_ConstructionYard",
+						"decalPath": "planets/assets/GD cyard pool icon.png",
+						"stones":
+						[{
+							"rename":"Whiteboard lesson cyard stone",
+							"position":{"x": 19.6068,"y": 33.1855, "z": -16.7405},
+							"rotation": {"x": 355.2566, "y": 109.725, "z": 10.8289},
+							"isRelativeToParent": true
+						}]
+					},
+
+
+	{
+				"id":"GD_StatueIsland",
+				"decalPath": "planets/assets/GD statue island icon.png",
+					"whiteboard":{
+						"rename":"Replacement statue whiteboard",
+						"position":{"x":-20.6745,"y": 8.2613,"z": 2.8439},
+						"rotation": {"x":1.3412,"y": 210.9062,"z": 357.7737},
+						"isRelativeToParent": true,
+						"parentPath": "Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior",
+						"nomaiText": [
+							{
+								"id": "HGT_TimeLoop",
+								"location":"a",
+								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/basegame statuework.xml"
+							}
+						]
+					}
+	},
+	{
+					"id":"GD_StatueIslandScrollWorkshop",
+					"decalPath": "planets/assets/GD statue island icon.png",
+					"whiteboard":{
+						"rename":"Scroll Workshop Whiteboard",
+						"position": {"x": 13.1108, "y": 43.3073, "z": -11.7842},
+						"rotation": {"x": 1.8335, "y": 136.7038, "z": 358.9483},
+						"isRelativeToParent": true,
+						"nomaiText":
+						[
+							{
+								"id": "GD_ConstructionYard",
+								"location": "b",
+								"seed": 1,
+								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/workshop hidden scroll.xml"
+							},
+							{
+								"id": "GD_LoversCove",
+								"location": "b",
+								"seed":4,
+								"xmlFile": "planets/ExistingPlanets/translatortext/Gabbro's Island/solar tide answer.xml"
+							},
+							{
+								"id": "TH_Sanctuary",
+								"location": "b",
+								"seed": 1,
+								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession answer.xml"
+							},
+							{
+								"id": "GD_DeepStormStation",
+								"location": "b",
+								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/daz last cutoff.xml",
+								"seed":2,
+								"arcInfo": [
+									{},
+									{},
+									{},
+									{},
+									{},
+									{
+										"mirror": false,
+										"position": {"x": 0.5606,"y": 1.2276},
+										"zRotation": 333.2463
+									},
+									{
+										"mirror": true,
+										"position": {"x": 0.9917 ,"y": 1.7874},
+										"zRotation": 21.4176
+									},
+									{
+										"mirror":true,
+										"position": {"x": 0.4279,"y": 2.4362},
+										"zRotation": 55.4789
+									}]
+							}
+						
+						]
+						}
+			}
+			
+		],
+		"translatorText": [
+		
+		
+			{
+				"rename":"Workshop intro whiteboard",
+				"position":{"x":9.0357,"y": 32.4229,"z": -12.3024},
+				"rotation":{"x":0,"y": 315.9504,"z": 0},
+				"type":"whiteboard",
+				"seed": 2,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/scrollshop intro.xml",
+				"isRelativeToParent": true
+			},
+		
+			{
+				"rename":"Scrollshop Trailhead",
+				"position": {"x": 2.8491, "y": 32.2924, "z": -19.022},
+				"rotation": {"x": 4.3585, "y": 312.2513, "z": 0.3056},
+				"type":"trailmarker",
+				"isRelativeToParent": true,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/scrollshop trailhead.xml"
+			},
+
+		
+
+			{
+				"rename":"PyeIdaea Rock_Text",
+				"position":{"x": -7.6169,"y": 40.4176,"z": -113.2064},
+				"rotation":{"x": 7.2446,"y": 67.9669,"z": 9.837},
+				"type":"recorder",
+				"isRelativeToParent": true,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/pyeidaea fear.xml"
+			},
+
+
+			
+			
+			
+			{
+				"rename":"Beach Pioneer recorder",
+				"position": {"x": -35.7741,"y": -10.4233,"z": -107.7605},
+				"rotation": {"x": 4.1076,"y": 258.354,"z": 6.9147},
+				"type": "recorder",
+				"isRelativeToParent": true,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/beach pioneers.xml"
+			},
+			{
+				"rename":"Jellyfish notice recorder",
+				"position": {"x": -22.5615,"y": -7.6038,"z": -94.4981},
+				"rotation": {"x":10.8624,"y": 322.2972,"z": 4.682},
+				"type": "recorder",
+				"isRelativeToParent": true,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/jellyfish surfacing notice.xml"
+			},
+			{
+				"rename":"Pioneer inside shelter recorder",
+				"position": {"x": 3.0463,"y": 0.9341,"z": 31.0076},
+				"rotation": {"x": 1.434,"y": 119.4439,"z": 8.9591},
+				"type": "recorder",
+				"isRelativeToParent": true,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/shelter inside pioneers.xml"
+			},
+			{
+				"rename":"storm shelter question recording",
+				"position": {"x": -25.5728,"y": 9.2402 ,"z": -5.5354},
+				"rotation": {"x": 355.2143,"y": 46.9272,"z": 0.5399},
+				"type": "recorder",
+				"isRelativeToParent": true,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/storm shelter question.xml"
+			},
+			{
+				"rename":"Statworkshop sculpt recorder",
+				"position": {"x": 38.304,"y": 1.8853,"z":  0.8271},
+				"rotation": {"x": 6.7799,"y": 247.8444 ,"z": 359.2853},
+				"type": "recorder",
+				"isRelativeToParent": true,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/phlox statue conversation.xml"
+			},
+
+
+
+
+
+
+
+			{
+				"rename":"Workshop B1 scroll Oeno",
+				"position": {"x": 1.3491, "y": 0.2036, "z": -0.1},
+				"rotation": {"x": 281.3267, "y": 64.7731, "z": 341.4119},
+				"type": "scroll",
+				"isRelativeToParent": true,
+				"seed":5,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager possession setup.xml",
+			
+				"parentPath": "Sector_StatueIsland/scroll shelves"
+			},
+			{
+				"rename":"Workshop B1 scroll projectwhiteboards",
+				"position": {"x": 3.4018, "y": -8.5746, "z": 4.3882},
+				"rotation": {"x": 66.6145, "y": 98.4079, "z": 52.6195},
+				"type": "scroll",
+				"isRelativeToParent": true,
+				"seed":3,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/voyager immunity scroll.xml",
+				"parentPath": "Sector_StatueIsland/scroll shelves"
+			},
+		
+			{
+				"rename":"DECOY scroll 2 base",
+				"position": {"x": 0, "y":0 , "z": 0.3709},
+				"rotation": {"x": 0, "y":0, "z": 0},
+				"type": "scroll",
+				"isRelativeToParent": true,
+				"seed":1,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/scrollshop trailhead.xml",
+				"parentPath": "Sector_StatueIsland/scroll shelves/Decoy Scroll 2",
+				"arcInfo": [
+					{"position": {"x":0,"y":-3}}
+				]
+			},
+			{
+				"rename":"DECOY scroll 3 base",
+				"position": {"x": 0, "y":0, "z": 0.3709},
+				"rotation": {"x": 0, "y":0, "z": 0},
+				"type": "scroll",
+				"isRelativeToParent": true,
+				"seed":1,
+				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/scrollshop trailhead.xml",
+				"parentPath": "Sector_StatueIsland/scroll shelves/Decoy Scroll 3",
+				"arcInfo": [
+					{"position": {"x":0,"y":-3}}
+				]
+			}
+		]
+		},
+
+		"removeChildren": [
+			
+			"Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_RemoteViewer/PedestalAnchor",
+
+	
+
+			"Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_Whiteboard_Shared"
+		]
+	}

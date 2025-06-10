@@ -1,0 +1,223 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name":"Inspired",
+	
+"CometTail": {
+	"primaryBody": "Sun",
+	"gasTint": {"a": 0,"b": 0,"g": 0,"r": 0},
+	"innerRadius": 100,
+	"rotationOverride": {"x":270, "y":0,"z":0},
+	"curve": [
+		{
+			"time": 0,
+			"value": 0
+		},
+		{
+			"time": 22.2,
+			"value": 0
+		},
+		{
+			"time": 22.4,
+			"value": 1.2
+		}
+	]
+},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "OW_NM_GravityCannonAmbience",
+				"radius": 160,
+				"track": "environment",
+				"position": {"x":158.1198,"y": -4.6891,"z": -2.2716},
+				"isRelativeToParent": true,
+				"volume": 1,
+				"layer": 0,
+				"priority": 1
+			},
+			{
+				"audio": "OW_NM_GravityCannonAmbience",
+				"radius": 160,
+				"track": "environment",
+				"position": {"x":362.4073,"y": -4.6891,"z": -2.2716},
+				"isRelativeToParent": true,
+				"volume": 1,
+				"layer": 0,
+				"priority": 1
+			},
+			{
+				"audio": "OW_NM_GravityCrystalAmbience_Louder",
+				"radius": 130,
+				"track": "environment",
+				"volume": 0.4,
+				"layer": 0,
+				"priority": 1
+			},
+			{
+				"audio": "OW_NM_GravityCrystalAmbience_Louder",
+				"radius": 70,
+				"track": "environment",
+				"volume": 1,
+				"layer": 0,
+				"priority": 2
+			}
+		],
+		"revealVolumes": [
+			{
+				"position": {"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"radius": 130,
+				"revealOn": "enter",
+				"reveals": ["INSP R0"]
+			}
+		]
+	},
+"Props": {
+	
+	"singularities": [
+		{
+			"type": "blackHole",
+			"uniqueID": "INSP BH",
+			"pairedSingularity": "DSS WH",
+			"hasWarpEffects": false,
+			"horizonRadius": 20,
+			"position":{"x":0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"renderQueueOverride": 2501
+		},
+		{
+			"type": "whiteHole",
+			"uniqueID": "INSP SHORTCUT WH",
+			"pairedSingularity": "TH SHORTCUT -1",
+			"hasWarpEffects": false,
+			"horizonRadius": 0.1,
+			"position":{"x":-93.682,"y": 0.1369,"z": 2.3991},
+			"isRelativeToParent": true
+		}
+	],
+	"details": [
+		{
+		"rename":"Inspired gas tail",
+		"path":"Comet_Body/Sector_CO/Effects_CO/Effects_CO_TailMeshes/Effects_CO_GasTail/",
+		"position": {"x":0,"y": 0,"z": 0},
+		"rotation": {"x":90,"y": 0,"z": 0},
+		"stretch": {"x":2,"y":1,"z":1},
+		"keepLoaded": true,
+		"isRelativeToParent": true
+		},{
+		"rename":"Inspired gas tail 2",
+		"path":"Comet_Body/Sector_CO/Effects_CO/Effects_CO_TailMeshes/Effects_CO_GasTail/",
+		"position": {"x":0,"y": 0,"z": 0},
+		"rotation": {"x":90,"y": 0,"z": 0},
+		"stretch": {"x":2,"y":1,"z":1},
+		"keepLoaded": true,
+		"isRelativeToParent": true
+	},
+	
+		{
+			"rename": "gravitycannon volume",
+			"path": "BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Interactables_GravityCannon/CannonForceVolume/",
+			"position": {"x":213.2104,"y": 3.52,"z": 0.6393},
+			"rotation": {"x":0,"y": 180,"z": 90},		
+			"isRelativeToParent": true,
+			"scale":3,
+			"keepLoaded": true
+		},
+		{
+			"rename":"Inspired body",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/models/theinspired.prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":90,"y": 0,"z": 90},
+			"ignoreSun": true,
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"Inspired proxy",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/models/theinspired (1).prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":90,"y": 0,"z": 90},
+			"ignoreSun": true,
+			"keepLoaded": true,
+			"isRelativeToParent": true
+		}
+	],
+	"proxyDetails": [
+		{
+			"rename":"Inspired proxy",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/models/theinspired (1).prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":0,"y": 0,"z": 90},
+			"ignoreSun": true,
+			"keepLoaded": true,
+			"isRelativeToParent": true,
+			"removeComponents": true
+		},
+		{
+			"rename":"Inspired gas tail",
+			"path":"Comet_Body/Sector_CO/Effects_CO/Effects_CO_TailMeshes/Effects_CO_GasTail/",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":90,"y": 0,"z": 0},
+			"stretch": {"x":2,"y":1,"z":1},
+			"keepLoaded": true,
+			"isRelativeToParent": true
+		}
+	]
+},
+	
+	"ShockEffect": {
+		
+			"assetBundle": "planets/bundle/stowaway3",
+			"meshPath":"assets/models/theinspired (1).prefab"
+		},
+	"MapMarker": {
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"enabled": true,
+		"bracketRadius": 200,
+		"maxTargetDistance": 400,
+		"targetColliderRadius": 600,
+		"targetWhenClose": true
+	},
+
+	"Base": {
+		"surfaceSize": 200,
+		"gravityVolumePriority": 10,
+		"surfaceGravity": 15,
+		"soiOverride": 300,
+		"gravityFallOff": "linear",
+		"hasFluidDetector": false
+	},
+	"Orbit": {
+		"showOrbitLine": false,
+		"primaryBody": "Sun",
+		"semiMajorAxis" : 16457.58738,
+		"siderealPeriod": 0,
+		"trueAnomaly": 282,
+		"isTidallyLocked": true,
+		"alignmentAxis": {"x":0,"y":-1,"z":0}
+	},
+
+
+
+
+
+
+
+"ShipLog" :
+	{
+		"xmlFile": "planets/ship logs/Inspired Stowaway.xml",
+		"spriteFolder": "planets/ship logs/sprites",
+		"mapMode": {
+			"manualNavigationPosition": {"x":4,"y":2},
+			"manualPosition": {"x":1041.7,"y": 174},
+			"invisibleWhenHidden": true,
+			"outlineSprite": "planets/assets/bh icon.png",
+			"revealedSprite": "planets/assets/bh icon.png"
+		}
+	}
+
+}
