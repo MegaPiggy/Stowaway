@@ -58,7 +58,7 @@ public class Stowaway : ModBehaviour
 	{
 		var newHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
 		newHorizonsAPI.GetStarSystemLoadedEvent().AddListener(system => SystemLoaded(system));
-		newHorizonsAPI.GetBodyLoadedEvent().AddListener(body => BodyLoaded(body.Replace(" ","")));
+		newHorizonsAPI.GetBodyLoadedEvent().AddListener(body => BodyLoaded(body.Replace(" ", "").Replace("'", "")));
 		newHorizonsAPI.LoadConfigs(this);
 		NewHorizonsAPI = newHorizonsAPI;
 
@@ -115,6 +115,10 @@ public class Stowaway : ModBehaviour
 		{
 			initBrittleHollow_Late();
 		}
+		if (body == "HollowsLantern")
+		{
+			initHollowsLantern_Late();
+		}
 		if (body == "TimberHearth")
 		{
 			initTimberHearth_Late();
@@ -151,6 +155,64 @@ public class Stowaway : ModBehaviour
 		if (body == "HourglassObservatory")
 		{
 			initHourglassObservatory(NewHorizonsAPI.GetPlanet("Hourglass Observatory"));
+		}
+	}
+
+	private void initHollowsLantern_Late()
+	{
+		var hollowsLantern = Locator.GetAstroObject(AstroObject.Name.VolcanicMoon);
+		var meteorLaunchers = hollowsLantern.GetComponentsInChildren<MeteorLauncher>(true);
+		int launcherCount = meteorLaunchers.Length;
+
+		float baseInterval = 10.5f;
+		float maxInterval = 25.25f;
+		float intervalStep = (maxInterval - baseInterval) / (launcherCount - 1);
+		float baseSpeed = 100f;
+		float maxSpeed = 200f;
+		float speedStep = (maxSpeed - baseSpeed) / (launcherCount - 1);
+		float baseDamage = 60f;
+		float maxDamage = 80f;
+		float damageStep = (maxDamage - baseDamage) / (launcherCount - 1);
+		Stowaway.Write($"launcherCount: {launcherCount}, baseInterval: {baseInterval}, maxInterval: {maxInterval}, intervalStep: {intervalStep}, baseSpeed: {baseSpeed}, maxSpeed: {maxSpeed}, speedStep: {speedStep}, baseDamage: {baseDamage}, maxDamage: {maxDamage}, damageStep: {damageStep}");
+
+		int count = 0;
+		foreach (var meteorLauncher in meteorLaunchers)
+		{
+			Stowaway.Write($"count: {count}, fixedInterval: {baseInterval + count * intervalStep}, fixedLaunchSpeed: {baseSpeed + count * speedStep}");
+			var meteorController = meteorLauncher._meteorPrefab.GetComponent<MeteorController>();
+			var originalForceDetector = meteorController._constantForceDetector;
+			var newForceDetector = originalForceDetector.gameObject.AddComponent<QuantumMoonAwareForceDetector>();
+			newForceDetector._detectableFields = originalForceDetector._detectableFields;
+			newForceDetector._inheritDetector = originalForceDetector._inheritDetector;
+			newForceDetector._inheritElement0 = originalForceDetector._inheritElement0;
+			newForceDetector._fieldMultiplier = originalForceDetector._fieldMultiplier;
+			meteorController._constantForceDetector = newForceDetector;
+			GameObject.DestroyImmediate(originalForceDetector);
+
+			var damage = baseDamage + count * damageStep;//(meteorController._minDamage + meteorController._maxDamage) / 2;
+			meteorController._minDamage = damage;
+			meteorController._maxDamage = damage;
+
+			meteorLauncher.gameObject.SetActive(false);
+			var modifiedLauncher = meteorLauncher.gameObject.AddComponent<DeterministicMeteorLauncher>();
+			modifiedLauncher._meteorPrefab = meteorLauncher._meteorPrefab;
+			modifiedLauncher._dynamicMeteorPrefab = meteorLauncher._dynamicMeteorPrefab;
+			modifiedLauncher._dynamicProbability = meteorLauncher._dynamicProbability;
+			modifiedLauncher._audioSector = meteorLauncher._audioSector;
+			modifiedLauncher._detectableField = meteorLauncher._detectableField;
+			modifiedLauncher._detectableFluid = meteorLauncher._detectableFluid;
+			modifiedLauncher._minLaunchSpeed = meteorLauncher._minLaunchSpeed;
+			modifiedLauncher._maxLaunchSpeed = meteorLauncher._maxLaunchSpeed;
+			modifiedLauncher._fixedLaunchSpeed = baseSpeed + count * speedStep; //(meteorLauncher._minLaunchSpeed + meteorLauncher._maxLaunchSpeed) / 2;
+			modifiedLauncher._minInterval = meteorLauncher._minInterval;
+			modifiedLauncher._maxInterval = meteorLauncher._maxInterval;
+			modifiedLauncher._fixedInterval = baseInterval + count * intervalStep; //(meteorLauncher._minInterval + meteorLauncher._maxInterval + count) / 2;
+			modifiedLauncher._launchParticles = meteorLauncher._launchParticles;
+			modifiedLauncher._launchSource = meteorLauncher._launchSource;
+			modifiedLauncher._launchDirection = meteorLauncher._launchDirection;
+			GameObject.DestroyImmediate(meteorLauncher);
+			modifiedLauncher.gameObject.SetActive(true);
+			count++;
 		}
 	}
 
