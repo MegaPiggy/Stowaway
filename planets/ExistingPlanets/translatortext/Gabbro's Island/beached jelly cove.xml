@@ -1,0 +1,83 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PHLOX: The cyclone appears to have passed. We are safe now, my friends.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		DAZ: What a relief.. Thank goodness the specimen has not been swept away by the winds, too.
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		DAZ: But how strange! The jellyfish of <![CDATA[<color=lightblue>Giant's Deep</color>]]> typically dwell near the planet's core... How did this specimen travel so far away from its dwelling, to end up on the surface of the ocean?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		CASSAVA: Perhaps it was a frozen jellyfish recently released from Bramble Island's glaciers? That is the first hypothesis that comes to my mind.
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		PHLOX: I would not think it would be possible for most species to survive such long-term preservation, but it is a plausible possibility.. Is there any way we could test this hypothesis?
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		DAZ: Perhaps we should visit the <![CDATA[<color=orange>Deep Storm Station.</color>]]> We should be able to survey the native population of jellyfish under the ocean current from aboard the station.
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		CASSAVA: That is a wise idea, Daz! If there is any change in the total population, we will know that this specimen was from the native population.
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		CASSAVA: The warp pad to the <![CDATA[<color=orange>Deep Storm Station</color>]]> is located on the <![CDATA[<color=orange>Construction Yard.</color>]]> Let us travel there at once, my friends!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Cove R3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Cove R4</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

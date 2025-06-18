@@ -9,7 +9,32 @@
 	{
 		"details":
 		[
-	
+			{
+				"rename": "voyager ring THstone",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/voyager ring.prefab",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z":0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Sanctuary Voyager Stone/AnimRoot"
+			},{
+				"rename": "voyager ring DSSstone",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/voyager ring.prefab",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z":0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/DSS proj Stone/AnimRoot"
+			},{
+				"rename": "voyager ring StatIslestone",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/voyager ring.prefab",
+				"position": {"x": 0, "y": 0, "z": 0},
+				"rotation": {"x": 0, "y": 0, "z":0},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_StatueIsland/Solar tide lovestone/AnimRoot"
+			},
+
 			{
 				"rename": "workshop tractor BEAM",
 				"assetBundle": "planets/bundle/stowaway3",

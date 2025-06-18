@@ -4,7 +4,7 @@
 	<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Though I have searched tirelessly, I have found no trace of any other survivors.. I am alone.
+		CASSAVA: I have dedicated myself to research of the deadly matter, searching for any closure to the calamity that has befallen us.
 		</Text>
 </TextBlock>
 
@@ -13,7 +13,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Everywhere I search, the star system has been engulfed by this strange and deadly substance, visible only to the third eye.
+		CASSAVA: I was overjoyed to discover the survival of several aquatic species native to the star system, who were somehow insulated from the deadly matter's reach.
 		</Text>
 </TextBlock>
 
@@ -22,7 +22,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: My sole solace is the survival of several species native to the star system.. I am certain the property of immersion must be the reason for their continued survival.
+		CASSAVA: From what I have learnt, I am certain the property of immersion I observed must be the reason for the continued survival of these species.
 		</Text>
 </TextBlock>
 
@@ -31,7 +31,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-			 CASSAVA: But that means.. If any of them were to ever return to the planet's surface...
+			 CASSAVA: But that means, if any of them were to ever return to the planet's surface... They would...
 		</Text>
 </TextBlock>
 
@@ -49,7 +49,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		 CASSAVA: How fortunate <![CDATA[<color=lightblue>Giant's Deep's'</color>]]> thick clouds obscured my sight of anything outside the planet.. I owe it my deepest gratitude for protecting the native species from harm.
+		 CASSAVA: How thankful I am that <![CDATA[<color=lightblue>Giant's Deep's'</color>]]> thick clouds obscured my sight of anything outside the planet.. I owe it my deepest gratitude for protecting the native species from harm.
 		</Text>
 </TextBlock>
 

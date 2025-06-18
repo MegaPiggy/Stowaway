@@ -7,21 +7,6 @@
 	
 	"Volumes":
 {
-	"forces": 
-		{
-			"radialVolumes": 
-			[
-				{
-				"force": 1,
-				"parentPath": "Sector_AnglerNestDimension/broken egg 1",
-				"fallOff": "linear",
-				"layer": 0,
-				"priority": 1,
-				"radius": 5,
-				"alignRadial": false
-				}
-			]
-		}
 	},
 	"Props": {
 		"singularities": [

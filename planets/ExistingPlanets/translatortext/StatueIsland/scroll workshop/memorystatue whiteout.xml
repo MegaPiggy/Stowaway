@@ -1,0 +1,77 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		AVENS: Daz, I am pleased to report that I was lucky enough to be paired to a memory statue today during a negative time interval!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		AVENS: Though it was exhilarating to see into the future, at the end of each interval, I saw my vision fading into a bright, fuzzy static.. Could I ask what causes that vision?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		DAZ: I am honored to have my brother-by-proxy's memories confided in my systems, Avens!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: If this occurred at the end of each interval, there should be nothing to fear. You were simply witnessing the end of your conscious observation in the previous interval!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: Memories recorded by the memory storage system are sent back in time to paired individuals at the end of each interval.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: However, once this memory transmission process is complete, no memories beyond that point can be sent back - immediately ending the individual's conscious experience of the previous interval.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationA />
+		<Text>
+		AVENS: I see.. In other words, we will not be able to recall what happens after the end-of-interval memory transmission.. My thanks for this fascinating piece of information, Daz!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: I must insist you do not use the inability to recall memories beyond the end-of-interval transmission for mischief, Avens!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+	
+		<RevealFact>
+			<FactID>Workshop EX2.5</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

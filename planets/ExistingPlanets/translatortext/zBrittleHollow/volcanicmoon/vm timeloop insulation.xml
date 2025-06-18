@@ -43,7 +43,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		POKE: For instance: the memory statues that allow Nomai to be paired to the <![CDATA[<color=orange>Ash Twin Project</color>]]> are not insulated from the supernova.. When the supernova destroys them, won't this connection be broken?
+		POKE: For instance: the memory statues that record memories to the <![CDATA[<color=orange>Ash Twin Project</color>]]> are not insulated from the supernova! Won't this connection be broken when the statues are destroyed by the supernova?
 		</Text>
 	</TextBlock>
 
@@ -61,7 +61,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		ROOT: If a memory statue is destroyed, the paired individual will only be unable to recall memories beyond that point, as their experiences are no longer being recorded by the memory statue to the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		ROOT: If a memory statue is destroyed, the individual will be unable to recall memories after the statue's destruction, as those memories are no longer being recorded to the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
 		</Text>
 	</TextBlock>
 

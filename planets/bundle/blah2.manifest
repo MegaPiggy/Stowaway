@@ -1,0 +1,64 @@
+ManifestFileVersion: 0
+CRC: 1000582823
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 73d3617d327aad63ef86598bad56080e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 66ee50b6ec75608a0c7c5fc5ce8a1807
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 90ff71c1515f4875c251734b10f07a74, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2610d722ee30ea0c1ac7ba130d812afa, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7272cba977bdf7eec3ebf07ae09efe55, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d0a6aeb05d852b7ba1f13e9ddeb7586, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4b51a09e4110b49d3654000985deafc3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d85c86ae09ad759675e21391a6d4e61c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Nomai Ruins/blah.unity
+Dependencies:
+- C:/Users/User/AppData/Roaming/OuterWildsModManager/OWML/Mods/Stowaway/planets/bundle/prefabs

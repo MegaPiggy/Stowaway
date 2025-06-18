@@ -45,7 +45,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		THATCH: Of note: as islands in the northern hemisphere sail around <![CDATA[<color=lightblue>Giant's Deep</color>]]> in an anti-clockwise direction, days on this island last three times longer than the other island.
+		THATCH: Of note: as islands in the northern hemisphere sail against <![CDATA[<color=lightblue>Giant's Deep's</color>]]> rotation, days on this island will last three times longer than the other island.
 		</Text>
 	</TextBlock>
 	<TextBlock>	
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		PLUME: An update: we shall relocate to the cliffs of the island along the southern hemisphere. Let us set forth on a new journey together, my friends!
+		PLUME: Friends, I am glad to announce our decision to relocate to the cliffs of the island along the southern hemisphere. (Even I do not wish to inflict days thrice in length on our nocturnal hours!)
 		</Text>
 			</TextBlock>
 

@@ -1,0 +1,73 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+
+Clue: Voyagers stay when you disconnect. Walking into the pool reconnects you
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		DAZ: I noticed somebody has left their voyager idle after using the voyager stone again today. Please, remember to end your voyages properly, my friends!
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB />
+		<Text>
+		PHLOX: Oh, I apologize, Daz; I believe I am the one responsible. May I ask what is the procedure to properly end a voyage?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: It is simple! You simply need to disengage your voyager stone from the projection pool's pedestal.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: If the projection pool is still swirling, that means it is still active and awaiting reconnection.
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: Stepping onto an active projection pool will reconnect you with the voyager, returning you to its position. This allows one to easily resume voyages far from the projection pool!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: An update: Phlox, you have left your voyager idle again!
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB />
+		<Text>
+		PHLOX: I apologize, Daz, I cannot help it.. These voyagers are so useful to keep around as reference for sculpting statues in our image!
+		</Text>
+	</TextBlock>
+
+	
+<ShipLogConditions>
+	</ShipLogConditions>
+
+</NomaiObject>

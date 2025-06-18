@@ -23,7 +23,7 @@
 	{
 	"details": [
 
-
+		
 		{
 			"rename":"LAVA BELL controls",
 			"assetBundle": "planets/bundle/stowaway3",
@@ -36,7 +36,7 @@
 			"rename":"lava bell ore",
 			"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/lava rockpiece.prefab",
-				"position": {"x":-3.8301,"y": -2.1472,"z": -5.1936},
+				"position": {"x": -4.1301,"y": -1.9472,"z": -5.1936},
 				"rotation": {"x":344.0381,"y": 27.3468,"z": 10.2594},
 				"scale": 0.4545,
 					"parentPath": "Sector_VM/LAVA BELL controls/lava bell (1)",
@@ -262,7 +262,7 @@
 			"rename":"VM lava recorder shell",
 			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/volcanicmoon/vm timeloop insulation.xml",
 			"type": "recorder",
-			"position": {"x":-3.8364,"y": -2.0111,"z": -5.2199},
+			"position": {"x": -4.3364,"y": -1.8129,"z": -5.2199},
 			"rotation": {"x": 359.3736,"y": 255.7404 ,"z": 18.6846},
 					"parentPath": "Sector_VM/LAVA BELL controls/lava bell (1)",
 			"isRelativeToParent": true

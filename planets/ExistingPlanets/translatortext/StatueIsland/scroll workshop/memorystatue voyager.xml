@@ -1,0 +1,84 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange> we are clowns in a circus </color>]]>
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CYCAD: Daz, I have been excited to try the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> newest invention, after hearing so much about the voyager stones!
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB />
+		<Text>
+		CYCAD: However, when I use the voyager stone, I cannot distinguish how it is dissimilar from a normal projection stone.. Am I using this new invention incorrectly?
+		</Text>
+	</TextBlock>
+	
+		<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: It is used the same way as a normal projection stone, Cycad. I suspect the problem lies elsewhere!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: Did you remember to pair to a memory statue, before using the voyager stone?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		CYCAD: Oh! I did not realize I needed to be paired to a memory statue to use the voyager stones, Daz.. Is there a reason for this prerequisite?
+		</Text>
+	</TextBlock>
+	
+		<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: It is simple! Voyager stones use the memory statues' memory storage systems to record experiences from the projection pool, transmitting it back to the paired individual in real-time.
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: That is how the voyager stone allows one to explore remotely beyond a projection pool!
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationB />
+		<Text>
+		DAZ: Without a memory statue to record those experiences, as you saw, the voyager stone would only function like an ordinary projection stone!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>WorkshopTop EX6</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

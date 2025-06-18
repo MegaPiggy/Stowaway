@@ -1,0 +1,83 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		MELORAE: What has happened? Was the island just.. launched into space by a cyclone?! 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		MELORAE: Brace yourselves, everyone! We're about to crash back into the planet's atmosphere!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		PLUME: We appear to have landed back in the planet's waves.. Is everyone well?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		THATCH: As well as we can be... My suit was just beginning to dry from the rain! That plunge into the ocean has just soaked me thoroughly again!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		COLEUS: The shuttle thankfully appears well, even after that crash.. Imagine if we became stranded on this planet!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		THATCH: Imagine if we returned to the shuttle, and left this terrifying planet right now instead!
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+			MELORAE: We should be prepared to, should another cyclone approach.. But goodness, this planet is far more treacherous than I could have anticipated.
+		</Text>
+			</TextBlock>
+			<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+			MELORAE: We <![CDATA[<i>must</i>]]> think of some way protect ourselves from these cyclones - or better yet, seek a landmass entirely clear of the cyclones' path to settle and thrive on!
+		</Text>
+			</TextBlock>
+	
+	
+				
+
+<ShipLogConditions>
+	<RevealFact>
+			<FactID>Pioneer R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Pioneer EX3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	
+	</ShipLogConditions>
+
+</NomaiObject>

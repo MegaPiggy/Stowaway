@@ -1,0 +1,60 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		MELORAE: Friends in the expedition team: we deliver wonderful news! 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		MELORAE: Plume and I have discovered an island which remains entirely clear of the path of cyclones. We believe this island would be an ideal location for long-term settlement!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		COLEUS: What wonderful news, Melorae! I am ecstatic that we will be able to settle somewhere safe from this stormy planet's turbulent weather.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		THATCH: I am eager to explore this stormless island! Let us compact our supplies for relocation at once, friends.
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>	
+	<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+			THATCH: Until we can think of a way to protect ourselves from these terrible cyclones, this stormless island shall serve as our new settlement!
+		</Text>
+			</TextBlock>
+
+	
+				
+
+<ShipLogConditions>
+	<RevealFact>
+			<FactID>Pioneer R1</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Pioneer EX3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+	
+	</ShipLogConditions>
+
+</NomaiObject>

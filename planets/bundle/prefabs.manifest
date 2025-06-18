@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 852643607
+CRC: 98032119
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6cd10a59092ead6f1d4c856429889811
+    Hash: 37b9da248bc4f316a5b1a79dca8f226f
   TypeTreeHash:
     serializedVersion: 2
     Hash: 256c3df89ab0f222e430766dbdd2a2a7
@@ -58,7 +58,6 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_R.prefab
-- Assets/Nomai Ruins/Prefabs/Materials/Terrain_HGTA_TimeLoopMetal_mat.mat
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_L.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_B_Corner.prefab
 - Assets/Nomai Ruins/Prefabs/star ore ext.prefab
@@ -67,7 +66,6 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Floor.prefab
 - Assets/Nomai Ruins/Prefabs/Railing.prefab
 - Assets/Nomai Ruins/Prefabs/Wall Spiral Lamp.prefab
-- Assets/Nomai Ruins/Prefabs/Materials/cassava mural 1.mat
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_E.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_BOTH.prefab
 - Assets/Nomai Ruins/Prefabs/ToyMorbius.prefab
@@ -103,20 +101,16 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Floor_Hole.prefab
 - Assets/Nomai Ruins/Prefabs/ToyPyramid.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Broken.prefab
-- Assets/Nomai Ruins/Prefabs/Materials/Terrain_TH_CaveSparkle_mat.mat
 - Assets/Nomai Ruins/Prefabs/Window_Corner_BOTH_Broken.prefab
-- Assets/Nomai Ruins/unused prefabs/gravity crystal chips.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_F.prefab
-- Assets/Nomai Ruins/Prefabs/SolarCellMounted.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_R.prefab
 - Assets/Nomai Ruins/Prefabs/Fancy Door.prefab
-- Assets/Nomai Ruins/Prefabs/protohearthian.fbx
 - Assets/Nomai Ruins/Prefabs/Bed.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_B.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_L.prefab
 - Assets/Nomai Ruins/Prefabs/Fancy Door BOTH.prefab
 - Assets/Nomai Ruins/Prefabs/Giant Tree Ring.prefab
-- Assets/Nomai Ruins/Prefabs/ShortPillar.prefab
+- Assets/Nomai Ruins/Prefabs/protohearthian_floatyupdatetongueout.fbx
 - Assets/Nomai Ruins/Prefabs/CeilingLamp.prefab
 - Assets/Nomai Ruins/Prefabs/Holo Seat.prefab
 - Assets/Nomai Ruins/Prefabs/Props_NOM_Transponder.prefab
@@ -131,12 +125,12 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/Wall_Corner_BOTH.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_D.prefab
 - Assets/Nomai Ruins/Prefabs/ShortColumn.prefab
+- Assets/Nomai Ruins/Prefabs/protohearthian_floatyupdate.fbx
 - Assets/Nomai Ruins/Prefabs/Vase.prefab
 - Assets/Nomai Ruins/Prefabs/RailingPost.prefab
 - Assets/Nomai Ruins/Prefabs/Table.prefab
 - Assets/Nomai Ruins/Prefabs/Stairs_R.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Mir.prefab
-- Assets/Nomai Ruins/Prefabs/SolarPanelAT.prefab
 - Assets/Nomai Ruins/Prefabs/ToyBall.prefab
 - Assets/Nomai Ruins/Prefabs/Staff.prefab
 - Assets/Nomai Ruins/Prefabs/Chair.prefab

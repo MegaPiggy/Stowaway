@@ -61,7 +61,7 @@
 		[
 			
 		],
-		"details": [	
+		"details": [		
 			{
 				"rename": "Orcnid w Stray Legs",
 				"path": "DarkBramble_Body/Sector_DB/Geometry_DB/OtherComponentsGroup/Beast_DB_FrozenJellyfish_v3",
@@ -70,8 +70,7 @@
 				"scale":0.6,
 				"isRelativeToParent": true,
 				"keepLoaded": true
-			},
-			{
+			},{
 				"rename": "Orcnid collider",
 				"path": "Jellyfish_Body/Beast_GD_Jellyfish_v4/jellyfish_collider",
 				"position": {"x": -7.4614, "y": -552.4193, "z": -8.8027},
@@ -87,13 +86,47 @@
 			},
 
 
-			
+			{
+				"rename":"low fire lamp",
+				"path":"TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Lighting_ImpactCrater/Props_HEA_Lantern",
+				"position":{"x": 15.2455,"y": 2.3143,"z": 5.8687},
+				"rotation":{"x": 358.5131,"y": 237.3703,"z": 0.1296}
+			},	
+
+
+			{
+					"rename":"Sector_GabbroIntro",
+					"assetBundle": "planets/bundle/stowaway3",
+					"path":"assets/models/empty.prefab",
+					"isRelativeToParent": true
+			},
+			{
+				"rename":"BASE_LARGE mural board",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
+				"position": {"x": -19.5349, "y": 0.6475, "z":  31.1577},
+				"rotation": {"x": 359.5715, "y": 94.2078, "z": 3.8933},
+				"scale":2,
+				"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro",
+				"removeChildren": [],
+				"isRelativeToParent": true
+			},
+			{
+					"rename":"Jellyfish washed up mural",
+					"assetBundle": "planets/bundle/stowaway3",
+					"path":"assets/models/jellyfish washedup.prefab",
+						"position": {"x": 0, "y": 1.35, "z": 0.004},
+						"rotation": {"x": 90, "y": 0, "z": 0},
+						"stretch": {"x":0.4,"y": 0.4,"z": 0.2},
+						"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro/BASE_LARGE mural board",
+					"isRelativeToParent": true
+			},
 			{
 				"rename":"cove corner torch1",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
-				"position": {"x": -18.1617, "y": 0.3636, "z": 36.5678},
+				"position": {"x": -18.1617, "y": 0.7636, "z": 32.5624},
 				"rotation": {"x": 3.4615,"y": 48.9562,"z": 5.6759},
+						"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro",
 				"isRelativeToParent": true
 			},	{
 				"rename":"cove corner torch2",
@@ -101,10 +134,164 @@
 				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
 				"position": {"x": -19.019, "y": 1.2932, "z": 25.5179},
 				"rotation": {"x":3.4615,"y": 48.9562,"z": 5.6759},
+						"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro",
+				"isRelativeToParent": true
+			},
+			{
+				"rename": "gd intro table 1",
+				"assetBundle": "planets/bundle/prefabs",
+					"path":"assets/nomai ruins/prefabs/table.prefab",
+				"position": {"x": -18.1598,"y": 1.1719,"z": 27.8388},
+				"rotation": {"x": 357.3441,"y": 139.8415,"z": 2.2259},
+						"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro",
+				"isRelativeToParent": true
+			},{
+				"rename": "gd intro table 2",
+				"assetBundle": "planets/bundle/prefabs",
+					"path":"assets/nomai ruins/prefabs/table.prefab",
+				"position": {"x": -17.7715,"y": 0.582,"z": 34.4355},
+				"rotation": {"x": 4.0804,"y": 36.621,"z": 3.8852},
+						"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro",
+				"isRelativeToParent": true
+			},{
+				"rename":"gd intro chair",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab", 
+				"position":{"x": -17.8909,"y": 0.8794,"z": 31.4099},
+				"rotation":{"x": 358.9999, "y": 96.9433,"z": 5.3141},
+						"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro",
+				"isRelativeToParent": true
+			},{
+				"rename":"gd intro vase1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/vase.prefab", 
+				"position":{"x": -17.6454,"y": 1.1242,"z": 28.5257},
+				"rotation":{"x": 358.0701, "y": 118.1228,"z": 3.5871},
+						"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro",
+				"isRelativeToParent": true
+			},{
+				"rename":"gd intro vase2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/vase.prefab", 
+				"position":{"x": -18.2626 ,"y": 2.2247,"z": 27.986},
+				"rotation":{"x": 359.0552, "y": 105.638,"z": 3.3336},
+						"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro",
 				"isRelativeToParent": true
 			},
 
+
+
 			
+			
+			{
+				"rename":"Sector_GM_Cove",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab"
+			},{
+				"rename":"cove gc 1",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal",
+				"position":{"x": 6.3643,"y": 0.8814,"z": 34.0228},
+				"rotation":{"x": 0.4159, "y": 295.1736,"z": 356.9853},
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove",
+				"isRelativeToParent": true
+			},{
+				"rename":"cove gc 2",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal",
+				"position":{"x": 16.6457 ,"y": 1.1457,"z": 22.3483},
+				"rotation":{"x": 0.2583, "y": 310.811,"z": 356.3887},
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove",
+				"isRelativeToParent": true
+			},
+				{
+				"rename":"cove purp LIGHT",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text/",
+				"position": {"x": 6.6838, "y": 2.6244, "z": 22.3214},
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove",
+				"isRelativeToParent": true
+			},	
+			{
+				"rename":"cove planty",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
+				"position": {"x":13.2367,"y": 1.3611,"z": 21.6931},
+				"rotation": {"x":3.7364,"y": 17.2727,"z": 358.8791},
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove",
+				"isRelativeToParent": true
+			},
+
+			{
+			"rename":"Marriage StatueBox",
+			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
+			"position":{"x":10.4157,"y": 1.0217 ,"z": 29.2592},
+			"rotation":{"x":0.7862,"y": 11.6838,"z": 358.5605}
+			},
+
+			{
+			"rename":"cove hologram box",
+			"assetBundle": "planets/bundle/prefabs",
+			"path":"assets/nomai ruins/prefabs/container.prefab",
+			"position": {"x": 8.4712, "y": 1.3398, "z": 24.4452},
+				"rotation": {"x": 1.7755, "y": 15.1029, "z": 0.0721},
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove",
+			"isRelativeToParent": true
+		},{
+			"rename":"cove box liquid",
+			"path":"OrbitalProbeCannon_Body/Sector_OrbitalProbeCannon/Sector_Module_Intact/Interactables_Module_Intact/HologramProjector/HologramPool",
+			"position": {"x": 0,"y": 0.7735,"z": 0},
+			"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove/cove hologram box",
+			"scale":0.75,
+			"isRelativeToParent": true
+		},{
+				"rename":"DSS model",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/materials/deepstormstation model.prefab",
+				"position": {"x": 0,"y": 1.8127,"z": 0},
+				"rotation": {"x": 270,"y": 0,"z": 0},
+				"stretch": {"x": 0.006,"y": 0.006,"z": 0.005},
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove/cove hologram box",
+				"isRelativeToParent": true
+			},{
+			"rename":"Marriage Bench",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
+			"position":{"x": 9.5759,"y": 1.3315,"z": 23.5556},
+			"rotation":{"x":4.0388,"y": 26.611,"z": 359.6216},
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove"
+		},
+		
+		{
+			"rename":"Marriage Torch",
+			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/Prefab_NOM_WallTorch",
+			"position":{"x":5.8482,"y": 3.6547 ,"z": 25.2845},
+			"rotation":{"x":7.3962,"y": 50.3278,"z": 4.1076},
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove"
+		},
+		{
+			"rename":"Marriage Torch light 1",
+			"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
+			"position":{"x":8.3724,"y": 1.2109 ,"z": 24.758},
+			"rotation":{"x":2.7752,"y": 341.1754,"z": 356.7977},
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove"
+		},
+		{
+			"rename":"Marriage Torch light 2",
+			"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
+			"position":{"x":6.9209,"y": 2.2765,"z": 25.0503},
+			"rotation":{"x":2.7752,"y": 341.1754,"z": 356.7977},
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove"
+		},
+		{
+			"rename":"Marriage Torch light 3",
+			"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
+			"position":{"x":6.7097,"y": 4.1448,"z": 25.8453},
+			"rotation":{"x":2.7752,"y": 341.1754,"z": 356.7977},
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove"
+		},
+
+
+
+
 
 			{
 				"rename":"cove GM otherend",
@@ -154,136 +341,31 @@
 				"scale":1.3,
 				"parentPath": "Sector_GabbroIsland/cove GM gabbroend",
 				"isRelativeToParent": true
-			},
-
-
-
-
-			{
-				"rename":"splishy splashy campfire",
-				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_SouthHemisphere/Sector_SouthSurface/Sector_SouthPole/Interactables_SouthPole/SouthPole_VisibleFromFar/Prefab_HEA_Campfire",
-				"position": {"x": 15.8964, "y": 2.2686, "z": 4.3369},
-				"rotation": {"x": 1.4245, "y": 100.4732, "z": 0.7331},
-				"keepLoaded": true,
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"low fire lamp",
-				"path":"TimberHearth_Body/Sector_TH/Sector_ImpactCrater/Lighting_ImpactCrater/Props_HEA_Lantern",
-				"position":{"x": 15.2455,"y": 2.3143,"z": 5.8687},
-				"rotation":{"x": 358.5131,"y": 237.3703,"z": 0.1296}
-			},
-
-			
-
-
-
-		{
-			"rename":"cove planty",
-			"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
-			"position": {"x":11.9021,"y": 1.3611,"z": 21.6931},
-			"rotation": {"x":3.7364,"y": 17.2727,"z": 358.8791},
-			"isRelativeToParent": true
-		},
-
+			}
 
 		
-		{
-			"rename":"Marriage Bench",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/chair.prefab",
-			"position":{"x":8.5868,"y": 1.3317,"z": 24.3686},
-			"rotation":{"x":4.0388,"y": 26.611,"z": 359.6216}
-		},
-		{
-			"rename":"Bouquet top",
-			"path":"TowerTwin_Body/Sector_TowerTwin/Interactables_TowerTwin/Cacti/OtherComponentsGroup/Prefab_HGT_Cactus_Single_A_Alt/Props_HGT_Cactus_Single_A_Alt/Main_HGT_Cactus_Single_A_Alt/Flower_HGT_Cactus_Single_A_Alt",
-			"position":{"x":8.5953,"y": 2.1174,"z": 24.5592},
-			"rotation":{"x":12.5174,"y": 345.2229,"z": 358.7223},
-			"stretch":{"x":1, "y":1.5, "z":1}
-		},
-		{
-			"rename":"Bouquet left",
-			"path":"TowerTwin_Body/Sector_TowerTwin/Interactables_TowerTwin/Cacti/OtherComponentsGroup/Prefab_HGT_Cactus_Single_A_Alt/Props_HGT_Cactus_Single_A_Alt/Main_HGT_Cactus_Single_A_Alt/Flower_HGT_Cactus_Single_A_Alt",
-			"position":{"x":8.5891,"y": 2.052,"z": 24.4369},
-			"rotation":{"x":27.2192,"y": 26.2776,"z": 349.0688},
-			"stretch":{"x":1, "y":1.5, "z":1}
-		},
-		{
-			"rename":"Bouquet right",
-			"path":"TowerTwin_Body/Sector_TowerTwin/Interactables_TowerTwin/Cacti/OtherComponentsGroup/Prefab_HGT_Cactus_Single_A_Alt/Props_HGT_Cactus_Single_A_Alt/Main_HGT_Cactus_Single_A_Alt/Flower_HGT_Cactus_Single_A_Alt",
-			"position":{"x":8.428,"y":2.1235,"z": 24.5838},
-			"rotation":{"x":305.4474,"y": 217.3062,"z": 8.3751},
-			"stretch":{"x":1, "y":1.5, "z":1}
-		},
-		{
-			"rename":"Bouquet bottomleft",
-			"path":"TowerTwin_Body/Sector_TowerTwin/Interactables_TowerTwin/Cacti/OtherComponentsGroup/Prefab_HGT_Cactus_Single_A_Alt/Props_HGT_Cactus_Single_A_Alt/Main_HGT_Cactus_Single_A_Alt/Flower_HGT_Cactus_Single_A_Alt",
-			"position":{"x":8.5075,"y": 1.9613,"z": 24.366},
-			"rotation":{"x":29.0105,"y": 347.6479,"z": 317.1566},
-			"stretch":{"x":1, "y":1.5, "z":1}
-		},
-		{
-			"rename":"Bouquet bottomright",
-			"path":"TowerTwin_Body/Sector_TowerTwin/Interactables_TowerTwin/Cacti/OtherComponentsGroup/Prefab_HGT_Cactus_Single_A_Alt/Props_HGT_Cactus_Single_A_Alt/Main_HGT_Cactus_Single_A_Alt/Flower_HGT_Cactus_Single_A_Alt",
-			"position":{"x":8.4753,"y": 1.9938,"z": 24.5351},
-			"rotation":{"x":288.0386,"y": 241.5985,"z": 358.3633},
-			"stretch":{"x":1, "y":1.5, "z":1}
-		},
-		{
-			"rename":"Bouquet clasp",
-			"path":"BrittleHollow_Body/Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/GravityCrystals/OtherComponentsGroup/Prefab_NOM_GravityCrystal/Props_NOM_GravityCrystal_Base",
-			"position":{"x":8.3139,"y": 2.0257 ,"z": 24.2425},
-			"rotation":{"x":64.9762,"y": 55.8795,"z": 5.2088},
-			"stretch":{"x":1.5545, "y":0.6, "z":1.12}
-		},
-		{
-			"rename":"Marriage Torch",
-			"path":"StatueIsland_Body/Sector_StatueIsland/Lighting_StatueIsland/OtherComponentsGroup/Prefab_NOM_WallTorch",
-			"position":{"x":5.8482,"y": 3.6547 ,"z": 25.2845},
-			"rotation":{"x":7.3962,"y": 50.3278,"z": 4.1076}
-		},
-		{
-			"rename":"Marriage Torch light 1",
-			"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
-			"position":{"x":8.3724,"y": 1.2109 ,"z": 24.758},
-			"rotation":{"x":2.7752,"y": 341.1754,"z": 356.7977}
-		},
-		{
-			"rename":"Marriage Torch light 2",
-			"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
-			"position":{"x":6.9209,"y": 2.2765,"z": 25.0503},
-			"rotation":{"x":2.7752,"y": 341.1754,"z": 356.7977}
-		},
-		{
-			"rename":"Marriage Torch light 3",
-			"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
-			"position":{"x":6.7097,"y": 4.1448,"z": 25.8453},
-			"rotation":{"x":2.7752,"y": 341.1754,"z": 356.7977}
-		},
-		{
-			"rename":"Marriage StatueBox",
-			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
-			"position":{"x":7.1376,"y": 1.256 ,"z": 25.1465},
-			"rotation":{"x":4.8298,"y": 11.6838,"z": 358.5605}
-		},
-		{
-			"rename":"Marriage Statue Head",
-			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Prefab_NOM_StatueHead",
-			"position":{"x": 7.1636,"y": 2.2,"z": 25.2},
-			"rotation":{"x": 358.5567,"y": 282.3507,"z": 356.402},
-			"isRelativeToParent": true
-		}
+		
+		
 	],
 		"translatorText": 
 		[
 			{
-				"rename": "Marriage Recording",
-				"position": {"x": 9.706928, "y": 0.9691101, "z": 30.35715},
-				"rotation": {"x": 1.777405, "y": 277.2332, "z": 1.093918},
+				"rename":"gd intro recording", 
+				"position":{"x": -17.8419,"y": 1.5384,"z": 31.4427},
+				"rotation":{"x": 357.0783, "y": 118.945,"z": 4.5518},
+						"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro",
+				"xmlFile":"planets/ExistingPlanets/translatortext/Gabbro's Island/beached jelly intro.xml",
 				"type": "recorder",
-				"xmlFile":"planets/ExistingPlanets/translatortext/Gabbro's Island/marriage loverscove.xml"
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename": "gm COVE recording",
+				"position": {"x": 10.2039, "y": 1.9645, "z": 29.2212},
+				"rotation": {"x": 358.6604, "y": 242.5727, "z": 359.5877},
+				"type": "recorder",
+				"xmlFile":"planets/ExistingPlanets/translatortext/Gabbro's Island/beached jelly cove.xml",
+				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove"
 			}
 		]
 	}

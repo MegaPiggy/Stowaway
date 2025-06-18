@@ -187,7 +187,7 @@
 			{
 				"rename": "protohearth",
 				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/protohearthian.fbx",
+				"path":"assets/nomai ruins/prefabs/protohearthian_floatyupdate.fbx",
 				"position":{"x": 4.3822,"y": -1.0125,"z": -7.5591},
 				"rotation": {"x": 344.3557,"y": 281.037,"z": 5.1617},
 				"scale":0.3,
@@ -197,7 +197,7 @@
 			{
 				"rename": "protohearth 2",
 				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/protohearthian.fbx",
+				"path":"assets/nomai ruins/prefabs/protohearthian_floatyupdatetongueout.fbx",
 				"position":{"x": 6.9821,"y": 2.3253,"z": -2.9196},
 				"rotation": {"x": 358.9762 ,"y": 20.4288,"z": 8.5441},
 				"parentPath": "Sector_THM/protohearths",

@@ -1,0 +1,125 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CASSAVA: Daz? Why have you begun a recording? Who are you sending a message to?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		DAZ: Ah, my love, this is not a message! I simply wish to record these next few moments. 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		DAZ: My love.. The many revolutions around the sun I have spent with you have been nothing short of magical.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: Your spirit brightens my darkest days, and your keen mind inspires me in everything we do.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: You make me feel so appreciated and loved at all times.. And I love you so, so much.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		DAZ: Cassava, will you take my appendage in marriage?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		CASSAVA: Daz.. I've waited so long to hear-!
+		</Text>
+	</TextBlock>
+	<TextBlock>	
+	<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		DAZ: Yes! I knew you'd say yes! Hypothesis confirmed! You said yes!!
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>
+		CASSAVA: D-Daz? I haven't given you my response yet! But yes, <![CDATA[<i>yes!</i>]]> Of course I would take your appendage in marriage!
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>10</ID>
+		<LocationA />
+		<ParentID>9</ParentID>
+		<Text>
+		DAZ: The <![CDATA[<color=orange>Deep Storm Station</color>]]> succeeded, Cassava! AND we're engaged! Yes!!
+		</Text>
+			</TextBlock>
+				<TextBlock>	
+	<ID>11</ID>
+		<LocationA />
+		<ParentID>10</ParentID>
+		<Text>
+		CASSAVA: What? Is that true?! Oh, what incredible news!
+		</Text>
+			</TextBlock>
+				<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>
+		CASSAVA: We should join our friends at the <![CDATA[<color=orange>Deep Storm Station!</color>]]> Quickly, my love: let us travel to the <![CDATA[<color=orange>Construction Yard</color>]]> at once!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<Text>
+		DAZ: But, my love, there is a projection wall right here! This news cannot wait: let us write to the <![CDATA[<color=orange>Deep Storm Station's'</color>]]> projection wall instead!
+		</Text>
+	</TextBlock>
+	
+
+<ShipLogConditions>
+			<RevealFact>
+			<FactID>Cove EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Cove EX4</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Cove EX3</FactID>
+			<Condition>12</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Cove EX2</FactID>
+			<Condition>12</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

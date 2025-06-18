@@ -1,0 +1,72 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		DAZ: Friends, how is the beached specimen? Is it well?
+		CASSAVA: No.. Sadly, it appears to have perished for some time now, though its bioelectricity appears to linger briefly after its termination.
+		DAZ: I see. How unfortunate...
+		DAZ: We have never seen a jellyfish beached on an island like this. How could one have even traveled all the way from..
+		PHLOX: Friends, I apologize to interrupt: a cyclone approaches!
+		DAZ: What dreadful timing! Oh, there isn't a storm shelter on this island.. How should we take cover, my friends?
+		CASSAVA: Worry not, my love. We can use gravity crystals to keep us anchored to the ground! 
+		CASSAVA: We must study this specimen further to learn what happened to it. Let us seek shelter in that nearby cove, so we may return to investigate, as soon as the cyclone passes!
+
+		PHLOX: The cyclone appears to have passed. We are safe, my friends.
+		DAZ: What a relief.. The specimen has not been swept away by the winds, too.
+		DAZ: But how strange! The jellyfish of Giant's Deep typically dwell near the planet's core... How did this specimen travel so far away from its dwelling, to end up on the surface of the ocean?
+		CASSAVA: Perhaps it was released from one of the frozen jellyfish of Bramble Island? That is the only plausible explanation I can think of.
+		PHLOX: Though I would not think it would be possible for most species to survive such long-term preservation, that may be possible.. Is there any way we could test this hypothesis?
+		DAZ: Perhaps we should visit the Deep Storm Station. We should be able to survey the native population of jellyfish under the ocean current from aboard the station.
+		CASSAVA: That is a wise idea, Daz! If there is any change in the total population, we will know that this specimen was from the native population.
+		CASSAVA: The warp pad to the Deep Storm Station is located on the Construction Yard. Let us travel there at once, my friends!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CASSAVA: It is my pleasure, love. This invention will be truly incredible: I cannot wait to see you walking beyond the projection pool!
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		DAZ: Now, for the moment of truth... It is time to revolutionize projection technology!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		CASSAVA: Daz? Did something happen? Your voyager has just disappeared..
+		</Text>
+	</TextBlock>
+<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		CASSAVA: Daz, do you still read me? Daz..?
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Cove R3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Cove R4</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

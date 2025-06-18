@@ -25,7 +25,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		YARROW: Worry not, Clary! As the column of sand only ever travels along the <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> equator, we are safe here on the planet's poles.
+		YARROW: Worry not, Clary! The <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> poles do not experience sunless days.. We are safe from the sand column here.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -33,7 +33,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		YARROW: Still, your concern is deeply appreciated, my friend.. It is heartwarming that you came all this way to warn me!
+		YARROW: Still, your concern is deeply appreciated, my friend.. It is heartwarming that you came all this way to warn me about a sunless day!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -41,7 +41,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		CLARY: Oh? I had not noticed that the column of sand only roamed along the equator before you mentioned it!
+		CLARY: A sunless day..? Is that what causes sand to flow between the <![CDATA[<color=lightblue>Hourglass Twins?</color>]]>
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -49,7 +49,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		CLARY: There are so many things I do not understand about this strange flow of sand between the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]> What could even cause such a phenomenon?
+		YARROW: Oh, are you not aware what a sunless day is?
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -57,7 +57,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		YARROW: Ah, I did not realize you were unaware of the cause of the sand transfer, Clary! I would be happy to explain the phenomenon known as the sunless day to you.
+		YARROW: I would be happy to explain it to you, though it may be a difficult concept to explain without some demonstration..
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -65,7 +65,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		YARROW: Though, it may be a difficult concept to explain without some demonstration... Ah, I know.
+		YARROW: Have you heard of the <![CDATA[<color=orange>Hourglass Observatory</color>]]> together, Clary? It is a station in a stationary orbit behind the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]>
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -73,7 +73,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		YARROW: There is a station in orbit around the <![CDATA[<color=lightblue>Hourglass Twins</color>]]> called the <![CDATA[<color=orange>Hourglass Observatory.</color>]]> If you accompany me there, I could more clearly explain the mechanisms behind the sand transfer there!
+		YARROW: If you accompany me there, I could more clearly explain the mechanisms behind the sand transfer to you!
 		</Text>
 	</TextBlock>
 	
@@ -82,7 +82,7 @@
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		CLARY: I'd be thrilled if you would explain this phenomenon to me, Yarrow! However, there is some work I need to tend to first.. Where should I meet you once I am ready?
+		CLARY: I'd be thrilled if you would, Yarrow! There is some work I need to tend to first - but where should I meet you once I am ready?
 		</Text>
 	</TextBlock>
 
@@ -91,7 +91,7 @@
 		<LocationB />
 		<ParentID>10</ParentID>
 		<Text>
-			YARROW: I understand. Let us meet at the <![CDATA[<color=orange>Hourglass Observatory's</color>]]> warp tower on <![CDATA[<color=lightblue>Ember Twin's</color>]]> equator when you are ready then!
+			YARROW: Let us meet at the <![CDATA[<color=orange>Hourglass Observatory's</color>]]> warp tower on <![CDATA[<color=lightblue>Ember Twin's</color>]]> equator when you are ready!
 		</Text>
 	</TextBlock>
 	

@@ -2,31 +2,31 @@
 <TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>DAZ: Greetings, friends! This is the <![CDATA[<color=orange>Scroll and Stone Workshop,</color>]]> where we craft scrolls and projection stones for our clan to transcribe and transport information in compact forms.</Text>
+		<Text>DAZ: Welcome to the <![CDATA[<color=orange>Scroll and Stone Workshop,</color>]]> friends! Here is where we craft scrolls and projection stones to transcribe and transport information in compact forms.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<LocationA />
 		<ParentID>1</ParentID>
-		<Text>DAZ: If you are here to inquire about the memory statues, kindly seek Phlox in the <![CDATA[<color=orange>Statue Workshop</color>]]> within the island in my absence.</Text>
+		<Text>DAZ: If you are here to inquire about the memory statues, kindly seek Phlox in the <![CDATA[<color=orange>Statue Workshop</color>]]> within the island in my absence!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<LocationA />
-		<ParentID>2</ParentID>
-		<Text>DAZ: However, if you seek my expertise in crafting new projection stones (or wish to test out an exciting new type of projection stone)... Please seek me in my <![CDATA[<color=orange>Workshop Loft</color>]]> upstairs!</Text>
+		<ParentID>1</ParentID>
+		<Text>DAZ: However, if you seek my expertise in crafting projection stones (or wish to test out my newest invention), please seek me in my <![CDATA[<color=orange>Workshop Loft</color>]]> upstairs!</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>2</ParentID>
 		<LocationA />
-		<Text>PHLOX: Daz, I was only responsible for sculpting the memory statues! You designed the memory storage systems - how terrible of you to direct such intricate queries to me!</Text>
+		<Text>PHLOX: It was you who designed the memory statues' memory storage systems.. How terrible of you to direct such intricate queries to me!</Text>
 	</TextBlock>
 <TextBlock>
 		<ID>5</ID>
 		<LocationA />
-		<ParentID>3</ParentID>
-		<Text>AVENS: I have to wonder if the voyager stones would be completed by now, if only my brother could take less breaks to visit his lover...</Text>
+		<ParentID>2</ParentID>
+		<Text>PHLOX: Daz, I was only responsible for sculpting the memory statues' exteriors!</Text>
 	</TextBlock>
 
 

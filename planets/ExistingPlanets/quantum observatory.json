@@ -24,7 +24,7 @@
 	"details": [
 		
 		{
-			"rename":"HOBservatory main set to 0 300 0 and 0 0 180",
+			"rename":"HOBservatory main set to 0 400 0 and 0 0 180",
 			"assetBundle": "planets/bundle/stowaway3",
 			"path":"assets/nomai ruins/hourglassob final.prefab",
 			"position": {"x":0,"y": 0,"z": 0},

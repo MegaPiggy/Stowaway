@@ -1,0 +1,87 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		DAZ: Friends, how is the beached specimen? Is it well?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+			CASSAVA: No.. Sadly, it appears to have perished for some time now, though its bioelectricity appears to linger briefly after its termination.
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+			DAZ: I see. How unfortunate...
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+			DAZ: We have never seen a jellyfish beached on an island like this. How could one have even traveled all the way from..
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+			PHLOX: Friends, I apologize to interrupt: a cyclone is approaching the island!
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+			DAZ: What dreadful timing, Phlox! There isn't a storm shelter on this island.. How should we take cover, my friends?
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+			CASSAVA: Worry not, my love. We can simply use gravity crystals to keep us anchored to the ground!
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+			CASSAVA: We must study this specimen further to learn what happened to it. Let us seek shelter in that nearby cove, so we may resume our investigation as soon as the cyclone passes!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Cove R3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Cove R4</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>

@@ -2,7 +2,8 @@
 <TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>CASSAVA: How curious.. Are the native species unaffected by the deadly matter, or were they protected by the deadly matter somehow?</Text>
+		<Text>CASSAVA: I can see jellyfish continuing to swim outside the Deep Storm Station. This species does not appear to have been harmed by the deadly matter.. This is a curious discovery.
+		</Text>
 	</TextBlock>
 	
 <TextBlock>	
@@ -10,20 +11,16 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Further observation is needed. I shall record my findings on the other side of the Construction Bay. 
+		CASSAVA: Perhaps I should study the deadly matter at this site more closely.. I shall record my findings on the other side of the Construction Bay. 
 		</Text>
 </TextBlock>
 
 <ShipLogConditions>
-		<RevealFact>
-			<FactID>WorkshopTop R2</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
 	<RevealFact>
 			<FactID>CB_EX5</FactID>
 			<Condition>3</Condition>
 		</RevealFact>
-<RevealFact>
+		<RevealFact>
 			<FactID>SY R4.5</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
