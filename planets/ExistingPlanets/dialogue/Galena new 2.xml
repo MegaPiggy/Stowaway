@@ -69,7 +69,7 @@
 		<Name>ShyKidNew1</Name>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Oh.. Um...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Is it true that Brittle Hollow's south pole is the safest spot on that planet from meteors?<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Is it true that Brittle Hollow's south pole never gets hit by meteors?<![CDATA[</size>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>
@@ -90,9 +90,9 @@
 		<Name>ShyKidNew2</Name>
 		<Dialogue>
 		<Page><![CDATA[<size=20>]]>Um... Riebeck...<![CDATA[</size>]]></Page>
-		<Page><![CDATA[<size=20>]]>Riebeck was really worried about their ship getting hit by a meteor and leaving them stranded.. So they studied where meteors tended to land on Brittle Hollow before they took off...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>Riebeck was really worried about their ship getting hit by a meteor and leaving them stranded.. So they studied Brittle Hollow to find a spot safe from meteors before they took off...<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>Riebeck told me that the safest spot on Brittle Hollow from meteors was the south pole, so that's where they'll leave their ship... But nobody in the village knows if that's really true.<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Brittle Hollow looks so cool, I wanna go there if I become an astronaut one day.. But I don't want to be stranded there too...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Brittle Hollow looks so cool, I wanna go there if I become an astronaut one day.. But I don't want to be stranded there, either...<![CDATA[</size>]]></Page>
 		</Dialogue>	
 						 <RevealFacts>
      						   <FactID>GAL EX1</FactID>
@@ -112,7 +112,7 @@
 		<Name>ShyKidNew3</Name>
 		<Dialogue>
 		<Page><![CDATA[<size=20>]]>Okay..<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Just be careful where you land your ship on Brittle Hollow, okay..?<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Just be careful where you land your ship if you go to Brittle Hollow, okay..?<![CDATA[</size>]]></Page>
 		</Dialogue>	
 	</DialogueNode>
 

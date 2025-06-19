@@ -98,152 +98,6 @@
 
 
 	"socketQuantumGroups": [		
-
-		{
-			"details": [
-				{
-				"rename":"scroll shelf 1",
-				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"scroll shelf 2",
-				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"scroll shelf 3",
-				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"scroll shelf 4",
-				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
-				"isRelativeToParent": true
-			}
-			
-			],
-			"sockets": [
-				{
-					"position": {"x": -8.9328, "y": 146.4498, "z": -0.5773},
-					"rotation": {"x": 0, "y": 90, "z": 0}
-				},
-				{
-					"position": {"x": 8.929, "y": 146.4498, "z": 0.6118},
-					"rotation": {"x": 0, "y": 270, "z": 0}
-				},
-				{
-					"position": {"x": 0.5563, "y": 146.4498, "z": -8.9374},
-					"rotation": {"x": 0, "y": 0, "z": 0}
-				},
-				{
-					"position": {"x": -0.5292,"y": 146.4498,"z": 8.9226},
-					"rotation": {"x": 0, "y": 180, "z": 0}
-				}
-			]
-		},
-		{
-			"details": [
-			{
-				"rename":"Gallery Bed 1",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/bed.prefab",
-				"position": {"x": 10.16, "y": 114.2245, "z": -0.1108},
-					"rotation": {"x": 0, "y": 180, "z": 0},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Gallery Bed 2",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/bed.prefab",
-				"position": {"x": -10.0473, "y": 114.2245, "z": -0.1108},
-					"rotation": {"x": 0, "y": 0, "z": 0},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Gallery Bed 3",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/bed.prefab",
-				"position": {"x": -0.1546, "y": 114.2245, "z": 10.1601},
-					"rotation": {"x": 0, "y": 90, "z": 0},
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Gallery Bed 4",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/bed.prefab",
-				"position": {"x":-0.1546,"y": 114.2245,"z": -10.1345},
-					"rotation": {"x": 0, "y": 270, "z": 0},
-				"isRelativeToParent": true
-			}
-			],
-			"sockets": [
-				{
-					"position": {"x": 10.16, "y": 114.2245, "z": -0.1108},
-					"rotation": {"x": 0, "y": 180, "z": 0}
-				},
-				{
-					"position": {"x": -10.0473, "y": 114.2245, "z": -0.1108},
-					"rotation": {"x": 0, "y": 0, "z": 0}
-				},
-				{
-					"position": {"x": -0.1546, "y": 114.2245, "z": 10.1601},
-					"rotation": {"x": 0, "y": 90, "z": 0}
-				},
-				{
-					"position": {"x":-0.1546,"y": 114.2245,"z": -10.1345},
-					"rotation": {"x": 0, "y": 270, "z": 0}
-				}
-			]
-		},
-		{
-			"details": [
-				{
-				"rename":"Storehouse box stacked",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/container.prefab",
-				"isRelativeToParent": true
-				},{
-				"rename":"Storehouse bench",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/chair.prefab",
-				"isRelativeToParent": true
-			},	{
-				"rename":"Storehouse box trio",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/container.prefab",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"Storehouse box splatoon",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/container.prefab",
-				"isRelativeToParent": true
-			}
-			],
-			"sockets": 
-			[
-				{
-					"position": {"x": 10.2617, "y": 80.4517, "z": 0.8688},
-					"rotation": {"x": 0, "y": -0.0011, "z": 90}
-				},
-				{
-					"position": {"x": -10.0476, "y": 79.9579, "z": -0.8782},
-					"rotation": {"x": 0, "y": 94.9514, "z": 0}
-				},
-				{
-					"position": {"x": 0.6486 , "y": 79.9579, "z": -9.9634},
-					"rotation": {"x": 0, "y": 358.5199, "z": 0}
-				},
-				{
-					"position": {"x": -1.5667, "y": 79.9579, "z": 9.7584},
-					"rotation": {"x": 0, "y": 196.2131, "z": 0}
-				}
-				
-			]
-		},
-
-
 		{
 			"rename": "f1 quantum gm",
 			"details":[
@@ -321,7 +175,6 @@
 					"isRelativeToParent": true,
 					"position": {"x":0,"y":0,"z":0},
 					"rotation": {"x":0,"y":0,"z":0},
-					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
 					"randomizeYRotation": false
 				}
 			],
@@ -357,7 +210,6 @@
 					"isRelativeToParent": true,
 					"position": {"x":0,"y":0,"z":0},
 					"rotation": {"x":0,"y":0,"z":0},
-					"parentPath": "Sector_QuantumIsland/GD TOWER gm volumes",
 					"randomizeYRotation": false
 				}
 			],
@@ -483,24 +335,6 @@
 				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
 				"isRelativeToParent": true,
 				"scale":4
-			},{
-			"rename": "qshore lead torch",
-			"assetBundle": "planets/bundle/prefabs",
-			"path":"assets/nomai ruins/prefabs/walltorch.prefab",
-			"position": {"x": 60.143,"y": -6.7799,"z": -63.4583},
-			"rotation": {"x": 281.6749,"y": 106.0411,"z": -0.0003},
-				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
-				"removeChildren": ["WallTorch_Connector"],
-			"isRelativeToParent": true
-			},
-			{
-			"rename": "qshore lead sandpile",
-			"path":"TimberHearth_Body/Sector_TH/Sector_NomaiCrater/Props_NomaiCrater/OtherComponentsGroup/Prefab_SandpileStatic (1)",
-			"position": {"x": 60.1103,"y": -6.5526,"z": -63.3129},
-			"rotation":{"x": 358.9453,"y": 218.2089,"z": 8.0896},
-			"scale":2,
-				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
-			"isRelativeToParent": true
 			},
 
 			{
@@ -936,33 +770,10 @@
 
 
 
-			{
-				"rename":"scroll shelf 1B",
-				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
-				"parentPath": "Sector_QuantumIsland/scroll shelf 1",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"scroll shelf 2B",
-				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
-				"parentPath": "Sector_QuantumIsland/scroll shelf 2",
-				"isRelativeToParent": true
-			},
-				{
-				"rename":"scroll shelf 3B",
-				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
-				"parentPath": "Sector_QuantumIsland/scroll shelf 3",
-				"isRelativeToParent": true
-			},
-			{
-				"rename":"scroll shelf 4B",
-				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
-				"parentPath": "Sector_QuantumIsland/scroll shelf 4",
-				"isRelativeToParent": true
-			},
+			
 			{
 				"rename":"chamber1 scroll light",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_InterRoom/",
 				"position": {"x": 0.6944, "y": 0.9878, "z": -0.2636},
 				"parentPath": "Sector_QuantumIsland/scroll shelf 1",
 				"isRelativeToParent": true
@@ -976,7 +787,7 @@
 			},
 			{
 				"rename":"chamber2 scroll light",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_InterRoom/",
 				"position": {"x": 0.0225, "y": 1.6541, "z": 1.1725},
 				"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
 				"isRelativeToParent": true
@@ -991,36 +802,6 @@
 
 
 			{
-				"rename":"Gallery Bed mini",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/bed.prefab",
-				"position": {"x": 0,"y": -2.8873,"z": -0.32},
-					"rotation": {"x": 0, "y": 180, "z": 0},
-				"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
-				"isRelativeToParent": true
-			},
-				{
-				"rename":"Gallery bed toy",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/toyship.prefab",
-				"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
-				"position": {"x": 0.3018, "y": 3.3873, "z": -1.6581},
-				"rotation": {"x": 0, "y": 319.6169, "z": 0},
-				"isRelativeToParent": true
-			},
-
-
-
-
-			{
-				"rename":"finalchamber whiteboard light",
-				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_InterRoom/",
-				"position": {"x": 19.6752, "y": 32.4912, "z": 0.0726},
-				"isRelativeToParent": true
-			},
-
-
-			{
 				"rename":"GD quantum shard dumbwaiter",
 				"path":"CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthUnderground/Interactables_NorthUnderground/QuantumEntanglementRock/Rocks_HCT_QuantumEntanglement_v2/",
 				"position": {"x": 0.2371,"y": -0.4666,"z": -0.3424},
@@ -1032,7 +813,14 @@
 
 
 
-			
+			{
+				"rename":"Storehouse box stacked",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": -1.5667, "y": 79.9579, "z": 9.7584},
+					"rotation": {"x": 0, "y": 196.2131, "z": 0},
+				"isRelativeToParent": true
+			},
 			{
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/container.prefab",
@@ -1059,7 +847,14 @@
 				"isRelativeToParent": true
 			},
 
-		
+			{
+				"rename":"Storehouse box trio",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": -10.0476, "y": 79.9579, "z": -0.8782},
+					"rotation": {"x": 0, "y": 94.9514, "z": 0},
+				"isRelativeToParent": true
+			},
 			{
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/container.prefab",
@@ -1076,7 +871,14 @@
 				"isRelativeToParent": true
 			},
 
-			
+			{
+				"rename":"Storehouse box splatoon",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/container.prefab",
+				"position": {"x": 10.2617, "y": 80.4517, "z": 0.8688},
+					"rotation": {"x": 0, "y": -0.0011, "z": 90},
+				"isRelativeToParent": true
+			},
 			{
 				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
 				"position": {"x": 0.4667, "y": 0.4883, "z": 0.0838},
@@ -1092,7 +894,14 @@
 				"isRelativeToParent": true
 			},
 
-			
+			{
+				"rename":"Storehouse bench",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/chair.prefab",
+				"position": {"x": 0.6486 , "y": 79.9579, "z": -9.9634},
+					"rotation": {"x": 0, "y": 358.5199, "z": 0},
+				"isRelativeToParent": true
+			},
 			{
 				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Box/",
 				"position": {"x": 0.9697, "y": 0, "z": 0.6325},
@@ -1102,14 +911,125 @@
 			},
 
 
+			{
+				"rename":"Gallery Bed 1",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/bed.prefab",
+				"position": {"x": 10.16, "y": 114.2245, "z": -0.1108},
+					"rotation": {"x": 0, "y": 180, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Gallery Bed 2",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/bed.prefab",
+				"position": {"x": -10.0473, "y": 114.2245, "z": -0.1108},
+					"rotation": {"x": 0, "y": 0, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Gallery Bed 3",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/bed.prefab",
+				"position": {"x": -0.1546, "y": 114.2245, "z": 10.1601},
+					"rotation": {"x": 0, "y": 90, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Gallery Bed 4",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/bed.prefab",
+				"position": {"x":-0.1546,"y": 114.2245,"z": -10.1345},
+					"rotation": {"x": 0, "y": 270, "z": 0},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Gallery bed toy",
+				"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/toyship.prefab",
+				"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
+				"position": {"x": 0.3018, "y": 3.3873, "z": -1.6581},
+				"rotation": {"x": 0, "y": 319.6169, "z": 0},
+				"isRelativeToParent": true
+			},
+
+
+			{
+				"rename":"scroll shelf 1",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"isRelativeToParent": true,
+					"position": {"x": -8.9328, "y": 146.4498, "z": -0.5773},
+					"rotation": {"x": 0, "y": 90, "z": 0}
+			},
+			{
+				"rename":"scroll shelf 1B",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"position": {"x": -1.0964,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumIsland/scroll shelf 1",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"scroll shelf 2",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"isRelativeToParent": true,
+					"position": {"x": 0.5563, "y": 146.4498, "z": -8.9374},
+					"rotation": {"x": 0, "y": 0, "z": 0}
+			},
+			{
+				"rename":"scroll shelf 2B",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"position": {"x": -1.0964,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumIsland/scroll shelf 2",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"scroll shelf 3",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"isRelativeToParent": true,
+					"position": {"x": 8.929, "y": 146.4498, "z": 0.6118},
+					"rotation": {"x": 0, "y": 270, "z": 0}
+			},
+			{
+				"rename":"scroll shelf 3B",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"position": {"x": -1.0964,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumIsland/scroll shelf 3",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"scroll shelf 4",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"isRelativeToParent": true,
+				"position": {"x": -0.5292,"y": 146.4498,"z": 8.9226},
+					"rotation": {"x": 0, "y": 180, "z": 0}
+			},
+			{
+				"rename":"scroll shelf 4B",
+				"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
+				"position": {"x": -1.0964,"y": 0,"z": 0},
+				"rotation": {"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumIsland/scroll shelf 4",
+				"isRelativeToParent": true
+			},
+
+
+
+
+		
+		
 			
 		
+		
+			
 
 	
 		
-		
-
-			
 
 
 
@@ -1234,19 +1154,11 @@
 		"position": {"x":-4.0519,"y": -2.6592,"z": -75.698},
 		"rotation": {"x":16.7487,"y": 203.6263,"z": 359.5786},
 		"type":"recorder",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/eye shrine clouds.xml",
+		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/eye mourn.xml",
 				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
 		"isRelativeToParent": true
 	},
-	{
-		"rename":"Eye shrine trailmarker",
-		"position": {"x": 58.8188, "y": -6.4222,"z": -64.3977},
-		"rotation": {"x": 26.271, "y": 74.8599, "z": 348.4666},
-		"type":"trailmarker",
-		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/eye shrine trail.xml",
-				"parentPath": "Sector_QuantumIsland/Sector_QuantumTowerBeach/",
-		"isRelativeToParent": true
-	},
+	
 	{
 		"rename":"Final chamber whiteboard",
 		"position": {"x": 21.0388, "y": 31.1814,"z": 0.073},
@@ -1257,7 +1169,7 @@
 	{
 		"rename":"Phlox item entangle tutorial recording",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/phlox item entangle tutorial.xml",
-		"position": {"x": 0.5702, "y": 0.4043,"z": 1.2264},
+		"position": {"x": 1.7073, "y": -0.0382,"z": 0.7073},
 		"rotation": {"x": 0, "y": 109.6918, "z": 0},
 		"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
 		"type":"recorder",
@@ -1273,13 +1185,12 @@
 		"seed":4,
 		"parentPath": "Sector_QuantumIsland/scroll shelf 1",
 		"isRelativeToParent": true
-	},
-	{
+	},{
 		"rename":"QLocator lead scroll",
 		"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/qm locator lead.xml",
 		"position": {"x": 0.3182, "y": 1.5236,"z": 0.8964},
 		"rotation": {"x": 3.308, "y": 302.0452, "z": 48.3928},
-		"seed":1,
+		"seed":4,
 		"type":"scroll",
 		"parentPath": "Sector_QuantumIsland/Gallery Bed 1",
 		"isRelativeToParent": true

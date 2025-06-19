@@ -348,10 +348,9 @@
 
 
 			{
-				"rename":"storm shelter purplight",
+				"rename":"storm shelter wb purplight",
 				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/Prefab_NOM_Computer/PointLight_NOM_Computer",
-				"position": {"x": 10.3289, "y": 36.1571, "z": 4.1434},
-				"rotation": {"x": 354.0322, "y": 154.7702, "z": 270},
+				"position": {"x": 8.0368, "y": 33.6586, "z": -11.2815},
 				"isRelativeToParent": true
 			},
 

@@ -1,20 +1,22 @@
 <NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
 	
 	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+
 	<TextBlock>
 		<ID>1</ID>
-		<LocationA />
+		<LocationB />
 		<Text>
-		PHLOX: Friends, may I ask who built this intriguing model of <![CDATA[<color=lightblue>Brittle Hollow</color>]]> at the <![CDATA[<color=orange>Crossroads?</color>]]> I am quite curious about its purpose!
+		PHLOX: Spire, I fear there may be a flaw in this simulation of where meteor impacts from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> (our dreaded volcanic moon) will occur on <![CDATA[<color=lightblue>Brittle Hollow!</color>]]>
 		</Text>
-	</TextBlock>
+	</TextBlock>	
 
 	<TextBlock>
 		<ID>2</ID>
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		SPIRE: Ah, that would be me, Phlox. My apologies for my lack of clarity in this new model's purpose!
+		PHLOX: A meteor approached and crashed near me just now.. on a path where the model had said there would be none!
 		</Text>
 	</TextBlock>
 
@@ -23,92 +25,47 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		SPIRE: This is a simulation of where meteor impacts from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> (our dreaded volcanic moon) will occur on <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> ten minutes in the future.
+		PHLOX: Could there be some flaw in this model's calculations of where meteors fall, or was that harrowing encounter simply an unfortunate anomaly?
 		</Text>
 	</TextBlock>
-
 	<TextBlock>
 		<ID>4</ID>
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		SPIRE: With forecasts from this model, we will be able to better know when and where meteor impacts occur, allowing us to safely traverse <![CDATA[<color=lightblue>Brittle Hollow's</color>]]> surface without fear!
+		SPIRE: My gratitude for reporting this error, Phlox. I am deeply relief you were not harmed!
 		</Text>
 	</TextBlock>
-
 	<TextBlock>
 		<ID>5</ID>
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		PHLOX: I see.. What a brilliant idea, Spire! I should have known you were the one behind this project, after seeing your work at the <![CDATA[<color=orange>Southern Observatory.</color>]]>
+		SPIRE: How strange.. There appears to be periods of inaccuracy where meteors do not land as predicted. Yet, without any modification, it resumes predicting impacts with perfect accuracy!
 		</Text>
 	</TextBlock>
-
 	<TextBlock>
 		<ID>6</ID>
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		PHLOX: An update: Spire, I fear there may be a flaw in this model.
+		PHLOX: An update: Spire and I have noticed something rather disturbing.
 		</Text>
-	</TextBlock>	
-
+	</TextBlock>
 	<TextBlock>
 		<ID>7</ID>
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		PHLOX: A meteor approached and crashed near me just now.. on a path where the model had said there would be none!
+		PHLOX: Spire, I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> to ask Daz about this issue at once. Could you bring this matter to our friends at the <![CDATA[<color=orange>Hanging City?</color>]]>
 		</Text>
 	</TextBlock>
-
 	<TextBlock>
 		<ID>8</ID>
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		PHLOX: Could there be some flaw in this model's calculations of where meteors fall, or was that harrowing encounter simply an unfortunate anomaly?
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>9</ID>
-		<LocationB />
-		<ParentID>8</ParentID>
-		<Text>
-		SPIRE: My gratitude for reporting this error, Phlox. I am deeply relief you were not harmed!
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>10</ID>
-		<LocationB />
-		<ParentID>9</ParentID>
-		<Text>
-		SPIRE: How strange.. There appears to be periods of inaccuracy where meteors do not land as predicted. Yet, without any modification, it resumes predicting impacts with perfect accuracy!
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>11</ID>
-		<LocationB />
-		<ParentID>10</ParentID>
-		<Text>
-		PHLOX: An update: Spire and I have noticed something rather disturbing.
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>12</ID>
-		<LocationB />
-		<ParentID>11</ParentID>
-		<Text>
-		PHLOX: Spire, I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> to ask Daz about this issue at once. Could you bring this matter to our friends at the <![CDATA[<color=orange>Hanging City?</color>]]>
-		</Text>
-	</TextBlock>
-	<TextBlock>
-		<ID>13</ID>
-		<LocationB />
-		<ParentID>12</ParentID>
-		<Text>
-		SPIRE: Of course! I only hope that someone at the <![CDATA[<color=orange>Hanging City</color>]]> will have an answer to this mystery.
+		SPIRE: Of course, Phlox. I only hope that someone at the <![CDATA[<color=orange>Hanging City</color>]]> will have an answer to this mystery!
 		</Text>
 	</TextBlock>
 

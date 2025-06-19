@@ -1,0 +1,90 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>It has been some time since we have settled on this island in the hurricane's eye.</Text>
+			</TextBlock>
+
+	<TextBlock>
+			<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>It pains me to report that our survey expeditions of the star system have not yet yielded any signs of any of our missing friends..</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>With our shuttles' inability to navigate <![CDATA[<color=lightblue>Dark Bramble's</color>]]> mazelike interiors, it would be far too dangerous to attempt further expeditions there in search of survivors.</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>However small the odds, I had clung to the hope that our lost friends had managed to escape and survive on one of these planets.</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>It seems.. I was simply mistaken in that hope.</Text>
+			</TextBlock>
+
+				<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>The universe is truly cruel to have torn our clan apart, then left us to guess indefinitely at the fates of those we have lost...</Text>
+			</TextBlock>
+
+			<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>Where would our clan would be today, if we had never heard the signal from the Eye.. Or if we had taken more precautions, before heeding its call?</Text>
+			</TextBlock>
+
+		<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>Our clan might have not lost so many, and its survivors might not have suffered such a long separation.</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>But if we had taken the proper precautions.. Who knows how many more clans and lives might have fallen prey to the same fate as they tried to follow us, and any who followed them?</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>My mind grows weary, ruminating on these endless possibilities...</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>Papa? Why are you sitting here alone?</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>I'm sleepy, papa.. Can we go back inside the tower and read a nocturnal story?</Text>
+			</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<Text>Of course, Phlox. I'll join you in the tower soon, my child.</Text>
+			</TextBlock>
+			
+
+<ShipLogConditions>
+			<RevealFact>
+					<FactID>DBG R1</FactID>
+					<Condition>2</Condition>
+			</RevealFact>
+</ShipLogConditions>
+	
+</NomaiObject>

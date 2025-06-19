@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 
 	"name":"Deep Storm Station",
-	
+	"removeChildren": ["Sector/DSS projectplatform/Structure_NOM_RemoteViewer"],
 
 "Volumes": {
 		"revealVolumes": [
@@ -858,7 +858,7 @@
 				"stones": [{
 					"rename":"DSS ATP stone",
 					"position": {"x": -2.7964,"y": -30.6494,"z": 8.4795},
-					"rotation": {"x": 0,"y": 197.6586,"z": 180},
+					"rotation": {"x": 0,"y": 129.0163,"z": 180},
 					"isRelativeToParent": true
 				}]
 			},
