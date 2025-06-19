@@ -122,7 +122,7 @@
 			"type": "whiteboard",
 			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
 			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225},
-					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/inspired intro.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/solar towers/solar tower south scroll atp.xml",
 					"seed":1
 					
 		},
@@ -132,7 +132,7 @@
 			"position": {"x":24.3426, "y": -45.7584,"z": 183.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/inspired intro.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/solar towers/solar tower south scroll atp.xml",
 			"seed":2
 		},
 		{
@@ -140,7 +140,7 @@
 			"position": {"x":24.3426, "y": -45.7584,"z": 184.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/inspired intro.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/solar towers/solar tower south scroll atp.xml",
 			"seed":3
 		},
 		{
@@ -148,7 +148,7 @@
 			"position": {"x":24.3426, "y": -45.7584,"z": 185.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/inspired intro.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/solar towers/solar tower south scroll atp.xml",
 			"seed":4
 		}
 			]

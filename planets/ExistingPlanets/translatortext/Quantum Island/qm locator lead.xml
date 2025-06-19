@@ -1,0 +1,83 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		COLEUS: Friends, with the new quantum rule Melorae has discovered, I believe we may be able to reach the <![CDATA[<color=lightblue>Quantum Moon</color>]]> at last!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		MELORAE: Of note, Coleus: though we may be able to enter the <![CDATA[<color=lightblue>Quantum Moon,</color>]]> it may still prove a challenge to reach a wandering celestial body with our shuttles.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		MELORAE: We should appoint a set of eyes to remain at the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> to track the planet it is orbiting at all times. That way, we could calculate a shuttle's flight without worry of it orbiting a different planet!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		PLUME: That is a wise idea, Melorae. I shall seek a wise set of eyes to remain at the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> when we next return.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		COLEUS: I agree! Though, it may be difficult to find someone willing to bear the scorching heat at the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin's</color>]]> surface...
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		MELORAE: Plume, we were referring to the locator on <![CDATA[<color=lightblue>Ember Twin's south pole..</color>]]> Do you mean to say that there is a second <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> as well?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		PLUME: Oh? Yes, the Nomai on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> built a locator some time ago to track the <![CDATA[<color=lightblue>Quantum Moon..</color>]]> How amusing that our friends on <![CDATA[<color=lightblue>Ember Twin</color>]]> would come to the same idea.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		MELORAE: How fascinating! Perhaps we should visit this <![CDATA[<color=orange>Second Locator</color>]]> together when we next return to <![CDATA[<color=lightblue>Brittle Hollow,</color>]]>, Plume. I am quite curious how different it is from our locator!
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Workshop R3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

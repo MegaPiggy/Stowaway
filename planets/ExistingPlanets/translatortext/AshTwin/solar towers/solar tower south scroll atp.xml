@@ -1,0 +1,99 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]> 
+	
+	Clue: duration of memory transmission
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		RAMIE: Yarrow, would you kindly remind me how long <![CDATA[<color=lightblue>Ash Twin's</color>]]> core will be protected from the supernova?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationB />
+		<Text>
+		RAMIE: The efficiency of the <![CDATA[<color=orange>solar towers</color>]]> in gathering solar energy from the supernova will determine the duration of the <![CDATA[<color=orange>Ash Twin Project's</color>]]> end-of-cycle transmission.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		RAMIE: As our resources are limited, we will need to scale the magnitude of the <![CDATA[<color=orange>solar towers</color>]]> according to how long <![CDATA[<color=lightblue>Ash Twin's</color>]]> core is able to remain intact.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		YARROW: Ramie: <![CDATA[<color=lightblue>Ash Twin's</color>]]> core will be insulated from the supernova for 35 seconds after the complete collapse of the sun.
+		</Text>
+	</TextBlock>
+
+		<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		YARROW: However, for the safety of the star system, there should be at least a small buffer of time after the completion of the end-of-cycle transmission, and before <![CDATA[<color=lightblue>Ash Twin's</color>]]> core is destroyed!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		RAMIE: An update, Yarrow: the <![CDATA[<color=orange>solar towers</color>]]> will take 30 seconds to gather the required energy to fully power the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		RAMIE: This means that the end-of-cycle transmission will take 30 seconds to complete - 5 seconds before Ash Twin's core is destroyed.
+		</Text>
+	</TextBlock>
+
+<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		RAMIE: Of note: the end-of-cycle transmission will only begin when the sun completes its collapse into a supernova. Please explain this delay to anyone observing the end-of-cycle transmission aboard the <![CDATA[<color=orange>Ash Twin Project!</color>]]>
+		</Text>
+	</TextBlock>
+	
+	
+<ShipLogConditions>
+
+		<RevealFact>
+			<FactID>SLR_T EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SLR_T EX3</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>SLR_T EX4</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>R_SLR R2</FactID>
+			<Condition>9</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+</NomaiObject>
