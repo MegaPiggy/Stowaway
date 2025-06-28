@@ -33,7 +33,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-		YARROW: Still, your concern is deeply appreciated, my friend.. It is heartwarming that you came all this way to warn me about a sunless day!
+		YARROW: Still, your concern is deeply appreciated, Clary. It is heartwarming that you came all this way to warn me about a sunless day!
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -57,7 +57,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		YARROW: I would be happy to explain it to you, though it may be a difficult concept to explain without some demonstration..
+		CLARY: I have never heard of this phenomenon! Would you kindly explain it to me, Yarrow?
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -65,7 +65,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		YARROW: Have you heard of the <![CDATA[<color=orange>Hourglass Observatory</color>]]> together, Clary? It is a station in a stationary orbit behind the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]>
+		YARROW: I would be happy to! Though, it may be a difficult concept to explain without some demonstration..
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -73,7 +73,7 @@
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		YARROW: If you accompany me there, I could more clearly explain the mechanisms behind the sand transfer to you!
+		YARROW: Have you heard of the <![CDATA[<color=orange>Hourglass Observatory,</color>]]> Clary? It is a station in a stationary orbit behind the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]>
 		</Text>
 	</TextBlock>
 	
@@ -82,7 +82,7 @@
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		CLARY: I'd be thrilled if you would, Yarrow! There is some work I need to tend to first - but where should I meet you once I am ready?
+		YARROW: If you accompany me there, I could more clearly explain the mechanisms behind the sand transfer to you!
 		</Text>
 	</TextBlock>
 
@@ -91,14 +91,23 @@
 		<LocationB />
 		<ParentID>10</ParentID>
 		<Text>
-			YARROW: Let us meet at the <![CDATA[<color=orange>Hourglass Observatory's</color>]]> warp tower on <![CDATA[<color=lightblue>Ember Twin's</color>]]> equator when you are ready!
+		CLARY: I'd be thrilled if you would, Yarrow! However, there is some work I need to tend to first. Where should I meet you once I am ready?
 		</Text>
 	</TextBlock>
-	
+
 	<TextBlock>
 		<ID>12</ID>
 		<LocationB />
 		<ParentID>11</ParentID>
+		<Text>
+			YARROW: Let us meet at the <![CDATA[<color=orange>Hourglass Observatory's</color>]]> warp tower on <![CDATA[<color=lightblue>Ember Twin's</color>]]> equator when you are ready!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<LocationB />
+		<ParentID>12</ParentID>
 		<Text>
 		CLARY: You have my gratitude, Yarrow. I look forward to visiting the <![CDATA[<color=orange>Hourglass Observatory</color>]]> together with you!
 		</Text>

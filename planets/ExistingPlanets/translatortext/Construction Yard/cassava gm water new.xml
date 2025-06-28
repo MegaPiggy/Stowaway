@@ -22,14 +22,21 @@
 	<ID>4</ID>
 		<LocationB />
 		<ParentID>3</ParentID>
-		<Text>CASSAVA: If this hypothesis is true... Is that how I was able to..?</Text>
+		<Text>CASSAVA: If this hypothesis is true... Is that how I was able to survive aboard the Deep Storm Station?</Text>
 	</TextBlock>
 
 	<TextBlock>	
 	<ID>5</ID>
 		<LocationB />
 		<ParentID>4</ParentID>
-		<Text>CASSAVA: ..I must focus on my research. There is a second property of this matter that I must investigate further on <![CDATA[<color=lightblue>Timber Hearth.</color>]]></Text>
+		<Text>CASSAVA: ..I must continue my research. There is a second property of this matter that I shall investigate further on <![CDATA[<color=lightblue>Timber Hearth.</color>]]></Text>
+	</TextBlock>
+
+	<TextBlock>	
+	<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>CASSAVA: With the time I have left, I must learn what this exotic matter is... And locate its source.</Text>
 	</TextBlock>
 
 

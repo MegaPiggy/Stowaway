@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2432265083
+CRC: 442964159
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 43ce388092028c2e777440c0c60b48c2
+    Hash: f2b5da7887fd7a4d6eb3534afff3866e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7312e42bd7917eb95964521e0387a57d
+    Hash: b22b9fad7869be4f5cb6c2c6b0bb3bd8
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -42,11 +42,11 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 3e2cd530bcd6ab93471c4405ca1c5b6a, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 1f822540ea339080202b1a261a7e2c56, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 38120ce1f15c99b4ad87f0b22b3aea04, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: b16c2c028878adfb8ab327ff50dec23b, type: 3}
 - Class: 114
@@ -67,8 +67,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 31bd9164073070d2ce3b96fff1a310c7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 455660559346aadad850370831994683, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 36f7e306a24855db0f89ced7314d6ce8, type: 3}
 - Class: 114
@@ -93,8 +91,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 7a54be8810d01e9ae854ddb2580bb460, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 892a6b987a18588fe03a5937388e4a4d, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: ed03af49f0a9abc29e61f405ee2bd4ad, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
 - Class: 114
@@ -125,8 +121,6 @@ ClassTypes:
   Script: {fileID: 11500000, guid: 7731bc3d30c8b009ac33fba6df6e72ae, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1effb1bd669ff10873e29e11509c3d77, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: f1207ecdc9977473579b57e1e274dc71, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 52e21c2fe4355921d245e7606cc2480a, type: 3}
 - Class: 114
@@ -179,6 +173,7 @@ Assets:
 - Assets/Models/TheInspired (1).prefab
 - Assets/Nomai Ruins/Mini QM Simulation.prefab
 - Assets/Models/player nosuit.prefab
+- Assets/Models/Materials/Solar tower hologram.prefab
 - Assets/Nomai Ruins/four eyed monolith.prefab
 - Assets/Models/th portrait.prefab
 - Assets/Models/JellyfishV proxy.prefab
@@ -189,6 +184,7 @@ Assets:
 - Assets/Models/TheInspired gold.prefab
 - Assets/Models/ASH TWIN BEAM north.prefab
 - Assets/Models/bh tower occluder.prefab
+- Assets/Models/VertOrbTrack.prefab
 - Assets/Models/rotation guy.prefab
 - Assets/Models/voyager ring.prefab
 - Assets/Models/Materials/mural front.prefab

@@ -31,7 +31,7 @@
 				"position": {"x":0,"y": 0,"z": 0},
 				"rotation": {"x":0,"y": 0,"z": 0},
 			"isRelativeToParent": true
-		},	
+		},
 		{
 			"rename":"lava bell ore",
 			"assetBundle": "planets/bundle/prefabs",
@@ -290,7 +290,8 @@
 
 
 
-"removeChildren": [
+"removeChildren": 
+[
 ],
 
 "ShipLog" :

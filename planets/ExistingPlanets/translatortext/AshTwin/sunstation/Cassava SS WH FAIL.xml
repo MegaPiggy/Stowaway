@@ -1,0 +1,87 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PYE: I.. I am at a loss, Idaea. Why did the <![CDATA[<color=orange>Sun Station</color>]]> fail?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		IDAEA: Perhaps our theory was wrong. Or perhaps.. The white hole is simply not strong enough to overpower the star's gravity?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		IDAEA: Would it be possible to increase the strength of the <![CDATA[<color=orange>Sun Station's</color>]]> white hole, Pye?
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>
+		PYE: Theoretically, yes. But it would involve redesigning the <![CDATA[<color=orange>Sun Station</color>]]> (a painstaking process now that it is already in orbit).. Or starting over completely.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		IDAEA: Worse, increasing the power of the white hole would take an exponential amount of energy - precisely why we required the supernova in the first place...
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		IDAEA: What if the <![CDATA[<color=orange>Sun Station</color>]]> opened a black hole in the sun's core instead, Pye?
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		PYE: If a white hole was not of sufficient strength, a black hole would not likely induce a supernova either, though miniscule amounts of solar matter may be ejected by the white hole..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		PYE: I apologize, Idaea. My hypothesis was flawed.. The <![CDATA[<color=orange>Sun Station</color>]]> has failed.
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>TH_WR R2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>TH_WR EX3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH_WR EX3.5</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+</ShipLogConditions>
+
+
+</NomaiObject>

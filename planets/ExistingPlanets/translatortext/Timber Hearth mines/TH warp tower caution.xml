@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		OENO: Though the warp tower is normally oxygenated and pressurized, we have found an issue with the warp tower's doors that leaves them inadequate for keeping lifeforms from wandering outside the tower.
+		OENO: Though the warp tower is normally oxygenated and pressurized to keep lifeforms from wandering outside, we have found an issue with the <![CDATA[<color=orange>Timber Hearth warp tower</color>]]> that compromises this security.
 		</Text>
 	</TextBlock>
 

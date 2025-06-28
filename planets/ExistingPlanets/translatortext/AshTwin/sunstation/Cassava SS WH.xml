@@ -1,0 +1,119 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		PYE: Be cautious now, friend! We must take tremendous care not to order the <![CDATA[<color=orange>Sun Station</color>]]>  to fire before the <![CDATA[<color=orange>Ash Twin Project</color>]]> is ready.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationA />
+		<ParentID>1</ParentID>
+		<Text>
+		CASSAVA: Your warning only bolsters my curiosity, Pye! Please, how precisely does the <![CDATA[<color=orange>Sun Station</color>]]> cause the sun to go supernova?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		PYE: It is simple, Cassava! The <![CDATA[<color=orange>Sun Station</color>]]> will induce a supernova by utilizing the power of a \\n white hole.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>3</ParentID>
+		<Text>
+		PYE: Our elders' <![CDATA[<color=orange>Vessels</color>]]> used to travel by opening a white hole at a chosen coordinate from afar, allowing them to warp to precise locations through the paired black hole.
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		PYE: The idea dawned on me then.. If we have the ability to open white holes from afar, what if we were to open a white hole at the core of the sun?
+		</Text>
+	</TextBlock>
+
+	
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		CASSAVA: I do not understand still.. How could a white hole cause the sun to go supernova, Pye?
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>7</ID>
+		<LocationA />
+		<ParentID>6</ParentID>
+		<Text>
+		PYE: You see, while nothing can escape a black hole's event horizon, nothing can enter a white hole's event horizon.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationA />
+		<ParentID>7</ParentID>
+		<Text>
+		PYE: If a white hole were to appear at the core of the sun, we posit it would disrupt the balance between its fusion process and gravity, overpowering the inward pressure of the star's gravity.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<LocationA />
+		<ParentID>8</ParentID>
+		<Text>
+		CASSAVA: I see! Though a supernova naturally occurs when a star's gravity overpowers its weakening core, this would theoretically be a different way to induce a supernova.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<LocationA />
+		<ParentID>9</ParentID>
+		<Text>
+		CASSAVA: How fascinating, Pye! I had not considered the destructive potential of white holes in this way before..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<LocationA />
+		<ParentID>10</ParentID>
+		<Text>
+		CASSAVA: Though terrifying, I must applaud you and Idaea for this brilliant idea.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<LocationA />
+		<ParentID>11</ParentID>
+		<Text>
+		PYE: I am honored by your praise, Cassava! Though I doubt Idaea would call it 'brilliant', he would surely agree with us on its destructive potential.
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+				<RevealFact>
+			<FactID>TH_WR R2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>TH_WR EX3</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH_WR EX3.5</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+</ShipLogConditions>
+
+
+</NomaiObject>

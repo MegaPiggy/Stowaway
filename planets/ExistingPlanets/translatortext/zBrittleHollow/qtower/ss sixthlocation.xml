@@ -1,0 +1,109 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB/>
+		<Text>
+			KOUSA: The perpetual storm shelter has been constructed, Idaea!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationA/>
+		<Text>
+			IDAEA: You have my deepest gratitude, Kousa.. I was not sure if it would even be possible to build a storm shelter that was active perpetually!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationA/>
+		<Text>
+			KOUSA: Of course, but.. Why did you wish to build a perpetual storm shelter on the <![CDATA[<color=lightblue>Quantum Moon,</color>]]> young one?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB/>
+		<Text>
+			IDAEA: Ah, I was reminded of your invention during a recent visit to <![CDATA[<color=lightblue>Giant's Deep.</color>]]> I was truly impressed how they were able to protect Nomai from even the fiercest winds.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB/>
+		<Text>
+			IDAEA: From what I know, we have thus far been unable to escape the sixth location because of impossibly strong winds surrounding the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> skies.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationB/>
+		<Text>
+			IDAEA: If we built a storm shelter on the sixth location, perhaps it would allow us to escape the strong winds surrounding the <![CDATA[<color=lightblue>Quantum Moon</color>]]> there.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB/>
+		<Text>
+			KOUSA: Young Idaea... How.. How have I never thought of that?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationB/>
+		<Text>
+			KOUSA: Yes, yes... If this plan works, we may be able to reach our goals without ever putting the star system at risk! 
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<LocationB/>
+		<Text>
+			KOUSA: I must make preparations to set off for the Quantum Moon at once. Would you wish to accompany me, Idaea?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<LocationB/>
+		<Text>
+			IDAEA: I.. wish I could, but I must return to my work on the Sun Station shortly.. Would you kindly write to the Sun Station using the projection wall when you return, Kousa?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<LocationB/>
+		<Text>
+			KOUSA: Of course, my friend. I shall update you from the projection wall within the Tower of Quantum Knowledge upon my return!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<LocationB/>
+		<Text>
+			IDAEA: You have my gratitude, my friend. Be curious on your journey.
+		</Text>
+	</TextBlock>
+
+	
+
+	<ShipLogConditions>
+		<LocationB/>
+		<RevealFact>
+			<FactID>BH_QUANTUM_RESEARCH_TOWER_R2</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
+	</ShipLogConditions>
+</NomaiObject>

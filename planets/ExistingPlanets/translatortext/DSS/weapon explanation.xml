@@ -4,7 +4,7 @@
 	<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: The <![CDATA[<color=orange>Inspired's</color>]]> construction was completed today.</Text>
+		CASSAVA: After the last shipment of gravity crystals, I have at last completed the comet's construction.</Text>
 			</TextBlock>
 <TextBlock>	
 	<ID>2</ID>
@@ -19,7 +19,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: Upon receiving my order, all comprising gravity crystals will exert maximal output towards the core, crushing inwards against the impenetrable force of a white hole.
+		CASSAVA: Upon receiving my order, all comprising gravity crystals will exert maximal output towards the core - crushing inwards against the impenetrable force of a white hole at its core.
 		</Text>
 			</TextBlock>
 

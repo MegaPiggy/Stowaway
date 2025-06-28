@@ -105,7 +105,7 @@
 		}
 	],
 	"details": [
-		{
+	{
 		"rename":"Inspired gas tail",
 		"path":"Comet_Body/Sector_CO/Effects_CO/Effects_CO_TailMeshes/Effects_CO_GasTail/",
 		"position": {"x":0,"y": 0,"z": 0},

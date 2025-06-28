@@ -83,6 +83,14 @@
 				"position":{"x": 20.0313,"y": -45.4565,"z": 184.6188},
 				"rotation": {"x":70.6127 ,"y": 108.3506,"z": 137.1097},
 				"isRelativeToParent": true
+			},
+				{
+				"rename": "ss power control",
+				"path":"BrittleHollow_Body/Sector_BH/Sector_SouthHemisphere/Sector_SouthPole/Sector_Observatory/Interactables_Observatory/HologramProjector/Prefab_NOM_OrbTrack_Vertical (2)/",
+				"position":{"x": 15.4298,"y": -44.4972,"z": 184.967},
+				"rotation": {"x":35.4543 ,"y": 104.6198,"z": 106.5548},
+				"scale":1,
+				"isRelativeToParent": true
 			}
 
 		
@@ -122,7 +130,7 @@
 			"type": "whiteboard",
 			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
 			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225},
-				"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/qm locator lead.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/sunstation/Cassava SS WH FAIL.xml",
 					"seed":1
 					
 		},
@@ -132,7 +140,7 @@
 			"position": {"x":24.3426, "y": -45.7584,"z": 183.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-				"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/qm locator lead.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/sunstation/Cassava SS WH FAIL.xml",
 			"seed":2
 		},
 		{
@@ -140,7 +148,7 @@
 			"position": {"x":24.3426, "y": -45.7584,"z": 184.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-				"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/qm locator lead.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/sunstation/Cassava SS WH FAIL.xml",
 			"seed":3
 		},
 		{
@@ -148,7 +156,7 @@
 			"position": {"x":24.3426, "y": -45.7584,"z": 185.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-				"xmlFile": "planets/ExistingPlanets/translatortext/Quantum Island/qm locator lead.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/sunstation/Cassava SS WH FAIL.xml",
 			"seed":4
 		}
 			]

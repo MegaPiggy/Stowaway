@@ -36,7 +36,21 @@
 				"scale":1.2
 			}
 			
-		]
+		],
+		"singularities":
+	[
+		{
+			"type": "whiteHole",
+			"uniqueID": "SS WH",
+			"pairedSingularity": "SS BH",
+			"hasWarpEffects": false,
+			"horizonRadius": 15,
+			"position":{"x": 0,"y": 0,"z": 0},
+			"isRelativeToParent": true,
+			"renderQueueOverride": 2501,
+			"parentPath": "Sector/SSWH_Condition"
+		}
+	]
 	},
 	"Volumes": {
 		"notificationVolumes": [

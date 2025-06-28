@@ -17,7 +17,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		RAMIE: The efficiency of the <![CDATA[<color=orange>solar towers</color>]]> in gathering solar energy from the supernova will determine the duration of the <![CDATA[<color=orange>Ash Twin Project's</color>]]> end-of-cycle transmission.
+		RAMIE: The efficiency of the <![CDATA[<color=orange>solar towers</color>]]> which power the <![CDATA[<color=orange>Ash Twin Project's</color>]]> will determine the duration of the end-of-cycle transmission.
 		</Text>
 	</TextBlock>
 
@@ -26,7 +26,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		RAMIE: As our resources are limited, we will need to scale the magnitude of the <![CDATA[<color=orange>solar towers</color>]]> according to how long <![CDATA[<color=lightblue>Ash Twin's</color>]]> core is able to remain intact.
+		RAMIE: As our resources are limited, we need to scale the size of the <![CDATA[<color=orange>solar towers</color>]]> according to how long <![CDATA[<color=lightblue>Ash Twin's</color>]]> core remains intact.
 		</Text>
 	</TextBlock>
 
@@ -35,7 +35,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: Ramie: <![CDATA[<color=lightblue>Ash Twin's</color>]]> core will be insulated from the supernova for 35 seconds after the complete collapse of the sun.
+		YARROW: Ramie: <![CDATA[<color=lightblue>Ash Twin's</color>]]> core will be insulated from the supernova for 35 seconds.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		YARROW: However, for the safety of the star system, there should be at least a small buffer of time after the completion of the end-of-cycle transmission, and before <![CDATA[<color=lightblue>Ash Twin's</color>]]> core is destroyed!
+		YARROW: However, we should aim for a window of time between the completion of the end-of-cycle transmission, and the destruction of <![CDATA[<color=lightblue>Ash Twin's</color>]]> core!
 		</Text>
 	</TextBlock>
 
@@ -71,7 +71,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		RAMIE: Of note: the end-of-cycle transmission will only begin when the sun completes its collapse into a supernova. Please explain this delay to anyone observing the end-of-cycle transmission aboard the <![CDATA[<color=orange>Ash Twin Project!</color>]]>
+		RAMIE: Of note: the end-of-cycle transmission will begin once the sun completes its collapse into a supernova. Please explain this delay to anyone observing the end-of-cycle transmission aboard the <![CDATA[<color=orange>Ash Twin Project!</color>]]>
 		</Text>
 	</TextBlock>
 	

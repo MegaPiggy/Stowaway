@@ -1,0 +1,128 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	Clue should be guiding players towards rotating doors on warp towers activating on their own
+	Actors should be
+	Context should be Pye visiting the solar tower crew? One of the members warping from TH notices?
+	
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		CLARY: Yarrow, is this the solar tower you have been constructing? It is.. a little smaller than I imagined!
+		YARROW: Yes, this is the central shaft of the solar tower, Clary.
+		YARROW: Have my faith it is quite colossal in size.. it is simply buried by sand right now! I am patiently awaiting the sand on Ash Twin to flow back to Ember Twin soon to resume its construction.
+		CLARY: You have my sympathy and respect for your patience, Yarrow.. It must be quite frustrating working on a planet with such unpredictable phenomena!
+		YARROW: Unpredictable? No no, the Hourglass Twins' sandflow is quite predictable, Clary!
+		YARROW: Have you heard of the <![CDATA[<color=orange>Hourglass Observatory,</color>]]> Clary? It is a station in a stationary orbit behind the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]>
+		YARROW: If you accompany me there, I could show you how to tell when the sand transfer occurs!
+		CLARY:  I'd be thrilled if you would, Yarrow! There is some work I need to tend to first - but where should I meet you once I am ready? 
+			YARROW: Let us meet at the <![CDATA[<color=orange>Hourglass Observatory's</color>]]> warp tower on <![CDATA[<color=lightblue>Ember Twin's</color>]]> equator when you are ready!
+		CLARY: You have my gratitude, Yarrow. I look forward to visiting the <![CDATA[<color=orange>Hourglass Observatory</color>]]> together with you!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		CLARY: I worry for your safety.. You should cease construction of the <![CDATA[<color=orange>solar tower</color>]]> until it subsides!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		YARROW: Worry not, Clary! The <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> poles do not experience sunless days.. We are safe from the sand column here.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		YARROW: Still, your concern is deeply appreciated, Clary. It is heartwarming that you came all this way to warn me about a sunless day!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		CLARY: A sunless day..? Is that what causes sand to flow between the <![CDATA[<color=lightblue>Hourglass Twins?</color>]]>
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		YARROW: Oh, are you not aware what a sunless day is?
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		YARROW: I would be happy to explain it to you! Though, it may be a difficult concept to explain without some demonstration..
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		YARROW: Have you heard of the <![CDATA[<color=orange>Hourglass Observatory</color>]]> together, Clary? It is a station in a stationary orbit behind the <![CDATA[<color=lightblue>Hourglass Twins.</color>]]>
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>9</ID>
+		<LocationB />
+		<ParentID>8</ParentID>
+		<Text>
+		YARROW: If you accompany me there, I could more clearly explain the mechanisms behind the sand transfer to you!
+		</Text>
+	</TextBlock>
+	
+		<TextBlock>
+		<ID>10</ID>
+		<LocationB />
+		<ParentID>9</ParentID>
+		<Text>
+		CLARY: I'd be thrilled if you would, Yarrow! There is some work I need to tend to first - but where should I meet you once I am ready?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<LocationB />
+		<ParentID>10</ParentID>
+		<Text>
+			YARROW: Let us meet at the <![CDATA[<color=orange>Hourglass Observatory's</color>]]> warp tower on <![CDATA[<color=lightblue>Ember Twin's</color>]]> equator when you are ready!
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>12</ID>
+		<LocationB />
+		<ParentID>11</ParentID>
+		<Text>
+		CLARY: You have my gratitude, Yarrow. I look forward to visiting the <![CDATA[<color=orange>Hourglass Observatory</color>]]> together with you!
+		</Text>
+	</TextBlock>
+	
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>SLR_T EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>SLR_T EX2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

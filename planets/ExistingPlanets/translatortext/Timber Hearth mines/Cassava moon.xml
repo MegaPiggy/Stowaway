@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: The deadly matter here appears to consistently rise as the <![CDATA[<color=lightblue>Attlerock</color>]]> orbits overhead.
+		CASSAVA: I have observed the deadly matter on this planet consistently rising as the <![CDATA[<color=lightblue>Attlerock</color>]]> orbits overhead.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: Hypothesis confirmed... I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> at once.
+		CASSAVA: This would explain why the deadly matter appears to stay low to the surface of planets, or anchored along surfaces powered by artificial gravity.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -28,7 +28,23 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: If the hypothesized property of attraction is true, it will change everything.
+		CASSAVA: If this hypothesis is true, much of the matter should be drawn over time towards the planets in the star system - as well as the sun, the gravitational center of the system.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		CASSAVA: But with their planets indefinitely irradiated by this deadly matter, countless species will surely be eradicated, if they did not already perish by its arrival..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationA />
+		<ParentID>5</ParentID>
+		<Text>
+		CASSAVA: I can only be grateful for the survival of those protected by the property of immersion.. As well as the chance to learn what I can about this deadly matter.
 		</Text>
 	</TextBlock>
 

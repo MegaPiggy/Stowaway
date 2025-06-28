@@ -43,7 +43,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		POKE: For instance: the memory statues that record memories to the <![CDATA[<color=orange>Ash Twin Project</color>]]> are not insulated from the supernova! Won't this connection be broken when the statues are destroyed by the supernova?
+		POKE: For instance: the memory statues that record memories to the <![CDATA[<color=orange>Ash Twin Project</color>]]> are not insulated! Won't this system be disrupted when the statues are destroyed by the supernova?
 		</Text>
 	</TextBlock>
 
@@ -61,7 +61,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		ROOT: If a memory statue is destroyed, the individual will be unable to recall memories after the statue's destruction, as those memories are no longer being recorded to the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		ROOT: The <![CDATA[<color=orange>Ash Twin Project</color>]]> remains connected to any individuals once paired, so the temporary destruction of the memory statues is not a matter of great concern.
 		</Text>
 	</TextBlock>
 
@@ -70,7 +70,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		ROOT: However, as the <![CDATA[<color=orange>Ash Twin Project</color>]]> remains connected to any individuals once paired, the temporary destruction of the memory statues is not a concern.
+		ROOT: The only issue of note is that the individual will be unable to recall any memories after the statue's destruction, as memories beyond that point cannot be recorded to the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -79,7 +79,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		POKE: That sounds reassuring.. but also quite disturbing!
+		POKE: That sounds reassuring.. but also quite disturbing, Root!
 		</Text>
 	</TextBlock>
 

@@ -290,7 +290,7 @@
 				"position": {"x": -236.4538,"y": -46.0363,"z": -68.5974},
 				"rotation": {"x": 274.6971,"y": 146.8382,"z": 7.6289},
 				"type": "scroll",
-				"seed":1,
+				"seed":2,
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/cassava moon.xml",
 					"parentPath": "Sector_TH/Sector_WarpRuins",
 				"isRelativeToParent": true
@@ -308,7 +308,7 @@
 			
 			{
 				"rename": "TH Mine direction cairn",
-				"position": {"x": -149.501,"y": 2.2512,"z": -135.886},
+				"position": {"x": -149.601,"y": 2.8512,"z": -135.886},
 				"rotation": {"x": 357.4489,"y": 317.1022,"z": 89.2887},
 				"type": "cairnTH",
 				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/hearthian cairn.xml",
