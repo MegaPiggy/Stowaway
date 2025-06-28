@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		ANNONA: Could this be the <![CDATA[<color=orange>Sixth Location Locator</color>]]> you mentioned, Bells?
+		COLEUS: Is this the <![CDATA[<color=orange>Second Locator</color>]]> you mentioned to us, Plume?
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		BELLS: Yes, but.. I apologize for misleading you, Annona. I had assumed our locator was more sophisticated than it actually was...
+		PLUME: It is, but.. I fear it is a bit lacking in its function, compared to the locator on <![CDATA[<color=lightblue>Ember Twin..</color>]]> 
 		</Text>
 	</TextBlock>
 
@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		BELLS: According to Filix, the <![CDATA[<color=orange>Sixth Location Locator</color>]]> appears unable to track the precise position of any planet.. It simply detects which celestial body the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is orbiting.
+		PLUME: I have heard from Melorae that the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]> tracks the precise position of the <![CDATA[<color=lightblue>Quantum Moon..</color>]]> I fear this locator lacks such sophistication.
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		BELLS: And despite its name, the <![CDATA[<color=orange>Sixth Location Locator</color>]]> can only detect the absence of the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> signal as it visits the sixth location.
+		COLEUS: Ah, that is not what I was thinking, my friend. But..
 		</Text>
 	</TextBlock>
 
@@ -41,7 +41,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		ANNONA: I see.. 
+		COLEUS: Is there a reason this <![CDATA[<color=orange>Second Locator</color>]]> was built underground?
 		</Text>
 	</TextBlock>
 
@@ -50,7 +50,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		ANNONA: Nevertheless, I am thrilled to see how differently our friends here on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> have approached designing a device for this purpose.
+		PLUME: Ah, that is because we needed to protect the <![CDATA[<color=orange>Second Locator's</color>]]> delicate sensors from meteor impacts, you see.
 		</Text>
 	</TextBlock>
 
@@ -59,7 +59,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		ANNONA: And though it does appear more rudimentary, I do see one major benefit in this locator over ours on <![CDATA[<color=lightblue>Ember Twin.</color>]]>
+		COLEUS: I see.. The issue is, a limited visibility of the sky makes it much harder to directly observe the <![CDATA[<color=lightblue>Quantum Moon.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -68,7 +68,7 @@
 		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		ANNONA: That is, the simplicity and clarity of...
+		COLEUS: That is why we insisted on building the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin's</color>]]> surface, despite the terrible heat on that planet's surface.
 		</Text>
 	</TextBlock>
 
@@ -77,7 +77,7 @@
 		<LocationA />
 		<ParentID>8</ParentID>
 		<Text>
-		ANNONA: Bells, what is that..? A glowing meteor approaches us.
+		PLUME: I see.. In that case, it seems clear the <![CDATA[<color=orange>Quantum Moon Locator</color>]]> on <![CDATA[<color=lightblue>Ember Twin</color>]]> would be the more ideal choice for tracking the <![CDATA[<color=lightblue>Quantum Moon.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -86,7 +86,7 @@
 		<LocationA />
 		<ParentID>9</ParentID>
 		<Text>
-		BELLS: That is.. a meteor from the volcanic moon! And it is rapidly heading towards us!
+		PLUME: I thank you for visiting the <![CDATA[<color=orange>Second Locator</color>]]> today, Coleus. Though, in hindsight, it is quite embarrassing how lacking our locator is in comparison!
 		</Text>
 	</TextBlock>
 
@@ -95,7 +95,25 @@
 		<LocationA />
 		<ParentID>10</ParentID>
 		<Text>
-		BELLS: Quick, Annona! We should seek shelter inside the <![CDATA[<color=orange>Tower of Quantum Knowledge</color>]]> before we continue this discussion!
+		COLEUS: Plume: there is no shame in learning from each other, and less for the circumstances we built them in! We simply adapted a similar idea to the conditions we faced on each planet.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<LocationA />
+		<ParentID>11</ParentID>
+		<Text>
+		COLEUS: Furthermore, this locator is quite helpful in indicating which planet the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is orbiting without ambiguity.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<LocationA />
+		<ParentID>12</ParentID>
+		<Text>
+		COLEUS: But.. Yes, it would be more functional, if only it had a better view of the sky!
 		</Text>
 	</TextBlock>
 

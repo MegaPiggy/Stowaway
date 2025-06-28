@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 442964159
+CRC: 773118859
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f2b5da7887fd7a4d6eb3534afff3866e
+    Hash: 0ce243b098f78c8ddf5e0d829c1490fb
   TypeTreeHash:
     serializedVersion: 2
     Hash: b22b9fad7869be4f5cb6c2c6b0bb3bd8
@@ -184,7 +184,6 @@ Assets:
 - Assets/Models/TheInspired gold.prefab
 - Assets/Models/ASH TWIN BEAM north.prefab
 - Assets/Models/bh tower occluder.prefab
-- Assets/Models/VertOrbTrack.prefab
 - Assets/Models/rotation guy.prefab
 - Assets/Models/voyager ring.prefab
 - Assets/Models/Materials/mural front.prefab

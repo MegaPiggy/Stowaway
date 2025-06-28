@@ -3,26 +3,66 @@
 
 	<TextBlock>
 		<ID>1</ID>
-		<LocationB/>
-		<Text>SOLANUM: I’m at the shuttle! I’m ready to make my first pilgrimage to the <![CDATA[<color=lightblue>Quantum Moon</color>]]>.</Text>
+		<LocationA/>
+		<Text>
+			KOUSA: Friends on the <![CDATA[<color=orange>Sun Station:</color>]]> it saddens me to report that our plan to escape the sixth location has failed.
+		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<LocationA/>
-		<Text>BELLS: That’s exciting! You’re <![CDATA[<i>almost</i>]]> ready, but there’s still one more rule you need to learn. Come see me at the <![CDATA[<color=orange>Tower of Quantum Knowledge</color>]]>.</Text>
+		<Text>
+			KOUSA: Though the storm shelter shielded us from the sixth location's strong winds, we remained unable to escape into orbit.. The winds did not appear to be the only obstacle in our path.
+		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<LocationA/>
-		<Text>BELLS: The tower is on the opposite side of <![CDATA[<color=lightblue>Brittle Hollow</color>]]>. If you follow the path west to the <![CDATA[<color=orange>Crossroads</color>]]>, you can reach the tower from there.</Text>
+		<Text>
+			KOUSA: I can only feel deeply disappointed and confused by this failure. If we were able to push through its winds, why were we still unable to escape the Sixth Location?
+		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<LocationB/>
-		<Text>SOLANUM: My gratitude for the directions, Bells. I’ll see you soon!</Text>
+		<Text>
+			IDAEA: Though I am saddened to hear this news, no matter the result, I am deeply grateful to you for pursuing the slightest possibility of it, my friend.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>3</ParentID>
+		<LocationB/>
+		<Text>
+			IDAEA: Hypothesis: perhaps it is because we are unable to observe what exists outside the sixth location’s clouds, that we are unable to leave it?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationB/>
+		<Text>
+			IDAEA: It is the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> thick atmosphere which obscures its visitors' sight during entry, causing it to return to superposition.. Perhaps this thick atmosphere impedes exit as well?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationA/>
+		<Text>
+			KOUSA: But Idaea, on all other states of the <![CDATA[<color=lightblue>Quantum Moon,</color>]]> we are able to freely leave without observing its exterior.. Why would it be so uniquely difficult to leave the sixth location?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationB/>
+		<Text>
+			IDAEA: The <![CDATA[<color=lightblue>Quantum Moon</color>]]> orbits the source of macroscopic quantum phenomena. Though unnerving to imagine.. Perhaps even the space outside the sixth location must be observed in order to exist.
+		</Text>
 	</TextBlock>
 
 	<ShipLogConditions>

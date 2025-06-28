@@ -3,6 +3,7 @@
 
 	"name":"QuantumMoon",
 
+	"removeChildren": ["Sector_QuantumMoon/State_EYE/Volumes_EYEState/VortexFluidVolume"],
 	"Props": {
 	
 		"socketQuantumGroups": [
@@ -23,11 +24,28 @@
 						"rename": "MAIN POLE",
 						"position": {"x": 0,"y": 69.8155,"z": 0},
 						"rotation": {"x": 0,"y": 0,"z": 0},
-						"isRelativeToParent": true
+						"isRelativeToParent": true,
+						"probability": 4
 					},
 					{
 						"position": {"x":-47.1401,"y": 40.0462,"z": -31.7992},
 						"rotation": {"x":319.5609,"y": 3.0887,"z": 40.3794},
+						"isRelativeToParent": true
+					},{
+						"position": {"x":-45.8098,"y": 41.7065,"z": 31.8257},
+						"rotation": {"x":46.2072,"y": 267.7493,"z": 331.0083},
+						"isRelativeToParent": true
+					},{
+						"position": {"x": 0.6892,"y": 40.197,"z": -56.787},
+						"rotation": {"x":41.3963,"y": 128.4921,"z": 320.4307},
+						"isRelativeToParent": true
+					},{
+						"position": {"x":52.3187,"y": 42.0619,"z": -18.4289},
+						"rotation": {"x":339.62,"y": 3.399,"z": 310.4379},
+						"isRelativeToParent": true
+					},{
+						"position": {"x": 41.3162,"y": 41.5703,"z": 37.7041},
+						"rotation": {"x":23.7421,"y": 119.7469,"z": 49.8312},
 						"isRelativeToParent": true
 					}
 				]
@@ -37,15 +55,65 @@
 			"details": [
 			
 			{
+				"rename":"VortexFluidVolume repositioned",
+				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Volumes_EYEState/VortexFluidVolume",
+				"position":{"x": 0,"y": -165,"z": 0},
+				"rotation":{"x": 0,"y": 0,"z": 180},
+				"parentPath": "Sector_QuantumMoon/State_EYE/Volumes_EYEState",
+				"isRelativeToParent": true
+			},
+			{
 				"rename":"eye crust",
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/stateeye crust.prefab",
 				"position":{"x": 0,"y": 0,"z": 0},
-				"rotation":{"x": 5.216,"y": 29.0886,"z": 270.5947},
+				"rotation":{"x": 347.0727,"y": 127.5644,"z": 283.8342},
 				"parentPath": "Sector_QuantumMoon/State_EYE",
 				"scale":17.5,
 				"isRelativeToParent": true
 			},
+			{
+				"rename":"eye crust collider",
+				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/AnglerFishTankPivot/Beast_Anglerfish/",
+				"position":{"x": -33.7033,"y": 51.9855,"z": 6.7998},
+				"rotation":{"x": 330.5839,"y": 13.2345,"z": 31.4948},
+				"parentPath": "Sector_QuantumMoon/State_EYE",
+				"scale":0.05,
+				"isRelativeToParent": true
+			},{
+				"rename":"qm shelter geo",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/SafetyBeams/Prefab_NOM_SafetyTractorBeam/Props_NOM_SafetyTractorBeam/",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"rotation":{"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumMoon/SixthLocation stormshelter",
+				"scale":2,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"qm shelter AlignmentGravityVolume",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/SafetyBeams/Prefab_NOM_SafetyTractorBeam/AlignmentGravityVolume",
+				"position":{"x": 0,"y": 3.86,"z": 0},
+				"rotation":{"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumMoon/SixthLocation stormshelter",
+				"stretch": {"x":2,"y":13.5,"z":2},
+				"isRelativeToParent": true
+			},{
+				"rename":"qm shelter BeamVolume",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/SafetyBeams/Prefab_NOM_SafetyTractorBeam/BeamVolume",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"rotation":{"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumMoon/SixthLocation stormshelter",
+				"stretch": {"x":2,"y":13.5,"z":2},
+				"isRelativeToParent": true
+			},{
+				"rename":"qm shelter Effects_NOM_SafetyVolume",
+				"path":"StatueIsland_Body/Sector_StatueIsland/Interactables_StatueIsland/SafetyBeams/Prefab_NOM_SafetyTractorBeam/Effects_NOM_SafetyVolume",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"rotation":{"x": 0,"y": 0,"z": 0},
+				"parentPath": "Sector_QuantumMoon/SixthLocation stormshelter",
+				"stretch": {"x":2,"y":13.5,"z":2},
+				"isRelativeToParent": true
+			}
 			
 
 		],

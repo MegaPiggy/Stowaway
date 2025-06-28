@@ -111,10 +111,10 @@
 				"rotation": {"x": 286.2347, "y": 349.3389, "z": 195.0047},
 				"nomaiText": [
 					{
-						"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/hourglass observatory/hob atp.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/qtower/ss sixthlocation fail.xml",
 						"id": "TH_Sanctuary",
 						"location": "b",
-						"seed": 4
+						"seed": 5
 					}
 					]
 				
@@ -130,7 +130,7 @@
 			"type": "whiteboard",
 			"position": {"x": 11.5605, "y": -48.8466, "z": 184.1389},
 			"rotation": {"x": 329.309, "y": 84.1602, "z": 107.8225},
-					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/sunstation/Cassava SS WH FAIL.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/qtower/ss sixthlocation fail.xml",
 					"seed":1
 					
 		},
@@ -140,7 +140,7 @@
 			"position": {"x":24.3426, "y": -45.7584,"z": 183.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/sunstation/Cassava SS WH FAIL.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/qtower/ss sixthlocation fail.xml",
 			"seed":2
 		},
 		{
@@ -148,7 +148,7 @@
 			"position": {"x":24.3426, "y": -45.7584,"z": 184.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/sunstation/Cassava SS WH FAIL.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/qtower/ss sixthlocation fail.xml",
 			"seed":3
 		},
 		{
@@ -156,7 +156,7 @@
 			"position": {"x":24.3426, "y": -45.7584,"z": 185.9066},
 			"rotation": {"x":10.6785, "y": 4.5548, "z": 34.224},
 			"type":"scroll",
-					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/sunstation/Cassava SS WH FAIL.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/qtower/ss sixthlocation fail.xml",
 			"seed":4
 		}
 			]
@@ -171,6 +171,6 @@
 "Sector_TH/DSS black hole/BlackHoleAmbience",
 "Sector_TH/GabIsle black hole/BlackHoleAmbience",
 "Sector_TH/BrambleIsle black hole/BlackHoleAmbience",
-"Sector_TH/BrambleDarkAngler black hole/BlackHoleAmbience"
+"Sector_TH/Hourglass black hole/BlackHoleAmbience"
 
 ]}

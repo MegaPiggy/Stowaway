@@ -47,8 +47,7 @@
 			"horizonRadius": 15,
 			"position":{"x": 0,"y": 0,"z": 0},
 			"isRelativeToParent": true,
-			"renderQueueOverride": 2501,
-			"parentPath": "Sector/SSWH_Condition"
+			"renderQueueOverride": 2501
 		}
 	]
 	},
