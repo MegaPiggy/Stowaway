@@ -85,7 +85,7 @@
 	],
 	"proxyDetails": [
 		{
-			"rename":"HOBservatory proxy",
+			"rename":"HOBservatory farproxy",
 			"assetBundle": "planets/bundle/stowaway3",
 			"path":"assets/nomai ruins/hourglassob proxy.prefab",
 			"position": {"x":0,"y": 0,"z": 0},

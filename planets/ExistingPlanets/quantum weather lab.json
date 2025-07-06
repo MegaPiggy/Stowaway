@@ -1,0 +1,217 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+
+	"name":"Quantum Weather Lab",
+	
+
+	
+"Props": {
+	"singularities": [
+		
+		{
+			"rename":"QWL white hole shortcut",
+			"type": "whiteHole",
+			"uniqueID": "QWL WH",
+			"pairedSingularity": "TH SHORTCUT X",
+			"hasWarpEffects": false,
+			"horizonRadius": 0.5,
+			"position":{"x": 0,"y": 2,"z": 0},
+			"rotation": {"x":0,"y":0,"z":180},
+			"isRelativeToParent": true
+		}
+	],
+	
+	"details": [
+		
+		{
+			"rename":"QWeatherLab main sect to 0 400 0",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/nomai ruins/quantum weather lab.prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":270,"y": 0,"z": 0},
+			"scale":1,
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"QWeatherLab proxy",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/nomai ruins/quantum weather lab proxy.prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":270,"y": 0,"z": 0},
+			"scale":1,
+			"ignoreSun": true,
+			"isRelativeToParent": true,
+			"keepLoaded": true
+		},
+		{
+			"rename":"projection liquid qwl",
+				"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
+				"position": {"x": 0, "y": 0.8245, "z": 0},
+			"parentPath": "Sector/QWeatherLab main sect to 0 400 0/Interactibles/Mini QM Simulation/Giant Tree Ring",
+			"stretch": {"x":4,"y": 16,"z":4},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"QWL peephole",
+				"path":"SolarSystemRoot/RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Experiment_2_Destroyed/PeepholePivot (1)/Prefab_IP_Peephole (1)",
+				"position": {"x": 8.8469, "y": 39.4758, "z": 0},
+			"rotation": {"x": 279.9999,"y": 270,"z": 180},
+			"parentPath": "Sector/QWeatherLab main sect to 0 400 0/Interactibles/QWL_QuantumMeteorWatcher_Body_Geo",
+			"removeChildren": ["PointLight_IP_Peephole","Props_IP_Peephole"],
+			"stretch": {"x":1,"y": 1,"z":5},
+			"isRelativeToParent": false
+		},
+		{
+			"rename":"QWL Statue Box 1",
+			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
+			"position": {"x": 10, "y": 29.2362, "z": 8.3683}, 
+			"rotation":{"x": 0,"y": 180,"z": 270}, 
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"QWL Nomai Statue 1",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/StatueHead",
+			"position": {"x": 9.009, "y": 29.3402, "z": 8.4039},
+			"rotation":{"x": 270,"y": 90,"z": 0},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"QWL Statue Box 2",
+			"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Sector_GDCore/Sector_Module_Sunken/Props_Module_Sunken/Structure_NOM_Column_Base_Square",
+			"position": {"x": 10, "y": 29.2404, "z": -8.3683},
+			"rotation":{"x": 0,"y": 0,"z": 90},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"QWL Nomai Statue 2",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/StatueHead",
+			"position": {"x": 9.009, "y": 29.1402, "z": -8.4039},
+			"rotation":{"x": 90,"y": 270,"z": 0},
+			"isRelativeToParent": true
+		},
+		{
+			"rename":"QWL cylinder RuinsMusicVolume",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_QuantumFragment/Volumes_QuantumFragment/Prefab_NOM_RuinsMusicVolume/",
+			"position": {"x":0,"y": 12 ,"z": 0},
+			"rotation": {"x":0,"y": 270,"z": 0},
+			"stretch": {"x":1,"y":0.4,"z":1},
+			"isRelativeToParent": true
+		}
+
+		
+		
+	],
+	"proxyDetails": [
+		{
+			"rename":"QWeatherLab farproxy",
+			"assetBundle": "planets/bundle/stowaway3",
+			"path":"assets/nomai ruins/quantum weather lab proxy.prefab",
+			"position": {"x":0,"y": 0,"z": 0},
+			"rotation": {"x":270,"y": 0,"z": 0},
+			"scale":1,
+			"isRelativeToParent": true,
+			"keepLoaded": true,
+			"removeChildren": []
+		}
+	],
+	"translatorText": [
+		{
+			"type": "whiteboard",
+			"position":{"x":-10,"y": 24.4038,"z": 8.0145},
+			"rotation":{"x": 0, "y": 180, "z": 90},
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "HOB sandfunnel scroll",
+			"type": "scroll",
+			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/hourglass observatory/tidal sand scroll.xml",
+			"seed":2,
+			"position":{"x": -8.1345,"y": 25.6401,"z": -8.4527},
+			"rotation":{"x": 10.2778, "y": 349.3139, "z": 133.6918},
+			"isRelativeToParent": true
+		}
+	],
+
+	"remotes": [
+		{
+			"id": "HGT_TimeLoop",
+			"decalPath": "planets/assets/atp icon.png",
+			"stones": [
+				{
+					"rename": "HOB ATP SharedStone",
+					"position":{"x": -8.9474,"y": 34.9326,"z": 5.3563},
+					"rotation":{"x": 0, "y": 180, "z": 90},
+					"isRelativeToParent": true
+				}
+			]
+		},
+		{
+			"id":"HG_OB",
+			"decalPath": "planets/assets/qwl icon.png",
+			"platform":
+			{
+				"position":{"x": 9.9,"y": 32.7837,"z": 0},
+				"rotation":{"x": 0,"y": 180,"z": 270}
+			},
+		"whiteboard":
+			{
+				"rename":"DSS Whiteboard Pedestal",
+				"position":{"x": 10.0236,"y": 24.4038,"z": -8.0145},
+				"rotation":{"x": 0, "y": 0, "z": 90},
+				"isRelativeToParent": true,
+				"nomaiText":
+				[
+					{
+					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/hourglass observatory/hob atp.xml",
+					"id": "HGT_TimeLoop",
+					"location": "b",
+					"seed": 3
+					}
+				]
+			}
+		}
+			
+		],
+
+	"warpReceivers": [
+		{
+			"frequency": "QuantumWeatherLab",
+			"position": {"x": 0, "y": -0.8, "z": 0},
+			"rotation":{"x": 0,"y": 0 ,"z": 0},
+			"isRelativeToParent": true
+		}
+	]
+
+
+},
+	
+	"Base": {"showMinimap": false,"hasFluidDetector": false, 
+	"surfaceSize": 130, "soiOverride": 100}, 
+	"MapMarker": {
+		"enabled": false
+	},
+	"ReferenceFrame": {
+		"enabled": true,
+		"bracketRadius": 130,
+		"maxTargetDistance": 130,
+		"targetColliderRadius": 130,
+		"targetWhenClose": true
+	},
+
+	"Orbit": {
+		"showOrbitLine": false,
+		"primaryBody": "BrittleHollow",
+		"semiMajorAxis" : 1000,
+		"trueAnomaly": 350,
+		"isTidallyLocked": true,
+		"alignmentAxis": {"x":0,"y":1,"z":0}
+	}
+
+
+
+
+
+
+
+
+}

@@ -25,28 +25,33 @@
 						"position": {"x": 0,"y": 69.8155,"z": 0},
 						"rotation": {"x": 0,"y": 0,"z": 0},
 						"isRelativeToParent": true,
-						"probability": 4
+						"probability": 8
 					},
 					{
 						"position": {"x":-47.1401,"y": 40.0462,"z": -31.7992},
 						"rotation": {"x":319.5609,"y": 3.0887,"z": 40.3794},
-						"isRelativeToParent": true
+						"isRelativeToParent": true,
+						"probability": 1
 					},{
 						"position": {"x":-45.8098,"y": 41.7065,"z": 31.8257},
 						"rotation": {"x":46.2072,"y": 267.7493,"z": 331.0083},
-						"isRelativeToParent": true
+						"isRelativeToParent": true,
+						"probability": 1
 					},{
 						"position": {"x": 0.6892,"y": 40.197,"z": -56.787},
 						"rotation": {"x":41.3963,"y": 128.4921,"z": 320.4307},
-						"isRelativeToParent": true
+						"isRelativeToParent": true,
+						"probability": 1
 					},{
 						"position": {"x":52.3187,"y": 42.0619,"z": -18.4289},
 						"rotation": {"x":339.62,"y": 3.399,"z": 310.4379},
-						"isRelativeToParent": true
+						"isRelativeToParent": true,
+						"probability": 1
 					},{
 						"position": {"x": 41.3162,"y": 41.5703,"z": 37.7041},
 						"rotation": {"x":23.7421,"y": 119.7469,"z": 49.8312},
-						"isRelativeToParent": true
+						"isRelativeToParent": true,
+						"probability": 1
 					}
 				]
 			}

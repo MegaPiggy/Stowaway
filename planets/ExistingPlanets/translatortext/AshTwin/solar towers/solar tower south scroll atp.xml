@@ -17,7 +17,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		RAMIE: The efficiency of the <![CDATA[<color=orange>solar towers</color>]]> which power the <![CDATA[<color=orange>Ash Twin Project's</color>]]> will determine the duration of the end-of-cycle transmission.
+		RAMIE: The efficiency of the <![CDATA[<color=orange>solar towers</color>]]> which power the <![CDATA[<color=orange>Ash Twin Project</color>]]> will determine the duration of the end-of-cycle transmission.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		YARROW: However, we should aim for a window of time between the completion of the end-of-cycle transmission, and the destruction of <![CDATA[<color=lightblue>Ash Twin's</color>]]> core!
+		YARROW: However, if possible, we should aim for a window of time between the completion of the end-of-cycle transmission, and the destruction of <![CDATA[<color=lightblue>Ash Twin's</color>]]> core!
 		</Text>
 	</TextBlock>
 
@@ -53,7 +53,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		RAMIE: An update, Yarrow: the <![CDATA[<color=orange>solar towers</color>]]> will take 30 seconds to gather the required energy to fully power the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		RAMIE: An update, Yarrow: the <![CDATA[<color=orange>solar towers</color>]]> will take 30 seconds to gather the required energy to fully power the <![CDATA[<color=orange>Ash Twin Project!</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -71,7 +71,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		RAMIE: Of note: the end-of-cycle transmission will begin once the sun completes its collapse into a supernova. Please explain this delay to anyone observing the end-of-cycle transmission aboard the <![CDATA[<color=orange>Ash Twin Project!</color>]]>
+		RAMIE: Of note: the end-of-cycle transmission will begin after the sun completes its collapse into a supernova. Please explain this delay to anyone observing the end-of-cycle transmission aboard the <![CDATA[<color=orange>Ash Twin Project!</color>]]>
 		</Text>
 	</TextBlock>
 	

@@ -55,10 +55,10 @@
 		"position":{"x":21.3915,"y": -38.0093,"z": 185.8227}	
 	},
 	{
-	"rename":"BrambleIsle black hole",
+	"rename":"QuantumObservatory black hole",
 	"type": "blackHole",
-	"uniqueID": "TH SHORTCUT X2",
-	"pairedSingularity": "DB WH",
+	"uniqueID": "TH SHORTCUT X",
+	"pairedSingularity": "QWL WH",
 	"hasWarpEffects": false,
 	"horizonRadius": 1,
 	"position":{"x":27.4433,"y": -48.2061,"z": 182.6343}
@@ -170,7 +170,7 @@
 "Sector_TH/INSP black hole/BlackHoleAmbience",
 "Sector_TH/DSS black hole/BlackHoleAmbience",
 "Sector_TH/GabIsle black hole/BlackHoleAmbience",
-"Sector_TH/BrambleIsle black hole/BlackHoleAmbience",
+"Sector_TH/QuantumObservatory black hole/BlackHoleAmbience",
 "Sector_TH/Hourglass black hole/BlackHoleAmbience"
 
 ]}

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 773118859
+CRC: 95717281
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0ce243b098f78c8ddf5e0d829c1490fb
+    Hash: 691a3f46d3147a6d13a1faecb6e904ce
   TypeTreeHash:
     serializedVersion: 2
     Hash: b22b9fad7869be4f5cb6c2c6b0bb3bd8
@@ -153,6 +153,7 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Models/gm sphere.prefab
 - Assets/Models/Materials/comet mural side.prefab
+- Assets/Nomai Ruins/Quantum Weather Lab proxy.prefab
 - Assets/Models/db egg hole.prefab
 - Assets/Nomai Ruins/Ocean Orbit.prefab
 - Assets/Models/Materials/comet mural front.prefab
@@ -168,10 +169,10 @@ Assets:
 - Assets/Models/empty.prefab
 - Assets/Nomai Ruins/Crystal pot.prefab
 - Assets/Nomai Ruins/Mini Volcano Simulation.prefab
+- Assets/Nomai Ruins/Quantum Weather Lab.prefab
 - Assets/Models/water plane.prefab
 - Assets/Models/TheInspired.prefab
 - Assets/Models/TheInspired (1).prefab
-- Assets/Nomai Ruins/Mini QM Simulation.prefab
 - Assets/Models/player nosuit.prefab
 - Assets/Models/Materials/Solar tower hologram.prefab
 - Assets/Nomai Ruins/four eyed monolith.prefab
