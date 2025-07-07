@@ -5,7 +5,7 @@
   "name": "Stowaway",
   "uniqueName": "atk.Stowaway",
   "version": "0.1.0",
-  "owmlVersion": "2.11.1",
+  "owmlVersion": "2.15.3",
   "dependencies": [ "xen.NewHorizons", "JohnCorby.VanillaFix"],
   "conflicts": ["Tlya.arkosebugfix","gpixl.NoMoreGDClouds","hearth1an.TheVision"]
 }
