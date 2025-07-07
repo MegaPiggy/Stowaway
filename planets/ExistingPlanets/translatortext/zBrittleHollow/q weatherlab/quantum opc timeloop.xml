@@ -1,0 +1,80 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		CONOY: Friends, I write urgently on behalf of the <![CDATA[<color=orange>Quantum Weather Lab:</color>]]> Are there any safeguards in place against the <![CDATA[<color=lightblue>Quantum Moon,</color>]]> during the operation of the <![CDATA[<color=orange>Ash Twin Project?</color>]]>
+		</Text>
+	</TextBlock>	
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		YARROW: No, but.. Why would we need safeguards against the <![CDATA[<color=lightblue>Quantum Moon,</color>]]> Conoy?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		CONOY: That is worrying.. The <![CDATA[<color=orange>Quantum Weather Lab</color>]]> has found that the <![CDATA[<color=lightblue>Quantum Moon</color>]]> can cause unpredictable discrepancies in the negative time interval due to its gravitational pull.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationA />
+		<ParentID>2</ParentID>
+		<Text>
+		CONOY: If the <![CDATA[<color=lightblue>Quantum Moon</color>]]> randomly begins orbiting <![CDATA[<color=lightblue>Giant's Deep,</color>]]> we fear it may influence the trajectories of probes launched from the <![CDATA[<color=orange>Orbital Probe Cannon.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationA />
+		<ParentID>4</ParentID>
+		<Text>
+		CONOY: These compromised trajectories would be recorded in the <![CDATA[<color=orange>Ash Twin Project</color>]]> as unremarkable and redundant to repeat.. As a result, any number of trajectories that could have found the Eye would be overlooked!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		YARROW: How profoundly horrifying! I had not considered the <![CDATA[<color=lightblue>Quantum Moon</color>]]> to be such a threat to the <![CDATA[<color=orange>Ash Twin Project..</color>]]> My deepest gratitude for reporting this concern, Conoy.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		YARROW: An update: we have added a safeguard to detect when the <![CDATA[<color=lightblue>Quantum Moon</color>]]> is orbiting <![CDATA[<color=lightblue>Giant's Deep.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		YARROW: Though it still requires Nomai to observe the <![CDATA[<color=lightblue>Quantum Moon,</color>]]> we hope that this safeguard will protect the <![CDATA[<color=orange>Ash Twin Project</color>]]> from the potential interference you described!
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Workshop R3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

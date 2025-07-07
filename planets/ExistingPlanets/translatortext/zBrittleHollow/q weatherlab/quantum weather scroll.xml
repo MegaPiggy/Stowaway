@@ -1,0 +1,80 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		CONOY: What have we learned thus far regarding the discrepancy Spire reported?
+		</Text>
+	</TextBlock>	
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PRIVET: While studying meteor impacts during a negative time interval, Spire noticed that there were discrepancies in where meteors fell on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> across several intervals.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PRIVET: Frustratingly, we remain unable to determine the cause of this discrepancy.. The meteors appear to stray from the path they took in previous intervals randomly, with no discernable consistency.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		CONOY: Hypothesis: if this phenomenon is occuring at random.. Could it be caused by quantum phenomena?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		CONOY: An update: Hypothesis confirmed! Hypothesis confirmed! Meteors appear to stray from expected paths as the Quantum Moon orbits <![CDATA[<color=lightblue>Brittle Hollow!</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		CONOY: As it orbits <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity must be pulling on the meteors, causing this discrepancy in where they land across intervals.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		PRIVET: But of course.. Only quantum phenomena could cause such discrepancies in a negative time interval. And at the size of a moon, the <![CDATA[<color=lightblue>Quantum Moon</color>]]> must have sufficient mass to exert gravity as well!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		SPIRE: I never imagined that macroscopic quantum phenomena could affect other celestial bodies in this way.. You have my gratitude for your tireless investigation, my friends!
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Workshop R3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

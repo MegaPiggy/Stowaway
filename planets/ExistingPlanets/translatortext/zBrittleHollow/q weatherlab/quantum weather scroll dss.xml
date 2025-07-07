@@ -1,0 +1,80 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>
+		CYCAD: Friends, I have delivered two new memory statues aboard the <![CDATA[<color=orange>Quantum Weather Lab!</color>]]>
+		</Text>
+	</TextBlock>	
+
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PRIVET: You have my thanks, Cycad. I am impressed by Phlox's speed in sculpting these new statues!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PRIVET: With the help of these statues, we should be able to pair to the <![CDATA[<color=orange>Deep Storm Station</color>]]> to begin studying the negative time interval.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<LocationB />
+		<ParentID>3</ParentID>
+		<Text>
+		CYCAD: I have heard about the <![CDATA[<color=orange>Deep Storm Station,</color>]]> but why would being paired to it allow one to study the negative time interval, Privet?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<LocationB />
+		<ParentID>4</ParentID>
+		<Text>
+		PRIVET: It is quite simple! The <![CDATA[<color=orange>Deep Storm Station</color>]]> powers a 6-second negative time interval using energy from <![CDATA[<color=lightblue>Giant's Deep's</color>]]> electric core.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<LocationB />
+		<ParentID>5</ParentID>
+		<Text>
+		PRIVET: We have been using this shorter interval to test the negative time interval.. In fact, it was during one such interval where Spire discovered the discrepancy we are studying here today!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<LocationB />
+		<ParentID>6</ParentID>
+		<Text>
+		CYCAD: I see.. What a wise plan! This shorter interval will allow us to ensure the <![CDATA[<color=orange>Ash Twin Project</color>]]> is theoretically sound before its operation.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<LocationB />
+		<ParentID>7</ParentID>
+		<Text>
+		CYCAD: I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> shortly.. I look forwards to visiting the <![CDATA[<color=orange>Deep Storm Station</color>]]> while there!
+		</Text>
+	</TextBlock>
+
+<ShipLogConditions>
+		<RevealFact>
+			<FactID>Workshop R3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

@@ -38,8 +38,7 @@
 			"path":"assets/nomai ruins/quantum weather lab proxy.prefab",
 			"position": {"x":0,"y": 0,"z": 0},
 			"rotation": {"x":270,"y": 0,"z": 0},
-			"scale":1,
-			"ignoreSun": true,
+			"scale":1, 
 			"isRelativeToParent": true,
 			"keepLoaded": true
 		},
@@ -122,10 +121,19 @@
 			"isRelativeToParent": true
 		},
 		{
-			"rename": "HOB sandfunnel scroll",
+			"rename": "QWL moonweather scroll",
 			"type": "scroll",
-			"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/hourglass observatory/tidal sand scroll.xml",
-			"seed":2,
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/q weatherlab/quantum weather scroll.xml",
+			"seed":1,
+			"position":{"x": -8.8345,"y": 25.2601 ,"z": -8.2527},
+			"rotation":{"x": 7.0874, "y": 341.1347, "z": 65.5314},
+			"isRelativeToParent": true
+		},
+		{
+			"rename": "QWL dss statue scroll",
+			"type": "scroll",
+			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/q weatherlab/quantum weather scroll dss.xml",
+			"seed":4,
 			"position":{"x": -8.1345,"y": 25.6401,"z": -8.4527},
 			"rotation":{"x": 10.2778, "y": 349.3139, "z": 133.6918},
 			"isRelativeToParent": true
@@ -162,10 +170,10 @@
 				"nomaiText":
 				[
 					{
-					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/hourglass observatory/hob atp.xml",
+					"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/q weatherlab/quantum opc timeloop.xml",
 					"id": "HGT_TimeLoop",
-					"location": "b",
-					"seed": 3
+					"location": "a",
+					"seed": 5
 					}
 				]
 			}
@@ -190,6 +198,12 @@
 	"MapMarker": {
 		"enabled": false
 	},
+
+	"ShockEffect": {
+			"assetBundle": "planets/bundle/stowaway3",
+			"meshPath":"assets/nomai ruins/quantum weather lab proxy.prefab",
+			"radius": 50
+		},
 	"ReferenceFrame": {
 		"enabled": true,
 		"bracketRadius": 130,

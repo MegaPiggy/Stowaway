@@ -195,6 +195,11 @@
 		"targetWhenClose": true
 	},
 
+	"ShockEffect": {
+			"assetBundle": "planets/bundle/stowaway3",
+			"meshPath":"assets/nomai ruins/hourglassob proxy.prefab",
+			"radius": 50
+		},
 	"Orbit": {
 		"showOrbitLine": false,
 		"primaryBody": "Sun",
