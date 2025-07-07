@@ -125,8 +125,8 @@
 			"type": "scroll",
 			"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/q weatherlab/quantum weather scroll.xml",
 			"seed":1,
-			"position":{"x": -8.8345,"y": 25.2601 ,"z": -8.2527},
-			"rotation":{"x": 7.0874, "y": 341.1347, "z": 65.5314},
+			"position":{"x": -9.1193,"y": 28.7968 ,"z": 2.1877},
+			"rotation":{"x": 82.2315, "y": 191.7226, "z": 163.2104},
 			"isRelativeToParent": true
 		},
 		{
@@ -216,7 +216,7 @@
 		"showOrbitLine": false,
 		"primaryBody": "BrittleHollow",
 		"semiMajorAxis" : 1000,
-		"trueAnomaly": 350,
+		"trueAnomaly": 354,
 		"isTidallyLocked": true,
 		"alignmentAxis": {"x":0,"y":1,"z":0}
 	}

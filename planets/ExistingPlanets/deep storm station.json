@@ -36,7 +36,8 @@
 			"uniqueID": "DSS WH 2",
 			"pairedSingularity": "TH SHORTCUT 0",
 			"hasWarpEffects": false,
-			"horizonRadius": 0.5,
+			"horizonRadius": 0,
+			"distortRadius": 0,
 			"position":{"x": 0,"y": 0,"z": 0},
 			"rotation": {"x":0,"y":0,"z":180},
 			"isRelativeToParent": true
@@ -47,9 +48,10 @@
 			"pairedSingularity": "INSP BH",
 			"hasWarpEffects": false,
 			"horizonRadius": 0.5,
-			"position":{"x": 0,"y": 0,"z": 0},
+			"position":{"x": 1.7,"y": 0,"z": 0},
 			"rotation": {"x":0,"y":0,"z":180},
-			"isRelativeToParent": true
+			"isRelativeToParent": true,
+			"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)"
 		}
 	],
 	"details": [
@@ -75,6 +77,35 @@
 			"keepLoaded": true,
 			"isRelativeToParent": true
 		},
+
+		{
+			"rename":"DSS whitewarpcore socket",
+			"path":"CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/WarpCoreWallSockets/WarpCoreSocket (4)/",
+			"position": {"x": 0,"y": 0,"z": 1.7},
+			"rotation": {"x": 345,"y": 90,"z": 0},
+			"isRelativeToParent": true
+		},{
+			"rename":"DSS empty socket",
+			"path":"CaveTwin_Body/Sector_CaveTwin/Sector_NorthHemisphere/Sector_NorthSurface/Sector_TimeLoopExperiment/Interactables_TimeLoopExperiment/WarpCoreExperiment/WarpCoreSocket_1/",
+			"position": {"x": 0,"y": 0,"z": -1.7},
+			"rotation": {"x": 30,"y": 90,"z": 180},
+			"isRelativeToParent": true
+		},{
+			"rename":"DSS whitehole socket warpdesign",
+			"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_BH/Props_Tower_BH/OtherComponentsGroup/Structure_NOM_WarpReceiver_CopperSymbol/",
+			"position": {"x": 0,"y": 0,"z": 0.02},
+			"rotation": {"x": 315,"y": 0,"z": 90},
+			"parentPath": "Sector/whitewarpcore socket",
+			"isRelativeToParent": true
+		},{
+			"rename":"DSS empty socket warpdesign",
+			"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_BH/Props_Tower_BH/OtherComponentsGroup/Structure_NOM_WarpReceiver_CopperSymbol/",
+			"position": {"x": 0.02,"y": 0,"z": 0},
+			"rotation": {"x": 45,"y": 0,"z": 270},
+			"parentPath": "Sector/DSS empty socket",
+			"isRelativeToParent": true
+		},
+
 
 		{
 			"rename":"b1 scroll stuff",
@@ -670,8 +701,9 @@
 				"rename":"window whitehole fix",
 				"assetBundle": "planets/bundle/dss shell",
 				"path":"assets/nomai ruins/innershell.prefab",
-				"position":{"x":0,"y": 0,"z": 0},
+				"position":{"x": 1.7,"y": 0,"z": 0},
 				"scale":0.03,
+					"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)",
 				"isRelativeToParent": true
 			}
 	],
