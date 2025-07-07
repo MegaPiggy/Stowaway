@@ -156,6 +156,10 @@ public class Stowaway : ModBehaviour
 		{
 			initHourglassObservatory(NewHorizonsAPI.GetPlanet("Hourglass Observatory"));
 		}
+		if (body == "QuantumWeatherLab")
+		{
+			initQuantumWeatherLab(NewHorizonsAPI.GetPlanet("Quantum Weather Lab"));
+		}
 	}
 
 	private void initHollowsLantern_Late()
@@ -258,6 +262,43 @@ public class Stowaway : ModBehaviour
 		Delay.RunWhen(() => ProxyHandler.GetProxy("Hourglass Observatory") != null, () =>
 		{
 			var proxy = ProxyHandler.GetProxy("Hourglass Observatory");
+			proxy.root.transform.localPosition = pos;
+			proxy.root.transform.localEulerAngles = rot;
+		});
+	}
+
+	private void initQuantumWeatherLab(GameObject quantumWeatherLab)
+	{
+		var sector = quantumWeatherLab.transform.Find("Sector");
+		var rfVolume = quantumWeatherLab.transform.Find("RFVolume");
+		var volumes = quantumWeatherLab.transform.Find("Volumes");
+		var fieldDetector = quantumWeatherLab.transform.Find("FieldDetector");
+
+		var pos = Vector3.up * 400;
+		sector.localPosition = pos;
+		rfVolume.localPosition = pos;
+		volumes.localPosition = pos;
+		fieldDetector.localPosition = pos;
+
+		var rot = Vector3.zero;
+		sector.localEulerAngles = rot;
+		rfVolume.localEulerAngles = rot;
+		volumes.localEulerAngles = rot;
+		fieldDetector.localEulerAngles = rot;
+
+		var rfv = rfVolume.GetComponent<ReferenceFrameVolume>();
+		rfv._referenceFrame._minSuitTargetDistance = 0;
+		rfv._referenceFrame._autopilotArrivalDistance = 0;
+		rfv._referenceFrame._autoAlignmentDistance = 0;
+		rfv._referenceFrame._matchAngularVelocity = false;
+		rfv._referenceFrame._minMatchAngularVelocityDistance = 0;
+		rfv._referenceFrame._maxMatchAngularVelocityDistance = 0;
+		rfv._referenceFrame._useCenterOfMass = false;
+		rfv._referenceFrame._localPosition = pos;
+
+		Delay.RunWhen(() => ProxyHandler.GetProxy("Quantum Weather Lab") != null, () =>
+		{
+			var proxy = ProxyHandler.GetProxy("Quantum Weather Lab");
 			proxy.root.transform.localPosition = pos;
 			proxy.root.transform.localEulerAngles = rot;
 		});
