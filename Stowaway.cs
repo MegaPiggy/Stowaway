@@ -385,7 +385,10 @@ public class Stowaway : ModBehaviour
 			body.UnsuspendImmediate(false);
 			body.GetAttachedForceDetector().enabled = true;
 		}, 3);
-		sandFunnel.GetComponentInChildren<SectorProxy>().SetSector(nhgt.GetComponent<AstroObject>().GetRootSector());
+		var sector = nhgt.GetComponent<AstroObject>().GetRootSector();
+		sandFunnel.GetComponentInChildren<SectorProxy>(true).SetSector(sector);
+		sandFunnel.GetComponentInChildren<SectorCullGroup>(true).SetSector(sector);
+		sandFunnel.GetComponentInChildren<SectorCollisionGroup>(true).SetSector(sector);
 	}
 
 	private void initSun_Late()
