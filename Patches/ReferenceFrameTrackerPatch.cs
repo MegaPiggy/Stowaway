@@ -21,7 +21,7 @@ namespace Stowaway.Patches
 			OWCamera owCamera = __instance._isLandingView ? __instance._landingCam : __instance._activeCam;
 			float maxDistance = PlayerState.InBrambleDimension() ? 120 : 1000;
 			Vector3 position = owCamera.transform.position;
-			if (!__instance._isMapView && Physics.Raycast(position, owCamera.transform.forward, out var hitInfo, maxDistance, OWLayerMask.closeRangeRFMask))
+			if (!__instance._isMapView && Physics.Raycast(position, owCamera.transform.forward, out var hitInfo, maxDistance, PlayerState.AtFlightConsole() ? OWLayerMask.closeRangeRFMinusShipInterior : OWLayerMask.closeRangeRFMask))
 			{
 				var distance = Vector3.Distance(position, hitInfo.collider.transform.position);
 
