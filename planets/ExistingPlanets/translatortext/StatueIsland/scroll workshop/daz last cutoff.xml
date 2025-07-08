@@ -5,15 +5,15 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		DAZ: My love, is there a voyager stone to the <![CDATA[<color=lightblue>Sanctuary</color>]]> somewhere in the <![CDATA[<color=orange>Deep Storm Station?</color>]]>
+		DAZ: My love, are you well?
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
-		<LocationA />
+		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		DAZ: It appears there are still several of the native species inside the <![CDATA[<color=lightblue>Sanctuary</color>]]> who have grown too used to the space, and elude release back to the surface. We require more eyes to assist in their release!
+		DAZ: Privet tells me you are trying to run more tests using the <![CDATA[<color=orange>Deep Storm Station,</color>]]> despite the knowledge that it cannot find the Eye of the Universe..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: It appears there is.. Hah! Did you leave it here to persuade me to join you? Your efforts to lift my low spirits are appreciated, but unsubtle, my love!
+		DAZ: If this message reaches you through the <![CDATA[<color=orange>Deep Storm Station's</color>]]> projection wall, you must be thinking of me as well.. I wish to hear from you, Cassava.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -29,7 +29,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: I would love nothing more than to join you in assisting Oeno, Daz. But.. I do not feel I can allow myself such joy right now.
+		CASSAVA: Even if we know what happens, what can we do but keep trying? The <![CDATA[<color=orange>Deep Storm Station</color>]]> is our only path forward, now that <![CDATA[<color=orange>the Ash Twin Project</color>]]> has failed..
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: My love.. The failure of the <![CDATA[<color=orange>Ash Twin Project</color>]]> was <![CDATA[<i>not</i>]]> your fault. We must not be weighed by failure: we can only keep learning from our experiences, and trying new solutions!
+		DAZ: My love, do not let yourself be so discouraged by the failure of the <![CDATA[<color=orange>Ash Twin Project.</color>]]> We will find another way to reach our goals.. I am sure of it!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,7 +53,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Daz? Did something interrupt your thought? Your voyager is still here in the <![CDATA[<color=orange>Deep Storm Station..</color>]]>
+		CASSAVA: Daz? Did something interrupt your thought?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -61,7 +61,7 @@
 		<ParentID>7</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Daz? What's wrong? <![CDATA[<i>Daz?</i>]]>
+		CASSAVA: Daz? What happened? <![CDATA[<i>Daz?</i>]]>
 		</Text>
 	</TextBlock>
 

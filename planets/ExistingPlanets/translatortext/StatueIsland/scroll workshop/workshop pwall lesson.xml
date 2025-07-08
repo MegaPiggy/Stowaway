@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Daz, I seem to be unable to retrieve a conversation I wrote using this projection stone. Could there be an issue with the data stored on it?
+		MALLOW: Daz: I have been trying to retrieve a conversation I wrote using a projection stone, with little progress.. Might you be able to access the data stored on it?
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -14,7 +14,7 @@
 		<ParentID>1</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: My love, I'm afraid you misunderstand. Conversations shared across projection stones are not recorded on the stone itself (like scrolls are) - they are recorded on projection walls!
+		DAZ: Mallow, I'm afraid you misunderstand.. Conversations shared across projection stones are not recorded on the stone itself (like scrolls are) - they are recorded on the projection walls!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -22,7 +22,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: The projection walls at both ends of the conversation record these shared conversations, and allow Nomai to view them again using the corresponding projection stones.
+		DAZ: The information is recorded onto the projection walls at both ends of the conversation, allowing Nomai at both ends to view the shared conversation using the corresponding projection stones.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -30,7 +30,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: To find the conversation you seek, you simply need to use the corresponding projection stone at the projection wall it was written on.
+		DAZ: Think of each projection stone as a unique key, and each recorded conversation as locks - information that can only be retrieved with the corresponding projection stones.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -38,7 +38,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: This applies for any conversation shared across a projection wall. A single projection stone can unlock many conversations across different projection walls!
+		MALLOW: In other words, I shall need to locate the specific projection stone to access the conversation.. Agh, no wonder I could not find so many conversations I had written before!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -46,7 +46,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Goodness, no wonder I could not find so many conversations I had written before.. I am glad to have learned this today! You have my gratitude, Daz.
+		MALLOW: These projection walls are far more sophisticated than I had imagined.. You have my gratitude for teaching me about them, my dear brother-by-proxy!
 		</Text>
 	</TextBlock>
 	

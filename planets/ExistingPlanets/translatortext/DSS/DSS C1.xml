@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: What.. what has transpired? Why has everyone fallen? And this mysterious matter permeates everywhere I project to...
+		CASSAVA: What.. what has transpired? Why has everyone fallen? And this mysterious matter permeates everywhere I look through the projection pool...
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Daz... My friends, my clan.. Everyone, all in an instant? <![CDATA[<i>How?</i>]]> What caused this..?
+		CASSAVA: Daz... My friends.. My clan.. <![CDATA[<i>How?</i>]]> What could have caused this..?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		CASSAVA: Am I now trapped here without escape? I have little chance of staving off thirst and hunger for long here..
+		CASSAVA: Am I now trapped here without escape? I.. I have little chance of staving off thirst and hunger for long..
 		</Text>
 	</TextBlock>
 	<TextBlock>	

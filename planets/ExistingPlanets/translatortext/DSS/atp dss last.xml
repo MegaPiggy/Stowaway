@@ -1,0 +1,86 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		YARROW: (WIP) Cassava is paired to a memory statue aboard the DSS, and the Deep Storm Station will fire shortly after the Sun Station fires, serving as a last resort.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		PYE: Our apologies for our tardiness, Yarrow. Idaea and I were lost on our way, before Poke found us!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>1</ParentID>
+		<LocationB />
+		<Text>
+		IDAEA: Yarrow, a memory statue aboard the <![CDATA[<color=orange>Sun Station</color>]]> paired with me just now. Does this mean that the project.. succeeded?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationA />
+		<Text>
+		YARROW: I am glad to hear from you at last, my friends. But.. No, I'm afraid the <![CDATA[<color=lightblue>Eye of the Universe</color>]]> continues to elude us.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		YARROW: Though our friends predicted as much, I cannot hide our disappointment that the <![CDATA[<color=orange>Deep Storm Station</color>]]> was unable to locate the <![CDATA[<color=lightblue>Eye of the Universe.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationA />
+		<Text>
+		YARROW: The memory statues were only activated after it had elapsed 20 billion loops, and began to detect redundant trajectories.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB />
+		<Text>
+		IDAEA: But Yarrow, the <![CDATA[<color=orange>Deep Storm Station</color>]]> still succeeded: thanks to the test, we can now be certain that the <![CDATA[<color=orange>Ash Twin Project's</color>]]> mechanisms are theoretically sound and functional.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationB />
+		<Text>
+		PYE: Idaea is correct, Yarrow! Once the <![CDATA[<color=orange>Sun Station</color>]]> is complete, we can now be confident in its operation without fear.
+		</Text>
+	</TextBlock>
+
+
+<ShipLogConditions>
+
+		<RevealFact>
+			<FactID>SS EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>SS EX2</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>SS CONV1</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

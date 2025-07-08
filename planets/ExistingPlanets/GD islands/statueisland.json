@@ -963,7 +963,7 @@
 				"platform":
 				{
 					
-					"rename": "Statue Island decal Podium bc the normal one gets deloaded",
+					"rename": "Statue Island decal Podium bc the normal one gets deloaded voyaging",
 					"parentPath": "Sector_StatueIsland/Sector_StatueIslandInterior/Interactables_StatueIslandInterior/Prefab_NOM_RemoteViewer",
 					"position": {"x":0,"y":0,"z":0},
 					"rotation": {"x":0,"y":0,"z":0},
@@ -1032,17 +1032,7 @@
 							"isRelativeToParent": true
 						}]
 			},
-			{
-						"id":"GD_ConstructionYard",
-						"decalPath": "planets/assets/gd icon.png",
-						"stones":
-						[{
-							"rename":"Whiteboard lesson cyard stone",
-							"position":{"x": 19.6068,"y": 33.1855, "z": -16.7405},
-							"rotation": {"x": 355.2566, "y": 109.725, "z": 10.8289},
-							"isRelativeToParent": true
-						}]
-			},
+			
 
 
 	{
@@ -1059,6 +1049,12 @@
 								"id": "HGT_TimeLoop",
 								"location":"a",
 								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/basegame statuework.xml"
+							},
+							{
+								"id": "GD_StatueIslandScrollWorkshop",
+								"location":"a",
+								"seed": 5,
+								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/memorystatue voyager.xml"
 							}
 						]
 					}
@@ -1074,10 +1070,10 @@
 						"nomaiText":
 						[
 							{
-								"id": "GD_ConstructionYard",
+								"id": "GD_StatueIsland",
 								"location": "b",
-								"seed": 1,
-								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/workshop hidden scroll.xml"
+								"seed": 5,
+								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/memorystatue voyager.xml"
 							},
 							{
 								"id": "GD_DeepStormStation",
@@ -1105,6 +1101,11 @@
 										"position": {"x": 0.4279,"y": 2.4362},
 										"zRotation": 55.4789
 									}]
+							},{
+								"id": "TH_Sanctuary",
+								"location": "a",
+								"seed": 4,
+								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/daz sanctuary empty.xml"
 							}
 						
 						]
@@ -1179,17 +1180,17 @@
 
 
 			{
-				"rename":"Workshop B1 scroll Oeno",
+				"rename":"Workshop B1 scroll projectwhiteboards",
 				"position": {"x": 1.3491, "y": 0.2036, "z": -0.1},
 				"rotation": {"x": 281.3267, "y": 64.7731, "z": 341.4119},
 				"type": "scroll",
 				"isRelativeToParent": true,
-				"seed":5,
-				"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/memorystatue voyager.xml",
+					"seed": 1,
+					"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/workshop pwall lesson.xml",
 				"parentPath": "Sector_StatueIsland/scroll shelves"
 			},
 			{
-				"rename":"Workshop B1 scroll projectwhiteboards",
+				"rename":"Workshop B1 scroll whiteout",
 				"position": {"x": 3.4018, "y": -8.5746, "z": 4.3882},
 				"rotation": {"x": 66.6145, "y": 98.4079, "z": 52.6195},
 				"type": "scroll",

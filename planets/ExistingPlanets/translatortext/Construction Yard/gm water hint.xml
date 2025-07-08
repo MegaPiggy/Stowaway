@@ -2,7 +2,7 @@
 <TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>CASSAVA: I can see jellyfish continuing to swim outside the Deep Storm Station. This species does not appear to have been harmed by the deadly matter.. This is a curious discovery.
+		<Text>CASSAVA: Why does the deadly matter at this site disappear at times? This.. This could be a deeply important discovery.
 		</Text>
 	</TextBlock>
 	
@@ -11,7 +11,7 @@
 		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		CASSAVA: Perhaps I should study the deadly matter at this site more closely.. I shall record my findings on the other side of the Construction Bay. 
+		CASSAVA: Perhaps I should study the deadly matter at this site more closely.. I shall record my findings on the other side of the <![CDATA[<color=orange>Construction Bay.</color>]]>
 		</Text>
 </TextBlock>
 

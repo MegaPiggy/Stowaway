@@ -6,16 +6,16 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CYCAD: Daz, I have been excited to try the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> newest invention, after hearing so much about the voyager stones!
+		PHLOX: Daz, I have been excited to try your new voyager stones, after hearing so much about the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> newest invention!
 		</Text>
 	</TextBlock>
 
 		<TextBlock>
 		<ID>2</ID>
 		<ParentID>1</ParentID>
-		<LocationB />
+		<LocationA />
 		<Text>
-		CYCAD: However, when I use the voyager stone, I cannot distinguish how it is dissimilar from a normal projection stone.. Am I using this new invention incorrectly?
+		PHLOX: However, when I use the voyager stone, I cannot distinguish how it is dissimilar from a normal projection stone.. How does one use this new invention correctly?
 		</Text>
 	</TextBlock>
 	
@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: It is used the same way as a normal projection stone, Cycad. I suspect the problem lies elsewhere!
+		DAZ: It should simply be used the same way as a normal projection stone, Phlox! I suspect the problem lies elsewhere..
 		</Text>
 	</TextBlock>
 
@@ -33,7 +33,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Did you remember to pair to a memory statue, before using the voyager stone?
+		DAZ: Ah! Did you remember to pair to a memory statue before using the voyager stone?
 		</Text>
 	</TextBlock>
 
@@ -42,7 +42,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		CYCAD: Oh! I did not realize I needed to be paired to a memory statue to use the voyager stones, Daz.. Is there a reason for this prerequisite?
+		PHLOX: Oh? I did not realize I needed to be paired to a memory statue to use the voyager stones! Is there a reason for this prerequisite?
 		</Text>
 	</TextBlock>
 	
@@ -51,7 +51,7 @@
 		<ParentID>5</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: It is simple! Voyager stones use the memory statues' memory storage systems to record experiences from the projection pool, transmitting it back to the paired individual in real-time.
+		DAZ: It is simple. Voyager stones use the memory statues' memory storage systems to record experiences from the projection pool, transmitting it back to the paired individual in real-time.
 		</Text>
 	</TextBlock>
 
@@ -69,7 +69,7 @@
 		<ParentID>7</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Without a memory statue to record those experiences, as you saw, the voyager stone would only function like an ordinary projection stone!
+		DAZ: Without a memory statue to record those experiences, as you saw, the voyager stone would only function like an ordinary projection stone.
 		</Text>
 	</TextBlock>
 

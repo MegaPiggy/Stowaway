@@ -1,0 +1,85 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+	<TextBlock>
+		<ID>1</ID>
+		<LocationA />
+		<Text>
+		DAZ: Friends, what has happened to the lifeforms within the <![CDATA[<color=orange>Sanctuary?</color>]]> When I visited using a voyager stone, I could only find a handful remaining inside!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<LocationB />
+		<ParentID>1</ParentID>
+		<Text>
+		OENO: Worry not, Daz. We have simply evacuated most of the lifeforms inside the <![CDATA[<color=orange>Sanctuary</color>]]> back to the surface!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<LocationB />
+		<ParentID>2</ParentID>
+		<Text>
+		OENO: The <![CDATA[<color=orange>Sanctuary</color>]]> was only built as temporary shelter to shelter the native life from the supernova, lacking provisions for long-term nourishment of these species.
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>4</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>
+		OENO: Now that the <![CDATA[<color=orange>Ash Twin Project</color>]]> has failed, there is no need to keep them indefinitely quarantined within the <![CDATA[<color=orange>Sanctuary.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: I see.. I feared the lifeforms had escaped in droves through the quantum shard, hah! But.. Why are there still some left within the <![CDATA[<color=orange>Sanctuary,</color>]]> then?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationB />
+		<Text>
+		OENO: We plan to evacuate all species within the <![CDATA[<color=orange>Sanctuary</color>]]> in due time. However, it appears a few have grown fond of this environment.. and have proven frustratingly adept at evading our grasp!
+		</Text>
+	</TextBlock>
+		<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<LocationB />
+		<Text>
+		OENO: Since we can only access the <![CDATA[<color=orange>Sanctuary</color>]]> through voyager stones, these amphibious species can easily evade us underwater, or by simply swimming along the water's surface..
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationA />
+		<Text>
+		DAZ: Perhaps they have grown fearful of us for separating them from their friends.. We must do our best to reunite them with their friends as soon as we can!
+		</Text>
+	</TextBlock>
+
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>WorkshopTop EX3</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CONV R4</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Workshop R2</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
+
+	</ShipLogConditions>
+
+</NomaiObject>

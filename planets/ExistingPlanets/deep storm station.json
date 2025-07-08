@@ -11,10 +11,9 @@
 				"maxImpactSpeed": 100000,
 				"minImpactSpeed": 5000,
 				"position":{"x": 1.7,"y": 0,"z": 0},
-				"rotation": {"x":0,"y":0,"z":180},
 					"isRelativeToParent": true,
 				"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)",
-				"radius": 50
+				"radius": 5
 			}
 		]
 	},
@@ -567,8 +566,8 @@
 		},{
 			"rename":"debris shelf 2",
 			"path":"WhiteholeStation_Body/Sector_WhiteholeStation/Props_WhiteHoleStation/Prefab_NOM_Shelf (1)",
-			"position": {"x": 6.8872,"y": -25.9679,"z": 3.7524},
-			"rotation": {"x": 357.0463,"y": 180.9864,"z": 270.1741},
+			"position": {"x": 6.8872,"y": -25.9679,"z": 1.8906},
+			"rotation": {"x": 312.9299,"y": 180.9864,"z": 270.1741},
 			"parentPath": "Sector/bridge debris",
 			"isRelativeToParent": true
 		},{
@@ -606,7 +605,7 @@
 		},{
 			"rename":"debris purple light",
 			"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerFinalRoom/Lighting_FinalRoom/OtherComponentsGroup/FinalRoom/FillLight_NOM_Text",
-			"position": {"x": 4.4736, "y": -25.7896, "z": 3.5355},
+			"position": {"x": 4.4736, "y": -25.6896, "z": 1.8083},
 			"parentPath": "Sector/bridge debris",
 			"isRelativeToParent": true
 		},
@@ -726,9 +725,9 @@
 				"rename":"window whitehole fix",
 				"assetBundle": "planets/bundle/dss shell",
 				"path":"assets/nomai ruins/innershell.prefab",
-				"position":{"x": 1.7,"y": 0,"z": 0},
-				"scale":0.03,
-					"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"scale":0.024,
+					"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer",
 				"isRelativeToParent": true
 			}
 	],
@@ -749,13 +748,21 @@
 			"type":"whiteboard",
 			"isRelativeToParent": true
 		},{
-			"rename": "DSS weapon Scroll",
+			"rename": "DSS C1",
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C1.xml",
 			"type":"scroll",
-			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/weapon explanation.xml",
-			"seed":10,
 			"position": {"x": 8.4149,"y": 9.0748,"z": -0.9818},
 			"rotation": {"x": 59.8892,"y": 11.9853, "z": 77.8949},
 			"parentPath": "Sector/b1 scroll stuff",
+			"seed":4,
+			"arcInfo": [
+				{"type": "adult"},
+				{"type": "child"},
+				{"type": "teenager"},
+				{"type": "teenager"},
+				{"type": "teenager"},
+				{"type": "teenager"},
+				{"type": "teenager"}],
 			"isRelativeToParent": true
 		},
 		{
@@ -769,30 +776,21 @@
 			"isRelativeToParent": true
 		},
 		{
-			"rename": "DSS C1",
-			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C1.xml",
+			"rename": "DSS C2 shelf",
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C2.xml",
 			"type":"scroll",
-			"position": {"x": 4.3177,"y": -25.6487,"z": 3.1928},
-			"rotation": {"x": 347.6561,"y": 177.4629,"z": 243.7879},
-			"seed":4,
-			"arcInfo": [
-				{"type": "adult"},
-				{"type": "child"},
-				{"type": "teenager"},
-				{"type": "teenager"},
-				{"type": "teenager"},
-				{"type": "teenager"},
-				{"type": "teenager"}
-			],
+			"position": {"x": 5.0613,"y": -25.7233,"z": 1.4237},
+			"rotation": {"x": 315.134,"y": 163.4293,"z": 243.7879},
+			"seed":3,
 			"isRelativeToParent": true
 		},
 		{
-			"rename": "DSS C2",
-			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/DSS C2.xml",
+			"rename": "DSS weapon Scroll C2",
 			"type":"scroll",
+			"xmlFile": "planets/ExistingPlanets/translatortext/DSS/weapon explanation.xml",
+			"seed":10,
 			"position": {"x": -0.2003,"y": -30.4639,"z": 14.7754},
 			"rotation": {"x": 3.5839,"y": 357.0815,"z": 250.2404},
-			"seed":3,
 			"isRelativeToParent": true
 		},
 		{
