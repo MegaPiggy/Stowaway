@@ -1080,8 +1080,8 @@
 				"rename":"Sanctuary plant",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
-				"position":{"x":-105.0229,"y": 22.4021,"z": 117.2431},
-				"rotation":{"x":71.1896,"y": 271.5473,"z": 314.597},
+				"position":{"x":-106.3354,"y": 5.1427,"z": 118.6606},
+				"rotation":{"x":283.0523,"y": 80.0788,"z": 57.9919},
 				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"isRelativeToParent": true
 			},
@@ -1099,7 +1099,7 @@
 				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_Surface/Surface_QGeysers/QuantumGeyser_Big/Terrain_TH_SurfaceGeyser_Big (1)/",
 				"position":{"x": -98.1982,"y": 12.3135,"z": 113.3502},
 				"rotation":{"x":311.0583,"y": 219.0446,"z": 280.4496},
-				"stretch": {"x":2.5,"y": 2,"z": 2.5},
+				"stretch": {"x":2.3,"y": 2,"z": 2.3},
 				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"isRelativeToParent": true
 			},

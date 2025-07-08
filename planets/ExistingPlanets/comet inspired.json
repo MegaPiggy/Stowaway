@@ -27,7 +27,7 @@
 		"forces": {
 			"polarVolumes": [
 				{
-					"force": 1,
+					"force": 5,
 					"position":{"x":0,"y": 0,"z": 0},
 					"radius": 80
 				}

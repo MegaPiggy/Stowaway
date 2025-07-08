@@ -2,9 +2,32 @@
 	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
 
 	"name":"Deep Storm Station",
-	"removeChildren": ["Sector/DSS projectplatform/Structure_NOM_RemoteViewer"],
+	"removeChildren": ["Sector/DSS projectplatform/Structure_NOM_RemoteViewer", "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleVolume"],
 
 "Volumes": {
+	"rulesets": {
+		"playerImpactRulesets": [
+			{
+				"maxImpactSpeed": 100000,
+				"minImpactSpeed": 5000,
+				"position":{"x": 1.7,"y": 0,"z": 0},
+				"rotation": {"x":0,"y":0,"z":180},
+					"isRelativeToParent": true,
+				"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)",
+				"radius": 50
+			}
+		]
+	},
+	"speedTrapVolumes": [
+		{
+			"position":{"x": 1.7,"y": 0,"z": 0},
+			"radius": 5,
+			"isRelativeToParent": true,
+			"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)",
+			"speedLimit": 10,
+			"acceleration": 0.01
+		}
+	],
 		"revealVolumes": [
 			{
 				"reveals": ["DSS Probe"],
@@ -95,7 +118,8 @@
 			"path":"TowerTwin_Body/Sector_TowerTwin/Sector_Tower_BH/Props_Tower_BH/OtherComponentsGroup/Structure_NOM_WarpReceiver_CopperSymbol/",
 			"position": {"x": 0,"y": 0,"z": 0.02},
 			"rotation": {"x": 315,"y": 0,"z": 90},
-			"parentPath": "Sector/whitewarpcore socket",
+			"parentPath": "Sector/DSS whitewarpcore socket",
+			"stretch": {"x":0.4,"y":1,"z":0.4},
 			"isRelativeToParent": true
 		},{
 			"rename":"DSS empty socket warpdesign",
@@ -103,6 +127,7 @@
 			"position": {"x": 0.02,"y": 0,"z": 0},
 			"rotation": {"x": 45,"y": 0,"z": 270},
 			"parentPath": "Sector/DSS empty socket",
+			"stretch": {"x":0.4,"y":1,"z":0.4},
 			"isRelativeToParent": true
 		},
 
@@ -664,9 +689,9 @@
 		},
 		{
 			"rename":"Nomai Statue",
-			"path":"TimeLoopRing_Body/Props_TimeLoopRing/OtherComponentsGroup/Props_NOM_StatueHead/",
+			"path":"BrittleHollow_Body/Sector_BH/Sector_NorthHemisphere/Sector_NorthPole/Sector_HangingCity/Sector_HangingCity_BlackHoleForge/BlackHoleForgePivot/Props_BlackHoleForge/StatueHead",
 			"parentPath": "Sector/Nomai Statue 2 Box",
-			"position": {"x": -0.0332, "y": 1, "z": -0.0043},
+			"position": {"x": 0, "y": 0.95, "z": 0.09},
 			"rotation":{"x": 0,"y": 0,"z": 0},
 			"isRelativeToParent": true
 		},
