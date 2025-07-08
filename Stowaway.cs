@@ -853,37 +853,25 @@ public class Stowaway : ModBehaviour
 		if(statueIslandBody)
 		{
 			statueIslandBody.AddComponent<OverheadDetector>();
-			var comp = statueIslandBody.AddComponent<IslandDensityModifier>();
-			comp.DensityModifierSun = 0.03f;
-			comp.DensityModifierMoon = 0.03f;
-			comp.DensityModifierBoth = 0.4f;
+			statueIslandBody.AddComponent<IslandDensityModifier>();
 		}
 		var cyardIslandBody = SearchUtilities.Find("ConstructionYardIsland_Body");
 		if (cyardIslandBody)
 		{
 			cyardIslandBody.AddComponent<OverheadDetector>();
-			var comp = cyardIslandBody.AddComponent<IslandDensityModifier>();
-			comp.DensityModifierSun = 0.03f;
-			comp.DensityModifierMoon = 0.03f;
-			comp.DensityModifierBoth = 0.4f;
+			cyardIslandBody.AddComponent<IslandDensityModifier>();
 		}
 		var brambleIslandBody = SearchUtilities.Find("BrambleIsland_Body");
 		if (brambleIslandBody)
 		{
 			brambleIslandBody.AddComponent<OverheadDetector>();
-			var comp = brambleIslandBody.AddComponent<IslandDensityModifier>();
-			comp.DensityModifierSun = 0.03f;
-			comp.DensityModifierMoon = 0.03f;
-			comp.DensityModifierBoth = 0.4f;
+			brambleIslandBody.AddComponent<IslandDensityModifier>();
 		}
 		var gabbroIslandBody = SearchUtilities.Find("GabbroIsland_Body");
 		if (gabbroIslandBody)
 		{
 			gabbroIslandBody.AddComponent<OverheadDetector>();
-			var comp = gabbroIslandBody.AddComponent<IslandDensityModifier>();
-			comp.DensityModifierSun = 0.03f;
-			comp.DensityModifierMoon = 0.03f;
-			comp.DensityModifierBoth = 0.4f;
+			gabbroIslandBody.AddComponent<IslandDensityModifier>();
 		}
 		var quantumIslandBody = SearchUtilities.Find("QuantumIsland_Body");
 		if (quantumIslandBody)
