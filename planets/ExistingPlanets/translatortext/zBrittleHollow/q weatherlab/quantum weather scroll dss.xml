@@ -49,7 +49,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		PRIVET: We have been using this shorter interval to test the mechanisms of a negative time interval.. In fact, it was during one such interval when Spire discovered the discrepancy we are studying here!
+		PRIVET: We have been using this shorter interval to test the mechanisms of a negative time interval.. It was during one such interval that Spire discovered the discrepancy we are studying here!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -65,7 +65,7 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		CYCAD: I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> shortly.. I look forwards to visiting the <![CDATA[<color=orange>Deep Storm Station</color>]]> while there!
+		CYCAD: I must return to <![CDATA[<color=lightblue>Giant's Deep</color>]]> shortly.. I shall look forward to visiting the <![CDATA[<color=orange>Deep Storm Station</color>]]> while there!
 		</Text>
 	</TextBlock>
 
