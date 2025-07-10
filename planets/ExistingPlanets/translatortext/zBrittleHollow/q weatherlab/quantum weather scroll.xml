@@ -25,7 +25,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		PRIVET: Frustratingly, we remain unable to determine the cause of this discrepancy.. The meteors appear to stray from the path they took in previous intervals randomly, with no discernable consistency.
+		PRIVET: Frustratingly, we remain unable to determine the cause of this discrepancy.. Meteors appear to randomly stray from the path they took in previous intervals, with no discernable consistency.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -49,7 +49,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		CONOY: As it orbits <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity must be pulling on the meteors, causing the discrepancy we observed in where they land!
+		CONOY: As it orbits <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity must be pulling on the meteors, causing the discrepancies in where they land!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -57,7 +57,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		PRIVET: But of course.. Only quantum phenomena could cause such discrepancies in a negative time interval. And at the size of a moon, the <![CDATA[<color=lightblue>Quantum Moon</color>]]> must have sufficient mass to exert gravity as well!
+		PRIVET: But of course.. Only quantum phenomena could cause such discrepancies in a negative time interval. And at the size of a moon, the <![CDATA[<color=lightblue>Quantum Moon</color>]]> must be exerting a significant gravitational force!
 		</Text>
 	</TextBlock>
 	<TextBlock>

@@ -17,16 +17,7 @@
 			}
 		]
 	},
-	"speedTrapVolumes": [
-		{
-			"position":{"x": 1.7,"y": 0,"z": 0},
-			"radius": 5,
-			"isRelativeToParent": true,
-			"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)",
-			"speedLimit": 10,
-			"acceleration": 0.01
-		}
-	],
+	
 		"revealVolumes": [
 			{
 				"reveals": ["DSS Probe"],
@@ -72,6 +63,7 @@
 			"horizonRadius": 0.5,
 			"position":{"x": 1.7,"y": 0,"z": 0},
 			"rotation": {"x":0,"y":0,"z":180},
+			"renderQueueOverride": 3000,
 			"isRelativeToParent": true,
 			"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)"
 		}
@@ -720,16 +712,8 @@
 				"rotation":{"x": 90,"y": 90, "z": 0},
 				"scale":0.65,
 				"isRelativeToParent": true
-			},
-			{
-				"rename":"window whitehole fix",
-				"assetBundle": "planets/bundle/dss shell",
-				"path":"assets/nomai ruins/innershell.prefab",
-				"position":{"x": 0,"y": 0,"z": 0},
-				"scale":0.024,
-					"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer",
-				"isRelativeToParent": true
 			}
+			
 	],
 	"translatorText": [
 		{
@@ -822,62 +806,10 @@
 					"nomaiText":
 				[
 					{
-						"id": "TH_Sanctuary",
+						"id": "HGT_TimeLoop",
 						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/DSS final note.xml",
-						"seed":5,
-						"arcInfo": [
-							{},
-							{"position": {"x":0.7508,"y": 0.1441},"zRotation": 174.9183,"mirror": false},
-							{},{},{},{},{},{},{},{"position": {"x":-1.8202,"y": -0.4096},"zRotation": 224.6098,"mirror": true}
-						]
-					},
-					{
-						"id": "GD_ConstructionYard",
-						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml"
-					},
-					{
-						"id": "SunStation",
-						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/ss dss failure.xml",
+							"xmlFile": "planets/ExistingPlanets/translatortext/DSS/atp dss last.xml",
 						"seed":4
-					},
-					{
-						"id": "GD_LoversCove",
-						"location": "a",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/loverscove marriage timeloop.xml",
-						"arcInfo": [
-							{},
-							{},
-							{},
-							{},
-							{
-								"mirror": true,
-								"position": {"x":2.1638,"y": 1.5215},
-								"zRotation": 349.5079
-							},
-							{"mirror": true,
-								"position": {"x":1.778,"y": 1.575},
-								"zRotation": 54.532
-							},
-							{"mirror": true,
-								"position": {"x":1.0872,"y": 2.4965},
-								"zRotation": 69.5822
-							},
-							{"mirror": true,
-								"position": {"x":0.1722,"y": 1.9935},
-								"zRotation": 112.1742
-							},
-							{"mirror": true,
-								"position": {"x":-0.115,"y": 1.8738},
-								"zRotation": 56.1776
-							},
-							{"mirror": true,
-								"position": {"x":-1.1567,"y": 1.4039},
-								"zRotation": 77.6473
-							}
-						]
 					},
 					{
 						"id": "GD_StatueIslandScrollWorkshop",

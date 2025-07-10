@@ -6,14 +6,7 @@
 	"Props": {
 
 		"translatorText": [
-			{
-				"rename":"Cassava suspicion walltext",
-				"position": {"x": -2.1635,"y": -60.7241,"z": 21.0388},
-				"rotation": {"x": 343.6114,"y": 299.4475, "z": 190.9192},
-				"isRelativeToParent": true,
-				"type": "wall",
-				"xmlFile": "planets/ExistingPlanets/translatortext/zBramble/interloper grass.xml"
-			}
+			
 		],
 
 		"details": [

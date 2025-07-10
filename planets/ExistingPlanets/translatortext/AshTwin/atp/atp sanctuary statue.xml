@@ -1,0 +1,70 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+	
+	<![CDATA[<color=orange>Excavation Site</color>]]>
+
+	<TextBlock>
+		<ID>1</ID>
+		<LocationB />
+		<Text>YARROW: Oeno, it pains me to report that the <![CDATA[<color=orange>Ash Twin Project</color>]]> has failed.. We should begin the evacuation of the lifeforms inside the <![CDATA[<color=orange>Sanctuary.</color>]]>
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<LocationA />
+		<Text>OENO: No.. Not after everything we've done to prepare for it! Are we.. certain there is no way the <![CDATA[<color=orange>Ash Twin Project</color>]]> will work, Yarrow?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<LocationB />
+		<Text>YARROW: Unfortunately, yes.. It appears there was a fatal flaw with the proposed power source.
+		</Text>
+	</TextBlock>
+	
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<LocationB />
+		<Text>YARROW: I had a suspicion when I did not pair with a memory statue immediately upon activating the <![CDATA[<color=orange>Ash Twin Project</color>]]> as we expected.. But only after
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<LocationB />
+		<Text>YARROW: An update: a memory statue aboard the <![CDATA[<color=orange>Ash Twin Project</color>]]> has just paired with me!
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<LocationB />
+		<Text>YARROW: But.. We were unable to power the <![CDATA[<color=orange>Ash Twin Project..</color>]]> Why did this memory statue pair with me erroneously?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>5</ParentID>
+		<LocationB />
+		<Text>YARROW: An update: my disappointment has turned to exasperation.. It appears the memory statue only paired with me due to a safeguard I implemented at Conoy's behest.
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<LocationA />
+		<Text>OENO: To have our hopes raised by a safeguard, after all the work we put into safeguarding the <![CDATA[<color=orange>Ash Twin Project..</color>]]> How darkly ironic, Yarrow!
+		</Text>
+	</TextBlock>
+
+	<ShipLogConditions>
+		<RevealFact>
+			<FactID>TT_TIME_LOOP_DEVICE_X5</FactID>
+			<Condition></Condition>
+		</RevealFact>
+	</ShipLogConditions>
+
+
+</NomaiObject>

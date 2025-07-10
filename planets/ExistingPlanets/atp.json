@@ -5,10 +5,81 @@
 	"removeChildren": [
 		"Props_TimeLoopRing/OtherComponentsGroup/Props_NOM_StatueHead",
 		"Interactibles_TimeLoopRing/MaskPlatform",
-		"Interactibles_TimeLoopRing_Hidden/Prefab_NOM_Computer"
-	],
+		"Interactibles_TimeLoopRing_Hidden/Prefab_NOM_Computer",
 
+		"Interactibles_TimeLoopRing_Hidden/SharedWhiteboardPivot/Prefab_NOM_Whiteboard_Shared"
+	],
+	
 	"Props": {
+		"remotes": [
+			{
+				"id":"HGT_TimeLoop_Replaced",
+				"decalPath": "planets/assets/atp icon.png",
+					"whiteboard":{
+						"rename":"Replacement atp whiteboard",
+						"position":{"x": 8.6,"y": -26.32,"z": -8.05},
+						"rotation": {"x": 1.5448,"y": 3.2568,"z": 18.3134},
+						"isRelativeToParent": true,
+						"parentPath": "Interactibles_TimeLoopRing_Hidden/SharedWhiteboardPivot",
+						"nomaiText": [
+							{
+								"id": "GD_StatueIsland",
+								"location":"b",
+								"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/basegame statuework.xml"
+							},
+							{
+								"id":"SunStation",
+								"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/sunstation/basegame ss atp stone.xml",
+								"location": "b",
+								"seed":1
+							},
+							{
+								"id":"TH_Mine",
+								"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/basegame atp stone.xml",
+								"seed":1,
+								"location": "b"
+							},
+							{
+								"id":"BH_BlackHoleForge",
+								"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/atp/basegame bh.xml",
+								"seed":1,
+								"location": "b"
+							},
+							{
+								"id":"GD_ProbeCannonSunkenModule",
+								"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/atp/basegame ptm atp.xml",
+								"seed":8,
+								"location": "b"
+							},
+
+							{
+								"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/hourglass observatory/hob atp.xml",
+								"id": "HG_OB",
+								"location": "b",
+								"seed": 3
+							},
+							{
+								"xmlFile": "planets/ExistingPlanets/translatortext/zBrittleHollow/q weatherlab/quantum opc timeloop.xml",
+								"id": "BH_QWL",
+								"location": "b",
+								"seed": 5
+							},
+							{
+								"id": "GD_DeepStormStation",
+								"location": "b",
+								"xmlFile": "planets/ExistingPlanets/translatortext/DSS/atp dss last.xml",
+								"seed":4
+							},
+							{
+								"id": "TH_Sanctuary",
+								"location": "b",
+									"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/atp/atp sanctuary statue.xml",
+								"seed":8
+							}
+						]
+					}
+	}
+		],
 		"dialogue": [
 			{
 				"rename":"Timemaster Herbert TEST",

@@ -4,7 +4,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: Friends on the <![CDATA[<color=orange>Sun Station:</color>]]> I am overjoyed to have the chance to visit and admire your work, as you once did!
+		CASSAVA: Friends on the <![CDATA[<color=orange>Sun Station:</color>]]> I am overjoyed to have the chance to visit and admire your work as well!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,7 +20,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: Still, I cannot help but wonder: how does the <![CDATA[<color=orange>Sun Station</color>]]> work?
+		CASSAVA: Still, I cannot help but wonder... How does the <![CDATA[<color=orange>Sun Station</color>]]> work?
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -28,7 +28,7 @@
 		<LocationA />
 		<ParentID>3</ParentID>
 		<Text>
-		CASSAVA: I am not aware of any mechanisms that could cause significant impact to a star.. I am rather curious what methods the <![CDATA[<color=orange>Sun Station</color>]]> will use to cause such an effect!
+		CASSAVA: I am not aware of any mechanisms that could cause such significant impact to a star.. I am rather curious what methods the <![CDATA[<color=orange>Sun Station</color>]]> will use to cause such an effect!
 		</Text>
 	</TextBlock>
 	
@@ -37,7 +37,7 @@
 		<LocationA />
 		<ParentID>4</ParentID>
 		<Text>
-		PYE: I would be happy to explain the <![CDATA[<color=orange>Sun Station</color>]]> works to you, Cassava! I am glad to be able to repay your hospitality and hard work on Giant's Deep.
+		PYE: I would be happy to explain it to you aboard the <![CDATA[<color=orange>Sun Station,</color>]]> Cassava. I am glad to be able to repay your hospitality after seeing your hard work on <![CDATA[<color=lightblue>Giant's Deep!</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -56,7 +56,7 @@
 		<LocationA />
 		<ParentID>6</ParentID>
 		<Text>
-		PYE: With such devastating power at its control, it is truly of utmost importance that anyone who visits the <![CDATA[<color=orange>Sun Station</color>]]> takes the utmost care near the control bay.
+		PYE: With such devastating power at its control, it is truly of utmost importance that anyone who visits the <![CDATA[<color=orange>Sun Station</color>]]> takes the utmost care near the <![CDATA[<color=orange>control bay.</color>]]>
 		</Text>
 	</TextBlock>
 

@@ -3,38 +3,38 @@
 	<![CDATA[<color=orange>Excavation Site</color>]]>
 	<TextBlock>
 		<ID>1</ID>
-		<LocationA />
+		<LocationB />
 		<Text>
 		YARROW: Friends on the <![CDATA[<color=orange>Hourglass Observatory:</color>]]> I am happy to report that we are almost ready to launch the <![CDATA[<color=orange>Ash Twin Project!</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
-		<LocationA />
+		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: To allow everyone to make final preparations for this momentous day, we have decided to launch the <![CDATA[<color=orange>Ash Twin Project</color>]]> at the conclusion of this current sand transfer cycle.
+		YARROW: To allow everyone to prepare for this momentous event, we will be launching the <![CDATA[<color=orange>Ash Twin Project</color>]]> at the conclusion of the <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> current sand transfer cycle!
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<LocationB />
+		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		OENO: Wait, Yarrow! Sand is flowing from <![CDATA[<color=lightblue>Ember Twin</color>]]> to <![CDATA[<color=lightblue>Ash Twin</color>]]> during this current sand transfer cycle.. Should we not delay the <![CDATA[<color=orange>Ash Twin Project,</color>]]> until sand flows back once more?
+		OENO: Wait, Yarrow! Sand is flowing from <![CDATA[<color=lightblue>Ember Twin</color>]]> to <![CDATA[<color=lightblue>Ash Twin</color>]]> during this current sand transfer cycle!
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
 		<ParentID>2</ParentID>
-		<LocationB />
+		<LocationA />
 		<Text>
-		OENO: I can see the <![CDATA[<color=orange>solar towers</color>]]> already half-buried by sand.. I fear this may interefere with their ability to absorb solar energy to power the <![CDATA[<color=orange>Ash Twin Project!</color>]]>
+		OENO: The <![CDATA[<color=orange>solar towers</color>]]> on <![CDATA[<color=lightblue>Ash Twin</color>]]> are already buried by oceans of sand.. Should we not delay the launch, so they will not be impeded from powering the <![CDATA[<color=orange>Ash Twin Project?</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>5</ID>
-		<LocationA />
+		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
 		YARROW: Worry not, Oeno.. No amount of sand will be able to stand up to the might of a supernova! 
@@ -42,7 +42,7 @@
 	</TextBlock>
 	<TextBlock>
 		<ID>6</ID>
-		<LocationA />
+		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
 		YARROW: As the sun collapses, the supernova will engulf the star system with immense heat.
@@ -50,19 +50,19 @@
 	</TextBlock>
 		<TextBlock>
 		<ID>7</ID>
-		<LocationA />
+		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		YARROW: As the <![CDATA[<color=orange>solar towers</color>]]> have been reinforced, we are confident any sand will be melted away by this heat as the supernova occurs, allowing our towers to absorb solar energy unimpeded.
+		YARROW: As the <![CDATA[<color=orange>solar towers</color>]]> have been reinforced, we are confident any sand will be melted away by this heat as the supernova occurs, allowing our towers to function unimpeded.
 		</Text>
 	</TextBlock>
 
 	<TextBlock>	
 	<ID>8</ID>
-		<LocationB />
+		<LocationA />
 		<ParentID>7</ParentID>
 		<Text>
-		OENO: I am grateful to hear your reassurance, and even more impressed by your foresight, Yarrow. I shall look forwards greatly to the success of the <![CDATA[<color=orange>Ash Twin Project</color>]]> with my worries put to rest!
+		OENO: I see.. I am impressed by your foresight, Yarrow! I shall look forwards greatly to the success of the <![CDATA[<color=orange>Ash Twin Project,</color>]]> with my worries put to rest.
 		</Text>
 	</TextBlock>
 

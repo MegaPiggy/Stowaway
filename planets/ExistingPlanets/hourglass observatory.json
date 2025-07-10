@@ -161,7 +161,7 @@
 					{
 					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/hourglass observatory/hob atp.xml",
 					"id": "HGT_TimeLoop",
-					"location": "b",
+					"location": "a",
 					"seed": 3
 					}
 				]

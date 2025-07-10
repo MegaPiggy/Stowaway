@@ -3,33 +3,33 @@
 	<![CDATA[<color=orange>Excavation Site</color>]]>
 	<TextBlock>
 		<ID>1</ID>
-		<LocationA />
+		<LocationB />
 		<Text>
-		YARROW: (WIP) Cassava is paired to a memory statue aboard the DSS, and the Deep Storm Station will fire shortly after the Sun Station fires, serving as a last resort.
+		YARROW: Cassava: The <![CDATA[<color=orange>Ash Twin Project</color>]]> will soon be launched! Are you ready to launch the <![CDATA[<color=orange>Deep Storm Station</color>]]> ahead of us?
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
-		<LocationB />
+		<LocationA />
 		<ParentID>1</ParentID>
 		<Text>
-		PYE: Our apologies for our tardiness, Yarrow. Idaea and I were lost on our way, before Poke found us!
+		CASSAVA: I am ready, Yarrow. A memory statue aboard the <![CDATA[<color=orange>Deep Storm Station</color>]]> has already been paired with me!
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
-		<ParentID>1</ParentID>
+		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		IDAEA: Yarrow, a memory statue aboard the <![CDATA[<color=orange>Sun Station</color>]]> paired with me just now. Does this mean that the project.. succeeded?
+		YARROW: Wonderful! Using the <![CDATA[<color=orange>Deep Storm Station's</color>]]> secondary negative time interval, you should be able to see 6 seconds into the future after the <![CDATA[<color=orange>Ash Twin Project</color>]]> is launched.
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
-		<ParentID>3</ParentID>
-		<LocationA />
+		<ParentID>2</ParentID>
+		<LocationB />
 		<Text>
-		YARROW: I am glad to hear from you at last, my friends. But.. No, I'm afraid the <![CDATA[<color=lightblue>Eye of the Universe</color>]]> continues to elude us.
+		YARROW: If all goes as planned, I should instantaneously receive memories from the <![CDATA[<color=orange>Ash Twin Project,</color>]]> before sending you the order to shut off the <![CDATA[<color=orange>Deep Storm Station!</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -37,7 +37,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: Though our friends predicted as much, I cannot hide our disappointment that the <![CDATA[<color=orange>Deep Storm Station</color>]]> was unable to locate the <![CDATA[<color=lightblue>Eye of the Universe.</color>]]>
+		CASSAVA: Yarrow, is everything alright? You were to write to me with news of the outcome after launching the <![CDATA[<color=orange>Ash Twin Project!</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -45,7 +45,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		YARROW: The memory statues were only activated after it had elapsed 20 billion loops, and began to detect redundant trajectories.
+		CASSAVA: I experienced several intervals of the 6-second negative time interval, before shutting it off to write to the <![CDATA[<color=orange>Ash Twin Project</color>]]> to learn if something had happened.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -53,15 +53,15 @@
 		<ParentID>6</ParentID>
 		<LocationB />
 		<Text>
-		IDAEA: But Yarrow, the <![CDATA[<color=orange>Deep Storm Station</color>]]> still succeeded: thanks to the test, we can now be certain that the <![CDATA[<color=orange>Ash Twin Project's</color>]]> mechanisms are theoretically sound and functional.
+		YARROW: Cassava! I-I apologize. I lost track of time trying to learn what happened myself, after failing to receive any memories from 22 minutes into the future..
 		</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>8</ID>
 		<ParentID>7</ParentID>
-		<LocationB />
+		<LocationA />
 		<Text>
-		PYE: Idaea is correct, Yarrow! Once the <![CDATA[<color=orange>Sun Station</color>]]> is complete, we can now be confident in its operation without fear.
+		CASSAVA: Oh, no... The only thing that could mean is that.. The <![CDATA[<color=orange>Ash Twin Project</color>]]> did not work.
 		</Text>
 	</TextBlock>
 

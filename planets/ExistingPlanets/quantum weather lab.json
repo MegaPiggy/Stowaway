@@ -146,7 +146,7 @@
 			"decalPath": "planets/assets/atp icon.png",
 			"stones": [
 				{
-					"rename": "HOB ATP SharedStone",
+					"rename": "QWL ATP SharedStone",
 					"position":{"x": -8.9474,"y": 34.9326,"z": 5.3563},
 					"rotation":{"x": 0, "y": 180, "z": 90},
 					"isRelativeToParent": true
@@ -154,7 +154,7 @@
 			]
 		},
 		{
-			"id":"HG_OB",
+			"id":"BH_QWL",
 			"decalPath": "planets/assets/qwl icon.png",
 			"platform":
 			{

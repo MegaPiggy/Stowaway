@@ -23,6 +23,16 @@
 
 
 "Volumes": {
+	"speedTrapVolumes": [
+		{
+			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
+			"radius": 60,
+			"isRelativeToParent": true,
+			"parentPath": "Sector_TH/Sector_Sanctuary",
+			"speedLimit": 10,
+			"acceleration": 0.01
+		}
+	],
 	"rulesets": {
 		"playerImpactRulesets": [
 			{
@@ -51,7 +61,7 @@
 			"rename": "Sanctuary shutupbugs ambience",
 			"track": "environment",
 			"priority": 129,
-			"volume": 0.35,
+			"volume": 0.55,
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
 			"radius": 20,
 			"isRelativeToParent": true,
@@ -144,7 +154,7 @@
 					{
 						"position":{"x": -103.7722,"y": 17.865,"z": 117.3124},
 						"rotation": {"x":311.8705,"y": 40.1255,"z": 88.4716},
-						"probability": 5,
+						"probability": 10,
 						"parentPath": "Sector_TH/Sector_Sanctuary",
 						"isRelativeToParent": true
 					}
@@ -162,6 +172,13 @@
 				"position": {"x":56.924,"y": 206.845,"z": -31.612},
 				"rotation": {"x":348.3348,"y": 117.1409,"z": 358.9288},
 				"isRelativeToParent": true
+			},
+			{
+				"rename":"Sanctuary ATP stone",
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle/Sanctuary table",
+				"position": {"x": 0.121,"y": 1.0598,"z": 0.7556},
+				"rotation": {"x": 0.0001,"y": 205.8037,"z": 0},
+				"isRelativeToParent": true
 			}
 		]},
 	{
@@ -178,7 +195,7 @@
 				{
 					"id":"HGT_TimeLoop",
 					"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/basegame atp stone.xml",
-					"seed":0,
+					"seed":1,
 					"location": "a"
 				},
 				{
@@ -214,22 +231,18 @@
 				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 			"isRelativeToParent": true,
 			"nomaiText": [
-				{
-					"id": "GD_DeepStormStation",
-					"location": "b",
-					"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/DSS final note.xml",
-					"seed":5,
-					"arcInfo": [
-						{},
-						{"position": {"x":0.7508,"y": 0.1441},"zRotation": 174.9183,"mirror": false},
-						{},{},{},{},{},{},{},{"position": {"x":-1.8202,"y": -0.4096},"zRotation": 224.6098,"mirror": true}
-					]
-				},
+				
 				{
 					"id": "GD_StatueIslandScrollWorkshop",
 						"location": "b",
 							"seed": 4,
 							"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/daz sanctuary empty.xml"
+				},
+				{
+					"id": "HGT_TimeLoop",
+						"location": "a",
+							"seed": 8,
+					"xmlFile": "planets/ExistingPlanets/translatortext/AshTwin/atp/atp sanctuary statue.xml"
 				}
 				
 				]}
@@ -247,32 +260,19 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename": "sanctuary scroll",
+				"rename": "sanctuary whiteboard",
+				"position": {"x":-96.7896,"y": 13.4562,"z": 125.6491},
+				"rotation": {"x":0.7417 ,"y": 226.4707,"z": 273.6281},
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
+				"type": "whiteboard"
+			},
+			{
+				"rename": "sanctuary cassava whiteboard",
 				"position": {"x":-98.4592,"y": 16.9017,"z": 126.2494},
 				"rotation": {"x":19.5795,"y": 226.9622,"z": 351.1042},
 				"isRelativeToParent": true,
 				"type": "scroll",
-				"xmlFile": "planets/ExistingPlanets/translatortext/Timber Hearth mines/sanctuary entangle.xml",
-				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
-				"seed":1,
-				"arcInfo": [
-					{},
-					{},
-					{},
-					{},
-					{},
-					{"position": {"x":0.2103,"y": 2.3545},"zRotation": 286.9936,"mirror": false},
-					{"position": {"x":1.5218,"y": 1.6895},"zRotation": 241.3111,"mirror": false},
-					{"position": {"x":1.712,"y": 0.3605},"zRotation": 146.5787,"mirror": false},
-					{}
-				]
-			},
-			{
-				"rename": "sanctuary cassava whiteboard",
-				"position": {"x":-96.7896,"y": 13.4562,"z": 125.6491},
-				"rotation": {"x":0.7417 ,"y": 226.4707,"z": 273.6281},
-				"isRelativeToParent": true,
-				"type": "whiteboard",
 				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"seed":1,
 				"arcInfo": [
@@ -1003,7 +1003,7 @@
 				"position": {"x": -0.0567, "y": -0.5421 , "z": -0.3031},
 				"rotation": {"x": 359.4102, "y": 15.4367, "z": 358.1976},
 				"isRelativeToParent": true,
-				"stretch": {"x":0.7,"y":0.2,"z":0.7}
+				"stretch": {"x":0.7,"y":0.3,"z":0.7}
 			},
 			
 
@@ -1023,6 +1023,23 @@
 				"isRelativeToParent": true,
 				"position": {"x":0.315,"y":0,"z":-1.501},
 				"parentPath": "Sector_TH/Sector_Sanctuary"
+			},
+			{
+			"rename":"Sanctuary table",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/table.prefab",
+			"position": {"x": -101.29,"y": 18.8213,"z": 119.8852},
+			"rotation": {"x": 354.5126,"y": 224.8992,"z": 276.6566},
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
+			"isRelativeToParent": true
+			},{
+			"rename":"Sanctuary table box",
+			"assetBundle": "planets/bundle/prefabs",
+				"path":"assets/nomai ruins/prefabs/broken box.prefab",
+			"position": {"x": 0.1996,"y": 1.0598,"z": 0.149},
+			"rotation": {"x": 0,"y": 31.137,"z": 0},
+				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle/Sanctuary table",
+			"isRelativeToParent": true
 			},
 			{
 				"rename":"Sanctuary shelf",
@@ -1159,7 +1176,7 @@
 				"path":"assets/models/water plane.prefab",
 				"position":{"x": -97.4024,"y": 15.6242,"z": 114.9191},
 				"rotation":{"x":275.3447,"y": 140.4986,"z": 357.649},
-				"scale": 5,
+				"stretch": {"x":7,"y":5,"z":7},
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Sector_Sanctuary"
 			}

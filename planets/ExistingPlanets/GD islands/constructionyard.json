@@ -55,17 +55,6 @@
 						"xmlFile":"planets/ExistingPlanets/translatortext/Construction Yard/basegame brittlehollow copy.xml",
 						"location":"a",
 						"seed":4
-					},
-					{
-						"id": "GD_DeepStormStation",
-						"location": "b",
-						"xmlFile": "planets/ExistingPlanets/translatorText/DSS/projection stones/cyard dss excavation.xml"
-					},
-					{
-						"id": "GD_StatueIslandScrollWorkshop",
-						"location": "a",
-						"seed":1,
-						"xmlFile": "planets/ExistingPlanets/translatortext/StatueIsland/scroll workshop/workshop hidden scroll.xml"
 					}
 				]
 				}

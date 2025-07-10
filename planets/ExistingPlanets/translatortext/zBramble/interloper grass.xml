@@ -6,7 +6,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: I am more certain than ever of my hypothesis.
+		CASSAVA: This lone plant left by the expedition team appears to be completely unaffected by the presence of the deadly matter around it.
 		</Text>
 	</TextBlock>
 
@@ -15,7 +15,7 @@
 		<ParentID>1</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: This structure appears meticulously constructed, and its payload devastating to the entire star system..
+		CASSAVA: Beyond it, the trees, grasses, and flora of the star system appear bizzarely resilient to the deadly matter, despite its terrible effect on the star system.
 		</Text>
 	</TextBlock>
 	
@@ -24,7 +24,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Yet, this danger appears completely inert to select lifeforms. The trees of <![CDATA[<color=lightblue>Timber Hearth,</color>]]> and this lone plant left by the expedition team, have been completely untouched by its presence.
+		CASSAVA: I can only assume the differences between the biology of plants and animals must have protected them.. But was this survival by miraculous chance, or engineered specificity?
 		</Text>
 	</TextBlock>
 	
@@ -33,7 +33,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Even if this suspicious detail had not betrayed the nature of the structure's source, I am more certain than ever that this comet did not arrive in our star system by coincidence.
+		CASSAVA: The bramble appears to be strong and healthy, even as it is engulfed by the deadly matter.. That can be no coincidence in my mind.
 		</Text>
 	</TextBlock>
 
@@ -42,7 +42,7 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: I vow to locate this source... and repay the knowledge they have so kindly taught us.
+		CASSAVA: Our clan had long wondered if the bramble was a conduit of intergalactic travel for a more advanced civilization's intergalactic travel.
 		</Text>
 	</TextBlock>
 
@@ -51,7 +51,15 @@
 		<ParentID>4</ParentID>
 		<LocationA />
 		<Text>
-		CASSAVA: Poke, Pye, Clary... I thank you for your undying curiosity, and your brave sacrifices. I will ensure that they were not in vain.
+		CASSAVA: If this is true.. Did they detect us, and perceive us as threats? Was this comet sent to deliberately purge the star system the bramble had taken root in?
+		</Text>
+	</TextBlock>
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>4</ParentID>
+		<LocationA />
+		<Text>
+		CASSAVA: ...I must continue this investigation. Until I can answer this question, my journey has not come to an end.
 		</Text>
 	</TextBlock>
 

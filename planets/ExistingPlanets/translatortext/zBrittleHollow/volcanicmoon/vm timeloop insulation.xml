@@ -52,7 +52,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		ROOT: Your concerns are wisely placed, Poke.. But fear not: the system is not so fragile!
+		ROOT: Your concerns are wisely placed, Poke.. But fear not: the <![CDATA[<color=orange>Ash Twin Project</color>]]> is not so fragile!
 		</Text>
 	</TextBlock>
 

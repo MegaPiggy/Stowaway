@@ -2,10 +2,26 @@
 	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
 
 	"name":"QuantumMoon",
+	
+	"Volumes": {
+		
+			"destructionVolumes":
+				[
+					{
+						"deathType": "digestion",
+						"onlyAffectsPlayerRelatedBodies": true,
+						"radius": 5,
+						"position":{"x": -34.3901,"y": 51.979,"z": 8.3969},
+						"rotation":{"x": 74.9358,"y": 83.2762,"z": 195.8046},
+						"parentPath": "Sector_QuantumMoon/State_EYE/Volumes_EYEState",
+						"isRelativeToParent": true
+					}
+				]
 
+	},
 	"removeChildren": ["Sector_QuantumMoon/State_EYE/Volumes_EYEState/VortexFluidVolume"],
 	"Props": {
-	
+		
 		"socketQuantumGroups": [
 			{
 				"details": 
@@ -57,8 +73,15 @@
 			}
 		],
 
-			"details": [
-			
+			"details": [{
+					"rename":"QShrine Roof Upper",
+					"path":"QuantumMoon_Body/Sector_QuantumMoon/QuantumShrine/Structure_NOM_QuantumShrine/Roof (1)/",
+						"position":{"x": 0,"y": 44.6,"z": 0},
+						"rotation":{"x": 0,"y": 120,"z": 180},
+						"parentPath": "Sector_QuantumMoon/QuantumShrine/Structure_NOM_QuantumShrine",
+					"isRelativeToParent": true
+			},
+		
 			{
 				"rename":"VortexFluidVolume repositioned",
 				"path":"QuantumMoon_Body/Sector_QuantumMoon/State_EYE/Volumes_EYEState/VortexFluidVolume",
@@ -78,7 +101,7 @@
 				"isRelativeToParent": true
 			},
 			{
-				"rename":"eye crust collider",
+				"rename":"eye radius null_ending safety tractor object",
 				"path":"TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/AnglerFishExhibit/AnglerFishTankPivot/Beast_Anglerfish/",
 				"position":{"x": -33.7033,"y": 51.9855,"z": 6.7998},
 				"rotation":{"x": 330.5839,"y": 13.2345,"z": 31.4948},
