@@ -12,11 +12,6 @@
 				<DialogueTarget>ModelRocketKid_Sand1</DialogueTarget>
 			</DialogueOption>
 			<DialogueOption>
-				<RequiredLogCondition>MICA EX1</RequiredLogCondition>
-				<Text>Hey Mica, the sand column's flowing right now!</Text>
-				<DialogueTarget>ModelRocketKid_RightNow</DialogueTarget>
-			</DialogueOption>
-			<DialogueOption>
 			<RequiredLogCondition>SS Tower EX5</RequiredLogCondition>
 				<Text>I figured out what causes sand to flow between the Hourglass Twins!</Text>
 				<DialogueTarget>ModelRocketKid_Sand2</DialogueTarget>
@@ -56,10 +51,10 @@
 <DialogueNode>
 		<Name>ModelRocketKid_SW_Intro</Name>
 		<Dialogue>
-			<Page>Yeah, haven't you noticed? Try looking at the Hourglass Twins with your signalscope right now, astronaut!</Page>
-			<Page>Without sand flowing between them, the "Hourglass Twins" don't really live up to their name, do they? We should just call them "The Twins" the rest of the time, heh.</Page>
-			<Page>Chert told me that sand stops flowing between the Hourglass Twins for weeks.. But how long is that exactly?!</Page>
-			<Page>I wanna be ready to watch when sand starts flowing between the Twins again - but since Chert took off into space without telling me how much longer it'll take, I have no idea when it's gonna happen..</Page>
+			<Page>Yeah, haven't you noticed that column of sand's been gone for a while? Try looking at the Hourglass Twins with your signalscope right now, astronaut!</Page>
+			<Page>Without sand flowing between them, the "Hourglass Twins" don't really live up to their name, do they? We should just call them "The Twins" the rest of the time, haha.</Page>
+			<Page>Chert told me that sand would start flowing between the Hourglass Twins again on the morning of your launch day.</Page>
+			<Page>I dunno how Chert knows when sand starts flowing again - but I'm just happy the Hourglass Twins are finally back!</Page>
 			 </Dialogue>
 			  				<RevealFacts>
      						   <FactID>MICA EX1</FactID>
@@ -79,8 +74,8 @@
 		<Dialogue>
 			<Page>Aw.. I guess I shouldn't be surprised, when even Chert couldn't figure it out.</Page>
 			<Page>Without sand flowing between them, the "Hourglass Twins" don't even live up to their name! We should just call them "The Twins" until sand finally flows between them again.</Page>
-			<Page>Chert told me that sand stops flowing between the Hourglass Twins for weeks, but I have no idea how long exactly that is!</Page>
-			<Page>I wanna be ready to watch when sand starts flowing between the Twins again - but since Chert took off into space without telling me how much longer it'll take, I have no idea when it's gonna happen..</Page>
+			<Page>Chert told me that sand would start flowing between the Hourglass Twins again on the morning of your launch day.</Page>
+			<Page>I dunno how Chert knows when sand starts flowing again - but I'm just happy the Hourglass Twins are finally back!</Page>
 			  </Dialogue>
 			  				<RevealFacts>
      						   <FactID>MICA EX1</FactID>
@@ -103,14 +98,6 @@
 			 </Dialogue>
 	</DialogueNode>
 
-<DialogueNode>
-		<Name>ModelRocketKid_RightNow</Name>
-		<Dialogue>
-			<Page>W-what? Right now.. Really?!</Page>
-			<Page>Aww.. Moraine's still using the signalscope, and I can't borrow yours when you're about to go into space.. ARGH! I had the signalscope all day the other day, waiting for the sand to start flowing! Why's it only starting now?!</Page>
-			<Page>Space is the worst...</Page>
-			 </Dialogue>
-	</DialogueNode>
 	
 
 <DialogueNode>
@@ -148,8 +135,8 @@
 		<Dialogue>
 			<Page>Huh.. So it's gravity from the sun... and gravity from the twin closer to the sun combining, that causes sand to flow between the twins...</Page>
 			<Page>Huh.. That makes sense! The sun's gotta have some insane gravitational pull, after all.</Page>
-			<Page>So.. If that's true, that means sand should stop flowing between the Twins once they orbit out of alignment, right?</Page>
-			<Page>Haha, that sounds like a fun theory to test! It shouldn't take too long for the Hourglass Twins to orbit around each other again. Let's see if the sand stops flowing when they orbit out of alignment, astronaut!</Page>
+			<Page>So.. If that's true, that means sand should stop flowing between the Twins once they orbit out of alignment, right? Haha, that sounds like a fun theory to test!</Page>
+			<Page>It shouldn't take too long for the Hourglass Twins to orbit around each other again. Let's see if the sand stops flowing when they orbit out of alignment, astronaut!</Page>
 		</Dialogue>
 	</DialogueNode>
 

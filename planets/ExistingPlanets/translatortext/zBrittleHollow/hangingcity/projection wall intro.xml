@@ -23,7 +23,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-		ILEX: To use a projection wall, a projection stone must first be placed into its pedestal. This allows the projection wall to connect to the projection wall corresponding to the projection stone.
+		ILEX: To use a projection wall, a projection stone must first be placed into its pedestal. This allows the projection wall to connect to another projection wall for the conversation to be shared.
 		</Text>
 	</TextBlock>
 
@@ -73,6 +73,7 @@
 	</TextBlock>
 
 <ShipLogConditions>
+
 		<RevealFact>
 			<FactID>Workshop R3</FactID>
 			<Condition>8</Condition>

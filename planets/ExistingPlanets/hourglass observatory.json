@@ -207,7 +207,20 @@
 		"trueAnomaly": 125,
 		"isTidallyLocked": true,
 		"alignmentAxis": {"x":0,"y":1,"z":0}
-	}
+	},
+			
+	"ShipLog" :
+			{
+				"xmlFile": "planets/ship logs/HOB Stowaway.xml",
+				"spriteFolder": "planets/ship logs/sprites",
+				"mapMode": {
+							"manualNavigationPosition": {"x":0,"y":0},
+							"manualPosition": {"x":388,"y": -150},
+							"invisibleWhenHidden": true,
+							"outlineSprite": "planets/assets/bh icon.png",
+							"revealedSprite": "planets/assets/bh icon.png"
+							}
+			}
 
 
 

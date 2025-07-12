@@ -59,7 +59,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		PLUME: Oh? Yes, the Nomai on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> built a locator some time ago to track the <![CDATA[<color=lightblue>Quantum Moon..</color>]]> How amusing that our friends on <![CDATA[<color=lightblue>Ember Twin</color>]]> would have the same idea.
+		PLUME: Oh? Yes, the Nomai on <![CDATA[<color=lightblue>Brittle Hollow</color>]]> built a locator some time ago to track the <![CDATA[<color=lightblue>Quantum Moon..</color>]]> How amusing that our friends on <![CDATA[<color=lightblue>Ember Twin</color>]]> had the same idea.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -67,14 +67,18 @@
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		MELORAE: How fascinating! Perhaps we should visit this <![CDATA[<color=orange>Second Locator</color>]]> together when we next return to <![CDATA[<color=lightblue>Brittle Hollow,</color>]]>, Plume. I am quite curious how different it is from our locator!
+		MELORAE: How fascinating! Perhaps we should visit this <![CDATA[<color=orange>Second Locator</color>]]> together when we next return to <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> Plume. I am quite curious how different it is from our locator!
 		</Text>
 	</TextBlock>
 
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>Workshop R3</FactID>
+			<FactID>BH_QML R1</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_QML R1</FactID>
 			<Condition>8</Condition>
 		</RevealFact>
 

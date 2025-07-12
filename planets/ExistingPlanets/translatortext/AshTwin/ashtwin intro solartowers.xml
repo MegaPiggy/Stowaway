@@ -48,18 +48,25 @@
 
 	
 <ShipLogConditions>
+
 		<RevealFact>
 			<FactID>R_SLR EX1</FactID>
-			<Condition>5</Condition>
+			<Condition>3</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>R_SLR EX3</FactID>
-			<Condition>6</Condition>
+			<Condition>4</Condition>
 		</RevealFact>	
 		<RevealFact>
 			<FactID>R_SLR EX4</FactID>
-			<Condition>9</Condition>
+			<Condition>5</Condition>
 		</RevealFact>
+
+		<RevealFact>
+			<FactID>SLR_T R1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+
 	</ShipLogConditions>
 
 </NomaiObject>

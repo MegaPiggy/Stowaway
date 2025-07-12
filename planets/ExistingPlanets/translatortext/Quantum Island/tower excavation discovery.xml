@@ -36,7 +36,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			MELORAE: Hypothesis: is it be possible to keep quantum objects locked in superposition by observing an image of them?</Text>
+			MELORAE: Hypothesis: could it be possible to keep quantum objects locked in superposition by observing an image of them?</Text>
 	</TextBlock>
 		<TextBlock>
 		<ID>7</ID>
@@ -50,7 +50,7 @@
 
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>LC EX3</FactID>
+			<FactID>LC EX4</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
 	

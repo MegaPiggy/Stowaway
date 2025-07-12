@@ -116,10 +116,16 @@
 	
 
 	<ShipLogConditions>
-		<LocationB/>
+
 		<RevealFact>
-			<FactID>BH_QUANTUM_RESEARCH_TOWER_R2</FactID>
-			<Condition>2</Condition>
+			<FactID>BH_SSR R1</FactID>
+			<Condition>7</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>BH_SSR R2</FactID>
+			<Condition>13</Condition>
+		</RevealFact>
+
+
 	</ShipLogConditions>
 </NomaiObject>

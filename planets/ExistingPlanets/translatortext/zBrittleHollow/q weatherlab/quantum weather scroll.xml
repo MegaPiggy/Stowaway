@@ -49,7 +49,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		CONOY: As it orbits <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity must be pulling on the meteors, causing discrepancies in where they land!
+		CONOY: As it orbits <![CDATA[<color=lightblue>Brittle Hollow,</color>]]> the <![CDATA[<color=lightblue>Quantum Moon's</color>]]> gravity must be pulling on meteors in orbit, causing discrepancies in where they land!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -71,8 +71,12 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>Workshop R3</FactID>
-			<Condition>8</Condition>
+			<FactID>QWL EX1</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QWL EX2</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

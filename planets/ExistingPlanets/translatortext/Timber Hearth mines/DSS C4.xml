@@ -31,7 +31,7 @@
 		<LocationB />
 		<ParentID>2</ParentID>
 		<Text>
-			CASSAVA: They wander onto land in search of food - and geysers populating the pools they dwell in erupt them from safety. They.. They are already on the brink of... of...
+			CASSAVA: They wander onto land in search of food - and geysers populating the pools they dwell in erupt them into danger. They are already on the brink of... of...
 		</Text>
 	</TextBlock>
 
@@ -40,7 +40,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-			CASSAVA: <![CDATA[<i>No, no..</i>]]> I was too blinded by my own grief..
+			CASSAVA: <![CDATA[<i>No, no..</i>]]> What is the point of learning about this matter, if I cannot protect these species from it?!
 		</Text>
 	</TextBlock>
 
@@ -49,7 +49,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: ..For now, I must quarantine those within the <![CDATA[<color=orange>Sanctuary.</color>]]> But they cannot remain there indefinitely..
+			CASSAVA: For now, I must quarantine those within the <![CDATA[<color=orange>Sanctuary!</color>]]> But, even they cannot remain there indefinitely..
 		</Text>
 	</TextBlock>
 
@@ -58,7 +58,7 @@
 		<ParentID>6</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: .. My mind is set. I know how I can protect these species.
+			CASSAVA: ..My mind is set. I know how I can protect these species.
 		</Text>
 	</TextBlock>
 
@@ -76,16 +76,16 @@
 <ShipLogConditions>
 
 	<RevealFact>
-			<FactID>SY EX2</FactID>
-			<Condition>1</Condition>
+			<FactID>SY EX3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+	<RevealFact>
+			<FactID>SY EX3.5</FactID>
+			<Condition>8</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>SY R5</FactID>
 			<Condition>6</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>INSP EX6</FactID>
-			<Condition>8</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

@@ -45,7 +45,7 @@
 		<LocationA />
 		<ParentID>5</ParentID>
 		<Text>
-		CASSAVA: Wait.. Daz's voyager stones! I can voyage and traverse outside of the station safely using the voyager stones!
+		CASSAVA: Wait.. Daz's voyager stones! I can voyage and travel outside of the station safely using Daz's voyager stones!
 		</Text>
 			</TextBlock>
 				<TextBlock>	
@@ -58,18 +58,15 @@
 			</TextBlock>
 
 
-<ShipLogConditions>
+<ShipLogConditions> 
+
 		<RevealFact>
-			<FactID>DSS EX1</FactID>
+			<FactID>DSS_B EX0</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>DSS EX2</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>DSS EX3</FactID>
-			<Condition>4</Condition>
+			<FactID>DSS_B EX1</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 
 </ShipLogConditions>

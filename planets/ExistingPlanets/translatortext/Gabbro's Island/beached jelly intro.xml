@@ -75,12 +75,12 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>Cove R3</FactID>
-			<Condition>4</Condition>
+			<FactID>Cove R1</FactID>
+			<Condition>1</Condition>
 		</RevealFact>
 			<RevealFact>
-			<FactID>Cove R4</FactID>
-			<Condition>2</Condition>
+			<FactID>Cove R2</FactID>
+			<Condition>8</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

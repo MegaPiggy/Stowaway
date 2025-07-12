@@ -6,27 +6,12 @@
         <ID>INSPIRED</ID>
         <Name>The Inspired</Name>
         <Curiosity>Stowaway</Curiosity>
-         <AltPhotoCondition>INSP R0</AltPhotoCondition>
 
      <RumorFact>
              <IgnoreMoreToExplore/>
-            <ID>INSP R0</ID>
+            <ID>INSP R1</ID>
             <RumorName>Sunless Comet</RumorName>
             <Text>I found a frozen comet hidden in the shadow of Giant's Deep.</Text>
-         </RumorFact>
-  <RumorFact>
-             <IgnoreMoreToExplore/>
-            <ID>INSP R1</ID>
-            <RumorName>The Inspired</RumorName>
-             <RumorNamePriority>1</RumorNamePriority>
-            <Text>Gravity crystals from the Gravity Crystal Workshop were used in the construction of something called the Inspired.</Text>
-         </RumorFact>
-        <RumorFact>
-             <IgnoreMoreToExplore/>
-            <ID>INSP R1.5</ID>
-            <RumorName>The Inspired</RumorName>
-             <RumorNamePriority>1</RumorNamePriority>
-            <Text>The Inspired used a lattice of gravity crystals to exploit something called the property of attraction.</Text>
          </RumorFact>
           <RumorFact>
              <IgnoreMoreToExplore/>
@@ -36,18 +21,20 @@
              <RumorNamePriority>1</RumorNamePriority>
             <Text>The Interloper was used as the model for the Inspired.</Text>
          </RumorFact>
-        <RumorFact>
+   `<RumorFact>
              <IgnoreMoreToExplore/>
             <ID>INSP R3</ID>
-            <SourceID>DEEP_STORM_STATION</SourceID>
             <RumorName>The Inspired</RumorName>
              <RumorNamePriority>1</RumorNamePriority>
-            <Text>A scroll in the Deep Storm Station reveals that the Inspired was built to bring destruction to the source of ghost matter.</Text>
-               <AltText>
-                        <Text>A scroll in the Deep Storm Station reveals that the Inspired was built to bring destruction to the source of the Interloper.</Text>
-                        <Condition>COMET_INTERIOR_X1</Condition>
-                 </AltText>
-         </RumorFact>
+            <Text>The Inspired's lattice is incomplete, with entry points at the front of the structure.</Text>
+      </RumorFact>
+   `<RumorFact>
+             <IgnoreMoreToExplore/>
+            <ID>INSP R4</ID>
+            <RumorName>The Inspired</RumorName>
+             <RumorNamePriority>1</RumorNamePriority>
+            <Text>ALl available gravity crystals from the Gravity Crystal Workshop were used to build something called the Inspired.</Text>
+      </RumorFact>
 
 
          <ExploreFact>
@@ -59,42 +46,18 @@
   <ExploreFact>
              <IgnoreMoreToExplore/>
             <ID>INSP EX2</ID>
-            <Text>A Nomai named Cassava built the Inspired to bring great destruction to the source of ghost matter.</Text>
-               <AltText>
-                        <Text>A Nomai named Cassava built the Inspired to bring great destruction to the source of the Interloper.</Text>
-                        <Condition>COMET_INTERIOR_X3</Condition>
-                 </AltText>
+            <Text>I was able to enter the comet's interior. The structure's interior is comprised of large gravity crystals, all pointing towards a black hole at the center of the structure.</Text> 
         </ExploreFact>
         
            <ExploreFact>
         <IgnoreMoreToExplore/>
-            <ID>INSP EX4</ID>
-            <Text>The Inspired's construction used all available gravity crystals, and a white hole warp core powering the Deep Storm Station.</Text>
+            <ID>INSP EX3</ID>
+            <Text>A black hole inside the comet warped me into some sort of underwater Nomai station flooded with ghost matter.</Text>
              <AltText>
-                        <Text>The Inspired's construction used all available gravity crystals, and a white hole warp core powering the Deep Storm Station. Using its lattice of gravity crystals, it would exploit the property of attraction.</Text>
-                        <Condition>INSP R1.5</Condition>
+                        <Text>A black hole inside the comet warped me into the Deep Storm Station.</Text>
+                        <Condition>DSS EX1</Condition>
                  </AltText>
         </ExploreFact>
-
-        <ExploreFact>
-        <IgnoreMoreToExplore/>
-            <ID>INSP EX5</ID>
-            <Text>The Inspired's lattice is incomplete, with entry points at the front of the structure.</Text>
-        </ExploreFact>
-
-         <ExploreFact>
-          <IgnoreMoreToExplore/>
-            <ID>INSP EX6</ID> 
-            <Text>A Nomai named Cassava sent the Inspired towards Timber Hearth after making adjustments to it. He was determined to protect the native species.</Text>
-        </ExploreFact>
-
-           <ExploreFact>
-            <IgnoreMoreToExplore/>
-            <ID>INSP EX7</ID>
-            <Text>The Inspired was kept in stationary orbit around Giant's Deep in case containment of ghost matter was breached.</Text>
-       </ExploreFact>
-
-          
       
 </Entry>
 

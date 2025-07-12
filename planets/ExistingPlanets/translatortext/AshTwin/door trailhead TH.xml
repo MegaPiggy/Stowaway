@@ -55,21 +55,21 @@
 			<FactID>TH Tower R1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>SS Tower R2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
 
 		<RevealFact>
 			<FactID>TH Tower EX1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>TH Tower EX2</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>TH Tower EX3</FactID>
+			<FactID>TH Tower EX2</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>TH Tower EX4</FactID>
+			<FactID>TH Tower EX3</FactID>
 			<Condition>6</Condition>
 		</RevealFact>
 			

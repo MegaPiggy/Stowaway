@@ -36,8 +36,8 @@
 	"rulesets": {
 		"playerImpactRulesets": [
 			{
-				"maxImpactSpeed": 100000,
-				"minImpactSpeed": 90000,
+				"maxImpactSpeed": 10000000000,
+				"minImpactSpeed": 9000000000,
 				"radius": 60,
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
 			"isRelativeToParent": true,
@@ -1200,11 +1200,11 @@
 				"rename":"Slate remote intro",
 				"position": {"x":43.0928,"y": -32.9543,"z": 182.2643},
 				"radius": 0,
-				"blockAfterPersistentCondition": "STOWAWAY_GO_TALK_TO_KIDS",
 				"remoteTrigger": {
 					"position": {"x":5.6347,"y": -42.2488,"z": 187.3667},
 					"radius":4
 				},
+				"blockAfterPersistentCondition": "STOWAWAY_GO_TALK_TO_KIDS",
 				"xmlFile": "planets/ExistingPlanets/dialogue/Slate remote intro.xml"
 			},
 			{

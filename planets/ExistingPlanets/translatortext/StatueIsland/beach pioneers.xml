@@ -67,7 +67,11 @@
 			<Condition>1</Condition>
 		</RevealFact>
 			<RevealFact>
-			<FactID>Pioneer EX3B</FactID>
+			<FactID>Pioneer EX2</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Pioneer_Int R1</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
 

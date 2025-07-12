@@ -69,9 +69,14 @@
 		</RevealFact>
 		
 		<RevealFact>
-			<FactID>Pioneer EX3.5</FactID>
+			<FactID>Pioneer_Int EX3</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>Pioneer_Int EX4</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
+
 </ShipLogConditions>
 
 </NomaiObject>

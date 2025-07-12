@@ -6,17 +6,26 @@
 	<DialogueNode>
 		<Name>Scientist1B</Name>
 		<DialogueOptionsList>
+
 			<DialogueOption>
-				<CancelledCondition>I_Quit</CancelledCondition>
-				<Text>What's the important news you wanted to tell me?</Text>
+				<RequiredCondition>I_Quit</RequiredCondition>
+				<CancelledCondition>I_Quit2</CancelledCondition>
+				<CancelledCondition>Question_Answered</CancelledCondition>
+				<Text>Uhhh, Slate. Why's the ship locked?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredCondition>I_Quit</RequiredCondition>
-				<CancelledCondition>I_Join</CancelledCondition>
+				<RequiredCondition>I_Quit2</RequiredCondition>
+				<CancelledCondition>Question_Answered</CancelledCondition>
 				<Text>So, I just ask the hatchlings what questions they have about space?</Text>
 				<DialogueTarget>Slate_Tradition_Menu</DialogueTarget>
 			</DialogueOption>
+			
+			<DialogueOption>
+				<RequiredCondition>Question_Answered</RequiredCondition>
+				<Text>I answered a hatchling's question!</Text>
+				<DialogueTarget>ScientistTradition_1</DialogueTarget>
+			</DialogueOption>	
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -24,17 +33,26 @@
 	<DialogueNode>
 		<Name>Scientist2</Name>
 		<DialogueOptionsList>
+
 			<DialogueOption>
-				<CancelledCondition>I_Quit</CancelledCondition>
-				<Text>What's the important news you wanted to tell me?</Text>
+				<RequiredCondition>I_Quit</RequiredCondition>
+				<CancelledCondition>I_Quit2</CancelledCondition>
+				<CancelledCondition>Question_Answered</CancelledCondition>
+				<Text>Uhhh, Slate. Why's the ship locked?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredCondition>I_Quit</RequiredCondition>
-				<CancelledCondition>I_Join</CancelledCondition>
+				<RequiredCondition>I_Quit2</RequiredCondition>
+				<CancelledCondition>Question_Answered</CancelledCondition>
 				<Text>So, I just ask the hatchlings what questions they have about space?</Text>
 				<DialogueTarget>Slate_Tradition_Menu</DialogueTarget>
 			</DialogueOption>
+
+			<DialogueOption>
+				<RequiredCondition>Question_Answered</RequiredCondition>
+				<Text>I answered a hatchling's question!</Text>
+				<DialogueTarget>ScientistTradition_1</DialogueTarget>
+			</DialogueOption>	
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -70,32 +88,43 @@
 <DialogueOptionsList>
 
 			<DialogueOption>
-				<CancelledCondition>I_Quit</CancelledCondition>
-				<Text>What's the important news you wanted to tell me?</Text>
+				<RequiredCondition>I_Quit</RequiredCondition>
+				<CancelledCondition>I_Quit2</CancelledCondition>
+				<CancelledCondition>Question_Answered</CancelledCondition>
+				<Text>Uhhh, Slate. Why's the ship locked?</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
 			</DialogueOption>
 				<DialogueOption>
-				<RequiredCondition>I_Quit</RequiredCondition>
-				<CancelledCondition>I_Join</CancelledCondition>
+				<RequiredCondition>I_Quit2</RequiredCondition>
+				<CancelledCondition>Question_Answered</CancelledCondition>
 				<Text>So, I just ask the hatchlings what questions they have about space?</Text>
 				<DialogueTarget>Slate_Tradition_Menu</DialogueTarget>
 			</DialogueOption>
+			
+			<DialogueOption>
+				<RequiredCondition>Question_Answered</RequiredCondition>
+				<Text>I answered a hatchling's question!</Text>
+				<DialogueTarget>ScientistTradition_1</DialogueTarget>
+			</DialogueOption>	
+			<DialogueOption>
+				<RequiredCondition>I_Join</RequiredCondition>
+				<Text>So.. Any reason you suddenly wanted me to talk to the village hatchlings?</Text>
+				<DialogueTarget>ScientistTradition_999</DialogueTarget>
+			</DialogueOption>	
 		</DialogueOptionsList>
 	</DialogueNode>
 
 		<DialogueNode>
-		<SetCondition>I_Quit</SetCondition>
+		<SetCondition>I_Quit2</SetCondition>
 		<SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
 		<Name>ScientistAnswer_Mysteries1</Name>
 		<Dialogue>
-			<Page>Oh, just a space program tradition I forgot to tell ya about.</Page>
-			<Page>You remember how on the other astronauts' launch days, they went around the village asking what questions you kids had about the universe before taking off? <![CDATA[<Pause=2>]]> ..You don't? Typical.</Page>
-			<Page>Feldspar was the one who started it on a whim, taking questions from the young-uns before they took off for the first time.. But we've kept it up for every new cadet in the space program.</Page>
-			<Page>It's just a good look for the space program, nurturing the next generation's curiosity and all - but don't think about it like that. Just think of it like.. A fun quiz about much you know about the star system!</Page>
-			<Page>Look, it's simple. Just make your way around the village, and try answering any questions the kids have about the universe.</Page>
-			<Page>Doesn't matter what the questions are, just hear 'em out. And try to answer at least one, so you don't look like we didn't teach you anything.</Page>
-			<Page>Sound good? Then hand your ship keys to me for a sec.</Page>
-			<Page><![CDATA[<i>]]>Relax,<![CDATA[</i>]]> I'll give 'em back once you're done. Just making sure you don't take off before you finish this.</Page>
+			<Page>Oh, right. I took your ship keys while you were napping.</Page>
+			<Page>Hey, what's the big deal? Just making sure you talk to them before you take off.</Page>
+			<Page>"Who?" The next generation of our space cadets, you dolt.</Page>
+			<Page>The kids in the village are always bursting with questions for the new astronaut on launch day! Go take a round around the village and hear their questions out.</Page>
+			<Page>It's just a good look for the space program, nurturing the next generation's love for space - but don't think about it like that. Think of it like.. A fun quiz about much you know about the star system!</Page>
+			<Page>Oh, and uh, try to answer at least one of them, would you? So you don't look like we didn't teach you anything.</Page>
 			<Page>Talk to me again once you've answered at least one of the hatchlings' questions, and I'll give you the keys back! You're free to take off after that.</Page>
 		</Dialogue>
 <DialogueOptionsList>
@@ -128,12 +157,6 @@
 				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
 				</DialogueOption>
 			<DialogueOption>
-				<RequiredCondition>Question_Answered</RequiredCondition>
-				<Text>I answered a hatchling's question!</Text>
-				<DialogueTarget>ScientistTradition_1</DialogueTarget>
-			</DialogueOption>	
-			<DialogueOption>
-				<CancelledCondition>Question_Answered</CancelledCondition>
 				<Text>I totally answered one of their questions already. Can I take off yet?</Text>
 				<DialogueTarget>ScientistTradition_2</DialogueTarget>
 				</DialogueOption>
@@ -184,6 +207,17 @@
 			<Page>I wonder if that Marl'll ever let go of that grudge.. No good comes outta holding a grudge against a tree, y'know?</Page>
 			<Page>Just get a move on - you'll probably see all five squirts on the way up to the observatory for the launch codes anyways.</Page>
 			<Page>Oh, and remember to come back and talk to me again when you've answered at least one of their questions! Can't take off without your ship keys otherwise.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+<DialogueNode>
+		<Name>ScientistTradition_999</Name>
+		<Dialogue>
+			<Page>Hm? Oh, 'cuz I heard you talking in your sleep. Something you mumbled reminded me you hadn't done that yet.</Page>
+			<Page>Did you know Feldspar was the one that started this tradition Feldspar? Fielding questions from the young'uns.</Page>
+			<Page>Though, most of the questions you kids asked back then were like, "Are you really coming back" or "What will dying feel like".. Pfft, ye of little faith.</Page>
+			<Page>But uh, wow. You sure talked a lot in your sleep last night. You do that normally?</Page>
+			<Page>I'd get that checked out if I were you. You'd never live it down if the kids heard you mumbling in your sleep about "being stuck in a timeloop".</Page>
 		</Dialogue>
 	</DialogueNode>
 

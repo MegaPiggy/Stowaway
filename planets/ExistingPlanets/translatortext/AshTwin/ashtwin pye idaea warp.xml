@@ -69,14 +69,10 @@
 	<ShipLogConditions>
 
 		<RevealFact>
-			<FactID>GD Tower R1</FactID>
-			<Condition>1</Condition>
+			<FactID>DSS R3</FactID>
+			<Condition>8</Condition>
 		</RevealFact>
-
-		<RevealFact>
-			<FactID>GD Tower R2</FactID>
-			<Condition>9</Condition>
-		</RevealFact>
+	
 	</ShipLogConditions>
 	
 </NomaiObject>

@@ -7,7 +7,7 @@ Clue: Supernova generate lots of heat
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CYCAD: Here is the additional shipment of ore you requested from <![CDATA[<color=orange>mining site 2b,</color>]]> Root!
+		CYCAD: Here is the additional shipment of ore you requested from the <![CDATA[<color=orange>Timber Hearth mines</color>]]> Root!
 		</Text>
 	</TextBlock>
 
@@ -16,7 +16,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		ROOT: You have our gratitude, Cycad. We are truly sorry to have troubled you with this last, unforeseen delivery!
+		ROOT: You have our gratitude, Cycad. We are truly sorry to have troubled you with this final and unforeseen delivery!
 		</Text>
 	</TextBlock>
 
@@ -78,7 +78,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		ROOT: The <![CDATA[<color=orange>Quantum Weather Lab</color>]]> was given its name, because it was built to study how meteors launched from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> are affected as the <![CDATA[<color=lightblue>Quantum Moon</color>]]> orbits <![CDATA[<color=lightblue>Brittle Hollow.</color>]]>
+		ROOT: The <![CDATA[<color=orange>Quantum Weather Lab</color>]]> was given its name, because it was built to study how meteors from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> are affected as the <![CDATA[<color=lightblue>Quantum Moon</color>]]> orbits <![CDATA[<color=lightblue>Brittle Hollow.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -112,8 +112,21 @@ Clue: Supernova generate lots of heat
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>LV R3</FactID>
-			<Condition>5</Condition>
+			<FactID>LV R2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>LV EX5</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+
+		<RevealFact>
+			<FactID>QWL R1</FactID>
+			<Condition>9</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QWL R2</FactID>
+			<Condition>11</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

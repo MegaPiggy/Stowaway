@@ -70,9 +70,19 @@
 	</TextBlock>
 
 <ShipLogConditions>
+		
 		<RevealFact>
-			<FactID>Workshop R3</FactID>
+			<FactID>QWL EX3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>QWL EX4</FactID>
 			<Condition>8</Condition>
+		</RevealFact>
+
+		<RevealFact>
+			<FactID>QWL R3</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

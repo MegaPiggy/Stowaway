@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		CASSAVA: All available gravity crystals from the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> have been put to use.
+		CASSAVA: All available gravity crystals from the <![CDATA[<color=orange>Gravity Crystal Workshop</color>]]> have been transported to <![CDATA[<color=lightblue>Giant's Deep.</color>]]>
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -20,12 +20,12 @@
 <ShipLogConditions>
 	
 		<RevealFact>
-			<FactID>INSP RI</FactID>
-			<Condition>3</Condition>
+			<FactID>INSP R4</FactID>
+			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>GSHOP EX5</FactID>
-			<Condition>3</Condition>
+			<Condition>2</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

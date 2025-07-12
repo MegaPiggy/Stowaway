@@ -55,19 +55,16 @@
 
 
 <ShipLogConditions>
+
 		<RevealFact>
 			<FactID>DSS EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>DSS EX2</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-		
-		<RevealFact>
-			<FactID>INSP R3</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
+			<FactID>DSS EX6</FactID>
+			<Condition>6</Condition>
+		</RevealFact> 
+
 	</ShipLogConditions>
 
 

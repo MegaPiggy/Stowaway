@@ -7,7 +7,7 @@
 		<ID>1</ID>
 		<LocationB />
 		<Text>
-		PHLOX: Spire, I fear there may be a flaw in this simulation of where meteor impacts from <![CDATA[<color=lightblue>Hollow's Lantern</color>]]> (our dreaded volcanic moon) will occur on <![CDATA[<color=lightblue>Brittle Hollow!</color>]]>
+		PHLOX: Spire, I fear there may be a flaw in this simulation of where meteor impacts will occur on <![CDATA[<color=lightblue>Brittle Hollow!</color>]]>
 		</Text>
 	</TextBlock>	
 
@@ -49,7 +49,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		PHLOX: An update: Spire and I have noticed something rather disturbing.
+		PHLOX: An update: Spire and I have noticed something rather disturbing issue.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -70,8 +70,17 @@
 	</TextBlock>
 
 <ShipLogConditions>
+
 		<RevealFact>
-			<FactID>Workshop R3</FactID>
+			<FactID>BH_VMS EX1</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_VMS EX2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_VMS EX3</FactID>
 			<Condition>8</Condition>
 		</RevealFact>
 

@@ -24,6 +24,17 @@
 	]
 },
 	"Volumes": {
+		"rulesets": {
+			"playerImpactRulesets": [
+				{
+				"position": {"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"radius": 55,
+				"maxImpactSpeed": 100000,
+				"minImpactSpeed": 10000
+			}
+			]
+		},
 		"forces": {
 			"polarVolumes": [
 				{
@@ -77,7 +88,33 @@
 				"isRelativeToParent": true,
 				"radius": 130,
 				"revealOn": "enter",
-				"reveals": ["INSP R0"]
+				"revealFor": "both",
+				"reveals": ["INSP R1"]
+			},	
+			{
+				"position": {"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"radius": 35,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"reveals": ["INSP EX1"]
+			},
+			{
+				"position": {"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"radius": 35,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"reveals": ["INSP EX2"]
+			},
+			
+			{
+				"position": {"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"radius": 35,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"reveals": ["INSP EX3"]
 			}
 		]
 	},

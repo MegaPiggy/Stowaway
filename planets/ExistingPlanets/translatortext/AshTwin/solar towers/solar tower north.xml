@@ -25,7 +25,7 @@
 		<ParentID>2</ParentID>
 		<LocationB />
 		<Text>
-		YARROW: Worry not, Clary! The <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> poles do not experience sunless days.. We are safe from the sand column here.
+		YARROW: Worry not, Clary! A planet's polar regions do not experience sunless days.. We are safe from the sand column here.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -120,9 +120,21 @@
 		</RevealFact>
 		<RevealFact>
 			<FactID>SLR_T EX2</FactID>
-			<Condition>4</Condition>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>SLR_T EX3</FactID>
+			<Condition>10</Condition>
 		</RevealFact>
 
+		<RevealFact>
+			<FactID>HOB R1</FactID>
+			<Condition>10</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>HOB R2</FactID>
+			<Condition>12</Condition>
+		</RevealFact>
 	</ShipLogConditions>
 
 </NomaiObject>

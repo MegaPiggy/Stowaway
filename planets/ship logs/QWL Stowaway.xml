@@ -1,0 +1,42 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+     <ID>QUANTUM_WEATHER_LAB</ID>
+
+<Entry>
+        <ID>QUANTUM_WEATHER_LAB</ID>
+        <Name>Quantum Weather Lab</Name>
+
+        <Curiosity>QuantumMoon</Curiosity>
+		    <IsCuriosity/>
+
+         <RumorFact>
+          <ID>QWL R1</ID> 
+            <Text>The Quantum Weather Lab was built to study how meteors from Hollow's Lantern are affected as the Quantum Moon orbits Brittle Hollow.</Text> 
+        </RumorFact>   
+        <RumorFact>
+          <ID>QWL R2</ID> 
+            <Text>Ore from Timber Hearth was used in building a protective shell to protect the Quantum Weather Lab's interior from meteor impacts.</Text> 
+        </RumorFact> 
+        <RumorFact>
+          <ID>QWL R3</ID> 
+            <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
+            <Text>Nomai on the Quantum Weather Lab raised concerns about how the Quantum Moon could affect the Ash Twin Project.</Text> 
+        </RumorFact> 
+
+        <ExploreFact>
+            <ID>QWL EX1</ID> 
+            <Text>The Quantum Moon exerts a significant gravitational force.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>QWL EX2</ID> 
+            <Text>As the Quantum Moon orbits Brittle Hollow, its gravity pulls on meteors in orbit, causing discrepancies in where they land during a time loop.</Text> 
+        </ExploreFact> 
+        <ExploreFact>
+            <ID>QWL EX3</ID> 
+            <Text>The Nomai feared that the Quantum Moon could influence the trajectory of probes launched from the Orbital Probe Cannon, interfering with the Ash Twin Project.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>QWL EX4</ID> 
+            <Text>The Nomai implemented a safeguard detecting when the Quantum Moon orbits Giant's Deep to protect the Ash Twin Project from potential interference.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

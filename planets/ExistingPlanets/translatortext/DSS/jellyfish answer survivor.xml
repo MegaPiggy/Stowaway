@@ -22,7 +22,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-		CASSAVA: From what I have learnt, I am certain the property of immersion I observed must be the reason for the continued survival of these species.
+		CASSAVA: From what I have learnt, I am certain the property of immersion must be the reason for the continued survival of these species.
 		</Text>
 </TextBlock>
 
@@ -31,7 +31,7 @@
 		<LocationA />
 		<ParentID>2</ParentID>
 		<Text>
-			 CASSAVA: But that means, if any of them were to ever return to the planet's surface... They would...
+			 CASSAVA: But that means, if any of them were to ever return to the planet's surface...
 		</Text>
 </TextBlock>
 
@@ -56,20 +56,16 @@
 
 <ShipLogConditions>
 
-<RevealFact>
-			<FactID>DSS EXW</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
-<RevealFact>
-			<FactID>DSS EX1</FactID>
+		<RevealFact>
+			<FactID>DSS_B EX0</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>DSS EX2</FactID>
-			<Condition>1</Condition>
+			<FactID>DSS_B EX2</FactID>
+			<Condition>4</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>DSS EX3.5</FactID>
+			<FactID>DSS_B EX3</FactID>
 			<Condition>6</Condition>
 		</RevealFact>
 	

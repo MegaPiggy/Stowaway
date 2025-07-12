@@ -60,10 +60,17 @@
 	</TextBlock>
 
 	<ShipLogConditions>
+
 		<RevealFact>
-			<FactID>TT_TIME_LOOP_DEVICE_X5</FactID>
-			<Condition></Condition>
+			<FactID>SY EX4</FactID>
+			<Condition>1</Condition>
 		</RevealFact>
+
+		<RevealFact>
+			<FactID>SY EX5</FactID>
+			<Condition>7</Condition>
+		</RevealFact>
+
 	</ShipLogConditions>
 
 

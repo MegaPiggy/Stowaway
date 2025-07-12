@@ -73,9 +73,14 @@
 	</TextBlock>
 
 <ShipLogConditions>
+
 		<RevealFact>
-			<FactID>Workshop R3</FactID>
-			<Condition>8</Condition>
+			<FactID>BH_H EX1</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_H EX2</FactID>
+			<Condition>4</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

@@ -50,74 +50,25 @@
 
 	<DialogueNode>
 		<Name>Slate_Kids_1</Name>
+		<SetCondition>I_Quit</SetCondition>
 		<Dialogue>
-			<Page>I just remembered something else important for your launch day.</Page>
-			<Page>Ya mind waiting a bit before you take off? Just come chat with me a quick sec.</Page>
+			<Page>Just a quick reminder. If you ever have any questions about the ship, just come talk to me, alright?</Page>
+			<Page>It's better to get a lecture, than get grounded permanently for blowing the my ship.</Page>
 		</Dialogue>
 	</DialogueNode>
 
 
 	<DialogueNode>
 		<Name>Slate_Kids_2</Name>
-		<SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
+		<SetCondition>I_Quit</SetCondition>
 		<Dialogue>
 			<Page>Wha? I have no idea what you're talking about.</Page>
-			<Page>No, I just remembered something else important for your launch day!</Page>
-			<Page>Ya mind waiting a bit before you take off? Just come chat with me a quick sec.</Page>
+			<Page>Was just gonna remind ya: if you ever have any questions about the ship, come talk to me.</Page>
+			<Page>It's better to get a lecture, than get grounded permanently for blowing the my ship</Page>
 		</Dialogue>
 	</DialogueNode>
 
 
-	<DialogueNode>
-		<Name>Slate_Kids_2a</Name>
-		<Dialogue>
-			<Page>Huh. That's the race of aliens that used to live in the star system, right? Yeah, that sounds like fun to look into.</Page>
-			<Page>Heh, if you'd been quicker, Riebeck wouldn't have needed to fly out there themself, eh? Guess I have the Nomai to thank for helping that oaf overcome their fears.</Page>
-			<Page>Gonna be honest, I was gonna suggest something else in case you were planning on floating about in orbit without a plan and wasting fuel, hah.</Page>
-			<Page>But hey, if you've got something in mind to explore already, go for it!</Page>
-		</Dialogue>
-	</DialogueNode>
-
-	<DialogueNode>
-		<Name>Slate_Kids_2b</Name>
-		<Dialogue>
-			<Page>Oh yeah, those slackers. Well.. Slackers, and Chert.</Page>
-			<Page>Okay, that's a little mean. Even if half of them aren't doing important work like Chert, they might have some useful advice for you about each planet, so it's not the worst idea to meet up with 'em.</Page>
-			<Page>Gonna be honest, I was gonna suggest something else in case you were planning on floating about in orbit without a plan and wasting fuel, hah.</Page>
-			<Page>But hey, if you've got something in mind to explore already, go for it!</Page>
-		</Dialogue>
-	</DialogueNode>
-
-	<DialogueNode>
-		<Name>Slate_Kids_2c</Name>
-		<Dialogue>
-			<Page>Oooh, a thrill-seeker after Feldspar's heart, huh?</Page>
-			<Page>You heading to Dark Bramble, then? Be careful if you fly into that deathpit. The ship isn't exactly built to protect against predators the size of a planet.</Page>
-			<Page>Gonna be honest, I was gonna suggest something else in case you were planning on floating about in orbit without a plan and wasting fuel, hah.</Page>
-			<Page>But hey, if you've got something in mind to explore already, go for it!</Page>
-		</Dialogue>
-	</DialogueNode>
-
-	<DialogueNode>
-		<Name>Slate_Kids_2d</Name>
-		<Dialogue>
-			<Page>Sounds like a good move to start off.</Page>
-			<Page>Maybe try flying to the Attlerock, then. You could check in with ol' Esker at the lunar camp, while getting your space legs under you in the pilot seat.</Page>
-			<Page>Gonna be honest, I was gonna suggest something else in case you were planning on floating about in orbit without a plan and wasting fuel, hah.</Page>
-			<Page>But hey, if you've got something in mind to explore already, go for it!</Page>
-		</Dialogue>
-	</DialogueNode>
-
-	<DialogueNode>
-		<Name>Slate_Kids_3</Name>
-		<Dialogue>
-			<Page>Uh-huh...</Page>
-			<Page>Hey.. You.. sure you're really ready to take off? Doesn't really sound like you have much goals in mind out there.</Page>
-			<Page>I don't wanna tell you your business, but going into space would probably be a way more enriching trip if you had questions to answer out there.</Page>
-			<Page>All I'm saying is the ship doesn't have unlimited rocket fuel! Like, even Gabbro wanted to find out where the best napping spot in the star system was.</Page>
-			<Page>Look, if you wanna save some time - and more importantly, precious fuel - just talk to me, alright? I know how to give slackers without plans new things to explore out there.</Page>
-		</Dialogue>
-	</DialogueNode>
 
 
 

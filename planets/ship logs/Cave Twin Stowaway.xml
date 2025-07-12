@@ -3,42 +3,30 @@
 
 
 <Entry>
-           <ID>RELOCATION_SOLAR</ID>
-            <Name>Relocation Site</Name>
+           <ID>ET_SOLARINTRO</ID>
+            <Name>Solar Tower Model</Name>
              <Curiosity>None</Curiosity>
 
           
           <RumorFact>
-            <ID>R_SLR R2</ID>
-            <SourceID>CT_SUNLESS_CITY</SourceID>
-            <RumorName>Relocation Site</RumorName>
-                        <RumorNamePriority>1</RumorNamePriority>
-             <Text>The Nomai planned to relocate the solar panels on Ember Twin to a grassy plateau on Ember Twin's surface, directly above the Sunless City.</Text> 
-        </RumorFact>
-      <RumorFact>
-            <ID>R_SLR R4</ID>
-            <IgnoreMoreToExplore/>
-            <RumorName>Hourglass Twins Poles</RumorName>
+            <ID>R_SLR R1</ID>
             <SourceID>CT_CHERT</SourceID>
-             <Text>Chert suggests exploring the Hourglass Twins' poles to be safe from the column of sand.</Text> 
+             <Text>A model of a Nomai structure next to Chert's camp.</Text> 
         </RumorFact>
 
          <ExploreFact>
             <ID>R_SLR EX1</ID>
-             <Text>A grassy plateau on Ember Twin's south pole that the Nomai scouted as a potential relocation site for something. They hoped that this relocation would allow them to no longer be deprived of energy by Ash Twin's shadow.</Text>
-              <AltText>
-                         <Text>A grassy plateau on Ember Twin's south pole that the Nomai scouted as a potential relocation site for the solar panels on Ember Twin, to prevent Ash Twin's shadow from depriving them of energy.</Text>
-                         <Condition>SLR_T EX4</Condition> 
-               </AltText>
+             <Text>A model of a tower designed for gathering solar energy. There are entrances into a solar tower at the top, base, and along the structure's length.</Text>
+        </ExploreFact>
+         <ExploreFact>
+            <ID>R_SLR EX2</ID>
+             <Text>Solar towers were built on each of Ash Twin's poles to allow them to continue functioning during sunless days.</Text>
         </ExploreFact>
          <ExploreFact>
             <ID>R_SLR EX3</ID>
-             <Text>Sunless days happen during a solar eclipse.</Text> 
+             <Text>Controls for a solar tower are located at the base of the structure.</Text>
         </ExploreFact>
-        <ExploreFact>
-            <ID>R_SLR EX4</ID>
-             <Text>Leaving a set of eyes on the planet's surface allows one to detect the presence of a sunless day while underground.</Text> 
-        </ExploreFact>
+        
  </Entry>
 
 </AstroObjectEntry>

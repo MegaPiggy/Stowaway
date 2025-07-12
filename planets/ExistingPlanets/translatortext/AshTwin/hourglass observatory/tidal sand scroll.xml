@@ -15,7 +15,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		YARROW: If you are visiting today to learn about the cause of the sand transfer between the <![CDATA[<color=lightblue>Hourglass Twins,</color>]]> we invite you to look through the observation deck above.
+		YARROW: I invite you to look through the window above us, to see the cause of the sand transfer between the <![CDATA[<color=lightblue>Hourglass Twins:</color>]]> the sunless day!
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CLARY: You have my deepest gratitude for your thorough explanation, Yarrow. I feel much more at ease now, knowing when and why the <![CDATA[<color=lightblue>Hourglass Twins'</color>]]> sand transfer occurs!
+		CLARY: You have my deepest gratitude for your thorough explanation, Yarrow. I had been content to simply avoid the sand column for so long.. I am glad to finally understand its cause!
 		</Text>
 	</TextBlock>
 
@@ -76,38 +76,12 @@
 <ShipLogConditions>
 
 		<RevealFact>
-			<FactID>SS Tower R1</FactID>
-			<Condition>1</Condition>
+			<FactID>HOB EX1</FactID>
+			<Condition>8</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>SS Tower EX1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-
-
-		<RevealFact>
-			<FactID>SS Tower EX2</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-
-	<RevealFact>
-			<FactID>SS Tower EX2.5</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
-
-			<RevealFact>
-			<FactID>SS Tower EX3</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
-
-			<RevealFact>
-			<FactID>SS Tower EX4</FactID>
+			<FactID>HOB EX3</FactID>
 			<Condition>5</Condition>
-		</RevealFact>
-
-			<RevealFact>
-			<FactID>SS Tower EX5</FactID>
-			<Condition>6</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

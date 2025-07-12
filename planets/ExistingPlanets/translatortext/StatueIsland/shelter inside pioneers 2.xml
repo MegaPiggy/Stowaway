@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		MELORAE: Friends in the expedition team: we deliver wonderful news! 
+		MELORAE: Friends of the expedition team: we deliver wonderful news! 
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -47,12 +47,12 @@
 
 <ShipLogConditions>
 	<RevealFact>
-			<FactID>Pioneer R1</FactID>
-			<Condition>4</Condition>
+			<FactID>Pioneer_Int EX1</FactID>
+			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>Pioneer EX3</FactID>
-			<Condition>8</Condition>
+			<FactID>Pioneer_Int EX2</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 	
 	</ShipLogConditions>

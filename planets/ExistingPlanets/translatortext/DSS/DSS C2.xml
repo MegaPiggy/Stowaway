@@ -21,7 +21,7 @@
 		<ParentID>2</ParentID>
 		<LocationA />
 		<Text>
-			CASSAVA: My suspicions have been confirmed by their findings... Yet, more questions have been raised than answered.
+			CASSAVA: My suspicions have been confirmed after locating the source of the deadly matter... Yet, more questions have been raised than answered.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -59,14 +59,16 @@
 
 			
 <ShipLogConditions>
+
 		<RevealFact>
 			<FactID>DSS EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>DSS EX2</FactID>
-			<Condition>1</Condition>
+			<Condition>6</Condition>
 		</RevealFact>
+
 		<RevealFact>
 			<FactID>INSP R2</FactID>
 			<Condition>6</Condition>

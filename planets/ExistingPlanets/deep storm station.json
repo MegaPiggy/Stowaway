@@ -35,6 +35,15 @@
 				"revealFor": "player",
 				"position":{"x": 0,"y": 0,"z": 0},
 				"isRelativeToParent": true
+			},
+			{
+				"reveals": ["DSS R6"],
+				"radius":3,
+				"revealOn": "observe",
+				"revealFor": "player",
+				"position":{"x": 7,"y": 11,"z": 0},
+				"isRelativeToParent": true,
+				"maxDistance": 5
 			}
 		]
 	},	
@@ -63,9 +72,9 @@
 			"horizonRadius": 0.5,
 			"position":{"x": 1.7,"y": 0,"z": 0},
 			"rotation": {"x":0,"y":0,"z":180},
-			"renderQueueOverride": 3000,
 			"isRelativeToParent": true,
-			"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)"
+			"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)",
+			"distortRadius": 1.25
 		}
 	],
 	"details": [
@@ -711,6 +720,16 @@
 				"position":{"x":-9.8,"y": 0,"z": 0},
 				"rotation":{"x": 90,"y": 90, "z": 0},
 				"scale":0.65,
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"window whitehole fix",
+				"assetBundle": "planets/bundle/dss shell",
+				"path":"assets/nomai ruins/innershell.prefab",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"scale":0.024,
+					"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer",
 				"isRelativeToParent": true
 			}
 			

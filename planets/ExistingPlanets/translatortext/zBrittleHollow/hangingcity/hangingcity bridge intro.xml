@@ -18,12 +18,4 @@
 		</Text>
 	</TextBlock>
 	
-<ShipLogConditions>
-		<RevealFact>
-			<FactID>Workshop R3</FactID>
-			<Condition>8</Condition>
-		</RevealFact>
-
-	</ShipLogConditions>
-
 </NomaiObject>

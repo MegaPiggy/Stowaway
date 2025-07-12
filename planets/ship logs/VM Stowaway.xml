@@ -4,38 +4,37 @@
 
 <Entry>
         <ID>VM_SIDE</ID>
-        <Name>Volcanic Diving Bell</Name>
+        <Name>Lava Diving Bell</Name>
         <Curiosity>TimeLoop</Curiosity>
          
          <RumorFact>
             <ID>LV R1</ID>
             <RumorName>Volcanic Testing Site</RumorName>
-            <Text>Ore mined on Timber Hearth was treated at a forge on Hollow's Lantern.</Text> 
+             <SourceID>TH_CAMPSITE</SourceID>
+            <Text>Ore mined on Timber Hearth was delivered to a forge on Hollow's Lantern, where its durability was improved using a Lava Diving Bell.</Text> 
         </RumorFact>
         <RumorFact>
             <ID>LV R2</ID>
-            <RumorName>Unstable Lava</RumorName>
+            <RumorName>Volcanic Testing Site</RumorName>
             <RumorNamePriority>1</RumorNamePriority>
-            <Text>A Nomai computer reported increased volcanic activity and unstable lava levels on Hollow's Lantern.</Text> 
-        </RumorFact>
-          <RumorFact>
-            <ID>LV R3</ID>
-            <RumorName>Volcanic Diving Bell</RumorName>
-            <RumorNamePriority>2</RumorNamePriority>
-            <Text>Ice taken from a nearby asteroid belt was sealed within a protective shell crafted from heat-resistant ore, and lowered into the deepest point of the lava pool as a final test of the ore's durability.</Text> 
+            <Text>The Nomai on Timber Hearth were curious why more ore was requested by the Volcanic Testing Site.</Text> 
         </RumorFact>
         
           <ExploreFact>
             <ID>LV EX2</ID>
-            <Text>The Nomai lowered a diving bell crafted from heat-resistant ore into the lava at this site. They concluded that a protective shell crafted from this ore would be able to withstand a supernova.</Text> 
+            <Text>Concerns were raised about the Ash Twin Project's memory statues' lack of insulation from the supernova.</Text>
         </ExploreFact>
           <ExploreFact>
             <ID>LV EX3</ID>
-            <Text>Data from the Nomai's elders gave them knowledge of precise measurements of a supernova's temperatures.</Text>
+            <Text>The Ash Twin Project remains paired with individuals even if their memory statues are destroyed. However, the individual will be unable to recall any memories following the statue's destruction.</Text> 
         </ExploreFact>
           <ExploreFact>
-            <ID>LV EX1</ID>
-            <Text>A Nomai named Pye wondered if the ice within the diving bell would remain intact once properly tested against a supernova. Due to its compromised structure, another Nomai felt sure that the ice would melt.</Text> 
+            <ID>LV EX4</ID>
+            <Text>Memory statues will not be destroyed simultaneously, but only as each planet is engulfed by the supernova.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>LV EX5</ID>
+            <Text>A final delivery of ore from Timber Hearth was requested for the construction of the Quantum Weather Lab.</Text> 
         </ExploreFact>
 
 </Entry>

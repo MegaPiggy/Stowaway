@@ -66,10 +66,19 @@
 	</TextBlock>
 
 	<ShipLogConditions>
-		<LocationB/>
+	
 		<RevealFact>
-			<FactID>BH_QUANTUM_RESEARCH_TOWER_R2</FactID>
+			<FactID>BH_SSR EX1</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>BH_SSR EX2</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_SSR EX3</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+
 	</ShipLogConditions>
 </NomaiObject>

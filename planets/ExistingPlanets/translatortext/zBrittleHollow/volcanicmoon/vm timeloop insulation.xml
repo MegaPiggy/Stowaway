@@ -70,7 +70,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>7</ParentID>
 		<Text>
-		ROOT: The only issue of note is that the individual will be unable to recall any memories after the statue's destruction, as memories beyond that point cannot be recorded to the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
+		ROOT: The only issue of note is that the individual will be unable to recall any memories following the statue's destruction, as memories beyond that point cannot be recorded to the <![CDATA[<color=orange>Ash Twin Project.</color>]]>
 		</Text>
 	</TextBlock>
 
@@ -79,7 +79,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>8</ParentID>
 		<Text>
-		POKE: That sounds reassuring.. but also quite disturbing, Root!
+		POKE: That sounds reassuring - but also quite disturbing, Root!
 		</Text>
 	</TextBlock>
 
@@ -88,7 +88,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>9</ParentID>
 		<Text>
-		POKE: Suppose something catastrophic were to occur only after our memory statues are destroyed... None of us would be aware of that impending danger!
+		POKE: Suppose something catastrophic were to occur only after our memory statues are destroyed... None of us would be aware of that impending danger.
 		</Text>
 	</TextBlock>
 
@@ -106,7 +106,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>11</ParentID>
 		<Text>
-		ROOT: As they have been placed on different planets, the memory statues will only be destroyed as each planet is engulfed by the supernova - giving us ample time to notice anything amiss in that scenario.
+		ROOT: As they have been placed on different planets, the memory statues will be destroyed in order as each planet is engulfed by the supernova - giving us ample time to notice anything amiss in that scenario.
 		</Text>
 	</TextBlock>
 
@@ -131,16 +131,16 @@ Clue: Supernova generate lots of heat
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>LV EX1</FactID>
+			<FactID>LV EX2</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>LV EX2</FactID>
-			<Condition>6</Condition>
+			<FactID>LV EX3</FactID>
+			<Condition>11</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>LV EX3</FactID>
-			<Condition>7</Condition>
+			<FactID>LV EX4</FactID>
+			<Condition>12</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

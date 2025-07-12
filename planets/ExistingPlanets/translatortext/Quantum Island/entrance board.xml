@@ -2,19 +2,19 @@
 	<TextBlock>
 		<ID>1</ID>
 		<LocationA />
-		<Text>Be welcomed in this place. This tower shares with all who ask the knowledge needed to make his or her first quantum journey.</Text>
+		<Text>Be welcomed in this place. This tower shares with all who ask the knowledge needed to make their first quantum journey.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>2</ID>
 		<LocationA />
 		<ParentID>1</ParentID>
-		<Text>This colossal tower, once known as the <![CDATA[<color=orange>Looming City,</color>]]> was carved out of a towering mountain by the late Plume to shelter all Nomai exploring and working on Giant's Deep.</Text>
+		<Text>This colossal tower, once known as the <![CDATA[<color=orange>Looming City,</color>]]> was carved out of a towering mountain by the late Plume to shelter all Nomai exploring and working on <![CDATA[<color=lightblue>Giant's Deep.</color>]]></Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>3</ID>
 		<LocationA />
 		<ParentID>2</ParentID>
-		<Text>However, due to extenuating circumstances, the Nomai on Giant's Deep eventually decided to abandon this settlement, moving to new settlements constructed on the islands beyond this stormless space.</Text>
+		<Text>However, due to extenuating circumstances, the Nomai on <![CDATA[<color=lightblue>Giant's Deep</color>]]> were forced to abandon this settlement, moving to new settlements constructed on the islands beyond this stormless space.</Text>
 	</TextBlock>
 	<TextBlock>
 		<ID>4</ID>
@@ -40,7 +40,7 @@
 			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>LC EX5</FactID>
+			<FactID>LC EX2</FactID>
 			<Condition>5</Condition>
 		</RevealFact>
 	

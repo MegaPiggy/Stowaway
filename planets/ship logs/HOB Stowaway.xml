@@ -1,0 +1,42 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+     <ID>HOURGLASS_OBSERVATORY</ID>
+
+<Entry>
+        <ID>HOURGLASS_OBSERVATORY</ID>
+        <Name>Hourglass Observatory</Name>
+
+        <Curiosity>TimeLoop</Curiosity>
+		    <IsCuriosity/>
+
+         <RumorFact>
+          <ID>HOB R1</ID> 
+            <Text>A Nomai named Clary visited the Hourglass Observatory to learn about the mechanisms behind the Hourglass Twins' sand transfer.</Text> 
+        </RumorFact>
+          <RumorFact>
+          <ID>HOB R2</ID> 
+            <Text>The Hourglass Observatory's warp tower is located on Ember Twin's equator.</Text> 
+        </RumorFact>
+          <RumorFact>
+          <ID>HOB R3</ID> 
+            <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
+            <Text>Nomai on the Hourglass Observatory raised concerns about sand on Ash Twin impeding the solar towers from powering the Ash Twin Project.</Text> 
+        </RumorFact>
+
+        <ExploreFact>
+            <ID>HOB EX1</ID> 
+            <Text>The Hourglass Twins orbit around each other like moons, and feel a constant pull of gravity from each other.</Text> 
+        </ExploreFact>
+          <ExploreFact>
+            <ID>HOB EX3</ID> 
+            <Text>The twin farther from the sun feels a combined gravitational force from both the sun, and the twin closer to the sun. This force causes sand to be pulled in a funnel towards the other twin.</Text> 
+        </ExploreFact> 
+        <ExploreFact>
+            <ID>HOB EX4</ID> 
+            <Text>As the sun collapses, the supernova engulfs the star system with immense heat.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>HOB EX5</ID> 
+            <Text>The Nomai were confident that any sand burying the solar towers would be melted away by the supernova's heat, allowing them to function unimpeded.</Text> 
+        </ExploreFact>
+    </Entry>
+</AstroObjectEntry>

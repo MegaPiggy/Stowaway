@@ -76,8 +76,8 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>WorkshopTop EX6</FactID>
-			<Condition>7</Condition>
+			<FactID>WorkshopTop EX2</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

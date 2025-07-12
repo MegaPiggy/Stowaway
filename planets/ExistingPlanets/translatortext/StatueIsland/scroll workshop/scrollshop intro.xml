@@ -31,22 +31,17 @@
 
 
 <ShipLogConditions>
-		<RevealFact>
-			<FactID>Workshop R3</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>WorkshopTop R1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
+
 		<RevealFact>
 			<FactID>Workshop EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
+
 		<RevealFact>
-			<FactID>Workshop EX1.5</FactID>
-			<Condition>5</Condition>
+			<FactID>WorkshopTop R1</FactID>
+			<Condition>3</Condition>
 		</RevealFact>
+
 	</ShipLogConditions>
 
 </NomaiObject>

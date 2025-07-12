@@ -64,9 +64,14 @@
 
 
 <ShipLogConditions>
+
 		<RevealFact>
-			<FactID>Workshop R3</FactID>
-			<Condition>8</Condition>
+			<FactID>BH_H EX2</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>BH_H EX3</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

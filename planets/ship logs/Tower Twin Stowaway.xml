@@ -1,63 +1,7 @@
 <AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
     <ID>TOWER_TWIN</ID>
 
-<Entry>
-             <ID>GD_WARPTOWER</ID>
-             <Name>Spire Tower</Name>
-             <Curiosity>TimeLoop</Curiosity>
-
-          <RumorFact>
-            <ID>GD Tower R1</ID>
-            <SourceID>TT_WARP_TOWERS</SourceID>
-             <Text>A tower on Ash Twin in the shape of a spire.</Text> 
-        </RumorFact>
-          <RumorFact>
-            <ID>GD Tower R2</ID>
-             <Text>Two Nomai debated a safety test while waiting outside this tower to travel to something called the Deep Storm Station.</Text> 
-        </RumorFact>
-       
-       <ExploreFact>
-            <ID>GD Tower EX1</ID>
-             <Text>A tower on Ash Twin in the shape of a spire.</Text> 
-        </ExploreFact>
-       <ExploreFact>
-            <ID>GD Tower EX2</ID> 
-            <Text>The Deep Storm Station used energy from the electric core of Giant's Deep to test the mechanisms of the Ash Twin Project's negative time interval.</Text> 
-        </ExploreFact>
-           <ExploreFact>
-            <ID>GD Tower EX3</ID> 
-            <Text>Nomai traveled to a new warp pad on Giant's Deep to enter the Deep Storm Station.</Text> 
-          </ExploreFact>
- </Entry>
  
-
-
-<Entry>
-            <ID>BH_WARPTOWER</ID>
-            <Name>Column Tower</Name>
-           <Curiosity>TimeLoop</Curiosity>
-
-          <RumorFact>
-            <ID>BH Tower R1</ID>
-            <SourceID>TT_WARP_TOWERS</SourceID>
-             <Text>A tower on Ash Twin that resembles column formations.</Text> 
-        </RumorFact>
-
-         <ExploreFact>
-            <ID>BH Tower EX1</ID>
-             <Text>A tower on Ash Twin that resembles column formations.</Text> 
-        </ExploreFact>
-         <ExploreFact>
-            <ID>BH Tower EX2</ID>
-             <Text>Two Nomai children waited inside this tower for something called the sunless day to play some sort of game.</Text> 
-        </ExploreFact>
-         <ExploreFact>
-            <ID>BH Tower EX3</ID>
-             <Text>The secret to the children's game was to wait for the sunless day.</Text> 
-        </ExploreFact>
- </Entry>
-
-
 
 <Entry>
         <ID>TH_WARPTOWER</ID>
@@ -70,21 +14,17 @@
              <Text>A tower on Ash Twin in the shape of a mountain.</Text> 
         </RumorFact>
 
-         <ExploreFact>
-            <ID>TH Tower EX1</ID>
-             <Text>A tower on Ash Twin in the shape of a mountain.</Text> 
-        </ExploreFact>
        <ExploreFact>
-            <ID>TH Tower EX2</ID>
+            <ID>TH Tower EX1</ID>
              <Text>The Nomai kept the rotating doors of this tower closed to keep native life from Timber Hearth from wandering any farther without protection and oxygen.</Text> 
         </ExploreFact>
        <ExploreFact>
-            <ID>TH Tower EX3</ID> 
+            <ID>TH Tower EX2</ID> 
             <Text>A Nomai named Oeno noticed this tower's rotating doors opening and closing by themself, even in the absence of any Nomai.</Text> 
         </ExploreFact>
          <ExploreFact>
-            <ID>TH Tower EX4</ID> 
-            <Text>Oeno planned to investigate this issue further at the other tower on Ash Twin with rotating doors.</Text> 
+            <ID>TH Tower EX3</ID> 
+            <Text>Oeno investigated this issue at the other tower on Ash Twin with rotating doors.</Text> 
         </ExploreFact>
  </Entry>
 
@@ -100,81 +40,61 @@
             <SourceID>TT_WARP_TOWERS</SourceID>
              <Text>A tower on Ash Twin with pointed edges.</Text> 
         </RumorFact> 
+          <RumorFact>
+            <ID>SS Tower R2</ID>
+             <Text>Nomai visited the other tower on Ash Twin with rotating doors to investigate if they would open on their own.</Text> 
+        </RumorFact> 
 
-         <ExploreFact>
-            <ID>SS Tower EX1</ID>
-             <Text>A tower on Ash Twin with pointed edges.</Text> 
-        </ExploreFact>
           <ExploreFact>
-            <ID>SS Tower EX2</ID>
-             <Text>I found a scroll containing Oeno's report on why the doors on Ash Twin were activating without input.</Text> 
+            <ID>SS Tower EX1</ID>
+             <Text>The tower's rotating doors activate as the sand column flowing towards Ember Twin passes overhead. The Nomai call this phenomenon the 'sunless day'.</Text> 
         </ExploreFact>
         <ExploreFact>
-            <ID>SS Tower EX2.5</ID>
-             <Text>The Hourglass Twins feel a constant pull of gravity from each other.</Text> 
+            <ID>SS Tower EX2</ID>
+             <Text>The Nomai waited for the current sand transfer cycle to end to see if the doors' vision orbs no longer rose on their own.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>SS Tower EX3</ID>
-             <Text>A sunless day occurs when the Hourglass Twins orbit into direct alignment with the sun, causing a combined force of gravity from the sun and gravity from the twin closer to the sun.</Text> 
-        </ExploreFact>
-        <ExploreFact>
-            <ID>SS Tower EX4</ID>
-             <Text>These combined gravitational forces pull on anything in its path, including the vision orbs powering the doors.</Text> 
-        </ExploreFact>
-          <ExploreFact>
-            <ID>SS Tower EX5</ID>
-             <Text>The sunless day is the cause of the sand funnel between the Hourglass Twins.</Text> 
+             <Text>Nomai were warned to take utmost care when visiting the Sun Station, especially near its control bay.</Text> 
         </ExploreFact>
  </Entry>
 
 
-<Entry>
-           <ID>HGT_WARPTOWER</ID>
-            <Name>Arch Towers</Name>
-             <Curiosity>TimeLoop</Curiosity>
-            <IgnoreMoreToExplore/>
-
-          <RumorFact>
-            <ID>HGT Tower R1</ID>
-            <SourceID>TT_WARP_TOWERS</SourceID>
-             <Text>Two towers on Ash Twin joined together by an arch.</Text> 
-        </RumorFact>
-
-         <ExploreFact>
-            <ID>HGT Tower EX1</ID>
-             <Text>Two towers on Ash Twin joined together by an arch.</Text> 
-        </ExploreFact>
- </Entry>
 
 <Entry>
            <ID>SOLAR_TOWER</ID>
             <Name>Solar Towers</Name>
-             <Curiosity>None</Curiosity>
+             <Curiosity>TimeLoop</Curiosity>
 
       <RumorFact>
             <ID>SLR_T R1</ID>
-            <IgnoreMoreToExplore/>
-            <RumorName>Hourglass Twins Poles</RumorName>
-            <SourceID>CT_CHERT</SourceID>
-             <Text>Chert suggests exploring Ash Twin's poles to keep safe from the column of sand.</Text> 
+            <SourceID>ET_SOLARINTRO</SourceID>
+             <Text>Solar towers were built on Ash Twin's poles.</Text> 
+        </RumorFact>
+      <RumorFact>
+            <ID>SLR_T R2</ID>
+             <Text>The solar towers were built to power the Ash Twin Project's end-of-cycle transmission..</Text> 
         </RumorFact>
 
          <ExploreFact>
             <ID>SLR_T EX1</ID>
-             <Text>Towers installed with colossal solar panels constructed at both of Ash Twin's poles.</Text> 
+             <Text>Towers of colossal solar panels constructed at both of Ash Twin's poles.</Text> 
+              <AltText>
+                         <Text>Towers of colossal solar panels on both of Ash Twin's poles, built to power the Ash Twin Project's end-of-cycle transmission.</Text>
+                         <Condition>SLR_T R2</Condition>
+                    </AltText>
         </ExploreFact>
       <ExploreFact>
             <ID>SLR_T EX2</ID>
-             <Text>The Hourglass Twins' poles are completely safe from the sand funnel.</Text> 
-        </ExploreFact>
-     
-         <ExploreFact>
-            <ID>SLR_T EX3</ID>
-             <Text>The solar towers on Ash Twin were built on the planet's poles to avoid something called the sunless day.</Text> 
+             <Text>The Hourglass Twins' poles are completely safe from the sand funnel. A Nomai referred to the sand transfer as a 'sunless day'.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>SLR_T EX4</ID>
-             <Text>The Nomai discussed plans to relocate the solar panels on Ember Twin, due to issues with its current site.</Text> 
+             <Text>Ash Twin's core is insulated from the supernova for 35 seconds.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>SLR_T EX5</ID>
+             <Text>The Ash Twin Project's end-of-cycle transmission begins only after the sun completely collapses into a supernova, and takes 30 seconds to complete.</Text> 
         </ExploreFact>
  </Entry>
 

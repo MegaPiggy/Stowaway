@@ -5,7 +5,7 @@
 		<ID>1</ID>
 		<LocationA />
 		<Text>
-		COLEUS: Here is the last shipment of ore from our mines to be delivered to <![CDATA[<color=lightblue>Hollow's Lantern,</color>]]> Cycad.
+		COLEUS: Here is the final shipment of ore from the <![CDATA[<color=orange>Timber Hearth mines</color>]]> to <![CDATA[<color=lightblue>Hollow's Lantern,</color>]]> Cycad.
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<ParentID>3</ParentID>
 		<LocationA />
 		<Text>
-		COLEUS: Whatever the case is, the ore's durability would need to first be improved using the <![CDATA[<color=orange>Volcanic Diving Bell.</color>]]>
+		COLEUS: Whatever the case is, the ore's durability would need to first be improved using the <![CDATA[<color=orange>Lava Diving Bell.</color>]]>
 		</Text>
 	</TextBlock>
 	
@@ -66,21 +66,22 @@
 	
 
 <ShipLogConditions>
-<RevealFact>
+		<RevealFact>
 			<FactID>LV R1</FactID>
-			<Condition>1</Condition>
+			<Condition>4</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>LV R2</FactID>
+			<Condition>5</Condition>
+		</RevealFact>
+		
 				<RevealFact>
 			<FactID>Campsite EX2</FactID>
-			<Condition>6</Condition>
+			<Condition>2</Condition>
 		</RevealFact>
 				<RevealFact>
 			<FactID>SY R2</FactID>
-			<Condition>6</Condition>
-		</RevealFact>
-				<RevealFact>
-			<FactID>SY R3</FactID>
-			<Condition>4</Condition>
+			<Condition>2</Condition>
 		</RevealFact>
 			
 

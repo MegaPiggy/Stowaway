@@ -30,7 +30,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		DAZ: Think of each projection stone as a unique key, and each recorded conversation as locks - information that can only be retrieved with the corresponding projection stones.
+		DAZ: Think of each projection stone as a key, and each recorded conversation as unique locks - information that can only be retrieved with the corresponding projection stones.
 		</Text>
 	</TextBlock>
 		<TextBlock>
@@ -38,7 +38,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		MALLOW: In other words, I shall need to locate the specific projection stone to access the conversation.. Agh, no wonder I could not find so many conversations I had written before!
+		MALLOW: In other words, I must locate the corresponding projection stones to access the information I seek.. No wonder I could not find so many conversations I had written before!
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -46,7 +46,7 @@
 		<ParentID>5</ParentID>
 		<LocationA />
 		<Text>
-		MALLOW: These projection walls are far more sophisticated than I had imagined.. You have my gratitude for teaching me about them, my dear brother-by-proxy!
+		MALLOW: Your projection walls are far more sophisticated than I had imagined.. You have my gratitude for teaching me about them, my dear brother-by-proxy!
 		</Text>
 	</TextBlock>
 	
@@ -55,11 +55,11 @@
 <ShipLogConditions>
 	
 		<RevealFact>
-			<FactID>WorkshopTop EX4</FactID>
+			<FactID>WorkshopTop EX5</FactID>
 			<Condition>3</Condition>
 		</RevealFact>
 			<RevealFact>
-			<FactID>WorkshopTop EX5</FactID>
+			<FactID>WorkshopTop EX6</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
 

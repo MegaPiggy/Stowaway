@@ -69,17 +69,17 @@
 		<Name>ShyKidNew1</Name>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Oh.. Um...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Is it true that Brittle Hollow's south pole never gets hit by meteors?<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>How much of Brittle Hollow left after the meteor storm ends..?<![CDATA[</size>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>
-				<Text>Uh... Who told you that?</Text>
+				<Text>What do you mean by meteor storm?</Text>
 				<DialogueTarget>ShyKidNew2</DialogueTarget>
 			</DialogueOption>
 		<DialogueOption>
 				<RequiredLogCondition>GAL R1</RequiredLogCondition>
-				<Text>There's not really anywhere totally safe on Brittle Hollow because of the Quantum Moon.</Text>
-				<DialogueTarget>Model2</DialogueTarget>
+				<Text>It depends on whether the Quantum Moon is orbiting Brittle Hollow.</Text>
+				<DialogueTarget>ShyKid_Model2</DialogueTarget>
 			</DialogueOption>
 		</DialogueOptionsList>
 	</DialogueNode>
@@ -89,10 +89,11 @@
 <DialogueNode>
 		<Name>ShyKidNew2</Name>
 		<Dialogue>
-		<Page><![CDATA[<size=20>]]>Um... Riebeck...<![CDATA[</size>]]></Page>
-		<Page><![CDATA[<size=20>]]>Riebeck was really worried about their ship getting hit by a meteor and leaving them stranded.. So they studied Brittle Hollow to find a spot safe from meteors before they took off...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Riebeck told me that the safest spot on Brittle Hollow from meteors was the south pole, so that's where they'll leave their ship... But nobody in the village knows if that's really true.<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Brittle Hollow looks so cool, I wanna go there if I become an astronaut one day.. But I don't want to be stranded there, either...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>Um, the meteor storms from Brittle Hollow's volcanic moon...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>Riebeck told me this latest meteor storm hasn't stopped for weeks...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>It might break apart Brittle Hollow really soon.. That's why they got their guts together to explore the Nomai city there, even though they were always scared of space...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>It made me so sad... Thinking about one of the planets just disappearing forever...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Brittle Hollow looks so cool, I wanna go there if I become an astronaut one day.. But I don't think there's gonna be anything left of it soon...<![CDATA[</size>]]></Page>
 		</Dialogue>	
 						 <RevealFacts>
      						   <FactID>GAL EX1</FactID>
@@ -122,34 +123,6 @@
 	<!-- ################# MODEL ANSWERS ################## -->
 	<!-- ################################################## -->
 
-	<DialogueNode>
-		<Name>ShyKid_Model</Name>
-		<Dialogue>
-		<Page><![CDATA[<size=20>]]>Woah.. The Nomai are so smart...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>But... Why is their computer sometimes right and sometimes wrong..?<![CDATA[</size>]]></Page>
-		</Dialogue>	
-		<DialogueOptionsList>
-
-		<DialogueOption>
-				<Text>I'm still figuring that out.</Text>
-				<DialogueTarget>ShyKid_Model1</DialogueTarget>
-		</DialogueOption>
-		<DialogueOption>
-				<RequiredLogCondition>GAL R1</RequiredLogCondition>
-				<Text>It's because the Quantum Moon's gravity messes with where meteors land.</Text>
-				<DialogueTarget>ShyKid_Model2</DialogueTarget>
-		</DialogueOption>
-
-		</DialogueOptionsList>
-	</DialogueNode>
-
-	<DialogueNode>
-		<Name>ShyKid_Model1</Name>
-		<Dialogue>
-		<Page><![CDATA[<size=20>]]>Okay...<![CDATA[</size>]]></Page>
-		<Page><![CDATA[<size=20>]]>Tell me if you learn more.. Please?<![CDATA[</size>]]></Page>
-		</Dialogue>
-	</DialogueNode>
 	<DialogueNode>
 		<Name>ShyKid_Model2</Name>
 		<Dialogue>

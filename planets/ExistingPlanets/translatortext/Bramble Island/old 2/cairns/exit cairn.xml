@@ -1,7 +1,0 @@
-<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
-	<TextBlock>
-		<ID>1</ID>
-		<LocationA />
-		<Text>THATCH: I have installed a tractor beam on the ledge below to send us back to the shuttle on the opposite island! Please let me know if there are any errors in the beam's trajectory calculations.</Text>
-	</TextBlock>
-</NomaiObject>

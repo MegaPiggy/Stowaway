@@ -14,8 +14,8 @@
 	
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>R_SLR EX1</FactID>
-			<Condition>5</Condition>
+			<FactID>R_SLR R1</FactID>
+			<Condition>1</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

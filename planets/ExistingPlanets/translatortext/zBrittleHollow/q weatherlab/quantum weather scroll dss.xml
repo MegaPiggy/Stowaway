@@ -57,7 +57,7 @@
 		<LocationB />
 		<ParentID>6</ParentID>
 		<Text>
-		CYCAD: I see.. What a wise plan! This shorter interval will allow us to ensure the <![CDATA[<color=orange>Ash Twin Project</color>]]> is theoretically sound before its operation.
+		CYCAD: I see.. What a wise plan! This shorter interval will allow us to ensure the negative time interval is theoretically sound before our plans are set into motion.
 		</Text>
 	</TextBlock>
 	<TextBlock>
@@ -71,7 +71,7 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>Workshop R3</FactID>
+			<FactID>DSS R4</FactID>
 			<Condition>8</Condition>
 		</RevealFact>
 

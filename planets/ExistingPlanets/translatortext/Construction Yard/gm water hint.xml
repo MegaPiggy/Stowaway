@@ -16,13 +16,14 @@
 </TextBlock>
 
 <ShipLogConditions>
+
 	<RevealFact>
-			<FactID>CB_EX5</FactID>
-			<Condition>3</Condition>
+			<FactID>CB_R2</FactID>
+			<Condition>2</Condition>
 		</RevealFact>
-		<RevealFact>
-			<FactID>SY R4.5</FactID>
-			<Condition>4</Condition>
+	<RevealFact>
+			<FactID>CB_R4</FactID>
+			<Condition>1</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

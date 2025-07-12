@@ -101,18 +101,16 @@
 	</TextBlock>
 
 <ShipLogConditions>
+
 				<RevealFact>
-			<FactID>TH_WR R2</FactID>
-			<Condition>2</Condition>
+			<FactID>SS EX1</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 				<RevealFact>
-			<FactID>TH_WR EX3</FactID>
-			<Condition>2</Condition>
+			<FactID>SS EX2</FactID>
+			<Condition>7</Condition>
 		</RevealFact>
-		<RevealFact>
-			<FactID>TH_WR EX3.5</FactID>
-			<Condition>3</Condition>
-		</RevealFact>
+		
 </ShipLogConditions>
 
 

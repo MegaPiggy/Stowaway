@@ -93,15 +93,11 @@
 <ShipLogConditions>
 		<RevealFact>
 			<FactID>GSHOP EX1</FactID>
-			<Condition>3</Condition>
+			<Condition>8</Condition>
 		</RevealFact>
 				<RevealFact>
 			<FactID>GSHOP EX2</FactID>
-			<Condition>7</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>BH_H R1</FactID>
-			<Condition>7</Condition>
+			<Condition>9</Condition>
 		</RevealFact>
 		
 	</ShipLogConditions>

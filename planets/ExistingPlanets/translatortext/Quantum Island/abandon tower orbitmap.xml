@@ -61,11 +61,11 @@
 
 	<ShipLogConditions>
 		<RevealFact>
-			<FactID>LC R4</FactID>
-			<Condition>5</Condition>
+			<FactID>LC R2</FactID>
+			<Condition>2</Condition>
 		</RevealFact>
 	<RevealFact>
-			<FactID>LC EX4.5</FactID>
+			<FactID>LC EX5</FactID>
 			<Condition>6</Condition>
 		</RevealFact>
 

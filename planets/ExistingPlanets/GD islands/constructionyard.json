@@ -66,7 +66,7 @@
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/tablet.prefab",
 				"position": {"x": -20.0283, "y": 2.6328, "z": -38.4994},
-				"rotation": {"x": 1.3477, "y": 240.8348, "z": 2.4133},
+				"rotation": {"x": 7.2477, "y": 240.8348, "z": 2.4133},
 				"isRelativeToParent": true
 			},{
 				"rename":"gate purple LIGHT",
@@ -546,8 +546,8 @@
 			{
 				"rename": "Stowaway water rule TEXT",
 				"type": "wall",
-				"position": {"x": 29.8352, "y": 2.9898, "z": -38.6893},
-				"rotation": {"x": 1.2598, "y": 264.6384,"z": 352.7045},
+				"position": {"x": 29.9317, "y": 2.9905, "z": -39.6054},
+				"rotation": {"x": 0.2781, "y": 264.9855,"z": 352.7045},
 				"xmlFile": "planets/ExistingPlanets/translatortext/Construction Yard/cassava gm water new.xml",
 				"seed":5
 			}

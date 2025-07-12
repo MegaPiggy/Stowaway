@@ -60,37 +60,11 @@
 <ShipLogConditions>
 
 		<RevealFact>
-			<FactID>SS Tower R1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-		<RevealFact>
 			<FactID>SS Tower EX1</FactID>
-			<Condition>1</Condition>
+			<Condition>3</Condition>
 		</RevealFact>
-
-
 		<RevealFact>
 			<FactID>SS Tower EX2</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-
-	<RevealFact>
-			<FactID>SS Tower EX2.5</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
-
-			<RevealFact>
-			<FactID>SS Tower EX3</FactID>
-			<Condition>4</Condition>
-		</RevealFact>
-
-			<RevealFact>
-			<FactID>SS Tower EX4</FactID>
-			<Condition>5</Condition>
-		</RevealFact>
-
-			<RevealFact>
-			<FactID>SS Tower EX5</FactID>
 			<Condition>6</Condition>
 		</RevealFact>
 

@@ -69,16 +69,12 @@
 <ShipLogConditions>
 
 		<RevealFact>
-			<FactID>SS EX1</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>SS EX2</FactID>
+			<FactID>DSS EX7</FactID>
 			<Condition>8</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>SS CONV1</FactID>
-			<Condition>8</Condition>
+			<FactID>DSS R9</FactID>
+			<Condition>3</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

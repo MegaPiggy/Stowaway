@@ -42,36 +42,31 @@
 		Of note: Amount of gravity crystals insufficient to complete lattice at front of structure. Care must be taken to minimize entry points in this section.</Text>
 			</TextBlock>
 
-			<TextBlock>	
-	<ID>7</ID>
-		<LocationA />
-		<ParentID>6</ParentID>
-		<Text>
-		An update: I am ready to launch the Inspired at last.</Text>
-			</TextBlock>
-			
-			<TextBlock>	
-	<ID>8</ID>
-		<LocationA />
-		<ParentID>7</ParentID>
-		<Text>
-		Even if I could not find the closure I sought... I am confident in my decision.</Text>
-			</TextBlock>
 
 
 <ShipLogConditions>
 	
 		<RevealFact>
-			<FactID>CB_EX2</FactID>
+			<FactID>DSS EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
+		
 		<RevealFact>
-			<FactID>INSP EX4</FactID>
+			<FactID>DSS EX4</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>INSP EX5</FactID>
+			<FactID>DSS EX5</FactID>
 			<Condition>6</Condition>
+		</RevealFact> 
+
+		<RevealFact>
+			<FactID>INSP R3</FactID>
+			<Condition>6</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DSS R8</FactID>
+			<Condition>4</Condition>
 		</RevealFact>
 		
 	</ShipLogConditions>

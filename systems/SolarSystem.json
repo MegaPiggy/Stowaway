@@ -10,6 +10,20 @@
 	"entryPositions": [
 		
 		{
+			"id": "QUANTUM_WEATHER_LAB",
+			"position": {
+				"x": 822.5219,
+				"y": 1200
+			}
+		},
+		{
+			"id": "HOURGLASS_OBSERVATORY",
+			"position": {
+				"x": 806.633,
+				"y": -623.3538
+			}
+		},
+		{
 			"id": "SCROLL_WORKSHOP",
 			"position": {
 				"x": 1210.141,
@@ -24,21 +38,18 @@
 			}
 		},
 	
-		
-		{
-			"id": "BISLE_STUDY",
-			"position": {
-				"x": 2514.501,
-				"y": 45.0021
-			}
-		},
-		
 	
 		{
 			"id": "PIONEER_BEACH",
 			"position": {
 				"x": 1033.541,
 				"y": 450.0153
+			}
+		},{
+			"id": "PIONEER_CAMP_INTERIOR",
+			"position": {
+				"x": 956.9523,
+				"y": 367.9024
 			}
 		},
 
@@ -47,15 +58,8 @@
 		{
 			"id": "LOOMINGCITY",
 			"position": {
-				"x": 2232,
-				"y": -14.7892
-			}
-		},
-		{
-			"id": "LOOMINGCITY_JELLY",
-			"position": {
-				"x": 2167.707,
-				"y": -72.9977
+				"x": 572.8374,
+				"y": 937.9468
 			}
 		},
 		
@@ -64,8 +68,8 @@
 		{
 			"id": "CONSTRUCT_BAY",
 			"position": {
-				"x": 2421.086,
-				"y": 394.153
+				"x": 2232,
+				"y": -14.7892
 			}
 		},
 		
@@ -83,12 +87,24 @@
 				"x": 1479.846,
 				"y": 131.9829
 			}
+		},{
+			"id": "DSS_BASEMENT",
+			"position": {
+				"x": 1608.766,
+				"y": 83.8595
+			}
+		},{
+			"id": "COMET_MURAL",
+			"position": {
+				"x": 1608.766,
+				"y": -44.1453 
+			}
 		},
 		{
 			"id": "INSPIRED",
 			"position": {
-				"x": 1628.247,
-				"y": -202.2466
+				"x": 1720,
+				"y": -245
 			}
 		},
 
@@ -134,62 +150,41 @@
 		{
 			"id": "TH_CAMPSITE",
 			"position": {
-				"x": 675.7684,
-				"y": -27.5455
+				"x": 1115.281,
+				"y": -432.9525
 			}
 		},
 		{
 			"id": "TH_WARPPOINT",
-			"position": {
-				"x": 617.3105,
-				"y": -101.9935
-			}
-		},
-		
-		{
-			"id": "TH_SANCTUARY",
 			"position": {
 				"x": 1040.303,
 				"y": -354.4641
 			}
 		},
 		
+		{
+			"id": "TH_SANCTUARY",
+			"position": {
+				"x": 1290.902,
+				"y": -357.6971
+			}
+		},
+		
 
 
 
 		{
-			"id": "GD_WARPTOWER",
+			"id": "TH_WARPTOWER",
 			"position": {
 				"x": 308.5757,
 				"y": 532.7429
 			}
 		},
 		{
-			"id": "TH_WARPTOWER",
-			"position": {
-				"x": 419.2018,
-				"y": 328.3893
-			}
-		},
-		{
-			"id": "BH_WARPTOWER",
+			"id": "SS_WARPTOWER",
 			"position": {
 				"x": 212.4881,
 				"y": 166.8397
-			}
-		},
-		{
-			"id": "SS_WARPTOWER",
-			"position": {
-				"x": 77.7302,
-				"y": 198.7926
-			}
-		},
-		{
-			"id": "HGT_WARPTOWER",
-			"position": {
-				"x": 111.9932,
-				"y": 490.9502
 			}
 		},
 
@@ -198,35 +193,13 @@
 		{
 			"id": "BH_WORKSHOP",
 			"position": {
-				"x": 2816.08,
-				"y": 308.1211
+				"x": 869.949,
+				"y": 757.6082
 			}
 		},
-
 
 		
 
-		{
-			"id": "DB_FROZENGUYS",
-			"position": {
-				"x": 2017.039,
-				"y": -291.8289
-			}
-		},
-		{
-			"id": "DB_FROZENGUYS_2",
-			"position": {
-				"x": 1962.541,
-				"y": -367.0245
-			}
-		},
-		{
-			"id": "DB_ANGLERNEST",
-			"position": {
-				"x": 479.8589,
-				"y": -860.0823
-			}
-		},
 
 
 		{
@@ -240,16 +213,16 @@
 		{
 			"id": "SOLAR_TOWER",
 			"position": {
-				"x": -652.7993,
-				"y": 236.4667
+				"x": -320.9984,
+				"y": 337.34 
 			}
 		},
 
 		{
-			"id": "RELOCATION_SOLAR",
+			"id": "ET_SOLARINTRO",
 			"position": {
-				"x": -320.9984,
-				"y": 337.34 
+				"x": -652.7993,
+				"y": 236.4667
 			}
 		},
 
@@ -261,10 +234,23 @@
 			}
 		},
 		{
+			"id": "BH_VMSIMULATION",
+			"position": {
+				"x": 591.8546,
+				"y": -280
+			}
+		},
+		{
 			"id": "BH_LOCATOR",
 			"position": {
-				"x": -267.7311,
-				"y": 691.7549
+				"x": 310.1967,
+				"y": 1299.522
+			}
+		},{
+			"id": "BH_SIXSHELTER",
+			"position": {
+				"x": 234.9284,
+				"y": 1251.251
 			}
 		},
 		{
@@ -273,15 +259,8 @@
 				"x": 1063.483,
 				"y": -95.5747
 			}
-		},
-
-		{
-			"id": "HGT_OB",
-			"position": {
-				"x": 1183.483,
-				"y": -95.5747
-			}
 		}
+
 
 	],
 	"curiosities": [

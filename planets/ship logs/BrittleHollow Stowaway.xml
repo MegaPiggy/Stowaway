@@ -2,7 +2,7 @@
     <ID>BRITTLE_HOLLOW</ID>
 <Entry>
         <ID>BH_LOCATOR</ID>
-        <Name>Sixth Location Locator</Name>
+        <Name>Second Locator</Name>
         <Curiosity>QuantumMoon</Curiosity>
          
          <RumorFact>
@@ -12,20 +12,15 @@
         </RumorFact>
          <RumorFact>
             <IgnoreMoreToExplore/>
+            <ID>BH_QML R2</ID>
+            <SourceID>LOOMINGCITY</SourceID>
+            <Text>Nomai at the Looming City wondered how differently the Second Locator functions from the Quantum Moon Locator on Ember Twin.</Text> 
+        </RumorFact>
+         <RumorFact>
+            <IgnoreMoreToExplore/>
             <ID>BH_QML R3</ID>
             <SourceID>CT_QUANTUM_MOON_LOCATOR</SourceID>
-            <Text>The Quantum Moon Locator on Brittle Hollow is able to track when the Quantum Moon is visiting the sixth location, unlike the locator on Ember Twin.</Text> 
-        </RumorFact>
-         <RumorFact>
-            <IgnoreMoreToExplore/>
-            <ID>BH_QML R2</ID>
-            <Text>A Nomai named Solanum visited the Quantum Moon Locator on Brittle Hollow to learn its secrets.</Text> 
-        </RumorFact>
-         <RumorFact>
-            <IgnoreMoreToExplore/>
-            <ID>BH_QML R4</ID>
-            <SourceID>CT_QUANTUM_MOON_LOCATOR</SourceID>
-            <Text>A Nomai named Ilex provided a set of eyes from the Quantum Moon Locator on Ember Twin.</Text> 
+            <Text>The Nomai decided to leave a set of eyes at the Quantum Moon Locator on Ember Twin to help them track the Quantum Moon.</Text> 
         </RumorFact>
 
         <ExploreFact>
@@ -34,17 +29,50 @@
         </ExploreFact>
         <ExploreFact>
             <ID>BH_QML EX2</ID>
-            <Text>A Nomai named Ilex provided a set of eyes from the Quantum Moon Locator on Ember Twin to aid Solanum's pilgrimage to the Quantum Moon.</Text> 
+            <Text>The Second Locator is unable to track the live position of the Quantum Moon, unlike Ember Twin's Quantum Moon Locator.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>BH_QML EX3</ID>
-            <Text>The Quantum Moon Locator on Brittle Hollow is unable to track the precise positions of the planets, and has a poor view of the sky.</Text> 
+            <Text>The limited view of the sky at the Second Locator makes it much harder to directly observe the Quantum Moon.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>BH_QML EX4</ID>
-            <Text>The Quantum Moon Locator on Ember Twin has both a clear view of the sky and the ability to pinpoint each celestial body, making it easier to use the rule of quantum imaging from afar.</Text> 
+            <Text>The Nomai decided to leave a set of eyes at the Quantum Moon Locator on Ember Twin to help them track the Quantum Moon.</Text> 
      </ExploreFact>
       
+
+        <Entry>
+
+        <ID>BH_SIXSHELTER</ID>
+        <Name>Perpetual Storm Shelter</Name>
+        <Curiosity>QuantumMoon</Curiosity> 
+
+        <RumorFact>
+            <IgnoreMoreToExplore/>
+            <ID>BH_SSR R1</ID>
+            <SourceID>QUANTUM_MOON</SourceID>
+            <Text>The Nomai built a perpetually active storm shelter on the Quantum Moon. They planned to use it to escape the strong winds at the sixth location.</Text> 
+        </RumorFact>
+        <RumorFact>
+            <IgnoreMoreToExplore/>
+            <ID>BH_SSR R2</ID>
+            <Text>A Nomai named Kousa promised to write the outcome of this plan on the projection wall inside the Tower of Quantum Knowledge.</Text> 
+        </RumorFact>
+
+         <ExploreFact>
+            <ID>BH_SSR EX1</ID>
+            <Text>The Nomai attempted to use a perpetual storm shelter to escape the strong winds at the Quantum Moon's sixth location, but their plan failed.</Text> 
+     </ExploreFact>
+         <ExploreFact>
+            <ID>BH_SSR EX2</ID>
+            <Text>The Quantum Moon's thick atmosphere obscures its visitors' sight during entry, causing it to return to superposition.</Text> 
+     </ExploreFact>
+         <ExploreFact>
+            <ID>BH_SSR EX3</ID>
+            <Text>The Nomai posit that it is the Quantum Moon's thick atmosphere that impedes exit at the sixth location, because one is unable to observe what exists beyond the sixth location's clouds.</Text> 
+     </ExploreFact>
+
+        </Entry>
 </Entry>
 
 
@@ -57,35 +85,24 @@
          
          <RumorFact>
             <ID>BH_H R1</ID>
-            <RumorName>Storm Shelter Scroll</RumorName>
-            <Text>A Nomai named Kousa left a scroll in the Hanging City that goes into more detail about the storm shelter.</Text> 
+            <RumorName>Model Error Mystery</RumorName>
+            <SourceID>BH_VMSIMULATION</SourceID>
+            <Text>The Nomai studying the Meteor Impact Model decided to bring an issue they noticed to the Nomai at the Hanging City.</Text> 
         </RumorFact>
 
         <ExploreFact>
             <ID>BH_H EX1</ID> 
-            <Text>Artificial gravity highways that allow one to ascend the Hanging City's districts.</Text> 
+            <Text>The Nomai noticed that meteors from Hollow's Lantern would stray from paths they previously took during a timeloop.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>BH_H EX2</ID> 
+            <Text>The Nomai decided to build a structure in orbit around Brittle Hollow to study this discrepancy.</Text> 
+        </ExploreFact>
+        <ExploreFact>
+            <ID>BH_H EX3</ID> 
+            <Text>The warp tower to this structure was built on a site least likely to be impacted by meteors, and built across several pieces of Brittle Hollow's crust.</Text> 
         </ExploreFact>
 
-         <ExploreFact>
-            <ID>BH_H EX2</ID> 
-            <Text>Storm shelters were engineered to protect Nomai from the strong winds on Giant's Deep.</Text> 
-        </ExploreFact>
-            <ExploreFact>
-            <ID>BH_H EX3</ID> 
-            <Text>The Sunless City contributed to the invention of the storm shelter, allowing the device to autonomously power on and off.</Text> 
-        </ExploreFact>
-             <ExploreFact>
-            <ID>BH_H EX4</ID> 
-            <Text>Projection walls allow Nomai to communicate remotely, sharing anything written on both connected walls.</Text> 
-        </ExploreFact>
-             <ExploreFact>
-            <ID>BH_H EX5</ID> 
-            <Text>Incoming messages on a projection wall are always displayed in an orange color.</Text> 
-        </ExploreFact>
-             <ExploreFact>
-            <ID>BH_H EX6</ID> 
-            <Text>The Nomai's projection walls were an iteration on their Vessel's communication network.</Text> 
-        </ExploreFact>
       
 </Entry>
 
@@ -93,34 +110,52 @@
 
 
 <Entry>
+        <ID>BH_VMSIMULATION</ID>
+        <Name>Meteor Impact Simulation</Name>
+        <Curiosity>None</Curiosity>
+         
+        <ExploreFact>
+            <ID>BH_VMS EX1</ID> 
+            <Text>A simulation of where meteor impacts will occur on Brittle Hollow.</Text> 
+        </ExploreFact>
+         <ExploreFact>
+            <ID>BH_VMS EX2</ID> 
+            <Text>Two Nomai noticed periods of inaccuracy where meteors do not land as the model predicts.</Text> 
+        </ExploreFact>
+            <ExploreFact>
+            <ID>BH_VMS EX3</ID> 
+            <Text>The Nomai noticed a disturbing issue while studying this model. They decided to bring this issue to the Nomai at the Hanging City.</Text> 
+        </ExploreFact>
+      
+</Entry>
+
+
+
+<Entry>
         <ID>BH_WORKSHOP</ID>
         <Name>Gravity Crystal Workshop</Name>
-        <Curiosity>SunkenModule</Curiosity>
+        <Curiosity>None</Curiosity>
          
          <RumorFact>
-            <ID>GSHOP R1</ID>
-            <SourceID>CONSTRUCT_BAY</SourceID>
-            <IgnoreMoreToExplore/>
-            <Text>Gravity crystals used to build the Orbital Probe Cannon were sourced from this workshop on Brittle Hollow.</Text> 
-        </RumorFact>
-         <RumorFact>
             <ID>GSHOP R2</ID>
+            <SourceID>PIONEER_CAMP_INTERIOR</SourceID>
             <Text>Nomai on Giant's Deep visited this workshop on Brittle Hollow's equator to inquire about storm shelters activating in the absence of cyclones.</Text> 
-        </RumorFact>
-          <RumorFact>
-            <ID>GSHOP R3</ID>
-            <Text>A Nomai named Plume visited this workshop to learn more about storm shelters.</Text> 
         </RumorFact>
           <RumorFact>
             <ID>GSHOP R4</ID>
             <Text>Storm shelters are powered by solar panels, not cyclones.</Text> 
         </RumorFact>
 
-        <ExploreFact>
+         <ExploreFact>
             <ID>GSHOP EX1</ID> 
-            <Text>Gravity crystals were crafted from fragments of Brittle Hollow's crust and stored at this workshop.</Text> 
+            <Text>Storm shelters were engineered at this workshop to protect Nomai from strong winds on Giant's Deep.</Text> 
         </ExploreFact>
- <ExploreFact>
+            <ExploreFact>
+            <ID>GSHOP EX2</ID> 
+            <Text>The Sunless City contributed to the invention of the storm shelter, allowing the device to autonomously power on and off.</Text> 
+        </ExploreFact>
+
+     <ExploreFact>
             <ID>GSHOP EX3</ID>
             <Text>There is a scroll in a shelf in one of the ruins outside the workshop, but it is surrounded by ghost matter.</Text> 
               <AltText>
@@ -128,10 +163,6 @@
                          <Condition>GSHOP R4</Condition>
                     </AltText>
      </ExploreFact>
-         <ExploreFact>
-            <ID>GSHOP EX2</ID> 
-            <Text>An invention called the storm shelter was engineered at this workshop to help Nomai weather the storms they had faced on their expedition.</Text> 
-        </ExploreFact>
          <ExploreFact>
             <ID>GSHOP EX4</ID> 
             <Text>The solar panels powering the storm shelters are tuned to detect even faint amounts of sunlight. Nomai on Giant's Deep reported some sort of issue with the storm shelter when the sun was directly overhead.</Text> 

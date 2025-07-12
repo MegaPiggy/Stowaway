@@ -66,15 +66,19 @@
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>Campsite R2</FactID>
+			<FactID>Campsite R1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>TH_WR EX1</FactID>
-			<Condition>4</Condition>
+			<Condition>2</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>TH_WR EX2</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>TH_WR EX3</FactID>
 			<Condition>7</Condition>
 		</RevealFact>
 	</ShipLogConditions>

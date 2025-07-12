@@ -41,7 +41,7 @@
 		<ParentID>3</ParentID>
 		<LocationB />
 		<Text>
-		COLEUS: According to Daz, the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> new invention will allow Nomai to explore outside the radius of a projection pool, not just peer through it.
+		COLEUS: According to Daz, the <![CDATA[<color=orange>Scroll and Stone Workshop's</color>]]> new invention will allow Nomai to walk beyond any projection pool they peer through!
 		</Text>
 	</TextBlock>
 
@@ -82,13 +82,17 @@
 		</RevealFact>
 
 				<RevealFact>
-			<FactID>SY R4</FactID>
+			<FactID>SY R3</FactID>
 			<Condition>8</Condition>
 		</RevealFact>
 			
 				<RevealFact>
 			<FactID>Workshop R1</FactID>
 			<Condition>8</Condition>
+		</RevealFact>
+				<RevealFact>
+			<FactID>Workshop R2</FactID>
+			<Condition>5</Condition>
 		</RevealFact>
 
 </ShipLogConditions>

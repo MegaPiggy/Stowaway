@@ -13,7 +13,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-		DAZ: What a relief.. Thank goodness the specimen has not been swept away by the winds, too.
+		DAZ: What a relief.. Thank goodness the specimen was not swept away by the winds as well.
 		</Text>
 	</TextBlock>
 <TextBlock>
@@ -37,7 +37,7 @@
 		<LocationB />
 		<ParentID>4</ParentID>
 		<Text>
-		PHLOX: I would not think it would be possible for most species to survive such long-term preservation, but it is a plausible possibility.. Is there any way we could test this hypothesis?
+		PHLOX: I would not think it would be possible for most species to survive such long-term preservation, but it is a possibility.. Is there any way we could test this hypothesis?
 		</Text>
 	</TextBlock>
 
@@ -71,12 +71,16 @@
 
 <ShipLogConditions>
 		<RevealFact>
-			<FactID>Cove R3</FactID>
+			<FactID>Cove EX1</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
 			<RevealFact>
 			<FactID>Cove R4</FactID>
 			<Condition>2</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>DSS R7</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 	</ShipLogConditions>
 

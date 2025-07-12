@@ -53,25 +53,13 @@
 
 <ShipLogConditions>
 
-<RevealFact>
-			<FactID>DSS EXG</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
-<RevealFact>
+		<RevealFact>
 			<FactID>DSS EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>DSS EX2</FactID>
-			<Condition>1</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>INSP R1.5</FactID>
-			<Condition>2</Condition>
-		</RevealFact>
-		<RevealFact>
-			<FactID>INSP R3</FactID>
-			<Condition>6</Condition>
+			<FactID>DSS EX3</FactID>
+			<Condition>4</Condition>
 		</RevealFact>
 	
 	</ShipLogConditions>

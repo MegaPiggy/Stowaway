@@ -22,7 +22,7 @@
 	<ID>4</ID>
 		<LocationB />
 		<ParentID>3</ParentID>
-		<Text>CASSAVA: If this hypothesis is true... Is that how I was able to survive aboard the Deep Storm Station?</Text>
+		<Text>CASSAVA: If this hypothesis is true... Was it this property of immersion that protected me aboard the <![CDATA[<color=orange>Deep Storm Station?</color>]]></Text>
 	</TextBlock>
 
 	<TextBlock>	
@@ -41,22 +41,33 @@
 
 
 	<ShipLogConditions>
-	<RevealFact>
+
+		<RevealFact>
 			<FactID>TH_WR R1</FactID>
-			<Condition>3</Condition>
+			<Condition>5</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>CB_R3</FactID>
+			<Condition>4</Condition>
+		</RevealFact>
+		<RevealFact>
+			<FactID>CB_R4</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
+
 		<RevealFact>
 			<FactID>CB_EX1</FactID>
 			<Condition>1</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>CB_EX3</FactID>
-			<Condition>3</Condition>
+			<FactID>CB_EX2</FactID>
+			<Condition>4</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>CB_EX4</FactID>
-			<Condition>3</Condition>
+			<FactID>CB_EX3</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
+
 	</ShipLogConditions>
 
 </NomaiObject>

@@ -18,11 +18,11 @@
        </ExploreFact>
           <ExploreFact>
             <ID>MICA EX2</ID> 
-            <Text>According to Chert, sand would start flowing between the Hourglass Twins again on the morning of my launch day, right as the sun rises over the horizon in the village.</Text>
+            <Text>According to Chert, sand would start flowing between the Hourglass Twins again on the morning of my launch day.</Text>
        </ExploreFact>
           <ExploreFact>
             <ID>MICA EX3</ID> 
-            <Text>Somehow, Chert knows exactly when sand flows between the Hourglass Twins.</Text>
+            <Text>Mica isn't sure how Chert knows when sand flows between the Hourglass Twins.</Text>
        </ExploreFact>
 </Entry>
 
@@ -41,10 +41,6 @@
              <Text>I used my Little Scout to look inside the drain behind the waterwheel, but the museum shard wasn't in there.</Text> 
           </RumorFact>
           <RumorFact>
-               <ID>TEPH R3</ID> 
-               <Text>I jumped down a geyser into the underwater caves of Timber Hearth, but the museum shard wasn't in there.</Text> 
-          </RumorFact>
-          <RumorFact>
               <ID>TEPH R4</ID> 
              <Text>Tephra asked me to explore the Nomai Ruins outside the village to see if the museum shard was traveling there. They warned me about ghost matter in that area.</Text> 
           </RumorFact>
@@ -57,32 +53,16 @@
             <ID>TEPH EX2</ID> 
             <Text>Tephra asked me to use my Little Scout to check if the museum shard was inside the drain behind the village waterwheel.</Text> 
                  <AltText>
-                 <Text>I used my Little Scout to look inside the drain behind the waterwheel, but the museum shard wasn't in there.</Text>
+                 <Text>I used my Little Scout to look for the museum shard inside the drain behind the waterwheel.</Text>
                     <Condition>TEPH R2</Condition>
                     </AltText> 
        </ExploreFact>
-         <ExploreFact>
-            <ID>TEPH EX3</ID> 
-            <Text>Tephra asked me to dive into a geyser to see if the museum shard was inside the underwater caves of Timber Hearth.</Text> 
-                 <AltText>
-                 <Text>I jumped down a geyser into the underwater caves of Timber Hearth, but the museum shard wasn't in there.</Text>
-                    <Condition>TEPH R3</Condition>
-                    </AltText> 
-       </ExploreFact>
-     <ExploreFact>
-            <ID>TEPH EX4</ID> 
-            <Text>According to Riebeck, our ancestors once lived in the ancient waterways inside Timber Hearth's geysers.</Text> 
-       </ExploreFact>
-         <ExploreFact>
-            <ID>TEPH EX5</ID> 
-            <Text>Arkose thinks Riebeck would lose their marbles if they heard about the Nomai mural I found in the waterways.</Text> 
-       </ExploreFact>
 
          <ExploreFact>
-            <ID>TEPH EX6</ID> 
+            <ID>TEPH EX3</ID> 
             <Text>Tephra says that until we figure out another way to see where the museum shard goes, we've hit a dead end.</Text> 
                  <AltText>
-                 <Text>Tephra asked me to explore the Nomai Ruins outside the village to see if the museum shard was traveling there. They asked me to be careful of ghost matter in that area.</Text>
+                 <Text>Tephra asked me to explore the Nomai Ruins outside the village to see if the museum shard was traveling there. They warned me about ghost matter in that area.</Text>
                     <Condition>TEPH R4</Condition>
                     </AltText> 
        </ExploreFact>
@@ -92,7 +72,7 @@
         <ID>TH_GALENA</ID>
         <Name>Galena</Name>
 
-        <Curiosity>None</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
   <RumorFact>
            <SourceID>TH_VILLAGE</SourceID>
             <ID>GAL R1</ID> 
@@ -100,18 +80,19 @@
   </RumorFact>
        <RumorFact>
             <ID>GAL R2</ID> 
-            <Text>Galena says Feldspar told them about tentacled monsters on the surface of Giant's Deep.</Text> 
+            <Text>Galena wonders how much of Brittle Hollow left after the meteor storm ends.</Text> 
        </RumorFact>
        
        <ExploreFact>
             <ID>GAL EX1</ID> 
-            <Text>Galena says Feldspar told them about monsters on Giant's Deep.</Text>
+            <Text>Galena wonders how much of Brittle Hollow left after the meteor storm ends.</Text>
        </ExploreFact>
        <ExploreFact>
             <ID>GAL EX2</ID> 
-            <Text>According to Feldspar, the monsters on Giant's Deep would come to the surface of the ocean sometimes.</Text>
+            <Text>According to Riebeck, the meteor storm has lasted for weeks, and might start to break apart Brittle Hollow.</Text>
        </ExploreFact>
 </Entry>
+
 
 <Entry>
         <ID>TH_ARKOSE</ID>
@@ -131,7 +112,7 @@
 
        <ExploreFact>
             <ID>ARK EX1</ID> 
-            <Text>Arkose noticed that the patch of ghost matter in the village wouldn't leave a glowing trail sometimes when a rock was thrown into it.</Text> 
+            <Text>Arkose says that the ghost matter in the village sometimes doesn't leave a glowing trail when something was thrown into it.</Text> 
        </ExploreFact>
        <ExploreFact>
             <ID>ARK EX2</ID> 
@@ -185,79 +166,104 @@
             <RumorName>Sanctuary</RumorName>
             <RumorNamePriority>2</RumorNamePriority>
             <ID>SY R2</ID> 
-            <Text>The Nomai built the Sanctuary in a cave within Timber Hearth's underground pools where a quantum shard traveled.</Text> 
+            <Text>The Nomai built the Sanctuary using ore mined on Timber Hearth.</Text> 
         </RumorFact>
-        <RumorFact>
-           <SourceID>VM_SIDE</SourceID>
-                 <RumorName>Sanctuary</RumorName>
+         <RumorFact>
+           <SourceID>TH_CAMPSITE</SourceID>
+               <RumorName>Sanctuary</RumorName>
             <RumorNamePriority>2</RumorNamePriority>
             <ID>SY R3</ID> 
-            <Text>Ore mined on Timber Hearth was treated at a forge on Hollow's Lantern before being used to reinforce the Sanctuary.</Text> 
+            <Text>The Nomai used a new invention from the Scroll and Stone Workshop to enter the Sanctuary.</Text> 
         </RumorFact>
-         <RumorFact>
-               <RumorName>Sanctuary</RumorName>
-            <RumorNamePriority>2</RumorNamePriority>
-            <ID>SY R4</ID> 
-            <Text>The Nomai planned to use a new invention from the Scroll and Stone Workshop to enter the Sanctuary.</Text> 
-        </RumorFact>
-        
-         <RumorFact>
-               <RumorName>Sanctuary</RumorName>
-            <RumorNamePriority>2</RumorNamePriority>
-            <ID>SY R4.5</ID> 
-            <Text>The Nomai reported trouble of some kind at the Sanctuary.</Text> 
-            <AltText>
-                         <Text>Several of the native species inside the Sanctuary eluded the Nomai's attempts to release them back to the surface.</Text>
-                         <Condition>CONV R4</Condition>
-                    </AltText>
-        </RumorFact>
-
           <RumorFact>
            <SourceID>DEEP_STORM_STATION</SourceID>
             <ID>SY R5</ID> 
             <Text>The Hearthians that survived the arrival of ghost matter within the Sanctuary were quarantined inside by a Nomai named Cassava.</Text> 
         </RumorFact>
         
+        
         <ExploreFact>
             <ID>SY EX1</ID> 
             <Text>A Sanctuary built to protect the native lifeforms of Timber Hearth during the operation of the Ash Twin Project.</Text> 
              <AltText>
-                <Text>A Sanctuary built in Timber Hearth's underground pools to protect the native lifeforms of Timber Hearth during the operation of the Ash Twin Project.</Text>
+                <Text>A Sanctuary built within Timber Hearth's underground pools to protect the native lifeforms of Timber Hearth during the operation of the Ash Twin Project.</Text>
                 <Condition>Campsite EX2</Condition>
             </AltText>
        </ExploreFact>
           <ExploreFact>
-            <ID>SY EX2</ID> 
-            <Text>The native species of Timber Hearth were endangered by some sort of danger because of their amphibious nature. A Nomai named Cassava quarantined the surviving species left inside the Sanctuary.</Text> 
-            <AltText>
-                <Text>The native species of Timber Hearth were endangered by ghost matter because of their amphibious nature. A Nomai named Cassava quarantined the surviving species left inside the Sanctuary.</Text>
-                <Condition>COMET_INTERIOR_X3</Condition>
-            </AltText>
+            <ID>SY EX3</ID> 
+            <Text>A Nomai named Cassava was horrified to discover that the native species of Timber Hearth had been gravely endangered by ghost matter due to their amphibious nature.</Text>
         </ExploreFact>
           <ExploreFact>
-            <ID>SY EX3</ID> 
-            <Text>A quantum shard escaped a Nomai's sight when the Nomai accidentally disconnected from his voyager. Another Nomai reminded him that voyagers were able to use the rule of quantum entanglement.</Text> 
+            <ID>SY EX3.5</ID> 
+            <Text>Cassava quarantined the species within the Sanctuary. He resolved to launch the Inspired towards Timber Hearth (after necessary adjustments) to protect them.</Text>
+        </ExploreFact>
+          <ExploreFact>
+            <ID>SY EX4</ID> 
+            <Text>A Nomai named Yarrow wrote to the Sanctuary about the failure of the Ash Twin Project.</Text> 
          </ExploreFact>
          <ExploreFact>
-            <ID>SY EX4</ID> 
-            <Text>"A voyager is unable to observe its surroundings on its own."</Text> 
+            <ID>SY EX5</ID> 
+            <Text>A memory statue aboard the Ash Twin Project erroneously paired with Yarrow. This was later learned to be caused by some sort of safeguard.</Text> 
          </ExploreFact>
 </Entry>
 
 
 
 
+ <Entry>
+
+          <ID>TH_WARPPOINT</ID>
+          <Name>Timber Hearth Warp Ruins</Name>
+
+          <Curiosity>Stowaway</Curiosity>
+             
+               <RumorFact>
+            <ID>TH_WR R1</ID> 
+            <RumorName>Timber Hearth Matter Research</RumorName>
+            <Text>A Nomai named Cassava traveled to Timber Hearth to study a second property of ghost matter.</Text> 
+        </RumorFact>
+        <RumorFact>
+            <ID>TH_WR R2</ID> 
+            <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead.</Text> 
+        </RumorFact>
 
 
-<Entry>
-             <ID>TH_CAMPSITE</ID>
-        <Name>Nomai Campsite</Name>
+                 <ExploreFact>
+                     <ID>TH_WR EX1</ID> 
+                     <Text>The Nomai ruins at this site were known as a warp receiver.</Text> 
+              </ExploreFact>
+                 <ExploreFact>
+                     <ID>TH_WR EX2</ID> 
+                     <Text>After a Nomai has warped to it and the warp pad is clear of any entities, a warp receiver powers a return warp that allows travel to its paired warp transmitter once.</Text> 
+              </ExploreFact>
+               <ExploreFact>
+                     <ID>TH_WR EX3</ID> 
+                     <Text>The Nomai on Timber Hearth were careful not to leave this warp receiver unattended, to protect the planet's native life from being warped to Ash Twin.</Text> 
+              </ExploreFact>
+          <ExploreFact>
+                    <ID>TH_WR EX4</ID> 
+                   <Text>There is a scroll in a toppled shelf here, but it is surrounded by ghost matter.</Text> 
+                   <AltText><Text>A Nomai named Cassava observed ghost matter rising as the Attlerock orbited overhead.</Text>
+                         <Condition>TH_WR R2</Condition>
+                         </AltText>
+               </ExploreFact>
+                 <ExploreFact>
+                    <ID>TH_WR EX5</ID> 
+                   <Text>Cassava posited that ghost matter could be competitively manipulated by sources of gravity. This discovery was named the 'property of attraction'.</Text> 
+               </ExploreFact>
+              
 
-        <Curiosity>Stowaway</Curiosity>
+     <Entry>
+
+            <ID>TH_CAMPSITE</ID>
+            <Name>Nomai Campsite</Name>
+
+            <Curiosity>Stowaway</Curiosity>
 
          
            <RumorFact>
-            <ID>Campsite R2</ID> 
+            <ID>Campsite R1</ID> 
             <IgnoreMoreToExplore/>
             <Text>There is a Nomai campsite on the path from the Nomai Ruins into the geyser mountain.</Text> 
         </RumorFact>
@@ -269,64 +275,23 @@
            
          <ExploreFact>
             <ID>Campsite EX2</ID> 
-            <Text>The Nomai constructed something called the Sanctuary within Timber Hearth's underground pools, in a cave visited by a quantum shard.</Text> 
+            <Text>Ore mined on Timber Hearth was used in the construction of the Sanctuary and the Ash Twin Project.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>Campsite EX3</ID>
-            <Text>A new invention from the Scroll and Stone Workshop allowed Nomai to freely use the rule of quantum entanglement.</Text> 
+            <Text>A new invention from the Scroll and Stone Workshop was used to enter the Sanctuary, in place of a warp receiver</Text> 
         </ExploreFact>
           <ExploreFact>
                 <ID>Campsite EX1.5</ID> 
-                <Text>The Nomai discovered a new species during an expedition to Timber Hearth, and followed it deeper into the mountain.</Text> 
+                <Text>The Nomai visited the pools outside mining site 2b to study a native species of Timber Hearth.</Text> 
        </ExploreFact>
           <ExploreFact>
             <ID>Campsite EX5</ID>
-            <Text>I found Nomai text warning of danger invisible to the naked eye beyond a thorny barricade.</Text> 
+            <Text>I found Nomai text warning of danger invisible to the naked eye beyond a barricade.</Text> 
         </ExploreFact>
 
-
-             <Entry>
-
-                <ID>TH_WARPPOINT</ID>
-                  <Name>Nomai Ruins</Name>
-
-                <Curiosity>Stowaway</Curiosity>
-             
-               <RumorFact>
-            <ID>TH_WR R1</ID> 
-            <RumorName>Timber Hearth Ghost Matter Research</RumorName>
-            <Text>A Nomai named Cassava traveled to Timber Hearth to study another property of ghost matter he noticed.</Text> 
-        </RumorFact>
-        <RumorFact>
-            <ID>TH_WR R2</ID> 
-            <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead.</Text> 
-        </RumorFact>
-
-          <ExploreFact>
-                    <ID>TH_WR EX3</ID> 
-                   <Text>There is a scroll in a toppled shelf here, but it is surrounded by ghost matter.</Text> 
-                   <AltText><Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead. He posited that ghost matter could be competitively manipulated by sources of gravity.</Text>
-                         <Condition>TH_WR R2</Condition>
-                         </AltText>
-               </ExploreFact>
-                 <ExploreFact>
-                    <ID>TH_WR EX3.5</ID> 
-                   <Text>This discovery was named the property of attraction.</Text> 
-               </ExploreFact>
-               <ExploreFact>
-                     <ID>TH_WR EX1</ID> 
-                     <Text>The Nomai on Timber Hearth were careful not to leave this warp receiver unattended, to protect the planet's native life from being warped to Ash Twin.</Text> 
-              </ExploreFact>
-                 <ExploreFact>
-                     <ID>TH_WR EX2</ID> 
-                     <Text>After a Nomai has warped to it and the warp pad is clear of any entities, a warp receiver powers a return warp that allows travel to its paired warp transmitter once.</Text> 
-              </ExploreFact>
-              
-              
-             </Entry>
-
-
          
+             </Entry>
 </Entry>
 
 

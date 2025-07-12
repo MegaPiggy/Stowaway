@@ -27,9 +27,12 @@
 
 	<ShipLogConditions>
 		<LocationB/>
+
 		<RevealFact>
-			<FactID>BH_QUANTUM_RESEARCH_TOWER_R2</FactID>
+			<FactID>
+			</FactID>
 			<Condition>2</Condition>
 		</RevealFact>
+		
 	</ShipLogConditions>
 </NomaiObject>

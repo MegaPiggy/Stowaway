@@ -126,7 +126,7 @@
 					<Page>We think the purple rock might be hiding in that drain.. But it's so cramped, we can't crawl into the drain to look if it's in there. We need someone with a Little Scout to look inside - like you!</Page>
 					<Page>You just need to put on your spacesuit, and you'll be able to fire the Little Scout all pew-pew-pew... then use its camera to see inside!</Page>
 					<Page>Um, but, it might be too cramped to see inside, even with a Little Scout..</Page>
-					<Page>If it is, maybe try rotating the Little Scout's camera to look around, after launching it inside the drain? Slate taught us the Little Scout could do that recently.</Page>
+					<Page>Maybe you could launch it inside the drain, then try rotating the Little Scout's camera to look around? Slate taught us the Little Scout could do that recently.</Page>
 					<Page>That's all we know! Come back and tell me what you find in there, okay, astronaut?</Page>
 		</Dialogue>
 						 <RevealFacts>
@@ -138,7 +138,7 @@
 		<SetCondition>Teph_None</SetCondition>
 		<Name>Teph SW_4</Name>
 			<Dialogue>
-					<Page>Oh, oh! What'd you find inside the drain, astronaut? <![CDATA[<Pause=2>]]> ..A skeleton? Why's there a skeleton in there? Gross...</Page>
+					<Page>Oh, oh! What'd you find inside the drain, astronaut? <![CDATA[<Pause=2>]]> ..A skeleton? Ew! Why's there a skeleton in there? Gross...</Page>
 					<Page>Aw, I guess the purple rock must be hiding elsewhere.. </Page>
 					<Page>Well, thanks so much for helping us look, astronaut! But until we think of some other way to see where the purple rock goes, I guess that's a dead end for now..</Page>
 		</Dialogue>
@@ -180,7 +180,7 @@
 		<Dialogue>
 					<Page>A glittery cave? Huh... That sounds like the zero-g cave, doesn't it?</Page>
 					<Page>But Galena and I looked inside the zero-g cave a bunch of times, and we're sure the purple rock never went there..</Page>
-					<Page>We even looked everywhere outside the village! We found a purple rock that's way bigger, but that's definitely not the same purple rock..</Page>
+					<Page>We even looked everywhere outside the village! We found a purple rock that's way bigger, but it definitely wasn't the same purple rock..</Page>
 					<Page><![CDATA[<i>Oh, right!</i>]]> There's one place on Timber Hearth we couldn't check!</Page>
 					<Page>There might be glittery caves around the <![CDATA[<color=orange>Nomai Ruins</color>]]> outside the village, astronaut! That's the one place we've never looked!</Page>
 		</Dialogue>
