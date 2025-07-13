@@ -782,6 +782,7 @@ public class Stowaway : ModBehaviour
 		Write("GOLEM CONNECTION ENTER");
 		IsGolemConnection = true;
 		DialogueConditionManager.SharedInstance.SetConditionState("GolemConnection", conditionState: true);
+		DialogueConditionManager.SharedInstance.SetConditionState("GolemDisconnection", conditionState: false);
 	}
 
 	private void golemConnectionExited()
@@ -789,6 +790,7 @@ public class Stowaway : ModBehaviour
 		Write("GOLEM CONNECTION EXIT");
 		IsGolemConnection = false;
 		DialogueConditionManager.SharedInstance.SetConditionState("GolemConnection", conditionState: false);
+		DialogueConditionManager.SharedInstance.SetConditionState("GolemDisconnection", conditionState: true);
 	}
 
 	private void initSolarSystem()
