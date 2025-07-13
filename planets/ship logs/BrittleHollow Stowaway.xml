@@ -29,11 +29,11 @@
         </ExploreFact>
         <ExploreFact>
             <ID>BH_QML EX2</ID>
-            <Text>The Second Locator is unable to track the live position of the Quantum Moon, unlike Ember Twin's Quantum Moon Locator.</Text> 
+            <Text>The limited view of the sky at the Second Locator makes it much harder to directly observe the Quantum Moon.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>BH_QML EX3</ID>
-            <Text>The limited view of the sky at the Second Locator makes it much harder to directly observe the Quantum Moon.</Text> 
+            <Text>The Second Locator is unable to track the live position of the Quantum Moon, unlike Ember Twin's Quantum Moon Locator.</Text> 
         </ExploreFact>
          <ExploreFact>
             <ID>BH_QML EX4</ID>

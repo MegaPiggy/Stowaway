@@ -24,12 +24,6 @@
 
 "Volumes": {
 	"fluidVolumes": [
-		{
-			"shape": {"type": "box"},
-			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
-			"radius": 5,
-			"type": "water"
-		}
 	],
 	"speedTrapVolumes": [
 		{
@@ -112,6 +106,25 @@
 			"reveals": ["SY EX4"],
 			"parentPath": "Sector_TH/Sector_Sanctuary"
 		},
+		{
+			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
+			"isRelativeToParent": true,
+			"radius": 20,
+			"revealOn": "enter",
+			"revealFor": "player",
+			"achievementID": "TrulyEnterSanctuary",
+			"parentPath": "Sector_TH/Sector_Sanctuary/Anti_Voyager"
+		},
+		{
+			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
+			"isRelativeToParent": true,
+			"radius": 20,
+			"revealOn": "enter",
+			"revealFor": "player",
+			"achievementID": "STOWAWAY_TRULY_ENTER_SANCTUARY",
+			"parentPath": "Sector_TH/Sector_Sanctuary/Anti_Voyager 2"
+		},
+		
 		{
 			"position":{"x":-236.3961,"y": -46.0138,"z": -69.0241}, 
 			"isRelativeToParent": true,
@@ -1040,6 +1053,23 @@
 				"rename":"Sector_Sanctuary",
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/empty.prefab"
+			},{
+				"rename":"Anti_Voyager",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab",
+				"parentPath": "Sector_TH/Sector_Sanctuary",
+				"position": {"x":0,"y":0,"z":0},
+				"deactivationCondition": "GolemConnection",
+				"activationCondition": "GolemDisconnection",
+				"blinkWhenActiveChanged": false
+			},{
+				"rename":"Anti_Voyager 2",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab",
+				"parentPath": "Sector_TH/Sector_Sanctuary",
+				"position": {"x":0,"y":0,"z":0},
+				"deactivationCondition": "GolemConnection",
+				"blinkWhenActiveChanged": false
 			},
 	
 			{

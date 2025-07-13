@@ -40,7 +40,11 @@
          <ExploreFact>
           <IgnoreMoreToExplore/>
             <ID>INSP EX1</ID>
+                        <Text>A frozen comet hidden in the shadow of Giant's Deep.</Text>
+             <AltText>
                         <Text>An artificial comet hidden in the shadow of Giant's Deep.</Text>
+                        <Condition>DSS EX4</Condition>
+                 </AltText>
         </ExploreFact>
 
   <ExploreFact>

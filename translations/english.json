@@ -28,6 +28,10 @@
 		"STOWAWAY_GOLEM_CONNECTION": {
 			"Name": "Golem",
 			"Description": "Use an advanced projection stone to create a voyager"
+		},
+		"STOWAWAY_TRULY_ENTER_SANCTUARY": {
+			"Name": "I'm Safe Now, Right",
+			"Description": "Enter the Sanctuary without voyaging"
 		}
 	}
 }

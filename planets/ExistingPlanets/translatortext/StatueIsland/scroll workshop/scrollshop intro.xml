@@ -41,6 +41,10 @@
 			<FactID>WorkshopTop R1</FactID>
 			<Condition>3</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>Workshop R4</FactID>
+			<Condition>1</Condition>
+		</RevealFact>
 
 	</ShipLogConditions>
 

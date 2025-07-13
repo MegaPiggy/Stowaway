@@ -25,11 +25,17 @@
             <ID>Workshop R3</ID>
             <Text>Projection stones were crafted at this workshop on Giant's Deep.</Text> 
         </RumorFact>
+         <RumorFact>
+            <IgnoreMoreToExplore/>
+            <ID>Workshop R4</ID>
+            <SourceID>GD_STATUE_ISLAND</SourceID>
+            <Text>Nomai scrolls and projection stones were crafted at this workshop on Statue Island.</Text> 
+        </RumorFact>
         
         
         <ExploreFact>
             <ID>Workshop EX1</ID> 
-            <Text>Scrolls and projection stones were crafted at this workshop on Statue Island.</Text> 
+            <Text>Nomai scrolls and projection stones were crafted at this workshop.</Text> 
         </ExploreFact>
            <ExploreFact>
             <ID>Workshop EX2</ID> 
@@ -37,11 +43,11 @@
         </ExploreFact>
            <ExploreFact>
             <ID>Workshop EX3</ID> 
-            <Text>Memories recorded by memory statues are sent back in time at the end of each loop in an end-of-cycle transmission.</Text>
+            <Text>Memories recorded by memory statues are sent back in time at the end of each loop.</Text>
         </ExploreFact>
            <ExploreFact>
             <ID>Workshop EX4</ID> 
-            <Text>Static vision occurs at the very end of a loop because memories past the end-of-cycle transmission cannot be sent back.</Text>
+            <Text>Memories past the end-of-cycle transmission cannot be sent back. This is indicated by a static vision at the end of the loop.</Text>
         </ExploreFact>
            <ExploreFact>
             <ID>Workshop EX5</ID> 
@@ -69,7 +75,7 @@
         <ExploreFact>
             <ID>WorkshopTop EX2</ID> 
             <IgnoreMoreToExplore/>
-            <Text>A Nomai named Daz feared that the lifeforms sheltered within the Sanctuary had escaped using the quantum shard.</Text> 
+            <Text>Daz feared that the lifeforms sheltered within the Sanctuary had escaped using the quantum shard.</Text> 
         </ExploreFact>
         <ExploreFact>
             <ID>WorkshopTop EX3</ID> 
@@ -353,9 +359,9 @@
 
            <ExploreFact>
             <ID>DSS EX2</ID> 
-            <Text>A Nomai named Cassava located the source of ghost matter. He became curious about recreating it using a comet as a model.</Text>
+            <Text>A Nomai named Cassava located the source of ghost matter and became curious about recreating it, using a comet as a model.</Text>
                   <AltText>
-                        <Text>A Nomai named Cassava explored the Interloper. He became curious about recreating it, using the Interloper as a model.</Text>
+                        <Text>A Nomai named Cassava explored the Interloper and became curious about recreating it, using the Interloper as a model.</Text>
                         <Condition>COMET_INTERIOR_X3</Condition>
                  </AltText> 
         </ExploreFact>

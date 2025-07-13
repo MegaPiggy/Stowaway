@@ -188,11 +188,7 @@
         
         <ExploreFact>
             <ID>SY EX1</ID> 
-            <Text>A Sanctuary built to protect the native lifeforms of Timber Hearth during the operation of the Ash Twin Project.</Text> 
-             <AltText>
-                <Text>A Sanctuary built within Timber Hearth's underground pools to protect the native lifeforms of Timber Hearth during the operation of the Ash Twin Project.</Text>
-                <Condition>Campsite EX2</Condition>
-            </AltText>
+            <Text>A Sanctuary built to protect Timber Hearth's native life during the operation of the Ash Twin Project.</Text> 
        </ExploreFact>
           <ExploreFact>
             <ID>SY EX3</ID> 
