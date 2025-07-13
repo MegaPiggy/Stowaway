@@ -40,6 +40,12 @@
 	},
 	"Props" :
 	{
+"entryLocation": [
+		{
+			"position":{"x": 10.2039,"y": 2.9648,"z": 29.2216},
+			"id": "LOVERSCOVE"
+		}
+	],
 		"singularities": [
 			{
 				"type": "whiteHole",

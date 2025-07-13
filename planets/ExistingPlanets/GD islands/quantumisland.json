@@ -23,6 +23,12 @@
 	
 	"Props" :
 	{
+"entryLocation": [
+		{
+			"position":{"x": 72.6883,"y": 0.202,"z": -49.6383},
+			"id": "LOOMINGCITY"
+		}
+	],
 			
 		"remotes":[
 	

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2978394408
+CRC: 1498265151
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 389c1d0bad1d749063a6619755d06d8f
+    Hash: 2d3d07bef7effa7e4bb37b7f3c320c9c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b22b9fad7869be4f5cb6c2c6b0bb3bd8
+    Hash: 7f7293dcc0e300cfc5b365e37861cc21
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -69,6 +69,8 @@ ClassTypes:
   Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 36f7e306a24855db0f89ced7314d6ce8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 70b3cb2668e8fba689772b9396877c44, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 97799c07190331b5ea4838ff8ff2a8e0, type: 3}
 - Class: 114
@@ -166,6 +168,7 @@ Assets:
 - Assets/Models/ASH TWIN BEAM south.prefab
 - Assets/Models/protohearthian_rock.prefab
 - Assets/Models/Materials/comet mural front v4.prefab
+- Assets/AnimationClip/Shuttle icemelt audio scaling.prefab
 - Assets/Models/empty.prefab
 - Assets/Nomai Ruins/Crystal pot.prefab
 - Assets/Nomai Ruins/Mini Volcano Simulation.prefab
@@ -176,7 +179,9 @@ Assets:
 - Assets/Models/player nosuit.prefab
 - Assets/Models/Materials/Solar tower hologram.prefab
 - Assets/Nomai Ruins/four eyed monolith.prefab
+- Assets/AnimationClip/orange light.prefab
 - Assets/Models/th portrait.prefab
+- Assets/AnimationClip/shuttle icemelt.prefab
 - Assets/Models/JellyfishV proxy.prefab
 - Assets/Nomai Ruins/HourglassOb final.prefab
 - Assets/Models/et portrait.prefab
@@ -185,6 +190,7 @@ Assets:
 - Assets/Models/TheInspired gold.prefab
 - Assets/Models/ASH TWIN BEAM north.prefab
 - Assets/Models/bh tower occluder.prefab
+- Assets/AnimationClip/comet gm scaling.prefab
 - Assets/Models/rotation guy.prefab
 - Assets/Models/voyager ring.prefab
 - Assets/Models/Materials/mural front.prefab
@@ -193,6 +199,7 @@ Assets:
 - Assets/Nomai Ruins/Lava bell control.prefab
 - Assets/Models/Cube.prefab
 - Assets/Models/SphereCollider.prefab
+- Assets/AnimationClip/purple light.prefab
 - Assets/Models/waterfall clear.prefab
 - Assets/Models/Props_NOM_SharedStone.prefab
 - Assets/Models/Materials/comet mural side v4.prefab

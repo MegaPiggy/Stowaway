@@ -3,14 +3,90 @@
 
 	"name": "Interloper",
 
-	"Props": {
+	"removeChildren": [
+		"Prefab_NOM_Shuttle/Sector_Shuttle/Geo_NomaiShuttle/Structure_NOM_Shuttle_Ice",
+		"Prefab_NOM_Shuttle/Sector_Shuttle/Proxy_NOM_Shuttle/Proxy_NOM_Shuttle_Ice",
 
-		"translatorText": [
-			
-		],
+		"Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatter_KillVolumes",
+		"Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatterVolume",
+		"Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatterVolume (1)",
+		"Sector_CO/Sector_CometInterior/Effects_CometInterior"
+	],
+
+	"Props": {
 
 		"details": [
 
+			{
+				"rename":"CometShuttle ice scaling",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/shuttle icemelt.prefab",
+				"position":{"x":0,"y": 0,"z": 0},
+				"rotation":{"x":0,"y": 0,"z": 0},
+				"parentPath": "Prefab_NOM_Shuttle/Sector_Shuttle/Geo_NomaiShuttle",
+				"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"CometShuttle novaMelting audio",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/shuttle icemelt audio scaling.prefab",
+				"position":{"x":0,"y": 0,"z": 0},
+				"rotation":{"x":0,"y": 0,"z": 0},
+				"parentPath": "Prefab_NOM_Shuttle/Sector_Shuttle/Geo_NomaiShuttle",
+				"isRelativeToParent": true
+			},
+
+			{
+				"rename":"Comet gm tugging",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/comet gm scaling.prefab",
+				"position":{"x":-50,"y": 0,"z": 0},
+				"parentPath": "Sector_CO/Sector_CometInterior/Interactables_CometInterior",
+				"isRelativeToParent": true
+			},{
+					"rename":"MatterVolume_Offset",
+					"assetBundle": "planets/bundle/stowaway3",
+					"path":"assets/models/empty.prefab",
+				"position":{"x":50,"y": 0,"z": 0},
+					"isRelativeToParent": true,
+				"parentPath": "Sector_CO/Sector_CometInterior/Interactables_CometInterior/Comet gm tugging"
+				},
+			{
+				"rename":"Comet GM Wisps",
+				"path":"Sector_CO/Sector_CometInterior/Effects_CometInterior",
+				"position":{"x":0,"y": 0,"z": 0},
+				"rotation":{"x":0,"y": 0,"z": 0},
+				"parentPath": "Sector_CO/Sector_CometInterior/Interactables_CometInterior/Comet gm tugging/MatterVolume_Offset",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"DarkMatter_KillVolumes 2",
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatter_KillVolumes",
+				"position":{"x":0,"y": 0,"z": 0},
+				"rotation":{"x":0,"y": 0,"z": 0},
+				"parentPath": "Sector_CO/Sector_CometInterior/Interactables_CometInterior/Comet gm tugging/MatterVolume_Offset",
+				"isRelativeToParent": true,
+				"removeChildren": ["DarkMatterVolume (4)/ProbeVisuals","DarkMatterVolume (8)/ProbeVisuals","DarkMatterVolume (5)/ProbeVisuals","DarkMatterVolume (3)/ProbeVisuals"]
+			},
+			{
+				"rename":"DarkMatterVolume 2",
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatterVolume",
+				"position":{"x":-12.23,"y": -52.67,"z": -16.97},
+				"rotation":{"x":354.0382,"y": 291.5533,"z": 156.613},
+				"parentPath": "Sector_CO/Sector_CometInterior/Interactables_CometInterior/Comet gm tugging/MatterVolume_Offset",
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			},
+			{
+				"rename":"DarkMatterVolume (1) 2",
+				"path":"Comet_Body/Sector_CO/Sector_CometInterior/Interactables_CometInterior/DarkMatterVolume (1)",
+				"position":{"x": -13.74,"y": -28.75,"z": 45.73},
+				"rotation":{"x": 345.6789,"y": 239.0291,"z": 239.9533},
+				"parentPath": "Sector_CO/Sector_CometInterior/Interactables_CometInterior/Comet gm tugging/MatterVolume_Offset",
+				"isRelativeToParent": true,
+				"removeChildren": ["ProbeVisuals"]
+			}
 			
 		]
 	}

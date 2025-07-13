@@ -145,6 +145,18 @@
 				"id": "TH_SANCTUARY",
 				"isRelativeToParent": true,
 				"parentPath": "Sector_TH/Sector_Sanctuary"
+		},
+		{
+			"position":{"x": -237.3031,"y": -46.7236,"z": -68.5974},
+			"id": "TH_WARPPOINT",
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Sector_WarpRuins"
+		},
+		{
+			"position":{"x": -155.747,"y": 5.7481,"z": -130.8991},
+			"id": "TH_CAMPSITE",
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Sector_TH_NomaiCampsite"
 		}
 	],
 		
@@ -1161,7 +1173,7 @@
 				"rename":"Sanctuary plant",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/nomtree1.prefab",
-				"position":{"x":-106.3354,"y": 5.1427,"z": 118.6606},
+				"position":{"x":-109.9626,"y": 15.2245,"z": 113.3515},
 				"rotation":{"x":283.0523,"y": 80.0788,"z": 57.9919},
 				"parentPath": "Sector_TH/Sector_Sanctuary/Sanctuary Isle",
 				"isRelativeToParent": true

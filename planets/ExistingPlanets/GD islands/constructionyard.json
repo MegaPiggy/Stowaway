@@ -14,6 +14,13 @@
 	},
 
 	"Props":{
+"entryLocation": [
+		{
+			"position":{"x": 26.1428,"y": 4.1596,"z": -39.2},
+			"id": "CONSTRUCT_BAY"
+		}
+	],
+
 		"singularities": [
 			{
 				"type": "whiteHole",

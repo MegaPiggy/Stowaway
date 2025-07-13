@@ -12,6 +12,21 @@
 	},
 	
 	"Props":{
+		"entryLocation": [
+		{
+			"position":{"x": 16.7327,"y": 40.5,"z": -15.8024},
+			"id": "SCROLL_WORKSHOP"
+		},{
+			"position":{"x": 16.7327,"y": 46.0025,"z": -15.8024},
+			"id": "SCROLL_WORKSHOP_TOP"
+		},{
+			"position":{"x": -42.1867,"y": -8.9109,"z": -108.8439},
+			"id": "PIONEER_BEACH"
+		},{
+			"position":{"x": 2.6531,"y": 4.789,"z": -31.4242},
+			"id": "PIONEER_CAMP_INTERIOR"
+		}
+	],
 
 		"singularities": [
 			{
