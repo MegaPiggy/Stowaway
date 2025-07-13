@@ -788,6 +788,7 @@ public class Stowaway : ModBehaviour
 	{
 		Write("GOLEM CONNECTION EXIT");
 		IsGolemConnection = false;
+		DialogueConditionManager.SharedInstance.SetConditionState("GolemConnection", conditionState: false);
 	}
 
 	private void initSolarSystem()
