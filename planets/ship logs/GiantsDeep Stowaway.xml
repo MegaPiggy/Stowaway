@@ -91,7 +91,7 @@
 <Entry>
         <ID>PIONEER_BEACH</ID>
         <Name>Statue Island Beach</Name>
-       <Curiosity>Stowaway</Curiosity>
+       <Curiosity>None</Curiosity>
 
          
         <ExploreFact>
@@ -107,7 +107,7 @@
 
             <ID>PIONEER_CAMP_INTERIOR</ID>
             <Name>Pioneer Interior Camp</Name>
-            <Curiosity>Stowaway</Curiosity>
+            <Curiosity>None</Curiosity>
 
             <RumorFact>
             <ID>Pioneer_Int R1</ID>
@@ -229,7 +229,7 @@
 <Entry>
         <ID>LOOMINGCITY</ID>
         <Name>Looming City</Name>
-        <Curiosity>None</Curiosity>
+        <Curiosity>Stowaway</Curiosity>
 
             <IgnoreMoreToExplore/>
 
@@ -259,7 +259,7 @@
 
           <ExploreFact>
             <ID>LC EX3</ID> 
-            <Text>Objects left on a quantum shard will travel with the shard.</Text> 
+            <Text>"Objects left on a quantum shard will travel with the shard."</Text> 
         </ExploreFact>
            <ExploreFact>
             <ID>LC EX4</ID> 
@@ -353,17 +353,17 @@
 
            <ExploreFact>
             <ID>DSS EX2</ID> 
-            <Text>A Nomai named Cassava located the source of ghost matter. He became curious about recreating it, using a comet as a model.</Text>
+            <Text>A Nomai named Cassava located the source of ghost matter. He became curious about recreating it using a comet as a model.</Text>
                   <AltText>
-                        <Text>A Nomai named Cassava located the source of ghost matter. He became curious about recreating it, using the Interloper as a model.</Text>
+                        <Text>A Nomai named Cassava explored the Interloper. He became curious about recreating it, using the Interloper as a model.</Text>
                         <Condition>COMET_INTERIOR_X3</Condition>
                  </AltText> 
         </ExploreFact>
         <ExploreFact>
             <ID>DSS EX6</ID> 
-            <Text>Cassava learned that a hostile comet came from a barren asteroid belt far outside any star system. He resolved to fire the Inspired regardless, to protect the surviving species of the star system.</Text> 
+            <Text>Cassava learned that a hostile comet came from a barren asteroid belt far outside any star system. He resolved to launch the Inspired regardless, to protect the surviving species of the star system.</Text> 
                   <AltText>
-                        <Text>Cassava learned that the Interloper came from a barren asteroid belt far outside any star system. He resolved to fire the Inspired regardless, to protect the surviving species of the star system.</Text>
+                        <Text>Cassava learned that the Interloper came from a barren asteroid belt far outside any star system. He resolved to launch the Inspired regardless, to protect the surviving species of the star system.</Text>
                         <Condition>COMET_INTERIOR_X3</Condition>
                  </AltText> 
         </ExploreFact>
@@ -382,10 +382,14 @@
           <ExploreFact>
             <ID>DSS EX3</ID> 
             <Text>The Inspired was a superweapon built to exact vengeance on the true source of ghost matter. It was designed to use a lattice of gravity crystals to exploit the property of attraction.</Text> 
+                  <AltText>
+                        <Text>The Inspired was a superweapon built to exact vengeance on the source of the Interloper. It was designed to use a lattice of gravity crystals to exploit the property of attraction.</Text>
+                        <Condition>COMET_INTERIOR_X3</Condition>
+                 </AltText> 
         </ExploreFact>
           <ExploreFact>
             <ID>DSS EX4</ID> 
-            <Text>The Inspired used a whitehole warp core from the Deep Storm Station's paired warp cores, disabling the station indefinitely.</Text> 
+            <Text>The Inspired used a white-hole warp core from the Deep Storm Station's paired warp cores, disabling the station indefinitely.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>DSS EX5</ID> 

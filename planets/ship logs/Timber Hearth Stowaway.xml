@@ -180,6 +180,10 @@
             <ID>SY R5</ID> 
             <Text>The Hearthians that survived the arrival of ghost matter within the Sanctuary were quarantined inside by a Nomai named Cassava.</Text> 
         </RumorFact>
+          <RumorFact>
+            <ID>SY R6</ID> 
+            <Text>A Nomai named Yarrow wrote to the Sanctuary about the failure of the Ash Twin Project.</Text> 
+        </RumorFact>
         
         
         <ExploreFact>
@@ -200,7 +204,10 @@
         </ExploreFact>
           <ExploreFact>
             <ID>SY EX4</ID> 
-            <Text>A Nomai named Yarrow wrote to the Sanctuary about the failure of the Ash Twin Project.</Text> 
+            <Text>I found an Ash Twin projection stone inside the Sanctuary, but was unable to read the text on the projection wall.</Text> 
+                   <AltText><Text>A Nomai named Yarrow wrote to the Sanctuary about the failure of the Ash Twin Project.</Text>
+                         <Condition>SY R6</Condition>
+                         </AltText>
          </ExploreFact>
          <ExploreFact>
             <ID>SY EX5</ID> 
@@ -279,7 +286,7 @@
         </ExploreFact>
          <ExploreFact>
             <ID>Campsite EX3</ID>
-            <Text>A new invention from the Scroll and Stone Workshop was used to enter the Sanctuary, in place of a warp receiver</Text> 
+            <Text>A new invention from the Scroll and Stone Workshop was used to enter the Sanctuary, in place of a warp receiver.</Text> 
         </ExploreFact>
           <ExploreFact>
                 <ID>Campsite EX1.5</ID> 

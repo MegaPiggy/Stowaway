@@ -22,6 +22,11 @@
             "ID": "STOWAWAY_GOLEM_CONNECTION",
             "secret": true,
             "conditionIDs": [ "GolemConnection" ]
+        },
+         {
+            "ID": "STOWAWAY_TRULY_ENTER_SANCTUARY",
+            "secret": true,
+            "conditionIDs": [ "TrulyEnterSanctuary" ]
         }
     ],
     

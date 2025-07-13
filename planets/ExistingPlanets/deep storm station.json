@@ -49,6 +49,21 @@
 	},	
 	
 "Props": {
+
+	"entryLocation": [
+		{
+			"position":{"x": 0,"y": 0,"z": 0},
+			"id": "DEEP_STORM_STATION"
+		},
+		{
+			"position":{"x": 0,"y": 0,"z": 0},
+			"id": "COMET_MURAL"
+		},
+		{
+			"position":{"x": 0,"y": 0,"z": 0},
+			"id": "DSS_BASEMENT"
+		}
+	],
 	
 	"singularities": [
 		

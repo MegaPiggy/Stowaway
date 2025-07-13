@@ -16,11 +16,11 @@
 
          <ExploreFact>
             <ID>R_SLR EX1</ID>
-             <Text>A model of a tower designed for gathering solar energy. There are entrances into a solar tower at the top, base, and along the structure's length.</Text>
+             <Text>A model of a tower designed for gathering solar energy. There are entrances at the top, base, and along the structure's length.</Text>
         </ExploreFact>
          <ExploreFact>
             <ID>R_SLR EX2</ID>
-             <Text>Solar towers were built on each of Ash Twin's poles to allow them to continue functioning during sunless days.</Text>
+             <Text>Solar towers were built on Ash Twin's poles to allow them to continue functioning during sunless days.</Text>
         </ExploreFact>
          <ExploreFact>
             <ID>R_SLR EX3</ID>

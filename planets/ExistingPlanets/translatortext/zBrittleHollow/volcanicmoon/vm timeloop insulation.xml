@@ -106,7 +106,7 @@ Clue: Supernova generate lots of heat
 		<LocationB />
 		<ParentID>11</ParentID>
 		<Text>
-		ROOT: As they have been placed on different planets, the memory statues will be destroyed in order as each planet is engulfed by the supernova - giving us ample time to notice anything amiss in that scenario.
+		ROOT: As they have been placed on different planets, the memory statues will be destroyed sequentially as each planet is engulfed by the supernova - giving us ample time to notice anything amiss in that scenario.
 		</Text>
 	</TextBlock>
 

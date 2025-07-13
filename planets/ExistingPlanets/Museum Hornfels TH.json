@@ -23,6 +23,14 @@
 
 
 "Volumes": {
+	"fluidVolumes": [
+		{
+			"shape": {"type": "box"},
+			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
+			"radius": 5,
+			"type": "water"
+		}
+	],
 	"speedTrapVolumes": [
 		{
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
@@ -96,20 +104,36 @@
 			"parentPath": "Sector_TH/Sector_Sanctuary"
 		},
 		{
+			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
+			"isRelativeToParent": true,
+			"radius": 20,
+			"revealOn": "enter",
+			"revealFor": "player",
+			"reveals": ["SY EX4"],
+			"parentPath": "Sector_TH/Sector_Sanctuary"
+		},
+		{
 			"position":{"x":-236.3961,"y": -46.0138,"z": -69.0241}, 
 			"isRelativeToParent": true,
 			"radius": 11.2,
 			"revealOn": "snapshot",
 			"maxDistance": 25,
-			"reveals": ["TH_WR EX3"]
+			"reveals": ["TH_WR EX4"]
 		}
 		
 	]
 },
 		
 		
-	"Props" :
-	{
+	"Props" :{
+	"entryLocation": [
+		{
+				"position":{"x": -102.0908,"y": 12.4067,"z": 118.9292},
+				"id": "TH_SANCTUARY",
+				"isRelativeToParent": true,
+				"parentPath": "Sector_TH/Sector_Sanctuary"
+		}
+	],
 		
 		"audioSources": [
 			{

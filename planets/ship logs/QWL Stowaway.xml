@@ -19,7 +19,7 @@
         <RumorFact>
           <ID>QWL R3</ID> 
             <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
-            <Text>Nomai on the Quantum Weather Lab raised concerns about how the Quantum Moon could affect the Ash Twin Project.</Text> 
+            <Text>Nomai on the Quantum Weather Lab raised concerns about how the Quantum Moon could interfere with the Ash Twin Project.</Text> 
         </RumorFact> 
 
         <ExploreFact>
@@ -36,7 +36,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>QWL EX4</ID> 
-            <Text>The Nomai implemented a safeguard detecting when the Quantum Moon orbits Giant's Deep to protect the Ash Twin Project from potential interference.</Text> 
+            <Text>The Nomai implemented a safeguard detecting when the Quantum Moon orbits Giant's Deep, to protect the Ash Twin Project from potential interference.</Text> 
         </ExploreFact>
     </Entry>
 </AstroObjectEntry>
