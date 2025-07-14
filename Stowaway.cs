@@ -95,6 +95,10 @@ public class Stowaway : ModBehaviour
 		{
 			initSun_Late();
 		}
+		if (body == "SunStation")
+		{
+			initSunStation_Late();
+		}
 		if (body == "HourglassTwins")
 		{
 			initHourglassTwins_Late();
@@ -132,6 +136,10 @@ public class Stowaway : ModBehaviour
 			//Only init the construction yard after New Horizon has initialized it
 			initConstructionYard_Late();
 		}
+		if (body == "GabbroIsland")
+		{
+			initGabbroIsland_Late();
+		}
 		if (body == "StatueIsland")
 		{
 			initStatueIsland_Late();
@@ -165,8 +173,11 @@ public class Stowaway : ModBehaviour
 	private void initHollowsLantern_Late()
 	{
 		var hollowsLantern = Locator.GetAstroObject(AstroObject.Name.VolcanicMoon);
+		var sector = hollowsLantern.GetRootSector();
 		var meteorLaunchers = hollowsLantern.GetComponentsInChildren<MeteorLauncher>(true);
 		int launcherCount = meteorLaunchers.Length;
+		hollowsLantern.transform.Find("MoltenCore_VM/MoltenCore_Proxy/LavaSphere (1)").gameObject.AddComponent<ProxyShadowCaster>();
+		sector.transform.Find("VolcanicMoonVolume_Sector_Ruleset").GetComponent<SphereShape>().radius = 1000;
 
 		float baseInterval = 10.5f;
 		float maxInterval = 25.25f;
@@ -304,6 +315,14 @@ public class Stowaway : ModBehaviour
 		});
 	}
 
+	private void initSunStation_Late()
+	{
+		var ss = Locator.GetAstroObject(AstroObject.Name.SunStation);
+		var sector = ss.GetRootSector();
+
+		sector.transform.Find("BlackHole/BlackHoleRenderer").gameObject.AddComponent<SingularityController>()._startActive = false;
+	}
+
 	private void initHourglassTwins_Late()
 	{
 		var hgt = Locator.GetAstroObject(AstroObject.Name.HourglassTwins);
@@ -389,24 +408,14 @@ public class Stowaway : ModBehaviour
 		sandFunnel.GetComponentInChildren<SectorProxy>(true).SetSector(sector);
 		sandFunnel.GetComponentInChildren<SectorCullGroup>(true).SetSector(sector);
 		sandFunnel.GetComponentInChildren<SectorCollisionGroup>(true).SetSector(sector);
+		sandFunnel.transform.Find("ScaleRoot/Proxy_SandFunnel/SandColumn_Exterior (1)").gameObject.AddComponent<ProxyShadowCaster>();
 	}
 
 	private void initSun_Late()
 	{
 		var sun = Locator.GetAstroObject(AstroObject.Name.Sun);
-		var sector = sun.GetRootSector().transform;
-		var extraGravity = sector.Find("sun gravitywell3 sun");
-		if (extraGravity != null)
-		{
-			WriteSuccess("Found object at path Sun_Body/Sector_SUN/sun gravitywell3 sun");
-			var volume = extraGravity.GetComponent<GravityVolume>();
-			volume._surfaceAcceleration = 37.5f; // 400 billion at 100 accel. So change to 37.5 for 150 billion.
-			volume._isPlanetGravityVolume = false;
-			volume._setMass = false; // Do not set actual mass
-			volume.Awake(); // Run start up code that changes gravitationalMass
-		}
-		else
-			WriteError("Cannot find object at path Sun_Body/Sector_SUN/sun gravitywell3 sun");
+		var sector = sun.GetRootSector();
+		sector.transform.Find("WhiteHole/WhiteHoleRenderer").gameObject.AddComponent<SingularityController>()._startActive = false;
 	}
 
 	private void initWaterColumn(AstroObject giantsDeep)
@@ -529,6 +538,8 @@ public class Stowaway : ModBehaviour
 			var proxy = ProxyHandler.GetProxy("Deep Storm Station");
 			proxy.root.transform.localPosition = pos;
 		});
+
+		sector.transform.Find("DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer").gameObject.AddComponent<SingularityController>()._startActive = true;
 	}
 
 	private void initInspiredComet(GameObject inspired)
@@ -546,7 +557,7 @@ public class Stowaway : ModBehaviour
 		fieldDetector.localPosition = pos;
 		gravityWell.localPosition = pos;
 
-		var rot = new Vector3(270, 180, 0);
+		var rot = new Vector3(270, 167.5f, 0);
 		sector.localEulerAngles = rot;
 		rfVolume.localEulerAngles = rot;
 		volumes.localEulerAngles = rot;
@@ -573,6 +584,8 @@ public class Stowaway : ModBehaviour
 			proxy.root.transform.localPosition = pos;
 			proxy.root.transform.localEulerAngles = rot;
 		});
+
+		sector.transform.Find("BlackHole/BlackHoleRenderer").gameObject.AddComponent<SingularityController>()._startActive = true;
 	}
 
 	private void initBrittleHollow_Late()
@@ -594,12 +607,12 @@ public class Stowaway : ModBehaviour
 		}
 
 		initGhostMatter(brittleHollow, "workshop gm wisps replacement");
-		initGhostMatter(brittleHollow, "Sector_QuantumFragment/QTOWER GM/QTOWER GM wisps");
 	}
 
 	private void initAshTwin_Late()
 	{
 		var ashTwin = Locator.GetAstroObject(AstroObject.Name.TowerTwin);
+		var sector = ashTwin.GetRootSector();
 #if DEBUG
 		var sand = ashTwin.GetComponentInChildren<SandLevelController>(true);
 		sand._scaleCurve = AnimationCurve.Constant(0, TimeLoop.LOOP_DURATION_IN_MINUTES * 60, 0); // set scale to 0 at all times
@@ -612,7 +625,8 @@ public class Stowaway : ModBehaviour
 		}
 
 		initGhostMatter(ashTwin, "SS tower GM wisps door");
-		initGhostMatter(ashTwin, "SS tower GM wisps warppad");
+		CreateInvertedOccluder(sector.transform, "CloudsInvertedOccluder", 40);
+		sector.GetComponent<SphereShape>().radius = 1000;
 	}
 
 	private void initTimberHearth_Late()
@@ -633,6 +647,8 @@ public class Stowaway : ModBehaviour
 	private void initEmberTwin_Late()
 	{
 		var caveTwin = Locator.GetAstroObject(AstroObject.Name.CaveTwin);
+		var sector = caveTwin.GetRootSector();
+		sector.GetComponent<SphereShape>().radius = 1500;
 		foreach (var gateway in caveTwin.GetComponentsInChildren<NomaiGateway>(true))
 		{
 			if (gateway.name == "WindowCoverInterface")
@@ -765,6 +781,8 @@ public class Stowaway : ModBehaviour
 		var rootSector = giantsDeep.GetRootSector();
 		var inspired = NewHorizonsAPI.GetPlanet("Inspired").GetComponent<AstroObject>().GetRootSector();
 		inspired.SetParentSector(rootSector);
+
+		rootSector.transform.Find("SectorTrigger_GD").GetComponent<SphereShape>().radius = 1800;
 	}
 
 	private void CreateInvertedOccluder(Transform parent, string name, float radius)
@@ -814,12 +832,14 @@ public class Stowaway : ModBehaviour
 	{
 		var constructionYardBody = SearchUtilities.Find("ConstructionYardIsland_Body");
 
-		var solarPanel = SearchUtilities.Find("ConstructionYardIsland_Body/Sector_ConstructionYard/ConstructYard Solar Panels");
+		var solarPanel = constructionYardBody.transform.Find("Sector_ConstructionYard/ConstructYard Solar Panels");
 		if (solarPanel)
 		{
 			var solarPanelComponent = solarPanel.gameObject.GetAddComponent<SolarPanelCollision>();
 			solarPanelComponent.SetIsland(constructionYardBody?.GetComponent<IslandController>());
 		}
+
+		constructionYardBody.transform.Find("Detector_ConstructionYardIsland").GetComponent<DynamicFluidDetector>()._buoyancy.boundingRadius = 30;
 
 		/*var socket = SearchUtilities.Find("ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/LandingIsland/Prefab_NOM_Whiteboard/ArcSocket");
 		if (socket)
@@ -839,12 +859,19 @@ public class Stowaway : ModBehaviour
 	{
 		var statueIslandBody = SearchUtilities.Find("StatueIsland_Body");
 
-		var solarPanel = SearchUtilities.Find("StatueIsland_Body/Sector_StatueIsland/StatueIsle Solar Panels");
+		var solarPanel = statueIslandBody.transform.Find("Sector_StatueIsland/StatueIsle Solar Panels");
 		if (solarPanel)
 		{
 			var solarPanelComponent = solarPanel.gameObject.GetAddComponent<SolarPanelCollision>();
 			solarPanelComponent.SetIsland(statueIslandBody?.GetComponent<IslandController>());
 		}
+	}
+
+	private void initGabbroIsland_Late()
+	{
+		var gabbroIsland = SearchUtilities.Find("GabbroIsland_Body");
+
+		gabbroIsland.transform.Find("Detector_GabbroIsland").GetComponent<DynamicFluidDetector>()._buoyancy.boundingRadius = 30;
 	}
 
 	private void initDensityComponents()
@@ -887,12 +914,6 @@ public class Stowaway : ModBehaviour
 
 	private void initQuantumIsland_Late()
 	{
-	
-		var cerberusJellyfish = SearchUtilities.Find("QuantumIsland_Body/Sector_QuantumIsland/Cerberus Jelly");
-		if (cerberusJellyfish != null)
-		{
-			cerberusJellyfish.GetAddComponent<CerberusJellyfish>();
-		}
 	}
 
 	private void initTractorBeams(UnityEngine.GameObject islandObject)
