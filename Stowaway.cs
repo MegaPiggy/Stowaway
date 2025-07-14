@@ -320,7 +320,7 @@ public class Stowaway : ModBehaviour
 		var ss = Locator.GetAstroObject(AstroObject.Name.SunStation);
 		var sector = ss.GetRootSector();
 
-		sector.transform.Find("BlackHole/BlackHoleRenderer").gameObject.AddComponent<SingularityController>()._startActive = false;
+		AddSingularityController(sector.transform.Find("BlackHole/BlackHoleRenderer").gameObject, false);
 	}
 
 	private void initHourglassTwins_Late()
@@ -415,7 +415,7 @@ public class Stowaway : ModBehaviour
 	{
 		var sun = Locator.GetAstroObject(AstroObject.Name.Sun);
 		var sector = sun.GetRootSector();
-		sector.transform.Find("WhiteHole/WhiteHoleRenderer").gameObject.AddComponent<SingularityController>()._startActive = false;
+		AddSingularityController(sector.transform.Find("WhiteHole/WhiteHoleRenderer").gameObject, false);
 	}
 
 	private void initWaterColumn(AstroObject giantsDeep)
@@ -539,7 +539,7 @@ public class Stowaway : ModBehaviour
 			proxy.root.transform.localPosition = pos;
 		});
 
-		sector.transform.Find("DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer").gameObject.AddComponent<SingularityController>()._startActive = true;
+		AddSingularityController(sector.transform.Find("DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer").gameObject, true);
 	}
 
 	private void initInspiredComet(GameObject inspired)
@@ -585,7 +585,7 @@ public class Stowaway : ModBehaviour
 			proxy.root.transform.localEulerAngles = rot;
 		});
 
-		sector.transform.Find("BlackHole/BlackHoleRenderer").gameObject.AddComponent<SingularityController>()._startActive = true;
+		AddSingularityController(sector.transform.Find("BlackHole/BlackHoleRenderer").gameObject, true);
 	}
 
 	private void initBrittleHollow_Late()
@@ -947,6 +947,13 @@ public class Stowaway : ModBehaviour
 		{
 			WriteError("Cannot find object at path " + key + "/Sector/" + path);
 		}
+	}
+
+	public static void AddSingularityController(GameObject renderer, bool startActive)
+	{
+		var sc = renderer.AddComponent<SingularityController>();
+		sc._startActive = startActive;
+		sc.Awake();
 	}
 
 	private static readonly string BundleLocation = "planets/bundle";
