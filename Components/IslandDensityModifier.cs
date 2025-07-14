@@ -5,7 +5,7 @@ namespace Stowaway.Components
 	[RequireComponent(typeof(OverheadDetector))]
 	internal class IslandDensityModifier : MonoBehaviour
 	{
-		public float DensityModifierSun = 0.03f;
+		public float DensityModifierSun = 0.15f;
 		//public float DensityModifierMoon = 0.03f;
 		//public float DensityModifierBoth = 0.4f;
 		public float MaxDensity = 9999f;
