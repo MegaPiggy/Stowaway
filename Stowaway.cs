@@ -173,11 +173,10 @@ public class Stowaway : ModBehaviour
 	private void initHollowsLantern_Late()
 	{
 		var hollowsLantern = Locator.GetAstroObject(AstroObject.Name.VolcanicMoon);
-		var sector = hollowsLantern.GetRootSector();
+		var sector = hollowsLantern.GetComponentInChildren<Sector>(true);
+		hollowsLantern._rootSector = sector;
 		var meteorLaunchers = hollowsLantern.GetComponentsInChildren<MeteorLauncher>(true);
 		int launcherCount = meteorLaunchers.Length;
-		hollowsLantern.transform.Find("MoltenCore_VM/MoltenCore_Proxy/LavaSphere (1)").gameObject.AddComponent<ProxyShadowCaster>();
-		sector.transform.Find("VolcanicMoonVolume_Sector_Ruleset").GetComponent<SphereShape>().radius = 1000;
 
 		float baseInterval = 10.5f;
 		float maxInterval = 25.25f;
@@ -229,6 +228,9 @@ public class Stowaway : ModBehaviour
 			modifiedLauncher.gameObject.SetActive(true);
 			count++;
 		}
+
+		hollowsLantern.transform.Find("MoltenCore_VM/MoltenCore_Proxy/LavaSphere (1)").gameObject.AddComponent<ProxyShadowCaster>();
+		sector.transform.Find("VolcanicMoonVolume_Sector_Ruleset").GetComponent<SphereShape>().radius = 1000;
 	}
 
 	private void initHourglassObservatory(GameObject hourglassObservatory)
@@ -318,9 +320,10 @@ public class Stowaway : ModBehaviour
 	private void initSunStation_Late()
 	{
 		var ss = Locator.GetAstroObject(AstroObject.Name.SunStation);
-		var sector = ss.GetRootSector();
+		var sector = ss.GetComponentInChildren<Sector>(true);
+		ss._rootSector = sector;
 
-		AddSingularityController(sector.transform.Find("BlackHole/BlackHoleRenderer").gameObject, false);
+		AddSingularityController(sector, "BlackHole/BlackHoleRenderer", false);
 	}
 
 	private void initHourglassTwins_Late()
@@ -415,7 +418,7 @@ public class Stowaway : ModBehaviour
 	{
 		var sun = Locator.GetAstroObject(AstroObject.Name.Sun);
 		var sector = sun.GetRootSector();
-		AddSingularityController(sector.transform.Find("WhiteHole/WhiteHoleRenderer").gameObject, false);
+		AddSingularityController(sector, "WhiteHole/WhiteHoleRenderer", false);
 	}
 
 	private void initWaterColumn(AstroObject giantsDeep)
@@ -539,7 +542,7 @@ public class Stowaway : ModBehaviour
 			proxy.root.transform.localPosition = pos;
 		});
 
-		AddSingularityController(sector.transform.Find("DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer").gameObject, true);
+		AddSingularityController(sector.GetComponent<Sector>(), "DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer", true);
 	}
 
 	private void initInspiredComet(GameObject inspired)
@@ -585,7 +588,7 @@ public class Stowaway : ModBehaviour
 			proxy.root.transform.localEulerAngles = rot;
 		});
 
-		AddSingularityController(sector.transform.Find("BlackHole/BlackHoleRenderer").gameObject, true);
+		AddSingularityController(sector.GetComponent<Sector>(), "BlackHole/BlackHoleRenderer", true);
 	}
 
 	private void initBrittleHollow_Late()
@@ -949,9 +952,16 @@ public class Stowaway : ModBehaviour
 		}
 	}
 
-	public static void AddSingularityController(GameObject renderer, bool startActive)
+	public static void AddSingularityController(Sector sector, string renderer, bool startActive)
 	{
-		var sc = renderer.AddComponent<SingularityController>();
+		var rendererTransform = sector.transform.Find(renderer);
+		if (rendererTransform == null)
+		{
+			WriteWarning($"Couldn't find \"{renderer}\" in {sector.transform.GetPath()} (this code is potentially running before the renderer is made and will be rerun later)");
+			return;
+		}
+
+		var sc = rendererTransform.gameObject.AddComponent<SingularityController>();
 		sc._startActive = startActive;
 		sc.Awake();
 	}
