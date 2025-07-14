@@ -44,10 +44,10 @@
 			"uniqueID": "SS WH",
 			"pairedSingularity": "SS BH",
 			"hasWarpEffects": false,
-			"horizonRadius": 15,
+			"horizonRadius": 0,
+			"distortRadius": 0,
 			"position":{"x": 0,"y": 0,"z": 0},
-			"isRelativeToParent": true,
-			"renderQueueOverride": 2501
+			"isRelativeToParent": true
 		}
 	]
 	},

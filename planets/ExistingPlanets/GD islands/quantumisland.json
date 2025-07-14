@@ -1030,7 +1030,6 @@
 				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
 				"position": {"x": 20.1632, "y": 30.8814, "z": -2.2808},
 				"rotation": {"x": 0,"y": 0,"z": 0},
-				"parentPath": "Sector_BH/Sector_VM_intro",
 				"isRelativeToParent": true
 			},{
 				"rename":"qtower end rail torch 1",
@@ -1038,7 +1037,6 @@
 				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
 				"position": {"x": 19.8899, "y": 30.8814, "z": 2.2872}, 
 				"rotation": {"x": 0,"y": 270,"z": 0},
-				"parentPath": "Sector_BH/Sector_VM_intro",
 				"isRelativeToParent": true
 			},
 
