@@ -62,7 +62,7 @@
         "MegaPiggy#Main Programmer\n#MVP",
         "Asker#Programmer",
         "Repcon#Main Modeler#Hourglass Observatory Mural",
-        "Clay#Hearthian Model",
+        "Clay#Proto Hearthian Model",
         "DiscoInferno#Model Help",
         " ",
         "Made with help from the New Horizons modding community",
@@ -71,7 +71,7 @@
 
     "gameOver": [
         {
-            "text": "Stowaway\nMade by atk, MegaPiggy, and Repcon",
+            "text": "<size=80>Stowaway</size>\n\n<size=50>Made by atk, MegaPiggy, and Repcon\nWith love from the New Horizons modding community</size>",
             "condition": "Entered_Inspired",
             "creditsType": "none"
         }
