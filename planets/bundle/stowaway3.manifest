@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3372947587
+CRC: 3216112253
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a13f423ede52a8b4cb2f6dfc06671256
+    Hash: 5489d638036bae436c5d1dd5b2a89670
   TypeTreeHash:
     serializedVersion: 2
     Hash: b22b9fad7869be4f5cb6c2c6b0bb3bd8
@@ -158,6 +158,7 @@ Assets:
 - Assets/Nomai Ruins/Ocean Orbit.prefab
 - Assets/Models/Materials/comet mural front.prefab
 - Assets/Models/bubbel.prefab
+- Assets/AnimationClip/leaving sixth conditiontrigger.prefab
 - Assets/Models/jellyfish washedup.prefab
 - Assets/Models/Materials/mural side.prefab
 - Assets/Models/JellyfishVessel.prefab
@@ -176,6 +177,7 @@ Assets:
 - Assets/Models/TheInspired (1).prefab
 - Assets/Models/player nosuit.prefab
 - Assets/Models/Materials/Solar tower hologram.prefab
+- Assets/AnimationClip/Entered_DSS Volume.prefab
 - Assets/Nomai Ruins/four eyed monolith.prefab
 - Assets/AnimationClip/orange light.prefab
 - Assets/Models/th portrait.prefab
@@ -183,8 +185,10 @@ Assets:
 - Assets/Models/JellyfishV proxy.prefab
 - Assets/Nomai Ruins/HourglassOb final.prefab
 - Assets/Models/et portrait.prefab
+- Assets/AnimationClip/comet achievement scaling.prefab
 - Assets/Models/Materials/comet map.prefab
 - Assets/Models/stateeye crust.prefab
+- Assets/AnimationClip/leaving sixth conditiontrigger 2.prefab
 - Assets/Models/TheInspired gold.prefab
 - Assets/Models/ASH TWIN BEAM north.prefab
 - Assets/Models/bh tower occluder.prefab

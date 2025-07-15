@@ -25,14 +25,15 @@
 "Volumes": {
 	"fluidVolumes": [
 	],
-	"speedTrapVolumes": [
+	"speedLimiterVolumes": [
 		{
 			"position":{"x": -102.856,"y": 12.6085,"z": 126.075},
 			"radius": 60,
 			"isRelativeToParent": true,
 			"parentPath": "Sector_TH/Sector_Sanctuary",
-			"speedLimit": 10,
-			"acceleration": 0.01
+			"maxEntryAngle": 360,
+			"maxSpeed": 10,
+			"stoppingDistance": 0
 		}
 	],
 	"rulesets": {
@@ -59,7 +60,7 @@
 	},
 	"audioVolumes": [
 		{
-			"audio": "TH_ZeroGCaveAmbient_LP",
+			"audio": "OW_TH_UnderwaterRushing",
 			"rename": "Sanctuary shutupbugs ambience",
 			"track": "environment",
 			"priority": 129,
@@ -112,7 +113,7 @@
 			"radius": 20,
 			"revealOn": "enter",
 			"revealFor": "player",
-			"achievementID": "TrulyEnterSanctuary",
+			"achievementID": "STOWAWAY_TRULY_ENTER_SANCTUARY",
 			"parentPath": "Sector_TH/Sector_Sanctuary/Anti_Voyager"
 		},
 		{

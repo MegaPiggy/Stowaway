@@ -4,7 +4,7 @@
 	"name":"QuantumMoon",
 	
 	"Volumes": {
-		
+			
 			"destructionVolumes":
 				[
 					{
@@ -73,7 +73,17 @@
 			}
 		],
 
-			"details": [{
+			"details": [
+				{
+					"rename":"Sixth Achievement conditional volume 2",
+					"assetBundle": "planets/bundle/stowaway3",
+					"path":"assets/animationclip/leaving sixth conditiontrigger 2.prefab",
+						"position":{"x": 0,"y": -92,"z": 0},
+						"rotation":{"x": 0,"y": 0,"z": 0},
+						"parentPath": "Sector_QuantumMoon/State_EYE",
+					"isRelativeToParent": true
+			},
+				{
 					"rename":"QShrine Roof Upper",
 					"path":"QuantumMoon_Body/Sector_QuantumMoon/QuantumShrine/Structure_NOM_QuantumShrine/Roof (1)/",
 						"position":{"x": 0,"y": 44.6,"z": 0},
@@ -141,6 +151,13 @@
 				"parentPath": "Sector_QuantumMoon/SixthLocation stormshelter",
 				"stretch": {"x":2,"y":13.5,"z":2},
 				"isRelativeToParent": true
+			},{
+					"rename":"Sixth Achievement conditional volume 1",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/leaving sixth conditiontrigger.prefab",
+				"position":{"x": 0,"y": 95,"z": 0},
+				"parentPath": "Sector_QuantumMoon/SixthLocation stormshelter",
+					"isRelativeToParent": true
 			}
 			
 

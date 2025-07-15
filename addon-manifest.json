@@ -3,11 +3,7 @@
 
     "popupMessage": "We recommend reaching the end of your journey before exploring the story of the Stowaway.",
     "achievements": [
-        {
-            "ID": "STOWAWAY_QUANTUM_SMUGGLING",
-            "secret": true,
-            "conditionIDs": [ "QuantumSmuggled" ]
-        },
+
         {
             "ID": "STOWAWAY_SOLAR_PANEL_BONKED",
             "secret": true,
@@ -18,14 +14,46 @@
             "secret": true,
             "conditionIDs": [ "TornadoCampfireAwoken" ]
         },
-        {
-            "ID": "STOWAWAY_GOLEM_CONNECTION",
-            "secret": true,
-            "conditionIDs": [ "GolemConnection" ]
+
+        
+         {
+            "ID": "STOWAWAY_A_WAY_OUT"
         },
          {
-            "ID": "STOWAWAY_TRULY_ENTER_SANCTUARY",
-            "secret": true
+            "ID": "STOWAWAY_TRULY_ENTER_SANCTUARY"
+        },
+         {
+            "ID": "STOWAWAY_SOLAR_PENETRATION"
+        },
+         {
+            "ID": "STOWAWAY_NOW_LEAVING_SIXTH",
+            "conditionIDs": ["Leaving_Sixth","Leaving_Sixth 2"]
+        },
+         {
+            "ID": "STOWAWAY_THANK_YOU_UNIVERSE"
+        },
+         {
+            "ID": "STOWAWAY_DEEP_ARCHAEOLOGY",
+            "factIDs": [
+                "BH_QML EX1", "BH_QML EX2", "BH_QML EX3", "BH_QML EX4", "BH_SSR EX1", "BH_SSR EX2", "BH_SSR EX3", "BH_H R2","BH_H EX1","BH_H EX2", "BH_H EX3", "BH_VMS EX1", "BH_VMS EX2", "BH_VMS EX3", "GSHOP EX1", "GSHOP EX2", "GSHOP R4", "GSHOP EX4", "GSHOP EX5",
+                
+                "R_SLR EX1","R_SLR EX2","R_SLR EX3",
+                
+                "Workshop EX1", "Workshop EX2", "Workshop EX3", "Workshop EX4", "Workshop EX5", "Workshop EX6", "WorkshopTop EX1", "WorkshopTop EX2", "WorkshopTop EX3", "Pioneer EX1", "Pioneer EX2", "Pioneer_Int EX1", "Pioneer_Int EX2", "Pioneer_Int EX3", "Pioneer_Int EX4", "CB_EX1", "CB_EX2", "CB_EX3", "Cove EX1", "Cove EX2", "Cove EX3", "Cove EX4", "LC EX1", "LC R2", "LC EX3", "LC EX4", "LC EX5",
+                
+                "DSS R6", "DSS EX1", "DSS EX2", "DSS EX6", "DSS EX7", "DSS EX3", "DSS EX4", "DSS EX5", "DSS_B EX0", "DSS_B EX1", "DSS_B EX2", "DSS_B EX3",
+                
+                "HOB EX1", "HOB EX3","HOB EX4","HOB EX5",
+                "INSP EX1", "INSP EX2", "INSP EX3",
+                "QWL R1", "QWL EX1", "QWL EX2","QWL EX3","QWL EX4",
+                "SS EX1","SS EX2","SS EX3",
+
+                "MICA EX1", "MICA EX2", "MICA EX3","TEPH EX1","TEPH EX2","TEPH EX3", "GAL EX1", "GAL EX2", "ARK EX1", "ARK EX2", "MOR EX1", "SY EX1", "SY EX3", "SY EX3.5","SY EX4", "SY EX5","TH_WR EX1","TH_WR EX2","TH_WR EX3","TH_WR R2","TH_WR EX5","Campsite EX1", "Campsite EX2","Campsite EX3","Campsite EX1.5","Campsite EX5",
+
+                "TH Tower EX1", "TH Tower EX2", "TH Tower EX3", "SS Tower EX1", "SS Tower EX2", "SS Tower EX3","SLR_T EX1", "SLR_T EX2", "SLR_T EX4", "SLR_T EX5",
+
+                "LV EX2", "LV EX3", "LV EX4", "LV EX5"
+            ]
         }
     ],
     
@@ -39,5 +67,13 @@
         " ",
         "Made with help from the New Horizons modding community",
         "This work is unofficial Fan Content and is not affiliated with Mobius Digital"
+    ],
+
+    "gameOver": [
+        {
+            "text": "Stowaway\nMade by atk, MegaPiggy, and Repcon",
+            "condition": "Entered_Inspired",
+            "creditsType": "none"
+        }
     ]
 }

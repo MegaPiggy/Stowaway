@@ -52,6 +52,16 @@
 	]
 	},
 	"Volumes": {
+		"revealVolumes": [
+			{
+				"radius":20,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"achievementID": "STOWAWAY_SOLAR_PENETRATION",
+				"isRelativeToParent": true
+			}
+		],
 		"notificationVolumes": [
 			{
 				"entryNotification": {"displayMessage": "DANGER: GHOST MATTER DETECTED NEARBY!!", "duration": 100},

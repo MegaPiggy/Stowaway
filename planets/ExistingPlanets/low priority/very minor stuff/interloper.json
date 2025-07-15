@@ -13,9 +13,49 @@
 		"Sector_CO/Sector_CometInterior/Effects_CometInterior"
 	],
 
-	"Props": {
+	"Volumes": {
+			"revealVolumes": [
+				{
+				"radius":5,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"achievementID": "STOWAWAY_THANK_YOU_UNIVERSE",
+				"parentPath": "Sector_CO/Comet_Sneak scaling 1",
+				"isRelativeToParent": true
+				},{
+				"radius":4,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"achievementID": "STOWAWAY_THANK_YOU_UNIVERSE",
+				"parentPath": "Sector_CO/Comet_Sneak scaling 2",
+				"isRelativeToParent": true
+				}
+			]
+	},
 
+	"Props": {
 		"details": [
+
+			{
+				"rename":"Comet_Sneak scaling 1",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/comet achievement scaling.prefab",
+				"position":{"x": 11.1857,"y": -25.1692,"z": -14.6693},
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"Comet_Sneak scaling 2",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/comet achievement scaling.prefab",
+				"position":{"x":-8.4207,"y": 10.6608,"z": 15.5202},
+				"isRelativeToParent": true
+			},
+
+
+
+
 
 			{
 				"rename":"CometShuttle ice scaling",
@@ -36,6 +76,8 @@
 				"parentPath": "Prefab_NOM_Shuttle/Sector_Shuttle/Geo_NomaiShuttle",
 				"isRelativeToParent": true
 			},
+
+
 
 			{
 				"rename":"Comet gm tugging",

@@ -13,25 +13,39 @@
 		"Inspired": "The Inspired"
 	},
 	"AchievementTranslations": {
-		"STOWAWAY_QUANTUM_SMUGGLING": {
-			"Name": "Quantum Smuggling",
-			"Description": "Drop an item on a quantum object and pick it up at a different state"
-		},
+
 		"STOWAWAY_SOLAR_PANEL_BONKED": {
-			"Name": "Bonk",
-			"Description": "Bump into a solar panel with your ship disabling any storm shelters nearby"
+			"Name": "Bonk!",
+			"Description": "Er, hope that wasn't important!"
 		},
 		"STOWAWAY_TORNADO_CAMPFIRE_WAKE_UP": {
 			"Name": "..Snerk. Whuh?",
 			"Description": "Wake up from a tornado while sleeping at a campfire"
 		},
-		"STOWAWAY_GOLEM_CONNECTION": {
-			"Name": "Golem",
-			"Description": "Use an advanced projection stone to create a voyager"
-		},
+
 		"STOWAWAY_TRULY_ENTER_SANCTUARY": {
-			"Name": "I'm Safe Now, Right",
-			"Description": "Enter the Sanctuary without voyaging"
+			"Name": "Stowaway",
+			"Description": "Enter the Sanctuary without a voyager"
+		},
+		"STOWAWAY_SOLAR_PENETRATION": {
+			"Name": "Solar Proctologist",
+			"Description": "Get acquainted with the inner layers of the sun"
+		},
+		"STOWAWAY_NOW_LEAVING_SIXTH": {
+			"Name": "Now Leaving: Sixth Location",
+			"Description": "Welcome to the Sixth Location!"
+		},
+		"STOWAWAY_A_WAY_OUT": {
+			"Name": "A Way Out?",
+			"Description": "Escape the Deep Storm Station without dying, after entering without a voyager"
+		},
+		"STOWAWAY_THANK_YOU_UNIVERSE": {
+			"Name": "Thank You, The Universe",
+			"Description": "Reach the Interloper's core with a little help"
+		},
+		"STOWAWAY_DEEP_ARCHAEOLOGY": {
+			"Name": "Archeologist of the Deep",
+			"Description": "Complete the Stowaway's ship log"
 		}
 	}
 }

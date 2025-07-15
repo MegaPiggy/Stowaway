@@ -69,7 +69,7 @@
      </ExploreFact>
          <ExploreFact>
             <ID>BH_SSR EX3</ID>
-            <Text>The Quantum Moon's thick atmosphere impedes exit at the sixth location because one is unable to observe what exists beyond its clouds.</Text> 
+            <Text>The Quantum Moon's thick atmosphere impedes exit at the sixth location because one is unable to observe anything beyond its clouds.</Text> 
      </ExploreFact>
 
         </Entry>
@@ -86,8 +86,14 @@
          <RumorFact>
             <ID>BH_H R1</ID>
             <RumorName>Model Error Mystery</RumorName>
+            <IgnoreMoreToExplore/>
             <SourceID>BH_VMSIMULATION</SourceID>
             <Text>The Nomai studying the Meteor Impact Model decided to bring an issue they noticed to the Nomai at the Hanging City.</Text> 
+        </RumorFact> 
+        <RumorFact>
+            <ID>BH_H R2</ID>
+            <SourceID>SCROLL_WORKSHOP</SourceID>
+            <Text>Projection walls were designed as an iteration on the Vessels' communication network, which displayed incoming and outgoing messages on separate walls.</Text> 
         </RumorFact>
 
         <ExploreFact>

@@ -90,31 +90,6 @@
 				"revealOn": "enter",
 				"revealFor": "both",
 				"reveals": ["INSP R1"]
-			},	
-			{
-				"position": {"x": 0,"y": 0,"z": 0},
-				"isRelativeToParent": true,
-				"radius": 35,
-				"revealOn": "enter",
-				"revealFor": "player",
-				"reveals": ["INSP EX1"]
-			},
-			{
-				"position": {"x": 0,"y": 0,"z": 0},
-				"isRelativeToParent": true,
-				"radius": 35,
-				"revealOn": "enter",
-				"revealFor": "player",
-				"reveals": ["INSP EX2"]
-			},
-			
-			{
-				"position": {"x": 0,"y": 0,"z": 0},
-				"isRelativeToParent": true,
-				"radius": 35,
-				"revealOn": "enter",
-				"revealFor": "player",
-				"reveals": ["INSP EX3"]
 			}
 		]
 	},

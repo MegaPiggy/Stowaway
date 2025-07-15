@@ -10,7 +10,42 @@
 	],
 	
 	"Volumes": {
-		
+		"revealVolumes": [
+			{
+			"position":{"x":-5.4682,"y": 30.0312,"z": -32.2963},
+			"isRelativeToParent": true,
+			"radius": 4,
+			"revealOn": "enter",
+			"revealFor": "player",
+			"achievementID": "STOWAWAY_A_WAY_OUT",
+			"parentPath": "Sector_ConstructionYard/Entered_DSS Check 1/Entered_DSS Anti-Voyager Check 1A"
+		},{
+			"position":{"x":9.027,"y":29.476,"z":-32.5986},
+			"isRelativeToParent": true,
+			"radius": 4,
+			"revealOn": "enter",
+			"revealFor": "player",
+			"achievementID": "STOWAWAY_A_WAY_OUT",
+			"parentPath": "Sector_ConstructionYard/Entered_DSS Check 1/Entered_DSS Anti-Voyager Check 1A"
+		},
+			{
+			"position":{"x":-5.4682,"y": 30.0312,"z": -32.2963},
+			"isRelativeToParent": true,
+			"radius": 4,
+			"revealOn": "enter",
+			"revealFor": "player",
+			"achievementID": "STOWAWAY_A_WAY_OUT",
+			"parentPath": "Sector_ConstructionYard/Entered_DSS Check 1/Entered_DSS Anti-Voyager Check 1B"
+		},{
+			"position":{"x":9.027,"y":29.476,"z":-32.5986},
+			"isRelativeToParent": true,
+			"radius": 4,
+			"revealOn": "enter",
+			"revealFor": "player",
+			"achievementID": "STOWAWAY_A_WAY_OUT",
+			"parentPath": "Sector_ConstructionYard/Entered_DSS Check 1/Entered_DSS Anti-Voyager Check 1B"
+		}
+		]
 	},
 
 	"Props":{
@@ -67,8 +102,40 @@
 				}
 			}
 		],
-		"details":
-		[	{
+		"details":[	
+			{
+				"rename":"Entered_DSS Check 1",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab",
+				"position": {"x":0,"y": 0,"z": 0},
+				"isRelativeToParent": true,
+				"activationCondition": "Entered_DSS",
+				"blinkWhenActiveChanged": false
+			},
+			{
+				"rename":"Entered_DSS Anti-Voyager Check 1A",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab",
+				"position": {"x":0,"y":0,"z":0},
+				"isRelativeToParent": true,
+				"deactivationCondition": "GolemConnection",
+				"activationCondition": "GolemDisconnection",
+				"parentPath": "Sector_ConstructionYard/Entered_DSS Check 1",
+				"blinkWhenActiveChanged": false
+			},{
+				"rename":"Entered_DSS Anti-Voyager Check 1B",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab",
+				"position": {"x":0,"y":0,"z":0},
+				"isRelativeToParent": true,
+				"deactivationCondition": "GolemConnection",
+				"parentPath": "Sector_ConstructionYard/Entered_DSS Check 1",
+				"blinkWhenActiveChanged": false
+			},
+		
+		
+			
+			{
 				"rename":"Cyard hint tablet",
 				"assetBundle": "planets/bundle/prefabs",
 				"path":"assets/nomai ruins/prefabs/tablet.prefab",

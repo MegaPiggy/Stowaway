@@ -5,23 +5,11 @@
 	"removeChildren": ["Sector/DSS projectplatform/Structure_NOM_RemoteViewer", "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleVolume"],
 
 "Volumes": {
-	"rulesets": {
-		"playerImpactRulesets": [
-			{
-				"maxImpactSpeed": 100000,
-				"minImpactSpeed": 5000,
-				"position":{"x": 1.7,"y": 0,"z": 0},
-					"isRelativeToParent": true,
-				"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)",
-				"radius": 5
-			}
-		]
-	},
 	
 		"revealVolumes": [
 			{
 				"reveals": ["DSS Probe"],
-				"radius":10,
+				"radius":12,
 				"revealOn": "enter",
 				"revealFor": "probe",
 				"position":{"x": 0,"y": 0,"z": 0},
@@ -30,20 +18,21 @@
 			},
 			{
 				"reveals": ["DSS R2"],
-				"radius":10,
+				"radius":12,
 				"revealOn": "enter",
 				"revealFor": "player",
 				"position":{"x": 0,"y": 0,"z": 0},
 				"isRelativeToParent": true
 			},
+			
 			{
-				"reveals": ["DSS R6"],
-				"radius":3,
-				"revealOn": "observe",
-				"revealFor": "player",
-				"position":{"x": 7,"y": 11,"z": 0},
+				"position": {"x": 0,"y": 0,"z": 0},
 				"isRelativeToParent": true,
-				"maxDistance": 5
+				"radius": 10,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"reveals": ["INSP EX1", "INSP EX2", "INSP EX3"],
+					"parentPath": "Sector/Entered_Inspired ShiplogEntry"
 			}
 		]
 	},	
@@ -90,7 +79,33 @@
 	],
 	"details": [
 	
+			{
+				"rename":"Entered_DSS anti-voyager volume 1",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/entered_dss volume.prefab",
+				"position": {"x":0,"y":0,"z":0},
+				"isRelativeToParent": true,
+				"deactivationCondition": "GolemConnection",
+				"activationCondition": "GolemDisconnection",
+				"blinkWhenActiveChanged": false
+			},{
+				"rename":"Entered_DSS anti-voyager volume 2",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/entered_dss volume.prefab",
+				"position": {"x":0,"y":0,"z":0},
+				"isRelativeToParent": true,
+				"deactivationCondition": "GolemConnection",
+				"blinkWhenActiveChanged": false
+			},
 
+			{
+				"rename":"Entered_Inspired ShiplogEntry",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab",
+				"position": {"x":0,"y":0,"z":0},
+				"activationCondition": "Entered_Inspired",
+				"blinkWhenActiveChanged": false
+			},
 
 		{
 			"rename":"DSS body",
@@ -739,7 +754,8 @@
 				"assetBundle": "planets/bundle/dss shell",
 				"path":"assets/nomai ruins/innershell.prefab",
 				"position":{"x": 0,"y": 0,"z": 0},
-				"scale":0.024,
+				"scale":0.03,
+				"keepLoaded": true,
 					"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer",
 				"isRelativeToParent": true
 			}
