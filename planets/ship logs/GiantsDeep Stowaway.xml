@@ -387,9 +387,9 @@
 
           <ExploreFact>
             <ID>DSS EX3</ID> 
-            <Text>The Inspired was a superweapon built to exact vengeance on the true source of ghost matter. Using gravity crystals, it powered a highly localized gravitational field to exploit the property of attraction.</Text> 
+            <Text>The Inspired was a superweapon built to exact vengeance on the true source of ghost matter. Using gravity crystals, it powered a highly localized gravity field to exploit the property of attraction.</Text> 
                   <AltText>
-                        <Text>The Inspired was a superweapon built to exact vengeance on the source of the Interloper. Using gravity crystals, it powered a highly localized gravitational field to exploit the property of attraction.</Text>
+                        <Text>The Inspired was a superweapon built to exact vengeance on the source of the Interloper. Using gravity crystals, it powered a highly localized gravity field to exploit the property of attraction.</Text>
                         <Condition>COMET_INTERIOR_X3</Condition>
                  </AltText> 
         </ExploreFact>
