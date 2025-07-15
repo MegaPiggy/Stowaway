@@ -92,7 +92,6 @@
         </RumorFact> 
         <RumorFact>
             <ID>BH_H R2</ID>
-            <SourceID>SCROLL_WORKSHOP</SourceID>
             <Text>Projection walls were designed as an iteration on the Vessels' communication network, which displayed incoming and outgoing messages on separate walls.</Text> 
         </RumorFact>
 

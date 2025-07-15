@@ -352,7 +352,7 @@
             <ID>DSS EX1</ID> 
             <Text>An underwater Nomai station deep within Giant's Deep.</Text>
                   <AltText>
-                        <Text>An underwater Nomai station, built to test the mechanisms of the Ash Twin Project using energy from Giant's Deep's electric core.</Text>
+                        <Text>An underwater Nomai station built to test the mechanisms of the Ash Twin Project, using energy from Giant's Deep's electric core.</Text>
                         <Condition>DSS R4</Condition>
                  </AltText>
         </ExploreFact>
@@ -375,7 +375,7 @@
         </ExploreFact>
         <ExploreFact>
             <ID>DSS EX7</ID> 
-            <Text>The Nomai used the Deep Storm Station to see 6 seconds into the future after the Ash Twin Project was launched. However, they concluded that the Ash Twin Project had failed to launch.</Text> 
+            <Text>The Nomai used the Deep Storm Station to see 6 seconds into the future after the Ash Twin Project was launched. They were disappointed to learn that the Ash Twin Project had failed to launch.</Text> 
         </ExploreFact>
     
 
@@ -387,9 +387,9 @@
 
           <ExploreFact>
             <ID>DSS EX3</ID> 
-            <Text>The Inspired was a superweapon built to exact vengeance on the true source of ghost matter. It was designed to use a lattice of gravity crystals to exploit the property of attraction.</Text> 
+            <Text>The Inspired was a superweapon built to exact vengeance on the true source of ghost matter. Using gravity crystals, it powered a highly localized gravitational field to exploit the property of attraction.</Text> 
                   <AltText>
-                        <Text>The Inspired was a superweapon built to exact vengeance on the source of the Interloper. It was designed to use a lattice of gravity crystals to exploit the property of attraction.</Text>
+                        <Text>The Inspired was a superweapon built to exact vengeance on the source of the Interloper. Using gravity crystals, it powered a highly localized gravitational field to exploit the property of attraction.</Text>
                         <Condition>COMET_INTERIOR_X3</Condition>
                  </AltText> 
         </ExploreFact>
