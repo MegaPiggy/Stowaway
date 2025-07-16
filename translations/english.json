@@ -20,12 +20,12 @@
 		},
 		"STOWAWAY_TORNADO_CAMPFIRE_WAKE_UP": {
 			"Name": "..Snerk. Whuh?",
-			"Description": "Wake up from a tornado while sleeping at a campfire"
+			"Description": "Get woken up by a tornado"
 		},
 
 		"STOWAWAY_TRULY_ENTER_SANCTUARY": {
 			"Name": "Stowaway",
-			"Description": "Enter the Sanctuary without a voyager"
+			"Description": "Enter the SY without a voyager"
 		},
 		"STOWAWAY_SOLAR_PENETRATION": {
 			"Name": "Solar Proctologist",
@@ -37,14 +37,18 @@
 		},
 		"STOWAWAY_A_WAY_OUT": {
 			"Name": "A Way Out?",
-			"Description": "Escape the Deep Storm Station without dying, after entering without a voyager"
+			"Description": "Escape the DSS without dying, after entering without a voyager"
 		},
 		"STOWAWAY_THANK_YOU_UNIVERSE": {
 			"Name": "Thank You, The Universe",
 			"Description": "Reach the Interloper's core with a little help"
 		},
+		"STOWAWAY_PORTAL_LOOP": {
+			"Name": "Narbacular Loop",
+			"Description": "Now you're thinking with portals!"
+		},
 		"STOWAWAY_DEEP_ARCHAEOLOGY": {
-			"Name": "Archeologist of the Deep",
+			"Name": "Archaeologist of the Deep",
 			"Description": "Complete the Stowaway's ship log"
 		}
 	}

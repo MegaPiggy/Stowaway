@@ -155,6 +155,7 @@
 		<Name>Arkose_GravyRule</Name>
 		<SetCondition>Question_Answered</SetCondition>
 		<SetCondition>Gravdumb</SetCondition>
+		<SetCondition>Arkose_AllDone</SetCondition>
 		<Dialogue>
 			<Page><![CDATA[<i>Huh?! Really?!</i>]]></Page>
 			<Page>Ohh, so <![CDATA[<i>that's</i>]]> why the ghost matter goes away sometimes!</Page>

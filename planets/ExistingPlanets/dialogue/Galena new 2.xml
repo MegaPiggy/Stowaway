@@ -125,6 +125,7 @@
 
 	<DialogueNode>
 		<Name>ShyKid_Model2</Name>
+		<SetCondition>Galena_AllDone</SetCondition>
 		<Dialogue>
 		<Page><![CDATA[<size=20>]]>Oh...<![CDATA[</size>]]></Page>
 		<Page><![CDATA[<size=20>]]>The Quantum Moon is the weird moon that orbits around every planet in the star system, right..? I guess it makes sense for it to cause weird things to happen...<![CDATA[</size>]]></Page>

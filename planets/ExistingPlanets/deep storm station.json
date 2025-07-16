@@ -33,6 +33,15 @@
 				"revealFor": "player",
 				"reveals": ["INSP EX1", "INSP EX2", "INSP EX3"],
 					"parentPath": "Sector/Entered_Inspired ShiplogEntry"
+			},
+			{
+				"radius":3,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"achievementID": "STOWAWAY_PORTAL_LOOP",
+				"isRelativeToParent": true,
+				"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer/PortalLoop Achievement Conditional"
 			}
 		]
 	},	
@@ -156,6 +165,29 @@
 			"stretch": {"x":0.4,"y":1,"z":0.4},
 			"isRelativeToParent": true
 		},
+		{
+				"rename":"window whitehole fix",
+				"assetBundle": "planets/bundle/dss shell",
+				"path":"assets/nomai ruins/innershell.prefab",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"scale":0.03,
+					"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer",
+				"isRelativeToParent": true
+			},
+			{
+				"rename":"PortalLoop Achievement Conditional",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/models/empty.prefab",
+				"position":{"x": 0,"y": 0,"z": 0},
+					"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer",
+					"activationCondition": "Entered_Inspired",
+					"deactivationCondition": "Entered_DSS",
+					"blinkWhenActiveChanged": false,
+					"keepLoaded": true,
+				"isRelativeToParent": true
+			},
+
+
 
 
 		{
@@ -747,18 +779,9 @@
 				"rotation":{"x": 90,"y": 90, "z": 0},
 				"scale":0.65,
 				"isRelativeToParent": true
-			},
-
-			{
-				"rename":"window whitehole fix",
-				"assetBundle": "planets/bundle/dss shell",
-				"path":"assets/nomai ruins/innershell.prefab",
-				"position":{"x": 0,"y": 0,"z": 0},
-				"scale":0.03,
-				"keepLoaded": true,
-					"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer",
-				"isRelativeToParent": true
 			}
+
+			
 			
 	],
 	"translatorText": [

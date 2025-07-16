@@ -134,6 +134,7 @@
 		</DialogueNode>
 
 		<DialogueNode>
+		<SetCondition>Moraine_AllDone</SetCondition>
 		<Name>SignalscopeKidNewC5</Name>
 		<Dialogue>
 			<Page>Huh? A.. weapon? Like, something dangerous?</Page>

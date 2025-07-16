@@ -235,6 +235,7 @@
 
 	<DialogueNode>
 		<Name>Teph Answers 2</Name>
+		<SetCondition>Tephra_AllDone</SetCondition>
 		<Dialogue>
 			<Page>Woah, really? The supernova is something the sun does, right? The exhibit in the museum taught me that.</Page>
 					<Page>Why would the Nomai build something like that? Is it just an emergency hiding spot in case that happens someday?</Page>

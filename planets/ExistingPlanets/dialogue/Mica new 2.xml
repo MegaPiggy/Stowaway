@@ -132,6 +132,7 @@
 <DialogueNode>
 		<Name>ModelRocketKid_Sand</Name>
 		<SetCondition>Question_Answered</SetCondition>
+		<SetCondition>Mica_AllDone</SetCondition>
 		<Dialogue>
 			<Page>Huh.. So it's gravity from the sun... and gravity from the twin closer to the sun combining, that causes sand to flow between the twins...</Page>
 			<Page>Huh.. That makes sense! The sun's gotta have some insane gravitational pull, after all.</Page>

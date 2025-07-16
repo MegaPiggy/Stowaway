@@ -17,6 +17,18 @@
 					],
 			"Props": {
 				"details": [
+					
+					{
+				"rename":"Ship Apple",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/apple.prefab",
+				"position":{"x": 0.8383,"y": 0.3364 ,"z": 5.8273},
+				"rotation":{"x": 22.3874,"y": 0,"z": 0},
+				"scale":0.1,
+						"parentPath": "Module_Cockpit",
+					"keepLoaded": true,
+				"isRelativeToParent": true
+					},
 						{
 						"rename":"replaced hatch disabling",
 						"path": "Ship_Body/Module_Cabin/Geo_Cabin/Cabin_Tech/Cabin_Tech_Exterior/HatchPivot/",
