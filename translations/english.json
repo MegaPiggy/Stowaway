@@ -25,7 +25,7 @@
 
 		"STOWAWAY_TRULY_ENTER_SANCTUARY": {
 			"Name": "Stowaway",
-			"Description": "Enter the SY without a voyager"
+			"Description": "Enter the Sanctuary without a voyager"
 		},
 		"STOWAWAY_SOLAR_PENETRATION": {
 			"Name": "Solar Proctologist",
@@ -37,7 +37,7 @@
 		},
 		"STOWAWAY_A_WAY_OUT": {
 			"Name": "A Way Out?",
-			"Description": "Escape the DSS without dying, after entering without a voyager"
+			"Description": "Escape the Deep Storm Station without dying, after entering without a voyager"
 		},
 		"STOWAWAY_THANK_YOU_UNIVERSE": {
 			"Name": "Thank You, The Universe",
