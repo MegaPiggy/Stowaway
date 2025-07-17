@@ -30,7 +30,7 @@
 	"details": [
 		
 		{
-			"rename":"QWeatherLab main sect to 0 400 0",
+			"rename":"QWeatherLab main sect",
 			"assetBundle": "planets/bundle/stowaway3",
 			"path":"assets/nomai ruins/quantum weather lab.prefab",
 			"position": {"x":0,"y": 0,"z": 0},
@@ -52,7 +52,7 @@
 			"rename":"projection liquid qwl",
 				"path":"TimeLoopRing_Body/Interactibles_TimeLoopRing/Prefab_NOM_RemoteViewer/RemoteViewer_Pool",
 				"position": {"x": 0, "y": 0.8245, "z": 0},
-			"parentPath": "Sector/QWeatherLab main sect to 0 400 0/Interactibles/Mini QM Simulation/Giant Tree Ring",
+			"parentPath": "Sector/QWeatherLab main sect/Interactibles/Mini QM Simulation/Giant Tree Ring",
 			"stretch": {"x":4,"y": 16,"z":4},
 			"isRelativeToParent": true
 		},
@@ -61,7 +61,7 @@
 				"path":"SolarSystemRoot/RingWorld_Body/Sector_RingWorld/Sector_SecretEntrance/Interactibles_SecretEntrance/Experiment_2_Destroyed/PeepholePivot (1)/Prefab_IP_Peephole (1)",
 				"position": {"x": 8.8469, "y": 39.4758, "z": 0},
 			"rotation": {"x": 279.9999,"y": 270,"z": 180},
-			"parentPath": "Sector/QWeatherLab main sect to 0 400 0/Interactibles/QWL_QuantumMeteorWatcher_Body_Geo",
+			"parentPath": "Sector/QWeatherLab main sect/Interactibles/QWL_QuantumMeteorWatcher_Body_Geo",
 			"removeChildren": ["PointLight_IP_Peephole","Props_IP_Peephole"],
 			"stretch": {"x":1,"y": 1,"z":5},
 			"isRelativeToParent": false

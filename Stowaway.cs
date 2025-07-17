@@ -18,6 +18,7 @@ using Epic.OnlineServices;
 using NewHorizons.Utility.OuterWilds;
 using NewHorizons.Handlers;
 using static SandFunnelTriggerVolume;
+using NewHorizons.External.Modules.VariableSize;
 
 namespace Stowaway;
 
@@ -315,6 +316,8 @@ public class Stowaway : ModBehaviour
 			proxy.root.transform.localPosition = pos;
 			proxy.root.transform.localEulerAngles = rot;
 		});
+
+		sector.transform.Find("QWeatherLab main sect/Interactibles/QWL_QuantumMeteorWatcher_Body_Geo/QWL peephole/Peephole/PeepholeCamera").GetComponent<OWCamera>().farClipPlane = 1500;
 	}
 
 	private void initSunStation_Late()
@@ -323,7 +326,7 @@ public class Stowaway : ModBehaviour
 		var sector = ss.GetComponentInChildren<Sector>(true);
 		ss._rootSector = sector;
 
-		AddSingularityController(sector, "BlackHole/BlackHoleRenderer", false);
+		AddSingularityController(sector, "BlackHole/BlackHoleRenderer", SingularityModule.SingularityType.BlackHole, false);
 	}
 
 	private void initHourglassTwins_Late()
@@ -418,7 +421,7 @@ public class Stowaway : ModBehaviour
 	{
 		var sun = Locator.GetAstroObject(AstroObject.Name.Sun);
 		var sector = sun.GetRootSector();
-		AddSingularityController(sector, "WhiteHole/WhiteHoleRenderer", false);
+		//AddSingularityController(sector, "WhiteHole/WhiteHoleRenderer", false);
 	}
 
 	private void initWaterColumn(AstroObject giantsDeep)
@@ -542,7 +545,7 @@ public class Stowaway : ModBehaviour
 			proxy.root.transform.localPosition = pos;
 		});
 
-		AddSingularityController(sector.GetComponent<Sector>(), "DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer", true);
+		AddSingularityController(sector.GetComponent<Sector>(), "DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer", SingularityModule.SingularityType.WhiteHole, true);
 	}
 
 	private void initInspiredComet(GameObject inspired)
@@ -588,7 +591,7 @@ public class Stowaway : ModBehaviour
 			proxy.root.transform.localEulerAngles = rot;
 		});
 
-		AddSingularityController(sector.GetComponent<Sector>(), "BlackHole/BlackHoleRenderer", true);
+		AddSingularityController(sector.GetComponent<Sector>(), "BlackHole/BlackHoleRenderer", SingularityModule.SingularityType.BlackHole, true);
 	}
 
 	private void initBrittleHollow_Late()
@@ -785,7 +788,7 @@ public class Stowaway : ModBehaviour
 		var inspired = NewHorizonsAPI.GetPlanet("Inspired").GetComponent<AstroObject>().GetRootSector();
 		inspired.SetParentSector(rootSector);
 
-		rootSector.transform.Find("SectorTrigger_GD").GetComponent<SphereShape>().radius = 1800;
+		rootSector.transform.Find("SectorTrigger_GD").GetComponent<SphereShape>().radius = 1700;
 	}
 
 	private void CreateInvertedOccluder(Transform parent, string name, float radius)
@@ -843,6 +846,7 @@ public class Stowaway : ModBehaviour
 		}
 
 		constructionYardBody.transform.Find("Detector_ConstructionYardIsland").GetComponent<DynamicFluidDetector>()._buoyancy.boundingRadius = 30;
+		constructionYardBody.transform.Find("Sector_ConstructionYard/Interactables_ConstructionYard/RingGravity/RingGravityVolume").GetComponent<CylindricalForceVolume>()._acceleration = -15;
 
 		/*var socket = SearchUtilities.Find("ConstructionYardIsland_Body/Sector_ConstructionYard/Interactables_ConstructionYard/LandingIsland/Prefab_NOM_Whiteboard/ArcSocket");
 		if (socket)
@@ -952,7 +956,7 @@ public class Stowaway : ModBehaviour
 		}
 	}
 
-	public static void AddSingularityController(Sector sector, string renderer, bool startActive)
+	public static void AddSingularityController(Sector sector, string renderer, SingularityModule.SingularityType singularityType, bool startActive)
 	{
 		var rendererTransform = sector.transform.Find(renderer);
 		if (rendererTransform == null)
@@ -961,9 +965,21 @@ public class Stowaway : ModBehaviour
 			return;
 		}
 
+		rendererTransform.gameObject.SetActive(false);
 		var sc = rendererTransform.gameObject.AddComponent<SingularityController>();
 		sc._startActive = startActive;
-		sc.Awake();
+		var sl = rendererTransform.gameObject.AddComponent<SingularityLOD>();
+		switch (singularityType)
+		{
+			case SingularityModule.SingularityType.WhiteHole:
+				sl._lodMaterial = SearchUtilities.FindResourceOfTypeAndName<Material>("Effects_WH_WhiteHole_Proxy_mat");
+				break;
+			case SingularityModule.SingularityType.BlackHole:
+			default:
+				sl._lodMaterial = SearchUtilities.FindResourceOfTypeAndName<Material>("Effects_BH_BlackHole_Proxy_mat");
+				break;
+		}
+		rendererTransform.gameObject.SetActive(true);
 	}
 
 	private static readonly string BundleLocation = "planets/bundle";
