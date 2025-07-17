@@ -20,24 +20,21 @@
             "ID": "STOWAWAY_TRULY_ENTER_SANCTUARY"
         },
          {
-            "ID": "STOWAWAY_SOLAR_PENETRATION",
-            "secret": true
+            "ID": "STOWAWAY_SOLAR_PENETRATION"
         },
          {
             "ID": "STOWAWAY_NOW_LEAVING_SIXTH",
-            "conditionIDs": ["Leaving_Sixth","Leaving_Sixth 2"],
-            "secret": true
+            "conditionIDs": ["Leaving_Sixth","Leaving_Sixth 2"]
         },
          {
             "ID": "STOWAWAY_A_WAY_OUT"
         },
          {
-            "ID": "STOWAWAY_THANK_YOU_UNIVERSE",
-            "secret": true
+            "ID": "STOWAWAY_THANK_YOU_UNIVERSE"
         },
          {
             "ID": "STOWAWAY_PORTAL_LOOP",
-            "secret": true
+            "conditionIDs": ["Leaving_Sixth","Leaving_Sixth 2"]
         },
          {
             "ID": "STOWAWAY_DEEP_ARCHAEOLOGY",

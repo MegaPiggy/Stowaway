@@ -141,6 +141,16 @@
 		"isRelativeToParent": true
 	},
 	
+			{
+				"rename":"Entered_Inspired End_Credits Volume",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/endcredits_volume.prefab",
+				"parentPath": "Sector/BlackHole/BlackHoleVolume",
+				"position": {"x":0,"y":0,"z":0},
+				"scale": 75,
+				"isRelativeToParent": true
+			},
+
 		{
 			"rename": "gravitycannon volume",
 			"path": "BrittleHollow_Body/Sector_BH/Sector_GravityCannon/Interactables_GravityCannon/CannonForceVolume/",

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 552506485
+CRC: 3677991030
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1d6087c959e0383c0a5f5eed04df9910
+    Hash: 7275f184631bbd4ef73b42377efc1aef
   TypeTreeHash:
     serializedVersion: 2
     Hash: b22b9fad7869be4f5cb6c2c6b0bb3bd8
@@ -199,6 +199,7 @@ Assets:
 - Assets/Models/Materials/DeepStormStation model.prefab
 - Assets/Models/interloper proxy.prefab
 - Assets/Nomai Ruins/Lava bell control.prefab
+- Assets/AnimationClip/EndCredits_Volume.prefab
 - Assets/Models/Cube.prefab
 - Assets/Models/SphereCollider.prefab
 - Assets/AnimationClip/apple.prefab
