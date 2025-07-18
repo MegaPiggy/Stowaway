@@ -591,7 +591,7 @@ public class Stowaway : ModBehaviour
 			proxy.root.transform.localEulerAngles = rot;
 		});
 
-		AddSingularityController(sector.GetComponent<Sector>(), "BlackHole/BlackHoleRenderer", SingularityModule.SingularityType.BlackHole, true);
+		AddSingularityController(sector.GetComponent<Sector>(), "BlackHole/BlackHoleRenderer", SingularityModule.SingularityType.BlackHole, true, true);
 	}
 
 	private void initBrittleHollow_Late()
@@ -956,7 +956,7 @@ public class Stowaway : ModBehaviour
 		}
 	}
 
-	public static void AddSingularityController(Sector sector, string renderer, SingularityModule.SingularityType singularityType, bool startActive)
+	public static void AddSingularityController(Sector sector, string renderer, SingularityModule.SingularityType singularityType, bool startActive, bool distant = false)
 	{
 		var rendererTransform = sector.transform.Find(renderer);
 		if (rendererTransform == null)
@@ -976,7 +976,7 @@ public class Stowaway : ModBehaviour
 				break;
 			case SingularityModule.SingularityType.BlackHole:
 			default:
-				sl._lodMaterial = SearchUtilities.FindResourceOfTypeAndName<Material>("Effects_BH_BlackHole_Proxy_mat");
+				sl._lodMaterial = SearchUtilities.FindResourceOfTypeAndName<Material>(distant ? "Effects_BH_BlackHole_DistantProxy_mat" : "Effects_BH_BlackHole_Proxy_mat");
 				break;
 		}
 		rendererTransform.gameObject.SetActive(true);
