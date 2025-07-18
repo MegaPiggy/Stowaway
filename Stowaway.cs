@@ -414,7 +414,7 @@ public class Stowaway : ModBehaviour
 		sandFunnel.GetComponentInChildren<SectorProxy>(true).SetSector(sector);
 		sandFunnel.GetComponentInChildren<SectorCullGroup>(true).SetSector(sector);
 		sandFunnel.GetComponentInChildren<SectorCollisionGroup>(true).SetSector(sector);
-		sandFunnel.transform.Find("ScaleRoot/Proxy_SandFunnel/SandColumn_Exterior (1)").gameObject.AddComponent<ProxyShadowCaster>();
+		sandFunnel.transform.Find("ScaleRoot/Geo_SandFunnel/Effects_HT_SandColumn/SandColumn_Exterior").gameObject.AddComponent<ProxyShadowCaster>();
 	}
 
 	private void initSun_Late()
