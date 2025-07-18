@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 2890060236
+CRC: 28069520
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -22,4 +22,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_6:
       Name: stowaway3
+      Dependencies: {}
+    Info_7:
+      Name: hgt2
       Dependencies: {}

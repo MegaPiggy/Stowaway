@@ -4,9 +4,35 @@
 	
 	"Props": {
 		"details": [
-			
 		]
 	},
+
+	"Volumes": {
+		"forces": {
+			"gravityVolumes": [
+				{
+					"minForce": 0,
+					"force": 1,
+					"minRadius": 0,
+					"lowerRadius": 200,
+					"position":{"x":0,"y": 0,"z": 0},
+					"alignmentRadius": 0,
+					"fallOff": "linear",
+					"alignmentPriority": 0, 
+					"layer": 0,
+					"priority": 0,
+					"inheritable": true,
+					"shape": {
+						"type": "cylinder",
+						"direction": "y",
+						"height": 50,
+						"radius": 450
+					}
+				}
+			]
+		}
+	},
+
 	"Base": {
 		"soiOverride": 1100
 	},

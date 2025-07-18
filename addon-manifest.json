@@ -31,10 +31,12 @@
         },
          {
             "ID": "STOWAWAY_THANK_YOU_UNIVERSE"
+        }, 
+        {
+            "ID": "STOWAWAY_TEACHER"
         },
          {
-            "ID": "STOWAWAY_PORTAL_LOOP",
-            "conditionIDs": ["Leaving_Sixth","Leaving_Sixth 2"]
+            "ID": "STOWAWAY_PORTAL_LOOP"
         },
          {
             "ID": "STOWAWAY_DEEP_ARCHAEOLOGY",

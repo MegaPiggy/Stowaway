@@ -43,6 +43,10 @@
 			"Name": "Thank You, The Universe",
 			"Description": "Reach the Interloper's core with a little help"
 		},
+		"STOWAWAY_TEACHER": {
+			"Name": "Fruit of Knowledge",
+			"Description": "Teach the hatchlings everything they want to know"
+		},
 		"STOWAWAY_PORTAL_LOOP": {
 			"Name": "Narbacular Loop",
 			"Description": "Now you're thinking with portals!"
