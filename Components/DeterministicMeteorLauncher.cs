@@ -23,7 +23,6 @@ namespace Stowaway.Components
 
 		protected new void Start()
 		{
-			base.Start();
 			_launchDelay = _fixedInterval;
 			_lastLaunchTime = Time.time + (30f - _fixedInterval);
 			if (_disableDynamicMeteors)
@@ -35,7 +34,6 @@ namespace Stowaway.Components
 
 		protected new void FixedUpdate()
 		{
-			base.FixedUpdate();
 			if (_launchedMeteors != null)
 			{
 				for (int num = _launchedMeteors.Count - 1; num >= 0; num--)
