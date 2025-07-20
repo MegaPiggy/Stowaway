@@ -15,7 +15,9 @@
 			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/DarkMatterVolume",
 			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (1)",
 			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (2)",
-			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (3)"
+			"Sector_TH/Sector_NomaiCrater/Interactables_NomaiCrater/Effects_GM_AuroraWisps (3)",
+
+			"Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate"
 		],
 
 		
@@ -94,7 +96,7 @@
 			"isRelativeToParent": true,
 			"radius": 11.2,
 			"revealOn": "snapshot",
-			"maxDistance": 10,
+			"maxDistance": 15,
 			"reveals": ["SY R1"],
 			"parentPath": "Sector_TH/Sector_Sanctuary"
 		},
@@ -389,6 +391,26 @@
 		
 		"details": [
 			
+			{
+				"rename":"Villager_HEA_Slate Disabling",
+				"path":"Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate",
+				"parentPath": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp",
+				"position": {"x": 40.8277, "y": 6.2359, "z": -16.6567},
+				"rotation":{"x": 14.7672,"y": 127.3501,"z": 3.2885},
+				"deactivationCondition": "Slate_AtWork",
+				"blinkWhenActiveChanged": true,
+				"isRelativeToParent": true
+			},	{
+				"rename":"Villager_HEA_Slate Reenabling",
+				"path":"Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate",
+				"parentPath": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp",
+				"position": {"x": 40.8277, "y": 6.2359, "z": -16.6567},
+				"rotation":{"x": 14.7672,"y": 127.3501,"z": 3.2885},
+				"activationCondition": "Kid_Talked",
+				"blinkWhenActiveChanged": false,
+				"isRelativeToParent": true
+			},
+
 			{
 				"rename":"NomaiMines jellymoon light",
 				"path":"GiantsDeep_Body/Sector_GD/Sector_GDInterior/Jellyfish_GDInterior/Jellyfish_Pivot (5)/Jellyfish_Body/Lights/Pointlight_Jellyfish_02",
@@ -1260,7 +1282,11 @@
 		"dialogue":
 		[
 			{
-				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/ConversationZone_RSci",
+				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate Disabling/ConversationZone_RSci",
+				"xmlFile": "planets/ExistingPlanets/dialogue/Slate existing dialogue patch 2.xml"
+			},
+			{
+				"pathToExistingDialogue": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate Reenabling/ConversationZone_RSci",
 				"xmlFile": "planets/ExistingPlanets/dialogue/Slate existing dialogue patch 2.xml"
 			},
 			{
@@ -1271,7 +1297,7 @@
 					"position": {"x":5.6347,"y": -42.2488,"z": 187.3667},
 					"radius":4
 				},
-				"blockAfterPersistentCondition": "STOWAWAY_GO_TALK_TO_KIDS",
+				"blockAfterPersistentCondition": "STOWAWAY_REMOTESLATE_BLOCK",
 				"xmlFile": "planets/ExistingPlanets/dialogue/Slate remote intro.xml"
 			},
 			{

@@ -4,6 +4,14 @@
 	
 	"Props": {
 		"details": [
+			{
+				"rename":"HGT Gravity scaling",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/HGT gravity scaling.prefab",
+				"position":{"x": 0,"y": 0,"z": 0},
+				"isRelativeToParent": true
+					}
+
 		]
 	},
 
@@ -16,6 +24,7 @@
 					"minRadius": 0,
 					"lowerRadius": 200,
 					"position":{"x":0,"y": 0,"z": 0},
+					"parentPath": "Sector/HGT Gravity scaling",
 					"alignmentRadius": 0,
 					"fallOff": "linear",
 					"alignmentPriority": 0, 

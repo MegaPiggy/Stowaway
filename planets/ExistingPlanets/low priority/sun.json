@@ -56,7 +56,7 @@
 			{
 				"radius":20,
 				"revealOn": "enter",
-				"revealFor": "player",
+				"revealFor": "both",
 				"position":{"x": 0,"y": 0,"z": 0},
 				"achievementID": "STOWAWAY_SOLAR_PENETRATION",
 				"isRelativeToParent": true

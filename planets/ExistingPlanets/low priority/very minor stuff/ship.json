@@ -29,13 +29,71 @@
 					"keepLoaded": true,
 				"isRelativeToParent": true
 					},
+
+
+					{
+				"rename":"Shiplog Slate ConvTrigger",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/shiplogbroken conversationtrigger.prefab",
+				"position":{"x": 0,"y": 2.2354,"z": -1.6145},
+				"scale":3,
+						"parentPath": "Module_Cabin",
+					"keepLoaded": true,
+					"activationCondition": "ShipLogBroken",
+					"blinkWhenActiveChanged": false,
+				"isRelativeToParent": true
+					},
+
+
+						{
+							"rename":"Shiplog Sparks",
+							"path":"HearthianMapSatellite_Body/Sector_HearthianMapSatellite/Effects_HearthianMapSatellite/Effects_HEA_Sparks (1)",
+							"position":{"x": -0.2612,"y": 1.5525 ,"z": -4.4825},
+							"rotation":{"x": 344.1809,"y": 0,"z": 90},
+									"parentPath": "Module_Cabin",
+							"keepLoaded": true,
+							"activationCondition": "ShipLogBroken",
+							"deactivationCondition": "ShipLogFixed",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+						},	{
+							"rename":"Shiplog Collider",
+								"assetBundle": "planets/bundle/stowaway3",
+								"path": "assets/models/cube.prefab",
+							"position":{"x": 0,"y": 2.633,"z": -3.992},
+							"rotation":{"x": 0,"y": 0,"z": 0},
+							"stretch": {"x":3,"y":3,"z": 1.5},
+									"parentPath": "Module_Cabin",
+							"keepLoaded": true,
+							"activationCondition": "ShipLogBroken",
+							"deactivationCondition": "ShipLogFixed",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+						},{
+							"rename":"Shiplog EmptyQuad",
+								"assetBundle": "planets/bundle/stowaway3",
+								"path": "assets/animationclip/ShipLog Empty.prefab",
+							"position":{"x": 0,"y": 0.586,"z": 0.8889},
+							"rotation":{"x": 17.7151,"y": 0,"z": 0},
+									"parentPath": "Module_Cabin/Systems_Cabin/ShipLogPivot/ShipLog/ShipLogPivot",
+							"keepLoaded": true,
+							"activationCondition": "ShipLogBroken",
+							"deactivationCondition": "ShipLogFixed",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+						},
+
+
+
+
+
 						{
 						"rename":"replaced hatch disabling",
 						"path": "Ship_Body/Module_Cabin/Geo_Cabin/Cabin_Tech/Cabin_Tech_Exterior/HatchPivot/",
 						"position": {"x": 1.0351,"y": 3.3098,"z": -2.0154},
 						"rotation": {"x": 0,"y": 180,"z": 180},
-						"activationCondition": "I_Quit",
-						"deactivationCondition": "I_Join",
+						"activationCondition": "Slate_AtWork",
+						"deactivationCondition": "Ship_Unlocked",
 						"parentPath": "Module_Cabin/Geo_Cabin/Cabin_Tech/Cabin_Tech_Exterior",
 						"isRelativeToParent": true,
 						"keepLoaded": true,
@@ -46,8 +104,8 @@
 						"path": "Ship_Body/Module_Cabin/Geo_Cabin/Cabin_Tech/Cabin_Tech_Exterior/HatchPivot/",
 						"position": {"x": 0,"y": 0,"z": 0},
 						"rotation": {"x": 0,"y": 0,"z": 0},
-						"deactivationCondition": "I_Quit",
-						"activationCondition": "I_Join",
+						"deactivationCondition": "Slate_AtWork",
+						"activationCondition": "Ship_Unlocked",
 						"parentPath": "Module_Cabin/Geo_Cabin/Cabin_Tech/Cabin_Tech_Exterior/HatchPivot",
 						"isRelativeToParent": true,
 						"keepLoaded": true
@@ -57,7 +115,7 @@
 						"path": "Ship_Body/Module_Cabin/Geo_Cabin/Cabin_Tech/Cabin_Tech_Exterior/HatchPivot/",
 						"position": {"x": 0,"y": 0,"z": 0},
 						"rotation": {"x": 0,"y": 0,"z": 0},
-						"deactivationCondition": "I_Quit",
+						"deactivationCondition": "Slate_AtWork",
 						"parentPath": "Module_Cabin/Geo_Cabin/Cabin_Tech/Cabin_Tech_Exterior/HatchPivot",
 						"isRelativeToParent": true,
 						"keepLoaded": true,
@@ -70,8 +128,8 @@
 						"path": "Ship_Body/Module_Cabin/Geo_Cabin/Cabin_Colliders_Back/Shared/Hatch_Collision_Closed/",
 						"position": {"x": 0,"y": 0,"z": 0},
 						"rotation": {"x": 0,"y": 0,"z": 0},
-						"activationCondition": "I_Quit",
-						"deactivationCondition": "I_Join",
+						"activationCondition": "Slate_AtWork",
+						"deactivationCondition": "Ship_Unlocked",
 						"parentPath": "Module_Cabin/Geo_Cabin/Cabin_Colliders_Back/Shared/",
 						"isRelativeToParent": true,
 						"keepLoaded": true
@@ -82,7 +140,7 @@
 						"path": "Ship_Body/Module_Cabin/Systems_Cabin/Hatch/TractorBeam",
 						"position": {"x": 0,"y": 3.826,"z": 0},
 						"rotation": {"x": 0,"y": 0,"z": 180},
-						"activationCondition": "I_Join",
+						"activationCondition": "Ship_Unlocked",
 						"parentPath": "Module_Cabin/Systems_Cabin",
 						"isRelativeToParent": true,
 						"keepLoaded": true
@@ -92,7 +150,7 @@
 						"path": "Ship_Body/Module_Cabin/Systems_Cabin/Hatch/TractorBeam",
 						"position": {"x": 0,"y": 3.826,"z": 0},
 						"rotation": {"x": 0,"y": 0,"z": 180},
-						"deactivationCondition": "I_Quit",
+						"deactivationCondition": "Slate_AtWork",
 						"parentPath": "Module_Cabin/Systems_Cabin",
 						"isRelativeToParent": true,
 						"keepLoaded": true,

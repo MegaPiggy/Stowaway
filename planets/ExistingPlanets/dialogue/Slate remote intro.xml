@@ -50,21 +50,21 @@
 
 	<DialogueNode>
 		<Name>Slate_Kids_1</Name>
-		<SetCondition>I_Quit</SetCondition>
+		<SetCondition>ShipLogBroken</SetCondition>
 		<Dialogue>
-			<Page>Just a quick reminder. If you ever have any questions about the ship, just come talk to me, alright?</Page>
-			<Page>It's better to get a lecture, than get grounded permanently for blowing the my ship.</Page>
+			<Page>Just remindin' ya. If there's any problems with the ship, come straight to me, alright?</Page>
+			<Page>Hey, I know how to fix up my ships better than anyone. It's better to get a lecture, than get grounded permanently for blowing the ship up.</Page>
 		</Dialogue>
 	</DialogueNode>
 
 
 	<DialogueNode>
 		<Name>Slate_Kids_2</Name>
-		<SetCondition>I_Quit</SetCondition>
+		<SetCondition>ShipLogBroken</SetCondition>
 		<Dialogue>
 			<Page>Wha? I have no idea what you're talking about.</Page>
-			<Page>Was just gonna remind ya: if you ever have any questions about the ship, come talk to me.</Page>
-			<Page>It's better to get a lecture, than get grounded permanently for blowing the my ship</Page>
+			<Page>Was just gonna remind ya: If there's any problems with the ship, come straight to me, alright?</Page>
+			<Page>I know how to fix up my ships better than anyone. It's better to get a lecture, than get grounded permanently for blowing the ship up.</Page>
 		</Dialogue>
 	</DialogueNode>
 

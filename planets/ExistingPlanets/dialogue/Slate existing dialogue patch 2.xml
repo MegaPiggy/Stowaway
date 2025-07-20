@@ -3,29 +3,24 @@
 	<NameField>Slate</NameField>
 
 
+
 	<DialogueNode>
 		<Name>Scientist1B</Name>
 		<DialogueOptionsList>
 
 			<DialogueOption>
-				<RequiredCondition>I_Quit</RequiredCondition>
-				<CancelledCondition>I_Quit2</CancelledCondition>
-				<CancelledCondition>Question_Answered</CancelledCondition>
-				<Text>Uhhh, Slate. Why's the ship locked?</Text>
-				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
+				<RequiredPersistentCondition>ShipLogBroken Talk</RequiredPersistentCondition>
+				<Text>Uhhh Slate, I think the ship's computer is busted.</Text>
+				<DialogueTarget>Scientist_ShipLogBroken</DialogueTarget>
 			</DialogueOption>
-				<DialogueOption>
-				<RequiredCondition>I_Quit2</RequiredCondition>
-				<CancelledCondition>Question_Answered</CancelledCondition>
-				<Text>So, I just ask the hatchlings what questions they have about space?</Text>
-				<DialogueTarget>Slate_Tradition_Menu</DialogueTarget>
-			</DialogueOption>
-			
+
 			<DialogueOption>
-				<RequiredCondition>Question_Answered</RequiredCondition>
-				<Text>I answered a hatchling's question!</Text>
-				<DialogueTarget>ScientistTradition_1</DialogueTarget>
-			</DialogueOption>	
+				<RequiredCondition>Slate_AtWork</RequiredCondition>
+				<RequiredCondition>Kid_Talked</RequiredCondition>
+				<Text>Did you finish fixing up the ship computer?</Text>
+				<DialogueTarget>Scientist_ShipLogBroken4</DialogueTarget>
+			</DialogueOption>
+
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -35,24 +30,17 @@
 		<DialogueOptionsList>
 
 			<DialogueOption>
-				<RequiredCondition>I_Quit</RequiredCondition>
-				<CancelledCondition>I_Quit2</CancelledCondition>
-				<CancelledCondition>Question_Answered</CancelledCondition>
-				<Text>Uhhh, Slate. Why's the ship locked?</Text>
-				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
+				<RequiredPersistentCondition>ShipLogBroken Talk</RequiredPersistentCondition>
+				<Text>Uhhh Slate, I think the ship's computer is busted.</Text>
+				<DialogueTarget>Scientist_ShipLogBroken</DialogueTarget>
 			</DialogueOption>
-				<DialogueOption>
-				<RequiredCondition>I_Quit2</RequiredCondition>
-				<CancelledCondition>Question_Answered</CancelledCondition>
-				<Text>So, I just ask the hatchlings what questions they have about space?</Text>
-				<DialogueTarget>Slate_Tradition_Menu</DialogueTarget>
+			<DialogueOption>
+				<RequiredCondition>Slate_AtWork</RequiredCondition>
+				<RequiredCondition>Kid_Talked</RequiredCondition>
+				<Text>Did you finish fixing up the ship computer?</Text>
+				<DialogueTarget>Scientist_ShipLogBroken4</DialogueTarget>
 			</DialogueOption>
 
-			<DialogueOption>
-				<RequiredCondition>Question_Answered</RequiredCondition>
-				<Text>I answered a hatchling's question!</Text>
-				<DialogueTarget>ScientistTradition_1</DialogueTarget>
-			</DialogueOption>	
 		</DialogueOptionsList>
 	</DialogueNode>
 
@@ -85,51 +73,103 @@
 
 <DialogueNode>
 		<Name>Scientist5</Name>
-<DialogueOptionsList>
+		<DialogueOptionsList>
 
 			<DialogueOption>
-				<RequiredCondition>I_Quit</RequiredCondition>
-				<CancelledCondition>I_Quit2</CancelledCondition>
-				<CancelledCondition>Question_Answered</CancelledCondition>
-				<Text>Uhhh, Slate. Why's the ship locked?</Text>
-				<DialogueTarget>ScientistAnswer_Mysteries1</DialogueTarget>
-			</DialogueOption>
-				<DialogueOption>
-				<RequiredCondition>I_Quit2</RequiredCondition>
-				<CancelledCondition>Question_Answered</CancelledCondition>
-				<Text>So, I just ask the hatchlings what questions they have about space?</Text>
-				<DialogueTarget>Slate_Tradition_Menu</DialogueTarget>
+				<RequiredPersistentCondition>ShipLogBroken Talk</RequiredPersistentCondition>
+				<Text>Uhhh Slate, I think the ship's computer is busted.</Text>
+				<DialogueTarget>Scientist_ShipLogBroken</DialogueTarget>
 			</DialogueOption>
 			
 			<DialogueOption>
-				<RequiredCondition>Question_Answered</RequiredCondition>
-				<Text>I answered a hatchling's question!</Text>
-				<DialogueTarget>ScientistTradition_1</DialogueTarget>
-			</DialogueOption>	
+				<RequiredCondition>Slate_AtWork</RequiredCondition>
+				<RequiredCondition>Kid_Talked</RequiredCondition>
+				<Text>Did you finish fixing up the ship computer?</Text>
+				<DialogueTarget>Scientist_ShipLogBroken4</DialogueTarget>
+			</DialogueOption>
+
 			<DialogueOption>
-				<RequiredCondition>I_Join</RequiredCondition>
-				<Text>So.. Any reason you suddenly wanted me to talk to the village hatchlings?</Text>
+				<RequiredCondition>Loop_Question</RequiredCondition>
+				<Text>So.. Any reason you suddenly wanted me to remind me about problems in the ship?</Text>
 				<DialogueTarget>ScientistTradition_999</DialogueTarget>
 			</DialogueOption>	
+
 		</DialogueOptionsList>
-	</DialogueNode>
+</DialogueNode>
+
+
+
 
 		<DialogueNode>
-		<SetCondition>I_Quit2</SetCondition>
-		<SetPersistentCondition>STOWAWAY_GO_TALK_TO_KIDS</SetPersistentCondition>
-		<Name>ScientistAnswer_Mysteries1</Name>
+		<Name>Scientist_ShipLogBroken</Name>
 		<Dialogue>
-			<Page>Oh, right. I took your ship keys while you were napping.</Page>
-			<Page>Hey, what's the big deal? Just making sure you talk to them before you take off.</Page>
-			<Page>"Who?" The next generation of our space cadets, you dolt.</Page>
-			<Page>The kids in the village are always bursting with questions for the new astronaut on launch day! Go take a round around the village and hear their questions out.</Page>
-			<Page>It's just a good look for the space program, nurturing the next generation's love for space - but don't think about it like that. Think of it like.. A fun quiz about much you know about the star system!</Page>
-			<Page>Oh, and uh, try to answer at least one of them, would you? So you don't look like we didn't teach you anything.</Page>
-			<Page>Talk to me again once you've answered at least one of the hatchlings' questions, and I'll give you the keys back! You're free to take off after that.</Page>
+			<Page>Stars above, how'd you even manage to break something in the ship already? What'd you break?</Page>
+			<Page>The ship computer? Gah, I hope it's not that piece of the museum statue in it malfunctioning..</Page>
 		</Dialogue>
 <DialogueOptionsList>
 			<DialogueOption>
-				<Text>Fine, I'll go talk to them.</Text>
+				<Text>Why's there a piece of the museum statue inside the ship computer?</Text>
+				<DialogueTarget>Scientist_ShipLogBroken1</DialogueTarget>
+			</DialogueOption>	
+			<DialogueOption>
+				<Text>Is the information in my ship log gonna be lost?!</Text>
+				<DialogueTarget>Scientist_ShipLogBroken2</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>Scientist_ShipLogBroken1</Name>
+		<Dialogue>
+			<Page>Gabbro chunked a piece of the Nomai statue in the museum while hauling it back. Hornfels took a look at it, and said it was some kind of stone that could store information.</Page>
+			<Page>It was just sitting around, so I thought it'd make a better component for data storage, than a museum exhibit.</Page>
+			<Page>Didn't think to stress test it to make sure it wouldn't get busted by idiots, though...</Page>
+		</Dialogue>
+<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Is the information on it gonna be lost?!</Text>
+				<DialogueTarget>Scientist_ShipLogBroken2</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+		<DialogueNode>
+		<Name>Scientist_ShipLogBroken2</Name>
+		<Dialogue>
+			<Page>Uh, maybe?</Page>
+			<Page>Oh, don't be dramatic. Not like there's anything on it worth worrying about losing, anyway.. You've hardly taken off the planet!</Page>
+			<Page>Well, I dunno. Maybe you actually wrote down some spaceflight tips from Gossan. I guess we'll see how badly the data was hurt after I repair it.</Page>
+			<Page>Here, hand over your ship keys for a bit - I'm not letting you take me on a joyride while I'm working on the ship.</Page>
+			<Page>I'm closing the entry hatch too, by the way. You'll get blinded by sparks if you try to barge in while I work.</Page>
+		</Dialogue>
+<DialogueOptionsList>
+			<DialogueOption>
+				<Text>What should I do while I wait?</Text>
+				<DialogueTarget>Scientist_ShipLogBroken3</DialogueTarget>
+			</DialogueOption>	
+			<DialogueOption>
+				<Text>How long will I need to wait?</Text>
+				<DialogueTarget>Scientist_ShipLogBroken3</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>Scientist_ShipLogBroken3</Name>
+			<SetCondition>Slate_AtWork</SetCondition>
+			<DisablePersistentCondition>ShipLogBroken Talk</DisablePersistentCondition>
+		<Dialogue>
+			<Page>Stars above, you aren't planning on just standing around until I'm done, are you? Go talk to the village before you take off!</Page>
+			<Page>Maybe ask the kids if they have any questions about the universe for you.</Page>
+			<Page>The kids in the village are always bursting with questions for the new astronaut on launch day. If you fire up their love for space, maybe one day they'll wanna join the space program too.</Page>
+			<Page>I should be done by the time you make a round around the village, so just go do something and stop bugging me.</Page>
+		</Dialogue>
+<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Alright, I'll go talk to them.</Text>
 				<DialogueTarget>ScientistAnswer_Mysteries0</DialogueTarget>
 			</DialogueOption>	
 			<DialogueOption>
@@ -146,22 +186,6 @@
     					  </RevealFacts>
 	</DialogueNode>
 
-<DialogueNode>
-		<Name>Slate_Tradition_Menu</Name>
-		<Dialogue>
-			<Page>Yeah? Can't be that hard answering some kids' questions, can it?</Page>
-		</Dialogue>
-<DialogueOptionsList>
-			<DialogueOption>
-				<Text>Where are the hatchlings again?</Text>
-				<DialogueTarget>Slate_Kids_Direction</DialogueTarget>
-				</DialogueOption>
-			<DialogueOption>
-				<Text>I totally answered one of their questions already. Can I take off yet?</Text>
-				<DialogueTarget>ScientistTradition_2</DialogueTarget>
-				</DialogueOption>
-		</DialogueOptionsList>
-	</DialogueNode>
 
 	<!-- ################################################## -->
 	<!-- ###################VISUAL BREAK################### -->
@@ -169,30 +193,67 @@
 
 
 <DialogueNode>
-		<Name>ScientistTradition_1</Name>
-		<SetCondition>I_Join</SetCondition>
+		<Name>Scientist_ShipLogBroken4</Name>
 		<Dialogue>
-			<Page>Alright! That was fun, wasn't it? You look like you've got some new drive to explore in your eyes too.</Page>
-			<Page>Thank you for your service to the space program, blah blah blah. Here's your ship keys back.</Page>
-			<Page>Now go on - take that ship and get outta here!</Page>
+			<Page>Sure did. It's working fine now.</Page>
+			<Page>Oh, and good news: whatever was on there should be just fine. The computer busted because some corrupted data was trying to upload, but I terminated that data.</Page>
+			<Page>Only odd thing is, I noticed a bunch of data already written in the ship log while fixing it up.</Page>
+			<Page>Probably don't need to ask, but.. You didn't write all those logs, did you?</Page>
 		</Dialogue>
+<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Uh, are you talking about the ship logs to places I've been to?</Text>
+				<DialogueTarget>Scientist_ShipLogBroken5</DialogueTarget>
+			</DialogueOption>	
+			<DialogueOption>
+				<Text>Sure did!</Text>
+				<DialogueTarget>Scientist_ShipLogBroken5B</DialogueTarget>
+				</DialogueOption>
+		</DialogueOptionsList>
 	</DialogueNode>
 
+
 <DialogueNode>
-		<Name>ScientistTradition_2</Name>
+		<Name>Scientist_ShipLogBroken5</Name>
+		<SetCondition>Loop_Question</SetCondition>
+		<SetCondition>Ship_Unlocked</SetCondition>
+		<SetPersistentCondition>STOWAWAY_REMOTESLATE_BLOCK</SetPersistentCondition>
 		<Dialogue>
-			<Page>Uh...huh. Might wanna work on your lying skills a bit. Get back to it, slacker.</Page>
-			<Page>Come on, it can't be that hard to answer some kids' questions! Just one of them, any of them, and I'll give your ship keys.</Page>
-			<Page>Trust me, I don't want to keep you grounded here and not flying the ship I put so much elbow grease into any longer than I have to.</Page>
-		</Dialogue>
+			<Page>"Places you've been to"? Hogwash, hatchling. You forgetting today's your launch day or something?</Page>
+			<Page>Well, I'm just gonna assume that piece of Nomai statue in the ship computer had some secret data it wrote into shiplogs somehow.</Page>
+			<Page>Lucky you, I guess. Getting a whole Nomai tour guide to the star system in your ship computer on your launch day.</Page>
+			<Page>If you ask me, it'd be more interesting finding those places myself, though.</Page>
+			<Page>I mean, what's the point of exploring, once you know there's nothing more to explore?</Page>
+			<Page>Alright, enough talk. Here's your ship keys, hatchling!</Page>
+			<Page>Go fly that beauty into space - and go learn something new!</Page>
+		</Dialogue> 
 	</DialogueNode>
+
+
+<DialogueNode>
+		<Name>Scientist_ShipLogBroken5B</Name>
+		<SetCondition>Loop_Question</SetCondition>
+		<SetCondition>Ship_Unlocked</SetCondition>
+		<SetPersistentCondition>STOWAWAY_REMOTESLATE_BLOCK</SetPersistentCondition>
+		<Dialogue>
+			<Page>Hogwash, hatchling. You forgetting today's your launch day or something?</Page>
+			<Page>Well, I'm just gonna assume that piece of Nomai statue in the ship computer had some secret data it wrote into shiplogs somehow.</Page>
+			<Page>Lucky you, I guess. Got a whole Nomai tour guide to the star system in there now. Or unlucky, depending on how you see it.</Page>
+			<Page>If you're the adventurous sort, kinda takes the winds out of your sails, knowing everything about everywhere in the star system just like that, doesn't it?</Page>
+			<Page>Well, who knows. All you can do is hope that piece of Nomai statue doesn't already have the answers to everything, I guess.</Page>
+			<Page>After all, what's the point of exploring once you know everything, right?</Page>
+			<Page>Alright, enough talk. Here's your ship keys, hatchling.</Page>
+			<Page>Go fly that beauty into space - and go learn something new!</Page>
+		</Dialogue> 
+	</DialogueNode>
+
 
 <DialogueNode>
 		<Name>ScientistAnswer_Mysteries0</Name>
 		<Dialogue>
 			<Page>Cool, cool.</Page>
 			<Page>Just remember, there's five of those little squirts: Mica, Tephra, Galena, Arkose, and Moraine.</Page>
-			<Page>Come back and talk to me again when you've answered at least one of their questions, and I'll give ya back your ship keys to take off!</Page>
+			<Page>Oh, and don't forget to take the ship keys back from me later. Gonna be hard to take off without those.</Page>
 		</Dialogue>
 	</DialogueNode>
 
@@ -204,20 +265,15 @@
 			<Page>Tephra and Galena are probably playing in the village. Saw those two trekking outside the village recently for whatever reason though, so don't take my word on that.</Page>
 			<Page>Arkose's probably still throwing rocks into the patch of ghost matter at the top of the village. Still uh.. no idea why they do that all day.</Page>
 			<Page>And Moraine's probably stargazing on that big tree in the village, making sure Marl doesn't chop it down.</Page>
-			<Page>I wonder if that Marl'll ever let go of that grudge.. No good comes outta holding a grudge against a tree, y'know?</Page>
-			<Page>Just get a move on - you'll probably see all five squirts on the way up to the observatory for the launch codes anyways.</Page>
-			<Page>Oh, and remember to come back and talk to me again when you've answered at least one of their questions! Can't take off without your ship keys otherwise.</Page>
+			<Page>Just get a move on - you'll probably see all five squirts on the way up to the observatory.</Page>
+			<Page>Oh, and don't forget to take the ship keys back from me later. Gonna be hard to take off without those.</Page>
 		</Dialogue>
 	</DialogueNode>
 
 <DialogueNode>
 		<Name>ScientistTradition_999</Name>
 		<Dialogue>
-			<Page>Hm? Oh, 'cuz I heard you talking in your sleep. Something you mumbled reminded me you hadn't done that yet.</Page>
-			<Page>Did you know Feldspar was the one that started this tradition Feldspar? Fielding questions from the young'uns.</Page>
-			<Page>Though, most of the questions you kids asked back then were like, "Are you really coming back" or "What will dying feel like".. Pfft, ye of little faith.</Page>
-			<Page>But uh, wow. You sure talked a lot in your sleep last night. You do that normally?</Page>
-			<Page>I'd get that checked out if I were you. You'd never live it down if the kids heard you mumbling in your sleep about "being stuck in a timeloop".</Page>
+			<Page>Hm? Oh, 'cuz I heard you talking in your sleep. Something you mumbled about the ship reminded me.</Page>
 		</Dialogue>
 	</DialogueNode>
 

@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 2646012770
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 00cda5f0bca39059065911009a9a4184
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fa776c41a4bb370b11a048e2fa954e09
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8a3f0f389341c132f21af676b0f2d74c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 209a5b29282d5c3b60e0ab76be1bcfa8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ed03af49f0a9abc29e61f405ee2bd4ad, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7232097b8a371eed7515bfff6013ce44, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d37ab8d4d1e425918e8172c84cb8288, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AnimationClip/GM TEST SUBMERGE.prefab
+Dependencies: []

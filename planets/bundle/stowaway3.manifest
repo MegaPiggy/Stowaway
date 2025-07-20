@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3677991030
+CRC: 3090004710
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7275f184631bbd4ef73b42377efc1aef
+    Hash: c6c70f98dc0886ea8e264f50d5b1f18d
   TypeTreeHash:
     serializedVersion: 2
     Hash: b22b9fad7869be4f5cb6c2c6b0bb3bd8
@@ -178,6 +178,8 @@ Assets:
 - Assets/Models/player nosuit.prefab
 - Assets/Models/Materials/Solar tower hologram.prefab
 - Assets/AnimationClip/Entered_DSS Volume.prefab
+- Assets/AnimationClip/ShipLog Empty.prefab
+- Assets/AnimationClip/HGT gravity scaling.prefab
 - Assets/Nomai Ruins/four eyed monolith.prefab
 - Assets/AnimationClip/orange light.prefab
 - Assets/Models/th portrait.prefab
@@ -192,6 +194,7 @@ Assets:
 - Assets/Models/TheInspired gold.prefab
 - Assets/Models/ASH TWIN BEAM north.prefab
 - Assets/Models/bh tower occluder.prefab
+- Assets/AnimationClip/ShipLogBroken ConversationTrigger.prefab
 - Assets/AnimationClip/comet gm scaling.prefab
 - Assets/Models/rotation guy.prefab
 - Assets/Models/voyager ring.prefab

@@ -232,11 +232,11 @@
 				"xmlFile": "planets/ship logs/QWL Stowaway.xml",
 				"spriteFolder": "planets/ship logs/sprites",
 				"mapMode": {
-							"manualNavigationPosition": {"x":2,"y":0.5},
-							"manualPosition": {"x":792,"y": -80},
+							"manualNavigationPosition": {"x":2,"y":-0.5},
+							"manualPosition": {"x":792,"y": 100},
 							"invisibleWhenHidden": true,
-							"outlineSprite": "planets/assets/bh icon.png",
-							"revealedSprite": "planets/assets/bh icon.png",
+							"outlineSprite": "planets/assets/QWL revealed icon.png",
+							"revealedSprite": "planets/assets/QWL revealed icon.png",
 							"scale": 0.5
 							}
 			}

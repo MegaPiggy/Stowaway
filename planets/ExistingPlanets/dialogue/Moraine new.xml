@@ -50,7 +50,7 @@
 		</DialogueNode>
 
 		<DialogueNode>
-		<SetCondition>Question_Answered</SetCondition>
+		<SetCondition>Kid_Talked</SetCondition>
 		<Name>SignalscopeKidNew2</Name>
 		<Dialogue>
 			<Page>Really? But.. I thought I saw...</Page>
