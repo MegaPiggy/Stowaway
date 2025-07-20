@@ -226,7 +226,7 @@
 							"invisibleWhenHidden": true,
 							"outlineSprite": "planets/assets/HOB revealed icon.png",
 							"revealedSprite": "planets/assets/HOB revealed icon.png",
-							"scale": 0.5
+							"scale": 0.4
 							}
 			}
 
