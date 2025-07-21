@@ -72,11 +72,15 @@
 <ShipLogConditions>
 		<RevealFact>
 			<FactID>Cove EX1</FactID>
-			<Condition>4</Condition>
+			<Condition>1</Condition>
 		</RevealFact>
 			<RevealFact>
-			<FactID>Cove R4</FactID>
-			<Condition>2</Condition>
+			<FactID>Cove EX2</FactID>
+			<Condition>3</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Cove EX3</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>DSS R7</FactID>

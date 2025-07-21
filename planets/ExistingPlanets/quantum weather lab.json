@@ -235,7 +235,7 @@
 							"manualNavigationPosition": {"x":3,"y":2},
 							"manualPosition": {"x":792,"y": 100},
 							"invisibleWhenHidden": true,
-							"outlineSprite": "planets/assets/QWL revealed icon.png",
+							"outlineSprite": "planets/assets/QWL outline icon.png",
 							"revealedSprite": "planets/assets/QWL revealed icon.png",
 							"scale": 0.5
 							}

@@ -233,7 +233,7 @@
 			"rename":"cove hologram box",
 			"assetBundle": "planets/bundle/prefabs",
 			"path":"assets/nomai ruins/prefabs/container.prefab",
-			"position": {"x": 8.4712, "y": 1.3398, "z": 24.4452},
+			"position": {"x": 11.6657, "y": 1.0507, "z": 28.267},
 				"rotation": {"x": 1.7755, "y": 15.1029, "z": 0.0721},
 				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove",
 			"isRelativeToParent": true
@@ -273,21 +273,21 @@
 		{
 			"rename":"Marriage Torch light 1",
 			"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
-			"position":{"x":8.3724,"y": 1.2109 ,"z": 24.758},
+			"position":{"x":11.5839,"y": 1.9849,"z": 28.3383},
 			"rotation":{"x":2.7752,"y": 341.1754,"z": 356.7977},
 				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove"
 		},
 		{
 			"rename":"Marriage Torch light 2",
 			"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
-			"position":{"x":6.9209,"y": 2.2765,"z": 25.0503},
+			"position":{"x":11.5839,"y": 1.9849,"z": 28.3383},
 			"rotation":{"x":2.7752,"y": 341.1754,"z": 356.7977},
 				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove"
 		},
 		{
 			"rename":"Marriage Torch light 3",
 			"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
-			"position":{"x":6.7097,"y": 4.1448,"z": 25.8453},
+			"position":{"x":11.5839,"y": 1.9849,"z": 28.3383},
 			"rotation":{"x":2.7752,"y": 341.1754,"z": 356.7977},
 				"parentPath": "Sector_GabbroIsland/Sector_GM_Cove"
 		},

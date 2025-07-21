@@ -224,7 +224,7 @@
 							"manualNavigationPosition": {"x":5,"y":2},
 							"manualPosition": {"x":388,"y": -160},
 							"invisibleWhenHidden": true,
-							"outlineSprite": "planets/assets/HOB revealed icon.png",
+							"outlineSprite": "planets/assets/HOB outline icon.png",
 							"revealedSprite": "planets/assets/HOB revealed icon.png",
 							"scale": 0.4
 							}
