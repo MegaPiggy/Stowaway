@@ -352,7 +352,7 @@
             <ID>DSS EX1</ID> 
             <Text>An underwater Nomai station deep within Giant's Deep.</Text>
                   <AltText>
-                        <Text>An underwater Nomai station built to test the mechanisms of the Ash Twin Project, using energy from Giant's Deep's electric core.</Text>
+                        <Text>An underwater Nomai station built to test the mechanisms of the Ash Twin Project using energy from Giant's Deep's electric core.</Text>
                         <Condition>DSS R4</Condition>
                  </AltText>
         </ExploreFact>
@@ -395,7 +395,7 @@
         </ExploreFact>
           <ExploreFact>
             <ID>DSS EX4</ID> 
-            <Text>The Inspired used a white-hole warp core from the Deep Storm Station's paired warp cores, disabling the station indefinitely.</Text> 
+            <Text>The Inspired used a paired white-hole warp core from the Deep Storm Station, disabling the station indefinitely.</Text> 
         </ExploreFact>
           <ExploreFact>
             <ID>DSS EX5</ID> 
