@@ -253,7 +253,7 @@
 			"manualPosition": {"x":1041.7,"y": 174},
 			"invisibleWhenHidden": true,
 			"outlineSprite": "planets/assets/bh icon.png",
-			"revealedSprite": "planets/assets/bh icon.png"
+			"revealedSprite": "planets/assets/INSP revealed icon.png"
 		}
 	}
 

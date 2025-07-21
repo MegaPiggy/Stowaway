@@ -14,7 +14,7 @@
 		<LocationB />
 		<ParentID>1</ParentID>
 		<Text>
-			CASSAVA: No.. Sadly, it appears to have perished for some time now, though its bioelectricity appears to linger briefly after its termination.
+			CASSAVA: No.. Sadly, it appears to have been left in a perished state for some time now.
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<LocationB />
 		<ParentID>3</ParentID>
 		<Text>
-			DAZ: We have never seen a jellyfish beached on an island like this. How could one have even traveled all the way from..
+			DAZ: We have never seen a jellyfish beached on the surface like this. How could one have even traveled all the way here?
 		</Text>
 	</TextBlock>
 
@@ -50,7 +50,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-			DAZ: What dreadful timing, Phlox! There isn't a storm shelter on this island.. How should we take cover, my friends?
+			DAZ: What dreadful timing, Phlox! There are no storm shelters on this island.. How should we take cover, friends?
 		</Text>
 	</TextBlock>
 

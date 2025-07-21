@@ -216,7 +216,7 @@
 <DialogueNode>
 		<Name>Scientist_ShipLogBroken5</Name>
 		<SetCondition>Loop_Question</SetCondition>
-		<SetCondition>Ship_Unlocked</SetCondition>
+			<SetCondition>ShipLogFixed</SetCondition>
 		<SetPersistentCondition>STOWAWAY_REMOTESLATE_BLOCK</SetPersistentCondition>
 		<Dialogue>
 			<Page>"Places you've been to"? Hogwash, hatchling. You forgetting today's your launch day or something?</Page>
@@ -233,16 +233,15 @@
 <DialogueNode>
 		<Name>Scientist_ShipLogBroken5B</Name>
 		<SetCondition>Loop_Question</SetCondition>
-		<SetCondition>Ship_Unlocked</SetCondition>
+			<SetCondition>ShipLogFixed</SetCondition>
 		<SetPersistentCondition>STOWAWAY_REMOTESLATE_BLOCK</SetPersistentCondition>
 		<Dialogue>
 			<Page>Hogwash, hatchling. You forgetting today's your launch day or something?</Page>
 			<Page>Well, I'm just gonna assume that piece of Nomai statue in the ship computer had some secret data it wrote into shiplogs somehow.</Page>
-			<Page>Lucky you, I guess. Got a whole Nomai tour guide to the star system in there now. Or unlucky, depending on how you see it.</Page>
-			<Page>If you're the adventurous sort, kinda takes the winds out of your sails, knowing everything about everywhere in the star system just like that, doesn't it?</Page>
-			<Page>Well, who knows. All you can do is hope that piece of Nomai statue doesn't already have the answers to everything, I guess.</Page>
-			<Page>After all, what's the point of exploring once you know everything, right?</Page>
-			<Page>Alright, enough talk. Here's your ship keys, hatchling.</Page>
+			<Page>Lucky you, I guess. Getting a whole Nomai tour guide to the star system in your ship computer on your launch day.</Page>
+			<Page>If you ask me, it'd be more interesting finding those places myself, though.</Page>
+			<Page>I mean, what's the point of exploring, once you know there's nothing more to explore?</Page>
+			<Page>Alright, enough talk. Here's your ship keys, hatchling!</Page>
 			<Page>Go fly that beauty into space - and go learn something new!</Page>
 		</Dialogue> 
 	</DialogueNode>
