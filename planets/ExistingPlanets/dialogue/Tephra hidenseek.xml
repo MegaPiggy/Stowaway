@@ -22,7 +22,7 @@
 			<DialogueOption>
 				<RequiredCondition>Teph_None</RequiredCondition>
 				<Text>Where should I look for the purple rock next?</Text>
-				<DialogueTarget>Teph SW_5B</DialogueTarget>
+				<DialogueTarget>Teph SW_6B</DialogueTarget>
 			</DialogueOption>
 
 			<DialogueOption>
@@ -177,6 +177,9 @@
 
 	<DialogueNode>
 		<Name>Teph Answers 1B</Name>
+						 <RevealFacts>
+     						   <FactID>TH_WR R3</FactID>
+    					  </RevealFacts>
 		<Dialogue>
 					<Page>A glittery cave? Huh... That sounds like the zero-g cave, doesn't it?</Page>
 					<Page>But Galena and I looked inside the zero-g cave a bunch of times, and we're sure the purple rock never went there..</Page>
@@ -269,7 +272,7 @@
 			<DialogueOption>
 				<RequiredCondition>Teph_None</RequiredCondition>
 				<Text>Where should I look for the purple rock next?</Text>
-				<DialogueTarget>Teph SW_5B</DialogueTarget>
+				<DialogueTarget>Teph SW_6B</DialogueTarget>
 			</DialogueOption>
 
 			<DialogueOption>
@@ -332,7 +335,7 @@
 			<DialogueOption>
 				<RequiredCondition>Teph_None</RequiredCondition>
 				<Text>Where should I look for the purple rock next?</Text>
-				<DialogueTarget>Teph SW_5B</DialogueTarget>
+				<DialogueTarget>Teph SW_6B</DialogueTarget>
 			</DialogueOption>
 
 			<DialogueOption>
@@ -373,7 +376,7 @@
 			<DialogueOption>
 				<RequiredCondition>Teph_None</RequiredCondition>
 				<Text>Where should I look for the purple rock next?</Text>
-				<DialogueTarget>Teph SW_5B</DialogueTarget>
+				<DialogueTarget>Teph SW_6B</DialogueTarget>
 			</DialogueOption>
 
 			<DialogueOption>

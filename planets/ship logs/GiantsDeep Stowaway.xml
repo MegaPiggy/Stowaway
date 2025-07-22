@@ -461,7 +461,7 @@
             <ID>DSS_A EX1</ID> 
             <Text>[Secret Achievement] I escaped the ***** without dying or using a voyager!</Text> 
                    <AltText>
-                   <Text>[Secret Achievement] Escape the Deep Storm Station without dying, after entering without a voyager.</Text>
+                   <Text>[Secret Achievement] I escaped the Deep Storm Station without dying or using a voyager!</Text>
                             <Condition>DSS EX1</Condition>
                  </AltText>
         </ExploreFact>

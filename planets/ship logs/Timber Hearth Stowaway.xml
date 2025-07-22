@@ -234,7 +234,7 @@
                               <ID>SY_A EX1</ID> 
                               <Text>[Secret Achievement] I entered the ***** without a voyager!</Text> 
                                         <AltText>
-                                        <Text>[Secret Achievement] Enter the Sanctuary without a voyager.</Text>
+                                        <Text>[Secret Achievement] I entered the Sanctuary without a voyager!</Text>
                                                   <Condition>SY EX4</Condition>
                                         </AltText>
                          </ExploreFact>
@@ -258,6 +258,10 @@
         <RumorFact>
             <ID>TH_WR R2</ID> 
             <Text>A Nomai named Cassava observed ghost matter in this site being pulled up by the Attlerock’s gravity as it orbited overhead.</Text> 
+        </RumorFact>
+        <RumorFact>
+            <ID>TH_WR R3</ID> 
+            <Text>Tephra asked me to explore the Nomai Ruins outside the village to see if the museum shard was traveling there. They warned me about ghost matter in that area.</Text> 
         </RumorFact>
 
 
