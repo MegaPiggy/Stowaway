@@ -176,9 +176,9 @@
             <Text>The Nomai used a new invention from the Scroll and Stone Workshop to enter the Sanctuary.</Text> 
         </RumorFact>
           <RumorFact>
-           <SourceID>DEEP_STORM_STATION</SourceID>
+           <SourceID>INSPIRED</SourceID>
             <ID>SY R5</ID> 
-            <Text>The Hearthians that survived the arrival of ghost matter within the Sanctuary were quarantined inside by a Nomai named Cassava.</Text> 
+            <Text>A Nomai named Cassava launched the Inspired towards Timber Hearth to protect the endangered native species.</Text> 
         </RumorFact>
           <RumorFact>
             <ID>SY R6</ID> 
@@ -209,7 +209,27 @@
             <ID>SY EX5</ID> 
             <Text>A memory statue aboard the Ash Twin Project erroneously paired with Yarrow. This was later learned to be caused by some sort of safeguard.</Text> 
          </ExploreFact>
+        
 </Entry>
+
+  <Entry>
+                 <ID>ACH_SANCTUARY</ID>
+                   <Name>Achievement: Stowaway</Name>
+                         <Curiosity>None</Curiosity>
+
+                           <ParentIgnoreNotRevealed/>
+	                    	<IsCuriosity/>
+
+                         <RumorFact>
+                              <ID>SY_A R1</ID> 
+                              <Text>[Secret Achievement] Enter the Sanctuary without a voyager.</Text> 
+                         </RumorFact>
+
+                         <ExploreFact>
+                              <ID>SY_A EX1</ID> 
+                              <Text>[Secret Achievement] I entered the Sanctuary without a voyager!</Text> 
+                         </ExploreFact>
+          </Entry>
 
 
 

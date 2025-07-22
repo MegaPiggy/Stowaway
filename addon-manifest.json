@@ -77,7 +77,7 @@
 
     "gameOver": [
         {
-            "text": "<size=80>Stowaway</size>\n\n<size=50>Made by atk, MegaPiggy, and Repcon\nWith love from the New Horizons modding community</size>",
+            "text": "<size=80>Stowaway</size>\n\n<size=50>Made by atk, MegaPiggy, asker, and Repcon\nWith love from the New Horizons modding community</size>",
             "condition": "Entered_Inspired",
             "creditsType": "none"
         }

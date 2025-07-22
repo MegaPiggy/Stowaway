@@ -10,7 +10,7 @@
 			{
 				"reveals": ["DSS Probe"],
 				"radius":12,
-				"revealOn": "enter",
+				"revealOn": "snapshot",
 				"revealFor": "probe",
 				"position":{"x": 0,"y": 0,"z": 0},
 				"isRelativeToParent": true,
@@ -31,17 +31,18 @@
 				"radius": 10,
 				"revealOn": "enter",
 				"revealFor": "player",
-				"reveals": ["INSP EX1", "INSP EX2", "INSP EX3"],
+				"reveals": ["INSP EX1", "INSP EX2", "INSP EX3", "INSP_A R1", "SY_A R1", "DSS_A R1"],
 					"parentPath": "Sector/Entered_Inspired ShiplogEntry"
 			},
 			{
-				"radius":3,
+				"radius":0.3,
 				"revealOn": "enter",
 				"revealFor": "player",
 				"position":{"x": 0,"y": 0,"z": 0},
 				"achievementID": "STOWAWAY_PORTAL_LOOP",
+				"reveals": ["INSP_A EX1"],
 				"isRelativeToParent": true,
-				"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer/PortalLoop Achievement Conditional"
+				"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/PortalLoop Achievement Conditional"
 			}
 		]
 	},	
@@ -179,7 +180,7 @@
 				"assetBundle": "planets/bundle/stowaway3",
 				"path":"assets/models/empty.prefab",
 				"position":{"x": 0,"y": 0,"z": 0},
-					"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)/DSS white hole/WhiteHoleRenderer",
+					"parentPath": "Sector/DSS whitewarpcore socket/Props_NOM_WarpCoreWhite (1)",
 					"activationCondition": "Entered_Inspired",
 					"deactivationCondition": "Entered_DSS",
 					"blinkWhenActiveChanged": false,

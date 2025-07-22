@@ -47,7 +47,7 @@
         </ExploreFact>
            <ExploreFact>
             <ID>Workshop EX4</ID> 
-            <Text>Memories past the end-of-cycle transmission cannot be sent back. This is indicated by a static vision at the end of the loop.</Text>
+            <Text>Memories recorded after the completion of the end-of-cycle transmission cannot be sent back. This is indicated by a static vision at the end of the loop.</Text>
         </ExploreFact>
            <ExploreFact>
             <ID>Workshop EX5</ID> 
@@ -435,12 +435,32 @@
 
         <ExploreFact>
             <ID>DSS_B EX3</ID> 
-            <Text>Cassava was relieved that Giant's Deep's thick clouds had protected the native species from harm.</Text> 
+            <Text>According to Cassava, Giant's Deep's thick clouds had protected the native species from harm.</Text> 
         </ExploreFact>
 
         </Entry>
+
 </Entry>
 
+
+
+    <Entry>
+             <ID>ACH_DSS</ID>
+               <Name>Achievement: A Way Out?</Name>
+                         <Curiosity>None</Curiosity>
+                           <ParentIgnoreNotRevealed/>
+
+            <RumorFact>
+            <ID>DSS_A R1</ID> 
+            <Text>[Secret Achievement] Escape the Deep Storm Station without dying, after entering without a voyager.</Text>
+         </RumorFact>
+
+          <ExploreFact>
+            <ID>DSS_A EX1</ID> 
+            <Text>[Secret Achievement] I escaped the Deep Storm Station without dying or using a voyager!</Text> 
+        </ExploreFact>
+
+        </Entry>
 
 
 

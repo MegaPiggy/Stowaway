@@ -18,6 +18,7 @@
 			"revealOn": "enter",
 			"revealFor": "player",
 			"achievementID": "STOWAWAY_A_WAY_OUT",
+			"reveals": ["DSS_A EX1"],
 			"parentPath": "Sector_ConstructionYard/Entered_DSS Check 1/Entered_DSS Anti-Voyager Check 1A"
 		},{
 			"position":{"x":9.027,"y":29.476,"z":-32.5986},
@@ -26,6 +27,7 @@
 			"revealOn": "enter",
 			"revealFor": "player",
 			"achievementID": "STOWAWAY_A_WAY_OUT",
+			"reveals": ["DSS_A EX1"],
 			"parentPath": "Sector_ConstructionYard/Entered_DSS Check 1/Entered_DSS Anti-Voyager Check 1A"
 		},
 			{
@@ -35,6 +37,7 @@
 			"revealOn": "enter",
 			"revealFor": "player",
 			"achievementID": "STOWAWAY_A_WAY_OUT",
+			"reveals": ["DSS_A EX1"],
 			"parentPath": "Sector_ConstructionYard/Entered_DSS Check 1/Entered_DSS Anti-Voyager Check 1B"
 		},{
 			"position":{"x":9.027,"y":29.476,"z":-32.5986},
@@ -43,6 +46,7 @@
 			"revealOn": "enter",
 			"revealFor": "player",
 			"achievementID": "STOWAWAY_A_WAY_OUT",
+			"reveals": ["DSS_A EX1"],
 			"parentPath": "Sector_ConstructionYard/Entered_DSS Check 1/Entered_DSS Anti-Voyager Check 1B"
 		}
 		]

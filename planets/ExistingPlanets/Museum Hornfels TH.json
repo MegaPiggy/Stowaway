@@ -116,6 +116,7 @@
 			"revealOn": "enter",
 			"revealFor": "player",
 			"achievementID": "STOWAWAY_TRULY_ENTER_SANCTUARY",
+			"reveals": ["SY_A EX1"],
 			"parentPath": "Sector_TH/Sector_Sanctuary/Anti_Voyager"
 		},
 		{
@@ -125,6 +126,7 @@
 			"revealOn": "enter",
 			"revealFor": "player",
 			"achievementID": "STOWAWAY_TRULY_ENTER_SANCTUARY",
+			"reveals": ["SY_A EX1"],
 			"parentPath": "Sector_TH/Sector_Sanctuary/Anti_Voyager 2"
 		},
 		

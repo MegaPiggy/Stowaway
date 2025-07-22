@@ -6,6 +6,7 @@
         <ID>INSPIRED</ID>
         <Name>The Inspired</Name>
         <Curiosity>Stowaway</Curiosity>
+             <IgnoreMoreToExplore/>
 
      <RumorFact>
              <IgnoreMoreToExplore/>
@@ -64,6 +65,24 @@
         </ExploreFact>
       
 </Entry>
+
+
+        <Entry>
+                 <ID>ACH_INSP</ID>
+                   <Name>Achievement: Narbacular Loop</Name>
+                         <Curiosity>None</Curiosity>
+                           <ParentIgnoreNotRevealed/>
+
+                         <RumorFact>
+                              <ID>INSP_A R1</ID> 
+                              <Text>[Secret Achievement] Now you're thinking with portals!</Text> 
+                         </RumorFact>
+
+                         <ExploreFact>
+                              <ID>INSP_A EX1</ID> 
+                              <Text>[Secret Achievement] I jumped into the Inspired with the paired warp core!</Text> 
+                         </ExploreFact>
+          </Entry>
 
 
 
