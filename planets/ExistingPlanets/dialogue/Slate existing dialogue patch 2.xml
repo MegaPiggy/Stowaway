@@ -217,6 +217,7 @@
 		<Name>Scientist_ShipLogBroken5</Name>
 		<SetCondition>Loop_Question</SetCondition>
 			<SetCondition>ShipLogFixed</SetCondition>
+			<SetCondition>Ship_Unlocked</SetCondition>
 		<SetPersistentCondition>STOWAWAY_REMOTESLATE_BLOCK</SetPersistentCondition>
 		<Dialogue>
 			<Page>"Places you've been to"? Hogwash, hatchling. You forgetting today's your launch day or something?</Page>
@@ -234,6 +235,7 @@
 		<Name>Scientist_ShipLogBroken5B</Name>
 		<SetCondition>Loop_Question</SetCondition>
 			<SetCondition>ShipLogFixed</SetCondition>
+			<SetCondition>Ship_Unlocked</SetCondition>
 		<SetPersistentCondition>STOWAWAY_REMOTESLATE_BLOCK</SetPersistentCondition>
 		<Dialogue>
 			<Page>Hogwash, hatchling. You forgetting today's your launch day or something?</Page>

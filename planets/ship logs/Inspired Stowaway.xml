@@ -4,7 +4,7 @@
 
 <Entry>
         <ID>INSPIRED</ID>
-        <Name>The Inspired</Name>
+        <Name>Sunless Comet</Name>
         <Curiosity>Stowaway</Curiosity>
              <IgnoreMoreToExplore/>
 
@@ -20,7 +20,7 @@
             <SourceID>COMET_INTERIOR</SourceID>
             <RumorName>The Inspired</RumorName>
              <RumorNamePriority>1</RumorNamePriority>
-            <Text>The Interloper was used as the model for the Inspired.</Text>
+            <Text>The Interloper was used as the model for this comet, named the Inspired.</Text>
          </RumorFact>
    `<RumorFact>
              <IgnoreMoreToExplore/>

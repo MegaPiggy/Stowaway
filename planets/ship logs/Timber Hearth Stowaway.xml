@@ -144,6 +144,7 @@
        </ExploreFact>
        <ExploreFact>
             <ID>MOR EX2</ID> 
+            <IgnoreMoreToExplore/>
             <Text>Moraine says they saw two comets in the sky one night. They were sure it was a second comet, but they haven't been able to find it again since.</Text>
        </ExploreFact>
 </Entry>
@@ -222,12 +223,20 @@
 
                          <RumorFact>
                               <ID>SY_A R1</ID> 
-                              <Text>[Secret Achievement] Enter the Sanctuary without a voyager.</Text> 
+                              <Text>[Secret Achievement] Enter the ***** without a voyager.</Text> 
+                                        <AltText>
+                                        <Text>[Secret Achievement] Enter the Sanctuary without a voyager.</Text>
+                                                  <Condition>SY EX4</Condition>
+                                        </AltText>
                          </RumorFact>
 
                          <ExploreFact>
                               <ID>SY_A EX1</ID> 
-                              <Text>[Secret Achievement] I entered the Sanctuary without a voyager!</Text> 
+                              <Text>[Secret Achievement] I entered the ***** without a voyager!</Text> 
+                                        <AltText>
+                                        <Text>[Secret Achievement] Enter the Sanctuary without a voyager.</Text>
+                                                  <Condition>SY EX4</Condition>
+                                        </AltText>
                          </ExploreFact>
           </Entry>
 

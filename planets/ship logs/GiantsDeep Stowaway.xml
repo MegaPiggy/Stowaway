@@ -344,7 +344,9 @@
          <RumorFact>
             <ID>DSS R9</ID> 
             <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
-            <Text>The Nomai used the Deep Storm Station to see 6 seconds into the future after the Ash Twin Project was launched.</Text> 
+             <RumorName>Deep Storm Station</RumorName>
+             <RumorNamePriority>1</RumorNamePriority>
+            <Text>The Nomai used the Deep Storm Station to see 6 seconds into the future after the Ash Twin Project was launched. They were disappointed to learn the Ash Twin Project failed to launch.</Text> 
     </RumorFact> 
    
 
@@ -372,10 +374,6 @@
                         <Text>Cassava learned that the Interloper came from a barren asteroid belt far outside any star system. He resolved to launch the Inspired regardless, to protect the surviving species of the star system.</Text>
                         <Condition>COMET_INTERIOR_X3</Condition>
                  </AltText> 
-        </ExploreFact>
-        <ExploreFact>
-            <ID>DSS EX7</ID> 
-            <Text>The Nomai used the Deep Storm Station to see 6 seconds into the future after the Ash Twin Project was launched. They were disappointed to learn that the Ash Twin Project had failed to launch.</Text> 
         </ExploreFact>
     
 
@@ -452,12 +450,20 @@
 
             <RumorFact>
             <ID>DSS_A R1</ID> 
-            <Text>[Secret Achievement] Escape the Deep Storm Station without dying, after entering without a voyager.</Text>
+            <Text>[Secret Achievement] Escape the ***** without dying, after entering without a voyager.</Text>
+                   <AltText>
+                   <Text>[Secret Achievement] Escape the Deep Storm Station without dying, after entering without a voyager.</Text>
+                            <Condition>DSS EX1</Condition>
+                 </AltText>
          </RumorFact>
 
           <ExploreFact>
             <ID>DSS_A EX1</ID> 
-            <Text>[Secret Achievement] I escaped the Deep Storm Station without dying or using a voyager!</Text> 
+            <Text>[Secret Achievement] I escaped the ***** without dying or using a voyager!</Text> 
+                   <AltText>
+                   <Text>[Secret Achievement] Escape the Deep Storm Station without dying, after entering without a voyager.</Text>
+                            <Condition>DSS EX1</Condition>
+                 </AltText>
         </ExploreFact>
 
         </Entry>

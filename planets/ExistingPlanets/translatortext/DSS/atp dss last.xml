@@ -69,12 +69,8 @@
 <ShipLogConditions>
 
 		<RevealFact>
-			<FactID>DSS EX7</FactID>
-			<Condition>8</Condition>
-		</RevealFact>
-		<RevealFact>
 			<FactID>DSS R9</FactID>
-			<Condition>3</Condition>
+			<Condition>8</Condition>
 		</RevealFact>
 
 	</ShipLogConditions>

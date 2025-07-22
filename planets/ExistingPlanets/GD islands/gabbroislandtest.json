@@ -110,7 +110,6 @@
 				"rotation": {"x": 359.5715, "y": 94.2078, "z": 3.8933},
 				"scale":2,
 				"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro",
-				"removeChildren": [],
 				"isRelativeToParent": true
 			},
 			{
@@ -124,22 +123,12 @@
 					"isRelativeToParent": true
 			},
 			{
-				"rename":"cove corner torch1",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
-				"position": {"x": -18.1617, "y": 0.7636, "z": 32.5624},
-				"rotation": {"x": 3.4615,"y": 48.9562,"z": 5.6759},
+			"rename":"cove mural light",
+			"path":"GabbroIsland_Body/Sector_GabbroIsland/Lighting_GabbroIsland/OtherComponentsGroup/FillLight_HEA_Riebeck_Warm",
+			"position":{"x": -18.8267,"y": 2.7886,"z": 31.8655}, 
 						"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro",
-				"isRelativeToParent": true
-			},	{
-				"rename":"cove corner torch2",
-				"assetBundle": "planets/bundle/prefabs",
-				"path":"assets/nomai ruins/prefabs/railingpost.prefab",
-				"position": {"x": -19.019, "y": 1.2932, "z": 25.5179},
-				"rotation": {"x":3.4615,"y": 48.9562,"z": 5.6759},
-						"parentPath": "Sector_GabbroIsland/Sector_GabbroIntro",
-				"isRelativeToParent": true
-			},
+						"isRelativeToParent": true
+		},
 			{
 				"rename": "gd intro table 1",
 				"assetBundle": "planets/bundle/prefabs",

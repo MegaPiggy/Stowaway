@@ -46,7 +46,7 @@
 		<LocationB />
 		<ParentID>5</ParentID>
 		<Text>
-		DAZ: Perhaps we should visit the <![CDATA[<color=orange>Deep Storm Station.</color>]]> We should be able to survey the native population of jellyfish under the ocean current from aboard the station.
+		DAZ: Perhaps we should visit the <![CDATA[<color=orange>Deep Storm Station.</color>]]> Since the station lies beneath the ocean current, we would be able to easily survey the native population of jellyfish there.
 		</Text>
 	</TextBlock>
 
@@ -81,6 +81,10 @@
 			<RevealFact>
 			<FactID>Cove EX3</FactID>
 			<Condition>6</Condition>
+		</RevealFact>
+			<RevealFact>
+			<FactID>Cove EX4</FactID>
+			<Condition>8</Condition>
 		</RevealFact>
 		<RevealFact>
 			<FactID>DSS R7</FactID>
