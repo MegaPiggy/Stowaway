@@ -72,6 +72,10 @@
 			<FactID>DSS R9</FactID>
 			<Condition>8</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>DSS R10</FactID>
+			<Condition>8</Condition>
+		</RevealFact>
 
 	</ShipLogConditions>
 

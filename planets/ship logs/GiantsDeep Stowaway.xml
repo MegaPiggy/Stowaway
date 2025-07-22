@@ -346,7 +346,14 @@
             <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
              <RumorName>Deep Storm Station</RumorName>
              <RumorNamePriority>1</RumorNamePriority>
-            <Text>The Nomai used the Deep Storm Station to see 6 seconds into the future after the Ash Twin Project was launched. They were disappointed to learn the Ash Twin Project failed to launch.</Text> 
+            <Text>The Nomai used the Deep Storm Station to see 6 seconds into the future after the Ash Twin Project was launched.</Text> 
+    </RumorFact> 
+         <RumorFact>
+            <ID>DSS R10</ID> 
+            <SourceID>TT_TIME_LOOP_DEVICE</SourceID>
+             <RumorName>Deep Storm Station</RumorName>
+             <RumorNamePriority>1</RumorNamePriority>
+            <Text>The Nomai were disappointed to learn that the Ash Twin Project had failed to launch.</Text> 
     </RumorFact> 
    
 
