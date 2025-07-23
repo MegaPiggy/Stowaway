@@ -158,6 +158,15 @@
 				"position":{"x": 0,"y": 95,"z": 0},
 				"parentPath": "Sector_QuantumMoon/SixthLocation stormshelter",
 					"isRelativeToParent": true
+			},
+			
+			{
+				"rename":"visibilitytracker qmshelter",
+				"path":"QuantumIsland_Body/Sector_QuantumIsland/Sector_QuantumTowerInterior/Sector_QuantumTowerInterRoom3/Interactables_InterRoom3/InterRoom_3/Q_NomaiTree_Var2/VisibilityTracker_Box",
+				"parentPath": "Sector_QuantumMoon/SixthLocation stormshelter",
+				"position":{"x": 0,"y": 90,"z": 0},
+				"stretch": {"x":2.8,"y":45,"z":4},
+				"isRelativeToParent": true
 			}
 			
 

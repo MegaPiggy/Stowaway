@@ -51,6 +51,7 @@
 			<Condition>1</Condition>
 		</RevealFact>
 		
+	
 		<RevealFact>
 			<FactID>DSS EX4</FactID>
 			<Condition>4</Condition>
@@ -61,12 +62,12 @@
 		</RevealFact> 
 
 		<RevealFact>
-			<FactID>INSP R3</FactID>
-			<Condition>6</Condition>
+			<FactID>INSP R5</FactID>
+			<Condition>4</Condition>
 		</RevealFact>
 		<RevealFact>
-			<FactID>DSS R8</FactID>
-			<Condition>4</Condition>
+			<FactID>INSP R3</FactID>
+			<Condition>6</Condition>
 		</RevealFact>
 		
 	</ShipLogConditions>

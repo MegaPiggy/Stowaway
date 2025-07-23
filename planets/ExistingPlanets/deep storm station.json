@@ -31,7 +31,7 @@
 				"radius": 10,
 				"revealOn": "enter",
 				"revealFor": "player",
-				"reveals": ["INSP EX1", "INSP EX2", "INSP EX3", "DSS_A R1", "INSP_A R1", "SY_A R1"],
+				"reveals": ["INSP R6","INSP EX1", "INSP EX2", "INSP EX3", "DSS_A R1", "INSP_A R1", "SY_A R1"],
 					"parentPath": "Sector/Entered_Inspired ShiplogEntry"
 			},
 			{

@@ -61,11 +61,11 @@
 
          <ExploreFact>
             <ID>BH_SSR EX1</ID>
-            <Text>The Nomai attempted to use a perpetual storm shelter to escape the strong winds at the Quantum Moon's sixth location, but their plan failed.</Text> 
+            <Text>The Nomai built a perpetual storm shelter on the Quantum Moon to escape the strong winds at the sixth location, but found they were still unable to escape the sixth location.</Text> 
      </ExploreFact>
          <ExploreFact>
             <ID>BH_SSR EX2</ID>
-            <Text>The Quantum Moon's thick atmosphere obscures its visitors' sight during entry, causing it to return to superposition.</Text> 
+            <Text>The Quantum Moon's thick atmosphere obscures its visitors' sight during entry, causing it to return to superposition.</Text>
      </ExploreFact>
          <ExploreFact>
             <ID>BH_SSR EX3</ID>

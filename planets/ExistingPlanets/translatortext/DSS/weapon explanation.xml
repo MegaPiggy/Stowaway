@@ -61,6 +61,10 @@
 			<FactID>DSS EX3</FactID>
 			<Condition>4</Condition>
 		</RevealFact>
+		<RevealFact>
+			<FactID>DSS EX3B</FactID>
+			<Condition>2</Condition>
+		</RevealFact>
 	
 	</ShipLogConditions>
 

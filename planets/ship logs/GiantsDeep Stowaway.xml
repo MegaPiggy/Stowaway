@@ -47,7 +47,7 @@
         </ExploreFact>
            <ExploreFact>
             <ID>Workshop EX4</ID> 
-            <Text>Memories recorded after the completion of the end-of-cycle transmission cannot be sent back. This is indicated by a static vision at the end of the loop.</Text>
+            <Text>Memories beyond the completion of the end-of-cycle transmission cannot be sent back. This is indicated by a static vision at the end of the loop.</Text>
         </ExploreFact>
            <ExploreFact>
             <ID>Workshop EX5</ID> 
@@ -331,11 +331,6 @@
                <SourceID>SCROLL_WORKSHOP</SourceID>
             <Text>A Nomai named Daz was cut off while writing to the Deep Storm Station from the Scroll and Stone Workshop.</Text> 
     </RumorFact> 
-          <RumorFact>
-            <ID>DSS R8</ID> 
-            <SourceID>INSPIRED</SourceID>
-            <Text>The Inspired's construction used a whitehole warp core from the Deep Storm Station's paired warp cores.</Text> 
-         </RumorFact> 
          <RumorFact>
                  <ID>DSS R7</ID> 
             <SourceID>LOVERSCOVE</SourceID>
@@ -392,11 +387,15 @@
 
           <ExploreFact>
             <ID>DSS EX3</ID> 
-            <Text>The Inspired was a superweapon built to exact vengeance on the true source of ghost matter. Using gravity crystals, it powered a highly localized gravity field to exploit the property of attraction.</Text> 
+            <Text>The Inspired was a superweapon built to exact vengeance on the true source of ghost matter.</Text> 
                   <AltText>
-                        <Text>The Inspired was a superweapon built to exact vengeance on the source of the Interloper. Using gravity crystals, it powered a highly localized gravity field to exploit the property of attraction.</Text>
+                        <Text>The Inspired was a superweapon built to exact vengeance on the source of the Interloper.</Text>
                         <Condition>COMET_INTERIOR_X3</Condition>
                  </AltText> 
+        </ExploreFact>    
+        <ExploreFact>
+            <ID>DSS EX3B</ID> 
+            <Text>Using a lattice of gravity crystals, the Inspired powers a highly localized gravity field to exploit the property of attraction.</Text>
         </ExploreFact>
           <ExploreFact>
             <ID>DSS EX4</ID> 

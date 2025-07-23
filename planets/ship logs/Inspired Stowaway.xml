@@ -34,8 +34,23 @@
             <ID>INSP R4</ID>
             <RumorName>The Inspired</RumorName>
              <RumorNamePriority>1</RumorNamePriority>
-            <Text>ALl available gravity crystals from the Gravity Crystal Workshop were used to build something called the Inspired.</Text>
+            <Text>All available gravity crystals from the Gravity Crystal Workshop were used to build something called the Inspired.</Text>
       </RumorFact>
+   `<RumorFact>
+             <IgnoreMoreToExplore/>
+            <ID>INSP R5</ID>
+            <SourceID>DEEP_STORM_STATION</SourceID>
+            <Text>The Inspired's construction used a white-hole warp core from the Deep Storm Station's paired warp cores.</Text>
+      </RumorFact>
+          <RumorFact>
+            <ID>INSP R6</ID> 
+            <SourceID>DEEP_STORM_STATION</SourceID>
+            <Text>A black hole inside the comet warped me into some sort of underwater Nomai station flooded with ghost matter.</Text>
+             <AltText>
+                        <Text>A black hole inside the comet warped me into the Deep Storm Station.</Text>
+                        <Condition>DSS EX1</Condition>
+                 </AltText> 
+         </RumorFact> 
 
 
          <ExploreFact>
