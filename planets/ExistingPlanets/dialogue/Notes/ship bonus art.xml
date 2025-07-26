@@ -55,6 +55,8 @@
     <Name>Ship Bonus A</Name>
     <EntryCondition>PG1</EntryCondition>
 			          <SetCondition>PG1</SetCondition>
+			          <SetCondition>PG2X</SetCondition>
+			          <SetCondition>PG3X</SetCondition>
     <Dialogue>
       <Page>....BZZT!.... Stowaway.... Achievements.....</Page>
       <Page>....Bonus.... Rewards..... PAGE 1.....</Page>
@@ -107,6 +109,8 @@
     <EntryCondition>PG2</EntryCondition>
     <Name>Ship Bonus B</Name>
 			          <SetCondition>PG2</SetCondition>
+			          <SetCondition>PG1X</SetCondition>
+			          <SetCondition>PG3X</SetCondition>
     <Dialogue>
       <Page>....BZZT!.... PAGE 2.....</Page>
       <Page>....BZZT.... Which..?.....</Page>
@@ -155,6 +159,8 @@
 <DialogueNode>
     <EntryCondition>PG3</EntryCondition>
 			          <SetCondition>PG3</SetCondition>
+			          <SetCondition>PG1X</SetCondition>
+			          <SetCondition>PG2X</SetCondition>
     <Name>Ship Bonus C</Name> 
     <Dialogue>
       <Page>....BZZT!.... PAGE 3.....</Page>

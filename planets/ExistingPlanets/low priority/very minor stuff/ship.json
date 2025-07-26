@@ -56,6 +56,7 @@
 													"stretch": {"x": 1.68,"y": 0.95,"z": 3},
 													"parentPath": "Module_Cabin",
 													"activationCondition": "PG1",
+													"deactivationCondition": "PG1X",
 													"blinkWhenActiveChanged": false,
 											"isRelativeToParent": true
 									},	{
@@ -67,6 +68,7 @@
 													"stretch": {"x": 1.68,"y": 0.95,"z": 3},
 													"parentPath": "Module_Cabin",
 													"activationCondition": "PG2",
+													"deactivationCondition": "PG2X",
 													"blinkWhenActiveChanged": false,
 											"isRelativeToParent": true
 									},	{
@@ -78,6 +80,7 @@
 													"stretch": {"x": 1.68,"y": 0.95,"z": 3},
 													"parentPath": "Module_Cabin",
 													"activationCondition": "PG3",
+													"deactivationCondition": "PG3X",
 													"blinkWhenActiveChanged": false,
 											"isRelativeToParent": true
 									},
