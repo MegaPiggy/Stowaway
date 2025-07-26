@@ -1,28 +1,11 @@
 ManifestFileVersion: 0
-CRC: 3030020631
+CRC: 40405255
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: ex_dustyb
-      Dependencies: {}
+      Name: blah2
+      Dependencies:
+        Dependency_0: prefabs
     Info_1:
-      Name: orb 2
-      Dependencies: {}
-    Info_2:
-      Name: felix
-      Dependencies: {}
-    Info_3:
-      Name: dev
-      Dependencies: {}
-    Info_4:
-      Name: friend
-      Dependencies: {}
-    Info_5:
-      Name: giantsdeep/meshes/structures
-      Dependencies: {}
-    Info_6:
-      Name: stowaway3
-      Dependencies: {}
-    Info_7:
-      Name: hgt2
+      Name: prefabs
       Dependencies: {}

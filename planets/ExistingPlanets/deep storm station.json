@@ -865,6 +865,7 @@
 					"position":{"x":-8.75,"y": 0,"z": -0},
 					"rotation":{"x": 90,"y": 90,"z": 0},
 					"rename": "DSS projectplatform",
+					"disablePool": true,
 					"isRelativeToParent": true
 				},
 			"whiteboard":

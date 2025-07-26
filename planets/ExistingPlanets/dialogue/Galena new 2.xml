@@ -69,7 +69,7 @@
 		<Name>ShyKidNew1</Name>
 		<Dialogue>
 			<Page><![CDATA[<size=20>]]>Oh.. Um...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>How much of Brittle Hollow left after the meteor storm ends..?<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Will Brittle Hollow be totally destroyed by the meteor storm..?<![CDATA[</size>]]></Page>
 		</Dialogue>
 		<DialogueOptionsList>
 		<DialogueOption>
@@ -91,9 +91,9 @@
 		<Dialogue>
 		<Page><![CDATA[<size=20>]]>Um, the meteor storms from Brittle Hollow's volcanic moon...<![CDATA[</size>]]></Page>
 		<Page><![CDATA[<size=20>]]>Riebeck told me this latest meteor storm hasn't stopped for weeks...<![CDATA[</size>]]></Page>
-		<Page><![CDATA[<size=20>]]>It might break apart Brittle Hollow really soon.. That's why they got their guts together to explore the Nomai city there, even though they were always scared of space...<![CDATA[</size>]]></Page>
+		<Page><![CDATA[<size=20>]]>The meteor storm might destroy Brittle Hollow really soon.. That's why they got their guts together to explore the Nomai city there, even though they were always scared of space...<![CDATA[</size>]]></Page>
 			<Page><![CDATA[<size=20>]]>It made me so sad... Thinking about one of the planets just disappearing forever...<![CDATA[</size>]]></Page>
-			<Page><![CDATA[<size=20>]]>Brittle Hollow looks so cool, I wanna go there if I become an astronaut one day.. But I don't think there's gonna be anything left of it soon...<![CDATA[</size>]]></Page>
+			<Page><![CDATA[<size=20>]]>Brittle Hollow looks so cool, I wanna go there if I become an astronaut one day.. But I don't know how much will be left of it soon...<![CDATA[</size>]]></Page>
 		</Dialogue>	
 						 <RevealFacts>
      						   <FactID>GAL EX1</FactID>

@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 98032119
+CRC: 3088824154
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 37b9da248bc4f316a5b1a79dca8f226f
+    Hash: 711f3551188fc8658923bf4ab7f62b11
   TypeTreeHash:
     serializedVersion: 2
     Hash: 256c3df89ab0f222e430766dbdd2a2a7
@@ -58,54 +58,96 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_R.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/Materials/hourglassob v2.mat
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_L.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/jellyfish wrangling.png
 - Assets/Nomai Ruins/Prefabs/BrokenWall_B_Corner.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/Materials/repcon dss thankyou.mat
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/Plane MOON.prefab
 - Assets/Nomai Ruins/Prefabs/star ore ext.prefab
 - Assets/Nomai Ruins/Prefabs/Treepot.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/stowaways sketch insp.png
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/Materials/dss jelly v2 interior.mat
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/Materials/inspired_comet_clearer.mat
 - Assets/Nomai Ruins/Prefabs/WallTorch.prefab
 - Assets/Nomai Ruins/Prefabs/Floor.prefab
 - Assets/Nomai Ruins/Prefabs/Railing.prefab
 - Assets/Nomai Ruins/Prefabs/Wall Spiral Lamp.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/fatalist eyebag megapiggy.png
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_E.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_BOTH.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/Materials/kaguya gm.mat
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/Plane JELLY.prefab
 - Assets/Nomai Ruins/Prefabs/ToyMorbius.prefab
 - Assets/Nomai Ruins/Prefabs/star ore shell.prefab
 - Assets/Nomai Ruins/Prefabs/Wall Diamond Lamp.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/Materials/stowaway new poster cyard.mat
 - Assets/Nomai Ruins/Prefabs/ANTINO WATER.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/Materials/jellyfish wrangling.mat
 - Assets/Nomai Ruins/Prefabs/Window_Corner_R_Broken.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/Materials/hourglassob.mat
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/Materials/dss jelly plug.mat
 - Assets/Nomai Ruins/Prefabs/Stairs_L.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/hearth corre project pg4 proto hearthians
+  nosig.png
+- Assets/Nomai Ruins/Prefabs/Bonus Art/kaguya gm.png
 - Assets/Nomai Ruins/Prefabs/Window_Corner_L_Broken.prefab
 - Assets/Nomai Ruins/Prefabs/Gravity Crystal.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/Plane DISCOVERY.prefab
 - Assets/Nomai Ruins/Prefabs/LAVA rockpiece.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/stowaway new poster.png
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_B.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_B_Corner_Mir.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/stowaway new poster cyard.png
 - Assets/Nomai Ruins/Prefabs/ToyShip.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/Materials/hearth corre project pg4 proto hearthians
+  nosig.mat
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/Plane MOURN.prefab
 - Assets/Nomai Ruins/Prefabs/Doorway.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/outer wilds inquisitor and the observer.png
 - Assets/Nomai Ruins/Prefabs/ANTI WATER.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/Materials/pizza psychic stowaway.mat
 - Assets/Nomai Ruins/Prefabs/BrokenWall_B_Mir.prefab
 - Assets/Nomai Ruins/Prefabs/Doorway_Corner_R.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Corner_R.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/structures/Plane QWL WIP1.prefab
 - Assets/Nomai Ruins/Prefabs/weapon mural plane.prefab
 - Assets/Nomai Ruins/Prefabs/Gravity Crystal (Cracked).prefab
 - Assets/Nomai Ruins/Prefabs/SolarCell.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/structures/Plane HOB WIP1.prefab
 - Assets/Nomai Ruins/Prefabs/Shelf.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/Plane DSS.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Half.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/inspired_comet_clearer.png
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/hourglassob v2.png
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_C.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/structures/Plane HOB WIP2.prefab
 - Assets/Nomai Ruins/Prefabs/StairsThin_Long_Brk.prefab
 - Assets/Nomai Ruins/Prefabs/Doorway_Corner_L.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/Plane PIZZA.prefab
 - Assets/Nomai Ruins/Prefabs/bob.prefab
 - Assets/Nomai Ruins/Prefabs/Doorway_Corner_BOTH.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Corner_L.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/brella station v2.png
 - Assets/Nomai Ruins/Prefabs/NOMTree1.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/hourglassob.png
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/structures/Plane DSS WIP2.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Hole.prefab
 - Assets/Nomai Ruins/Prefabs/ToyPyramid.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Broken.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Corner_BOTH_Broken.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_F.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/Materials/stowaways sketch insp.mat
+- Assets/Nomai Ruins/Prefabs/Bonus Art/stowaways daz workshop sketch.png
 - Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_R.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/Plane PROPHECY.prefab
 - Assets/Nomai Ruins/Prefabs/Fancy Door.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/Materials/brella station
+  v2.mat
 - Assets/Nomai Ruins/Prefabs/Bed.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/Materials/stowaways daz workshop sketch.mat
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/Materials/brella station.mat
 - Assets/Nomai Ruins/Prefabs/BrokenWall_B.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_L.prefab
 - Assets/Nomai Ruins/Prefabs/Fancy Door BOTH.prefab
@@ -113,27 +155,44 @@ Assets:
 - Assets/Nomai Ruins/Prefabs/protohearthian_floatyupdatetongueout.fbx
 - Assets/Nomai Ruins/Prefabs/CeilingLamp.prefab
 - Assets/Nomai Ruins/Prefabs/Holo Seat.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/pizza psychic stowaway.png
 - Assets/Nomai Ruins/Prefabs/Props_NOM_Transponder.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/brella station.png
 - Assets/Nomai Ruins/Prefabs/Tablet.prefab
 - Assets/Nomai Ruins/Prefabs/Container.prefab
 - Assets/Nomai Ruins/Prefabs/Broken Box.prefab
 - Assets/Nomai Ruins/Prefabs/ToyBlock.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/Materials/outer wilds inquisitor and the observer.mat
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/Plane COMET2.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/Materials/fatalist eyebag megapiggy.mat
 - Assets/Nomai Ruins/Prefabs/Box.prefab
 - Assets/Nomai Ruins/Prefabs/Wall lamp no light.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/Plane ATLANTIS.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/dss jelly plug.png
 - Assets/Nomai Ruins/Prefabs/Wall.prefab
 - Assets/Nomai Ruins/Prefabs/Fancy Door L.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/structures/Plane QWL WIP2.prefab
 - Assets/Nomai Ruins/Prefabs/Wall_Corner_BOTH.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/structures/Plane DSS WIP1.prefab
 - Assets/Nomai Ruins/Prefabs/Floor_Broken_D.prefab
 - Assets/Nomai Ruins/Prefabs/ShortColumn.prefab
 - Assets/Nomai Ruins/Prefabs/protohearthian_floatyupdate.fbx
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/Materials/inspired design
+  mockup.mat
 - Assets/Nomai Ruins/Prefabs/Vase.prefab
 - Assets/Nomai Ruins/Prefabs/RailingPost.prefab
 - Assets/Nomai Ruins/Prefabs/Table.prefab
 - Assets/Nomai Ruins/Prefabs/Stairs_R.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/structures/Plane INSP WIP1.prefab
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Mir.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/inspired design mockup.png
 - Assets/Nomai Ruins/Prefabs/ToyBall.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/repcon dss thankyou.png
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/Plane INSP.prefab
 - Assets/Nomai Ruins/Prefabs/Staff.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/PREFABS/structures/Plane INSP WIP2.prefab
 - Assets/Nomai Ruins/Prefabs/Chair.prefab
 - Assets/Nomai Ruins/Prefabs/Window_Frame.prefab
+- Assets/Nomai Ruins/Prefabs/Bonus Art/structure designs/dss jelly v2 interior.png
 - Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_BOTH_Mir.prefab
 Dependencies: []

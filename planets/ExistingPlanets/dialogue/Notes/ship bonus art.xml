@@ -1,0 +1,476 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+
+<NameField>RECORDING</NameField>
+
+<DialogueNode>
+    <Name>Ship Bonus</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+			          <SetCondition>PG1</SetCondition>
+    <Dialogue>
+      <Page>....BZZT!.... Stowaway.... Achievements.....</Page>
+      <Page>....Bonus.... Rewards..... PAGE 1.....</Page>
+      <Page>....BZZT....Which..?.....</Page>
+    </Dialogue>
+                <DialogueOptionsList>
+                
+                      <DialogueOption>
+                        <Text>"Bonk!".</Text>
+                        <DialogueTarget>Ship Bonus 1</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>"..Snerk. Whuh?".</Text>
+                        <DialogueTarget>Ship Bonus 2</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>"Solar Proctologist".</Text>
+                        <DialogueTarget>Ship Bonus 3</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>"Now Leaving: Sixth Location".</Text>
+                        <DialogueTarget>Ship Bonus 4</DialogueTarget>
+                      </DialogueOption>	  
+                      <DialogueOption>
+                        <Text>"Thank You, The Universe".</Text>
+                        <DialogueTarget>Ship Bonus 5</DialogueTarget>
+                      </DialogueOption>
+
+                      
+                      <DialogueOption>
+                        <Text>Page 2, please!</Text>
+                        <DialogueTarget>Ship Bonus B</DialogueTarget>
+                        </DialogueOption>
+                        <DialogueOption>
+                        <Text>Can I see the concepts for the mod's structures?</Text>
+                        <DialogueTarget>Ship Bonus C</DialogueTarget>
+                        </DialogueOption>
+                      <DialogueOption>
+                        <Text>I'm outie 5000.</Text>
+                        <DialogueTarget>Ship Bonus Quit</DialogueTarget>
+                        </DialogueOption>
+                    </DialogueOptionsList>
+  </DialogueNode>
+
+
+<DialogueNode>
+    <Name>Ship Bonus A</Name>
+    <EntryCondition>PG1</EntryCondition>
+			          <SetCondition>PG1</SetCondition>
+    <Dialogue>
+      <Page>....BZZT!.... Stowaway.... Achievements.....</Page>
+      <Page>....Bonus.... Rewards..... PAGE 1.....</Page>
+      <Page>....BZZT....Which..?.....</Page>
+    </Dialogue>
+                <DialogueOptionsList>
+                
+                      <DialogueOption>
+                        <Text>"Bonk!".</Text>
+                        <DialogueTarget>Ship Bonus 1</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>"..Snerk. Whuh?".</Text>
+                        <DialogueTarget>Ship Bonus 2</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>"Solar Proctologist".</Text>
+                        <DialogueTarget>Ship Bonus 3</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>"Now Leaving: Sixth Location".</Text>
+                        <DialogueTarget>Ship Bonus 4</DialogueTarget>
+                      </DialogueOption>	  
+                      <DialogueOption>
+                        <Text>"Thank You, The Universe".</Text>
+                        <DialogueTarget>Ship Bonus 5</DialogueTarget>
+                      </DialogueOption>
+
+                      
+ 
+                      <DialogueOption>
+                        <Text>Page 2, please!</Text>
+                        <DialogueTarget>Ship Bonus B</DialogueTarget>
+                        </DialogueOption>                      
+                        <DialogueOption>
+                        <Text>Can I see the concepts for the mod's structures?</Text>
+                        <DialogueTarget>Ship Bonus C</DialogueTarget>
+                        </DialogueOption>
+                      <DialogueOption>
+                        <Text>I'm outie 5000.</Text>
+                        <DialogueTarget>Ship Bonus Quit</DialogueTarget>
+                        </DialogueOption>
+                    </DialogueOptionsList>
+  </DialogueNode>
+
+
+
+
+<DialogueNode>
+    <EntryCondition>PG2</EntryCondition>
+    <Name>Ship Bonus B</Name>
+			          <SetCondition>PG2</SetCondition>
+    <Dialogue>
+      <Page>....BZZT!.... PAGE 2.....</Page>
+      <Page>....BZZT.... Which..?.....</Page>
+    </Dialogue>
+                <DialogueOptionsList>
+                
+                      <DialogueOption>
+                        <Text>"Fruits of Knowledge".</Text>
+                        <DialogueTarget>Ship Bonus 6</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>"A Way Out?".</Text>
+                        <DialogueTarget>Ship Bonus 7</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>"Narbacular Loop".</Text>
+                        <DialogueTarget>Ship Bonus 8</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>"Stowaway".</Text>
+                        <DialogueTarget>Ship Bonus 9</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>"Archaeologist of the Deep".</Text>
+                        <DialogueTarget>Ship Bonus 10</DialogueTarget>
+                      </DialogueOption>	
+
+                      
+                      <DialogueOption>
+                        <Text>Page 1, please!</Text>
+                        <DialogueTarget>Ship Bonus A</DialogueTarget>
+                        </DialogueOption>                      
+                        <DialogueOption>
+                        <Text>Can I see the concepts for the mod's structures?</Text>
+                        <DialogueTarget>Ship Bonus C</DialogueTarget>
+                        </DialogueOption>
+                      <DialogueOption>
+                        <Text>I'm outie 5000.</Text>
+                        <DialogueTarget>Ship Bonus Quit</DialogueTarget>
+                        </DialogueOption>
+                    </DialogueOptionsList>
+  </DialogueNode>
+
+
+
+<DialogueNode>
+    <EntryCondition>PG3</EntryCondition>
+			          <SetCondition>PG3</SetCondition>
+    <Name>Ship Bonus C</Name> 
+    <Dialogue>
+      <Page>....BZZT!.... PAGE 3.....</Page>
+      <Page>....BZZT.... Which..?.....</Page>
+    </Dialogue>
+                <DialogueOptionsList>
+                
+                      <DialogueOption>
+                        <Text>Deep Storm Station concept.</Text>
+                        <DialogueTarget>Ship Bonus W1</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>Inspired concept.</Text>
+                        <DialogueTarget>Ship Bonus W2</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>Hourglass Observatory v1.</Text>
+                        <DialogueTarget>Ship Bonus W3</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>Hourglass Observatory v2.</Text>
+                        <DialogueTarget>Ship Bonus W4</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>Quantum Weather Lab v1.</Text>
+                        <DialogueTarget>Ship Bonus W5</DialogueTarget>
+                      </DialogueOption>	
+                      <DialogueOption>
+                        <Text>Quantum Weather Lab v2.</Text>
+                        <DialogueTarget>Ship Bonus W6</DialogueTarget>
+                      </DialogueOption>	
+                      
+                      <DialogueOption>
+                        <Text>Page 1, please!</Text>
+                        <DialogueTarget>Ship Bonus A</DialogueTarget>
+                        </DialogueOption>
+                      <DialogueOption>
+                        <Text>Page 2, please!</Text>
+                        <DialogueTarget>Ship Bonus B</DialogueTarget>
+                        </DialogueOption>
+                      <DialogueOption>
+                        <Text>I'm outie 5000.</Text>
+                        <DialogueTarget>Ship Bonus Quit</DialogueTarget>
+                        </DialogueOption>
+                    </DialogueOptionsList>
+  </DialogueNode>
+
+
+
+
+<DialogueNode>
+    <Name>Ship Bonus 1</Name>
+			          <SetCondition>On Art JELLY</SetCondition>
+			      <SetCondition>Off Art ATLANTIS</SetCondition>
+			      <SetCondition>Off Art PIZZA</SetCondition>
+			      <SetCondition>Off Art PROPHECY</SetCondition> 
+			      <SetCondition>Off Art COMET2</SetCondition>
+    <Dialogue>
+      <Page>....Displaying bonus art....</Page>
+      <Page>....Jellyfish rising to the surface....</Page>
+      <Page>....One of the first things MegaPiggy coded when they joined the project....</Page>
+      <Page>....Was filled with renewed hope this project could really happen... And so, this piece was born...!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+<DialogueNode>
+    <Name>Ship Bonus 2</Name>
+			      <SetCondition>Off Art JELLY</SetCondition>
+			           <SetCondition>On Art ATLANTIS</SetCondition>
+			      <SetCondition>Off Art PIZZA</SetCondition>
+			      <SetCondition>Off Art PROPHECY</SetCondition> 
+			      <SetCondition>Off Art COMET2</SetCondition>
+    <Dialogue>
+      <Page>....Displaying bonus art....</Page>
+      <Page>....Tidal forces on an ocean planet....</Page>
+      <Page>....Used to be faked entirely by making island denser.... Island would dip into the water when sun and Quantum Moon overhead... Looked silly...</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+<DialogueNode>
+    <Name>Ship Bonus 3</Name>
+			      <SetCondition>Off Art JELLY</SetCondition>
+			      <SetCondition>Off Art ATLANTIS</SetCondition>
+			            <SetCondition>On Art PIZZA</SetCondition>
+			      <SetCondition>Off Art PROPHECY</SetCondition> 
+			      <SetCondition>Off Art COMET2</SetCondition>
+    <Dialogue>
+      <Page>....Displaying bonus art....</Page>
+      <Page>....Orbs rising....</Page>
+      <Page>....Added to demonstrate spring tides in another way...</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  
+<DialogueNode>
+    <Name>Ship Bonus 4</Name>
+			      <SetCondition>Off Art JELLY</SetCondition>
+			      <SetCondition>Off Art ATLANTIS</SetCondition>
+			      <SetCondition>Off Art PIZZA</SetCondition>
+			            <SetCondition>On Art PROPHECY</SetCondition> 
+			      <SetCondition>Off Art COMET2</SetCondition>
+    <Dialogue>
+      <Page>....Displaying bonus art....</Page>
+      <Page>....Brittle Hollow determinism....</Page>
+      <Page>....Deltarune good...</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+  
+<DialogueNode>
+    <Name>Ship Bonus 5</Name>
+			      <SetCondition>Off Art JELLY</SetCondition>
+			      <SetCondition>Off Art ATLANTIS</SetCondition>
+			      <SetCondition>Off Art PIZZA</SetCondition>
+			      <SetCondition>Off Art PROPHECY</SetCondition> 
+			            <SetCondition>On Art COMET2</SetCondition>
+    <Dialogue>
+      <Page>....Displaying bonus art....</Page>
+      <Page>....The first concept.....</Page>
+      <Page>....Comet... Originally called the Inquisitor... And the stowaway was called the Observer.....</Page>
+      <Page>....Questioning where and what the Interloper came from... By the last observer of an irradiated, dying star system....</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+<DialogueNode>
+    <Name>Ship Bonus 6</Name>
+			              <SetCondition>On Art MOON</SetCondition>
+			      <SetCondition>Off Art DSS</SetCondition>
+			      <SetCondition>Off Art INSP</SetCondition>
+			      <SetCondition>Off Art DISCOVERY</SetCondition> 
+			      <SetCondition>Off Art MOURN</SetCondition>
+    <Dialogue>
+      <Page>....Displaying bonus art....</Page>
+      <Page>....The ghost matter be floating off....</Page>
+      <Page>....The property of attraction....</Page>
+      <Page>....Was inspired by wall of gravity crystals on the path to the Southern Observatory... Ghost matter clinging to the wall....</Page>
+    </Dialogue>
+  </DialogueNode>
+
+<DialogueNode>
+    <Name>Ship Bonus 7</Name>
+			      <SetCondition>Off Art MOON</SetCondition>
+			           <SetCondition>On Art DSS</SetCondition>
+			      <SetCondition>Off Art INSP</SetCondition>
+			      <SetCondition>Off Art DISCOVERY</SetCondition> 
+			      <SetCondition>Off Art MOURN</SetCondition>
+    <Dialogue>
+      <Page>....Displaying bonus art....</Page>
+      <Page>....Repcon.... Building Deep Storm Station... Rad...!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  
+<DialogueNode>
+    <Name>Ship Bonus 8</Name>
+			      <SetCondition>Off Art MOON</SetCondition>
+			      <SetCondition>Off Art DSS</SetCondition>
+			             <SetCondition>On Art INSP</SetCondition>
+			      <SetCondition>Off Art DISCOVERY</SetCondition> 
+			      <SetCondition>Off Art MOURN</SetCondition>
+    <Dialogue>
+      <Page>....Displaying bonus art....</Page>
+      <Page>....Inspired.... Used to be contained in Dark Bramble... Caused anglerfish population to be culled.....</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+
+
+
+<DialogueNode>
+    <Name>Ship Bonus 9</Name>
+			      <SetCondition>Off Art MOON</SetCondition>
+			      <SetCondition>Off Art DSS</SetCondition>
+			      <SetCondition>Off Art INSP</SetCondition>
+			            <SetCondition>On Art DISCOVERY</SetCondition> 
+			      <SetCondition>Off Art MOURN</SetCondition>
+    <Dialogue>
+      <Page>....Displaying bonus art....</Page>
+      <Page>....The story of your kind and the Nomai... Intertwined...</Page>
+      <Page>....History... Left in the fringes of the universe.....</Page>
+      <Page>....may not be imporant... But it was important... To me... To see this world through... To share its stories....</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+<DialogueNode>
+    <Name>Ship Bonus 10</Name>
+			      <SetPersistentCondition>BonusWIPs</SetPersistentCondition>
+			      <SetCondition>Off Art MOON</SetCondition>
+			      <SetCondition>Off Art DSS</SetCondition>
+			      <SetCondition>Off Art INSP</SetCondition>
+			      <SetCondition>Off Art DISCOVERY</SetCondition> 
+			            <SetCondition>On Art MOURN</SetCondition>
+    <Dialogue>
+      <Page>....Displaying bonus art....</Page>
+      <Page>....The hypothetical of a Nomai who survived.....</Page>
+      <Page>....How would they survive..? What would they do..?.....</Page>
+      <Page>....Wanted to explore those questions... What a vengeful Nomai would do.....</Page>
+      <Page>....Morbid curiosity... And the potential of scientific advancements and knowledge in creating weapons of harm.....</Page>
+      <Page>....But in the end... They choose to protect... They let go of their grief and forgave the universe...</Page>
+      <Page>....Thank you, for experiencing this story...</Page>
+      <Page>....As thanks... More bonus...</Page>
+      <Page>....New page on bonus art... Additional concepts for structures... Enjoy..!</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+<DialogueNode>
+    <Name>Ship Bonus W1</Name>
+			            <SetCondition>On Art DSS WIP1</SetCondition>
+			      <SetCondition>Off Art INSP WIP1</SetCondition>
+			      <SetCondition>Off Art HOB WIP1</SetCondition>
+			      <SetCondition>Off Art HOB WIP2</SetCondition>
+			      <SetCondition>Off Art QWL WIP1</SetCondition>
+			      <SetCondition>Off Art QWL WIP2</SetCondition>
+    <Dialogue>
+      <Page>....Displaying concept art for: Deep Storm Station....</Page>
+      <Page>....Used to just be a structure dead center of Giant's Deep.....</Page>
+      <Page>....Wasn't exciting, and later realized it meant the Nomai excavated into living coral instead of rock.....</Page>
+      <Page>....Jelly station.. Much cooler.....</Page>
+      <Page>....Rep rad...</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+<DialogueNode>
+    <Name>Ship Bonus W2</Name>
+			      <SetCondition>Off Art DSS WIP1</SetCondition>
+			            <SetCondition>On Art INSP WIP1</SetCondition>
+			      <SetCondition>Off Art HOB WIP1</SetCondition>
+			      <SetCondition>Off Art HOB WIP2</SetCondition>
+			      <SetCondition>Off Art QWL WIP1</SetCondition>
+			      <SetCondition>Off Art QWL WIP2</SetCondition>
+    <Dialogue>
+      <Page>....Displaying concept art for: Inspired....</Page>
+      <Page>....Used to be a white hole at the core.. It was just a superweapon....</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+<DialogueNode>
+    <Name>Ship Bonus W3</Name>
+			      <SetCondition>Off Art DSS WIP1</SetCondition>
+			      <SetCondition>Off Art INSP WIP1</SetCondition>
+			             <SetCondition>On Art HOB WIP1</SetCondition>
+			      <SetCondition>Off Art HOB WIP2</SetCondition>
+			      <SetCondition>Off Art QWL WIP1</SetCondition>
+			      <SetCondition>Off Art QWL WIP2</SetCondition>
+    <Dialogue>
+      <Page>....Displaying concept art for: Hourglass Observatory, pt. 1....</Page> 
+      <Page>....Used to be much more visible, orbiting in front of Hourglass Twins....</Page>
+      <Page>....Realized it would be able to see the alignment perfectly from behind the Twins and changed it....</Page>
+      <Page>....Originally wanted to keep up some animal motif, but realized anything that supported the concept was better.. So, arrow....</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+
+<DialogueNode>
+    <Name>Ship Bonus W4</Name>
+			      <SetCondition>Off Art DSS WIP1</SetCondition>
+			      <SetCondition>Off Art INSP WIP1</SetCondition>
+			      <SetCondition>Off Art HOB WIP1</SetCondition>
+			              <SetCondition>On Art HOB WIP2</SetCondition>
+			      <SetCondition>Off Art QWL WIP1</SetCondition>
+			      <SetCondition>Off Art QWL WIP2</SetCondition>
+    <Dialogue>
+      <Page>....Displaying concept art for: Hourglass Observatory, pt. 2....</Page> 
+      <Page>....Realized that warp pads needed to be separated from the rest of the structure to prevent accidenal return warps....</Page>
+      <Page>....Sorry, Rep!....</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+<DialogueNode>
+    <Name>Ship Bonus W5</Name>
+			      <SetCondition>Off Art DSS WIP1</SetCondition>
+			      <SetCondition>Off Art INSP WIP1</SetCondition>
+			      <SetCondition>Off Art HOB WIP1</SetCondition>
+			      <SetCondition>Off Art HOB WIP2</SetCondition>
+			              <SetCondition>On Art QWL WIP1</SetCondition>
+			      <SetCondition>Off Art QWL WIP2</SetCondition>
+    <Dialogue>
+      <Page>....Displaying concept art for: Quantum Weather Lab, pt. 1....</Page> 
+      <Page>....Struggled with the design supporting the concept a bit harder... Wanted to do like a weather vane initially....</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+<DialogueNode>
+    <Name>Ship Bonus W6</Name>
+			      <SetCondition>Off Art DSS WIP1</SetCondition>
+			      <SetCondition>Off Art INSP WIP1</SetCondition>
+			      <SetCondition>Off Art HOB WIP1</SetCondition>
+			      <SetCondition>Off Art HOB WIP2</SetCondition>
+			      <SetCondition>Off Art QWL WIP1</SetCondition>
+			              <SetCondition>On Art QWL WIP2</SetCondition>
+    <Dialogue>
+      <Page>....Displaying concept art for: Quantum Weather Lab, pt. 2....</Page> 
+      <Page>....Umbrella....</Page>
+    </Dialogue>
+  </DialogueNode>
+
+
+
+
+<DialogueNode>
+    <Name>Ship Bonus Quit</Name>
+    <Dialogue>
+      <Page>....BZZT... Ok.....</Page>
+    </Dialogue>
+  </DialogueNode>
+
+</DialogueTree>

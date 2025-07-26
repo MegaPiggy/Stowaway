@@ -104,7 +104,7 @@
 		<Name>Scientist_ShipLogBroken</Name>
 		<Dialogue>
 			<Page>Stars above, how'd you even manage to break something in the ship already? What'd you break?</Page>
-			<Page>The ship computer? Gah, I hope it's not that piece of the museum statue in it malfunctioning..</Page>
+			<Page>The ship computer? Gah, I hope it's not the piece of the museum statue in there malfunctioning..</Page>
 		</Dialogue>
 <DialogueOptionsList>
 			<DialogueOption>
@@ -221,11 +221,10 @@
 		<SetPersistentCondition>STOWAWAY_REMOTESLATE_BLOCK</SetPersistentCondition>
 		<Dialogue>
 			<Page>"Places you've been to"? Hogwash, hatchling. You forgetting today's your launch day or something?</Page>
-			<Page>Well, I'm just gonna assume that piece of Nomai statue in the ship computer had some secret data it wrote into shiplogs somehow.</Page>
-			<Page>Lucky you, I guess. Getting a whole Nomai tour guide to the star system in your ship computer on your launch day.</Page>
-			<Page>If you ask me, it'd be more interesting finding those places myself, though.</Page>
-			<Page>I mean, what's the point of exploring, once you know there's nothing more to explore?</Page>
-			<Page>Alright, enough talk. Here's your ship keys, hatchling!</Page>
+			<Page>I'm just gonna assume that piece of Nomai statue in the ship computer had some data it wrote into shiplogs somehow.</Page>
+			<Page>Well, uh.. Are you still taking off today, then? You could just show all the data on the computer to Hornfels now, after all.</Page>
+			
+			<Page>Alright! That's what I like to hear. Here's your ship keys, hatchling!</Page>
 			<Page>Go fly that beauty into space - and go learn something new!</Page>
 		</Dialogue> 
 	</DialogueNode>
@@ -242,7 +241,7 @@
 			<Page>Well, I'm just gonna assume that piece of Nomai statue in the ship computer had some secret data it wrote into shiplogs somehow.</Page>
 			<Page>Lucky you, I guess. Getting a whole Nomai tour guide to the star system in your ship computer on your launch day.</Page>
 			<Page>If you ask me, it'd be more interesting finding those places myself, though.</Page>
-			<Page>I mean, what's the point of exploring, once you know there's nothing more to explore?</Page>
+			<Page>I mean, what's the point of taking off, once there's nothing more to explore?</Page>
 			<Page>Alright, enough talk. Here's your ship keys, hatchling!</Page>
 			<Page>Go fly that beauty into space - and go learn something new!</Page>
 		</Dialogue> 

@@ -1300,7 +1300,8 @@
 					"radius":4
 				},
 				"blockAfterPersistentCondition": "STOWAWAY_REMOTESLATE_BLOCK",
-				"xmlFile": "planets/ExistingPlanets/dialogue/Slate remote intro.xml"
+				"xmlFile": "planets/ExistingPlanets/dialogue/Slate remote intro.xml",
+				"isRelativeToParent": true
 			},
 			{
 				"rename":"Arkose remote gm 1",

@@ -16,8 +16,305 @@
 					
 					],
 			"Props": {
+				"dialogue": [
+					{
+						"xmlFile": "planets/ExistingPlanets/dialogue/Notes/ship bonus art.xml",
+						"pathToAnimController": "Module_Cabin/Ship Recorder",	
+						"swappedAttentionPoints": [
+							{"dialogueNode": "Ship Bonus 1","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus 2","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus 3","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus 4","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus 5","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus 6","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus 7","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus 8","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus 9","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus 10","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus W1","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus W2","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus W3","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus W4","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus W5","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"},
+									{"dialogueNode": "Ship Bonus W6","position":{"x": 1.8472,"y": 3.0733,"z": -2.782},"parentPath": "Module_Cabin"}
+						],
+						"radius": 1,
+						"range": 2,
+						"position": {"x":0,"y":0,"z":0},
+						"isRelativeToParent": true
+					}
+				],
 				"details": [
 					
+
+									{
+											"rename":"BonusArt emptyquad1",	
+												"assetBundle": "planets/bundle/stowaway3",
+												"path": "assets/animationclip/ShipLog Empty.prefab",
+													"position":{"x": 1.8483,"y": 3.0622,"z": -2.7864},
+													"rotation":{"x": 0,"y": 90,"z": 180},
+													"stretch": {"x": 1.68,"y": 0.95,"z": 3},
+													"parentPath": "Module_Cabin",
+													"activationCondition": "PG1",
+													"blinkWhenActiveChanged": false,
+											"isRelativeToParent": true
+									},	{
+											"rename":"BonusArt emptyquad2",	
+												"assetBundle": "planets/bundle/stowaway3",
+												"path": "assets/animationclip/ShipLog Empty.prefab",
+													"position":{"x": 1.8483,"y": 3.0622,"z": -2.7864},
+													"rotation":{"x": 0,"y": 90,"z": 180},
+													"stretch": {"x": 1.68,"y": 0.95,"z": 3},
+													"parentPath": "Module_Cabin",
+													"activationCondition": "PG2",
+													"blinkWhenActiveChanged": false,
+											"isRelativeToParent": true
+									},	{
+											"rename":"BonusArt emptyquad3",	
+												"assetBundle": "planets/bundle/stowaway3",
+												"path": "assets/animationclip/ShipLog Empty.prefab",
+													"position":{"x": 1.8483,"y": 3.0622,"z": -2.7864},
+													"rotation":{"x": 0,"y": 90,"z": 180},
+													"stretch": {"x": 1.68,"y": 0.95,"z": 3},
+													"parentPath": "Module_Cabin",
+													"activationCondition": "PG3",
+													"blinkWhenActiveChanged": false,
+											"isRelativeToParent": true
+									},
+
+				
+					
+					{
+							"rename":"BonusArt JELLY",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/plane jelly.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad1",
+							"activationCondition": "On Art JELLY",
+							"deactivationCondition": "Off Art JELLY",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},{
+							"rename":"BonusArt ATLANTIS",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/plane atlantis.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad1",
+							"activationCondition": "On Art ATLANTIS",
+							"deactivationCondition": "Off Art ATLANTIS",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+					{
+							"rename":"BonusArt PIZZA",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/plane pizza.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad1",
+							"activationCondition": "On Art PIZZA",
+							"deactivationCondition": "Off Art PIZZA",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+					{
+							"rename":"BonusArt PROPHECY",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/plane prophecy.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad1",
+							"activationCondition": "On Art PROPHECY",
+							"deactivationCondition": "Off Art PROPHECY",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+					{
+							"rename":"BonusArt COMET2",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/plane comet2.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0336,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad1",
+							"activationCondition": "On Art COMET2",
+							"deactivationCondition": "Off Art COMET2",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+					 
+					{
+							"rename":"BonusArt MOON",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/plane moon.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad2",
+							"activationCondition": "On Art MOON",
+							"deactivationCondition": "Off Art MOON",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},  
+	{
+							"rename":"BonusArt DSS",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/plane dss.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad2",
+							"activationCondition": "On Art DSS",
+							"deactivationCondition": "Off Art DSS",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+					{
+							"rename":"BonusArt INSP",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/plane insp.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad2",
+							"activationCondition": "On Art INSP",
+							"deactivationCondition": "Off Art INSP",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+					{
+							"rename":"BonusArt DISCOVERY",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/plane discovery.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0336,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad2",
+							"activationCondition": "On Art DISCOVERY",
+							"deactivationCondition": "Off Art DISCOVERY",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					}, {
+							"rename":"BonusArt MOURN",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/plane mourn.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad2",
+							"activationCondition": "On Art MOURN",
+							"deactivationCondition": "Off Art MOURN",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+					 
+
+					{
+							"rename":"BonusArt DSS WIP1",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/structures/plane dss wip1.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad3",
+							"activationCondition": "On Art DSS WIP1",
+							"deactivationCondition": "Off Art DSS WIP1",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+									
+					{
+							"rename":"BonusArt INSP WIP1",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/structures/plane insp wip1.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad3",
+							"activationCondition": "On Art INSP WIP1",
+							"deactivationCondition": "Off Art INSP WIP1",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+					{
+							"rename":"BonusArt HOB WIP1",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/structures/plane hob wip1.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad3",
+							"activationCondition": "On Art HOB WIP1",
+							"deactivationCondition": "Off Art HOB WIP1",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+					{
+							"rename":"BonusArt HOB WIP2",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/structures/plane hob wip2.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad3",
+							"activationCondition": "On Art HOB WIP2",
+							"deactivationCondition": "Off Art HOB WIP2",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+					{
+							"rename":"BonusArt QWL WIP1",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/structures/plane qwl wip1.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad3",
+							"activationCondition": "On Art QWL WIP1",
+							"deactivationCondition": "Off Art QWL WIP1",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+					{
+							"rename":"BonusArt QWL WIP2",
+								"assetBundle": "planets/bundle/prefabs",
+								"path": "assets/nomai ruins/prefabs/bonus art/prefabs/structures/plane qwl wip2.prefab",
+							"position":{"x": 0,"y": -0.0117,"z": -0.0004},
+							"rotation":{"x":270,"y":0,"z": 0},
+							"stretch": {"x":0.0833,"y": 0.1,"z": 0.1}, 
+									"parentPath": "Module_Cabin/BonusArt emptyquad3",
+							"activationCondition": "On Art QWL WIP2",
+							"deactivationCondition": "Off Art QWL WIP2",
+								"blinkWhenActiveChanged": false,
+							"isRelativeToParent": true
+					},
+
+
+					{
+				"rename":"Ship Recorder",
+				"path":"Moon_Body/Sector_THM/Interactables_THM/Interactibles_SignalDish/Prefab_HEA_Recorder",
+				"position":{"x": 1.737,"y": 1.3741,"z": -2.9771},
+				"rotation":{"x": 300.3123 ,"y": 85.6249,"z": 0.0017},
+						"parentPath": "Module_Cabin",
+				"isRelativeToParent": true
+					},
+					{
+				"rename":"Ship Apple",
+				"assetBundle": "planets/bundle/stowaway3",
+				"path":"assets/animationclip/apple.prefab",
+				"position":{"x": -0.5591,"y": 0.7045 ,"z": 5.8273},
+				"rotation":{"x": 0,"y": 45,"z": 0},
+				"scale":0.1,
+						"parentPath": "Module_Cockpit",
+					"keepLoaded": true,
+				"isRelativeToParent": true
+					},
 					{
 				"rename":"Ship Apple",
 				"assetBundle": "planets/bundle/stowaway3",
