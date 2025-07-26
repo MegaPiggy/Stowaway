@@ -313,7 +313,7 @@
 			      <SetCondition>Off Art MOURN</SetCondition>
     <Dialogue>
       <Page>....Displaying bonus art....</Page>
-      <Page>....Repcon.... Building Deep Storm Station... Rad...!</Page>
+      <Page>....Repcon.... Building Deep Storm Station... Rad!...</Page>
     </Dialogue>
   </DialogueNode>
 
@@ -327,7 +327,8 @@
 			      <SetCondition>Off Art MOURN</SetCondition>
     <Dialogue>
       <Page>....Displaying bonus art....</Page>
-      <Page>....Inspired.... Used to be contained in Dark Bramble... Caused anglerfish population to be culled.....</Page>
+      <Page>....Inspired.... Used to not be very involved in gameplay....</Page>
+      <Page>....Used to be contained in Dark Bramble... Lore explanation for culling anglerfish population.....</Page>
     </Dialogue>
   </DialogueNode>
 
@@ -344,9 +345,9 @@
 			      <SetCondition>Off Art MOURN</SetCondition>
     <Dialogue>
       <Page>....Displaying bonus art....</Page>
-      <Page>....The story of your kind and the Nomai... Intertwined...</Page>
+      <Page>....The story of Hearthians and the Nomai... Intertwined...</Page>
       <Page>....History... Left in the fringes of the universe.....</Page>
-      <Page>....may not be imporant... But it was important... To me... To see this world through... To share its stories....</Page>
+      <Page>....Was important... To me... To see this world through... And share its stories....</Page>
     </Dialogue>
   </DialogueNode>
 
@@ -365,10 +366,10 @@
       <Page>....How would they survive..? What would they do..?.....</Page>
       <Page>....Wanted to explore those questions... What a vengeful Nomai would do.....</Page>
       <Page>....Morbid curiosity... And the potential of scientific advancements and knowledge in creating weapons of harm.....</Page>
-      <Page>....But in the end... They choose to protect... They let go of their grief and forgave the universe...</Page>
-      <Page>....Thank you, for experiencing this story...</Page>
-      <Page>....As thanks... More bonus...</Page>
-      <Page>....New page on bonus art... Additional concepts for structures... Enjoy..!</Page>
+      <Page>....In the end... They chose to protect... Let go of their grief and forgave...</Page>
+      <Page>....Thank you for your curiosity...</Page>
+      <Page>....As thanks...</Page>
+      <Page>....New page on bonus art!... Additional concepts for structures... Enjoy!...</Page>
     </Dialogue>
   </DialogueNode>
 
